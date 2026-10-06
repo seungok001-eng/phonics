@@ -17,7 +17,7 @@
   <button onclick="go(-1)" id="btnPrev">◀</button>
   <button onclick="go(1)" id="btnNext">▶</button>
   <button class="primary" onclick="mainPlay()" title="스페이스">🔊 Play</button>
-  <span class="teacher-only" id="zoomBox"><button onclick="zoomBy(-0.15)" title="교재 작게 (단축키 -)">🔍−</button><button onclick="zoomSet(1)" title="화면 높이에 맞춤 (단축키 0)" id="zoomLabel">맞춤</button><button onclick="zoomBy(0.15)" title="교재 크게 (단축키 +)">🔍+</button><button onclick="toggleBoard()" id="btnBoard" title="필기판 보이기/숨기기">📝</button><button onclick="toggleCover()" id="btnCover" title="교재 가리개 (단축키 C)">🙈</button><button onclick="toggleSlides()" title="수업 슬라이드(16:9) ↔ 교재 쪽 그대로">📐</button></span>
+  <span class="teacher-only" id="zoomBox"><button onclick="zoomBy(-0.15)" title="교재 작게 (단축키 -)">🔍−</button><button onclick="zoomSet(1)" title="화면 높이에 맞춤 (단축키 0)" id="zoomLabel">맞춤</button><button onclick="zoomBy(0.15)" title="교재 크게 (단축키 +)">🔍+</button><span class="split"><button onclick="setSplit('full')" data-split="full" title="교재만 (필기판 숨김)">교재만</button><button onclick="setSplit(0.7)" data-split="0.7" title="교재 크게">7:3</button><button onclick="setSplit(0.5)" data-split="0.5" title="반반">5:5</button><button onclick="setSplit(0.3)" data-split="0.3" title="필기판 크게">3:7</button><button onclick="toggleSide()" id="btnSide" title="필기판 옆/아래">◨</button></span><button onclick="toggleCover()" id="btnCover" title="교재 가리개 (단축키 C)">🙈</button><button onclick="toggleSlides()" title="수업 슬라이드(16:9) ↔ 교재 쪽 그대로">📐</button></span>
   <button onclick="toggleTeacher()" id="btnTeacher" title="선생님 모드: 글자·단추가 커지고 전체화면">👩‍🏫</button>
   <button onclick="toggleFull()" title="전체화면">⛶</button>
   <a class="btn" id="lnkPrint" href="#" target="_blank" title="인쇄용">🖨</a>
@@ -84,8 +84,9 @@ function mainPlay() { Sound.unlock(); const b = document.querySelector('.main-pl
 function toggleTeacher() { App.teacher = !App.teacher; const q = new URLSearchParams(location.search); if (App.teacher) q.set('t', '1'); else q.delete('t'); history.replaceState(null, '', '?' + q); route(); }
 function toggleFull() { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); }
 // 선생님 모드 보기 설정 (교재 배율·교재 칸 너비·필기판 보이기) — 이 기기에 기억
-const View = { zoom: 1, pageW: 0, board: true, slides: true };
+const View = { zoom: 1, frac: 0.6, side: 'right', board: true, slides: true };
 try { Object.assign(View, JSON.parse(localStorage.getItem('pp_view') || '{}')); } catch (e) {}
+if (!(View.frac > 0.1 && View.frac < 0.95)) View.frac = 0.6;
 function saveView() { try { localStorage.setItem('pp_view', JSON.stringify(View)); } catch (e) {} }
 function fit() {
   const st = $('stage');
@@ -95,26 +96,31 @@ function fit() {
     $('pageWrap').style.width = ''; $('pageWrap').style.height = ''; $('divider').style.display = 'none';
     return;
   }
-  // 선생님 모드: 기본은 쪽을 화면 높이에 맞춤(배율 1). 가로 쪽이면 너비도 화면의 62% 안에. 🔍 로 키우면 교재 칸 안에서 스크롤(마우스 휠·↑↓ 키)
-  const [PW, PH] = pageDims();
-  const boardOn = View.board;
-  const share = st.clientWidth < 1400 ? 0.66 : 0.62;   // 태블릿처럼 좁으면 교재 몫을 조금 더
-  const fitK = Math.min((st.clientHeight - 20) / Math.min(PH, 794 * 1.15), (boardOn ? st.clientWidth * share : st.clientWidth - 20) / PW);
-  const k = Math.max(.25, fitK * View.zoom);
-  const sc = $('scaler'); sc.style.transform = `scale(${k})`; sc.style.width = (PW * k) + 'px'; sc.style.height = (PH * k) + 'px';
+  // 선생님 모드: 교재 칸과 필기판을 비율(View.frac)로 나눈다. 필기판은 옆(right) 또는 아래(bottom).
+  // 교재는 칸 안에 꽉 맞추고(배율 1), 🔍·두 손가락으로 키우면 칸 안에서 스크롤
+  const boardOn = View.board, side = View.side || 'right', H = 34;   // H = 손잡이 두께
+  st.classList.toggle('bottom', side === 'bottom');
   const pw = $('pageWrap');
-  const defaultW = Math.min(PW * k + 2, st.clientWidth * share);
-  let w = View.pageW ? View.pageW : defaultW;
-  if (!boardOn) w = st.clientWidth - 20;
-  w = Math.max(240, Math.min(w, st.clientWidth - (boardOn ? 260 : 20)));
-  pw.style.width = w + 'px'; pw.style.height = (st.clientHeight - 20) + 'px';
+  let pwW, pwH;
+  if (!boardOn) { pwW = st.clientWidth - 20; pwH = st.clientHeight - 20; }
+  else if (side === 'right') { pwW = Math.max(240, Math.round((st.clientWidth - 20 - H) * View.frac)); pwH = st.clientHeight - 20; }
+  else { pwW = st.clientWidth - 20; pwH = Math.max(160, Math.round((st.clientHeight - 20 - H) * View.frac)); }
+  pw.style.width = pwW + 'px'; pw.style.height = pwH + 'px';
+  const [PW, PH] = pageDims();
+  const k = Math.max(.2, Math.min(pwH / PH, pwW / PW) * View.zoom);
+  const sc = $('scaler'); sc.style.transform = `scale(${k})`; sc.style.width = (PW * k) + 'px'; sc.style.height = (PH * k) + 'px';
   $('divider').style.display = boardOn ? '' : 'none';
   const bp = $('boardPanel'); if (bp) bp.style.display = boardOn ? '' : 'none';
   $('zoomLabel').textContent = Math.round(View.zoom * 100) + '%';
-  $('btnBoard').classList.toggle('primary', !boardOn);
+  document.querySelectorAll('[data-split]').forEach((b) => b.classList.toggle('primary', b.dataset.split === (boardOn ? String(View.frac) : 'full')));
+  $('btnSide').textContent = side === 'bottom' ? '⬓' : '◨'; $('btnSide').title = side === 'bottom' ? '필기판: 아래 (누르면 옆으로)' : '필기판: 옆 (누르면 아래로)';
   if (boardOn) boardResize();
   coverApply();
 }
+// 비율 단추: 교재만 / 7:3 / 5:5 / 3:7 (한 번 누르면 바뀐다, 태블릿용)
+function setSplit(v) { if (v === 'full') View.board = false; else { View.board = true; View.frac = +v; } saveView(); fit(); if (App.teacher && View.slides) routeIfSlideHeightChanged(); }
+function toggleSide() { View.side = (View.side || 'right') === 'right' ? 'bottom' : 'right'; saveView(); fit(); if (App.teacher && View.slides) routeIfSlideHeightChanged(); }
+function routeIfSlideHeightChanged() { const sl = document.querySelector('.slide'); if (sl && Math.abs(parseInt(sl.style.height) - slideH()) > 60) route(); }
 // 교재 가리개: 켜면 교재 칸 전체를 덮고, 아래 손잡이를 끌어 위에서부터 조금씩 보인다
 function toggleCover() { View.cover = !View.cover; if (View.cover) View.coverH = 1; coverApply(); }
 function coverApply() {
@@ -131,15 +137,23 @@ function coverApply() {
 })();
 function zoomBy(d) { zoomSet(View.zoom + d); }
 function zoomSet(z) { View.zoom = Math.max(.5, Math.min(3, Math.round(z * 100) / 100)); saveView(); fit(); }
-function toggleBoard() { View.board = !View.board; saveView(); fit(); }
+function toggleBoard() { setSplit(View.board ? 'full' : View.frac); }
 function toggleSlides() { View.slides = !View.slides; App.s = 0; saveView(); route(); }
 // 가운데 구분선 끌기 → 교재 칸 너비
 (() => {
-  const dv = document.getElementById('divider'); let drag = null;
-  dv.addEventListener('pointerdown', (e) => { drag = { x: e.clientX, w: $('pageWrap').getBoundingClientRect().width }; dv.setPointerCapture(e.pointerId); e.preventDefault(); });
-  dv.addEventListener('pointermove', (e) => { if (!drag) return; View.pageW = Math.max(240, drag.w + (e.clientX - drag.x)); fit(); });
-  dv.addEventListener('pointerup', () => { if (drag) { drag = null; saveView(); } });
-  dv.addEventListener('dblclick', () => { View.pageW = 0; saveView(); fit(); });   // 두 번 누르면 기본 너비
+  // 굵은 손잡이: 끌면 비율, 두 번 치면 반반 (손가락 두 번 톡도 됨)
+  const dv = document.getElementById('divider'); let drag = false, lastTap = 0;
+  dv.addEventListener('pointerdown', (e) => { drag = true; dv.setPointerCapture(e.pointerId); e.preventDefault(); });
+  dv.addEventListener('pointermove', (e) => {
+    if (!drag) return; const r = $('stage').getBoundingClientRect();
+    const f = (View.side || 'right') === 'right' ? (e.clientX - r.left - 10) / (r.width - 20 - 34) : (e.clientY - r.top - 10) / (r.height - 20 - 34);
+    View.frac = Math.max(.2, Math.min(.85, Math.round(f * 100) / 100)); fit();
+  });
+  dv.addEventListener('pointerup', () => {
+    if (!drag) return; drag = false; saveView();
+    const now = Date.now(); if (now - lastTap < 400) { setSplit(0.5); lastTap = 0; } else lastTap = now;
+    if (App.teacher && View.slides) routeIfSlideHeightChanged();
+  });
 })();
 // Ctrl+휠 = 교재 배율, 그냥 휠 = 교재 칸 스크롤(기본 동작)
 document.addEventListener('wheel', (e) => { if (!App.teacher || !e.ctrlKey) return; e.preventDefault(); zoomBy(e.deltaY < 0 ? 0.1 : -0.1); }, { passive: false });
