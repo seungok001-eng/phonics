@@ -39,7 +39,8 @@ async function loadUnit(n) {
 
 // ---------- 그림 (없으면 글자 상자로 대신) ----------
 // 장면(scene_)·스토리북(sb_)·캐스트 시트는 jpg, 나머지(단어·글자나무·캐릭터)는 png
-function artSrc(id) { return ASSETS + 'art/' + id + (id.startsWith('scene_') || /^sb\d*_/.test(id) || id.startsWith('cast_sheet') ? '.jpg' : '.png'); }
+const ART_DIR = (new URLSearchParams(location.search).get('art') || '').replace(/[^\w./-]/g, '') || (ASSETS + 'art/');   // pdf.py 가 축소본 폴더를 넘긴다
+function artSrc(id) { return ART_DIR + id + (id.startsWith('scene_') || /^sb\d*_/.test(id) || id.startsWith('cast_sheet') ? '.jpg' : '.png'); }
 function pic(id, cls = '', alt = '') {
   return `<span class="pic ${cls}" data-id="${esc(id)}"><img src="${artSrc(id)}" alt="${esc(alt || id)}" onerror="picFallback(this)"></span>`;
 }

@@ -79,6 +79,28 @@ def small_art(max_px=360):
     return '../../build/art_small/'   # web/teacher/ 에서 본 상대 경로
 
 
+def mid_art(max_px=1000):
+    """교재 PDF 용 축소본(build/art_mid/, git 밖): 원본(장당 0.5~1MB)을 그대로 넣으면 유닛 하나가 15~40MB 가 된다. 1000px 이면 A4 에 150dpi 쯤."""
+    try:
+        from PIL import Image
+    except ImportError:
+        print('Pillow 가 없어 교재 PDF 에 원본 그림을 쓴다'); return None
+    src = os.path.join(ROOT, 'web', 'assets', 'art'); dst = os.path.join(ROOT, 'build', 'art_mid'); os.makedirs(dst, exist_ok=True)
+    for fn in os.listdir(src):
+        sp, dp = os.path.join(src, fn), os.path.join(dst, fn)
+        if not os.path.isfile(sp) or (os.path.exists(dp) and os.path.getmtime(dp) >= os.path.getmtime(sp)): continue
+        try:
+            im = Image.open(sp)
+            if fn.lower().endswith('.png'):
+                im = im.convert('RGBA'); im.thumbnail((max_px, max_px))
+                im.quantize(200, method=Image.Quantize.FASTOCTREE).save(dp, optimize=True)
+            else:
+                im = im.convert('RGB'); im.thumbnail((max_px, max_px)); im.save(dp, quality=82, optimize=True)
+        except Exception as e:
+            print('축소 실패', fn, e)
+    return '../../build/art_mid/'   # web/book/ 에서 본 상대 경로
+
+
 def serve():
     import importlib.util
     spec = importlib.util.spec_from_file_location('serve', os.path.join(ROOT, 'tools', 'serve.py'))
@@ -118,6 +140,8 @@ def main():
     out_dir = os.path.join(OUT, 'press') if press else OUT
     cdir = book_dir(bk)                                   # 'b2/' 처럼 권 폴더
     q = ('&press=1' if press else '') + (f'&bk={bk}' if bk > 1 else '')
+    if not press:
+        art = mid_art(); q += f'&art={art}' if art else ''   # 가정용 PDF 는 축소본 그림 (인쇄소용은 원본)
     qk = f'b{bk}_' if bk > 1 else ''                       # QR 이름 앞붙이 (web/book/app.js bkKey 와 같은 규칙)
     pre = f'PomiPhonics{bk}'
     book = json.load(open(os.path.join(ROOT, 'content', cdir, 'book.json'), encoding='utf-8'))

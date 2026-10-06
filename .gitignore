@@ -18,3 +18,6 @@ art-src/**/cut.*
 
 # 일레븐랩스 목소리 샘플(로컬 전용)
 audio-src/voices/
+
+# 인쇄소용 PDF(원본 해상도, 수백 MB)는 로컬에서 만든다
+web/pdf/press/
