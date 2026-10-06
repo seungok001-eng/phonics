@@ -7,26 +7,44 @@ LINE_PROMPT = ('Convert the attached picture into a clean black-outline coloring
                'bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text')
 
 
-def load_book():
-    return json.load(open(os.path.join(presets.CONTENT, 'book.json'), encoding='utf-8'))
+def load_book(sub=''):
+    return json.load(open(os.path.join(presets.CONTENT, sub, 'book.json'), encoding='utf-8'))
 
 
-def load_units():
+def load_units(sub=''):
     out = []
-    for p in sorted(glob.glob(os.path.join(presets.CONTENT, 'units', 'unit*.json'))):
+    for p in sorted(glob.glob(os.path.join(presets.CONTENT, sub, 'units', 'unit*.json'))):
         out.append(json.load(open(p, encoding='utf-8')))
+    return out
+
+
+def load_books():
+    """content/books.json 의 권 목록 [{n, dir}] — 없으면 1권(content/ 바로 아래)만. 권마다 {n, dir, book, units}."""
+    lst = [{'n': 1, 'dir': ''}]
+    idx = os.path.join(presets.CONTENT, 'books.json')
+    if os.path.exists(idx):
+        try: lst = json.load(open(idx, encoding='utf-8'))
+        except Exception: pass
+    out = []
+    for b in lst:
+        sub = (b.get('dir') or '').strip('/').replace('/', os.sep)
+        if not os.path.exists(os.path.join(presets.CONTENT, sub, 'book.json')): continue
+        out.append({'n': int(b.get('n', len(out) + 1)), 'dir': sub, 'book': load_book(sub), 'units': load_units(sub)})
     return out
 
 
 def letter_unit(book, letter):
     for u in book['units']:
-        if letter in u.get('letters', []): return u['n']
+        if letter in (u.get('letters') or []): return u['n']
     return None
 
 
-def word_unit(book, word):
-    for letter, L in book['letters'].items():
+def word_unit(book, word, units=None):
+    for letter, L in (book.get('letters') or {}).items():
         if word in L['words']: return letter_unit(book, letter)
+    for u in (units or []):   # 2권~: 유닛 JSON 의 words {"at": ["cat", ...]}
+        for ws in (u.get('words') or {}).values():
+            if word in ws: return u['unit']
     return None
 
 
@@ -42,7 +60,7 @@ def _item(**kw):
     return it
 
 
-def build_items(book, units):
+def build_items(book, units, bk=1):
     """그림·영상 항목 전부 (플랜 순서 = 생성 순서)."""
     st = book['style']; chars = book['characters']; pose_desc = book['pose_desc']
     items = []
@@ -66,8 +84,8 @@ def build_items(book, units):
     # 2. 글자나무: 유닛 JSON 에 나오는 글자마다. 첫 나무(tree_a 가 있으면 그것)가 기준
     letters = []
     for u in units:
-        for l in u.get('letters', []):
-            if l not in letters: letters.append(l)
+        for l in (u.get('letters') or []):
+            if l not in letters and l in (book.get('letters') or {}): letters.append(l)
     base_tree = 'a' if 'a' in letters else (letters[0] if letters else None)
     for l in letters:
         fruits = [book['words'][w]['desc'] for w in book['letters'][l]['words'] if w in book['words']]
@@ -79,43 +97,45 @@ def build_items(book, units):
         if ref: prompt += ' Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.'
         items.append(_item(id=f'tree_{l}', kind='tree', letter=l, title=f'글자나무 {l.upper()}', unit=letter_unit(book, l),
                            prompt=prompt, reference=ref, aspect='3:4', out=f'web/assets/art/tree_{l}.png'))
-    # 3. 단어 그림 78장 (참조 없음) + 4. 선 그림 78장 (단어 그림을 참조)
+    # 3. 단어 그림 (참조 없음) + 4. 선 그림 (단어 그림을 참조) — 같은 단어는 전 권이 같은 id·파일
     for w, W in book['words'].items():
-        items.append(_item(id=f'word_{w}', kind='word', word=w, title=f"{w} · {W['ko']}", unit=word_unit(book, w),
+        items.append(_item(id=f'word_{w}', kind='word', word=w, title=f"{w} · {W['ko']}", unit=word_unit(book, w, units),
                            prompt=f"{st['art']} {st['object']} The object: {W['desc']}.", aspect='1:1', out=f'web/assets/art/word_{w}.png'))
     for w, W in book['words'].items():
-        items.append(_item(id=f'line_{w}', kind='line', word=w, title=f"{w} 선 그림 · {W['ko']}", unit=word_unit(book, w),
+        items.append(_item(id=f'line_{w}', kind='line', word=w, title=f"{w} 선 그림 · {W['ko']}", unit=word_unit(book, w, units),
                            prompt=LINE_PROMPT, reference=f'word_{w}', aspect='1:1', out=f'web/assets/art/line_{w}.png'))
-    # 5. 캐스트 시트: 생성하지 않고 서버가 승인된 캐릭터 기준 그림 4장을 합성한다
-    items.append(_item(id='cast_sheet', kind='cast', title='캐스트 시트 (기준 그림 4장 합성)', prompt='(서버가 합성한다 — 캐릭터 기준 그림이 모두 승인되면 자동)',
-                       aspect='16:9', out='web/assets/art/cast_sheet.png', made_from=None))
-    # 6. 스토리 장면 (캐스트 시트를 참조) + 7. 영상 (승인된 장면 그림에서, 플로우로만)
+    # 5. 캐스트 시트: 생성하지 않고 서버가 승인된 캐릭터 기준 그림을 합성한다 (권마다 하나: cast_sheet, cast_sheet_b2 ...)
     order = cast_order(book)
+    cast_id = 'cast_sheet' if bk == 1 else f'cast_sheet_b{bk}'
+    items.append(_item(id=cast_id, kind='cast', chars=order, title=f'{bk}권 캐스트 시트 (기준 그림 {len(order)}장 합성)', prompt='(서버가 합성한다 — 캐릭터 기준 그림이 모두 승인되면 자동)',
+                       aspect='16:9', out=f'web/assets/art/{cast_id}.png', made_from=None))
+    # 6. 스토리 장면 (캐스트 시트를 참조) + 7. 영상 (승인된 장면 그림에서, 플로우로만)
     names = ', '.join(chars[c]['name'] for c in order)
     who = ' '.join(f"{chars[c]['name']} is {chars[c]['desc']}." for c in order)
     for u in units:
         for p in (u.get('story') or {}).get('panels', []):
             prompt = (f"{st['art']} {st['scene']} The characters must look exactly like the ones in the attached character sheet (left to right: {names}). "
                       f"Scene: {p['desc']} Characters: {who}")
-            items.append(_item(id=p['id'], kind='scene', title=f"{u['unit']}유닛 장면 · {p['id'].split('_')[-1]}", unit=u['unit'],
-                               prompt=prompt, reference='cast_sheet', aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
+            items.append(_item(id=p['id'], kind='scene', title=f"{bk}권 {u['unit']}유닛 장면 · {p['id'].split('_')[-1]}", unit=u['unit'],
+                               prompt=prompt, reference=cast_id, aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
         for v in u.get('videos', []):
-            items.append(_item(id=v['id'], kind='video', job_type='video', title=f"{u['unit']}유닛 영상 · {v['id'].split('_')[-1]} ({v.get('seconds', 8)}초)", unit=u['unit'],
+            items.append(_item(id=v['id'], kind='video', job_type='video', title=f"{bk}권 {u['unit']}유닛 영상 · {v['id'].split('_')[-1]} ({v.get('seconds', 8)}초)", unit=u['unit'],
                                prompt=v['prompt'], reference=v['from'], seconds=v.get('seconds', 8), aspect='4:3', out=f"web/assets/video/{v['id']}.mp4"))
         # 8. 스토리북 쪽 그림 (유닛 JSON storybook.pages, 캐스트 시트 참조, A5 가로에 맞게 4:3)
         for p in (u.get('storybook') or {}).get('pages', []):
             prompt = (f"{st['art']} {st['scene']} Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: {names}). "
                       f"Scene: {p['desc']} Characters: {who}")
-            items.append(_item(id=p['id'], kind='scene', title=f"{u['unit']}유닛 스토리북 · {p['id'].split('_')[-1]}쪽", unit=u['unit'],
-                               prompt=prompt, reference='cast_sheet', aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
+            items.append(_item(id=p['id'], kind='scene', title=f"{bk}권 {u['unit']}유닛 스토리북 · {p['id'].split('_')[-1]}쪽", unit=u['unit'],
+                               prompt=prompt, reference=cast_id, aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
     # 9. 스토리북 표지·앞·뒤 쪽 (book.json storybook)
     sbk = book.get('storybook') or {}
     extra = ([sbk['cover']] if sbk.get('cover') else []) + list(sbk.get('front', [])) + list(sbk.get('back', []))
     for p in extra:
         prompt = (f"{st['art']} {st['scene']} Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: {names}). "
                   f"Scene: {p['desc']} Characters: {who}")
-        items.append(_item(id=p['id'], kind='scene', title=f"스토리북 · {p['id']}", unit=0,
-                           prompt=prompt, reference='cast_sheet', aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
+        items.append(_item(id=p['id'], kind='scene', title=f"{bk}권 스토리북 · {p['id']}", unit=0,
+                           prompt=prompt, reference=cast_id, aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
+    for it in items: it['book'] = bk
     return items
 
 
@@ -125,19 +145,27 @@ def _sound(**kw):
     return s
 
 
-def build_sounds(book, units):
+def build_sounds(book, units, bk=1, ipa=None):
     """소리 항목 전부. 유닛 JSON 에 이미 있는 id(name_a, sound_b, word_cup …)와 겹치면 한 번만."""
     out = []; seen = set()
     nar = book.get('narrator_voice', 'Kore'); ins = book.get('instruction_voice', nar)
     def add(s):
         if s['id'] in seen: return
         seen.add(s['id']); out.append(s)
-    for l, L in book['letters'].items():
+    for l, L in (book.get('letters') or {}).items():
         u = letter_unit(book, l)
         add(_sound(id=f'name_{l}', sub='name', title=f'글자 이름 {l.upper()}', text=l.upper(), voice=nar, unit=u, letter=l))
         add(_sound(id=f'sound_{l}', sub='sound', title=f"낱소리 /{L['sound']}/ ({l})", text=l, voice=nar, unit=u, letter=l, hint=L.get('sound_hint', '')))
     for w in book['words']:
-        add(_sound(id=f'word_{w}', sub='word', title=f"단어 {w} · {book['words'][w]['ko']}", text=w, voice=nar, unit=word_unit(book, w)))
+        add(_sound(id=f'word_{w}', sub='word', title=f"단어 {w} · {book['words'][w]['ko']}", text=w, voice=nar, unit=word_unit(book, w, units)))
+    # 합치기(2권~): 단어 가족이 있는 단어마다 "/k/ ... /æ/ ... /t/ ... cat" (낱소리 IPA 는 1권 letters + 이 권 vowels)
+    ipa = dict(ipa or {})
+    for v, V in (book.get('vowels') or {}).items(): ipa[v] = V.get('sound', v)
+    for w, W in book['words'].items():
+        if not W.get('family') and not book.get('families'): continue
+        if not all(ch in ipa for ch in w): continue
+        parts = [f"/{ipa[ch]}/" for ch in w]
+        add(_sound(id=f'blend_{w}', sub='blend', title=f"합치기 {w}", text=' ... '.join(parts) + f' ... {w}', voice=nar, unit=word_unit(book, w, units)))
     for w, S in book['sight_words'].items():
         add(_sound(id=f'sw_{w}', sub='sw', title=f"사이트워드 {w} · {S['ko']}", text=w, voice=nar, unit=S.get('unit')))
     def add_lines(lines, unit, label):
@@ -150,7 +178,12 @@ def build_sounds(book, units):
             add(_sound(id=aid, sub='line', title=f"{label} · {who_ko}: {ln['text']}", text=ln['text'], voice=voice, unit=unit))
     for u in units:
         for p in (u.get('story') or {}).get('panels', []):
-            add_lines(p.get('lines', []), u['unit'], f"{u['unit']}유닛 대사")
+            add_lines(p.get('lines', []), u['unit'], f"{bk}권 {u['unit']}유닛 대사")
+        for i, sn in enumerate(u.get('sentences') or []):   # 2권~: 읽기 문장
+            if sn.get('audio'): add(_sound(id=sn['audio'], sub='line', title=f"{bk}권 {u['unit']}유닛 문장 {i + 1}: {sn['text']}", text=sn['text'], voice=nar, unit=u['unit']))
+        song = ((u.get('show') or {}).get('song') or {}).get('lines', [])   # 12유닛 노래 가사
+        for i, ln in enumerate(song):
+            if ln.get('audio'): add(_sound(id=ln['audio'], sub='line', title=f"{bk}권 노래 {i + 1}: {ln['text']}", text=ln['text'], voice=nar, unit=u['unit']))
         for p in (u.get('storybook') or {}).get('pages', []):   # 스토리북 글 + 쪽마다 과제("Find the g things!")는 <쪽id>_task (웹 story.html 이 찾는 이름)
             add_lines(p.get('lines', []), u['unit'], f"{u['unit']}유닛 스토리북")
             if p.get('task'):
@@ -165,7 +198,21 @@ def build_sounds(book, units):
         t = c.get('catchphrase', '').strip()
         if t and not t.startswith('('):
             add(_sound(id=f'catch_{cid}', sub='line', title=f"말버릇 · {c.get('ko', cid)}: {t}", text=t, voice=c.get('voice') or nar, unit=0))
+    for x in out: x['book'] = bk
     return out
 
 
-SOUND_SUBS = {'name': '글자 이름', 'sound': '낱소리', 'word': '단어', 'sw': '사이트워드', 'line': '스토리 대사', 'instr': '지시문'}
+def build_all():
+    """모든 권의 항목·소리. 같은 id(공용 단어 그림·소리)는 먼저 나온 권 것만."""
+    books = load_books()
+    items, sounds = {}, {}
+    ipa = {}
+    for b in books:
+        for l, L in (b['book'].get('letters') or {}).items(): ipa.setdefault(l, 'ks' if L.get('final') else L['sound'])
+    for b in books:
+        for it in build_items(b['book'], b['units'], b['n']): items.setdefault(it['id'], it)
+        for sd in build_sounds(b['book'], b['units'], b['n'], ipa): sounds.setdefault(sd['id'], sd)
+    return list(items.values()), list(sounds.values()), books
+
+
+SOUND_SUBS = {'name': '글자 이름', 'sound': '낱소리', 'word': '단어', 'sw': '사이트워드', 'blend': '합치기', 'line': '스토리 대사', 'instr': '지시문'}

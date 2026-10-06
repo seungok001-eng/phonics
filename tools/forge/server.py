@@ -81,9 +81,10 @@ KEEP_SOUND = ('cands', 'approved', 'final', 'applied', 'text_edited', 'voice', '
 
 def rebuild():
     """content 를 다시 읽어 항목 목록을 만든다. 이미 그림·소리가 있는 항목은 상태·파일을 그대로 두고 프롬프트만 새로 쓴다 (손으로 고친 프롬프트·대본은 유지)."""
-    book = plan.load_book(); units = plan.load_units()
+    all_items, all_sounds, books = plan.build_all()   # 모든 권 (content/books.json)
+    book = books[0]['book'] if books else plan.load_book(); units = books[0]['units'] if books else plan.load_units()
     items = {}
-    for it in plan.build_items(book, units):
+    for it in all_items:
         old = read_json(os.path.join(DATA, it['kind'], it['id'], 'item.json'))
         if old:
             for k in KEEP_ITEM:
@@ -91,14 +92,14 @@ def rebuild():
             if old.get('prompt_edited'): it['prompt'] = old['prompt']
         items[it['id']] = it
     sounds = {}
-    for s in plan.build_sounds(book, units):
+    for s in all_sounds:
         old = read_json(os.path.join(ADATA, s['id'], 'item.json'))
         if old:
             for k in KEEP_SOUND:
                 if k in old: s[k] = old[k]
             if old.get('text_edited'): s['text'] = old['text']
         sounds[s['id']] = s
-    state['book'] = book; state['units'] = units; state['items'] = items; state['sounds'] = sounds
+    state['book'] = book; state['units'] = units; state['items'] = items; state['sounds'] = sounds; state['books'] = books
     log(f'항목 {len(items)}개 · 소리 {len(sounds)}개 (content 에서)')
 
 
@@ -232,15 +233,21 @@ def apply_all():
     return n
 
 
-def cast_refs():
-    return [state['items'].get(f'char_{cid}_ref') for cid in plan.cast_order(state['book'])]
+def cast_refs(cs=None):
+    chars = (cs or {}).get('chars') or plan.cast_order(state['book'])
+    return [state['items'].get(f'char_{cid}_ref') for cid in chars]
 
 
-def ensure_cast_sheet(force=False):
-    """캐릭터 기준 그림이 모두 승인되면 캐스트 시트를 합성해 승인 상태로 둔다. 기준 그림이 바뀌면 다시."""
+def ensure_cast_sheet(force=False, cast_id=None):
+    """캐릭터 기준 그림이 모두 승인되면 캐스트 시트를 합성해 승인 상태로 둔다. 기준 그림이 바뀌면 다시. 권마다 하나(cast_sheet, cast_sheet_b2 ...)."""
+    if cast_id is None:
+        done = False
+        for it in list(state['items'].values()):
+            if it['kind'] == 'cast': done = ensure_cast_sheet(force, it['id']) or done
+        return done
     from PIL import Image
-    cs = state['items'].get('cast_sheet'); refs = cast_refs()
-    if not cs or any(r is None or r['status'] != 'approved' or not r.get('cut') for r in refs): return False
+    cs = state['items'].get(cast_id); refs = cast_refs(cs)
+    if not cs or not refs or any(r is None or r['status'] != 'approved' or not r.get('cut') for r in refs): return False
     sig = [int(r.get('updated') or 0) for r in refs]
     if not force and (cs.get('made_from') == 'manual' or (cs.get('made_from') == sig and cs['status'] == 'approved')): return False
     ims = [Image.open(os.path.join(item_dir(r), r['cut'])) for r in refs]
@@ -248,7 +255,7 @@ def ensure_cast_sheet(force=False):
     d = item_dir(cs); os.makedirs(d, exist_ok=True)
     sheet.save(os.path.join(d, 'cut.png')); sheet.save(os.path.join(d, 'raw.png'))
     cs.update(raw='raw.png', cut='cut.png', status='approved', auto_approved=True, made_from=sig, updated=time.time(), error='', applied='')
-    save_item(cs); log('캐스트 시트 합성 (기준 그림 4장)')
+    save_item(cs); log(f'{cast_id} 합성 (기준 그림 {len(refs)}장)')
     return True
 
 
