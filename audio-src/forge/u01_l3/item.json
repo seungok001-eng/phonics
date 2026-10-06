@@ -1,0 +1,101 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: /a/ /a/ apple!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791263484.6820939,
+   "sec": 4.8,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Say slowly and clearly: /æ/ /æ/ apple!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791263560.293582,
+   "sec": 6.08,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæpəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæpəl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/æ/ /æ/ apple!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791263771.246646,
+   "sec": 2.56,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/æ/! /æ/! Apple!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791263773.5353649,
+   "sec": 3.36,
+   "check": {
+    "transcript": "Apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "æ, æ, apple!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791263774.2142851,
+   "sec": 3.0,
+   "check": {
+    "transcript": "Apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": true,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "u01_l3",
+ "sub": "line",
+ "title": "1유닛 대사 · 맥스: /a/ /a/ apple!",
+ "text": "/æ/ /æ/ apple!",
+ "voice": "Puck"
+}

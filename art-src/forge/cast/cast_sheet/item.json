@@ -1,0 +1,28 @@
+{
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 0,
+ "error": "",
+ "updated": 1791263480.5886211,
+ "auto_approved": true,
+ "flow_url": "",
+ "prompt_edited": false,
+ "applied": "2026-10-06 14:35",
+ "gen": "",
+ "job_type": "image",
+ "reference": null,
+ "unit": null,
+ "id": "cast_sheet",
+ "kind": "cast",
+ "title": "캐스트 시트 (기준 그림 4장 합성)",
+ "prompt": "(서버가 합성한다 — 캐릭터 기준 그림이 모두 승인되면 자동)",
+ "aspect": "16:9",
+ "out": "web/assets/art/cast_sheet.png",
+ "made_from": [
+  1791263443,
+  1791263447,
+  1791263446,
+  1791263479
+ ]
+}

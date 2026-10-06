@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 가정통신문</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --green:#8FD14F; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; font-size:15px; line-height:1.6; }
+  .sheet { width:210mm; min-height:297mm; margin:16px auto; background:#fff; padding:18mm 18mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; }
+  h1 { font-family:'Fredoka'; color:var(--orange); margin:0; font-size:26px; }
+  .sub { color:var(--soft); margin-bottom:14px; }
+  h2 { font-family:'Fredoka'; font-size:18px; margin:16px 0 6px; border-left:5px solid var(--green); padding-left:8px; }
+  .box { background:var(--cream); border:2px solid var(--line); border-radius:12px; padding:10px 14px; }
+  .words span { display:inline-block; border:2px solid var(--line); border-radius:10px; padding:0 10px; margin:2px; font-size:17px; }
+  .words b { color:var(--orange); }
+  ul { margin:4px 0; padding-left:20px; }
+  .qr { display:flex; gap:12px; align-items:center; }
+  .qr img { width:80px; height:80px; }
+  .sign { margin-top:24px; text-align:right; color:var(--soft); }
+  .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:210mm; }
+  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
+  @page { size:A4; margin:0; }
+  @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } }
+</style>
+</head>
+<body>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span id="nav"></span><span style="color:var(--soft);font-size:13px">학원 이름·선생님 이름은 인쇄 전에 아래 칸에 써 넣으세요</span></div>
+<div id="out"></div>
+<script>
+// 가정통신문: 유닛이 끝날 때 집에 보내는 안내. ?u=1
+const q = new URLSearchParams(location.search); const U = +(q.get('u') ?? 1);
+async function get(rel) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+(async () => {
+  const book = await get('book.json'), unit = await get(`units/unit${String(U).padStart(2, '0')}.json`);
+  if (!unit) { document.getElementById('out').textContent = '유닛 없음'; return; }
+  document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false && x.letters.length).map((x) => `<a href="?u=${x.n}">U${x.n}</a>`).join(' ');
+  const L = book.letters;
+  const words = unit.letters.map((l) => `<div>${l.toUpperCase()}${l} /${L[l].sound}/ — ` + L[l].words.map((w) => { const i = L[l].final ? w.lastIndexOf(l) : w.indexOf(l); return `<span>${w.slice(0, i)}<b>${w[i]}</b>${w.slice(i + 1)} <small style="color:var(--soft)">${book.words[w].ko}</small></span>`; }).join('') + `</div>`).join('');
+  const actions = unit.letters.map((l) => `<li><b>${l.toUpperCase()}</b> /${L[l].sound}/: ${L[l].action_ko} — "${L[l].action}"</li>`).join('');
+  const url = `${book.site_base}/book/?b=sb&u=${U}&p=6`;
+  document.getElementById('out').innerHTML = `<div class="sheet">
+    <h1>${book.series} 가정통신문</h1><div class="sub">Unit ${U} · ${unit.title} (${unit.title_ko}) · 학원: ________________ · 선생님: ________________</div>
+    <p>안녕하세요. 이번 주 아이들은 <b>Unit ${U}</b>에서 글자 <b>${unit.letters.map((l) => l.toUpperCase() + l).join(', ')}</b>의 이름과 소리를 배우고, 그 소리로 시작하는 단어를 익혔습니다. 집에서 아래 내용으로 5분만 함께해 주시면 학습 효과가 훨씬 커집니다.</p>
+    <h2>이번 유닛에서 배운 것</h2>
+    <div class="box words">${words}</div>
+    <p style="margin-top:8px">사이트워드(통째로 읽는 말): <b>${unit.sight_words.join(', ')}</b> · 스토리: <b>${unit.story.title}</b></p>
+    <h2>집에서 이렇게 해 주세요</h2>
+    <ul>
+      <li><b>소리로 물어보기</b>: 글자 이름("에이")이 아니라 <b>소리</b>(/${L[unit.letters[0]].sound}/)로 물어봐 주세요. "A는 무슨 소리?" → "/${L[unit.letters[0]].sound}/!"</li>
+      <li><b>동작과 함께</b>: ${'<ul>' + actions + '</ul>'}</li>
+      <li><b>스토리 세 번 읽기</b>: 워크북 F번은 QR을 찍으면 원어민 소리가 나옵니다. 아이가 한 줄씩 따라 읽게 해 주세요.</li>
+      <li><b>숨은 그림 찾기</b>: 스토리 그림에서 ${unit.story.panels.flatMap((p) => p.hidden).slice(0, 5).join(', ')} … 를 찾아 영어로 말해 보게 해 주세요.</li>
+    </ul>
+    <h2>소리 듣기</h2>
+    <div class="qr"><img src="../assets/qr/sb_u${String(U).padStart(2, '0')}_p6.png" alt="QR" onerror="this.style.display='none'"><div>휴대폰으로 QR을 찍거나 아래 주소로 들어가면 이번 유닛의 소리·스토리를 들을 수 있습니다.<br><small>${url}</small><br>처음 한 번 "Start"를 누르면 소리가 납니다.</div></div>
+    <h2>다음 시간</h2>
+    <p>${(() => { const nx = book.units.find((x) => x.n === U + 1); return nx ? `Unit ${nx.n} <b>${nx.title}</b> — ${nx.letters.length ? '글자 ' + nx.letters.map((l) => l.toUpperCase() + l).join(', ') : '복습'}` : '—'; })()}. 워크북 숙제를 잊지 말고 가져오게 해 주세요.</p>
+    <div class="sign">${new Date().getFullYear()}년 ____월 ____일 · ${book.series}</div>
+  </div>`;
+})();
+</script>
+</body>
+</html>

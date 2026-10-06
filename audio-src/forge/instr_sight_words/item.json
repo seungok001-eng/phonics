@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Sight words",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263529.8803077,
+   "sec": 4.88,
+   "check": {
+    "transcript": "cite words",
+    "type": "sentence",
+    "ipa": "saɪt wɝdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cite words | TYPE=sentence | IPA=saɪt wɝdz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Sight words",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263838.830009,
+   "sec": 1.52,
+   "check": {
+    "transcript": "sight words",
+    "type": "word",
+    "ipa": "ˈsaɪt wɜrdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sight words | TYPE=word | IPA=ˈsaɪt wɜrdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_sight_words",
+ "sub": "instr",
+ "title": "지시문 · Sight words",
+ "text": "Sight words",
+ "voice": "Kore"
+}

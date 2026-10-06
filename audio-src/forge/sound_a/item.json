@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/æ/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263450.6694582,
+   "sec": 1.24,
+   "check": {
+    "transcript": "ah",
+    "type": "isolated-sound",
+    "ipa": "ʌ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=ah | TYPE=isolated-sound | IPA=ʌ | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "apple 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791263546.6468246,
+   "sec": 0.35,
+   "check": {
+    "transcript": "says",
+    "type": "word",
+    "ipa": "sɛz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=says | TYPE=word | IPA=sɛz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": "a",
+ "id": "sound_a",
+ "sub": "sound",
+ "title": "낱소리 /æ/ (a)",
+ "text": "a",
+ "voice": "Kore",
+ "hint": "short a as at the start of apple"
+}

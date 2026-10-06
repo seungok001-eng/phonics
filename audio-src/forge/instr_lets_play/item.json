@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Let's play!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263530.4849033,
+   "sec": 4.72,
+   "check": {
+    "transcript": "Say slowly and clearly. Let's play.",
+    "type": "sentence",
+    "ipa": "seɪ sloʊli ænd klɪli lɛts pleɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly. Let's play. | TYPE=sentence | IPA=seɪ sloʊli ænd klɪli lɛts pleɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Let's play!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263841.8450003,
+   "sec": 1.32,
+   "check": {
+    "transcript": "Let's play.",
+    "type": "sentence",
+    "ipa": "lɛts pleɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Let's play. | TYPE=sentence | IPA=lɛts pleɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_lets_play",
+ "sub": "instr",
+ "title": "지시문 · Let's play!",
+ "text": "Let's play!",
+ "voice": "Kore"
+}

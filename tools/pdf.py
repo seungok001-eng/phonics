@@ -6,7 +6,7 @@
 import json, os, subprocess, sys, threading, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, 'build', 'pdf')
+OUT = os.path.join(ROOT, 'web', 'pdf')   # 홈페이지에서 바로 내려받게 web/ 안에 둔다 (git 에 올라간다, 유닛당 1MB 안팎)
 QR_DIR = os.path.join(ROOT, 'web', 'assets', 'qr')
 PORT = 8099
 BROWSERS = [os.path.join(os.environ.get(k, ''), *p) for k, p in [

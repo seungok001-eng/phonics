@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/d/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791264985.5623384,
+   "sec": 0.88,
+   "check": {
+    "transcript": "d",
+    "type": "isolated-sound",
+    "ipa": "d",
+    "note": "extra vowel",
+    "raw": "TRANSCRIPT=d | TYPE=isolated-sound | IPA=d | NOTE=extra vowel"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": "d",
+ "id": "sound_d",
+ "sub": "sound",
+ "title": "낱소리 /d/ (d)",
+ "text": "d",
+ "voice": "Kore",
+ "hint": "d as at the start of dog",
+ "busy": 1
+}

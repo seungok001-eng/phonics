@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 진도표</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --blue:#4FA3E0; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; font-size:13px; }
+  .sheet { width:297mm; min-height:210mm; margin:16px auto; background:#fff; padding:12mm 14mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; }
+  h1 { font-family:'Fredoka'; color:var(--orange); margin:0 0 8px; font-size:24px; } h1 small { color:var(--soft); font-family:'Andika'; font-weight:400; font-size:13px; margin-left:8px; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { border:1px solid var(--line); padding:5px 7px; vertical-align:top; text-align:left; }
+  th { background:var(--cream); font-family:'Fredoka'; font-weight:500; }
+  td.c { text-align:center; white-space:nowrap; }
+  tr.rev td { background:#FFF3E6; }
+  .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:297mm; }
+  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
+  @page { size:A4 landscape; margin:0; }
+  @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } }
+</style>
+</head>
+<body>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span style="color:var(--soft)">22차시(주 2회 11주) · 33차시(주 3회, 유닛마다 복습 차시 추가)</span></div>
+<div id="out"></div>
+<script>
+// 진도표: book.json 유닛 목록에서 자동으로. 22차시(기본)와 33차시(복습 차시 추가) 두 가지
+async function get(rel) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+(async () => {
+  const book = await get('book.json');
+  const units = {};
+  await Promise.all(book.units.map(async (u) => { if (u.ready !== false) units[u.n] = await get(`units/unit${String(u.n).padStart(2, '0')}.json`); }));
+  const sbStart = (n) => { let p = 3; for (const x of book.units) { if (x.n === n) return p + 1; p += x.n === 0 ? 4 : x.review ? 6 : 8; } return p; };
+  const wbStart = (n) => { let p = 2; for (const x of book.units) { if (x.n === n) return p + 1; p += x.n === 0 ? 0 : x.review ? 2 : 4; } return p; };
+  const words = (u) => u.letters.flatMap((l) => book.letters[l].words).join(', ');
+  const sw = (u) => Object.entries(book.sight_words).filter(([w, s]) => s.unit === u.n).map(([w]) => w).join(', ');
+  function table(withReview) {
+    let n = 0, rows = '';
+    for (const u of book.units) {
+      const uj = units[u.n];
+      const title = u.title, lt = u.letters.map((l) => l.toUpperCase() + l).join(' ');
+      const sb = sbStart(u.n), wb = wbStart(u.n);
+      if (u.n === 0) { n++; rows += `<tr><td class="c">${n}</td><td class="c">0</td><td>${title}</td><td>알파벳 이름·순서 익히기, 캐릭터 소개, 도입 스토리</td><td>Preview: Alphabet</td><td></td><td class="c">pp.${sb}–${sb + 3}</td><td class="c">—</td></tr>`; continue; }
+      if (u.review) {
+        n++; rows += `<tr class="rev"><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>${u.review.join('·')}유닛 소리·단어 복습 (게임판·빙고·플래시카드)</td><td>Review</td><td></td><td class="c">pp.${sb}–${sb + 2}</td><td class="c">pp.${wb}</td></tr>`;
+        n++; rows += `<tr class="rev"><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>${u.final ? '최종 평가 + 수료증' : '복습 스토리 + 유닛 평가'}</td><td></td><td></td><td class="c">pp.${sb + 3}–${sb + 5}</td><td class="c">pp.${wb + 1}</td></tr>`;
+        continue;
+      }
+      n++; rows += `<tr><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>글자 ${lt} 의 이름·소리, 대소문자 쓰기, 단어 9개</td><td>${u.letters.map((l) => '/' + book.letters[l].sound + '/').join(' ')}</td><td>${uj ? words(uj) : ''}</td><td class="c">pp.${sb}–${sb + 3}</td><td class="c">pp.${wb}–${wb + 1}</td></tr>`;
+      n++; rows += `<tr><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>듣고 가리키기, 사이트워드(${sw(u) || '—'}), 스토리, 유닛 정리</td><td></td><td>${uj ? uj.story.title : ''}</td><td class="c">pp.${sb + 4}–${sb + 7}</td><td class="c">pp.${wb + 2}–${wb + 3}</td></tr>`;
+      if (withReview) { n++; rows += `<tr class="rev"><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>유닛 복습: 플래시카드 경주, 소리 잡기 게임, 유닛 시험지(A/B형)</td><td></td><td></td><td class="c">—</td><td class="c">—</td></tr>`; }
+    }
+    return `<table><tr><th>차시</th><th>유닛</th><th>제목</th><th>목표·활동</th><th>소리</th><th>단어 · 스토리</th><th>학생책</th><th>워크북</th></tr>${rows}</table>`;
+  }
+  document.getElementById('out').innerHTML = `<div class="sheet"><h1>${book.series} ${book.book} 진도표 <small>22차시 · 주 2회 11주 · 50분</small></h1>${table(false)}</div>
+    <div class="sheet"><h1>${book.series} ${book.book} 진도표 <small>33차시 · 주 3회 11주 · 유닛마다 복습 차시</small></h1>${table(true)}</div>`;
+})();
+</script>
+</body>
+</html>

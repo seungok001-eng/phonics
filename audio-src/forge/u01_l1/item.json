@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: I see a seed!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791263481.5566442,
+   "sec": 4.88,
+   "check": {
+    "transcript": "I see a seed.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a seed. | TYPE=sentence | IPA=aɪ siː ə siːd | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see a seed!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791263769.8877392,
+   "sec": 1.84,
+   "check": {
+    "transcript": "IC seed",
+    "type": "sentence",
+    "ipa": "aɪ siː siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=IC seed | TYPE=sentence | IPA=aɪ siː siːd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "u01_l1",
+ "sub": "line",
+ "title": "1유닛 대사 · 릴리: I see a seed!",
+ "text": "I see a seed!",
+ "voice": "Leda"
+}

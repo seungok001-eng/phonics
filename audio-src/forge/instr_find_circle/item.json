@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Find and circle. Then write.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263515.4361706,
+   "sec": 7.96,
+   "check": {
+    "transcript": "find and circle Then write.",
+    "type": "sentence",
+    "ipa": "faɪnd ənd ˈsɜːrkl̩ ðɛn raɪt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=find and circle Then write. | TYPE=sentence | IPA=faɪnd ənd ˈsɜːrkl̩ ðɛn raɪt. | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Find and circle. Then write.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263821.3068745,
+   "sec": 3.04,
+   "check": {
+    "transcript": "Find and circle. Then write.",
+    "type": "sentence",
+    "ipa": "faɪnd ænd ˈsɜːkəl ðɛn raɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find and circle. Then write. | TYPE=sentence | IPA=faɪnd ænd ˈsɜːkəl ðɛn raɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_find_circle",
+ "sub": "instr",
+ "title": "지시문 · Find and circle. Then write.",
+ "text": "Find and circle. Then write.",
+ "voice": "Kore"
+}

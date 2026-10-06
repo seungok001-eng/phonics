@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Word chant",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263525.9720886,
+   "sec": 4.92,
+   "check": {
+    "transcript": "Say slowly and clearly, word chant.",
+    "type": "sentence",
+    "ipa": "seɪ sloʊli ənd klɪrli wɜrd tʃænt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly, word chant. | TYPE=sentence | IPA=seɪ sloʊli ənd klɪrli wɜrd tʃænt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Word chant",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263836.424857,
+   "sec": 2.04,
+   "check": {
+    "transcript": "word chant",
+    "type": "word",
+    "ipa": "wɜːd tʃænt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=word chant | TYPE=word | IPA=wɜːd tʃænt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_word_chant",
+ "sub": "instr",
+ "title": "지시문 · Word chant",
+ "text": "Word chant",
+ "voice": "Kore"
+}

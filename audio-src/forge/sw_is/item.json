@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "is",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791265027.3628247,
+   "sec": 1.32,
+   "check": {
+    "transcript": "is",
+    "type": "word",
+    "ipa": "ɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=is | TYPE=word | IPA=ɪz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sw_is",
+ "sub": "sw",
+ "title": "사이트워드 is · ~이다",
+ "text": "is",
+ "voice": "Kore",
+ "busy": 1
+}

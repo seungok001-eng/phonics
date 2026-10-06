@@ -1,0 +1,67 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: This is Pomi. Pomi cannot talk.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263543.4521759,
+   "sec": 7.04,
+   "check": {
+    "transcript": "This is Polmy, Polmy cannot talk.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz pəʊmi pəʊmi kænɒt tɔːk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is Polmy, Polmy cannot talk. | TYPE=sentence | IPA=ðɪs ɪz pəʊmi pəʊmi kænɒt tɔːk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "This is Pomi. Pomi cannot talk.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263853.9294288,
+   "sec": 3.4,
+   "check": {
+    "transcript": "This is Pomi. Pomi cannot talk.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz poʊmi. poʊmi kænɑt tɑk.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is Pomi. Pomi cannot talk. | TYPE=sentence | IPA=ðɪs ɪz poʊmi. poʊmi kænɑt tɑk. | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "This is Pomee. Pomee cannot talk.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263857.0070782,
+   "sec": 3.8,
+   "check": {
+    "transcript": "This is Pamy. Pamy cannot talk.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz pɑːmi pɑːmi kænɑːt tɑːk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is Pamy. Pamy cannot talk. | TYPE=sentence | IPA=ðɪs ɪz pɑːmi pɑːmi kænɑːt tɑːk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "u00_l3",
+ "sub": "line",
+ "title": "0유닛 대사 · 해설: This is Pomi. Pomi cannot talk.",
+ "text": "This is Pomi. Pomi cannot talk.",
+ "voice": "Kore"
+}

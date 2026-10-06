@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: I see a bus!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791263485.078995,
+   "sec": 3.8,
+   "check": {
+    "transcript": "I see a bus",
+    "type": "sentence",
+    "ipa": "aɪ siː ə bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a bus | TYPE=sentence | IPA=aɪ siː ə bʌs | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see a bus!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791263778.276292,
+   "sec": 1.48,
+   "check": {
+    "transcript": "I see a bus.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a bus. | TYPE=sentence | IPA=aɪ siː ə bʌs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "u01_l4",
+ "sub": "line",
+ "title": "1유닛 대사 · 릴리: I see a bus!",
+ "text": "I see a bus!",
+ "voice": "Leda"
+}

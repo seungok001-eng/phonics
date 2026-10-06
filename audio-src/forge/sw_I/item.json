@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: I",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263474.5104356,
+   "sec": 3.52,
+   "check": {
+    "transcript": "Say slowly and clearly, I.",
+    "type": "sentence",
+    "ipa": "seɪ ˈsloʊli ænd ˈklɪrli, aɪ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly, I. | TYPE=sentence | IPA=seɪ ˈsloʊli ænd ˈklɪrli, aɪ. | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263761.9509282,
+   "sec": 0.92,
+   "check": {
+    "transcript": "I",
+    "type": "word",
+    "ipa": "aɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I | TYPE=word | IPA=aɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sw_I",
+ "sub": "sw",
+ "title": "사이트워드 I · 나는",
+ "text": "I",
+ "voice": "Kore"
+}

@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/d/ /d/ duck!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791265037.235746,
+   "sec": 2.68,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "u02_l3",
+ "sub": "line",
+ "title": "2유닛 대사 · 릴리: /d/ /d/ duck!",
+ "text": "/d/ /d/ duck!",
+ "voice": "Leda",
+ "busy": 1
+}

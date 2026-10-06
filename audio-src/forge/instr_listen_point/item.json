@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Listen, point and say.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263501.7369387,
+   "sec": 6.4,
+   "check": {
+    "transcript": "say slowly and clearly listen point and say",
+    "type": "sentence",
+    "ipa": "seɪ ˈsloʊli ənd ˈklɪrli ˈlɪsən pɔɪnt ənd seɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=say slowly and clearly listen point and say | TYPE=sentence | IPA=seɪ ˈsloʊli ənd ˈklɪrli ˈlɪsən pɔɪnt ənd seɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Listen, point and say.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263801.1906228,
+   "sec": 3.32,
+   "check": {
+    "transcript": "Listen, point, and say.",
+    "type": "sentence",
+    "ipa": "ˈlɪsən, pɔɪnt, ənd seɪ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Listen, point, and say. | TYPE=sentence | IPA=ˈlɪsən, pɔɪnt, ənd seɪ. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_listen_point",
+ "sub": "instr",
+ "title": "지시문 · Listen, point and say.",
+ "text": "Listen, point and say.",
+ "voice": "Kore"
+}

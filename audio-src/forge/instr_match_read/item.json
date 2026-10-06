@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Match and read.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263510.1671453,
+   "sec": 4.96,
+   "check": {
+    "transcript": "Say slowly and clearly: match and read.",
+    "type": "sentence",
+    "ipa": "seɪ ˈsloʊli ænd ˈklɪli mætʃ ænd rid",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly: match and read. | TYPE=sentence | IPA=seɪ ˈsloʊli ænd ˈklɪli mætʃ ænd rid | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Match and read.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263817.4985664,
+   "sec": 1.88,
+   "check": {
+    "transcript": "match and read",
+    "type": "sentence",
+    "ipa": "mæʧ ænd riːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=match and read | TYPE=sentence | IPA=mæʧ ænd riːd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_match_read",
+ "sub": "instr",
+ "title": "지시문 · Match and read.",
+ "text": "Match and read.",
+ "voice": "Kore"
+}

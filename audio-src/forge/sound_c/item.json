@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263458.2102315,
+   "sec": 0.68,
+   "check": {
+    "transcript": "k",
+    "type": "isolated-sound",
+    "ipa": "k",
+    "note": "clean",
+    "raw": "TRANSCRIPT=k | TYPE=isolated-sound | IPA=k | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "cat 앞 180ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791263550.6440992,
+   "sec": 0.18,
+   "check": {
+    "transcript": "shh",
+    "type": "word",
+    "ipa": "ʃː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh | TYPE=word | IPA=ʃː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": "c",
+ "id": "sound_c",
+ "sub": "sound",
+ "title": "낱소리 /k/ (c)",
+ "text": "c",
+ "voice": "Kore",
+ "hint": "k as at the start of cat"
+}

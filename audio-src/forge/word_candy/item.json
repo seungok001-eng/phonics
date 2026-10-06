@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: candy",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263475.1887724,
+   "sec": 3.76,
+   "check": {
+    "transcript": "candy",
+    "type": "word",
+    "ipa": "ˈkændi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=candy | TYPE=word | IPA=ˈkændi | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "candy",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263758.2813418,
+   "sec": 1.2,
+   "check": {
+    "transcript": "candy",
+    "type": "word",
+    "ipa": "ˈkændi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=candy | TYPE=word | IPA=ˈkændi | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_candy",
+ "sub": "word",
+ "title": "단어 candy · 사탕",
+ "text": "candy",
+ "voice": "Kore"
+}

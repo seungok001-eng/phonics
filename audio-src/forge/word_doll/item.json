@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "doll",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791265006.5438564,
+   "sec": 1.0,
+   "check": {
+    "transcript": "doll",
+    "type": "word",
+    "ipa": "dɑl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=doll | TYPE=word | IPA=dɑl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_doll",
+ "sub": "word",
+ "title": "단어 doll · 인형",
+ "text": "doll",
+ "voice": "Kore",
+ "busy": 1
+}

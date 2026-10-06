@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I see the duck!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791265029.446812,
+   "sec": 1.48,
+   "check": {
+    "transcript": "I see the duck.",
+    "type": "sentence",
+    "ipa": "aɪ siː ðə dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see the duck. | TYPE=sentence | IPA=aɪ siː ðə dʌk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "u02_l1",
+ "sub": "line",
+ "title": "2유닛 대사 · 릴리: I see the duck!",
+ "text": "I see the duck!",
+ "voice": "Leda",
+ "busy": 1
+}

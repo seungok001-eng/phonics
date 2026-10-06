@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: cat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263471.821483,
+   "sec": 4.04,
+   "check": {
+    "transcript": "Say slowly and clearly, \"cat.\"",
+    "type": "sentence",
+    "ipa": "seɪ sloʊli ənd klɪrli, kæt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly, \"cat.\" | TYPE=sentence | IPA=seɪ sloʊli ənd klɪrli, kæt. | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "cat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263755.88965,
+   "sec": 0.96,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_cat",
+ "sub": "word",
+ "title": "단어 cat · 고양이",
+ "text": "cat",
+ "voice": "Kore"
+}

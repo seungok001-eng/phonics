@@ -132,6 +132,11 @@ def build_sounds(book, units):
                 add(_sound(id=aid, sub='line', title=f"{u['unit']}유닛 대사 · {who_ko}: {ln['text']}", text=ln['text'], voice=voice, unit=u['unit']))
     for k, t in book.get('instructions', {}).items():
         add(_sound(id=f'instr_{k}', sub='instr', title=f'지시문 · {t}', text=t, voice=ins))
+    # 캐릭터 말버릇 (0유닛 친구들 소개 쪽: catch_<id>). 괄호 설명뿐인 것(포미 "(glows)")은 뺀다
+    for cid, c in book.get('characters', {}).items():
+        t = c.get('catchphrase', '').strip()
+        if t and not t.startswith('('):
+            add(_sound(id=f'catch_{cid}', sub='line', title=f"말버릇 · {c.get('ko', cid)}: {t}", text=t, voice=c.get('voice') or nar, unit=0))
     return out
 
 

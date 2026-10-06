@@ -1,0 +1,23 @@
+{
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
+ "attempts": 0,
+ "error": "",
+ "updated": 1791263538.726309,
+ "auto_approved": false,
+ "flow_url": "",
+ "prompt_edited": false,
+ "applied": "2026-10-06 14:35",
+ "gen": "",
+ "job_type": "image",
+ "reference": "cast_sheet",
+ "unit": 0,
+ "id": "scene_u00_2",
+ "kind": "scene",
+ "title": "0유닛 장면 · 2",
+ "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene with a simple uncluttered background, characters large and clearly visible, leaving empty space for speech bubbles to be added later. No text, no speech bubbles, no letters. The characters must look exactly like the ones in the attached character sheet (left to right: Lily, Max, Pomi, Digby). Scene: Through the open little door: a magical sunny garden with a long winding row of twenty-six empty clay flower pots and a small round apple-green sprite with a sprout leaf on its head, sitting sadly on a pot with its mouth closed and a single tear. The girl and boy peek in from the doorway, amazed. Characters: Lily is a cheerful 7-year-old East Asian girl with a straight black bob haircut and a small red hair clip, wearing a bright yellow hoodie, blue shorts and green rain boots. Max is a shy 7-year-old East Asian boy with short curly brown hair, a blue cap worn backwards, an orange t-shirt, dark blue pants, white sneakers and a small green backpack. Pomi is a round apple-green garden sprite the size of a melon, with one small sprout leaf on top of its head, big shiny black eyes, rosy pink cheeks, tiny stubby arms and no legs (it hops and floats), softly glowing. Digby is a grumpy old grey mole with a red-and-white striped nightcap, round spectacles, big pink digging paws and a tiny pink nose.",
+ "aspect": "4:3",
+ "out": "web/assets/art/scene_u00_2.jpg",
+ "claimed_at": 1791263526.6146898
+}

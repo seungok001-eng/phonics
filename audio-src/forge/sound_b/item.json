@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263454.3569133,
+   "sec": 0.84,
+   "check": {
+    "transcript": "b",
+    "type": "isolated-sound",
+    "ipa": "b",
+    "note": "clean",
+    "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "bus 앞 180ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791263550.1437025,
+   "sec": 0.18,
+   "check": {
+    "transcript": "boat",
+    "type": "word",
+    "ipa": "boʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=boat | TYPE=word | IPA=boʊt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": "b",
+ "id": "sound_b",
+ "sub": "sound",
+ "title": "낱소리 /b/ (b)",
+ "text": "b",
+ "voice": "Kore",
+ "hint": "b as at the start of bus"
+}

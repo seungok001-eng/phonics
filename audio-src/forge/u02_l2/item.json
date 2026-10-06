@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The seed is on the duck.",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791265033.6358726,
+   "sec": 2.32,
+   "check": {
+    "transcript": "the seed is on the duck",
+    "type": "sentence",
+    "ipa": "ðə siːd ɪz ɒn ðə dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the seed is on the duck | TYPE=sentence | IPA=ðə siːd ɪz ɒn ðə dʌk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "u02_l2",
+ "sub": "line",
+ "title": "2유닛 대사 · 맥스: The seed is on the duck.",
+ "text": "The seed is on the duck.",
+ "voice": "Puck",
+ "busy": 1
+}

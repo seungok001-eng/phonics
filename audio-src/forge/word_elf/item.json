@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "elf",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791265009.9313157,
+   "sec": 1.12,
+   "check": {
+    "transcript": "elf",
+    "type": "word",
+    "ipa": "ɛlf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=elf | TYPE=word | IPA=ɛlf | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_elf",
+ "sub": "word",
+ "title": "단어 elf · 요정",
+ "text": "elf",
+ "voice": "Kore",
+ "busy": 1
+}

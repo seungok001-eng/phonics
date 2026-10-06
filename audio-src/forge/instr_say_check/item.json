@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Say and check.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263513.467561,
+   "sec": 5.32,
+   "check": {
+    "transcript": "Say slowly and clearly, say and check.",
+    "type": "sentence",
+    "ipa": "seɪ sloʊli ænd klɪrli seɪ ænd tʃɛk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly, say and check. | TYPE=sentence | IPA=seɪ sloʊli ænd klɪrli seɪ ænd tʃɛk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Say and check.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263819.8733437,
+   "sec": 1.92,
+   "check": {
+    "transcript": "say and check",
+    "type": "sentence",
+    "ipa": "seɪ ənd tʃɛk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=say and check | TYPE=sentence | IPA=seɪ ənd tʃɛk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_say_check",
+ "sub": "instr",
+ "title": "지시문 · Say and check.",
+ "text": "Say and check.",
+ "voice": "Kore"
+}

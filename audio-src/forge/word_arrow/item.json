@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: arrow",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263464.6812758,
+   "sec": 3.84,
+   "check": {
+    "transcript": "arrow",
+    "type": "word",
+    "ipa": "ˈæ.roʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=arrow | TYPE=word | IPA=ˈæ.roʊ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "arrow",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263742.7593548,
+   "sec": 1.2,
+   "check": {
+    "transcript": "arrow",
+    "type": "word",
+    "ipa": "ˈæroʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=arrow | TYPE=word | IPA=ˈæroʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_arrow",
+ "sub": "word",
+ "title": "단어 arrow · 화살",
+ "text": "arrow",
+ "voice": "Kore"
+}

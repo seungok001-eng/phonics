@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: This is the Sound Garden.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263539.3515532,
+   "sec": 5.68,
+   "check": {
+    "transcript": "Say slowly and clearly, this is The Sound Garden.",
+    "type": "sentence",
+    "ipa": "seɪ ˈsloʊli ænd ˈklɪli, ðɪs ɪz ðə ˈsaʊnd ˈɡɑrdən.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly, this is The Sound Garden. | TYPE=sentence | IPA=seɪ ˈsloʊli ænd ˈklɪli, ðɪs ɪz ðə ˈsaʊnd ˈɡɑrdən. | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "This is the Sound Garden.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263852.6232474,
+   "sec": 2.32,
+   "check": {
+    "transcript": "This is the sound garden.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ðə saʊnd ɡɑɹdən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is the sound garden. | TYPE=sentence | IPA=ðɪs ɪz ðə saʊnd ɡɑɹdən | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "u00_l2",
+ "sub": "line",
+ "title": "0유닛 대사 · 해설: This is the Sound Garden.",
+ "text": "This is the Sound Garden.",
+ "voice": "Kore"
+}

@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "fan",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791265015.5478265,
+   "sec": 1.08,
+   "check": {
+    "transcript": "fan",
+    "type": "word",
+    "ipa": "fæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fan | TYPE=word | IPA=fæn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_fan",
+ "sub": "word",
+ "title": "단어 fan · 선풍기",
+ "text": "fan",
+ "voice": "Kore",
+ "busy": 1
+}

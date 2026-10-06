@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Listen and circle.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263505.1551943,
+   "sec": 4.2,
+   "check": {
+    "transcript": "listen and circle",
+    "type": "sentence",
+    "ipa": "ˈlɪs.n̩ ænd ˈsɜː.kl̩",
+    "note": "ok",
+    "raw": "TRANSCRIPT=listen and circle | TYPE=sentence | IPA=ˈlɪs.n̩ ænd ˈsɜː.kl̩ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Listen and circle.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263811.173943,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Listen and circle.",
+    "type": "sentence",
+    "ipa": "ˈlɪsən ænd ˈsɜrkəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Listen and circle. | TYPE=sentence | IPA=ˈlɪsən ænd ˈsɜrkəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_listen_circle",
+ "sub": "instr",
+ "title": "지시문 · Listen and circle.",
+ "text": "Listen and circle.",
+ "voice": "Kore"
+}

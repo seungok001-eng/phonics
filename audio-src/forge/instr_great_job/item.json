@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Great job!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263533.9259014,
+   "sec": 4.48,
+   "check": {
+    "transcript": "great job",
+    "type": "sentence",
+    "ipa": "ɡɹeɪt d͡ʒɑb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=great job | TYPE=sentence | IPA=ɡɹeɪt d͡ʒɑb | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Great job!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263842.393761,
+   "sec": 1.6,
+   "check": {
+    "transcript": "Great job.",
+    "type": "sentence",
+    "ipa": "ɡɹeɪt d͡ʒɑb.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Great job. | TYPE=sentence | IPA=ɡɹeɪt d͡ʒɑb. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_great_job",
+ "sub": "instr",
+ "title": "지시문 · Great job!",
+ "text": "Great job!",
+ "voice": "Kore"
+}

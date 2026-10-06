@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Read three times.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263520.8992698,
+   "sec": 5.28,
+   "check": {
+    "transcript": "Say slowly and clearly, read three times.",
+    "type": "sentence",
+    "ipa": "seɪ sloʊli ənd klɪɹli",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly, read three times. | TYPE=sentence | IPA=seɪ sloʊli ənd klɪɹli | riːd θɹiː taɪmz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Read three times.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263828.4204724,
+   "sec": 2.44,
+   "check": {
+    "transcript": "Read three times.",
+    "type": "sentence",
+    "ipa": "ɹiːd θɹiː taɪmz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Read three times. | TYPE=sentence | IPA=ɹiːd θɹiː taɪmz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_read_three",
+ "sub": "instr",
+ "title": "지시문 · Read three times.",
+ "text": "Read three times.",
+ "voice": "Kore"
+}

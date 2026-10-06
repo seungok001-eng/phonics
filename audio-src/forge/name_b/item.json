@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "B",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263453.9572608,
+   "sec": 0.72,
+   "check": {
+    "transcript": "B",
+    "type": "letter-name",
+    "ipa": "biː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=B | TYPE=letter-name | IPA=biː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": "b",
+ "id": "name_b",
+ "sub": "name",
+ "title": "글자 이름 B",
+ "text": "B",
+ "voice": "Kore"
+}

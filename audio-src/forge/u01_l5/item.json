@@ -1,0 +1,67 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: /b/ /b/ bus!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791263489.7915382,
+   "sec": 5.84,
+   "check": {
+    "transcript": "bus",
+    "type": "word",
+    "ipa": "bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bus | TYPE=word | IPA=bʌs | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/b/ /b/ bus!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791263779.452596,
+   "sec": 2.88,
+   "check": {
+    "transcript": "bus",
+    "type": "word",
+    "ipa": "bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bus | TYPE=word | IPA=bʌs | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/b/! /b/! Bus!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791263781.6415205,
+   "sec": 3.24,
+   "check": {
+    "transcript": "bus",
+    "type": "word",
+    "ipa": "bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bus | TYPE=word | IPA=bʌs | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "u01_l5",
+ "sub": "line",
+ "title": "1유닛 대사 · 맥스: /b/ /b/ bus!",
+ "text": "/b/ /b/ bus!",
+ "voice": "Puck"
+}

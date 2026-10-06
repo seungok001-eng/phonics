@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Listen and number.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263509.3440325,
+   "sec": 4.92,
+   "check": {
+    "transcript": "Say slowly and clearly, listen and number.",
+    "type": "sentence",
+    "ipa": "seɪ sloʊli ənd klɪli, lɪsən ənd nʌmbə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly, listen and number. | TYPE=sentence | IPA=seɪ sloʊli ənd klɪli, lɪsən ənd nʌmbə | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Listen and number.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263810.5656743,
+   "sec": 2.16,
+   "check": {
+    "transcript": "listen and number",
+    "type": "sentence",
+    "ipa": "ˈlɪsən ənd ˈnʌmbər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=listen and number | TYPE=sentence | IPA=ˈlɪsən ənd ˈnʌmbər | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_listen_number",
+ "sub": "instr",
+ "title": "지시문 · Listen and number.",
+ "text": "Listen and number.",
+ "voice": "Kore"
+}

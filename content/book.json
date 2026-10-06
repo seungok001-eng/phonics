@@ -218,7 +218,7 @@
   "units": [
     { "n": 0, "title": "The Little Door", "letters": [] },
     { "n": 1, "title": "Pop! Pop! Pop!", "letters": ["a", "b", "c"] },
-    { "n": 2, "ready": false, "title": "The Duck Pond", "letters": ["d", "e", "f"] },
+    { "n": 2, "title": "The Duck Pond", "letters": ["d", "e", "f"] },
     { "n": 3, "ready": false, "title": "The Goat Ate It!", "letters": ["g", "h", "i"] },
     { "n": 4, "ready": false, "title": "The Key", "letters": ["j", "k", "l"] },
     { "n": 5, "ready": false, "title": "Pomi's Garden Walk", "letters": [], "review": [1, 2, 3, 4] },

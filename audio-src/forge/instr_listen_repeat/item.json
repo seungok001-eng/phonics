@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Listen and repeat.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263497.838885,
+   "sec": 5.2,
+   "check": {
+    "transcript": "Say slowly and clearly. Listen and repeat.",
+    "type": "sentence",
+    "ipa": "seɪ sloʊli ænd klɪrli",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly. Listen and repeat. | TYPE=sentence | IPA=seɪ sloʊli ænd klɪrli | lɪsən ænd rɪpit | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Listen and repeat.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263797.8664577,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Listen and repeat.",
+    "type": "sentence",
+    "ipa": "ˈlɪsən ənd rɪˈpiːt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Listen and repeat. | TYPE=sentence | IPA=ˈlɪsən ənd rɪˈpiːt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_listen_repeat",
+ "sub": "instr",
+ "title": "지시문 · Listen and repeat.",
+ "text": "Listen and repeat.",
+ "voice": "Kore"
+}

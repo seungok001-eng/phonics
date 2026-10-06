@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/f/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791264995.7268293,
+   "sec": 1.56,
+   "check": {
+    "transcript": "f",
+    "type": "isolated-sound",
+    "ipa": "f",
+    "note": "clean",
+    "raw": "TRANSCRIPT=f | TYPE=isolated-sound | IPA=f | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "fff",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791264997.6420314,
+   "sec": 1.08,
+   "check": {
+    "transcript": "f",
+    "type": "isolated-sound",
+    "ipa": "f",
+    "note": "clean",
+    "raw": "TRANSCRIPT=f | TYPE=isolated-sound | IPA=f | NOTE=clean"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": "f",
+ "id": "sound_f",
+ "sub": "sound",
+ "title": "낱소리 /f/ (f)",
+ "text": "f",
+ "voice": "Kore",
+ "hint": "f as at the start of fan",
+ "busy": 1
+}

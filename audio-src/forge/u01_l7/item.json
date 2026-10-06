@@ -1,0 +1,67 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: /k/ /k/ cat!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791263493.9423969,
+   "sec": 5.44,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ /k/ cat!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791263786.0341282,
+   "sec": 2.48,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "/kæt/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=/kæt/ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/! /k/! Cat!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791263788.630089,
+   "sec": 2.36,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "u01_l7",
+ "sub": "line",
+ "title": "1유닛 대사 · 릴리: /k/ /k/ cat!",
+ "text": "/k/ /k/ cat!",
+ "voice": "Leda"
+}

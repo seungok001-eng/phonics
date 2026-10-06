@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: astronaut",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263462.5049076,
+   "sec": 4.0,
+   "check": {
+    "transcript": "astronaut",
+    "type": "word",
+    "ipa": "ˈæstrəˌnɔt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=astronaut | TYPE=word | IPA=ˈæstrəˌnɔt | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "astronaut",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263739.4980407,
+   "sec": 1.44,
+   "check": {
+    "transcript": "astronaut",
+    "type": "word",
+    "ipa": "ˈæstɹənɔt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=astronaut | TYPE=word | IPA=ˈæstɹənɔt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_astronaut",
+ "sub": "word",
+ "title": "단어 astronaut · 우주비행사",
+ "text": "astronaut",
+ "voice": "Kore"
+}

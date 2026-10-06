@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: A mole!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263497.6429174,
+   "sec": 3.76,
+   "check": {
+    "transcript": "a mole",
+    "type": "sentence",
+    "ipa": "ə mˈoʊl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a mole | TYPE=sentence | IPA=ə mˈoʊl | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A mole!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263794.3866172,
+   "sec": 1.36,
+   "check": {
+    "transcript": "a mole",
+    "type": "word",
+    "ipa": "ə mˈoʊl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a mole | TYPE=word | IPA=ə mˈoʊl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "u01_l9",
+ "sub": "line",
+ "title": "1유닛 대사 · 함께: A mole!",
+ "text": "A mole!",
+ "voice": "Kore"
+}

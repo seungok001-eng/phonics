@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Look and circle.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263506.081874,
+   "sec": 3.92,
+   "check": {
+    "transcript": "look and circle",
+    "type": "sentence",
+    "ipa": "lʊk ænd ˈsɜːr.kəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=look and circle | TYPE=sentence | IPA=lʊk ænd ˈsɜːr.kəl | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look and circle.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263807.5682976,
+   "sec": 2.04,
+   "check": {
+    "transcript": "look and circle",
+    "type": "sentence",
+    "ipa": "lʊk ænd ˈsɜrkəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=look and circle | TYPE=sentence | IPA=lʊk ænd ˈsɜrkəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_look_circle",
+ "sub": "instr",
+ "title": "지시문 · Look and circle.",
+ "text": "Look and circle.",
+ "voice": "Kore"
+}

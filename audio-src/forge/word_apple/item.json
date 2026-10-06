@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: apple",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263461.0208895,
+   "sec": 3.72,
+   "check": {
+    "transcript": "Say slowly and clearly Apple",
+    "type": "sentence",
+    "ipa": "seɪ sloʊli ənd klɪrli ˈæpəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly Apple | TYPE=sentence | IPA=seɪ sloʊli ənd klɪrli ˈæpəl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "apple",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263737.076502,
+   "sec": 1.08,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæpəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæpəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_apple",
+ "sub": "word",
+ "title": "단어 apple · 사과",
+ "text": "apple",
+ "voice": "Kore"
+}

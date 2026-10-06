@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: Listen to the story.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263522.1852438,
+   "sec": 5.12,
+   "check": {
+    "transcript": "Say slowly and clearly, listen to the story.",
+    "type": "sentence",
+    "ipa": "seɪ sloʊli ənd klɪli, lɪsən tuː ðə stɔɹi.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say slowly and clearly, listen to the story. | TYPE=sentence | IPA=seɪ sloʊli ənd klɪli, lɪsən tuː ðə stɔɹi. | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Listen to the story.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263829.3452709,
+   "sec": 1.96,
+   "check": {
+    "transcript": "Listen to the attached audio clip.",
+    "type": "sentence",
+    "ipa": "ˈlɪsən tuː ðə əˈtætʃt ˈɔːdiəʊ klɪp.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Listen to the attached audio clip. | TYPE=sentence | IPA=ˈlɪsən tuː ðə əˈtætʃt ˈɔːdiəʊ klɪp. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_listen_story",
+ "sub": "instr",
+ "title": "지시문 · Listen to the story.",
+ "text": "Listen to the story.",
+ "voice": "Kore"
+}

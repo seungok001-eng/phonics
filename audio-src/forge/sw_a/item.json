@@ -1,0 +1,50 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say slowly and clearly: a",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263479.4567566,
+   "sec": 3.64,
+   "check": {
+    "transcript": "A",
+    "type": "letter-name",
+    "ipa": "eɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A | TYPE=letter-name | IPA=eɪ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "a",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791263766.373553,
+   "sec": 0.96,
+   "check": {
+    "transcript": "A",
+    "type": "letter-name",
+    "ipa": "eɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A | TYPE=letter-name | IPA=eɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sw_a",
+ "sub": "sw",
+ "title": "사이트워드 a · 하나의",
+ "text": "a",
+ "voice": "Kore"
+}

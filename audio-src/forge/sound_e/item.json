@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/e/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791264991.3661475,
+   "sec": 0.88,
+   "check": {
+    "transcript": "A",
+    "type": "letter-name",
+    "ipa": "eɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A | TYPE=letter-name | IPA=eɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": "e",
+ "id": "sound_e",
+ "sub": "sound",
+ "title": "낱소리 /e/ (e)",
+ "text": "e",
+ "voice": "Kore",
+ "hint": "short e as at the start of egg",
+ "busy": 1
+}
