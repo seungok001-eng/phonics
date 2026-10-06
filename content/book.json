@@ -878,8 +878,7 @@
     },
     {
       "n": 5,
-      "ready": false,
-      "title": "Pomi's Garden Walk",
+      "title": "Pip's Garden Walk",
       "letters": [],
       "review": [
         1,
@@ -935,7 +934,6 @@
     },
     {
       "n": 11,
-      "ready": false,
       "title": "The Garden Party",
       "letters": [],
       "review": [
@@ -944,8 +942,24 @@
         8,
         9,
         10
+      ]
+    },
+    {
+      "n": 12,
+      "title": "The Alphabet Show",
+      "letters": [],
+      "review": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
-      "final": true
+      "show": true
     }
   ],
   "storybook": {

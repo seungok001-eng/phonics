@@ -49,6 +49,7 @@ Sounds are fun, so sing along!
 | `u9_story.mp3` | 9 화산 | `playful suspense, timpani rolls, comic brass, then relief` |
 | `u10_story.mp3` | 10 포미가 노래해 | `joyful celebration, full band, bells, triumphant but sweet` |
 | `u11_story.mp3` | 11 정원 파티 | `party, drums, claps, brass, happy ending` |
+| `u12_story.mp3` | 12 알파벳 쇼(피날레 한 칸·되짚기 공연) | `grand finale, warm strings and bells, curtain-call feeling, gentle drum, sweet` |
 
 ## 4. 챈트 반주 (가사 없음, 4박 박수 느낌, 각 30초 반복)
 | 파일 | 쓰임 | 지시 |
@@ -59,3 +60,24 @@ Sounds are fun, so sing along!
 
 ## 5. 효과음
 펑(pop)·딩(chime)·정답·오답은 웹 교재가 코드로 합성한다(`app.js` `Sound.sfx`). 파일 필요 없음.
+
+## 6. 핍의 노래 — Pip's Song (`pips_song.mp3`, 약 1분 30초, 12유닛 "알파벳 쇼")
+핍이 잃어버렸던 노래가 바로 이 26소리 노래다. 10유닛에서 등불이 열리며 되찾고, 12유닛에서 다 함께 부른다. 가사 원본은 `content/units/unit12.json` 의 `show.song.lines`(한 줄 = 음성 `u12_s01`~`u12_s29`).
+- 스타일 지시: `cheerful alphabet song for young children, ukulele, glockenspiel, claps, 100 bpm, one short line per letter with a clear pause after each, child choir, English, clean mix`
+- 주의: 위 규칙대로 **낱소리(/æ/ 같은 부분)는 노래 AI에게 맡기지 않는다**. 두 가지 중 하나로 만든다. ① 반주 + 글자 이름·단어만 부르게 하고(아래 가사에서 `/…/` 를 빼고 입력), 낱소리는 승인된 TTS(`u12_sNN`)를 웹이 얹는다. ② 반주만 만들고 29줄 전부 TTS 로 얹는다.
+- 가사 (낱소리는 IPA 표기):
+```
+A, a, /æ/, apple!      B, b, /b/, bus!        C, c, /k/, cat!
+D, d, /d/, dog!        E, e, /e/, egg!        F, f, /f/, fan!
+G, g, /g/, goat!       H, h, /h/, hen!        I, i, /ɪ/, ink!
+J, j, /dʒ/, jelly!     K, k, /k/, key!        L, l, /l/, lemon!
+M, m, /m/, milk!       N, n, /n/, nose!       O, o, /ɑ/, otter!
+P, p, /p/, pencil!     Q, q, /kw/, queen!     R, r, /r/, rocket!
+S, s, /s/, sun!        T, t, /t/, turtle!     U, u, /ʌ/, umbrella!
+V, v, /v/, vet!        W, w, /w/, window!     X, x, /ks/, six!
+Y, y, /j/, yogurt!     Z, z, /z/, zebra!
+
+A to Z, we can sing!
+Pip can sing! La la la!
+La la la! Pip's song!
+```

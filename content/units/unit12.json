@@ -1,0 +1,562 @@
+{
+  "unit": 12,
+  "title": "The Alphabet Show",
+  "title_ko": "알파벳 쇼",
+  "letters": [],
+  "sight_words": [],
+  "review": {
+    "letters": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "q",
+      "r",
+      "s",
+      "t",
+      "u",
+      "v",
+      "w",
+      "x",
+      "y",
+      "z"
+    ],
+    "test": {
+      "listen_circle": [
+        {
+          "audio": "sound_b",
+          "options": [
+            "b",
+            "d",
+            "p"
+          ],
+          "answer": "b"
+        },
+        {
+          "audio": "sound_m",
+          "options": [
+            "m",
+            "n",
+            "w"
+          ],
+          "answer": "m"
+        },
+        {
+          "audio": "sound_i",
+          "options": [
+            "a",
+            "i",
+            "e"
+          ],
+          "answer": "i"
+        },
+        {
+          "audio": "word_jelly",
+          "options": [
+            "jelly",
+            "juice",
+            "yogurt"
+          ],
+          "answer": "jelly"
+        },
+        {
+          "audio": "word_zebra",
+          "options": [
+            "zebra",
+            "zipper",
+            "seal"
+          ],
+          "answer": "zebra"
+        },
+        {
+          "audio": "word_quack",
+          "options": [
+            "quack",
+            "duck",
+            "queen"
+          ],
+          "answer": "quack"
+        }
+      ],
+      "match": [
+        {
+          "letter": "c",
+          "word": "cup"
+        },
+        {
+          "letter": "h",
+          "word": "hen"
+        },
+        {
+          "letter": "o",
+          "word": "otter"
+        },
+        {
+          "letter": "v",
+          "word": "vest"
+        }
+      ],
+      "find_write": [
+        {
+          "word": "fan",
+          "letter": "f"
+        },
+        {
+          "word": "lemon",
+          "letter": "l"
+        },
+        {
+          "word": "panda",
+          "letter": "p"
+        },
+        {
+          "word": "window",
+          "letter": "w"
+        }
+      ]
+    },
+    "first_letter": [
+      "apple",
+      "egg",
+      "goat",
+      "jump",
+      "net",
+      "rocket",
+      "umbrella",
+      "yak"
+    ],
+    "sort": {
+      "b": [
+        "bus",
+        "bed"
+      ],
+      "f": [
+        "fan",
+        "fork"
+      ],
+      "s": [
+        "sun",
+        "soup"
+      ],
+      "z": [
+        "zebra",
+        "zigzag"
+      ]
+    }
+  },
+  "show": {
+    "song": {
+      "title": "Pip's Song",
+      "bgm": "pips_song",
+      "lines": [
+        {
+          "text": "A, a, /æ/, apple!",
+          "audio": "u12_s01"
+        },
+        {
+          "text": "B, b, /b/, bus!",
+          "audio": "u12_s02"
+        },
+        {
+          "text": "C, c, /k/, cat!",
+          "audio": "u12_s03"
+        },
+        {
+          "text": "D, d, /d/, dog!",
+          "audio": "u12_s04"
+        },
+        {
+          "text": "E, e, /e/, egg!",
+          "audio": "u12_s05"
+        },
+        {
+          "text": "F, f, /f/, fan!",
+          "audio": "u12_s06"
+        },
+        {
+          "text": "G, g, /g/, goat!",
+          "audio": "u12_s07"
+        },
+        {
+          "text": "H, h, /h/, hen!",
+          "audio": "u12_s08"
+        },
+        {
+          "text": "I, i, /ɪ/, ink!",
+          "audio": "u12_s09"
+        },
+        {
+          "text": "J, j, /dʒ/, jelly!",
+          "audio": "u12_s10"
+        },
+        {
+          "text": "K, k, /k/, key!",
+          "audio": "u12_s11"
+        },
+        {
+          "text": "L, l, /l/, lemon!",
+          "audio": "u12_s12"
+        },
+        {
+          "text": "M, m, /m/, milk!",
+          "audio": "u12_s13"
+        },
+        {
+          "text": "N, n, /n/, nose!",
+          "audio": "u12_s14"
+        },
+        {
+          "text": "O, o, /ɑ/, otter!",
+          "audio": "u12_s15"
+        },
+        {
+          "text": "P, p, /p/, pencil!",
+          "audio": "u12_s16"
+        },
+        {
+          "text": "Q, q, /kw/, queen!",
+          "audio": "u12_s17"
+        },
+        {
+          "text": "R, r, /r/, rocket!",
+          "audio": "u12_s18"
+        },
+        {
+          "text": "S, s, /s/, sun!",
+          "audio": "u12_s19"
+        },
+        {
+          "text": "T, t, /t/, turtle!",
+          "audio": "u12_s20"
+        },
+        {
+          "text": "U, u, /ʌ/, umbrella!",
+          "audio": "u12_s21"
+        },
+        {
+          "text": "V, v, /v/, vet!",
+          "audio": "u12_s22"
+        },
+        {
+          "text": "W, w, /w/, window!",
+          "audio": "u12_s23"
+        },
+        {
+          "text": "X, x, /ks/, six!",
+          "audio": "u12_s24"
+        },
+        {
+          "text": "Y, y, /j/, yogurt!",
+          "audio": "u12_s25"
+        },
+        {
+          "text": "Z, z, /z/, zebra!",
+          "audio": "u12_s26"
+        },
+        {
+          "text": "A to Z, we can sing!",
+          "audio": "u12_s27"
+        },
+        {
+          "text": "Pip can sing! La la la!",
+          "audio": "u12_s28"
+        },
+        {
+          "text": "La la la! Pip's song!",
+          "audio": "u12_s29"
+        }
+      ]
+    },
+    "hunt": {
+      "rounds": [
+        {
+          "letter": "b",
+          "scene": "scene_u01_2",
+          "words": [
+            "bus",
+            "bag",
+            "bed"
+          ]
+        },
+        {
+          "letter": "d",
+          "scene": "scene_u02_1",
+          "words": [
+            "duck",
+            "dog",
+            "doll"
+          ]
+        },
+        {
+          "letter": "g",
+          "scene": "scene_u03_1",
+          "words": [
+            "goat",
+            "guitar"
+          ]
+        },
+        {
+          "letter": "k",
+          "scene": "scene_u04_1",
+          "words": [
+            "koala",
+            "key",
+            "kite"
+          ]
+        },
+        {
+          "letter": "m",
+          "scene": "scene_u06_1",
+          "words": [
+            "moon",
+            "monkey",
+            "milk"
+          ]
+        },
+        {
+          "letter": "r",
+          "scene": "scene_u07_3",
+          "words": [
+            "rocket",
+            "rain",
+            "rice"
+          ]
+        },
+        {
+          "letter": "s",
+          "scene": "scene_u08_1",
+          "words": [
+            "sun",
+            "seal"
+          ]
+        },
+        {
+          "letter": "w",
+          "scene": "scene_u09_2",
+          "words": [
+            "water",
+            "worm",
+            "window"
+          ]
+        }
+      ]
+    },
+    "recap": [
+      {
+        "unit": 0,
+        "scene": "scene_u00_2",
+        "line": {
+          "who": "narrator",
+          "text": "This is Pip. Pip cannot sing.",
+          "audio": "u00_l3"
+        }
+      },
+      {
+        "unit": 1,
+        "scene": "scene_u01_4",
+        "line": {
+          "who": "both",
+          "text": "A! B! C!",
+          "audio": "u01_l10"
+        }
+      },
+      {
+        "unit": 2,
+        "scene": "scene_u02_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... Thank you.",
+          "audio": "u02_l9"
+        }
+      },
+      {
+        "unit": 3,
+        "scene": "scene_u03_2",
+        "line": {
+          "who": "narrator",
+          "text": "Pip tries. Hic! Hic!",
+          "audio": "u03_l5"
+        }
+      },
+      {
+        "unit": 4,
+        "scene": "scene_u04_4",
+        "line": {
+          "who": "bun",
+          "text": "Jump in!",
+          "audio": "u04_l10"
+        }
+      },
+      {
+        "unit": 5,
+        "scene": "scene_u05_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... My garden.",
+          "audio": "u05_l12"
+        }
+      },
+      {
+        "unit": 6,
+        "scene": "scene_u06_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh! It is my pot!",
+          "audio": "u06_l11"
+        }
+      },
+      {
+        "unit": 7,
+        "scene": "scene_u07_2",
+        "line": {
+          "who": "grumble",
+          "text": "Shh! It is my quilt!",
+          "audio": "u07_l5"
+        }
+      },
+      {
+        "unit": 8,
+        "scene": "scene_u08_3",
+        "line": {
+          "who": "bun",
+          "text": "Up, up, up!",
+          "audio": "u08_l7"
+        }
+      },
+      {
+        "unit": 9,
+        "scene": "scene_u09_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh! Look at my lantern!",
+          "audio": "u09_l10"
+        }
+      },
+      {
+        "unit": 10,
+        "scene": "scene_u10_4",
+        "line": {
+          "who": "narrator",
+          "text": "This is it! Pip sings!",
+          "audio": "u10_l10"
+        }
+      },
+      {
+        "unit": 11,
+        "scene": "scene_u11_3",
+        "line": {
+          "who": "grumble",
+          "text": "I like the song too!",
+          "audio": "u11_l7"
+        }
+      }
+    ],
+    "certificate": {
+      "title": "Sound Garden Certificate",
+      "text": "can read all 26 letter sounds!",
+      "text_ko": "26개 소리를 모두 읽을 수 있어요"
+    }
+  },
+  "objectives_ko": [
+    "알파벳 26자의 소리를 노래(핍의 노래)로 한 번에 말한다",
+    "A부터 Z까지 순서대로 잇고 장면 그림에서 첫소리 단어를 찾는다",
+    "12장면으로 이야기 전체를 되짚으며 대사를 따라 말한다(공연)",
+    "전체 복습 평가를 보고 소리 정원 지킴이 수료증을 받는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Pip's Song",
+      "title_ko": "핍의 노래",
+      "pages": [
+        {
+          "type": "alphabet_song",
+          "title": "Pip's Song"
+        },
+        {
+          "type": "alphabet_path",
+          "title": "Follow A to Z."
+        },
+        {
+          "type": "word_hunt",
+          "title": "Word hunt"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_letters",
+          "title": "A. Letters A to Z."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "The Show",
+      "title_ko": "알파벳 쇼",
+      "pages": [
+        {
+          "type": "story_recap",
+          "title": "The Alphabet Show"
+        },
+        {
+          "type": "review_test",
+          "title": "Review Test"
+        },
+        {
+          "type": "certificate",
+          "title": "Certificate"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_words",
+          "title": "B. Words A to Z."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Alphabet Show",
+    "bgm": "u12_story",
+    "panels": [
+      {
+        "id": "scene_u12_1",
+        "desc": "Grand finale on a stage made of giant flowers in the middle of the blooming Sound Garden at golden sunset. Pip stands at the front of the petal stage with its beak wide open, singing, golden music notes and sparkles streaming into the sky. Beside it Grumble sits beating a small drum with two sticks, grinning, his lantern hanging above the stage shining like a star. Bun and Hedgie dance on either side with arms up. All twenty-six letter trees stand in a wide circle around the stage, every tree glowing softly and heavy with fruit, with the animal friends (the queen swan, the panda, the zebra, the yak, the otter, the monkey) clapping in front of them. Blossom petals drift everywhere.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Look! The Alphabet Show!",
+            "audio": "u12_l1"
+          },
+          {
+            "who": "both",
+            "text": "We can sing A to Z!",
+            "audio": "u12_l2"
+          },
+          {
+            "who": "grumble",
+            "text": "Boom! Boom! I like it!",
+            "audio": "u12_l3"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [],
+  "storybook": {
+    "pages": []
+  }
+}
