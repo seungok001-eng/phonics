@@ -309,3 +309,5 @@ body.teacher #top .brand small { display: none; }
   body.teacher #pageInfo { display: none; }
   body.teacher #top .brand { font-size: 18px; }
 }
+#top button, #top .split button { white-space: nowrap; }
+@media (max-width: 1750px) { body.teacher #pageInfo { display: none; } body.teacher #top .split button { padding: 6px 7px; } }
