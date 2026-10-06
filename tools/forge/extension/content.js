@@ -3118,23 +3118,45 @@ async function ensureAspectSelected(aspect) {
     el.getAttribute("aria-checked") === "true" || el.getAttribute("aria-pressed") === "true" || el.getAttribute("aria-selected") === "true";
   let btn = findBtn();
   if (!btn) {
-    const opened = await openFlowModeSelector();
+    // 팝오버가 닫혀 있다. ① 예전 방식(crop_ 아이콘 단독 버튼) ② 새 UI: 프롬프트 칸의 모델 칩("🍌 Nano Banana Pro ▢ x1")을 누르면 설정 팝오버가 열린다
+    let opened = await openFlowModeSelector();
+    if (!opened) {
+      const chip = Array.from(document.querySelectorAll("button, [role='button']"))
+        .filter((el) => el instanceof HTMLElement && isVisible(el))
+        .find((el) => {
+          const txt = (el.textContent || "").toLowerCase();
+          const hasModel = /nano\s*banana|veo|imagen|gemini/.test(txt);
+          const hasIcon = !!el.querySelector("[class*='google-symbols'], [class*='symbol']") || /\bx[1-4]\b/.test(txt);
+          return hasModel && hasIcon && el.closest("[role='dialog'], [role='menu']") === null;
+        });
+      if (chip) {
+        console.log("[Flow Bridge] 모델 칩 클릭으로 설정 팝오버 열기");
+        try { await cdpClickElement(chip); } catch (e) { await clickLikeUser(chip); }
+        opened = true;
+      }
+    }
     if (!opened) throw new Error("설정 팝오버를 열지 못함");
     btn = await waitFor(() => findBtn(), 3000, 150).catch(() => null);
   }
-  if (!btn) throw new Error(`비율 버튼 ${want} 을 찾지 못함`);
+  if (!btn) {
+    await closeOpenFlowDialogIfAny(1).catch(() => {});
+    throw new Error(`비율 버튼 ${want} 을 찾지 못함`);
+  }
   if (isOn(btn)) {
     console.log(`[Flow Bridge] 비율 ${want} 이미 선택됨`);
-    return;
+  } else {
+    try {
+      await cdpClickElement(btn);
+    } catch (e) {
+      console.warn(`[Flow Bridge] 비율 ${want} CDP 클릭 실패, clickLikeUser 로 재시도:`, e?.message || e);
+      await clickLikeUser(btn);
+    }
+    await SLEEP(350);
+    console.log(`[Flow Bridge] 비율 ${want} 선택`);
   }
-  try {
-    await cdpClickElement(btn);
-  } catch (e) {
-    console.warn(`[Flow Bridge] 비율 ${want} CDP 클릭 실패, clickLikeUser 로 재시도:`, e?.message || e);
-    await clickLikeUser(btn);
-  }
-  await SLEEP(350);
-  console.log(`[Flow Bridge] 비율 ${want} 선택`);
+  // 팝오버 닫기 (ESC). 안 닫혀도 다음 단계의 프롬프트 칸 클릭으로 닫힌다
+  await closeOpenFlowDialogIfAny(1).catch(() => {});
+  try { chrome.storage.local.set({ lastStatus: `비율 ${want} 선택됨` }); } catch (e) {}
 }
 
 // Flow 상단의 "이미지" / "동영상" 탭을 지정한 mode 로 확실히 전환.
@@ -3410,6 +3432,7 @@ async function runJobOnce(job) {
       await ensureAspectSelected(job.aspect);
     } catch (e) {
       console.warn("[Flow Bridge] 비율 선택 건너뜀:", e?.message || e);
+      try { chrome.storage.local.set({ lastStatus: `비율 ${job.aspect} 선택 실패: ${e?.message || e}` }); } catch (e2) {}
     }
   }
 
