@@ -31,6 +31,27 @@ h1, h2, h3, .display { font-family: 'Fredoka', 'Andika', sans-serif; font-weight
 #toast.on { opacity: 1; }
 body.teacher #top button, body.teacher #top a.btn { font-size: 18px; padding: 9px 16px; }
 
+/* ---------- 선생님 모드: 왼쪽 교재 + 오른쪽 필기판, 펜 ---------- */
+body.teacher #stage { display: flex; gap: 10px; padding: 10px; align-items: stretch; justify-content: flex-start; overflow: hidden; }
+#pageWrap { position: relative; flex: 0 0 auto; }
+#scaler { position: relative; }
+body.teacher #scaler { transform-origin: top left; }   /* 쪽이 왼쪽에 딱 붙고 오른쪽 필기판과 겹치지 않게 */
+.page-ink { position: absolute; left: 0; top: 0; width: 794px; height: 1123px; z-index: 5; cursor: crosshair; touch-action: none; }
+#boardPanel { flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 6px; min-height: 0; }
+.ink-tools, .board-bar { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; background: #fff; border: 2px solid var(--line); border-radius: 12px; padding: 6px; }
+.tb { width: 44px; height: 44px; border-radius: 10px; border: 2px solid var(--line); background: #fff; font-size: 22px; display: inline-flex; align-items: center; justify-content: center; }
+.tb.on { border-color: var(--orange); background: #FFF3E6; box-shadow: inset 0 0 0 2px var(--orange); }
+.tb.col { width: 34px; height: 34px; border-radius: 50%; border-color: #fff; box-shadow: 0 0 0 2px var(--line); }
+.tb.col.on { box-shadow: 0 0 0 3px var(--orange); }
+.tb.sz i { display: inline-block; border-radius: 50%; background: #333; }
+.tb.small { width: auto; padding: 0 10px; height: 36px; font-size: 15px; font-family: 'Andika'; font-weight: 700; }
+.sep { width: 2px; height: 28px; background: var(--line); margin: 0 4px; }
+.grow { flex: 1; }
+.board-bar .lab { font-size: 13px; color: var(--soft); }
+#boardWrap { flex: 1; min-height: 0; background: #fff; border: 2px solid var(--line); border-radius: 12px; overflow: hidden; position: relative; }
+#boardCanvas { display: block; touch-action: none; cursor: crosshair; }
+body.ink-on #boardCanvas, body.ink-on .page-ink { cursor: crosshair; }
+
 /* ---------- 한 쪽 ---------- */
 .page { width: var(--page-w); height: var(--page-h); background: var(--paper); border-radius: 10px; box-shadow: 0 8px 30px rgba(60,40,20,.18); position: relative; overflow: hidden; padding: 34px 40px 48px; display: flex; flex-direction: column; gap: 14px; }
 .page.wb { background: #FFFDF7; }

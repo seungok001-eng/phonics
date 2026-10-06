@@ -15,3 +15,6 @@ audio-src/**/_trash/
 
 # 완성 그림(cut)은 web/assets 에 같은 것이 있으니 저장소에는 한 벌만
 art-src/**/cut.*
+
+# 일레븐랩스 목소리 샘플(로컬 전용)
+audio-src/voices/
