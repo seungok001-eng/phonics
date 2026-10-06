@@ -43,7 +43,12 @@ body.teacher #divider { display: block; }
 .teacher-only { display: none; }
 body.teacher .teacher-only { display: inline-flex; gap: 4px; }
 body.teacher #top { gap: 6px; }
-.page-ink { position: absolute; left: 0; top: 0; width: 794px; height: 1123px; z-index: 5; cursor: crosshair; touch-action: none; }
+.page-ink { position: absolute; left: 0; top: 0; width: 794px; height: 1123px; z-index: 5; cursor: crosshair; touch-action: none; mix-blend-mode: multiply; }   /* 곱하기 섞기: 형광펜이 글씨를 가리지 않는다 */
+/* 교재 가리개: 교재 칸 위에 붙어(sticky) 스크롤해도 그 자리, 아래 손잡이를 끌어 조금씩 보인다 */
+#coverStick { display: none; position: sticky; top: 0; left: 0; height: 0; z-index: 20; }
+body.teacher.cover-on #coverStick { display: block; }
+#cover { position: absolute; left: 0; top: 0; width: 100%; background: repeating-linear-gradient(45deg, #3B2F2F 0 22px, #4A3B3B 22px 44px); border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,.35); }
+#coverHandle { position: absolute; left: 0; right: 0; bottom: 0; height: 40px; background: var(--orange); color: #fff; font-family: 'Fredoka'; font-size: 16px; display: flex; align-items: center; justify-content: center; cursor: ns-resize; touch-action: none; border-radius: 0 0 10px 10px; user-select: none; }
 #boardPanel { flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 6px; min-height: 0; }
 .ink-tools, .board-bar { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; background: #fff; border: 2px solid var(--line); border-radius: 12px; padding: 6px; }
 .tb { width: 44px; height: 44px; border-radius: 10px; border: 2px solid var(--line); background: #fff; font-size: 22px; display: inline-flex; align-items: center; justify-content: center; }

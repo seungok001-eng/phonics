@@ -16,12 +16,12 @@
   <button onclick="go(-1)" id="btnPrev">◀</button>
   <button onclick="go(1)" id="btnNext">▶</button>
   <button class="primary" onclick="mainPlay()" title="스페이스">🔊 Play</button>
-  <span class="teacher-only" id="zoomBox"><button onclick="zoomBy(-0.15)" title="교재 작게 (단축키 -)">🔍−</button><button onclick="zoomSet(1)" title="화면 높이에 맞춤 (단축키 0)" id="zoomLabel">맞춤</button><button onclick="zoomBy(0.15)" title="교재 크게 (단축키 +)">🔍+</button><button onclick="toggleBoard()" id="btnBoard" title="필기판 보이기/숨기기">📝</button></span>
+  <span class="teacher-only" id="zoomBox"><button onclick="zoomBy(-0.15)" title="교재 작게 (단축키 -)">🔍−</button><button onclick="zoomSet(1)" title="화면 높이에 맞춤 (단축키 0)" id="zoomLabel">맞춤</button><button onclick="zoomBy(0.15)" title="교재 크게 (단축키 +)">🔍+</button><button onclick="toggleBoard()" id="btnBoard" title="필기판 보이기/숨기기">📝</button><button onclick="toggleCover()" id="btnCover" title="교재 가리개 (단축키 C)">🙈</button></span>
   <button onclick="toggleTeacher()" id="btnTeacher" title="선생님 모드: 글자·단추가 커지고 전체화면">👩‍🏫</button>
   <button onclick="toggleFull()" title="전체화면">⛶</button>
   <a class="btn" id="lnkPrint" href="#" target="_blank" title="인쇄용">🖨</a>
 </div>
-<div id="stage"><div id="pageWrap"><div id="scaler"></div></div><div id="divider" title="끌어서 교재·필기판 크기 조절"></div></div>
+<div id="stage"><div id="pageWrap"><div id="coverStick"><div id="cover"><div id="coverHandle">▼ 끌어서 조금씩 보이기 · 두 번 누르면 걷기</div></div></div><div id="scaler"></div></div><div id="divider" title="끌어서 교재·필기판 크기 조절"></div></div>
 <div id="overlay"><div class="card"><h1 style="color:var(--orange);margin:0 0 6px">Pomi Phonics</h1><p style="color:var(--soft);margin:0 0 18px">소리를 켜려면 한 번 눌러 주세요</p><button onclick="startApp()">▶ Start</button></div></div>
 <div id="toast"></div>
 <script src="app.js"></script>
@@ -87,7 +87,22 @@ function fit() {
   $('zoomLabel').textContent = Math.round(View.zoom * 100) + '%';
   $('btnBoard').classList.toggle('primary', !boardOn);
   if (boardOn) boardResize();
+  coverApply();
 }
+// 교재 가리개: 켜면 교재 칸 전체를 덮고, 아래 손잡이를 끌어 위에서부터 조금씩 보인다
+function toggleCover() { View.cover = !View.cover; if (View.cover) View.coverH = 1; coverApply(); }
+function coverApply() {
+  const on = App.teacher && !!View.cover;
+  document.body.classList.toggle('cover-on', on); $('btnCover').classList.toggle('primary', on);
+  if (on) $('cover').style.height = Math.round(Math.max(.08, Math.min(1, View.coverH || 1)) * $('pageWrap').clientHeight) + 'px';
+}
+(() => {
+  const h = document.getElementById('coverHandle'); let drag = false;
+  h.addEventListener('pointerdown', (e) => { drag = true; h.setPointerCapture(e.pointerId); e.preventDefault(); });
+  h.addEventListener('pointermove', (e) => { if (!drag) return; const r = $('pageWrap').getBoundingClientRect(); View.coverH = (e.clientY - r.top) / r.height; coverApply(); });
+  h.addEventListener('pointerup', () => { drag = false; });
+  h.addEventListener('dblclick', () => { View.cover = false; coverApply(); });
+})();
 function zoomBy(d) { zoomSet(View.zoom + d); }
 function zoomSet(z) { View.zoom = Math.max(.5, Math.min(3, Math.round(z * 100) / 100)); saveView(); fit(); }
 function toggleBoard() { View.board = !View.board; saveView(); fit(); }
@@ -116,6 +131,7 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight') go(1); else if (e.key === 'ArrowLeft') go(-1); else if (e.key === ' ') { e.preventDefault(); mainPlay(); }
   else if (App.teacher && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'PageDown' || e.key === 'PageUp')) { e.preventDefault(); const pw = $('pageWrap'); pw.scrollBy({ top: (e.key.endsWith('Down') ? 1 : -1) * (e.key.startsWith('Page') ? pw.clientHeight * 0.8 : 90), behavior: 'smooth' }); }
   else if (App.teacher && (e.key === '+' || e.key === '=')) zoomBy(0.15); else if (App.teacher && e.key === '-') zoomBy(-0.15); else if (App.teacher && e.key === '0') zoomSet(1);
+  else if (App.teacher && (e.key === 'c' || e.key === 'C')) toggleCover();
 });
 (async () => {
   App.book = await loadJSON('book.json');

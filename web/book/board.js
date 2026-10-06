@@ -4,7 +4,7 @@
 const Ink = {
   tool: 'hand', color: '#E0523E', size: 4, surfaces: [], current: null, boardNo: 1,
   COLORS: ['#1F1F1F', '#E0523E', '#2E5FBF', '#2E9E44', '#F28C38', '#A98BE0'],
-  SIZES: { S: 2.5, M: 4.5, L: 8 },
+  SIZES: { S: 2.5, M: 4.5, L: 8, XL: 14, XXL: 22 },
 };
 
 // 그리는 면 하나 (캔버스 + 획 목록 + 저장 키)
@@ -19,9 +19,12 @@ class Surface {
     canvas.style.touchAction = 'none';
   }
   // 화면 좌표 → 논리 좌표
-  pt(e) { const r = this.c.getBoundingClientRect(); return { x: (e.clientX - r.left) / r.width * this.W, y: (e.clientY - r.top) / r.height * this.H, p: e.pressure || 0.5 }; }
+  // 논리 단위 1 = 기기 픽셀 k 개 (가로·세로 같은 배율 — 필기판처럼 캔버스 비율이 논리 비율과 달라도 펜 위치와 선이 어긋나지 않는다)
+  k() { return Math.min(this.c.width / this.W, this.c.height / this.H); }
+  pt(e) { const r = this.c.getBoundingClientRect(), k = this.k(); return { x: (e.clientX - r.left) / r.width * this.c.width / k, y: (e.clientY - r.top) / r.height * this.c.height / k, p: e.pressure || 0.5 }; }
   down(e) {
     if (Ink.tool === 'hand') return;
+    Ink.last = this;   // 되돌리기·다시는 마지막으로 그린 면에
     e.preventDefault(); this.c.setPointerCapture(e.pointerId);
     const p = this.pt(e);
     if (Ink.tool === 'eraser') { this.eraseAt(p); this.erasing = true; return; }
@@ -58,7 +61,7 @@ class Surface {
   }
   // 획 그리기: 중간점을 잇는 곡선으로 부드럽게. from 부터 이어 그린다
   drawStroke(s, from = 0) {
-    const ctx = this.ctx, k = this.c.width / this.W;
+    const ctx = this.ctx, k = this.k();
     ctx.save(); ctx.scale(k, k);
     ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.strokeStyle = s.color;
     ctx.globalAlpha = s.tool === 'high' ? 0.35 : 1; ctx.globalCompositeOperation = s.tool === 'high' ? 'multiply' : 'source-over';
@@ -81,12 +84,12 @@ class Surface {
   }
   drawLaser() {
     this.render();
-    const ctx = this.ctx, k = this.c.width / this.W; ctx.save(); ctx.scale(k, k);
+    const ctx = this.ctx, k = this.k(); ctx.save(); ctx.scale(k, k);
     this.laser.forEach((p, i) => { ctx.beginPath(); ctx.fillStyle = `rgba(255,40,40,${(i + 1) / this.laser.length})`; ctx.arc(p.x, p.y, 6 + i * 0.6, 0, 7); ctx.fill(); });
     ctx.restore();
   }
   drawBg() {
-    const ctx = this.ctx, k = this.c.width / this.W; ctx.save(); ctx.scale(k, k);
+    const ctx = this.ctx, k = this.k(); ctx.save(); ctx.scale(k, k);
     ctx.strokeStyle = '#C8D8EA'; ctx.lineWidth = 1;
     if (this.bg === 'lines') {   // 영어 공책 4줄 (위·가운데 점선·아래), 110px 간격
       for (let y = 60; y < this.H - 20; y += 110) {
@@ -101,7 +104,7 @@ class Surface {
     ctx.restore();
   }
   drawStamps() {
-    const ctx = this.ctx, k = this.c.width / this.W; ctx.save(); ctx.scale(k, k);
+    const ctx = this.ctx, k = this.k(); ctx.save(); ctx.scale(k, k);
     for (const s of this.stamps) {
       ctx.font = `700 ${s.size}px Andika, sans-serif`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
       ctx.lineWidth = 3; ctx.strokeStyle = s.color; ctx.fillStyle = s.fill || 'transparent';
@@ -192,10 +195,10 @@ function inkToolbar() {
     <span class="sep"></span>
     ${Ink.COLORS.map((c) => `<button class="tb col" data-color="${c}" style="background:${c}" onclick="setColor('${c}')" title="색"></button>`).join('')}
     <span class="sep"></span>
-    ${Object.entries(Ink.SIZES).map(([k, v]) => `<button class="tb sz" data-size="${v}" onclick="setSize(${v})" title="굵기 ${k}"><i style="width:${v * 2 + 4}px;height:${v * 2 + 4}px"></i></button>`).join('')}
+    ${Object.entries(Ink.SIZES).map(([k, v]) => `<button class="tb sz" data-size="${v}" onclick="setSize(${v})" title="굵기 ${k}"><i style="width:${Math.min(34, v * 1.4 + 4)}px;height:${Math.min(34, v * 1.4 + 4)}px"></i></button>`).join('')}
     <span class="sep"></span>
-    <button class="tb" onclick="inkActive().undo()" title="되돌리기">↶</button><button class="tb" onclick="inkActive().redoOne()" title="다시">↷</button>
-    <button class="tb" onclick="if(confirm('이 면의 필기를 전부 지울까요?'))inkActive().clear()" title="전부 지우기">🗑</button>
+    <button class="tb" onclick="inkActive().undo()" title="되돌리기 (마지막에 그린 면)">↶</button><button class="tb" onclick="inkActive().redoOne()" title="다시">↷</button>
+    <button class="tb small" onclick="if(Ink.page&&confirm('교재 위 필기를 전부 지울까요?'))Ink.page.clear()" title="교재 쪽 위에 쓴 필기만 지운다">🗑 교재</button>
     <span class="sep"></span>
     <button class="tb on" onclick="toggleShapeFix(this)" title="도형 보정: 손으로 그린 동그라미·네모·세모·직선을 반듯하게">⬡</button>
   </div>`;
@@ -211,6 +214,7 @@ function boardPanel() {
       <span class="sep"></span>
       <span class="lab">글자 도장</span><span id="stampBtns"></span>
       <span class="grow"></span>
+      <button class="tb small" onclick="if(confirm('필기판 '+Ink.boardNo+'을 전부 지울까요?'))Ink.board.clear()" title="이 필기판만 지운다">🗑 판</button>
       <button class="tb small" onclick="boardSave()" title="PNG 로 저장">💾</button>
     </div>
     <div id="boardWrap"><canvas id="boardCanvas"></canvas></div>
