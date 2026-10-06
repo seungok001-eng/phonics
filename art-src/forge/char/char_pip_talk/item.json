@@ -1,12 +1,12 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "review",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 1,
- "error": "시간 초과",
- "updated": 0,
+ "error": "",
+ "updated": 1791283544.5198467,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/8fa81063-2b83-480b-ad46-0c70a2de0f41?Expires=1791305118&KeyName=labs-flow-prod-cdn-key&Signature=oiq5Zq3EbFJTAcrVlLHMamkGNDI",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -21,5 +21,5 @@
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Pip, a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Pose: standing straight, arms relaxed at the sides, friendly smile, looking at the viewer, but with the MOUTH OPEN as if speaking mid-word, everything else exactly the same as the reference. SAME character as the attached reference image: identical face, hair, clothes and colors. Only the pose and expression change.",
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_talk.png",
- "claimed_at": 1791280130.7147295
+ "claimed_at": 1791283500.8786137
 }

@@ -1,12 +1,12 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "review",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 1,
- "error": "시간 초과",
- "updated": 0,
+ "error": "",
+ "updated": 1791283499.8757808,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/eb0d5f67-3527-4044-8bee-127ad77d19e1?Expires=1791305075&KeyName=labs-flow-prod-cdn-key&Signature=YH3jCKwm91OklOC_Ihf1YHqPw5A",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -21,5 +21,5 @@
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Pip, a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Pose: standing straight, arms relaxed at the sides, friendly smile, looking at the viewer, but with BOTH EYES CLOSED (mid-blink), everything else exactly the same as the reference. SAME character as the attached reference image: identical face, hair, clothes and colors. Only the pose and expression change.",
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_blink.png",
- "claimed_at": 1791280128.19199
+ "claimed_at": 1791283458.3908052
 }

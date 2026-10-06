@@ -102,6 +102,20 @@ def build_items(book, units):
         for v in u.get('videos', []):
             items.append(_item(id=v['id'], kind='video', job_type='video', title=f"{u['unit']}유닛 영상 · {v['id'].split('_')[-1]} ({v.get('seconds', 8)}초)", unit=u['unit'],
                                prompt=v['prompt'], reference=v['from'], seconds=v.get('seconds', 8), aspect='4:3', out=f"web/assets/video/{v['id']}.mp4"))
+        # 8. 스토리북 쪽 그림 (유닛 JSON storybook.pages, 캐스트 시트 참조, A5 가로에 맞게 4:3)
+        for p in (u.get('storybook') or {}).get('pages', []):
+            prompt = (f"{st['art']} {st['scene']} Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: {names}). "
+                      f"Scene: {p['desc']} Characters: {who}")
+            items.append(_item(id=p['id'], kind='scene', title=f"{u['unit']}유닛 스토리북 · {p['id'].split('_')[-1]}쪽", unit=u['unit'],
+                               prompt=prompt, reference='cast_sheet', aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
+    # 9. 스토리북 표지·앞·뒤 쪽 (book.json storybook)
+    sbk = book.get('storybook') or {}
+    extra = ([sbk['cover']] if sbk.get('cover') else []) + list(sbk.get('front', [])) + list(sbk.get('back', []))
+    for p in extra:
+        prompt = (f"{st['art']} {st['scene']} Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: {names}). "
+                  f"Scene: {p['desc']} Characters: {who}")
+        items.append(_item(id=p['id'], kind='scene', title=f"스토리북 · {p['id']}", unit=0,
+                           prompt=prompt, reference='cast_sheet', aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
     return items
 
 
@@ -126,15 +140,22 @@ def build_sounds(book, units):
         add(_sound(id=f'word_{w}', sub='word', title=f"단어 {w} · {book['words'][w]['ko']}", text=w, voice=nar, unit=word_unit(book, w)))
     for w, S in book['sight_words'].items():
         add(_sound(id=f'sw_{w}', sub='sw', title=f"사이트워드 {w} · {S['ko']}", text=w, voice=nar, unit=S.get('unit')))
+    def add_lines(lines, unit, label):
+        for ln in lines:
+            aid = ln.get('audio')
+            if not aid or aid in seen: continue
+            c = book['characters'].get(ln.get('who'))
+            voice = (c or {}).get('voice') or nar
+            who_ko = c['ko'] if c else {'narrator': '해설', 'both': '함께'}.get(ln.get('who'), ln.get('who'))
+            add(_sound(id=aid, sub='line', title=f"{label} · {who_ko}: {ln['text']}", text=ln['text'], voice=voice, unit=unit))
     for u in units:
         for p in (u.get('story') or {}).get('panels', []):
-            for ln in p.get('lines', []):
-                aid = ln.get('audio')
-                if not aid or aid in seen: continue
-                c = book['characters'].get(ln.get('who'))
-                voice = (c or {}).get('voice') or nar
-                who_ko = c['ko'] if c else {'narrator': '해설', 'both': '함께'}.get(ln.get('who'), ln.get('who'))
-                add(_sound(id=aid, sub='line', title=f"{u['unit']}유닛 대사 · {who_ko}: {ln['text']}", text=ln['text'], voice=voice, unit=u['unit']))
+            add_lines(p.get('lines', []), u['unit'], f"{u['unit']}유닛 대사")
+        for p in (u.get('storybook') or {}).get('pages', []):   # 스토리북 글
+            add_lines(p.get('lines', []), u['unit'], f"{u['unit']}유닛 스토리북")
+    sbk = book.get('storybook') or {}
+    for p in list(sbk.get('front', [])) + list(sbk.get('back', [])):
+        add_lines(p.get('lines', []), 0, '스토리북')
     for k, t in book.get('instructions', {}).items():
         add(_sound(id=f'instr_{k}', sub='instr', title=f'지시문 · {t}', text=t, voice=ins))
     # 캐릭터 말버릇 (0유닛 친구들 소개 쪽: catch_<id>). 괄호 설명뿐인 것(포미 "(glows)")은 뺀다

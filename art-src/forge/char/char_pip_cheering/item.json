@@ -1,12 +1,12 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
- "attempts": 0,
+ "status": "review",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 1,
  "error": "",
- "updated": 0,
+ "updated": 1791283457.9446628,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/ee8d73d7-06a5-4522-b63d-9b1b846e0eee?Expires=1791305032&KeyName=labs-flow-prod-cdn-key&Signature=Wjfo1kpCa424swTbI7Ze1o3H9DM",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -20,5 +20,6 @@
  "title": "핍 · 환호",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Pip, a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Pose: both fists raised in victory, laughing. SAME character as the attached reference image: identical face, hair, clothes and colors. Only the pose and expression change.",
  "aspect": "3:4",
- "out": "web/assets/art/char_pip_cheering.png"
+ "out": "web/assets/art/char_pip_cheering.png",
+ "claimed_at": 1791283205.8985617
 }
