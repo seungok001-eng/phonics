@@ -16,7 +16,7 @@
   <button onclick="go(-1)" id="btnPrev">◀</button>
   <button onclick="go(1)" id="btnNext">▶</button>
   <button class="primary" onclick="mainPlay()" title="스페이스">🔊 Play</button>
-  <span class="teacher-only" id="zoomBox"><button onclick="zoomBy(-0.15)" title="교재 작게 (단축키 -)">🔍−</button><button onclick="zoomSet(1)" title="화면 높이에 맞춤 (단축키 0)" id="zoomLabel">맞춤</button><button onclick="zoomBy(0.15)" title="교재 크게 (단축키 +)">🔍+</button><button onclick="toggleBoard()" id="btnBoard" title="필기판 보이기/숨기기">📝</button><button onclick="toggleCover()" id="btnCover" title="교재 가리개 (단축키 C)">🙈</button></span>
+  <span class="teacher-only" id="zoomBox"><button onclick="zoomBy(-0.15)" title="교재 작게 (단축키 -)">🔍−</button><button onclick="zoomSet(1)" title="화면 높이에 맞춤 (단축키 0)" id="zoomLabel">맞춤</button><button onclick="zoomBy(0.15)" title="교재 크게 (단축키 +)">🔍+</button><button onclick="toggleBoard()" id="btnBoard" title="필기판 보이기/숨기기">📝</button><button onclick="toggleCover()" id="btnCover" title="교재 가리개 (단축키 C)">🙈</button><button onclick="toggleLand()" title="교재 가로/세로 배치 바꾸기">📐</button></span>
   <button onclick="toggleTeacher()" id="btnTeacher" title="선생님 모드: 글자·단추가 커지고 전체화면">👩‍🏫</button>
   <button onclick="toggleFull()" title="전체화면">⛶</button>
   <a class="btn" id="lnkPrint" href="#" target="_blank" title="인쇄용">🖨</a>
@@ -44,7 +44,7 @@ async function route() {
   const pg = pages[Math.min(Math.max(1, p), pages.length) - 1];
   stopSeq(); if (pg.type !== 'story' && pg.type !== 'intro_story') Sound.bgmOff();
   scaler.innerHTML = renderPage({ book: App.book, unit, b, u, p, page: pg, pages, print: false });
-  if (App.teacher) { ensureBoard(unit); attachPageInk(scaler, `${b}_${u}_${p}`); } else { const bp = $('boardPanel'); if (bp) bp.remove(); }
+  if (App.teacher) { ensureBoard(unit); const [pw, ph] = pageDims(); attachPageInk(scaler, `${b}_${u}_${p}${View.land ? '_l' : ''}`, pw, ph); } else { const bp = $('boardPanel'); if (bp) bp.remove(); }
   $('pageInfo').textContent = `Unit ${u} · ${pg.lesson.title_ko} · ${p}/${pages.length} 쪽`;
   $('btnPrev').disabled = p <= 1; $('btnNext').disabled = p >= pages.length;
   $('lnkPrint').href = `print.html?b=${b}&u=${u}`;
@@ -53,14 +53,21 @@ async function route() {
 function renderPage(ctx) {
   const fn = PAGES[ctx.page.type] || (() => `<p>모르는 쪽 종류: ${ctx.page.type}</p>`);
   const no = pageNo(ctx.b, ctx.u, ctx.p);
-  return `<article class="page ${ctx.b}"><div class="ph-head"><span class="unit">Unit ${ctx.u}</span><h2>${esc(ctx.unit.title)}</h2>${lettersBadge(ctx.unit)}</div>${fn(ctx)}<div class="ph-foot"><span>${ctx.b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${ctx.page.lesson.n} · ${esc(ctx.page.title)}</span><span class="pno">${no}</span></div></article>`;
+  // 선생님 모드(16:9 화면)에서는 가로 쪽(A4 가로)으로 내용을 두 단으로 흘린다. 인쇄·학생 화면은 세로 그대로
+  const land = App.teacher && View.land;
+  return `<article class="page ${ctx.b} ${land ? 'land' : ''}"><div class="ph-head"><span class="unit">Unit ${ctx.u}</span><h2>${esc(ctx.unit.title)}</h2>${lettersBadge(ctx.unit)}</div><div class="body">${fn(ctx)}</div><div class="ph-foot"><span>${ctx.b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${ctx.page.lesson.n} · ${esc(ctx.page.title)}</span><span class="pno">${no}</span></div></article>`;
+}
+function pageDims() {
+  if (!(App.teacher && View.land)) return [794, 1123];
+  const art = document.querySelector('#scaler .page');   // 가로 쪽은 내용이 많으면 더 길어진다 → 실제 높이
+  return [1123, Math.max(794, art ? art.offsetHeight : 794)];
 }
 function go(d) { const pages = pageList(App.units[App.u], App.b); const np = App.p + d; if (np < 1 || np > pages.length) return; goTo({ p: np }); }
 function mainPlay() { Sound.unlock(); const b = document.querySelector('.main-play'); if (b) b.click(); else { const s = document.querySelector('[data-say]'); if (s) s.click(); } }
 function toggleTeacher() { App.teacher = !App.teacher; const q = new URLSearchParams(location.search); if (App.teacher) q.set('t', '1'); else q.delete('t'); history.replaceState(null, '', '?' + q); route(); }
 function toggleFull() { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); }
 // 선생님 모드 보기 설정 (교재 배율·교재 칸 너비·필기판 보이기) — 이 기기에 기억
-const View = { zoom: 1, pageW: 0, board: true };
+const View = { zoom: 1, pageW: 0, board: true, land: true };
 try { Object.assign(View, JSON.parse(localStorage.getItem('pp_view') || '{}')); } catch (e) {}
 function saveView() { try { localStorage.setItem('pp_view', JSON.stringify(View)); } catch (e) {} }
 function fit() {
@@ -71,13 +78,15 @@ function fit() {
     $('pageWrap').style.width = ''; $('pageWrap').style.height = ''; $('divider').style.display = 'none';
     return;
   }
-  // 선생님 모드: 기본은 쪽을 화면 높이에 맞춤(배율 1). 🔍 로 키우면 교재 칸 안에서 스크롤(마우스 휠·↑↓ 키)
-  const fitK = (st.clientHeight - 20) / 1123;
-  const k = Math.max(.25, fitK * View.zoom);
-  const sc = $('scaler'); sc.style.transform = `scale(${k})`; sc.style.width = (794 * k) + 'px'; sc.style.height = (1123 * k) + 'px';
-  const pw = $('pageWrap');
+  // 선생님 모드: 기본은 쪽을 화면 높이에 맞춤(배율 1). 가로 쪽이면 너비도 화면의 62% 안에. 🔍 로 키우면 교재 칸 안에서 스크롤(마우스 휠·↑↓ 키)
+  const [PW, PH] = pageDims();
   const boardOn = View.board;
-  const defaultW = Math.min(794 * k + 2, st.clientWidth * 0.55);
+  const share = st.clientWidth < 1400 ? 0.66 : 0.62;   // 태블릿처럼 좁으면 교재 몫을 조금 더
+  const fitK = Math.min((st.clientHeight - 20) / Math.min(PH, 794 * 1.15), (boardOn ? st.clientWidth * share : st.clientWidth - 20) / PW);
+  const k = Math.max(.25, fitK * View.zoom);
+  const sc = $('scaler'); sc.style.transform = `scale(${k})`; sc.style.width = (PW * k) + 'px'; sc.style.height = (PH * k) + 'px';
+  const pw = $('pageWrap');
+  const defaultW = Math.min(PW * k + 2, st.clientWidth * share);
   let w = View.pageW ? View.pageW : defaultW;
   if (!boardOn) w = st.clientWidth - 20;
   w = Math.max(240, Math.min(w, st.clientWidth - (boardOn ? 260 : 20)));
@@ -106,6 +115,7 @@ function coverApply() {
 function zoomBy(d) { zoomSet(View.zoom + d); }
 function zoomSet(z) { View.zoom = Math.max(.5, Math.min(3, Math.round(z * 100) / 100)); saveView(); fit(); }
 function toggleBoard() { View.board = !View.board; saveView(); fit(); }
+function toggleLand() { View.land = !View.land; saveView(); route(); }
 // 가운데 구분선 끌기 → 교재 칸 너비
 (() => {
   const dv = document.getElementById('divider'); let drag = null;

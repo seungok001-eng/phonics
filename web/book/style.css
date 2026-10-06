@@ -43,21 +43,24 @@ body.teacher #divider { display: block; }
 .teacher-only { display: none; }
 body.teacher .teacher-only { display: inline-flex; gap: 4px; }
 body.teacher #top { gap: 6px; }
-.page-ink { position: absolute; left: 0; top: 0; width: 794px; height: 1123px; z-index: 5; cursor: crosshair; touch-action: none; mix-blend-mode: multiply; }   /* 곱하기 섞기: 형광펜이 글씨를 가리지 않는다 */
+.page-ink { position: absolute; left: 0; top: 0; z-index: 5; cursor: crosshair; touch-action: none; mix-blend-mode: multiply; }   /* 크기는 JS 가 쪽 크기에 맞춘다 */   /* 곱하기 섞기: 형광펜이 글씨를 가리지 않는다 */
 /* 교재 가리개: 교재 칸 위에 붙어(sticky) 스크롤해도 그 자리, 아래 손잡이를 끌어 조금씩 보인다 */
 #coverStick { display: none; position: sticky; top: 0; left: 0; height: 0; z-index: 20; }
 body.teacher.cover-on #coverStick { display: block; }
 #cover { position: absolute; left: 0; top: 0; width: 100%; background: repeating-linear-gradient(45deg, #3B2F2F 0 22px, #4A3B3B 22px 44px); border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,.35); }
 #coverHandle { position: absolute; left: 0; right: 0; bottom: 0; height: 40px; background: var(--orange); color: #fff; font-family: 'Fredoka'; font-size: 16px; display: flex; align-items: center; justify-content: center; cursor: ns-resize; touch-action: none; border-radius: 0 0 10px 10px; user-select: none; }
 #boardPanel { flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 6px; min-height: 0; }
-.ink-tools, .board-bar { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; background: #fff; border: 2px solid var(--line); border-radius: 12px; padding: 6px; }
-.tb { width: 44px; height: 44px; border-radius: 10px; border: 2px solid var(--line); background: #fff; font-size: 22px; display: inline-flex; align-items: center; justify-content: center; }
+/* 도구 막대는 작게 (태블릿에서 필기판이 넓게). 큰 전자칠판(1700px 이상)에서는 조금 키운다 */
+.ink-tools, .board-bar { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; background: #fff; border: 2px solid var(--line); border-radius: 10px; padding: 4px; }
+#boardPanel.bar-off .board-bar > :not(:first-child) { display: none; }
+.tb { width: 34px; height: 34px; border-radius: 8px; border: 2px solid var(--line); background: #fff; font-size: 17px; display: inline-flex; align-items: center; justify-content: center; padding: 0; }
 .tb.on { border-color: var(--orange); background: #FFF3E6; box-shadow: inset 0 0 0 2px var(--orange); }
-.tb.col { width: 34px; height: 34px; border-radius: 50%; border-color: #fff; box-shadow: 0 0 0 2px var(--line); }
+.tb.col { width: 24px; height: 24px; border-radius: 50%; border-color: #fff; box-shadow: 0 0 0 2px var(--line); margin: 0 2px; }
 .tb.col.on { box-shadow: 0 0 0 3px var(--orange); }
-.tb.sz i { display: inline-block; border-radius: 50%; background: #333; }
-.tb.small { width: auto; padding: 0 10px; height: 36px; font-size: 15px; font-family: 'Andika'; font-weight: 700; }
-.sep { width: 2px; height: 28px; background: var(--line); margin: 0 4px; }
+.tb.sz i { display: inline-block; border-radius: 50%; background: #333; transform: scale(.75); }
+.tb.small { width: auto; padding: 0 8px; height: 30px; font-size: 13px; font-family: 'Andika'; font-weight: 700; }
+.sep { width: 2px; height: 22px; background: var(--line); margin: 0 3px; }
+@media (min-width: 1700px) { .tb { width: 42px; height: 42px; font-size: 21px; } .tb.col { width: 30px; height: 30px; } .tb.small { height: 36px; font-size: 15px; } }
 .grow { flex: 1; }
 .board-bar .lab { font-size: 13px; color: var(--soft); }
 #boardWrap { flex: 1; min-height: 0; background: #fff; border: 2px solid var(--line); border-radius: 12px; overflow: hidden; position: relative; }
@@ -67,6 +70,47 @@ body.ink-on #boardCanvas, body.ink-on .page-ink { cursor: crosshair; }
 /* ---------- 한 쪽 ---------- */
 .page { width: var(--page-w); height: var(--page-h); background: var(--paper); border-radius: 10px; box-shadow: 0 8px 30px rgba(60,40,20,.18); position: relative; overflow: hidden; padding: 34px 40px 48px; display: flex; flex-direction: column; gap: 14px; }
 .page.wb { background: #FFFDF7; }
+.page .body { display: flex; flex-direction: column; gap: 14px; flex: 1; min-height: 0; }
+/* 가로 쪽 (선생님 모드, 16:9 화면): 같은 내용을 두 단으로 흘린다. 카드·칸은 단 사이에서 잘리지 않게 */
+.page.land { width: 1123px; height: auto; min-height: 794px; padding: 22px 30px 44px; gap: 10px; }   /* 내용이 많으면 아래로 길어지고 교재 칸이 스크롤 */
+.page.land .ph-head { padding-bottom: 6px; }
+.page.land .body { display: block; column-count: 2; column-gap: 26px; column-fill: balance; flex: none; }
+.page.land .body > * { margin-bottom: 10px; }
+/* 스토리는 두 단 대신 칸 두 개를 나란히 */
+.page.land .body:has(.panels) { display: flex; flex-direction: column; column-count: auto; }
+.panels .pwrap { flex: 1; display: flex; flex-direction: column; gap: 6px; }
+.panels .pwrap .panel { flex: 1; }
+.page.land .panels { display: flex; flex-direction: row; gap: 12px; }
+.page.land .pwrap .panel { height: 520px; flex: none; }
+body.teacher #top .brand small { display: none; }
+@media (max-width: 1400px) {   /* 태블릿: 위 막대를 촘촘히 */
+  body.teacher #top { padding: 0 8px; gap: 4px; }
+  body.teacher #top button, body.teacher #top a.btn { font-size: 15px; padding: 6px 8px; }
+  body.teacher #top select { font-size: 13px; max-width: 128px; padding: 4px 6px; }
+  body.teacher #pageInfo { display: none; }
+  body.teacher #top .brand { font-size: 18px; }
+}
+body.teacher #pageInfo { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 170px; }
+.page.land .sound-cards, .page.land .word-rows, .page.land .lp-table, .page.land .trace-rows, .page.land .read-rows, .page.land .circle-grid { display: block; }
+.page.land .sound-card, .page.land .word-row, .page.land .lp-row, .page.land .trace-row, .page.land .read-card, .page.land .circle-box, .page.land .check-sec, .page.land .write-row, .page.land .match, .page.land .game, .page.land .panel, .page.land .find, .page.land .color-it, .page.land .sort, .page.land .fill, .page.land .sent, .page.land .char { break-inside: avoid; margin-bottom: 10px; }
+.page.land .word-row { display: grid; }
+.page.land .lp-row { display: grid; }
+.page.land .trace-row { display: grid; }
+.page.land .read-rows { display: grid; grid-template-columns: repeat(3, 1fr); }
+.page.land .circle-grid { display: grid; }
+.page.land .sound-card { grid-template-columns: 110px 1fr; }
+.page.land .sound-card .tree { height: 130px; }
+.page.land .sound-card .glyph { font-size: 72px; } .page.land .sound-card .glyph small { font-size: 54px; }
+.page.land .sound-card .ctrl { grid-column: 1 / -1; }
+.page.land .word-card .pic { height: 110px; }
+.page.land .lp-row .cell .pic { height: 90px; }
+.page.land .game .choice .pic { height: 120px; }
+.page.land .chars { display: grid; grid-template-columns: 1fr 1fr; }
+.page.land .char .pic { height: 150px; }
+.page.land .story-top { flex-wrap: wrap; }
+.page.land .abc { display: grid; }
+.page.land .path { display: grid; }
+body.print .page.land { width: 210mm; height: 297mm; }   /* 인쇄는 늘 세로 */
 .ph-head { display: flex; align-items: center; gap: 12px; border-bottom: 3px solid var(--line); padding-bottom: 8px; }
 .ph-head .unit { background: var(--orange); color: #fff; font-family: 'Fredoka'; font-weight: 700; border-radius: 12px; padding: 4px 12px; font-size: 18px; white-space: nowrap; }
 .page.wb .ph-head .unit { background: var(--blue); }

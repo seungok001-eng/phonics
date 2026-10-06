@@ -207,6 +207,7 @@ function boardPanel() {
   return `<div id="boardPanel">
     ${inkToolbar()}
     <div class="board-bar">
+      <button class="tb small" onclick="document.getElementById('boardPanel').classList.toggle('bar-off')" title="이 줄 접기/펴기">⋯</button>
       <span class="lab">필기판</span>
       <button class="tb small" onclick="boardSwitch(1)" data-board="1">1</button><button class="tb small" onclick="boardSwitch(2)" data-board="2">2</button><button class="tb small" onclick="boardSwitch(3)" data-board="3">3</button>
       <span class="sep"></span>
@@ -239,11 +240,11 @@ function boardBg(bg) { Ink.board.bg = bg; Ink.board.render(); Ink.board.save(); 
 function boardStamp(text) { Ink.board.stamp(text); Ink.last = Ink.board; }
 function boardSave() { const a = document.createElement('a'); a.download = `board-${Ink.boardNo}.png`; a.href = document.getElementById('boardCanvas').toDataURL('image/png'); a.click(); }
 // 쪽이 바뀔 때마다: 쪽 위 덧그림 캔버스를 만들고 그 쪽의 필기를 불러온다
-function attachPageInk(scaler, key) {
+function attachPageInk(scaler, key, pw = 794, ph = 1123) {
   const old = document.getElementById('pageInk'); if (old) old.remove();
   const c = document.createElement('canvas'); c.id = 'pageInk'; c.className = 'page-ink';
   scaler.appendChild(c);
-  const s = new Surface(c, 'pp_ink_' + key, 794, 1123); s.resize(794, 1123);
+  const s = new Surface(c, 'pp_ink_' + key, pw, ph); s.resize(pw, ph);
   c.addEventListener('pointerdown', () => { Ink.last = s; });
   c.style.pointerEvents = Ink.tool === 'hand' ? 'none' : 'auto';
   Ink.page = s; Ink.last = Ink.last || s;
