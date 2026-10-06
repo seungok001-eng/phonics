@@ -2,8 +2,8 @@
  "status": "generating",
  "raw": "",
  "cut": "",
- "attempts": 0,
- "error": "",
+ "attempts": 1,
+ "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
  "updated": 0,
  "auto_approved": false,
  "flow_url": "",
@@ -21,5 +21,5 @@
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Pip, a small round sky-blue baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a white belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly because it cannot sing yet. Pose: standing straight, arms relaxed at the sides, friendly smile, looking at the viewer.",
  "aspect": "3:4",
  "out": "web/assets/art/cand_pip_c.png",
- "claimed_at": 1791277162.82137
+ "claimed_at": 1791277635.3221555
 }

@@ -33,10 +33,9 @@
 .sl-trace .anim { width: 360px; height: 360px; cursor: pointer; flex: none; }
 .sl-trace .anim svg { width: 100%; height: 100%; }
 .sl-trace .anim path { fill: none; stroke: #d9d9d9; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
-.sl-trace .anim path.draw { stroke: var(--ink); stroke-dasharray: 400; stroke-dashoffset: 400; }
-.sl-trace .anim.go path.draw { animation: draw 1s ease forwards; }
-.sl-trace .anim path.draw:nth-of-type(2) { animation-delay: 1s; } .sl-trace .anim path.draw:nth-of-type(3) { animation-delay: 2s; }
-.sl-trace .anim text { font-family: 'Fredoka'; font-size: 11px; fill: var(--orange); font-weight: 700; }
+.sl-trace .anim path.draw { stroke: var(--ink); stroke-dasharray: 100; stroke-dashoffset: 100; }
+.sl-trace .anim path.draw { animation: draw 1s ease forwards; }
+.sl-trace .anim text { font-family: 'Fredoka'; font-size: 12px; fill: #fff; font-weight: 700; paint-order: stroke; stroke: var(--orange); stroke-width: 5px; stroke-linejoin: round; }
 .sl-trace .trace-line { width: 100%; height: 150px; }
 .sl-trace .trace-line span { font-size: 120px; line-height: 150px; width: 120px; }
 .sl-circle { grid-template-columns: repeat(3, 1fr); gap: 30px; flex: 1; }

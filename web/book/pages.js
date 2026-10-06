@@ -50,7 +50,7 @@ async function playSoundsPage() { for (const l of App.units[App.u].letters) { if
 PAGES.trace = (ctx) => {
   const rows = ctx.unit.letters.flatMap((l) => [l.toUpperCase(), l]).map((ch) => `
     <div class="trace-row">
-      <div class="anim say" data-say="name_${ch.toLowerCase()}" data-text="${ch.toUpperCase()}" onclick="this.classList.remove('go');void this.offsetWidth;this.classList.add('go')">${strokeSvg(ch)}</div>
+      <div class="anim say" data-say="name_${ch.toLowerCase()}" data-text="${ch.toUpperCase()}" onclick="this.innerHTML=this.innerHTML">${strokeSvg(ch)}</div>
       <div class="trace-line"><span class="solid">${ch}</span><span>${ch}</span><span>${ch}</span><span>${ch}</span><span class="box">${ch}</span><span class="box">${ch}</span><span class="box">${ch}</span><span class="box">${ch}</span><span class="box">${ch}</span></div>
     </div>`).join('');
   // 짝 찾기: 상자마다 글자 4개 중 대·소문자 짝 하나

@@ -37,7 +37,7 @@ TEACH.trace = {
     const n = ctx.unit.letters.length + 1;
     if (s < ctx.unit.letters.length) {
       const l = ctx.unit.letters[s];
-      const one = (ch) => `<div class="sl-trace"><div class="anim say" data-say="name_${l}" data-text="${l.toUpperCase()}" onclick="this.classList.remove('go');void this.offsetWidth;this.classList.add('go')">${strokeSvg(ch)}</div>
+      const one = (ch) => `<div class="sl-trace"><div class="anim say" data-say="name_${l}" data-text="${l.toUpperCase()}" onclick="this.innerHTML=this.innerHTML">${strokeSvg(ch)}</div>
         <div class="trace-line"><span class="solid">${ch}</span><span>${ch}</span><span>${ch}</span><span class="box">${ch}</span><span class="box">${ch}</span><span class="box">${ch}</span></div></div>`;
       return tWrap(ctx, App.book.instructions.trace_write, '획순 그림을 누르면 순서대로 그려져요. 허공에 손가락으로 따라 써요', s, n, `<div class="sl-trace-grid">${one(l.toUpperCase())}${one(l)}</div>`);
     }
