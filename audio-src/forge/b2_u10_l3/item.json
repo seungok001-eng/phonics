@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Gub! Gub?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291883.3576908,
+   "sec": 2.16,
+   "check": {
+    "transcript": "cub",
+    "type": "word",
+    "ipa": "kʌb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cub | TYPE=word | IPA=kʌb | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Gub! Gub?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791300024.5271685,
+   "sec": 2.24,
+   "check": {
+    "transcript": "gub",
+    "type": "word",
+    "ipa": "/ɡʌb/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gub | TYPE=word | IPA=/ɡʌb/ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_l3",
+ "sub": "line",
+ "title": "2권 10유닛 대사 · 핍: Gub! Gub?",
+ "text": "Gub! Gub?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

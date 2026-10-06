@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286229.423299,
+   "sec": 0.52,
+   "check": {
+    "transcript": "p",
+    "type": "isolated-sound",
+    "ipa": "p",
+    "note": "clean",
+    "raw": "TRANSCRIPT=p | TYPE=isolated-sound | IPA=p | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "pencil 앞 180ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286766.241743,
+   "sec": 0.18,
+   "check": {
+    "transcript": "bed",
+    "type": "word",
+    "ipa": "bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": "p",
+ "id": "sound_p",
+ "sub": "sound",
+ "title": "낱소리 /p/ (p)",
+ "text": "p",
+ "voice": "Kore",
+ "hint": "p as at the start of pencil",
+ "busy": 0
+}

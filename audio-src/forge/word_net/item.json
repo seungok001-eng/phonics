@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "net",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286304.0636368,
+   "sec": 0.92,
+   "check": {
+    "transcript": "net",
+    "type": "word",
+    "ipa": "nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_net",
+ "sub": "word",
+ "title": "단어 net · 그물",
+ "text": "net",
+ "voice": "Kore"
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Splash! Oh no! Look!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291494.6508124,
+   "sec": 3.08,
+   "check": {
+    "transcript": "Splash! Oh no, lock!",
+    "type": "sentence",
+    "ipa": "ˈsplæʃ ˈoʊ ˈnoʊ ˈlɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Splash! Oh no, lock! | TYPE=sentence | IPA=ˈsplæʃ ˈoʊ ˈnoʊ ˈlɑk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Splash! Oh no! Look!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299785.613918,
+   "sec": 2.64,
+   "check": {
+    "transcript": "Splash! Oh no, look.",
+    "type": "sentence",
+    "ipa": "ˈsplæʃ oʊ noʊ lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Splash! Oh no, look. | TYPE=sentence | IPA=ˈsplæʃ oʊ noʊ lʊk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb2_u01_3_3",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 해설: Splash! Oh no! Look!",
+ "text": "Splash! Oh no! Look!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

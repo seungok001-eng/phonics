@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -et words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291583.2648404,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Find the etwords.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː ˈɛt.wɜːdz",
+    "note": "mispronounced",
+    "raw": "TRANSCRIPT=Find the etwords. | TYPE=sentence | IPA=faɪnd ðiː ˈɛt.wɜːdz | NOTE=mispronounced"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Find the -et words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299825.750036,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Find the et words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː ɛt wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the et words. | TYPE=sentence | IPA=faɪnd ðiː ɛt wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb2_u03_2_task",
+ "sub": "instr",
+ "title": "3유닛 스토리북 과제 · Find the -et words!",
+ "text": "Find the -et words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

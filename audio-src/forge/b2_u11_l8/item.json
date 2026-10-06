@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hit the pot! Hop, hop!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291940.0618837,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Hit the pot, hop hop.",
+    "type": "sentence",
+    "ipa": "hɪt ðə pɒt hɒp hɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hit the pot, hop hop. | TYPE=sentence | IPA=hɪt ðə pɒt hɒp hɒp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b2_u11_l8",
+ "sub": "line",
+ "title": "2권 11유닛 대사 · 해설: Hit the pot! Hop, hop!",
+ "text": "Hit the pot! Hop, hop!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

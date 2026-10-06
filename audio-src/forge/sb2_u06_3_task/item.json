@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -in words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291736.5139532,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Find the in-words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ˈɪn ˌwɝdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the in-words. | TYPE=sentence | IPA=faɪnd ði ˈɪn ˌwɝdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_3_task",
+ "sub": "instr",
+ "title": "6유닛 스토리북 과제 · Find the -in words!",
+ "text": "Find the -in words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

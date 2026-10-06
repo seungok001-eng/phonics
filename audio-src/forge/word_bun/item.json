@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "bun",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291264.0823967,
+   "sec": 1.12,
+   "check": {
+    "transcript": "bun",
+    "type": "word",
+    "ipa": "bʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bun | TYPE=word | IPA=bʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_bun",
+ "sub": "word",
+ "title": "단어 bun · 빵",
+ "text": "bun",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

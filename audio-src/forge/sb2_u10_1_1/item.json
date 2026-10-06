@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A bug on the rug!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291904.6648016,
+   "sec": 2.92,
+   "check": {
+    "transcript": "Look, a bug on the rug.",
+    "type": "sentence",
+    "ipa": "lʊk ə bʌɡ ɒn ðə rʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a bug on the rug. | TYPE=sentence | IPA=lʊk ə bʌɡ ɒn ðə rʌɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb2_u10_1_1",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 번: Look! A bug on the rug!",
+ "text": "Look! A bug on the rug!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

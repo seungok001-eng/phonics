@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/ /e/ /d/ bed!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291630.1435726,
+   "sec": 4.08,
+   "check": {
+    "transcript": "bed",
+    "type": "word",
+    "ipa": "bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_2_1",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 비즈: /b/ /e/ /d/ bed!",
+ "text": "/b/ /e/ /d/ bed!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

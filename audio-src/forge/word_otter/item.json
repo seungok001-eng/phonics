@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "otter",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286306.1072812,
+   "sec": 1.04,
+   "check": {
+    "transcript": "otter",
+    "type": "word",
+    "ipa": "ˈɑtɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=otter | TYPE=word | IPA=ˈɑtɚ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_otter",
+ "sub": "word",
+ "title": "단어 otter · 수달",
+ "text": "otter",
+ "voice": "Kore"
+}

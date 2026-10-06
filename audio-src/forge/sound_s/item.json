@@ -1,0 +1,69 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/s/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286239.7725234,
+   "sec": 1.64,
+   "check": {
+    "transcript": "s",
+    "type": "isolated-sound",
+    "ipa": "/s/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=s | TYPE=isolated-sound | IPA=/s/ | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "sss",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286243.275682,
+   "sec": 1.52,
+   "check": {
+    "transcript": "s",
+    "type": "isolated-sound",
+    "ipa": "/s/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=s | TYPE=isolated-sound | IPA=/s/ | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "sun 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286776.750002,
+   "sec": 0.35,
+   "check": {
+    "transcript": "sun",
+    "type": "word",
+    "ipa": "sʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sun | TYPE=word | IPA=sʌn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": "s",
+ "id": "sound_s",
+ "sub": "sound",
+ "title": "낱소리 /s/ (s)",
+ "text": "s",
+ "voice": "Kore",
+ "hint": "s as at the start of sun",
+ "busy": 0
+}

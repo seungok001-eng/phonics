@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! It is my den!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291587.5683267,
+   "sec": 2.32,
+   "check": {
+    "transcript": "shh, it is my dad",
+    "type": "sentence",
+    "ipa": "ʃ, ɪt ɪz maɪ dæd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh, it is my dad | TYPE=sentence | IPA=ʃ, ɪt ɪz maɪ dæd | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! It is my den!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791299829.2278407,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Shh. It is my den.",
+    "type": "sentence",
+    "ipa": "ʃ i t s m aɪ d ɛ n",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. It is my den. | TYPE=sentence | IPA=ʃ i t s m aɪ d ɛ n | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb2_u03_3_2",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 그럼블: Shh! It is my den!",
+ "text": "Shh! It is my den!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 1
+}

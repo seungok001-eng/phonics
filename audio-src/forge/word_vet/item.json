@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "vet",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286341.2134628,
+   "sec": 0.92,
+   "check": {
+    "transcript": "vet",
+    "type": "word",
+    "ipa": "vɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vet | TYPE=word | IPA=vɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_vet",
+ "sub": "word",
+ "title": "단어 vet · 수의사",
+ "text": "vet",
+ "voice": "Kore"
+}

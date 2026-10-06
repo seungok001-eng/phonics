@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "peg",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291211.0392988,
+   "sec": 0.92,
+   "check": {
+    "transcript": "peg",
+    "type": "word",
+    "ipa": "pɛg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=peg | TYPE=word | IPA=pɛg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_peg",
+ "sub": "word",
+ "title": "단어 peg · 빨래집게",
+ "text": "peg",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

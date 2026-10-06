@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip and the Word Pond",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292033.180597,
+   "sec": 2.12,
+   "check": {
+    "transcript": "pip and the word pond",
+    "type": "sentence",
+    "ipa": "pɪp ənd ðə wɜːd pɒnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pip and the word pond | TYPE=sentence | IPA=pɪp ənd ðə wɜːd pɒnd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_front_1_1",
+ "sub": "line",
+ "title": "스토리북 · 해설: Pip and the Word Pond",
+ "text": "Pip and the Word Pond",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

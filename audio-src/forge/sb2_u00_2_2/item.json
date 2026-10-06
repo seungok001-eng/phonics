@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! Hi, Pip!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291445.9946253,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Click clack, hi pip",
+    "type": "sentence",
+    "ipa": "klɪk klæk haɪ pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click clack, hi pip | TYPE=sentence | IPA=klɪk klæk haɪ pɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_u00_2_2",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 비즈: Click-clack! Hi, Pip!",
+ "text": "Click-clack! Hi, Pip!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

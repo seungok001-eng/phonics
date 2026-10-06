@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie fed Grumble.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291604.2907817,
+   "sec": 2.08,
+   "check": {
+    "transcript": "hedgie fed grumble",
+    "type": "sentence",
+    "ipa": "ˈhɛdʒi fɛd ˈɡrʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hedgie fed grumble | TYPE=sentence | IPA=ˈhɛdʒi fɛd ˈɡrʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b2_u04_l6",
+ "sub": "line",
+ "title": "2권 4유닛 대사 · 해설: Hedgie fed Grumble.",
+ "text": "Hedgie fed Grumble.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

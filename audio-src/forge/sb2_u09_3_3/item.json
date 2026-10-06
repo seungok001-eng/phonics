@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bzzz... bzzz... Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291877.7735155,
+   "sec": 3.04,
+   "check": {
+    "transcript": "buzz buzz",
+    "type": "word",
+    "ipa": "bʌz bʌz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=buzz buzz | TYPE=word | IPA=bʌz bʌz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb2_u09_3_3",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 해설: Bzzz... bzzz... Oh no!",
+ "text": "Bzzz... bzzz... Oh no!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

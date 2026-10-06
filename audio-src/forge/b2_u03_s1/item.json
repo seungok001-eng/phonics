@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The hen has a pen.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291565.4768367,
+   "sec": 2.08,
+   "check": {
+    "transcript": "The hen has a pen.",
+    "type": "sentence",
+    "ipa": "ðə hɛn hæz ə pɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The hen has a pen. | TYPE=sentence | IPA=ðə hɛn hæz ə pɛn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b2_u03_s1",
+ "sub": "line",
+ "title": "2권 3유닛 문장 1: The hen has a pen.",
+ "text": "The hen has a pen.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

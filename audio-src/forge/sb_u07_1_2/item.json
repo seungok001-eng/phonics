@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip tries. Pop! A bubble!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286578.3072078,
+   "sec": 3.68,
+   "check": {
+    "transcript": "pip tries pop a bubble",
+    "type": "sentence",
+    "ipa": "pɪp traɪz pɑp ə bʌbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pip tries pop a bubble | TYPE=sentence | IPA=pɪp traɪz pɑp ə bʌbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb_u07_1_2",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 해설: Pip tries. Pop! A bubble!",
+ "text": "Pip tries. Pop! A bubble!",
+ "voice": "Kore",
+ "book": 1
+}

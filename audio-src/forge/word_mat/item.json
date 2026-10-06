@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "mat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291178.373866,
+   "sec": 1.2,
+   "check": {
+    "transcript": "mat",
+    "type": "word",
+    "ipa": "mæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mat | TYPE=word | IPA=mæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_mat",
+ "sub": "word",
+ "title": "단어 mat · 매트",
+ "text": "mat",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

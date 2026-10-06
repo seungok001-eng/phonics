@@ -1,0 +1,69 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286211.9256704,
+   "sec": 1.72,
+   "check": {
+    "transcript": "ohl",
+    "type": "word",
+    "ipa": "oʊl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ohl | TYPE=word | IPA=oʊl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "lll",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286214.360487,
+   "sec": 0.84,
+   "check": {
+    "transcript": "l",
+    "type": "isolated-sound",
+    "ipa": "/l/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=l | TYPE=isolated-sound | IPA=/l/ | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "lemon 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286752.2451112,
+   "sec": 0.35,
+   "check": {
+    "transcript": "lemon",
+    "type": "word",
+    "ipa": "lɛmən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lemon | TYPE=word | IPA=lɛmən | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": "l",
+ "id": "sound_l",
+ "sub": "sound",
+ "title": "낱소리 /l/ (l)",
+ "text": "l",
+ "voice": "Kore",
+ "hint": "l as at the start of lemon",
+ "busy": 0
+}

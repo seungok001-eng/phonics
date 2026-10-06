@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A hug for you, Grumble!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291895.6301224,
+   "sec": 2.28,
+   "check": {
+    "transcript": "A hug for you, Grumble!",
+    "type": "sentence",
+    "ipa": "ə hʌɡ fɔɹ ju ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A hug for you, Grumble! | TYPE=sentence | IPA=ə hʌɡ fɔɹ ju ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_l10",
+ "sub": "line",
+ "title": "2권 10유닛 대사 · 번: A hug for you, Grumble!",
+ "text": "A hug for you, Grumble!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

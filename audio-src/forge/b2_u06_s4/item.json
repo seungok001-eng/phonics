@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The fig is in the bin.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291714.2718034,
+   "sec": 2.0,
+   "check": {
+    "transcript": "The fig is in the bin.",
+    "type": "sentence",
+    "ipa": "ðə ˈfɪɡ ɪz ɪn ðə ˈbɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The fig is in the bin. | TYPE=sentence | IPA=ðə ˈfɪɡ ɪz ɪn ðə ˈbɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b2_u06_s4",
+ "sub": "line",
+ "title": "2권 6유닛 문장 4: The fig is in the bin.",
+ "text": "The fig is in the bin.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

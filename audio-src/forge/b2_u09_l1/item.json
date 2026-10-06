@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The fox has my box!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291831.8303516,
+   "sec": 2.28,
+   "check": {
+    "transcript": "The fox has my box.",
+    "type": "sentence",
+    "ipa": "ðə fɑks hæz maɪ bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The fox has my box. | TYPE=sentence | IPA=ðə fɑks hæz maɪ bɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_l1",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 헤지: The fox has my box!",
+ "text": "The fox has my box!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Gip! Gip?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291694.1206415,
+   "sec": 1.84,
+   "check": {
+    "transcript": "jip",
+    "type": "word",
+    "ipa": "dʒɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jip | TYPE=word | IPA=dʒɪp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Gip! Gip?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299887.905837,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Yup",
+    "type": "word",
+    "ipa": "ˈjʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yup | TYPE=word | IPA=ˈjʌp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b2_u06_l3",
+ "sub": "line",
+ "title": "2권 6유닛 대사 · 핍: Gip! Gip?",
+ "text": "Gip! Gip?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

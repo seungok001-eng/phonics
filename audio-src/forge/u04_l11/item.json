@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! A door?",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791286492.799906,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Shh a door",
+    "type": "sentence",
+    "ipa": "ʃː ə dɔːɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh a door | TYPE=sentence | IPA=ʃː ə dɔːɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "u04_l11",
+ "sub": "line",
+ "title": "4유닛 대사 · 그럼블: Shh! A door?",
+ "text": "Shh! A door?",
+ "voice": "Charon"
+}

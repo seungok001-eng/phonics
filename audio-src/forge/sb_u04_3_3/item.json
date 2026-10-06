@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "What is in the dark?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286513.6167035,
+   "sec": 2.24,
+   "check": {
+    "transcript": "What is in the dark?",
+    "type": "sentence",
+    "ipa": "wʌt ɪz ɪn ðə dɑːɹk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=What is in the dark? | TYPE=sentence | IPA=wʌt ɪz ɪn ðə dɑːɹk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb_u04_3_3",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 해설: What is in the dark?",
+ "text": "What is in the dark?",
+ "voice": "Kore"
+}

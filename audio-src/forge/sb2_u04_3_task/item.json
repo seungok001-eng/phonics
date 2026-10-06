@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -eg words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291641.3613029,
+   "sec": 1.96,
+   "check": {
+    "transcript": "Find the egg words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ɛɡ wɜrdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the egg words. | TYPE=sentence | IPA=faɪnd ði ɛɡ wɜrdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_3_task",
+ "sub": "instr",
+ "title": "4유닛 스토리북 과제 · Find the -eg words!",
+ "text": "Find the -eg words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

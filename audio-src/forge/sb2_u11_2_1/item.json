@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble is here!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291957.635148,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Grumble is here.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ɪz ˈhɪɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble is here. | TYPE=sentence | IPA=ˈɡɹʌmbəl ɪz ˈhɪɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_2_1",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 해설: Grumble is here!",
+ "text": "Grumble is here!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

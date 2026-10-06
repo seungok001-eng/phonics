@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/w/ ... /ɪ/ ... /g/ ... wig",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291339.218593,
+   "sec": 4.44,
+   "check": {
+    "transcript": "wig",
+    "type": "word",
+    "ipa": "wɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wig | TYPE=word | IPA=wɪg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/w/ ... /ɪ/ ... /g/ ... wig",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299643.7395897,
+   "sec": 4.88,
+   "check": {
+    "transcript": "wig",
+    "type": "word",
+    "ipa": "wɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wig | TYPE=word | IPA=wɪg | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_wig",
+ "sub": "blend",
+ "title": "합치기 wig",
+ "text": "/w/ ... /ɪ/ ... /g/ ... wig",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

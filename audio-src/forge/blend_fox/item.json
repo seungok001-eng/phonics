@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/f/ ... /ɑ/ ... /ks/ ... fox",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291392.9857883,
+   "sec": 4.24,
+   "check": {
+    "transcript": "fox",
+    "type": "word",
+    "ipa": "fɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fox | TYPE=word | IPA=fɑks | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/f/ ... /ɑ/ ... /ks/ ... fox",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299721.6386921,
+   "sec": 3.72,
+   "check": {
+    "transcript": "fox",
+    "type": "word",
+    "ipa": "f ɒ k s",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fox | TYPE=word | IPA=f ɒ k s | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_fox",
+ "sub": "blend",
+ "title": "합치기 fox",
+ "text": "/f/ ... /ɑ/ ... /ks/ ... fox",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "up",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291425.9758532,
+   "sec": 1.04,
+   "check": {
+    "transcript": "up",
+    "type": "word",
+    "ipa": "ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=up | TYPE=word | IPA=ʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sw_up",
+ "sub": "sw",
+ "title": "사이트워드 up · 위로",
+ "text": "up",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

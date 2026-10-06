@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun has a bun.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291900.4322245,
+   "sec": 1.96,
+   "check": {
+    "transcript": "bun has a bun",
+    "type": "sentence",
+    "ipa": "ˈbʌn hæz ə ˈbʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bun has a bun | TYPE=sentence | IPA=ˈbʌn hæz ə ˈbʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_s3",
+ "sub": "line",
+ "title": "2권 10유닛 문장 3: Bun has a bun.",
+ "text": "Bun has a bun.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

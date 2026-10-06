@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We can not see!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291785.806352,
+   "sec": 2.16,
+   "check": {
+    "transcript": "We cannot see.",
+    "type": "sentence",
+    "ipa": "wi kæn.nɑt si",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi kæn.nɑt si | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We can not see!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791299945.0512786,
+   "sec": 2.28,
+   "check": {
+    "transcript": "We cannot see.",
+    "type": "sentence",
+    "ipa": "wi kənɑt si",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi kənɑt si | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_l2",
+ "sub": "line",
+ "title": "2권 8유닛 대사 · 번: We can not see!",
+ "text": "We can not see!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 1
+}

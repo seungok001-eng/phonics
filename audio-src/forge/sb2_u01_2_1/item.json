@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ /æ/ /t/ cat!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291483.8330772,
+   "sec": 3.32,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "k æ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=k æ t | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb2_u01_2_1",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 비즈: /k/ /æ/ /t/ cat!",
+ "text": "/k/ /æ/ /t/ cat!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

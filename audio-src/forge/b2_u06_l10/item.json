@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! ... Win, pig!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291706.5629258,
+   "sec": 2.72,
+   "check": {
+    "transcript": "Schweinsteiger",
+    "type": "word",
+    "ipa": "ʃvaɪnˌʃtaɪɡɐ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Schweinsteiger | TYPE=word | IPA=ʃvaɪnˌʃtaɪɡɐ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! ... Win, pig!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791299895.657221,
+   "sec": 2.24,
+   "check": {
+    "transcript": "shh, guinea pig",
+    "type": "sentence",
+    "ipa": "ʃ ˈɡɪni pɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh, guinea pig | TYPE=sentence | IPA=ʃ ˈɡɪni pɪɡ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b2_u06_l10",
+ "sub": "line",
+ "title": "2권 6유닛 대사 · 그럼블: Shh! ... Win, pig!",
+ "text": "Shh! ... Win, pig!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Jump in!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286492.2756934,
+   "sec": 1.16,
+   "check": {
+    "transcript": "jump in",
+    "type": "sentence",
+    "ipa": "ˈdʒʌmp ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jump in | TYPE=sentence | IPA=ˈdʒʌmp ɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "u04_l10",
+ "sub": "line",
+ "title": "4유닛 대사 · 번: Jump in!",
+ "text": "Jump in!",
+ "voice": "Leda"
+}

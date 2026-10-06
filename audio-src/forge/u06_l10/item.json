@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We like the moon!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286531.6988685,
+   "sec": 2.24,
+   "check": {
+    "transcript": "We like the moon.",
+    "type": "sentence",
+    "ipa": "wi laɪk ðə mun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like the moon. | TYPE=sentence | IPA=wi laɪk ðə mun | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "u06_l10",
+ "sub": "line",
+ "title": "6유닛 대사 · 함께: We like the moon!",
+ "text": "We like the moon!",
+ "voice": "Kore"
+}

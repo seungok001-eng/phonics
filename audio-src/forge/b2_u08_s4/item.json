@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A dot is on the cot.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291807.3840435,
+   "sec": 2.28,
+   "check": {
+    "transcript": "A dot is on the cot.",
+    "type": "sentence",
+    "ipa": "ə dɑt ɪz ɑn ðə kɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A dot is on the cot. | TYPE=sentence | IPA=ə dɑt ɪz ɑn ðə kɑt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_s4",
+ "sub": "line",
+ "title": "2권 8유닛 문장 4: A dot is on the cot.",
+ "text": "A dot is on the cot.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

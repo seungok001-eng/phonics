@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pot! Pot?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291836.2528934,
+   "sec": 2.12,
+   "check": {
+    "transcript": "pot pot",
+    "type": "word",
+    "ipa": "/pɒt pɒt/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pot pot | TYPE=word | IPA=/pɒt pɒt/ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_l3",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 핍: Pot! Pot?",
+ "text": "Pot! Pot?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 0
+}

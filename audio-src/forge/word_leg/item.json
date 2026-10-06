@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "leg",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286296.076401,
+   "sec": 1.2,
+   "check": {
+    "transcript": "leg",
+    "type": "word",
+    "ipa": "lɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=leg | TYPE=word | IPA=lɛɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_leg",
+ "sub": "word",
+ "title": "단어 leg · 다리",
+ "text": "leg",
+ "voice": "Kore"
+}

@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the t things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286630.1168578,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Find the tea things.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə tiː θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the tea things. | TYPE=sentence | IPA=faɪnd ðə tiː θɪŋz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb_u08_2_task",
+ "sub": "instr",
+ "title": "8유닛 스토리북 과제 · Find the t things!",
+ "text": "Find the t things!",
+ "voice": "Kore",
+ "book": 1
+}

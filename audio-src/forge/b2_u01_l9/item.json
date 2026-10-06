@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! My pond!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291465.794423,
+   "sec": 2.4,
+   "check": {
+    "transcript": "Shh my pond",
+    "type": "sentence",
+    "ipa": "ʃ mɑɪ pɒnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh my pond | TYPE=sentence | IPA=ʃ mɑɪ pɒnd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b2_u01_l9",
+ "sub": "line",
+ "title": "2권 1유닛 대사 · 그럼블: Shh! My pond!",
+ "text": "Shh! My pond!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Who is that?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286415.1132312,
+   "sec": 1.36,
+   "check": {
+    "transcript": "Who is that?",
+    "type": "sentence",
+    "ipa": "hu ɪz ðæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Who is that? | TYPE=sentence | IPA=hu ɪz ðæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_3_3",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 해설: Who is that?",
+ "text": "Who is that?",
+ "voice": "Kore"
+}

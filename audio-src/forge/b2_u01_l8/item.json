@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We can go on!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291464.551155,
+   "sec": 1.92,
+   "check": {
+    "transcript": "We can go on.",
+    "type": "sentence",
+    "ipa": "wi kən ˈɡoʊ ˈɑn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We can go on. | TYPE=sentence | IPA=wi kən ˈɡoʊ ˈɑn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b2_u01_l8",
+ "sub": "line",
+ "title": "2권 1유닛 대사 · 함께: We can go on!",
+ "text": "We can go on!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

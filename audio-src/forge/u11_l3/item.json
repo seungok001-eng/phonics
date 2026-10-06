@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "And rice and yogurt!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791287276.7794309,
+   "sec": 2.08,
+   "check": {
+    "transcript": "and rice and yogurt",
+    "type": "sentence",
+    "ipa": "ənd ɹaɪs ənd joʊɡəɹt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=and rice and yogurt | TYPE=sentence | IPA=ənd ɹaɪs ənd joʊɡəɹt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "u11_l3",
+ "sub": "line",
+ "title": "1권 11유닛 대사 · 번: And rice and yogurt!",
+ "text": "And rice and yogurt!",
+ "voice": "Leda",
+ "book": 1
+}

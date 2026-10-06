@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The cat is on the mat.",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291453.2444334,
+   "sec": 2.24,
+   "check": {
+    "transcript": "The cat is on the mat.",
+    "type": "sentence",
+    "ipa": "ðə kæt ɪz ɒn ðə mæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cat is on the mat. | TYPE=sentence | IPA=ðə kæt ɪz ɒn ðə mæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b2_u01_l1",
+ "sub": "line",
+ "title": "2권 1유닛 대사 · 번: The cat is on the mat.",
+ "text": "The cat is on the mat.",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Go to the dot.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291824.2567627,
+   "sec": 2.88,
+   "check": {
+    "transcript": "Got it to date.",
+    "type": "sentence",
+    "ipa": "ˈgɑt ɪt tə ˈdeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Got it to date. | TYPE=sentence | IPA=ˈgɑt ɪt tə ˈdeɪt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Go to the dot.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791299975.1227677,
+   "sec": 2.12,
+   "check": {
+    "transcript": "Shh. Go to the dot.",
+    "type": "sentence",
+    "ipa": "ʃ. ɡoʊ tuː ðə dɑt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Go to the dot. | TYPE=sentence | IPA=ʃ. ɡoʊ tuː ðə dɑt. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb2_u08_3_1",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 그럼블: Shh... Go to the dot.",
+ "text": "Shh... Go to the dot.",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 1
+}

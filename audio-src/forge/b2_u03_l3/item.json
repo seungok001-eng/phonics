@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ten hens! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291549.3252404,
+   "sec": 2.52,
+   "check": {
+    "transcript": "Ten hens, oh no.",
+    "type": "sentence",
+    "ipa": "tɛn hɛnz, oʊ noʊ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ten hens, oh no. | TYPE=sentence | IPA=tɛn hɛnz, oʊ noʊ. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b2_u03_l3",
+ "sub": "line",
+ "title": "2권 3유닛 대사 · 해설: Ten hens! Oh no!",
+ "text": "Ten hens! Oh no!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

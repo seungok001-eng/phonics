@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Not shh! Boom, boom!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291961.1626756,
+   "sec": 2.12,
+   "check": {
+    "transcript": "notch boom boom",
+    "type": "sentence",
+    "ipa": "nɑtʃ bum bum",
+    "note": "ok",
+    "raw": "TRANSCRIPT=notch boom boom | TYPE=sentence | IPA=nɑtʃ bum bum | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_2_2",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 그럼블: Not shh! Boom, boom!",
+ "text": "Not shh! Boom, boom!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

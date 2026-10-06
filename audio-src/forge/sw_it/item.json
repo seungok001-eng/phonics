@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "it",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286362.257133,
+   "sec": 0.6,
+   "check": {
+    "transcript": "it",
+    "type": "word",
+    "ipa": "ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=it | TYPE=word | IPA=ɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sw_it",
+ "sub": "sw",
+ "title": "사이트워드 it · 그것",
+ "text": "it",
+ "voice": "Kore"
+}

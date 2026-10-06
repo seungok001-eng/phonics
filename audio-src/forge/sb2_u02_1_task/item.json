@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -ap words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291530.3625867,
+   "sec": 2.12,
+   "check": {
+    "transcript": "Find the app words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː æp wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the app words. | TYPE=sentence | IPA=faɪnd ðiː æp wɜːdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_1_task",
+ "sub": "instr",
+ "title": "2유닛 스토리북 과제 · Find the -ap words!",
+ "text": "Find the -ap words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

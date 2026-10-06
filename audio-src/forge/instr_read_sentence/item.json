@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Read the sentence.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292043.2710443,
+   "sec": 1.88,
+   "check": {
+    "transcript": "Read the sentence.",
+    "type": "sentence",
+    "ipa": "riːd ðə ˈsɛntəns",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Read the sentence. | TYPE=sentence | IPA=riːd ðə ˈsɛntəns | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:11",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_read_sentence",
+ "sub": "instr",
+ "title": "지시문 · Read the sentence.",
+ "text": "Read the sentence.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

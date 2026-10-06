@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look and write.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292046.325029,
+   "sec": 1.64,
+   "check": {
+    "transcript": "Look and write.",
+    "type": "sentence",
+    "ipa": "lʊk ænd ɹaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look and write. | TYPE=sentence | IPA=lʊk ænd ɹaɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:11",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_look_write",
+ "sub": "instr",
+ "title": "지시문 · Look and write.",
+ "text": "Look and write.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pet is wet!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291553.4138196,
+   "sec": 2.0,
+   "check": {
+    "transcript": "The pet is wet.",
+    "type": "sentence",
+    "ipa": "ðə pɛt ɪz wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pet is wet. | TYPE=sentence | IPA=ðə pɛt ɪz wɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b2_u03_l5",
+ "sub": "line",
+ "title": "2권 3유닛 대사 · 번: The pet is wet!",
+ "text": "The pet is wet!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

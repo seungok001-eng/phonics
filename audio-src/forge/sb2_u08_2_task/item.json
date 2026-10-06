@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the dog and the log!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291824.1058884,
+   "sec": 2.48,
+   "check": {
+    "transcript": "Find the dog and the log.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə dɒɡ ænd ðə lɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the dog and the log. | TYPE=sentence | IPA=faɪnd ðə dɒɡ ænd ðə lɒɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb2_u08_2_task",
+ "sub": "instr",
+ "title": "8유닛 스토리북 과제 · Find the dog and the log!",
+ "text": "Find the dog and the log!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

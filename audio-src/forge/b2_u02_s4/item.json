@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The tag is on the bag.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291522.3982475,
+   "sec": 2.08,
+   "check": {
+    "transcript": "The tag is on the bag.",
+    "type": "sentence",
+    "ipa": "ðə tæɡ ɪz ɒn ðə bæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The tag is on the bag. | TYPE=sentence | IPA=ðə tæɡ ɪz ɒn ðə bæɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b2_u02_s4",
+ "sub": "line",
+ "title": "2권 2유닛 문장 4: The tag is on the bag.",
+ "text": "The tag is on the bag.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

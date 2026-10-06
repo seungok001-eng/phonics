@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! The last stone!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291890.1077688,
+   "sec": 3.0,
+   "check": {
+    "transcript": "click clack the last stone",
+    "type": "sentence",
+    "ipa": "klɪk klæk ðə læst stoʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click clack the last stone | TYPE=sentence | IPA=klɪk klæk ðə læst stoʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_l7",
+ "sub": "line",
+ "title": "2권 10유닛 대사 · 해설: Click-clack! The last stone!",
+ "text": "Click-clack! The last stone!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

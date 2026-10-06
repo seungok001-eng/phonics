@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The cap is in the bag.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291516.1297276,
+   "sec": 2.12,
+   "check": {
+    "transcript": "The cap is in the bag.",
+    "type": "sentence",
+    "ipa": "ðə kæp ɪz ɪn ðə bæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cap is in the bag. | TYPE=sentence | IPA=ðə kæp ɪz ɪn ðə bæɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b2_u02_s1",
+ "sub": "line",
+ "title": "2권 2유닛 문장 1: The cap is in the bag.",
+ "text": "The cap is in the bag.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

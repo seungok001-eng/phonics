@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "rocket",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286322.025242,
+   "sec": 1.28,
+   "check": {
+    "transcript": "rocket",
+    "type": "word",
+    "ipa": "ˈɹɑkɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rocket | TYPE=word | IPA=ˈɹɑkɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_rocket",
+ "sub": "word",
+ "title": "단어 rocket · 로켓",
+ "text": "rocket",
+ "voice": "Kore"
+}

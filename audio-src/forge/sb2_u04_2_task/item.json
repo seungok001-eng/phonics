@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -ed words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291635.8383672,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Find the ED words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈiːˈdiː wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the ED words. | TYPE=sentence | IPA=faɪnd ðə ˈiːˈdiː wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_2_task",
+ "sub": "instr",
+ "title": "4유닛 스토리북 과제 · Find the -ed words!",
+ "text": "Find the -ed words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

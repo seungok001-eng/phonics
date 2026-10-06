@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "J, j, /dʒ/, jelly!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288730.8443844,
+   "sec": 2.96,
+   "check": {
+    "transcript": "jelly",
+    "type": "word",
+    "ipa": "ˈdʒɛ.li",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jelly | TYPE=word | IPA=ˈdʒɛ.li | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s10",
+ "sub": "line",
+ "title": "1권 노래 10: J, j, /dʒ/, jelly!",
+ "text": "J, j, /dʒ/, jelly!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

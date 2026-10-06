@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "can",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286373.1456923,
+   "sec": 1.0,
+   "check": {
+    "transcript": "can",
+    "type": "word",
+    "ipa": "kæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=can | TYPE=word | IPA=kæn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sw_can",
+ "sub": "sw",
+ "title": "사이트워드 can · 할 수 있다",
+ "text": "can",
+ "voice": "Kore"
+}

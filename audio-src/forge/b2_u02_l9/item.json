@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! It is my cap!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291511.9425209,
+   "sec": 3.6,
+   "check": {
+    "transcript": "It is my cap.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ kæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my cap. | TYPE=sentence | IPA=ɪt ɪz maɪ kæp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b2_u02_l9",
+ "sub": "line",
+ "title": "2권 2유닛 대사 · 그럼블: Shh! It is my cap!",
+ "text": "Shh! It is my cap!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

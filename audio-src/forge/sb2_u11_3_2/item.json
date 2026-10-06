@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble? Is it you?",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291969.9399023,
+   "sec": 2.68,
+   "check": {
+    "transcript": "Grumble? Is it you?",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ˈɪz ɪt ˈjuː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble? Is it you? | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈɪz ɪt ˈjuː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_3_2",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 헤지: Grumble? Is it you?",
+ "text": "Grumble? Is it you?",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

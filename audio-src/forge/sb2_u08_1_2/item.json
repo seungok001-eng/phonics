@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We can not see!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291811.614156,
+   "sec": 1.8,
+   "check": {
+    "transcript": "We cannot see.",
+    "type": "sentence",
+    "ipa": "wi ˈkæn.nɑt ˈsiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi ˈkæn.nɑt ˈsiː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We can not see!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791299963.1006439,
+   "sec": 1.88,
+   "check": {
+    "transcript": "We cannot see.",
+    "type": "sentence",
+    "ipa": "wi ˈkæn.ɑt ˈsi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi ˈkæn.ɑt ˈsi | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb2_u08_1_2",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 번: We can not see!",
+ "text": "We can not see!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 1
+}

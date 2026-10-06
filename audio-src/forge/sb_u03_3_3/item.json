@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The lantern glows!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286474.0185058,
+   "sec": 2.48,
+   "check": {
+    "transcript": "The lantern glows.",
+    "type": "sentence",
+    "ipa": "ðə ˈlæntərn ɡloʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The lantern glows. | TYPE=sentence | IPA=ðə ˈlæntərn ɡloʊz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb_u03_3_3",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 해설: The lantern glows!",
+ "text": "The lantern glows!",
+ "voice": "Kore"
+}

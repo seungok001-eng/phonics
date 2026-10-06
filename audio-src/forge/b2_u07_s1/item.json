@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Zip it up!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291756.8571653,
+   "sec": 2.04,
+   "check": {
+    "transcript": "zip it up",
+    "type": "sentence",
+    "ipa": "zɪp ɪt ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zip it up | TYPE=sentence | IPA=zɪp ɪt ʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b2_u07_s1",
+ "sub": "line",
+ "title": "2권 7유닛 문장 1: Zip it up!",
+ "text": "Zip it up!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "You can!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286574.4743762,
+   "sec": 1.56,
+   "check": {
+    "transcript": "You can.",
+    "type": "sentence",
+    "ipa": "ju kæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=You can. | TYPE=sentence | IPA=ju kæn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "u07_l11",
+ "sub": "line",
+ "title": "1권 7유닛 대사 · 헤지: You can!",
+ "text": "You can!",
+ "voice": "Puck",
+ "book": 1
+}

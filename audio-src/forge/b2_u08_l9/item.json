@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! It is hot!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291798.9492958,
+   "sec": 2.36,
+   "check": {
+    "transcript": "whew it is hot",
+    "type": "sentence",
+    "ipa": "wju ɪt ɪz hɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=whew it is hot | TYPE=sentence | IPA=wju ɪt ɪz hɑt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_l9",
+ "sub": "line",
+ "title": "2권 8유닛 대사 · 그럼블: Shh! It is hot!",
+ "text": "Shh! It is hot!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

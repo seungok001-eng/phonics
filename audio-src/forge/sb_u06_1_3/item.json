@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... A pot glows?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286537.6814373,
+   "sec": 2.08,
+   "check": {
+    "transcript": "Shh, a pot glows?",
+    "type": "sentence",
+    "ipa": "ʃ a pɑt glɔʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, a pot glows? | TYPE=sentence | IPA=ʃ a pɑt glɔʊz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb_u06_1_3",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 해설: Shh... A pot glows?",
+ "text": "Shh... A pot glows?",
+ "voice": "Kore"
+}

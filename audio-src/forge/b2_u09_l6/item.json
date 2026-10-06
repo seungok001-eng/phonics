@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The fox and the ox!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291840.55111,
+   "sec": 2.48,
+   "check": {
+    "transcript": "the fox and the ox",
+    "type": "sentence",
+    "ipa": "ðə ˈfɑks ənd ði ˈɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the fox and the ox | TYPE=sentence | IPA=ðə ˈfɑks ənd ði ˈɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_l6",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 해설: The fox and the ox!",
+ "text": "The fox and the ox!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

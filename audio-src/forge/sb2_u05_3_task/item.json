@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find Grumble's lantern!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291689.2519429,
+   "sec": 2.04,
+   "check": {
+    "transcript": "find Grumble's lantern",
+    "type": "sentence",
+    "ipa": "faɪnd ˈɡɹʌmbəlz ˈlæntɚn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=find Grumble's lantern | TYPE=sentence | IPA=faɪnd ˈɡɹʌmbəlz ˈlæntɚn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb2_u05_3_task",
+ "sub": "instr",
+ "title": "5유닛 스토리북 과제 · Find Grumble's lantern!",
+ "text": "Find Grumble's lantern!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

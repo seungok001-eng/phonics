@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "dip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291231.7063541,
+   "sec": 0.96,
+   "check": {
+    "transcript": "dip",
+    "type": "word",
+    "ipa": "dɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dip | TYPE=word | IPA=dɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_dip",
+ "sub": "word",
+ "title": "단어 dip · 찍어 먹는 소스",
+ "text": "dip",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

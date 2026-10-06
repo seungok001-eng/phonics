@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ten! Ten?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291573.2070353,
+   "sec": 2.84,
+   "check": {
+    "transcript": "ten",
+    "type": "word",
+    "ipa": "tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ten | TYPE=word | IPA=tɛn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb2_u03_1_2",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 핍: Ten! Ten?",
+ "text": "Ten! Ten?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 0
+}

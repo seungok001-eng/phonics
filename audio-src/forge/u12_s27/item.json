@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A to Z, we can sing!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288762.214305,
+   "sec": 2.6,
+   "check": {
+    "transcript": "A to Z we can sing.",
+    "type": "sentence",
+    "ipa": "eɪ tuː ziː wiː kæn sɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A to Z we can sing. | TYPE=sentence | IPA=eɪ tuː ziː wiː kæn sɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s27",
+ "sub": "line",
+ "title": "1권 노래 27: A to Z, we can sing!",
+ "text": "A to Z, we can sing!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

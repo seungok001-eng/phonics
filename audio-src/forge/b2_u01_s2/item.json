@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A rat is in the van.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291471.9177213,
+   "sec": 1.92,
+   "check": {
+    "transcript": "A rat is in the van.",
+    "type": "sentence",
+    "ipa": "ə ræt ɪz ɪn ðə væn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A rat is in the van. | TYPE=sentence | IPA=ə ræt ɪz ɪn ðə væn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b2_u01_s2",
+ "sub": "line",
+ "title": "2권 1유닛 문장 2: A rat is in the van.",
+ "text": "A rat is in the van.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

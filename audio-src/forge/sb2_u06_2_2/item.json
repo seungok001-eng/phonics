@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! A big stone!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291724.620568,
+   "sec": 3.24,
+   "check": {
+    "transcript": "click, clack, a big stone",
+    "type": "sentence",
+    "ipa": "klɪk, klæk, ə bɪɡ stoʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click, clack, a big stone | TYPE=sentence | IPA=klɪk, klæk, ə bɪɡ stoʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_2_2",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 해설: Click-clack! A big stone!",
+ "text": "Click-clack! A big stone!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

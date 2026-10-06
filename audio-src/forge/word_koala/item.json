@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "koala",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286292.5461738,
+   "sec": 1.24,
+   "check": {
+    "transcript": "koala",
+    "type": "word",
+    "ipa": "koʊˈɑlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=koala | TYPE=word | IPA=koʊˈɑlə | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_koala",
+ "sub": "word",
+ "title": "단어 koala · 코알라",
+ "text": "koala",
+ "voice": "Kore"
+}

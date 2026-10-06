@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the y things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286705.4101014,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Find the rainy things.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈreɪni θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the rainy things. | TYPE=sentence | IPA=faɪnd ðə ˈreɪni θɪŋz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb_u10_1_task",
+ "sub": "instr",
+ "title": "10유닛 스토리북 과제 · Find the y things!",
+ "text": "Find the y things!",
+ "voice": "Kore",
+ "book": 1
+}

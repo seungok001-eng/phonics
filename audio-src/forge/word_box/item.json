@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "box",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286348.9734786,
+   "sec": 1.28,
+   "check": {
+    "transcript": "box",
+    "type": "word",
+    "ipa": "bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=box | TYPE=word | IPA=bɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_box",
+ "sub": "word",
+ "title": "단어 box · 상자",
+ "text": "box",
+ "voice": "Kore"
+}

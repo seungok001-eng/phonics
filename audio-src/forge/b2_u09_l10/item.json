@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pot... top! Top!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291848.4348135,
+   "sec": 3.0,
+   "check": {
+    "transcript": "pots top top",
+    "type": "sentence",
+    "ipa": "pɑts tɑp tɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pots top top | TYPE=sentence | IPA=pɑts tɑp tɑp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_l10",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 핍: Pot... top! Top!",
+ "text": "Pot... top! Top!",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 0
+}

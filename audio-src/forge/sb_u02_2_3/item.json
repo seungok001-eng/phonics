@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Oh no! Grumble!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286427.1060066,
+   "sec": 2.84,
+   "check": {
+    "transcript": "Oh no. Crumble.",
+    "type": "sentence",
+    "ipa": "oʊ noʊ ˈkrʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh no. Crumble. | TYPE=sentence | IPA=oʊ noʊ ˈkrʌmbəl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Oh no! Grumble!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791290010.148891,
+   "sec": 2.88,
+   "check": {
+    "transcript": "Oh no, grumble.",
+    "type": "sentence",
+    "ipa": "oʊ noʊ ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh no, grumble. | TYPE=sentence | IPA=oʊ noʊ ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb_u02_2_3",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 해설: Oh no! Grumble!",
+ "text": "Oh no! Grumble!",
+ "voice": "Kore",
+ "book": 1
+}

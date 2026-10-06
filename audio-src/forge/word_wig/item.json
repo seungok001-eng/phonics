@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "wig",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291217.3866582,
+   "sec": 1.2,
+   "check": {
+    "transcript": "wig",
+    "type": "word",
+    "ipa": "wɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wig | TYPE=word | IPA=wɪɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_wig",
+ "sub": "word",
+ "title": "단어 wig · 가발",
+ "text": "wig",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

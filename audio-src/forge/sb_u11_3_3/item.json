@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Over the fence... and then?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791287311.7187097,
+   "sec": 2.32,
+   "check": {
+    "transcript": "over the fence and then",
+    "type": "sentence",
+    "ipa": "ˈoʊvər ðə ˈfɛns ənd ˈðɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=over the fence and then | TYPE=sentence | IPA=ˈoʊvər ðə ˈfɛns ənd ˈðɛn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb_u11_3_3",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 해설: Over the fence... and then?",
+ "text": "Over the fence... and then?",
+ "voice": "Kore",
+ "book": 1
+}

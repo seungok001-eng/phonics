@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A little bed! A red bed!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291631.679912,
+   "sec": 2.6,
+   "check": {
+    "transcript": "a little bed, a red bed",
+    "type": "sentence",
+    "ipa": "ə lɪtəl bɛd, ə rɛd bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a little bed, a red bed | TYPE=sentence | IPA=ə lɪtəl bɛd, ə rɛd bɛd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_2_2",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 번: A little bed! A red bed!",
+ "text": "A little bed! A red bed!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

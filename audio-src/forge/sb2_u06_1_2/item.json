@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pig can not go.",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291717.578072,
+   "sec": 2.2,
+   "check": {
+    "transcript": "The pig cannot go.",
+    "type": "sentence",
+    "ipa": "ðə pɪg kænɑt goʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig cannot go. | TYPE=sentence | IPA=ðə pɪg kænɑt goʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The pig can not go.",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791299898.8583093,
+   "sec": 2.16,
+   "check": {
+    "transcript": "The pig cannot go.",
+    "type": "sentence",
+    "ipa": "ðə pɪɡ kænɑt ɡoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig cannot go. | TYPE=sentence | IPA=ðə pɪɡ kænɑt ɡoʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_1_2",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 번: The pig can not go.",
+ "text": "The pig can not go.",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 1
+}

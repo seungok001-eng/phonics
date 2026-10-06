@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Chirp?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286729.7811203,
+   "sec": 1.32,
+   "check": {
+    "transcript": "chirp",
+    "type": "word",
+    "ipa": "ʧɜːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chirp | TYPE=word | IPA=ʧɜːp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_pip",
+ "sub": "line",
+ "title": "말버릇 · 핍: Chirp?",
+ "text": "Chirp?",
+ "voice": "Kore",
+ "book": 1
+}

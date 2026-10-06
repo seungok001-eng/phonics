@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ /æ/ /p/ cap!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291531.8170135,
+   "sec": 3.84,
+   "check": {
+    "transcript": "cap",
+    "type": "word",
+    "ipa": "kæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap | TYPE=word | IPA=kæp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_2_1",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 비즈: /k/ /æ/ /p/ cap!",
+ "text": "/k/ /æ/ /p/ cap!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

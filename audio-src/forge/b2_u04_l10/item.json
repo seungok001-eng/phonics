@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Yes! A bed for Grumble.",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291612.517869,
+   "sec": 2.76,
+   "check": {
+    "transcript": "Yes! A bed for Grumble.",
+    "type": "sentence",
+    "ipa": "jɛs ə bɛd fɔɹ ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yes! A bed for Grumble. | TYPE=sentence | IPA=jɛs ə bɛd fɔɹ ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b2_u04_l10",
+ "sub": "line",
+ "title": "2권 4유닛 대사 · 헤지: Yes! A bed for Grumble.",
+ "text": "Yes! A bed for Grumble.",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

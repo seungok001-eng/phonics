@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bug, hug, mug, rug!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292021.1034038,
+   "sec": 3.64,
+   "check": {
+    "transcript": "bug hug mug rug",
+    "type": "sentence",
+    "ipa": "bʌɡ hʌɡ mʌɡ rʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bug hug mug rug | TYPE=sentence | IPA=bʌɡ hʌɡ mʌɡ rʌɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s21",
+ "sub": "line",
+ "title": "2권 노래 21: Bug, hug, mug, rug!",
+ "text": "Bug, hug, mug, rug!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

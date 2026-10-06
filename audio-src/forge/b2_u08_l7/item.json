@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Go to the dot.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291794.8257778,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Go to the dat.",
+    "type": "sentence",
+    "ipa": "goʊ tuː ðə dæt",
+    "note": "mispronounced \"door\" as \"dat\"",
+    "raw": "TRANSCRIPT=Go to the dat. | TYPE=sentence | IPA=goʊ tuː ðə dæt | NOTE=mispronounced \"door\" as \"dat\""
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Go to the dot.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791299950.3953385,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Shh, go to the dot.",
+    "type": "sentence",
+    "ipa": "ʃ goʊ tuː ðə dɑːt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, go to the dot. | TYPE=sentence | IPA=ʃ goʊ tuː ðə dɑːt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_l7",
+ "sub": "line",
+ "title": "2권 8유닛 대사 · 그럼블: Shh... Go to the dot.",
+ "text": "Shh... Go to the dot.",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! It is my quilt!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791286563.5638773,
+   "sec": 2.68,
+   "check": {
+    "transcript": "Shh, it is my quilt.",
+    "type": "sentence",
+    "ipa": "ʃ i t ɪ z m aɪ kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, it is my quilt. | TYPE=sentence | IPA=ʃ i t ɪ z m aɪ kwɪlt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "u07_l5",
+ "sub": "line",
+ "title": "7유닛 대사 · 그럼블: Shh! It is my quilt!",
+ "text": "Shh! It is my quilt!",
+ "voice": "Charon"
+}

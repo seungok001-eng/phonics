@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip tries. Achoo!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791287229.0428746,
+   "sec": 2.96,
+   "check": {
+    "transcript": "Pip tries a chew.",
+    "type": "sentence",
+    "ipa": "pɪp traɪz ə tʃuː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip tries a chew. | TYPE=sentence | IPA=pɪp traɪz ə tʃuː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "u05_l2",
+ "sub": "line",
+ "title": "1권 5유닛 대사 · 해설: Pip tries. Achoo!",
+ "text": "Pip tries. Achoo!",
+ "voice": "Kore",
+ "book": 1
+}

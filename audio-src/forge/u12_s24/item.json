@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "X, x, /ks/, six!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288756.0170271,
+   "sec": 4.28,
+   "check": {
+    "transcript": "X",
+    "type": "letter-name",
+    "ipa": "ˈɛks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=X | TYPE=letter-name | IPA=ˈɛks | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "X, x, /ks/, six!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791290625.6269197,
+   "sec": 4.08,
+   "check": {
+    "transcript": "X",
+    "type": "letter-name",
+    "ipa": "ˈɛks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=X | TYPE=letter-name | IPA=ˈɛks | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 22:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s24",
+ "sub": "line",
+ "title": "1권 노래 24: X, x, /ks/, six!",
+ "text": "X, x, /ks/, six!",
+ "voice": "Kore",
+ "book": 1
+}

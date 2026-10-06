@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ɑ/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286226.3527567,
+   "sec": 0.88,
+   "check": {
+    "transcript": "a",
+    "type": "isolated-sound",
+    "ipa": "/ʌ/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a | TYPE=isolated-sound | IPA=/ʌ/ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "otter 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286762.7421887,
+   "sec": 0.35,
+   "check": {
+    "transcript": "otter",
+    "type": "word",
+    "ipa": "ˈɑtɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=otter | TYPE=word | IPA=ˈɑtɚ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": "o",
+ "id": "sound_o",
+ "sub": "sound",
+ "title": "낱소리 /ɑ/ (o)",
+ "text": "o",
+ "voice": "Kore",
+ "hint": "short o as at the start of otter",
+ "busy": 0
+}

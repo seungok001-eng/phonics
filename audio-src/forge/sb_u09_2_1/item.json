@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look at the water!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286666.1913776,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Look at the water.",
+    "type": "sentence",
+    "ipa": "lʊk ət ðə wɔtɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at the water. | TYPE=sentence | IPA=lʊk ət ðə wɔtɚ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb_u09_2_1",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 함께: Look at the water!",
+ "text": "Look at the water!",
+ "voice": "Kore",
+ "book": 1
+}

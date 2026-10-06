@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/d/ ... /e/ ... /n/ ... den",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291319.016971,
+   "sec": 5.32,
+   "check": {
+    "transcript": "Den",
+    "type": "word",
+    "ipa": "/dɛn/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Den | TYPE=word | IPA=/dɛn/ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/d/ ... /e/ ... /n/ ... den",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299613.7951045,
+   "sec": 4.36,
+   "check": {
+    "transcript": "den",
+    "type": "word",
+    "ipa": "dɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=den | TYPE=word | IPA=dɛn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_den",
+ "sub": "blend",
+ "title": "합치기 den",
+ "text": "/d/ ... /e/ ... /n/ ... den",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

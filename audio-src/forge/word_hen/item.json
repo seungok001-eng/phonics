@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "hen",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286274.2663226,
+   "sec": 1.12,
+   "check": {
+    "transcript": "hen",
+    "type": "word",
+    "ipa": "hɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hen | TYPE=word | IPA=hɛn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_hen",
+ "sub": "word",
+ "title": "단어 hen · 암탉",
+ "text": "hen",
+ "voice": "Kore"
+}

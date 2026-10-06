@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the k things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286499.7027981,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Find the K things.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə keɪ θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the K things. | TYPE=sentence | IPA=faɪnd ðə keɪ θɪŋz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb_u04_1_task",
+ "sub": "instr",
+ "title": "4유닛 스토리북 과제 · Find the k things!",
+ "text": "Find the k things!",
+ "voice": "Kore"
+}

@@ -52,9 +52,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:01",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -63,6 +63,5 @@
  "sub": "line",
  "title": "0유닛 대사 · 해설: Bun and Hedgie find a little door.",
  "text": "Bun and Hedgie find a little door.",
- "voice": "Kore",
- "busy": 1
+ "voice": "Kore"
 }

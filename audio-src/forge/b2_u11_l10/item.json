@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sh... sh... Sh... sh...",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291944.6938727,
+   "sec": 2.52,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "/ʃ/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=/ʃ/ | NOTE=clean"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b2_u11_l10",
+ "sub": "line",
+ "title": "2권 11유닛 대사 · 해설: Sh... sh... Sh... sh...",
+ "text": "Sh... sh... Sh... sh...",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

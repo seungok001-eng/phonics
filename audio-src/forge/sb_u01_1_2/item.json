@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/a/ /a/ apple!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286398.6365814,
+   "sec": 2.56,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_1_2",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 헤지: /a/ /a/ apple!",
+ "text": "/a/ /a/ apple!",
+ "voice": "Puck",
+ "book": 1
+}

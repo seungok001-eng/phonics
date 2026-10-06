@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/o/ /o/ octopus! Pop!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286551.154492,
+   "sec": 4.28,
+   "check": {
+    "transcript": "octopus, pop",
+    "type": "word",
+    "ipa": "ˈɑktəpəs, pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=octopus, pop | TYPE=word | IPA=ˈɑktəpəs, pɑp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb_u06_3_1",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 번: /o/ /o/ octopus! Pop!",
+ "text": "/o/ /o/ octopus! Pop!",
+ "voice": "Leda",
+ "book": 1
+}

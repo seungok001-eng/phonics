@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Who is on the hill?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286396.0840976,
+   "sec": 2.44,
+   "check": {
+    "transcript": "Shh, who is on the hill?",
+    "type": "sentence",
+    "ipa": "ʃː huː ɪz ɒn ðə hɪl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, who is on the hill? | TYPE=sentence | IPA=ʃː huː ɪz ɒn ðə hɪl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_u00_2_3",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 해설: Shh... Who is on the hill?",
+ "text": "Shh... Who is on the hill?",
+ "voice": "Kore"
+}

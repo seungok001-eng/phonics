@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look, Pip! You can go!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291887.7391987,
+   "sec": 2.64,
+   "check": {
+    "transcript": "Look Pip, you can go.",
+    "type": "sentence",
+    "ipa": "lʊk pɪp juː kən ɡəʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look Pip, you can go. | TYPE=sentence | IPA=lʊk pɪp juː kən ɡəʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_l6",
+ "sub": "line",
+ "title": "2권 10유닛 대사 · 함께: Look, Pip! You can go!",
+ "text": "Look, Pip! You can go!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

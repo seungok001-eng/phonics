@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Rip! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291740.5485375,
+   "sec": 2.52,
+   "check": {
+    "transcript": "rib, oh no",
+    "type": "sentence",
+    "ipa": "rɪb oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rib, oh no | TYPE=sentence | IPA=rɪb oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Rip! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299917.9150565,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Rip! Oh no.",
+    "type": "sentence",
+    "ipa": "ˈrɪp ˈoʊ ˈnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Rip! Oh no. | TYPE=sentence | IPA=ˈrɪp ˈoʊ ˈnoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b2_u07_l2",
+ "sub": "line",
+ "title": "2권 7유닛 대사 · 해설: Rip! Oh no!",
+ "text": "Rip! Oh no!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

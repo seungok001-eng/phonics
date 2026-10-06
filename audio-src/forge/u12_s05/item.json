@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "E, e, /e/, egg!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288722.3957148,
+   "sec": 3.24,
+   "check": {
+    "transcript": "egg",
+    "type": "word",
+    "ipa": "ɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=egg | TYPE=word | IPA=ɛɡ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s05",
+ "sub": "line",
+ "title": "1권 노래 5: E, e, /e/, egg!",
+ "text": "E, e, /e/, egg!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A peg is on the bed.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291616.3846314,
+   "sec": 2.28,
+   "check": {
+    "transcript": "A pig is on the bed.",
+    "type": "sentence",
+    "ipa": "ə pɪg ɪz ɑn ðə bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A pig is on the bed. | TYPE=sentence | IPA=ə pɪg ɪz ɑn ðə bɛd | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A peg is on the bed.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299841.308518,
+   "sec": 2.36,
+   "check": {
+    "transcript": "A pig is on the bed.",
+    "type": "sentence",
+    "ipa": "ə pɪg ɪz ɑn ðə bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A pig is on the bed. | TYPE=sentence | IPA=ə pɪg ɪz ɑn ðə bɛd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b2_u04_s3",
+ "sub": "line",
+ "title": "2권 4유닛 문장 3: A peg is on the bed.",
+ "text": "A peg is on the bed.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

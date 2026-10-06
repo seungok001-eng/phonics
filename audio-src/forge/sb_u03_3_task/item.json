@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the i things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286474.666195,
+   "sec": 2.08,
+   "check": {
+    "transcript": "Find the eye things.",
+    "type": "sentence",
+    "ipa": "faɪnd ði aɪ θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the eye things. | TYPE=sentence | IPA=faɪnd ði aɪ θɪŋz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb_u03_3_task",
+ "sub": "instr",
+ "title": "3유닛 스토리북 과제 · Find the i things!",
+ "text": "Find the i things!",
+ "voice": "Kore",
+ "book": 1
+}

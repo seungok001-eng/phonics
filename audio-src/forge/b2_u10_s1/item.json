@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A bug is on the rug.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291897.338917,
+   "sec": 2.0,
+   "check": {
+    "transcript": "A bug is on the rug.",
+    "type": "sentence",
+    "ipa": "ə bʌɡ ɪz ɑn ðə rʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A bug is on the rug. | TYPE=sentence | IPA=ə bʌɡ ɪz ɑn ðə rʌɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_s1",
+ "sub": "line",
+ "title": "2권 10유닛 문장 1: A bug is on the rug.",
+ "text": "A bug is on the rug.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

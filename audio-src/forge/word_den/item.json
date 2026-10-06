@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "den",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291206.7669158,
+   "sec": 1.04,
+   "check": {
+    "transcript": "Den",
+    "type": "word",
+    "ipa": "dɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Den | TYPE=word | IPA=dɛn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_den",
+ "sub": "word",
+ "title": "단어 den · 굴",
+ "text": "den",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

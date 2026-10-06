@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the a words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291674.8196428,
+   "sec": 2.32,
+   "check": {
+    "transcript": "Find the A words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː eɪ wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the A words. | TYPE=sentence | IPA=faɪnd ðiː eɪ wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb2_u05_1_task",
+ "sub": "instr",
+ "title": "5유닛 스토리북 과제 · Find the a words!",
+ "text": "Find the a words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

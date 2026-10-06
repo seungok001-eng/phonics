@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Dip is on my lip!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291744.8279514,
+   "sec": 1.88,
+   "check": {
+    "transcript": "Dip is on my lip.",
+    "type": "sentence",
+    "ipa": "dɪp ɪz ɑn maɪ lɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Dip is on my lip. | TYPE=sentence | IPA=dɪp ɪz ɑn maɪ lɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b2_u07_l5",
+ "sub": "line",
+ "title": "2권 7유닛 대사 · 번: Dip is on my lip!",
+ "text": "Dip is on my lip!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

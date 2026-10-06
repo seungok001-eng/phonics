@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/n/ /e/ /t/ net!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291579.1432676,
+   "sec": 4.08,
+   "check": {
+    "transcript": "net",
+    "type": "word",
+    "ipa": "nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb2_u03_2_1",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 비즈: /n/ /e/ /t/ net!",
+ "text": "/n/ /e/ /t/ net!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

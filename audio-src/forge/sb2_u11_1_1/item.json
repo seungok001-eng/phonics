@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A party! Look!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291951.224259,
+   "sec": 2.08,
+   "check": {
+    "transcript": "a party look",
+    "type": "sentence",
+    "ipa": "ə pɑɹti lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a party look | TYPE=sentence | IPA=ə pɑɹti lʊk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_1_1",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 함께: A party! Look!",
+ "text": "A party! Look!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

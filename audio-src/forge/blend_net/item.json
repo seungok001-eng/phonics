@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/n/ ... /e/ ... /t/ ... net",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291303.1389458,
+   "sec": 4.52,
+   "check": {
+    "transcript": "net",
+    "type": "word",
+    "ipa": "nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/n/ ... /e/ ... /t/ ... net",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299588.9572313,
+   "sec": 4.52,
+   "check": {
+    "transcript": "net",
+    "type": "word",
+    "ipa": "nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_net",
+ "sub": "blend",
+ "title": "합치기 net",
+ "text": "/n/ ... /e/ ... /t/ ... net",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

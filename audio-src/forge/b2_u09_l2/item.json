@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hop, hop! The fox can hop!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291833.5761414,
+   "sec": 3.0,
+   "check": {
+    "transcript": "Hop hop the fox can hop.",
+    "type": "sentence",
+    "ipa": "hɑp hɑp ðə fɑks kæn hɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hop hop the fox can hop. | TYPE=sentence | IPA=hɑp hɑp ðə fɑks kæn hɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_l2",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 번: Hop, hop! The fox can hop!",
+ "text": "Hop, hop! The fox can hop!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

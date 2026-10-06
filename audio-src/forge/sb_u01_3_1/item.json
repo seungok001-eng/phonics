@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A! B! C!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286413.0750728,
+   "sec": 4.08,
+   "check": {
+    "transcript": "A, B, C",
+    "type": "letter-name",
+    "ipa": "eɪ, biː, siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A, B, C | TYPE=letter-name | IPA=eɪ, biː, siː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_3_1",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 함께: A! B! C!",
+ "text": "A! B! C!",
+ "voice": "Kore"
+}

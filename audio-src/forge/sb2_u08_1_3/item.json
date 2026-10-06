@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Gof! Gof?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291813.2003791,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Goth",
+    "type": "word",
+    "ipa": "ɡɑθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Goth | TYPE=word | IPA=ɡɑθ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Gof! Gof?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299965.200068,
+   "sec": 2.0,
+   "check": {
+    "transcript": "gulf, gulf",
+    "type": "word",
+    "ipa": "ɡʌlf, ɡʌlf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gulf, gulf | TYPE=word | IPA=ɡʌlf, ɡʌlf | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb2_u08_1_3",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 핍: Gof! Gof?",
+ "text": "Gof! Gof?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

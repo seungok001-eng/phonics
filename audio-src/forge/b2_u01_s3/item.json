@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A hat and a bat!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291472.935679,
+   "sec": 2.28,
+   "check": {
+    "transcript": "a hat and a bat",
+    "type": "sentence",
+    "ipa": "ə ˈhæt ənd ə ˈbæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a hat and a bat | TYPE=sentence | IPA=ə ˈhæt ənd ə ˈbæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b2_u01_s3",
+ "sub": "line",
+ "title": "2권 1유닛 문장 3: A hat and a bat!",
+ "text": "A hat and a bat!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

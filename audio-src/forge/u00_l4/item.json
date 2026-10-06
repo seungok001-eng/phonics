@@ -69,9 +69,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 4,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:02",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -80,6 +80,5 @@
  "sub": "line",
  "title": "0유닛 대사 · 해설: Let's help Pip!",
  "text": "Let's help Pip!",
- "voice": "Kore",
- "busy": 1
+ "voice": "Kore"
 }

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Gof... fog! Pot!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291800.5098372,
+   "sec": 3.0,
+   "check": {
+    "transcript": "goff fog pot",
+    "type": "sentence",
+    "ipa": "ɡɑf fɑɡ pɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=goff fog pot | TYPE=sentence | IPA=ɡɑf fɑɡ pɑt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_l10",
+ "sub": "line",
+ "title": "2권 8유닛 대사 · 핍: Gof... fog! Pot!",
+ "text": "Gof... fog! Pot!",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 0
+}

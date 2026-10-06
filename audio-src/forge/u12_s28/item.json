@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip can sing! La la la!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288763.2397685,
+   "sec": 2.92,
+   "check": {
+    "transcript": "Pip can sing. La la la.",
+    "type": "sentence",
+    "ipa": "pɪp kæn sɪŋ lɑː lɑː lɑː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip can sing. La la la. | TYPE=sentence | IPA=pɪp kæn sɪŋ lɑː lɑː lɑː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s28",
+ "sub": "line",
+ "title": "1권 노래 28: Pip can sing! La la la!",
+ "text": "Pip can sing! La la la!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

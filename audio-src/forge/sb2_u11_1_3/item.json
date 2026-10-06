@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sit, pig! Sit, pup!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291954.068717,
+   "sec": 2.68,
+   "check": {
+    "transcript": "sit pig sit pup",
+    "type": "sentence",
+    "ipa": "sɪt pɪg sɪt pʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sit pig sit pup | TYPE=sentence | IPA=sɪt pɪg sɪt pʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_1_3",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 번: Sit, pig! Sit, pup!",
+ "text": "Sit, pig! Sit, pup!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

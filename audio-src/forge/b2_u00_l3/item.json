@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "How can we go in?",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291432.698749,
+   "sec": 1.72,
+   "check": {
+    "transcript": "How can we go in?",
+    "type": "sentence",
+    "ipa": "ˈhaʊ kæn wi ˈgoʊ ˈɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=How can we go in? | TYPE=sentence | IPA=ˈhaʊ kæn wi ˈgoʊ ˈɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "b2_u00_l3",
+ "sub": "line",
+ "title": "2권 0유닛 대사 · 헤지: How can we go in?",
+ "text": "How can we go in?",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

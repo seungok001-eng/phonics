@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I, i, /ɪ/, ink!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288729.724959,
+   "sec": 2.2,
+   "check": {
+    "transcript": "ink",
+    "type": "word",
+    "ipa": "ɪŋk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ink | TYPE=word | IPA=ɪŋk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s09",
+ "sub": "line",
+ "title": "1권 노래 9: I, i, /ɪ/, ink!",
+ "text": "I, i, /ɪ/, ink!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

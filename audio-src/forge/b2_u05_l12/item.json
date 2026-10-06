@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Thank you, Grumble!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291666.537754,
+   "sec": 1.32,
+   "check": {
+    "transcript": "Thank you, Grumble.",
+    "type": "sentence",
+    "ipa": "ˈθæŋk juː ˈɡɹʌmbl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Thank you, Grumble. | TYPE=sentence | IPA=ˈθæŋk juː ˈɡɹʌmbl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b2_u05_l12",
+ "sub": "line",
+ "title": "2권 5유닛 대사 · 번: Thank you, Grumble!",
+ "text": "Thank you, Grumble!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

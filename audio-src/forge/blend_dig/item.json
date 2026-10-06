@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/d/ ... /ɪ/ ... /g/ ... dig",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291337.8690789,
+   "sec": 4.04,
+   "check": {
+    "transcript": "dig",
+    "type": "word",
+    "ipa": "dɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dig | TYPE=word | IPA=dɪg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/d/ ... /ɪ/ ... /g/ ... dig",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299640.255101,
+   "sec": 4.4,
+   "check": {
+    "transcript": "dig",
+    "type": "word",
+    "ipa": "/dɪɡ/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dig | TYPE=word | IPA=/dɪɡ/ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_dig",
+ "sub": "blend",
+ "title": "합치기 dig",
+ "text": "/d/ ... /ɪ/ ... /g/ ... dig",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

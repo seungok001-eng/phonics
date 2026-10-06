@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/v/ /v/ volcano! Pop!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286662.9772956,
+   "sec": 3.84,
+   "check": {
+    "transcript": "volcano",
+    "type": "word",
+    "ipa": "vɔlˈkeɪnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɔlˈkeɪnoʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb_u09_1_3",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 번: /v/ /v/ volcano! Pop!",
+ "text": "/v/ /v/ volcano! Pop!",
+ "voice": "Leda",
+ "book": 1
+}

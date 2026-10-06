@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "little",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291423.936709,
+   "sec": 0.76,
+   "check": {
+    "transcript": "little",
+    "type": "word",
+    "ipa": "ˈlɪtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=little | TYPE=word | IPA=ˈlɪtəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sw_little",
+ "sub": "sw",
+ "title": "사이트워드 little · 작은",
+ "text": "little",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

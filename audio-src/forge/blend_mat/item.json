@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/m/ ... /æ/ ... /t/ ... mat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291275.9425163,
+   "sec": 4.16,
+   "check": {
+    "transcript": "mat",
+    "type": "word",
+    "ipa": "m æ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mat | TYPE=word | IPA=m æ t | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/m/ ... /æ/ ... /t/ ... mat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299548.606051,
+   "sec": 4.48,
+   "check": {
+    "transcript": "mat",
+    "type": "word",
+    "ipa": "m æ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mat | TYPE=word | IPA=m æ t | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_mat",
+ "sub": "blend",
+ "title": "합치기 mat",
+ "text": "/m/ ... /æ/ ... /t/ ... mat",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

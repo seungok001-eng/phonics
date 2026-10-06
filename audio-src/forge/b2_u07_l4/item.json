@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Zip! It is up!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291744.384028,
+   "sec": 1.84,
+   "check": {
+    "transcript": "Zip it is up.",
+    "type": "sentence",
+    "ipa": "zɪp ɪt ɪz ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Zip it is up. | TYPE=sentence | IPA=zɪp ɪt ɪz ʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b2_u07_l4",
+ "sub": "line",
+ "title": "2권 7유닛 대사 · 헤지: Zip! It is up!",
+ "text": "Zip! It is up!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

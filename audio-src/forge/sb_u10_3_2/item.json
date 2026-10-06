@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A! B! C!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286715.9774206,
+   "sec": 3.0,
+   "check": {
+    "transcript": "A, B, C",
+    "type": "sentence",
+    "ipa": "eɪ biː siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A, B, C | TYPE=sentence | IPA=eɪ biː siː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb_u10_3_2",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 핍: A! B! C!",
+ "text": "A! B! C!",
+ "voice": "Kore",
+ "book": 1
+}

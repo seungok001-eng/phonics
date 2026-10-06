@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "dot",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291245.8536806,
+   "sec": 1.16,
+   "check": {
+    "transcript": "dot",
+    "type": "word",
+    "ipa": "dɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dot | TYPE=word | IPA=dɑt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_dot",
+ "sub": "word",
+ "title": "단어 dot · 점",
+ "text": "dot",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pig has a wig!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291696.971398,
+   "sec": 2.0,
+   "check": {
+    "transcript": "The pig has a wig.",
+    "type": "sentence",
+    "ipa": "ðə pɪɡ hæz ə wɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig has a wig. | TYPE=sentence | IPA=ðə pɪɡ hæz ə wɪɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b2_u06_l5",
+ "sub": "line",
+ "title": "2권 6유닛 대사 · 번: The pig has a wig!",
+ "text": "The pig has a wig!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

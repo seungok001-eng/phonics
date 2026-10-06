@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Up, up, up!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286631.5414724,
+   "sec": 1.92,
+   "check": {
+    "transcript": "up up up",
+    "type": "sentence",
+    "ipa": "ʌp ʌp ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=up up up | TYPE=sentence | IPA=ʌp ʌp ʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb_u08_3_1",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 함께: Up, up, up!",
+ "text": "Up, up, up!",
+ "voice": "Kore",
+ "book": 1
+}

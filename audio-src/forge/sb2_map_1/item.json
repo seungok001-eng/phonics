@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The Word Pond.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292036.1524878,
+   "sec": 2.12,
+   "check": {
+    "transcript": "The word pond.",
+    "type": "sentence",
+    "ipa": "ðə wɜːd pɒnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The word pond. | TYPE=sentence | IPA=ðə wɜːd pɒnd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_map_1",
+ "sub": "line",
+ "title": "스토리북 · 해설: The Word Pond.",
+ "text": "The Word Pond.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

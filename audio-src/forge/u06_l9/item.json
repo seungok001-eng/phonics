@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Nine stars!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286529.7216208,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Nine stars!",
+    "type": "sentence",
+    "ipa": "naɪn stɑːrz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Nine stars! | TYPE=sentence | IPA=naɪn stɑːrz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "u06_l9",
+ "sub": "line",
+ "title": "6유닛 대사 · 헤지: Nine stars!",
+ "text": "Nine stars!",
+ "voice": "Puck"
+}

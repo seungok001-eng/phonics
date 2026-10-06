@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -en words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291591.7000744,
+   "sec": 2.52,
+   "check": {
+    "transcript": "Find the N words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ɛn wɜɹdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the N words. | TYPE=sentence | IPA=faɪnd ðə ɛn wɜɹdz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Find the -en words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299830.204792,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Find the E. N. words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə i ɛn wɜɹdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the E. N. words. | TYPE=sentence | IPA=faɪnd ðə i ɛn wɜɹdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb2_u03_3_task",
+ "sub": "instr",
+ "title": "3유닛 스토리북 과제 · Find the -en words!",
+ "text": "Find the -en words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

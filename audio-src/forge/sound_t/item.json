@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/t/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286245.3616822,
+   "sec": 0.64,
+   "check": {
+    "transcript": "t",
+    "type": "isolated-sound",
+    "ipa": "t",
+    "note": "clean",
+    "raw": "TRANSCRIPT=t | TYPE=isolated-sound | IPA=t | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "turtle 앞 180ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286779.2472603,
+   "sec": 0.18,
+   "check": {
+    "transcript": "bee",
+    "type": "word",
+    "ipa": "biː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bee | TYPE=word | IPA=biː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": "t",
+ "id": "sound_t",
+ "sub": "sound",
+ "title": "낱소리 /t/ (t)",
+ "text": "t",
+ "voice": "Kore",
+ "hint": "t as at the start of turtle",
+ "busy": 0
+}

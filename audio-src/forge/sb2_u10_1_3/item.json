@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Gub! Gub?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291908.591041,
+   "sec": 2.28,
+   "check": {
+    "transcript": "gub gub",
+    "type": "word",
+    "ipa": "ɡʌb ɡʌb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gub gub | TYPE=word | IPA=ɡʌb ɡʌb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb2_u10_1_3",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 핍: Gub! Gub?",
+ "text": "Gub! Gub?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 0
+}

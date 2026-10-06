@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find milk, soup, rice, yogurt!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791287299.2121663,
+   "sec": 3.76,
+   "check": {
+    "transcript": "Find milk, soup, rice, yogurt.",
+    "type": "sentence",
+    "ipa": "faɪnd mɪlk suːp ɹaɪs ˈjoʊɡəɹt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find milk, soup, rice, yogurt. | TYPE=sentence | IPA=faɪnd mɪlk suːp ɹaɪs ˈjoʊɡəɹt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb_u11_1_task",
+ "sub": "instr",
+ "title": "11유닛 스토리북 과제 · Find milk, soup, rice, yogurt!",
+ "text": "Find milk, soup, rice, yogurt!",
+ "voice": "Kore",
+ "book": 1
+}

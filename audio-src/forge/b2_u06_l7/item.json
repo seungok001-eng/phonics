@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! Not my hat!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291701.63779,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Shh, not my hat.",
+    "type": "sentence",
+    "ipa": "ʃ nɑt maɪ hæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, not my hat. | TYPE=sentence | IPA=ʃ nɑt maɪ hæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b2_u06_l7",
+ "sub": "line",
+ "title": "2권 6유닛 대사 · 그럼블: Shh! Not my hat!",
+ "text": "Shh! Not my hat!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

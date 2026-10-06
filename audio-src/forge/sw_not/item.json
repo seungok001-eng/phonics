@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "not",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291426.4084086,
+   "sec": 1.2,
+   "check": {
+    "transcript": "not",
+    "type": "word",
+    "ipa": "nɒt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=not | TYPE=word | IPA=nɒt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sw_not",
+ "sub": "sw",
+ "title": "사이트워드 not · ~아니다",
+ "text": "not",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I see the egg tree!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791287252.8302295,
+   "sec": 2.0,
+   "check": {
+    "transcript": "I see the egg tree!",
+    "type": "sentence",
+    "ipa": "aɪ siː ðiː ɛɡ triː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see the egg tree! | TYPE=sentence | IPA=aɪ siː ðiː ɛɡ triː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb_u05_1_3",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 헤지: I see the egg tree!",
+ "text": "I see the egg tree!",
+ "voice": "Puck",
+ "busy": 0
+}

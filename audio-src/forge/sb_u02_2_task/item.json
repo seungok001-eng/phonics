@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the e things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286430.5087526,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Find the E things.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː iː θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the E things. | TYPE=sentence | IPA=faɪnd ðiː iː θɪŋz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb_u02_2_task",
+ "sub": "instr",
+ "title": "2유닛 스토리북 과제 · Find the e things!",
+ "text": "Find the e things!",
+ "voice": "Kore"
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Who is in the reeds?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291437.7266471,
+   "sec": 2.64,
+   "check": {
+    "transcript": "Shh. Who is in the reeds?",
+    "type": "sentence",
+    "ipa": "ʃ ˈhuː ɪz ɪn ðə ɹiːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Who is in the reeds? | TYPE=sentence | IPA=ʃ ˈhuː ɪz ɪn ðə ɹiːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "b2_u00_l6",
+ "sub": "line",
+ "title": "2권 0유닛 대사 · 해설: Shh... Who is in the reeds?",
+ "text": "Shh... Who is in the reeds?",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

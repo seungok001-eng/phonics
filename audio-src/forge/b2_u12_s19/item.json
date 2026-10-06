@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Box, fox, ox!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292016.2952373,
+   "sec": 2.88,
+   "check": {
+    "transcript": "box, fox, ox",
+    "type": "sentence",
+    "ipa": "bɑks, fɑks, ɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=box, fox, ox | TYPE=sentence | IPA=bɑks, fɑks, ɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s19",
+ "sub": "line",
+ "title": "2권 노래 19: Box, fox, ox!",
+ "text": "Box, fox, ox!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

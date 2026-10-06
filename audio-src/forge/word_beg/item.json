@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "beg",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291211.6924198,
+   "sec": 1.4,
+   "check": {
+    "transcript": "beg",
+    "type": "word",
+    "ipa": "bɛg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=beg | TYPE=word | IPA=bɛg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_beg",
+ "sub": "word",
+ "title": "단어 beg · 조르기",
+ "text": "beg",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

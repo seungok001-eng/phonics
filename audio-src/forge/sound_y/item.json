@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/j/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286261.8773947,
+   "sec": 1.12,
+   "check": {
+    "transcript": "j",
+    "type": "isolated-sound",
+    "ipa": "j",
+    "note": "clean",
+    "raw": "TRANSCRIPT=j | TYPE=isolated-sound | IPA=j | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "yogurt 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286796.7653427,
+   "sec": 0.35,
+   "check": {
+    "transcript": "yoga",
+    "type": "word",
+    "ipa": "ˈjoʊgə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yoga | TYPE=word | IPA=ˈjoʊgə | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": "y",
+ "id": "sound_y",
+ "sub": "sound",
+ "title": "낱소리 /j/ (y)",
+ "text": "y",
+ "voice": "Kore",
+ "hint": "y as at the start of yogurt",
+ "busy": 0
+}

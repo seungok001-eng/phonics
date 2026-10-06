@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/m/ ... /ɑ/ ... /p/ ... mop",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291386.1447773,
+   "sec": 4.84,
+   "check": {
+    "transcript": "mop",
+    "type": "word",
+    "ipa": "m ɒ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mop | TYPE=word | IPA=m ɒ p | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/m/ ... /ɑ/ ... /p/ ... mop",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299712.751296,
+   "sec": 4.6,
+   "check": {
+    "transcript": "m ah p mop",
+    "type": "word",
+    "ipa": "m ɑ p mɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=m ah p mop | TYPE=word | IPA=m ɑ p mɑp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_mop",
+ "sub": "blend",
+ "title": "합치기 mop",
+ "text": "/m/ ... /ɑ/ ... /p/ ... mop",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

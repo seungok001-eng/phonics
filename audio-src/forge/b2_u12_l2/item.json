@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We can read!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291977.2569318,
+   "sec": 1.96,
+   "check": {
+    "transcript": "We can read.",
+    "type": "sentence",
+    "ipa": "wi kæn ˈɹid",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We can read. | TYPE=sentence | IPA=wi kæn ˈɹid | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_l2",
+ "sub": "line",
+ "title": "2권 12유닛 대사 · 함께: We can read!",
+ "text": "We can read!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

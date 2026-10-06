@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the seed!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291442.9602427,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Find the sheid.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈʃiːd",
+    "note": "mispronounced \"sheid\" instead of \"sheet\"",
+    "raw": "TRANSCRIPT=Find the sheid. | TYPE=sentence | IPA=faɪnd ðə ˈʃiːd | NOTE=mispronounced \"sheid\" instead of \"sheet\""
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Find the seed!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299762.7714531,
+   "sec": 1.68,
+   "check": {
+    "transcript": "Find the seed.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the seed. | TYPE=sentence | IPA=faɪnd ðə siːd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_u00_1_task",
+ "sub": "instr",
+ "title": "0유닛 스토리북 과제 · Find the seed!",
+ "text": "Find the seed!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

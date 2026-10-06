@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the m things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286541.358995,
+   "sec": 2.44,
+   "check": {
+    "transcript": "Find the things.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the things. | TYPE=sentence | IPA=faɪnd ðə θɪŋz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:36",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb_u06_1_task",
+ "sub": "instr",
+ "title": "6유닛 스토리북 과제 · Find the m things!",
+ "text": "Find the m things!",
+ "voice": "Kore",
+ "book": 1
+}

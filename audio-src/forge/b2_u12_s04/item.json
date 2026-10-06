@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cap, map, nap, tap!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291989.2773051,
+   "sec": 3.52,
+   "check": {
+    "transcript": "cap map nap tap",
+    "type": "sentence",
+    "ipa": "ˈkæp mæp næp tæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap map nap tap | TYPE=sentence | IPA=ˈkæp mæp næp tæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s04",
+ "sub": "line",
+ "title": "2권 노래 4: Cap, map, nap, tap!",
+ "text": "Cap, map, nap, tap!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "wet",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291200.2890646,
+   "sec": 1.04,
+   "check": {
+    "transcript": "what",
+    "type": "word",
+    "ipa": "wʌt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=what | TYPE=word | IPA=wʌt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "wet",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299522.5977778,
+   "sec": 1.28,
+   "check": {
+    "transcript": "wet",
+    "type": "word",
+    "ipa": "wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wet | TYPE=word | IPA=wɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_wet",
+ "sub": "word",
+ "title": "단어 wet · 젖은",
+ "text": "wet",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

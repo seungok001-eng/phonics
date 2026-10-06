@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Twenty-six pots. No trees!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286727.4692137,
+   "sec": 3.52,
+   "check": {
+    "transcript": "26 pots, no trees",
+    "type": "sentence",
+    "ipa": "ˈtwɛnti-sɪks pɑts, noʊ triːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=26 pots, no trees | TYPE=sentence | IPA=ˈtwɛnti-sɪks pɑts, noʊ triːz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Twenty-six pots. No trees!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791290647.3790538,
+   "sec": 3.44,
+   "check": {
+    "transcript": "26 pots, no trees",
+    "type": "sentence",
+    "ipa": "ˈtwɛnti ˈsɪks ˈpɑts noʊ triːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=26 pots, no trees | TYPE=sentence | IPA=ˈtwɛnti ˈsɪks ˈpɑts noʊ triːz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 22:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_map_2",
+ "sub": "line",
+ "title": "스토리북 · 해설: Twenty-six pots. No trees!",
+ "text": "Twenty-six pots. No trees!",
+ "voice": "Kore",
+ "book": 1
+}

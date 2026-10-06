@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -ig words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291728.3350482,
+   "sec": 2.12,
+   "check": {
+    "transcript": "Find the ig words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː ɪɡ wɝːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the ig words. | TYPE=sentence | IPA=faɪnd ðiː ɪɡ wɝːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_2_task",
+ "sub": "instr",
+ "title": "6유닛 스토리북 과제 · Find the -ig words!",
+ "text": "Find the -ig words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

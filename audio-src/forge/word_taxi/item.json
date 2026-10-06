@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "taxi",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286352.209072,
+   "sec": 1.08,
+   "check": {
+    "transcript": "taxi",
+    "type": "word",
+    "ipa": "ˈtæksi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=taxi | TYPE=word | IPA=ˈtæksi | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_taxi",
+ "sub": "word",
+ "title": "단어 taxi · 택시",
+ "text": "taxi",
+ "voice": "Kore"
+}

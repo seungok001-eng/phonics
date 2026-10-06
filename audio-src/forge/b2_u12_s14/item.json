@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sit, hit, kit, pit!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292008.952168,
+   "sec": 3.6,
+   "check": {
+    "transcript": "sit, hit, kit, pit",
+    "type": "sentence",
+    "ipa": "sɪt, hɪt, kɪt, pɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sit, hit, kit, pit | TYPE=sentence | IPA=sɪt, hɪt, kɪt, pɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s14",
+ "sub": "line",
+ "title": "2권 노래 14: Sit, hit, kit, pit!",
+ "text": "Sit, hit, kit, pit!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

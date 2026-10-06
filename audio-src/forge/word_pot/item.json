@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "pot",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286316.1459053,
+   "sec": 1.0,
+   "check": {
+    "transcript": "pot",
+    "type": "word",
+    "ipa": "pʰɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pot | TYPE=word | IPA=pʰɑt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_pot",
+ "sub": "word",
+ "title": "단어 pot · 냄비",
+ "text": "pot",
+ "voice": "Kore"
+}

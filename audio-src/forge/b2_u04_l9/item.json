@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... It is my bed?",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291609.8413138,
+   "sec": 3.04,
+   "check": {
+    "transcript": "It is my bed.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my bed. | TYPE=sentence | IPA=ɪt ɪz maɪ bɛd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b2_u04_l9",
+ "sub": "line",
+ "title": "2권 4유닛 대사 · 그럼블: Shh... It is my bed?",
+ "text": "Shh... It is my bed?",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

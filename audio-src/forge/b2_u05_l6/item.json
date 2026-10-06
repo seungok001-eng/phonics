@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip tries. Pip tries.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291654.7878368,
+   "sec": 2.04,
+   "check": {
+    "transcript": "piptrizes piptrizes",
+    "type": "word",
+    "ipa": "pɪpˈtraɪzɪz pɪpˈtraɪzɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=piptrizes piptrizes | TYPE=word | IPA=pɪpˈtraɪzɪz pɪpˈtraɪzɪz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pip tries. Pip tries.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299866.3868763,
+   "sec": 2.36,
+   "check": {
+    "transcript": "pip tries",
+    "type": "sentence",
+    "ipa": "pɪp tɹaɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pip tries | TYPE=sentence | IPA=pɪp tɹaɪz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b2_u05_l6",
+ "sub": "line",
+ "title": "2권 5유닛 대사 · 해설: Pip tries. Pip tries.",
+ "text": "Pip tries. Pip tries.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

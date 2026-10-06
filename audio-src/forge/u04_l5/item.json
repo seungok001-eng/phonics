@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip jumps and jumps!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286482.6528993,
+   "sec": 2.4,
+   "check": {
+    "transcript": "Pip jumps and jumps.",
+    "type": "sentence",
+    "ipa": "pɪp dʒʌmps ænd dʒʌmps",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip jumps and jumps. | TYPE=sentence | IPA=pɪp dʒʌmps ænd dʒʌmps | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "u04_l5",
+ "sub": "line",
+ "title": "4유닛 대사 · 해설: Pip jumps and jumps!",
+ "text": "Pip jumps and jumps!",
+ "voice": "Kore"
+}

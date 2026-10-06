@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "gift",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286270.0886798,
+   "sec": 1.36,
+   "check": {
+    "transcript": "gift",
+    "type": "word",
+    "ipa": "/ɡɪft/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gift | TYPE=word | IPA=/ɡɪft/ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_gift",
+ "sub": "word",
+ "title": "단어 gift · 선물",
+ "text": "gift",
+ "voice": "Kore"
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "R, r, /r/, rocket!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288744.0021162,
+   "sec": 2.8,
+   "check": {
+    "transcript": "rocket",
+    "type": "word",
+    "ipa": "ˈɹɑkɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rocket | TYPE=word | IPA=ˈɹɑkɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s18",
+ "sub": "line",
+ "title": "1권 노래 18: R, r, /r/, rocket!",
+ "text": "R, r, /r/, rocket!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

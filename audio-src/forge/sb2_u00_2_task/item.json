@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find Beads!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291449.3988538,
+   "sec": 1.68,
+   "check": {
+    "transcript": "find beads",
+    "type": "word",
+    "ipa": "faɪnd biːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=find beads | TYPE=word | IPA=faɪnd biːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_u00_2_task",
+ "sub": "instr",
+ "title": "0유닛 스토리북 과제 · Find Beads!",
+ "text": "Find Beads!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

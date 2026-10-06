@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "O",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286224.0279572,
+   "sec": 0.84,
+   "check": {
+    "transcript": "O",
+    "type": "letter-name",
+    "ipa": "oʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=O | TYPE=letter-name | IPA=oʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": "o",
+ "id": "name_o",
+ "sub": "name",
+ "title": "글자 이름 O",
+ "text": "O",
+ "voice": "Kore"
+}

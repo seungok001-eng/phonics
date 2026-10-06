@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "fog",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291242.5858061,
+   "sec": 1.12,
+   "check": {
+    "transcript": "fog",
+    "type": "word",
+    "ipa": "fɔɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fog | TYPE=word | IPA=fɔɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_fog",
+ "sub": "word",
+ "title": "단어 fog · 안개",
+ "text": "fog",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

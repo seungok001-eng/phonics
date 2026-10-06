@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look at the vet.",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286649.191914,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Look at the vet.",
+    "type": "sentence",
+    "ipa": "lʊk ət ðə ˈvɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at the vet. | TYPE=sentence | IPA=lʊk ət ðə ˈvɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "u09_l7",
+ "sub": "line",
+ "title": "1권 9유닛 대사 · 헤지: Look at the vet.",
+ "text": "Look at the vet.",
+ "voice": "Puck",
+ "book": 1
+}

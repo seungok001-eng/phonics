@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I, i, /ɪ/! Short i!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291999.8807967,
+   "sec": 2.48,
+   "check": {
+    "transcript": "I I short i",
+    "type": "sentence",
+    "ipa": "aɪ aɪ ʃɔːt aɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I I short i | TYPE=sentence | IPA=aɪ aɪ ʃɔːt aɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s10",
+ "sub": "line",
+ "title": "2권 노래 10: I, i, /ɪ/! Short i!",
+ "text": "I, i, /ɪ/! Short i!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bed, red, fed! Leg, peg, beg!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291997.6785285,
+   "sec": 5.84,
+   "check": {
+    "transcript": "bed, red, fed, leg, peg, beg",
+    "type": "sentence",
+    "ipa": "bɛd rɛd fɛd lɛɡ pɛɡ bɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed, red, fed, leg, peg, beg | TYPE=sentence | IPA=bɛd rɛd fɛd lɛɡ pɛɡ bɛɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s09",
+ "sub": "line",
+ "title": "2권 노래 9: Bed, red, fed! Leg, peg, beg!",
+ "text": "Bed, red, fed! Leg, peg, beg!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

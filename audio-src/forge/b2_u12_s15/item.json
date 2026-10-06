@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "O, o, /ɑ/! Short o!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292009.9781003,
+   "sec": 3.76,
+   "check": {
+    "transcript": "short o",
+    "type": "word",
+    "ipa": "ʃɔɹt oʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=short o | TYPE=word | IPA=ʃɔɹt oʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s15",
+ "sub": "line",
+ "title": "2권 노래 15: O, o, /ɑ/! Short o!",
+ "text": "O, o, /ɑ/! Short o!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

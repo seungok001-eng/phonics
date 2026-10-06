@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -og words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291815.5540378,
+   "sec": 2.32,
+   "check": {
+    "transcript": "finds the aug words",
+    "type": "sentence",
+    "ipa": "faɪndz ðə ɔːg wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=finds the aug words | TYPE=sentence | IPA=faɪndz ðə ɔːg wɜːdz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Find the -og words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299968.604676,
+   "sec": 2.84,
+   "check": {
+    "transcript": "Find the og words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ɒɡ wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the og words. | TYPE=sentence | IPA=faɪnd ðə ɒɡ wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb2_u08_1_task",
+ "sub": "instr",
+ "title": "8유닛 스토리북 과제 · Find the -og words!",
+ "text": "Find the -og words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

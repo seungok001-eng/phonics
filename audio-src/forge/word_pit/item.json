@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "pit",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291239.20361,
+   "sec": 1.04,
+   "check": {
+    "transcript": "pit",
+    "type": "word",
+    "ipa": "pɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pit | TYPE=word | IPA=pɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_pit",
+ "sub": "word",
+ "title": "단어 pit · 씨",
+ "text": "pit",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

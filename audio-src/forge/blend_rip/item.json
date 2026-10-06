@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/r/ ... /ɪ/ ... /p/ ... rip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291358.8848572,
+   "sec": 4.0,
+   "check": {
+    "transcript": "rip",
+    "type": "word",
+    "ipa": "rɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rip | TYPE=word | IPA=rɪp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/r/ ... /ɪ/ ... /p/ ... rip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299674.559942,
+   "sec": 4.8,
+   "check": {
+    "transcript": "rip",
+    "type": "word",
+    "ipa": "ɹɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rip | TYPE=word | IPA=ɹɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_rip",
+ "sub": "blend",
+ "title": "합치기 rip",
+ "text": "/r/ ... /ɪ/ ... /p/ ... rip",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

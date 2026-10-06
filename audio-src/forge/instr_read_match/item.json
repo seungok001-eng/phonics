@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Read and match.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292042.607305,
+   "sec": 1.8,
+   "check": {
+    "transcript": "Read and match.",
+    "type": "sentence",
+    "ipa": "riːd ænd mætʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Read and match. | TYPE=sentence | IPA=riːd ænd mætʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:11",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_read_match",
+ "sub": "instr",
+ "title": "지시문 · Read and match.",
+ "text": "Read and match.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

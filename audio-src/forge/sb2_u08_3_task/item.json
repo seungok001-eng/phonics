@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -ot words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291830.2549002,
+   "sec": 2.6,
+   "check": {
+    "transcript": "Find the ot words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ˈɑt wɜrdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the ot words. | TYPE=sentence | IPA=faɪnd ði ˈɑt wɜrdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb2_u08_3_task",
+ "sub": "instr",
+ "title": "8유닛 스토리북 과제 · Find the -ot words!",
+ "text": "Find the -ot words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

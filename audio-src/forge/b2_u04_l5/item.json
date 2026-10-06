@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble is in the bed.",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291603.0996516,
+   "sec": 1.84,
+   "check": {
+    "transcript": "Crumble is in the bet.",
+    "type": "sentence",
+    "ipa": "ˈkrʌmbəl ɪz ɪn ðə bɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Crumble is in the bet. | TYPE=sentence | IPA=ˈkrʌmbəl ɪz ɪn ðə bɛt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Grumble is in the bed.",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791299833.9629738,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Grumble is in the bed.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ɪz ɪn ðə bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble is in the bed. | TYPE=sentence | IPA=ˈɡɹʌmbəl ɪz ɪn ðə bɛd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b2_u04_l5",
+ "sub": "line",
+ "title": "2권 4유닛 대사 · 헤지: Grumble is in the bed.",
+ "text": "Grumble is in the bed.",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 1
+}

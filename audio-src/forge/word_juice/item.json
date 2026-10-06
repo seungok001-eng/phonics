@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "juice",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286286.7070646,
+   "sec": 1.32,
+   "check": {
+    "transcript": "juice",
+    "type": "word",
+    "ipa": "/dʒuːs/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=juice | TYPE=word | IPA=/dʒuːs/ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_juice",
+ "sub": "word",
+ "title": "단어 juice · 주스",
+ "text": "juice",
+ "voice": "Kore"
+}

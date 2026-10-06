@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Can I keep it?",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791286573.0712855,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Shh. Can I keep it?",
+    "type": "sentence",
+    "ipa": "ʃ. kæn aɪ kip ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Can I keep it? | TYPE=sentence | IPA=ʃ. kæn aɪ kip ɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "u07_l10",
+ "sub": "line",
+ "title": "1권 7유닛 대사 · 그럼블: Shh... Can I keep it?",
+ "text": "Shh... Can I keep it?",
+ "voice": "Charon",
+ "book": 1
+}

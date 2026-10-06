@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Go, dog, go!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291791.3134947,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Go dog, go.",
+    "type": "sentence",
+    "ipa": "ɡoʊ dɔɡ ɡoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go dog, go. | TYPE=sentence | IPA=ɡoʊ dɔɡ ɡoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_l5",
+ "sub": "line",
+ "title": "2권 8유닛 대사 · 해설: Go, dog, go!",
+ "text": "Go, dog, go!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

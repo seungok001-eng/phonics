@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Can you see the panda?",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286557.1126547,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Can you see the panda?",
+    "type": "sentence",
+    "ipa": "kæn juː siː ðə ˈpændə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Can you see the panda? | TYPE=sentence | IPA=kæn juː siː ðə ˈpændə | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "u07_l1",
+ "sub": "line",
+ "title": "7유닛 대사 · 헤지: Can you see the panda?",
+ "text": "Can you see the panda?",
+ "voice": "Puck"
+}

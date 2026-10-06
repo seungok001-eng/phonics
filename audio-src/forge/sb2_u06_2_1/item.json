@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ /ɪ/ /g/ pig!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291723.7290905,
+   "sec": 4.24,
+   "check": {
+    "transcript": "pig",
+    "type": "word",
+    "ipa": "p ɪ g",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pig | TYPE=word | IPA=p ɪ g | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_2_1",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 비즈: /p/ /ɪ/ /g/ pig!",
+ "text": "/p/ /ɪ/ /g/ pig!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

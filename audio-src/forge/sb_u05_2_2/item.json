@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "G, H, I, J, K, L!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791287260.575406,
+   "sec": 4.56,
+   "check": {
+    "transcript": "G H I J K L",
+    "type": "letter-name",
+    "ipa": "ʤiː eɪʧ aɪ ʤeɪ keɪ ɛl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=G H I J K L | TYPE=letter-name | IPA=ʤiː eɪʧ aɪ ʤeɪ keɪ ɛl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb_u05_2_2",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 번: G, H, I, J, K, L!",
+ "text": "G, H, I, J, K, L!",
+ "voice": "Leda",
+ "busy": 0
+}

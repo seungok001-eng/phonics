@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A, a, /æ/! Short a!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291981.1872783,
+   "sec": 3.68,
+   "check": {
+    "transcript": "Short A",
+    "type": "word",
+    "ipa": "ʃɔɹt eɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Short A | TYPE=word | IPA=ʃɔɹt eɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s01",
+ "sub": "line",
+ "title": "2권 노래 1: A, a, /æ/! Short a!",
+ "text": "A, a, /æ/! Short a!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

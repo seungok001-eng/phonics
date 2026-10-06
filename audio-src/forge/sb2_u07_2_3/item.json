@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hit the pit! Hit it!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291774.0569785,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Hit the pit. Hit it.",
+    "type": "sentence",
+    "ipa": "hɪt ðə pɪt hɪt ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hit the pit. Hit it. | TYPE=sentence | IPA=hɪt ðə pɪt hɪt ɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb2_u07_2_3",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 헤지: Hit the pit! Hit it!",
+ "text": "Hit the pit! Hit it!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

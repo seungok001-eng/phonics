@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Gip! Gip?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291720.0816066,
+   "sec": 1.64,
+   "check": {
+    "transcript": "Ged ged",
+    "type": "word",
+    "ipa": "gɛd gɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ged ged | TYPE=word | IPA=gɛd gɛd | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Gip! Gip?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299902.85172,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Ged",
+    "type": "word",
+    "ipa": "/ɡɛd/",
+    "note": "mispronounced",
+    "raw": "TRANSCRIPT=Ged | TYPE=word | IPA=/ɡɛd/ | NOTE=mispronounced"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_1_3",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 핍: Gip! Gip?",
+ "text": "Gip! Gip?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

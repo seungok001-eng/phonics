@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "E, e, /e/! Short e!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291992.3508863,
+   "sec": 4.0,
+   "check": {
+    "transcript": "short i",
+    "type": "sentence",
+    "ipa": "ˈʃɔɹt ˈaɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=short i | TYPE=sentence | IPA=ˈʃɔɹt ˈaɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s06",
+ "sub": "line",
+ "title": "2권 노래 6: E, e, /e/! Short e!",
+ "text": "E, e, /e/! Short e!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

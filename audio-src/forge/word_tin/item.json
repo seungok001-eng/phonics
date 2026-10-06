@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tin",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291225.7829072,
+   "sec": 0.96,
+   "check": {
+    "transcript": "tin",
+    "type": "word",
+    "ipa": "tɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tin | TYPE=word | IPA=tɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_tin",
+ "sub": "word",
+ "title": "단어 tin · 양철통",
+ "text": "tin",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

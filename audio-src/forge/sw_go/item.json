@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "go",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286376.2936578,
+   "sec": 0.92,
+   "check": {
+    "transcript": "go",
+    "type": "word",
+    "ipa": "ɡoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=go | TYPE=word | IPA=ɡoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sw_go",
+ "sub": "sw",
+ "title": "사이트워드 go · 가다",
+ "text": "go",
+ "voice": "Kore"
+}

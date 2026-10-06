@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "V! W! X!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286653.1319625,
+   "sec": 3.36,
+   "check": {
+    "transcript": "V W X",
+    "type": "letter-name",
+    "ipa": "viː ˈdʌbəl.juː ˈɛks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=V W X | TYPE=letter-name | IPA=viː ˈdʌbəl.juː ˈɛks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "u09_l9",
+ "sub": "line",
+ "title": "1권 9유닛 대사 · 함께: V! W! X!",
+ "text": "V! W! X!",
+ "voice": "Kore",
+ "book": 1
+}

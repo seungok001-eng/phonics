@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -ag words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291544.8335505,
+   "sec": 2.32,
+   "check": {
+    "transcript": "Find the ag words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː æɡ wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the ag words. | TYPE=sentence | IPA=faɪnd ðiː æɡ wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_3_task",
+ "sub": "instr",
+ "title": "2유닛 스토리북 과제 · Find the -ag words!",
+ "text": "Find the -ag words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

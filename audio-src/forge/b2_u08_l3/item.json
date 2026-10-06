@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Gof! Gof?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291787.7377436,
+   "sec": 1.92,
+   "check": {
+    "transcript": "golf golf",
+    "type": "word",
+    "ipa": "ɡɑlf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=golf golf | TYPE=word | IPA=ɡɑlf | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Gof! Gof?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299946.2234323,
+   "sec": 1.96,
+   "check": {
+    "transcript": "Gough Gough",
+    "type": "word",
+    "ipa": "ɡɒf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Gough Gough | TYPE=word | IPA=ɡɒf | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_l3",
+ "sub": "line",
+ "title": "2권 8유닛 대사 · 핍: Gof! Gof?",
+ "text": "Gof! Gof?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

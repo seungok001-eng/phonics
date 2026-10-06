@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cot",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291247.1254878,
+   "sec": 1.16,
+   "check": {
+    "transcript": "caught",
+    "type": "word",
+    "ipa": "kɔːt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=caught | TYPE=word | IPA=kɔːt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "cot",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299536.505059,
+   "sec": 0.92,
+   "check": {
+    "transcript": "caught",
+    "type": "word",
+    "ipa": "kɔt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=caught | TYPE=word | IPA=kɔt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_cot",
+ "sub": "word",
+ "title": "단어 cot · 간이침대",
+ "text": "cot",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

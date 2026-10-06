@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A jet and a vet!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291569.9106488,
+   "sec": 2.4,
+   "check": {
+    "transcript": "a jet and a vet",
+    "type": "sentence",
+    "ipa": "ə dʒɛt ænd ə vɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a jet and a vet | TYPE=sentence | IPA=ə dʒɛt ænd ə vɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b2_u03_s4",
+ "sub": "line",
+ "title": "2권 3유닛 문장 4: A jet and a vet!",
+ "text": "A jet and a vet!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

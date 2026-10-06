@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "goat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286269.142551,
+   "sec": 1.08,
+   "check": {
+    "transcript": "coat",
+    "type": "word",
+    "ipa": "k oʊ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=coat | TYPE=word | IPA=k oʊ t | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "goat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791289953.9845386,
+   "sec": 1.08,
+   "check": {
+    "transcript": "goat",
+    "type": "word",
+    "ipa": "ɡoʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=goat | TYPE=word | IPA=ɡoʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_goat",
+ "sub": "word",
+ "title": "단어 goat · 염소",
+ "text": "goat",
+ "voice": "Kore",
+ "book": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cup, pup, up!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292024.7775512,
+   "sec": 2.84,
+   "check": {
+    "transcript": "cup pup up",
+    "type": "sentence",
+    "ipa": "kʌp pʌp ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cup pup up | TYPE=sentence | IPA=kʌp pʌp ʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s23",
+ "sub": "line",
+ "title": "2권 노래 23: Cup, pup, up!",
+ "text": "Cup, pup, up!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the b and c things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286410.6077943,
+   "sec": 2.6,
+   "check": {
+    "transcript": "Find the B and C things.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈbiː ən ˈsiː θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the B and C things. | TYPE=sentence | IPA=faɪnd ðə ˈbiː ən ˈsiː θɪŋz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_2_task",
+ "sub": "instr",
+ "title": "1유닛 스토리북 과제 · Find the b and c things!",
+ "text": "Find the b and c things!",
+ "voice": "Kore"
+}

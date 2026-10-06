@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I see a lemon!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286486.3730757,
+   "sec": 1.76,
+   "check": {
+    "transcript": "I see a lemon.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə ˈlɛmən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a lemon. | TYPE=sentence | IPA=aɪ siː ə ˈlɛmən | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "u04_l7",
+ "sub": "line",
+ "title": "4유닛 대사 · 번: I see a lemon!",
+ "text": "I see a lemon!",
+ "voice": "Leda"
+}

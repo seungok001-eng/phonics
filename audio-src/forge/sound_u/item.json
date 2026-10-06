@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ʌ/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286247.87331,
+   "sec": 0.84,
+   "check": {
+    "transcript": "ah",
+    "type": "isolated-sound",
+    "ipa": "ʌ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=ah | TYPE=isolated-sound | IPA=ʌ | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "umbrella 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286782.8098364,
+   "sec": 0.35,
+   "check": {
+    "transcript": "umbrella",
+    "type": "word",
+    "ipa": "ʌmˈbrɛlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=umbrella | TYPE=word | IPA=ʌmˈbrɛlə | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": "u",
+ "id": "sound_u",
+ "sub": "sound",
+ "title": "낱소리 /ʌ/ (u)",
+ "text": "u",
+ "voice": "Kore",
+ "hint": "short u as at the start of umbrella",
+ "busy": 0
+}

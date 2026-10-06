@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "zigzag",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286361.218737,
+   "sec": 1.16,
+   "check": {
+    "transcript": "zigzag",
+    "type": "word",
+    "ipa": "ˈzɪɡˌzæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zigzag | TYPE=word | IPA=ˈzɪɡˌzæɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_zigzag",
+ "sub": "word",
+ "title": "단어 zigzag · 지그재그",
+ "text": "zigzag",
+ "voice": "Kore"
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The bed is red and little.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291617.9287994,
+   "sec": 2.96,
+   "check": {
+    "transcript": "The bed is red and little.",
+    "type": "sentence",
+    "ipa": "ðə bɛd ɪz rɛd ænd lɪtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The bed is red and little. | TYPE=sentence | IPA=ðə bɛd ɪz rɛd ænd lɪtəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b2_u04_s2",
+ "sub": "line",
+ "title": "2권 4유닛 문장 2: The bed is red and little.",
+ "text": "The bed is red and little.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

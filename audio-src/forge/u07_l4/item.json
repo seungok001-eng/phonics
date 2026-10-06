@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Can you see the queen?",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286562.64751,
+   "sec": 1.52,
+   "check": {
+    "transcript": "Can you see the queen?",
+    "type": "sentence",
+    "ipa": "kæn juː siː ðə kwiːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Can you see the queen? | TYPE=sentence | IPA=kæn juː siː ðə kwiːn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "u07_l4",
+ "sub": "line",
+ "title": "7유닛 대사 · 번: Can you see the queen?",
+ "text": "Can you see the queen?",
+ "voice": "Leda"
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "here",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286383.018529,
+   "sec": 0.88,
+   "check": {
+    "transcript": "here",
+    "type": "word",
+    "ipa": "hɪɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=here | TYPE=word | IPA=hɪɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sw_here",
+ "sub": "sw",
+ "title": "사이트워드 here · 여기",
+ "text": "here",
+ "voice": "Kore"
+}

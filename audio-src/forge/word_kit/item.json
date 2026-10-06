@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "kit",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291236.9470553,
+   "sec": 1.0,
+   "check": {
+    "transcript": "kid",
+    "type": "word",
+    "ipa": "kɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kid | TYPE=word | IPA=kɪd | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "kit",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299532.5264962,
+   "sec": 1.16,
+   "check": {
+    "transcript": "kit",
+    "type": "word",
+    "ipa": "kɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kit | TYPE=word | IPA=kɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_kit",
+ "sub": "word",
+ "title": "단어 kit · 구급상자",
+ "text": "kit",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/h/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286197.4750032,
+   "sec": 0.84,
+   "check": {
+    "transcript": "",
+    "type": "silence",
+    "ipa": "",
+    "note": "ok",
+    "raw": "TRANSCRIPT= | TYPE=silence | IPA= | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "hen 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286740.1202483,
+   "sec": 0.35,
+   "check": {
+    "transcript": "pen",
+    "type": "word",
+    "ipa": "pɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pen | TYPE=word | IPA=pɛn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": "h",
+ "id": "sound_h",
+ "sub": "sound",
+ "title": "낱소리 /h/ (h)",
+ "text": "h",
+ "voice": "Kore",
+ "hint": "h as at the start of hen",
+ "busy": 0
+}

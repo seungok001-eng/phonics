@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! Can, fan, pan, van!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291671.4793262,
+   "sec": 4.44,
+   "check": {
+    "transcript": "click-clack, can, fan, pan, van",
+    "type": "sentence",
+    "ipa": "klɪk klæk, kæn, fæn, pæn, væn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click-clack, can, fan, pan, van | TYPE=sentence | IPA=klɪk klæk, kæn, fæn, pæn, væn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb2_u05_1_2",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 비즈: Click-clack! Can, fan, pan, van!",
+ "text": "Click-clack! Can, fan, pan, van!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

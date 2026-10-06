@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "jump",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286286.1919837,
+   "sec": 0.92,
+   "check": {
+    "transcript": "jump",
+    "type": "word",
+    "ipa": "dʒʌmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jump | TYPE=word | IPA=dʒʌmp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_jump",
+ "sub": "word",
+ "title": "단어 jump · 점프",
+ "text": "jump",
+ "voice": "Kore"
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "key",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286290.035858,
+   "sec": 1.16,
+   "check": {
+    "transcript": "key",
+    "type": "word",
+    "ipa": "ki",
+    "note": "ok",
+    "raw": "TRANSCRIPT=key | TYPE=word | IPA=ki | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_key",
+ "sub": "word",
+ "title": "단어 key · 열쇠",
+ "text": "key",
+ "voice": "Kore"
+}

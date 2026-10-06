@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hen, pen, ten, den!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291996.1392214,
+   "sec": 3.68,
+   "check": {
+    "transcript": "Hen pen ten den",
+    "type": "sentence",
+    "ipa": "hɛn pɛn tɛn dɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hen pen ten den | TYPE=sentence | IPA=hɛn pɛn tɛn dɛn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s08",
+ "sub": "line",
+ "title": "2권 노래 8: Hen, pen, ten, den!",
+ "text": "Hen, pen, ten, den!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

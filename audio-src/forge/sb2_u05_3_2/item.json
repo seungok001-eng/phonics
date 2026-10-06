@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Cat.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291685.3862941,
+   "sec": 1.72,
+   "check": {
+    "transcript": "shh cat",
+    "type": "sentence",
+    "ipa": "ʃ kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh cat | TYPE=sentence | IPA=ʃ kæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb2_u05_3_2",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 그럼블: Shh... Cat.",
+ "text": "Shh... Cat.",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

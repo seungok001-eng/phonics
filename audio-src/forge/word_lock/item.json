@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "lock",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286295.2602623,
+   "sec": 1.16,
+   "check": {
+    "transcript": "lock",
+    "type": "word",
+    "ipa": "lɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lock | TYPE=word | IPA=lɑk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_lock",
+ "sub": "word",
+ "title": "단어 lock · 자물쇠",
+ "text": "lock",
+ "voice": "Kore"
+}

@@ -1,0 +1,69 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/v/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286250.87266,
+   "sec": 1.36,
+   "check": {
+    "transcript": "v",
+    "type": "isolated-sound",
+    "ipa": "v",
+    "note": "clean",
+    "raw": "TRANSCRIPT=v | TYPE=isolated-sound | IPA=v | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "vvv",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286253.7101078,
+   "sec": 1.44,
+   "check": {
+    "transcript": "v",
+    "type": "isolated-sound",
+    "ipa": "/v/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=v | TYPE=isolated-sound | IPA=/v/ | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "vet 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286786.2499182,
+   "sec": 0.35,
+   "check": {
+    "transcript": "vet",
+    "type": "word",
+    "ipa": "vɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vet | TYPE=word | IPA=vɛt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": "v",
+ "id": "sound_v",
+ "sub": "sound",
+ "title": "낱소리 /v/ (v)",
+ "text": "v",
+ "voice": "Kore",
+ "hint": "v as at the start of vet",
+ "busy": 0
+}

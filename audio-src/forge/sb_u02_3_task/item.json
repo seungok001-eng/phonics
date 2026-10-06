@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the f things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286436.6514935,
+   "sec": 1.88,
+   "check": {
+    "transcript": "Find the effing things.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈɛfɪŋ θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the effing things. | TYPE=sentence | IPA=faɪnd ðə ˈɛfɪŋ θɪŋz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb_u02_3_task",
+ "sub": "instr",
+ "title": "2유닛 스토리북 과제 · Find the f things!",
+ "text": "Find the f things!",
+ "voice": "Kore",
+ "book": 1
+}

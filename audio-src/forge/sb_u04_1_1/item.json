@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A koala and a key!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286495.8088694,
+   "sec": 2.04,
+   "check": {
+    "transcript": "a koala and a key",
+    "type": "sentence",
+    "ipa": "ə koʊˈɑːlə ənd ə ˈkiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a koala and a key | TYPE=sentence | IPA=ə koʊˈɑːlə ənd ə ˈkiː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb_u04_1_1",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 헤지: A koala and a key!",
+ "text": "A koala and a key!",
+ "voice": "Puck"
+}

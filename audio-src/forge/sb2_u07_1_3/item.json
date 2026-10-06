@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Piz! Piz?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291767.5341656,
+   "sec": 2.28,
+   "check": {
+    "transcript": "pease",
+    "type": "word",
+    "ipa": "piːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pease | TYPE=word | IPA=piːz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Piz! Piz?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299926.1909788,
+   "sec": 2.6,
+   "check": {
+    "transcript": "pease",
+    "type": "word",
+    "ipa": "piːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pease | TYPE=word | IPA=piːz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb2_u07_1_3",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 핍: Piz! Piz?",
+ "text": "Piz! Piz?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

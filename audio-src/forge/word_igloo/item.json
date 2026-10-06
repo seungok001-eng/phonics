@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "igloo",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286279.9989803,
+   "sec": 1.04,
+   "check": {
+    "transcript": "igloo",
+    "type": "word",
+    "ipa": "ˈɪɡlu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=igloo | TYPE=word | IPA=ˈɪɡlu | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_igloo",
+ "sub": "word",
+ "title": "단어 igloo · 이글루",
+ "text": "igloo",
+ "voice": "Kore"
+}

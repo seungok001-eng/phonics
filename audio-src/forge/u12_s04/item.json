@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "D, d, /d/, dog!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288719.0596552,
+   "sec": 3.12,
+   "check": {
+    "transcript": "dog",
+    "type": "word",
+    "ipa": "dɔɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dog | TYPE=word | IPA=dɔɡ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s04",
+ "sub": "line",
+ "title": "1권 노래 4: D, d, /d/, dog!",
+ "text": "D, d, /d/, dog!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

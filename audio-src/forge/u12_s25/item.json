@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Y, y, /j/, yogurt!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288758.532029,
+   "sec": 3.2,
+   "check": {
+    "transcript": "yogurt",
+    "type": "word",
+    "ipa": "ˈjoʊ.ɡɚt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yogurt | TYPE=word | IPA=ˈjoʊ.ɡɚt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s25",
+ "sub": "line",
+ "title": "1권 노래 25: Y, y, /j/, yogurt!",
+ "text": "Y, y, /j/, yogurt!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

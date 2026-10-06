@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "My bag!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291523.1528356,
+   "sec": 1.16,
+   "check": {
+    "transcript": "my bag",
+    "type": "word",
+    "ipa": "maɪ bæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=my bag | TYPE=word | IPA=maɪ bæg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_1_1",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 헤지: My bag!",
+ "text": "My bag!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

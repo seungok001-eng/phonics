@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "It can go up, up, up!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791287290.7332215,
+   "sec": 2.24,
+   "check": {
+    "transcript": "It can go up up up.",
+    "type": "sentence",
+    "ipa": "ɪt kæn ɡoʊ ʌp ʌp ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It can go up up up. | TYPE=sentence | IPA=ɪt kæn ɡoʊ ʌp ʌp ʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "u11_l11",
+ "sub": "line",
+ "title": "1권 11유닛 대사 · 헤지: It can go up, up, up!",
+ "text": "It can go up, up, up!",
+ "voice": "Puck",
+ "book": 1
+}

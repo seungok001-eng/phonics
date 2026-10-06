@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Top, hop, mop, pop!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292016.602446,
+   "sec": 4.4,
+   "check": {
+    "transcript": "top hop mop pop",
+    "type": "sentence",
+    "ipa": "tɑp hɑp mɑp pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=top hop mop pop | TYPE=sentence | IPA=tɑp hɑp mɑp pɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s18",
+ "sub": "line",
+ "title": "2권 노래 18: Top, hop, mop, pop!",
+ "text": "Top, hop, mop, pop!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

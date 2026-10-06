@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sit, sit, sit!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291752.9761567,
+   "sec": 1.92,
+   "check": {
+    "transcript": "Sit sit sit",
+    "type": "sentence",
+    "ipa": "sɪt sɪt sɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sit sit sit | TYPE=sentence | IPA=sɪt sɪt sɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b2_u07_l8",
+ "sub": "line",
+ "title": "2권 7유닛 대사 · 해설: Sit, sit, sit!",
+ "text": "Sit, sit, sit!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

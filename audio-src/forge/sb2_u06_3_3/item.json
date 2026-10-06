@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Brr! Brr! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291734.303424,
+   "sec": 3.56,
+   "check": {
+    "transcript": "Oh no!",
+    "type": "sentence",
+    "ipa": "oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh no! | TYPE=sentence | IPA=oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Brr! Brr! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299914.3380184,
+   "sec": 2.84,
+   "check": {
+    "transcript": "Brr",
+    "type": "word",
+    "ipa": "bɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Brr | TYPE=word | IPA=bɚ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_3_3",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 해설: Brr! Brr! Oh no!",
+ "text": "Brr! Brr! Oh no!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

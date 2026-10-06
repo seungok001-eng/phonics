@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "F, f, /f/, fan!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288724.282149,
+   "sec": 3.28,
+   "check": {
+    "transcript": "fan",
+    "type": "word",
+    "ipa": "fæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fan | TYPE=word | IPA=fæn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s06",
+ "sub": "line",
+ "title": "1권 노래 6: F, f, /f/, fan!",
+ "text": "F, f, /f/, fan!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bag, tag, rag, wag!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291989.3284454,
+   "sec": 4.68,
+   "check": {
+    "transcript": "bag tag rag wag",
+    "type": "sentence",
+    "ipa": "bæg tæg ræg wæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bag tag rag wag | TYPE=sentence | IPA=bæg tæg ræg wæg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s05",
+ "sub": "line",
+ "title": "2권 노래 5: Bag, tag, rag, wag!",
+ "text": "Bag, tag, rag, wag!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

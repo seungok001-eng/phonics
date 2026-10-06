@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Milk! /m/ /m/ milk!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286516.9716923,
+   "sec": 4.24,
+   "check": {
+    "transcript": "milk",
+    "type": "word",
+    "ipa": "mɪlk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:36",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "u06_l2",
+ "sub": "line",
+ "title": "1권 6유닛 대사 · 번: Milk! /m/ /m/ milk!",
+ "text": "Milk! /m/ /m/ milk!",
+ "voice": "Leda",
+ "book": 1
+}

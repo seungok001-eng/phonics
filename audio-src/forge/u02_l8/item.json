@@ -35,9 +35,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:04",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -46,6 +46,5 @@
  "sub": "line",
  "title": "2유닛 대사 · 헤지: The raccoon is wet!",
  "text": "The raccoon is wet!",
- "voice": "Puck",
- "busy": 1
+ "voice": "Puck"
 }

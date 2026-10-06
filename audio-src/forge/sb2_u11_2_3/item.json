@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pig! Zip! Log! Box! Bug!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291962.965687,
+   "sec": 5.72,
+   "check": {
+    "transcript": "zip",
+    "type": "word",
+    "ipa": "/zɪp/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zip | TYPE=word | IPA=/zɪp/ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pig! Zip! Log! Box! Bug!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791300073.8836062,
+   "sec": 6.44,
+   "check": {
+    "transcript": "bug",
+    "type": "word",
+    "ipa": "/bʌg/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bug | TYPE=word | IPA=/bʌg/ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_2_3",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 핍: Pig! Zip! Log! Box! Bug!",
+ "text": "Pig! Zip! Log! Box! Bug!",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sh... sh... Sh... sh...",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291966.8677864,
+   "sec": 3.4,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_3_1",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 해설: Sh... sh... Sh... sh...",
+ "text": "Sh... sh... Sh... sh...",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

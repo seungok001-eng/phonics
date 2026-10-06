@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ten! Ten?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291547.6893349,
+   "sec": 2.32,
+   "check": {
+    "transcript": "10 10",
+    "type": "word",
+    "ipa": "tɛn tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=10 10 | TYPE=word | IPA=tɛn tɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ten! Ten?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299815.4977558,
+   "sec": 1.88,
+   "check": {
+    "transcript": "10 10",
+    "type": "word",
+    "ipa": "tɛn tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=10 10 | TYPE=word | IPA=tɛn tɛn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b2_u03_l2",
+ "sub": "line",
+ "title": "2권 3유닛 대사 · 핍: Ten! Ten?",
+ "text": "Ten! Ten?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the d things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286423.5930774,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Find the D things.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə diː θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the D things. | TYPE=sentence | IPA=faɪnd ðə diː θɪŋz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb_u02_1_task",
+ "sub": "instr",
+ "title": "2유닛 스토리북 과제 · Find the d things!",
+ "text": "Find the d things!",
+ "voice": "Kore"
+}

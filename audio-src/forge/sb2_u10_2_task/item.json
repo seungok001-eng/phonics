@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -un words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291917.4154003,
+   "sec": 2.48,
+   "check": {
+    "transcript": "Find the unwords.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ˈʌnˌwɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the unwords. | TYPE=sentence | IPA=faɪnd ði ˈʌnˌwɜːdz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Find the -un words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791300039.0459485,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Find the unwords.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ˈʌnˌwɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the unwords. | TYPE=sentence | IPA=faɪnd ði ˈʌnˌwɜːdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb2_u10_2_task",
+ "sub": "instr",
+ "title": "10유닛 스토리북 과제 · Find the -un words!",
+ "text": "Find the -un words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

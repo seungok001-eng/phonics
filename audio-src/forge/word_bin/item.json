@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "bin",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291223.5937142,
+   "sec": 1.2,
+   "check": {
+    "transcript": "bin",
+    "type": "word",
+    "ipa": "bɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bin | TYPE=word | IPA=bɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_bin",
+ "sub": "word",
+ "title": "단어 bin · 쓰레기통",
+ "text": "bin",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

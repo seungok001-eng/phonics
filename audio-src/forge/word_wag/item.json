@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "wag",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291196.8066602,
+   "sec": 1.12,
+   "check": {
+    "transcript": "wag",
+    "type": "word",
+    "ipa": "wæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wag | TYPE=word | IPA=wæg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_wag",
+ "sub": "word",
+ "title": "단어 wag · 꼬리 흔들기",
+ "text": "wag",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

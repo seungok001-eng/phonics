@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Read and circle.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292045.9015808,
+   "sec": 1.96,
+   "check": {
+    "transcript": "read encircle",
+    "type": "word",
+    "ipa": "ɹiːd ɛnˈsɜːkəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=read encircle | TYPE=word | IPA=ɹiːd ɛnˈsɜːkəl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Read and circle.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791300110.5342116,
+   "sec": 1.84,
+   "check": {
+    "transcript": "Read and circle.",
+    "type": "sentence",
+    "ipa": "riːd ænd ˈsɜːr.kəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Read and circle. | TYPE=sentence | IPA=riːd ænd ˈsɜːr.kəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_read_circle",
+ "sub": "instr",
+ "title": "지시문 · Read and circle.",
+ "text": "Read and circle.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

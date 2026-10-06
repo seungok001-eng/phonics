@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/m/ ... /æ/ ... /p/ ... map",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291289.208998,
+   "sec": 4.92,
+   "check": {
+    "transcript": "map",
+    "type": "word",
+    "ipa": "mæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=map | TYPE=word | IPA=mæp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/m/ ... /æ/ ... /p/ ... map",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299571.26784,
+   "sec": 4.72,
+   "check": {
+    "transcript": "map",
+    "type": "word",
+    "ipa": "mæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=map | TYPE=word | IPA=mæp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_map",
+ "sub": "blend",
+ "title": "합치기 map",
+ "text": "/m/ ... /æ/ ... /p/ ... map",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

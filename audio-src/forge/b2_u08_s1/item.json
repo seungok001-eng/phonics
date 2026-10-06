@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The dog is on the log.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291801.7197194,
+   "sec": 1.88,
+   "check": {
+    "transcript": "The dog is on the log.",
+    "type": "sentence",
+    "ipa": "ðə dɔɡ ɪz ɑn ðə lɔɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The dog is on the log. | TYPE=sentence | IPA=ðə dɔɡ ɪz ɑn ðə lɔɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_s1",
+ "sub": "line",
+ "title": "2권 8유닛 문장 1: The dog is on the log.",
+ "text": "The dog is on the log.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

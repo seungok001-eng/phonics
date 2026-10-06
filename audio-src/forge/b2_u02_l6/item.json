@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Wag, wag! The bag!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291508.5056868,
+   "sec": 3.04,
+   "check": {
+    "transcript": "Wag, wag. The bag.",
+    "type": "sentence",
+    "ipa": "wæɡ wæɡ ðə bæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Wag, wag. The bag. | TYPE=sentence | IPA=wæɡ wæɡ ðə bæɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b2_u02_l6",
+ "sub": "line",
+ "title": "2권 2유닛 대사 · 해설: Wag, wag! The bag!",
+ "text": "Wag, wag! The bag!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

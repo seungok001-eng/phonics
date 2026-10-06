@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Piz... zip! Sit!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291756.4845967,
+   "sec": 2.68,
+   "check": {
+    "transcript": "zip zit",
+    "type": "word",
+    "ipa": "zɪp zɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zip zit | TYPE=word | IPA=zɪp zɪt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Piz... zip! Sit!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299922.7044456,
+   "sec": 3.28,
+   "check": {
+    "transcript": "P-zip sit",
+    "type": "sentence",
+    "ipa": "ˈpiːzɪp ˈsɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=P-zip sit | TYPE=sentence | IPA=ˈpiːzɪp ˈsɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b2_u07_l10",
+ "sub": "line",
+ "title": "2권 7유닛 대사 · 핍: Piz... zip! Sit!",
+ "text": "Piz... zip! Sit!",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

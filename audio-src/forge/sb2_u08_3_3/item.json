@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Yip! Yip! Look! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291827.978223,
+   "sec": 3.28,
+   "check": {
+    "transcript": "Yep. Yep. Look. Oh no.",
+    "type": "sentence",
+    "ipa": "jɛp jɛp lʊk oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yep. Yep. Look. Oh no. | TYPE=sentence | IPA=jɛp jɛp lʊk oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Yip! Yip! Look! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299978.0384958,
+   "sec": 3.32,
+   "check": {
+    "transcript": "Yep, yep, look. Oh no.",
+    "type": "sentence",
+    "ipa": "jɛp jɛp lʊk oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yep, yep, look. Oh no. | TYPE=sentence | IPA=jɛp jɛp lʊk oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb2_u08_3_3",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 해설: Yip! Yip! Look! Oh no!",
+ "text": "Yip! Yip! Look! Oh no!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

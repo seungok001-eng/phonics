@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A bus! /b/ /b/ bus!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286405.1127853,
+   "sec": 3.4,
+   "check": {
+    "transcript": "a bus b b bus",
+    "type": "word",
+    "ipa": "ə bʌs bi bi bʌs",
+    "note": "extra sounds",
+    "raw": "TRANSCRIPT=a bus b b bus | TYPE=word | IPA=ə bʌs bi bi bʌs | NOTE=extra sounds"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_2_1",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 번: A bus! /b/ /b/ bus!",
+ "text": "A bus! /b/ /b/ bus!",
+ "voice": "Leda"
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "La la la! Pip's song!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288764.9220033,
+   "sec": 2.4,
+   "check": {
+    "transcript": "La la la, pip song",
+    "type": "sentence",
+    "ipa": "lɑː lɑː lɑː ˈpɪp ˈsɔŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=La la la, pip song | TYPE=sentence | IPA=lɑː lɑː lɑː ˈpɪp ˈsɔŋ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s29",
+ "sub": "line",
+ "title": "1권 노래 29: La la la! Pip's song!",
+ "text": "La la la! Pip's song!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

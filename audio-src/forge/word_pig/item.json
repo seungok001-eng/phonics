@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "pig",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291214.747079,
+   "sec": 1.12,
+   "check": {
+    "transcript": "pig",
+    "type": "word",
+    "ipa": "pɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pig | TYPE=word | IPA=pɪg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_pig",
+ "sub": "word",
+ "title": "단어 pig · 돼지",
+ "text": "pig",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

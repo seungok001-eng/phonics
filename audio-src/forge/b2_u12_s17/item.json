@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pot, hot, dot, cot!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292013.2549462,
+   "sec": 3.52,
+   "check": {
+    "transcript": "pot, hot, dot, cot",
+    "type": "sentence",
+    "ipa": "pɑt, hɑt, dɑt, kɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pot, hot, dot, cot | TYPE=sentence | IPA=pɑt, hɑt, dɑt, kɑt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s17",
+ "sub": "line",
+ "title": "2권 노래 17: Pot, hot, dot, cot!",
+ "text": "Pot, hot, dot, cot!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

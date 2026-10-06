@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Can, fan, pan, van!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291984.9789696,
+   "sec": 4.52,
+   "check": {
+    "transcript": "can, fan, pan, van",
+    "type": "sentence",
+    "ipa": "kæn, fæn, pæn, væn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=can, fan, pan, van | TYPE=sentence | IPA=kæn, fæn, pæn, væn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s03",
+ "sub": "line",
+ "title": "2권 노래 3: Can, fan, pan, van!",
+ "text": "Can, fan, pan, van!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

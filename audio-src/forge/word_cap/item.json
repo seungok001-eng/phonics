@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cap",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291186.9760957,
+   "sec": 1.08,
+   "check": {
+    "transcript": "cap",
+    "type": "word",
+    "ipa": "kæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap | TYPE=word | IPA=kæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_cap",
+ "sub": "word",
+ "title": "단어 cap · 야구모자",
+ "text": "cap",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

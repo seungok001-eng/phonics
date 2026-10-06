@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pup can run.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291899.405327,
+   "sec": 1.8,
+   "check": {
+    "transcript": "The pup can run.",
+    "type": "sentence",
+    "ipa": "ðə pʌp kæn rʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pup can run. | TYPE=sentence | IPA=ðə pʌp kæn rʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_s2",
+ "sub": "line",
+ "title": "2권 10유닛 문장 2: The pup can run.",
+ "text": "The pup can run.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

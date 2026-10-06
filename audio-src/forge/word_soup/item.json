@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "soup",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286330.1266646,
+   "sec": 0.88,
+   "check": {
+    "transcript": "soup",
+    "type": "word",
+    "ipa": "sup",
+    "note": "ok",
+    "raw": "TRANSCRIPT=soup | TYPE=word | IPA=sup | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_soup",
+ "sub": "word",
+ "title": "단어 soup · 수프",
+ "text": "soup",
+ "voice": "Kore"
+}

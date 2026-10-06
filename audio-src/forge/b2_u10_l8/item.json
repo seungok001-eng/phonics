@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cat! Bug! Cup! Fun!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291891.772366,
+   "sec": 4.72,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Cat! Bug! Cup! Fun!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791300027.5916986,
+   "sec": 4.88,
+   "check": {
+    "transcript": "cat, bug, cup, fun",
+    "type": "sentence",
+    "ipa": "kæt, bʌg, kʌp, fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat, bug, cup, fun | TYPE=sentence | IPA=kæt, bʌg, kʌp, fʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_l8",
+ "sub": "line",
+ "title": "2권 10유닛 대사 · 핍: Cat! Bug! Cup! Fun!",
+ "text": "Cat! Bug! Cup! Fun!",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

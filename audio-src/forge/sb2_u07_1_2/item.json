@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Rip! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291767.2147782,
+   "sec": 3.4,
+   "check": {
+    "transcript": "Rip, oh no.",
+    "type": "sentence",
+    "ipa": "rɪp oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Rip, oh no. | TYPE=sentence | IPA=rɪp oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb2_u07_1_2",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 해설: Rip! Oh no!",
+ "text": "Rip! Oh no!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "K, k, /k/, key!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288733.5577667,
+   "sec": 2.6,
+   "check": {
+    "transcript": "key",
+    "type": "word",
+    "ipa": "kiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=key | TYPE=word | IPA=kiː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s11",
+ "sub": "line",
+ "title": "1권 노래 11: K, k, /k/, key!",
+ "text": "K, k, /k/, key!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ ... /ɪ/ ... /p/ ... lip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291354.402771,
+   "sec": 4.52,
+   "check": {
+    "transcript": "lip",
+    "type": "word",
+    "ipa": "l ɪ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lip | TYPE=word | IPA=l ɪ p | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/l/ ... /ɪ/ ... /p/ ... lip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299666.957023,
+   "sec": 4.4,
+   "check": {
+    "transcript": "lip",
+    "type": "word",
+    "ipa": "lɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lip | TYPE=word | IPA=lɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_lip",
+ "sub": "blend",
+ "title": "합치기 lip",
+ "text": "/l/ ... /ɪ/ ... /p/ ... lip",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

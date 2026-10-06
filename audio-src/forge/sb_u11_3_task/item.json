@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the seed!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791287311.8990486,
+   "sec": 1.68,
+   "check": {
+    "transcript": "Find the seed.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the seed. | TYPE=sentence | IPA=faɪnd ðə siːd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb_u11_3_task",
+ "sub": "instr",
+ "title": "11유닛 스토리북 과제 · Find the seed!",
+ "text": "Find the seed!",
+ "voice": "Kore",
+ "book": 1
+}

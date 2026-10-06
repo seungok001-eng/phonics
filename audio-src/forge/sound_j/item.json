@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/dʒ/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286204.3258338,
+   "sec": 1.0,
+   "check": {
+    "transcript": "j",
+    "type": "isolated-sound",
+    "ipa": "/j/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=j | TYPE=isolated-sound | IPA=/j/ | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "jelly 앞 180ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286746.2336133,
+   "sec": 0.18,
+   "check": {
+    "transcript": "cheese",
+    "type": "word",
+    "ipa": "tʃiːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cheese | TYPE=word | IPA=tʃiːz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": "j",
+ "id": "sound_j",
+ "sub": "sound",
+ "title": "낱소리 /dʒ/ (j)",
+ "text": "j",
+ "voice": "Kore",
+ "hint": "j as at the start of jelly",
+ "busy": 0
+}

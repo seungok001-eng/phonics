@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the tiny light!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286395.4446375,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Find the tiny light.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈtaɪni laɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the tiny light. | TYPE=sentence | IPA=faɪnd ðə ˈtaɪni laɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_u00_2_task",
+ "sub": "instr",
+ "title": "0유닛 스토리북 과제 · Find the tiny light!",
+ "text": "Find the tiny light!",
+ "voice": "Kore"
+}

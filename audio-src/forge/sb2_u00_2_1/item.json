@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is Beads.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291445.287205,
+   "sec": 2.0,
+   "check": {
+    "transcript": "This is beads.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz biːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is beads. | TYPE=sentence | IPA=ðɪs ɪz biːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_u00_2_1",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 해설: This is Beads.",
+ "text": "This is Beads.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

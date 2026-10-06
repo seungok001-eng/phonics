@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pac! Pac?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291526.2059197,
+   "sec": 2.04,
+   "check": {
+    "transcript": "pack",
+    "type": "word",
+    "ipa": "pæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pack | TYPE=word | IPA=pæk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_1_3",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 핍: Pac! Pac?",
+ "text": "Pac! Pac?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 0
+}

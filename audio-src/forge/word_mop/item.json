@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "mop",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291252.0186245,
+   "sec": 1.16,
+   "check": {
+    "transcript": "mop",
+    "type": "word",
+    "ipa": "mɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mop | TYPE=word | IPA=mɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_mop",
+ "sub": "word",
+ "title": "단어 mop · 대걸레",
+ "text": "mop",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

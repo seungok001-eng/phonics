@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The dip is on my lip.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291760.5912182,
+   "sec": 2.96,
+   "check": {
+    "transcript": "The dip is on my lip.",
+    "type": "sentence",
+    "ipa": "ðə dɪp ɪz ɑn maɪ lɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The dip is on my lip. | TYPE=sentence | IPA=ðə dɪp ɪz ɑn maɪ lɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b2_u07_s2",
+ "sub": "line",
+ "title": "2권 7유닛 문장 2: The dip is on my lip.",
+ "text": "The dip is on my lip.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "C, c, /k/, cat!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288719.4233503,
+   "sec": 4.32,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s03",
+ "sub": "line",
+ "title": "1권 노래 3: C, c, /k/, cat!",
+ "text": "C, c, /k/, cat!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

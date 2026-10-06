@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Zip, lip, dip, rip!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292005.8999348,
+   "sec": 4.12,
+   "check": {
+    "transcript": "zip, lip, dip, rip",
+    "type": "sentence",
+    "ipa": "zɪp lɪp dɪp rɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zip, lip, dip, rip | TYPE=sentence | IPA=zɪp lɪp dɪp rɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s13",
+ "sub": "line",
+ "title": "2권 노래 13: Zip, lip, dip, rip!",
+ "text": "Zip, lip, dip, rip!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

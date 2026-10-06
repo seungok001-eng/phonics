@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -ip words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291770.7822556,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Find the ip words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ɪp wɝdz",
+    "note": "mispronounced",
+    "raw": "TRANSCRIPT=Find the ip words. | TYPE=sentence | IPA=faɪnd ðə ɪp wɝdz | NOTE=mispronounced"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb2_u07_1_task",
+ "sub": "instr",
+ "title": "7유닛 스토리북 과제 · Find the -ip words!",
+ "text": "Find the -ip words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

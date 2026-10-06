@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Here is a gift!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791287301.3438523,
+   "sec": 1.84,
+   "check": {
+    "transcript": "Here is a gift.",
+    "type": "sentence",
+    "ipa": "hɪɹ ɪz ə gɪft",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Here is a gift. | TYPE=sentence | IPA=hɪɹ ɪz ə gɪft | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb_u11_2_1",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 헤지: Here is a gift!",
+ "text": "Here is a gift!",
+ "voice": "Puck",
+ "book": 1
+}

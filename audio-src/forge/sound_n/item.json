@@ -1,0 +1,69 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/n/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286220.4508605,
+   "sec": 1.08,
+   "check": {
+    "transcript": "n",
+    "type": "isolated-sound",
+    "ipa": "/n/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=n | TYPE=isolated-sound | IPA=/n/ | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "nnn",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286223.2740831,
+   "sec": 0.92,
+   "check": {
+    "transcript": "n",
+    "type": "isolated-sound",
+    "ipa": "n",
+    "note": "clean",
+    "raw": "TRANSCRIPT=n | TYPE=isolated-sound | IPA=n | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "nose 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286760.2445655,
+   "sec": 0.35,
+   "check": {
+    "transcript": "no",
+    "type": "word",
+    "ipa": "noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=no | TYPE=word | IPA=noʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": "n",
+ "id": "sound_n",
+ "sub": "sound",
+ "title": "낱소리 /n/ (n)",
+ "text": "n",
+ "voice": "Kore",
+ "hint": "n as at the start of nose",
+ "busy": 0
+}

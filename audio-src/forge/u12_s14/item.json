@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "N, n, /n/, nose!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288737.954734,
+   "sec": 2.4,
+   "check": {
+    "transcript": "nose",
+    "type": "word",
+    "ipa": "noʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nose | TYPE=word | IPA=noʊz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s14",
+ "sub": "line",
+ "title": "1권 노래 14: N, n, /n/, nose!",
+ "text": "N, n, /n/, nose!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

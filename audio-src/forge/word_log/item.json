@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "log",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291241.2453833,
+   "sec": 1.04,
+   "check": {
+    "transcript": "log",
+    "type": "word",
+    "ipa": "lɔg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=log | TYPE=word | IPA=lɔg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_log",
+ "sub": "word",
+ "title": "단어 log · 통나무",
+ "text": "log",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! No stones!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291440.7744246,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Look, no stones.",
+    "type": "sentence",
+    "ipa": "lʊk noʊ stoʊnz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, no stones. | TYPE=sentence | IPA=lʊk noʊ stoʊnz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_u00_1_2",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 번: Look! No stones!",
+ "text": "Look! No stones!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The egg is a seed!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286423.644789,
+   "sec": 2.28,
+   "check": {
+    "transcript": "The egg is a seed.",
+    "type": "sentence",
+    "ipa": "ði ɛɡ ɪz ə siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The egg is a seed. | TYPE=sentence | IPA=ði ɛɡ ɪz ə siːd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb_u02_2_1",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 헤지: The egg is a seed!",
+ "text": "The egg is a seed!",
+ "voice": "Puck"
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tag",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291193.9415514,
+   "sec": 1.16,
+   "check": {
+    "transcript": "tag",
+    "type": "word",
+    "ipa": "tæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tag | TYPE=word | IPA=tæɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_tag",
+ "sub": "word",
+ "title": "단어 tag · 꼬리표",
+ "text": "tag",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

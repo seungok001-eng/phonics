@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "rag",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291193.9878204,
+   "sec": 1.44,
+   "check": {
+    "transcript": "rag",
+    "type": "word",
+    "ipa": "ræɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rag | TYPE=word | IPA=ræɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_rag",
+ "sub": "word",
+ "title": "단어 rag · 걸레",
+ "text": "rag",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tomato",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286332.145847,
+   "sec": 1.28,
+   "check": {
+    "transcript": "tomato",
+    "type": "word",
+    "ipa": "təˈmɑːtoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tomato | TYPE=word | IPA=təˈmɑːtoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_tomato",
+ "sub": "word",
+ "title": "단어 tomato · 토마토",
+ "text": "tomato",
+ "voice": "Kore"
+}

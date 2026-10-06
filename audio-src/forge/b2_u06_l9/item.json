@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Gip... pig!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291705.2196882,
+   "sec": 2.04,
+   "check": {
+    "transcript": "gep pig",
+    "type": "sentence",
+    "ipa": "ˈdʒɛp ˈpɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gep pig | TYPE=sentence | IPA=ˈdʒɛp ˈpɪɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Gip... pig!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299892.2894938,
+   "sec": 1.72,
+   "check": {
+    "transcript": "gip, pig",
+    "type": "word",
+    "ipa": "ˈdʒɪp, pɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gip, pig | TYPE=word | IPA=ˈdʒɪp, pɪɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b2_u06_l9",
+ "sub": "line",
+ "title": "2권 6유닛 대사 · 핍: Gip... pig!",
+ "text": "Gip... pig!",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

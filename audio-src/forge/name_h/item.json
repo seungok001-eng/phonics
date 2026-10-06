@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "H",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286197.2293036,
+   "sec": 0.6,
+   "check": {
+    "transcript": "",
+    "type": "noise",
+    "ipa": "h",
+    "note": "ok",
+    "raw": "TRANSCRIPT= | TYPE=noise | IPA=h | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "H",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791289933.5444324,
+   "sec": 0.84,
+   "check": {
+    "transcript": "h",
+    "type": "isolated-sound",
+    "ipa": "h",
+    "note": "clean",
+    "raw": "TRANSCRIPT=h | TYPE=isolated-sound | IPA=h | NOTE=clean"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": "h",
+ "id": "name_h",
+ "sub": "name",
+ "title": "글자 이름 H",
+ "text": "H",
+ "voice": "Kore",
+ "book": 1
+}

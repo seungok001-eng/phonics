@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "in",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286368.189593,
+   "sec": 0.88,
+   "check": {
+    "transcript": "in",
+    "type": "word",
+    "ipa": "ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=in | TYPE=word | IPA=ɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sw_in",
+ "sub": "sw",
+ "title": "사이트워드 in · ~안에",
+ "text": "in",
+ "voice": "Kore"
+}

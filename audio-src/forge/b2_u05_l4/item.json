@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tac... tac...",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291650.6633248,
+   "sec": 1.68,
+   "check": {
+    "transcript": "tak tak",
+    "type": "word",
+    "ipa": "tæk tæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tak tak | TYPE=word | IPA=tæk tæk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Tac... tac...",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299861.2154274,
+   "sec": 0.8,
+   "check": {
+    "transcript": "t",
+    "type": "isolated-sound",
+    "ipa": "t",
+    "note": "clean",
+    "raw": "TRANSCRIPT=t | TYPE=isolated-sound | IPA=t | NOTE=clean"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b2_u05_l4",
+ "sub": "line",
+ "title": "2권 5유닛 대사 · 핍: Tac... tac...",
+ "text": "Tac... tac...",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "seal",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286328.0295408,
+   "sec": 1.04,
+   "check": {
+    "transcript": "seal",
+    "type": "word",
+    "ipa": "sil",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seal | TYPE=word | IPA=sil | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_seal",
+ "sub": "word",
+ "title": "단어 seal · 물개",
+ "text": "seal",
+ "voice": "Kore"
+}

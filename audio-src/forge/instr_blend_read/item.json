@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Blend and read.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292040.1821265,
+   "sec": 2.08,
+   "check": {
+    "transcript": "blend and read",
+    "type": "sentence",
+    "ipa": "blɛnd ænd rid",
+    "note": "ok",
+    "raw": "TRANSCRIPT=blend and read | TYPE=sentence | IPA=blɛnd ænd rid | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:11",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_blend_read",
+ "sub": "instr",
+ "title": "지시문 · Blend and read.",
+ "text": "Blend and read.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

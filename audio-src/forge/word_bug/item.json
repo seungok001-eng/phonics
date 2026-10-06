@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "bug",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291258.8226974,
+   "sec": 1.12,
+   "check": {
+    "transcript": "bug",
+    "type": "word",
+    "ipa": "bʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bug | TYPE=word | IPA=bʌɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_bug",
+ "sub": "word",
+ "title": "단어 bug · 벌레",
+ "text": "bug",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "rip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291232.8613873,
+   "sec": 1.08,
+   "check": {
+    "transcript": "rip",
+    "type": "word",
+    "ipa": "ɹɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rip | TYPE=word | IPA=ɹɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_rip",
+ "sub": "word",
+ "title": "단어 rip · 찢어짐",
+ "text": "rip",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

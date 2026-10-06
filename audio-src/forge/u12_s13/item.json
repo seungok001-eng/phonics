@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "M, m, /m/, milk!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288737.4913728,
+   "sec": 2.76,
+   "check": {
+    "transcript": "milk",
+    "type": "word",
+    "ipa": "mɪlk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s13",
+ "sub": "line",
+ "title": "1권 노래 13: M, m, /m/, milk!",
+ "text": "M, m, /m/, milk!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

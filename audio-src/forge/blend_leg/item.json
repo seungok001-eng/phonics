@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ ... /e/ ... /g/ ... leg",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291327.2738788,
+   "sec": 4.16,
+   "check": {
+    "transcript": "leg",
+    "type": "word",
+    "ipa": "lɛg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=leg | TYPE=word | IPA=lɛg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/l/ ... /e/ ... /g/ ... leg",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299628.07142,
+   "sec": 5.0,
+   "check": {
+    "transcript": "leg",
+    "type": "word",
+    "ipa": "lɛg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=leg | TYPE=word | IPA=lɛg | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_leg",
+ "sub": "blend",
+ "title": "합치기 leg",
+ "text": "/l/ ... /e/ ... /g/ ... leg",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Go to the umbrella!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286610.7651522,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Go to the umbrella.",
+    "type": "sentence",
+    "ipa": "goʊ tuː ðiː ʌmˈbrɛlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go to the umbrella. | TYPE=sentence | IPA=goʊ tuː ðiː ʌmˈbrɛlə | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "u08_l8",
+ "sub": "line",
+ "title": "1권 8유닛 대사 · 헤지: Go to the umbrella!",
+ "text": "Go to the umbrella!",
+ "voice": "Puck",
+ "book": 1
+}

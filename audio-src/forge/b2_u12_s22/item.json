@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sun, run, bun, fun!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292024.720784,
+   "sec": 4.08,
+   "check": {
+    "transcript": "sun, run, bun, fun",
+    "type": "sentence",
+    "ipa": "sʌn, rʌn, bʌn, fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sun, run, bun, fun | TYPE=sentence | IPA=sʌn, rʌn, bʌn, fʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s22",
+ "sub": "line",
+ "title": "2권 노래 22: Sun, run, bun, fun!",
+ "text": "Sun, run, bun, fun!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

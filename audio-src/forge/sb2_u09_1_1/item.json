@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The fox has my box!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291857.394987,
+   "sec": 2.32,
+   "check": {
+    "transcript": "The fox has his box.",
+    "type": "sentence",
+    "ipa": "ðə fɑks hæz hɪz bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The fox has his box. | TYPE=sentence | IPA=ðə fɑks hæz hɪz bɑks | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb2_u09_1_1",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 헤지: The fox has my box!",
+ "text": "The fox has my box!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

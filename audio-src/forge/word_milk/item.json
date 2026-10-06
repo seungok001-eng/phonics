@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "milk",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286299.408194,
+   "sec": 1.24,
+   "check": {
+    "transcript": "milk",
+    "type": "word",
+    "ipa": "mɪlk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_milk",
+ "sub": "word",
+ "title": "단어 milk · 우유",
+ "text": "milk",
+ "voice": "Kore"
+}

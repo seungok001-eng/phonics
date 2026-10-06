@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "run",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291264.5959013,
+   "sec": 0.96,
+   "check": {
+    "transcript": "run",
+    "type": "word",
+    "ipa": "ɹʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=run | TYPE=word | IPA=ɹʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_run",
+ "sub": "word",
+ "title": "단어 run · 달리기",
+ "text": "run",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

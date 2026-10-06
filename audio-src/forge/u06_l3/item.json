@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "An otter! And Pip!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286519.516545,
+   "sec": 2.64,
+   "check": {
+    "transcript": "An otter and pip.",
+    "type": "sentence",
+    "ipa": "ən ˈɑ.tɚ ənd pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=An otter and pip. | TYPE=sentence | IPA=ən ˈɑ.tɚ ənd pɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "u06_l3",
+ "sub": "line",
+ "title": "6유닛 대사 · 헤지: An otter! And Pip!",
+ "text": "An otter! And Pip!",
+ "voice": "Puck"
+}

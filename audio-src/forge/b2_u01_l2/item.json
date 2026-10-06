@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tac! Tac?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291452.868371,
+   "sec": 2.16,
+   "check": {
+    "transcript": "tach",
+    "type": "word",
+    "ipa": "tæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tach | TYPE=word | IPA=tæk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:14",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b2_u01_l2",
+ "sub": "line",
+ "title": "2권 1유닛 대사 · 핍: Tac! Tac?",
+ "text": "Tac! Tac?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 0
+}

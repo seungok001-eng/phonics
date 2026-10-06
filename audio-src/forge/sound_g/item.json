@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/g/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286193.2102022,
+   "sec": 0.96,
+   "check": {
+    "transcript": "g",
+    "type": "isolated-sound",
+    "ipa": "g",
+    "note": "clean",
+    "raw": "TRANSCRIPT=g | TYPE=isolated-sound | IPA=g | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "goat 앞 180ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286736.3209996,
+   "sec": 0.18,
+   "check": {
+    "transcript": "go",
+    "type": "word",
+    "ipa": "ɡoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=go | TYPE=word | IPA=ɡoʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": "g",
+ "id": "sound_g",
+ "sub": "sound",
+ "title": "낱소리 /g/ (g)",
+ "text": "g",
+ "voice": "Kore",
+ "hint": "hard g as at the start of goat",
+ "busy": 0
+}

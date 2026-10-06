@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/g/ /g/ goat!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286445.9326093,
+   "sec": 2.92,
+   "check": {
+    "transcript": "goat",
+    "type": "word",
+    "ipa": "ɡoʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=goat | TYPE=word | IPA=ɡoʊt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "u03_l6",
+ "sub": "line",
+ "title": "1권 3유닛 대사 · 번: /g/ /g/ goat!",
+ "text": "/g/ /g/ goat!",
+ "voice": "Leda",
+ "book": 1
+}

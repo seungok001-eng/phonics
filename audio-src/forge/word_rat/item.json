@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "rat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291179.8068674,
+   "sec": 1.04,
+   "check": {
+    "transcript": "rat",
+    "type": "word",
+    "ipa": "ræt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rat | TYPE=word | IPA=ræt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_rat",
+ "sub": "word",
+ "title": "단어 rat · 쥐",
+ "text": "rat",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

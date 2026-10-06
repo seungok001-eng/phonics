@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Fog, fog, fog!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291809.6052575,
+   "sec": 3.28,
+   "check": {
+    "transcript": "fog fog fog",
+    "type": "word",
+    "ipa": "fɒɡ fɒɡ fɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fog fog fog | TYPE=word | IPA=fɒɡ fɒɡ fɒɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb2_u08_1_1",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 해설: Fog, fog, fog!",
+ "text": "Fog, fog, fog!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

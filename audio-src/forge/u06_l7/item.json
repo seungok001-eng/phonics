@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "It is on my nose!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286526.6856034,
+   "sec": 1.92,
+   "check": {
+    "transcript": "It is on my nose.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz ɑn maɪ noʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is on my nose. | TYPE=sentence | IPA=ɪt ɪz ɑn maɪ noʊz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "u06_l7",
+ "sub": "line",
+ "title": "6유닛 대사 · 헤지: It is on my nose!",
+ "text": "It is on my nose!",
+ "voice": "Puck"
+}

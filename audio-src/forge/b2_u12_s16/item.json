@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Dog, log, fog!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292012.5992925,
+   "sec": 3.12,
+   "check": {
+    "transcript": "dog log fog",
+    "type": "sentence",
+    "ipa": "dɔɡ lɔɡ fɔɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dog log fog | TYPE=sentence | IPA=dɔɡ lɔɡ fɔɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s16",
+ "sub": "line",
+ "title": "2권 노래 16: Dog, log, fog!",
+ "text": "Dog, log, fog!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

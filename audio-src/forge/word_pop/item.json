@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "pop",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291253.766487,
+   "sec": 1.0,
+   "check": {
+    "transcript": "pop",
+    "type": "word",
+    "ipa": "pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop | TYPE=word | IPA=pɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_pop",
+ "sub": "word",
+ "title": "단어 pop · 펑",
+ "text": "pop",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

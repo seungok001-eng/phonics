@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the little door!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286388.6055176,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Find the little door.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə lɪtəl dɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the little door. | TYPE=sentence | IPA=faɪnd ðə lɪtəl dɔɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_u00_1_task",
+ "sub": "instr",
+ "title": "0유닛 스토리북 과제 · Find the little door!",
+ "text": "Find the little door!",
+ "voice": "Kore"
+}

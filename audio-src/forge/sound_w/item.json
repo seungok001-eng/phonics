@@ -1,0 +1,69 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/w/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286256.3493996,
+   "sec": 0.88,
+   "check": {
+    "transcript": "w",
+    "type": "isolated-sound",
+    "ipa": "w",
+    "note": "extra vowel",
+    "raw": "TRANSCRIPT=w | TYPE=isolated-sound | IPA=w | NOTE=extra vowel"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "window 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286789.7537014,
+   "sec": 0.35,
+   "check": {
+    "transcript": "when",
+    "type": "word",
+    "ipa": "wɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=when | TYPE=word | IPA=wɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/w/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791289948.598641,
+   "sec": 0.8,
+   "check": {
+    "transcript": "w",
+    "type": "isolated-sound",
+    "ipa": "w",
+    "note": "clean",
+    "raw": "TRANSCRIPT=w | TYPE=isolated-sound | IPA=w | NOTE=clean"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": "w",
+ "id": "sound_w",
+ "sub": "sound",
+ "title": "낱소리 /w/ (w)",
+ "text": "w",
+ "voice": "Kore",
+ "hint": "w as at the start of window",
+ "book": 1
+}

@@ -1,0 +1,69 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ks/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286258.6998966,
+   "sec": 0.92,
+   "check": {
+    "transcript": "ks",
+    "type": "word",
+    "ipa": "ks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ks | TYPE=word | IPA=ks | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "six 앞 350ms",
+   "voice": "",
+   "how": "cut",
+   "created": 1791286793.270733,
+   "sec": 0.35,
+   "check": {
+    "transcript": "six",
+    "type": "word",
+    "ipa": "sɪks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=six | TYPE=word | IPA=sɪks | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/ks/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791289951.5735698,
+   "sec": 0.84,
+   "check": {
+    "transcript": "",
+    "type": "noise",
+    "ipa": "",
+    "note": "ok",
+    "raw": "TRANSCRIPT= | TYPE=noise | IPA= | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": "x",
+ "id": "sound_x",
+ "sub": "sound",
+ "title": "낱소리 /ks/ (x)",
+ "text": "x",
+ "voice": "Kore",
+ "hint": "ks as at the end of six and box",
+ "book": 1
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip is in the net!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286520.3874838,
+   "sec": 1.84,
+   "check": {
+    "transcript": "Pip is in the net.",
+    "type": "sentence",
+    "ipa": "pɪp ɪz ɪn ðə nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip is in the net. | TYPE=sentence | IPA=pɪp ɪz ɪn ðə nɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "u06_l4",
+ "sub": "line",
+ "title": "6유닛 대사 · 해설: Pip is in the net!",
+ "text": "Pip is in the net!",
+ "voice": "Kore"
+}

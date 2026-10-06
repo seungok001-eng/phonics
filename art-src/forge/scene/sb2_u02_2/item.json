@@ -1,0 +1,23 @@
+{
+ "status": "queued",
+ "raw": "",
+ "cut": "",
+ "attempts": 0,
+ "error": "",
+ "updated": 0,
+ "auto_approved": false,
+ "flow_url": "",
+ "prompt_edited": false,
+ "applied": "",
+ "gen": "",
+ "job_type": "image",
+ "reference": "cast_sheet_b2",
+ "unit": 2,
+ "id": "sb2_u02_2",
+ "kind": "scene",
+ "title": "2권 2유닛 스토리북 · 2쪽",
+ "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene with a simple uncluttered background and a calm, simple sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble, Beads). Scene: Beads threads c-a-p and a new stepping stone rises right under the floating cap; Bun hops onto it and grabs the cap. On the bank the orange cat naps on the green mat with a snore bubble; a silver tap on a wooden post drips beside it; the map dries on a rock. Hidden in the picture: the cap, the napping cat, the tap, the map. Grumble does NOT appear. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads.",
+ "aspect": "4:3",
+ "out": "web/assets/art/sb2_u02_2.jpg",
+ "book": 2
+}

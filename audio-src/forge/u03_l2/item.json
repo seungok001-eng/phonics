@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The goat ate it!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286438.6593034,
+   "sec": 1.84,
+   "check": {
+    "transcript": "The goat ate it.",
+    "type": "sentence",
+    "ipa": "ðə goʊt eɪt ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The goat ate it. | TYPE=sentence | IPA=ðə goʊt eɪt ɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "u03_l2",
+ "sub": "line",
+ "title": "3유닛 대사 · 헤지: The goat ate it!",
+ "text": "The goat ate it!",
+ "voice": "Puck"
+}

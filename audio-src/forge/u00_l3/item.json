@@ -69,9 +69,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:01",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -80,6 +80,5 @@
  "sub": "line",
  "title": "0유닛 대사 · 해설: This is Pip. Pip cannot sing.",
  "text": "This is Pip. Pip cannot sing.",
- "voice": "Kore",
- "busy": 1
+ "voice": "Kore"
 }

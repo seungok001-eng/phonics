@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The cap is on Grumble!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291512.3001819,
+   "sec": 2.84,
+   "check": {
+    "transcript": "The cap is on, grumble.",
+    "type": "sentence",
+    "ipa": "ðə kæp ɪz ɒn ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cap is on, grumble. | TYPE=sentence | IPA=ðə kæp ɪz ɒn ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b2_u02_l8",
+ "sub": "line",
+ "title": "2권 2유닛 대사 · 번: The cap is on Grumble!",
+ "text": "The cap is on Grumble!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

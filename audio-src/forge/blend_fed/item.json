@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/f/ ... /e/ ... /d/ ... fed",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291326.0396013,
+   "sec": 4.16,
+   "check": {
+    "transcript": "Fed",
+    "type": "word",
+    "ipa": "/f ɛ d/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Fed | TYPE=word | IPA=/f ɛ d/ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/f/ ... /e/ ... /d/ ... fed",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299621.1664362,
+   "sec": 4.12,
+   "check": {
+    "transcript": "F2Fed",
+    "type": "sentence",
+    "ipa": "ɛf dø fɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=F2Fed | TYPE=sentence | IPA=ɛf dø fɛd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_fed",
+ "sub": "blend",
+ "title": "합치기 fed",
+ "text": "/f/ ... /e/ ... /d/ ... fed",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

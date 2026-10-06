@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "win",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291226.6015925,
+   "sec": 0.96,
+   "check": {
+    "transcript": "when",
+    "type": "word",
+    "ipa": "wɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=when | TYPE=word | IPA=wɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "win",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299527.659431,
+   "sec": 1.0,
+   "check": {
+    "transcript": "win",
+    "type": "word",
+    "ipa": "wɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=win | TYPE=word | IPA=wɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_win",
+ "sub": "word",
+ "title": "단어 win · 이기기",
+ "text": "win",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

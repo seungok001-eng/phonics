@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Fog, fog, fog!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291783.862447,
+   "sec": 3.0,
+   "check": {
+    "transcript": "fog",
+    "type": "word",
+    "ipa": "fɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fog | TYPE=word | IPA=fɒɡ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_l1",
+ "sub": "line",
+ "title": "2권 8유닛 대사 · 해설: Fog, fog, fog!",
+ "text": "Fog, fog, fog!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

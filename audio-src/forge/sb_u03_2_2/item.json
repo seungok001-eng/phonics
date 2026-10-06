@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip tries. Hic! Hic!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286463.6084435,
+   "sec": 3.28,
+   "check": {
+    "transcript": "Hik",
+    "type": "word",
+    "ipa": "hɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hik | TYPE=word | IPA=hɪk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pip tries. Hic! Hic!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791290061.8228598,
+   "sec": 2.96,
+   "check": {
+    "transcript": "Pip tries hik hic",
+    "type": "sentence",
+    "ipa": "pɪp traɪz hɪk hɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip tries hik hic | TYPE=sentence | IPA=pɪp traɪz hɪk hɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 22:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb_u03_2_2",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 해설: Pip tries. Hic! Hic!",
+ "text": "Pip tries. Hic! Hic!",
+ "voice": "Kore",
+ "book": 1
+}

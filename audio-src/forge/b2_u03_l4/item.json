@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The net has ten hens!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291550.9591477,
+   "sec": 2.24,
+   "check": {
+    "transcript": "The net has ten hens.",
+    "type": "sentence",
+    "ipa": "ðə nɛt hæz tɛn hɛnz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The net has ten hens. | TYPE=sentence | IPA=ðə nɛt hæz tɛn hɛnz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b2_u03_l4",
+ "sub": "line",
+ "title": "2권 3유닛 대사 · 헤지: The net has ten hens!",
+ "text": "The net has ten hens!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

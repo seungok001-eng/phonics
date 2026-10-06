@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Who is under the quilt?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286553.9250984,
+   "sec": 2.12,
+   "check": {
+    "transcript": "Who is under the quilt?",
+    "type": "sentence",
+    "ipa": "huː ɪz ˈʌndə ðə kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Who is under the quilt? | TYPE=sentence | IPA=huː ɪz ˈʌndə ðə kwɪlt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb_u06_3_3",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 해설: Who is under the quilt?",
+ "text": "Who is under the quilt?",
+ "voice": "Kore"
+}

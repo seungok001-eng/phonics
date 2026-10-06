@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "volcano",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286344.1025965,
+   "sec": 1.4,
+   "check": {
+    "transcript": "volcano",
+    "type": "word",
+    "ipa": "vɑlˈkeɪnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɑlˈkeɪnoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_volcano",
+ "sub": "word",
+ "title": "단어 volcano · 화산",
+ "text": "volcano",
+ "voice": "Kore"
+}

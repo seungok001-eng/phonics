@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is the Word Pond.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291429.8054903,
+   "sec": 2.2,
+   "check": {
+    "transcript": "This is the word pond.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ðə wɜːd pɒnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is the word pond. | TYPE=sentence | IPA=ðɪs ɪz ðə wɜːd pɒnd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "b2_u00_l1",
+ "sub": "line",
+ "title": "2권 0유닛 대사 · 해설: This is the Word Pond.",
+ "text": "This is the Word Pond.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

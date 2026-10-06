@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tap",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291191.043354,
+   "sec": 1.08,
+   "check": {
+    "transcript": "tap",
+    "type": "word",
+    "ipa": "tæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tap | TYPE=word | IPA=tæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_tap",
+ "sub": "word",
+ "title": "단어 tap · 수도꼭지",
+ "text": "tap",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "M",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286214.740575,
+   "sec": 0.64,
+   "check": {
+    "transcript": "hm",
+    "type": "word",
+    "ipa": "hm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hm | TYPE=word | IPA=hm | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "M",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791289935.8054907,
+   "sec": 1.52,
+   "check": {
+    "transcript": "mm",
+    "type": "isolated-sound",
+    "ipa": "m",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mm | TYPE=isolated-sound | IPA=m | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 22:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": "m",
+ "id": "name_m",
+ "sub": "name",
+ "title": "글자 이름 M",
+ "text": "M",
+ "voice": "Kore",
+ "book": 1
+}

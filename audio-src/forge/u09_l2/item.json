@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip tries. Bzzz!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286639.5731578,
+   "sec": 2.36,
+   "check": {
+    "transcript": "pip tries bz",
+    "type": "sentence",
+    "ipa": "pɪp traɪz bz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pip tries bz | TYPE=sentence | IPA=pɪp traɪz bz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "u09_l2",
+ "sub": "line",
+ "title": "1권 9유닛 대사 · 해설: Pip tries. Bzzz!",
+ "text": "Pip tries. Bzzz!",
+ "voice": "Kore",
+ "book": 1
+}

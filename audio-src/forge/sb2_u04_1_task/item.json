@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the big leg!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291627.6721864,
+   "sec": 1.96,
+   "check": {
+    "transcript": "Find the big lake.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə bɪg leɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the big lake. | TYPE=sentence | IPA=faɪnd ðə bɪg leɪk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Find the big leg!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299846.9193406,
+   "sec": 1.96,
+   "check": {
+    "transcript": "Find the big leg.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə bɪg lɛg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the big leg. | TYPE=sentence | IPA=faɪnd ðə bɪg lɛg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_1_task",
+ "sub": "instr",
+ "title": "4유닛 스토리북 과제 · Find the big leg!",
+ "text": "Find the big leg!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

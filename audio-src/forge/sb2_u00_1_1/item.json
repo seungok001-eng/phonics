@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is the Word Pond.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291438.174593,
+   "sec": 2.12,
+   "check": {
+    "transcript": "pond",
+    "type": "word",
+    "ipa": "/pɑnd/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pond | TYPE=word | IPA=/pɑnd/ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "This is the Word Pond.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299758.2507925,
+   "sec": 1.88,
+   "check": {
+    "transcript": "word pond",
+    "type": "word",
+    "ipa": "wɜːd pɒnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=word pond | TYPE=word | IPA=wɜːd pɒnd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_u00_1_1",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 해설: This is the Word Pond.",
+ "text": "This is the Word Pond.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

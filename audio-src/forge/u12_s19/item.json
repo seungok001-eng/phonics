@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "S, s, /s/, sun!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288747.4815924,
+   "sec": 2.24,
+   "check": {
+    "transcript": "sun",
+    "type": "word",
+    "ipa": "sʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sun | TYPE=word | IPA=sʌn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s19",
+ "sub": "line",
+ "title": "1권 노래 19: S, s, /s/, sun!",
+ "text": "S, s, /s/, sun!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

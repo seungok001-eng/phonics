@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We like to hop!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291866.4284375,
+   "sec": 1.72,
+   "check": {
+    "transcript": "We like to hop.",
+    "type": "sentence",
+    "ipa": "wi lʌɪk tu hɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like to hop. | TYPE=sentence | IPA=wi lʌɪk tu hɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb2_u09_2_2",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 함께: We like to hop!",
+ "text": "We like to hop!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

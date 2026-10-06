@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pop! Pop! The fox hops.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291839.4189408,
+   "sec": 3.36,
+   "check": {
+    "transcript": "Pop, pop, the fox hops.",
+    "type": "sentence",
+    "ipa": "pɑp pɑp ðə fɑks hɑps",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pop, pop, the fox hops. | TYPE=sentence | IPA=pɑp pɑp ðə fɑks hɑps | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_l5",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 해설: Pop! Pop! The fox hops.",
+ "text": "Pop! Pop! The fox hops.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

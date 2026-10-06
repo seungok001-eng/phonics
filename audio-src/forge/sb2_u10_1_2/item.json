@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A bug in my mug!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291906.4791505,
+   "sec": 2.4,
+   "check": {
+    "transcript": "A bug in my mug!",
+    "type": "sentence",
+    "ipa": "ə bʌg ɪn maɪ mʌg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A bug in my mug! | TYPE=sentence | IPA=ə bʌg ɪn maɪ mʌg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb2_u10_1_2",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 헤지: A bug in my mug!",
+ "text": "A bug in my mug!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

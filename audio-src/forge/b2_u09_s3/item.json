@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The top is in the box.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291853.3543522,
+   "sec": 2.0,
+   "check": {
+    "transcript": "The top is in the box.",
+    "type": "sentence",
+    "ipa": "ðə tɑp ɪz ɪn ðə bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The top is in the box. | TYPE=sentence | IPA=ðə tɑp ɪz ɪn ðə bɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_s3",
+ "sub": "line",
+ "title": "2권 9유닛 문장 3: The top is in the box.",
+ "text": "The top is in the box.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

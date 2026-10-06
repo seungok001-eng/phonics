@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "ox",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291256.0500267,
+   "sec": 1.2,
+   "check": {
+    "transcript": "ox",
+    "type": "word",
+    "ipa": "ɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ox | TYPE=word | IPA=ɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_ox",
+ "sub": "word",
+ "title": "단어 ox · 황소",
+ "text": "ox",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

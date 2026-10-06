@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "top",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291248.4931607,
+   "sec": 1.04,
+   "check": {
+    "transcript": "top",
+    "type": "word",
+    "ipa": "tɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=top | TYPE=word | IPA=tɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_top",
+ "sub": "word",
+ "title": "단어 top · 팽이",
+ "text": "top",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ /p/ panda!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286559.7991428,
+   "sec": 2.08,
+   "check": {
+    "transcript": "panda",
+    "type": "word",
+    "ipa": "ˈpændə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=panda | TYPE=word | IPA=ˈpændə | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "u07_l3",
+ "sub": "line",
+ "title": "1권 7유닛 대사 · 번: /p/ /p/ panda!",
+ "text": "/p/ /p/ panda!",
+ "voice": "Leda",
+ "book": 1
+}

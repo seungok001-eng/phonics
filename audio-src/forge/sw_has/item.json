@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "has",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291420.2414494,
+   "sec": 1.0,
+   "check": {
+    "transcript": "has",
+    "type": "word",
+    "ipa": "hæz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=has | TYPE=word | IPA=hæz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sw_has",
+ "sub": "sw",
+ "title": "사이트워드 has · 가지고 있다",
+ "text": "has",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

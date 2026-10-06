@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291462.1234822,
+   "sec": 1.2,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b2_u01_l7",
+ "sub": "line",
+ "title": "2권 1유닛 대사 · 그럼블: Shh!",
+ "text": "Shh!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

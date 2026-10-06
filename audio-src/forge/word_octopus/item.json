@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "octopus",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286309.3909838,
+   "sec": 1.28,
+   "check": {
+    "transcript": "octopus",
+    "type": "word",
+    "ipa": "ˈɑktəpəs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=octopus | TYPE=word | IPA=ˈɑktəpəs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_octopus",
+ "sub": "word",
+ "title": "단어 octopus · 문어",
+ "text": "octopus",
+ "voice": "Kore"
+}

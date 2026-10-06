@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291865.0151875,
+   "sec": 3.64,
+   "check": {
+    "transcript": "A P hop",
+    "type": "sentence",
+    "ipa": "eɪ pi hɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A P hop | TYPE=sentence | IPA=eɪ pi hɑp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb2_u09_2_1",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 비즈: /h/ /ɑ/ /p/ hop!",
+ "text": "/h/ /ɑ/ /p/ hop!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

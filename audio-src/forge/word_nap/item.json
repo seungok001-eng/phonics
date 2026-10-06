@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "nap",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291190.8099353,
+   "sec": 1.04,
+   "check": {
+    "transcript": "nap",
+    "type": "word",
+    "ipa": "næp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nap | TYPE=word | IPA=næp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_nap",
+ "sub": "word",
+ "title": "단어 nap · 낮잠",
+ "text": "nap",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

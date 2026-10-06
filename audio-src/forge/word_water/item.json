@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "water",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286346.8150992,
+   "sec": 1.12,
+   "check": {
+    "transcript": "water",
+    "type": "word",
+    "ipa": "ˈwɔtər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=water | TYPE=word | IPA=ˈwɔtər | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_water",
+ "sub": "word",
+ "title": "단어 water · 물",
+ "text": "water",
+ "voice": "Kore"
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A can and a pan!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291490.6301425,
+   "sec": 1.84,
+   "check": {
+    "transcript": "a can and a pan",
+    "type": "sentence",
+    "ipa": "ə kæn ænd ə pæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a can and a pan | TYPE=sentence | IPA=ə kæn ænd ə pæn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb2_u01_3_1",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 헤지: A can and a pan!",
+ "text": "A can and a pan!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

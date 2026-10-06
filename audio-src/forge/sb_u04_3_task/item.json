@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the l things!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286512.3514917,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Find the L things.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈɛl θɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the L things. | TYPE=sentence | IPA=faɪnd ðə ˈɛl θɪŋz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb_u04_3_task",
+ "sub": "instr",
+ "title": "4유닛 스토리북 과제 · Find the l things!",
+ "text": "Find the l things!",
+ "voice": "Kore"
+}

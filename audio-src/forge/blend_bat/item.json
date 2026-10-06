@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/ ... /æ/ ... /t/ ... bat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291273.759086,
+   "sec": 3.96,
+   "check": {
+    "transcript": "bat",
+    "type": "word",
+    "ipa": "bæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bat | TYPE=word | IPA=bæt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/b/ ... /æ/ ... /t/ ... bat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299542.740741,
+   "sec": 4.32,
+   "check": {
+    "transcript": "bat",
+    "type": "word",
+    "ipa": "bæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bat | TYPE=word | IPA=bæt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_bat",
+ "sub": "blend",
+ "title": "합치기 bat",
+ "text": "/b/ ... /æ/ ... /t/ ... bat",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

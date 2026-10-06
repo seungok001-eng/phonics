@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! It is my pot!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791286532.936484,
+   "sec": 2.84,
+   "check": {
+    "transcript": "Shh. It is my pot.",
+    "type": "sentence",
+    "ipa": "ʃ t ɪ z m aɪ p ɑ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. It is my pot. | TYPE=sentence | IPA=ʃ t ɪ z m aɪ p ɑ t | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "u06_l11",
+ "sub": "line",
+ "title": "6유닛 대사 · 그럼블: Shh! It is my pot!",
+ "text": "Shh! It is my pot!",
+ "voice": "Charon"
+}

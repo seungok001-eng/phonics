@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! The Word Show!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291975.402747,
+   "sec": 2.44,
+   "check": {
+    "transcript": "Look, the word show.",
+    "type": "sentence",
+    "ipa": "lʊk ðə wɜːd ʃəʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, the word show. | TYPE=sentence | IPA=lʊk ðə wɜːd ʃəʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_l1",
+ "sub": "line",
+ "title": "2권 12유닛 대사 · 해설: Look! The Word Show!",
+ "text": "Look! The Word Show!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

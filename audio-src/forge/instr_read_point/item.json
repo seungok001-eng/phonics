@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Read, point and say.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292049.2614872,
+   "sec": 3.0,
+   "check": {
+    "transcript": "Read point and say.",
+    "type": "sentence",
+    "ipa": "ɹiːd pɔɪnt ənd seɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Read point and say. | TYPE=sentence | IPA=ɹiːd pɔɪnt ənd seɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:11",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_read_point",
+ "sub": "instr",
+ "title": "지시문 · Read, point and say.",
+ "text": "Read, point and say.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

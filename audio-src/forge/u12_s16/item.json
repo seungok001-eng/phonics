@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "P, p, /p/, pencil!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288741.08329,
+   "sec": 2.72,
+   "check": {
+    "transcript": "pencil",
+    "type": "word",
+    "ipa": "ˈpɛn.səl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pencil | TYPE=word | IPA=ˈpɛn.səl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s16",
+ "sub": "line",
+ "title": "1권 노래 16: P, p, /p/, pencil!",
+ "text": "P, p, /p/, pencil!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

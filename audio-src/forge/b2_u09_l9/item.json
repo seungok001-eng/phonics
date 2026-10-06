@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... I like it.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291845.917994,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Sh, I like it.",
+    "type": "sentence",
+    "ipa": "ʃ aɪ laɪk ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sh, I like it. | TYPE=sentence | IPA=ʃ aɪ laɪk ɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_l9",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 그럼블: Shh... I like it.",
+ "text": "Shh... I like it.",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip can sing!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291893.6361787,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Pip can sing.",
+    "type": "sentence",
+    "ipa": "pɪp kæn sɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip can sing. | TYPE=sentence | IPA=pɪp kæn sɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_l9",
+ "sub": "line",
+ "title": "2권 10유닛 대사 · 해설: Pip can sing!",
+ "text": "Pip can sing!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

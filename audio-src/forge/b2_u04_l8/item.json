@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The big leg is little!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291608.2316628,
+   "sec": 2.04,
+   "check": {
+    "transcript": "The big leg is little.",
+    "type": "sentence",
+    "ipa": "ðə bɪg lɛg ɪz lɪtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The big leg is little. | TYPE=sentence | IPA=ðə bɪg lɛg ɪz lɪtəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b2_u04_l8",
+ "sub": "line",
+ "title": "2권 4유닛 대사 · 번: The big leg is little!",
+ "text": "The big leg is little!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

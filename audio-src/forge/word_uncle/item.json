@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "uncle",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286337.4428463,
+   "sec": 1.08,
+   "check": {
+    "transcript": "uncle",
+    "type": "word",
+    "ipa": "ˈʌŋ.kəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uncle | TYPE=word | IPA=ˈʌŋ.kəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_uncle",
+ "sub": "word",
+ "title": "단어 uncle · 삼촌",
+ "text": "uncle",
+ "voice": "Kore"
+}

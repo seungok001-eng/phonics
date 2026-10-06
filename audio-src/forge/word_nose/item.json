@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "nose",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286303.045063,
+   "sec": 1.28,
+   "check": {
+    "transcript": "nose",
+    "type": "word",
+    "ipa": "noʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nose | TYPE=word | IPA=noʊz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_nose",
+ "sub": "word",
+ "title": "단어 nose · 코",
+ "text": "nose",
+ "voice": "Kore"
+}

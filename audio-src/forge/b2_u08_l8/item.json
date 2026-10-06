@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pot is hot!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291796.38119,
+   "sec": 1.96,
+   "check": {
+    "transcript": "The pot is hot.",
+    "type": "sentence",
+    "ipa": "ðə ˈpɑt ɪz ˈhɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pot is hot. | TYPE=sentence | IPA=ðə ˈpɑt ɪz ˈhɑt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b2_u08_l8",
+ "sub": "line",
+ "title": "2권 8유닛 대사 · 헤지: The pot is hot!",
+ "text": "The pot is hot!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

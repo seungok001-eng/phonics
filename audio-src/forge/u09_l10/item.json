@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! Look at my lantern!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791286655.5399625,
+   "sec": 2.4,
+   "check": {
+    "transcript": "Shh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=Shh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! Look at my lantern!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791290387.5925794,
+   "sec": 2.32,
+   "check": {
+    "transcript": "Shh. Look at my lantern.",
+    "type": "sentence",
+    "ipa": "ʃ. lʊk æt maɪ læntɚn.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Look at my lantern. | TYPE=sentence | IPA=ʃ. lʊk æt maɪ læntɚn. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "u09_l10",
+ "sub": "line",
+ "title": "1권 9유닛 대사 · 그럼블: Shh! Look at my lantern!",
+ "text": "Shh! Look at my lantern!",
+ "voice": "Charon",
+ "book": 1
+}

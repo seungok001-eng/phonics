@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "W, w, /w/, window!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288754.8486795,
+   "sec": 3.6,
+   "check": {
+    "transcript": "window",
+    "type": "word",
+    "ipa": "ˈwɪndoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=window | TYPE=word | IPA=ˈwɪndoʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s23",
+ "sub": "line",
+ "title": "1권 노래 23: W, w, /w/, window!",
+ "text": "W, w, /w/, window!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

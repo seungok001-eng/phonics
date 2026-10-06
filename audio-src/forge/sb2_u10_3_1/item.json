@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ /ʌ/ /p/ cup!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291921.260134,
+   "sec": 3.96,
+   "check": {
+    "transcript": "cup",
+    "type": "word",
+    "ipa": "kʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cup | TYPE=word | IPA=kʌp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb2_u10_3_1",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 비즈: /k/ /ʌ/ /p/ cup!",
+ "text": "/k/ /ʌ/ /p/ cup!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

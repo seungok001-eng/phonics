@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Not shh! Boom, boom!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291943.665305,
+   "sec": 1.92,
+   "check": {
+    "transcript": "Nuts, boom boom",
+    "type": "sentence",
+    "ipa": "nʌts, bum bum",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Nuts, boom boom | TYPE=sentence | IPA=nʌts, bum bum | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Not shh! Boom, boom!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791300059.4254708,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Not shh boom boom",
+    "type": "sentence",
+    "ipa": "nɑt ʃ buːm buːm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Not shh boom boom | TYPE=sentence | IPA=nɑt ʃ buːm buːm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b2_u11_l9",
+ "sub": "line",
+ "title": "2권 11유닛 대사 · 그럼블: Not shh! Boom, boom!",
+ "text": "Not shh! Boom, boom!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 1
+}

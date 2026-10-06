@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cluck, cluck, cluck! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291542.8837023,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Cluck cluck cluck, oh no.",
+    "type": "sentence",
+    "ipa": "klʌk klʌk klʌk oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Cluck cluck cluck, oh no. | TYPE=sentence | IPA=klʌk klʌk klʌk oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_3_3",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 해설: Cluck, cluck, cluck! Oh no!",
+ "text": "Cluck, cluck, cluck! Oh no!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

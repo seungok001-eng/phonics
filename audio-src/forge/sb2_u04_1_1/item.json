@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble has a big leg!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291621.4821472,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Grumble has a big leg.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl hæz ə bɪɡ lɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble has a big leg. | TYPE=sentence | IPA=ˈɡɹʌmbəl hæz ə bɪɡ lɛɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_1_1",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 해설: Grumble has a big leg!",
+ "text": "Grumble has a big leg!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

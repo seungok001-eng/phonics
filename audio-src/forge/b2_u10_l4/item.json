@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun has a bun!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291883.8627992,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Bun has a bun.",
+    "type": "sentence",
+    "ipa": "bʌn hæz ə bʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun has a bun. | TYPE=sentence | IPA=bʌn hæz ə bʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_l4",
+ "sub": "line",
+ "title": "2권 10유닛 대사 · 해설: Bun has a bun!",
+ "text": "Bun has a bun!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

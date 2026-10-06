@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "fun",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291267.6148682,
+   "sec": 1.08,
+   "check": {
+    "transcript": "fun",
+    "type": "word",
+    "ipa": "fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fun | TYPE=word | IPA=fʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_fun",
+ "sub": "word",
+ "title": "단어 fun · 재미",
+ "text": "fun",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

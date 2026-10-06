@@ -1,0 +1,69 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "W",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286253.940469,
+   "sec": 1.28,
+   "check": {
+    "transcript": "What",
+    "type": "word",
+    "ipa": "wʌt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=What | TYPE=word | IPA=wʌt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "W",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791289945.9451084,
+   "sec": 0.76,
+   "check": {
+    "transcript": "m",
+    "type": "isolated-sound",
+    "ipa": "/m/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=m | TYPE=isolated-sound | IPA=/m/ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "W",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299520.3093467,
+   "sec": 0.72,
+   "check": {
+    "transcript": "What?",
+    "type": "word",
+    "ipa": "wʌt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=What? | TYPE=word | IPA=wʌt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": "w",
+ "id": "name_w",
+ "sub": "name",
+ "title": "글자 이름 W",
+ "text": "W",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
+}

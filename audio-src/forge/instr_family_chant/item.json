@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Word family chant",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292052.3028712,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Word family chant.",
+    "type": "sentence",
+    "ipa": "wɜrd ˈfæm(ə)li ʧænt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Word family chant. | TYPE=sentence | IPA=wɜrd ˈfæm(ə)li ʧænt. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:11",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_family_chant",
+ "sub": "instr",
+ "title": "지시문 · Word family chant",
+ "text": "Word family chant",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

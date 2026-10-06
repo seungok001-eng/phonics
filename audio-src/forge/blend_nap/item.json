@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/n/ ... /æ/ ... /p/ ... nap",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291291.8105764,
+   "sec": 4.96,
+   "check": {
+    "transcript": "nap",
+    "type": "word",
+    "ipa": "n æ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nap | TYPE=word | IPA=n æ p | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/n/ ... /æ/ ... /p/ ... nap",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299571.1367033,
+   "sec": 4.04,
+   "check": {
+    "transcript": "nap",
+    "type": "word",
+    "ipa": "næp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nap | TYPE=word | IPA=næp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_nap",
+ "sub": "blend",
+ "title": "합치기 nap",
+ "text": "/n/ ... /æ/ ... /p/ ... nap",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "yogurt",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286352.3781657,
+   "sec": 1.16,
+   "check": {
+    "transcript": "yogurt",
+    "type": "word",
+    "ipa": "ˈjoʊɡəɹt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yogurt | TYPE=word | IPA=ˈjoʊɡəɹt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_yogurt",
+ "sub": "word",
+ "title": "단어 yogurt · 요거트",
+ "text": "yogurt",
+ "voice": "Kore"
+}

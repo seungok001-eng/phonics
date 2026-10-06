@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The net has ten hens!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291580.0363927,
+   "sec": 2.64,
+   "check": {
+    "transcript": "The net has 10 hens.",
+    "type": "sentence",
+    "ipa": "ðə ˈnɛt hæz ˈtɛn ˈhɛnz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The net has 10 hens. | TYPE=sentence | IPA=ðə ˈnɛt hæz ˈtɛn ˈhɛnz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The net has ten hens!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791299823.9293678,
+   "sec": 2.68,
+   "check": {
+    "transcript": "The net has 10 hens.",
+    "type": "sentence",
+    "ipa": "ðə nɛt hæz tɛn hɛnz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The net has 10 hens. | TYPE=sentence | IPA=ðə nɛt hæz tɛn hɛnz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb2_u03_2_2",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 헤지: The net has ten hens!",
+ "text": "The net has ten hens!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 1
+}

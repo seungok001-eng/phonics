@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is the party!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791287293.7788303,
+   "sec": 2.0,
+   "check": {
+    "transcript": "This is the party.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ðə pɑːɹti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is the party. | TYPE=sentence | IPA=ðɪs ɪz ðə pɑːɹti | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb_u11_1_1",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 함께: This is the party!",
+ "text": "This is the party!",
+ "voice": "Kore",
+ "book": 1
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Oink! Oink! Big, big, big!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291686.2421834,
+   "sec": 3.28,
+   "check": {
+    "transcript": "Oink oink, pig, pig, pig!",
+    "type": "sentence",
+    "ipa": "ˈɔɪŋk ˈɔɪŋk ˈpɪɡ ˈpɪɡ ˈpɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oink oink, pig, pig, pig! | TYPE=sentence | IPA=ˈɔɪŋk ˈɔɪŋk ˈpɪɡ ˈpɪɡ ˈpɪɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Oink! Oink! Big, big, big!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299883.24676,
+   "sec": 2.24,
+   "check": {
+    "transcript": "oink oink big big big",
+    "type": "sentence",
+    "ipa": "ˈɔɪŋk ˈɔɪŋk ˈbɪg ˈbɪg ˈbɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=oink oink big big big | TYPE=sentence | IPA=ˈɔɪŋk ˈɔɪŋk ˈbɪg ˈbɪg ˈbɪg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb2_u05_3_3",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 해설: Oink! Oink! Big, big, big!",
+ "text": "Oink! Oink! Big, big, big!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

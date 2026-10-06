@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "jelly",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286283.9925425,
+   "sec": 1.28,
+   "check": {
+    "transcript": "jelly",
+    "type": "word",
+    "ipa": "ˈdʒɛli",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jelly | TYPE=word | IPA=ˈdʒɛli | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_jelly",
+ "sub": "word",
+ "title": "단어 jelly · 젤리",
+ "text": "jelly",
+ "voice": "Kore"
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pin, fin, bin, win, tin!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292004.788875,
+   "sec": 5.92,
+   "check": {
+    "transcript": "pin fin bin win tin",
+    "type": "sentence",
+    "ipa": "pɪn fɪn bɪn wɪn tɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pin fin bin win tin | TYPE=sentence | IPA=pɪn fɪn bɪn wɪn tɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s12",
+ "sub": "line",
+ "title": "2권 노래 12: Pin, fin, bin, win, tin!",
+ "text": "Pin, fin, bin, win, tin!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

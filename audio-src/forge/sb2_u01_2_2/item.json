@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! A stone!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291486.6378946,
+   "sec": 2.64,
+   "check": {
+    "transcript": "click, clack, a stone",
+    "type": "sentence",
+    "ipa": "klɪk klæk ə stoʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click, clack, a stone | TYPE=sentence | IPA=klɪk klæk ə stoʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb2_u01_2_2",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 해설: Click-clack! A stone!",
+ "text": "Click-clack! A stone!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

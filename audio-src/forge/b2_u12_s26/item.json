@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip can read! La la la!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292032.7433546,
+   "sec": 2.8,
+   "check": {
+    "transcript": "Pip can read, la la la.",
+    "type": "sentence",
+    "ipa": "pɪp kæn ɹiːd lɑː lɑː lɑː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip can read, la la la. | TYPE=sentence | IPA=pɪp kæn ɹiːd lɑː lɑː lɑː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s26",
+ "sub": "line",
+ "title": "2권 노래 26: Pip can read! La la la!",
+ "text": "Pip can read! La la la!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

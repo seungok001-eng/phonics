@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "hammer",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286277.3055923,
+   "sec": 1.16,
+   "check": {
+    "transcript": "hammer",
+    "type": "word",
+    "ipa": "ˈhæmɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hammer | TYPE=word | IPA=ˈhæmɚ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_hammer",
+ "sub": "word",
+ "title": "단어 hammer · 망치",
+ "text": "hammer",
+ "voice": "Kore"
+}

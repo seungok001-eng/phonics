@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Lots of beads. No stones!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292036.6427898,
+   "sec": 3.08,
+   "check": {
+    "transcript": "Lots of beads, no stones.",
+    "type": "sentence",
+    "ipa": "lɑts əv bidz, no stonz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Lots of beads, no stones. | TYPE=sentence | IPA=lɑts əv bidz, no stonz. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_map_2",
+ "sub": "line",
+ "title": "스토리북 · 해설: Lots of beads. No stones!",
+ "text": "Lots of beads. No stones!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Hi.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291935.8677866,
+   "sec": 1.92,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Hi.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791300054.1764233,
+   "sec": 1.52,
+   "check": {
+    "transcript": "Shh. Hi.",
+    "type": "sentence",
+    "ipa": "ʃ aɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Hi. | TYPE=sentence | IPA=ʃ aɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b2_u11_l5",
+ "sub": "line",
+ "title": "2권 11유닛 대사 · 그럼블: Shh... Hi.",
+ "text": "Shh... Hi.",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 1
+}

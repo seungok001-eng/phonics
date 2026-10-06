@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ /ɪ/ /n/ pin!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291731.0807586,
+   "sec": 4.84,
+   "check": {
+    "transcript": "pin",
+    "type": "word",
+    "ipa": "pɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pin | TYPE=word | IPA=pɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_3_1",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 비즈: /p/ /ɪ/ /n/ pin!",
+ "text": "/p/ /ɪ/ /n/ pin!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

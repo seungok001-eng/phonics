@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "zipper",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286359.3141677,
+   "sec": 1.12,
+   "check": {
+    "transcript": "zipper",
+    "type": "word",
+    "ipa": "ˈzɪpər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zipper | TYPE=word | IPA=ˈzɪpər | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_zipper",
+ "sub": "word",
+ "title": "단어 zipper · 지퍼",
+ "text": "zipper",
+ "voice": "Kore"
+}

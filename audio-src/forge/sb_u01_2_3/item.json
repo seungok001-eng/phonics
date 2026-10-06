@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pop! Pop!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286408.2677042,
+   "sec": 1.36,
+   "check": {
+    "transcript": "pop pop",
+    "type": "word",
+    "ipa": "p ɒ p , p ɒ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop pop | TYPE=word | IPA=p ɒ p , p ɒ p | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_2_3",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 해설: Pop! Pop!",
+ "text": "Pop! Pop!",
+ "voice": "Kore"
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ ... /e/ ... /t/ ... pet",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291304.122853,
+   "sec": 4.92,
+   "check": {
+    "transcript": "pat",
+    "type": "word",
+    "ipa": "p ˈæ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pat | TYPE=word | IPA=p ˈæ t | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/p/ ... /e/ ... /t/ ... pet",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299592.7170653,
+   "sec": 4.24,
+   "check": {
+    "transcript": "pet",
+    "type": "word",
+    "ipa": "pɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pet | TYPE=word | IPA=pɛt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_pet",
+ "sub": "blend",
+ "title": "합치기 pet",
+ "text": "/p/ ... /e/ ... /t/ ... pet",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

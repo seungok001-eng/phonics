@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "yo-yo",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286355.7135003,
+   "sec": 1.48,
+   "check": {
+    "transcript": "yo-yo",
+    "type": "word",
+    "ipa": "ˈjoʊˌjoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yo-yo | TYPE=word | IPA=ˈjoʊˌjoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_yo-yo",
+ "sub": "word",
+ "title": "단어 yo-yo · 요요",
+ "text": "yo-yo",
+ "voice": "Kore"
+}

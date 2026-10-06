@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sit, Grumble, sit!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291936.2949421,
+   "sec": 2.12,
+   "check": {
+    "transcript": "sit, grumble sit",
+    "type": "sentence",
+    "ipa": "sɪt ˈɡɹʌmbəl sɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sit, grumble sit | TYPE=sentence | IPA=sɪt ˈɡɹʌmbəl sɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b2_u11_l6",
+ "sub": "line",
+ "title": "2권 11유닛 대사 · 함께: Sit, Grumble, sit!",
+ "text": "Sit, Grumble, sit!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

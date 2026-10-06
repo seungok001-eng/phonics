@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "look",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286379.695557,
+   "sec": 1.08,
+   "check": {
+    "transcript": "look",
+    "type": "word",
+    "ipa": "lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=look | TYPE=word | IPA=lʊk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sw_look",
+ "sub": "sw",
+ "title": "사이트워드 look · 보다",
+ "text": "look",
+ "voice": "Kore"
+}

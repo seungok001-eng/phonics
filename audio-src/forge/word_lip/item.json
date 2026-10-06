@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "lip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291229.7931974,
+   "sec": 1.12,
+   "check": {
+    "transcript": "lip",
+    "type": "word",
+    "ipa": "lɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lip | TYPE=word | IPA=lɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_lip",
+ "sub": "word",
+ "title": "단어 lip · 입술",
+ "text": "lip",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

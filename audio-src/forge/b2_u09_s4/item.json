@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The ox can not hop.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291855.4851584,
+   "sec": 2.36,
+   "check": {
+    "transcript": "The ox cannot hop.",
+    "type": "sentence",
+    "ipa": "ði ˈɑks ˈkænɑt ˈhɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The ox cannot hop. | TYPE=sentence | IPA=ði ˈɑks ˈkænɑt ˈhɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The ox can not hop.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299998.8553276,
+   "sec": 2.76,
+   "check": {
+    "transcript": "The ox cannot hop.",
+    "type": "sentence",
+    "ipa": "ði ɑks kænɑt hɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The ox cannot hop. | TYPE=sentence | IPA=ði ɑks kænɑt hɑp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_s4",
+ "sub": "line",
+ "title": "2권 9유닛 문장 4: The ox can not hop.",
+ "text": "The ox can not hop.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

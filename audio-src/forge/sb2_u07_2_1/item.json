@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/z/ /ɪ/ /p/ zip!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291770.8419948,
+   "sec": 3.56,
+   "check": {
+    "transcript": "zip",
+    "type": "word",
+    "ipa": "zɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zip | TYPE=word | IPA=zɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb2_u07_2_1",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 비즈: /z/ /ɪ/ /p/ zip!",
+ "text": "/z/ /ɪ/ /p/ zip!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

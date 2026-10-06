@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "on",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291419.974945,
+   "sec": 0.76,
+   "check": {
+    "transcript": "on",
+    "type": "word",
+    "ipa": "ɑn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=on | TYPE=word | IPA=ɑn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sw_on",
+ "sub": "sw",
+ "title": "사이트워드 on · ~위에",
+ "text": "on",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

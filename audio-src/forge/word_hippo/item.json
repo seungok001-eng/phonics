@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "hippo",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286276.7880836,
+   "sec": 1.04,
+   "check": {
+    "transcript": "hippo",
+    "type": "word",
+    "ipa": "ˈhɪpoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hippo | TYPE=word | IPA=ˈhɪpoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_hippo",
+ "sub": "word",
+ "title": "단어 hippo · 하마",
+ "text": "hippo",
+ "voice": "Kore"
+}

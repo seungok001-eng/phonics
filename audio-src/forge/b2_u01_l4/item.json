@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The cat can go!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291458.1468897,
+   "sec": 1.96,
+   "check": {
+    "transcript": "The cat can go.",
+    "type": "sentence",
+    "ipa": "ðə kæt kən goʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cat can go. | TYPE=sentence | IPA=ðə kæt kən goʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b2_u01_l4",
+ "sub": "line",
+ "title": "2권 1유닛 대사 · 헤지: The cat can go!",
+ "text": "The cat can go!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

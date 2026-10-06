@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A cup in the sun.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291903.126997,
+   "sec": 2.48,
+   "check": {
+    "transcript": "Look, a cup is a sun.",
+    "type": "sentence",
+    "ipa": "lʊk ə kʌp ɪz ə sʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a cup is a sun. | TYPE=sentence | IPA=lʊk ə kʌp ɪz ə sʌn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look! A cup in the sun.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791300031.5833607,
+   "sec": 2.6,
+   "check": {
+    "transcript": "Look, a cup in the sun.",
+    "type": "sentence",
+    "ipa": "lʊk ə kʌp ɪn ðə sʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a cup in the sun. | TYPE=sentence | IPA=lʊk ə kʌp ɪn ðə sʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b2_u10_s4",
+ "sub": "line",
+ "title": "2권 10유닛 문장 4: Look! A cup in the sun.",
+ "text": "Look! A cup in the sun.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

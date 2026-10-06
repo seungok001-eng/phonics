@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "we",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286369.33678,
+   "sec": 0.76,
+   "check": {
+    "transcript": "wheat",
+    "type": "word",
+    "ipa": "wiːt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wheat | TYPE=word | IPA=wiːt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "we",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791289962.2502632,
+   "sec": 1.52,
+   "check": {
+    "transcript": "we",
+    "type": "word",
+    "ipa": "wi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=we | TYPE=word | IPA=wi | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sw_we",
+ "sub": "sw",
+ "title": "사이트워드 we · 우리",
+ "text": "we",
+ "voice": "Kore",
+ "book": 1
+}

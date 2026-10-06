@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Can I sit?",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291780.4293144,
+   "sec": 2.12,
+   "check": {
+    "transcript": "sh Can I sit?",
+    "type": "sentence",
+    "ipa": "ʃ kæn aɪ sɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sh Can I sit? | TYPE=sentence | IPA=ʃ kæn aɪ sɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb2_u07_3_2",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 그럼블: Shh... Can I sit?",
+ "text": "Shh... Can I sit?",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

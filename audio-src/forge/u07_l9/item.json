@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "P! Q! R!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286571.9496546,
+   "sec": 3.04,
+   "check": {
+    "transcript": "P Q R",
+    "type": "letter-name",
+    "ipa": "pi kju aɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=P Q R | TYPE=letter-name | IPA=pi kju aɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "u07_l9",
+ "sub": "line",
+ "title": "7유닛 대사 · 함께: P! Q! R!",
+ "text": "P! Q! R!",
+ "voice": "Kore",
+ "busy": 0
+}

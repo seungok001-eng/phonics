@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "turtle",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286331.3665447,
+   "sec": 1.2,
+   "check": {
+    "transcript": "turtle",
+    "type": "word",
+    "ipa": "/ˈtɜːrtəl/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=turtle | TYPE=word | IPA=/ˈtɜːrtəl/ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_turtle",
+ "sub": "word",
+ "title": "단어 turtle · 거북이",
+ "text": "turtle",
+ "voice": "Kore"
+}

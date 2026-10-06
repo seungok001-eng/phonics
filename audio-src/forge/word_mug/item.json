@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "mug",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291261.7398863,
+   "sec": 1.16,
+   "check": {
+    "transcript": "mug",
+    "type": "word",
+    "ipa": "mʌg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mug | TYPE=word | IPA=mʌg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_mug",
+ "sub": "word",
+ "title": "단어 mug · 머그컵",
+ "text": "mug",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

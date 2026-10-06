@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791292053.2993758,
+   "sec": 1.28,
+   "check": {
+    "transcript": "click-clack",
+    "type": "word",
+    "ipa": "ˈklɪkˌklæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click-clack | TYPE=word | IPA=ˈklɪkˌklæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_beads",
+ "sub": "line",
+ "title": "말버릇 · 비즈: Click-clack!",
+ "text": "Click-clack!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

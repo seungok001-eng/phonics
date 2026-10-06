@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Zip it up!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291763.8561344,
+   "sec": 1.4,
+   "check": {
+    "transcript": "Zip it up.",
+    "type": "sentence",
+    "ipa": "zɪp ɪt ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Zip it up. | TYPE=sentence | IPA=zɪp ɪt ʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb2_u07_1_1",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 헤지: Zip it up!",
+ "text": "Zip it up!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pig, big, dig, wig, fig!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292002.3810215,
+   "sec": 5.08,
+   "check": {
+    "transcript": "pig big dig wig fig",
+    "type": "sentence",
+    "ipa": "pɪg bɪg dɪg wɪg fɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pig big dig wig fig | TYPE=sentence | IPA=pɪg bɪg dɪg wɪg fɪg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s11",
+ "sub": "line",
+ "title": "2권 노래 11: Pig, big, dig, wig, fig!",
+ "text": "Pig, big, dig, wig, fig!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -52,9 +52,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:03",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -63,6 +63,5 @@
  "sub": "line",
  "title": "1유닛 대사 · 함께: A raccoon!",
  "text": "A raccoon!",
- "voice": "Kore",
- "busy": 1
+ "voice": "Kore"
 }

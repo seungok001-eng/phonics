@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "zebra",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286358.149146,
+   "sec": 1.16,
+   "check": {
+    "transcript": "zebra",
+    "type": "word",
+    "ipa": "ˈziːbrə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zebra | TYPE=word | IPA=ˈziːbrə | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_zebra",
+ "sub": "word",
+ "title": "단어 zebra · 얼룩말",
+ "text": "zebra",
+ "voice": "Kore"
+}

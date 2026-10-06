@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "pin",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291220.6715229,
+   "sec": 1.2,
+   "check": {
+    "transcript": "pin",
+    "type": "word",
+    "ipa": "pɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pin | TYPE=word | IPA=pɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_pin",
+ "sub": "word",
+ "title": "단어 pin · 핀",
+ "text": "pin",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

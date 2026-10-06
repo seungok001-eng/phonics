@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the lantern!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291973.8353884,
+   "sec": 1.84,
+   "check": {
+    "transcript": "Find the lantern.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə læntɚn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the lantern. | TYPE=sentence | IPA=faɪnd ðə læntɚn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_3_task",
+ "sub": "instr",
+ "title": "11유닛 스토리북 과제 · Find the lantern!",
+ "text": "Find the lantern!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

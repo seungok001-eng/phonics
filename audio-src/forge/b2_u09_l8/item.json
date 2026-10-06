@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We like the top!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291843.3343635,
+   "sec": 1.68,
+   "check": {
+    "transcript": "We like the top.",
+    "type": "sentence",
+    "ipa": "wi laɪk ðə tɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like the top. | TYPE=sentence | IPA=wi laɪk ðə tɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_l8",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 헤지: We like the top!",
+ "text": "We like the top!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

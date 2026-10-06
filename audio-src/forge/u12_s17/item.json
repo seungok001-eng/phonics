@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Q, q, /kw/, queen!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288744.4806676,
+   "sec": 4.24,
+   "check": {
+    "transcript": "Q",
+    "type": "letter-name",
+    "ipa": "kjuː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Q | TYPE=letter-name | IPA=kjuː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Q, q, /kw/, queen!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791290590.134444,
+   "sec": 2.44,
+   "check": {
+    "transcript": "Q qu queen",
+    "type": "word",
+    "ipa": "kjuː kw kiːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Q qu queen | TYPE=word | IPA=kjuː kw kiːn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 22:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s17",
+ "sub": "line",
+ "title": "1권 노래 17: Q, q, /kw/, queen!",
+ "text": "Q, q, /kw/, queen!",
+ "voice": "Kore",
+ "book": 1
+}

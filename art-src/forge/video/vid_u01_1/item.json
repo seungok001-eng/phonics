@@ -1,9 +1,9 @@
 {
- "status": "generating",
+ "status": "pending",
  "raw": "",
  "cut": "",
- "attempts": 1,
- "error": "시간 초과",
+ "attempts": 0,
+ "error": "",
  "updated": 0,
  "auto_approved": false,
  "flow_url": "",

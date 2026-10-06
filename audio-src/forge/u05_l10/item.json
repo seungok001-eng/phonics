@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "It is my garden!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791287243.882594,
+   "sec": 2.32,
+   "check": {
+    "transcript": "It is my garden.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ ˈɡɑːrdən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my garden. | TYPE=sentence | IPA=ɪt ɪz maɪ ˈɡɑːrdən | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "u05_l10",
+ "sub": "line",
+ "title": "5유닛 대사 · 번: It is my garden!",
+ "text": "It is my garden!",
+ "voice": "Leda",
+ "busy": 0
+}

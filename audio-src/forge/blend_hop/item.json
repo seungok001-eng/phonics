@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/h/ ... /ɑ/ ... /p/ ... hop",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291385.5300102,
+   "sec": 4.28,
+   "check": {
+    "transcript": "hop",
+    "type": "word",
+    "ipa": "h ɑ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hop | TYPE=word | IPA=h ɑ p | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/h/ ... /ɑ/ ... /p/ ... hop",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299707.745635,
+   "sec": 4.48,
+   "check": {
+    "transcript": "h a p h o p",
+    "type": "word",
+    "ipa": "hæp hɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=h a p h o p | TYPE=word | IPA=hæp hɑp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_hop",
+ "sub": "blend",
+ "title": "합치기 hop",
+ "text": "/h/ ... /ɑ/ ... /p/ ... hop",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

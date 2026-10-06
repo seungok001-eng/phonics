@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "quack",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286320.155507,
+   "sec": 0.96,
+   "check": {
+    "transcript": "quack",
+    "type": "word",
+    "ipa": "kwæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quack | TYPE=word | IPA=kwæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_quack",
+ "sub": "word",
+ "title": "단어 quack · 꽥",
+ "text": "quack",
+ "voice": "Kore"
+}

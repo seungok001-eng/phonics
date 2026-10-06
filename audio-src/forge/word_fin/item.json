@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "fin",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291223.5485182,
+   "sec": 1.04,
+   "check": {
+    "transcript": "Finn",
+    "type": "word",
+    "ipa": "fɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Finn | TYPE=word | IPA=fɪn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "fin",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299524.9832668,
+   "sec": 0.96,
+   "check": {
+    "transcript": "Finn",
+    "type": "word",
+    "ipa": "fɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Finn | TYPE=word | IPA=fɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_fin",
+ "sub": "word",
+ "title": "단어 fin · 지느러미",
+ "text": "fin",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

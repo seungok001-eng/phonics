@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Chirp?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286393.0062168,
+   "sec": 1.32,
+   "check": {
+    "transcript": "chirp",
+    "type": "word",
+    "ipa": "tʃɜːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chirp | TYPE=word | IPA=tʃɜːp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_u00_2_2",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 핍: Chirp?",
+ "text": "Chirp?",
+ "voice": "Kore"
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "umbrella",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286334.7419949,
+   "sec": 1.24,
+   "check": {
+    "transcript": "umbrella",
+    "type": "word",
+    "ipa": "əmˈbrɛlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=umbrella | TYPE=word | IPA=əmˈbrɛlə | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_umbrella",
+ "sub": "word",
+ "title": "단어 umbrella · 우산",
+ "text": "umbrella",
+ "voice": "Kore"
+}

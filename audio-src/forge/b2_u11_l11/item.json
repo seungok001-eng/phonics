@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble? Is it you?",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291947.7012527,
+   "sec": 3.28,
+   "check": {
+    "transcript": "Crumble? Is it you?",
+    "type": "sentence",
+    "ipa": "ˈkɹʌmbəl ɪz ɪt ju",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Crumble? Is it you? | TYPE=sentence | IPA=ˈkɹʌmbəl ɪz ɪt ju | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Grumble? Is it you?",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791300064.735628,
+   "sec": 2.12,
+   "check": {
+    "transcript": "Grumble? Is it you?",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ˈɪz ɪt ˈju",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble? Is it you? | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈɪz ɪt ˈju | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b2_u11_l11",
+ "sub": "line",
+ "title": "2권 11유닛 대사 · 헤지: Grumble? Is it you?",
+ "text": "Grumble? Is it you?",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 1
+}

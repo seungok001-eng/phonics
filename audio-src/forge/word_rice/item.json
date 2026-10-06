@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "rice",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286324.398597,
+   "sec": 1.24,
+   "check": {
+    "transcript": "rice",
+    "type": "word",
+    "ipa": "raɪs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rice | TYPE=word | IPA=raɪs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_rice",
+ "sub": "word",
+ "title": "단어 rice · 밥",
+ "text": "rice",
+ "voice": "Kore"
+}

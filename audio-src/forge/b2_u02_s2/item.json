@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A map and a tap!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291518.1727662,
+   "sec": 2.32,
+   "check": {
+    "transcript": "a map and a tap",
+    "type": "sentence",
+    "ipa": "ə mæp ənd ə tæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a map and a tap | TYPE=sentence | IPA=ə mæp ənd ə tæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b2_u02_s2",
+ "sub": "line",
+ "title": "2권 2유닛 문장 2: A map and a tap!",
+ "text": "A map and a tap!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

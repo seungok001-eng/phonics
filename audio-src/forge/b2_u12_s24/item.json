@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! We can read!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292028.5965042,
+   "sec": 2.6,
+   "check": {
+    "transcript": "click-clack",
+    "type": "word",
+    "ipa": "klɪk klæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click-clack | TYPE=word | IPA=klɪk klæk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Click-clack! We can read!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791300106.849925,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Click clack, we can read.",
+    "type": "sentence",
+    "ipa": "klɪk klæk wi kæn rid",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click clack, we can read. | TYPE=sentence | IPA=klɪk klæk wi kæn rid | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s24",
+ "sub": "line",
+ "title": "2권 노래 24: Click-clack! We can read!",
+ "text": "Click-clack! We can read!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The key and the lock!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286489.818499,
+   "sec": 2.04,
+   "check": {
+    "transcript": "the key and the lock",
+    "type": "sentence",
+    "ipa": "ðə kiː ænd ðə lɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the key and the lock | TYPE=sentence | IPA=ðə kiː ænd ðə lɒk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "u04_l9",
+ "sub": "line",
+ "title": "4유닛 대사 · 헤지: The key and the lock!",
+ "text": "The key and the lock!",
+ "voice": "Puck"
+}

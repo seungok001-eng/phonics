@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The cat and the hen!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791291645.431872,
+   "sec": 2.08,
+   "check": {
+    "transcript": "The cat and the hen.",
+    "type": "sentence",
+    "ipa": "ðə kæt ænd ðə hɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cat and the hen. | TYPE=sentence | IPA=ðə kæt ænd ðə hɛn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b2_u05_l1",
+ "sub": "line",
+ "title": "2권 5유닛 대사 · 헤지: The cat and the hen!",
+ "text": "The cat and the hen!",
+ "voice": "Puck",
+ "book": 2,
+ "busy": 0
+}

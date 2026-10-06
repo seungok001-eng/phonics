@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sniff... Shh. Sniff.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791286699.8438241,
+   "sec": 5.8,
+   "check": {
+    "transcript": "",
+    "type": "noise",
+    "ipa": "",
+    "note": "ok",
+    "raw": "TRANSCRIPT= | TYPE=noise | IPA= | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "u10_l12",
+ "sub": "line",
+ "title": "1권 10유닛 대사 · 그럼블: Sniff... Shh. Sniff.",
+ "text": "Sniff... Shh. Sniff.",
+ "voice": "Charon",
+ "book": 1
+}

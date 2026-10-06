@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "hit",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291236.1348112,
+   "sec": 1.0,
+   "check": {
+    "transcript": "hit",
+    "type": "word",
+    "ipa": "hɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hit | TYPE=word | IPA=hɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_hit",
+ "sub": "word",
+ "title": "단어 hit · 치다",
+ "text": "hit",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

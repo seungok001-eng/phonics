@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "can",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291180.9791136,
+   "sec": 0.84,
+   "check": {
+    "transcript": "can",
+    "type": "word",
+    "ipa": "kæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=can | TYPE=word | IPA=kæn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_can",
+ "sub": "word",
+ "title": "단어 can · 깡통",
+ "text": "can",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

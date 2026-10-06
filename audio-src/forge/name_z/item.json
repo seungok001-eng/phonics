@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Z",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286264.797876,
+   "sec": 1.12,
+   "check": {
+    "transcript": "Z",
+    "type": "letter-name",
+    "ipa": "z",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Z | TYPE=letter-name | IPA=z | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": "z",
+ "id": "name_z",
+ "sub": "name",
+ "title": "글자 이름 Z",
+ "text": "Z",
+ "voice": "Kore"
+}

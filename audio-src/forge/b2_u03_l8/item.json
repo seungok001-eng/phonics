@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The vet has ten hens.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291558.5170913,
+   "sec": 2.52,
+   "check": {
+    "transcript": "The vet has ten hens.",
+    "type": "sentence",
+    "ipa": "ðə vɛt hɛz tɛn hɛnz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The vet has ten hens. | TYPE=sentence | IPA=ðə vɛt hɛz tɛn hɛnz. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b2_u03_l8",
+ "sub": "line",
+ "title": "2권 3유닛 대사 · 해설: The vet has ten hens.",
+ "text": "The vet has ten hens.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I see a net.",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291545.1360884,
+   "sec": 1.56,
+   "check": {
+    "transcript": "Internet",
+    "type": "word",
+    "ipa": "ˈɪn.tə.nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Internet | TYPE=word | IPA=ˈɪn.tə.nɛt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see a net.",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791299813.7223477,
+   "sec": 1.24,
+   "check": {
+    "transcript": "icenet",
+    "type": "word",
+    "ipa": "ˈaɪs.nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=icenet | TYPE=word | IPA=ˈaɪs.nɛt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b2_u03_l1",
+ "sub": "line",
+ "title": "2권 3유닛 대사 · 번: I see a net.",
+ "text": "I see a net.",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 1
+}

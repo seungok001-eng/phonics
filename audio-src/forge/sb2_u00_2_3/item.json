@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Who is in the reeds?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291449.4661787,
+   "sec": 2.48,
+   "check": {
+    "transcript": "Shh. Who is in the reads?",
+    "type": "sentence",
+    "ipa": "ʃː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Who is in the reads? | TYPE=sentence | IPA=ʃː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Who is in the reeds?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299767.0708816,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Shh, who is in the reeds?",
+    "type": "sentence",
+    "ipa": "ʃː huɪzɪnðəɹiːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, who is in the reeds? | TYPE=sentence | IPA=ʃː huɪzɪnðəɹiːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_u00_2_3",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 해설: Shh... Who is in the reeds?",
+ "text": "Shh... Who is in the reeds?",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

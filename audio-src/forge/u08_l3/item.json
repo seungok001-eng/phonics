@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/s/ /s/ seal!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286601.4897916,
+   "sec": 2.32,
+   "check": {
+    "transcript": "seal",
+    "type": "word",
+    "ipa": "sil",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seal | TYPE=word | IPA=sil | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "u08_l3",
+ "sub": "line",
+ "title": "1권 8유닛 대사 · 번: /s/ /s/ seal!",
+ "text": "/s/ /s/ seal!",
+ "voice": "Leda",
+ "book": 1
+}

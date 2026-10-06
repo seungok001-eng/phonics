@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "O, o, /ɑ/, otter!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288741.1718485,
+   "sec": 3.32,
+   "check": {
+    "transcript": "otter",
+    "type": "word",
+    "ipa": "ˈɑtər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=otter | TYPE=word | IPA=ˈɑtər | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s15",
+ "sub": "line",
+ "title": "1권 노래 15: O, o, /ɑ/, otter!",
+ "text": "O, o, /ɑ/, otter!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

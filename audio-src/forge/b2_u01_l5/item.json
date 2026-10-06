@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A rat in a hat!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791291459.3064086,
+   "sec": 2.12,
+   "check": {
+    "transcript": "A rat in a hat",
+    "type": "sentence",
+    "ipa": "ə ræt ɪn ə hæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A rat in a hat | TYPE=sentence | IPA=ə ræt ɪn ə hæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b2_u01_l5",
+ "sub": "line",
+ "title": "2권 1유닛 대사 · 번: A rat in a hat!",
+ "text": "A rat in a hat!",
+ "voice": "Leda",
+ "book": 2,
+ "busy": 0
+}

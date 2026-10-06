@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "U, u, /ʌ/! Short u!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791292020.218427,
+   "sec": 3.36,
+   "check": {
+    "transcript": "uh",
+    "type": "isolated-sound",
+    "ipa": "ʌ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=uh | TYPE=isolated-sound | IPA=ʌ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "U, u, /ʌ/! Short u!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791300106.3001354,
+   "sec": 2.8,
+   "check": {
+    "transcript": "uh, uh, short U",
+    "type": "sentence",
+    "ipa": "ʌ ʌ ʃɔɹt juː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uh, uh, short U | TYPE=sentence | IPA=ʌ ʌ ʃɔɹt juː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s20",
+ "sub": "line",
+ "title": "2권 노래 20: U, u, /ʌ/! Short u!",
+ "text": "U, u, /ʌ/! Short u!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

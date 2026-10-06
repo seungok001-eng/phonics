@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pig can win!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291703.9340332,
+   "sec": 1.52,
+   "check": {
+    "transcript": "The pig can win.",
+    "type": "sentence",
+    "ipa": "ðə pɪg kæn wɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig can win. | TYPE=sentence | IPA=ðə pɪg kæn wɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b2_u06_l8",
+ "sub": "line",
+ "title": "2권 6유닛 대사 · 함께: The pig can win!",
+ "text": "The pig can win!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

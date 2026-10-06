@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look... We can not see!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291780.0519443,
+   "sec": 2.52,
+   "check": {
+    "transcript": "Look, we cannot see.",
+    "type": "sentence",
+    "ipa": "lʊk wi ˈkæn.nɑt si",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, we cannot see. | TYPE=sentence | IPA=lʊk wi ˈkæn.nɑt si | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look... We can not see!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791299937.0501444,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Look, we cannot see.",
+    "type": "sentence",
+    "ipa": "lʊk wi ˈkæ.nɑt si",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, we cannot see. | TYPE=sentence | IPA=lʊk wi ˈkæ.nɑt si | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb2_u07_3_3",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 해설: Look... We can not see!",
+ "text": "Look... We can not see!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 1
+}

@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun and Hedgie find a door.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286385.4255242,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Bun and Heggie find a door.",
+    "type": "sentence",
+    "ipa": "bʌn ænd hɛgi faɪnd ə dɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun and Heggie find a door. | TYPE=sentence | IPA=bʌn ænd hɛgi faɪnd ə dɔɹ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Bun and Hedgie find a door.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791289976.2049093,
+   "sec": 2.6,
+   "check": {
+    "transcript": "Bun and Hedgy find a door.",
+    "type": "sentence",
+    "ipa": "bʌn ænd hɛʤi faɪnd ə dɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun and Hedgy find a door. | TYPE=sentence | IPA=bʌn ænd hɛʤi faɪnd ə dɔɹ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 22:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_u00_1_1",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 해설: Bun and Hedgie find a door.",
+ "text": "Bun and Hedgie find a door.",
+ "voice": "Kore",
+ "book": 1
+}

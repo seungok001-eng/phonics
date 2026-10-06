@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Not me! Shh!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291947.752481,
+   "sec": 1.68,
+   "check": {
+    "transcript": "Not me. Shh.",
+    "type": "sentence",
+    "ipa": "ˈnɑt mi. ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Not me. Shh. | TYPE=sentence | IPA=ˈnɑt mi. ʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b2_u11_l12",
+ "sub": "line",
+ "title": "2권 11유닛 대사 · 그럼블: Not me! Shh!",
+ "text": "Not me! Shh!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

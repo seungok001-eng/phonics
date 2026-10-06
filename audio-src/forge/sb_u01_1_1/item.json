@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I see an apple!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286399.623899,
+   "sec": 1.68,
+   "check": {
+    "transcript": "I see an apple.",
+    "type": "sentence",
+    "ipa": "aɪ siː ən ˈæpəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see an apple. | TYPE=sentence | IPA=aɪ siː ən ˈæpəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_1_1",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 번: I see an apple!",
+ "text": "I see an apple!",
+ "voice": "Leda"
+}

@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! Oh! My lantern!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791286616.4655113,
+   "sec": 3.12,
+   "check": {
+    "transcript": "Shh. Oh, my lantern.",
+    "type": "sentence",
+    "ipa": "ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Oh, my lantern. | TYPE=sentence | IPA=ʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "u08_l11",
+ "sub": "line",
+ "title": "1권 8유닛 대사 · 그럼블: Shh! Oh! My lantern!",
+ "text": "Shh! Oh! My lantern!",
+ "voice": "Charon",
+ "book": 1
+}

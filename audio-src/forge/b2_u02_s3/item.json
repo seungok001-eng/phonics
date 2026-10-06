@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The rag is on the mat.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291519.4740462,
+   "sec": 2.0,
+   "check": {
+    "transcript": "The rag is on the mat.",
+    "type": "sentence",
+    "ipa": "ðə ˈræɡ ɪz ɑn ðə ˈmæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The rag is on the mat. | TYPE=sentence | IPA=ðə ˈræɡ ɪz ɑn ðə ˈmæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b2_u02_s3",
+ "sub": "line",
+ "title": "2권 2유닛 문장 3: The rag is on the mat.",
+ "text": "The rag is on the mat.",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

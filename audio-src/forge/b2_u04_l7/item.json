@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Thank you.",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291606.9899552,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Shh, thank you.",
+    "type": "sentence",
+    "ipa": "ʃ, θæŋk ju",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, thank you. | TYPE=sentence | IPA=ʃ, θæŋk ju | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b2_u04_l7",
+ "sub": "line",
+ "title": "2권 4유닛 대사 · 그럼블: Shh... Thank you.",
+ "text": "Shh... Thank you.",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

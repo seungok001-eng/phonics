@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! The cap!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291534.6765144,
+   "sec": 2.04,
+   "check": {
+    "transcript": "click clack the cap",
+    "type": "sentence",
+    "ipa": "klɪk klæk ðə kæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click clack the cap | TYPE=sentence | IPA=klɪk klæk ðə kæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_2_2",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 해설: Click-clack! The cap!",
+ "text": "Click-clack! The cap!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

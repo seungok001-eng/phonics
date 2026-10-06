@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "SHH!",
+   "voice": "Charon",
+   "how": "tts",
+   "created": 1791291842.9251516,
+   "sec": 0.8,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b2_u09_l7",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 그럼블: SHH!",
+ "text": "SHH!",
+ "voice": "Charon",
+ "book": 2,
+ "busy": 0
+}

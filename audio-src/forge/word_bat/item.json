@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "bat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291174.9944534,
+   "sec": 1.04,
+   "check": {
+    "transcript": "bat",
+    "type": "word",
+    "ipa": "bæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bat | TYPE=word | IPA=bæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_bat",
+ "sub": "word",
+ "title": "단어 bat · 방망이",
+ "text": "bat",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "pan",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291182.9880273,
+   "sec": 1.08,
+   "check": {
+    "transcript": "pan",
+    "type": "word",
+    "ipa": "pæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pan | TYPE=word | IPA=pæn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_pan",
+ "sub": "word",
+ "title": "단어 pan · 프라이팬",
+ "text": "pan",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

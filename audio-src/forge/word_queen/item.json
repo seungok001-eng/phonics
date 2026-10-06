@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "queen",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286315.535356,
+   "sec": 1.04,
+   "check": {
+    "transcript": "queen",
+    "type": "word",
+    "ipa": "kwiːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=queen | TYPE=word | IPA=kwiːn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_queen",
+ "sub": "word",
+ "title": "단어 queen · 여왕",
+ "text": "queen",
+ "voice": "Kore"
+}

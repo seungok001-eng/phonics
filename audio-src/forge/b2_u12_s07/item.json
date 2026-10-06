@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Net, pet, wet, jet, vet!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291993.22599,
+   "sec": 5.12,
+   "check": {
+    "transcript": "net pet wet jet vet",
+    "type": "sentence",
+    "ipa": "nɛt pɛt wɛt dʒɛt vɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net pet wet jet vet | TYPE=sentence | IPA=nɛt pɛt wɛt dʒɛt vɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_s07",
+ "sub": "line",
+ "title": "2권 노래 7: Net, pet, wet, jet, vet!",
+ "text": "Net, pet, wet, jet, vet!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

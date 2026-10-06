@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "fox",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291255.2196171,
+   "sec": 1.2,
+   "check": {
+    "transcript": "fox",
+    "type": "word",
+    "ipa": "fɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fox | TYPE=word | IPA=fɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_fox",
+ "sub": "word",
+ "title": "단어 fox · 여우",
+ "text": "fox",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

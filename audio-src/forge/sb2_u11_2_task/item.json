@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find pig, zip, log, box, bug!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291965.567035,
+   "sec": 5.4,
+   "check": {
+    "transcript": "find pig, zip, log, box, bug",
+    "type": "sentence",
+    "ipa": "faɪnd pɪg zɪp lɔg bɑks bʌg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=find pig, zip, log, box, bug | TYPE=sentence | IPA=faɪnd pɪg zɪp lɔg bɑks bʌg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_2_task",
+ "sub": "instr",
+ "title": "11유닛 스토리북 과제 · Find pig, zip, log, box, bug!",
+ "text": "Find pig, zip, log, box, bug!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

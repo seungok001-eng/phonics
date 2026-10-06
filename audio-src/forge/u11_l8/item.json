@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Boom, boom! Look at Grumble!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791287284.1678257,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Brim Boom, look at Grumbal",
+    "type": "sentence",
+    "ipa": "bɹɪm bum lʊk æt ɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Brim Boom, look at Grumbal | TYPE=sentence | IPA=bɹɪm bum lʊk æt ɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "u11_l8",
+ "sub": "line",
+ "title": "1권 11유닛 대사 · 해설: Boom, boom! Look at Grumble!",
+ "text": "Boom, boom! Look at Grumble!",
+ "voice": "Kore",
+ "book": 1
+}

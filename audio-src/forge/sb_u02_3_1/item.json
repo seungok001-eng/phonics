@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/f/ /f/ frog! Pop!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286430.5757227,
+   "sec": 3.24,
+   "check": {
+    "transcript": "frog pop",
+    "type": "word",
+    "ipa": "frɒɡ pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=frog pop | TYPE=word | IPA=frɒɡ pɒp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb_u02_3_1",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 함께: /f/ /f/ frog! Pop!",
+ "text": "/f/ /f/ frog! Pop!",
+ "voice": "Kore",
+ "book": 1
+}

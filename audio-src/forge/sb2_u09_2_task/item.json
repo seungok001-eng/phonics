@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -op words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291871.262224,
+   "sec": 2.48,
+   "check": {
+    "transcript": "Find the op words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ˈɑp wɝdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the op words. | TYPE=sentence | IPA=faɪnd ði ˈɑp wɝdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb2_u09_2_task",
+ "sub": "instr",
+ "title": "9유닛 스토리북 과제 · Find the -op words!",
+ "text": "Find the -op words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

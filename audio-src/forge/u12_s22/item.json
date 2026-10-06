@@ -1,0 +1,51 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "V, v, /v/, vet!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288752.5162325,
+   "sec": 3.48,
+   "check": {
+    "transcript": "that",
+    "type": "word",
+    "ipa": "ðæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=that | TYPE=word | IPA=ðæt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "V, v, /v/, vet!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791290617.1058636,
+   "sec": 3.88,
+   "check": {
+    "transcript": "v",
+    "type": "isolated-sound",
+    "ipa": "v",
+    "note": "extra vowel",
+    "raw": "TRANSCRIPT=v | TYPE=isolated-sound | IPA=v | NOTE=extra vowel"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-06 22:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s22",
+ "sub": "line",
+ "title": "1권 노래 22: V, v, /v/, vet!",
+ "text": "V, v, /v/, vet!",
+ "voice": "Kore",
+ "book": 1
+}

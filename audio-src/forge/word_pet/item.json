@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "pet",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291196.8500745,
+   "sec": 1.0,
+   "check": {
+    "transcript": "pet",
+    "type": "word",
+    "ipa": "pɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pet | TYPE=word | IPA=pɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_pet",
+ "sub": "word",
+ "title": "단어 pet · 애완동물",
+ "text": "pet",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

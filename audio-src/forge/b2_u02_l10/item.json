@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pac!",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291514.2476478,
+   "sec": 0.88,
+   "check": {
+    "transcript": "pack",
+    "type": "word",
+    "ipa": "pæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pack | TYPE=word | IPA=pæk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b2_u02_l10",
+ "sub": "line",
+ "title": "2권 2유닛 대사 · 핍: Pac!",
+ "text": "Pac!",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 0
+}

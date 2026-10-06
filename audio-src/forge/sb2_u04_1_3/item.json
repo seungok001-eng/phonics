@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Deb! Deb?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291625.3771522,
+   "sec": 1.64,
+   "check": {
+    "transcript": "Tab",
+    "type": "word",
+    "ipa": "tæb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Tab | TYPE=word | IPA=tæb | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Deb! Deb?",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299842.1557038,
+   "sec": 2.32,
+   "check": {
+    "transcript": "dab",
+    "type": "word",
+    "ipa": "dæb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dab | TYPE=word | IPA=dæb | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_1_3",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 핍: Deb! Deb?",
+ "text": "Deb! Deb?",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}

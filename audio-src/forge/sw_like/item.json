@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "like",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286371.6630802,
+   "sec": 1.0,
+   "check": {
+    "transcript": "like",
+    "type": "word",
+    "ipa": "laɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=like | TYPE=word | IPA=laɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sw_like",
+ "sub": "sw",
+ "title": "사이트워드 like · 좋아하다",
+ "text": "like",
+ "voice": "Kore"
+}

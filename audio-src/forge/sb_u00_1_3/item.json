@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Wow! A little door!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791286389.5678296,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Wow, a little door.",
+    "type": "sentence",
+    "ipa": "waʊ ə lɪtəl dɔːɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Wow, a little door. | TYPE=sentence | IPA=waʊ ə lɪtəl dɔːɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_u00_1_3",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 헤지: Wow! A little door!",
+ "text": "Wow! A little door!",
+ "voice": "Puck"
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "G, g, /g/, goat!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791288726.4731827,
+   "sec": 2.4,
+   "check": {
+    "transcript": "goat",
+    "type": "word",
+    "ipa": "goʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=goat | TYPE=word | IPA=goʊt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_s07",
+ "sub": "line",
+ "title": "1권 노래 7: G, g, /g/, goat!",
+ "text": "G, g, /g/, goat!",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

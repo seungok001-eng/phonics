@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "ten",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291203.8392093,
+   "sec": 1.04,
+   "check": {
+    "transcript": "ten",
+    "type": "word",
+    "ipa": "tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ten | TYPE=word | IPA=tɛn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_ten",
+ "sub": "word",
+ "title": "단어 ten · 10",
+ "text": "ten",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

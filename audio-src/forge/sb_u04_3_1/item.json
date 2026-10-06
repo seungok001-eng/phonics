@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ /l/ lemon! Pop!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791286509.7427242,
+   "sec": 3.4,
+   "check": {
+    "transcript": "lemon pop",
+    "type": "word",
+    "ipa": "lɛmən pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lemon pop | TYPE=word | IPA=lɛmən pɑp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb_u04_3_1",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 번: /l/ /l/ lemon! Pop!",
+ "text": "/l/ /l/ lemon! Pop!",
+ "voice": "Leda",
+ "book": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "fig",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291220.575998,
+   "sec": 1.04,
+   "check": {
+    "transcript": "fig",
+    "type": "word",
+    "ipa": "fɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fig | TYPE=word | IPA=fɪg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_fig",
+ "sub": "word",
+ "title": "단어 fig · 무화과",
+ "text": "fig",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

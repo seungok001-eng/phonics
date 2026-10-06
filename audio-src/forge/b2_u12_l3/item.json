@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! Cat, pig, bug!",
+   "voice": "Zephyr",
+   "how": "tts",
+   "created": 1791291979.4460998,
+   "sec": 4.12,
+   "check": {
+    "transcript": "Click, clack. Cat, pig, bug.",
+    "type": "sentence",
+    "ipa": "klɪk klæk kæt pɪɡ bʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click, clack. Cat, pig, bug. | TYPE=sentence | IPA=klɪk klæk kæt pɪɡ bʌɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_l3",
+ "sub": "line",
+ "title": "2권 12유닛 대사 · 비즈: Click-clack! Cat, pig, bug!",
+ "text": "Click-clack! Cat, pig, bug!",
+ "voice": "Zephyr",
+ "book": 2,
+ "busy": 0
+}

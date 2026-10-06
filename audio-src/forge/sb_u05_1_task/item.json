@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find a, b, c, d, e, f!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791287258.5753832,
+   "sec": 6.76,
+   "check": {
+    "transcript": "find A B C D E F",
+    "type": "sentence",
+    "ipa": "faɪnd eɪ biː siː diː iː ɛf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=find A B C D E F | TYPE=sentence | IPA=faɪnd eɪ biː siː diː iː ɛf | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 21:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb_u05_1_task",
+ "sub": "instr",
+ "title": "5유닛 스토리북 과제 · Find a, b, c, d, e, f!",
+ "text": "Find a, b, c, d, e, f!",
+ "voice": "Kore",
+ "busy": 0
+}

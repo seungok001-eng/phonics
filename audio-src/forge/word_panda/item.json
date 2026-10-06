@@ -1,0 +1,33 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "panda",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791286312.22503,
+   "sec": 1.08,
+   "check": {
+    "transcript": "panda",
+    "type": "word",
+    "ipa": "ˈpændə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=panda | TYPE=word | IPA=ˈpændə | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 20:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_panda",
+ "sub": "word",
+ "title": "단어 panda · 판다",
+ "text": "panda",
+ "voice": "Kore"
+}

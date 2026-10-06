@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -at words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791291482.234342,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Find the at words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði æt wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the at words. | TYPE=sentence | IPA=faɪnd ði æt wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb2_u01_1_task",
+ "sub": "instr",
+ "title": "1유닛 스토리북 과제 · Find the -at words!",
+ "text": "Find the -at words!",
+ "voice": "Kore",
+ "book": 2,
+ "busy": 0
+}

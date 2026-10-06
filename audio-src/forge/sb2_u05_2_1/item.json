@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tac... tac...",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791291676.1141002,
+   "sec": 1.68,
+   "check": {
+    "transcript": "tuck tuck",
+    "type": "word",
+    "ipa": "tʌk tʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tuck tuck | TYPE=word | IPA=tʌk tʌk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Tac... tac...",
+   "voice": "Aoede",
+   "how": "tts",
+   "created": 1791299874.4595182,
+   "sec": 1.72,
+   "check": {
+    "transcript": "tact tact",
+    "type": "word",
+    "ipa": "tækt tækt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tact tact | TYPE=word | IPA=tækt tækt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb2_u05_2_1",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 핍: Tac... tac...",
+ "text": "Tac... tac...",
+ "voice": "Aoede",
+ "book": 2,
+ "busy": 1
+}
