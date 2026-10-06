@@ -2126,10 +2126,11 @@ async function attachByPastingFile(imageUrl, fileName) {
   if (!editor) return false;
   clearIngredientChips();
   await SLEEP(200);
-  const res = await fetch(imageUrl, { cache: "no-store" });
-  if (!res.ok) throw new Error(`참조 그림을 받지 못함 (${res.status})`);
-  const blob = await res.blob();
-  const file = new File([blob], fileName, { type: blob.type || "image/png" });
+  const got = await chrome.runtime.sendMessage({ type: "FETCH_IMAGE", url: imageUrl });
+  if (!got || !got.ok) throw new Error(`참조 그림을 받지 못함 (${got?.error || "응답 없음"})`);
+  const bin = atob(got.base64); const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  const file = new File([bytes], fileName, { type: got.type.split(";")[0] || "image/png" });
   const dt = new DataTransfer();
   dt.items.add(file);
   const target = editor.matches("[contenteditable='true']") ? editor : (editor.querySelector("[contenteditable='true']") || editor);
@@ -2814,7 +2815,10 @@ async function attachStyleImageToFlow(imageUrl, sceneId, sceneNumber, imagePromp
   try {
     if (await attachByPastingFile(imageUrl, (padded || "ref") + ".png")) return;
   } catch (e) {
-    console.warn("[Flow Bridge] 붙여넣기 첨부 실패 — 다른 경로로:", e?.message || e);
+    // 옛 경로(소재 추가 창 → "미디어 업로드")는 진짜 클릭 직후의 합성 클릭이 OS 파일 창을 열어 탭을 얼려 버린다 → 가지 않는다
+    const why = e?.message || String(e);
+    try { chrome.storage.local.set({ lastStatus: `참조 붙여넣기 실패: ${why}` }); } catch {}
+    throw new Error(`참조 붙여넣기 실패: ${why}`);
   }
 
   // NEW: 캔버스에 이미 떠 있는 장면 이미지를 입력창으로 드래그 첨부 (최우선).

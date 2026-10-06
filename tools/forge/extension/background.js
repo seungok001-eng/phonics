@@ -576,6 +576,22 @@ chrome.tabs.onRemoved.addListener((tabId) => {
 });
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
+  if (msg.type === "FETCH_IMAGE") {
+    // [교재 공방] 참조 그림을 확장(백그라운드)에서 받아 base64 로 돌려준다 — 페이지 CSP 와 무관
+    (async () => {
+      try {
+        const r = await fetch(msg.url, { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        const buf = await r.arrayBuffer();
+        let bin = ""; const bytes = new Uint8Array(buf);
+        for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+        sendResponse({ ok: true, base64: btoa(bin), type: r.headers.get("content-type") || "image/png" });
+      } catch (e) {
+        sendResponse({ ok: false, error: e?.message || String(e) });
+      }
+    })();
+    return true;   // 비동기 응답
+  }
   if (msg.type === "START_POLLING") {
     startPolling();
     sendResponse({ ok: true });
