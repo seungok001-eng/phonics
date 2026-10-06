@@ -33,11 +33,62 @@
     "raw": "TRANSCRIPT=A | TYPE=letter-name | IPA=eɪ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/ə/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791269205.468255,
+   "sec": 0.84,
+   "check": {
+    "transcript": "Uh",
+    "type": "isolated-sound",
+    "ipa": "ʌ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Uh | TYPE=isolated-sound | IPA=ʌ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "uh",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791269206.5034807,
+   "sec": 0.68,
+   "check": {
+    "transcript": "uh",
+    "type": "word",
+    "ipa": "ʌ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uh | TYPE=word | IPA=ʌ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/ʌ/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791269207.7716398,
+   "sec": 1.0,
+   "check": {
+    "transcript": "uh",
+    "type": "word",
+    "ipa": "/ʌ/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uh | TYPE=word | IPA=/ʌ/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-10-06 15:51",
  "text_edited": false,
  "error": "",
  "unit": 1,

@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "an",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791269479.4509737,
+   "sec": 1.44,
+   "check": {
+    "transcript": "An",
+    "type": "word",
+    "ipa": "æn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=An | TYPE=word | IPA=æn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 15:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sw_an",
+ "sub": "sw",
+ "title": "사이트워드 an · 하나의 (모음 소리 앞)",
+ "text": "an",
+ "voice": "Kore",
+ "busy": 0
+}

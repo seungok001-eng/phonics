@@ -3,7 +3,7 @@
   "title": "Pop! Pop! Pop!",
   "title_ko": "펑! 펑! 펑!",
   "letters": ["a", "b", "c"],
-  "sight_words": ["I", "see", "a"],
+  "sight_words": ["I", "see", "a", "an"],
 
   "objectives_ko": [
     "글자 A·B·C의 이름과 소리를 알고 말한다",
@@ -54,7 +54,7 @@
         "desc": "Lily and Max have just stepped through a small round wooden door into a sunny magical garden with a long row of empty clay flower pots. Pomi hops excitedly beside a wicker basket of red apples, pointing at a single glowing golden seed inside the basket. Hidden in the picture: a toy astronaut sitting on a garden shelf, a weathervane shaped like an arrow on the shed roof.",
         "hidden": ["apple", "astronaut", "arrow"],
         "lines": [
-          { "who": "lily", "text": "I see a seed!", "audio": "u01_l1" },
+          { "who": "lily", "text": "I see an apple!", "audio": "u01_l1" },
           { "who": "pomi", "text": "A!", "audio": "name_a", "sfx": "chime" },
           { "who": "max", "text": "/a/ /a/ apple!", "audio": "u01_l3", "pop": "a" }
         ],
@@ -81,9 +81,10 @@
       },
       {
         "id": "scene_u01_4",
-        "desc": "Three new letter trees stand in a row (apples, bus-and-bag toys, cat-and-cup shaped fruits hanging from them). A grumpy grey mole in a striped nightcap and round spectacles bursts out of a dirt hole in the foreground with dirt flying, one paw at his mouth. Lily and Max jump back in surprise; Pomi hides behind Lily's legs.",
-        "hidden": [],
+        "desc": "Three new cheerful letter trees stand in a row in the garden, each with a wooden sign on its trunk showing one big letter: the first tree's sign reads 'A' with a red apple, a toy astronaut and a toy arrow hanging from its branches; the second tree's sign reads 'B' with a yellow toy bus, a red backpack and a tiny doll bed hanging; the third tree's sign reads 'C' with an orange cat, a blue cup and a striped candy hanging. Lily and Max stand in front of the trees, proudly pointing at them one after another; Pomi floats between them glowing with joy. In the foreground corner, a grumpy grey mole in a striped nightcap and round spectacles has just poked his head out of a dirt hole with one paw at his mouth, and the children glance down at him in surprise. The three letters A, B and C on the signs are the ONLY text allowed in the picture.",
+        "hidden": ["apple", "bus", "cat"],
         "lines": [
+          { "who": "both", "text": "A! B! C!", "audio": "u01_l10", "sfx": "chime" },
           { "who": "digby", "text": "Shh!", "audio": "u01_l8" },
           { "who": "both", "text": "A mole!", "audio": "u01_l9" }
         ]
@@ -136,7 +137,7 @@
     ],
     "sort": { "a": ["apple", "arrow"], "b": ["bus", "bed"], "c": ["cup", "cat"] },
     "finish_story": [
-      { "text": "I see a ___.", "answer": "seed", "picture": "scene_u01_1" },
+      { "text": "I see an ___!", "answer": "apple", "picture": "apple" },
       { "text": "/b/ /b/ ___!", "answer": "bus", "picture": "bus" },
       { "text": "/k/ /k/ ___!", "answer": "cat", "picture": "cat" }
     ]

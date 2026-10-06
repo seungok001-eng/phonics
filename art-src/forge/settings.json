@@ -17,12 +17,12 @@
  "port": 8766,
  "next_asset_no": 2001,
  "gemini_usage": {
-  "count": 44,
-  "cost": 2.926
+  "count": 46,
+  "cost": 3.06
  },
  "tts_usage": {
-  "count": 128,
-  "tokens": 8662,
-  "checks": 131
+  "count": 136,
+  "tokens": 9008,
+  "checks": 139
  }
 }

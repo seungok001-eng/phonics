@@ -33,18 +33,36 @@
     "raw": "TRANSCRIPT=IC seed | TYPE=sentence | IPA=aɪ siː siːd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "I see an apple!",
+   "voice": "Leda",
+   "how": "tts",
+   "created": 1791269477.981982,
+   "sec": 1.72,
+   "check": {
+    "transcript": "I see an apple.",
+    "type": "sentence",
+    "ipa": "aɪ siː ən ˈæpəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see an apple. | TYPE=sentence | IPA=aɪ siː ən ˈæpəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-10-06 15:51",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "u01_l1",
  "sub": "line",
- "title": "1유닛 대사 · 릴리: I see a seed!",
- "text": "I see a seed!",
- "voice": "Leda"
+ "title": "1유닛 대사 · 릴리: I see an apple!",
+ "text": "I see an apple!",
+ "voice": "Leda",
+ "busy": 0
 }

@@ -1,0 +1,67 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A! B! C!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791269212.5582347,
+   "sec": 3.28,
+   "check": {
+    "transcript": "A",
+    "type": "letter-name",
+    "ipa": "eɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A | TYPE=letter-name | IPA=eɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A. B. C.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791269293.0643659,
+   "sec": 2.44,
+   "check": {
+    "transcript": "A B C",
+    "type": "sentence",
+    "ipa": "ˈeɪ ˈbiː ˈsiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A B C | TYPE=sentence | IPA=ˈeɪ ˈbiː ˈsiː | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A, B, C!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791269293.9046588,
+   "sec": 2.44,
+   "check": {
+    "transcript": "A, B, C",
+    "type": "sentence",
+    "ipa": "eɪ biː siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A, B, C | TYPE=sentence | IPA=eɪ biː siː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-06 15:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "u01_l10",
+ "sub": "line",
+ "title": "1유닛 대사 · 함께: A! B! C!",
+ "text": "A! B! C!",
+ "voice": "Kore"
+}
