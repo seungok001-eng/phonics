@@ -1,9 +1,9 @@
 {
- "status": "failed",
+ "status": "queued",
  "raw": "",
  "cut": "",
- "attempts": 3,
- "error": "이미지 제출 실패: 참조 첨부 실패 (필수): Flow의 '시작' 첨부 버튼을 찾지 못함 [composer=FLOW-RICH-TEXT-EDITOR.prompt-input] 보이는 버튼: home | more_vert | search | filter_list | add | help | settings_2 | ULTRA | Google 계정: 국뽕  \n(seu | 에이전트 | 🍌 Nano Banana Pro c | arrow_forward",
+ "attempts": 0,
+ "error": "",
  "updated": 0,
  "auto_approved": false,
  "flow_url": "",

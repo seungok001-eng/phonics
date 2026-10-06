@@ -160,6 +160,16 @@ function fixShape(pts) {
   const corners = simp.length - 1;                 // 닫힌 획: 마지막 점은 시작점 근처
   const cx = (minX + maxX) / 2, cy = (minY + maxY) / 2;
   const roundness = circleFit(pts, cx, cy);        // 중심에서의 거리가 고를수록 1 에 가깝다
+  if (corners >= 7 && corners <= 16) {             // 별: 꼭짓점이 바깥·안쪽으로 번갈아 (5각 별 = 10꼭짓점)
+    const c = simp.slice(0, corners), rs = c.map((p) => Math.hypot(p.x - cx, p.y - cy)), m = rs.length;
+    const big = rs.filter((r, i) => r > rs[(i + 1) % m] && r > rs[(i - 1 + m) % m]), small = rs.filter((r, i) => r < rs[(i + 1) % m] && r < rs[(i - 1 + m) % m]);
+    const avg = (a) => a.reduce((s, v) => s + v, 0) / a.length;
+    if (big.length >= 3 && small.length >= 3 && avg(big) / avg(small) > 1.35) {
+      const n = Math.max(4, Math.min(8, Math.round(corners / 2))), R = avg(big), r = Math.min(avg(small), R * 0.6), out = [];
+      for (let i = 0; i <= n * 2; i++) { const t = -Math.PI / 2 + i * Math.PI / n; const rr = i % 2 ? r : R; out.push({ x: cx + rr * Math.cos(t), y: cy + rr * Math.sin(t), p: .5 }); }
+      return { kind: 'star', pts: out };
+    }
+  }
   if (corners >= 5 || (roundness > 0.8 && corners !== 3 && corners !== 4)) {   // 동그라미·타원
     const rx = w / 2, ry = h / 2, out = [];
     const same = Math.abs(rx - ry) < Math.max(rx, ry) * 0.2, r = (rx + ry) / 2;
