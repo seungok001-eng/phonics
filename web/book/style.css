@@ -447,3 +447,5 @@ body.teacher #top .brand small { display: none; }
 }
 #top button, #top .split button { white-space: nowrap; }
 @media (max-width: 1750px) { body.teacher #pageInfo { display: none; } body.teacher #top .split button { padding: 6px 7px; } }
+#pageInfo { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 0 1 auto; }   /* 좁은 화면에서 세로로 접히지 않게 */
+@media (max-width: 1000px) { #pageInfo { display: none; } }
