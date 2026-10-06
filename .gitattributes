@@ -1,0 +1,9 @@
+# 줄 끝은 LF 로 통일 (윈도우 CRLF 경고 방지). 바이너리는 그대로
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.mp4 binary
+*.woff2 binary
+*.pdf binary

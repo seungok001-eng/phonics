@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 유닛 시험지</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --vowel:#E0523E; --conso:#2E5FBF; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; font-size:16px; }
+  .sheet { width:210mm; min-height:297mm; margin:16px auto; background:#fff; padding:14mm 14mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; display:flex; flex-direction:column; gap:10px; }
+  .head { display:flex; align-items:center; gap:12px; border-bottom:3px solid var(--line); padding-bottom:6px; }
+  .head h1 { font-family:'Fredoka'; color:var(--orange); margin:0; font-size:24px; flex:1; }
+  .head .nm { font-size:14px; color:var(--soft); } .head .nm span { display:inline-block; border-bottom:1px solid var(--ink); width:90px; margin-left:4px; }
+  h2 { font-family:'Fredoka'; font-size:17px; margin:8px 0 4px; } h2 small { color:var(--soft); font-weight:400; font-family:'Andika'; font-size:12px; margin-left:6px; }
+  .row { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+  .it { border:2px solid var(--line); border-radius:12px; padding:8px; text-align:center; }
+  .it img { width:100%; height:80px; object-fit:contain; } .it .ph { height:80px; background:var(--cream); border-radius:8px; display:flex; align-items:center; justify-content:center; color:var(--soft); font-size:13px; }
+  .it .opts { display:flex; justify-content:space-around; font-family:'Andika'; font-size:30px; margin-top:4px; }
+  .it .opts span { border:2px solid transparent; border-radius:50%; width:44px; }
+  .it .blank { border-bottom:2px solid var(--ink); height:36px; margin-top:4px; }
+  .wd-row { display:flex; gap:8px; flex-wrap:wrap; }
+  .wd-row span { border:2px solid var(--line); border-radius:10px; padding:2px 10px; font-size:20px; }
+  .trace { font-family:'Andika'; font-size:40px; color:#c9c9c9; border-bottom:2px solid #bbb; display:flex; gap:20px; padding:0 10px; }
+  .trace b { color:var(--ink); font-weight:400; }
+  .sent { font-size:22px; border-bottom:2px solid var(--line); padding:6px 0; }
+  .sent .blank { display:inline-block; width:100px; border-bottom:2px solid var(--ink); }
+  .key { background:var(--cream); border:2px solid var(--line); border-radius:12px; padding:10px 14px; font-size:14px; }
+  .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:210mm; }
+  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
+  .score { margin-left:auto; border:2px solid var(--line); border-radius:10px; padding:4px 10px; font-size:14px; }
+  @page { size:A4; margin:0; }
+  @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } }
+</style>
+</head>
+<body>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span id="nav"></span><span style="color:var(--soft);font-size:13px">듣기 문제는 선생님이 웹 교재(학생책 1·3쪽)에서 소리를 들려주거나 직접 읽어 준다. 마지막 장은 정답.</span></div>
+<div id="out"></div>
+<script>
+// 유닛 시험지: 듣기(글자 소리·단어) + 쓰기(대소문자·첫소리·단어·사이트워드) + 정답지. ?u=1&v=A (A/B형: 문제 순서가 다르다)
+const q = new URLSearchParams(location.search); const U = +(q.get('u') ?? 1), V = (q.get('v') || 'A').toUpperCase();
+async function get(rel) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+function shuffle(a, seed) { const r = a.slice(); let s = seed * 9301 + 49297; for (let i = r.length - 1; i > 0; i--) { s = (s * 9301 + 49297) % 233280; const j = Math.floor((s / 233280) * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; }
+(async () => {
+  const book = await get('book.json'), unit = await get(`units/unit${String(U).padStart(2, '0')}.json`);
+  if (!unit) { document.getElementById('out').textContent = '유닛 없음'; return; }
+  document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false && x.letters.length).map((x) => `<a href="?u=${x.n}&v=A">U${x.n} A형</a> <a href="?u=${x.n}&v=B">B형</a>`).join(' ');
+  const seed = U * 10 + (V === 'B' ? 5 : 1);
+  const L = book.letters, letters = unit.letters, words = letters.flatMap((l) => L[l].words);
+  const letterOf = (w) => letters.find((l) => L[l].words.includes(w));
+  const img = (w) => `<img src="../assets/art/word_${w}.png" alt="${w}" onerror="this.outerHTML='<div class=ph>${w}</div>'">`;
+  const head = (sub) => `<div class="head"><h1>Unit ${U} Test <small style="font-size:14px;color:var(--soft)">${V}형 · ${sub}</small></h1><div class="nm">Name<span></span> Date<span></span> Score<span style="width:50px"></span>/20</div></div>`;
+  const ans = [];
+  // A. 듣기: 소리 → 글자 (3문제). 선생님이 /æ/ /b/ /k/ 중 하나를 말한다
+  const A = shuffle(letters, seed).map((l, i) => { ans.push(`A${i + 1}: ${l.toUpperCase()}`); return `<div class="it"><div class="opts">${shuffle(letters, seed + i).map((x) => `<span>${x.toUpperCase()}${x}</span>`).join('')}</div><div style="font-size:12px;color:var(--soft)">🔊 ${i + 1}</div></div>`; }).join('');
+  const Akey = shuffle(letters, seed).map((l) => `/${L[l].sound}/`).join(', ');
+  // B. 듣기: 단어 → 그림 (3문제)
+  const Bw = shuffle(words, seed + 1).slice(0, 3);
+  const B = Bw.map((w, i) => { const opts = shuffle([w, ...shuffle(words.filter((x) => x !== w), seed + i).slice(0, 2)], seed + i + 3); ans.push(`B${i + 1}: ${w}`); return `<div class="it"><div style="display:flex;gap:4px">${opts.map((o) => `<div style="flex:1">${img(o)}</div>`).join('')}</div><div style="font-size:12px;color:var(--soft)">🔊 ${i + 1}</div></div>`; }).join('');
+  // C. 대문자 ↔ 소문자 쓰기 (3)
+  const C = letters.map((l, i) => { ans.push(`C${i + 1}: ${i % 2 ? l.toUpperCase() : l}`); return `<div class="it"><div class="trace"><b>${i % 2 ? l : l.toUpperCase()}</b><span>→</span></div><div class="blank"></div></div>`; }).join('');
+  // D. 그림 보고 첫소리 글자 고르기 (6)
+  const Dw = shuffle(words, seed + 2).slice(0, 6);
+  const D = Dw.map((w, i) => { const l = letterOf(w); ans.push(`D${i + 1}: ${l}`); return `<div class="it">${img(w)}<div class="opts">${shuffle(letters, seed + i + 9).map((x) => `<span>${x}</span>`).join('')}</div></div>`; }).join('');
+  // E. 빠진 글자 쓰기 (3)
+  const Ew = shuffle(words, seed + 3).slice(0, 3);
+  const E = Ew.map((w, i) => { const l = letterOf(w), k = L[l].final ? w.lastIndexOf(l) : w.indexOf(l); ans.push(`E${i + 1}: ${w}`); return `<div class="it">${img(w)}<div class="trace" style="justify-content:center"><b>${w.slice(0, k)}</b><span style="border-bottom:2px solid var(--ink);width:30px;display:inline-block"></span><b>${w.slice(k + 1)}</b></div></div>`; }).join('');
+  // F. 사이트워드 문장 완성 (2)
+  const lines = unit.story.panels.flatMap((p) => p.lines).filter((ln) => unit.sight_words.some((s) => ln.text.split(/\s+/).includes(s))).slice(0, 2);
+  const F = lines.map((ln, i) => { const sw = unit.sight_words.find((s) => ln.text.split(/\s+/).includes(s)); ans.push(`F${i + 1}: ${sw}`); return `<div class="sent">${ln.text.replace(new RegExp('\\b' + sw + '\\b'), '<span class="blank"></span>')}</div>`; }).join('');
+  const sheet1 = `<div class="sheet">${head('Listening & Writing')}
+    <h2>A. Listen and circle the letter. <small>소리를 듣고 글자에 동그라미 (선생님: ${Akey})</small></h2><div class="row">${A}</div>
+    <h2>B. Listen and circle the picture. <small>단어를 듣고 그림에 동그라미 (선생님: ${Bw.join(', ')})</small></h2><div class="row">${B}</div>
+    <h2>C. Write the partner letter. <small>짝이 되는 글자를 써요 (대문자 ↔ 소문자)</small></h2><div class="row">${C}</div>
+    <h2>D. Circle the first sound. <small>그림의 첫소리 글자에 동그라미</small></h2><div class="row">${D}</div></div>`;
+  const sheet2 = `<div class="sheet">${head('Writing')}
+    <h2>E. Write the missing letter. <small>빠진 글자를 써요</small></h2><div class="row">${E}</div>
+    <h2>F. Complete the sentence. <small>사이트워드를 써요: ${unit.sight_words.join(' · ')}</small></h2>${F}
+    <h2>G. Write the words. <small>단어를 보고 써요</small></h2><div class="wd-row">${words.slice(0, 6).map((w) => `<span>${w}</span>`).join('')}</div>
+    <div class="row" style="margin-top:6px">${words.slice(0, 6).map((w) => `<div class="it">${img(w)}<div class="blank"></div></div>`).join('')}</div>
+    <div style="margin-top:auto;color:var(--soft);font-size:13px">채점: A~F 각 1점(17), G 는 맞게 쓴 단어 2개당 1점(3) → 20점</div></div>`;
+  const key = `<div class="sheet">${head('Answer Key · 정답')}<div class="key">${ans.map((a) => `<div>${a}</div>`).join('')}<div>G: ${words.slice(0, 6).join(', ')}</div></div></div>`;
+  document.getElementById('out').innerHTML = sheet1 + sheet2 + key;
+})();
+</script>
+</body>
+</html>

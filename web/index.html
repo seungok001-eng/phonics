@@ -94,7 +94,7 @@
     const ok = !!have[u.n];
     const wb = ok && have[u.n].lessons.some((l) => l.workbook && l.workbook.length);
     return `<div class="unit"><span class="n ${ok ? '' : 'soon'}">Unit ${u.n}</span><h3>${u.title}</h3><div class="lt">${u.letters.length ? u.letters.map((l) => l.toUpperCase() + l).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입')}</div>
-      <div class="links"><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1">학생책</a><a class="${wb ? '' : 'off'}" href="book/?b=wb&u=${u.n}&p=1">워크북</a><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1&t=1">수업 화면</a>${u.letters.length ? `<a class="${ok ? '' : 'off'}" href="teacher/lesson-plan.html?u=${u.n}">수업안</a><a class="${ok ? '' : 'off'}" href="teacher/flashcards.html?u=${u.n}">플래시카드</a>` : ''}</div></div>`;
+      <div class="links"><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1">학생책</a><a class="${wb ? '' : 'off'}" href="book/?b=wb&u=${u.n}&p=1">워크북</a><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1&t=1">수업 화면</a>${u.letters.length ? `<a class="${ok ? '' : 'off'}" href="teacher/lesson-plan.html?u=${u.n}">수업안</a><a class="${ok ? '' : 'off'}" href="teacher/flashcards.html?u=${u.n}">플래시카드</a><a class="${ok ? '' : 'off'}" href="teacher/test.html?u=${u.n}">시험지</a>` : ''}</div></div>`;
   }).join('');
   // PDF 가 올라와 있으면 목록 (pdf/index.json)
   try { const r = await fetch('pdf/index.json', { cache: 'no-store' }); if (r.ok) { const list = await r.json(); if (list.length) { document.getElementById('pdfsec').style.display = ''; document.getElementById('pdfs').innerHTML = list.map((f) => `<div><b>📄 ${f.title}</b><a href="pdf/${f.file}">${f.file}</a></div>`).join(''); } } } catch (e) {}
