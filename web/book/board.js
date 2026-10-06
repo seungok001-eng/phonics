@@ -42,7 +42,11 @@ class Surface {
   up() {
     if (this.erasing) { this.erasing = false; this.save(); return; }
     if (this.laser) { this.laser = null; this.render(); return; }
-    if (Ink.current) { Ink.current = null; this.save(); }
+    if (Ink.current) {
+      // 도형 보정: 손으로 그린 동그라미·네모·세모·직선을 반듯하게 (펜만, 설정이 켜져 있을 때)
+      if (Ink.shapeFix && Ink.current.tool === 'pen') { const fixed = fixShape(Ink.current.pts); if (fixed) { Ink.current.pts = fixed.pts; Ink.current.shape = fixed.kind; this.render(); } }
+      Ink.current = null; this.save();
+    }
   }
   eraseAt(p) {
     const r = 14;
@@ -60,6 +64,11 @@ class Surface {
     ctx.globalAlpha = s.tool === 'high' ? 0.35 : 1; ctx.globalCompositeOperation = s.tool === 'high' ? 'multiply' : 'source-over';
     const pts = s.pts;
     if (pts.length === 1) { ctx.beginPath(); ctx.fillStyle = s.color; ctx.arc(pts[0].x, pts[0].y, s.width / 2, 0, 7); ctx.fill(); ctx.restore(); return; }
+    if (s.shape) {   // 보정된 도형은 꼭짓점을 곧게 잇는다 (곡선 보간 없음)
+      ctx.lineWidth = s.width; ctx.beginPath(); ctx.moveTo(pts[0].x, pts[0].y);
+      for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i].x, pts[i].y);
+      ctx.stroke(); ctx.restore(); return;
+    }
     for (let i = Math.max(1, from); i < pts.length; i++) {
       const a = pts[i - 1], b = pts[i];
       ctx.lineWidth = s.pen ? s.width * (0.6 + b.p) : s.width;
@@ -123,6 +132,58 @@ class Surface {
   }
 }
 
+// ---------- 도형 보정 ----------
+// 손 획 → 직선 / 동그라미(타원) / 세모 / 네모. 알아볼 수 없으면 null (그대로 둔다).
+Ink.shapeFix = true;
+function fixShape(pts) {
+  if (pts.length < 6) return null;
+  const xs = pts.map((p) => p.x), ys = pts.map((p) => p.y);
+  const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
+  const w = maxX - minX, h = maxY - minY, diag = Math.hypot(w, h);
+  if (diag < 30) return null;
+  let perim = 0; for (let i = 1; i < pts.length; i++) perim += Math.hypot(pts[i].x - pts[i - 1].x, pts[i].y - pts[i - 1].y);
+  const gap = Math.hypot(pts[0].x - pts[pts.length - 1].x, pts[0].y - pts[pts.length - 1].y);
+  const closed = gap < Math.max(25, diag * 0.22);
+  const simp = rdp(pts, Math.max(6, diag * 0.045));
+  if (!closed) {
+    if (simp.length === 2 || (simp.length === 3 && perim < diag * 1.08)) {   // 직선 (거의 곧으면 가로·세로로 맞춤)
+      let a = pts[0], b = pts[pts.length - 1];
+      const ang = Math.abs(Math.atan2(b.y - a.y, b.x - a.x)) * 180 / Math.PI;
+      if (ang < 8 || ang > 172) b = { x: b.x, y: a.y }; else if (Math.abs(ang - 90) < 8) b = { x: a.x, y: b.y };
+      return { kind: 'line', pts: [{ x: a.x, y: a.y, p: .5 }, { x: b.x, y: b.y, p: .5 }] };
+    }
+    return null;
+  }
+  const corners = simp.length - 1;                 // 닫힌 획: 마지막 점은 시작점 근처
+  const cx = (minX + maxX) / 2, cy = (minY + maxY) / 2;
+  const roundness = circleFit(pts, cx, cy);        // 중심에서의 거리가 고를수록 1 에 가깝다
+  if (corners >= 5 || (roundness > 0.8 && corners !== 3 && corners !== 4)) {   // 동그라미·타원
+    const rx = w / 2, ry = h / 2, out = [];
+    const same = Math.abs(rx - ry) < Math.max(rx, ry) * 0.2, r = (rx + ry) / 2;
+    for (let i = 0; i <= 64; i++) { const t = i / 64 * Math.PI * 2; out.push({ x: cx + (same ? r : rx) * Math.cos(t), y: cy + (same ? r : ry) * Math.sin(t), p: .5 }); }
+    return { kind: same ? 'circle' : 'ellipse', pts: out };
+  }
+  if (corners === 3) { const c = simp.slice(0, 3).map((p) => ({ x: p.x, y: p.y, p: .5 })); return { kind: 'triangle', pts: [...c, c[0]] }; }
+  if (corners === 4) {
+    // 변이 가로·세로에 가까우면 반듯한 네모, 아니면 꼭짓점 그대로
+    const c = simp.slice(0, 4);
+    const axis = c.every((p, i) => { const q = c[(i + 1) % 4]; const ang = Math.abs(Math.atan2(q.y - p.y, q.x - p.x)) * 180 / Math.PI; return ang < 15 || ang > 165 || Math.abs(ang - 90) < 15; });
+    const q = axis ? [{ x: minX, y: minY }, { x: maxX, y: minY }, { x: maxX, y: maxY }, { x: minX, y: maxY }] : c;
+    const pts2 = q.map((p) => ({ x: p.x, y: p.y, p: .5 })); return { kind: axis ? 'rect' : 'quad', pts: [...pts2, pts2[0]] };
+  }
+  return null;
+}
+function rdp(pts, eps) {   // 점 줄이기 (Ramer–Douglas–Peucker)
+  if (pts.length < 3) return pts.slice();
+  const a = pts[0], b = pts[pts.length - 1]; let idx = -1, dmax = 0;
+  for (let i = 1; i < pts.length - 1; i++) { const d = distToSeg(pts[i], a, b); if (d > dmax) { dmax = d; idx = i; } }
+  if (dmax > eps) { const l = rdp(pts.slice(0, idx + 1), eps), r = rdp(pts.slice(idx), eps); return l.slice(0, -1).concat(r); }
+  return [a, b];
+}
+function distToSeg(p, a, b) { const dx = b.x - a.x, dy = b.y - a.y, l2 = dx * dx + dy * dy; let t = l2 ? ((p.x - a.x) * dx + (p.y - a.y) * dy) / l2 : 0; t = Math.max(0, Math.min(1, t)); return Math.hypot(p.x - (a.x + t * dx), p.y - (a.y + t * dy)); }
+function circleFit(pts, cx, cy) { const ds = pts.map((p) => Math.hypot(p.x - cx, p.y - cy)); const m = ds.reduce((a, b) => a + b, 0) / ds.length; const sd = Math.sqrt(ds.reduce((a, d) => a + (d - m) ** 2, 0) / ds.length); return 1 - sd / (m || 1); }
+function toggleShapeFix(btn) { Ink.shapeFix = !Ink.shapeFix; btn.classList.toggle('on', Ink.shapeFix); }
+
 // ---------- 화면 붙이기 ----------
 function inkToolbar() {
   const b = (t, title, on, extra = '') => `<button class="tb ${extra}" data-tool="${t}" title="${title}" onclick="setTool('${t}')">${on}</button>`;
@@ -135,6 +196,8 @@ function inkToolbar() {
     <span class="sep"></span>
     <button class="tb" onclick="inkActive().undo()" title="되돌리기">↶</button><button class="tb" onclick="inkActive().redoOne()" title="다시">↷</button>
     <button class="tb" onclick="if(confirm('이 면의 필기를 전부 지울까요?'))inkActive().clear()" title="전부 지우기">🗑</button>
+    <span class="sep"></span>
+    <button class="tb on" onclick="toggleShapeFix(this)" title="도형 보정: 손으로 그린 동그라미·네모·세모·직선을 반듯하게">⬡</button>
   </div>`;
 }
 function boardPanel() {

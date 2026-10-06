@@ -32,10 +32,17 @@ h1, h2, h3, .display { font-family: 'Fredoka', 'Andika', sans-serif; font-weight
 body.teacher #top button, body.teacher #top a.btn { font-size: 18px; padding: 9px 16px; }
 
 /* ---------- 선생님 모드: 왼쪽 교재 + 오른쪽 필기판, 펜 ---------- */
-body.teacher #stage { display: flex; gap: 10px; padding: 10px; align-items: stretch; justify-content: flex-start; overflow: hidden; }
+body.teacher #stage { display: flex; gap: 6px; padding: 10px; align-items: stretch; justify-content: flex-start; overflow: hidden; }
 #pageWrap { position: relative; flex: 0 0 auto; }
+body.teacher #pageWrap { overflow: auto; border-radius: 10px; scroll-behavior: smooth; }   /* 교재를 키우면 이 칸 안에서 스크롤 */
 #scaler { position: relative; }
 body.teacher #scaler { transform-origin: top left; }   /* 쪽이 왼쪽에 딱 붙고 오른쪽 필기판과 겹치지 않게 */
+#divider { display: none; flex: 0 0 10px; border-radius: 5px; background: var(--line); cursor: col-resize; touch-action: none; align-self: stretch; }
+body.teacher #divider { display: block; }
+#divider:hover, #divider:active { background: var(--orange); }
+.teacher-only { display: none; }
+body.teacher .teacher-only { display: inline-flex; gap: 4px; }
+body.teacher #top { gap: 6px; }
 .page-ink { position: absolute; left: 0; top: 0; width: 794px; height: 1123px; z-index: 5; cursor: crosshair; touch-action: none; }
 #boardPanel { flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 6px; min-height: 0; }
 .ink-tools, .board-bar { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; background: #fff; border: 2px solid var(--line); border-radius: 12px; padding: 6px; }
