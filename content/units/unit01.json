@@ -1,0 +1,144 @@
+{
+  "unit": 1,
+  "title": "Pop! Pop! Pop!",
+  "title_ko": "펑! 펑! 펑!",
+  "letters": ["a", "b", "c"],
+  "sight_words": ["I", "see", "a"],
+
+  "objectives_ko": [
+    "글자 A·B·C의 이름과 소리를 알고 말한다",
+    "대문자와 소문자를 구별하고 바르게 쓴다",
+    "A·B·C로 시작하는 단어 9개를 듣고 말하고 찾는다",
+    "사이트워드 I, see, a를 보고 읽는다"
+  ],
+
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Sounds, Letters, Words",
+      "title_ko": "소리·쓰기·단어",
+      "pages": [
+        { "type": "sounds", "title": "Sounds" },
+        { "type": "trace", "title": "Trace and write." },
+        { "type": "words", "title": "Words" },
+        { "type": "read_play", "title": "Trace and read. Let's play!" }
+      ],
+      "workbook": [
+        { "type": "wb_trace", "title": "A. Trace and write." },
+        { "type": "wb_letters", "title": "B. Circle the same letter.  C. Match and color." }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Story and Review",
+      "title_ko": "스토리·정리",
+      "pages": [
+        { "type": "listen_point", "title": "Listen, point and say." },
+        { "type": "story", "title": "Story" },
+        { "type": "story", "title": "Story", "half": 2 },
+        { "type": "check", "title": "Unit Check" }
+      ],
+      "workbook": [
+        { "type": "wb_words", "title": "D. Trace the words.  E. Color and say." },
+        { "type": "wb_read", "title": "F. Read three times.  G. Sort the words.  H. Finish the story." }
+      ]
+    }
+  ],
+
+  "story": {
+    "title": "Pop! Pop! Pop!",
+    "bgm": "u1_story",
+    "panels": [
+      {
+        "id": "scene_u01_1",
+        "desc": "Lily and Max have just stepped through a small round wooden door into a sunny magical garden with a long row of empty clay flower pots. Pomi hops excitedly beside a wicker basket of red apples, pointing at a single glowing golden seed inside the basket. Hidden in the picture: a toy astronaut sitting on a garden shelf, a weathervane shaped like an arrow on the shed roof.",
+        "hidden": ["apple", "astronaut", "arrow"],
+        "lines": [
+          { "who": "lily", "text": "I see a seed!", "audio": "u01_l1" },
+          { "who": "pomi", "text": "A!", "audio": "name_a", "sfx": "chime" },
+          { "who": "max", "text": "/a/ /a/ apple!", "audio": "u01_l3", "pop": "a" }
+        ],
+        "video": "vid_u01_1"
+      },
+      {
+        "id": "scene_u01_2",
+        "desc": "In the same garden, a brand-new cheerful letter tree with red apples has just sprouted behind them. Lily points at a yellow toy school bus parked on the garden path with a glowing seed on its roof; Max kneels beside it, amazed. Hidden in the picture: Max's red school bag on the ground, a tiny doll bed among the flowers.",
+        "hidden": ["bus", "bag", "bed"],
+        "lines": [
+          { "who": "lily", "text": "I see a bus!", "audio": "u01_l4" },
+          { "who": "max", "text": "/b/ /b/ bus!", "audio": "u01_l5", "pop": "b" }
+        ],
+        "video": "vid_u01_2"
+      },
+      {
+        "id": "scene_u01_3",
+        "desc": "An orange tabby cat is curled up asleep inside a giant blue cup-shaped flower pot, with a glowing seed resting on its back. Max tiptoes toward it with a finger on his lips; Lily holds Pomi, who is glowing. Hidden in the picture: a striped candy in Max's other hand.",
+        "hidden": ["cat", "cup", "candy"],
+        "lines": [
+          { "who": "max", "text": "I see a cat.", "audio": "u01_l6" },
+          { "who": "lily", "text": "/k/ /k/ cat!", "audio": "u01_l7", "pop": "c" }
+        ]
+      },
+      {
+        "id": "scene_u01_4",
+        "desc": "Three new letter trees stand in a row (apples, bus-and-bag toys, cat-and-cup shaped fruits hanging from them). A grumpy grey mole in a striped nightcap and round spectacles bursts out of a dirt hole in the foreground with dirt flying, one paw at his mouth. Lily and Max jump back in surprise; Pomi hides behind Lily's legs.",
+        "hidden": [],
+        "lines": [
+          { "who": "digby", "text": "Shh!", "audio": "u01_l8" },
+          { "who": "both", "text": "A mole!", "audio": "u01_l9" }
+        ]
+      }
+    ]
+  },
+
+  "videos": [
+    { "id": "vid_u01_1", "from": "scene_u01_1", "seconds": 8,
+      "prompt": "Gentle picture-book animation: the small round sprite hops up and down beside the apple basket, the golden seed in the basket twinkles and glows brighter, the girl and boy lean in with wonder, leaves sway softly in a warm breeze. Camera still. Soft, slow, child-friendly motion. No text." },
+    { "id": "vid_u01_2", "from": "scene_u01_2", "seconds": 8,
+      "prompt": "Gentle picture-book animation: the glowing seed on the toy bus roof sparkles, then with a soft POP a small cheerful letter tree sprouts up beside the bus and grows quickly, little yellow bus-shaped fruits swinging; the girl and boy cheer with arms raised. Camera still. Child-friendly, playful. No text." }
+  ],
+
+  "check": {
+    "listen_circle": [
+      { "audio": "sound_b", "options": ["a", "b", "c"], "answer": "b" },
+      { "audio": "word_cup", "options": ["cup", "cat", "bus"], "answer": "cup" },
+      { "audio": "word_apple", "options": ["arrow", "apple", "bag"], "answer": "apple" }
+    ],
+    "match": [
+      { "letter": "a", "word": "arrow" },
+      { "letter": "b", "word": "bed" },
+      { "letter": "c", "word": "candy" }
+    ],
+    "find_write": [
+      { "word": "bag", "letter": "b" },
+      { "word": "astronaut", "letter": "a" },
+      { "word": "cat", "letter": "c" }
+    ]
+  },
+
+  "game": {
+    "type": "catch_sound",
+    "title": "Catch the sound!",
+    "rounds": [
+      { "audio": "sound_a", "answer": "a", "pictures": ["apple", "bus", "cup"] },
+      { "audio": "sound_c", "answer": "c", "pictures": ["bag", "cat", "arrow"] },
+      { "audio": "sound_b", "answer": "b", "pictures": ["candy", "astronaut", "bed"] },
+      { "audio": "sound_a", "answer": "a", "pictures": ["bus", "cat", "arrow"] },
+      { "audio": "sound_c", "answer": "c", "pictures": ["candy", "bag", "apple"] }
+    ]
+  },
+
+  "workbook_data": {
+    "circle_same": [
+      { "target": "A", "row": ["A", "B", "A", "C", "A"] },
+      { "target": "b", "row": ["d", "b", "b", "p", "b"] },
+      { "target": "c", "row": ["c", "o", "c", "e", "c"] }
+    ],
+    "sort": { "a": ["apple", "arrow"], "b": ["bus", "bed"], "c": ["cup", "cat"] },
+    "finish_story": [
+      { "text": "I see a ___.", "answer": "seed", "picture": "scene_u01_1" },
+      { "text": "/b/ /b/ ___!", "answer": "bus", "picture": "bus" },
+      { "text": "/k/ /k/ ___!", "answer": "cat", "picture": "cat" }
+    ]
+  }
+}

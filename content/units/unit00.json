@@ -1,0 +1,50 @@
+{
+  "unit": 0,
+  "title": "The Little Door",
+  "title_ko": "작은 문",
+  "letters": [],
+  "sight_words": [],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Welcome to the Sound Garden",
+      "title_ko": "소리 정원에 온 것을 환영해요",
+      "pages": [
+        { "type": "characters", "title": "Meet the friends!" },
+        { "type": "intro_story", "title": "The Little Door" },
+        { "type": "alphabet", "title": "The Alphabet Song" },
+        { "type": "alphabet_path", "title": "Follow A to Z." }
+      ],
+      "workbook": []
+    }
+  ],
+  "story": {
+    "title": "The Little Door",
+    "bgm": "u0_intro",
+    "panels": [
+      {
+        "id": "scene_u00_1",
+        "desc": "Behind an old wooden school garden shed, a cheerful girl and a shy boy crouch in the grass, discovering a tiny round wooden door at the base of the shed wall, half hidden by ivy. Afternoon light, butterflies.",
+        "hidden": [],
+        "lines": [
+          { "who": "narrator", "text": "Lily and Max find a little door.", "audio": "u00_l1" }
+        ],
+        "video": "vid_u00_1"
+      },
+      {
+        "id": "scene_u00_2",
+        "desc": "Through the open little door: a magical sunny garden with a long winding row of twenty-six empty clay flower pots and a small round apple-green sprite with a sprout leaf on its head, sitting sadly on a pot with its mouth closed and a single tear. The girl and boy peek in from the doorway, amazed.",
+        "hidden": [],
+        "lines": [
+          { "who": "narrator", "text": "This is the Sound Garden.", "audio": "u00_l2" },
+          { "who": "narrator", "text": "This is Pomi. Pomi cannot talk.", "audio": "u00_l3" },
+          { "who": "narrator", "text": "Let's help Pomi!", "audio": "u00_l4" }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    { "id": "vid_u00_1", "from": "scene_u00_1", "seconds": 8,
+      "prompt": "Gentle picture-book animation: the tiny round door slowly creaks open and warm golden light spills out through the ivy; the girl and boy look at each other with wide excited eyes; butterflies flutter. Camera still. Soft, child-friendly. No text." }
+  ]
+}
