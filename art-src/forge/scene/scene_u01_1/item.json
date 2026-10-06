@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791264753.4421532,
+ "updated": 1791284479.6639998,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/e68eea44-224b-4103-9aa4-4fa5c7aa0c16?Expires=1791306045&KeyName=labs-flow-prod-cdn-key&Signature=w_zLhetfnvMrLJ7ULynW8clgZ8M",
  "prompt_edited": true,
- "applied": "",
+ "applied": "2026-10-06 20:03",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -19,5 +19,6 @@
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene with a simple uncluttered background, characters large and clearly visible, with a calm, simple sky area near the top. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Lily, Max, Pomi, Digby). Scene: Lily and Max have just stepped through a small round wooden door into a sunny magical garden with a long row of empty clay flower pots. Pomi hops excitedly beside a wicker basket of red apples, pointing at a single glowing golden seed inside the basket. Hidden in the picture: a toy astronaut sitting on a garden shelf, a weathervane shaped like an arrow on the shed roof. Characters: Lily is a cheerful 7-year-old East Asian girl with a straight black bob haircut and a small red hair clip, wearing a bright yellow hoodie, blue shorts and green rain boots. Max is a shy 7-year-old East Asian boy with short curly brown hair, a blue cap worn backwards, an orange t-shirt, dark blue pants, white sneakers and a small green backpack. Pomi is a round apple-green garden sprite the size of a melon, with one small sprout leaf on top of its head, big shiny black eyes, rosy pink cheeks, tiny stubby arms and no legs (it hops and floats), softly glowing. Digby is a grumpy old grey mole with a red-and-white striped nightcap, round spectacles, big pink digging paws and a tiny pink nose. Exactly ONE sun in the sky. Digby the mole does NOT appear in this scene at all — only Lily, Max and Pomi.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_u01_1.jpg",
- "claimed_at": 1791264740.2730646
+ "claimed_at": 1791284423.3836782,
+ "asset_no": 2017
 }

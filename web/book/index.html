@@ -66,7 +66,7 @@ async function route() {
 function renderPage(ctx) {
   const fn = PAGES[ctx.page.type] || (() => `<p>모르는 쪽 종류: ${ctx.page.type}</p>`);
   const no = pageNo(ctx.b, ctx.u, ctx.p);
-  return `<article class="page ${ctx.b}"><div class="ph-head"><span class="unit">Unit ${ctx.u}</span><h2>${esc(ctx.unit.title)}</h2>${lettersBadge(ctx.unit)}</div><div class="body">${fn(ctx)}</div><div class="ph-foot"><span>${ctx.b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${ctx.page.lesson.n} · ${esc(ctx.page.title)}</span><span class="pno">${no}</span></div></article>`;
+  return `<article class="page ${ctx.b} t-${ctx.page.type}"><div class="ph-head"><span class="unit">Unit ${ctx.u}</span><h2>${esc(ctx.unit.title)}</h2>${lettersBadge(ctx.unit)}</div><div class="body">${fn(ctx)}</div><div class="ph-foot"><span>${ctx.b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${ctx.page.lesson.n} · ${esc(ctx.page.title)}</span><span class="pno">${no}</span></div></article>`;
 }
 function pageDims() { return App.teacher && View.slides ? [SLIDE_W, slideH()] : [794, 1123]; }
 function go(d) {
@@ -160,7 +160,7 @@ document.addEventListener('wheel', (e) => { if (!App.teacher || !e.ctrlKey) retu
 // 선생님 모드 필기판: 없으면 만들고, 글자 도장 단추를 이 유닛 글자로 채운다
 function ensureBoard(unit) {
   if (!$('boardPanel')) { $('stage').insertAdjacentHTML('beforeend', boardPanel()); boardSwitch(1); setColor(Ink.color); setSize(Ink.size); setTool('hand'); }
-  const stamps = unit.letters.flatMap((l) => [l.toUpperCase(), l]).concat(unit.sight_words || []);
+  const stamps = unitLetters(unit).flatMap((l) => [l.toUpperCase(), l]).concat(unit.sight_words || []);
   $('stampBtns').innerHTML = stamps.map((t) => `<button class="tb small" onclick="boardStamp('${t}')">${t}</button>`).join('');
 }
 function startApp() { Sound.unlock(); $('overlay').style.display = 'none'; }

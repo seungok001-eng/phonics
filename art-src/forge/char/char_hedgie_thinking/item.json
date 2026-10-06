@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791283821.0433962,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/62387f48-6d5f-4663-863b-1a20fddd580f?Expires=1791305396&KeyName=labs-flow-prod-cdn-key&Signature=yJlbq3KalvipJ7A6P9_Yqdd5UEA",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-06 19:52",
  "gen": "",
  "job_type": "image",
  "reference": "char_hedgie_ref",
@@ -20,5 +20,6 @@
  "title": "헤지 · 생각",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Hedgie, a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Pose: one finger on the chin, looking up, puzzled. SAME character as the attached reference image: identical face, hair, clothes and colors. Only the pose and expression change.",
  "aspect": "3:4",
- "out": "web/assets/art/char_hedgie_thinking.png"
+ "out": "web/assets/art/char_hedgie_thinking.png",
+ "claimed_at": 1791283778.4391587
 }

@@ -151,8 +151,10 @@ def build_sounds(book, units):
     for u in units:
         for p in (u.get('story') or {}).get('panels', []):
             add_lines(p.get('lines', []), u['unit'], f"{u['unit']}유닛 대사")
-        for p in (u.get('storybook') or {}).get('pages', []):   # 스토리북 글
+        for p in (u.get('storybook') or {}).get('pages', []):   # 스토리북 글 + 쪽마다 과제("Find the g things!")는 <쪽id>_task (웹 story.html 이 찾는 이름)
             add_lines(p.get('lines', []), u['unit'], f"{u['unit']}유닛 스토리북")
+            if p.get('task'):
+                add(_sound(id=p.get('task_audio') or f"{p['id']}_task", sub='instr', title=f"{u['unit']}유닛 스토리북 과제 · {p['task']}", text=p['task'], voice=ins, unit=u['unit']))
     sbk = book.get('storybook') or {}
     for p in list(sbk.get('front', [])) + list(sbk.get('back', [])):
         add_lines(p.get('lines', []), 0, '스토리북')

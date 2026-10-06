@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791284279.10582,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/eaa5fbe8-b3a1-4dec-bbdf-756699b98d39?Expires=1791305855&KeyName=labs-flow-prod-cdn-key&Signature=TZUcNMvZcsC7vtYe6Gxw3RKDCbU",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-06 20:03",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -19,5 +19,7 @@
  "title": "fork · 포크",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a silver fork standing upright.",
  "aspect": "1:1",
- "out": "web/assets/art/word_fork.png"
+ "out": "web/assets/art/word_fork.png",
+ "claimed_at": 1791284251.075788,
+ "asset_no": 2015
 }

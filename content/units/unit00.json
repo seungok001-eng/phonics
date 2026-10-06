@@ -78,5 +78,55 @@
       "seconds": 8,
       "prompt": "Gentle picture-book animation: the tiny round door slowly creaks open and warm golden light spills out through the ivy; the rabbit and the hedgehog look at each other with wide excited eyes; butterflies flutter. Camera still. Soft, child-friendly. No text."
     }
-  ]
+  ],
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb_u00_1",
+        "desc": "Behind an old wooden school garden shed on a sunny afternoon. Bun, the small white rabbit in green rain boots, pushes a curtain of ivy aside with both paws and finds a tiny round wooden door at the base of the shed wall. Hedgie, the small hedgehog with a flower in his spikes, peeks nervously from behind a watering can. Butterflies, dandelions. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Bun and Hedgie find a door.",
+            "audio": "sb_u00_1_1"
+          },
+          {
+            "who": "bun",
+            "text": "Let's try!",
+            "audio": "sb_u00_1_2"
+          },
+          {
+            "who": "hedgie",
+            "text": "Wow! A little door!",
+            "audio": "sb_u00_1_3"
+          }
+        ],
+        "task": "Find the little door!",
+        "task_ko": "작은 문을 찾아요"
+      },
+      {
+        "id": "sb_u00_2",
+        "desc": "Through the open little door: the Sound Garden, a magical sunny garden with a long winding row of twenty-six empty clay flower pots, pink blossoms, a pond glinting in the distance and a wooden fence at the far end. Pip, a tiny round yellow baby bird with a green leaf scarf, sits sadly on the first pot with its beak closed and a single tear. Bun and Hedgie stand in the doorway, amazed. Far away on a dark little hill, only a tiny spark of lantern light is visible; Grumble himself is hidden.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is Pip. Pip cannot sing.",
+            "audio": "sb_u00_2_1"
+          },
+          {
+            "who": "pip",
+            "text": "Chirp?",
+            "audio": "sb_u00_2_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Shh... Who is on the hill?",
+            "audio": "sb_u00_2_3"
+          }
+        ],
+        "task": "Find the tiny light!",
+        "task_ko": "작은 불빛을 찾아요"
+      }
+    ]
+  }
 }

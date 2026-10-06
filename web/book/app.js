@@ -23,7 +23,8 @@ async function loadUnit(n) {
 }
 
 // ---------- 그림 (없으면 글자 상자로 대신) ----------
-function artSrc(id) { return ASSETS + 'art/' + id + (id.startsWith('scene_') || id === 'cast_sheet' ? '.jpg' : '.png'); }
+// 장면(scene_)·스토리북(sb_)·캐스트 시트는 jpg, 나머지(단어·글자나무·캐릭터)는 png
+function artSrc(id) { return ASSETS + 'art/' + id + (id.startsWith('scene_') || id.startsWith('sb_') || id === 'cast_sheet' ? '.jpg' : '.png'); }
 function pic(id, cls = '', alt = '') {
   return `<span class="pic ${cls}" data-id="${esc(id)}"><img src="${artSrc(id)}" alt="${esc(alt || id)}" onerror="picFallback(this)"></span>`;
 }
@@ -102,6 +103,7 @@ function rampVolume(el, target, ms) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // 차례로 들려주기: items = [{id, text, el}] — el 에 .playing 을 붙였다 뗀다. 중간에 다른 소리를 누르면 멈춘다.
+// it.wait = 소리 없이 그만큼(ms) 기다린다(역할 읽기: 아이가 읽는 줄). it.beat = 소리 길이와 상관없이 이 간격(ms)마다 다음으로(챈트 박자).
 let seqToken = 0;
 async function playSeq(items, gap = 450) {
   const my = ++seqToken;
@@ -109,10 +111,12 @@ async function playSeq(items, gap = 450) {
     if (my !== seqToken) return false;
     if (it.el) it.el.classList.add('playing', 'hl');
     if (it.before) it.before();
-    await Sound.play(it.id, it.text);
+    const t0 = performance.now();
+    if (it.wait) await sleep(it.wait); else await Sound.play(it.id, it.text);
     if (it.el) { it.el.classList.remove('playing'); setTimeout(() => it.el.classList.remove('hl'), 200); }
     if (it.after) it.after();
-    await sleep(it.gap ?? gap);
+    if (it.beat) { const left = it.beat - (performance.now() - t0); if (left > 0) await sleep(left); }
+    else await sleep(it.gap ?? gap);
   }
   return my === seqToken;
 }
@@ -144,6 +148,8 @@ function wordHtml(w, l) {
 }
 function letterOf(w) { for (const l of Object.keys(App.book.letters)) if (L(l).words.includes(w)) return l; return w[0]; }
 function unitTitle(u) { const x = App.book.units.find((x) => x.n === u); return x ? x.title : ''; }
+// 유닛의 글자: 일반 유닛은 letters, 복습 유닛(letters 가 빈 것)은 review.letters
+function unitLetters(unit) { return unit.letters && unit.letters.length ? unit.letters : (unit.review && unit.review.letters) || []; }
 
 // 쪽 목록 (학생책 = lessons[].pages, 워크북 = lessons[].workbook) 과 쪽 번호
 function pageList(unit, b) {
@@ -151,6 +157,7 @@ function pageList(unit, b) {
   (unit.lessons || []).forEach((ls, li) => (b === 'wb' ? ls.workbook : ls.pages).forEach((pg) => out.push({ ...pg, lesson: ls, li })));
   return out;
 }
+// 아직 없는 유닛의 기본 쪽수: 0유닛 4, 복습 6, 일반 8 (10유닛은 read_play 대신 alphabet_review 라 똑같이 8)
 const DEFAULT_PAGES = { sb: (x) => (x.n === 0 ? 4 : x.review ? 6 : 8), wb: (x) => (x.n === 0 ? 0 : x.review ? 2 : 4) };
 function pageNo(b, u, p) {
   let n = b === 'sb' ? 3 : 2;   // 앞붙이 (표지·차례·친구들 소개)
@@ -161,6 +168,22 @@ function pageNo(b, u, p) {
   }
   return n + p;
 }
+// 스토리북 쪽 목록: 표지 → 앞 쪽(book.storybook.front) → 0~11유닛 쪽(unit.storybook.pages) → 뒤 쪽(back)
+// 각 쪽 = { u: 'cover'|'front'|'back'|유닛 번호, p: 그 안의 번호, id(그림), lines, task, task_ko, title, bgm }. 유닛을 전부 읽은(loadUnit) 뒤에 부른다.
+function storyPages() {
+  const sb = App.book.storybook; if (!sb) return [];
+  const out = [], bgm0 = sb.bgm || 'theme';
+  out.push({ u: 'cover', p: 1, id: (sb.cover && sb.cover.id) || 'sb_cover', lines: [], title: sb.title || 'Storybook', bgm: bgm0, cover: true });
+  (sb.front || []).forEach((pg, i) => out.push({ u: 'front', p: i + 1, ...pg, title: sb.title, bgm: bgm0 }));
+  for (const x of App.book.units) {
+    const uj = App.units[x.n], pages = (uj && uj.storybook && uj.storybook.pages) || [];
+    pages.forEach((pg, i) => out.push({ u: x.n, p: i + 1, ...pg, title: (uj.story && uj.story.title) || uj.title, bgm: (uj.story && uj.story.bgm) || bgm0 }));
+  }
+  (sb.back || []).forEach((pg, i) => out.push({ u: 'back', p: i + 1, ...pg, title: sb.title, bgm: bgm0 }));
+  return out;
+}
+// 스토리북 쪽의 주소·QR 이름 (story.html?u=1&p=2 ↔ story_u01_p2)
+function storyKey(pg) { return typeof pg.u === 'number' ? `story_u${String(pg.u).padStart(2, '0')}_p${pg.p}` : `story_${pg.u}_p${pg.p}`; }
 function toast(msg) { const t = $('toast'); if (!t) return; t.textContent = msg; t.classList.add('on'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('on'), 1800); }
 
 // 아바타 깜빡임: 2.5~5초마다 아바타 하나가 150ms 눈을 감는다 (char_<id>_blink 가 있을 때만)

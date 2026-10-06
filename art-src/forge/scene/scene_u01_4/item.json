@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791269354.5295773,
+ "updated": 1791284567.7351968,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/9a3237e1-d2be-4d78-a037-2633725ae187?Expires=1791306134&KeyName=labs-flow-prod-cdn-key&Signature=9dQmRDp1uW4FstKszdl_UuJ-a9E",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-06 20:03",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -19,5 +19,5 @@
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene with a simple uncluttered background and a calm, simple sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: Three new cheerful letter trees stand in a row in the garden, each with a wooden sign on its trunk showing one big letter: the first tree's sign reads 'A' with a red apple, a toy astronaut and a toy arrow hanging from its branches; the second tree's sign reads 'B' with a yellow toy bus, a red backpack and a tiny doll bed hanging; the third tree's sign reads 'C' with an orange cat, a blue cup and a striped candy hanging. Bun and Hedgie stand in front of the trees, proudly pointing at them one after another; Pip flutters between them glowing with joy. In the foreground corner, Grumble, a grumpy old raccoon in a striped nightcap holding a tiny candle lantern, has just peeked out from behind a tree trunk with one paw at his mouth, and the friends glance at him in surprise. The three letters A, B and C on the signs are the ONLY text allowed in the picture. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_u01_4.jpg",
- "claimed_at": 1791269340.7822459
+ "claimed_at": 1791284515.8834875
 }

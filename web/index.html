@@ -20,6 +20,7 @@
   .cta a { background:var(--orange); color:#fff; text-decoration:none; font-family:'Fredoka'; font-size:20px; padding:12px 24px; border-radius:16px; box-shadow:0 4px 0 #c96a1f; }
   .cta a.alt { background:var(--blue); box-shadow:0 4px 0 #2f7bb5; }
   .cta a.alt2 { background:var(--green); color:#1f3a0e; box-shadow:0 4px 0 #6aa832; }
+  .cta a.alt3 { background:var(--pink); box-shadow:0 4px 0 #c45a80; }
   .cast { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:28px 0; }
   .cast div { background:#fff; border:3px solid var(--line); border-radius:20px; padding:12px; text-align:center; }
   .cast img { width:100%; height:190px; object-fit:contain; }
@@ -52,6 +53,7 @@
     <a href="book/?b=sb&u=1&p=1">📘 학생책 보기</a>
     <a class="alt" href="book/?b=wb&u=1&p=1">📗 워크북 보기</a>
     <a class="alt2" href="book/?b=sb&u=1&p=1&t=1">👩‍🏫 선생님 수업 화면</a>
+    <a class="alt3" href="book/story.html" id="lnkStory" style="display:none">📙 스토리북 읽기</a>
   </div>
 </header>
 <div class="wrap">
@@ -102,11 +104,14 @@
     `<div><img src="assets/art/char_${id}_ref.png" alt="${c.name}" onerror="this.outerHTML='<div class=ph>${c.name}</div>'"><h3 style="color:${c.color}">${c.name}</h3><small>${c.ko} · ${c.catchphrase}</small></div>`).join('');
   const have = {};
   await Promise.all(book.units.map(async (u) => { for (const b of base) { try { const r = await fetch(`${b}units/unit${String(u.n).padStart(2, '0')}.json`, { cache: 'no-store' }); if (r.ok) { have[u.n] = await r.json(); return; } } catch (e) {} } }));
+  // 스토리북(book.json 의 storybook)이 있으면 읽기 단추와 유닛 카드의 "스토리북" 링크
+  if (book.storybook) document.getElementById('lnkStory').style.display = '';
   document.getElementById('units').innerHTML = book.units.map((u) => {
     const ok = !!have[u.n];
     const wb = ok && have[u.n].lessons.some((l) => l.workbook && l.workbook.length);
+    const sb = ok && book.storybook && have[u.n].storybook && have[u.n].storybook.pages && have[u.n].storybook.pages.length;
     return `<div class="unit"><span class="n ${ok ? '' : 'soon'}">Unit ${u.n}</span><h3>${u.title}</h3><div class="lt">${u.letters.length ? u.letters.map((l) => l.toUpperCase() + l).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입')}</div>
-      <div class="links"><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1">학생책</a><a class="${wb ? '' : 'off'}" href="book/?b=wb&u=${u.n}&p=1">워크북</a><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1&t=1">수업 화면</a>${u.letters.length ? `<a class="${ok ? '' : 'off'}" href="teacher/lesson-plan.html?u=${u.n}">수업안</a><a class="${ok ? '' : 'off'}" href="teacher/flashcards.html?u=${u.n}">플래시카드</a><a class="${ok ? '' : 'off'}" href="teacher/test.html?u=${u.n}">시험지</a>` : ''}</div></div>`;
+      <div class="links"><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1">학생책</a><a class="${wb ? '' : 'off'}" href="book/?b=wb&u=${u.n}&p=1">워크북</a><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1&t=1">수업 화면</a>${sb ? `<a href="book/story.html?u=${u.n}&p=1">📙 스토리북</a>` : ''}${u.letters.length ? `<a class="${ok ? '' : 'off'}" href="teacher/lesson-plan.html?u=${u.n}">수업안</a><a class="${ok ? '' : 'off'}" href="teacher/flashcards.html?u=${u.n}">플래시카드</a><a class="${ok ? '' : 'off'}" href="teacher/test.html?u=${u.n}">시험지</a>` : ''}</div></div>`;
   }).join('');
   // PDF 가 올라와 있으면 목록 (pdf/index.json)
   try { const r = await fetch('pdf/index.json', { cache: 'no-store' }); if (r.ok) { const list = await r.json(); if (list.length) { document.getElementById('pdfsec').style.display = ''; document.getElementById('pdfs').innerHTML = list.map((f) => `<div><b>📄 ${f.title}</b><a href="pdf/${f.file}">${f.file}</a></div>`).join(''); } } } catch (e) {}

@@ -1,0 +1,465 @@
+{
+  "unit": 8,
+  "title": "Up, Up, Up!",
+  "title_ko": "위로, 위로, 위로!",
+  "letters": [
+    "s",
+    "t",
+    "u"
+  ],
+  "sight_words": [
+    "go",
+    "to"
+  ],
+  "objectives_ko": [
+    "글자 S·T·U의 이름과 소리를 알고 말한다",
+    "대문자와 소문자를 구별하고 바르게 쓴다",
+    "S·T·U로 시작하는 단어 9개를 듣고 말하고 찾는다",
+    "사이트워드 go, to를 보고 읽는다 (1~7유닛 사이트워드 복습)"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Sounds, Letters, Words",
+      "title_ko": "소리·쓰기·단어",
+      "pages": [
+        {
+          "type": "sounds",
+          "title": "Sounds"
+        },
+        {
+          "type": "trace",
+          "title": "Trace and write."
+        },
+        {
+          "type": "words",
+          "title": "Words"
+        },
+        {
+          "type": "read_play",
+          "title": "Trace and read. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_trace",
+          "title": "A. Trace and write."
+        },
+        {
+          "type": "wb_letters",
+          "title": "B. Circle the same letter.  C. Match and color."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Story and Review",
+      "title_ko": "스토리·정리",
+      "pages": [
+        {
+          "type": "listen_point",
+          "title": "Listen, point and say."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_words",
+          "title": "D. Trace the words.  E. Color and say."
+        },
+        {
+          "type": "wb_read",
+          "title": "F. Read three times.  G. Sort the words.  H. Finish the story."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "Up, Up, Up!",
+    "bgm": "u8_story",
+    "panels": [
+      {
+        "id": "scene_u08_1",
+        "desc": "Sunrise over the second garden: a big smiling yellow sun rises above the wall and the sky turns orange and gold. On the garden path a grey seal balancing a glowing golden seed on its nose races a green turtle with a patterned shell; Bun waves a leaf like a flag at the finish line, Hedgie cheers, Pip flutters above the racers. Hidden in the picture: the sun, the seal, the turtle. On his small hill in the background, Grumble puffs his cheeks and blows out his candle lantern — a little curl of smoke rises from it and the lantern is dark.",
+        "hidden": [
+          "sun",
+          "seal",
+          "turtle"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The sun is up!",
+            "audio": "u08_l1"
+          },
+          {
+            "who": "hedgie",
+            "text": "Go, seal! Go, turtle!",
+            "audio": "u08_l2"
+          },
+          {
+            "who": "bun",
+            "text": "/s/ /s/ seal!",
+            "audio": "u08_l3",
+            "pop": "s"
+          }
+        ],
+        "video": "vid_u08_1"
+      },
+      {
+        "id": "scene_u08_2",
+        "desc": "A little campfire by the path with a red cooking pot of tomato soup bubbling on it; a plump red tomato sits on a plate and a glowing golden seed shines inside the tomato. Hedgie stirs the soup with a spoon and sniffs happily. Pip is trying to do the sound action by tapping a tooth — but a bird has no teeth, so it taps its beak with a wing and looks puzzled. Bun grins and taps her own front tooth. Behind them the new S letter tree with sun-, seal- and soup-shaped fruits. Hidden in the picture: the tomato, the bowl of soup, a big white tooth-shaped cookie on the plate. In the dim corner of the garden, Grumble stumbles over a tree stump in the dark holding his unlit lantern, nightcap over his eyes.",
+        "hidden": [
+          "tomato",
+          "soup",
+          "tooth"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "I see a tomato.",
+            "audio": "u08_l4"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip taps. No tooth!",
+            "audio": "u08_l5"
+          },
+          {
+            "who": "bun",
+            "text": "/t/ /t/ tomato!",
+            "audio": "u08_l6",
+            "pop": "t"
+          }
+        ]
+      },
+      {
+        "id": "scene_u08_3",
+        "desc": "A gust of wind blows through the garden. An open red umbrella with a glowing golden seed on its top is flying up into the sky, and Pip hangs on to the umbrella handle with both feet, going up, up, up with wide excited eyes. Bun jumps with her arms stretched up; Hedgie runs after it with his flower bouncing. Hidden in the picture: the umbrella, Pip going up with a big upward arrow of wind leaves beside it. Grumble does NOT appear.",
+        "hidden": [
+          "umbrella",
+          "up"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Up, up, up!",
+            "audio": "u08_l7"
+          },
+          {
+            "who": "hedgie",
+            "text": "Go to the umbrella!",
+            "audio": "u08_l8"
+          },
+          {
+            "who": "bun",
+            "text": "/u/ /u/ up!",
+            "audio": "u08_l9",
+            "pop": "u"
+          }
+        ],
+        "video": "vid_u08_2"
+      },
+      {
+        "id": "scene_u08_4",
+        "desc": "The umbrella has landed softly by the round garden door in the wall. A friendly grown-up rabbit with a mustache, a green cap and a watering can — Uncle, Bun's uncle and the garden's gardener — holds the little door open and winks as if he has always known the secret. Bun and Hedgie look up at him with open mouths; Pip sits on the umbrella, glowing. Three new letter trees (S with sun, seal and soup fruits; T with turtle, tomato and tooth fruits; U with umbrella, up-balloon and uncle fruits) stand by the door. Grumble has run up beside the trees and stares at his lantern: it has lit itself again all on its own and now shines brighter than ever, and he holds it away from his face in surprise. Hidden in the picture: the uncle with the watering can, the red umbrella.",
+        "hidden": [
+          "uncle",
+          "umbrella"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "Uncle! Can we go in?",
+            "audio": "u08_l10"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Oh! My lantern!",
+            "audio": "u08_l11"
+          },
+          {
+            "who": "pip",
+            "text": "U!",
+            "audio": "name_u",
+            "sfx": "chime"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_u08_1",
+      "from": "scene_u08_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the big sun rises slowly and its rays spread, the seal wobbles forward balancing the twinkling seed on its nose, the turtle plods beside it, the rabbit waves her leaf flag; far on the hill the raccoon blows out his lantern and a curl of smoke rises. Camera still. Bright, child-friendly. No text."
+    },
+    {
+      "id": "vid_u08_2",
+      "from": "scene_u08_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: leaves swirl in the wind, the red umbrella lifts off the ground and floats up with the baby bird hanging from the handle, the golden seed on top sparkles, the rabbit and the hedgehog reach up and chase after it. Camera still. Light, airy, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "listen_circle": [
+      {
+        "audio": "sound_u",
+        "options": [
+          "s",
+          "t",
+          "u"
+        ],
+        "answer": "u"
+      },
+      {
+        "audio": "word_soup",
+        "options": [
+          "sun",
+          "seal",
+          "soup"
+        ],
+        "answer": "soup"
+      },
+      {
+        "audio": "word_turtle",
+        "options": [
+          "turtle",
+          "tomato",
+          "tooth"
+        ],
+        "answer": "turtle"
+      }
+    ],
+    "match": [
+      {
+        "letter": "s",
+        "word": "sun"
+      },
+      {
+        "letter": "t",
+        "word": "tooth"
+      },
+      {
+        "letter": "u",
+        "word": "umbrella"
+      }
+    ],
+    "find_write": [
+      {
+        "word": "seal",
+        "letter": "s"
+      },
+      {
+        "word": "tomato",
+        "letter": "t"
+      },
+      {
+        "word": "up",
+        "letter": "u"
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_sound",
+    "title": "Catch the sound!",
+    "rounds": [
+      {
+        "audio": "sound_s",
+        "answer": "s",
+        "pictures": [
+          "seal",
+          "tooth",
+          "uncle"
+        ]
+      },
+      {
+        "audio": "sound_t",
+        "answer": "t",
+        "pictures": [
+          "sun",
+          "turtle",
+          "up"
+        ]
+      },
+      {
+        "audio": "sound_u",
+        "answer": "u",
+        "pictures": [
+          "soup",
+          "umbrella",
+          "tomato"
+        ]
+      },
+      {
+        "audio": "sound_s",
+        "answer": "s",
+        "pictures": [
+          "tooth",
+          "soup",
+          "uncle"
+        ]
+      },
+      {
+        "audio": "sound_t",
+        "answer": "t",
+        "pictures": [
+          "up",
+          "sun",
+          "tomato"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "circle_same": [
+      {
+        "target": "S",
+        "row": [
+          "S",
+          "Z",
+          "S",
+          "C",
+          "S"
+        ]
+      },
+      {
+        "target": "t",
+        "row": [
+          "t",
+          "f",
+          "t",
+          "l",
+          "t"
+        ]
+      },
+      {
+        "target": "u",
+        "row": [
+          "u",
+          "n",
+          "u",
+          "v",
+          "u"
+        ]
+      }
+    ],
+    "sort": {
+      "s": [
+        "sun",
+        "soup"
+      ],
+      "t": [
+        "turtle",
+        "tooth"
+      ],
+      "u": [
+        "umbrella",
+        "up"
+      ]
+    },
+    "finish_story": [
+      {
+        "text": "The ___ is up!",
+        "answer": "sun",
+        "picture": "sun"
+      },
+      {
+        "text": "/t/ /t/ ___!",
+        "answer": "tomato",
+        "picture": "tomato"
+      },
+      {
+        "text": "Go to the ___!",
+        "answer": "umbrella",
+        "picture": "umbrella"
+      }
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb_u08_1",
+        "desc": "Sunrise: a big smiling sun rises over the wall and the sky turns gold. A grey seal balancing a glowing seed on its nose races a green turtle along the path; Bun waves a leaf flag at the finish line; Hedgie cheers; Pip flutters above. On his hill, Grumble puffs his cheeks and blows out his lantern — a curl of smoke rises and the lantern goes dark. Hidden in the picture: the sun, the seal, the turtle.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The sun is up!",
+            "audio": "sb_u08_1_1"
+          },
+          {
+            "who": "hedgie",
+            "text": "Go, seal! Go, turtle!",
+            "audio": "sb_u08_1_2"
+          },
+          {
+            "who": "bun",
+            "text": "/s/ /s/ seal! Pop!",
+            "audio": "sb_u08_1_3"
+          }
+        ],
+        "task": "Find the s things!",
+        "task_ko": "s로 시작하는 것을 찾아요"
+      },
+      {
+        "id": "sb_u08_2",
+        "desc": "A campfire with a red pot of tomato soup; a plump tomato on a plate holds a glowing seed; a big white tooth-shaped cookie lies beside it. Hedgie stirs the soup. Pip tries to tap a tooth like the friends do but has no teeth, so it taps its beak and looks puzzled; Bun taps her own front tooth grinning. In the dim corner Grumble stumbles over a tree stump in the dark holding his unlit lantern, nightcap over his eyes. Hidden in the picture: the tomato, the soup, the tooth cookie.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Pip taps. No tooth!",
+            "audio": "sb_u08_2_1"
+          },
+          {
+            "who": "bun",
+            "text": "/t/ /t/ tomato! Pop!",
+            "audio": "sb_u08_2_2"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Ouch!",
+            "audio": "sb_u08_2_3"
+          }
+        ],
+        "task": "Find the t things!",
+        "task_ko": "t로 시작하는 것을 찾아요"
+      },
+      {
+        "id": "sb_u08_3",
+        "desc": "A gust of wind: an open red umbrella with a glowing seed on top flies up with Pip hanging from the handle, going up, up, up. It lands by the round garden door, where a friendly grown-up rabbit with a mustache, a green cap and a watering can — Uncle, Bun's uncle and the garden's gardener — holds the door open and winks. Three new letter trees (S, T, U with their fruits) stand by the door. Grumble runs up holding his lantern away from his face in surprise: it has lit itself again, brighter than ever. Hidden in the picture: the umbrella, Pip going up, the uncle.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "Up, up, up!",
+            "audio": "sb_u08_3_1"
+          },
+          {
+            "who": "bun",
+            "text": "/u/ /u/ umbrella! Pop!",
+            "audio": "sb_u08_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Who is Uncle?",
+            "audio": "sb_u08_3_3"
+          }
+        ],
+        "task": "Find the u things!",
+        "task_ko": "u로 시작하는 것을 찾아요"
+      }
+    ]
+  }
+}

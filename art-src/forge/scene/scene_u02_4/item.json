@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791284671.220912,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/507dfefa-25e7-4b0f-b11f-c38e3fc3c16b?Expires=1791306238&KeyName=labs-flow-prod-cdn-key&Signature=96q6y1_lzixqmv8sxXzd19tQ9zo",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-06 20:08",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -18,5 +18,6 @@
  "title": "2유닛 장면 · 4",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene with a simple uncluttered background and a calm, simple sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: Bun and Hedgie have pulled Grumble out of the pond; he is dripping wet, wrapped in a towel, looking embarrassed but secretly pleased. Pip offers him a leaf as an umbrella. Three new letter trees (D, E, F with their fruits) stand by the pond behind them. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
- "out": "web/assets/art/scene_u02_4.jpg"
+ "out": "web/assets/art/scene_u02_4.jpg",
+ "claimed_at": 1791284620.889306
 }

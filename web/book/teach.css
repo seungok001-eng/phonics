@@ -60,6 +60,32 @@
 .sl-game { flex: 1; padding: 20px 26px; min-height: 0; }
 .sl-game .choices { gap: 30px; } .sl-game .choice .pic { height: auto; min-height: 200px; flex: 1; } .sl-game .msg { font-size: 40px; } .sl-game .stars { font-size: 40px; } .sl-game #gameRound { font-size: 28px; }
 
+.sl-game .teams { margin-left: 16px; gap: 10px; } .sl-game .team { height: 60px; min-width: 60px; font-size: 28px; padding: 0 16px; border-radius: 30px; } .sl-game .team b { font-size: 36px; }
+.sl-game .msg .btn.small { font-size: 24px; padding: 6px 18px; margin-left: 12px; }
+/* 짝 맞추기 (선생님 슬라이드) */
+.memory { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, 1fr); gap: 16px; flex: 1; min-height: 0; }
+.mcard { position: relative; border-radius: 18px; cursor: pointer; min-height: 0; border: 3px solid var(--line); background: var(--blue); transition: transform .15s; }
+.mcard .back { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: 'Fredoka'; font-size: 90px; color: #fff; background: repeating-linear-gradient(45deg, var(--blue) 0 18px, #3f8fcc 18px 36px); border-radius: 15px; }
+.mcard .face { position: absolute; inset: 0; display: none; flex-direction: column; align-items: center; justify-content: center; gap: 6px; background: #fff; border-radius: 15px; font-size: 30px; font-weight: 700; padding: 10px; }
+.mcard .face .pic { width: 100%; flex: 1; min-height: 0; }
+.mcard.open, .mcard.matched { transform: scale(1.03); }
+.mcard.open .back, .mcard.matched .back { display: none; } .mcard.open .face, .mcard.matched .face { display: flex; }
+.mcard.matched { border-color: var(--ok); background: #EAF7E6; } .mcard.matched .face { background: #EAF7E6; }
+.mem-msg { font-family: 'Fredoka'; font-size: 40px; color: var(--orange); }
+/* 플래시카드 속도 라운드 (선생님 슬라이드) */
+.speed { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 16px; }
+.sp-bar { display: flex; align-items: center; gap: 24px; }
+.sp-bar .timer { font-family: 'Fredoka'; font-weight: 700; font-size: 72px; line-height: 1; color: var(--ink); min-width: 110px; text-align: center; background: var(--cream); border-radius: 18px; padding: 4px 16px; }
+.speed.run .sp-bar .timer { color: var(--orange); }
+.sp-bar .sp-score { font-family: 'Fredoka'; font-size: 36px; color: var(--soft); margin-left: auto; }
+.sp-card { flex: 1; min-height: 0; border: 4px solid var(--line); border-radius: 28px; background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; }
+.sp-card .big { font-family: 'Andika'; font-size: 220px; line-height: 1; font-weight: 700; cursor: pointer; }
+.sp-card .big small { font-size: 160px; font-weight: 400; margin-left: 14px; }
+.sp-card .hint { font-family: 'Fredoka'; font-size: 30px; color: var(--soft); }
+.sp-btns { display: flex; gap: 30px; justify-content: center; }
+.sp-btns .btn { font-size: 44px; padding: 10px 70px; }
+.sp-btns .okb { background: var(--ok); color: #fff; box-shadow: 0 4px 0 #2e7d32; } .sp-btns .nob { background: var(--bad); color: #fff; box-shadow: 0 4px 0 #a33; }
+
 /* 스토리 */
 .sl-story { display: grid; grid-template-columns: 1.3fr 1fr; gap: 26px; flex: 1; min-height: 0; }
 .sl-story .panel { border-radius: 20px; height: 100%; min-height: 0; }
@@ -81,6 +107,30 @@
 .sl-lc .opt { font-size: 64px; padding: 10px; } .sl-lc .opt .pic { height: 130px; } .sl-lc .opt .lab { font-size: 28px; }
 .sl-match { gap: 26px; flex: 1; } .sl-match .it { font-size: 60px; padding: 10px; } .sl-match .it .pic { height: 120px; } .sl-match .col { gap: 16px; justify-content: center; }
 .sl-write { gap: 26px; flex: 1; } .sl-write .write-it .pic { height: 220px; } .sl-write .write-it .lts span { font-size: 64px; width: 90px; border-radius: 14px; } .sl-write .write-it .box { height: 90px; font-size: 70px; } .sl-write .write-it .wd { font-size: 30px; color: var(--soft); }
+
+.sl-match .it.wd { font-size: 60px; }
+.sl-check.many { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 30px; align-content: center; }
+.sl-check.many .opt { font-size: 64px; padding: 8px; } .sl-check.many .opt .pic { height: 150px; } .sl-check.many .opt .lab { font-size: 28px; }
+.sl-write.n4 { grid-template-columns: repeat(4, 1fr); }
+.sl-write.n4 .write-it .lts span { font-size: 54px; width: 76px; }
+
+/* 복습 유닛 */
+.sl-rv { gap: 20px; }
+.sl-rv .rv-card { padding: 12px; gap: 8px; }
+.sl-rv .rv-card .glyph { font-size: 110px; } .sl-rv .rv-card .glyph small { font-size: 80px; }
+.sl-rv .rv-card .rv-word { font-size: 34px; } .sl-rv .rv-card .rv-word .ipa { font-size: 26px; }
+.sl-rv .pill { font-size: 24px; padding: 4px 16px; }
+.sl-board, .sl-bingo { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 12px; }
+.sl-board .bd-bar .dice { width: 72px; height: 72px; font-size: 44px; } .sl-board .bd-bar .team { width: 60px; height: 60px; font-size: 30px; } .sl-board .bd-bar .team.home::after { top: 56px; font-size: 16px; } .sl-board .bd-bar .msg { font-size: 34px; }
+.sl-board .bd-cell { padding: 22px 6px 6px; } .sl-board .bd-cell .lab { font-size: 22px; } .sl-board .bd-cell .big { font-size: 64px; } .sl-board .bd-cell .no { font-size: 18px; } .sl-board .bd-cell .tag { font-size: 15px; }
+.sl-board .pawn { width: 40px; height: 40px; font-size: 22px; }
+.sl-bingo .bg-cell .lab { font-size: 26px; } .sl-bingo .bg-bar .called span { font-size: 24px; } .sl-bingo .bg-cell.on::after { font-size: 40px; }
+
+/* 10유닛 알파벳 복습 */
+.sl-abc { grid-template-columns: repeat(7, 1fr); gap: 16px; flex: 1; align-content: center; }
+.sl-abc .lt { font-size: 86px; padding: 6px 0 10px; border-width: 3px; } .sl-abc .lt small { font-size: 64px; } .sl-abc .lt i { font-size: 28px; }
+.sl-path { grid-template-columns: repeat(9, 1fr); gap: 16px; flex: 1; align-content: center; }
+.sl-path .lt { font-size: 80px; border-width: 3px; }
 
 /* 친구들 */
 .sl-chars { grid-template-columns: repeat(4, 1fr); gap: 20px; flex: 1; min-height: 0; }

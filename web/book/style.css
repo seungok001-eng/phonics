@@ -182,6 +182,18 @@ body.print .screen-hide { display: block !important; }
 .game .choice.no { border-color: var(--bad); animation: shake .4s; }
 @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-8px)} 75%{transform:translateX(8px)} }
 .game .msg { font-family: 'Fredoka'; font-size: 24px; text-align: center; min-height: 32px; color: var(--orange); }
+/* 팀 점수판 (소리 잡기 게임 · 주사위 놀이판 공용) */
+.game .teams { display: inline-flex; align-items: center; gap: 6px; margin-left: 10px; }
+.team { position: relative; min-width: 40px; height: 40px; padding: 0 10px; border-radius: 20px; display: inline-flex; align-items: center; justify-content: center; gap: 4px; font-family: 'Fredoka'; font-weight: 700; font-size: 20px; color: #fff; cursor: pointer; opacity: .4; border: 3px solid transparent; }
+.team.A { background: var(--orange); } .team.B { background: var(--blue); }
+.team.on { opacity: 1; border-color: var(--ink); }
+.team b { font-size: 24px; }
+/* 역할 읽기: 🎭 가 켜지면 말풍선의 친구를 눌러 아이가 읽는 역할로. 지정된 친구에는 👧 */
+.role-btn.on { background: var(--purple); color: #fff; box-shadow: 0 2px 0 #7a5fb0; }
+body.role-on .bubble .av[data-who]:not([data-who="narrator"]):not([data-who="both"]):not([data-who="pip"]) { cursor: pointer; box-shadow: 0 0 0 3px var(--purple); }
+.av.role { overflow: visible !important; }
+.av.role::after { content: '👧'; position: absolute; right: -8px; bottom: -8px; font-size: 16px; line-height: 1; filter: drop-shadow(0 1px 2px rgba(0,0,0,.4)); }
+.bubble .av { position: relative; } .bubble .av img { border-radius: 50%; }
 
 /* ---------- 듣고 가리키기 ---------- */
 .lp-table { display: flex; flex-direction: column; gap: 10px; }
@@ -200,6 +212,8 @@ body.print .screen-hide { display: block !important; }
 .story-top .sw { display: flex; gap: 8px; align-items: center; }
 .story-top .sw span { background: var(--yellow); border-radius: 10px; padding: 2px 12px; font-weight: 700; font-size: 22px; cursor: pointer; }
 .panels { display: flex; flex-direction: column; gap: 12px; flex: 1; }
+.pwrap { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 6px; }   /* 칸 + 숨은 그림 찾기 줄 */
+.story-top .btn.sb-link { padding: 4px 8px; font-size: 20px; margin-left: auto; }
 .panel { position: relative; border: 3px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--cream); flex: 1; display: flex; }
 .panel .scene { position: absolute; inset: 0; }
 .panel .scene .pic { width: 100%; height: 100%; }
@@ -281,6 +295,96 @@ body.print .screen-hide { display: block !important; }
 .path .lt { border: 2px dashed var(--line); border-radius: 50%; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; font-family: 'Andika'; font-size: 34px; cursor: pointer; }
 .path .lt.done { background: #EAF7E6; border-style: solid; border-color: var(--ok); }
 
+/* ---------- 10유닛 알파벳 복습 ---------- */
+.abc26 { grid-template-columns: repeat(7, 1fr); gap: 8px; }
+.abc26 .lt { font-size: 40px; padding: 4px 0 6px; line-height: 1.1; }
+.abc26 .lt small { font-size: 30px; }
+.abc26 .lt i { display: block; font-style: normal; font-size: 15px; color: var(--soft); line-height: 1.1; }
+.path26 { grid-template-columns: repeat(7, 1fr); gap: 10px; }
+.path26 .lt { font-size: 34px; }
+
+/* ---------- 복습 유닛 (5·11) ---------- */
+.ph-head .letters .more { color: var(--soft); background: none; padding: 0; }
+.btn.small { font-size: 14px; padding: 4px 10px; box-shadow: 0 2px 0 #6aa832; text-decoration: none; display: inline-block; }
+.pill { background: var(--yellow); border: 0; border-radius: 12px; padding: 2px 10px; font-family: 'Andika'; font-weight: 700; font-size: 15px; box-shadow: 0 2px 0 #c9a02a; white-space: nowrap; }
+/* 소리 복습 카드 */
+.rv-cards { display: grid; grid-auto-columns: minmax(0, 1fr); gap: 10px; flex: 1; min-height: 0; }
+.rv-card { border: 2px solid var(--line); border-radius: 14px; padding: 6px 6px; background: var(--cream); display: flex; flex-direction: column; align-items: center; gap: 4px; min-height: 0; min-width: 0; overflow: hidden; }
+.rv-card .glyph { font-family: 'Andika'; font-size: 54px; line-height: 1; font-weight: 700; }
+.rv-card .glyph small { font-size: 40px; font-weight: 400; margin-left: 4px; }
+.rv-card .rv-pic { width: 100%; flex: 1; min-height: 60px; display: flex; justify-content: center; }
+.rv-card .rv-pic .pic { width: 100%; height: 100%; }
+.rv-card .rv-word { font-size: 20px; font-weight: 700; white-space: nowrap; max-width: 100%; }
+.rv-card .rv-word b { color: var(--orange); }
+.rv-card .rv-word .ipa { font-size: 15px; font-weight: 400; }
+.rv-btns { display: flex; gap: 4px; flex-wrap: wrap; justify-content: center; }
+.rv-cards.c5 .rv-card .glyph { font-size: 46px; } .rv-cards.c5 .rv-card .glyph small { font-size: 34px; }
+.rv-cards.c5 .rv-card .rv-word { font-size: 17px; } .rv-cards.c5 .rv-card .rv-word .ipa { font-size: 13px; }
+.rv-cards.c5 .pill { font-size: 13px; padding: 1px 6px; }
+/* 주사위 놀이판 */
+.bd-bar { display: flex; align-items: center; gap: 12px; }
+.bd-bar .dice { width: 48px; height: 48px; border: 3px solid var(--ink); border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; font-family: 'Fredoka'; font-size: 28px; font-weight: 700; background: #fff; }
+.bd-bar .dice.rolling { animation: shakeDice .15s infinite; }
+@keyframes shakeDice { 0%{transform:rotate(-14deg) translateX(-3px)} 50%{transform:rotate(14deg) translateX(3px)} 100%{transform:rotate(-14deg) translateX(-3px)} }
+.bd-bar .team { width: 40px; padding: 0; border-radius: 50%; }
+.bd-bar .team.home::after { content: '🏠'; position: absolute; left: 50%; top: 36px; transform: translateX(-50%); font-size: 12px; }   /* 아직 출발 전 */
+.bd-bar .msg { font-family: 'Fredoka'; font-size: 22px; color: var(--orange); flex: 1; }
+.board { display: grid; gap: 8px; flex: 1; min-height: 0; background: #EAF3D9; border: 3px solid var(--green); border-radius: var(--radius); padding: 10px; }
+.bd-cell { position: relative; background: #fff; border: 3px solid var(--line); border-radius: 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 18px 4px 6px; min-height: 0; }
+.bd-cell .no { position: absolute; left: 6px; top: 3px; font-family: 'Fredoka'; font-size: 13px; color: var(--soft); }
+.bd-cell .tag { position: absolute; right: 4px; top: 3px; background: var(--green); color: #1f3a0e; font-family: 'Fredoka'; font-size: 11px; border-radius: 8px; padding: 0 6px; }
+.bd-cell .tag.fin { background: var(--orange); color: #fff; }
+.bd-cell .pic { width: 100%; flex: 1; min-height: 0; }
+.bd-cell .lab { font-size: 15px; font-weight: 700; }
+.bd-cell .big { font-family: 'Andika'; font-size: 46px; font-weight: 700; line-height: 1; }
+.bd-cell.letter { background: var(--cream); }
+.bd-cell.special { background: #FFF3E6; border-color: var(--yellow); }
+.bd-cell.special.back { background: #FBE9E9; border-color: var(--pink); }
+.bd-cell.special .big { font-size: 38px; }
+.bd-cell.hl { border-color: var(--orange); box-shadow: 0 0 0 4px #FFD9B3; }
+.bd-cell .pawns { position: absolute; left: 4px; bottom: 4px; display: flex; gap: 3px; }
+.pawn { width: 28px; height: 28px; border-radius: 50%; color: #fff; font-family: 'Fredoka'; font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; justify-content: center; border: 2px solid #fff; box-shadow: 0 2px 4px rgba(0,0,0,.3); }
+.pawn.A { background: var(--orange); } .pawn.B { background: var(--blue); }
+/* 빙고 */
+.bg-bar { display: flex; align-items: center; gap: 12px; }
+.bg-bar .called { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; }
+.bg-bar .called span { background: var(--yellow); border-radius: 10px; padding: 0 10px; font-weight: 700; font-size: 16px; cursor: pointer; }
+.bg-bank { display: flex; flex-wrap: wrap; gap: 6px; }
+.bg-bank span { border: 2px solid var(--line); border-radius: 10px; padding: 0 10px; font-weight: 700; font-size: 18px; background: #fff; }
+.bingo { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(4, 1fr); gap: 8px; flex: 1; min-height: 0; }
+.bg-cell { position: relative; border: 3px solid var(--line); border-radius: 14px; background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 6px; cursor: pointer; min-height: 0; }
+.bg-cell .pic { width: 100%; flex: 1; min-height: 0; }
+.bg-cell .lab { font-weight: 700; font-size: 18px; }
+.bg-cell.on { border-color: var(--ok); background: #EAF7E6; }
+.bg-cell.on::after { content: '✔'; position: absolute; right: 8px; top: 2px; color: var(--ok); font-size: 26px; font-weight: 700; }
+.bg-cell.line { border-color: var(--orange); background: #FFF3E6; animation: bounce .6s; }
+.bingo.blank .bg-cell { border-style: dashed; cursor: default; }
+/* 복습 평가: 정리 쪽과 같은 모양, 문항이 많아 촘촘히 */
+.lc-row { display: flex; align-items: center; gap: 10px; }
+.lc-row .n { font-family: 'Fredoka'; font-weight: 700; }
+.lc-row .opts { flex: 1; }
+.match .it.wd { font-size: 22px; }
+.write-it .wd { font-size: 14px; color: var(--soft); }
+.t-review_test .check-sec { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; }
+.t-review_test .opt { font-size: 30px; padding: 4px; } .t-review_test .opt .pic { height: 58px; } .t-review_test .opt .lab { font-size: 15px; }
+.t-review_test .match .it { padding: 2px; font-size: 22px; } .t-review_test .match .it .pic { height: 44px; }
+.t-review_test .write-row { grid-template-columns: repeat(4, 1fr); }
+.t-review_test .write-it .pic { height: 64px; } .t-review_test .write-it .box { height: 40px; }
+/* 복습 워크북: 짝 잇기 · 빠진 글자 · 첫 글자 쓰기 */
+.pairs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 36px; }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 44px; }
+.pair .col { display: flex; flex-direction: column; gap: 8px; }
+.pair .it { border: 3px solid var(--line); border-radius: 12px; text-align: center; font-family: 'Andika'; font-size: 34px; line-height: 1.2; padding: 4px; cursor: pointer; background: #fff; }
+.pair .it.sel { border-color: var(--orange); } .pair .it.done { border-color: var(--ok); background: #EAF7E6; } .pair .it.no { border-color: var(--bad); }
+.missing { display: flex; flex-wrap: wrap; gap: 6px; }
+.missing .bx { width: 52px; height: 66px; border: 2px solid var(--line); border-radius: 10px; font-family: 'Andika'; font-size: 40px; display: inline-flex; align-items: center; justify-content: center; background: #fff; }
+.missing .bx.blank { border-style: dashed; border-color: var(--orange); cursor: pointer; }
+.fl-row { grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.write-it.fl .pic { height: 120px; }
+.write-it.fl .box { cursor: pointer; height: 56px; margin-top: 6px; }
+.write-it.fl .wd { font-size: 20px; }
+.sort.rv .bin { min-height: 170px; } .sort.rv .wd { font-size: 22px; padding: 4px 14px; }
+
 /* ---------- 메뉴 ---------- */
 .menu { width: var(--page-w); display: flex; flex-direction: column; gap: 14px; }
 .menu .unit-card { background: var(--paper); border-radius: 16px; padding: 14px 18px; display: flex; align-items: center; gap: 14px; box-shadow: 0 4px 14px rgba(60,40,20,.1); }
@@ -299,6 +403,39 @@ body.print .page:last-child { page-break-after: auto; }
 body.print .say { cursor: default; }
 body.print .spk, body.print .btn { display: none; }
 body.print .pic.missing { border-style: solid; }
+/* 스토리북 인쇄 (A5 가로 210×148mm): 그림이 쪽을 채우고 아래에 글 띠 */
+body.print .page.story { width: 210mm; height: 148mm; padding: 0; display: block; background: #fff; }
+.page.story .art { position: absolute; inset: 0; }
+.page.story .art .pic { width: 100%; height: 100%; border-radius: 0; }
+.page.story .art .pic img { width: 100%; height: 100%; object-fit: cover; }
+.page.story .art .pic.missing .ph { font-size: 28px; }
+.page.story .band { position: absolute; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,.93); padding: 4mm 8mm 4mm; display: flex; align-items: flex-end; gap: 6mm; }
+.page.story .band .txt { flex: 1; display: flex; flex-direction: column; gap: 2mm; min-width: 0; }
+.page.story .band .where { font-family: 'Fredoka'; font-size: 10px; color: var(--soft); }
+.page.story .line { display: flex; align-items: center; gap: 8px; font-family: 'Andika'; font-size: 22px; line-height: 1.25; }
+.page.story .line .av { width: 32px; height: 32px; border-radius: 50%; background: var(--cream); overflow: hidden; display: inline-flex; align-items: center; justify-content: center; flex: none; font-size: 14px; }
+.page.story .line .av img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.page.story .task { align-self: flex-start; background: var(--yellow); border-radius: 10px; padding: 1px 10px; font-family: 'Andika'; font-size: 15px; font-weight: 700; margin-top: 1mm; }
+.page.story .task small { font-weight: 400; margin-left: 6px; font-size: 11px; }
+.page.story .foot { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; font-size: 8px; color: var(--soft); flex: none; }
+.page.story .foot img.qr { width: 11mm; height: 11mm; margin: 0; }
+.page.story .foot .pno { font-family: 'Fredoka'; font-size: 16px; color: var(--ink); }
+.page.story.cover .art::after { content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0) 45%); }
+.page.story.cover .cover-title { position: absolute; left: 0; right: 0; top: 8mm; text-align: center; color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,.6); }
+.page.story.cover .cover-title small { font-family: 'Fredoka'; font-size: 16px; letter-spacing: 1px; }
+.page.story.cover .cover-title h1 { margin: 2mm 0 0; font-size: 44px; }
+/* 인쇄소용(press): 사방 3mm 도련. 배경은 도련 끝까지, 내용은 재단선 기준 그대로, QR·쪽 번호는 재단선 안쪽 10mm 이상, 모서리에 재단선 표시 */
+body.print.press .page { width: 216mm; height: 303mm; padding: calc(34px + 3mm) calc(40px + 3mm) calc(48px + 13mm); }
+body.print.press .page .ph-foot { left: calc(40px + 3mm); right: calc(40px + 3mm); bottom: 13mm; padding: 0; }
+body.print.press .page.story { width: 216mm; height: 154mm; padding: 0; }
+body.print.press .page.story .band { padding: 4mm 11mm 4mm; }
+body.print.press .page.story .foot { margin: 0 5mm 9mm 0; }
+body.print.press .page.story.cover .cover-title { top: 11mm; }
+body.print.press .page::after { content: ''; position: absolute; inset: 0; pointer-events: none; z-index: 9; background:
+  linear-gradient(#000, #000) left 0 top 2.9mm / 2.4mm 0.2mm no-repeat, linear-gradient(#000, #000) right 0 top 2.9mm / 2.4mm 0.2mm no-repeat,
+  linear-gradient(#000, #000) left 0 bottom 2.9mm / 2.4mm 0.2mm no-repeat, linear-gradient(#000, #000) right 0 bottom 2.9mm / 2.4mm 0.2mm no-repeat,
+  linear-gradient(#000, #000) left 2.9mm top 0 / 0.2mm 2.4mm no-repeat, linear-gradient(#000, #000) right 2.9mm top 0 / 0.2mm 2.4mm no-repeat,
+  linear-gradient(#000, #000) left 2.9mm bottom 0 / 0.2mm 2.4mm no-repeat, linear-gradient(#000, #000) right 2.9mm bottom 0 / 0.2mm 2.4mm no-repeat; }
 body.teacher #top .brand small { display: none; }
 @media (max-width: 1400px) {   /* 태블릿: 위 막대를 촘촘히 */
   body.teacher #top { padding: 0 8px; gap: 4px; }

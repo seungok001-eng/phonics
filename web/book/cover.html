@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 표지</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  /* 표지 한 벌 = 앞표지 + 뒤표지. 학생책·워크북은 A4, 스토리북은 A5 가로. &press=1 이면 도련 3mm 와 재단선이 붙는다 (style.css 의 press 규칙) */
+  body.print #pages { display: flex; flex-direction: column; align-items: center; }
+  @media screen { body.print { padding: 20px; } body.print .page { margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,.15); } }
+  body.print .page.cv { padding: 0; display: block; }
+  body.print .page.cv.a5 { width: 210mm; height: 148mm; }
+  body.print.press .page.cv { padding: 0; }
+  body.print.press .page.cv.a5 { width: 216mm; height: 154mm; }
+  /* 앞표지: 하늘색 → 크림 배경(도련까지), 제목, 캐릭터 4명 */
+  .cv.front { background: linear-gradient(180deg, #CFEBFA 0%, #FFF9EE 55%, #D9EFB8 100%); }
+  .cv .inner { position: absolute; inset: 3mm; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 18mm 12mm 14mm; }
+  body.print.press .cv .inner { inset: 6mm; }
+  .cv .series { font-family: 'Fredoka'; font-weight: 700; font-size: 22px; color: var(--soft); letter-spacing: 2px; }
+  .cv h1 { font-size: 72px; margin: 4mm 0 0; color: var(--orange); line-height: 1; }
+  .cv h1 span { color: var(--green); }
+  .cv .sub { font-family: 'Fredoka'; font-size: 30px; color: var(--ink); margin-top: 3mm; }
+  .cv .kind { font-family: 'Fredoka'; font-weight: 700; font-size: 34px; background: var(--orange); color: #fff; border-radius: 20px; padding: 4px 26px; margin-top: 8mm; }
+  .cv.wb .kind { background: var(--blue); }
+  .cv .cast { flex: 1; display: flex; align-items: flex-end; justify-content: center; gap: 4mm; width: 100%; min-height: 0; margin-top: 8mm; }
+  .cv .cast .pic { height: 100%; max-height: 110mm; flex: 1; }
+  .cv .cast .pic img { object-fit: contain; object-position: bottom; }
+  .cv .tag { font-family: 'Fredoka'; font-size: 18px; color: var(--soft); margin-top: 6mm; }
+  /* 스토리북 앞표지: 표지 그림이 쪽을 채우고 제목만 */
+  .cv.front.story { background: #CFEBFA; }
+  .cv .art { position: absolute; inset: 0; } .cv .art .pic { width: 100%; height: 100%; border-radius: 0; } .cv .art .pic img { width: 100%; height: 100%; object-fit: cover; }
+  .cv .art::after { content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0) 45%); }   /* 제목이 잘 보이게 위쪽을 살짝 어둡게 */
+  .cv.front.story .inner { justify-content: flex-start; padding-top: 10mm; color: #fff; text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+  .cv.front.story .series, .cv.front.story .sub { color: #fff; } .cv.front.story h1 { color: #fff; font-size: 60px; } .cv.front.story h1 span { color: #fff; }
+  .cv.front.story .kind { margin-top: 4mm; font-size: 24px; }
+  /* 뒤표지: 소개 글, 캐릭터 작게, 홈페이지 QR, ISBN 자리 */
+  .cv.back { background: #FFF9EE; }
+  .cv.back .inner { align-items: flex-start; text-align: left; padding: 16mm 16mm 14mm; gap: 6mm; }
+  .cv.back h2 { font-size: 30px; color: var(--orange); margin: 0; }
+  .cv.back p { font-size: 17px; line-height: 1.5; margin: 0; max-width: 150mm; }
+  .cv.back ul { margin: 0; padding-left: 20px; font-size: 16px; line-height: 1.6; }
+  .cv.back .cast { flex: 1; align-items: center; justify-content: flex-start; margin: 0; }
+  .cv.back .cast .pic { max-height: 60mm; flex: none; width: 36mm; }
+  .cv.back .bottom { width: 100%; display: flex; align-items: flex-end; justify-content: space-between; gap: 8mm; }
+  .cv.back .site { display: flex; align-items: center; gap: 4mm; font-size: 14px; color: var(--soft); }
+  .cv.back .site img { width: 22mm; height: 22mm; }
+  .cv.back .isbn { width: 50mm; height: 26mm; border: 1px solid #bbb; border-radius: 3px; background: #fff; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #999; }
+  .cv.back.a5 .inner { padding: 10mm 12mm 10mm; gap: 3mm; } .cv.back.a5 p { font-size: 14px; } .cv.back.a5 ul { font-size: 13px; } .cv.back.a5 .cast .pic { max-height: 34mm; width: 26mm; } .cv.back.a5 .isbn { width: 42mm; height: 22mm; }
+</style>
+</head>
+<body class="print">
+<div id="pages"></div>
+<script>window.PRINT = true;</script>
+<script src="app.js"></script>
+<script>
+// 주소: cover.html?b=sb|wb|story&press=1 — 표지 한 벌(앞·뒤). 제목·시리즈명·캐릭터 기준 그림(char_*_ref)은 book.json 에서
+function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@page { size: ${s}; margin: 0; }</style>`); }
+(async () => {
+  const q = new URLSearchParams(location.search); const b = q.get('b') || 'sb', press = q.get('press') === '1';
+  App.book = await loadJSON('book.json'); const bk = App.book;
+  if (press) document.body.classList.add('press');
+  const a5 = b === 'story';
+  pageSize(a5 ? (press ? '216mm 154mm' : '210mm 148mm') : (press ? '216mm 303mm' : '210mm 297mm'));
+  const chars = Object.entries(bk.characters);
+  const cast = (cls = '') => `<div class="cast ${cls}">${chars.map(([id, c]) => pic('char_' + id + '_ref', '', c.name)).join('')}</div>`;
+  const sb = bk.storybook || {};
+  const kind = b === 'sb' ? 'Student Book' : b === 'wb' ? 'Workbook' : 'Storybook';
+  const title = `${esc(bk.series.split(' ')[0])} <span>${esc(bk.series.split(' ').slice(1).join(' '))}</span> ${bk.book}`;
+  const art = a5 && sb.cover && sb.cover.id ? `<div class="art">${pic(sb.cover.id, '', sb.title || '')}</div>` : '';
+  const front = `<article class="page cv front ${b} ${a5 ? 'a5' : ''}">${art}<div class="inner">
+      <div class="series">${esc(bk.series)} · ${esc(bk.subtitle || '')}</div>
+      <h1>${a5 ? esc(sb.title || 'Storybook') : title}</h1>
+      ${a5 ? `<div class="sub">${title}</div>` : `<div class="sub">${esc(bk.subtitle || '')}</div>`}
+      <div class="kind">${kind}</div>
+      ${a5 ? '' : cast() + '<div class="tag">소리 정원에서 배우는 영어 파닉스 · 7~9세</div>'}
+    </div></article>`;
+  const site = (bk.site_base || '').replace(/^https?:\/\//, '');
+  const back = `<article class="page cv back ${b} ${a5 ? 'a5' : ''}"><div class="inner">
+      <h2>${esc(bk.title)} · ${kind}</h2>
+      <p>${a5 ? '학생책 11유닛의 이야기를 한 권의 그림책으로. 쪽마다 QR 을 찍으면 원어민 소리로 읽어 줘요.' : '알파벳 소리부터 시작하는 7~9세 영어 파닉스. 유닛마다 새 글자 3개, 단어 9개, 이야기 한 편. 쪽마다 QR 을 찍으면 그 쪽의 소리가 나와요.'}</p>
+      <ul><li>🔊 누르면 소리가 나는 웹 교재</li><li>📖 11유닛이 하나의 이야기</li><li>${b === 'wb' ? '✏️ 그날 배운 쪽이 그날 숙제' : '🎮 게임과 자동 채점, 선생님 수업 화면'}</li></ul>
+      ${cast('small')}
+      <div class="bottom"><div class="site"><img src="../assets/qr/site.png" onerror="this.style.display='none'" alt="QR"><span>${esc(site)}<br>${esc(bk.series)}</span></div><div class="isbn">ISBN · 바코드 자리</div></div>
+    </div></article>`;
+  document.getElementById('pages').innerHTML = front + back;
+  document.title = `${bk.title} — ${kind} 표지`;
+  window.PRINT_READY = true;
+})();
+</script>
+</body>
+</html>

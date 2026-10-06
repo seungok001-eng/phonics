@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791283938.4725244,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/9c5b804f-6f6f-43f3-9aa8-8c605eafb9a1?Expires=1791305512&KeyName=labs-flow-prod-cdn-key&Signature=4-Zi6rhDRXWvlvzZp9vRdUWXX10",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-06 19:52",
  "gen": "",
  "job_type": "image",
  "reference": "char_grumble_ref",
@@ -20,5 +20,6 @@
  "title": "그럼블 · 튀어나옴",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Grumble, a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Pose: bursting up out of a dirt hole with dirt flying, startled. SAME character as the attached reference image: identical face, hair, clothes and colors. Only the pose and expression change.",
  "aspect": "3:4",
- "out": "web/assets/art/char_grumble_popping.png"
+ "out": "web/assets/art/char_grumble_popping.png",
+ "claimed_at": 1791283895.8887217
 }

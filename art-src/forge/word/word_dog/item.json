@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
- "attempts": 0,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 1,
  "error": "",
- "updated": 0,
+ "updated": 1791284155.4813054,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/55801343-dade-4cd0-a594-ba2af370a344?Expires=1791305730&KeyName=labs-flow-prod-cdn-key&Signature=JcXkxa275seZKxHZygpi-KDCbyg",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-06 19:57",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -19,5 +19,7 @@
  "title": "dog · 개",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a happy brown puppy sitting with its tongue out.",
  "aspect": "1:1",
- "out": "web/assets/art/word_dog.png"
+ "out": "web/assets/art/word_dog.png",
+ "claimed_at": 1791284125.8844862,
+ "asset_no": 2007
 }

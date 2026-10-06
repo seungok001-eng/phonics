@@ -1,0 +1,467 @@
+{
+  "unit": 9,
+  "title": "The Volcano",
+  "title_ko": "화산",
+  "letters": [
+    "v",
+    "w",
+    "x"
+  ],
+  "sight_words": [
+    "look",
+    "at"
+  ],
+  "objectives_ko": [
+    "글자 V·W·X의 이름과 소리를 알고 말한다",
+    "대문자와 소문자를 구별하고 바르게 쓴다",
+    "V·W·X로 시작하는 단어 9개를 듣고 말하고 찾는다",
+    "사이트워드 look, at을 보고 읽는다 (X는 단어 끝에서 /ks/ 소리가 남을 안다)"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Sounds, Letters, Words",
+      "title_ko": "소리·쓰기·단어",
+      "pages": [
+        {
+          "type": "sounds",
+          "title": "Sounds"
+        },
+        {
+          "type": "trace",
+          "title": "Trace and write."
+        },
+        {
+          "type": "words",
+          "title": "Words"
+        },
+        {
+          "type": "read_play",
+          "title": "Trace and read. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_trace",
+          "title": "A. Trace and write."
+        },
+        {
+          "type": "wb_letters",
+          "title": "B. Circle the same letter.  C. Match and color."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Story and Review",
+      "title_ko": "스토리·정리",
+      "pages": [
+        {
+          "type": "listen_point",
+          "title": "Listen, point and say."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_words",
+          "title": "D. Trace the words.  E. Color and say."
+        },
+        {
+          "type": "wb_read",
+          "title": "F. Read three times.  G. Sort the words.  H. Finish the story."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Volcano",
+    "bgm": "u9_story",
+    "panels": [
+      {
+        "id": "scene_u09_1",
+        "desc": "A cozy little village corner inside the garden: a small house wall with a window with blue curtains and a flower pot on the sill, a stone water fountain, and a yellow taxi parked on the lane. In the middle of the lane a small volcano mound rumbles with little puffs of smoke, and a glowing golden seed sits on its rim. Hedgie points at the volcano nervously; Bun leans in curiously; Pip is trying to say a sound but its whole body buzzes like a bee, feathers vibrating with little motion lines. Hidden in the picture: the volcano, a blue knitted vest hanging on a washing line, the taxi. Grumble sits on a stack of boxes nearby with a pinecone stuck in each ear, arms crossed, eyes shut; his lantern beside him shines very bright, like a small star.",
+        "hidden": [
+          "volcano",
+          "vest",
+          "taxi"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Look at the volcano!",
+            "audio": "u09_l1"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Bzzz!",
+            "audio": "u09_l2"
+          },
+          {
+            "who": "bun",
+            "text": "/v/ /v/ volcano!",
+            "audio": "u09_l3",
+            "pop": "v"
+          }
+        ],
+        "video": "vid_u09_1"
+      },
+      {
+        "id": "scene_u09_2",
+        "desc": "BOOM — the little volcano pops with a puff of orange lava sparks and everyone jumps into the air: Bun with her boots flying, Hedgie rolled into a ball, Pip upside down. The water fountain sprays a tall splash of clear water, and a pink earthworm has been tossed out of the ground and lands on the lane looking dizzy with a tiny bump on its head. Behind them the new V letter tree with vet-, vest- and volcano-shaped fruits. Hidden in the picture: the fountain water, the worm, the window with blue curtains. Grumble has fallen backwards off his boxes with both pinecones shooting out of his ears; his lantern rolls on the ground still shining very bright.",
+        "hidden": [
+          "water",
+          "worm",
+          "window"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "Look at the water!",
+            "audio": "u09_l4"
+          },
+          {
+            "who": "hedgie",
+            "text": "A worm! Oh no!",
+            "audio": "u09_l5"
+          },
+          {
+            "who": "bun",
+            "text": "/w/ /w/ worm!",
+            "audio": "u09_l6",
+            "pop": "w"
+          }
+        ],
+        "video": "vid_u09_2"
+      },
+      {
+        "id": "scene_u09_3",
+        "desc": "A veterinarian in a white coat kneels on the lane and gently wraps a tiny bandage around the pink worm, which lies on top of a brown cardboard box; six brown boxes are stacked beside the taxi. A glowing golden seed sits on the top box. Hedgie watches with his paws clasped; Bun holds up six fingers; Pip glows. Hidden in the picture: the vet, six red strawberries in a row on a box lid, the open box. Grumble does NOT appear.",
+        "hidden": [
+          "vet",
+          "six",
+          "box"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Look at the vet.",
+            "audio": "u09_l7"
+          },
+          {
+            "who": "bun",
+            "text": "/ks/ /ks/ box!",
+            "audio": "u09_l8",
+            "pop": "x"
+          },
+          {
+            "who": "pip",
+            "text": "X!",
+            "audio": "name_x",
+            "sfx": "chime"
+          }
+        ]
+      },
+      {
+        "id": "scene_u09_4",
+        "desc": "The village lane with three new letter trees (V with vet, vest and volcano fruits; W with window, water and worm fruits; X with six-strawberries, box and taxi fruits). The bandaged worm waves happily from the fountain edge; the taxi driver honks and waves. Bun and Hedgie point at the trees; Pip glows on the taxi roof. Grumble stands in the middle of the lane without his pinecones, holding his lantern up with both paws and staring at it with wide eyes: it blazes bright like a little star and lights the whole lane. Hidden in the picture: the taxi, the worm.",
+        "hidden": [
+          "taxi",
+          "worm"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "V! W! X!",
+            "audio": "u09_l9",
+            "sfx": "chime"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Look at my lantern!",
+            "audio": "u09_l10"
+          },
+          {
+            "who": "hedgie",
+            "text": "Wow! Look at it!",
+            "audio": "u09_l11"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_u09_1",
+      "from": "scene_u09_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the little volcano rumbles and puffs tiny smoke rings, the golden seed on its rim twinkles, the baby bird buzzes and vibrates like a bee, the hedgehog takes a nervous step back; the raccoon's lantern shines bright. Camera still. Playful suspense, child-friendly. No text."
+    },
+    {
+      "id": "vid_u09_2",
+      "from": "scene_u09_2",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the volcano pops with a puff of sparkly orange lava, the friends hop into the air, the fountain sprays water, the pink worm pops out of the ground and lands with a tiny bump, two pinecones shoot out of the raccoon's ears. Camera still. Funny, child-friendly, no scary elements. No text."
+    }
+  ],
+  "check": {
+    "listen_circle": [
+      {
+        "audio": "sound_w",
+        "options": [
+          "v",
+          "w",
+          "x"
+        ],
+        "answer": "w"
+      },
+      {
+        "audio": "word_vest",
+        "options": [
+          "vet",
+          "vest",
+          "volcano"
+        ],
+        "answer": "vest"
+      },
+      {
+        "audio": "word_taxi",
+        "options": [
+          "six",
+          "box",
+          "taxi"
+        ],
+        "answer": "taxi"
+      }
+    ],
+    "match": [
+      {
+        "letter": "v",
+        "word": "volcano"
+      },
+      {
+        "letter": "w",
+        "word": "water"
+      },
+      {
+        "letter": "x",
+        "word": "box"
+      }
+    ],
+    "find_write": [
+      {
+        "word": "window",
+        "letter": "w"
+      },
+      {
+        "word": "vet",
+        "letter": "v"
+      },
+      {
+        "word": "six",
+        "letter": "x"
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_sound",
+    "title": "Catch the sound!",
+    "rounds": [
+      {
+        "audio": "sound_v",
+        "answer": "v",
+        "pictures": [
+          "vet",
+          "window",
+          "six"
+        ]
+      },
+      {
+        "audio": "sound_x",
+        "answer": "x",
+        "pictures": [
+          "vest",
+          "water",
+          "box"
+        ]
+      },
+      {
+        "audio": "sound_w",
+        "answer": "w",
+        "pictures": [
+          "worm",
+          "volcano",
+          "taxi"
+        ]
+      },
+      {
+        "audio": "sound_v",
+        "answer": "v",
+        "pictures": [
+          "worm",
+          "volcano",
+          "six"
+        ]
+      },
+      {
+        "audio": "sound_w",
+        "answer": "w",
+        "pictures": [
+          "vest",
+          "window",
+          "taxi"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "circle_same": [
+      {
+        "target": "V",
+        "row": [
+          "V",
+          "W",
+          "V",
+          "Y",
+          "V"
+        ]
+      },
+      {
+        "target": "w",
+        "row": [
+          "w",
+          "v",
+          "w",
+          "m",
+          "w"
+        ]
+      },
+      {
+        "target": "x",
+        "row": [
+          "x",
+          "k",
+          "x",
+          "y",
+          "x"
+        ]
+      }
+    ],
+    "sort": {
+      "v": [
+        "vet",
+        "vest"
+      ],
+      "w": [
+        "window",
+        "water"
+      ],
+      "x": [
+        "six",
+        "box"
+      ]
+    },
+    "finish_story": [
+      {
+        "text": "Look at the ___!",
+        "answer": "volcano",
+        "picture": "volcano"
+      },
+      {
+        "text": "/w/ /w/ ___!",
+        "answer": "worm",
+        "picture": "worm"
+      },
+      {
+        "text": "Look at the ___.",
+        "answer": "vet",
+        "picture": "vet"
+      }
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb_u09_1",
+        "desc": "A cozy village corner inside the garden: a house wall with a window with blue curtains, a stone water fountain, a yellow taxi on the lane. A small volcano mound in the lane rumbles with smoke puffs and a glowing seed on its rim. Hedgie points nervously; Bun leans in; Pip tries to say a sound but its whole body buzzes like a bee. Grumble sits on a stack of boxes with a pinecone stuck in each ear, eyes shut; his lantern beside him shines very bright, like a small star. Hidden in the picture: the volcano, a blue vest on a washing line, the taxi.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Look at the volcano!",
+            "audio": "sb_u09_1_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Bzzz!",
+            "audio": "sb_u09_1_2"
+          },
+          {
+            "who": "bun",
+            "text": "/v/ /v/ volcano! Pop!",
+            "audio": "sb_u09_1_3"
+          }
+        ],
+        "task": "Find the v things!",
+        "task_ko": "v로 시작하는 것을 찾아요"
+      },
+      {
+        "id": "sb_u09_2",
+        "desc": "BOOM — the volcano pops with sparkly orange lava and everyone jumps into the air: Bun with boots flying, Hedgie rolled into a ball, Pip upside down. The fountain sprays a tall splash of water and a pink worm is tossed out of the ground, landing dizzy with a tiny bump. Grumble tumbles backwards off his boxes with both pinecones shooting out of his ears; his lantern rolls on the ground still shining bright. Hidden in the picture: the water, the worm, the window.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "Look at the water!",
+            "audio": "sb_u09_2_1"
+          },
+          {
+            "who": "hedgie",
+            "text": "A worm! Oh no!",
+            "audio": "sb_u09_2_2"
+          },
+          {
+            "who": "bun",
+            "text": "/w/ /w/ worm! Pop!",
+            "audio": "sb_u09_2_3"
+          }
+        ],
+        "task": "Find the w things!",
+        "task_ko": "w로 시작하는 것을 찾아요"
+      },
+      {
+        "id": "sb_u09_3",
+        "desc": "A kind owl vet in a white coat and round glasses kneels and wraps a tiny bandage around the worm lying on a cardboard box; six boxes are stacked by the taxi with a glowing seed on the top one; six strawberries sit in a row on a box lid. Three new letter trees (V, W, X with their fruits) stand along the lane. Grumble stands in the lane without his pinecones, holding his lantern up with both paws and staring: it blazes like a star and lights the whole lane. Hidden in the picture: the vet, the six strawberries, the box.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "/ks/ /ks/ box! Pop!",
+            "audio": "sb_u09_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Look at my lantern!",
+            "audio": "sb_u09_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Y and Z. Then...?",
+            "audio": "sb_u09_3_3"
+          }
+        ],
+        "task": "Find the x things!",
+        "task_ko": "x 소리가 나는 것을 찾아요"
+      }
+    ]
+  }
+}

@@ -613,7 +613,7 @@
     },
     "queen": {
       "ko": "여왕",
-      "desc": "a kind queen with a golden crown and a purple robe"
+      "desc": "a kind queen swan with a golden crown and a purple robe"
     },
     "quilt": {
       "ko": "누비이불",
@@ -669,11 +669,11 @@
     },
     "uncle": {
       "ko": "삼촌",
-      "desc": "a friendly young man with a mustache, a green cap and a watering can, waving"
+      "desc": "a friendly grown-up rabbit uncle with a mustache, a green cap and a watering can, waving"
     },
     "vet": {
       "ko": "수의사",
-      "desc": "a veterinarian in a white coat holding a puppy"
+      "desc": "a kind owl veterinarian in a white coat and round glasses holding a puppy"
     },
     "vest": {
       "ko": "조끼",
@@ -860,7 +860,6 @@
     },
     {
       "n": 3,
-      "ready": false,
       "title": "The Goat Ate It!",
       "letters": [
         "g",
@@ -870,7 +869,6 @@
     },
     {
       "n": 4,
-      "ready": false,
       "title": "The Key",
       "letters": [
         "j",
@@ -892,7 +890,6 @@
     },
     {
       "n": 6,
-      "ready": false,
       "title": "The Night Garden",
       "letters": [
         "m",
@@ -902,7 +899,6 @@
     },
     {
       "n": 7,
-      "ready": false,
       "title": "The Queen's Quilt",
       "letters": [
         "p",
@@ -912,7 +908,6 @@
     },
     {
       "n": 8,
-      "ready": false,
       "title": "Up, Up, Up!",
       "letters": [
         "s",
@@ -922,7 +917,6 @@
     },
     {
       "n": 9,
-      "ready": false,
       "title": "The Volcano",
       "letters": [
         "v",
@@ -932,8 +926,7 @@
     },
     {
       "n": 10,
-      "ready": false,
-      "title": "Pomi Sings!",
+      "title": "Pip Sings!",
       "letters": [
         "y",
         "z"
@@ -954,5 +947,60 @@
       ],
       "final": true
     }
-  ]
+  ],
+  "storybook": {
+    "title": "Pip and the Sound Garden",
+    "title_ko": "핍과 소리 정원",
+    "cover": {
+      "id": "sb_cover",
+      "desc": "Picture-book cover illustration. Pip, the tiny yellow baby bird with a green leaf scarf, stands on a clay flower pot in the middle, beak open and glowing, with Bun the white rabbit in green boots and Hedgie the hedgehog cheering on either side. Around them the Sound Garden full of cheerful letter trees with fruit, pink blossoms and a little round wooden door in the wall. In a bottom corner Grumble the old raccoon peeks out of a dirt hole holding a brightly glowing lantern. Leave a calm, simple sky area at the top for the title."
+    },
+    "front": [
+      {
+        "id": "sb_front_1",
+        "desc": "Title page vignette: a small round picture of Pip sitting on an empty clay pot with its leaf scarf, looking up hopefully at a single glowing golden seed floating above its head, on a plain cream background with a few scattered petals. Lots of empty space around the vignette.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Pip and the Sound Garden",
+            "audio": "sb_front_1_1"
+          }
+        ]
+      },
+      {
+        "id": "sb_map",
+        "desc": "A hand-drawn storybook map of the Sound Garden seen from above: a little round door in a wall at the bottom, a winding path with twenty-six small empty clay pots along it in order, a duck pond with lily pads, a lemon tree, a second round door in a middle wall leading to a darker night-garden half with a crescent moon, a tiny village corner with a fountain, a zigzag path to the last pot, a wooden fence at the top with a blue pond beyond it, and a small hill with a dirt hole and a tiny lantern light. No letters or text anywhere.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The Sound Garden.",
+            "audio": "sb_map_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Twenty-six pots. No trees!",
+            "audio": "sb_map_2"
+          }
+        ]
+      }
+    ],
+    "back": [
+      {
+        "id": "sb_end",
+        "desc": "Final page: evening in the blooming Sound Garden. Pip, Bun, Hedgie and Grumble sit together on the garden fence seen from behind, looking at the sunset and the glimmering pond beyond; Grumble's lantern hangs on the fence post glowing like a star and his little drum rests beside him. Petals drift in the air. Calm and warm.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The End",
+            "audio": "sb_end_1"
+          }
+        ]
+      },
+      {
+        "id": "sb_map_done",
+        "desc": "The same hand-drawn map of the Sound Garden as before, but now every pot has grown into a small cheerful letter tree with fruit, blossoms cover the garden, a trail of little bird footprints runs along the whole path from the first door to the fence, and a tiny golden seed with a leaf is flying over the fence toward the blue pond. No letters or text anywhere.",
+        "lines": []
+      }
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 {
- "status": "queued",
+ "status": "generating",
  "raw": "",
  "cut": "",
- "attempts": 0,
- "error": "",
+ "attempts": 1,
+ "error": "시간 초과",
  "updated": 0,
  "auto_approved": false,
  "flow_url": "",
@@ -19,5 +19,6 @@
  "prompt": "Gentle picture-book animation: the small round sprite hops up and down beside the apple basket, the golden seed in the basket twinkles and glows brighter, the rabbit and the hedgehog lean in with wonder, leaves sway softly in a warm breeze. Camera still. Soft, slow, child-friendly motion. No text.",
  "seconds": 8,
  "aspect": "4:3",
- "out": "web/assets/video/vid_u01_1.mp4"
+ "out": "web/assets/video/vid_u01_1.mp4",
+ "claimed_at": 1791285628.3859375
 }

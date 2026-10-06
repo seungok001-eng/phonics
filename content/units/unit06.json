@@ -1,0 +1,466 @@
+{
+  "unit": 6,
+  "title": "The Night Garden",
+  "title_ko": "밤의 정원",
+  "letters": [
+    "m",
+    "n",
+    "o"
+  ],
+  "sight_words": [
+    "we",
+    "like"
+  ],
+  "objectives_ko": [
+    "글자 M·N·O의 이름과 소리를 알고 말한다",
+    "대문자와 소문자를 구별하고 바르게 쓴다",
+    "M·N·O로 시작하는 단어 9개를 듣고 말하고 찾는다",
+    "사이트워드 we, like를 보고 읽는다 (1~4유닛 사이트워드 복습)"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Sounds, Letters, Words",
+      "title_ko": "소리·쓰기·단어",
+      "pages": [
+        {
+          "type": "sounds",
+          "title": "Sounds"
+        },
+        {
+          "type": "trace",
+          "title": "Trace and write."
+        },
+        {
+          "type": "words",
+          "title": "Words"
+        },
+        {
+          "type": "read_play",
+          "title": "Trace and read. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_trace",
+          "title": "A. Trace and write."
+        },
+        {
+          "type": "wb_letters",
+          "title": "B. Circle the same letter.  C. Match and color."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Story and Review",
+      "title_ko": "스토리·정리",
+      "pages": [
+        {
+          "type": "listen_point",
+          "title": "Listen, point and say."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_words",
+          "title": "D. Trace the words.  E. Color and say."
+        },
+        {
+          "type": "wb_read",
+          "title": "F. Read three times.  G. Sort the words.  H. Finish the story."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Night Garden",
+    "bgm": "u6_story",
+    "panels": [
+      {
+        "id": "scene_u06_1",
+        "desc": "The second garden at night under a deep blue sky with a big smiling crescent moon. A brown monkey sits in a tree holding a glowing golden seed tightly, pouting. Bun holds up a white milk carton toward the monkey; Hedgie points at the moon; Pip glows like a little lamp beside them. Hidden in the picture: the moon, the monkey, the milk carton. In the foreground, a big clay flower pot with only the tip of Grumble's striped nightcap sticking out of the top; a warm lantern glow shines from inside the pot and lights the ground around it.",
+        "hidden": [
+          "moon",
+          "monkey",
+          "milk"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "We like the moon!",
+            "audio": "u06_l1"
+          },
+          {
+            "who": "bun",
+            "text": "Milk! /m/ /m/ milk!",
+            "audio": "u06_l2",
+            "pop": "m"
+          },
+          {
+            "who": "pip",
+            "text": "M!",
+            "audio": "name_m",
+            "sfx": "chime"
+          }
+        ],
+        "video": "vid_u06_1"
+      },
+      {
+        "id": "scene_u06_2",
+        "desc": "A dark pond in the night garden lit by nine twinkling stars in the sky. A brown otter floats on its back tangled in a butterfly net, holding a glowing seed on its tummy. Pip, who tried to help by touching its nose like the friends do, has tumbled head-first into the same net and is stuck upside down with its feet in the air. Hedgie pulls the net handle; Bun giggles. Behind them the new M letter tree with milk-, moon- and monkey-shaped fruits. Hidden in the picture: the net, the otter, nine stars in the sky. Grumble does NOT appear.",
+        "hidden": [
+          "net",
+          "otter",
+          "nine"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "An otter! And Pip!",
+            "audio": "u06_l3"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip is in the net!",
+            "audio": "u06_l4"
+          },
+          {
+            "who": "bun",
+            "text": "/n/ /n/ net!",
+            "audio": "u06_l5",
+            "pop": "n"
+          }
+        ]
+      },
+      {
+        "id": "scene_u06_3",
+        "desc": "The pond edge at night. A friendly purple octopus rises from the water with a glowing seed on its head and squirts a big spray of black ink: Hedgie's nose is covered with a round ink blob and he crosses his eyes to look at it; Bun ducks behind a bowl of green olives on the bank; Pip glows. Hidden in the picture: the octopus, the olives, Hedgie's ink-covered nose. Grumble's big clay flower pot has been knocked over by the splash and lies on its side: Grumble's two slippered feet and his lantern stick out of the opening, the lantern glowing a clear warm orange.",
+        "hidden": [
+          "octopus",
+          "olive",
+          "nose"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "An octopus!",
+            "audio": "u06_l6"
+          },
+          {
+            "who": "hedgie",
+            "text": "It is on my nose!",
+            "audio": "u06_l7"
+          },
+          {
+            "who": "bun",
+            "text": "/o/ /o/ octopus!",
+            "audio": "u06_l8",
+            "pop": "o"
+          }
+        ],
+        "video": "vid_u06_2"
+      },
+      {
+        "id": "scene_u06_4",
+        "desc": "The night garden path lit by nine bright stars overhead. Three new letter trees (M with milk, moon and monkey fruits; N with nose, net and nine-balloon fruits; O with otter, octopus and olive fruits) glow softly in the starlight. Bun and Hedgie dance with arms up; Pip glows brightly on top of the M tree. Grumble climbs out of the tipped-over flower pot covered in dirt, nightcap crooked, holding up his lantern which now shines clearly brighter than before and lights his grumpy, surprised face. Hidden in the picture: nine stars, the smiling moon.",
+        "hidden": [
+          "nine",
+          "moon"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Nine stars!",
+            "audio": "u06_l9"
+          },
+          {
+            "who": "both",
+            "text": "We like the moon!",
+            "audio": "u06_l10"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my pot!",
+            "audio": "u06_l11"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_u06_1",
+      "from": "scene_u06_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation at night: the crescent moon smiles and twinkles, the monkey hugs its glowing seed and then reaches for the milk carton, the baby bird glows softly; the lantern glow inside the big flower pot flickers. Camera still. Calm, child-friendly. No text."
+    },
+    {
+      "id": "vid_u06_2",
+      "from": "scene_u06_3",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the purple octopus pops up from the pond and squirts a puff of ink that lands on the hedgehog's nose, the rabbit ducks, the big flower pot wobbles and tips over with two slippered feet poking out; the seed sparkles and with a soft POP a small letter tree sprouts by the pond. Camera still. Playful, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "listen_circle": [
+      {
+        "audio": "sound_n",
+        "options": [
+          "m",
+          "n",
+          "o"
+        ],
+        "answer": "n"
+      },
+      {
+        "audio": "word_otter",
+        "options": [
+          "olive",
+          "otter",
+          "octopus"
+        ],
+        "answer": "otter"
+      },
+      {
+        "audio": "word_moon",
+        "options": [
+          "milk",
+          "moon",
+          "monkey"
+        ],
+        "answer": "moon"
+      }
+    ],
+    "match": [
+      {
+        "letter": "m",
+        "word": "milk"
+      },
+      {
+        "letter": "n",
+        "word": "nose"
+      },
+      {
+        "letter": "o",
+        "word": "olive"
+      }
+    ],
+    "find_write": [
+      {
+        "word": "net",
+        "letter": "n"
+      },
+      {
+        "word": "monkey",
+        "letter": "m"
+      },
+      {
+        "word": "octopus",
+        "letter": "o"
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_sound",
+    "title": "Catch the sound!",
+    "rounds": [
+      {
+        "audio": "sound_m",
+        "answer": "m",
+        "pictures": [
+          "moon",
+          "net",
+          "olive"
+        ]
+      },
+      {
+        "audio": "sound_o",
+        "answer": "o",
+        "pictures": [
+          "milk",
+          "nine",
+          "octopus"
+        ]
+      },
+      {
+        "audio": "sound_n",
+        "answer": "n",
+        "pictures": [
+          "nose",
+          "monkey",
+          "otter"
+        ]
+      },
+      {
+        "audio": "sound_m",
+        "answer": "m",
+        "pictures": [
+          "nine",
+          "monkey",
+          "olive"
+        ]
+      },
+      {
+        "audio": "sound_n",
+        "answer": "n",
+        "pictures": [
+          "moon",
+          "net",
+          "octopus"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "circle_same": [
+      {
+        "target": "M",
+        "row": [
+          "M",
+          "N",
+          "M",
+          "W",
+          "M"
+        ]
+      },
+      {
+        "target": "n",
+        "row": [
+          "n",
+          "m",
+          "n",
+          "h",
+          "n"
+        ]
+      },
+      {
+        "target": "o",
+        "row": [
+          "o",
+          "a",
+          "o",
+          "c",
+          "o"
+        ]
+      }
+    ],
+    "sort": {
+      "m": [
+        "milk",
+        "moon"
+      ],
+      "n": [
+        "net",
+        "nine"
+      ],
+      "o": [
+        "otter",
+        "olive"
+      ]
+    },
+    "finish_story": [
+      {
+        "text": "We like the ___!",
+        "answer": "moon",
+        "picture": "moon"
+      },
+      {
+        "text": "Pip is in the ___!",
+        "answer": "net",
+        "picture": "net"
+      },
+      {
+        "text": "/o/ /o/ ___!",
+        "answer": "octopus",
+        "picture": "octopus"
+      }
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb_u06_1",
+        "desc": "The second garden at night under a big smiling crescent moon. A brown monkey in a tree hugs a glowing seed; Bun holds up a milk carton; Hedgie points at the moon; Pip glows like a little lamp. In the foreground a big clay flower pot with only the tip of Grumble's striped nightcap sticking out, a warm lantern glow shining from inside the pot. Hidden in the picture: the moon, the monkey, the milk.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "We like the moon!",
+            "audio": "sb_u06_1_1"
+          },
+          {
+            "who": "bun",
+            "text": "Milk! /m/ /m/ milk! Pop!",
+            "audio": "sb_u06_1_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Shh... A pot glows?",
+            "audio": "sb_u06_1_3"
+          }
+        ],
+        "task": "Find the m things!",
+        "task_ko": "m으로 시작하는 것을 찾아요"
+      },
+      {
+        "id": "sb_u06_2",
+        "desc": "A dark pond lit by nine twinkling stars. A brown otter floats tangled in a butterfly net with a glowing seed on its tummy; Pip has tumbled head-first into the same net and hangs upside down with its feet in the air. Hedgie pulls the net handle; Bun giggles. Behind them the new M tree. The big flower pot with Grumble inside has crept closer to the pond edge, lantern glow shining out of the top. Hidden in the picture: the net, the otter, nine stars.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "An otter! And Pip!",
+            "audio": "sb_u06_2_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip is in the net!",
+            "audio": "sb_u06_2_2"
+          },
+          {
+            "who": "bun",
+            "text": "/n/ /n/ net! Pop!",
+            "audio": "sb_u06_2_3"
+          }
+        ],
+        "task": "Find the n things!",
+        "task_ko": "n으로 시작하는 것을 찾아요"
+      },
+      {
+        "id": "sb_u06_3",
+        "desc": "A purple octopus rises from the pond with a seed on its head and squirts black ink: a round ink blob covers Hedgie's nose, Bun ducks behind a bowl of green olives, and the splash has knocked Grumble's flower pot over — Grumble tumbles out covered in dirt, nightcap crooked, holding up his lantern which now shines clearly brighter. Three new letter trees (M, N, O with their fruits) glow under the nine stars. Hidden in the picture: the octopus, the olives, Hedgie's inky nose.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "/o/ /o/ octopus! Pop!",
+            "audio": "sb_u06_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my pot!",
+            "audio": "sb_u06_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Who is under the quilt?",
+            "audio": "sb_u06_3_3"
+          }
+        ],
+        "task": "Find the o things!",
+        "task_ko": "o로 시작하는 것을 찾아요"
+      }
+    ]
+  }
+}

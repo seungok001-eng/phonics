@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791284089.568936,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/8c6b6063-9fab-4fbd-847d-e8fdb36e0fdc?Expires=1791305663&KeyName=labs-flow-prod-cdn-key&Signature=fKwS14myqx4eVaKQiZwfXFYOGCA",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-06 19:57",
  "gen": "",
  "job_type": "image",
  "reference": "tree_a",
@@ -19,5 +19,6 @@
  "title": "글자나무 D",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a happy brown puppy sitting with its tongue out; a yellow duck with an orange beak standing; a rag doll with yarn hair and a pink dress — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
  "aspect": "3:4",
- "out": "web/assets/art/tree_d.png"
+ "out": "web/assets/art/tree_d.png",
+ "claimed_at": 1791284046.412956
 }

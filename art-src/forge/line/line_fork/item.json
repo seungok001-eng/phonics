@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791284726.2509787,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/25e8e867-faae-4346-9b30-49f5112a8ee2?Expires=1791306305&KeyName=labs-flow-prod-cdn-key&Signature=4KSs6zsf_VLHdw6-3SUCH5BhBCk",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-06 20:08",
  "gen": "",
  "job_type": "image",
  "reference": "word_fork",
@@ -19,5 +19,6 @@
  "title": "fork 선 그림 · 포크",
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
- "out": "web/assets/art/line_fork.png"
+ "out": "web/assets/art/line_fork.png",
+ "claimed_at": 1791284675.8788164
 }

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 스토리북</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="story.css">
+</head>
+<body class="storybook">
+<div id="top">
+  <a class="brand" href="../">Pomi Phonics<small id="sbTitle"></small></a>
+  <button onclick="tocToggle()" id="btnToc" title="차례">☰ 차례</button>
+  <span class="grow"></span>
+  <span id="pageInfo"></span>
+  <button onclick="sbGo(-1)" id="btnPrev" title="앞 쪽 (←)">◀</button>
+  <button onclick="sbGo(1)" id="btnNext" title="다음 쪽 (→)">▶</button>
+  <button class="primary" onclick="sbReadToggle()" id="btnRead" title="자동 읽기 (스페이스)">▶ Read</button>
+  <button onclick="toggleFull()" title="전체화면">⛶</button>
+</div>
+<div id="book"><div id="pageArea"></div></div>
+<div id="toc" class="off" onclick="if(event.target===this)tocToggle()"><div class="card"><h2>📙 차례</h2><div id="tocList"></div></div></div>
+<div id="overlay"><div class="card"><h1 style="color:var(--orange);margin:0 0 6px">Pomi Phonics</h1><p style="color:var(--soft);margin:0 0 18px">소리를 켜려면 한 번 눌러 주세요</p><button onclick="startApp()">▶ Start</button></div></div>
+<div id="toast"></div>
+<script src="app.js"></script>
+<script src="pages.js"></script>
+<script>
+// 전체화면 그림책: 쪽 = 그림 + 글 띠. story.html?u=1&p=1 (u 는 cover·front·back 또는 유닛 번호)
+// ▶ 자동 읽기: 줄마다 불이 켜지고 아바타 입이 움직인다(app.js talking). 끝나면 다음 쪽으로 이어진다. ←→·스와이프·화면 양끝 누르기로 넘긴다.
+const SB = { pages: [], i: 0, auto: false, token: 0 };
+function params() { const q = new URLSearchParams(location.search), u = q.get('u'); return { u: u === null ? 'cover' : /^\d+$/.test(u) ? +u : u, p: +(q.get('p') ?? 1) }; }
+function findPage({ u, p }) { const i = SB.pages.findIndex((x) => x.u === u && x.p === p); return i < 0 ? Math.max(0, SB.pages.findIndex((x) => x.u === u)) : i; }
+function render() {
+  const pg = SB.pages[SB.i], n = SB.pages.length;
+  stopSeq();
+  const lines = (pg.lines || []).map((ln, k) => `<div class="line say" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}</span></div>`).join('');
+  const task = pg.task ? `<div class="task say" data-say="${esc(pg.task_audio || pg.id + '_task')}" data-text="${esc(pg.task)}">✨ <span>${esc(pg.task)}</span>${pg.task_ko ? `<small>${esc(pg.task_ko)}</small>` : ''}</div>` : '';
+  const title = pg.cover ? `<div class="cover-title"><small>${esc(App.book.series)} ${App.book.book}</small><h1>${esc(pg.title)}</h1></div>` : '';
+  const where = typeof pg.u === 'number' ? `Unit ${pg.u} · ${esc(pg.title)}` : pg.u === 'cover' ? '' : esc(pg.title);
+  $('pageArea').innerHTML = `<div class="sb-page ${pg.cover ? 'cover' : ''}"><div class="art">${pic(pg.id, '', pg.desc || pg.title)}${title}<div class="edge l" onclick="sbGo(-1)"></div><div class="edge r" onclick="sbGo(1)"></div></div>
+    ${pg.cover ? '' : `<div class="band"><div class="where">${where}</div><div class="lines">${lines}</div>${task}</div>`}</div>`;
+  $('pageInfo').textContent = `${SB.i + 1} / ${n}`; $('btnPrev').disabled = SB.i <= 0; $('btnNext').disabled = SB.i >= n - 1;
+  const q = new URLSearchParams(location.search); q.set('u', pg.u); q.set('p', pg.p); history.replaceState(null, '', '?' + q);
+  document.querySelectorAll('#tocList a').forEach((a) => a.classList.toggle('on', +a.dataset.i === SB.i));
+  // 옆 쪽 그림 미리 받기
+  [SB.i - 1, SB.i + 1].forEach((j) => { if (SB.pages[j]) { const im = new Image(); im.src = artSrc(SB.pages[j].id); } });
+}
+function sbGo(d) { const j = SB.i + d; if (j < 0 || j >= SB.pages.length) return; SB.i = j; render(); if (SB.auto) sbRead(); }
+function sbJump(i) { SB.i = i; tocToggle(false); render(); if (SB.auto) sbRead(); }
+// 자동 읽기: 이 쪽의 줄을 차례로 읽고(배경음악은 유닛 story.bgm), 과제를 읽은 뒤 다음 쪽으로
+function sbReadToggle() { if (SB.auto) { SB.auto = false; SB.token++; stopSeq(); Sound.bgmOff(); setReadBtn(); } else { SB.auto = true; setReadBtn(); sbRead(); } }
+function setReadBtn() { $('btnRead').textContent = SB.auto ? '⏸ Stop' : '▶ Read'; $('btnRead').classList.toggle('on', SB.auto); }
+async function sbRead() {
+  const my = ++SB.token, pg = SB.pages[SB.i];
+  Sound.unlock(); Sound.bgm(pg.bgm);
+  const items = (pg.lines || []).map((ln, k) => {
+    const el = document.querySelector(`.line[data-line="${k}"]`);
+    return { id: ln.audio, text: ln.text, el, gap: 650, before: () => { talking(el?.querySelector('img'), true); if (ln.sfx) Sound.sfx(ln.sfx); }, after: () => talking(el?.querySelector('img'), false) };
+  });
+  const ok = await playSeq(items);
+  if (!ok || my !== SB.token) return;
+  const t = document.querySelector('.task');
+  if (t) { await sleep(400); if (my !== SB.token) return; t.classList.add('hl'); await Sound.play(t.dataset.say, t.dataset.text); t.classList.remove('hl'); }
+  if (!SB.auto || my !== SB.token) return;
+  await sleep(pg.cover ? 1800 : 1400); if (my !== SB.token) return;
+  if (SB.i < SB.pages.length - 1) sbGo(1); else { SB.auto = false; setReadBtn(); Sound.bgmOff(); Sound.sfx('chime'); }
+}
+// 차례: 표지 · 앞 쪽 · 유닛마다 · 뒤 쪽
+function tocBuild() {
+  const groups = [];
+  SB.pages.forEach((pg, i) => { const key = String(pg.u); let g = groups.find((x) => x.key === key); if (!g) { g = { key, u: pg.u, title: pg.title, first: i, n: 0, id: pg.id }; groups.push(g); } g.n++; });
+  $('tocList').innerHTML = groups.map((g) => `<a data-i="${g.first}" onclick="sbJump(${g.first})">${pic(g.id, 'thumb', g.title)}<span class="t">${typeof g.u === 'number' ? `<b>Unit ${g.u}</b> ` : ''}${esc(g.title)}</span><span class="n">${g.n}쪽</span></a>`).join('');
+}
+function tocToggle(on) { const t = $('toc'); t.classList.toggle('off', on === undefined ? !t.classList.contains('off') : !on); }
+function toggleFull() { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); }
+function startApp() { Sound.unlock(); $('overlay').style.display = 'none'; }
+if (new URLSearchParams(location.search).get('nooverlay') === '1') $('overlay').style.display = 'none';
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight') sbGo(1); else if (e.key === 'ArrowLeft') sbGo(-1);
+  else if (e.key === ' ') { e.preventDefault(); sbReadToggle(); } else if (e.key === 'Escape') tocToggle(false);
+});
+// 손가락으로 밀어 넘기기
+(() => {
+  let sx = 0, sy = 0, t0 = 0;
+  const book = $('book');
+  book.addEventListener('pointerdown', (e) => { sx = e.clientX; sy = e.clientY; t0 = Date.now(); });
+  book.addEventListener('pointerup', (e) => { const dx = e.clientX - sx, dy = e.clientY - sy; if (Date.now() - t0 < 800 && Math.abs(dx) > 70 && Math.abs(dy) < 80) sbGo(dx < 0 ? 1 : -1); });
+})();
+(async () => {
+  App.book = await loadJSON('book.json');
+  if (!App.book) { $('pageArea').innerHTML = '<p style="color:#fff;padding:20px">content/book.json 을 읽지 못했어요 (tools/serve.py 로 열어 주세요)</p>'; return; }
+  await Promise.all(App.book.units.map((x) => loadUnit(x.n)));
+  SB.pages = storyPages();
+  if (!SB.pages.length) { $('pageArea').innerHTML = '<p style="color:#fff;padding:20px">스토리북 내용(book.json 의 storybook)이 아직 없어요</p>'; return; }
+  $('sbTitle').textContent = App.book.storybook.title || 'Storybook'; document.title = `${App.book.storybook.title || 'Storybook'} — Pomi Phonics`;
+  tocBuild(); SB.i = findPage(params()); render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,467 @@
+{
+  "unit": 7,
+  "title": "The Queen's Quilt",
+  "title_ko": "여왕의 이불",
+  "letters": [
+    "p",
+    "q",
+    "r"
+  ],
+  "sight_words": [
+    "can",
+    "you"
+  ],
+  "objectives_ko": [
+    "글자 P·Q·R의 이름과 소리를 알고 말한다",
+    "대문자와 소문자를 구별하고 바르게 쓴다",
+    "P·Q·R로 시작하는 단어 9개를 듣고 말하고 찾는다",
+    "사이트워드 can, you를 보고 읽는다 (Q는 qu로 /kw/ 소리가 남을 안다)"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Sounds, Letters, Words",
+      "title_ko": "소리·쓰기·단어",
+      "pages": [
+        {
+          "type": "sounds",
+          "title": "Sounds"
+        },
+        {
+          "type": "trace",
+          "title": "Trace and write."
+        },
+        {
+          "type": "words",
+          "title": "Words"
+        },
+        {
+          "type": "read_play",
+          "title": "Trace and read. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_trace",
+          "title": "A. Trace and write."
+        },
+        {
+          "type": "wb_letters",
+          "title": "B. Circle the same letter.  C. Match and color."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Story and Review",
+      "title_ko": "스토리·정리",
+      "pages": [
+        {
+          "type": "listen_point",
+          "title": "Listen, point and say."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_words",
+          "title": "D. Trace the words.  E. Color and say."
+        },
+        {
+          "type": "wb_read",
+          "title": "F. Read three times.  G. Sort the words.  H. Finish the story."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Queen's Quilt",
+    "bgm": "u7_story",
+    "panels": [
+      {
+        "id": "scene_u07_1",
+        "desc": "A cozy corner of the night garden at dawn, pale pink sky. On a garden bed lies a big lump covered by a colorful patchwork quilt — the friends think the garden queen is sleeping there. Beside it, a black-and-white panda sits drawing with a yellow pencil, and a red cooking pot full of pencils stands next to it with a glowing golden seed inside. Hedgie whispers and points at the panda; Pip is trying to say a sound, but a single round soap bubble floats out of its open beak and it stares at it cross-eyed. Bun covers her mouth laughing. Hidden in the picture: the pencil, the panda, the pot. The lump under the quilt is really Grumble: only his two slippers poke out from under the quilt edge, and a bright warm lantern glow shines through the fabric from inside.",
+        "hidden": [
+          "pencil",
+          "panda",
+          "pot"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Can you see the panda?",
+            "audio": "u07_l1"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Pop! A bubble!",
+            "audio": "u07_l2"
+          },
+          {
+            "who": "bun",
+            "text": "/p/ /p/ panda!",
+            "audio": "u07_l3",
+            "pop": "p"
+          }
+        ],
+        "video": "vid_u07_1"
+      },
+      {
+        "id": "scene_u07_2",
+        "desc": "Bun has lifted the patchwork quilt by one corner — and underneath is not the queen but Grumble, curled up with his lantern, blinking in surprise with his nightcap over one eye; his lantern glows bright. A yellow duck beside the bed quacks loudly at him with its beak wide open. Across the lawn, the real garden queen — a kind queen swan with a golden crown and a purple robe — sits awake on a throne of flowers holding a glowing golden seed and giggling. Hedgie gasps; Pip glows. Behind them the new P letter tree with pencil-, panda- and pot-shaped fruits. Hidden in the picture: the queen, the quilt, the quacking duck.",
+        "hidden": [
+          "queen",
+          "quilt",
+          "quack"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Can you see the queen?",
+            "audio": "u07_l4"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my quilt!",
+            "audio": "u07_l5"
+          },
+          {
+            "who": "hedgie",
+            "text": "/kw/ /kw/ quilt!",
+            "audio": "u07_l6",
+            "pop": "q"
+          }
+        ]
+      },
+      {
+        "id": "scene_u07_3",
+        "desc": "Rain begins to fall from a grey cloud over the garden. A red-and-white toy rocket stands on a little launch pad with a glowing golden seed on its tip; blue raindrops bounce off it. Bun holds a big leaf over her head; Hedgie points at the rocket; Pip glows under Bun's leaf. Hidden in the picture: the rocket, the rain cloud, a bowl of steaming white rice on the picnic table under a lid. Grumble sits under the picnic table with the quilt wrapped around him like a cape, holding his lantern, which glows bright and steady in the rain.",
+        "hidden": [
+          "rocket",
+          "rain",
+          "rice"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Rain! Can you see the rocket?",
+            "audio": "u07_l7"
+          },
+          {
+            "who": "bun",
+            "text": "/r/ /r/ rocket!",
+            "audio": "u07_l8",
+            "pop": "r"
+          },
+          {
+            "who": "pip",
+            "text": "R!",
+            "audio": "name_r",
+            "sfx": "chime"
+          }
+        ],
+        "video": "vid_u07_2"
+      },
+      {
+        "id": "scene_u07_4",
+        "desc": "The rocket blasts up through the rain cloud with a trail of flames and the cloud breaks apart, letting pale morning light through. Three new letter trees (P with pencil, panda and pot fruits; Q with queen, quilt and quack fruits; R with rocket, rain and rice fruits) stand in a row. The queen waves from her flower throne. Bun and Hedgie cheer; Pip glows brightly. Grumble stands beside the trees still wearing the quilt as a cape, hugging it, with a shy hopeful look; his lantern glows bright. Hidden in the picture: the quilt cape, the rocket in the sky.",
+        "hidden": [
+          "quilt",
+          "rocket"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "P! Q! R!",
+            "audio": "u07_l9",
+            "sfx": "chime"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Can I keep it?",
+            "audio": "u07_l10"
+          },
+          {
+            "who": "hedgie",
+            "text": "You can!",
+            "audio": "u07_l11"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_u07_1",
+      "from": "scene_u07_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the panda scribbles with its pencil, the lump under the quilt rises and falls with snoring and the lantern glow inside pulses softly, the baby bird blows a single bubble that floats up and pops; the rabbit giggles. Camera still. Playful, child-friendly. No text."
+    },
+    {
+      "id": "vid_u07_2",
+      "from": "scene_u07_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: raindrops fall and bounce off the toy rocket, the golden seed on its tip sparkles, then with a soft POP a small cheerful letter tree sprouts beside the launch pad and grows quickly with rocket-shaped fruits swinging; the raccoon under the table pulls his quilt cape tighter. Camera still. Child-friendly. No text."
+    }
+  ],
+  "check": {
+    "listen_circle": [
+      {
+        "audio": "sound_q",
+        "options": [
+          "p",
+          "q",
+          "r"
+        ],
+        "answer": "q"
+      },
+      {
+        "audio": "word_pot",
+        "options": [
+          "pot",
+          "panda",
+          "pencil"
+        ],
+        "answer": "pot"
+      },
+      {
+        "audio": "word_rice",
+        "options": [
+          "rocket",
+          "rain",
+          "rice"
+        ],
+        "answer": "rice"
+      }
+    ],
+    "match": [
+      {
+        "letter": "p",
+        "word": "pencil"
+      },
+      {
+        "letter": "q",
+        "word": "quack"
+      },
+      {
+        "letter": "r",
+        "word": "rain"
+      }
+    ],
+    "find_write": [
+      {
+        "word": "queen",
+        "letter": "q"
+      },
+      {
+        "word": "rocket",
+        "letter": "r"
+      },
+      {
+        "word": "panda",
+        "letter": "p"
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_sound",
+    "title": "Catch the sound!",
+    "rounds": [
+      {
+        "audio": "sound_p",
+        "answer": "p",
+        "pictures": [
+          "pencil",
+          "queen",
+          "rain"
+        ]
+      },
+      {
+        "audio": "sound_r",
+        "answer": "r",
+        "pictures": [
+          "pot",
+          "rice",
+          "quilt"
+        ]
+      },
+      {
+        "audio": "sound_q",
+        "answer": "q",
+        "pictures": [
+          "quack",
+          "panda",
+          "rocket"
+        ]
+      },
+      {
+        "audio": "sound_p",
+        "answer": "p",
+        "pictures": [
+          "rain",
+          "panda",
+          "quack"
+        ]
+      },
+      {
+        "audio": "sound_r",
+        "answer": "r",
+        "pictures": [
+          "quilt",
+          "pencil",
+          "rocket"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "circle_same": [
+      {
+        "target": "P",
+        "row": [
+          "P",
+          "R",
+          "P",
+          "B",
+          "P"
+        ]
+      },
+      {
+        "target": "q",
+        "row": [
+          "q",
+          "p",
+          "q",
+          "g",
+          "q"
+        ]
+      },
+      {
+        "target": "r",
+        "row": [
+          "r",
+          "n",
+          "r",
+          "m",
+          "r"
+        ]
+      }
+    ],
+    "sort": {
+      "p": [
+        "pencil",
+        "pot"
+      ],
+      "q": [
+        "queen",
+        "quilt"
+      ],
+      "r": [
+        "rocket",
+        "rain"
+      ]
+    },
+    "finish_story": [
+      {
+        "text": "Can you see the ___?",
+        "answer": "panda",
+        "picture": "panda"
+      },
+      {
+        "text": "/kw/ /kw/ ___!",
+        "answer": "quilt",
+        "picture": "quilt"
+      },
+      {
+        "text": "/r/ /r/ ___!",
+        "answer": "rocket",
+        "picture": "rocket"
+      }
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb_u07_1",
+        "desc": "A cozy corner at dawn. On a garden bed lies a big lump under a colorful patchwork quilt; two slippers poke out from under its edge and a bright warm lantern glow shines through the fabric. Beside it a panda draws with a yellow pencil and a red pot of pencils holds a glowing seed. Hedgie whispers and points; Pip tries to say a sound but a single soap bubble floats out of its beak; Bun covers her mouth laughing. Hidden in the picture: the pencil, the panda, the pot.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Can you see the panda?",
+            "audio": "sb_u07_1_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Pop! A bubble!",
+            "audio": "sb_u07_1_2"
+          },
+          {
+            "who": "bun",
+            "text": "/p/ /p/ panda! Pop!",
+            "audio": "sb_u07_1_3"
+          }
+        ],
+        "task": "Find the p things!",
+        "task_ko": "p로 시작하는 것을 찾아요"
+      },
+      {
+        "id": "sb_u07_2",
+        "desc": "Bun lifts the quilt by one corner — underneath is Grumble, curled up with his bright lantern, blinking with his nightcap over one eye. A yellow duck quacks loudly at him with its beak wide open. Across the lawn the real garden queen, a swan with a golden crown and a purple robe, sits awake on a flower throne holding a glowing seed and giggling. Hedgie gasps; Pip glows. Hidden in the picture: the queen, the quilt, the quacking duck.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Can you see the queen?",
+            "audio": "sb_u07_2_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my quilt!",
+            "audio": "sb_u07_2_2"
+          },
+          {
+            "who": "hedgie",
+            "text": "/kw/ /kw/ quilt! Pop!",
+            "audio": "sb_u07_2_3"
+          }
+        ],
+        "task": "Find the q things!",
+        "task_ko": "q로 시작하는 것을 찾아요"
+      },
+      {
+        "id": "sb_u07_3",
+        "desc": "Rain falls from a grey cloud. A red-and-white toy rocket blasts up from its launch pad with a seed on its tip, breaking the cloud apart so pale light shines through. Bun holds a big leaf over her head; a bowl of steaming rice sits on the picnic table. Three new letter trees (P, Q, R with their fruits) stand in a row. Grumble wears the quilt wrapped around him like a cape and hugs it with a shy hopeful look; his lantern glows bright. Hidden in the picture: the rocket, the rain cloud, the rice.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "/r/ /r/ rocket! Pop!",
+            "audio": "sb_u07_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Can I keep it?",
+            "audio": "sb_u07_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Oh! The sun!",
+            "audio": "sb_u07_3_3"
+          }
+        ],
+        "task": "Find the r things!",
+        "task_ko": "r로 시작하는 것을 찾아요"
+      }
+    ]
+  }
+}

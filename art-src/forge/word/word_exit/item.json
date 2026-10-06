@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791284221.3068125,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/c2bfa0b6-b633-4a82-94c4-3aee382a960c?Expires=1791305796&KeyName=labs-flow-prod-cdn-key&Signature=0Y_C1zuSVfoVsH5oHf4CWCJalww",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-06 19:57",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -19,5 +19,7 @@
  "title": "exit · 출구",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a green exit sign over a door, with a white running-figure pictogram, no letters.",
  "aspect": "1:1",
- "out": "web/assets/art/word_exit.png"
+ "out": "web/assets/art/word_exit.png",
+ "claimed_at": 1791284190.881661,
+ "asset_no": 2012
 }
