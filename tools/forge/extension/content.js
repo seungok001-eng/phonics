@@ -3061,7 +3061,8 @@ async function openFlowModeSelector() {
   const iconEl = icons.find((el) => {
     if (!(el instanceof HTMLElement)) return false;
     const txt = (el.textContent || "").trim();
-    if (txt !== "crop_16_9") return false;
+    // [교재 공방] 현재 비율에 따라 아이콘 이름이 crop_16_9 / crop_square / crop_portrait … 로 바뀌므로 crop_ 로 시작하면 전부
+    if (!/^crop_/.test(txt)) return false;
     if (!isVisible(el)) return false;
     const parentBtn = el.closest("button, [role='button']");
     if (!parentBtn) return false;
@@ -3096,6 +3097,44 @@ async function openFlowModeSelector() {
   }
   await SLEEP(500);
   return true;
+}
+
+// [교재 공방] 플로우 설정 팝오버의 이미지 비율 버튼(16:9 · 4:3 · 1:1 · 3:4 · 9:16)을 잡의 aspect 에 맞게 고른다.
+// 팝오버가 닫혀 있으면 openFlowModeSelector 로 연다. 이미 그 비율이면 건드리지 않는다 (봇 감지 위험 최소화).
+// 팝오버는 따로 닫지 않는다 — 다음 단계(프롬프트 칸 클릭)에서 저절로 닫힌다.
+async function ensureAspectSelected(aspect) {
+  const want = String(aspect || "").trim();
+  if (!/^\d+:\d+$/.test(want)) return;
+  const findBtn = () =>
+    Array.from(document.querySelectorAll("button, [role='button'], [role='radio'], [role='tab'], [role='option']"))
+      .filter((el) => el instanceof HTMLElement && isVisible(el))
+      .find((el) => {
+        const clone = el.cloneNode(true);
+        clone.querySelectorAll("i, [class*='symbol']").forEach((e) => e.remove());
+        return normalizeText(clone.textContent || "") === want;
+      });
+  const isOn = (el) =>
+    el.getAttribute("data-state") === "active" || el.getAttribute("data-state") === "on" || el.getAttribute("data-state") === "checked" ||
+    el.getAttribute("aria-checked") === "true" || el.getAttribute("aria-pressed") === "true" || el.getAttribute("aria-selected") === "true";
+  let btn = findBtn();
+  if (!btn) {
+    const opened = await openFlowModeSelector();
+    if (!opened) throw new Error("설정 팝오버를 열지 못함");
+    btn = await waitFor(() => findBtn(), 3000, 150).catch(() => null);
+  }
+  if (!btn) throw new Error(`비율 버튼 ${want} 을 찾지 못함`);
+  if (isOn(btn)) {
+    console.log(`[Flow Bridge] 비율 ${want} 이미 선택됨`);
+    return;
+  }
+  try {
+    await cdpClickElement(btn);
+  } catch (e) {
+    console.warn(`[Flow Bridge] 비율 ${want} CDP 클릭 실패, clickLikeUser 로 재시도:`, e?.message || e);
+    await clickLikeUser(btn);
+  }
+  await SLEEP(350);
+  console.log(`[Flow Bridge] 비율 ${want} 선택`);
 }
 
 // Flow 상단의 "이미지" / "동영상" 탭을 지정한 mode 로 확실히 전환.
@@ -3364,6 +3403,14 @@ async function runJobOnce(job) {
     await ensureFlowTabSelected("image");
   } catch (e) {
     console.warn("[Flow Bridge] 이미지 탭 전환 건너뜀:", e?.message || e);
+  }
+  // [교재 공방] 항목마다 비율이 다르다 (캐릭터·나무 3:4, 단어 1:1, 장면 4:3). 실패해도 잡은 계속 (플로우의 현재 비율로 만들어진다)
+  if (job.aspect) {
+    try {
+      await ensureAspectSelected(job.aspect);
+    } catch (e) {
+      console.warn("[Flow Bridge] 비율 선택 건너뜀:", e?.message || e);
+    }
   }
 
   // 취소 체크: 시작 전

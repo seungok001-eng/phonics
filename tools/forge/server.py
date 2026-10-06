@@ -368,6 +368,7 @@ def claim_job():
     ids = list(state['items'].keys())
     job = {'id': it['id'], 'prompt': f"Job {it['id']}. {it['prompt']}",   # 앞에 잡 이름을 붙여 같은 프롬프트(선 그림 78장)가 섞이지 않게
            'job_type': it.get('job_type', 'image'), 'count': 1,
+           'aspect': it.get('aspect', '1:1'),   # 확장이 플로우 설정에서 이 비율(3:4·1:1·4:3)을 고른다 (2026-10-06)
            'scene_id': f"ref:{it['id']}" if is_ref_item(it) else f"{it['kind']}:{it['id']}", 'scene_number': ids.index(it['id']) + 1, 'flow_model': 'flow'}
     if it.get('reference'):
         r = ref_item(it)
