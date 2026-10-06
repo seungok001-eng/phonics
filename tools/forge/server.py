@@ -57,7 +57,11 @@ def write_json(path, obj):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     tmp = path + '.tmp'
     json.dump(obj, open(tmp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    os.replace(tmp, path)
+    for i in range(5):   # 윈도우: 다른 스레드가 같은 파일을 쓰는 중이면 잠깐 거부된다 → 짧게 기다렸다 다시
+        try: os.replace(tmp, path); return
+        except PermissionError:
+            if i == 4: raise
+            time.sleep(0.05 * (i + 1))
 
 
 def save_item(it): write_json(os.path.join(item_dir(it), 'item.json'), it)

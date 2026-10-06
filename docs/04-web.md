@@ -36,6 +36,24 @@ pages: L1 `review_sounds` `review_board` `review_bingo`, L2 `story` `story(half:
 - `wb_review_letters`: 대·소문자 짝 잇기(두 묶음, 눌러서 잇기) + 빠진 글자 쓰기 두 줄(큰 글자·작은 글자, 화면에서는 빈 칸을 누르면 글자가 나온다).
 - `wb_review_words`: 그림 보고 첫 글자 쓰기 8개(빈 칸 누르면 글자·소리) + 단어 분류(글자 상자에 넣기).
 - 선생님 슬라이드: 소리 복습은 글자 6개씩 한 장, 놀이판·빙고는 크게 한 장, 평가는 A·B·C 한 장씩, 알파벳 복습은 26칸 한 장 + 순서 잇기 한 장.
+- 복습 글자가 26개(12유닛)면 `wb_review_letters` 의 짝 잇기는 3묶음, 빈 칸은 작게.
+
+### 12유닛 "The Alphabet Show" 쪽 종류와 데이터
+book.json: `{"n": 12, "letters": [], "review": [1,2,3,4,6,7,8,9,10], "show": true}`. 유닛 JSON: `letters: []`, `review: {letters(a~z), test, first_letter, sort}` (복습 유닛과 같음) + `show`:
+```
+"show": {
+  "song": { "title", "bgm"(music/<bgm>.mp3, 없어도 됨), "lines": [ {"text": "A, a, /æ/, apple!", "audio": "u12_s01"}, … 앞 26줄은 a~z 순서, 뒤에 마무리 줄 ] },
+  "hunt": { "rounds": [ 8개: {"letter": "b", "scene": "scene_u01_2", "words": ["bus", "bag", "bed"]} ] },
+  "recap": [ 12장: {"unit": n, "scene": "scene_u0n_k", "line": {"who", "text", "audio"}} ],
+  "certificate": { "title", "text", "text_ko" }
+}
+"story": { "title", "bgm", "panels": [ scene_u12_1 한 칸(피날레) + lines ] }
+```
+pages: L1 `alphabet_song` `alphabet_path` `word_hunt` / wb `wb_review_letters`, L2 `story_recap` `review_test` `certificate` / wb `wb_review_words`.
+- `alphabet_song`: 가사 두 단(줄마다 글자 카드 A~Z + 가사 + 가사 끝 단어 그림). ▶ Sing! = 반주(`music/<song.bgm>.mp3`)가 있으면 그 위에 줄마다 소리(`chantTrack`), 없으면 1.2초 박자로 이어 붙인다. 줄과 글자 카드에 차례로 불. 줄을 누르면 그 줄만. 인쇄는 가사+글자+그림 그대로.
+- `word_hunt`: 라운드마다 장면 그림 크게 + "Find the b things!"(누르면 소리) + 단어 단추(정답 + 다른 글자 단어 3개). 정답은 ✓·단어 소리, 다 찾으면 다음 라운드, ⭐ 점수. 인쇄는 8라운드 전부(장면 썸네일 + ☐ 단어). 슬라이드는 라운드마다 한 장.
+- `story_recap`: 무대(장면 크게 + 말풍선) + 12장면 띠(썸네일 + 대사, 누르면 무대에 올리고 소리). ▶ Show time! = 장면마다 무대에 올리며 줄 읽기 → 마지막에 `story.panels[0]`(scene_u12_1) 피날레 + 그 줄들 → "Pip can sing!". 🎭 역할 읽기는 story 쪽과 같은 함수(`storyItem`). 슬라이드는 장면마다 한 장 + 피날레 한 장.
+- `certificate`: 제목·문구(영/한)·26 글자 띠·캐릭터 4명(`char_*_cheering`, 없으면 `_ref`)·Date·Teacher 서명 자리. 웹에서 이름을 넣으면 들어가고 🖨 → `print.html?b=sb&u=12&p=<쪽>&name=<이름>` (그 쪽만, 바로 인쇄 창; `&auto=0` 이면 안 띄움). 인쇄는 A4 세로(기존 쪽 크기).
 
 ## 스토리북 (`story.html` · `print.html?b=story`)
 데이터: book.json `"storybook": {"title", "title_ko", "bgm"(선택, 없으면 theme), "cover": {id, desc}, "front": [{id, desc, lines}], "back": [...]}` + 유닛 JSON `"storybook": {"pages": [{"id": "sb_u01_1", "desc", "lines": [{"who", "text", "audio"}], "task", "task_ko", "task_audio"(선택)}]}`. 쪽 순서 = 표지 → front → 0~11유닛 쪽 → back (`app.js storyPages()`).
@@ -71,6 +89,14 @@ pages: L1 `review_sounds` `review_board` `review_bingo`, L2 `story` `story(half:
 - 짝 맞추기 `Memory game` (선생님 슬라이드 `read_play` 3번째 장만, 학생책·인쇄에는 없음): 유닛 단어 6개 × 2 = 12장(4×3). 뒤집으면 단어 소리, 짝이면 그대로 남고 효과음, 다 맞추면 Great job.
 - 역할 읽기 🎭 (`story`·슬라이드): 켜고 말풍선의 친구(번·헤지·그럼블)를 누르면 "아이가 읽는 역할"(👧 표시). ▶ 자동 읽기 때 그 줄은 소리 없이 말풍선만 켜지고 2.5초 멈춘다. 핍·해설·both 는 역할이 안 된다.
 - 속도 라운드 `Speed round!` (선생님 슬라이드 `listen_point` 2번째 장): 30초 타이머, 유닛 글자·단어 카드가 무작위로 한 장씩 크게(글자 = 소리 말하기, 단어 = 읽기, 카드를 누르면 소리). ✔/✖ 로 다음 카드, 끝나면 맞힌 수.
+
+## 시험지 생성기 (`web/teacher/test.html`)
+- 주소: `?scope=u3 | r1(1~4) | r2(6~10) | all(1~10) &level=1|2|3 &set=A|B &bw=1(선그림 line_*.png, 흑백 인쇄용) &key=1(정답지) &speaking=1(말하기 체크리스트)`. `?u=3&v=B` 옛 주소도 받는다. 위 막대의 폼으로도 고른다. 홈페이지 선생님 자료 칸에 같은 폼.
+- 듣기 문항 없음. 한 장 = A4 2쪽, 4부분 20문항, 모든 문항에 그림(그림 칸 크기 통일, 쓰기 줄은 4선). 머리에 이름·날짜·점수, 꼬리에 **글자별 점수표**(글자마다 그 글자가 나온 문항 번호 칸 — 틀린 번호에 ✗ 하면 약한 글자가 보인다).
+- Level 1(글자): 그림 보고 첫소리 글자 3지선다 6 · 대문자–소문자 잇기 6(그림 힌트) · 빠진 글자 쓰기(B _ D) 4 · 그림 보고 첫 글자 쓰기 4. Level 2(단어): 그림–단어 잇기 6 · 첫 글자 쓰기 6 · 단어 읽고 그림 고르기 4 · 단어 완성(c_t) 4. Level 3(읽기·쓰기): 단어 읽고 그림 고르기 6(같은 첫소리 단어가 보기에 섞임) · 그림 보고 단어 쓰기 6(단어 상자) · 사이트워드 문장 완성 4(범위 유닛 이야기 줄에서, 부족하면 "I see a ___." 꼴로 채움) · 첫소리별 분류 4(그림 8개 번호를 글자 상자에).
+- A/B형은 `scope-level-set` 문자열 씨앗으로 섞어 문항·보기가 다르고, 다시 열어도 같다. 정답지(`key=1`)는 같은 배치에 답만 표시. 단어는 글자마다 돌아가며 뽑아 한 장 안에서 같은 단어가 겹치지 않는다(단어가 모자란 1~2글자 유닛은 겹칠 수 있다).
+- 말하기(`speaking=1`): 종이 시험 대신 교사용 체크리스트 1쪽 — 범위 글자 칸 × 아이 16줄, 글자를 가리키면 소리를 말하고 ✓.
+- PDF 묶음(`python tools/pdf.py tests`): `PomiPhonics1_Tests_Units.pdf`(1~4·6~10 유닛마다 Level 1(1~4)/2(6~10) A형 + 정답지), `PomiPhonics1_Tests_Review.pdf`(r1·r2·all × Level 1~3 × A/B + 정답지 + 말하기 체크리스트 3장). 그림은 `build/art_small/`(Pillow 로 360px 축소, git 밖)을 써서 가볍게(`&art=` 매개변수). `index.json` 은 있던 목록에 합쳐진다.
 
 ## 선생님 모드
 `?t=1` 또는 👩‍🏫 단추. 단추가 커지고 ⛶ 전체화면. 키보드: ← → 쪽 넘기기, 스페이스 = 그 쪽의 주 재생 단추.

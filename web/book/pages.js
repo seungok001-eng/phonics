@@ -480,12 +480,12 @@ function bingoReset() { BG.called = []; BG.lines = []; document.querySelectorAll
 
 // 복습 워크북 1: 대·소문자 짝 잇기(두 묶음) + 빠진 글자 쓰기
 PAGES.wb_review_letters = (ctx) => {
-  const ls = unitLetters(ctx.unit), halfN = Math.ceil(ls.length / 2);
+  const ls = unitLetters(ctx.unit), nb = ls.length > 14 ? 3 : 2, per = Math.ceil(ls.length / nb);   // 글자가 많으면(26) 3묶음
   const block = (part, seed) => `<div class="pair"><div class="col">${part.map((l) => `<div class="it ${letterCls(l)}" data-u="${l}" onclick="pairPick(this)">${l.toUpperCase()}</div>`).join('')}</div><div class="col">${shuffle(part, seed).map((l) => `<div class="it" data-l="${l}" onclick="pairPick(this)">${l}</div>`).join('')}</div></div>`;
   // 빠진 글자 줄: 큰 글자 한 줄, 작은 글자 한 줄 (빈 칸 자리는 서로 다르게)
   const line = (up, k) => ls.map((l, i) => { const ch = up ? l.toUpperCase() : l; return i % 3 === k ? `<span class="bx blank" onclick="this.textContent='${ch}';Sound.unlock();Sound.play('name_${l}','${l.toUpperCase()}')"></span>` : `<span class="bx">${ch}</span>`; }).join('');
-  return instr('A', 'Match the big and small letters.', '큰 글자와 작은 글자를 눌러 이어요') + `<div class="pairs">${block(ls.slice(0, halfN), 3 + ctx.u)}${block(ls.slice(halfN), 5 + ctx.u)}</div>` +
-    instr('B', 'Write the missing letters.', '빠진 글자를 써요 (화면에서는 빈 칸을 누르면 글자가 나와요)') + `<div class="missing">${line(true, 2)}</div><div class="missing">${line(false, 1)}</div>`;
+  return instr('A', 'Match the big and small letters.', '큰 글자와 작은 글자를 눌러 이어요') + `<div class="pairs n${nb}">${Array.from({ length: nb }, (_, k) => block(ls.slice(k * per, (k + 1) * per), 3 + k * 2 + ctx.u)).join('')}</div>` +
+    instr('B', 'Write the missing letters.', '빠진 글자를 써요 (화면에서는 빈 칸을 누르면 글자가 나와요)') + `<div class="missing ${ls.length > 14 ? 'many' : ''}">${line(true, 2)}</div><div class="missing ${ls.length > 14 ? 'many' : ''}">${line(false, 1)}</div>`;
 };
 const PR = { sel: null };
 function pairPick(el) {
@@ -507,3 +507,117 @@ PAGES.wb_review_words = (ctx) => {
   return instr('C', 'Write the first letter.', '그림을 보고 첫 글자를 써요 (화면에서는 빈 칸을 누르면 글자가 나와요)') + `<div class="write-row fl-row">${fl}</div>` +
     instr('D', 'Sort the words.', '단어를 눌러 글자 상자에 넣어요') + sortHtml;
 };
+
+// ---------- 12유닛: The Alphabet Show ----------
+// 데이터: unit.show = { song: {title, bgm, lines: [{text, audio}] — 앞 26줄은 a~z 순서}, hunt: {rounds: [{letter, scene, words}]},
+//                    recap: [{unit, scene, line: {who, text, audio}}], certificate: {title, text, text_ko} }
+// 가사 한 줄의 마지막 낱말이 단어 목록에 있으면 그 그림을 작게 보여 준다 ("A, a, /æ/, apple!" → apple)
+function songWord(text) { const w = (text.match(/[a-z-]+(?=[!?.]*\s*$)/i) || [''])[0].toLowerCase(); return App.book.words[w] ? w : ''; }
+function songLines(unit, big) {
+  const az = Object.keys(App.book.letters);
+  return unit.show.song.lines.map((ln, i) => {
+    const l = az[i], w = songWord(ln.text);
+    return `<div class="song-line say" data-i="${i}" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}">${l ? `<span class="lt ${letterCls(l)}" data-l="${l}">${l.toUpperCase()}<small>${l}</small></span>` : '<span class="lt note">♪</span>'}<span class="txt">${esc(ln.text)}</span>${w ? pic('word_' + w, 'sw', w) : ''}</div>`;
+  }).join('');
+}
+PAGES.alphabet_song = (ctx) => {
+  const sg = ctx.unit.show.song;
+  return instr(1, `♪ ${sg.title}`, '글자 카드와 가사를 보며 노래해요. 줄을 누르면 그 줄만 나와요') +
+    `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="songPlay()">▶ Sing!</button><button class="btn small" onclick="stopSeq();chantTrackOff()">⏹</button></div>` +
+    `<div class="song">${songLines(ctx.unit)}</div>`;
+};
+// 전체 부르기: 반주(music/<bgm>.mp3)가 있으면 그 위에 줄마다 소리, 없으면 1.2초 박자로 이어 붙인다. 줄과 글자 카드에 차례로 불
+async function songPlay() {
+  Sound.unlock(); stopSeq();
+  const sg = App.units[App.u].show.song, beat = await chantTrack(sg.bgm);
+  const items = sg.lines.map((ln, i) => { const el = document.querySelector(`.song-line[data-i="${i}"]`); return { id: ln.audio, text: ln.text, el, gap: 300, beat: beat ? 0 : CHANT_BEAT, before: () => el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }) }; });
+  await playSeq(items); chantTrackOff();
+}
+
+// 단어 사냥: 라운드마다 장면 그림 + "Find the b things!" + 단어 단추(정답 + 다른 글자 단어 3개). 다 찾으면 다음 라운드, 점수는 ⭐
+const HUNT = { i: 0, found: 0, score: 0 };
+function huntButtons(ctx, r, seed) {
+  const others = shuffle(unitLetters(ctx.unit).filter((l) => l !== r.letter).flatMap((l) => L(l).words).filter((w) => !r.words.includes(w)), seed).slice(0, 3);
+  return shuffle(r.words.concat(others), seed + 7).map((w) => `<button class="hunt-w ${letterCls(letterOf(w))}" data-w="${esc(w)}" onclick="huntPick(this)">${esc(w)}</button>`).join('');
+}
+function huntRoundHtml(ctx, i) {
+  const r = ctx.unit.show.hunt.rounds[i];
+  return `<div class="hunt-scene">${pic(r.scene, '', 'scene')}</div>
+    <div class="hunt-side"><div class="hunt-q say" data-say="sound_${r.letter}" data-text="${esc(soundText(r.letter))}">Find the <b class="${letterCls(r.letter)}">${r.letter}</b> things!</div><div class="hunt-ws">${huntButtons(ctx, r, i + 11)}</div></div>`;
+}
+PAGES.word_hunt = (ctx) => {
+  const rounds = ctx.unit.show.hunt.rounds;
+  if (ctx.print) {   // 인쇄: 라운드 전부(장면 + 찾을 단어 ☐)
+    return instr(1, 'Find the things.', '장면에서 그 글자로 시작하는 것을 찾아 ☐ 에 표시해요') +
+      `<div class="hunt-print">${rounds.map((r, i) => `<div class="hp"><div class="hp-scene">${pic(r.scene, '', 'scene')}</div><div class="hp-side"><b>${i + 1}. Find the <span class="${letterCls(r.letter)}">${r.letter}</span> things!</b>${r.words.map((w) => `<span class="hp-w">☐ ${esc(w)}</span>`).join('')}</div></div>`).join('')}</div>`;
+  }
+  HUNT.i = 0; HUNT.found = 0; HUNT.score = 0;
+  return instr(1, 'Word hunt!', '글자 소리를 듣고, 장면에서 그 소리로 시작하는 것을 찾아 단어를 눌러요') +
+    `<div class="hunt-bar print-hide"><button class="btn orange main-play" onclick="huntStart()">▶ Start</button><span class="round" id="huntRound">1 / ${rounds.length}</span><span class="stars" id="huntStars"></span><span class="msg" id="huntMsg"></span></div>` +
+    `<div class="hunt" id="hunt">${huntRoundHtml(ctx, 0)}</div>`;
+};
+function huntStart() { Sound.unlock(); HUNT.i = 0; HUNT.found = 0; HUNT.score = 0; huntRound(); }
+async function huntRound() {
+  const unit = App.units[App.u], rounds = unit.show.hunt.rounds;
+  if (HUNT.i >= rounds.length) { $('huntMsg').textContent = App.book.instructions.great_job; Sound.sfx('chime'); Sound.play('instr_great_job', App.book.instructions.great_job); return; }
+  const r = rounds[HUNT.i]; HUNT.found = 0;
+  $('hunt').innerHTML = huntRoundHtml({ unit }, HUNT.i);
+  $('huntRound').textContent = `${HUNT.i + 1} / ${rounds.length}`; $('huntStars').textContent = '⭐'.repeat(HUNT.score); $('huntMsg').textContent = '';
+  await sleep(300); Sound.play('sound_' + r.letter, soundText(r.letter));
+}
+async function huntPick(el) {
+  const rounds = App.units[App.u].show.hunt.rounds, r = rounds[HUNT.i]; if (!r || el.classList.contains('ok')) return;
+  Sound.unlock();
+  if (r.words.includes(el.dataset.w)) {
+    el.classList.add('ok'); Sound.sfx('ok'); HUNT.found++; HUNT.score++; $('huntStars').textContent = '⭐'.repeat(HUNT.score);
+    await Sound.play('word_' + el.dataset.w, el.dataset.w);
+    if (HUNT.found >= r.words.length) { $('huntMsg').textContent = '✔ ' + App.book.instructions.great_job; Sound.sfx('chime'); await sleep(900); HUNT.i++; huntRound(); }
+  } else { el.classList.add('no'); Sound.sfx('no'); $('huntMsg').textContent = App.book.instructions.try_again; setTimeout(() => el.classList.remove('no'), 500); }
+}
+
+// 이야기 되돌아보기(공연): 12장면 띠(썸네일 + 대사, 누르면 소리) + ▶ 전체 공연(무대에 장면 크게 + 줄 읽기, 역할 읽기 🎭) + 마지막 피날레(unit.story 첫 칸)
+function recapStageHtml(scene, line, title) {
+  const bubble = line ? `<div class="bubble say" data-say="${esc(line.audio)}" data-text="${esc(line.text)}">${avatar(line.who)}<span>${esc(line.text)}</span></div>` : '';
+  return `<div class="stage-pic">${pic(scene, '', 'scene')}</div><div class="stage-cap">${title ? `<div class="stage-title">${esc(title)}</div>` : ''}${bubble}</div>`;
+}
+PAGES.story_recap = (ctx) => {
+  const rc = ctx.unit.show.recap, fin = ctx.unit.story.panels[0];
+  const strip = rc.map((r, i) => `<div class="rc-cell say" data-i="${i}" data-say="${esc(r.line.audio)}" data-text="${esc(r.line.text)}" onclick="recapShow(${i})"><span class="u">Unit ${r.unit}</span>${pic(r.scene, '', 'scene')}<div class="ln">${avatar(r.line.who)}<span>${esc(r.line.text)}</span></div></div>`).join('');
+  return `<div class="story-top"><h3 style="margin:0;font-size:24px">🎭 ${esc(ctx.unit.story.title)}</h3><button class="btn orange main-play print-hide" onclick="recapPlay()">▶ Show time!</button>${ctx.print ? '' : roleBtn()}</div>` +
+    `<div class="stage" id="rcStage">${recapStageHtml(fin.id, null, ctx.unit.story.title)}</div><div class="rc-strip">${strip}</div>`;
+};
+// 띠의 한 장면을 무대에 올리고 그 줄을 읽는다
+function recapShow(i) {
+  const unit = App.units[App.u], r = unit.show.recap[i]; stopSeq();
+  $('rcStage').innerHTML = recapStageHtml(r.scene, r.line, `Unit ${r.unit}`);
+  document.querySelectorAll('.rc-cell').forEach((c) => c.classList.toggle('on', +c.dataset.i === i));
+}
+async function recapPlay() {
+  Sound.unlock(); stopSeq();
+  const unit = App.units[App.u], rc = unit.show.recap, fin = unit.story.panels[0]; Sound.bgm(unit.story.bgm);
+  const items = rc.map((r, i) => ({ ...storyItem(r.line, null, {}, 0, 1), gap: 700,
+    before: () => { recapShow(i); const el = document.querySelector('#rcStage .bubble'); el?.classList.add('hl'); if (!(ROLE.on && ROLE.has(r.line.who))) talking(el?.querySelector('img'), true); document.querySelector(`.rc-cell[data-i="${i}"]`)?.scrollIntoView({ block: 'nearest' }); },
+    after: () => { talking(document.querySelector('#rcStage .bubble img'), false); } }));
+  // 피날레: 마지막 장면 + 이야기 줄
+  fin.lines.forEach((ln, k) => items.push({ ...storyItem(ln, null, fin, 0, k), gap: 700,
+    before: () => { if (k === 0) { $('rcStage').innerHTML = recapStageHtml(fin.id, ln, unit.story.title); document.querySelectorAll('.rc-cell').forEach((c) => c.classList.remove('on')); } else $('rcStage').querySelector('.stage-cap').innerHTML = `<div class="stage-title">${esc(unit.story.title)}</div><div class="bubble say" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}">${avatar(ln.who)}<span>${esc(ln.text)}</span></div>`; const el = document.querySelector('#rcStage .bubble'); el?.classList.add('hl'); if (!(ROLE.on && ROLE.has(ln.who))) talking(el?.querySelector('img'), true); if (ln.sfx) Sound.sfx(ln.sfx); },
+    after: () => talking(document.querySelector('#rcStage .bubble img'), false) }));
+  const ok = await playSeq(items);
+  if (ok) { Sound.sfx('chime'); toast('🎉 Pip can sing!'); }
+}
+
+// 수료증: 이름·날짜 빈칸, 제목·문구(영/한), 캐릭터 4명(cheering → 없으면 ref), 26 글자 띠, 선생님 서명. 웹에서 이름을 넣으면 들어가고 🖨 로 그 쪽만 인쇄
+PAGES.certificate = (ctx) => {
+  const c = ctx.unit.show.certificate, name = ctx.name || '';
+  const chars = Object.keys(App.book.characters).map((id) => `<span class="pic cert-char"><img src="${artSrc('char_' + id + '_cheering')}" alt="${esc(App.book.characters[id].name)}" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${artSrc('char_' + id + '_ref')}'}else picFallback(this)"></span>`).join('');
+  const az = Object.keys(App.book.letters).map((l) => `<span class="${letterCls(l)}">${l.toUpperCase()}${l}</span>`).join('');
+  const form = ctx.print ? '' : `<div class="cert-form print-hide"><input id="certName" placeholder="이름 (영어)" value="${esc(name)}" oninput="certName(this.value)"><button class="btn small" onclick="certPrint()">🖨 인쇄</button></div>`;
+  return form + `<div class="cert"><div class="cert-ribbon">${esc(App.book.series)} ${App.book.book}</div><h1>${esc(c.title)}</h1>
+    <div class="cert-az">${az}</div>
+    <div class="cert-name"><span id="certNameOut">${esc(name) || '&nbsp;'}</span></div>
+    <div class="cert-text">${esc(c.text)}</div><div class="cert-ko">${esc(c.text_ko || '')}</div>
+    <div class="cert-chars">${chars}</div>
+    <div class="cert-foot"><span>Date <i></i></span><span>Teacher <i></i></span></div></div>`;
+};
+function certName(v) { const o = $('certNameOut'); if (o) o.textContent = v || ' '; }
+function certPrint() { const v = $('certName')?.value || ''; window.open(`print.html?b=${App.b}&u=${App.u}&p=${App.p}&name=${encodeURIComponent(v)}`, '_blank'); }

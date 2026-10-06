@@ -220,3 +220,39 @@ function setupPinch(pw) {
   const up = (e) => { pts.delete(e.pointerId); if (pts.size < 2) { if (base) saveView(); base = null; } };
   pw.addEventListener('pointerup', up, { capture: true }); pw.addEventListener('pointercancel', up, { capture: true });
 }
+
+// ---------- 12유닛: The Alphabet Show ----------
+// 노래 한 장(가사 두 단, 부르는 줄로 스크롤) · 단어 사냥 라운드마다 한 장 · 공연 장면마다 한 장 + 피날레 · 수료증 한 장
+TEACH.alphabet_song = {
+  count: () => 1,
+  render: (ctx) => tWrap(ctx, `♪ ${ctx.unit.show.song.title}`, '▶ 로 전체 부르기, 줄을 누르면 그 줄만', 0, 1,
+    `<div class="sl-tools"><button class="btn orange big main-play" onclick="songPlay()">▶ Sing!</button><button class="btn big" onclick="stopSeq();chantTrackOff()">⏹</button></div><div class="song sl-song">${songLines(ctx.unit, true)}</div>`),
+};
+TEACH.word_hunt = {
+  count: (ctx) => ctx.unit.show.hunt.rounds.length,
+  render: (ctx, s) => {
+    const n = ctx.unit.show.hunt.rounds.length; HUNT.i = s; HUNT.found = 0;
+    return tWrap(ctx, 'Word hunt!', '🔊 글자 소리를 듣고, 장면에서 그 소리로 시작하는 것을 찾아 단어를 눌러요', s, n,
+      `<div class="hunt-bar"><span class="round" id="huntRound">${s + 1} / ${n}</span><span class="stars" id="huntStars">${'⭐'.repeat(HUNT.score)}</span><span class="msg" id="huntMsg"></span></div><div class="hunt sl-hunt" id="hunt">${huntRoundHtml(ctx, s)}</div>`);
+  },
+};
+TEACH.story_recap = {
+  count: (ctx) => ctx.unit.show.recap.length + 1,
+  render: (ctx, s) => {
+    const rc = ctx.unit.show.recap, n = rc.length + 1;
+    if (s < rc.length) {
+      const r = rc[s];
+      return tWrap(ctx, `Unit ${r.unit}`, '▶ 로 이 장면의 대사를 들어요. 🎭 역할 읽기는 교재 쪽과 같아요', s, n,
+        `<div class="sl-recap"><div class="stage-pic">${pic(r.scene, '', 'scene')}</div><div class="sl-recap-side"><div class="sl-tools"><button class="btn orange big main-play" onclick="recapSlideLine(${s})">▶ Listen</button>${roleBtn(true)}</div><div class="bubbles-col"><div class="bubble say" id="recapBubble" data-say="${esc(r.line.audio)}" data-text="${esc(r.line.text)}">${avatar(r.line.who)}<span>${esc(r.line.text)}</span></div></div></div></div>`);
+    }
+    const fin = ctx.unit.story.panels[0];
+    const bubbles = fin.lines.map((ln, k) => `<div class="bubble say" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-panel="0" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}</span></div>`).join('');
+    return tWrap(ctx, ctx.unit.story.title, '피날레! ▶ 를 누르면 음악과 함께 대사가 나와요', s, n,
+      `<div class="sl-recap"><div class="stage-pic">${pic(fin.id, '', 'scene')}</div><div class="sl-recap-side"><div class="sl-tools"><button class="btn orange big main-play" onclick="storyPlayPanel(0)">▶ ${esc(App.book.instructions.listen_story)}</button>${roleBtn(true)}</div><div class="bubbles-col">${bubbles}</div></div></div>`);
+  },
+};
+async function recapSlideLine(i) {
+  Sound.unlock(); const unit = App.units[App.u], r = unit.show.recap[i]; Sound.bgm(unit.story.bgm);
+  await playSeq([storyItem(r.line, $('recapBubble'), {}, 0, 1)]);
+}
+TEACH.certificate = { count: () => 1, render: (ctx) => tWrap(ctx, 'Certificate', '이름을 넣고 🖨 로 그 아이의 수료증을 인쇄해요', 0, 1, `<div class="sl-cert">${PAGES.certificate(ctx)}</div>`) };

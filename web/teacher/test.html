@@ -2,85 +2,308 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>Pomi Phonics — 유닛 시험지</title>
+<title>Pomi Phonics — 시험지 생성기</title>
 <link rel="stylesheet" href="../assets/fonts/fonts.css">
 <style>
-  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --vowel:#E0523E; --conso:#2E5FBF; }
+  /* 교재와 같은 글꼴·색. 모든 문항에 그림, 그림 칸 크기 통일, 쓰기 줄은 4선. 흑백 인쇄(bw=1)에서도 또렷하게 */
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#D9CDB8; --orange:#F28C38; --cream:#FFF9EE; --vowel:#E0523E; --conso:#2E5FBF; --key:#E0523E; }
+  body.bw { --vowel:#1F1F1F; --conso:#1F1F1F; --orange:#1F1F1F; --soft:#555; --line:#777; --cream:#f3f3f3; --key:#1F1F1F; }
   * { box-sizing:border-box; }
-  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; font-size:16px; }
-  .sheet { width:210mm; min-height:297mm; margin:16px auto; background:#fff; padding:14mm 14mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; display:flex; flex-direction:column; gap:10px; }
-  .head { display:flex; align-items:center; gap:12px; border-bottom:3px solid var(--line); padding-bottom:6px; }
-  .head h1 { font-family:'Fredoka'; color:var(--orange); margin:0; font-size:24px; flex:1; }
-  .head .nm { font-size:14px; color:var(--soft); } .head .nm span { display:inline-block; border-bottom:1px solid var(--ink); width:90px; margin-left:4px; }
-  h2 { font-family:'Fredoka'; font-size:17px; margin:8px 0 4px; } h2 small { color:var(--soft); font-weight:400; font-family:'Andika'; font-size:12px; margin-left:6px; }
-  .row { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
-  .it { border:2px solid var(--line); border-radius:12px; padding:8px; text-align:center; }
-  .it img { width:100%; height:80px; object-fit:contain; } .it .ph { height:80px; background:var(--cream); border-radius:8px; display:flex; align-items:center; justify-content:center; color:var(--soft); font-size:13px; }
-  .it .opts { display:flex; justify-content:space-around; font-family:'Andika'; font-size:30px; margin-top:4px; }
-  .it .opts span { border:2px solid transparent; border-radius:50%; width:44px; }
-  .it .blank { border-bottom:2px solid var(--ink); height:36px; margin-top:4px; }
-  .wd-row { display:flex; gap:8px; flex-wrap:wrap; }
-  .wd-row span { border:2px solid var(--line); border-radius:10px; padding:2px 10px; font-size:20px; }
-  .trace { font-family:'Andika'; font-size:40px; color:#c9c9c9; border-bottom:2px solid #bbb; display:flex; gap:20px; padding:0 10px; }
-  .trace b { color:var(--ink); font-weight:400; }
-  .sent { font-size:22px; border-bottom:2px solid var(--line); padding:6px 0; }
-  .sent .blank { display:inline-block; width:100px; border-bottom:2px solid var(--ink); }
-  .key { background:var(--cream); border:2px solid var(--line); border-radius:12px; padding:10px 14px; font-size:14px; }
-  .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:210mm; }
-  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
-  .score { margin-left:auto; border:2px solid var(--line); border-radius:10px; padding:4px 10px; font-size:14px; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; font-size:15px; line-height:1.3; }
+  .sheet { width:210mm; height:297mm; margin:14px auto; background:#fff; padding:10mm 12mm 8mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; break-after:page; display:flex; flex-direction:column; gap:8px; overflow:hidden; position:relative; }
+  .hd { display:flex; align-items:center; gap:12px; border-bottom:3px solid var(--line); padding-bottom:6px; }
+  .hd .t { font-family:'Fredoka'; font-weight:700; font-size:21px; color:var(--orange); white-space:nowrap; }
+  .hd .sub { font-size:12px; color:var(--soft); line-height:1.25; }
+  .hd .nm { margin-left:auto; display:flex; gap:10px; font-size:13px; white-space:nowrap; }
+  .hd .nm i { display:inline-block; width:78px; border-bottom:1.5px solid var(--ink); margin-left:4px; vertical-align:bottom; }
+  .hd .nm i.s { width:34px; }
+  .hd.key .t { color:var(--key); }
+  .part { display:flex; flex-direction:column; gap:6px; }
+  .part h2 { margin:2px 0 0; font-family:'Fredoka'; font-weight:700; font-size:16px; display:flex; align-items:center; gap:8px; }
+  .part h2 .pn { background:var(--ink); color:#fff; border-radius:50%; width:24px; height:24px; display:inline-flex; align-items:center; justify-content:center; font-size:14px; flex:none; }
+  .part h2 small { margin-left:auto; color:var(--soft); font-weight:400; font-family:'Andika'; font-size:12px; }
+  .g2 { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; } .g3 { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; } .g4 { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; }
+  .g4 .it { padding-top:12px; gap:8px; } .g4 .pb { width:120px; height:96px; }
+  .it { border:2px solid var(--line); border-radius:12px; padding:8px 6px 6px; display:flex; flex-direction:column; align-items:center; gap:5px; position:relative; background:#fff; }
+  .it .no, .mi .no, .sp .no, .sent .no { font-family:'Fredoka'; font-weight:700; font-size:12px; background:var(--ink); color:#fff; border-radius:50%; width:20px; height:20px; display:inline-flex; align-items:center; justify-content:center; flex:none; }
+  .it .no { position:absolute; left:5px; top:5px; }
+  .pb { width:108px; height:86px; border:1.5px solid #ccc; border-radius:8px; background:#fff; display:flex; align-items:center; justify-content:center; overflow:hidden; flex:none; }
+  .pb img { max-width:100%; max-height:100%; object-fit:contain; display:block; }
+  .pb .ph { font-size:12px; color:var(--soft); font-family:'Fredoka'; text-align:center; }
+  .pb.sm { width:76px; height:60px; } .pb.sm .ph { font-size:10px; }
+  .it { min-width:0; }
+  .it.rp { padding-top:6px; } .it.rp .wd.big { font-size:26px; }
+  .opts { display:flex; gap:8px; }
+  .opts:not(.pics) span { width:38px; height:38px; border:2px solid #bbb; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:25px; font-family:'Andika'; }
+  .opts:not(.pics) span.on { border:3px solid var(--key); background:#FFF3E6; }
+  body.bw .opts span.on { background:#eee; }
+  .opts.pics { gap:6px; } .opts.pics .o { display:flex; flex-direction:column; align-items:center; gap:2px; border:2px solid transparent; border-radius:10px; padding:2px; } .opts.pics .o.on { border-color:var(--key); }
+  .opts.pics .o b { font-family:'Fredoka'; font-size:12px; color:var(--soft); }
+  .opts.pics .o.on b { color:var(--key); }
+  .wd { font-family:'Andika'; font-size:22px; letter-spacing:1px; }
+  .wd.big { font-size:28px; font-weight:700; }
+  .wd .bl { display:inline-block; width:.9em; border-bottom:2px solid var(--ink); height:1em; vertical-align:bottom; margin:0 1px; }
+  .wd .bl.ans { border:0; color:var(--key); }
+  /* 4선 쓰기 줄: 위·점선·기준선(굵게)·아래 */
+  .w4 { position:relative; width:100%; height:50px; border-top:1px solid #bbb; border-bottom:1px solid #bbb; }
+  .w4::before { content:''; position:absolute; left:0; right:0; top:33%; border-top:1px dashed #bbb; }
+  .w4::after { content:''; position:absolute; left:0; right:0; top:66%; border-top:2px solid #777; }
+  .w4 .ans { position:absolute; left:10px; top:0; font-family:'Andika'; font-size:30px; line-height:52px; color:var(--key); z-index:1; }
+  .w4.short { width:70px; }
+  .boxes { display:flex; gap:5px; align-items:center; flex-wrap:wrap; justify-content:center; }
+  .boxes.wbx span { width:30px; height:40px; font-size:24px; border-radius:6px; }   /* 단어 완성: 그림 옆에 글자 상자 한 줄 */
+  .boxes.wbx { gap:3px; justify-content:flex-start; }
+  .it.cw { flex-direction:row; justify-content:flex-start; gap:14px; padding:10px 10px 10px 34px; }
+  .boxes span { width:34px; height:40px; border:2px solid #bbb; border-radius:8px; display:inline-flex; align-items:center; justify-content:center; font-family:'Andika'; font-size:26px; }
+  .boxes span.blank { border-style:dashed; border-color:var(--ink); } .boxes span.blank.ans { color:var(--key); border-style:solid; }
+  /* 잇기: 왼쪽·오른쪽 기둥, 점을 선으로 잇는다 */
+  .match { display:flex; gap:70px; }
+  .match .col { flex:1; display:flex; flex-direction:column; gap:6px; }
+  .mi { display:flex; align-items:center; gap:8px; border:2px solid var(--line); border-radius:10px; padding:3px 10px; height:66px; position:relative; }
+  .match + .match { margin-top:10px; }
+  .mi .dot { position:absolute; top:50%; width:10px; height:10px; border-radius:50%; background:var(--ink); transform:translateY(-50%); }
+  .col.l .mi .dot { right:-22px; } .col.r .mi .dot { left:-22px; }
+  .mi .lt { font-family:'Andika'; font-size:30px; font-weight:700; min-width:36px; text-align:center; }
+  .mi .wdm { font-family:'Andika'; font-size:24px; }
+  .mi .ak { margin-left:auto; color:var(--key); font-family:'Fredoka'; font-size:16px; }
+  .bank { display:flex; flex-wrap:wrap; gap:6px; }
+  .bank span { border:2px solid var(--line); border-radius:10px; padding:1px 10px; font-family:'Andika'; font-size:18px; background:var(--cream); }
+  .sent { display:flex; align-items:center; gap:10px; border:2px solid var(--line); border-radius:12px; padding:5px 10px; font-size:21px; }
+  .sent .bl { display:inline-block; min-width:80px; border-bottom:2px solid var(--ink); height:1.1em; vertical-align:bottom; text-align:center; color:var(--key); }
+  .sort { display:flex; gap:10px; }
+  .sort .pics { display:grid; grid-template-columns:repeat(4,1fr); gap:6px; flex:1; }
+  .sort .sp { display:flex; flex-direction:column; align-items:center; gap:2px; }
+  .sort .bins { display:grid; grid-template-columns:1fr 1fr; gap:8px; width:200px; }
+  .sort .bin { border:2px solid var(--line); border-radius:10px; min-height:70px; padding:4px; text-align:center; }
+  .sort .bin b { font-family:'Andika'; font-size:24px; display:block; }
+  .sort .bin .ans { color:var(--key); font-family:'Fredoka'; font-size:16px; }
+  .vowel { color:var(--vowel); } .conso { color:var(--conso); }
+  /* 글자별 점수표 */
+  .ltable { margin-top:auto; border-top:2px solid var(--line); padding-top:6px; }
+  .ltable h3 { margin:0 0 4px; font-family:'Fredoka'; font-size:14px; } .ltable h3 small { color:var(--soft); font-weight:400; font-family:'Andika'; font-size:11px; margin-left:8px; }
+  .ltable .rows { display:flex; flex-wrap:wrap; gap:4px 10px; }
+  .ltable .lr { display:inline-flex; align-items:center; gap:4px; border:1.5px solid var(--line); border-radius:8px; padding:2px 6px; font-size:12px; }
+  .ltable .lr b { font-family:'Andika'; font-size:18px; min-width:26px; }
+  .ltable .lr i { font-style:normal; width:20px; height:18px; border:1.5px solid #bbb; border-radius:4px; display:inline-flex; align-items:center; justify-content:center; font-size:10px; color:var(--soft); }
+  .ft { display:flex; justify-content:space-between; font-size:11px; color:var(--soft); margin-top:4px; }
+  .note { font-size:12px; color:var(--soft); }
+  /* 말하기 체크리스트 */
+  table.spk { border-collapse:collapse; width:100%; table-layout:fixed; }
+  table.spk th, table.spk td { border:1.5px solid #999; height:30px; text-align:center; font-size:13px; padding:0; }
+  table.spk th { background:var(--cream); font-family:'Andika'; font-size:16px; }
+  table.spk th.nm, table.spk td.nm { width:110px; text-align:left; padding-left:6px; }
+  table.spk tr.ipa td { font-size:11px; color:var(--soft); height:20px; }
+  /* 화면 위 막대 (인쇄 안 됨) */
+  .top { display:flex; gap:8px; align-items:center; margin:0 auto 10px; width:210mm; flex-wrap:wrap; font-size:14px; }
+  .top a, .top button, .top select { background:#fff; border:2px solid var(--line); border-radius:10px; padding:5px 10px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; font-size:14px; }
+  .top label { display:inline-flex; align-items:center; gap:4px; }
   @page { size:A4; margin:0; }
   @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } }
 </style>
 </head>
 <body>
-<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span id="nav"></span><span style="color:var(--soft);font-size:13px">듣기 문제는 선생님이 웹 교재(학생책 1·3쪽)에서 소리를 들려주거나 직접 읽어 준다. 마지막 장은 정답.</span></div>
+<div class="top" id="top">
+  <a href="../">← 홈</a>
+  <select id="fScope"></select>
+  <select id="fLevel"><option value="1">Level 1 · 글자</option><option value="2">Level 2 · 단어</option><option value="3">Level 3 · 읽기·쓰기</option></select>
+  <select id="fSet"><option value="A">A형</option><option value="B">B형</option></select>
+  <label><input type="checkbox" id="fBw"> 흑백(선그림)</label>
+  <label><input type="checkbox" id="fKey"> 정답지</label>
+  <label><input type="checkbox" id="fSpk"> 말하기 체크리스트</label>
+  <button onclick="applyForm()">만들기</button>
+  <button onclick="print()">🖨 인쇄</button>
+  <span class="note">A4 2쪽 · 4부분 20문항 · 듣기 없음 (말하기는 체크리스트로)</span>
+</div>
 <div id="out"></div>
 <script>
-// 유닛 시험지: 듣기(글자 소리·단어) + 쓰기(대소문자·첫소리·단어·사이트워드) + 정답지. ?u=1&v=A (A/B형: 문제 순서가 다르다)
-const q = new URLSearchParams(location.search); const U = +(q.get('u') ?? 1), V = (q.get('v') || 'A').toUpperCase();
+// 시험지 생성기. ?scope=u3|r1|r2|all &level=1|2|3 &set=A|B &bw=1(선그림, 흑백 인쇄) &key=1(정답지) &speaking=1(말하기 체크리스트) &batch=units|review(PDF 묶음)
+// 범위: u3 = 3유닛, r1 = 1~4유닛, r2 = 6~10유닛, all = 1~10유닛. 같은 범위에서 A/B형은 씨앗이 달라 문항·보기가 다르다.
+const q = new URLSearchParams(location.search);
+const BW = q.get('bw') === '1';
+const ART = q.get('art') || '../assets/art/';   // 그림 폴더 (pdf.py 는 축소본 폴더를 넘겨 PDF 를 가볍게 한다)
 async function get(rel) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
-function shuffle(a, seed) { const r = a.slice(); let s = seed * 9301 + 49297; for (let i = r.length - 1; i > 0; i--) { s = (s * 9301 + 49297) % 233280; const j = Math.floor((s / 233280) * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; }
+function shuffle(a, seed) { const r = a.slice(); let s = (seed * 9301 + 49297) % 233280; for (let i = r.length - 1; i > 0; i--) { s = (s * 9301 + 49297) % 233280; const j = Math.floor((s / 233280) * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; }
+function seedOf(str) { let h = 7; for (const c of str) h = (h * 31 + c.charCodeAt(0)) % 100003; return h + 11; }
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+// 그림 칸: 컬러는 word_, 흑백은 line_(없으면 word_), 둘 다 없으면 글자 상자
+function pb(w, cls = '') {
+  const a = BW ? `line_${w}` : `word_${w}`, b = `word_${w}`;
+  return `<span class="pb ${cls}"><img src="${ART}${a}.png" alt="${esc(w)}" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${ART}${b}.png'}else this.outerHTML='<span class=ph>${esc(w)}</span>'"></span>`;
+}
+let BOOK = null, UNITS = {};
+const AZ = () => Object.keys(BOOK.letters);
+const lcls = (l) => BOOK.letters[l].kind === 'vowel' ? 'vowel' : 'conso';
+function scopeUnits(scope) { if (/^u\d+$/.test(scope)) return [+scope.slice(1)]; if (scope === 'r1') return [1, 2, 3, 4]; if (scope === 'r2') return [6, 7, 8, 9, 10]; return [1, 2, 3, 4, 6, 7, 8, 9, 10]; }
+function scopeTitle(scope) { if (/^u\d+$/.test(scope)) { const n = +scope.slice(1), x = BOOK.units.find((u) => u.n === n); return `Unit ${n} Test`; } return scope === 'r1' ? 'Review Test 1 (Units 1–4)' : scope === 'r2' ? 'Review Test 2 (Units 6–10)' : 'Final Test (Units 1–10)'; }
+const LEVEL_NAME = { 1: 'Level 1 · Letters 글자', 2: 'Level 2 · Words 단어', 3: 'Level 3 · Reading & Writing 읽기·쓰기' };
+
+// ---------- 문항 만들기 ----------
+// 돌려주는 것: { parts: [{title, ko, items:[{html, keyHtml, letters:[...]}], layout}], letters }
+function buildTest(scope, level, set) {
+  const L = BOOK.letters, us = scopeUnits(scope);
+  const letters = us.flatMap((n) => (BOOK.units.find((x) => x.n === n) || {}).letters || []);
+  const words = letters.flatMap((l) => L[l].words);
+  const letterOf = (w) => letters.find((l) => L[l].words.includes(w)) || AZ().find((l) => L[l].words.includes(w)) || w[0];
+  const seed = seedOf(`${scope}-${level}-${set}`);
+  let k = 0; const nx = () => seed + (++k) * 131;
+  // 글자가 고루 나오게: 글자 순서를 섞고, 글자마다 단어를 돌아가며 뽑는다
+  const order = shuffle(letters, nx()), pool = [], wl = {};
+  for (const l of order) wl[l] = shuffle(L[l].words, nx());
+  for (let r = 0; r < 3; r++) for (const l of order) if (wl[l][r]) pool.push(wl[l][r]);
+  let cur = 0; const take = (n) => { const out = []; while (out.length < n) { out.push(pool[cur % pool.length]); cur++; } return out; };
+  const takeLetters = (n) => { const out = []; for (let i = 0; i < n; i++) out.push(order[i % order.length]); return out; };
+  const others = (l, n, s) => { let o = shuffle(letters.filter((x) => x !== l), s).slice(0, n); if (o.length < n) o = o.concat(shuffle(AZ().filter((x) => x !== l && !o.includes(x)), s).slice(0, n - o.length)); return o; };
+  const blankWord = (w, i) => esc(w.slice(0, i)) + '<span class="bl"></span>' + esc(w.slice(i + 1));
+  const keyWord = (w, i) => esc(w.slice(0, i)) + `<span class="bl ans">${esc(w[i])}</span>` + esc(w.slice(i + 1));
+  let no = 0;
+  const item = (html, keyHtml, ls) => ({ html, keyHtml, letters: ls, no: ++no });
+  const parts = [];
+
+  // 그림 보고 첫소리 글자 고르기 (3지선다)
+  const pickFirst = (n) => take(n).map((w) => { const l = letterOf(w), opts = shuffle([l, ...others(l, 2, nx())], nx());
+    const op = (on) => `<div class="opts">${opts.map((o) => `<span class="${on && o === l ? 'on' : ''} ${lcls(o)}">${o}</span>`).join('')}</div>`;
+    const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}${op(on)}</div>`;
+    return item(base(false), base(true), [l]); });
+  // 대문자–소문자 잇기: 글자가 6개 이상이면 한 묶음, 적으면 같은 글자로 여러 묶음 (문항 수는 6)
+  const matchCase = () => {
+    const blocks = letters.length >= 6 ? [takeLetters(6)] : Array.from({ length: Math.ceil(6 / letters.length) }, () => letters.slice());
+    const items = [];
+    blocks.forEach((ls) => {
+      if (items.length >= 6) return;
+      const ls2 = ls.slice(0, 6 - items.length), right = shuffle(ls2, nx());
+      const html = (on) => `<div class="match"><div class="col l">${ls2.map((l, i) => `<div class="mi"><span class="no">${items.length + i + 1}</span><span class="lt ${lcls(l)}">${l.toUpperCase()}</span>${pb(L[l].words[0], 'sm')}${on ? `<span class="ak">→ ${l}</span>` : ''}<span class="dot"></span></div>`).join('')}</div><div class="col r">${right.map((l) => `<div class="mi"><span class="dot"></span><span class="lt">${l}</span></div>`).join('')}</div></div>`;
+      ls2.forEach((l, i) => items.push(item(i === 0 ? html(false) : '', i === 0 ? html(true) : '', [l])));
+    });
+    return items;
+  };
+  // 빠진 글자 쓰기 (A _ C): 알파벳 이웃 3개 중 범위 글자 하나가 비고, 그 글자 단어 그림이 힌트
+  const missing = (n) => takeLetters(n).map((l, i) => { const az = AZ(), idx = az.indexOf(l), pos = [1, 0, 2, 1][i % 4], start = Math.max(0, Math.min(az.length - 3, idx - pos)), tri = az.slice(start, start + 3), up = i % 2 === 0;
+    const bx = (on) => `<div class="boxes">${tri.map((x) => x === l ? `<span class="blank ${on ? 'ans' : ''}">${on ? (up ? x.toUpperCase() : x) : ''}</span>` : `<span>${up ? x.toUpperCase() : x}</span>`).join('')}</div>`;
+    const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(L[l].words[0])}${bx(on)}</div>`;
+    return item(base(false), base(true), [l]); });
+  // 그림 보고 첫 글자 쓰기 (4선)
+  const writeFirst = (n) => take(n).map((w) => { const l = letterOf(w), i = L[l].final ? w.lastIndexOf(l) : 0;
+    const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="wd">${on ? keyWord(w, i) : blankWord(w, i)}</div><div class="w4">${on ? `<span class="ans">${l}</span>` : ''}</div></div>`;
+    return item(base(false), base(true), [l]); });
+  // 그림–단어 잇기
+  const matchPicWord = (n) => { const ws = take(n), right = shuffle(ws, nx());
+    const html = (on) => `<div class="match"><div class="col l">${ws.map((w, i) => `<div class="mi"><span class="no">${no + i + 1}</span>${pb(w, 'sm')}${on ? `<span class="ak">→ ${esc(w)}</span>` : ''}<span class="dot"></span></div>`).join('')}</div><div class="col r">${right.map((w) => `<div class="mi"><span class="dot"></span><span class="wdm">${esc(w)}</span></div>`).join('')}</div></div>`;
+    return ws.map((w, i) => item(i === 0 ? html(false) : '', i === 0 ? html(true) : '', [letterOf(w)])); };
+  // 단어 읽고 맞는 그림 고르기 (hard = 같은 첫소리 단어를 보기에 섞는다)
+  const readPick = (n, hard) => take(n).map((w) => { const l = letterOf(w);
+    const same = shuffle(L[l].words.filter((x) => x !== w), nx()), diff = shuffle(words.filter((x) => letterOf(x) !== l), nx());
+    const ds = hard ? [same[0], diff[0]].filter(Boolean) : [diff[0], diff[1]].filter(Boolean);
+    while (ds.length < 2) ds.push(diff[ds.length + 1] || same[0]);
+    const opts = shuffle([w, ...ds], nx());
+    const base = (on) => `<div class="it rp"><span class="no">${no + 1}</span><div class="wd big">${esc(w)}</div><div class="opts pics">${opts.map((o, j) => `<span class="o ${on && o === w ? 'on' : ''}">${pb(o, 'sm')}<b>${'abc'[j]}</b></span>`).join('')}</div></div>`;
+    return item(base(false), base(true), [l]); });
+  // 그림 보고 단어 완성 (c_t): 첫 글자 말고 범위 글자가 있으면 그 자리를, 없으면 두 번째 글자를 비운다
+  const completeWord = (n) => take(n).map((w) => { const l = letterOf(w); let i = -1;
+    for (let j = 1; j < w.length; j++) if (letters.includes(w[j]) && w[j] !== '-') { i = j; break; }
+    if (i < 0) i = Math.min(1, w.length - 1);
+    const base = (on) => `<div class="it cw"><span class="no">${no + 1}</span>${pb(w)}<div class="boxes wbx">${w.split('').map((ch, j) => j === i ? `<span class="blank ${on ? 'ans' : ''}">${on ? ch : ''}</span>` : `<span>${ch}</span>`).join('')}</div></div>`;
+    return item(base(false), base(true), [letters.includes(w[i]) ? w[i] : l]); });
+  // 그림 보고 단어 쓰기 (단어 보기 상자 + 4선)
+  const writeWord = (n) => { const ws = take(n);
+    return ws.map((w) => { const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="w4">${on ? `<span class="ans">${esc(w)}</span>` : ''}</div></div>`; return item(base(false), base(true), [letterOf(w)]); }); };
+  // 사이트워드 문장 완성: 범위 유닛 이야기 줄에서 사이트워드가 든 문장, 그림은 문장 속 단어
+  const sentences = (n) => {
+    const sws = Object.keys(BOOK.sight_words).filter((s) => us.includes(BOOK.sight_words[s].unit));
+    let lines = [];
+    for (const u of us) { const uj = UNITS[u]; if (!uj) continue; for (const p of uj.story.panels) for (const ln of p.lines) { const toks = ln.text.replace(/[^A-Za-z' ]/g, ' ').split(/\s+/); const sw = sws.find((s) => toks.includes(s)); const w = toks.map((t) => t.toLowerCase()).find((t) => words.includes(t)); if (sw && w) lines.push({ text: ln.text, sw, w }); } }
+    lines = shuffle(lines.filter((x, i, a) => a.findIndex((y) => y.text === x.text) === i), nx());
+    const fill = shuffle(words, nx()); let fi = 0;
+    while (lines.length < n && sws.length) { const w = fill[fi++ % fill.length], sw = sws[fi % sws.length]; lines.push({ text: sw === 'a' || sw === 'an' ? `I see ${sw} ${w}.` : sw === 'I' ? `I see a ${w}.` : `${sw[0].toUpperCase() + sw.slice(1)} ${sw === 'is' ? 'it a ' : ''}${w}.`.replace(/\.$/, sw === 'is' ? '?' : '.'), sw, w }); }
+    const bank = shuffle([...new Set(lines.slice(0, n).map((x) => x.sw))], nx());
+    return lines.slice(0, n).map((ln, i) => {
+      const re = new RegExp('(^|[^A-Za-z])' + ln.sw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?=[^A-Za-z]|$)');
+      const base = (on) => `${i === 0 ? `<div class="bank">${bank.map((s) => `<span>${esc(s)}</span>`).join('')}</div>` : ''}<div class="sent"><span class="no">${no + 1}</span>${pb(ln.w, 'sm')}<span>${esc(ln.text).replace(re, (m, pre) => pre + `<span class="bl">${on ? esc(ln.sw) : ''}</span>`)}</span></div>`;
+      return item(base(false), base(true), [letterOf(ln.w)]); });
+  };
+  // 첫소리별 분류: 글자 상자 4개, 그림 8개(번호) → 상자에 번호 쓰기. 상자마다 1문항
+  const sortFirst = () => { const ls = takeLetters(4), pics = shuffle(ls.flatMap((l) => shuffle(L[l].words, nx()).slice(0, 2)), nx());
+    const html = (on) => `<div class="sort"><div class="pics">${pics.map((w, i) => `<div class="sp"><span class="no">${i + 1}</span>${pb(w)}</div>`).join('')}</div><div class="bins">${ls.map((l, i) => `<div class="bin"><b class="${lcls(l)}">${l.toUpperCase()}${l}</b><span class="note">${no + i + 1}</span>${on ? `<div class="ans">${pics.map((w, j) => letterOf(w) === l ? j + 1 : null).filter(Boolean).join(', ')}</div>` : ''}</div>`).join('')}</div></div>`;
+    return ls.map((l, i) => item(i === 0 ? html(false) : '', i === 0 ? html(true) : '', [l])); };
+
+  if (level === 1) {
+    parts.push({ t: 'Look and circle the first sound.', ko: '그림의 첫소리 글자에 동그라미', items: pickFirst(6), cls: 'g3' });
+    parts.push({ t: 'Match the big and small letters.', ko: '큰 글자와 작은 글자를 선으로 이어요', items: matchCase(), cls: '' });
+    parts.push({ t: 'Write the missing letter.', ko: '빠진 글자를 써요 (그림이 힌트)', items: missing(4), cls: 'g4' });
+    parts.push({ t: 'Write the first letter.', ko: '그림을 보고 첫 글자를 써요', items: writeFirst(4), cls: 'g4' });
+  } else if (level === 2) {
+    parts.push({ t: 'Match the picture and the word.', ko: '그림과 단어를 선으로 이어요', items: matchPicWord(6), cls: '' });
+    parts.push({ t: 'Write the first letter.', ko: '그림을 보고 첫 글자를 써요', items: writeFirst(6), cls: 'g3' });
+    parts.push({ t: 'Read and circle the picture.', ko: '단어를 읽고 맞는 그림에 동그라미', items: readPick(4, false), cls: 'g2' });
+    parts.push({ t: 'Complete the word.', ko: '그림을 보고 빈칸에 글자를 써요', items: completeWord(4), cls: 'g2' });
+  } else {
+    parts.push({ t: 'Read and circle the picture.', ko: '단어를 읽고 맞는 그림에 동그라미', items: readPick(6, true), cls: 'g2' });
+    const ww = writeWord(6); parts.push({ t: 'Look and write the word.', ko: '그림을 보고 단어를 써요 (아래 단어 상자에서 골라요)', items: ww, cls: 'g3', bank: shuffle(ww.map((it) => it.html.match(/alt="([^"]+)"/)[1]), nx()) });
+    parts.push({ t: 'Complete the sentence.', ko: '상자의 사이트워드로 문장을 완성해요', items: sentences(4), cls: 'col' });
+    parts.push({ t: 'Sort by the first sound.', ko: '그림 번호를 첫소리 글자 상자에 써요', items: sortFirst(), cls: '' });
+  }
+  return { parts, letters };
+}
+
+// ---------- 시험지 그리기 (2쪽) ----------
+function sheetHead(title, sub, key, isKey) { return `<div class="hd ${isKey ? 'key' : ''}"><div><div class="t">${esc(title)}${isKey ? ' · Answer Key' : ''}</div><div class="sub">${sub}</div></div><div class="nm">${isKey ? '<span>정답지 · 같은 배치에 답만 표시</span>' : '<span>Name<i></i></span><span>Date<i></i></span><span>Score<i class="s"></i>/20</span>'}</div></div>`; }
+function partHtml(p, idx, isKey) {
+  const inner = p.items.map((it) => (isKey ? it.keyHtml : it.html)).join('');
+  const bank = p.bank ? `<div class="bank">${p.bank.map((w) => `<span>${esc(w)}</span>`).join('')}</div>` : '';
+  const body = p.cls === 'col' ? `<div style="display:flex;flex-direction:column;gap:6px">${inner}</div>` : p.cls ? `<div class="${p.cls}">${inner}</div>` : inner;
+  return `<div class="part"><h2><span class="pn">${idx + 1}</span>${esc(p.t)}<small>${esc(p.ko)} · ${p.items.length}문항</small></h2>${bank}${body}</div>`;
+}
+function letterTable(test) {
+  const map = {}; test.parts.forEach((p) => p.items.forEach((it) => it.letters.forEach((l) => { (map[l] = map[l] || []).push(it.no); })));
+  const rows = test.letters.filter((l) => map[l]).map((l) => `<span class="lr"><b class="${lcls(l)}">${l.toUpperCase()}${l}</b>${map[l].map((n) => `<i>${n}</i>`).join('')}</span>`).join('');
+  return `<div class="ltable"><h3>글자별 점수표<small>틀린 문항 번호에 ✗ — 표시가 많은 글자가 약한 글자</small></h3><div class="rows">${rows}</div></div>`;
+}
+function renderTest(scope, level, set, isKey) {
+  const test = buildTest(scope, level, set);
+  const title = `${scopeTitle(scope)}`, sub = `${BOOK.title} · ${LEVEL_NAME[level]} · Set ${set} · 글자: ${test.letters.map((l) => l.toUpperCase() + l).join(' ')}`;
+  const p1 = `<div class="sheet">${sheetHead(title, sub, null, isKey)}${partHtml(test.parts[0], 0, isKey)}${partHtml(test.parts[1], 1, isKey)}<div class="ft" style="margin-top:auto"><span>Pomi Phonics 1 · ${esc(title)} · ${set}</span><span>1 / 2</span></div></div>`;
+  const p2 = `<div class="sheet">${sheetHead(title, sub, null, isKey)}${partHtml(test.parts[2], 2, isKey)}${partHtml(test.parts[3], 3, isKey)}${letterTable(test)}<div class="ft"><span>채점: 문항마다 1점 (20점) · 말하기는 체크리스트로 따로</span><span>2 / 2</span></div></div>`;
+  return p1 + p2;
+}
+// 말하기 체크리스트: 글자를 가리키고 소리를 말하면 ✓ (아이별 한 줄)
+function renderSpeaking(scope) {
+  const letters = scopeUnits(scope).flatMap((n) => (BOOK.units.find((x) => x.n === n) || {}).letters || []);
+  const th = letters.map((l) => `<th class="${lcls(l)}">${l.toUpperCase()}${l}</th>`).join(''), ipa = letters.map((l) => `<td>/${esc(BOOK.letters[l].sound)}/</td>`).join('');
+  const rows = Array.from({ length: 16 }, () => `<tr><td class="nm"></td>${letters.map(() => '<td></td>').join('')}<td></td></tr>`).join('');
+  return `<div class="sheet"><div class="hd"><div><div class="t">Speaking Check · ${esc(scopeTitle(scope).replace(' Test', ''))}</div><div class="sub">말하기 체크리스트 — 선생님이 글자를 가리키면 아이가 소리를 말해요. 맞으면 ✓, 틀리면 비워 두고 나중에 다시</div></div><div class="nm"><span>Class<i></i></span><span>Date<i></i></span></div></div>
+    <table class="spk"><tr><th class="nm">Name</th>${th}<th>✓</th></tr><tr class="ipa"><td class="nm">sound</td>${ipa}<td></td></tr>${rows}</table>
+    <div class="ft"><span>글자 ${letters.length}개 · 한 글자 1점 · 마지막 칸은 ✓ 개수</span><span>Pomi Phonics 1</span></div></div>`;
+}
+
+// ---------- 주소 → 화면 ----------
+function defaultLevel(scope) { const n = /^u(\d+)$/.exec(scope); if (n) return +n[1] >= 6 ? 2 : 1; return scope === 'r2' ? 2 : scope === 'all' ? 3 : 1; }
+function applyForm() {
+  const p = new URLSearchParams(); p.set('scope', fScope.value); p.set('level', fLevel.value); p.set('set', fSet.value);
+  if (fBw.checked) p.set('bw', '1'); if (fKey.checked) p.set('key', '1'); if (fSpk.checked) p.set('speaking', '1');
+  location.search = '?' + p;
+}
 (async () => {
-  const book = await get('book.json'), unit = await get(`units/unit${String(U).padStart(2, '0')}.json`);
-  if (!unit) { document.getElementById('out').textContent = '유닛 없음'; return; }
-  document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false && x.letters.length).map((x) => `<a href="?u=${x.n}&v=A">U${x.n} A형</a> <a href="?u=${x.n}&v=B">B형</a>`).join(' ');
-  const seed = U * 10 + (V === 'B' ? 5 : 1);
-  const L = book.letters, letters = unit.letters, words = letters.flatMap((l) => L[l].words);
-  const letterOf = (w) => letters.find((l) => L[l].words.includes(w));
-  const img = (w) => `<img src="../assets/art/word_${w}.png" alt="${w}" onerror="this.outerHTML='<div class=ph>${w}</div>'">`;
-  const head = (sub) => `<div class="head"><h1>Unit ${U} Test <small style="font-size:14px;color:var(--soft)">${V}형 · ${sub}</small></h1><div class="nm">Name<span></span> Date<span></span> Score<span style="width:50px"></span>/20</div></div>`;
-  const ans = [];
-  // A. 듣기: 소리 → 글자 (3문제). 선생님이 /æ/ /b/ /k/ 중 하나를 말한다
-  const A = shuffle(letters, seed).map((l, i) => { ans.push(`A${i + 1}: ${l.toUpperCase()}`); return `<div class="it"><div class="opts">${shuffle(letters, seed + i).map((x) => `<span>${x.toUpperCase()}${x}</span>`).join('')}</div><div style="font-size:12px;color:var(--soft)">🔊 ${i + 1}</div></div>`; }).join('');
-  const Akey = shuffle(letters, seed).map((l) => `/${L[l].sound}/`).join(', ');
-  // B. 듣기: 단어 → 그림 (3문제)
-  const Bw = shuffle(words, seed + 1).slice(0, 3);
-  const B = Bw.map((w, i) => { const opts = shuffle([w, ...shuffle(words.filter((x) => x !== w), seed + i).slice(0, 2)], seed + i + 3); ans.push(`B${i + 1}: ${w}`); return `<div class="it"><div style="display:flex;gap:4px">${opts.map((o) => `<div style="flex:1">${img(o)}</div>`).join('')}</div><div style="font-size:12px;color:var(--soft)">🔊 ${i + 1}</div></div>`; }).join('');
-  // C. 대문자 ↔ 소문자 쓰기 (3)
-  const C = letters.map((l, i) => { ans.push(`C${i + 1}: ${i % 2 ? l.toUpperCase() : l}`); return `<div class="it"><div class="trace"><b>${i % 2 ? l : l.toUpperCase()}</b><span>→</span></div><div class="blank"></div></div>`; }).join('');
-  // D. 그림 보고 첫소리 글자 고르기 (6)
-  const Dw = shuffle(words, seed + 2).slice(0, 6);
-  const D = Dw.map((w, i) => { const l = letterOf(w); ans.push(`D${i + 1}: ${l}`); return `<div class="it">${img(w)}<div class="opts">${shuffle(letters, seed + i + 9).map((x) => `<span>${x}</span>`).join('')}</div></div>`; }).join('');
-  // E. 빠진 글자 쓰기 (3)
-  const Ew = shuffle(words, seed + 3).slice(0, 3);
-  const E = Ew.map((w, i) => { const l = letterOf(w), k = L[l].final ? w.lastIndexOf(l) : w.indexOf(l); ans.push(`E${i + 1}: ${w}`); return `<div class="it">${img(w)}<div class="trace" style="justify-content:center"><b>${w.slice(0, k)}</b><span style="border-bottom:2px solid var(--ink);width:30px;display:inline-block"></span><b>${w.slice(k + 1)}</b></div></div>`; }).join('');
-  // F. 사이트워드 문장 완성 (2)
-  const lines = unit.story.panels.flatMap((p) => p.lines).filter((ln) => unit.sight_words.some((s) => ln.text.split(/\s+/).includes(s))).slice(0, 2);
-  const F = lines.map((ln, i) => { const sw = unit.sight_words.find((s) => ln.text.split(/\s+/).includes(s)); ans.push(`F${i + 1}: ${sw}`); return `<div class="sent">${ln.text.replace(new RegExp('\\b' + sw + '\\b'), '<span class="blank"></span>')}</div>`; }).join('');
-  const sheet1 = `<div class="sheet">${head('Listening & Writing')}
-    <h2>A. Listen and circle the letter. <small>소리를 듣고 글자에 동그라미 (선생님: ${Akey})</small></h2><div class="row">${A}</div>
-    <h2>B. Listen and circle the picture. <small>단어를 듣고 그림에 동그라미 (선생님: ${Bw.join(', ')})</small></h2><div class="row">${B}</div>
-    <h2>C. Write the partner letter. <small>짝이 되는 글자를 써요 (대문자 ↔ 소문자)</small></h2><div class="row">${C}</div>
-    <h2>D. Circle the first sound. <small>그림의 첫소리 글자에 동그라미</small></h2><div class="row">${D}</div></div>`;
-  const sheet2 = `<div class="sheet">${head('Writing')}
-    <h2>E. Write the missing letter. <small>빠진 글자를 써요</small></h2><div class="row">${E}</div>
-    <h2>F. Complete the sentence. <small>사이트워드를 써요: ${unit.sight_words.join(' · ')}</small></h2>${F}
-    <h2>G. Write the words. <small>단어를 보고 써요</small></h2><div class="wd-row">${words.slice(0, 6).map((w) => `<span>${w}</span>`).join('')}</div>
-    <div class="row" style="margin-top:6px">${words.slice(0, 6).map((w) => `<div class="it">${img(w)}<div class="blank"></div></div>`).join('')}</div>
-    <div style="margin-top:auto;color:var(--soft);font-size:13px">채점: A~F 각 1점(17), G 는 맞게 쓴 단어 2개당 1점(3) → 20점</div></div>`;
-  const key = `<div class="sheet">${head('Answer Key · 정답')}<div class="key">${ans.map((a) => `<div>${a}</div>`).join('')}<div>G: ${words.slice(0, 6).join(', ')}</div></div></div>`;
-  document.getElementById('out').innerHTML = sheet1 + sheet2 + key;
+  BOOK = await get('book.json'); if (!BOOK) { document.getElementById('out').textContent = 'content/book.json 을 읽지 못했어요'; return; }
+  const ready = BOOK.units.filter((x) => x.ready !== false && x.letters.length).map((x) => x.n);
+  await Promise.all(ready.map(async (n) => { UNITS[n] = await get(`units/unit${String(n).padStart(2, '0')}.json`); }));
+  if (BW) document.body.classList.add('bw');
+  const batch = q.get('batch');
+  let scope = q.get('scope') || (q.get('u') ? 'u' + q.get('u') : 'u1'); if (!/^(u\d+|r1|r2|all)$/.test(scope)) scope = 'u1';
+  const level = Math.min(3, Math.max(1, +(q.get('level') || defaultLevel(scope)))), set = (q.get('set') || q.get('v') || 'A').toUpperCase() === 'B' ? 'B' : 'A';
+  // 위 막대의 고르기
+  fScope.innerHTML = ready.map((n) => `<option value="u${n}">Unit ${n} · ${esc(BOOK.units.find((x) => x.n === n).title)}</option>`).join('') + `<option value="r1">복습 1 (1~4유닛)</option><option value="r2">복습 2 (6~10유닛)</option><option value="all">전체 (1~10유닛)</option>`;
+  fScope.value = scope; fLevel.value = level; fSet.value = set; fBw.checked = BW; fKey.checked = q.get('key') === '1'; fSpk.checked = q.get('speaking') === '1';
+  let html = '';
+  if (batch === 'units') {        // 유닛마다 level 1(1~4) / 2(6~10) A형 시험지 + 정답지
+    for (const n of ready) { const sc = 'u' + n, lv = defaultLevel(sc); html += renderTest(sc, lv, 'A', false) + renderTest(sc, lv, 'A', true); }
+    document.title = 'Pomi Phonics 1 — Unit Tests';
+  } else if (batch === 'review') { // r1·r2·all × level 1~3 × A/B + 정답지 + 말하기 체크리스트
+    for (const sc of ['r1', 'r2', 'all']) for (const lv of [1, 2, 3]) for (const st of ['A', 'B']) html += renderTest(sc, lv, st, false) + renderTest(sc, lv, st, true);
+    for (const sc of ['r1', 'r2', 'all']) html += renderSpeaking(sc);
+    document.title = 'Pomi Phonics 1 — Review Tests';
+  } else if (q.get('speaking') === '1') { html = renderSpeaking(scope); document.title = `Speaking Check — ${scopeTitle(scope)}`; }
+  else { html = renderTest(scope, level, set, q.get('key') === '1'); document.title = `${scopeTitle(scope)} · L${level} · ${set}${q.get('key') === '1' ? ' · Key' : ''}`; }
+  document.getElementById('out').innerHTML = html;
+  window.PRINT_READY = true;
 })();
 </script>
 </body>

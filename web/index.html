@@ -38,6 +38,10 @@
   .unit .links { margin-top:8px; display:flex; gap:6px; flex-wrap:wrap; }
   .unit .links a { font-size:14px; background:var(--cream); border:2px solid var(--line); border-radius:8px; padding:2px 8px; color:var(--ink); text-decoration:none; }
   .unit .links a.off { opacity:.4; pointer-events:none; }
+  .tf { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-top:8px; font-size:14px; }
+  .tf select, .tf button { font-family:inherit; font-size:14px; border:2px solid var(--line); border-radius:8px; padding:3px 6px; background:#fff; color:var(--ink); }
+  .tf button { background:var(--orange); color:#fff; border-color:var(--orange); font-family:'Fredoka'; cursor:pointer; }
+  .tf label { display:inline-flex; align-items:center; gap:3px; } .tf a, #tPdfs a { font-size:13px; }
   .feat { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:12px; }
   .feat div { background:#fff; border:3px solid var(--line); border-radius:16px; padding:14px; }
   .feat b { font-family:'Fredoka'; font-size:18px; display:block; margin-bottom:4px; }
@@ -68,11 +72,11 @@
     <h2>이 교재는</h2>
     <div class="feat">
       <div><b>🔊 누르면 소리가 나요</b>글자·소리·단어·스토리 전부 원어민 발음으로. 말소리가 나올 때 배경음악은 저절로 작아져요.</div>
-      <div><b>📖 11유닛이 하나의 이야기</b>릴리와 맥스가 포미를 도와 글자나무 26그루를 키워요. 유닛마다 새 글자 3개.</div>
+      <div><b>📖 11유닛이 하나의 이야기</b>번과 헤지가 노래를 잃은 아기 새 핍을 도와 글자나무 26그루를 키워요. 유닛마다 새 글자 3개.</div>
       <div><b>✏️ 학생책 + 워크북</b>하루 50분 × 2일. 그날 배운 쪽이 그날 숙제. 종이책 QR을 찍으면 그 쪽 소리가 나와요.</div>
       <div><b>🎮 게임과 자동 채점</b>소리 잡기 게임, 듣고 고르기, 잇기. 선생님 화면에서 바로 수업.</div>
       <div><b>🖨 인쇄용 PDF</b>같은 내용을 A4 PDF로. 웹과 종이가 늘 같아요.</div>
-      <div><b>👩‍🏫 선생님 자료</b>유닛마다 50분 수업안 2개(웹 교재 쪽 번호가 적혀 있어요), 인쇄용 플래시카드. 시험지·진도표·가정통신문은 준비 중.</div>
+      <div><b>👩‍🏫 선생님 자료</b>유닛마다 50분 수업안 2개(웹 교재 쪽 번호가 적혀 있어요), 플래시카드, 그림 시험지 생성기(범위·수준·A/B형), 진도표, 가정통신문.</div>
     </div>
   </section>
 
@@ -87,7 +91,15 @@
       <div><b>📅 진도표</b><a href="teacher/syllabus.html">22차시 · 33차시</a></div>
       <div><b>📝 수업안</b>유닛 카드의 "수업안" — 50분 흐름 2개, 웹 교재 쪽 번호 포함</div>
       <div><b>🃏 플래시카드</b>유닛 카드의 "플래시카드" — A4 한 장에 4장</div>
-      <div><b>📋 유닛 시험지</b>유닛 카드의 "시험지" — A/B형 + 정답지</div>
+      <div><b>📋 시험지 생성기</b>듣기 없이 그림 문항 20개(A4 2쪽) + 글자별 점수표. 범위·수준·세트를 골라요.
+        <form class="tf" onsubmit="event.preventDefault();makeTest()">
+          <select id="tScope"><option value="r1">복습 1 (1~4유닛)</option><option value="r2">복습 2 (6~10유닛)</option><option value="all">전체 (1~10유닛)</option></select>
+          <select id="tLevel"><option value="1">Level 1 글자</option><option value="2">Level 2 단어</option><option value="3">Level 3 읽기·쓰기</option></select>
+          <select id="tSet"><option value="A">A형</option><option value="B">B형</option></select>
+          <label><input type="checkbox" id="tBw"> 흑백</label><label><input type="checkbox" id="tKey"> 정답지</label>
+          <button type="submit">열기</button> <a href="teacher/test.html?scope=r1&speaking=1">말하기 체크리스트</a>
+        </form>
+        <span id="tPdfs"></span></div>
       <div><b>✉️ 가정통신문</b><a href="teacher/letter.html?u=1">Unit 1 가정통신문</a> (주소의 u=숫자를 바꾸면 다른 유닛)</div>
       <div><b>🎵 노래·음악</b>주제가·알파벳 노래·배경음악은 제작 중 (지금은 임시 곡)</div>
     </div>
@@ -95,6 +107,8 @@
 </div>
 <footer>© Pomi Phonics · 글꼴 Andika·Fredoka (SIL Open Font License)</footer>
 <script>
+// 시험지 생성기 폼 → teacher/test.html 주소
+function makeTest() { const p = new URLSearchParams({ scope: tScope.value, level: tLevel.value, set: tSet.value }); if (tBw.checked) p.set('bw', '1'); if (tKey.checked) p.set('key', '1'); location.href = 'teacher/test.html?' + p; }
 (async () => {
   const base = ['content/', '../content/'];
   let book = null;
@@ -111,10 +125,11 @@
     const wb = ok && have[u.n].lessons.some((l) => l.workbook && l.workbook.length);
     const sb = ok && book.storybook && have[u.n].storybook && have[u.n].storybook.pages && have[u.n].storybook.pages.length;
     return `<div class="unit"><span class="n ${ok ? '' : 'soon'}">Unit ${u.n}</span><h3>${u.title}</h3><div class="lt">${u.letters.length ? u.letters.map((l) => l.toUpperCase() + l).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입')}</div>
-      <div class="links"><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1">학생책</a><a class="${wb ? '' : 'off'}" href="book/?b=wb&u=${u.n}&p=1">워크북</a><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1&t=1">수업 화면</a>${sb ? `<a href="book/story.html?u=${u.n}&p=1">📙 스토리북</a>` : ''}${u.letters.length ? `<a class="${ok ? '' : 'off'}" href="teacher/lesson-plan.html?u=${u.n}">수업안</a><a class="${ok ? '' : 'off'}" href="teacher/flashcards.html?u=${u.n}">플래시카드</a><a class="${ok ? '' : 'off'}" href="teacher/test.html?u=${u.n}">시험지</a>` : ''}</div></div>`;
+      <div class="links"><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1">학생책</a><a class="${wb ? '' : 'off'}" href="book/?b=wb&u=${u.n}&p=1">워크북</a><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1&t=1">수업 화면</a>${sb ? `<a href="book/story.html?u=${u.n}&p=1">📙 스토리북</a>` : ''}${u.letters.length ? `<a class="${ok ? '' : 'off'}" href="teacher/lesson-plan.html?u=${u.n}">수업안</a><a class="${ok ? '' : 'off'}" href="teacher/flashcards.html?u=${u.n}">플래시카드</a><a class="${ok ? '' : 'off'}" href="teacher/test.html?scope=u${u.n}&level=${u.n >= 6 ? 2 : 1}&set=A">시험지</a>` : ''}</div></div>`;
   }).join('');
-  // PDF 가 올라와 있으면 목록 (pdf/index.json)
-  try { const r = await fetch('pdf/index.json', { cache: 'no-store' }); if (r.ok) { const list = await r.json(); if (list.length) { document.getElementById('pdfsec').style.display = ''; document.getElementById('pdfs').innerHTML = list.map((f) => `<div><b>📄 ${f.title}</b><a href="pdf/${f.file}">${f.file}</a></div>`).join(''); } } } catch (e) {}
+  // PDF 가 올라와 있으면 목록 (pdf/index.json). 시험지 묶음 두 개는 선생님 자료 칸에도
+  try { const r = await fetch('pdf/index.json', { cache: 'no-store' }); if (r.ok) { const list = await r.json(); if (list.length) { document.getElementById('pdfsec').style.display = ''; document.getElementById('pdfs').innerHTML = list.map((f) => `<div><b>📄 ${f.title}</b><a href="pdf/${f.file}">${f.file}</a></div>`).join(''); }
+    const tp = list.filter((f) => /Tests_/.test(f.file)); if (tp.length) document.getElementById('tPdfs').innerHTML = 'PDF 묶음: ' + tp.map((f) => `<a href="pdf/${f.file}">${f.title}</a>`).join(' · '); } } catch (e) {}
 })();
 </script>
 </body>

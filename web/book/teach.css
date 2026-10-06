@@ -132,6 +132,21 @@
 .sl-path { grid-template-columns: repeat(9, 1fr); gap: 16px; flex: 1; align-content: center; }
 .sl-path .lt { font-size: 80px; border-width: 3px; }
 
+/* 12유닛: 노래 · 단어 사냥 · 공연 · 수료증 */
+.sl-song { flex: 1; min-height: 0; overflow: auto; gap: 8px 30px; align-content: start; }
+.sl-song .song-line { font-size: 32px; padding: 4px 12px; gap: 14px; } .sl-song .song-line .lt { width: 76px; height: 60px; font-size: 40px; } .sl-song .song-line .lt small { font-size: 30px; } .sl-song .song-line .sw { width: 60px; height: 60px; }
+.sl-hunt { flex-direction: row; gap: 26px; }
+.sl-hunt .hunt-scene { width: 60%; height: auto; max-height: calc(var(--sh) - 240px); flex: none; aspect-ratio: 4 / 3; align-self: start; }
+.sl-hunt .hunt-side { flex: 1; justify-content: center; gap: 24px; } .sl-hunt .hunt-q { font-size: 50px; } .sl-hunt .hunt-q b { font-size: 70px; }
+.sl-hunt .hunt-ws { gap: 16px; } .sl-hunt .hunt-w { font-size: 40px; padding: 10px 28px; border-radius: 18px; }
+.slide .hunt-bar .round { font-size: 30px; } .slide .hunt-bar .stars { font-size: 34px; } .slide .hunt-bar .msg { font-size: 36px; }
+.sl-recap { display: grid; grid-template-columns: 1.3fr 1fr; gap: 26px; flex: 1; min-height: 0; }
+.sl-recap .stage-pic { width: 100%; height: auto; max-height: calc(var(--sh) - 180px); align-self: start; border-radius: 20px; }
+.sl-recap-side { display: flex; flex-direction: column; gap: 16px; min-height: 0; }
+.sl-cert { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 10px; }
+.sl-cert .cert { padding: 16px 40px 12px; } .sl-cert .cert h1 { font-size: 54px; } .sl-cert .cert-az { font-size: 22px; max-width: 900px; } .sl-cert .cert-name { font-size: 56px; min-height: 76px; } .sl-cert .cert-text { font-size: 36px; } .sl-cert .cert-ko { font-size: 22px; }
+.sl-cert .cert-chars .cert-char { max-height: 300px; max-width: 220px; } .sl-cert .cert-form input { font-size: 28px; width: 400px; }
+
 /* 친구들 */
 .sl-chars { grid-template-columns: repeat(4, 1fr); gap: 20px; flex: 1; min-height: 0; }
 .sl-chars .char { min-height: 0; } .sl-chars .char .pic { height: auto; min-height: 200px; flex: 1; } .sl-chars .char h3 { font-size: 36px; } .sl-chars .char .say-line { font-size: 26px; }

@@ -29,16 +29,18 @@ function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@pa
   if (b === 'story') { pageSize(press ? '216mm 154mm' : '210mm 148mm'); renderStory(base); return; }
   if (press) pageSize('216mm 303mm');
   const unit = App.units[u]; if (!unit) { document.body.textContent = '유닛 없음'; return; }
-  const pages = pageList(unit, b);
+  const pages = pageList(unit, b), onlyP = +(q.get('p') || 0), name = q.get('name') || '';   // &p=N 이면 그 쪽만 (수료증 인쇄), &name= 은 수료증 이름
   document.getElementById('pages').innerHTML = pages.map((pg, i) => {
     const p = i + 1, no = pageNo(b, u, p);
-    const ctx = { book: App.book, unit, b, u, p, page: pg, pages, print: true };
+    if (onlyP && p !== onlyP) return '';
+    const ctx = { book: App.book, unit, b, u, p, page: pg, pages, print: true, name };
     const fn = PAGES[pg.type] || (() => '');
     const qr = `<img class="qr" src="../assets/qr/${b}_u${String(u).padStart(2, '0')}_p${p}.png" onerror="this.style.display='none'" alt="QR">`;
     return `<article class="page ${b} t-${pg.type}"><div class="ph-head"><span class="unit">Unit ${u}</span><h2>${esc(unit.title)}</h2>${lettersBadge(unit)}</div>${fn(ctx)}<div class="ph-foot"><span>${qr}${base}/book/?b=${b}&u=${u}&p=${p}</span><span>${b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${pg.lesson.n}</span><span class="pno">${no}</span></div></article>`;
   }).join('');
   document.title = `Pomi Phonics 1 — ${b === 'sb' ? 'Student Book' : 'Workbook'} Unit ${u}`;
   window.PRINT_READY = true;
+  if (onlyP && q.get('auto') !== '0') setTimeout(() => print(), 800);   // 한 쪽 인쇄는 바로 인쇄 창
 })();
 // 스토리북: 표지 → 앞 쪽 → 유닛 쪽 → 뒤 쪽. 쪽마다 그림이 꽉 차고 아래 글 띠, QR 은 story.html 의 그 쪽
 function renderStory(base) {
