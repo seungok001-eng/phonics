@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>교재 공방 Flow Bridge</title>
+    <style>
+      body { font-family: "Malgun Gothic", system-ui, sans-serif; width: 320px; padding: 16px; background: #1c1b1a; color: #e8e2d6; margin: 0; }
+      h1 { font-size: 14px; margin: 0 0 12px; color: #d9a640; }
+      label { display: block; font-size: 11px; color: #a39b8c; margin-bottom: 4px; }
+      input { width: 100%; box-sizing: border-box; padding: 8px; border-radius: 6px; border: 1px solid #3d3830; background: #151412; color: #e8e2d6; font-size: 12px; margin-bottom: 10px; }
+      button { width: 100%; padding: 10px; border-radius: 6px; border: 0; background: #d9a640; color: #1c1b1a; font-weight: 600; cursor: pointer; font-size: 13px; }
+      button.secondary { background: #3a352b; color: #e8e2d6; margin-top: 8px; }
+      .status { margin-top: 12px; padding: 8px; border-radius: 6px; background: #26241f; font-size: 11px; color: #a39b8c; min-height: 20px; }
+      .row { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+      .dot { width: 8px; height: 8px; border-radius: 50%; background: #64748b; }
+      .dot.on { background: #22c55e; } .dot.off { background: #ef4444; }
+    </style>
+  </head>
+  <body>
+    <h1>교재 공방 Flow Bridge</h1>
+    <div class="row"><span class="dot" id="dot"></span><span id="connStatus" style="font-size:12px;">상태 확인 중…</span></div>
+    <div style="font-size:11px;color:#a39b8c;line-height:1.45;margin:0 0 10px;">교재 공방(tools\forge.cmd)을 켜 두고 플로우에 로그인한 뒤 "자동화 시작"을 누르면, 공방의 자동 대기열을 순서대로 플로우에서 생성해 돌려보냅니다.</div>
+    <label>교재 공방 서버 주소</label>
+    <input id="server" value="http://localhost:8766" />
+    <button id="save">자동화 시작</button>
+    <button id="stop" class="secondary">자동화 중지</button>
+    <div class="status" id="status">대기 중</div>
+    <script src="popup.js"></script>
+  </body>
+</html>

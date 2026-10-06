@@ -1,0 +1,28 @@
+{
+ "generator": "flow",
+ "auto_approve_ref": false,
+ "max_inflight": 4,
+ "gemini_model": "gemini-3.1-flash-image",
+ "gemini_size": "1K",
+ "gemini_workers": 2,
+ "tts_model": "gemini-3.8-flash-tts",
+ "tts_workers": 2,
+ "sound_variants": {},
+ "say_prefix": "Say slowly and clearly: ",
+ "check_model": "gemini-3.5-flash-lite",
+ "cut_ms": {
+  "plosive": 180,
+  "other": 350
+ },
+ "port": 8766,
+ "next_asset_no": 2001,
+ "gemini_usage": {
+  "count": 1,
+  "cost": 0.045
+ },
+ "tts_usage": {
+  "count": 1,
+  "tokens": 27,
+  "checks": 0
+ }
+}

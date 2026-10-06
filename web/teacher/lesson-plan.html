@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 수업안</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --blue:#4FA3E0; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; font-size:14px; }
+  .sheet { width:210mm; min-height:297mm; margin:16px auto; background:#fff; padding:16mm 14mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; }
+  h1 { font-family:'Fredoka'; color:var(--orange); margin:0 0 4px; font-size:26px; }
+  h1 small { color:var(--soft); font-family:'Andika'; font-weight:400; font-size:14px; margin-left:8px; }
+  h2 { font-family:'Fredoka'; font-size:18px; margin:14px 0 6px; color:var(--blue); }
+  table { width:100%; border-collapse:collapse; }
+  th, td { border:1px solid var(--line); padding:6px 8px; vertical-align:top; text-align:left; }
+  th { background:var(--cream); width:22%; font-family:'Fredoka'; font-weight:500; }
+  td.t { width:14%; white-space:nowrap; font-weight:700; }
+  td.w { width:22%; color:var(--soft); }
+  td ul { margin:0; padding-left:16px; }
+  .flow th { width:auto; }
+  .tag { display:inline-block; background:var(--cream); border:1px solid var(--line); border-radius:6px; padding:0 6px; font-size:12px; margin-right:4px; }
+  .en { color:var(--soft); font-style:italic; }
+  .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:210mm; }
+  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
+  @page { size:A4; margin:0; }
+  @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } }
+</style>
+</head>
+<body>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span id="nav"></span></div>
+<div id="out"></div>
+<script>
+// 수업안: content 에서 자동으로 만든다. ?u=1
+const q = new URLSearchParams(location.search); const U = +(q.get('u') ?? 1);
+const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+async function get(rel) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+(async () => {
+  const book = await get('book.json'), unit = await get(`units/unit${String(U).padStart(2, '0')}.json`);
+  if (!unit) { document.getElementById('out').textContent = '유닛 없음'; return; }
+  document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false).map((x) => `<a href="?u=${x.n}">U${x.n}</a>`).join(' ');
+  const L = (l) => book.letters[l];
+  const words = unit.letters.flatMap((l) => L(l).words);
+  const site = (b, p) => `<span class="tag">웹 ${b === 'sb' ? '학생책' : '워크북'} ${p}쪽</span>`;
+  const sbPages = unit.lessons.flatMap((ls) => ls.pages), sbIdx = (type, half) => sbPages.findIndex((p) => p.type === type && (!half || p.half === half)) + 1;
+  const pageNo = (b, p) => { let n = b === 'sb' ? 3 : 2; for (const x of book.units) { if (x.n === U) return n + p; n += b === 'sb' ? (x.n === 0 ? 4 : x.review ? 6 : 8) : (x.n === 0 ? 0 : x.review ? 2 : 4); } return n + p; };
+  const sbp = (type, half) => { const i = sbIdx(type, half); return i ? `SB p.${pageNo('sb', i)} ${site('sb', i)}` : ''; };
+  const wbp = (i) => `WB p.${pageNo('wb', i)} ${site('wb', i)}`;
+  const common = `<table><tr><th>Objectives<br>목표</th><td><ul>${unit.objectives_ko.map((o) => `<li>${esc(o)}</li>`).join('')}</ul></td></tr>
+    <tr><th>Phonics</th><td>${unit.letters.map((l) => `<b>${l.toUpperCase()}${l}</b> /${L(l).sound}/`).join(' · ')}</td></tr>
+    <tr><th>Words</th><td>${words.join(', ')}</td></tr>
+    <tr><th>Sight words</th><td>${unit.sight_words.join(', ')}</td></tr>
+    <tr><th>Story</th><td>${esc(unit.story.title)}</td></tr>`;
+  const l1 = `<div class="sheet"><h1>Unit ${U} ${esc(unit.title)} <small>Lesson 1 · 소리·쓰기·단어 · 50분</small></h1>${common}
+    <tr><th>Materials<br>준비물</th><td>웹 교재(전자칠판·PC), 학생책 pp.${pageNo('sb', 1)}–${pageNo('sb', 4)}, 워크북 pp.${pageNo('wb', 1)}–${pageNo('wb', 2)}, 플래시카드(글자 ${unit.letters.map((l) => l.toUpperCase()).join('·')}, 단어 ${words.length}장)</td></tr></table>
+    <h2>수업 흐름</h2><table class="flow"><tr><th>시간</th><th>활동</th><th>웹 교재</th><th>진행 (선생님 말은 영어, 설명은 한국어)</th></tr>
+    <tr><td class="t">5'</td><td>인사·주제가·복습</td><td class="w">홈 → 학생책 1쪽 · Play</td><td>인사와 출석. 주제가를 틀고 함께 부른다. 지난 유닛 글자 카드를 빠르게 보여 주며 소리를 말하게 한다. <span class="en">"Hello, everyone! Let's sing!"</span></td></tr>
+    <tr><td class="t">10'</td><td>소리 3개</td><td class="w">${sbp('sounds')}</td><td>글자마다 ① 이름(🔊 Name) ② 소리(🔊 Sound) 3번 따라 말하기 ③ ♪ Chant ④ 동작(${unit.letters.map((l) => `${l.toUpperCase()}: ${esc(L(l).action_ko)}`).join(', ')}). 글자나무 그림을 누르면 소리가 난다. <span class="en">"This is A. A says /æ/. Say it with me: /æ/ /æ/ /æ/!"</span></td></tr>
+    <tr><td class="t">10'</td><td>따라 쓰기 · 짝 찾기</td><td class="w">${sbp('trace')}</td><td>획순 그림을 눌러 획이 그려지는 순서를 보여 주고 허공에 손가락으로 따라 쓴다. 학생책에 연필로 따라 쓴다. "Look and circle"에서 큰 글자·작은 글자 짝을 찾아 동그라미. <span class="en">"Big A, small a. Find the pair!"</span></td></tr>
+    <tr><td class="t">15'</td><td>단어 9개</td><td class="w">${sbp('words')}</td><td>그림을 하나씩 눌러 듣고 따라 말한다(첫소리를 강조: <span class="en">"/b/ – bus"</span>). ♪ Word chant 로 9개를 리듬에 맞춰 말한다. 네모 칸에 표시. 플래시카드로 "첫소리가 /b/인 카드 들기" 놀이.</td></tr>
+    <tr><td class="t">5'</td><td>놀이: 소리 잡기</td><td class="w">${sbp('read_play')}</td><td>▶ Catch the sound! — 소리를 듣고 그 소리로 시작하는 그림을 누른다(5라운드). 두 팀으로 나눠 번갈아 나와서 누르게 하면 좋다.</td></tr>
+    <tr><td class="t">5'</td><td>정리·숙제</td><td class="w"></td><td>오늘 글자 3개의 소리를 다 같이 한 번 더. 숙제: ${wbp(1)}, ${wbp(2)} (QR을 찍으면 소리를 들을 수 있다). <span class="en">"Great job! See you next time!"</span></td></tr></table></div>`;
+  const l2 = `<div class="sheet"><h1>Unit ${U} ${esc(unit.title)} <small>Lesson 2 · 스토리·정리 · 50분</small></h1>${common}
+    <tr><th>Materials<br>준비물</th><td>웹 교재, 학생책 pp.${pageNo('sb', 5)}–${pageNo('sb', 8)}, 워크북 pp.${pageNo('wb', 3)}–${pageNo('wb', 4)}, 사이트워드 카드(${unit.sight_words.join(', ')})</td></tr></table>
+    <h2>수업 흐름</h2><table class="flow"><tr><th>시간</th><th>활동</th><th>웹 교재</th><th>진행</th></tr>
+    <tr><td class="t">5'</td><td>인사·주제가·허공 쓰기</td><td class="w">홈 · Play</td><td>주제가. 선생님이 소리를 내면 학생이 그 글자를 허공에 쓴다. <span class="en">"/k/ — write it in the air!"</span></td></tr>
+    <tr><td class="t">5'</td><td>복습 플래시카드</td><td class="w">${sbp('sounds')}</td><td>글자 카드 → 소리, 단어 카드 → 단어. 점점 빠르게.</td></tr>
+    <tr><td class="t">5'</td><td>듣고 가리키고 말하기</td><td class="w">${sbp('listen_point')}</td><td>▶ Listen 을 누르면 글자 이름·소리·단어가 차례로 나온다. 학생은 책의 글자와 그림을 손가락으로 가리키며 따라 말한다. "Say and check": 스스로 말한 단어에 표시.</td></tr>
+    <tr><td class="t">5'</td><td>사이트워드</td><td class="w">${sbp('story', 1)}</td><td>${unit.sight_words.map((w) => `<b>${w}</b>`).join(', ')} 를 보고 통째로 읽는다(소리로 쪼개지 않는다). 카드를 들고 빨리 읽기. 스토리 글에서 찾아 동그라미.</td></tr>
+    <tr><td class="t">15'</td><td>스토리</td><td class="w">${sbp('story', 1)} · ${sbp('story', 2)}</td><td>① ▶ Listen to the story — 음악과 함께 끝까지 듣는다 (영상이 있는 칸은 ▶ movie). ② 말풍선을 하나씩 눌러 따라 말한다. ③ 역할 나누기(Lily / Max / Digby). ④ 🔍 Find: 그림 속 숨은 단어 ${unit.story.panels.flatMap((p) => p.hidden).length}개 찾기. ⑤ 스토리를 세 번 읽는다. <span class="en">"Who is it? A mole!"</span></td></tr>
+    <tr><td class="t">10'</td><td>유닛 정리</td><td class="w">${sbp('check')}</td><td>A 듣고 동그라미(🔊 → 고르기) · B 글자→그림→단어 잇기 · C 첫소리 글자 찾아 쓰기. 웹에서 바로 정답 확인(초록 = 정답).</td></tr>
+    <tr><td class="t">5'</td><td>정리·숙제</td><td class="w"></td><td>글자 3개 소리·단어 9개를 한 번씩. 숙제: ${wbp(3)}, ${wbp(4)} (F는 QR로 듣고 3번 읽기). <span class="en">"You did it! Pop! Pop! Pop!"</span></td></tr></table>
+    <h2>스토리 대본</h2><table>${unit.story.panels.map((p, i) => `<tr><th>칸 ${i + 1}</th><td>${p.lines.map((ln) => `<b>${esc(book.characters[ln.who]?.name || ln.who)}:</b> ${esc(ln.text)}`).join('<br>')}${p.hidden.length ? `<br><span class="en">숨은 그림: ${p.hidden.join(', ')}</span>` : ''}</td></tr>`).join('')}</table></div>`;
+  document.getElementById('out').innerHTML = l1 + l2;
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 인쇄</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  /* 인쇄 쪽에서는 단추를 숨기고 QR·쪽 번호를 보인다 */
+  body.print #pages { display: flex; flex-direction: column; align-items: center; gap: 0; }
+  @media screen { body.print { padding: 20px; } body.print .page { margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,.15); } }
+</style>
+</head>
+<body class="print">
+<div id="pages"></div>
+<script>window.PRINT = true;</script>
+<script src="app.js"></script>
+<script src="strokes.js"></script>
+<script src="pages.js"></script>
+<script>
+// 주소: print.html?b=sb|wb&u=1  → 그 유닛의 모든 쪽을 A4 로. tools/pdf.py 가 크롬으로 PDF 를 뽑는다.
+(async () => {
+  const q = new URLSearchParams(location.search); const b = q.get('b') || 'sb', u = +(q.get('u') ?? 1);
+  App.book = await loadJSON('book.json'); App.b = b; App.u = u;
+  await Promise.all(App.book.units.map((x) => loadUnit(x.n)));
+  const unit = App.units[u]; if (!unit) { document.body.textContent = '유닛 없음'; return; }
+  const pages = pageList(unit, b);
+  const base = App.book.site_base || '';
+  document.getElementById('pages').innerHTML = pages.map((pg, i) => {
+    const p = i + 1, no = pageNo(b, u, p);
+    const ctx = { book: App.book, unit, b, u, p, page: pg, pages, print: true };
+    const fn = PAGES[pg.type] || (() => '');
+    const qr = `<img class="qr" src="../assets/qr/${b}_u${String(u).padStart(2, '0')}_p${p}.png" onerror="this.style.display='none'" alt="QR">`;
+    return `<article class="page ${b}"><div class="ph-head"><span class="unit">Unit ${u}</span><h2>${esc(unit.title)}</h2>${lettersBadge(unit)}</div>${fn(ctx)}<div class="ph-foot"><span>${qr}${base.replace(/^https?:\/\//, '')}/book/?b=${b}&u=${u}&p=${p}</span><span>${b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${pg.lesson.n}</span><span class="pno">${no}</span></div></article>`;
+  }).join('');
+  document.title = `Pomi Phonics 1 — ${b === 'sb' ? 'Student Book' : 'Workbook'} Unit ${u}`;
+  window.PRINT_READY = true;
+})();
+</script>
+</body>
+</html>

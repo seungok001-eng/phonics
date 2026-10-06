@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 플래시카드</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --vowel:#E0523E; --conso:#2E5FBF; --cream:#FFF9EE; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; }
+  .sheet { width:210mm; height:297mm; margin:16px auto; background:#fff; padding:10mm; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; gap:6mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; }
+  .card { border:3px dashed var(--line); border-radius:14px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; position:relative; }
+  .card .glyph { font-family:'Andika'; font-size:150px; line-height:1; font-weight:700; }
+  .card .glyph small { font-size:110px; font-weight:400; margin-left:8px; }
+  .card img { max-width:80%; max-height:60%; object-fit:contain; }
+  .card .ph { width:70%; height:55%; background:var(--cream); border-radius:12px; display:flex; align-items:center; justify-content:center; color:var(--soft); font-family:'Fredoka'; font-size:22px; }
+  .card .wd { font-size:44px; font-weight:700; }
+  .card .wd b { color:var(--orange); }
+  .card .sw { font-size:70px; font-weight:700; }
+  .card .tag { position:absolute; left:10px; top:8px; font-size:12px; color:var(--soft); }
+  .vowel { color:var(--vowel); } .conso { color:var(--conso); }
+  .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:210mm; }
+  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
+  @page { size:A4; margin:0; }
+  @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } }
+</style>
+</head>
+<body>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span id="nav"></span><span style="color:var(--soft);font-size:13px">A4 한 장에 4장 · 점선으로 자르기 · 두꺼운 종이 권장</span></div>
+<div id="out"></div>
+<script>
+// 플래시카드: 글자(대·소문자) + 단어(그림·단어) + 사이트워드. ?u=1
+const q = new URLSearchParams(location.search); const U = +(q.get('u') ?? 1);
+async function get(rel) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+(async () => {
+  const book = await get('book.json'), unit = await get(`units/unit${String(U).padStart(2, '0')}.json`);
+  if (!unit) { document.getElementById('out').textContent = '유닛 없음'; return; }
+  document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false && x.letters.length).map((x) => `<a href="?u=${x.n}">U${x.n}</a>`).join(' ');
+  const cls = (l) => book.letters[l].kind === 'vowel' ? 'vowel' : 'conso';
+  const cards = [];
+  for (const l of unit.letters) {
+    cards.push(`<div class="card"><span class="tag">Unit ${U} · letter</span><div class="glyph ${cls(l)}">${l.toUpperCase()}<small>${l}</small></div></div>`);
+    for (const w of book.letters[l].words) {
+      const i = book.letters[l].final ? w.lastIndexOf(l) : w.indexOf(l);
+      cards.push(`<div class="card"><span class="tag">Unit ${U} · ${l.toUpperCase()}${l}</span><img src="../assets/art/word_${w}.png" alt="${w}" onerror="this.outerHTML='<div class=ph>${w}</div>'"><div class="wd">${w.slice(0, i)}<b>${w[i]}</b>${w.slice(i + 1)}</div></div>`);
+    }
+  }
+  for (const w of unit.sight_words) cards.push(`<div class="card"><span class="tag">Unit ${U} · sight word</span><div class="sw">${w}</div></div>`);
+  let html = '';
+  for (let i = 0; i < cards.length; i += 4) html += `<div class="sheet">${cards.slice(i, i + 4).join('')}</div>`;
+  document.getElementById('out').innerHTML = html;
+})();
+</script>
+</body>
+</html>

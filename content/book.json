@@ -218,15 +218,15 @@
   "units": [
     { "n": 0, "title": "The Little Door", "letters": [] },
     { "n": 1, "title": "Pop! Pop! Pop!", "letters": ["a", "b", "c"] },
-    { "n": 2, "title": "The Duck Pond", "letters": ["d", "e", "f"] },
-    { "n": 3, "title": "The Goat Ate It!", "letters": ["g", "h", "i"] },
-    { "n": 4, "title": "The Key", "letters": ["j", "k", "l"] },
-    { "n": 5, "title": "Pomi's Garden Walk", "letters": [], "review": [1, 2, 3, 4] },
-    { "n": 6, "title": "The Night Garden", "letters": ["m", "n", "o"] },
-    { "n": 7, "title": "The Queen's Quilt", "letters": ["p", "q", "r"] },
-    { "n": 8, "title": "Up, Up, Up!", "letters": ["s", "t", "u"] },
-    { "n": 9, "title": "The Volcano", "letters": ["v", "w", "x"] },
-    { "n": 10, "title": "Pomi Sings!", "letters": ["y", "z"], "alphabet_review": true },
-    { "n": 11, "title": "The Garden Party", "letters": [], "review": [6, 7, 8, 9, 10], "final": true }
+    { "n": 2, "ready": false, "title": "The Duck Pond", "letters": ["d", "e", "f"] },
+    { "n": 3, "ready": false, "title": "The Goat Ate It!", "letters": ["g", "h", "i"] },
+    { "n": 4, "ready": false, "title": "The Key", "letters": ["j", "k", "l"] },
+    { "n": 5, "ready": false, "title": "Pomi's Garden Walk", "letters": [], "review": [1, 2, 3, 4] },
+    { "n": 6, "ready": false, "title": "The Night Garden", "letters": ["m", "n", "o"] },
+    { "n": 7, "ready": false, "title": "The Queen's Quilt", "letters": ["p", "q", "r"] },
+    { "n": 8, "ready": false, "title": "Up, Up, Up!", "letters": ["s", "t", "u"] },
+    { "n": 9, "ready": false, "title": "The Volcano", "letters": ["v", "w", "x"] },
+    { "n": 10, "ready": false, "title": "Pomi Sings!", "letters": ["y", "z"], "alphabet_review": true },
+    { "n": 11, "ready": false, "title": "The Garden Party", "letters": [], "review": [6, 7, 8, 9, 10], "final": true }
   ]
 }
