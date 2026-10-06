@@ -567,7 +567,7 @@ PAGES.word_hunt = (ctx) => {
   const rounds = ctx.unit.show.hunt.rounds;
   if (ctx.print) {   // 인쇄: 라운드 전부(장면 + 찾을 단어 ☐)
     return instr(1, 'Find the things.', '장면에서 그 글자로 시작하는 것을 찾아 ☐ 에 표시해요') +
-      `<div class="hunt-print">${rounds.map((r, i) => `<div class="hp"><div class="hp-scene">${pic(r.scene, '', 'scene')}</div><div class="hp-side"><b>${i + 1}. Find the <span class="${letterCls(r.letter)}">${r.letter}</span> things!</b>${r.words.map((w) => `<span class="hp-w">☐ ${esc(w)}</span>`).join('')}</div></div>`).join('')}</div>`;
+      `<div class="hunt-print">${rounds.map((r, i) => `<div class="hp"><div class="hp-scene">${pic(r.scene, '', 'scene')}</div><div class="hp-side"><b>${i + 1}. Find the <span class="${r.letter ? letterCls(r.letter) : 'vowel'}">${r.letter || '-' + r.family}</span> ${r.letter ? 'things' : 'words'}!</b>${r.words.map((w) => `<span class="hp-w">☐ ${esc(w)}</span>`).join('')}</div></div>`).join('')}</div>`;
   }
   HUNT.i = 0; HUNT.found = 0; HUNT.score = 0;
   return instr(1, 'Word hunt!', B2() ? '소리를 듣고, 장면에서 그 가족 단어를 찾아 눌러요' : '글자 소리를 듣고, 장면에서 그 소리로 시작하는 것을 찾아 단어를 눌러요') +

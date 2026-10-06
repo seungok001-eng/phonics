@@ -35,9 +35,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:30",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -48,5 +48,5 @@
  "text": "/z/ ... /ɪ/ ... /p/ ... zip",
  "voice": "Kore",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

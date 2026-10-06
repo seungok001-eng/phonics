@@ -2,7 +2,7 @@
  "status": "failed",
  "raw": "",
  "cut": "",
- "attempts": 4,
+ "attempts": 5,
  "error": "이미지 제출 실패: 참조 첨부 실패 (필수): 참조 붙여넣기 실패: 붙여넣기 첨부 후 소재 칩이 생기지 않음",
  "updated": 0,
  "auto_approved": false,
