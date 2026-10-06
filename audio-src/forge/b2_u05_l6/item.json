@@ -35,9 +35,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:37",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -48,5 +48,5 @@
  "text": "Pip tries. Pip tries.",
  "voice": "Kore",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

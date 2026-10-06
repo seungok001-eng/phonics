@@ -35,9 +35,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 00:35",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -48,5 +48,5 @@
  "text": "Gip... pig!",
  "voice": "Aoede",
  "book": 2,
- "busy": 1
+ "busy": 0
 }
