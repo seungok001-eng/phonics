@@ -50,18 +50,36 @@
     "raw": "TRANSCRIPT=Let's help Polmi. | TYPE=sentence | IPA=lɛts hɛlp poʊlmi | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Let's help Pip!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791278474.244103,
+   "sec": 1.88,
+   "check": {
+    "transcript": "Let's help Pip.",
+    "type": "sentence",
+    "ipa": "lɛts hɛlp pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Let's help Pip. | TYPE=sentence | IPA=lɛts hɛlp pɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "u00_l4",
  "sub": "line",
- "title": "0유닛 대사 · 해설: Let's help Pomi!",
- "text": "Let's help Pomi!",
- "voice": "Kore"
+ "title": "0유닛 대사 · 해설: Let's help Pip!",
+ "text": "Let's help Pip!",
+ "voice": "Kore",
+ "busy": 1
 }

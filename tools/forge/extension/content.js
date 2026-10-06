@@ -1683,7 +1683,8 @@ function getPromptComposerRoot() {
   const byClass = editor.closest(
     "form, [role='form'], [data-testid*='composer'], [class*='composer'], [class*='prompt']"
   );
-  if (byClass) return byClass;
+  // [교재 공방] 새 플로우에서는 에디터 자체가 class="prompt-input" 이라 자기 자신이 잡힌다 → 단추를 품은 조상(base-prompt-box)까지 올라간다
+  if (byClass && byClass.querySelector("button, [role='button']")) return byClass;
   // 창이 작아 클래스 매칭이 실패해도 body 까지 떨어지지 않도록, 에디터에서
   // 위로 올라가며 버튼을 포함하는 첫 조상을 composer 로 간주한다.
   // (body 로 떨어지면 첨부 indicator / asset key 판정이 전부 무력화된다.)
@@ -2109,8 +2110,38 @@ function findOpenFlowDialog() {
   return (
     document.querySelector("[role='dialog'][data-state='open']") ||
     document.querySelector("[role='dialog']:not([hidden])") ||
+    document.querySelector("flow-add-menu-popover-content")?.closest(".cdk-overlay-pane") ||   // [교재 공방] 새 플로우의 "소재 추가" 창
     null
   );
+}
+
+// [교재 공방 2026-10-06] 새 플로우 UI 첨부: 프롬프트 칸에 그림 파일을 "붙여넣기"(paste 이벤트)하면 소재 칩으로 붙고 플로우가 올린다.
+// (소재 추가 창의 "미디어 업로드"는 진짜 클릭이어야 OS 파일 창이 열려 자동화가 막히고, 합성 클릭은 아무 일도 안 한다.)
+function clearIngredientChips() {
+  // 지난 잡이 남긴 소재 칩 제거 (칩을 누르면 빠진다)
+  document.querySelectorAll("flow-ingredient-bar button.chip-container, .prompt-ingredient-bar button.chip-container").forEach((b) => { try { b.click(); } catch {} });
+}
+async function attachByPastingFile(imageUrl, fileName) {
+  const editor = findPromptEditor();
+  if (!editor) return false;
+  clearIngredientChips();
+  await SLEEP(200);
+  const res = await fetch(imageUrl, { cache: "no-store" });
+  if (!res.ok) throw new Error(`참조 그림을 받지 못함 (${res.status})`);
+  const blob = await res.blob();
+  const file = new File([blob], fileName, { type: blob.type || "image/png" });
+  const dt = new DataTransfer();
+  dt.items.add(file);
+  const target = editor.matches("[contenteditable='true']") ? editor : (editor.querySelector("[contenteditable='true']") || editor);
+  target.dispatchEvent(new ClipboardEvent("paste", { bubbles: true, cancelable: true, clipboardData: dt }));
+  // 소재 칩 썸네일이 blob: 이 아닌 최종 주소로 바뀌면 업로드 완료
+  const img = await waitFor(() => {
+    const el = document.querySelector("flow-ingredient-bar img.chip-image, .prompt-ingredient-bar img, flow-ingredient-bar img");
+    return el && el.src && !el.src.startsWith("blob:") ? el : null;
+  }, 60000, 300).catch(() => null);
+  if (!img) throw new Error("붙여넣기 첨부 후 소재 칩이 생기지 않음");
+  console.log(`[Flow Bridge] 붙여넣기로 참조 첨부 완료: ${fileName}`);
+  return true;
 }
 
 // dialog 가 열려 있으면 ESC + 바깥 클릭으로 강제 종료.
@@ -2778,6 +2809,13 @@ async function attachStyleImageToFlow(imageUrl, sceneId, sceneNumber, imagePromp
   const padded = typeof sceneNumber === "number"
     ? String(sceneNumber).padStart(4, "0")
     : null;
+
+  // [교재 공방] 새 플로우 UI: 붙여넣기 첨부가 가장 확실하다 (2026-10-06 실제 확인). 실패하면 옛 경로들로.
+  try {
+    if (await attachByPastingFile(imageUrl, (padded || "ref") + ".png")) return;
+  } catch (e) {
+    console.warn("[Flow Bridge] 붙여넣기 첨부 실패 — 다른 경로로:", e?.message || e);
+  }
 
   // NEW: 캔버스에 이미 떠 있는 장면 이미지를 입력창으로 드래그 첨부 (최우선).
   //      성공하면 dialog/업로드 경로를 아예 타지 않는다.
@@ -3468,6 +3506,7 @@ async function runJobOnce(job) {
 
     // 캐릭터 참조 첨부 (source_image_url 이 실린 이미지 잡만). 첨부 실패는
     // 치명적이지 않으므로 참조 없이 프롬프트만으로 진행한다.
+    if (!job.source_image_url) clearIngredientChips();   // [교재 공방] 지난 잡의 소재 칩이 엉뚱한 잡에 붙지 않게
     if (job.source_image_url) {
       // [캐릭터 공방] 참조는 기준 그림 장면(reference_scene_id)의 캔버스 이미지를 끌어온다. 없으면 서버 URL에서 업로드.
       // scene_number 는 넘기지 않는다 — 원본은 4자리 번호를 파일명으로 써서 다른 캐릭터의 같은 번호 에셋과 섞일 수 있다.

@@ -16,7 +16,7 @@
  "id": "vid_u02_1",
  "kind": "video",
  "title": "2유닛 영상 · 1 (8초)",
- "prompt": "Gentle picture-book animation: the yellow duck paddles slowly across the pond, ripples spread, the golden seed on its back twinkles, the girl and boy point excitedly, the green sprite bobs in the air. Camera still. Soft, child-friendly. No text.",
+ "prompt": "Gentle picture-book animation: the yellow duck paddles slowly across the pond, ripples spread, the golden seed on its back twinkles, the rabbit and the hedgehog point excitedly, the green sprite bobs in the air. Camera still. Soft, child-friendly. No text.",
  "seconds": 8,
  "aspect": "4:3",
  "out": "web/assets/video/vid_u02_1.mp4"

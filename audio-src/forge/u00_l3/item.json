@@ -50,18 +50,36 @@
     "raw": "TRANSCRIPT=This is Pamy. Pamy cannot talk. | TYPE=sentence | IPA=ðɪs ɪz pɑːmi pɑːmi kænɑːt tɑːk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "This is Pip. Pip cannot sing.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791278469.3888597,
+   "sec": 3.44,
+   "check": {
+    "transcript": "This is Pip. Pip cannot sing.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz pɪp pɪp kænɒt sɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is Pip. Pip cannot sing. | TYPE=sentence | IPA=ðɪs ɪz pɪp pɪp kænɒt sɪŋ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "u00_l3",
  "sub": "line",
- "title": "0유닛 대사 · 해설: This is Pomi. Pomi cannot talk.",
- "text": "This is Pomi. Pomi cannot talk.",
- "voice": "Kore"
+ "title": "0유닛 대사 · 해설: This is Pip. Pip cannot sing.",
+ "text": "This is Pip. Pip cannot sing.",
+ "voice": "Kore",
+ "busy": 1
 }

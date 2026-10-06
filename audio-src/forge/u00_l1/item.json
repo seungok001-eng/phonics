@@ -33,18 +33,36 @@
     "raw": "TRANSCRIPT=Lily and Max find a little door. | TYPE=sentence | IPA=ˈlɪli ænd mæks faɪnd ə ˈlɪtəl dɔɹ. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Bun and Hedgie find a little door.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791278463.3426228,
+   "sec": 3.48,
+   "check": {
+    "transcript": "Bun and Hedgy find a little door.",
+    "type": "sentence",
+    "ipa": "bʌn ænd hɛdʒi faɪnd ə lɪtəl dɔːɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun and Hedgy find a little door. | TYPE=sentence | IPA=bʌn ænd hɛdʒi faɪnd ə lɪtəl dɔːɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "u00_l1",
  "sub": "line",
- "title": "0유닛 대사 · 해설: Lily and Max find a little door.",
- "text": "Lily and Max find a little door.",
- "voice": "Kore"
+ "title": "0유닛 대사 · 해설: Bun and Hedgie find a little door.",
+ "text": "Bun and Hedgie find a little door.",
+ "voice": "Kore",
+ "busy": 1
 }

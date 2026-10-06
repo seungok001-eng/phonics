@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=The mole is wet. | TYPE=sentence | IPA=ðə moʊl ɪz wɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The raccoon is wet!",
+   "voice": "Puck",
+   "how": "tts",
+   "created": 1791278485.8215754,
+   "sec": 1.76,
+   "check": {
+    "transcript": "The raccoon is wet.",
+    "type": "sentence",
+    "ipa": "ðə ɹæˈkun ɪz wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The raccoon is wet. | TYPE=sentence | IPA=ðə ɹæˈkun ɪz wɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "u02_l8",
  "sub": "line",
- "title": "2유닛 대사 · 맥스: The mole is wet!",
- "text": "The mole is wet!",
+ "title": "2유닛 대사 · 헤지: The raccoon is wet!",
+ "text": "The raccoon is wet!",
  "voice": "Puck",
- "busy": 0
+ "busy": 1
 }

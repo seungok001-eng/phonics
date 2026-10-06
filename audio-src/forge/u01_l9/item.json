@@ -33,18 +33,36 @@
     "raw": "TRANSCRIPT=a mole | TYPE=word | IPA=ə mˈoʊl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A raccoon!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791278480.85223,
+   "sec": 1.48,
+   "check": {
+    "transcript": "a raccoon",
+    "type": "word",
+    "ipa": "ə ɹæˈkuːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a raccoon | TYPE=word | IPA=ə ɹæˈkuːn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "u01_l9",
  "sub": "line",
- "title": "1유닛 대사 · 함께: A mole!",
- "text": "A mole!",
- "voice": "Kore"
+ "title": "1유닛 대사 · 함께: A raccoon!",
+ "text": "A raccoon!",
+ "voice": "Kore",
+ "busy": 1
 }

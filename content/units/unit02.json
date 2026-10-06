@@ -2,30 +2,53 @@
   "unit": 2,
   "title": "The Duck Pond",
   "title_ko": "오리 연못",
-  "letters": ["d", "e", "f"],
-  "sight_words": ["the", "is"],
-
+  "letters": [
+    "d",
+    "e",
+    "f"
+  ],
+  "sight_words": [
+    "the",
+    "is"
+  ],
   "objectives_ko": [
     "글자 D·E·F의 이름과 소리를 알고 말한다",
     "대문자와 소문자를 구별하고 바르게 쓴다",
     "D·E·F로 시작하는 단어 9개를 듣고 말하고 찾는다",
     "사이트워드 the, is를 보고 읽는다 (1유닛의 I, see, a 복습)"
   ],
-
   "lessons": [
     {
       "n": 1,
       "title": "Sounds, Letters, Words",
       "title_ko": "소리·쓰기·단어",
       "pages": [
-        { "type": "sounds", "title": "Sounds" },
-        { "type": "trace", "title": "Trace and write." },
-        { "type": "words", "title": "Words" },
-        { "type": "read_play", "title": "Trace and read. Let's play!" }
+        {
+          "type": "sounds",
+          "title": "Sounds"
+        },
+        {
+          "type": "trace",
+          "title": "Trace and write."
+        },
+        {
+          "type": "words",
+          "title": "Words"
+        },
+        {
+          "type": "read_play",
+          "title": "Trace and read. Let's play!"
+        }
       ],
       "workbook": [
-        { "type": "wb_trace", "title": "A. Trace and write." },
-        { "type": "wb_letters", "title": "B. Circle the same letter.  C. Match and color." }
+        {
+          "type": "wb_trace",
+          "title": "A. Trace and write."
+        },
+        {
+          "type": "wb_letters",
+          "title": "B. Circle the same letter.  C. Match and color."
+        }
       ]
     },
     {
@@ -33,112 +56,319 @@
       "title": "Story and Review",
       "title_ko": "스토리·정리",
       "pages": [
-        { "type": "listen_point", "title": "Listen, point and say." },
-        { "type": "story", "title": "Story" },
-        { "type": "story", "title": "Story", "half": 2 },
-        { "type": "check", "title": "Unit Check" }
+        {
+          "type": "listen_point",
+          "title": "Listen, point and say."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
       ],
       "workbook": [
-        { "type": "wb_words", "title": "D. Trace the words.  E. Color and say." },
-        { "type": "wb_read", "title": "F. Read three times.  G. Sort the words.  H. Finish the story." }
+        {
+          "type": "wb_words",
+          "title": "D. Trace the words.  E. Color and say."
+        },
+        {
+          "type": "wb_read",
+          "title": "F. Read three times.  G. Sort the words.  H. Finish the story."
+        }
       ]
     }
   ],
-
   "story": {
     "title": "The Duck Pond",
     "bgm": "u2_story",
     "panels": [
       {
         "id": "scene_u02_1",
-        "desc": "A sunny garden pond with lily pads. A yellow duck floats in the middle with a glowing golden seed resting on its back. Lily and Max crouch at the edge of the pond pointing at the duck; Pomi hovers above the water, glowing. Hidden in the picture: a small brown puppy sitting on the bank, a rag doll leaning against a watering can.",
-        "hidden": ["duck", "dog", "doll"],
+        "desc": "A sunny garden pond with lily pads. A yellow duck floats in the middle with a glowing golden seed resting on its back. Bun and Hedgie crouch at the edge of the pond pointing at the duck; Pip flutters above the water, glowing. Hidden in the picture: a small brown puppy sitting on the bank, a rag doll leaning against a watering can.",
+        "hidden": [
+          "duck",
+          "dog",
+          "doll"
+        ],
         "lines": [
-          { "who": "lily", "text": "I see the duck!", "audio": "u02_l1" },
-          { "who": "max", "text": "The seed is on the duck.", "audio": "u02_l2" },
-          { "who": "lily", "text": "/d/ /d/ duck!", "audio": "u02_l3", "pop": "d" }
+          {
+            "who": "bun",
+            "text": "I see the duck!",
+            "audio": "u02_l1"
+          },
+          {
+            "who": "hedgie",
+            "text": "The seed is on the duck.",
+            "audio": "u02_l2"
+          },
+          {
+            "who": "bun",
+            "text": "/d/ /d/ duck!",
+            "audio": "u02_l3",
+            "pop": "d"
+          }
         ],
         "video": "vid_u02_1"
       },
       {
         "id": "scene_u02_2",
-        "desc": "Beside the pond, a hen's nest in the grass holds three white eggs, one of them glowing gold like a seed. Max kneels and gently points at the glowing egg; Lily holds a finger to her lips. Behind them a new letter tree with duck-, dog- and doll-shaped fruits has sprouted. Hidden in the picture: a tiny elf peeking from behind a flower pot, a small green exit-style sign with a running figure on the garden shed door.",
-        "hidden": ["egg", "elf", "exit"],
+        "desc": "Beside the pond, a hen's nest in the grass holds three white eggs, one of them glowing gold like a seed. Hedgie kneels and gently points at the glowing egg; Bun holds a finger to her lips. Behind them a new letter tree with duck-, dog- and doll-shaped fruits has sprouted. Hidden in the picture: a tiny elf peeking from behind a flower pot, a small green exit-style sign with a running figure on the garden shed door.",
+        "hidden": [
+          "egg",
+          "elf",
+          "exit"
+        ],
         "lines": [
-          { "who": "max", "text": "The egg is a seed!", "audio": "u02_l4" },
-          { "who": "lily", "text": "/e/ /e/ egg!", "audio": "u02_l5", "pop": "e" }
+          {
+            "who": "hedgie",
+            "text": "The egg is a seed!",
+            "audio": "u02_l4"
+          },
+          {
+            "who": "bun",
+            "text": "/e/ /e/ egg!",
+            "audio": "u02_l5",
+            "pop": "e"
+          }
         ]
       },
       {
         "id": "scene_u02_3",
-        "desc": "A green frog sits on a lily pad with a glowing seed on its head. Digby the mole has popped out of a hole at the very edge of the pond and is wobbling, about to fall into the water, arms flailing; Lily and Max reach out to grab him; Pomi looks alarmed. Hidden in the picture: a small blue electric fan on a garden table, a silver fork stuck in a picnic basket.",
-        "hidden": ["frog", "fan", "fork"],
+        "desc": "A green frog sits on a lily pad with a glowing seed on its head. Grumble the raccoon has tiptoed to the very edge of the pond with his lantern and is wobbling, about to fall into the water, arms flailing; Bun and Hedgie reach out to grab him; Pip looks alarmed. Hidden in the picture: a small blue electric fan on a garden table, a silver fork stuck in a picnic basket.",
+        "hidden": [
+          "frog",
+          "fan",
+          "fork"
+        ],
         "lines": [
-          { "who": "digby", "text": "Shh! Oh no!", "audio": "u02_l6" },
-          { "who": "both", "text": "The frog! /f/ /f/ frog!", "audio": "u02_l7", "pop": "f" }
+          {
+            "who": "grumble",
+            "text": "Shh! Oh no!",
+            "audio": "u02_l6"
+          },
+          {
+            "who": "both",
+            "text": "The frog! /f/ /f/ frog!",
+            "audio": "u02_l7",
+            "pop": "f"
+          }
         ],
         "video": "vid_u02_2"
       },
       {
         "id": "scene_u02_4",
-        "desc": "Lily and Max have pulled Digby out of the pond; he is dripping wet, wrapped in a towel, looking embarrassed but secretly pleased. Pomi offers him a leaf as an umbrella. Three new letter trees (D, E, F with their fruits) stand by the pond behind them.",
+        "desc": "Bun and Hedgie have pulled Grumble out of the pond; he is dripping wet, wrapped in a towel, looking embarrassed but secretly pleased. Pip offers him a leaf as an umbrella. Three new letter trees (D, E, F with their fruits) stand by the pond behind them.",
         "hidden": [],
         "lines": [
-          { "who": "max", "text": "The mole is wet!", "audio": "u02_l8" },
-          { "who": "digby", "text": "Shh... Thank you.", "audio": "u02_l9" }
+          {
+            "who": "hedgie",
+            "text": "The raccoon is wet!",
+            "audio": "u02_l8"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Thank you.",
+            "audio": "u02_l9"
+          }
         ]
       }
     ]
   },
-
   "videos": [
-    { "id": "vid_u02_1", "from": "scene_u02_1", "seconds": 8,
-      "prompt": "Gentle picture-book animation: the yellow duck paddles slowly across the pond, ripples spread, the golden seed on its back twinkles, the girl and boy point excitedly, the green sprite bobs in the air. Camera still. Soft, child-friendly. No text." },
-    { "id": "vid_u02_2", "from": "scene_u02_3", "seconds": 8,
-      "prompt": "Gentle comic picture-book animation: the grey mole wobbles at the pond edge with arms flailing, the frog blinks and hops once, the children reach out, a few water drops splash. Camera still. Playful, child-friendly. No text." }
+    {
+      "id": "vid_u02_1",
+      "from": "scene_u02_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the yellow duck paddles slowly across the pond, ripples spread, the golden seed on its back twinkles, the rabbit and the hedgehog point excitedly, the green sprite bobs in the air. Camera still. Soft, child-friendly. No text."
+    },
+    {
+      "id": "vid_u02_2",
+      "from": "scene_u02_3",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the grey raccoon wobbles at the pond edge with arms flailing, the frog blinks and hops once, the friends reach out, a few water drops splash. Camera still. Playful, child-friendly. No text."
+    }
   ],
-
   "check": {
     "listen_circle": [
-      { "audio": "sound_e", "options": ["d", "e", "f"], "answer": "e" },
-      { "audio": "word_fork", "options": ["fork", "frog", "fan"], "answer": "fork" },
-      { "audio": "word_doll", "options": ["dog", "duck", "doll"], "answer": "doll" }
+      {
+        "audio": "sound_e",
+        "options": [
+          "d",
+          "e",
+          "f"
+        ],
+        "answer": "e"
+      },
+      {
+        "audio": "word_fork",
+        "options": [
+          "fork",
+          "frog",
+          "fan"
+        ],
+        "answer": "fork"
+      },
+      {
+        "audio": "word_doll",
+        "options": [
+          "dog",
+          "duck",
+          "doll"
+        ],
+        "answer": "doll"
+      }
     ],
     "match": [
-      { "letter": "d", "word": "dog" },
-      { "letter": "e", "word": "elf" },
-      { "letter": "f", "word": "fan" }
+      {
+        "letter": "d",
+        "word": "dog"
+      },
+      {
+        "letter": "e",
+        "word": "elf"
+      },
+      {
+        "letter": "f",
+        "word": "fan"
+      }
     ],
     "find_write": [
-      { "word": "egg", "letter": "e" },
-      { "word": "frog", "letter": "f" },
-      { "word": "duck", "letter": "d" }
+      {
+        "word": "egg",
+        "letter": "e"
+      },
+      {
+        "word": "frog",
+        "letter": "f"
+      },
+      {
+        "word": "duck",
+        "letter": "d"
+      }
     ]
   },
-
   "game": {
     "type": "catch_sound",
     "title": "Catch the sound!",
     "rounds": [
-      { "audio": "sound_d", "answer": "d", "pictures": ["dog", "egg", "fan"] },
-      { "audio": "sound_f", "answer": "f", "pictures": ["doll", "frog", "exit"] },
-      { "audio": "sound_e", "answer": "e", "pictures": ["fork", "duck", "elf"] },
-      { "audio": "sound_d", "answer": "d", "pictures": ["egg", "fan", "doll"] },
-      { "audio": "sound_f", "answer": "f", "pictures": ["fork", "dog", "elf"] }
+      {
+        "audio": "sound_d",
+        "answer": "d",
+        "pictures": [
+          "dog",
+          "egg",
+          "fan"
+        ]
+      },
+      {
+        "audio": "sound_f",
+        "answer": "f",
+        "pictures": [
+          "doll",
+          "frog",
+          "exit"
+        ]
+      },
+      {
+        "audio": "sound_e",
+        "answer": "e",
+        "pictures": [
+          "fork",
+          "duck",
+          "elf"
+        ]
+      },
+      {
+        "audio": "sound_d",
+        "answer": "d",
+        "pictures": [
+          "egg",
+          "fan",
+          "doll"
+        ]
+      },
+      {
+        "audio": "sound_f",
+        "answer": "f",
+        "pictures": [
+          "fork",
+          "dog",
+          "elf"
+        ]
+      }
     ]
   },
-
   "workbook_data": {
     "circle_same": [
-      { "target": "D", "row": ["D", "O", "D", "B", "D"] },
-      { "target": "e", "row": ["e", "c", "e", "a", "e"] },
-      { "target": "f", "row": ["t", "f", "f", "l", "f"] }
+      {
+        "target": "D",
+        "row": [
+          "D",
+          "O",
+          "D",
+          "B",
+          "D"
+        ]
+      },
+      {
+        "target": "e",
+        "row": [
+          "e",
+          "c",
+          "e",
+          "a",
+          "e"
+        ]
+      },
+      {
+        "target": "f",
+        "row": [
+          "t",
+          "f",
+          "f",
+          "l",
+          "f"
+        ]
+      }
     ],
-    "sort": { "d": ["duck", "doll"], "e": ["egg", "elf"], "f": ["frog", "fork"] },
+    "sort": {
+      "d": [
+        "duck",
+        "doll"
+      ],
+      "e": [
+        "egg",
+        "elf"
+      ],
+      "f": [
+        "frog",
+        "fork"
+      ]
+    },
     "finish_story": [
-      { "text": "I see the ___!", "answer": "duck", "picture": "duck" },
-      { "text": "The ___ is a seed!", "answer": "egg", "picture": "egg" },
-      { "text": "/f/ /f/ ___!", "answer": "frog", "picture": "frog" }
+      {
+        "text": "I see the ___!",
+        "answer": "duck",
+        "picture": "duck"
+      },
+      {
+        "text": "The ___ is a seed!",
+        "answer": "egg",
+        "picture": "egg"
+      },
+      {
+        "text": "/f/ /f/ ___!",
+        "answer": "frog",
+        "picture": "frog"
+      }
     ]
   }
 }

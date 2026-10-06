@@ -1,7 +1,7 @@
 {
  "generator": "flow",
  "auto_approve_ref": true,
- "max_inflight": 4,
+ "max_inflight": 2,
  "gemini_model": "gemini-3.1-flash-image",
  "gemini_size": "1K",
  "gemini_workers": 3,
@@ -15,14 +15,14 @@
   "other": 350
  },
  "port": 8766,
- "next_asset_no": 2001,
+ "next_asset_no": 2002,
  "gemini_usage": {
   "count": 46,
   "cost": 3.06
  },
  "tts_usage": {
-  "count": 136,
-  "tokens": 9008,
-  "checks": 139
+  "count": 141,
+  "tokens": 9309,
+  "checks": 144
  }
 }

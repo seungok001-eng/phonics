@@ -1,12 +1,12 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "review",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791277866.7502656,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/3bfeddae-1f4e-47eb-a0e0-22957452b354?Expires=1791299441&KeyName=labs-flow-prod-cdn-key&Signature=Y0IBt1m8S9GL4zR7N4va6ODEgVY",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -20,5 +20,6 @@
  "title": "후보 · 그럼블 C (너구리 할아버지) · 악역→친구 (팔다리)",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Grumble, a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Pose: standing straight, arms relaxed at the sides, friendly smile, looking at the viewer.",
  "aspect": "3:4",
- "out": "web/assets/art/cand_grumble_c.png"
+ "out": "web/assets/art/cand_grumble_c.png",
+ "claimed_at": 1791277835.3586466
 }
