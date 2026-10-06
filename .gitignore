@@ -1,0 +1,8 @@
+﻿build/
+art-src/**/raw/
+audio-src/**/raw/
+__pycache__/
+*.pyc
+secrets.json
+.DS_Store
+Thumbs.db
