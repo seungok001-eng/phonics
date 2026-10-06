@@ -5,6 +5,7 @@
 <title>Pomi Phonics — 웹 교재</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="teach.css">
 </head>
 <body>
 <div id="top">
@@ -16,7 +17,7 @@
   <button onclick="go(-1)" id="btnPrev">◀</button>
   <button onclick="go(1)" id="btnNext">▶</button>
   <button class="primary" onclick="mainPlay()" title="스페이스">🔊 Play</button>
-  <span class="teacher-only" id="zoomBox"><button onclick="zoomBy(-0.15)" title="교재 작게 (단축키 -)">🔍−</button><button onclick="zoomSet(1)" title="화면 높이에 맞춤 (단축키 0)" id="zoomLabel">맞춤</button><button onclick="zoomBy(0.15)" title="교재 크게 (단축키 +)">🔍+</button><button onclick="toggleBoard()" id="btnBoard" title="필기판 보이기/숨기기">📝</button><button onclick="toggleCover()" id="btnCover" title="교재 가리개 (단축키 C)">🙈</button><button onclick="toggleLand()" title="교재 가로/세로 배치 바꾸기">📐</button></span>
+  <span class="teacher-only" id="zoomBox"><button onclick="zoomBy(-0.15)" title="교재 작게 (단축키 -)">🔍−</button><button onclick="zoomSet(1)" title="화면 높이에 맞춤 (단축키 0)" id="zoomLabel">맞춤</button><button onclick="zoomBy(0.15)" title="교재 크게 (단축키 +)">🔍+</button><button onclick="toggleBoard()" id="btnBoard" title="필기판 보이기/숨기기">📝</button><button onclick="toggleCover()" id="btnCover" title="교재 가리개 (단축키 C)">🙈</button><button onclick="toggleSlides()" title="수업 슬라이드(16:9) ↔ 교재 쪽 그대로">📐</button></span>
   <button onclick="toggleTeacher()" id="btnTeacher" title="선생님 모드: 글자·단추가 커지고 전체화면">👩‍🏫</button>
   <button onclick="toggleFull()" title="전체화면">⛶</button>
   <a class="btn" id="lnkPrint" href="#" target="_blank" title="인쇄용">🖨</a>
@@ -28,13 +29,14 @@
 <script src="strokes.js"></script>
 <script src="pages.js"></script>
 <script src="board.js"></script>
+<script src="teach.js"></script>
 <script>
 // 주소: ?b=sb|wb&u=1&p=1&t=1(선생님 모드: 왼쪽 교재 + 오른쪽 필기판, 펜)
-function params() { const q = new URLSearchParams(location.search); return { b: q.get('b') || 'sb', u: +(q.get('u') ?? 1), p: +(q.get('p') ?? 1), t: q.get('t') === '1' }; }
-function goTo(ch) { const q = new URLSearchParams(location.search); for (const k in ch) q.set(k, ch[k]); if (App.teacher) q.set('t', '1'); history.pushState(null, '', '?' + q); route(); }
+function params() { const q = new URLSearchParams(location.search); return { b: q.get('b') || 'sb', u: +(q.get('u') ?? 1), p: +(q.get('p') ?? 1), s: +(q.get('s') ?? 0), t: q.get('t') === '1' }; }
+function goTo(ch) { const q = new URLSearchParams(location.search); if ('p' in ch && !('s' in ch)) ch.s = 0; for (const k in ch) q.set(k, ch[k]); if (App.teacher) q.set('t', '1'); history.pushState(null, '', '?' + q); route(); }
 async function route() {
-  const { b, u, p, t } = params();
-  App.b = b; App.u = u; App.p = p; App.teacher = t; document.body.classList.toggle('teacher', t);
+  const { b, u, p, s, t } = params();
+  App.b = b; App.u = u; App.p = p; App.s = s; App.teacher = t; document.body.classList.toggle('teacher', t);
   const unit = await loadUnit(u);
   $('selBook').value = b; $('selUnit').value = u; $('bookName').textContent = b === 'sb' ? 'Student Book' : 'Workbook';
   const scaler = $('scaler');
@@ -43,31 +45,46 @@ async function route() {
   if (!pages.length) { scaler.innerHTML = `<div class="menu"><div class="unit-card"><span class="t">이 유닛에는 ${b === 'sb' ? '학생책' : '워크북'} 쪽이 없어요</span></div></div>`; return; }
   const pg = pages[Math.min(Math.max(1, p), pages.length) - 1];
   stopSeq(); if (pg.type !== 'story' && pg.type !== 'intro_story') Sound.bgmOff();
-  scaler.innerHTML = renderPage({ book: App.book, unit, b, u, p, page: pg, pages, print: false });
-  if (App.teacher) { ensureBoard(unit); const [pw, ph] = pageDims(); attachPageInk(scaler, `${b}_${u}_${p}${View.land ? '_l' : ''}`, pw, ph); } else { const bp = $('boardPanel'); if (bp) bp.remove(); }
-  $('pageInfo').textContent = `Unit ${u} · ${pg.lesson.title_ko} · ${p}/${pages.length} 쪽`;
-  $('btnPrev').disabled = p <= 1; $('btnNext').disabled = p >= pages.length;
+  const ctx = { book: App.book, unit, b, u, p, page: pg, pages, print: false };
+  if (App.teacher && View.slides) {
+    // 수업 화면: 16:9 슬라이드. 쪽마다 슬라이드가 여럿 (?s=번호)
+    ensureBoard(unit); fit();
+    const n = teachCount(ctx); App.s = Math.max(0, Math.min(App.s, n - 1));
+    scaler.innerHTML = renderSlide(ctx, App.s);
+    attachPageInk(scaler, `${b}_${u}_${p}_s${App.s}`, SLIDE_W, slideH());
+    $('pageInfo').textContent = `Unit ${u} · ${pg.lesson.title_ko} · p.${pageNo(b, u, p)} · ${App.s + 1}/${n}`;
+    $('btnPrev').disabled = p <= 1 && App.s <= 0; $('btnNext').disabled = p >= pages.length && App.s >= n - 1;
+  } else {
+    scaler.innerHTML = renderPage(ctx);
+    if (App.teacher) { ensureBoard(unit); attachPageInk(scaler, `${b}_${u}_${p}`, 794, 1123); } else { const bp = $('boardPanel'); if (bp) bp.remove(); }
+    $('pageInfo').textContent = `Unit ${u} · ${pg.lesson.title_ko} · ${p}/${pages.length} 쪽`;
+    $('btnPrev').disabled = p <= 1; $('btnNext').disabled = p >= pages.length;
+  }
   $('lnkPrint').href = `print.html?b=${b}&u=${u}`;
   fit(); $('stage').scrollTop = 0;
 }
 function renderPage(ctx) {
   const fn = PAGES[ctx.page.type] || (() => `<p>모르는 쪽 종류: ${ctx.page.type}</p>`);
   const no = pageNo(ctx.b, ctx.u, ctx.p);
-  // 선생님 모드(16:9 화면)에서는 가로 쪽(A4 가로)으로 내용을 두 단으로 흘린다. 인쇄·학생 화면은 세로 그대로
-  const land = App.teacher && View.land;
-  return `<article class="page ${ctx.b} ${land ? 'land' : ''}"><div class="ph-head"><span class="unit">Unit ${ctx.u}</span><h2>${esc(ctx.unit.title)}</h2>${lettersBadge(ctx.unit)}</div><div class="body">${fn(ctx)}</div><div class="ph-foot"><span>${ctx.b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${ctx.page.lesson.n} · ${esc(ctx.page.title)}</span><span class="pno">${no}</span></div></article>`;
+  return `<article class="page ${ctx.b}"><div class="ph-head"><span class="unit">Unit ${ctx.u}</span><h2>${esc(ctx.unit.title)}</h2>${lettersBadge(ctx.unit)}</div><div class="body">${fn(ctx)}</div><div class="ph-foot"><span>${ctx.b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${ctx.page.lesson.n} · ${esc(ctx.page.title)}</span><span class="pno">${no}</span></div></article>`;
 }
-function pageDims() {
-  if (!(App.teacher && View.land)) return [794, 1123];
-  const art = document.querySelector('#scaler .page');   // 가로 쪽은 내용이 많으면 더 길어진다 → 실제 높이
-  return [1123, Math.max(794, art ? art.offsetHeight : 794)];
+function pageDims() { return App.teacher && View.slides ? [SLIDE_W, slideH()] : [794, 1123]; }
+function go(d) {
+  const pages = pageList(App.units[App.u], App.b);
+  if (App.teacher && View.slides) {   // 슬라이드 안에서 먼저 움직이고, 끝이면 다음·이전 쪽으로
+    const n = teachCount({ book: App.book, unit: App.units[App.u], b: App.b, u: App.u, p: App.p, page: pages[App.p - 1], pages, print: false });
+    const ns = App.s + d;
+    if (ns >= 0 && ns < n) { goTo({ s: ns }); return; }
+    const np = App.p + d; if (np < 1 || np > pages.length) return;
+    goTo({ p: np, s: d > 0 ? 0 : 99 }); return;   // 뒤로 갈 때는 그 쪽의 마지막 슬라이드
+  }
+  const np = App.p + d; if (np < 1 || np > pages.length) return; goTo({ p: np });
 }
-function go(d) { const pages = pageList(App.units[App.u], App.b); const np = App.p + d; if (np < 1 || np > pages.length) return; goTo({ p: np }); }
 function mainPlay() { Sound.unlock(); const b = document.querySelector('.main-play'); if (b) b.click(); else { const s = document.querySelector('[data-say]'); if (s) s.click(); } }
 function toggleTeacher() { App.teacher = !App.teacher; const q = new URLSearchParams(location.search); if (App.teacher) q.set('t', '1'); else q.delete('t'); history.replaceState(null, '', '?' + q); route(); }
 function toggleFull() { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); }
 // 선생님 모드 보기 설정 (교재 배율·교재 칸 너비·필기판 보이기) — 이 기기에 기억
-const View = { zoom: 1, pageW: 0, board: true, land: true };
+const View = { zoom: 1, pageW: 0, board: true, slides: true };
 try { Object.assign(View, JSON.parse(localStorage.getItem('pp_view') || '{}')); } catch (e) {}
 function saveView() { try { localStorage.setItem('pp_view', JSON.stringify(View)); } catch (e) {} }
 function fit() {
@@ -115,7 +132,7 @@ function coverApply() {
 function zoomBy(d) { zoomSet(View.zoom + d); }
 function zoomSet(z) { View.zoom = Math.max(.5, Math.min(3, Math.round(z * 100) / 100)); saveView(); fit(); }
 function toggleBoard() { View.board = !View.board; saveView(); fit(); }
-function toggleLand() { View.land = !View.land; saveView(); route(); }
+function toggleSlides() { View.slides = !View.slides; App.s = 0; saveView(); route(); }
 // 가운데 구분선 끌기 → 교재 칸 너비
 (() => {
   const dv = document.getElementById('divider'); let drag = null;
@@ -134,7 +151,8 @@ function ensureBoard(unit) {
 }
 function startApp() { Sound.unlock(); $('overlay').style.display = 'none'; }
 if (new URLSearchParams(location.search).get('nooverlay') === '1') document.getElementById('overlay').style.display = 'none';
-window.addEventListener('resize', fit);
+window.addEventListener('resize', () => { fit(); if (App.teacher && View.slides) { const sl = document.querySelector('.slide'); if (sl && Math.abs(parseInt(sl.style.height) - slideH()) > 60) route(); } });
+setupPinch($('pageWrap'));
 window.addEventListener('popstate', route);
 document.addEventListener('keydown', (e) => {
   if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;

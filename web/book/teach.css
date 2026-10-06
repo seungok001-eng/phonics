@@ -1,0 +1,104 @@
+/* 선생님 수업 슬라이드 (16:9, 논리 1600 × 900~1300) — teach.js 가 그린다 */
+.slide { width: 1600px; background: var(--paper); border-radius: 14px; box-shadow: 0 8px 30px rgba(60,40,20,.18); position: relative; overflow: hidden; padding: 24px 36px 28px; display: flex; flex-direction: column; gap: 16px; font-size: 26px; }
+.sl-head { display: flex; align-items: center; gap: 16px; border-bottom: 4px solid var(--line); padding-bottom: 10px; }
+.sl-head .unit { background: var(--orange); color: #fff; font-family: 'Fredoka'; font-weight: 700; border-radius: 14px; padding: 6px 16px; font-size: 24px; white-space: nowrap; }
+.sl-head h2 { margin: 0; font-size: 30px; color: var(--soft); font-weight: 500; }
+.sl-head .sl-title { font-family: 'Fredoka'; font-weight: 700; font-size: 34px; margin-left: 10px; }
+.sl-head .ko { font-size: 18px; color: var(--soft); margin-left: auto; text-align: right; max-width: 520px; }
+.sl-head .sl-no { font-family: 'Fredoka'; font-size: 22px; color: var(--soft); white-space: nowrap; }
+.sl-body { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 14px; }
+.sl-tools { display: flex; gap: 14px; align-items: center; }
+.slide .btn.big { font-size: 28px; padding: 12px 26px; border-radius: 18px; }
+.slide .spk.big { width: 64px; height: 64px; font-size: 32px; }
+
+/* 소리 */
+.sl-sounds { display: grid; grid-template-columns: 1fr 1.15fr; gap: 30px; flex: 1; min-height: 0; border: 0; background: none; padding: 0; }
+.sl-sounds .sl-left { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; background: var(--cream); border-radius: 24px; padding: 20px; min-height: 0; }
+.sl-sounds .glyph { font-size: 220px; line-height: 1; font-weight: 700; font-family: 'Andika'; }
+.sl-sounds .glyph small { font-size: 160px; font-weight: 400; margin-left: 10px; }
+.sl-sounds .tree { flex: 1; min-height: 0; width: 100%; display: flex; justify-content: center; }
+.sl-sounds .tree .pic { height: 100%; max-height: 380px; }
+.sl-sounds .sl-right { display: flex; flex-direction: column; gap: 18px; justify-content: center; min-height: 0; }
+.sl-sounds .row { display: flex; align-items: center; gap: 18px; font-size: 34px; font-weight: 700; cursor: pointer; }
+.sl-sounds .row .ipa { font-size: 54px; }
+.sl-sounds .action { font-size: 24px; color: var(--ink); background: var(--cream); border-radius: 14px; padding: 10px 16px; }
+.sl-sounds .action .ko { font-size: 20px; color: var(--soft); }
+.sl-sounds .words { display: flex; gap: 14px; }
+.sl-sounds .words .w { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 6px; background: #fff; border: 3px solid var(--line); border-radius: 18px; padding: 10px; font-size: 32px; font-weight: 700; cursor: pointer; box-shadow: 0 4px 0 var(--line); }
+.sl-sounds .words .wpic { width: 100%; height: 150px; }
+
+/* 쓰기 */
+.sl-trace-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; flex: 1; min-height: 0; }
+.sl-trace { display: flex; flex-direction: column; align-items: center; gap: 16px; background: var(--cream); border-radius: 24px; padding: 20px; min-height: 0; }
+.sl-trace .anim { width: 360px; height: 360px; cursor: pointer; flex: none; }
+.sl-trace .anim svg { width: 100%; height: 100%; }
+.sl-trace .anim path { fill: none; stroke: #d9d9d9; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+.sl-trace .anim path.draw { stroke: var(--ink); stroke-dasharray: 400; stroke-dashoffset: 400; }
+.sl-trace .anim.go path.draw { animation: draw 1s ease forwards; }
+.sl-trace .anim path.draw:nth-of-type(2) { animation-delay: 1s; } .sl-trace .anim path.draw:nth-of-type(3) { animation-delay: 2s; }
+.sl-trace .anim text { font-family: 'Fredoka'; font-size: 11px; fill: var(--orange); font-weight: 700; }
+.sl-trace .trace-line { width: 100%; height: 150px; }
+.sl-trace .trace-line span { font-size: 120px; line-height: 150px; width: 120px; }
+.sl-circle { grid-template-columns: repeat(3, 1fr); gap: 30px; flex: 1; }
+.sl-circle .circle-box { padding: 24px; gap: 14px; }
+.sl-circle .ltr { font-size: 110px; line-height: 1.1; }
+
+/* 단어 · 듣고 가리키기 · 읽기 · 놀이 */
+.sl-words { flex: 1; min-height: 0; }
+.sl-words .word-row { grid-template-columns: 140px repeat(3, 1fr); gap: 18px; flex: 1; min-height: 0; }
+.sl-words .word-row .ltr { font-size: 96px; }
+.sl-words .word-card { min-height: 0; }
+.sl-words .word-card .pic { height: auto; min-height: 120px; flex: 1; }
+.sl-words .word-card .wd { font-size: 40px; }
+.sl-words .word-card .chk { display: none; }
+.sl-lp { flex: 1; min-height: 0; }
+.sl-lp .lp-row { grid-template-columns: 160px repeat(3, 1fr); gap: 18px; flex: 1; min-height: 0; }
+.sl-lp .lp-row .ltr { font-size: 100px; } .sl-lp .lp-row .ltr small { font-size: 70px; }
+.sl-lp .lp-row .cell { min-height: 0; } .sl-lp .lp-row .cell .pic { height: auto; min-height: 110px; flex: 1; }
+.sl-lp .lp-row .cell .wd { font-size: 34px; } .sl-lp .lp-row .cell .chk { width: 36px; height: 36px; }
+.sl-read { grid-template-columns: repeat(3, 1fr); gap: 20px; flex: 1; min-height: 0; }
+.sl-read .read-card { display: flex; flex-direction: column; min-height: 0; } .sl-read .read-card .pic { height: auto; min-height: 110px; flex: 1; } .sl-read .read-card .tr { font-size: 56px; }
+.sl-game { flex: 1; padding: 20px 26px; min-height: 0; }
+.sl-game .choices { gap: 30px; } .sl-game .choice .pic { height: auto; min-height: 200px; flex: 1; } .sl-game .msg { font-size: 40px; } .sl-game .stars { font-size: 40px; } .sl-game #gameRound { font-size: 28px; }
+
+/* 스토리 */
+.sl-story { display: grid; grid-template-columns: 1.3fr 1fr; gap: 26px; flex: 1; min-height: 0; }
+.sl-story .panel { border-radius: 20px; height: 100%; min-height: 0; }
+.sl-story .panel .no { width: 44px; height: 44px; font-size: 24px; }
+.sl-story-side { display: flex; flex-direction: column; gap: 16px; min-height: 0; overflow: hidden; }
+.sl-story-side .sw { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.sl-story-side .sw span { background: var(--yellow); border-radius: 14px; padding: 4px 18px; font-weight: 700; font-size: 32px; cursor: pointer; }
+.bubbles-col { display: flex; flex-direction: column; gap: 14px; }
+.bubbles-col .bubble { font-size: 34px; padding: 10px 22px 10px 12px; border-width: 3px; max-width: 100%; }
+.bubbles-col .bubble .av { width: 64px; height: 64px; }
+.sl-story-side .find .chip { font-size: 26px; padding: 4px 16px; }
+.sl-story-side .find b { font-size: 24px; }
+
+/* 정리 */
+.sl-check { display: flex; flex-direction: column; gap: 20px; flex: 1; justify-content: center; }
+.sl-lc { display: flex; align-items: center; gap: 18px; }
+.sl-lc .n { background: var(--ink); color: #fff; border-radius: 50%; width: 48px; height: 48px; display: inline-flex; align-items: center; justify-content: center; font-family: 'Fredoka'; font-size: 26px; flex: none; }
+.sl-lc .opts { flex: 1; gap: 20px; }
+.sl-lc .opt { font-size: 64px; padding: 10px; } .sl-lc .opt .pic { height: 130px; } .sl-lc .opt .lab { font-size: 28px; }
+.sl-match { gap: 26px; flex: 1; } .sl-match .it { font-size: 60px; padding: 10px; } .sl-match .it .pic { height: 120px; } .sl-match .col { gap: 16px; justify-content: center; }
+.sl-write { gap: 26px; flex: 1; } .sl-write .write-it .pic { height: 220px; } .sl-write .write-it .lts span { font-size: 64px; width: 90px; border-radius: 14px; } .sl-write .write-it .box { height: 90px; font-size: 70px; } .sl-write .write-it .wd { font-size: 30px; color: var(--soft); }
+
+/* 친구들 */
+.sl-chars { grid-template-columns: repeat(4, 1fr); gap: 20px; flex: 1; min-height: 0; }
+.sl-chars .char { min-height: 0; } .sl-chars .char .pic { height: auto; min-height: 200px; flex: 1; } .sl-chars .char h3 { font-size: 36px; } .sl-chars .char .say-line { font-size: 26px; }
+
+/* 다른 쪽(알파벳·워크북 등)은 교재 쪽을 그대로 가운데에 */
+.sl-embed { flex: 1; display: flex; justify-content: center; align-items: flex-start; overflow: hidden; }
+.sl-embed .page { transform: scale(.72); transform-origin: top center; box-shadow: none; border: 2px solid var(--line); }
+
+/* 그림 높이는 슬라이드 세로(--sh)에서 계산 — 비율이 달라도 그림이 비거나 넘치지 않게 */
+.sl-sounds { align-items: stretch; }
+.sl-sounds .tree .pic { height: calc(var(--sh) - 540px); max-height: none; }
+.sl-words .word-card .pic { height: calc((var(--sh) - 420px) / 3); min-height: 0; flex: none; }
+.sl-lp .lp-row .cell .pic { height: calc((var(--sh) - 440px) / 3); min-height: 0; flex: none; }
+.sl-read .read-card .pic { height: calc((var(--sh) - 470px) / 3); min-height: 0; flex: none; }
+.sl-game .choice .pic { height: calc(var(--sh) - 470px); min-height: 0; flex: none; }
+.sl-story .panel { height: auto; width: 100%; aspect-ratio: 4 / 3; max-height: calc(var(--sh) - 180px); align-self: start; }   /* 장면 그림(4:3)이 잘리지 않게 */
+.sl-chars .char .pic { height: calc(var(--sh) - 380px); min-height: 0; flex: none; }
+.sl-write .write-it .pic { height: calc(var(--sh) - 600px); }
+.sl-match .it .pic { height: calc((var(--sh) - 500px) / 3); }

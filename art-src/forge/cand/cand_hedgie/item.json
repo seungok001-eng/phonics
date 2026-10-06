@@ -1,12 +1,12 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "review",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791275066.551951,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/27c71f2c-c8f0-4925-bbbf-aeadfa9882e6?Expires=1791296640&KeyName=labs-flow-prod-cdn-key&Signature=zl_hZNLu-2Q_2L2QP4Bs2pLvQng",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -20,5 +20,6 @@
  "title": "후보 · 헤지 (고슴도치) · 조심스러운 친구",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Hedgie, a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Pose: standing straight, arms relaxed at the sides, friendly smile, looking at the viewer.",
  "aspect": "3:4",
- "out": "web/assets/art/cand_hedgie.png"
+ "out": "web/assets/art/cand_hedgie.png",
+ "claimed_at": 1791275022.815906
 }

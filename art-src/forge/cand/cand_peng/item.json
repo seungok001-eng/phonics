@@ -1,12 +1,12 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "review",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791275059.3237956,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/f66f6832-23de-4f97-8278-9c932254ad90?Expires=1791296633&KeyName=labs-flow-prod-cdn-key&Signature=N60PV1e4h73NNeLuexZA352Chec",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -20,5 +20,6 @@
  "title": "후보 · 펭 (펭귄) · 조심스러운 친구",
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Peng, a small chubby penguin with a red knitted hat and a tiny green backpack, shy careful expression. Pose: standing straight, arms relaxed at the sides, friendly smile, looking at the viewer.",
  "aspect": "3:4",
- "out": "web/assets/art/cand_peng.png"
+ "out": "web/assets/art/cand_peng.png",
+ "claimed_at": 1791275020.4893966
 }
