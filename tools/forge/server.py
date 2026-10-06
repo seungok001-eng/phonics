@@ -161,7 +161,7 @@ def put_image(it, data):
     else:
         imgproc.load(data).convert('RGBA').save(os.path.join(d, 'raw.png'))
         it['raw'] = 'raw.png'
-        if k in ('char', 'word', 'tree'):
+        if k in ('char', 'cand', 'word', 'tree'):
             imgproc.process_cut(data, 1024).save(os.path.join(d, 'cut.png')); it['cut'] = 'cut.png'
         elif k == 'line':
             imgproc.process_line(data, 1024).save(os.path.join(d, 'cut.png')); it['cut'] = 'cut.png'

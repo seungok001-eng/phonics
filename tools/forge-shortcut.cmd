@@ -1,7 +1,7 @@
 @echo off
-rem 바탕화면에 "교재 공방" 바로가기를 만든다. 저장소가 어느 폴더에 있든 이 파일 위치 기준으로 잡는다.
-rem 다른 PC에서: git pull 뒤 이 파일을 더블클릭 (forge.cmd를 실행할 때도 없으면 자동으로 만든다)
-rem 이름(교재 공방)은 cmd 인코딩 문제를 피하려고 파워셸 안에서 유니코드 코드로 만든다. 교=U+AD50 재=U+C7AC 공=U+ACF5 방=U+BC29
+rem Creates the desktop shortcut "Pomi forge" (Korean name) pointing at tools\forge.cmd. Works from any checkout location.
+rem The Korean name is built from Unicode code points in PowerShell so this file stays ASCII-only (cmd cannot parse Korean here).
+rem Usage: forge-shortcut.cmd [quiet]   - "quiet" skips the pause and does nothing if the shortcut already exists.
 set "ROOT=%~dp0.."
 for %%I in ("%ROOT%") do set "ROOT=%%~fI"
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^

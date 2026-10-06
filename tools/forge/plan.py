@@ -58,6 +58,11 @@ def build_items(book, units):
             if ref: prompt += ' ' + same
             items.append(_item(id=f'char_{cid}_{pose}', kind='char', char=cid, pose=pose, title=f"{c['ko']} · {presets.POSE_KO.get(pose, pose)}",
                                prompt=prompt, reference=ref, aspect='3:4', out=f'web/assets/art/char_{cid}_{pose}.png'))
+    # 1-1. 캐릭터 후보 (설정집 docs/05-story-bible.md): 기준 자세 한 장씩, 참조 없음. 사용자가 고르면 characters 로 옮긴다
+    for cid, c in book.get('character_candidates', {}).items():
+        prompt = f"{st['art']} {st['character_sheet']} The character: {c['name']}, {c['desc']}. Pose: {pose_desc['ref']}."
+        items.append(_item(id=f'cand_{cid}', kind='cand', char=cid, pose='ref', title=f"후보 · {c['ko']} · {c.get('role', '')}",
+                           prompt=prompt, reference=None, aspect='3:4', out=f'web/assets/art/cand_{cid}.png'))
     # 2. 글자나무: 유닛 JSON 에 나오는 글자마다. 첫 나무(tree_a 가 있으면 그것)가 기준
     letters = []
     for u in units:

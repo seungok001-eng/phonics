@@ -51,6 +51,18 @@
     }
   },
 
+  "character_candidates": {
+    "pip": { "name": "Pip", "ko": "핍 (아기 새)", "role": "배우는 주인공", "desc": "a tiny round yellow baby bird, big black eyes, a small orange beak, one little feather tuft on the head, stubby wings, no legs visible (it hops), cannot sing yet so its beak is closed shyly" },
+    "mumu": { "name": "Mumu", "ko": "무무 (입 큰 생물)", "role": "배우는 주인공", "desc": "a small sky-blue jelly-like creature, soft and round, with a HUGE friendly mouth taking half its body, two big round eyes on top, tiny arms, no legs" },
+    "rex": { "name": "Rex", "ko": "렉스 (여우)", "role": "씩씩한 친구", "desc": "a small cheerful orange fox cub standing on two legs, white chest, a red scarf, a big fluffy tail, bright confident eyes" },
+    "zip": { "name": "Zip", "ko": "집 (다람쥐)", "role": "씩씩한 친구", "desc": "a small brown squirrel standing on two legs, a huge fluffy tail, a blue cap worn backwards, energetic grin" },
+    "bun": { "name": "Bun", "ko": "번 (토끼)", "role": "씩씩한 친구", "desc": "a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile" },
+    "oli": { "name": "Oli", "ko": "올리 (부엉이)", "role": "조심스러운 친구", "desc": "a small round brown owl with big round glasses, a yellow scarf, calm thoughtful expression, short wings held like arms" },
+    "peng": { "name": "Peng", "ko": "펭 (펭귄)", "role": "조심스러운 친구", "desc": "a small chubby penguin with a red knitted hat and a tiny green backpack, shy careful expression" },
+    "hedgie": { "name": "Hedgie", "ko": "헤지 (고슴도치)", "role": "조심스러운 친구", "desc": "a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes" },
+    "grumble": { "name": "Grumble", "ko": "그럼블 (구름)", "role": "악역→친구", "desc": "a small grumpy grey cloud with thick frowning eyebrows and a pouting mouth, floating, tiny lightning sparks when annoyed" }
+  },
+
   "pose_desc": {
     "ref": "standing straight, arms relaxed at the sides, friendly smile, looking at the viewer",
     "happy": "jumping with both arms raised high, big open-mouth smile",

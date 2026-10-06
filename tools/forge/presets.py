@@ -10,7 +10,7 @@ WEB = os.path.join(ROOT, 'web')
 GAME_SECRETS = r'C:\game\art-src\charforge\secrets.json'  # 첫 실행 때 여기서 제미나이 키를 복사해 온다
 
 # 그림 분류 (왼쪽 메뉴 순서)
-KINDS = {'char': '캐릭터', 'tree': '글자나무', 'word': '단어 그림', 'line': '선 그림', 'cast': '캐스트 시트', 'scene': '스토리 장면', 'video': '영상'}
+KINDS = {'char': '캐릭터', 'cand': '캐릭터 후보', 'tree': '글자나무', 'word': '단어 그림', 'line': '선 그림', 'cast': '캐스트 시트', 'scene': '스토리 장면', 'video': '영상'}
 
 POSE_KO = {'ref': '기준', 'happy': '기쁨', 'surprised': '놀람', 'pointing': '가리키기', 'waving': '손 흔들기', 'thinking': '생각', 'cheering': '환호',
            'glow': '빛남', 'sad': '슬픔', 'hiding': '숨기', 'sleeping': '잠', 'shh': '쉿', 'popping': '튀어나옴', 'angry': '화남', 'drum': '북치기',
