@@ -18,9 +18,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:41",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,5 +30,5 @@
  "title": "단어 doll · 인형",
  "text": "doll",
  "voice": "Kore",
- "busy": 1
+ "busy": 0
 }

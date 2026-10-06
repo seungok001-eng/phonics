@@ -1,5 +1,5 @@
 {
- "generator": "gemini",
+ "generator": "flow",
  "auto_approve_ref": true,
  "max_inflight": 4,
  "gemini_model": "gemini-3.1-flash-image",

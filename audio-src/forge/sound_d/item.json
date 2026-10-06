@@ -18,9 +18,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:41",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -31,5 +31,5 @@
  "text": "d",
  "voice": "Kore",
  "hint": "d as at the start of dog",
- "busy": 1
+ "busy": 0
 }

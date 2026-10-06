@@ -1,0 +1,23 @@
+{
+ "status": "queued",
+ "raw": "",
+ "cut": "",
+ "attempts": 0,
+ "error": "",
+ "updated": 0,
+ "auto_approved": false,
+ "flow_url": "",
+ "prompt_edited": false,
+ "applied": "",
+ "gen": "",
+ "job_type": "video",
+ "reference": "scene_u02_3",
+ "unit": 2,
+ "id": "vid_u02_2",
+ "kind": "video",
+ "title": "2유닛 영상 · 2 (8초)",
+ "prompt": "Gentle comic picture-book animation: the grey mole wobbles at the pond edge with arms flailing, the frog blinks and hops once, the children reach out, a few water drops splash. Camera still. Playful, child-friendly. No text.",
+ "seconds": 8,
+ "aspect": "4:3",
+ "out": "web/assets/video/vid_u02_2.mp4"
+}

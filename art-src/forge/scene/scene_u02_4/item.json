@@ -1,0 +1,22 @@
+{
+ "status": "queued",
+ "raw": "",
+ "cut": "",
+ "attempts": 0,
+ "error": "",
+ "updated": 0,
+ "auto_approved": false,
+ "flow_url": "",
+ "prompt_edited": false,
+ "applied": "",
+ "gen": "",
+ "job_type": "image",
+ "reference": "cast_sheet",
+ "unit": 2,
+ "id": "scene_u02_4",
+ "kind": "scene",
+ "title": "2유닛 장면 · 4",
+ "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene with a simple uncluttered background, characters large and clearly visible, leaving empty space for speech bubbles to be added later. No text, no speech bubbles, no letters. The characters must look exactly like the ones in the attached character sheet (left to right: Lily, Max, Pomi, Digby). Scene: Lily and Max have pulled Digby out of the pond; he is dripping wet, wrapped in a towel, looking embarrassed but secretly pleased. Pomi offers him a leaf as an umbrella. Three new letter trees (D, E, F with their fruits) stand by the pond behind them. Characters: Lily is a cheerful 7-year-old East Asian girl with a straight black bob haircut and a small red hair clip, wearing a bright yellow hoodie, blue shorts and green rain boots. Max is a shy 7-year-old East Asian boy with short curly brown hair, a blue cap worn backwards, an orange t-shirt, dark blue pants, white sneakers and a small green backpack. Pomi is a round apple-green garden sprite the size of a melon, with one small sprout leaf on top of its head, big shiny black eyes, rosy pink cheeks, tiny stubby arms and no legs (it hops and floats), softly glowing. Digby is a grumpy old grey mole with a red-and-white striped nightcap, round spectacles, big pink digging paws and a tiny pink nose.",
+ "aspect": "4:3",
+ "out": "web/assets/art/scene_u02_4.jpg"
+}

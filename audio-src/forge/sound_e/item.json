@@ -18,9 +18,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-06 14:41",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -31,5 +31,5 @@
  "text": "e",
  "voice": "Kore",
  "hint": "short e as at the start of egg",
- "busy": 1
+ "busy": 0
 }
