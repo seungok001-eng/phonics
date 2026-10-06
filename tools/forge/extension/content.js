@@ -888,7 +888,11 @@ function findIconButton(iconText, parentText) {
 }
 
 // Try multiple aria-labels / titles to find a submit-style button.
+function sfStatus(text) { try { chrome.storage.local.set({ lastStatus: text }); } catch {} }   // [교재 공방] 팝업 상태 줄에 진행 단계 표시
 function findSubmitButton() {
+  // [교재 공방] 새 플로우: 프롬프트 칸의 "생성 시작" 단추(aria-label)를 먼저
+  const direct = document.querySelector('.base-prompt-box button[aria-label="생성 시작"], button[aria-label="생성 시작"], button[aria-label="Start generating"], .base-prompt-box button[type="submit"]:last-of-type');
+  if (direct) return direct;
   // Helper: find a button by visually-hidden span text (Flow uses sr-only spans)
   // e.g. <button><i>arrow_forward</i><span style="...clip:rect(0...">만들기</span></button>
   const allButtons = Array.from(document.querySelectorAll("button"));
@@ -1410,15 +1414,39 @@ function dismissFailureCards() {
 // --- Submit (만들기 / arrow_forward) ---
 async function clickSubmit() {
   // Wait until the submit button exists AND is enabled (Flow disables it until prompt is non-empty)
-  const btn = await waitFor(() => {
+  const enabledBtn = () => {
     const b = findSubmitButton();
-    if (!b) return null;
-    if (b.disabled) return null;
-    if (b.getAttribute("aria-disabled") === "true") return null;
+    if (!b || b.disabled || b.getAttribute("aria-disabled") === "true") return null;
     return b;
-  }, 20000, 300);
-  if (!btn) throw new Error("만들기/생성 버튼을 찾지 못함 (활성화 대기 실패)");
-
+  };
+  let btn = await waitFor(enabledBtn, 8000, 300).catch(() => null);
+  if (!btn) {
+    // [교재 공방] 글은 들어갔는데 단추가 잠겨 있으면 플로우가 입력을 아직 못 알아챈 것 → 편집기에 공백 넣고 지워 상태를 깨운다
+    sfStatus("생성 단추가 잠겨 있어 입력 상태 깨우는 중");
+    const ed = findPromptEditor();
+    if (ed) {
+      try { ed.dispatchEvent(new Event("input", { bubbles: true })); } catch {}
+      try {
+        await chrome.runtime.sendMessage({ type: "CDP_TYPE", x: null, y: null, text: " ", clearFirst: false });
+        await SLEEP(150);
+        await chrome.runtime.sendMessage({ type: "CDP_KEY", key: "Backspace", code: "Backspace", virtualKeyCode: 8 });
+      } catch {}
+    }
+    btn = await waitFor(enabledBtn, 8000, 300).catch(() => null);
+  }
+  if (!btn) {
+    // 마지막 수단: 편집기에서 Enter
+    const ed = findPromptEditor();
+    if (ed) {
+      sfStatus("생성 단추 대신 Enter 로 제출 시도");
+      await cdpClickElement(ed); await SLEEP(150);
+      await chrome.runtime.sendMessage({ type: "CDP_KEY", key: "Enter", code: "Enter", virtualKeyCode: 13, text: "\r" });
+      await SLEEP(800);
+      return;
+    }
+    throw new Error("만들기/생성 버튼을 찾지 못함 (활성화 대기 실패)");
+  }
+  sfStatus("생성 단추 클릭");
   // CDP 로 진짜 사용자 클릭 주입 (isTrusted=true)
   await cdpClickElement(btn);
   await SLEEP(800);
@@ -2142,6 +2170,7 @@ async function attachByPastingFile(imageUrl, fileName) {
   }, 60000, 300).catch(() => null);
   if (!img) throw new Error("붙여넣기 첨부 후 소재 칩이 생기지 않음");
   console.log(`[Flow Bridge] 붙여넣기로 참조 첨부 완료: ${fileName}`);
+  sfStatus(`참조 첨부 완료 (${fileName}) → 프롬프트 입력`);
   return true;
 }
 
@@ -3529,9 +3558,11 @@ async function runJobOnce(job) {
     // 에디터를 건드리지 못하도록 보장.
     waiter = sfRegisterWaiter(job.prompt, 180000, job.scene_id || null);
     await typePromptIntoSlate(job.prompt);
+    sfStatus("프롬프트 입력 완료 → 생성 단추");
     // 타이핑 완료 → Submit 사이 1~1.5초 (사람이 프롬프트 검토하는 시간).
     await SLEEP(sfJitter(IMAGE_PRE_SUBMIT_PAUSE_MS, 500));
     await clickSubmit();
+    sfStatus("제출됨 → 결과 대기 (최대 3분)");
     // 다음 잡의 typing 이 시작되기 전에 입력창이 리셋될 시간 확보 + jitter.
     await SLEEP(sfJitter(IMAGE_SUBMIT_COOLDOWN_MS, 500));
   } catch (e) {

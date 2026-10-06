@@ -614,6 +614,15 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
         }
       });
     sendResponse({ ok: true });
+  } else if (msg.type === "CDP_KEY") {
+    // [교재 공방] 키 하나 (Enter·Backspace 등) 를 진짜 키 이벤트로
+    const tabId = sender?.tab?.id;
+    if (!tabId) { sendResponse({ ok: false, error: "no tab id" }); return false; }
+    (async () => {
+      try { await cdpKey(tabId, { key: msg.key, code: msg.code, virtualKeyCode: msg.virtualKeyCode, modifiers: msg.modifiers || 0, text: msg.text }); sendResponse({ ok: true }); }
+      catch (e) { sendResponse({ ok: false, error: e?.message || String(e) }); }
+    })();
+    return true;
   } else if (msg.type === "CDP_CLICK" || msg.type === "CDP_TYPE") {
     const tabId = sender?.tab?.id;
     if (!tabId) {
