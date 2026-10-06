@@ -1,0 +1,570 @@
+{
+  "unit": 6,
+  "title": "The Pig and the Pin",
+  "title_ko": "돼지와 핀",
+  "vowel": "i",
+  "families": [
+    "ig",
+    "in"
+  ],
+  "words": {
+    "ig": [
+      "pig",
+      "big",
+      "dig",
+      "wig",
+      "fig"
+    ],
+    "in": [
+      "pin",
+      "fin",
+      "bin",
+      "win",
+      "tin"
+    ]
+  },
+  "sight_words": [
+    "can",
+    "not"
+  ],
+  "objectives_ko": [
+    "짧은 모음 i(ɪ) 소리를 알고 -ig·-in 단어를 소리를 이어 읽는다",
+    "-ig·-in 단어 10개를 읽고 그림과 잇고 쓴다",
+    "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
+    "사이트워드 can, not를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Blend and Read",
+      "title_ko": "합치기·단어",
+      "pages": [
+        {
+          "type": "blend",
+          "family": "ig",
+          "title": "-ig words"
+        },
+        {
+          "type": "blend",
+          "family": "in",
+          "title": "-in words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letter."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The pig is big.",
+      "audio": "b2_u06_s1",
+      "pic": "word_pig",
+      "words": [
+        "pig"
+      ]
+    },
+    {
+      "text": "The pig has a wig.",
+      "audio": "b2_u06_s2",
+      "pic": "word_wig",
+      "words": [
+        "pig",
+        "wig"
+      ]
+    },
+    {
+      "text": "A pin is in the tin.",
+      "audio": "b2_u06_s3",
+      "pic": "word_tin",
+      "words": [
+        "pin",
+        "tin"
+      ]
+    },
+    {
+      "text": "The fig is in the bin.",
+      "audio": "b2_u06_s4",
+      "pic": "word_bin",
+      "words": [
+        "fig",
+        "bin"
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Pig and the Pin",
+    "bgm": "b2_u6_story",
+    "panels": [
+      {
+        "id": "scene_b2_u06_1",
+        "desc": "A big round pink pig with a curly tail stands at the start of the stepping stones, which are far too little for its feet: one hoof on a stone, the stone wobbling. Hedgie measures the pig with a long reed; Bun shakes her head; Pip, trying to say the word, has said it backwards and looks at the pig cross-eyed; Beads sits on a lily pad. Beside the bank a shovel sticks out of a freshly dug hole with dirt flying. Hidden in the picture: the pig, the big pig next to a tiny mouse, the shovel digging. Grumble does NOT appear.",
+        "hidden": [
+          "pig",
+          "big",
+          "dig"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The pig is big!",
+            "audio": "b2_u06_l1"
+          },
+          {
+            "who": "bun",
+            "text": "The pig can not go.",
+            "audio": "b2_u06_l2"
+          },
+          {
+            "who": "pip",
+            "text": "Gip! Gip?",
+            "audio": "b2_u06_l3"
+          }
+        ],
+        "video": "vid_b2_u06_1"
+      },
+      {
+        "id": "scene_b2_u06_2",
+        "desc": "Beads threads p-i-g and a BIG wide stepping stone rises out of the water with a splash — the pig hops onto it happily, now wearing a curly purple wig that floated by on the water and holding a purple fig in its mouth. Bun and Hedgie laugh; Pip claps its wings; water drops sparkle. Hidden in the picture: the pig, the purple wig, the fig. Grumble does NOT appear.",
+        "hidden": [
+          "pig",
+          "wig",
+          "fig"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/p/ /ɪ/ /g/ pig!",
+            "audio": "blend_pig",
+            "pop": "pig"
+          },
+          {
+            "who": "narrator",
+            "text": "Click-clack! A big stone!",
+            "audio": "b2_u06_l4"
+          },
+          {
+            "who": "bun",
+            "text": "The pig has a wig!",
+            "audio": "b2_u06_l5"
+          }
+        ],
+        "video": "vid_b2_u06_2"
+      },
+      {
+        "id": "scene_b2_u06_3",
+        "desc": "A bright blue fish with one big orange fin pushes the pig's big stone along with its nose. On the bank stand a round silver cookie tin and a green trash bin. In the reeds, Grumble's striped nightcap has caught on a reed and torn; Hedgie reaches over and pins the tear together with a red-headed sewing pin while Grumble frowns and holds his lantern out of the way; Beads threads p-i-n. Hidden in the picture: the pin, the fish with the fin, the tin, the bin.",
+        "hidden": [
+          "pin",
+          "fin",
+          "tin",
+          "bin"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/p/ /ɪ/ /n/ pin!",
+            "audio": "blend_pin",
+            "pop": "pin"
+          },
+          {
+            "who": "hedgie",
+            "text": "A pin on the hat.",
+            "audio": "b2_u06_l6"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Not my hat!",
+            "audio": "b2_u06_l7"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u06_4",
+        "desc": "The pig has reached the far end of the new -ig and -in stone rows and stands proudly beside a golden trophy cup with a star on it; Bun and Hedgie cheer; Pip hovers over the pig saying the word right at last, glowing; Beads clicks its beads. The cookie tin and the green bin stand on the last stone. In the reeds, Grumble wears his pinned-up nightcap and holds his lantern, which glows a little brighter, whispering with a small smile. Hidden in the picture: the trophy, the bin, the tin.",
+        "hidden": [
+          "win",
+          "bin",
+          "tin"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "The pig can win!",
+            "audio": "b2_u06_l8"
+          },
+          {
+            "who": "pip",
+            "text": "Gip... pig!",
+            "audio": "b2_u06_l9"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! ... Win, pig!",
+            "audio": "b2_u06_l10"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u06_1",
+      "from": "scene_b2_u06_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the big pig puts one hoof on a tiny stepping stone and it wobbles and tips, the pig pulls back with wide eyes, the hedgehog measures with his reed, the baby bird looks cross-eyed. Camera still. Funny, child-friendly. No text."
+    },
+    {
+      "id": "vid_b2_u06_2",
+      "from": "scene_b2_u06_2",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: three beads click together, a big wide stepping stone rises out of the water with a splash and sparkle, the pig in the purple wig hops onto it, the rabbit and the hedgehog laugh. Camera still. Child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "pig",
+        "pictures": [
+          "pig",
+          "pin",
+          "big"
+        ]
+      },
+      {
+        "word": "pin",
+        "pictures": [
+          "pin",
+          "pen",
+          "pig"
+        ]
+      },
+      {
+        "word": "wig",
+        "pictures": [
+          "wig",
+          "pig",
+          "win"
+        ]
+      },
+      {
+        "word": "bin",
+        "pictures": [
+          "bin",
+          "fin",
+          "bag"
+        ]
+      },
+      {
+        "word": "fig",
+        "pictures": [
+          "fig",
+          "fin",
+          "pig"
+        ]
+      },
+      {
+        "word": "tin",
+        "pictures": [
+          "tin",
+          "ten",
+          "pin"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "dig"
+      },
+      {
+        "word": "fin"
+      },
+      {
+        "word": "win"
+      },
+      {
+        "word": "wig"
+      }
+    ],
+    "write": [
+      {
+        "word": "pig",
+        "missing": 1
+      },
+      {
+        "word": "pin",
+        "missing": 2
+      },
+      {
+        "word": "fig",
+        "missing": 0
+      },
+      {
+        "word": "bin",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "pig",
+        "pictures": [
+          "pig",
+          "pin",
+          "big"
+        ]
+      },
+      {
+        "word": "pin",
+        "pictures": [
+          "pin",
+          "fin",
+          "pen"
+        ]
+      },
+      {
+        "word": "wig",
+        "pictures": [
+          "wig",
+          "dig",
+          "fig"
+        ]
+      },
+      {
+        "word": "bin",
+        "pictures": [
+          "bin",
+          "tin",
+          "bag"
+        ]
+      },
+      {
+        "word": "win",
+        "pictures": [
+          "win",
+          "wig",
+          "fin"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "pig",
+        "missing": 0
+      },
+      {
+        "word": "big",
+        "missing": 1
+      },
+      {
+        "word": "dig",
+        "missing": 2
+      },
+      {
+        "word": "wig",
+        "missing": 0
+      },
+      {
+        "word": "fig",
+        "missing": 1
+      },
+      {
+        "word": "pin",
+        "missing": 2
+      },
+      {
+        "word": "fin",
+        "missing": 0
+      },
+      {
+        "word": "bin",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "ig": [
+        "pig",
+        "big",
+        "dig",
+        "wig",
+        "fig"
+      ],
+      "in": [
+        "pin",
+        "fin",
+        "bin",
+        "win",
+        "tin"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The pig is big.",
+        "pictures": [
+          "pig",
+          "pin"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "A pin is in the tin.",
+        "pictures": [
+          "tin",
+          "bin"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "The pig has a wig.",
+        "pictures": [
+          "fig",
+          "wig"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "The fig is in the bin.",
+        "pictures": [
+          "fin",
+          "bin"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "pig",
+      "big",
+      "wig",
+      "pin",
+      "fin",
+      "bin"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u06_1",
+        "desc": "A big round pink pig stands at the start of the stepping stones, which are far too little for its feet; one hoof on a wobbling stone. Hedgie measures the pig with a long reed; Bun shakes her head; Pip says the word backwards and looks at the pig cross-eyed; a shovel sticks out of a freshly dug hole by the bank. Hidden in the picture: the pig, the big pig beside a tiny mouse, the digging shovel. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The pig is big!",
+            "audio": "sb2_u06_1_1"
+          },
+          {
+            "who": "bun",
+            "text": "The pig can not go.",
+            "audio": "sb2_u06_1_2"
+          },
+          {
+            "who": "pip",
+            "text": "Gip! Gip?",
+            "audio": "sb2_u06_1_3"
+          }
+        ],
+        "task": "Find the -ig words!",
+        "task_ko": "-ig 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u06_2",
+        "desc": "Beads threads p-i-g and a BIG wide stepping stone rises with a splash; the pig hops on wearing a curly purple wig that floated by, a purple fig in its mouth; Bun and Hedgie laugh; Pip claps its wings; a blue fish with a big orange fin pushes the stone along. Hidden in the picture: the pig, the wig, the fig, the fish fin. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/p/ /ɪ/ /g/ pig!",
+            "audio": "sb2_u06_2_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Click-clack! A big stone!",
+            "audio": "sb2_u06_2_2"
+          },
+          {
+            "who": "bun",
+            "text": "The pig has a wig!",
+            "audio": "sb2_u06_2_3"
+          }
+        ],
+        "task": "Find the -ig words!",
+        "task_ko": "-ig 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u06_3",
+        "desc": "The pig stands at the far end of the new stones beside a golden trophy; a cookie tin and a green bin stand on the last stone. In the reeds Grumble's torn nightcap is pinned together with a red-headed pin; he holds his lantern, which glows a little brighter, and whispers a cheer with a small smile; Pip says the word right at last and glows. Hidden in the picture: the pin, the tin, the bin, the trophy.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/p/ /ɪ/ /n/ pin!",
+            "audio": "sb2_u06_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! ... Win, pig!",
+            "audio": "sb2_u06_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Brr! Brr! Oh no!",
+            "audio": "sb2_u06_3_3"
+          }
+        ],
+        "task": "Find the -in words!",
+        "task_ko": "-in 단어를 찾아요"
+      }
+    ]
+  }
+}

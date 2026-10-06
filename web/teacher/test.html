@@ -78,6 +78,12 @@
   .sort .bin b { font-family:'Andika'; font-size:24px; display:block; }
   .sort .bin .ans { color:var(--key); font-family:'Fredoka'; font-size:16px; }
   .vowel { color:var(--vowel); } .conso { color:var(--conso); }
+  .opts.fam span { width:auto; min-width:64px; height:38px; border-radius:12px; padding:0 8px; font-weight:700; } .opts.fam b { color:var(--vowel); }
+  .it.bx { padding-top:12px; gap:8px; } .it.bx .boxes.wbx { flex-wrap:nowrap; justify-content:center; } .it.bx .boxes.wbx span { width:34px; height:44px; font-size:26px; }
+  .sort .bin b b { display:inline; color:var(--vowel); }
+  .it.rs { padding:8px 10px 8px 32px; align-items:flex-start; } .it.rs .stxt { font-family:'Andika'; font-size:21px; line-height:1.3; }
+  .ltable .lr b.fam, .ltable .lr b { font-family:'Andika'; } .ltable .lr b b { color:var(--vowel); }
+  table.spk.fam th { font-size:15px; } table.spk.fam th b { color:var(--vowel); }
   /* 글자별 점수표 */
   .ltable { margin-top:auto; border-top:2px solid var(--line); padding-top:6px; }
   .ltable h3 { margin:0 0 4px; font-family:'Fredoka'; font-size:14px; } .ltable h3 small { color:var(--soft); font-weight:400; font-family:'Andika'; font-size:11px; margin-left:8px; }
@@ -116,12 +122,15 @@
 </div>
 <div id="out"></div>
 <script>
-// 시험지 생성기. ?scope=u3|r1|r2|all &level=1|2|3 &set=A|B &bw=1(선그림, 흑백 인쇄) &key=1(정답지) &speaking=1(말하기 체크리스트) &batch=units|review(PDF 묶음)
+// 시험지 생성기. ?scope=u3|r1|r2|all &level=1|2|3 &set=A|B &bw=1(선그림, 흑백 인쇄) &key=1(정답지) &speaking=1(말하기 체크리스트) &batch=units|review(PDF 묶음) &bk=2(2권: 단어 가족·모음·문장)
 // 범위: u3 = 3유닛, r1 = 1~4유닛, r2 = 6~10유닛, all = 1~10유닛. 같은 범위에서 A/B형은 씨앗이 달라 문항·보기가 다르다.
 const q = new URLSearchParams(location.search);
 const BW = q.get('bw') === '1';
 const ART = q.get('art') || '../assets/art/';   // 그림 폴더 (pdf.py 는 축소본 폴더를 넘겨 PDF 를 가볍게 한다)
-async function get(rel) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+const BK = +(q.get('bk') || 1); let DIR = '';   // 권 번호와 그 권의 content 폴더 ('' = 1권)
+async function get(rel, root) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + (root ? '' : DIR) + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+async function getBook() { const books = (await get('books.json', true)) || [{ n: 1, dir: '' }]; const info = books.find((x) => x.n === BK) || books[0]; DIR = info.dir || ''; const book = await get('book.json'); if (book && !book.letters && DIR) { const b1 = await get('book.json', true); if (b1) book.letters = b1.letters; } return book; }
+const B2 = () => !!(BOOK && BOOK.families);   // 2권이면 단어 가족 시험
 function shuffle(a, seed) { const r = a.slice(); let s = (seed * 9301 + 49297) % 233280; for (let i = r.length - 1; i > 0; i--) { s = (s * 9301 + 49297) % 233280; const j = Math.floor((s / 233280) * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; }
 function seedOf(str) { let h = 7; for (const c of str) h = (h * 31 + c.charCodeAt(0)) % 100003; return h + 11; }
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -136,10 +145,19 @@ const lcls = (l) => BOOK.letters[l].kind === 'vowel' ? 'vowel' : 'conso';
 function scopeUnits(scope) { if (/^u\d+$/.test(scope)) return [+scope.slice(1)]; if (scope === 'r1') return [1, 2, 3, 4]; if (scope === 'r2') return [6, 7, 8, 9, 10]; return [1, 2, 3, 4, 6, 7, 8, 9, 10]; }
 function scopeTitle(scope) { if (/^u\d+$/.test(scope)) { const n = +scope.slice(1), x = BOOK.units.find((u) => u.n === n); return `Unit ${n} Test`; } return scope === 'r1' ? 'Review Test 1 (Units 1–4)' : scope === 'r2' ? 'Review Test 2 (Units 6–10)' : 'Final Test (Units 1–10)'; }
 const LEVEL_NAME = { 1: 'Level 1 · Letters 글자', 2: 'Level 2 · Words 단어', 3: 'Level 3 · Reading & Writing 읽기·쓰기' };
+const LEVEL_NAME2 = { 1: 'Level 1 · Vowels & Families 모음·단어 가족', 2: 'Level 2 · Words 단어 읽기·쓰기', 3: 'Level 3 · Sentences 문장 읽기·쓰기' };
+// 2권 도우미: 범위 유닛의 가족·단어, 단어의 가족·모음
+function scopeFams(scope) { return scopeUnits(scope).flatMap((n) => (BOOK.units.find((x) => x.n === n) || {}).families || []); }
+function famWords(f, us) { for (const n of (us || [])) { const u = UNITS[n]; if (u && u.words && u.words[f]) return u.words[f]; } return (BOOK.families[f] || {}).words || []; }
+function famOf(w) { const d = BOOK.words && BOOK.words[w]; if (d && d.family) return d.family; return Object.keys(BOOK.families).find((f) => BOOK.families[f].words.includes(w)) || ''; }
+function famV(f) { return (BOOK.families[f] || {}).vowel || f[0]; }
+function famHtml(f) { const v = famV(f); return `-<b class="vowel">${esc(v)}</b>${esc(f.slice(f.indexOf(v) + 1))}`; }
+function rime(w) { const f = famOf(w), i = f ? w.lastIndexOf(f) : -1; return i < 0 ? esc(w) : esc(w.slice(0, i)) + `<b>${esc(f)}</b>` + esc(w.slice(i + f.length)); }
 
 // ---------- 문항 만들기 ----------
 // 돌려주는 것: { parts: [{title, ko, items:[{html, keyHtml, letters:[...]}], layout}], letters }
 function buildTest(scope, level, set) {
+  if (B2()) return buildTest2(scope, level, set);
   const L = BOOK.letters, us = scopeUnits(scope);
   const letters = us.flatMap((n) => (BOOK.units.find((x) => x.n === n) || {}).letters || []);
   const words = letters.flatMap((l) => L[l].words);
@@ -244,6 +262,85 @@ function buildTest(scope, level, set) {
   return { parts, letters };
 }
 
+// ---------- 2권 문항 ----------
+// 돌려주는 것은 1권과 같은 모양. letters 자리에 가족(-at)이 들어가 점수표도 가족별
+function buildTest2(scope, level, set) {
+  const us = scopeUnits(scope), fams = scopeFams(scope), vowels = [...new Set(fams.map(famV))];
+  const words = fams.flatMap((f) => famWords(f, us));
+  const seed = seedOf(`b2-${scope}-${level}-${set}`);
+  let k = 0; const nx = () => seed + (++k) * 131;
+  // 가족이 고루 나오게: 가족 순서를 섞고 가족마다 단어를 돌아가며
+  const order = shuffle(fams, nx()), wl = {}, pool = [];
+  for (const f of order) wl[f] = shuffle(famWords(f, us), nx());
+  for (let r = 0; r < 5; r++) for (const f of order) if (wl[f][r]) pool.push(wl[f][r]);
+  let cur = 0; const take = (n) => { const out = []; while (out.length < n) { out.push(pool[cur % pool.length]); cur++; } return out; };
+  const takeFams = (n) => { const out = []; for (let i = 0; i < n; i++) out.push(order[i % order.length]); return out; };
+  const otherFams = (f, n, sd) => { let o = shuffle(fams.filter((x) => x !== f), sd).slice(0, n); if (o.length < n) o = o.concat(shuffle(Object.keys(BOOK.families).filter((x) => x !== f && !o.includes(x)), sd).slice(0, n - o.length)); return o; };
+  const otherWords = (w, n, sd, sameFam) => shuffle(words.filter((x) => x !== w && (sameFam ? famOf(x) === famOf(w) : famOf(x) !== famOf(w))), sd).slice(0, n);
+  const allV = Object.keys(BOOK.vowels || { a: 1, e: 1, i: 1, o: 1, u: 1 });
+  let no = 0;
+  const item = (html, keyHtml, fs) => ({ html, keyHtml, letters: fs, no: ++no });
+  const vowelIdx = (w) => { const f = famOf(w), v = famV(f); return w.lastIndexOf(f) + f.indexOf(v); };
+  const boxes = (w, miss, on) => `<div class="boxes wbx">${w.split('').map((ch, j) => j === miss ? `<span class="blank ${on ? 'ans' : ''}">${on ? ch : ''}</span>` : `<span>${ch}</span>`).join('')}</div>`;
+  const parts = [];
+  // 그림 보고 모음 고르기 (3지선다)
+  const pickVowel = (n) => take(n).map((w) => { const v = famV(famOf(w)); const os = shuffle(vowels.filter((x) => x !== v), nx()).slice(0, 2); while (os.length < 2) os.push(shuffle(allV.filter((x) => x !== v && !os.includes(x)), nx())[0]); const opts = shuffle([v, ...os], nx());
+    const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="opts">${opts.map((o) => `<span class="vowel ${on && o === v ? 'on' : ''}">${o}</span>`).join('')}</div></div>`; return item(base(false), base(true), [famOf(w)]); });
+  // 빠진 모음 쓰기 (c_t)
+  const missVowel = (n) => take(n).map((w) => { const base = (on) => `<div class="it bx"><span class="no">${no + 1}</span>${pb(w)}${boxes(w, vowelIdx(w), on)}</div>`; return item(base(false), base(true), [famOf(w)]); });
+  // 그림 보고 단어 가족 고르기 (-at / -an / -ap)
+  const pickFam = (n) => take(n).map((w) => { const f = famOf(w), opts = shuffle([f, ...otherFams(f, 2, nx())], nx());
+    const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="opts fam">${opts.map((o) => `<span class="${on && o === f ? 'on' : ''}">${famHtml(o)}</span>`).join('')}</div></div>`; return item(base(false), base(true), [f]); });
+  // 빠진 첫 글자(자음) 쓰기
+  const missFirst = (n) => take(n).map((w) => { const base = (on) => `<div class="it bx"><span class="no">${no + 1}</span>${pb(w)}${boxes(w, 0, on)}</div>`; return item(base(false), base(true), [famOf(w)]); });
+  // 단어 읽고 그림 고르기 (hard = 같은 가족 단어가 보기에 섞인다)
+  const readPick = (n, hard) => take(n).map((w) => { const ds = hard ? [otherWords(w, 1, nx(), true)[0], otherWords(w, 1, nx())[0]].filter(Boolean) : otherWords(w, 2, nx()); while (ds.length < 2) ds.push(otherWords(w, 3, nx() + 1)[ds.length] || words.find((x) => x !== w && !ds.includes(x)));
+    const opts = shuffle([w, ...ds], nx());
+    const base = (on) => `<div class="it rp"><span class="no">${no + 1}</span><div class="wd big">${esc(w)}</div><div class="opts pics">${opts.map((o, j) => `<span class="o ${on && o === w ? 'on' : ''}">${pb(o, 'sm')}<b>${'abc'[j]}</b></span>`).join('')}</div></div>`; return item(base(false), base(true), [famOf(w)]); });
+  // 그림 보고 단어 쓰기 (4선)
+  const writeWord = (n) => take(n).map((w) => { const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="w4">${on ? `<span class="ans">${esc(w)}</span>` : ''}</div></div>`; return item(base(false), base(true), [famOf(w)]); });
+  // 그림–단어 잇기
+  const matchPicWord = (n) => { const ws = take(n), right = shuffle(ws, nx());
+    const html = (on) => `<div class="match"><div class="col l">${ws.map((w, i) => `<div class="mi"><span class="no">${no + i + 1}</span>${pb(w, 'sm')}${on ? `<span class="ak">→ ${esc(w)}</span>` : ''}<span class="dot"></span></div>`).join('')}</div><div class="col r">${right.map((w) => `<div class="mi"><span class="dot"></span><span class="wdm">${esc(w)}</span></div>`).join('')}</div></div>`;
+    return ws.map((w, i) => item(i === 0 ? html(false) : '', i === 0 ? html(true) : '', [famOf(w)])); };
+  // 단어 완성: 끝 글자가 빈 칸
+  const completeEnd = (n) => take(n).map((w) => { const base = (on) => `<div class="it bx"><span class="no">${no + 1}</span>${pb(w)}${boxes(w, w.length - 1, on)}</div>`; return item(base(false), base(true), [famOf(w)]); });
+  // 문장 읽고 그림 고르기: 범위 유닛 sentences 에서 (그림 = 문장 그림 + 다른 단어 그림)
+  const sents = () => { const out = []; for (const n of us) { const u = UNITS[n]; if (!u) continue; (u.sentences || []).forEach((sn) => { const w = (sn.words || [])[0] || (sn.pic || '').replace(/^word_/, ''); if (w) out.push({ text: sn.text, w, pic: (sn.pic || '').startsWith('word_') ? sn.pic.slice(5) : w, sws: (u.sight_words || []) }); }); } return shuffle(out, nx()); };
+  let sentPool = sents(), si = 0; const takeSent = () => { if (!sentPool.length) sentPool = take(4).map((w) => ({ text: `I see a ${w}.`, w, pic: w, sws: ['I', 'see', 'a'] })); const x = sentPool[si % sentPool.length]; si++; return x; };
+  const readSent = (n) => Array.from({ length: n }, () => { const sn = takeSent(); const ds = otherWords(sn.w, 2, nx()); const opts = shuffle([sn.pic, ...ds], nx());
+    const base = (on) => `<div class="it rs"><span class="no">${no + 1}</span><div class="stxt">${esc(sn.text)}</div><div class="opts pics">${opts.map((o, j) => `<span class="o ${on && o === sn.pic ? 'on' : ''}">${pb(o, 'sm')}<b>${'abc'[j]}</b></span>`).join('')}</div></div>`; return item(base(false), base(true), [famOf(sn.w)]); });
+  // 사이트워드 문장 완성: 문장에서 범위 사이트워드 하나를 비운다
+  const swAll = Object.keys(BOOK.sight_words || {}).filter((w) => us.includes(BOOK.sight_words[w].unit));
+  const completeSent = (n) => { const picked = []; let guard = 0;
+    while (picked.length < n && guard++ < 40) { const sn = takeSent(); const toks = sn.text.replace(/[^A-Za-z' ]/g, ' ').split(/\s+/); const sw = toks.find((t) => swAll.includes(t) || swAll.includes(t.toLowerCase())); if (sw && !picked.some((x) => x.text === sn.text)) picked.push({ ...sn, sw }); }
+    while (picked.length < n) { const w = take(1)[0], sw = swAll[picked.length % Math.max(1, swAll.length)] || 'the'; picked.push({ text: `${sw[0].toUpperCase() + sw.slice(1)} ${w} is big.`, w, pic: w, sw }); }
+    const bank = shuffle([...new Set(picked.map((x) => x.sw.toLowerCase()))], nx());
+    return picked.map((sn, i) => { const re = new RegExp('(^|[^A-Za-z])' + sn.sw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?=[^A-Za-z]|$)');
+      const base = (on) => `${i === 0 ? `<div class="bank">${bank.map((s2) => `<span>${esc(s2)}</span>`).join('')}</div>` : ''}<div class="sent"><span class="no">${no + 1}</span>${pb(sn.pic, 'sm')}<span>${esc(sn.text).replace(re, (m, pre) => pre + `<span class="bl">${on ? esc(sn.sw) : ''}</span>`)}</span></div>`; return item(base(false), base(true), [famOf(sn.w)]); }); };
+  // 가족별 분류: 가족 상자 4개, 그림 8개
+  const sortFam = () => { const fs = takeFams(4), pics = shuffle(fs.flatMap((f) => shuffle(famWords(f, us), nx()).slice(0, 2)), nx());
+    const html = (on) => `<div class="sort"><div class="pics">${pics.map((w, i) => `<div class="sp"><span class="no">${i + 1}</span>${pb(w)}</div>`).join('')}</div><div class="bins">${fs.map((f, i) => `<div class="bin"><b>${famHtml(f)}</b><span class="note">${no + i + 1}</span>${on ? `<div class="ans">${pics.map((w, j) => famOf(w) === f ? j + 1 : null).filter(Boolean).join(', ')}</div>` : ''}</div>`).join('')}</div></div>`;
+    return fs.map((f, i) => item(i === 0 ? html(false) : '', i === 0 ? html(true) : '', [f])); };
+  if (level === 1) {
+    parts.push({ t: 'Look and circle the vowel.', ko: '그림을 보고 가운데 모음 소리에 동그라미', items: pickVowel(6), cls: 'g3' });
+    parts.push({ t: 'Write the missing vowel.', ko: '그림을 보고 빠진 모음을 써요', items: missVowel(6), cls: 'g3' });
+    parts.push({ t: 'Circle the word family.', ko: '그림을 보고 맞는 단어 가족에 동그라미', items: pickFam(4), cls: 'g2' });
+    parts.push({ t: 'Write the first letter.', ko: '그림을 보고 첫 글자를 써요', items: missFirst(4), cls: 'g4' });
+  } else if (level === 2) {
+    parts.push({ t: 'Read and circle the picture.', ko: '단어를 읽고 맞는 그림에 동그라미', items: readPick(6, false), cls: 'g2' });
+    const ww = writeWord(6); parts.push({ t: 'Look and write the word.', ko: '그림을 보고 단어를 써요 (아래 단어 상자에서 골라요)', items: ww, cls: 'g3', bank: shuffle(ww.map((it) => it.html.match(/alt="([^"]+)"/)[1]), nx()) });
+    parts.push({ t: 'Match the picture and the word.', ko: '그림과 단어를 선으로 이어요', items: matchPicWord(4), cls: '' });
+    parts.push({ t: 'Complete the word.', ko: '그림을 보고 마지막 글자를 써요', items: completeEnd(4), cls: 'g4' });
+  } else {
+    parts.push({ t: 'Read the sentence and circle.', ko: '문장을 읽고 맞는 그림에 동그라미', items: readSent(6), cls: 'g2' });
+    parts.push({ t: 'Complete the sentence.', ko: '상자의 사이트워드로 문장을 완성해요', items: completeSent(4), cls: 'col' });
+    parts.push({ t: 'Look and write the word.', ko: '그림을 보고 단어를 써요', items: writeWord(6), cls: 'g3' });
+    parts.push({ t: 'Sort by the word family.', ko: '그림 번호를 단어 가족 상자에 써요', items: sortFam(), cls: '' });
+  }
+  return { parts, letters: fams };
+}
+
 // ---------- 시험지 그리기 (2쪽) ----------
 function sheetHead(title, sub, key, isKey) { return `<div class="hd ${isKey ? 'key' : ''}"><div><div class="t">${esc(title)}${isKey ? ' · Answer Key' : ''}</div><div class="sub">${sub}</div></div><div class="nm">${isKey ? '<span>정답지 · 같은 배치에 답만 표시</span>' : '<span>Name<i></i></span><span>Date<i></i></span><span>Score<i class="s"></i>/20</span>'}</div></div>`; }
 function partHtml(p, idx, isKey) {
@@ -254,36 +351,38 @@ function partHtml(p, idx, isKey) {
 }
 function letterTable(test) {
   const map = {}; test.parts.forEach((p) => p.items.forEach((it) => it.letters.forEach((l) => { (map[l] = map[l] || []).push(it.no); })));
-  const rows = test.letters.filter((l) => map[l]).map((l) => `<span class="lr"><b class="${lcls(l)}">${l.toUpperCase()}${l}</b>${map[l].map((n) => `<i>${n}</i>`).join('')}</span>`).join('');
-  return `<div class="ltable"><h3>글자별 점수표<small>틀린 문항 번호에 ✗ — 표시가 많은 글자가 약한 글자</small></h3><div class="rows">${rows}</div></div>`;
+  const rows = test.letters.filter((l) => map[l]).map((l) => `<span class="lr"><b class="${B2() ? '' : lcls(l)}">${B2() ? famHtml(l) : l.toUpperCase() + l}</b>${map[l].map((n) => `<i>${n}</i>`).join('')}</span>`).join('');
+  return `<div class="ltable"><h3>${B2() ? '단어 가족별' : '글자별'} 점수표<small>틀린 문항 번호에 ✗ — 표시가 많은 ${B2() ? '가족' : '글자'}이 약한 곳</small></h3><div class="rows">${rows}</div></div>`;
 }
 function renderTest(scope, level, set, isKey) {
   const test = buildTest(scope, level, set);
-  const title = `${scopeTitle(scope)}`, sub = `${BOOK.title} · ${LEVEL_NAME[level]} · Set ${set} · 글자: ${test.letters.map((l) => l.toUpperCase() + l).join(' ')}`;
-  const p1 = `<div class="sheet">${sheetHead(title, sub, null, isKey)}${partHtml(test.parts[0], 0, isKey)}${partHtml(test.parts[1], 1, isKey)}<div class="ft" style="margin-top:auto"><span>Pomi Phonics 1 · ${esc(title)} · ${set}</span><span>1 / 2</span></div></div>`;
+  const title = `${scopeTitle(scope)}`, sub = `${BOOK.title} · ${(B2() ? LEVEL_NAME2 : LEVEL_NAME)[level]} · Set ${set} · ${B2() ? '단어 가족: ' + test.letters.map((f) => '-' + f).join(' ') : '글자: ' + test.letters.map((l) => l.toUpperCase() + l).join(' ')}`;
+  const p1 = `<div class="sheet">${sheetHead(title, sub, null, isKey)}${partHtml(test.parts[0], 0, isKey)}${partHtml(test.parts[1], 1, isKey)}<div class="ft" style="margin-top:auto"><span>${esc(BOOK.title)} · ${esc(title)} · ${set}</span><span>1 / 2</span></div></div>`;
   const p2 = `<div class="sheet">${sheetHead(title, sub, null, isKey)}${partHtml(test.parts[2], 2, isKey)}${partHtml(test.parts[3], 3, isKey)}${letterTable(test)}<div class="ft"><span>채점: 문항마다 1점 (20점) · 말하기는 체크리스트로 따로</span><span>2 / 2</span></div></div>`;
   return p1 + p2;
 }
 // 말하기 체크리스트: 글자를 가리키고 소리를 말하면 ✓ (아이별 한 줄)
 function renderSpeaking(scope) {
-  const letters = scopeUnits(scope).flatMap((n) => (BOOK.units.find((x) => x.n === n) || {}).letters || []);
-  const th = letters.map((l) => `<th class="${lcls(l)}">${l.toUpperCase()}${l}</th>`).join(''), ipa = letters.map((l) => `<td>/${esc(BOOK.letters[l].sound)}/</td>`).join('');
+  // 1권: 글자를 가리키면 소리 / 2권: 가족 카드의 단어 하나를 읽기
+  const b2 = B2(), letters = b2 ? scopeFams(scope) : scopeUnits(scope).flatMap((n) => (BOOK.units.find((x) => x.n === n) || {}).letters || []);
+  const th = letters.map((l) => b2 ? `<th>${famHtml(l)}</th>` : `<th class="${lcls(l)}">${l.toUpperCase()}${l}</th>`).join(''), ipa = letters.map((l) => `<td>${b2 ? esc(famWords(l, scopeUnits(scope))[0] || '') : '/' + esc(BOOK.letters[l].sound) + '/'}</td>`).join('');
   const rows = Array.from({ length: 16 }, () => `<tr><td class="nm"></td>${letters.map(() => '<td></td>').join('')}<td></td></tr>`).join('');
-  return `<div class="sheet"><div class="hd"><div><div class="t">Speaking Check · ${esc(scopeTitle(scope).replace(' Test', ''))}</div><div class="sub">말하기 체크리스트 — 선생님이 글자를 가리키면 아이가 소리를 말해요. 맞으면 ✓, 틀리면 비워 두고 나중에 다시</div></div><div class="nm"><span>Class<i></i></span><span>Date<i></i></span></div></div>
-    <table class="spk"><tr><th class="nm">Name</th>${th}<th>✓</th></tr><tr class="ipa"><td class="nm">sound</td>${ipa}<td></td></tr>${rows}</table>
-    <div class="ft"><span>글자 ${letters.length}개 · 한 글자 1점 · 마지막 칸은 ✓ 개수</span><span>Pomi Phonics 1</span></div></div>`;
+  return `<div class="sheet"><div class="hd"><div><div class="t">Speaking Check · ${esc(scopeTitle(scope).replace(' Test', ''))}</div><div class="sub">${b2 ? '읽기 체크리스트 — 가족 단어 카드를 보여 주면 아이가 읽어요 (아래 줄은 보기 단어). 맞으면 ✓' : '말하기 체크리스트 — 선생님이 글자를 가리키면 아이가 소리를 말해요. 맞으면 ✓, 틀리면 비워 두고 나중에 다시'}</div></div><div class="nm"><span>Class<i></i></span><span>Date<i></i></span></div></div>
+    <table class="spk ${b2 ? 'fam' : ''}"><tr><th class="nm">Name</th>${th}<th>✓</th></tr><tr class="ipa"><td class="nm">${b2 ? 'word' : 'sound'}</td>${ipa}<td></td></tr>${rows}</table>
+    <div class="ft"><span>${b2 ? '단어 가족' : '글자'} ${letters.length}개 · 하나 1점 · 마지막 칸은 ✓ 개수</span><span>${esc(BOOK.title)}</span></div></div>`;
 }
 
 // ---------- 주소 → 화면 ----------
 function defaultLevel(scope) { const n = /^u(\d+)$/.exec(scope); if (n) return +n[1] >= 6 ? 2 : 1; return scope === 'r2' ? 2 : scope === 'all' ? 3 : 1; }
 function applyForm() {
-  const p = new URLSearchParams(); p.set('scope', fScope.value); p.set('level', fLevel.value); p.set('set', fSet.value);
+  const p = new URLSearchParams(); if (BK > 1) p.set('bk', BK); p.set('scope', fScope.value); p.set('level', fLevel.value); p.set('set', fSet.value);
   if (fBw.checked) p.set('bw', '1'); if (fKey.checked) p.set('key', '1'); if (fSpk.checked) p.set('speaking', '1');
   location.search = '?' + p;
 }
 (async () => {
-  BOOK = await get('book.json'); if (!BOOK) { document.getElementById('out').textContent = 'content/book.json 을 읽지 못했어요'; return; }
-  const ready = BOOK.units.filter((x) => x.ready !== false && x.letters.length).map((x) => x.n);
+  BOOK = await getBook(); if (!BOOK) { document.getElementById('out').textContent = 'content/book.json 을 읽지 못했어요'; return; }
+  const ready = BOOK.units.filter((x) => x.ready !== false && ((x.letters && x.letters.length) || (x.families && x.families.length))).map((x) => x.n);
+  if (B2()) { fLevel.innerHTML = Object.entries(LEVEL_NAME2).map(([k, v]) => `<option value="${k}">${v}</option>`).join(''); document.querySelector('.top .note').textContent = `${BOOK.title} · A4 2쪽 · 4부분 20문항 · 듣기 없음`; }
   await Promise.all(ready.map(async (n) => { UNITS[n] = await get(`units/unit${String(n).padStart(2, '0')}.json`); }));
   if (BW) document.body.classList.add('bw');
   const batch = q.get('batch');
@@ -295,11 +394,11 @@ function applyForm() {
   let html = '';
   if (batch === 'units') {        // 유닛마다 level 1(1~4) / 2(6~10) A형 시험지 + 정답지
     for (const n of ready) { const sc = 'u' + n, lv = defaultLevel(sc); html += renderTest(sc, lv, 'A', false) + renderTest(sc, lv, 'A', true); }
-    document.title = 'Pomi Phonics 1 — Unit Tests';
+    document.title = `${BOOK.title} — Unit Tests`;
   } else if (batch === 'review') { // r1·r2·all × level 1~3 × A/B + 정답지 + 말하기 체크리스트
     for (const sc of ['r1', 'r2', 'all']) for (const lv of [1, 2, 3]) for (const st of ['A', 'B']) html += renderTest(sc, lv, st, false) + renderTest(sc, lv, st, true);
     for (const sc of ['r1', 'r2', 'all']) html += renderSpeaking(sc);
-    document.title = 'Pomi Phonics 1 — Review Tests';
+    document.title = `${BOOK.title} — Review Tests`;
   } else if (q.get('speaking') === '1') { html = renderSpeaking(scope); document.title = `Speaking Check — ${scopeTitle(scope)}`; }
   else { html = renderTest(scope, level, set, q.get('key') === '1'); document.title = `${scopeTitle(scope)} · L${level} · ${set}${q.get('key') === '1' ? ' · Key' : ''}`; }
   document.getElementById('out').innerHTML = html;

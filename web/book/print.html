@@ -17,12 +17,13 @@
 <script src="strokes.js"></script>
 <script src="pages.js"></script>
 <script>
-// 주소: print.html?b=sb|wb&u=1  → 그 유닛의 모든 쪽을 A4 로. print.html?b=story → 스토리북 전체를 A5 가로로.
+// 주소: print.html?b=sb|wb&u=1  → 그 유닛의 모든 쪽을 A4 로. print.html?b=story → 스토리북 전체를 A5 가로로. &bk=2 → 2권(content/b2/).
 //       &press=1 → 인쇄소용: 사방 3mm 도련을 더한 판형(A4 → 216×303mm, A5 가로 → 216×154mm) + 재단선. tools/pdf.py 가 크롬으로 PDF 를 뽑는다.
 function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@page { size: ${s}; margin: 0; }</style>`); }
 (async () => {
   const q = new URLSearchParams(location.search); const b = q.get('b') || 'sb', u = +(q.get('u') ?? 1), press = q.get('press') === '1';
-  App.book = await loadJSON('book.json'); App.b = b; App.u = u;
+  if (!(await loadBook(+(q.get('bk') || 1)))) { document.body.textContent = 'book.json 을 읽지 못했어요'; return; }
+  App.b = b; App.u = u;
   await Promise.all(App.book.units.map((x) => loadUnit(x.n)));
   const base = (App.book.site_base || '').replace(/^https?:\/\//, '');
   if (press) document.body.classList.add('press');
@@ -35,10 +36,10 @@ function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@pa
     if (onlyP && p !== onlyP) return '';
     const ctx = { book: App.book, unit, b, u, p, page: pg, pages, print: true, name };
     const fn = PAGES[pg.type] || (() => '');
-    const qr = `<img class="qr" src="../assets/qr/${b}_u${String(u).padStart(2, '0')}_p${p}.png" onerror="this.style.display='none'" alt="QR">`;
-    return `<article class="page ${b} t-${pg.type}"><div class="ph-head"><span class="unit">Unit ${u}</span><h2>${esc(unit.title)}</h2>${lettersBadge(unit)}</div>${fn(ctx)}<div class="ph-foot"><span>${qr}${base}/book/?b=${b}&u=${u}&p=${p}</span><span>${b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${pg.lesson.n}</span><span class="pno">${no}</span></div></article>`;
+    const qr = `<img class="qr" src="../assets/qr/${bkKey()}${b}_u${String(u).padStart(2, '0')}_p${p}.png" onerror="this.style.display='none'" alt="QR">`;
+    return `<article class="page ${b} t-${pg.type}"><div class="ph-head"><span class="unit">Unit ${u}</span><h2>${esc(unit.title)}</h2>${lettersBadge(unit)}</div>${fn(ctx)}<div class="ph-foot"><span>${qr}${base}/book/?b=${b}&u=${u}&p=${p}${bkParam()}</span><span>${b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${pg.lesson.n}</span><span class="pno">${no}</span></div></article>`;
   }).join('');
-  document.title = `Pomi Phonics 1 — ${b === 'sb' ? 'Student Book' : 'Workbook'} Unit ${u}`;
+  document.title = `${bookLabel()} — ${b === 'sb' ? 'Student Book' : 'Workbook'} Unit ${u}`;
   window.PRINT_READY = true;
   if (onlyP && q.get('auto') !== '0') setTimeout(() => print(), 800);   // 한 쪽 인쇄는 바로 인쇄 창
 })();
@@ -47,14 +48,14 @@ function renderStory(base) {
   const pages = storyPages(); if (!pages.length) { document.body.textContent = '스토리북 내용(book.json 의 storybook)이 없어요'; return; }
   document.getElementById('pages').innerHTML = pages.map((pg, i) => {
     if (pg.cover) return `<article class="page story cover"><div class="art">${pic(pg.id, '', pg.title)}</div><div class="cover-title"><small>${esc(App.book.series)} ${App.book.book}</small><h1>${esc(pg.title)}</h1></div></article>`;
-    const url = `${base}/book/story.html?u=${pg.u}&p=${pg.p}`;
+    const url = `${base}/book/story.html?u=${pg.u}&p=${pg.p}${bkParam()}`;
     const qr = `<img class="qr" src="../assets/qr/${storyKey(pg)}.png" onerror="this.style.display='none'" alt="QR">`;
     const lines = (pg.lines || []).map((ln) => `<div class="line">${avatar(ln.who)}<span>${esc(ln.text)}</span></div>`).join('');
     const task = pg.task ? `<div class="task">✨ ${esc(pg.task)}${pg.task_ko ? `<small>${esc(pg.task_ko)}</small>` : ''}</div>` : '';
     const where = typeof pg.u === 'number' ? `Unit ${pg.u} · ${esc(pg.title)}` : '';
     return `<article class="page story"><div class="art">${pic(pg.id, '', pg.title)}</div><div class="band"><div class="txt"><div class="where">${where}</div>${lines}${task}</div><div class="foot">${qr}<span class="url">${url}</span><span class="pno">${i}</span></div></div></article>`;
   }).join('');
-  document.title = `Pomi Phonics 1 — ${App.book.storybook.title || 'Storybook'}`;
+  document.title = `${bookLabel()} — ${App.book.storybook.title || 'Storybook'}`;
   window.PRINT_READY = true;
 }
 </script>

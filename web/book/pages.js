@@ -6,6 +6,8 @@ function instr(n, text, ko) { return `<div class="instr">${n ? `<span class="n">
 function spk(id, text, big) { return `<button class="spk ${big ? 'big' : ''} print-hide" data-say="${esc(id)}" data-text="${esc(text)}" title="듣기">🔊</button>`; }
 // 머리띠 글자: 일반 유닛은 글자 전부, 복습 유닛은 앞 4개 + "…", 0유닛은 없음
 function lettersBadge(unit) {
+  const fs = unitFamilies(unit);
+  if (fs.length) { const show = unit.families && unit.families.length ? fs : fs.slice(0, 4); return `<div class="letters fams">${show.map((f) => `<span class="${famCls(f, unit)}">${famHtml(f)}</span>`).join('')}${show.length < fs.length ? '<span class="more">…</span>' : ''}</div>`; }
   const ls = unitLetters(unit); if (!ls.length) return '';
   const show = unit.letters.length ? ls : ls.slice(0, 4);
   return `<div class="letters">${show.map((l) => `<span class="${letterCls(l)}">${l.toUpperCase()}${l}</span>`).join('')}${show.length < ls.length ? '<span class="more">…</span>' : ''}</div>`;
@@ -130,9 +132,10 @@ async function wordChant() {
 
 // 따라 읽기 + 놀이 (소리 잡기)
 PAGES.read_play = (ctx) => {
-  const cards = ctx.unit.letters.flatMap((l) => L(l).words).map((w) => { const l = letterOf(w); return `<div class="read-card say" data-say="word_${esc(w)}" data-text="${esc(w)}">${pic('word_' + w, '', w)}<div class="tr">${wordHtml(w, l)}</div></div>`; }).join('');
-  return instr(1, App.book.instructions.trace_read, '단어를 따라 쓰고 읽어요') + `<div class="read-rows">${cards}</div>` +
-    instr(2, App.book.instructions.lets_play, '소리를 듣고 그 소리로 시작하는 그림을 눌러요') + gameHtml(ctx);
+  const ws = unitWords(ctx.unit);
+  const cards = ws.map((w) => `<div class="read-card say" data-say="word_${esc(w)}" data-text="${esc(w)}">${pic('word_' + w, '', w)}<div class="tr">${wordMark(w)}</div></div>`).join('');
+  return instr(1, App.book.instructions.trace_read, '단어를 따라 쓰고 읽어요') + `<div class="read-rows ${ws.length > 9 ? 'c5' : ''}">${cards}</div>` +
+    instr(2, App.book.instructions.lets_play, B2() ? '단어를 듣고 맞는 그림을 눌러요' : '소리를 듣고 그 소리로 시작하는 그림을 눌러요') + gameHtml(ctx);
 };
 // 소리 잡기 게임 판: 교재 쪽과 선생님 슬라이드가 같이 쓴다. 팀 A·B 점수판(현재 팀을 눌러 고르고, 정답이면 그 팀 +1)
 function gameHtml(ctx, big) {
@@ -147,6 +150,11 @@ function gameStart() { Sound.unlock(); G.i = 0; G.score = 0; G.rounds = App.unit
 function gameRandomRounds(n = 5) {
   const ls = unitLetters(App.units[App.u]), out = [];
   let last = G.last;
+  if (!ls.length) {   // 2권: 단어 하나 + 다른 단어 2개
+    const ws = unitWords(App.units[App.u]);
+    while (out.length < n) { const w = ws[Math.floor(Math.random() * ws.length)]; const others = ws.filter((x) => x !== w).sort(() => Math.random() - 0.5).slice(0, 2); const pictures = [w, ...others].sort(() => Math.random() - 0.5), key = w + ':' + pictures.slice().sort().join(','); if (key === last) continue; last = key; out.push({ word: w, pictures }); }
+    G.last = last; return out;
+  }
   while (out.length < n) {
     const a = ls[Math.floor(Math.random() * ls.length)];
     const mine = L(a).words[Math.floor(Math.random() * L(a).words.length)];
@@ -171,12 +179,12 @@ async function gameRound() {
   $('gameRound').textContent = `${G.i + 1} / ${rounds.length}`; $('gameStars').textContent = '⭐'.repeat(G.score); $('gameMsg').textContent = '';
   $('gameChoices').innerHTML = r.pictures.map((w) => `<div class="choice" onclick="gamePick(this,'${w}')">${pic('word_' + w, '', w)}</div>`).join('');
   G.busy = false;
-  await sleep(300); Sound.play('sound_' + r.answer, soundText(r.answer));
+  await sleep(300); if (r.word) Sound.play('word_' + r.word, r.word); else Sound.play('sound_' + r.answer, soundText(r.answer));
 }
 async function gamePick(el, w) {
   if (G.busy || !G.rounds) return;
   const r = G.rounds[G.i];
-  if (letterOf(w) === r.answer) { G.busy = true; el.classList.add('ok'); Sound.sfx('ok'); G.score++; G.scores[G.team]++; gameScoreDraw(); await Sound.play('word_' + w, w); G.i++; await sleep(500); gameRound(); }
+  if (r.word ? w === r.word : letterOf(w) === r.answer) { G.busy = true; el.classList.add('ok'); Sound.sfx('ok'); G.score++; G.scores[G.team]++; gameScoreDraw(); await Sound.play('word_' + w, w); G.i++; await sleep(500); gameRound(); }
   else { el.classList.add('no'); Sound.sfx('no'); $('gameMsg').textContent = App.book.instructions.try_again; setTimeout(() => el.classList.remove('no'), 500); }
 }
 
@@ -204,7 +212,7 @@ PAGES.story = (ctx) => {
   const panels = st.panels.slice((half - 1) * 2, half * 2);
   const sw = half === 1 && sws.length ? `<div class="sw"><b>${esc(App.book.instructions.sight_words)}</b>${sws.map((w) => `<span class="say" data-say="sw_${esc(w)}" data-text="${esc(w)}">${esc(w)}</span>`).join('')}</div>` : '';
   // 그 유닛의 스토리북이 있으면 작은 링크 (화면에만)
-  const sbLink = half === 1 && ctx.unit.storybook?.pages?.length && !ctx.print ? `<a class="btn small sb-link print-hide" href="story.html?u=${ctx.u}&p=1" target="_blank" title="스토리북 (전체화면 그림책)">📙</a>` : '';
+  const sbLink = half === 1 && ctx.unit.storybook?.pages?.length && !ctx.print ? `<a class="btn small sb-link print-hide" href="story.html?u=${ctx.u}&p=1${bkParam()}" target="_blank" title="스토리북 (전체화면 그림책)">📙</a>` : '';
   const html = panels.map((pn, i) => {
     const idx = (half - 1) * 2 + i;
     const bubbles = pn.lines.map((ln, k) => `<div class="bubble say ${k % 2 ? 'right' : ''}" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-panel="${idx}" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}</span></div>`).join('');
@@ -234,8 +242,8 @@ function playVideo(idx, quiet) {
 }
 
 // 유닛 정리: 듣고 동그라미 / 잇기 / 찾아 쓰기. 복습 평가(review_test)도 같은 모양(문항만 많다)
-PAGES.check = (ctx) => checkBody(ctx, ctx.unit.check);
-PAGES.review_test = (ctx) => checkBody(ctx, ctx.unit.review.test);
+PAGES.check = (ctx) => (ctx.unit.check.read_circle ? checkBody2 : checkBody)(ctx, ctx.unit.check);
+PAGES.review_test = (ctx) => (ctx.unit.review.test.read_circle ? checkBody2 : checkBody)(ctx, ctx.unit.review.test);
 // 듣고 동그라미 한 줄 / 잇기 / 찾아 쓰기 조각 — 교재 쪽과 선생님 슬라이드가 같이 쓴다
 function lcRow(it, i, big) { return `<span class="n">${i + 1}</span>${spk(it.audio, it.audio.startsWith('sound_') ? soundText(it.audio.slice(6)) : it.audio.replace(/^word_/, ''), big)}<div class="opts">${it.options.map((o) => o.length === 1 ? `<div class="opt ${letterCls(o)}" onclick="checkPick(this,'${o}','${it.answer}')">${o.toUpperCase()}${o}</div>` : `<div class="opt" onclick="checkPick(this,'${o}','${it.answer}')">${pic('word_' + o, '', o)}<div class="lab">${esc(o)}</div></div>`).join('')}</div>`; }
 function matchHtml(c, cls = '') {
@@ -300,7 +308,7 @@ PAGES.wb_read = (ctx) => {
 };
 const S = { sel: null };
 function sortPick(el) { Sound.unlock(); document.querySelectorAll('.sort .wd.sel').forEach((x) => x.classList.remove('sel')); el.classList.add('sel'); S.sel = el; Sound.play('word_' + el.dataset.w, el.dataset.w); }
-function sortDrop(bin) { if (!S.sel) return; if (letterOf(S.sel.dataset.w) === bin.dataset.l) { S.sel.classList.remove('sel'); S.sel.classList.add('ok'); bin.querySelector('.in').appendChild(S.sel); S.sel = null; Sound.sfx('ok'); } else Sound.sfx('no'); }
+function sortDrop(bin) { if (!S.sel) return; if ((B2() ? familyOf(S.sel.dataset.w) : letterOf(S.sel.dataset.w)) === bin.dataset.l) { S.sel.classList.remove('sel'); S.sel.classList.add('ok'); bin.querySelector('.in').appendChild(S.sel); S.sel = null; Sound.sfx('ok'); } else Sound.sfx('no'); }
 function fillPick(el, w, ans) { Sound.unlock(); if (w === ans) { el.classList.add('ok'); el.closest('.fill').querySelector('.blank').textContent = w; Sound.sfx('ok'); Sound.play('word_' + w, w); } else Sound.sfx('no'); }
 
 // ---------- 0유닛 ----------
@@ -382,6 +390,7 @@ function boardHtml(ctx) {
     let inner, cls = '';
     if (s.word) inner = `${pic('word_' + s.word, '', s.word)}<span class="lab">${esc(s.word)}</span>`;
     else if (s.letter) { cls = 'letter ' + letterCls(s.letter); inner = `<span class="big">${s.letter.toUpperCase()}${s.letter}</span>`; }
+    else if (s.family) { cls = 'letter ' + famCls(s.family, ctx.unit); inner = `<span class="big fam-big">${famHtml(s.family)}</span>`; }
     else { cls = 'special ' + esc(s.special); const sp = BD_SPECIAL[s.special] || ['?', s.special]; inner = `<span class="big">${sp[0]}</span><span class="lab">${esc(sp[1])}</span>`; }
     const tag = i === 0 ? '<span class="tag">START</span>' : i === sq.length - 1 ? '<span class="tag fin">FINISH</span>' : '';
     const pawns = ctx.print ? '' : ['A', 'B'].filter((t) => BD.pos[t] === i).map((t) => `<span class="pawn ${t}">${t}</span>`).join('');
@@ -428,6 +437,7 @@ async function boardLand(t, depth = 0) {
   if (i === sq.length - 1) { $('bdMsg').textContent = `Team ${t} 🏁 ${App.book.instructions.great_job}`; Sound.sfx('chime'); await Sound.play('instr_great_job', App.book.instructions.great_job); return false; }
   if (s.word) { await Sound.play('word_' + s.word, s.word); return false; }
   if (s.letter) { await Sound.play('name_' + s.letter, s.letter.toUpperCase()); await sleep(150); await Sound.play('sound_' + s.letter, soundText(s.letter)); return false; }
+  if (s.family) { const w = famWords(s.family)[Math.floor(Math.random() * Math.max(1, famWords(s.family).length))] || s.family; await Sound.play('word_' + w, w); return false; }
   const sp = BD_SPECIAL[s.special]; if (!sp) return false;
   $('bdMsg').textContent = sp[0] + ' ' + sp[1];
   if (s.special === 'again') { Sound.sfx('chime'); return true; }
@@ -499,6 +509,13 @@ function pairPick(el) {
 // 데이터: review.first_letter(단어 8개, 없으면 bingo 앞 8개) · review.sort({글자: [단어...]}, 없으면 복습 글자 앞 3개의 단어 2개씩)
 PAGES.wb_review_words = (ctx) => {
   const rv = ctx.unit.review, ls = unitLetters(ctx.unit);
+  if (B2()) {   // 2권: 그림 보고 단어 쓰기 8 + 가족 분류
+    const ws = (rv.first_letter || rv.words || []).slice(0, 8);
+    const sort = rv.sort || Object.fromEntries(unitFamilies(ctx.unit).slice(0, 4).map((f) => [f, famWords(f).slice(0, 2)]));
+    const pool = shuffle(Object.values(sort).flat(), 5 + ctx.u);
+    return instr('C', 'Look and write.', '그림을 보고 단어를 써요 (화면에서는 빈 칸을 누르면 단어가 나와요)') + `<div class="write-row w2 g4">${ws.map((w) => `<div class="write-it w2">${pic('word_' + w, '', w)}<div class="w4 click" onclick="this.innerHTML='<span class=ans>${esc(w)}</span>';Sound.unlock();Sound.play('word_${esc(w)}','${esc(w)}')"></div></div>`).join('')}</div>` +
+      instr('D', 'Sort the words.', '단어를 눌러 가족 상자에 넣어요') + `<div class="sort rv fam-sort"><div class="pool" id="sortPool" style="grid-column:1/-1">${pool.map((w) => `<span class="wd" onclick="sortPick(this)" data-w="${esc(w)}">${esc(w)}</span>`).join('')}</div>${Object.keys(sort).map((f) => `<div class="bin ${famCls(f, ctx.unit)}" data-l="${f}" onclick="sortDrop(this)"><h4>${famHtml(f)}</h4><div class="in"></div></div>`).join('')}</div>`;
+  }
   const words = (rv.first_letter || rv.bingo.words).slice(0, 8);
   const fl = words.map((w) => { const l = letterOf(w); return `<div class="write-it fl">${pic('word_' + w, '', w)}<div class="box" onclick="this.textContent='${l.toUpperCase()}${l}';Sound.unlock();Sound.play('sound_${l}','${esc(soundText(l))}')"></div><div class="wd">_${esc(w.slice(1))}</div></div>`; }).join('');
   const sort = rv.sort || Object.fromEntries(ls.slice(0, 3).map((l) => [l, L(l).words.slice(0, 2)]));
@@ -516,8 +533,9 @@ function songWord(text) { const w = (text.match(/[a-z-]+(?=[!?.]*\s*$)/i) || [''
 function songLines(unit, big) {
   const az = Object.keys(App.book.letters);
   return unit.show.song.lines.map((ln, i) => {
-    const l = az[i], w = songWord(ln.text);
-    return `<div class="song-line say" data-i="${i}" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}">${l ? `<span class="lt ${letterCls(l)}" data-l="${l}">${l.toUpperCase()}<small>${l}</small></span>` : '<span class="lt note">♪</span>'}<span class="txt">${esc(ln.text)}</span>${w ? pic('word_' + w, 'sw', w) : ''}</div>`;
+    const l = ln.letter || (!ln.family && !B2() ? az[i] : null), w = ln.word || songWord(ln.text);
+    const tile = ln.family ? `<span class="lt ${famCls(ln.family, unit)} famt">${famHtml(ln.family)}</span>` : l ? `<span class="lt ${letterCls(l)}" data-l="${l}">${l.toUpperCase()}<small>${l}</small></span>` : '<span class="lt note">♪</span>';
+    return `<div class="song-line say" data-i="${i}" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}">${tile}<span class="txt">${esc(ln.text)}</span>${w ? pic('word_' + w, 'sw', w) : ''}</div>`;
   }).join('');
 }
 PAGES.alphabet_song = (ctx) => {
@@ -537,13 +555,13 @@ async function songPlay() {
 // 단어 사냥: 라운드마다 장면 그림 + "Find the b things!" + 단어 단추(정답 + 다른 글자 단어 3개). 다 찾으면 다음 라운드, 점수는 ⭐
 const HUNT = { i: 0, found: 0, score: 0 };
 function huntButtons(ctx, r, seed) {
-  const others = shuffle(unitLetters(ctx.unit).filter((l) => l !== r.letter).flatMap((l) => L(l).words).filter((w) => !r.words.includes(w)), seed).slice(0, 3);
-  return shuffle(r.words.concat(others), seed + 7).map((w) => `<button class="hunt-w ${letterCls(letterOf(w))}" data-w="${esc(w)}" onclick="huntPick(this)">${esc(w)}</button>`).join('');
+  const others = shuffle(unitWords(ctx.unit).filter((w) => !r.words.includes(w) && (r.letter ? letterOf(w) !== r.letter : familyOf(w) !== r.family)), seed).slice(0, 3);
+  return shuffle(r.words.concat(others), seed + 7).map((w) => `<button class="hunt-w ${r.letter ? letterCls(letterOf(w)) : ''}" data-w="${esc(w)}" onclick="huntPick(this)">${esc(w)}</button>`).join('');
 }
 function huntRoundHtml(ctx, i) {
   const r = ctx.unit.show.hunt.rounds[i];
   return `<div class="hunt-scene">${pic(r.scene, '', 'scene')}</div>
-    <div class="hunt-side"><div class="hunt-q say" data-say="sound_${r.letter}" data-text="${esc(soundText(r.letter))}">Find the <b class="${letterCls(r.letter)}">${r.letter}</b> things!</div><div class="hunt-ws">${huntButtons(ctx, r, i + 11)}</div></div>`;
+    <div class="hunt-side"><div class="hunt-q say" data-say="sound_${esc(r.letter || famVowel(r.family))}" data-text="${esc(letterSound(r.letter || famVowel(r.family)).text)}">Find the ${r.letter ? `<b class="${letterCls(r.letter)}">${r.letter}</b> things` : `<b class="fam-big ${famCls(r.family, ctx.unit)}">${famHtml(r.family)}</b> words`}!</div><div class="hunt-ws">${huntButtons(ctx, r, i + 11)}</div></div>`;
 }
 PAGES.word_hunt = (ctx) => {
   const rounds = ctx.unit.show.hunt.rounds;
@@ -552,7 +570,7 @@ PAGES.word_hunt = (ctx) => {
       `<div class="hunt-print">${rounds.map((r, i) => `<div class="hp"><div class="hp-scene">${pic(r.scene, '', 'scene')}</div><div class="hp-side"><b>${i + 1}. Find the <span class="${letterCls(r.letter)}">${r.letter}</span> things!</b>${r.words.map((w) => `<span class="hp-w">☐ ${esc(w)}</span>`).join('')}</div></div>`).join('')}</div>`;
   }
   HUNT.i = 0; HUNT.found = 0; HUNT.score = 0;
-  return instr(1, 'Word hunt!', '글자 소리를 듣고, 장면에서 그 소리로 시작하는 것을 찾아 단어를 눌러요') +
+  return instr(1, 'Word hunt!', B2() ? '소리를 듣고, 장면에서 그 가족 단어를 찾아 눌러요' : '글자 소리를 듣고, 장면에서 그 소리로 시작하는 것을 찾아 단어를 눌러요') +
     `<div class="hunt-bar print-hide"><button class="btn orange main-play" onclick="huntStart()">▶ Start</button><span class="round" id="huntRound">1 / ${rounds.length}</span><span class="stars" id="huntStars"></span><span class="msg" id="huntMsg"></span></div>` +
     `<div class="hunt" id="hunt">${huntRoundHtml(ctx, 0)}</div>`;
 };
@@ -563,7 +581,7 @@ async function huntRound() {
   const r = rounds[HUNT.i]; HUNT.found = 0;
   $('hunt').innerHTML = huntRoundHtml({ unit }, HUNT.i);
   $('huntRound').textContent = `${HUNT.i + 1} / ${rounds.length}`; $('huntStars').textContent = '⭐'.repeat(HUNT.score); $('huntMsg').textContent = '';
-  await sleep(300); Sound.play('sound_' + r.letter, soundText(r.letter));
+  await sleep(300); const ch = r.letter || famVowel(r.family); Sound.play(letterSound(ch).id, letterSound(ch).text);
 }
 async function huntPick(el) {
   const rounds = App.units[App.u].show.hunt.rounds, r = rounds[HUNT.i]; if (!r || el.classList.contains('ok')) return;
@@ -610,7 +628,7 @@ async function recapPlay() {
 PAGES.certificate = (ctx) => {
   const c = ctx.unit.show.certificate, name = ctx.name || '';
   const chars = Object.keys(App.book.characters).map((id) => `<span class="pic cert-char"><img src="${artSrc('char_' + id + '_cheering')}" alt="${esc(App.book.characters[id].name)}" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${artSrc('char_' + id + '_ref')}'}else picFallback(this)"></span>`).join('');
-  const az = Object.keys(App.book.letters).map((l) => `<span class="${letterCls(l)}">${l.toUpperCase()}${l}</span>`).join('');
+  const az = B2() ? Object.keys(App.book.families).map((f) => `<span class="famc">${famHtml(f)}</span>`).join('') : Object.keys(App.book.letters).map((l) => `<span class="${letterCls(l)}">${l.toUpperCase()}${l}</span>`).join('');
   const form = ctx.print ? '' : `<div class="cert-form print-hide"><input id="certName" placeholder="이름 (영어)" value="${esc(name)}" oninput="certName(this.value)"><button class="btn small" onclick="certPrint()">🖨 인쇄</button></div>`;
   return form + `<div class="cert"><div class="cert-ribbon">${esc(App.book.series)} ${App.book.book}</div><h1>${esc(c.title)}</h1>
     <div class="cert-az">${az}</div>
@@ -620,4 +638,200 @@ PAGES.certificate = (ctx) => {
     <div class="cert-foot"><span>Date <i></i></span><span>Teacher <i></i></span></div></div>`;
 };
 function certName(v) { const o = $('certNameOut'); if (o) o.textContent = v || ' '; }
-function certPrint() { const v = $('certName')?.value || ''; window.open(`print.html?b=${App.b}&u=${App.u}&p=${App.p}&name=${encodeURIComponent(v)}`, '_blank'); }
+function certPrint() { const v = $('certName')?.value || ''; window.open(`print.html?b=${App.b}&u=${App.u}&p=${App.p}&name=${encodeURIComponent(v)}${bkParam()}`, '_blank'); }
+
+// ========== 2권 "단어 연못": 단어 가족·합치기 ==========
+// 데이터(docs/06-book2.md 4절): unit.families, unit.words {가족: [단어]}, unit.sentences, check {read_circle, match, write},
+// workbook_data {blend, family, sentences, write}, 복습 review {families, words, board, bingo, test, blend, sort}
+const B2 = () => !!App.book.families;
+// 단어 표시: 2권은 가족 부분을 굵게(c·at), 1권은 목표 글자를 색칠
+function wordMark(w) { return B2() ? wordFamHtml(w) : wordHtml(w, letterOf(w)); }
+// 가족 꼬리표 (-at, 모음 빨강, 유닛 안 순서대로 색)
+function famTag(f, unit, cls = '') { return `<span class="fam ${famCls(f, unit)} ${cls}">${famHtml(f)}</span>`; }
+
+// 합치기: 가족 하나. 단어마다 글자 타일이 떨어져 있다가 ▶ 를 누르면 낱소리와 함께 붙고 단어 소리·그림
+PAGES.blend = (ctx) => {
+  const f = ctx.page.family || unitFamilies(ctx.unit)[0], ws = (ctx.unit.words && ctx.unit.words[f]) || famWords(f);
+  const rows = ws.map((w) => blendRow(w, f, ctx.unit)).join('');
+  return instr(1, App.book.instructions.blend_read || 'Blend and read.', '▶ 를 누르면 글자 소리가 하나씩 나고 합쳐져 단어가 돼요. 따라 말해요') +
+    `<div class="blend-head"><span class="fam-big ${famCls(f, ctx.unit)}">${famHtml(f)}</span><span class="fam-say say" data-say="sound_${esc(famVowel(f))}" data-text="${esc(letterSound(famVowel(f)).text)}">🔊 /${esc(letterSound(famVowel(f)).text)}/</span><button class="btn orange main-play print-hide" onclick="blendAll()">▶ Blend all</button></div>` +
+    `<div class="blend-rows">${rows}</div>`;
+};
+function blendRow(w, f, unit) {
+  const tiles = w.split('').map((ch, k) => `<span class="tile ${App.book.vowels && App.book.vowels[ch] ? 'vowel' : ''}" data-k="${k}">${esc(ch)}</span>`).join('');
+  return `<div class="blend-row ${famCls(f, unit)}" data-w="${esc(w)}"><button class="spk print-hide" onclick="blendPlay(this.closest('.blend-row'))" title="합치기">▶</button>
+    <div class="tiles">${tiles}</div><div class="joined say" data-say="word_${esc(w)}" data-text="${esc(w)}">${wordFamHtml(w, f)}</div>
+    <div class="bpic say" data-say="word_${esc(w)}" data-text="${esc(w)}">${pic('word_' + w, '', w)}</div></div>`;
+}
+// 소리 파일이 있는지 (한 번 물어보고 기억) — blend_<word> 가 있으면 그걸 쓰고, 없으면 낱소리 + 단어
+const AUDIO_HAS = {};
+async function audioExists(id) {
+  if (id in AUDIO_HAS) return AUDIO_HAS[id];
+  try { const r = await fetch(ASSETS + 'audio/' + id + '.mp3', { method: 'HEAD' }); AUDIO_HAS[id] = r.ok; } catch (e) { AUDIO_HAS[id] = false; }
+  return AUDIO_HAS[id];
+}
+let blendToken = 0;
+async function blendPlay(row) {
+  if (!row) return; Sound.unlock(); stopSeq();
+  const my = ++blendToken, w = row.dataset.w, tiles = [...row.querySelectorAll('.tile')];
+  row.classList.remove('joined', 'done'); tiles.forEach((t) => t.classList.remove('hl'));
+  const hit = (k) => { tiles.forEach((t, j) => t.classList.toggle('hl', j === k)); if (k >= 0) Sound.sfx('tap'); };
+  if (await audioExists('blend_' + w)) {
+    // 합치기 음성 하나: 길이를 재서 타일 불을 그 길이에 맞춰 차례로, 마지막 1/4 에서 붙인다
+    const el = new Audio(ASSETS + 'audio/blend_' + w + '.mp3');
+    await new Promise((res) => { el.onloadedmetadata = res; el.onerror = res; setTimeout(res, 1500); });
+    const d = (el.duration && isFinite(el.duration) ? el.duration : 2.4) * 1000, n = tiles.length;
+    tiles.forEach((t, k) => setTimeout(() => { if (my === blendToken) hit(k); }, d * 0.75 * k / n));
+    setTimeout(() => { if (my === blendToken) { hit(-1); row.classList.add('joined'); } }, d * 0.72);
+    await Sound.play('blend_' + w, w.split('').join(' ') + ', ' + w);
+  } else {
+    const items = w.split('').map((ch, k) => ({ ...letterSound(ch), gap: 260, before: () => hit(k) }));
+    if (!(await playSeq(items))) return;
+    hit(-1); row.classList.add('joined'); Sound.sfx('pop'); await sleep(350);
+    await Sound.play('word_' + w, w);
+  }
+  if (my === blendToken) row.classList.add('done');
+}
+async function blendAll() { for (const row of document.querySelectorAll('.blend-row')) { const t = blendToken; await blendPlay(row); if (blendToken !== t + 1) return; await sleep(500); } }
+
+// 단어 가족: 두 가족 단어 전부(단어 카드) + 챈트(1.2초 박자) + 읽고 그림 잇기
+PAGES.family_words = (ctx) => {
+  const fs = unitFamilies(ctx.unit), all = unitWords(ctx.unit);
+  const rows = fs.map((f) => `<div class="fw-row ${famCls(f, ctx.unit)}">${famTag(f, ctx.unit)}${((ctx.unit.words && ctx.unit.words[f]) || famWords(f)).map((w) => `<span class="fw say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-w="${esc(w)}" onclick="fwPick(event,this)">${wordFamHtml(w, f)}</span>`).join('')}</div>`).join('');
+  const pics = shuffle(all, 3 + ctx.u).slice(0, 10).map((w) => `<div class="fw-pic" data-w="${esc(w)}" onclick="fwDrop(this)">${pic('word_' + w, '', w)}<div class="line"></div></div>`).join('');
+  return instr(1, App.book.instructions.read_match || 'Read and match.', '단어를 읽어요. ♪ 챈트는 박자에 맞춰 단어를 이어 읽어요') +
+    `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="famChant()">♪ ${esc(App.book.instructions.word_chant || 'Word chant')}</button></div>` +
+    `<div class="fw-rows">${rows}</div>` +
+    instr(2, 'Read and match.', '단어를 누른 뒤 맞는 그림을 눌러요 (종이에서는 그림 아래에 단어를 써요)') + `<div class="fw-pics">${pics}</div>`;
+};
+const FW = { sel: null };
+function fwPick(e, el) { if (!el.closest('.fw-rows')) return; document.querySelectorAll('.fw.sel').forEach((x) => x.classList.remove('sel')); el.classList.add('sel'); FW.sel = el.dataset.w; }
+function fwDrop(el) {
+  if (!FW.sel) return; Sound.unlock();
+  if (el.dataset.w === FW.sel) { el.classList.add('ok'); el.querySelector('.line').textContent = FW.sel; Sound.sfx('ok'); Sound.play('word_' + FW.sel, FW.sel); document.querySelector(`.fw[data-w="${FW.sel}"]`)?.classList.add('done'); FW.sel = null; document.querySelectorAll('.fw.sel').forEach((x) => x.classList.remove('sel')); }
+  else { el.classList.add('no'); Sound.sfx('no'); setTimeout(() => el.classList.remove('no'), 500); }
+}
+async function famChant() {
+  Sound.unlock(); const beat = (await chantTrack('chant_word')) || CHANT_BEAT, items = [];
+  for (const row of document.querySelectorAll('.fw-row')) {
+    const f = row.querySelector('.fam'); items.push({ id: 'sound_' + famVowel(f.textContent.replace('-', '')), text: f.textContent.replace('-', ''), el: f, beat });
+    for (const w of row.querySelectorAll('.fw')) items.push({ id: 'word_' + w.dataset.w, text: w.dataset.w, el: w, beat });
+  }
+  await playSeq(items); chantTrackOff();
+}
+
+// 문장: 그림 있는 문장 4개. 사이트워드는 노랑 밑줄, 단어는 누르면 소리, ▶ 는 문장 소리
+function sentenceHtml(sn, unit, k) {
+  const sws = unit.sight_words || [], ws = new Set(sn.words || []), all = unitWords(unit);
+  const toks = sn.text.split(/(\s+)/).map((t) => {
+    if (/^\s+$/.test(t)) return t;
+    const core = t.replace(/[^A-Za-z'-]/g, ''), lo = core.toLowerCase();
+    if (sws.includes(core) || sws.includes(lo)) return t.replace(core, `<span class="sw say" data-say="sw_${esc(lo)}" data-text="${esc(core)}">${esc(core)}</span>`);
+    if (ws.has(lo) || all.includes(lo)) return t.replace(core, `<span class="tw say" data-say="word_${esc(lo)}" data-text="${esc(core)}">${wordFamHtml(core, familyOf(lo))}</span>`);
+    return esc(t);
+  }).join('');
+  return `<div class="sent-row" data-k="${k}"><div class="spic">${pic(sn.pic || ('word_' + (sn.words || [''])[0]), '', '')}</div><div class="stext">${toks}</div>${spk(sn.audio, sn.text)}</div>`;
+}
+PAGES.sentences = (ctx) => {
+  const sns = ctx.unit.sentences || [];
+  return instr(1, App.book.instructions.read_sentence || 'Read the sentence.', '문장을 읽어요. 단어를 누르면 소리가 나요. 🔊 는 문장 전체') +
+    `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="sentencesAll()">▶ Read all</button>${(ctx.unit.sight_words || []).length ? `<span class="sw-list"><b>${esc(App.book.instructions.sight_words)}</b>${(ctx.unit.sight_words || []).map((w) => `<span class="say" data-say="sw_${esc(w)}" data-text="${esc(w)}">${esc(w)}</span>`).join('')}</span>` : ''}</div>` +
+    `<div class="sent-rows">${sns.map((sn, k) => sentenceHtml(sn, ctx.unit, k)).join('')}</div>`;
+};
+async function sentencesAll() {
+  Sound.unlock();
+  const sns = App.units[App.u].sentences || [];
+  await playSeq(sns.map((sn, k) => ({ id: sn.audio, text: sn.text, el: document.querySelector(`.sent-row[data-k="${k}"]`), gap: 700 })));
+}
+
+// 정리(2권): 읽고 동그라미(단어 → 그림 3) / 단어–그림 잇기 / 빠진 글자 쓰기
+function rcRow(it, i) { return `<span class="n">${i + 1}</span><div class="rc-word say" data-say="word_${esc(it.word)}" data-text="${esc(it.word)}">${wordFamHtml(it.word)}</div><div class="opts">${it.pictures.map((o) => `<div class="opt" onclick="checkPick(this,'${o}','${it.word}')">${pic('word_' + o, '', o)}</div>`).join('')}</div>`; }
+function matchHtml2(c, cls = '') {
+  const words = c.match.map((m) => m.word), pics = shuffle(words, 7);
+  return `<div class="match m2 ${cls}" id="match"><div class="col">${words.map((w) => `<div class="it wd" data-l="${w}" onclick="matchPick2(this)">${wordFamHtml(w)}</div>`).join('')}</div><div class="col">${pics.map((w) => `<div class="it" data-w="${w}" onclick="matchPick2(this)">${pic('word_' + w, '', w)}</div>`).join('')}</div></div>`;
+}
+function matchPick2(el) {
+  Sound.unlock();
+  if (el.dataset.l) { document.querySelectorAll('#match .it.sel').forEach((x) => x.classList.remove('sel')); el.classList.add('sel'); M.l = el.dataset.l; Sound.play('word_' + M.l, M.l); return; }
+  if (!M.l) return;
+  if (el.dataset.w === M.l) { el.classList.add('done'); document.querySelector(`#match .it[data-l="${M.l}"]`)?.classList.add('done'); Sound.sfx('ok'); Sound.play('word_' + M.l, M.l); M.l = null; } else { el.classList.add('no'); Sound.sfx('no'); setTimeout(() => el.classList.remove('no'), 500); }
+}
+// 빠진 글자 상자: missing 번째 글자가 빈 칸. 화면에서는 누르면 글자가 들어가고 소리
+function missingBoxes(w, miss, cls = '') {
+  return `<div class="boxes ${cls}">${w.split('').map((ch, j) => j === miss ? `<span class="blank" onclick="this.textContent='${ch}';this.classList.add('ok');Sound.unlock();Sound.play('${letterSound(ch).id}','${esc(letterSound(ch).text)}')"></span>` : `<span>${esc(ch)}</span>`).join('')}</div>`;
+}
+function writeItems2(c) { return c.write.map((it) => `<div class="write-it w2">${pic('word_' + it.word, '', it.word)}${missingBoxes(it.word, it.missing ?? 1)}</div>`).join(''); }
+function checkBody2(ctx, c) {
+  return instr('A', App.book.instructions.read_circle || 'Read and circle.', '단어를 읽고 맞는 그림에 동그라미') + `<div class="check-sec rc">${c.read_circle.map((it, i) => `<div class="lc-row">${rcRow(it, i)}</div>`).join('')}</div>` +
+    instr('B', App.book.instructions.read_match || 'Read and match.', '단어를 누르고 맞는 그림을 눌러요') + matchHtml2(c) +
+    instr('C', 'Write the missing letter.', '빠진 글자를 써요') + `<div class="write-row w2 g4">${writeItems2(c)}</div>`;
+}
+
+// ---------- 2권 워크북 ----------
+PAGES.wb_blend = (ctx) => {
+  const items = (ctx.unit.workbook_data?.blend || unitWords(ctx.unit).slice(0, 8).map((w, i) => ({ word: w, missing: i % 3 })));
+  return instr('A', 'Write the missing letter.', '그림을 보고 빠진 글자를 써요 (화면에서는 빈 칸을 누르면 글자가 나와요)') +
+    `<div class="write-row w2 g4">${items.map((it) => `<div class="write-it w2">${pic('word_' + it.word, '', it.word)}${missingBoxes(it.word, it.missing ?? 1)}</div>`).join('')}</div>`;
+};
+PAGES.wb_family = (ctx) => {
+  const fam = ctx.unit.workbook_data?.family || Object.fromEntries(unitFamilies(ctx.unit).map((f) => [f, ((ctx.unit.words && ctx.unit.words[f]) || famWords(f)).slice(0, 4)]));
+  const pool = shuffle(Object.values(fam).flat(), 5 + ctx.u);
+  const sortHtml = `<div class="sort rv fam-sort"><div class="pool" id="sortPool" style="grid-column:1/-1">${pool.map((w) => `<span class="wd" onclick="sortPick(this)" data-w="${esc(w)}">${esc(w)}</span>`).join('')}</div>${Object.keys(fam).map((f) => `<div class="bin ${famCls(f, ctx.unit)}" data-l="${f}" onclick="sortDrop(this)"><h4>${famHtml(f)}</h4><div class="in"></div></div>`).join('')}</div>`;
+  const pairs = shuffle(unitWords(ctx.unit), 9 + ctx.u).slice(0, 4), right = shuffle(pairs, 2 + ctx.u);
+  const match = `<div class="match m2" id="match"><div class="col">${pairs.map((w) => `<div class="it wd" data-l="${w}" onclick="matchPick2(this)">${wordFamHtml(w)}</div>`).join('')}</div><div class="col">${right.map((w) => `<div class="it" data-w="${w}" onclick="matchPick2(this)">${pic('word_' + w, '', w)}</div>`).join('')}</div></div>`;
+  return instr('B', 'Sort the words.', '단어를 눌러 가족 상자에 넣어요') + sortHtml + instr('C', 'Read and match.', '단어를 읽고 맞는 그림과 이어요') + match;
+};
+PAGES.wb_sentences = (ctx) => {
+  const items = ctx.unit.workbook_data?.sentences || (ctx.unit.sentences || []).map((sn, i) => ({ text: sn.text, pictures: [sn.words[0], unitWords(ctx.unit)[(i + 5) % 10]], answer: 0 }));
+  const rows = items.map((it, i) => `<div class="wbs"><div class="wbs-top"><span class="n">${i + 1}</span><span class="stext">${esc(it.text)}</span>${it.audio ? spk(it.audio, it.text) : ''}<div class="opts">${it.pictures.map((o, j) => `<div class="opt" onclick="checkPick(this,'${j}','${it.answer ?? 0}')">${pic('word_' + o, '', o)}</div>`).join('')}</div></div><div class="trace-sent"><span>${esc(it.text)}</span></div></div>`).join('');
+  return instr('D', 'Read and circle. Then trace.', '문장을 읽고 맞는 그림에 동그라미, 문장을 따라 써요') + `<div class="wbs-rows">${rows}</div>`;
+};
+PAGES.wb_write = (ctx) => {
+  const ws = ctx.unit.workbook_data?.write || unitWords(ctx.unit).slice(0, 6);
+  return instr('F', 'Look and write.', '그림을 보고 단어를 따라 쓰고, 빈 줄에 써요') + `<div class="write-row w2 g3 wbw">${ws.map((w) => `<div class="write-it w2 say" data-say="word_${esc(w)}" data-text="${esc(w)}">${pic('word_' + w, '', w)}<div class="w4"><span class="gray">${esc(w)}</span></div><div class="w4"></div></div>`).join('')}</div>`;
+};
+
+// ---------- 2권 복습 ----------
+// 단어 복습: 복습 단어 카드 격자(그림 + 단어 + 가족), Listen to all
+PAGES.review_words = (ctx) => {
+  const ws = (ctx.unit.review.words || unitWords(ctx.unit)).slice(0, 20), cols = ws.length <= 12 ? 4 : 5;
+  return instr(1, App.book.instructions.listen_repeat, '그림을 누르면 단어가 나와요. 읽고 따라 말해요') +
+    `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="reviewWordsAll()">▶ Listen to all</button></div>` +
+    `<div class="rv-cards rw c${cols}" style="grid-template-columns:repeat(${cols},minmax(0,1fr))">${ws.map((w) => `<div class="rv-card say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-w="${esc(w)}"><div class="rv-pic">${pic('word_' + w, '', w)}</div><div class="rv-word">${wordFamHtml(w)}</div>${famTag(familyOf(w), ctx.unit, 'sm')}</div>`).join('')}</div>`;
+};
+async function reviewWordsAll() { Sound.unlock(); await playSeq([...document.querySelectorAll('.rv-card[data-w]')].map((c) => ({ id: 'word_' + c.dataset.w, text: c.dataset.w, el: c, gap: 350 }))); }
+PAGES.wb_review_blend = (ctx) => {
+  const rv = ctx.unit.review, items = rv.blend || (rv.words || []).slice(0, 8).map((w, i) => ({ word: w, missing: i % 3 }));
+  const sort = rv.sort || Object.fromEntries(unitFamilies(ctx.unit).slice(0, 4).map((f) => [f, famWords(f).slice(0, 2)]));
+  const pool = shuffle(Object.values(sort).flat(), 5 + ctx.u);
+  const sortHtml = `<div class="sort rv fam-sort"><div class="pool" id="sortPool" style="grid-column:1/-1">${pool.map((w) => `<span class="wd" onclick="sortPick(this)" data-w="${esc(w)}">${esc(w)}</span>`).join('')}</div>${Object.keys(sort).map((f) => `<div class="bin ${famCls(f, ctx.unit)}" data-l="${f}" onclick="sortDrop(this)"><h4>${famHtml(f)}</h4><div class="in"></div></div>`).join('')}</div>`;
+  return instr('A', 'Write the missing letter.', '빠진 글자를 써요') + `<div class="write-row w2 g4">${items.map((it) => `<div class="write-it w2">${pic('word_' + it.word, '', it.word)}${missingBoxes(it.word, it.missing ?? 1)}</div>`).join('')}</div>` +
+    instr('B', 'Sort the words.', '단어를 눌러 가족 상자에 넣어요') + sortHtml;
+};
+
+// ---------- 2권 12유닛 ----------
+PAGES.word_song = (ctx) => PAGES.alphabet_song(ctx);
+// 징검다리: 단어 가족 돌을 배운 순서대로 누른다 (show.bridge.families, 없으면 book.families 순서)
+function bridgeOrder() { const sh = App.units[App.u].show; return (sh && sh.bridge && sh.bridge.families) || Object.keys(App.book.families || {}); }
+PAGES.bridge_path = (ctx) => {
+  const fs = bridgeOrder(); pathNext = 0;
+  return instr(1, 'Cross the pond.', '배운 순서대로 징검다리(단어 가족)를 눌러 연못을 건너요') + `<div class="path path26 bridge" id="path">${shuffle(fs, 31 + ctx.u).map((f) => `<div class="lt" data-l="${f}" onclick="bridgePick(this)">${famHtml(f)}</div>`).join('')}</div>` +
+    `<div class="screen-hide" style="color:var(--soft);font-size:14px">${fs.map((f) => '-' + f).join(' → ')} 순서대로 선으로 이어요</div>`;
+};
+function bridgePick(el) { Sound.unlock(); const fs = bridgeOrder(); if (el.dataset.l === fs[pathNext]) { el.classList.add('done'); const w = famWords(el.dataset.l)[0]; Sound.play('word_' + w, w); pathNext++; if (pathNext === fs.length) { Sound.sfx('chime'); pathNext = 0; } } else Sound.sfx('no'); }
+
+// 모음 5개 소개 (2권 0유닛): 글자·소리·힌트·그 모음 가족의 단어 그림. "Listen to all"
+function vowelCards(unit) {
+  const vs = App.book.vowels || {};
+  return Object.entries(vs).map(([v, d]) => {
+    const fam = Object.keys(App.book.families || {}).find((f) => famVowel(f) === v), w = fam ? famWords(fam)[0] : '';
+    return `<div class="vw-card say" data-v="${v}" data-say="sound_${v}" data-text="${esc(d.sound)}"><div class="glyph vowel">${v.toUpperCase()}<small>${v}</small></div><div class="ipa">/${esc(d.sound)}/</div>${w ? `<div class="vw-pic">${pic('word_' + w, '', w)}</div><div class="vw-word">${wordFamHtml(w, fam)}</div>` : ''}<div class="hint">${esc(d.hint || '')}</div></div>`;
+  }).join('');
+}
+PAGES.vowels = (ctx) => instr(1, App.book.instructions.listen_repeat, '모음 5개의 소리를 듣고 따라 말해요. 단어 속 빨간 글자가 모음이에요') +
+  `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="vowelsAll()">▶ Listen to all</button></div><div class="vw-cards">${vowelCards(ctx.unit)}</div>`;
+async function vowelsAll() {
+  Sound.unlock(); const items = [];
+  for (const c of document.querySelectorAll('.vw-card')) { const v = c.dataset.v, w = c.querySelector('.vw-word')?.textContent; items.push({ id: 'sound_' + v, text: c.dataset.text, el: c, gap: 300 }); if (w) items.push({ id: 'word_' + w, text: w, el: c.querySelector('.vw-word'), gap: 450 }); }
+  await playSeq(items);
+}

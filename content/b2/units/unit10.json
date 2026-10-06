@@ -1,0 +1,582 @@
+{
+  "unit": 10,
+  "title": "Fun in the Sun",
+  "title_ko": "해님 아래 신나게",
+  "vowel": "u",
+  "families": [
+    "ug",
+    "un",
+    "up"
+  ],
+  "words": {
+    "ug": [
+      "bug",
+      "hug",
+      "mug",
+      "rug"
+    ],
+    "un": [
+      "sun",
+      "run",
+      "bun",
+      "fun"
+    ],
+    "up": [
+      "cup",
+      "pup",
+      "up"
+    ]
+  },
+  "sight_words": [
+    "you",
+    "look"
+  ],
+  "objectives_ko": [
+    "짧은 모음 u(ʌ) 소리를 알고 -ug·-un·-up 단어를 소리를 이어 읽는다",
+    "-ug·-un·-up 단어 11개를 읽고 그림과 잇고 쓴다",
+    "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
+    "사이트워드 you, look를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Blend and Read",
+      "title_ko": "합치기·단어",
+      "pages": [
+        {
+          "type": "blend",
+          "family": "ug",
+          "title": "-ug words"
+        },
+        {
+          "type": "blend",
+          "family": "un",
+          "title": "-un words"
+        },
+        {
+          "type": "blend",
+          "family": "up",
+          "title": "-up words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letter."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "A bug is on the rug.",
+      "audio": "b2_u10_s1",
+      "pic": "word_bug",
+      "words": [
+        "bug",
+        "rug"
+      ]
+    },
+    {
+      "text": "The pup can run.",
+      "audio": "b2_u10_s2",
+      "pic": "word_pup",
+      "words": [
+        "pup",
+        "run"
+      ]
+    },
+    {
+      "text": "Bun has a bun.",
+      "audio": "b2_u10_s3",
+      "pic": "word_bun",
+      "words": [
+        "bun"
+      ]
+    },
+    {
+      "text": "Look! A cup in the sun.",
+      "audio": "b2_u10_s4",
+      "pic": "word_cup",
+      "words": [
+        "cup",
+        "sun"
+      ]
+    }
+  ],
+  "story": {
+    "title": "Fun in the Sun",
+    "bgm": "b2_u10_story",
+    "panels": [
+      {
+        "id": "scene_b2_u10_1",
+        "desc": "A bright sunny picnic on the wide stepping stones close to the far bank: a round striped rug is spread on the biggest stone, and a small round green bug with black spots sits in the middle of it. Hedgie peers into his big brown mug and finds a second bug swimming in it, pulling a face; Bun points at the bug on the rug; Pip says the word backwards; Beads sunbathes on a lily pad. Hidden in the picture: the bug, the rug, the mug. Grumble does NOT appear.",
+        "hidden": [
+          "bug",
+          "rug",
+          "mug"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! A bug on the rug!",
+            "audio": "b2_u10_l1"
+          },
+          {
+            "who": "hedgie",
+            "text": "A bug in my mug!",
+            "audio": "b2_u10_l2"
+          },
+          {
+            "who": "pip",
+            "text": "Gub! Gub?",
+            "audio": "b2_u10_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u10_2",
+        "desc": "Beads threads b-u-g and a new stone pops up; a tiny fluffy white puppy races along the stepping stones with motion lines, chasing the bug; the smiling sun shines overhead; Bun sits on the rug happily biting into a round sesame bun; Hedgie laughs. Hidden in the picture: the bug, the pup, the sun, the bun in Bun's paws. Grumble does NOT appear.",
+        "hidden": [
+          "bug",
+          "pup",
+          "sun",
+          "bun"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/b/ /ʌ/ /g/ bug!",
+            "audio": "blend_bug",
+            "pop": "bug"
+          },
+          {
+            "who": "narrator",
+            "text": "Bun has a bun!",
+            "audio": "b2_u10_l4"
+          },
+          {
+            "who": "bun",
+            "text": "Run, pup, run! Fun!",
+            "audio": "b2_u10_l5"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u10_3",
+        "desc": "The very last gap of water before the far bank: a blue cup with white stars floats in it. Beads threads c-u-p and the last stepping stone rises under the cup, completing the bridge of stones all the way across the pond; Pip shoots straight up into the air above the bridge with its wings wide, glowing, a trail of sparkles below it; Bun and Hedgie stand on the last stone shouting up at Pip; the pup and the cat wait on the bank. Hidden in the picture: the cup, Pip going up with a big upward swirl of sparkles. Grumble does NOT appear.",
+        "hidden": [
+          "cup",
+          "up"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /ʌ/ /p/ cup!",
+            "audio": "blend_cup",
+            "pop": "cup"
+          },
+          {
+            "who": "both",
+            "text": "Look, Pip! You can go!",
+            "audio": "b2_u10_l6"
+          },
+          {
+            "who": "narrator",
+            "text": "Click-clack! The last stone!",
+            "audio": "b2_u10_l7"
+          }
+        ],
+        "video": "vid_b2_u10_1"
+      },
+      {
+        "id": "scene_b2_u10_4",
+        "desc": "Sunset on the far bank, the complete bridge of stepping stones stretching back across the pond behind the friends. A single big glowing golden music note has risen out of the pond water and floats into Pip, who stands on the last stone singing with its beak wide open and little golden notes streaming out. Grumble has crossed the whole bridge with his lantern shining like a small sun, and Bun has thrown her arms around him in a big hug while he blinks in surprise, nightcap crooked; Hedgie wears a pointy party hat; the pup runs in circles; Beads cheers. Hidden in the picture: the hug, the setting sun, the party hat, the running pup.",
+        "hidden": [
+          "hug",
+          "sun",
+          "fun",
+          "run"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Cat! Bug! Cup! Fun!",
+            "audio": "b2_u10_l8"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip can sing!",
+            "audio": "b2_u10_l9"
+          },
+          {
+            "who": "bun",
+            "text": "A hug for you, Grumble!",
+            "audio": "b2_u10_l10"
+          }
+        ],
+        "video": "vid_b2_u10_2"
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u10_1",
+      "from": "scene_b2_u10_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the floating cup bobs, three beads click together, the last stepping stone rises under the cup with a sparkle and the whole bridge of stones lights up one after another across the pond, the baby bird shoots up into the sky trailing sparkles. Camera still. Joyful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b2_u10_2",
+      "from": "scene_b2_u10_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: a glowing golden music note rises out of the water and floats into the baby bird, which opens its beak and sings with little golden notes streaming out; the rabbit hugs the surprised raccoon and his lantern glows like a small sun; the puppy runs in circles. Camera still. Warm, joyful, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "bug",
+        "pictures": [
+          "bug",
+          "mug",
+          "bag"
+        ]
+      },
+      {
+        "word": "sun",
+        "pictures": [
+          "sun",
+          "bun",
+          "run"
+        ]
+      },
+      {
+        "word": "cup",
+        "pictures": [
+          "cup",
+          "pup",
+          "cap"
+        ]
+      },
+      {
+        "word": "rug",
+        "pictures": [
+          "rug",
+          "bug",
+          "rag"
+        ]
+      },
+      {
+        "word": "pup",
+        "pictures": [
+          "pup",
+          "cup",
+          "pig"
+        ]
+      },
+      {
+        "word": "hug",
+        "pictures": [
+          "hug",
+          "mug",
+          "bug"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "mug"
+      },
+      {
+        "word": "run"
+      },
+      {
+        "word": "bun"
+      },
+      {
+        "word": "up"
+      }
+    ],
+    "write": [
+      {
+        "word": "bug",
+        "missing": 1
+      },
+      {
+        "word": "sun",
+        "missing": 0
+      },
+      {
+        "word": "cup",
+        "missing": 2
+      },
+      {
+        "word": "rug",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "bug",
+        "pictures": [
+          "bug",
+          "rug",
+          "mug"
+        ]
+      },
+      {
+        "word": "sun",
+        "pictures": [
+          "sun",
+          "bun",
+          "fun"
+        ]
+      },
+      {
+        "word": "cup",
+        "pictures": [
+          "cup",
+          "pup",
+          "cap"
+        ]
+      },
+      {
+        "word": "hug",
+        "pictures": [
+          "hug",
+          "mug",
+          "bug"
+        ]
+      },
+      {
+        "word": "run",
+        "pictures": [
+          "run",
+          "sun",
+          "bun"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "bug",
+        "missing": 0
+      },
+      {
+        "word": "hug",
+        "missing": 1
+      },
+      {
+        "word": "mug",
+        "missing": 2
+      },
+      {
+        "word": "rug",
+        "missing": 0
+      },
+      {
+        "word": "sun",
+        "missing": 1
+      },
+      {
+        "word": "run",
+        "missing": 2
+      },
+      {
+        "word": "cup",
+        "missing": 0
+      },
+      {
+        "word": "pup",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "ug": [
+        "bug",
+        "hug",
+        "mug",
+        "rug"
+      ],
+      "un": [
+        "sun",
+        "run",
+        "bun",
+        "fun"
+      ],
+      "up": [
+        "cup",
+        "pup",
+        "up"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "A bug is on the rug.",
+        "pictures": [
+          "bug",
+          "bun"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "The pup can run.",
+        "pictures": [
+          "cup",
+          "pup"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "Bun has a bun.",
+        "pictures": [
+          "bun",
+          "sun"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "I see a cup.",
+        "pictures": [
+          "mug",
+          "cup"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "bug",
+      "mug",
+      "rug",
+      "sun",
+      "run",
+      "cup"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u10_1",
+        "desc": "A sunny picnic on the wide stones near the far bank: a striped rug on the biggest stone with a small green spotted bug in the middle; Hedgie peers into his big mug and finds a second bug swimming in it, pulling a face; Bun points; Pip says the word backwards; Beads sunbathes on a lily pad. Hidden in the picture: the bug, the rug, the mug. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! A bug on the rug!",
+            "audio": "sb2_u10_1_1"
+          },
+          {
+            "who": "hedgie",
+            "text": "A bug in my mug!",
+            "audio": "sb2_u10_1_2"
+          },
+          {
+            "who": "pip",
+            "text": "Gub! Gub?",
+            "audio": "sb2_u10_1_3"
+          }
+        ],
+        "task": "Find the -ug words!",
+        "task_ko": "-ug 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u10_2",
+        "desc": "Beads threads b-u-g and a new stone pops up; a tiny fluffy white pup races along the stones chasing the bug; the smiling sun shines; Bun sits on the rug biting a round sesame bun; Hedgie wears a pointy party hat and laughs. Hidden in the picture: the bug, the pup, the sun, the bun, the party hat. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/b/ /ʌ/ /g/ bug!",
+            "audio": "sb2_u10_2_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Bun has a bun!",
+            "audio": "sb2_u10_2_2"
+          },
+          {
+            "who": "bun",
+            "text": "Run, pup, run! Fun!",
+            "audio": "sb2_u10_2_3"
+          }
+        ],
+        "task": "Find the -un words!",
+        "task_ko": "-un 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u10_3",
+        "desc": "The last gap of water: a blue star cup floats in it. Beads threads c-u-p and the last stepping stone rises under the cup, completing the bridge across the pond; Pip shoots straight up into the sunset sky, and a big glowing golden music note rises out of the water and floats into it — Pip sings with golden notes streaming out. Grumble has crossed the bridge with his lantern shining like a small sun and Bun hugs him while he blinks in surprise. Hidden in the picture: the cup, Pip going up, the hug, the sun.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /ʌ/ /p/ cup!",
+            "audio": "sb2_u10_3_1"
+          },
+          {
+            "who": "pip",
+            "text": "Cat! Bug! Cup! Fun!",
+            "audio": "sb2_u10_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip can sing! A party!",
+            "audio": "sb2_u10_3_3"
+          }
+        ],
+        "task": "Find the -up words!",
+        "task_ko": "-up 단어를 찾아요"
+      }
+    ]
+  }
+}

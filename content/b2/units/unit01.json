@@ -1,0 +1,571 @@
+{
+  "unit": 1,
+  "title": "The Cat on the Mat",
+  "title_ko": "매트 위의 고양이",
+  "vowel": "a",
+  "families": [
+    "at",
+    "an"
+  ],
+  "words": {
+    "at": [
+      "cat",
+      "hat",
+      "bat",
+      "mat",
+      "rat"
+    ],
+    "an": [
+      "can",
+      "fan",
+      "pan",
+      "van"
+    ]
+  },
+  "sight_words": [
+    "the",
+    "on"
+  ],
+  "objectives_ko": [
+    "짧은 모음 a(æ) 소리를 알고 -at·-an 단어를 소리를 이어 읽는다",
+    "-at·-an 단어 9개를 읽고 그림과 잇고 쓴다",
+    "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
+    "사이트워드 the, on를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Blend and Read",
+      "title_ko": "합치기·단어",
+      "pages": [
+        {
+          "type": "blend",
+          "family": "at",
+          "title": "-at words"
+        },
+        {
+          "type": "blend",
+          "family": "an",
+          "title": "-an words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letter."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The cat is on the mat.",
+      "audio": "b2_u01_s1",
+      "pic": "word_cat",
+      "words": [
+        "cat",
+        "mat"
+      ]
+    },
+    {
+      "text": "A rat is in the van.",
+      "audio": "b2_u01_s2",
+      "pic": "word_rat",
+      "words": [
+        "rat",
+        "van"
+      ]
+    },
+    {
+      "text": "A hat and a bat!",
+      "audio": "b2_u01_s3",
+      "pic": "word_hat",
+      "words": [
+        "hat",
+        "bat"
+      ]
+    },
+    {
+      "text": "The can is in the pan.",
+      "audio": "b2_u01_s4",
+      "pic": "word_pan",
+      "words": [
+        "can",
+        "pan"
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Cat on the Mat",
+    "bgm": "b2_u1_story",
+    "panels": [
+      {
+        "id": "scene_b2_u01_1",
+        "desc": "The sandy bank of the Word Pond. An orange tabby cat sits on a round green doormat at the water's edge, looking across the pond. Three big round wooden beads lie far apart on the sand, each with one letter painted on it: c, a and t — these three letters are the ONLY text allowed in the picture. Pip has hopped onto the beads in the wrong order, t-a-c, and stands on the last one looking puzzled. Beads the bead caterpillar watches from a lily pad; Bun points at the cat; Hedgie scratches his head. Hidden in the picture: the cat, the mat, a small grey rat wearing a tiny red woolly hat peeking out of the grass. Grumble does NOT appear.",
+        "hidden": [
+          "cat",
+          "mat",
+          "hat",
+          "rat"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The cat is on the mat.",
+            "audio": "b2_u01_l1"
+          },
+          {
+            "who": "pip",
+            "text": "Tac! Tac?",
+            "audio": "b2_u01_l2"
+          },
+          {
+            "who": "beads",
+            "text": "/k/ /æ/ /t/ cat!",
+            "audio": "blend_cat",
+            "pop": "cat"
+          }
+        ],
+        "video": "vid_b2_u01_1"
+      },
+      {
+        "id": "scene_b2_u01_2",
+        "desc": "Beads has threaded the three beads onto its string in the right order, and with a click-clack they have sunk into the shallow water and become one flat round stepping stone just under the surface. The cat hops onto the stone proudly; Bun and Hedgie cheer with arms up; Pip flutters above with a surprised face. Hidden in the picture: the rat in its red hat sitting on the mat, a brown wooden baseball bat lying on the sand. Grumble does NOT appear.",
+        "hidden": [
+          "rat",
+          "hat",
+          "bat",
+          "mat"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Click-clack! A stone!",
+            "audio": "b2_u01_l3"
+          },
+          {
+            "who": "hedgie",
+            "text": "The cat can go!",
+            "audio": "b2_u01_l4"
+          },
+          {
+            "who": "bun",
+            "text": "A rat in a hat!",
+            "audio": "b2_u01_l5"
+          }
+        ],
+        "video": "vid_b2_u01_2"
+      },
+      {
+        "id": "scene_b2_u01_3",
+        "desc": "Further along the bank a small blue delivery van is parked with a light-blue electric fan strapped on its roof; a black frying pan hangs from its mirror and a shiny tin can rolls along the sand. Beads holds up a new string of beads; Hedgie points at the can and the pan; Pip hops beside the can. In the tall reeds behind the van, the top of Grumble's striped nightcap sticks up with the glow of his lantern. Hidden in the picture: the can, the pan, the van, the fan.",
+        "hidden": [
+          "can",
+          "pan",
+          "van",
+          "fan"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A can and a pan!",
+            "audio": "b2_u01_l6"
+          },
+          {
+            "who": "beads",
+            "text": "/k/ /æ/ /n/ can!",
+            "audio": "blend_can",
+            "pop": "can"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh!",
+            "audio": "b2_u01_l7"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u01_4",
+        "desc": "Two short rows of round stepping stones now lead a little way out into the pond from the bank. Bun and Hedgie stand on the first stones holding paws; Pip rides on Bun's head; Beads rides on Hedgie's flower; the cat sits on the far stone with the rat. In the reeds at the right, Grumble's frowning face with his dark eye mask peeks out, lantern glowing softly, one paw at his mouth. Hidden in the picture: the fan on the van roof, the green mat on the bank, the baseball bat.",
+        "hidden": [
+          "fan",
+          "mat",
+          "bat"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "We can go on!",
+            "audio": "b2_u01_l8"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! My pond!",
+            "audio": "b2_u01_l9"
+          },
+          {
+            "who": "pip",
+            "text": "Tac!",
+            "audio": "b2_u01_l10"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u01_1",
+      "from": "scene_b2_u01_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the baby bird hops from bead to bead in the wrong order and tilts its head, puzzled; the cat on the mat flicks its tail; the bead caterpillar on the lily pad shakes its head with a smile; water ripples. Camera still. Playful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b2_u01_2",
+      "from": "scene_b2_u01_2",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: three wooden beads slide together on a string with a soft click, sink into the water and rise again as one round stepping stone with a sparkle; the cat hops onto it; the rabbit and the hedgehog cheer. Camera still. Child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "cat",
+        "pictures": [
+          "cat",
+          "hat",
+          "can"
+        ]
+      },
+      {
+        "word": "mat",
+        "pictures": [
+          "mat",
+          "bat",
+          "rat"
+        ]
+      },
+      {
+        "word": "fan",
+        "pictures": [
+          "fan",
+          "can",
+          "pan"
+        ]
+      },
+      {
+        "word": "van",
+        "pictures": [
+          "van",
+          "fan",
+          "bat"
+        ]
+      },
+      {
+        "word": "rat",
+        "pictures": [
+          "rat",
+          "cat",
+          "mat"
+        ]
+      },
+      {
+        "word": "hat",
+        "pictures": [
+          "hat",
+          "cat",
+          "pan"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "bat"
+      },
+      {
+        "word": "can"
+      },
+      {
+        "word": "pan"
+      },
+      {
+        "word": "mat"
+      }
+    ],
+    "write": [
+      {
+        "word": "hat",
+        "missing": 1
+      },
+      {
+        "word": "can",
+        "missing": 0
+      },
+      {
+        "word": "rat",
+        "missing": 2
+      },
+      {
+        "word": "pan",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "cat",
+        "pictures": [
+          "cat",
+          "can",
+          "hat"
+        ]
+      },
+      {
+        "word": "pan",
+        "pictures": [
+          "pan",
+          "fan",
+          "van"
+        ]
+      },
+      {
+        "word": "bat",
+        "pictures": [
+          "bat",
+          "hat",
+          "mat"
+        ]
+      },
+      {
+        "word": "van",
+        "pictures": [
+          "van",
+          "can",
+          "fan"
+        ]
+      },
+      {
+        "word": "rat",
+        "pictures": [
+          "rat",
+          "mat",
+          "cat"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "cat",
+        "missing": 0
+      },
+      {
+        "word": "hat",
+        "missing": 1
+      },
+      {
+        "word": "bat",
+        "missing": 2
+      },
+      {
+        "word": "mat",
+        "missing": 1
+      },
+      {
+        "word": "rat",
+        "missing": 0
+      },
+      {
+        "word": "can",
+        "missing": 2
+      },
+      {
+        "word": "fan",
+        "missing": 1
+      },
+      {
+        "word": "pan",
+        "missing": 0
+      }
+    ],
+    "family": {
+      "at": [
+        "cat",
+        "hat",
+        "bat",
+        "mat",
+        "rat"
+      ],
+      "an": [
+        "can",
+        "fan",
+        "pan",
+        "van"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The cat is on the mat.",
+        "pictures": [
+          "cat",
+          "rat"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "A rat is in the van.",
+        "pictures": [
+          "bat",
+          "rat"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "I see a fan.",
+        "pictures": [
+          "fan",
+          "pan"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "The hat is on the cat.",
+        "pictures": [
+          "can",
+          "hat"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "cat",
+      "hat",
+      "mat",
+      "can",
+      "fan",
+      "van"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u01_1",
+        "desc": "The sandy bank. An orange cat sits on a round green mat at the water's edge. Three big wooden beads lie apart on the sand with one letter on each — c, a, t — the ONLY text allowed in the picture. Pip has hopped onto them in the wrong order, t-a-c, and looks puzzled; Beads shakes its head with a smile from a lily pad; Bun points at the cat; Hedgie scratches his head. Hidden in the picture: the cat, the mat, a small grey rat in a tiny red hat in the grass. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The cat is on the mat.",
+            "audio": "sb2_u01_1_1"
+          },
+          {
+            "who": "pip",
+            "text": "Tac! Tac?",
+            "audio": "sb2_u01_1_2"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! No, Pip. No!",
+            "audio": "sb2_u01_1_3"
+          }
+        ],
+        "task": "Find the -at words!",
+        "task_ko": "-at 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u01_2",
+        "desc": "Beads has threaded c-a-t onto its string and the beads have sunk and risen as one round stepping stone just under the water; the cat hops onto it proudly; Bun and Hedgie cheer; Pip flutters above, amazed. Hidden in the picture: the rat in its red hat on the mat, a wooden baseball bat on the sand. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /æ/ /t/ cat!",
+            "audio": "sb2_u01_2_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Click-clack! A stone!",
+            "audio": "sb2_u01_2_2"
+          },
+          {
+            "who": "bun",
+            "text": "A rat in a hat!",
+            "audio": "sb2_u01_2_3"
+          }
+        ],
+        "task": "Find the -at words!",
+        "task_ko": "-at 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u01_3",
+        "desc": "A blue van with a light-blue fan on its roof is parked on the bank; a frying pan hangs from its mirror and a tin can rolls on the sand. Two short rows of stepping stones now lead into the pond; Bun and Hedgie stand on the first stones; Pip on Bun's head; the cat and the rat on the far stone. In the reeds, Grumble's frowning masked face peeks out with his lantern glowing softly, one paw at his mouth. Hidden in the picture: the can, the pan, the van, the fan.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A can and a pan!",
+            "audio": "sb2_u01_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! My pond!",
+            "audio": "sb2_u01_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Splash! Oh no! Look!",
+            "audio": "sb2_u01_3_3"
+          }
+        ],
+        "task": "Find the -an words!",
+        "task_ko": "-an 단어를 찾아요"
+      }
+    ]
+  }
+}

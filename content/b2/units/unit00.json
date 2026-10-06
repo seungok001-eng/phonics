@@ -1,0 +1,144 @@
+{
+  "unit": 0,
+  "title": "The Word Pond",
+  "title_ko": "단어 연못",
+  "vowel": null,
+  "families": [],
+  "words": {},
+  "sight_words": [],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Welcome to the Word Pond",
+      "title_ko": "단어 연못에 온 것을 환영해요",
+      "pages": [
+        {
+          "type": "characters",
+          "title": "Meet the friends!"
+        },
+        {
+          "type": "intro_story",
+          "title": "The Word Pond"
+        },
+        {
+          "type": "vowels",
+          "title": "Five short vowels"
+        },
+        {
+          "type": "alphabet",
+          "title": "The Alphabet Song"
+        }
+      ],
+      "workbook": []
+    }
+  ],
+  "story": {
+    "title": "The Word Pond",
+    "bgm": "b2_u0_intro",
+    "panels": [
+      {
+        "id": "scene_b2_u00_1",
+        "desc": "Bun, Hedgie and Pip step through a gap in the wooden fence of the Sound Garden (blossoming letter trees behind them) onto the sandy bank of a wide blue pond with lily pads and tall reeds; across the water stands a dark pine forest. The glowing golden seed with its tiny leaf from the end of Book 1 floats down and lands on the sand, where big round wooden beads lie scattered. Pip, who can chirp now, has its beak open with one tiny golden note. Bun points across the water; Hedgie looks worried. Grumble does NOT appear.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is the Word Pond.",
+            "audio": "b2_u00_l1"
+          },
+          {
+            "who": "bun",
+            "text": "Look! No stones!",
+            "audio": "b2_u00_l2"
+          },
+          {
+            "who": "hedgie",
+            "text": "How can we go in?",
+            "audio": "b2_u00_l3"
+          }
+        ],
+        "video": "vid_b2_u00_1"
+      },
+      {
+        "id": "scene_b2_u00_2",
+        "desc": "Beads, a small friendly caterpillar whose body is a string of five rainbow beads, pops up from a lily pad at the pond edge holding a string with three loose wooden beads and clicks two of them together. Pip hops right up to Beads, delighted; Bun and Hedgie lean in with big eyes. On the left, among the tall reeds, the tip of Grumble's striped nightcap and the warm glow of his lantern peek out.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is Beads.",
+            "audio": "b2_u00_l4"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Hi, Pip!",
+            "audio": "b2_u00_l5"
+          },
+          {
+            "who": "narrator",
+            "text": "Shh... Who is in the reeds?",
+            "audio": "b2_u00_l6"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u00_1",
+      "from": "scene_b2_u00_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the golden seed drifts down and lands softly on the sand with a sparkle, the pond water ripples, the reeds sway, the baby bird chirps one tiny glowing note; the rabbit and the hedgehog look across the water. Camera still. Calm, curious, child-friendly. No text."
+    }
+  ],
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u00_1",
+        "desc": "Bun, Hedgie and Pip step through a gap in the wooden fence of the Sound Garden (blossoming letter trees behind them) onto the sandy bank of a wide blue pond with lily pads and tall reeds; a dark pine forest stands across the water. The glowing golden seed with its tiny leaf floats down onto the sand, where big round wooden beads lie scattered. Pip has its beak open with one tiny golden note. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is the Word Pond.",
+            "audio": "sb2_u00_1_1"
+          },
+          {
+            "who": "bun",
+            "text": "Look! No stones!",
+            "audio": "sb2_u00_1_2"
+          },
+          {
+            "who": "hedgie",
+            "text": "How can we go in?",
+            "audio": "sb2_u00_1_3"
+          }
+        ],
+        "task": "Find the seed!",
+        "task_ko": "씨앗을 찾아요"
+      },
+      {
+        "id": "sb2_u00_2",
+        "desc": "Beads, a small caterpillar made of five rainbow beads, pops up from a lily pad holding a string with three loose wooden beads and clicks two together; Pip hops up to Beads, delighted; Bun and Hedgie lean in. Among the reeds on the left, the tip of Grumble's striped nightcap and the warm glow of his lantern peek out.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is Beads.",
+            "audio": "sb2_u00_2_1"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Hi, Pip!",
+            "audio": "sb2_u00_2_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Shh... Who is in the reeds?",
+            "audio": "sb2_u00_2_3"
+          }
+        ],
+        "task": "Find Beads!",
+        "task_ko": "비즈를 찾아요"
+      }
+    ]
+  }
+}

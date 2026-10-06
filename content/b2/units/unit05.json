@@ -1,0 +1,543 @@
+{
+  "unit": 5,
+  "title": "Pip's First Word",
+  "title_ko": "핍의 첫 단어",
+  "vowel": null,
+  "families": [],
+  "words": {},
+  "sight_words": [],
+  "review": {
+    "vowels": [
+      "a",
+      "e"
+    ],
+    "families": [
+      "at",
+      "an",
+      "ap",
+      "ag",
+      "et",
+      "en",
+      "ed",
+      "eg"
+    ],
+    "words": [
+      "cat",
+      "hat",
+      "bat",
+      "mat",
+      "rat",
+      "can",
+      "fan",
+      "pan",
+      "van",
+      "cap",
+      "map",
+      "nap",
+      "tap",
+      "bag",
+      "tag",
+      "rag",
+      "wag",
+      "net",
+      "pet",
+      "wet",
+      "jet",
+      "vet",
+      "hen",
+      "pen",
+      "ten",
+      "den",
+      "bed",
+      "red",
+      "fed",
+      "leg",
+      "peg",
+      "beg"
+    ],
+    "board": {
+      "squares": [
+        {
+          "word": "cat"
+        },
+        {
+          "family": "an"
+        },
+        {
+          "word": "map"
+        },
+        {
+          "special": "pop"
+        },
+        {
+          "word": "bag"
+        },
+        {
+          "family": "et"
+        },
+        {
+          "word": "hen"
+        },
+        {
+          "special": "back"
+        },
+        {
+          "word": "bed"
+        },
+        {
+          "family": "eg"
+        },
+        {
+          "word": "van"
+        },
+        {
+          "special": "again"
+        },
+        {
+          "word": "tap"
+        },
+        {
+          "family": "at"
+        },
+        {
+          "word": "jet"
+        },
+        {
+          "special": "pop"
+        },
+        {
+          "word": "pen"
+        },
+        {
+          "family": "ed"
+        },
+        {
+          "word": "rag"
+        },
+        {
+          "word": "leg"
+        }
+      ]
+    },
+    "bingo": {
+      "words": [
+        "cat",
+        "hat",
+        "can",
+        "fan",
+        "cap",
+        "map",
+        "bag",
+        "tag",
+        "net",
+        "jet",
+        "hen",
+        "ten",
+        "bed",
+        "red",
+        "leg",
+        "peg"
+      ]
+    },
+    "test": {
+      "read_circle": [
+        {
+          "word": "mat",
+          "pictures": [
+            "mat",
+            "map",
+            "hat"
+          ]
+        },
+        {
+          "word": "pan",
+          "pictures": [
+            "pan",
+            "pen",
+            "fan"
+          ]
+        },
+        {
+          "word": "wet",
+          "pictures": [
+            "wet",
+            "net",
+            "wag"
+          ]
+        },
+        {
+          "word": "den",
+          "pictures": [
+            "den",
+            "hen",
+            "pen"
+          ]
+        },
+        {
+          "word": "bat",
+          "pictures": [
+            "bat",
+            "bag",
+            "bed"
+          ]
+        },
+        {
+          "word": "peg",
+          "pictures": [
+            "peg",
+            "pen",
+            "leg"
+          ]
+        }
+      ],
+      "match": [
+        {
+          "word": "rat"
+        },
+        {
+          "word": "nap"
+        },
+        {
+          "word": "pet"
+        },
+        {
+          "word": "fed"
+        }
+      ],
+      "write": [
+        {
+          "word": "cat",
+          "missing": 1
+        },
+        {
+          "word": "bag",
+          "missing": 2
+        },
+        {
+          "word": "net",
+          "missing": 0
+        },
+        {
+          "word": "red",
+          "missing": 1
+        }
+      ]
+    },
+    "blend": [
+      {
+        "word": "hat",
+        "missing": 0
+      },
+      {
+        "word": "van",
+        "missing": 1
+      },
+      {
+        "word": "cap",
+        "missing": 2
+      },
+      {
+        "word": "rag",
+        "missing": 0
+      },
+      {
+        "word": "ten",
+        "missing": 1
+      },
+      {
+        "word": "jet",
+        "missing": 2
+      },
+      {
+        "word": "bed",
+        "missing": 0
+      },
+      {
+        "word": "peg",
+        "missing": 1
+      }
+    ],
+    "sort": {
+      "at": [
+        "cat",
+        "hat",
+        "mat"
+      ],
+      "ag": [
+        "bag",
+        "tag",
+        "rag"
+      ],
+      "en": [
+        "hen",
+        "pen",
+        "ten"
+      ],
+      "ed": [
+        "bed",
+        "red",
+        "fed"
+      ]
+    }
+  },
+  "objectives_ko": [
+    "짧은 모음 a·e 단어 가족 8개(-at -an -ap -ag -et -en -ed -eg)의 단어를 소리를 이어 읽는다",
+    "단어 32개를 읽고 그림을 고르고, 빠진 글자를 쓴다",
+    "사이트워드 the, on, is, in, has, and, big, little을 보고 읽는다",
+    "게임판·빙고로 복습하고 유닛 평가를 본다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Review Games",
+      "title_ko": "복습 놀이",
+      "pages": [
+        {
+          "type": "review_words",
+          "title": "Words a and e"
+        },
+        {
+          "type": "review_board",
+          "title": "Game board"
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_blend",
+          "title": "A. Blend and write a and e."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Story and Test",
+      "title_ko": "스토리·평가",
+      "pages": [
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "review_test",
+          "title": "Unit Test"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_words",
+          "title": "B. Read and sort a and e."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "Pip's First Word",
+    "bgm": "b2_u5_story",
+    "panels": [
+      {
+        "id": "scene_b2_u05_1",
+        "desc": "A bright morning at the Word Pond. Eight rows of round stepping stones now reach to the middle of the pond, each stone faintly marked with a small picture of its word (a cat, a hat, a can, a fan...). Bun walks ahead counting the stones on her paw; Hedgie follows with his red backpack; Beads rides on Hedgie's flower; the orange cat, the brown hen and the puppy follow in a line. Pip hops from stone to stone. Hidden in the picture: the cat, the cat's red hat on a stone, a tin can, the fan. Grumble does NOT appear.",
+        "hidden": [
+          "cat",
+          "hat",
+          "can",
+          "fan"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The cat and the hen!",
+            "audio": "b2_u05_l1"
+          },
+          {
+            "who": "narrator",
+            "text": "Cat, hat, bat, mat, rat!",
+            "audio": "b2_u05_l2"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Can, fan, pan, van!",
+            "audio": "b2_u05_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u05_2",
+        "desc": "Pip stands alone on the cat stone in the middle of the pond with its eyes squeezed shut and feathers trembling, beak open, trying with all its might; Beads sits in front of Pip on the water holding up three beads one at a time; Bun and Hedgie hold their breath on the next stone with paws over their mouths; the cat watches hopefully from the bank. Hidden in the picture: Bun's blue cap, Hedgie's red bag, the map, the butterfly net. Grumble does NOT appear.",
+        "hidden": [
+          "cap",
+          "bag",
+          "map",
+          "net"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Tac... tac...",
+            "audio": "b2_u05_l4"
+          },
+          {
+            "who": "beads",
+            "text": "/k/... /æ/... /t/...",
+            "audio": "b2_u05_l5"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Pip tries.",
+            "audio": "b2_u05_l6"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u05_3",
+        "desc": "Pip has said its first word: it stands tall on the cat stone with its beak wide open, glowing bright gold with sparkles bursting all around; the orange cat leaps high into the air with joy; Bun and Hedgie jump and cheer with arms up; Beads clicks all its beads together in a happy arc. Water drops sparkle. Hidden in the picture: the hen on a stone, a blue pen in the hen's beak, Grumble's little red bed on the bank. Grumble does NOT appear.",
+        "hidden": [
+          "hen",
+          "pen",
+          "bed"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Cat! Cat! CAT!",
+            "audio": "b2_u05_l7"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip can read! Cat!",
+            "audio": "b2_u05_l8"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Cat!",
+            "audio": "b2_u05_l9"
+          }
+        ],
+        "video": "vid_b2_u05_1"
+      },
+      {
+        "id": "scene_b2_u05_4",
+        "desc": "Dusk, the sky deep blue. The friends walk back along the stepping stones, which are lit from the side by a warm light: Grumble stands at the edge of the reeds holding his lantern up high, and its glow stretches across the water onto the stones; his face is calm and he whispers with a tiny smile. Bun waves at him; Hedgie carries the sleepy cat; Pip glows softly on Hedgie's head. Hidden in the picture: Grumble's bandaged leg, the peg on the washing line, the red blanket on the little bed.",
+        "hidden": [
+          "leg",
+          "peg",
+          "red"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The lantern is on.",
+            "audio": "b2_u05_l10"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Cat.",
+            "audio": "b2_u05_l11"
+          },
+          {
+            "who": "bun",
+            "text": "Thank you, Grumble!",
+            "audio": "b2_u05_l12"
+          }
+        ],
+        "video": "vid_b2_u05_2"
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u05_1",
+      "from": "scene_b2_u05_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the baby bird opens its beak and bursts into golden light with sparkles spreading over the water, the cat leaps up with joy, the rabbit and the hedgehog jump and cheer, the bead caterpillar's beads click together in a happy arc. Camera still. Joyful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b2_u05_2",
+      "from": "scene_b2_u05_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the raccoon at the reeds slowly raises his lantern and its warm glow spreads across the dark water, lighting the stepping stones one after another; the friends walk along them, the rabbit waves. Camera still. Calm, warm, child-friendly. No text."
+    }
+  ],
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u05_1",
+        "desc": "A bright morning. Eight rows of round stepping stones reach the middle of the pond, each stone faintly marked with a little picture of its word. Bun counts the stones on her paw; Hedgie follows with his red backpack and Beads on his flower; the cat, the hen and the puppy follow in a line; Pip hops from stone to stone. Hidden in the picture: the cat, the red hat on a stone, a tin can, the fan, Bun's cap, the map. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Cat, hat, bat, mat, rat!",
+            "audio": "sb2_u05_1_1"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Can, fan, pan, van!",
+            "audio": "sb2_u05_1_2"
+          },
+          {
+            "who": "hedgie",
+            "text": "The cat and the hen!",
+            "audio": "sb2_u05_1_3"
+          }
+        ],
+        "task": "Find the a words!",
+        "task_ko": "a 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u05_2",
+        "desc": "Pip stands alone on the cat stone in the middle of the pond with eyes squeezed shut and feathers trembling, beak open, trying with all its might; Beads holds up three beads one at a time; Bun and Hedgie hold their breath with paws over their mouths; the cat watches from the bank. Hidden in the picture: the net, the hen, a pen, the little red bed on the bank, a peg on the line. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Tac... tac...",
+            "audio": "sb2_u05_2_1"
+          },
+          {
+            "who": "beads",
+            "text": "/k/... /æ/... /t/...",
+            "audio": "sb2_u05_2_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Pip tries.",
+            "audio": "sb2_u05_2_3"
+          }
+        ],
+        "task": "Find the e words!",
+        "task_ko": "e 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u05_3",
+        "desc": "Pip has said its first word: it stands tall on the cat stone, beak wide open, glowing bright gold with sparkles bursting over the water; the cat leaps with joy; Bun and Hedgie jump and cheer; Beads clicks all its beads in a happy arc. At the edge of the reeds, Grumble raises his lantern and its warm glow stretches across the water to the stones; he whispers the word too, with a tiny smile.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Cat! Cat! CAT!",
+            "audio": "sb2_u05_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Cat.",
+            "audio": "sb2_u05_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Oink! Oink! Big, big, big!",
+            "audio": "sb2_u05_3_3"
+          }
+        ],
+        "task": "Find Grumble's lantern!",
+        "task_ko": "그럼블의 등불을 찾아요"
+      }
+    ]
+  }
+}

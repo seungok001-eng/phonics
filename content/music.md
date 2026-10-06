@@ -81,3 +81,43 @@ A to Z, we can sing!
 Pip can sing! La la la!
 La la la! Pip's song!
 ```
+
+## 7. 2권 "단어 연못" 배경음악 (가사 없음, 각 약 1분 30초, 반복 가능)
+공통 지시는 3절과 같다. 파일 이름은 `b2_` 접두(1권과 같은 폴더를 쓴다).
+| 파일 | 유닛 | 분위기 지시 |
+|---|---|---|
+| `b2_u0_intro.mp3` | 0 단어 연못 | `arriving at a wide pond, water ripples, kalimba and soft flute, curious` |
+| `b2_u1_story.mp3` | 1 매트 위의 고양이 | `sunny pond bank, ukulele, light wood blocks like clicking beads, playful` |
+| `b2_u2_story.mp3` | 2 모자와 가방 | `windy and splashy, marimba, quick runs, comic` |
+| `b2_u3_story.mp3` | 3 그물 속 암탉 열 마리 | `clucking hens feeling, bouncy clarinet and banjo, silly` |
+| `b2_u4_story.mp3` | 4 그럼블의 침대 | `tender lullaby by lantern light, music box and soft strings, warm` |
+| `b2_u5_story.mp3` | 5 핍의 첫 단어 | `hopeful build-up to a small triumph, piano and glockenspiel, then bright` |
+| `b2_u6_story.mp3` | 6 돼지와 핀 | `big clumsy pig, tuba and bassoon, bouncy and funny` |
+| `b2_u7_story.mp3` | 7 지퍼를 올려! | `chilly wind then cozy picnic, pizzicato strings, light and quick` |
+| `b2_u8_story.mp3` | 8 연못 안개 | `foggy and mysterious but friendly, soft pad and harp, a warm light appears` |
+| `b2_u9_story.mp3` | 9 여우와 상자 | `sneaky fox chase, pizzicato and woodblock, playful suspense, happy end` |
+| `b2_u10_story.mp3` | 10 해님 아래 신나게 | `sunny celebration, strings swell, bells, a bridge completed, joyful` |
+| `b2_u11_story.mp3` | 11 연못 파티 | `pond party, drums on a pot, claps, happy, then a quiet curious ending` |
+| `b2_u12_story.mp3` | 12 단어 쇼(피날레·되짚기 공연) | `grand finale on the water, warm strings, bells, curtain-call, sweet` |
+
+## 8. 핍의 단어 노래 — Pip's Word Song (`b2_word_song.mp3`, 약 1분 30초, 2권 12유닛 "단어 쇼")
+핍이 1권에서 되찾은 소리로 이제 **단어**를 부른다. 가사 원본은 `content/b2/units/unit12.json` 의 `show.song.lines`(한 줄 = 음성 `b2_u12_s01`~`b2_u12_s26`). 모음 5개마다 "A, a, /æ/! Short a!" 한 줄 뒤에 단어 가족을 나열한다.
+- 스타일 지시: `bouncy word-family song for young readers, ukulele, glockenspiel, claps and a wood-block click, 104 bpm, one short line per family with a clear pause, child choir, English, clean mix`
+- 주의: 1권 규칙과 같다 — **낱소리(/æ/ 같은 부분)는 노래 AI에게 맡기지 않는다.** ① 반주 + 단어 줄만 부르게 하고("Short a!" 줄에서 `/…/` 를 빼고 입력) 모음 소리 줄은 승인된 TTS(`b2_u12_sNN`)를 웹이 얹거나 ② 반주만 만들고 26줄 전부 TTS 로 얹는다.
+- 가사 (낱소리는 IPA 표기):
+```
+A, a, /æ/! Short a!        Cat, hat, bat, mat, rat!     Can, fan, pan, van!
+Cap, map, nap, tap!        Bag, tag, rag, wag!
+E, e, /e/! Short e!        Net, pet, wet, jet, vet!     Hen, pen, ten, den!
+Bed, red, fed! Leg, peg, beg!
+I, i, /ɪ/! Short i!        Pig, big, dig, wig, fig!     Pin, fin, bin, win, tin!
+Zip, lip, dip, rip!        Sit, hit, kit, pit!
+O, o, /ɑ/! Short o!        Dog, log, fog!               Pot, hot, dot, cot!
+Top, hop, mop, pop!        Box, fox, ox!
+U, u, /ʌ/! Short u!        Bug, hug, mug, rug!          Sun, run, bun, fun!
+Cup, pup, up!
+
+Click-clack! We can read!
+A, e, i, o, u!
+Pip can read! La la la!
+```

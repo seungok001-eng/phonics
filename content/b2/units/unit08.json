@@ -1,0 +1,563 @@
+{
+  "unit": 8,
+  "title": "Fog on the Pond",
+  "title_ko": "연못 안개",
+  "vowel": "o",
+  "families": [
+    "og",
+    "ot"
+  ],
+  "words": {
+    "og": [
+      "dog",
+      "log",
+      "fog"
+    ],
+    "ot": [
+      "pot",
+      "hot",
+      "dot",
+      "cot"
+    ]
+  },
+  "sight_words": [
+    "to",
+    "go"
+  ],
+  "objectives_ko": [
+    "짧은 모음 o(ɑ) 소리를 알고 -og·-ot 단어를 소리를 이어 읽는다",
+    "-og·-ot 단어 7개를 읽고 그림과 잇고 쓴다",
+    "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
+    "사이트워드 to, go를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Blend and Read",
+      "title_ko": "합치기·단어",
+      "pages": [
+        {
+          "type": "blend",
+          "family": "og",
+          "title": "-og words"
+        },
+        {
+          "type": "blend",
+          "family": "ot",
+          "title": "-ot words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letter."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The dog is on the log.",
+      "audio": "b2_u08_s1",
+      "pic": "word_log",
+      "words": [
+        "dog",
+        "log"
+      ]
+    },
+    {
+      "text": "Go to the pot.",
+      "audio": "b2_u08_s2",
+      "pic": "word_pot",
+      "words": [
+        "pot"
+      ]
+    },
+    {
+      "text": "The pot is hot.",
+      "audio": "b2_u08_s3",
+      "pic": "word_hot",
+      "words": [
+        "pot",
+        "hot"
+      ]
+    },
+    {
+      "text": "A dot is on the cot.",
+      "audio": "b2_u08_s4",
+      "pic": "word_cot",
+      "words": [
+        "dot",
+        "cot"
+      ]
+    }
+  ],
+  "story": {
+    "title": "Fog on the Pond",
+    "bgm": "b2_u8_story",
+    "panels": [
+      {
+        "id": "scene_b2_u08_1",
+        "desc": "Thick white fog rolls over the Word Pond; the stepping stones ahead have vanished into the mist and only the nearest one is visible. Bun stretches her arms out blindly; Hedgie holds Bun's tail; Pip says a word backwards with a worried face; Beads peeks over a stone. A happy brown puppy barks at the fog, and a brown wooden log drifts by on the grey water. Hidden in the picture: the fog, the dog, the log. Grumble does NOT appear.",
+        "hidden": [
+          "fog",
+          "dog",
+          "log"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Fog, fog, fog!",
+            "audio": "b2_u08_l1"
+          },
+          {
+            "who": "bun",
+            "text": "We can not see!",
+            "audio": "b2_u08_l2"
+          },
+          {
+            "who": "pip",
+            "text": "Gof! Gof?",
+            "audio": "b2_u08_l3"
+          }
+        ],
+        "video": "vid_b2_u08_1"
+      },
+      {
+        "id": "scene_b2_u08_2",
+        "desc": "Beads threads l-o-g: the drifting log sinks and rises again as a long flat stepping stone pointing into the fog, and the brown puppy hops onto it and trots ahead, sniffing the way; Bun and Hedgie follow holding paws; Pip rides on the dog's back. Hidden in the picture: the log stone, the dog. Grumble does NOT appear.",
+        "hidden": [
+          "log",
+          "dog"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/l/ /ɑ/ /g/ log!",
+            "audio": "blend_log",
+            "pop": "log"
+          },
+          {
+            "who": "hedgie",
+            "text": "The dog is on the log.",
+            "audio": "b2_u08_l4"
+          },
+          {
+            "who": "narrator",
+            "text": "Go, dog, go!",
+            "audio": "b2_u08_l5"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u08_3",
+        "desc": "Deep in the fog a single warm dot of orange light glows: it is Grumble standing on a stepping stone holding his lantern high over his head, the glow making a bright circle in the mist. Behind him on the bank is his little camp: a green camp cot, and on a small fire a red cooking pot with steam rising, a big red dot painted on its lid. Bun points at the light; Hedgie and Pip look relieved; Beads threads p-o-t. Hidden in the picture: the pot, the steaming hot pot, the red dot on the lid, the cot.",
+        "hidden": [
+          "pot",
+          "hot",
+          "dot",
+          "cot"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! A dot!",
+            "audio": "b2_u08_l6"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Go to the dot.",
+            "audio": "b2_u08_l7"
+          },
+          {
+            "who": "beads",
+            "text": "/p/ /ɑ/ /t/ pot!",
+            "audio": "blend_pot",
+            "pop": "pot"
+          }
+        ],
+        "video": "vid_b2_u08_2"
+      },
+      {
+        "id": "scene_b2_u08_4",
+        "desc": "The fog is clearing and pale sun breaks through. Everyone sits around Grumble's little fire on the bank: Grumble ladles steaming soup from the red pot into mugs for Bun, Hedgie and the puppy, his lantern hanging bright on the end of the cot; Pip blows on a spoonful; Beads warms its beads by the fire. The -og and -ot stepping stones shine behind them. Hidden in the picture: the pot, the cot, the steaming hot soup.",
+        "hidden": [
+          "pot",
+          "cot",
+          "hot"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The pot is hot!",
+            "audio": "b2_u08_l8"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is hot!",
+            "audio": "b2_u08_l9"
+          },
+          {
+            "who": "pip",
+            "text": "Gof... fog! Pot!",
+            "audio": "b2_u08_l10"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u08_1",
+      "from": "scene_b2_u08_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: white fog drifts slowly across the pond and swallows the stepping stones one by one, the log floats by, the puppy barks at the mist, the rabbit reaches out blindly. Camera still. Soft, mysterious but friendly. No text."
+    },
+    {
+      "id": "vid_b2_u08_2",
+      "from": "scene_b2_u08_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: in the grey fog a small orange dot of lantern light grows brighter and makes a warm circle, the raccoon's shape appears holding it high, steam rises from the pot behind him, the friends step toward the light. Camera still. Warm, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "dog",
+        "pictures": [
+          "dog",
+          "log",
+          "dot"
+        ]
+      },
+      {
+        "word": "pot",
+        "pictures": [
+          "pot",
+          "pit",
+          "hot"
+        ]
+      },
+      {
+        "word": "fog",
+        "pictures": [
+          "fog",
+          "log",
+          "fig"
+        ]
+      },
+      {
+        "word": "hot",
+        "pictures": [
+          "hot",
+          "pot",
+          "hat"
+        ]
+      },
+      {
+        "word": "cot",
+        "pictures": [
+          "cot",
+          "cat",
+          "dot"
+        ]
+      },
+      {
+        "word": "log",
+        "pictures": [
+          "log",
+          "dog",
+          "leg"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "dot"
+      },
+      {
+        "word": "log"
+      },
+      {
+        "word": "cot"
+      },
+      {
+        "word": "dog"
+      }
+    ],
+    "write": [
+      {
+        "word": "dog",
+        "missing": 1
+      },
+      {
+        "word": "pot",
+        "missing": 0
+      },
+      {
+        "word": "log",
+        "missing": 2
+      },
+      {
+        "word": "hot",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "dog",
+        "pictures": [
+          "dog",
+          "dot",
+          "log"
+        ]
+      },
+      {
+        "word": "pot",
+        "pictures": [
+          "pot",
+          "hot",
+          "pit"
+        ]
+      },
+      {
+        "word": "fog",
+        "pictures": [
+          "fog",
+          "log",
+          "fig"
+        ]
+      },
+      {
+        "word": "cot",
+        "pictures": [
+          "cot",
+          "cat",
+          "pot"
+        ]
+      },
+      {
+        "word": "hot",
+        "pictures": [
+          "hot",
+          "hat",
+          "pot"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "dog",
+        "missing": 0
+      },
+      {
+        "word": "log",
+        "missing": 1
+      },
+      {
+        "word": "fog",
+        "missing": 2
+      },
+      {
+        "word": "pot",
+        "missing": 0
+      },
+      {
+        "word": "hot",
+        "missing": 1
+      },
+      {
+        "word": "dot",
+        "missing": 2
+      },
+      {
+        "word": "cot",
+        "missing": 0
+      },
+      {
+        "word": "dog",
+        "missing": 2
+      }
+    ],
+    "family": {
+      "og": [
+        "dog",
+        "log",
+        "fog"
+      ],
+      "ot": [
+        "pot",
+        "hot",
+        "dot",
+        "cot"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The dog is on the log.",
+        "pictures": [
+          "log",
+          "leg"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "The pot is hot.",
+        "pictures": [
+          "pit",
+          "pot"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "I see a dog.",
+        "pictures": [
+          "dog",
+          "log"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "A dot is on the cot.",
+        "pictures": [
+          "cat",
+          "cot"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "dog",
+      "log",
+      "fog",
+      "pot",
+      "hot",
+      "cot"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u08_1",
+        "desc": "Thick white fog over the pond; the stepping stones ahead have vanished into the mist. Bun stretches her arms out blindly; Hedgie holds Bun's tail; Pip says the word backwards with a worried face; Beads peeks over a stone. A brown puppy barks at the fog and a wooden log drifts by. Hidden in the picture: the fog, the dog, the log. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Fog, fog, fog!",
+            "audio": "sb2_u08_1_1"
+          },
+          {
+            "who": "bun",
+            "text": "We can not see!",
+            "audio": "sb2_u08_1_2"
+          },
+          {
+            "who": "pip",
+            "text": "Gof! Gof?",
+            "audio": "sb2_u08_1_3"
+          }
+        ],
+        "task": "Find the -og words!",
+        "task_ko": "-og 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u08_2",
+        "desc": "Beads threads l-o-g: the log sinks and rises as a long stepping stone pointing into the fog; the puppy hops on and trots ahead sniffing the way, Pip on its back; Bun and Hedgie follow holding paws. Deep in the fog ahead, a single warm dot of orange light glows. Hidden in the picture: the log stone, the dog, the dot of light. Grumble does NOT appear clearly — only his lantern's glow.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/l/ /ɑ/ /g/ log!",
+            "audio": "sb2_u08_2_1"
+          },
+          {
+            "who": "hedgie",
+            "text": "The dog is on the log.",
+            "audio": "sb2_u08_2_2"
+          },
+          {
+            "who": "bun",
+            "text": "Look! A dot!",
+            "audio": "sb2_u08_2_3"
+          }
+        ],
+        "task": "Find the dog and the log!",
+        "task_ko": "개와 통나무를 찾아요"
+      },
+      {
+        "id": "sb2_u08_3",
+        "desc": "The dot of light is Grumble on a stone holding his lantern high, a bright circle in the mist; behind him his camp on the bank: a green cot and a red pot steaming on a little fire with a big red dot on its lid. The fog is clearing; everyone sits around the fire and Grumble ladles hot soup into mugs; Pip blows on a spoonful. Hidden in the picture: the pot, the hot soup, the dot on the lid, the cot.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh... Go to the dot.",
+            "audio": "sb2_u08_3_1"
+          },
+          {
+            "who": "hedgie",
+            "text": "The pot is hot!",
+            "audio": "sb2_u08_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Yip! Yip! Look! Oh no!",
+            "audio": "sb2_u08_3_3"
+          }
+        ],
+        "task": "Find the -ot words!",
+        "task_ko": "-ot 단어를 찾아요"
+      }
+    ]
+  }
+}

@@ -41,7 +41,7 @@ def letter_unit(book, letter):
 
 def word_unit(book, word, units=None):
     for letter, L in (book.get('letters') or {}).items():
-        if word in L['words']: return letter_unit(book, letter)
+        if word in (L.get('words') or []): return letter_unit(book, letter)
     for u in (units or []):   # 2권~: 유닛 JSON 의 words {"at": ["cat", ...]}
         for ws in (u.get('words') or {}).values():
             if word in ws: return u['unit']

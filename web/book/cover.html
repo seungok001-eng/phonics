@@ -53,11 +53,11 @@
 <script>window.PRINT = true;</script>
 <script src="app.js"></script>
 <script>
-// 주소: cover.html?b=sb|wb|story&press=1 — 표지 한 벌(앞·뒤). 제목·시리즈명·캐릭터 기준 그림(char_*_ref)은 book.json 에서
+// 주소: cover.html?b=sb|wb|story&press=1&bk=2 — 표지 한 벌(앞·뒤). 제목·시리즈명·캐릭터 기준 그림(char_*_ref)은 그 권 book.json 에서
 function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@page { size: ${s}; margin: 0; }</style>`); }
 (async () => {
   const q = new URLSearchParams(location.search); const b = q.get('b') || 'sb', press = q.get('press') === '1';
-  App.book = await loadJSON('book.json'); const bk = App.book;
+  if (!(await loadBook(+(q.get('bk') || 1)))) { document.body.textContent = 'book.json 을 읽지 못했어요'; return; } const bk = App.book;
   if (press) document.body.classList.add('press');
   const a5 = b === 'story';
   pageSize(a5 ? (press ? '216mm 154mm' : '210mm 148mm') : (press ? '216mm 303mm' : '210mm 297mm'));

@@ -444,6 +444,94 @@ body.role-on .bubble .av[data-who]:not([data-who="narrator"]):not([data-who="bot
 .pairs.n3 { grid-template-columns: 1fr 1fr 1fr; gap: 10px 20px; } .pairs.n3 .pair { gap: 5px 20px; } .pairs.n3 .pair .col { gap: 5px; } .pairs.n3 .pair .it { font-size: 26px; padding: 0 2px; }
 .missing.many .bx { width: 44px; height: 54px; font-size: 32px; }
 
+/* ---------- 2권: 단어 가족·합치기 ---------- */
+.fam-0 { --fam: var(--orange); } .fam-1 { --fam: var(--blue); } .fam-2 { --fam: #4CAF50; } .fam-3 { --fam: var(--purple); }
+.ph-head .letters.fams span { font-family: 'Andika'; color: var(--fam); } .ph-head .letters.fams b { color: var(--vowel); }
+.fam { display: inline-flex; align-items: center; justify-content: center; font-family: 'Andika'; font-weight: 700; font-size: 26px; color: var(--fam); background: #fff; border: 3px solid var(--fam); border-radius: 12px; padding: 0 12px; min-width: 70px; }
+.fam.sm { font-size: 14px; border-width: 2px; padding: 0 8px; min-width: 0; border-radius: 8px; }
+.fam-big { font-family: 'Andika'; font-weight: 700; font-size: 44px; color: var(--fam); }
+.rime { color: var(--fam, var(--orange)); }
+.blend-head { display: flex; align-items: center; gap: 16px; }
+.blend-head .fam-big { font-size: 56px; line-height: 1; background: var(--cream); border-radius: 16px; padding: 4px 18px; }
+.blend-head .fam-say { font-family: 'Andika'; font-size: 24px; font-weight: 700; color: var(--vowel); cursor: pointer; }
+.blend-rows { display: flex; flex-direction: column; gap: 8px; flex: 1; min-height: 0; }
+.blend-row { display: grid; grid-template-columns: 48px 1fr 150px 130px; align-items: center; gap: 12px; border: 2px solid var(--line); border-radius: 14px; padding: 6px 12px; flex: 1; min-height: 0; background: #fff; }
+.blend-row .spk { font-size: 18px; }
+.blend-row .tiles { display: flex; gap: 26px; transition: gap .5s ease; }
+.blend-row.joined .tiles { gap: 0; }
+.blend-row .tile { width: 64px; height: 72px; border: 3px solid var(--line); border-radius: 12px; background: var(--cream); font-family: 'Andika'; font-size: 48px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; transition: transform .2s, border-color .2s; }
+.blend-row .tile.vowel { color: var(--vowel); }
+.blend-row .tile.hl { transform: translateY(-8px) scale(1.1); border-color: var(--orange); background: #FFF3E6; }
+.blend-row.joined .tile { border-radius: 0; border-left-width: 0; } .blend-row.joined .tile:first-child { border-left-width: 3px; border-radius: 12px 0 0 12px; } .blend-row.joined .tile:last-child { border-radius: 0 12px 12px 0; }
+.blend-row .joined { font-family: 'Andika'; font-size: 40px; font-weight: 700; text-align: center; opacity: .25; transition: opacity .4s; cursor: pointer; }
+.blend-row.done .joined { opacity: 1; }
+.blend-row .bpic { height: 100%; max-height: 110px; display: flex; justify-content: center; }
+.blend-row .bpic .pic { width: 100%; height: 100%; }
+body.print .blend-row .joined { opacity: 1; }
+/* 단어 가족 쪽 */
+.fw-rows { display: flex; flex-direction: column; gap: 10px; }
+.fw-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.fw { font-family: 'Andika'; font-size: 26px; font-weight: 700; background: #fff; border: 3px solid var(--line); border-radius: 14px; padding: 2px 14px; cursor: pointer; box-shadow: 0 3px 0 var(--line); }
+.fw .rime { color: var(--fam); }
+.fw.sel { border-color: var(--orange); background: #FFF3E6; } .fw.done { border-color: var(--ok); background: #EAF7E6; }
+.fw-pics { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+.fw-pic { border: 2px solid var(--line); border-radius: 12px; padding: 6px; display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer; min-height: 0; }
+.fw-pic .pic { width: 100%; height: 120px; }
+.fw-pic .line { width: 100%; height: 34px; border-bottom: 2px solid #bbb; font-family: 'Andika'; font-size: 24px; text-align: center; }
+.fw-pic.ok { border-color: var(--ok); background: #EAF7E6; } .fw-pic.no { border-color: var(--bad); animation: shake .4s; }
+/* 문장 쪽 */
+.sw-list { display: flex; gap: 8px; align-items: center; margin-left: 10px; } .sw-list span { background: var(--yellow); border-radius: 10px; padding: 0 10px; font-weight: 700; font-size: 20px; cursor: pointer; }
+.sent-rows { display: flex; flex-direction: column; gap: 10px; flex: 1; min-height: 0; }
+.sent-row { display: grid; grid-template-columns: 170px 1fr 48px; align-items: center; gap: 14px; border: 2px solid var(--line); border-radius: 14px; padding: 8px 12px; flex: 1; min-height: 0; }
+.sent-row .spic { height: 100%; max-height: 150px; display: flex; } .sent-row .spic .pic { width: 100%; height: 100%; }
+.sent-row .stext { font-family: 'Andika'; font-size: 32px; line-height: 1.4; }
+.sent-row .sw { background: var(--yellow); border-radius: 8px; padding: 0 6px; cursor: pointer; }
+.sent-row .tw { cursor: pointer; border-bottom: 3px solid var(--line); } .sent-row .tw .rime { color: var(--orange); }
+.sent-row.hl, .sent-row.playing { border-color: var(--orange); background: #FFF3E6; }
+/* 정리(2권) */
+.check-sec.rc .lc-row .rc-word { font-family: 'Andika'; font-size: 30px; font-weight: 700; min-width: 86px; cursor: pointer; }
+.check-sec.rc .opt .pic { height: 66px; } .check-sec.rc { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; }
+.match.m2 { grid-template-columns: 1fr 1fr; } .match.m2 .it.wd { font-size: 30px; font-weight: 700; } .match.m2 .it .pic { height: 56px; }
+.boxes { display: flex; gap: 5px; justify-content: center; }
+.boxes span { width: 38px; height: 46px; border: 2px solid #bbb; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; font-family: 'Andika'; font-size: 30px; background: #fff; }
+.boxes span.blank { border: 2px dashed var(--orange); cursor: pointer; } .boxes span.blank.ok { border-style: solid; border-color: var(--ok); color: var(--ok); }
+.write-it.w2 { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 8px; }
+.write-it.w2 .pic { width: 100%; height: 90px; }
+.write-row.w2.g4 { grid-template-columns: repeat(4, 1fr); } .write-row.w2.g3 { grid-template-columns: repeat(3, 1fr); }
+.write-row.w2.g4 .write-it.w2 .pic { height: 120px; } .t-check .write-row.w2.g4 .write-it.w2 .pic, .t-review_test .write-row.w2.g4 .write-it.w2 .pic { height: 80px; }
+/* 4선 쓰기 줄 (워크북) */
+.w4 { position: relative; width: 100%; height: 52px; border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; }
+.w4::before { content: ''; position: absolute; left: 0; right: 0; top: 33%; border-top: 1px dashed #bbb; }
+.w4::after { content: ''; position: absolute; left: 0; right: 0; top: 66%; border-top: 2px solid #888; }
+.w4 .gray, .w4 .ans { position: absolute; left: 10px; top: 0; font-family: 'Andika'; font-size: 34px; line-height: 52px; color: #c9c9c9; z-index: 1; }
+.w4 .ans { color: var(--ink); } .w4.click { cursor: pointer; }
+.wbw .write-it.w2 .pic { height: 110px; }
+.wbs-rows { display: flex; flex-direction: column; gap: 10px; }
+.wbs { border: 2px solid var(--line); border-radius: 12px; padding: 6px 10px; }
+.wbs-top { display: flex; align-items: center; gap: 10px; } .wbs-top .n { font-family: 'Fredoka'; font-weight: 700; }
+.wbs-top .stext { font-family: 'Andika'; font-size: 24px; flex: 1; } .wbs-top .opts { flex: none; width: 220px; } .wbs-top .opt .pic { height: 64px; }
+.trace-sent { height: 56px; border-bottom: 2px solid #bbb; position: relative; margin-top: 4px; }
+.trace-sent::before { content: ''; position: absolute; left: 0; right: 0; top: 50%; border-top: 1px dashed #ccc; }
+.trace-sent span { font-family: 'Andika'; font-size: 34px; line-height: 56px; color: #c9c9c9; padding-left: 10px; }
+.sort.fam-sort .bin h4 { color: var(--fam); } .sort.fam-sort .bin h4 b { color: var(--vowel); }
+.rv-cards.rw .rv-card { gap: 6px; } .rv-cards.rw .rv-card .rv-word { font-size: 22px; } .rv-cards.rw .rv-word .rime { color: var(--orange); }
+.read-rows.c5 { grid-template-columns: repeat(5, 1fr); } .read-rows.c5 .read-card .tr { font-size: 28px; } .read-rows.c5 .read-card .pic { height: 80px; }
+.read-card .tr .rime { color: var(--ink); font-weight: 700; }
+.path.bridge .lt { font-family: 'Andika'; font-size: 28px; border-radius: 40%; background: #DDEFF9; border-color: #8CC0E0; } .path.bridge .lt b { color: var(--vowel); }
+.song-line .lt.famt { width: 64px; font-size: 20px; color: var(--fam); }
+.cert-az .famc { font-family: 'Andika'; } .cert-az .famc b { color: var(--vowel); }
+.hunt-q .fam-big { font-size: 44px; }
+
+/* 모음 5개 (2권 0유닛) */
+.vw-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; flex: 1; min-height: 0; }
+.vw-card { border: 3px solid var(--line); border-radius: 16px; background: var(--cream); display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 6px; cursor: pointer; min-height: 0; }
+.vw-card .glyph { font-family: 'Andika'; font-size: 64px; line-height: 1; font-weight: 700; } .vw-card .glyph small { font-size: 46px; font-weight: 400; margin-left: 4px; }
+.vw-card .ipa { font-family: 'Andika'; font-size: 26px; font-weight: 700; color: var(--vowel); }
+.vw-card .vw-pic { width: 100%; height: 120px; } .vw-card .vw-pic .pic { width: 100%; height: 100%; }
+.vw-card .vw-word { font-family: 'Andika'; font-size: 24px; font-weight: 700; } .vw-card .vw-word .rime { color: var(--ink); } .vw-card .vw-word .rime::first-letter { color: var(--vowel); }
+.vw-card .hint { font-size: 12px; color: var(--soft); text-align: center; }
+.vw-card.hl, .vw-card.playing { border-color: var(--orange); background: #FFF3E6; }
+
 /* ---------- 메뉴 ---------- */
 .menu { width: var(--page-w); display: flex; flex-direction: column; gap: 14px; }
 .menu .unit-card { background: var(--paper); border-radius: 16px; padding: 14px 18px; display: flex; align-items: center; gap: 14px; box-shadow: 0 4px 14px rgba(60,40,20,.1); }

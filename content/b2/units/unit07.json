@@ -1,0 +1,564 @@
+{
+  "unit": 7,
+  "title": "Zip It Up!",
+  "title_ko": "지퍼를 올려!",
+  "vowel": "i",
+  "families": [
+    "ip",
+    "it"
+  ],
+  "words": {
+    "ip": [
+      "zip",
+      "lip",
+      "dip",
+      "rip"
+    ],
+    "it": [
+      "sit",
+      "hit",
+      "kit",
+      "pit"
+    ]
+  },
+  "sight_words": [
+    "it",
+    "up"
+  ],
+  "objectives_ko": [
+    "짧은 모음 i(ɪ) 소리를 알고 -ip·-it 단어를 소리를 이어 읽는다",
+    "-ip·-it 단어 8개를 읽고 그림과 잇고 쓴다",
+    "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
+    "사이트워드 it, up를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Blend and Read",
+      "title_ko": "합치기·단어",
+      "pages": [
+        {
+          "type": "blend",
+          "family": "ip",
+          "title": "-ip words"
+        },
+        {
+          "type": "blend",
+          "family": "it",
+          "title": "-it words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letter."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Zip it up!",
+      "audio": "b2_u07_s1",
+      "pic": "word_zip",
+      "words": [
+        "zip"
+      ]
+    },
+    {
+      "text": "The dip is on my lip.",
+      "audio": "b2_u07_s2",
+      "pic": "word_dip",
+      "words": [
+        "dip",
+        "lip"
+      ]
+    },
+    {
+      "text": "The cat can sit on it.",
+      "audio": "b2_u07_s3",
+      "pic": "word_sit",
+      "words": [
+        "sit"
+      ]
+    },
+    {
+      "text": "Hit the pit! Hit it!",
+      "audio": "b2_u07_s4",
+      "pic": "word_hit",
+      "words": [
+        "hit",
+        "pit"
+      ]
+    }
+  ],
+  "story": {
+    "title": "Zip It Up!",
+    "bgm": "b2_u7_story",
+    "panels": [
+      {
+        "id": "scene_b2_u07_1",
+        "desc": "A cold windy morning on the stepping stones, leaves flying. Hedgie wears a red jacket whose zipper is stuck halfway up; he tugs the zipper tab with both paws and — rip! — a jagged tear opens in the sleeve, with a scrap of torn paper from his pocket flying away. Bun shivers with her ears wrapped around her; Pip tries to say the word but says it backwards, feathers ruffled; Beads huddles in a bead-ball. Hidden in the picture: the zipper on the jacket, the rip. Grumble does NOT appear.",
+        "hidden": [
+          "zip",
+          "rip"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Zip it up!",
+            "audio": "b2_u07_l1"
+          },
+          {
+            "who": "narrator",
+            "text": "Rip! Oh no!",
+            "audio": "b2_u07_l2"
+          },
+          {
+            "who": "pip",
+            "text": "Piz! Piz?",
+            "audio": "b2_u07_l3"
+          }
+        ],
+        "video": "vid_b2_u07_1"
+      },
+      {
+        "id": "scene_b2_u07_2",
+        "desc": "Beads threads z-i-p: the zipper on Hedgie's jacket zips itself up with a zing and a new stepping stone rises beside him. The friends have a picnic on a big flat stone: Bun dips a potato chip into a bowl of creamy dip and has a big blob of dip on her lip; Pip laughs; Hedgie pats his zipped-up jacket happily. Hidden in the picture: the zipper, the bowl of dip, Bun's lip. Grumble does NOT appear.",
+        "hidden": [
+          "zip",
+          "dip",
+          "lip"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/z/ /ɪ/ /p/ zip!",
+            "audio": "blend_zip",
+            "pop": "zip"
+          },
+          {
+            "who": "hedgie",
+            "text": "Zip! It is up!",
+            "audio": "b2_u07_l4"
+          },
+          {
+            "who": "bun",
+            "text": "Dip is on my lip!",
+            "audio": "b2_u07_l5"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u07_3",
+        "desc": "The orange cat sits on top of an open white first-aid kit on a stepping stone; Bun swings a wooden baseball bat and hits a peach pit far out over the pond with motion lines and a splash; Hedgie covers his ears; Beads threads s-i-t. In the reeds, Grumble covers both ears with his paws at the noise, his lantern glowing at his feet. Hidden in the picture: the sitting cat, the kit, the bat hitting the pit, the peach pit.",
+        "hidden": [
+          "sit",
+          "kit",
+          "hit",
+          "pit"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/s/ /ɪ/ /t/ sit!",
+            "audio": "blend_sit",
+            "pop": "sit"
+          },
+          {
+            "who": "bun",
+            "text": "Sit, cat, sit!",
+            "audio": "b2_u07_l6"
+          },
+          {
+            "who": "hedgie",
+            "text": "Hit the pit! Hit it!",
+            "audio": "b2_u07_l7"
+          }
+        ],
+        "video": "vid_b2_u07_2"
+      },
+      {
+        "id": "scene_b2_u07_4",
+        "desc": "Everyone sits in a row on the new -ip and -it stepping stones with their feet in the water: Bun, Hedgie with the first-aid kit on his lap, the cat, Beads, and Pip, who finally says the word the right way and glows. At the end of the row Grumble has come out of the reeds and sits down shyly on the last stone with his lantern beside him — the first time he sits with the friends. Hidden in the picture: the kit, the sitting cat, the zipped jacket.",
+        "hidden": [
+          "kit",
+          "sit",
+          "zip"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Sit, sit, sit!",
+            "audio": "b2_u07_l8"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Can I sit?",
+            "audio": "b2_u07_l9"
+          },
+          {
+            "who": "pip",
+            "text": "Piz... zip! Sit!",
+            "audio": "b2_u07_l10"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u07_1",
+      "from": "scene_b2_u07_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: leaves fly in the wind, the hedgehog tugs his stuck zipper, the sleeve rips with a little paper scrap flying off, the rabbit shivers with her ears wrapped around her, the baby bird's feathers ruffle. Camera still. Child-friendly. No text."
+    },
+    {
+      "id": "vid_b2_u07_2",
+      "from": "scene_b2_u07_3",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the rabbit swings the bat and the peach pit flies out over the pond and lands with a splash, the cat on the kit blinks, the hedgehog covers his ears, the raccoon in the reeds covers his ears too. Camera still. Playful, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "zip",
+        "pictures": [
+          "zip",
+          "lip",
+          "sit"
+        ]
+      },
+      {
+        "word": "sit",
+        "pictures": [
+          "sit",
+          "hit",
+          "pit"
+        ]
+      },
+      {
+        "word": "kit",
+        "pictures": [
+          "kit",
+          "hit",
+          "cat"
+        ]
+      },
+      {
+        "word": "dip",
+        "pictures": [
+          "dip",
+          "lip",
+          "zip"
+        ]
+      },
+      {
+        "word": "rip",
+        "pictures": [
+          "rip",
+          "lip",
+          "rat"
+        ]
+      },
+      {
+        "word": "pit",
+        "pictures": [
+          "pit",
+          "pin",
+          "kit"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "lip"
+      },
+      {
+        "word": "hit"
+      },
+      {
+        "word": "kit"
+      },
+      {
+        "word": "zip"
+      }
+    ],
+    "write": [
+      {
+        "word": "zip",
+        "missing": 1
+      },
+      {
+        "word": "sit",
+        "missing": 0
+      },
+      {
+        "word": "kit",
+        "missing": 2
+      },
+      {
+        "word": "lip",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "zip",
+        "pictures": [
+          "zip",
+          "lip",
+          "dip"
+        ]
+      },
+      {
+        "word": "sit",
+        "pictures": [
+          "sit",
+          "hit",
+          "kit"
+        ]
+      },
+      {
+        "word": "lip",
+        "pictures": [
+          "lip",
+          "rip",
+          "zip"
+        ]
+      },
+      {
+        "word": "pit",
+        "pictures": [
+          "pit",
+          "pin",
+          "pig"
+        ]
+      },
+      {
+        "word": "kit",
+        "pictures": [
+          "kit",
+          "hit",
+          "sit"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "zip",
+        "missing": 0
+      },
+      {
+        "word": "lip",
+        "missing": 1
+      },
+      {
+        "word": "dip",
+        "missing": 2
+      },
+      {
+        "word": "rip",
+        "missing": 0
+      },
+      {
+        "word": "sit",
+        "missing": 1
+      },
+      {
+        "word": "hit",
+        "missing": 2
+      },
+      {
+        "word": "kit",
+        "missing": 0
+      },
+      {
+        "word": "pit",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "ip": [
+        "zip",
+        "lip",
+        "dip",
+        "rip"
+      ],
+      "it": [
+        "sit",
+        "hit",
+        "kit",
+        "pit"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "Zip it up!",
+        "pictures": [
+          "zip",
+          "lip"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "The dip is on my lip.",
+        "pictures": [
+          "rip",
+          "lip"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "The cat can sit.",
+        "pictures": [
+          "sit",
+          "hit"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "Hit the pit!",
+        "pictures": [
+          "kit",
+          "pit"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "zip",
+      "lip",
+      "dip",
+      "sit",
+      "hit",
+      "kit"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u07_1",
+        "desc": "A cold windy morning on the stones. Hedgie's red jacket zipper is stuck halfway; he tugs and — rip! — a jagged tear opens in the sleeve. Bun shivers with her ears wrapped around her; Pip says the word backwards with ruffled feathers; Beads huddles into a bead-ball. Hidden in the picture: the zipper, the rip. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Zip it up!",
+            "audio": "sb2_u07_1_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Rip! Oh no!",
+            "audio": "sb2_u07_1_2"
+          },
+          {
+            "who": "pip",
+            "text": "Piz! Piz?",
+            "audio": "sb2_u07_1_3"
+          }
+        ],
+        "task": "Find the -ip words!",
+        "task_ko": "-ip 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u07_2",
+        "desc": "Beads threads z-i-p: the zipper zips itself up with a zing and a new stone rises. Picnic on a big stone: Bun dips a chip into a bowl of dip and has a blob of dip on her lip; the orange cat sits on an open first-aid kit; Bun's bat and a peach pit lie ready; Hedgie pats his zipped jacket. Hidden in the picture: the zipper, the dip, Bun's lip, the sitting cat, the kit, the pit. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/z/ /ɪ/ /p/ zip!",
+            "audio": "sb2_u07_2_1"
+          },
+          {
+            "who": "bun",
+            "text": "Dip is on my lip!",
+            "audio": "sb2_u07_2_2"
+          },
+          {
+            "who": "hedgie",
+            "text": "Hit the pit! Hit it!",
+            "audio": "sb2_u07_2_3"
+          }
+        ],
+        "task": "Find the -ip words!",
+        "task_ko": "-ip 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u07_3",
+        "desc": "Everyone sits in a row on the new stones with feet in the water: Bun, Hedgie with the kit on his lap, the cat, Beads and Pip. At the end of the row Grumble has come out of the reeds and sits down shyly on the last stone with his lantern beside him — the first time he sits with the friends. A faint white mist is creeping over the far water. Hidden in the picture: the kit, the sitting cat, the bat that hit the pit.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Sit, sit, sit!",
+            "audio": "sb2_u07_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Can I sit?",
+            "audio": "sb2_u07_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Look... We can not see!",
+            "audio": "sb2_u07_3_3"
+          }
+        ],
+        "task": "Find the -it words!",
+        "task_ko": "-it 단어를 찾아요"
+      }
+    ]
+  }
+}

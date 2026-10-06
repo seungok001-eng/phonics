@@ -40,7 +40,7 @@ function render() {
   $('pageArea').innerHTML = `<div class="sb-page ${pg.cover ? 'cover' : ''}"><div class="art">${pic(pg.id, '', pg.desc || pg.title)}${title}<div class="edge l" onclick="sbGo(-1)"></div><div class="edge r" onclick="sbGo(1)"></div></div>
     ${pg.cover ? '' : `<div class="band"><div class="where">${where}</div><div class="lines">${lines}</div>${task}</div>`}</div>`;
   $('pageInfo').textContent = `${SB.i + 1} / ${n}`; $('btnPrev').disabled = SB.i <= 0; $('btnNext').disabled = SB.i >= n - 1;
-  const q = new URLSearchParams(location.search); q.set('u', pg.u); q.set('p', pg.p); history.replaceState(null, '', '?' + q);
+  const q = new URLSearchParams(location.search); q.set('u', pg.u); q.set('p', pg.p); if (App.bk > 1) q.set('bk', App.bk); history.replaceState(null, '', '?' + q);
   document.querySelectorAll('#tocList a').forEach((a) => a.classList.toggle('on', +a.dataset.i === SB.i));
   // 옆 쪽 그림 미리 받기
   [SB.i - 1, SB.i + 1].forEach((j) => { if (SB.pages[j]) { const im = new Image(); im.src = artSrc(SB.pages[j].id); } });
@@ -87,12 +87,11 @@ document.addEventListener('keydown', (e) => {
   book.addEventListener('pointerup', (e) => { const dx = e.clientX - sx, dy = e.clientY - sy; if (Date.now() - t0 < 800 && Math.abs(dx) > 70 && Math.abs(dy) < 80) sbGo(dx < 0 ? 1 : -1); });
 })();
 (async () => {
-  App.book = await loadJSON('book.json');
-  if (!App.book) { $('pageArea').innerHTML = '<p style="color:#fff;padding:20px">content/book.json 을 읽지 못했어요 (tools/serve.py 로 열어 주세요)</p>'; return; }
+  if (!(await loadBook(+(new URLSearchParams(location.search).get('bk') || 1)))) { $('pageArea').innerHTML = '<p style="color:#fff;padding:20px">content/book.json 을 읽지 못했어요 (tools/serve.py 로 열어 주세요)</p>'; return; }
   await Promise.all(App.book.units.map((x) => loadUnit(x.n)));
   SB.pages = storyPages();
   if (!SB.pages.length) { $('pageArea').innerHTML = '<p style="color:#fff;padding:20px">스토리북 내용(book.json 의 storybook)이 아직 없어요</p>'; return; }
-  $('sbTitle').textContent = App.book.storybook.title || 'Storybook'; document.title = `${App.book.storybook.title || 'Storybook'} — Pomi Phonics`;
+  $('sbTitle').textContent = App.book.storybook.title || 'Storybook'; document.title = `${App.book.storybook.title || 'Storybook'} — ${bookLabel()}`;
   tocBuild(); SB.i = findPage(params()); render();
 })();
 </script>

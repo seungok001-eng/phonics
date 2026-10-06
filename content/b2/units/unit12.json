@@ -1,0 +1,657 @@
+{
+  "unit": 12,
+  "title": "The Word Show",
+  "title_ko": "단어 쇼",
+  "vowel": null,
+  "families": [],
+  "words": {},
+  "sight_words": [],
+  "review": {
+    "vowels": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+    ],
+    "families": [
+      "at",
+      "an",
+      "ap",
+      "ag",
+      "et",
+      "en",
+      "ed",
+      "eg",
+      "ig",
+      "in",
+      "ip",
+      "it",
+      "og",
+      "ot",
+      "op",
+      "ox",
+      "ug",
+      "un",
+      "up"
+    ],
+    "words": [
+      "cat",
+      "hat",
+      "bat",
+      "mat",
+      "rat",
+      "can",
+      "fan",
+      "pan",
+      "van",
+      "cap",
+      "map",
+      "nap",
+      "tap",
+      "bag",
+      "tag",
+      "rag",
+      "wag",
+      "net",
+      "pet",
+      "wet",
+      "jet",
+      "vet",
+      "hen",
+      "pen",
+      "ten",
+      "den",
+      "bed",
+      "red",
+      "fed",
+      "leg",
+      "peg",
+      "beg",
+      "pig",
+      "big",
+      "dig",
+      "wig",
+      "fig",
+      "pin",
+      "fin",
+      "bin",
+      "win",
+      "tin",
+      "zip",
+      "lip",
+      "dip",
+      "rip",
+      "sit",
+      "hit",
+      "kit",
+      "pit",
+      "dog",
+      "log",
+      "fog",
+      "pot",
+      "hot",
+      "dot",
+      "cot",
+      "top",
+      "hop",
+      "mop",
+      "pop",
+      "box",
+      "fox",
+      "ox",
+      "bug",
+      "hug",
+      "mug",
+      "rug",
+      "sun",
+      "run",
+      "bun",
+      "fun",
+      "cup",
+      "pup",
+      "up"
+    ],
+    "test": {
+      "read_circle": [
+        {
+          "word": "hat",
+          "pictures": [
+            "hat",
+            "hen",
+            "hot"
+          ]
+        },
+        {
+          "word": "pen",
+          "pictures": [
+            "pen",
+            "pin",
+            "pan"
+          ]
+        },
+        {
+          "word": "fig",
+          "pictures": [
+            "fig",
+            "fog",
+            "fun"
+          ]
+        },
+        {
+          "word": "mop",
+          "pictures": [
+            "mop",
+            "map",
+            "mug"
+          ]
+        },
+        {
+          "word": "cup",
+          "pictures": [
+            "cup",
+            "cap",
+            "cot"
+          ]
+        },
+        {
+          "word": "wet",
+          "pictures": [
+            "wet",
+            "wag",
+            "wig"
+          ]
+        }
+      ],
+      "match": [
+        {
+          "word": "rat"
+        },
+        {
+          "word": "jet"
+        },
+        {
+          "word": "dig"
+        },
+        {
+          "word": "box"
+        }
+      ],
+      "write": [
+        {
+          "word": "cat",
+          "missing": 1
+        },
+        {
+          "word": "net",
+          "missing": 1
+        },
+        {
+          "word": "pig",
+          "missing": 1
+        },
+        {
+          "word": "bug",
+          "missing": 1
+        }
+      ]
+    },
+    "blend": [
+      {
+        "word": "map",
+        "missing": 1
+      },
+      {
+        "word": "ten",
+        "missing": 1
+      },
+      {
+        "word": "pin",
+        "missing": 1
+      },
+      {
+        "word": "log",
+        "missing": 1
+      },
+      {
+        "word": "pup",
+        "missing": 1
+      },
+      {
+        "word": "bat",
+        "missing": 0
+      },
+      {
+        "word": "leg",
+        "missing": 2
+      },
+      {
+        "word": "fox",
+        "missing": 2
+      }
+    ],
+    "sort": {
+      "at": [
+        "cat",
+        "hat",
+        "bat"
+      ],
+      "en": [
+        "hen",
+        "pen",
+        "ten"
+      ],
+      "ig": [
+        "pig",
+        "wig",
+        "fig"
+      ],
+      "ot": [
+        "pot",
+        "hot",
+        "dot"
+      ],
+      "ug": [
+        "bug",
+        "mug",
+        "rug"
+      ]
+    }
+  },
+  "show": {
+    "song": {
+      "title": "Pip's Word Song",
+      "bgm": "b2_word_song",
+      "lines": [
+        {
+          "text": "A, a, /æ/! Short a!",
+          "audio": "b2_u12_s01"
+        },
+        {
+          "text": "Cat, hat, bat, mat, rat!",
+          "audio": "b2_u12_s02"
+        },
+        {
+          "text": "Can, fan, pan, van!",
+          "audio": "b2_u12_s03"
+        },
+        {
+          "text": "Cap, map, nap, tap!",
+          "audio": "b2_u12_s04"
+        },
+        {
+          "text": "Bag, tag, rag, wag!",
+          "audio": "b2_u12_s05"
+        },
+        {
+          "text": "E, e, /e/! Short e!",
+          "audio": "b2_u12_s06"
+        },
+        {
+          "text": "Net, pet, wet, jet, vet!",
+          "audio": "b2_u12_s07"
+        },
+        {
+          "text": "Hen, pen, ten, den!",
+          "audio": "b2_u12_s08"
+        },
+        {
+          "text": "Bed, red, fed! Leg, peg, beg!",
+          "audio": "b2_u12_s09"
+        },
+        {
+          "text": "I, i, /ɪ/! Short i!",
+          "audio": "b2_u12_s10"
+        },
+        {
+          "text": "Pig, big, dig, wig, fig!",
+          "audio": "b2_u12_s11"
+        },
+        {
+          "text": "Pin, fin, bin, win, tin!",
+          "audio": "b2_u12_s12"
+        },
+        {
+          "text": "Zip, lip, dip, rip!",
+          "audio": "b2_u12_s13"
+        },
+        {
+          "text": "Sit, hit, kit, pit!",
+          "audio": "b2_u12_s14"
+        },
+        {
+          "text": "O, o, /ɑ/! Short o!",
+          "audio": "b2_u12_s15"
+        },
+        {
+          "text": "Dog, log, fog!",
+          "audio": "b2_u12_s16"
+        },
+        {
+          "text": "Pot, hot, dot, cot!",
+          "audio": "b2_u12_s17"
+        },
+        {
+          "text": "Top, hop, mop, pop!",
+          "audio": "b2_u12_s18"
+        },
+        {
+          "text": "Box, fox, ox!",
+          "audio": "b2_u12_s19"
+        },
+        {
+          "text": "U, u, /ʌ/! Short u!",
+          "audio": "b2_u12_s20"
+        },
+        {
+          "text": "Bug, hug, mug, rug!",
+          "audio": "b2_u12_s21"
+        },
+        {
+          "text": "Sun, run, bun, fun!",
+          "audio": "b2_u12_s22"
+        },
+        {
+          "text": "Cup, pup, up!",
+          "audio": "b2_u12_s23"
+        },
+        {
+          "text": "Click-clack! We can read!",
+          "audio": "b2_u12_s24"
+        },
+        {
+          "text": "A, e, i, o, u!",
+          "audio": "b2_u12_s25"
+        },
+        {
+          "text": "Pip can read! La la la!",
+          "audio": "b2_u12_s26"
+        }
+      ]
+    },
+    "hunt": {
+      "rounds": [
+        {
+          "family": "at",
+          "scene": "scene_b2_u01_1",
+          "words": [
+            "cat",
+            "mat",
+            "hat",
+            "rat"
+          ]
+        },
+        {
+          "family": "ag",
+          "scene": "scene_b2_u02_3",
+          "words": [
+            "bag",
+            "rag",
+            "wag",
+            "tag"
+          ]
+        },
+        {
+          "family": "en",
+          "scene": "scene_b2_u03_3",
+          "words": [
+            "hen",
+            "pen",
+            "den"
+          ]
+        },
+        {
+          "family": "ed",
+          "scene": "scene_b2_u04_2",
+          "words": [
+            "bed",
+            "red"
+          ]
+        },
+        {
+          "family": "ig",
+          "scene": "scene_b2_u06_2",
+          "words": [
+            "pig",
+            "wig",
+            "fig"
+          ]
+        },
+        {
+          "family": "it",
+          "scene": "scene_b2_u07_3",
+          "words": [
+            "sit",
+            "kit",
+            "hit",
+            "pit"
+          ]
+        },
+        {
+          "family": "ot",
+          "scene": "scene_b2_u08_3",
+          "words": [
+            "pot",
+            "hot",
+            "dot",
+            "cot"
+          ]
+        },
+        {
+          "family": "ug",
+          "scene": "scene_b2_u10_1",
+          "words": [
+            "bug",
+            "rug",
+            "mug"
+          ]
+        }
+      ]
+    },
+    "recap": [
+      {
+        "unit": 0,
+        "scene": "scene_b2_u00_2",
+        "line": {
+          "who": "beads",
+          "text": "Click-clack! Hi, Pip!",
+          "audio": "b2_u00_l5"
+        }
+      },
+      {
+        "unit": 1,
+        "scene": "scene_b2_u01_1",
+        "line": {
+          "who": "pip",
+          "text": "Tac! Tac?",
+          "audio": "b2_u01_l2"
+        }
+      },
+      {
+        "unit": 2,
+        "scene": "scene_b2_u02_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh! It is my cap!",
+          "audio": "b2_u02_l9"
+        }
+      },
+      {
+        "unit": 3,
+        "scene": "scene_b2_u03_4",
+        "line": {
+          "who": "pip",
+          "text": "Net? Ten? Net!",
+          "audio": "b2_u03_l9"
+        }
+      },
+      {
+        "unit": 4,
+        "scene": "scene_b2_u04_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... It is my bed?",
+          "audio": "b2_u04_l9"
+        }
+      },
+      {
+        "unit": 5,
+        "scene": "scene_b2_u05_3",
+        "line": {
+          "who": "pip",
+          "text": "Cat! Cat! CAT!",
+          "audio": "b2_u05_l7"
+        }
+      },
+      {
+        "unit": 6,
+        "scene": "scene_b2_u06_4",
+        "line": {
+          "who": "both",
+          "text": "The pig can win!",
+          "audio": "b2_u06_l8"
+        }
+      },
+      {
+        "unit": 7,
+        "scene": "scene_b2_u07_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... Can I sit?",
+          "audio": "b2_u07_l9"
+        }
+      },
+      {
+        "unit": 8,
+        "scene": "scene_b2_u08_3",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... Go to the dot.",
+          "audio": "b2_u08_l7"
+        }
+      },
+      {
+        "unit": 9,
+        "scene": "scene_b2_u09_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... I like it.",
+          "audio": "b2_u09_l9"
+        }
+      },
+      {
+        "unit": 10,
+        "scene": "scene_b2_u10_4",
+        "line": {
+          "who": "narrator",
+          "text": "Pip can sing!",
+          "audio": "b2_u10_l9"
+        }
+      },
+      {
+        "unit": 11,
+        "scene": "scene_b2_u11_4",
+        "line": {
+          "who": "narrator",
+          "text": "Sh... sh... Sh... sh...",
+          "audio": "b2_u11_l10"
+        }
+      }
+    ],
+    "certificate": {
+      "title": "Word Pond Certificate",
+      "text": "can read short vowel words!",
+      "text_ko": "짧은 모음 단어를 읽을 수 있어요"
+    }
+  },
+  "objectives_ko": [
+    "짧은 모음 5개의 단어 가족 19개를 노래(핍의 단어 노래)로 한 번에 읽는다",
+    "징검다리 길을 가족 순서대로 건너고 장면 그림에서 가족 단어를 찾는다",
+    "12장면으로 이야기 전체를 되짚으며 대사를 따라 말한다(공연)",
+    "전체 복습 평가를 보고 단어 연못 수료증을 받는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Pip's Word Song",
+      "title_ko": "핍의 단어 노래",
+      "pages": [
+        {
+          "type": "word_song",
+          "title": "Pip's Word Song"
+        },
+        {
+          "type": "bridge_path",
+          "title": "Cross the pond."
+        },
+        {
+          "type": "word_hunt",
+          "title": "Word hunt"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_blend",
+          "title": "A. Blend and write a to u."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "The Show",
+      "title_ko": "단어 쇼",
+      "pages": [
+        {
+          "type": "story_recap",
+          "title": "The Word Show"
+        },
+        {
+          "type": "review_test",
+          "title": "Review Test"
+        },
+        {
+          "type": "certificate",
+          "title": "Certificate"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_words",
+          "title": "B. Read and sort a to u."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Word Show",
+    "bgm": "b2_u12_story",
+    "panels": [
+      {
+        "id": "scene_b2_u12_1",
+        "desc": "Grand finale on the Word Pond at golden sunset: a round stage of big lily pads floats in the middle of the pond with the finished bridge of stepping stones leading to it, every stone glowing softly. Pip stands at the front of the stage singing with its beak wide open and golden notes streaming up; Grumble sits beside it beating the red pot like a drum with two spoons, grinning, his lantern hanging above the stage like a bright star; Beads stands on a tall reed conducting with a string of rainbow beads; Bun and Hedgie dance on either side. All the animal friends (the cat, the pig, the dog, the fox, the ox, the pup, the ten hens) clap from the stones and the banks. Paper lanterns and petals everywhere.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Look! The Word Show!",
+            "audio": "b2_u12_l1"
+          },
+          {
+            "who": "both",
+            "text": "We can read!",
+            "audio": "b2_u12_l2"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Cat, pig, bug!",
+            "audio": "b2_u12_l3"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [],
+  "storybook": {
+    "pages": []
+  }
+}

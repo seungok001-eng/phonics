@@ -30,6 +30,12 @@
   section { margin-top:36px; }
   section h2 { font-size:28px; color:var(--orange); margin-bottom:12px; }
   .units { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; }
+  .bookcard { margin-top:36px; background:#fff; border:3px solid var(--line); border-radius:22px; padding:18px 20px 20px; }
+  .bookcard.b2 { border-color:#BFE3F7; }
+  .bookcard .bh { display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:12px; }
+  .bookcard .bh h2 { font-size:28px; color:var(--orange); margin:0; } .bookcard.b2 .bh h2 { color:var(--blue); }
+  .bookcard .bh .sub { color:var(--soft); font-size:16px; }
+  .bookcard .bh .cta { margin:0 0 0 auto; justify-content:flex-end; } .bookcard .bh .cta a { font-size:16px; padding:8px 16px; }
   .unit { background:#fff; border:3px solid var(--line); border-radius:16px; padding:12px 14px; }
   .unit .n { font-family:'Fredoka'; color:#fff; background:var(--orange); border-radius:10px; padding:2px 10px; font-size:15px; }
   .unit .n.soon { background:#ccc; }
@@ -63,10 +69,7 @@
 <div class="wrap">
   <div class="cast" id="cast"></div>
 
-  <section>
-    <h2>유닛</h2>
-    <div class="units" id="units"></div>
-  </section>
+  <div id="books"></div>
 
   <section>
     <h2>이 교재는</h2>
@@ -88,11 +91,12 @@
   <section>
     <h2>선생님 자료</h2>
     <div class="feat">
-      <div><b>📅 진도표</b><a href="teacher/syllabus.html">22차시 · 33차시</a></div>
+      <div><b>📅 진도표</b><span id="sylLinks"><a href="teacher/syllabus.html">22차시 · 33차시</a></span></div>
       <div><b>📝 수업안</b>유닛 카드의 "수업안" — 50분 흐름 2개, 웹 교재 쪽 번호 포함</div>
       <div><b>🃏 플래시카드</b>유닛 카드의 "플래시카드" — A4 한 장에 4장</div>
       <div><b>📋 시험지 생성기</b>듣기 없이 그림 문항 20개(A4 2쪽) + 글자별 점수표. 범위·수준·세트를 골라요.
         <form class="tf" onsubmit="event.preventDefault();makeTest()">
+          <select id="tBk" style="display:none"></select>
           <select id="tScope"><option value="r1">복습 1 (1~4유닛)</option><option value="r2">복습 2 (6~10유닛)</option><option value="all">전체 (1~10유닛)</option></select>
           <select id="tLevel"><option value="1">Level 1 글자</option><option value="2">Level 2 단어</option><option value="3">Level 3 읽기·쓰기</option></select>
           <select id="tSet"><option value="A">A형</option><option value="B">B형</option></select>
@@ -100,7 +104,7 @@
           <button type="submit">열기</button> <a href="teacher/test.html?scope=r1&speaking=1">말하기 체크리스트</a>
         </form>
         <span id="tPdfs"></span></div>
-      <div><b>✉️ 가정통신문</b><a href="teacher/letter.html?u=1">Unit 1 가정통신문</a> (주소의 u=숫자를 바꾸면 다른 유닛)</div>
+      <div><b>✉️ 가정통신문</b><span id="letterLinks"><a href="teacher/letter.html?u=1">Unit 1 가정통신문</a></span> (주소의 u=숫자를 바꾸면 다른 유닛)</div>
       <div><b>🎵 노래·음악</b>주제가·알파벳 노래·배경음악은 제작 중 (지금은 임시 곡)</div>
     </div>
   </section>
@@ -108,28 +112,54 @@
 <footer>© Pomi Phonics · 글꼴 Andika·Fredoka (SIL Open Font License)</footer>
 <script>
 // 시험지 생성기 폼 → teacher/test.html 주소
-function makeTest() { const p = new URLSearchParams({ scope: tScope.value, level: tLevel.value, set: tSet.value }); if (tBw.checked) p.set('bw', '1'); if (tKey.checked) p.set('key', '1'); location.href = 'teacher/test.html?' + p; }
+function makeTest() { const p = new URLSearchParams({ scope: tScope.value, level: tLevel.value, set: tSet.value }); if (tBk.value && tBk.value !== '1') p.set('bk', tBk.value); if (tBw.checked) p.set('bw', '1'); if (tKey.checked) p.set('key', '1'); location.href = 'teacher/test.html?' + p; }
+// 권 목록(content/books.json)을 읽어 권마다 카드(유닛·링크·스토리북·PDF). 1권은 content/ 바로 아래, 2권부터 content/b2/ 처럼 폴더가 있다
 (async () => {
   const base = ['content/', '../content/'];
-  let book = null;
-  for (const b of base) { try { const r = await fetch(b + 'book.json', { cache: 'no-store' }); if (r.ok) { book = await r.json(); break; } } catch (e) {} }
-  if (!book) return;
-  document.getElementById('cast').innerHTML = Object.entries(book.characters).map(([id, c]) =>
+  async function get(rel) { for (const b of base) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+  const books = (await get('books.json')) || [{ n: 1, dir: '' }];
+  const loaded = [];
+  for (const bi of books) {
+    const book = await get(bi.dir + 'book.json'); if (!book) continue;
+    const have = {};
+    await Promise.all(book.units.map(async (u) => { if (u.ready === false) return; have[u.n] = await get(`${bi.dir}units/unit${String(u.n).padStart(2, '0')}.json`); }));
+    loaded.push({ n: bi.n, book, have });
+  }
+  if (!loaded.length) return;
+  // 친구들: 1권 4명 + 뒤 권에서 새로 나온 친구
+  const chars = {}; loaded.forEach((x) => Object.entries(x.book.characters).forEach(([id, c]) => { if (!chars[id]) chars[id] = c; }));
+  document.getElementById('cast').innerHTML = Object.entries(chars).map(([id, c]) =>
     `<div><img src="assets/art/char_${id}_ref.png" alt="${c.name}" onerror="this.outerHTML='<div class=ph>${c.name}</div>'"><h3 style="color:${c.color}">${c.name}</h3><small>${c.ko} · ${c.catchphrase}</small></div>`).join('');
-  const have = {};
-  await Promise.all(book.units.map(async (u) => { for (const b of base) { try { const r = await fetch(`${b}units/unit${String(u.n).padStart(2, '0')}.json`, { cache: 'no-store' }); if (r.ok) { have[u.n] = await r.json(); return; } } catch (e) {} } }));
-  // 스토리북(book.json 의 storybook)이 있으면 읽기 단추와 유닛 카드의 "스토리북" 링크
-  if (book.storybook) document.getElementById('lnkStory').style.display = '';
-  document.getElementById('units').innerHTML = book.units.map((u) => {
-    const ok = !!have[u.n];
-    const wb = ok && have[u.n].lessons.some((l) => l.workbook && l.workbook.length);
-    const sb = ok && book.storybook && have[u.n].storybook && have[u.n].storybook.pages && have[u.n].storybook.pages.length;
-    return `<div class="unit"><span class="n ${ok ? '' : 'soon'}">Unit ${u.n}</span><h3>${u.title}</h3><div class="lt">${u.letters.length ? u.letters.map((l) => l.toUpperCase() + l).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입')}</div>
-      <div class="links"><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1">학생책</a><a class="${wb ? '' : 'off'}" href="book/?b=wb&u=${u.n}&p=1">워크북</a><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1&t=1">수업 화면</a>${sb ? `<a href="book/story.html?u=${u.n}&p=1">📙 스토리북</a>` : ''}${u.letters.length ? `<a class="${ok ? '' : 'off'}" href="teacher/lesson-plan.html?u=${u.n}">수업안</a><a class="${ok ? '' : 'off'}" href="teacher/flashcards.html?u=${u.n}">플래시카드</a><a class="${ok ? '' : 'off'}" href="teacher/test.html?scope=u${u.n}&level=${u.n >= 6 ? 2 : 1}&set=A">시험지</a>` : ''}</div></div>`;
+  document.querySelector('.cast').style.gridTemplateColumns = `repeat(${Math.min(5, Object.keys(chars).length)},1fr)`;
+  if (loaded[0].book.storybook) document.getElementById('lnkStory').style.display = '';
+  const bkq = (n) => (n > 1 ? `&bk=${n}` : '');
+  let pdfList = []; try { const r = await fetch('pdf/index.json', { cache: 'no-store' }); if (r.ok) pdfList = await r.json(); } catch (e) {}
+  document.getElementById('books').innerHTML = loaded.map(({ n, book, have }) => {
+    const q = bkq(n), b2 = !!book.families;
+    const units = book.units.map((u) => {
+      const ok = !!have[u.n];
+      const wb = ok && have[u.n].lessons.some((l) => l.workbook && l.workbook.length);
+      const sb = ok && book.storybook && have[u.n].storybook && have[u.n].storybook.pages && have[u.n].storybook.pages.length;
+      const lt = b2 ? ((u.families || []).length ? u.families.map((f) => '-' + f).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입')) : (u.letters.length ? u.letters.map((l) => l.toUpperCase() + l).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입'));
+      const teach = (b2 ? (u.families || []).length : u.letters.length) ? `<a class="${ok ? '' : 'off'}" href="teacher/lesson-plan.html?u=${u.n}${q}">수업안</a><a class="${ok ? '' : 'off'}" href="teacher/flashcards.html?u=${u.n}${q}">플래시카드</a><a class="${ok ? '' : 'off'}" href="teacher/test.html?scope=u${u.n}&level=${u.n >= 6 ? 2 : 1}&set=A${q}">시험지</a>` : '';
+      return `<div class="unit"><span class="n ${ok ? '' : 'soon'}">Unit ${u.n}</span><h3>${u.title}</h3><div class="lt">${lt}</div>
+        <div class="links"><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1${q}">학생책</a><a class="${wb ? '' : 'off'}" href="book/?b=wb&u=${u.n}&p=1${q}">워크북</a><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1&t=1${q}">수업 화면</a>${sb ? `<a href="book/story.html?u=${u.n}&p=1${q}">📙 스토리북</a>` : ''}${teach}</div></div>`;
+    }).join('');
+    const pdfs = pdfList.filter((f) => (f.book || 1) === n);
+    return `<section class="bookcard b${n}"><div class="bh"><h2>${book.title}</h2><span class="sub">${book.subtitle || ''} · ${book.units.length - 1}유닛</span>
+        <div class="cta"><a href="book/?b=sb&u=1&p=1${q}">📘 학생책</a><a class="alt" href="book/?b=wb&u=1&p=1${q}">📗 워크북</a><a class="alt2" href="book/?b=sb&u=1&p=1&t=1${q}">👩‍🏫 수업 화면</a>${book.storybook ? `<a class="alt3" href="book/story.html${q ? '?' + q.slice(1) : ''}">📙 스토리북</a>` : ''}</div></div>
+      <div class="units">${units}</div>
+      ${pdfs.length ? `<div class="feat" style="margin-top:12px">${pdfs.map((f) => `<div><b>📄 ${f.title}</b><a href="pdf/${f.file}">${f.file}</a></div>`).join('')}</div>` : ''}</section>`;
   }).join('');
-  // PDF 가 올라와 있으면 목록 (pdf/index.json). 시험지 묶음 두 개는 선생님 자료 칸에도
-  try { const r = await fetch('pdf/index.json', { cache: 'no-store' }); if (r.ok) { const list = await r.json(); if (list.length) { document.getElementById('pdfsec').style.display = ''; document.getElementById('pdfs').innerHTML = list.map((f) => `<div><b>📄 ${f.title}</b><a href="pdf/${f.file}">${f.file}</a></div>`).join(''); }
-    const tp = list.filter((f) => /Tests_/.test(f.file)); if (tp.length) document.getElementById('tPdfs').innerHTML = 'PDF 묶음: ' + tp.map((f) => `<a href="pdf/${f.file}">${f.title}</a>`).join(' · '); } } catch (e) {}
+  // 선생님 자료: 권마다 진도표·가정통신문, 시험지 폼의 권 고르기
+  if (loaded.length > 1) {
+    document.getElementById('sylLinks').innerHTML = loaded.map(({ n, book }) => `<a href="teacher/syllabus.html${bkq(n) ? '?' + bkq(n).slice(1) : ''}">${book.title}</a>`).join(' · ');
+    document.getElementById('letterLinks').innerHTML = loaded.map(({ n, book }) => `<a href="teacher/letter.html?u=1${bkq(n)}">${book.title} Unit 1</a>`).join(' · ');
+    const sel = document.getElementById('tBk'); sel.innerHTML = loaded.map(({ n, book }) => `<option value="${n}">${book.title}</option>`).join(''); sel.style.display = '';
+  }
+  // PDF 목록 (전체) — 시험지 묶음은 선생님 자료 칸에도
+  if (pdfList.length) { document.getElementById('pdfsec').style.display = ''; document.getElementById('pdfs').innerHTML = pdfList.map((f) => `<div><b>📄 ${f.title}</b><a href="pdf/${f.file}">${f.file}</a></div>`).join(''); }
+  const tp = pdfList.filter((f) => /Tests_/.test(f.file)); if (tp.length) document.getElementById('tPdfs').innerHTML = 'PDF 묶음: ' + tp.map((f) => `<a href="pdf/${f.file}">${f.title}</a>`).join(' · ');
 })();
 </script>
 </body>

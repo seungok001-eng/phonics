@@ -1,19 +1,34 @@
 // Pomi Phonics 웹 교재 — 핵심: 내용 읽기, 쪽 넘기기, 소리(음성·배경음악 자동 줄이기·효과음), 공통 도우미.
 // 화면(index.html)과 인쇄(print.html)가 같이 쓴다. 프레임워크 없음.
 const PRINT = !!window.PRINT;
-const App = { book: null, units: {}, b: 'sb', u: 1, p: 1, teacher: false };
+// bk = 권 번호, dir = 그 권의 content 폴더('' = 1권 content/ 바로 아래, 'b2/' = 2권). books = content/books.json 의 권 목록
+const App = { book: null, books: null, bk: 1, dir: '', units: {}, b: 'sb', u: 1, p: 1, teacher: false };
 const CONTENT_BASES = ['../content/', '../../content/'];   // 배포(_site)에서는 ../content, 저장소에서 바로 열면 ../../content
 const ASSETS = '../assets/';
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 let contentBase = null;   // 처음 성공한 경로를 기억한다
-async function loadJSON(rel) {
+// rel 은 권 폴더(App.dir) 아래 경로. root=true 면 content/ 바로 아래(books.json, 1권 book.json)
+async function loadJSON(rel, root) {
   for (const b of (contentBase ? [contentBase] : CONTENT_BASES)) {
-    try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) { contentBase = b; return await r.json(); } } catch (e) { /* 다음 후보 */ }
+    try { const r = await fetch(b + (root ? '' : App.dir) + rel, { cache: 'no-store' }); if (r.ok) { contentBase = b; return await r.json(); } } catch (e) { /* 다음 후보 */ }
   }
   return null;
 }
+// 권 고르기: content/books.json 의 목록에서 bk 번째 권의 폴더를 잡고 그 book.json 을 읽는다. books.json 이 없으면 1권만.
+// 2권부터 book.json 에 letters 가 없으면 1권 것을 빌린다(낱소리·합치기에 쓴다).
+async function loadBook(bk) {
+  App.books = (await loadJSON('books.json', true)) || [{ n: 1, dir: '' }];
+  const info = App.books.find((x) => x.n === +bk) || App.books[0];
+  App.bk = info.n; App.dir = info.dir || ''; App.units = {};
+  App.book = await loadJSON('book.json');
+  if (App.book && !App.book.letters && App.dir) { const b1 = await loadJSON('book.json', true); if (b1) App.book.letters = b1.letters; }
+  return App.book;
+}
+function bkParam(first) { return App.bk > 1 ? (first ? '?' : '&') + 'bk=' + App.bk : ''; }   // 주소에 붙일 권 표시 (1권은 없음)
+function bkKey() { return App.bk > 1 ? 'b' + App.bk + '_' : ''; }                              // QR 파일 이름 앞붙이 (b2_sb_u01_p1)
+function bookLabel() { return App.book ? `${App.book.series} ${App.book.book}` : 'Pomi Phonics'; }
 async function loadUnit(n) {
   if (!(n in App.units)) {
     const meta = App.book && App.book.units.find((x) => x.n === n);
@@ -24,7 +39,7 @@ async function loadUnit(n) {
 
 // ---------- 그림 (없으면 글자 상자로 대신) ----------
 // 장면(scene_)·스토리북(sb_)·캐스트 시트는 jpg, 나머지(단어·글자나무·캐릭터)는 png
-function artSrc(id) { return ASSETS + 'art/' + id + (id.startsWith('scene_') || id.startsWith('sb_') || id === 'cast_sheet' ? '.jpg' : '.png'); }
+function artSrc(id) { return ASSETS + 'art/' + id + (id.startsWith('scene_') || /^sb\d*_/.test(id) || id.startsWith('cast_sheet') ? '.jpg' : '.png'); }
 function pic(id, cls = '', alt = '') {
   return `<span class="pic ${cls}" data-id="${esc(id)}"><img src="${artSrc(id)}" alt="${esc(alt || id)}" onerror="picFallback(this)"></span>`;
 }
@@ -150,6 +165,26 @@ function letterOf(w) { for (const l of Object.keys(App.book.letters)) if (L(l).w
 function unitTitle(u) { const x = App.book.units.find((x) => x.n === u); return x ? x.title : ''; }
 // 유닛의 글자: 일반 유닛은 letters, 복습 유닛(letters 가 빈 것)은 review.letters
 function unitLetters(unit) { return unit.letters && unit.letters.length ? unit.letters : (unit.review && unit.review.letters) || []; }
+// ---------- 2권(단어 가족) 도우미 ----------
+// 유닛의 단어 가족: 일반 유닛은 families, 복습 유닛은 review.families
+function unitFamilies(unit) { return unit.families && unit.families.length ? unit.families : (unit.review && unit.review.families) || []; }
+// 유닛의 단어 전부: 2권은 unit.words({가족: [단어]}) 또는 review.words, 1권은 글자의 단어들
+function unitWords(unit) {
+  if (unit.words && !Array.isArray(unit.words)) return Object.values(unit.words).flat();
+  if (unit.review && unit.review.words) return unit.review.words;
+  return unitLetters(unit).flatMap((l) => L(l).words);
+}
+function isBook2(unit) { return !!(App.book.families && unit && (unitFamilies(unit).length || (unit.words && !Array.isArray(unit.words)))); }
+function familyOf(w) { const d = App.book.words && App.book.words[w]; if (d && d.family) return d.family; for (const [f, x] of Object.entries(App.book.families || {})) if (x.words.includes(w)) return f; return ''; }
+function famVowel(f) { const d = App.book.families && App.book.families[f]; return (d && d.vowel) || f[0]; }
+function famWords(f) { const d = App.book.families && App.book.families[f]; return (d && d.words) || []; }
+// 가족 색: 유닛 안에서 몇 번째 가족인지로 (fam-0 주황, fam-1 파랑, fam-2 초록, fam-3 보라)
+function famCls(f, unit) { const i = unitFamilies(unit || App.units[App.u] || {}).indexOf(f); return 'fam-' + (i < 0 ? 0 : i % 4); }
+function famHtml(f) { return `-<b class="vowel">${esc(famVowel(f))}</b>${esc(f.slice(f.indexOf(famVowel(f)) + 1))}`; }   // -<a>t (모음 빨강)
+// 단어에서 가족(끝소리) 부분을 굵게: cat → c<b>at</b>
+function wordFamHtml(w, f) { f = f || familyOf(w); const i = f ? w.lastIndexOf(f) : -1; if (i < 0) return esc(w); return esc(w.slice(0, i)) + `<b class="rime">${esc(f)}</b>` + esc(w.slice(i + f.length)); }
+// 글자 하나의 소리 id·임시 글 (모음은 vowels, 나머지는 letters)
+function letterSound(ch) { const v = App.book.vowels && App.book.vowels[ch]; return v ? { id: 'sound_' + ch, text: v.sound } : L(ch) ? { id: 'sound_' + ch, text: soundText(ch) } : { id: 'sound_' + ch, text: ch }; }
 
 // 쪽 목록 (학생책 = lessons[].pages, 워크북 = lessons[].workbook) 과 쪽 번호
 function pageList(unit, b) {
@@ -173,7 +208,7 @@ function pageNo(b, u, p) {
 function storyPages() {
   const sb = App.book.storybook; if (!sb) return [];
   const out = [], bgm0 = sb.bgm || 'theme';
-  out.push({ u: 'cover', p: 1, id: (sb.cover && sb.cover.id) || 'sb_cover', lines: [], title: sb.title || 'Storybook', bgm: bgm0, cover: true });
+  out.push({ u: 'cover', p: 1, id: (sb.cover && sb.cover.id) || (bkKey() ? 'sb2_cover' : 'sb_cover'), lines: [], title: sb.title || 'Storybook', bgm: bgm0, cover: true });
   (sb.front || []).forEach((pg, i) => out.push({ u: 'front', p: i + 1, ...pg, title: sb.title, bgm: bgm0 }));
   for (const x of App.book.units) {
     const uj = App.units[x.n], pages = (uj && uj.storybook && uj.storybook.pages) || [];
@@ -182,8 +217,8 @@ function storyPages() {
   (sb.back || []).forEach((pg, i) => out.push({ u: 'back', p: i + 1, ...pg, title: sb.title, bgm: bgm0 }));
   return out;
 }
-// 스토리북 쪽의 주소·QR 이름 (story.html?u=1&p=2 ↔ story_u01_p2)
-function storyKey(pg) { return typeof pg.u === 'number' ? `story_u${String(pg.u).padStart(2, '0')}_p${pg.p}` : `story_${pg.u}_p${pg.p}`; }
+// 스토리북 쪽의 주소·QR 이름 (story.html?u=1&p=2 ↔ story_u01_p2, 2권은 b2_story_u01_p2)
+function storyKey(pg) { return bkKey() + (typeof pg.u === 'number' ? `story_u${String(pg.u).padStart(2, '0')}_p${pg.p}` : `story_${pg.u}_p${pg.p}`); }
 function toast(msg) { const t = $('toast'); if (!t) return; t.textContent = msg; t.classList.add('on'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('on'), 1800); }
 
 // 아바타 깜빡임: 2.5~5초마다 아바타 하나가 150ms 눈을 감는다 (char_<id>_blink 가 있을 때만)

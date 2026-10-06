@@ -1,0 +1,1153 @@
+{
+  "series": "Pomi Phonics",
+  "book": 2,
+  "title": "Pomi Phonics 2",
+  "subtitle": "Short Vowels",
+  "site_base": "https://seungok001-eng.github.io/phonics",
+  "style": {
+    "art": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image.",
+    "object": "A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture.",
+    "scene": "Full illustrated scene with a simple uncluttered background and a calm, simple sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind.",
+    "character_sheet": "Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described."
+  },
+  "characters": {
+    "pip": {
+      "name": "Pip",
+      "ko": "핍",
+      "desc": "a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf",
+      "personality": "a baby songbird that got its sounds back in Book 1; now it tries to blend sounds into words but says them backwards at first (tac! for cat); in Unit 5 it reads its first word, and by the end it sings short-vowel words",
+      "catchphrase": "Tac!",
+      "voice": "Aoede",
+      "color": "#F5C542",
+      "poses": [
+        "ref",
+        "happy",
+        "surprised",
+        "sad",
+        "pointing",
+        "cheering",
+        "sleeping"
+      ]
+    },
+    "bun": {
+      "name": "Bun",
+      "ko": "번",
+      "desc": "a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile",
+      "personality": "brave and curious, always the first to shout the sound",
+      "catchphrase": "Let's try!",
+      "voice": "Leda",
+      "color": "#F47FA6",
+      "poses": [
+        "ref",
+        "happy",
+        "surprised",
+        "pointing",
+        "waving",
+        "thinking",
+        "cheering"
+      ]
+    },
+    "hedgie": {
+      "name": "Hedgie",
+      "ko": "헤지",
+      "desc": "a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes",
+      "personality": "careful and thoughtful, great at finding hidden things",
+      "catchphrase": "Wow!",
+      "voice": "Puck",
+      "color": "#B9794B",
+      "poses": [
+        "ref",
+        "happy",
+        "surprised",
+        "pointing",
+        "waving",
+        "thinking",
+        "cheering"
+      ]
+    },
+    "grumble": {
+      "name": "Grumble",
+      "ko": "그럼블",
+      "desc": "a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers",
+      "personality": "the grumpy old raccoon from the Sound Garden, now hiding in the reeds by the pond and saying Shh!; his bright lantern lights the stepping stones in fog and at night, and he slowly becomes a friend; he drums at the show",
+      "catchphrase": "Shh!",
+      "voice": "Charon",
+      "color": "#7C8A9E",
+      "poses": [
+        "ref",
+        "shh",
+        "popping",
+        "angry",
+        "surprised",
+        "happy",
+        "drum"
+      ]
+    },
+    "beads": {
+      "name": "Beads",
+      "ko": "비즈",
+      "desc": "a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads",
+      "personality": "a bead caterpillar who threads letter beads together to make words; counts beads, clicks them together, says the whole word proudly after the sounds",
+      "catchphrase": "Click-clack!",
+      "voice": "Zephyr",
+      "color": "#6CC24A",
+      "poses": [
+        "ref",
+        "happy",
+        "surprised",
+        "pointing",
+        "thinking",
+        "cheering"
+      ]
+    }
+  },
+  "pose_desc": {
+    "ref": "standing straight, arms relaxed at the sides, friendly smile, looking at the viewer",
+    "happy": "jumping with both arms raised high, big open-mouth smile",
+    "surprised": "eyes wide, mouth open in an O, hands up near the face",
+    "pointing": "pointing to the right with one arm fully extended, looking that way, excited",
+    "waving": "waving one hand hello, smiling",
+    "thinking": "one finger on the chin, looking up, puzzled",
+    "cheering": "both fists raised in victory, laughing",
+    "glow": "glowing brightly with little sparkles around, eyes closed in delight",
+    "sad": "drooping leaf, big sad eyes, a single tear",
+    "hiding": "peeking out from behind something, only half visible, nervous",
+    "sleeping": "eyes closed, tiny snore bubble, relaxed",
+    "shh": "one paw pressed to the mouth in a shh gesture, frowning, only the upper body out of a dirt hole",
+    "popping": "bursting up out of a dirt hole with dirt flying, startled",
+    "angry": "frowning with crossed arms, cheeks puffed",
+    "drum": "happily beating a small drum with two sticks, grinning"
+  },
+  "narrator_voice": "Kore",
+  "instruction_voice": "Kore",
+  "letters": {
+    "a": {
+      "sound": "æ",
+      "sound_hint": "short a as at the start of apple",
+      "kind": "vowel"
+    },
+    "b": {
+      "sound": "b",
+      "sound_hint": "b as at the start of bus",
+      "kind": "consonant"
+    },
+    "c": {
+      "sound": "k",
+      "sound_hint": "k as at the start of cat",
+      "kind": "consonant"
+    },
+    "d": {
+      "sound": "d",
+      "sound_hint": "d as at the start of dog",
+      "kind": "consonant"
+    },
+    "e": {
+      "sound": "e",
+      "sound_hint": "short e as at the start of egg",
+      "kind": "vowel"
+    },
+    "f": {
+      "sound": "f",
+      "sound_hint": "f as at the start of fan",
+      "kind": "consonant"
+    },
+    "g": {
+      "sound": "g",
+      "sound_hint": "hard g as at the start of goat",
+      "kind": "consonant"
+    },
+    "h": {
+      "sound": "h",
+      "sound_hint": "h as at the start of hen",
+      "kind": "consonant"
+    },
+    "i": {
+      "sound": "ɪ",
+      "sound_hint": "short i as at the start of ink",
+      "kind": "vowel"
+    },
+    "j": {
+      "sound": "dʒ",
+      "sound_hint": "j as at the start of jelly",
+      "kind": "consonant"
+    },
+    "k": {
+      "sound": "k",
+      "sound_hint": "k as at the start of key",
+      "kind": "consonant"
+    },
+    "l": {
+      "sound": "l",
+      "sound_hint": "l as at the start of lemon",
+      "kind": "consonant"
+    },
+    "m": {
+      "sound": "m",
+      "sound_hint": "m as at the start of milk",
+      "kind": "consonant"
+    },
+    "n": {
+      "sound": "n",
+      "sound_hint": "n as at the start of nose",
+      "kind": "consonant"
+    },
+    "o": {
+      "sound": "ɑ",
+      "sound_hint": "short o as at the start of otter",
+      "kind": "vowel"
+    },
+    "p": {
+      "sound": "p",
+      "sound_hint": "p as at the start of pencil",
+      "kind": "consonant"
+    },
+    "q": {
+      "sound": "kw",
+      "sound_hint": "qu as at the start of queen",
+      "kind": "consonant"
+    },
+    "r": {
+      "sound": "r",
+      "sound_hint": "r as at the start of rocket",
+      "kind": "consonant"
+    },
+    "s": {
+      "sound": "s",
+      "sound_hint": "s as at the start of sun",
+      "kind": "consonant"
+    },
+    "t": {
+      "sound": "t",
+      "sound_hint": "t as at the start of turtle",
+      "kind": "consonant"
+    },
+    "u": {
+      "sound": "ʌ",
+      "sound_hint": "short u as at the start of umbrella",
+      "kind": "vowel"
+    },
+    "v": {
+      "sound": "v",
+      "sound_hint": "v as at the start of vet",
+      "kind": "consonant"
+    },
+    "w": {
+      "sound": "w",
+      "sound_hint": "w as at the start of window",
+      "kind": "consonant"
+    },
+    "x": {
+      "sound": "ks",
+      "sound_hint": "ks as at the end of six and box",
+      "kind": "consonant",
+      "final": true
+    },
+    "y": {
+      "sound": "j",
+      "sound_hint": "y as at the start of yogurt",
+      "kind": "consonant"
+    },
+    "z": {
+      "sound": "z",
+      "sound_hint": "z as at the start of zebra",
+      "kind": "consonant"
+    }
+  },
+  "vowels": {
+    "a": {
+      "sound": "æ",
+      "hint": "short a as in cat"
+    },
+    "e": {
+      "sound": "e",
+      "hint": "short e as in net"
+    },
+    "i": {
+      "sound": "ɪ",
+      "hint": "short i as in pig"
+    },
+    "o": {
+      "sound": "ɑ",
+      "hint": "short o as in dog"
+    },
+    "u": {
+      "sound": "ʌ",
+      "hint": "short u as in bug"
+    }
+  },
+  "families": {
+    "at": {
+      "vowel": "a",
+      "words": [
+        "cat",
+        "hat",
+        "bat",
+        "mat",
+        "rat"
+      ]
+    },
+    "an": {
+      "vowel": "a",
+      "words": [
+        "can",
+        "fan",
+        "pan",
+        "van"
+      ]
+    },
+    "ap": {
+      "vowel": "a",
+      "words": [
+        "cap",
+        "map",
+        "nap",
+        "tap"
+      ]
+    },
+    "ag": {
+      "vowel": "a",
+      "words": [
+        "bag",
+        "tag",
+        "rag",
+        "wag"
+      ]
+    },
+    "et": {
+      "vowel": "e",
+      "words": [
+        "net",
+        "pet",
+        "wet",
+        "jet",
+        "vet"
+      ]
+    },
+    "en": {
+      "vowel": "e",
+      "words": [
+        "hen",
+        "pen",
+        "ten",
+        "den"
+      ]
+    },
+    "ed": {
+      "vowel": "e",
+      "words": [
+        "bed",
+        "red",
+        "fed"
+      ]
+    },
+    "eg": {
+      "vowel": "e",
+      "words": [
+        "leg",
+        "peg",
+        "beg"
+      ]
+    },
+    "ig": {
+      "vowel": "i",
+      "words": [
+        "pig",
+        "big",
+        "dig",
+        "wig",
+        "fig"
+      ]
+    },
+    "in": {
+      "vowel": "i",
+      "words": [
+        "pin",
+        "fin",
+        "bin",
+        "win",
+        "tin"
+      ]
+    },
+    "ip": {
+      "vowel": "i",
+      "words": [
+        "zip",
+        "lip",
+        "dip",
+        "rip"
+      ]
+    },
+    "it": {
+      "vowel": "i",
+      "words": [
+        "sit",
+        "hit",
+        "kit",
+        "pit"
+      ]
+    },
+    "og": {
+      "vowel": "o",
+      "words": [
+        "dog",
+        "log",
+        "fog"
+      ]
+    },
+    "ot": {
+      "vowel": "o",
+      "words": [
+        "pot",
+        "hot",
+        "dot",
+        "cot"
+      ]
+    },
+    "op": {
+      "vowel": "o",
+      "words": [
+        "top",
+        "hop",
+        "mop",
+        "pop"
+      ]
+    },
+    "ox": {
+      "vowel": "o",
+      "words": [
+        "box",
+        "fox",
+        "ox"
+      ]
+    },
+    "ug": {
+      "vowel": "u",
+      "words": [
+        "bug",
+        "hug",
+        "mug",
+        "rug"
+      ]
+    },
+    "un": {
+      "vowel": "u",
+      "words": [
+        "sun",
+        "run",
+        "bun",
+        "fun"
+      ]
+    },
+    "up": {
+      "vowel": "u",
+      "words": [
+        "cup",
+        "pup",
+        "up"
+      ]
+    }
+  },
+  "words": {
+    "cat": {
+      "ko": "고양이",
+      "desc": "a fluffy orange tabby cat sitting and smiling",
+      "family": "at"
+    },
+    "hat": {
+      "ko": "모자",
+      "desc": "a red woolly winter hat with a white pom-pom on top",
+      "family": "at"
+    },
+    "bat": {
+      "ko": "방망이",
+      "desc": "a brown wooden baseball bat standing upright",
+      "family": "at"
+    },
+    "mat": {
+      "ko": "매트",
+      "desc": "a round green doormat with a woven straw edge",
+      "family": "at"
+    },
+    "rat": {
+      "ko": "쥐",
+      "desc": "a small grey rat with round ears and a long pink tail, sitting up",
+      "family": "at"
+    },
+    "can": {
+      "ko": "깡통",
+      "desc": "a shiny silver tin can with a plain red label, no text",
+      "family": "an"
+    },
+    "fan": {
+      "ko": "선풍기",
+      "desc": "a small round electric fan, light blue",
+      "family": "an"
+    },
+    "pan": {
+      "ko": "프라이팬",
+      "desc": "a black frying pan with a wooden handle",
+      "family": "an"
+    },
+    "van": {
+      "ko": "승합차",
+      "desc": "a small blue delivery van seen from the side, with round windows",
+      "family": "an"
+    },
+    "cap": {
+      "ko": "야구모자",
+      "desc": "a blue baseball cap with a curved brim",
+      "family": "ap"
+    },
+    "map": {
+      "ko": "지도",
+      "desc": "an unrolled paper treasure map with a dotted path, a little island and a red cross mark",
+      "family": "ap"
+    },
+    "nap": {
+      "ko": "낮잠",
+      "desc": "a kitten curled up fast asleep on a round cushion, with a tiny snore bubble",
+      "family": "ap"
+    },
+    "tap": {
+      "ko": "수도꼭지",
+      "desc": "a silver water tap with a single drop of water falling from it",
+      "family": "ap"
+    },
+    "bag": {
+      "ko": "가방",
+      "desc": "a red school backpack with two straps and a front pocket",
+      "family": "ag"
+    },
+    "tag": {
+      "ko": "꼬리표",
+      "desc": "a blank paper gift tag on a loop of red string",
+      "family": "ag"
+    },
+    "rag": {
+      "ko": "걸레",
+      "desc": "a crumpled old cleaning rag with a patch, hanging over a bucket edge",
+      "family": "ag"
+    },
+    "wag": {
+      "ko": "꼬리 흔들기",
+      "desc": "a happy brown dog seen from behind wagging its tail, with motion lines",
+      "family": "ag"
+    },
+    "net": {
+      "ko": "그물",
+      "desc": "a butterfly net with a wooden handle",
+      "family": "et"
+    },
+    "pet": {
+      "ko": "애완동물",
+      "desc": "an orange goldfish swimming in a round glass bowl",
+      "family": "et"
+    },
+    "wet": {
+      "ko": "젖은",
+      "desc": "a dripping wet puppy shaking off water drops",
+      "family": "et"
+    },
+    "jet": {
+      "ko": "제트기",
+      "desc": "a white jet plane flying with a vapor trail",
+      "family": "et"
+    },
+    "vet": {
+      "ko": "수의사",
+      "desc": "a kind owl veterinarian in a white coat and round glasses holding a puppy",
+      "family": "et"
+    },
+    "hen": {
+      "ko": "암탉",
+      "desc": "a brown hen with a red comb",
+      "family": "en"
+    },
+    "pen": {
+      "ko": "펜",
+      "desc": "a blue ballpoint pen with the cap on",
+      "family": "en"
+    },
+    "ten": {
+      "ko": "10",
+      "desc": "ten yellow rubber ducks in two neat rows",
+      "family": "en"
+    },
+    "den": {
+      "ko": "굴",
+      "desc": "a cozy fox den: a round hole under a tree root with a fox face peeking out",
+      "family": "en"
+    },
+    "bed": {
+      "ko": "침대",
+      "desc": "a small cozy child's bed with a blue blanket and a white pillow",
+      "family": "ed"
+    },
+    "red": {
+      "ko": "빨강",
+      "desc": "a big splash of red paint with a red paintbrush",
+      "family": "ed"
+    },
+    "fed": {
+      "ko": "먹이 주기",
+      "desc": "a brown puppy happily eating from a full dog bowl",
+      "family": "ed"
+    },
+    "leg": {
+      "ko": "다리",
+      "desc": "a child's leg and foot in a striped sock, kicking",
+      "family": "eg"
+    },
+    "peg": {
+      "ko": "빨래집게",
+      "desc": "a wooden clothes peg clipping a striped sock onto a washing line",
+      "family": "eg"
+    },
+    "beg": {
+      "ko": "조르기",
+      "desc": "a puppy sitting up on its back legs with its front paws together, begging",
+      "family": "eg"
+    },
+    "pig": {
+      "ko": "돼지",
+      "desc": "a pink pig with a curly tail and a round snout",
+      "family": "ig"
+    },
+    "big": {
+      "ko": "큰",
+      "desc": "a big grey elephant standing next to a tiny mouse",
+      "family": "ig"
+    },
+    "dig": {
+      "ko": "파기",
+      "desc": "a shovel digging a hole in the ground with dirt flying up",
+      "family": "ig"
+    },
+    "wig": {
+      "ko": "가발",
+      "desc": "a curly purple wig on a plain stand",
+      "family": "ig"
+    },
+    "fig": {
+      "ko": "무화과",
+      "desc": "a purple fig cut in half showing the pink inside",
+      "family": "ig"
+    },
+    "pin": {
+      "ko": "핀",
+      "desc": "a sewing pin with a round red head",
+      "family": "in"
+    },
+    "fin": {
+      "ko": "지느러미",
+      "desc": "a bright blue fish with one big orange fin",
+      "family": "in"
+    },
+    "bin": {
+      "ko": "쓰레기통",
+      "desc": "a green trash bin with a lid",
+      "family": "in"
+    },
+    "win": {
+      "ko": "이기기",
+      "desc": "a golden trophy cup with a star on it",
+      "family": "in"
+    },
+    "tin": {
+      "ko": "양철통",
+      "desc": "a round silver cookie tin with its lid half off, cookies inside",
+      "family": "in"
+    },
+    "zip": {
+      "ko": "지퍼 올리기",
+      "desc": "a red jacket with a zipper being pulled up, a small hand-shaped tab on the zipper, no person",
+      "family": "ip"
+    },
+    "lip": {
+      "ko": "입술",
+      "desc": "a smiling cartoon mouth with red lips",
+      "family": "ip"
+    },
+    "dip": {
+      "ko": "찍어 먹는 소스",
+      "desc": "a bowl of creamy dip with potato chips around it",
+      "family": "ip"
+    },
+    "rip": {
+      "ko": "찢어짐",
+      "desc": "a sheet of paper torn in two with a jagged rip",
+      "family": "ip"
+    },
+    "sit": {
+      "ko": "앉다",
+      "desc": "a brown dog sitting on a round mat",
+      "family": "it"
+    },
+    "hit": {
+      "ko": "치다",
+      "desc": "a baseball bat hitting a ball with motion lines",
+      "family": "it"
+    },
+    "kit": {
+      "ko": "구급상자",
+      "desc": "an open white first-aid kit box with bandages and a red cross",
+      "family": "it"
+    },
+    "pit": {
+      "ko": "씨",
+      "desc": "a peach cut open showing the big pit in the middle",
+      "family": "it"
+    },
+    "dog": {
+      "ko": "개",
+      "desc": "a happy brown puppy sitting with its tongue out",
+      "family": "og"
+    },
+    "log": {
+      "ko": "통나무",
+      "desc": "a brown wooden log lying on grass",
+      "family": "og"
+    },
+    "fog": {
+      "ko": "안개",
+      "desc": "a misty grey fog over a pond with a tree half hidden in it",
+      "family": "og"
+    },
+    "pot": {
+      "ko": "냄비",
+      "desc": "a red cooking pot with a lid",
+      "family": "ot"
+    },
+    "hot": {
+      "ko": "뜨거운",
+      "desc": "a steaming mug of cocoa with wavy heat lines rising",
+      "family": "ot"
+    },
+    "dot": {
+      "ko": "점",
+      "desc": "one big red polka dot on a white card",
+      "family": "ot"
+    },
+    "cot": {
+      "ko": "간이침대",
+      "desc": "a small folding camp cot with a green blanket",
+      "family": "ot"
+    },
+    "top": {
+      "ko": "팽이",
+      "desc": "a colorful wooden spinning top, spinning",
+      "family": "op"
+    },
+    "hop": {
+      "ko": "깡충",
+      "desc": "a grey rabbit hopping in the air with motion lines",
+      "family": "op"
+    },
+    "mop": {
+      "ko": "대걸레",
+      "desc": "a mop with a wooden handle standing in a bucket",
+      "family": "op"
+    },
+    "pop": {
+      "ko": "펑",
+      "desc": "a red balloon bursting with a pop and little pieces flying",
+      "family": "op"
+    },
+    "box": {
+      "ko": "상자",
+      "desc": "a brown cardboard box with the flaps open",
+      "family": "ox"
+    },
+    "fox": {
+      "ko": "여우",
+      "desc": "an orange fox with a bushy white-tipped tail",
+      "family": "ox"
+    },
+    "ox": {
+      "ko": "황소",
+      "desc": "a big brown ox with curved horns",
+      "family": "ox"
+    },
+    "bug": {
+      "ko": "벌레",
+      "desc": "a small round green bug with black spots and antennae",
+      "family": "ug"
+    },
+    "hug": {
+      "ko": "포옹",
+      "desc": "a big teddy bear hugging a small teddy bear",
+      "family": "ug"
+    },
+    "mug": {
+      "ko": "머그컵",
+      "desc": "a big brown mug with a handle and a steaming drink",
+      "family": "ug"
+    },
+    "rug": {
+      "ko": "깔개",
+      "desc": "a round striped rug in red and yellow",
+      "family": "ug"
+    },
+    "sun": {
+      "ko": "해",
+      "desc": "a smiling yellow sun with rays",
+      "family": "un"
+    },
+    "run": {
+      "ko": "달리기",
+      "desc": "a pair of red running shoes with motion lines, nobody wearing them",
+      "family": "un"
+    },
+    "bun": {
+      "ko": "빵",
+      "desc": "a round golden bread bun with sesame seeds",
+      "family": "un"
+    },
+    "fun": {
+      "ko": "재미",
+      "desc": "a pointy party hat with confetti and streamers",
+      "family": "un"
+    },
+    "cup": {
+      "ko": "컵",
+      "desc": "a blue ceramic cup with a handle and little white stars",
+      "family": "up"
+    },
+    "pup": {
+      "ko": "강아지",
+      "desc": "a tiny fluffy white puppy sitting in a basket",
+      "family": "up"
+    },
+    "up": {
+      "ko": "위",
+      "desc": "a red balloon floating up into the sky with a big upward arrow beside it",
+      "family": "up"
+    }
+  },
+  "sight_words": {
+    "the": {
+      "ko": "그",
+      "unit": 1
+    },
+    "on": {
+      "ko": "~위에",
+      "unit": 1
+    },
+    "is": {
+      "ko": "~이다",
+      "unit": 2
+    },
+    "in": {
+      "ko": "~안에",
+      "unit": 2
+    },
+    "has": {
+      "ko": "가지고 있다",
+      "unit": 3
+    },
+    "and": {
+      "ko": "그리고",
+      "unit": 3
+    },
+    "big": {
+      "ko": "큰",
+      "unit": 4
+    },
+    "little": {
+      "ko": "작은",
+      "unit": 4
+    },
+    "can": {
+      "ko": "할 수 있다",
+      "unit": 6
+    },
+    "not": {
+      "ko": "~아니다",
+      "unit": 6
+    },
+    "it": {
+      "ko": "그것",
+      "unit": 7
+    },
+    "up": {
+      "ko": "위로",
+      "unit": 7
+    },
+    "to": {
+      "ko": "~로",
+      "unit": 8
+    },
+    "go": {
+      "ko": "가다",
+      "unit": 8
+    },
+    "we": {
+      "ko": "우리",
+      "unit": 9
+    },
+    "like": {
+      "ko": "좋아하다",
+      "unit": 9
+    },
+    "you": {
+      "ko": "너",
+      "unit": 10
+    },
+    "look": {
+      "ko": "보다",
+      "unit": 10
+    },
+    "I": {
+      "ko": "나는",
+      "unit": 0,
+      "book1": true
+    },
+    "see": {
+      "ko": "보다",
+      "unit": 0,
+      "book1": true
+    },
+    "a": {
+      "ko": "하나의",
+      "unit": 0,
+      "book1": true
+    },
+    "an": {
+      "ko": "하나의 (모음 소리 앞)",
+      "unit": 0,
+      "book1": true
+    },
+    "my": {
+      "ko": "나의",
+      "unit": 0,
+      "book1": true
+    },
+    "this": {
+      "ko": "이것",
+      "unit": 0,
+      "book1": true
+    },
+    "here": {
+      "ko": "여기",
+      "unit": 0,
+      "book1": true
+    },
+    "at": {
+      "ko": "~을",
+      "unit": 0,
+      "book1": true
+    }
+  },
+  "instructions": {
+    "listen_repeat": "Listen and repeat.",
+    "listen_point": "Listen, point and say.",
+    "trace_write": "Trace and write.",
+    "look_circle": "Look and circle.",
+    "listen_circle": "Listen and circle.",
+    "listen_number": "Listen and number.",
+    "match_read": "Match and read.",
+    "say_check": "Say and check.",
+    "find_circle": "Find and circle. Then write.",
+    "trace_read": "Trace and read.",
+    "read_three": "Read three times.",
+    "listen_story": "Listen to the story.",
+    "sound_chant": "Sound chant",
+    "word_chant": "Word chant",
+    "sight_words": "Sight words",
+    "lets_play": "Let's play!",
+    "great_job": "Great job!",
+    "try_again": "Try again!",
+    "blend_read": "Blend and read.",
+    "read_match": "Read and match.",
+    "read_sentence": "Read the sentence.",
+    "read_circle": "Read and circle.",
+    "look_write": "Look and write.",
+    "write_missing": "Write the missing letter.",
+    "read_point": "Read, point and say.",
+    "family_chant": "Word family chant"
+  },
+  "units": [
+    {
+      "n": 0,
+      "title": "The Word Pond",
+      "families": []
+    },
+    {
+      "n": 1,
+      "title": "The Cat on the Mat",
+      "families": [
+        "at",
+        "an"
+      ],
+      "vowel": "a"
+    },
+    {
+      "n": 2,
+      "title": "The Cap and the Bag",
+      "families": [
+        "ap",
+        "ag"
+      ],
+      "vowel": "a"
+    },
+    {
+      "n": 3,
+      "title": "Ten Hens in a Net",
+      "families": [
+        "et",
+        "en"
+      ],
+      "vowel": "e"
+    },
+    {
+      "n": 4,
+      "title": "A Bed for Grumble",
+      "families": [
+        "ed",
+        "eg"
+      ],
+      "vowel": "e"
+    },
+    {
+      "n": 5,
+      "title": "Pip's First Word",
+      "families": [],
+      "review": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "n": 6,
+      "title": "The Pig and the Pin",
+      "families": [
+        "ig",
+        "in"
+      ],
+      "vowel": "i"
+    },
+    {
+      "n": 7,
+      "title": "Zip It Up!",
+      "families": [
+        "ip",
+        "it"
+      ],
+      "vowel": "i"
+    },
+    {
+      "n": 8,
+      "title": "Fog on the Pond",
+      "families": [
+        "og",
+        "ot"
+      ],
+      "vowel": "o"
+    },
+    {
+      "n": 9,
+      "title": "The Fox and the Box",
+      "families": [
+        "op",
+        "ox"
+      ],
+      "vowel": "o"
+    },
+    {
+      "n": 10,
+      "title": "Fun in the Sun",
+      "families": [
+        "ug",
+        "un",
+        "up"
+      ],
+      "vowel": "u"
+    },
+    {
+      "n": 11,
+      "title": "The Pond Party",
+      "families": [],
+      "review": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "n": 12,
+      "title": "The Word Show",
+      "families": [],
+      "review": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "show": true
+    }
+  ],
+  "storybook": {
+    "title": "Pip and the Word Pond",
+    "title_ko": "핍과 단어 연못",
+    "cover": {
+      "id": "sb2_cover",
+      "desc": "Picture-book cover illustration. Pip, the tiny yellow baby bird with a green leaf scarf, stands on a round stepping stone in the middle of a wide blue pond singing with its beak open and a golden note above it; Bun the white rabbit in green boots and Hedgie the hedgehog stand on the next stones cheering; Beads the rainbow bead caterpillar sits on a lily pad holding up a string of beads; in the reeds at one side Grumble the old raccoon peeks out holding a brightly glowing lantern. A row of stepping stones leads across the water toward a far bank with a pine forest. Leave a calm, simple sky area at the top for the title."
+    },
+    "front": [
+      {
+        "id": "sb2_front_1",
+        "desc": "Title page vignette: a small round picture of Pip and Beads sitting together on a lily pad, Beads holding up a string with three wooden beads and Pip looking at them with its head tilted, on a plain cream background with a few water ripples. Lots of empty space around the vignette.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Pip and the Word Pond",
+            "audio": "sb2_front_1_1"
+          }
+        ]
+      },
+      {
+        "id": "sb2_map",
+        "desc": "A hand-drawn storybook map of the Word Pond seen from above: at the bottom a wooden fence with a gap and the edge of the Sound Garden with letter trees; a sandy bank with scattered wooden beads; a wide blue pond with lily pads and faint dotted rows across the water where stepping stones will appear; tall reeds on one side with a small den under a tree root and a tiny lantern light; a far bank with a party lawn; a dark pine forest at the top with two tiny pale wisps between the trees. No letters or text anywhere.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The Word Pond.",
+            "audio": "sb2_map_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Lots of beads. No stones!",
+            "audio": "sb2_map_2"
+          }
+        ]
+      }
+    ],
+    "back": [
+      {
+        "id": "sb2_end",
+        "desc": "Final page: evening on the far bank of the Word Pond. Pip, Bun, Hedgie, Beads and Grumble sit in a row on the last stepping stone seen from behind, looking toward the dark pine forest, where two small identical wisps of pale light glow side by side between the trees; Grumble's lantern hangs on a stick beside them like a star and his pot drum rests at his feet; the finished bridge of stones glimmers across the water behind them. Calm and warm.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The End",
+            "audio": "sb2_end_1"
+          }
+        ]
+      },
+      {
+        "id": "sb2_map_done",
+        "desc": "The same hand-drawn map of the Word Pond as before, but now a complete bridge of round stepping stones in many rows crosses the whole pond, a trail of tiny bird footprints runs along it from the fence gap to the far bank, paper lanterns hang over the party lawn, and at the top edge of the pine forest two small pale wisps of light glow with a little path leading into the trees. No letters or text anywhere.",
+        "lines": []
+      }
+    ]
+  }
+}

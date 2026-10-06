@@ -1,0 +1,563 @@
+{
+  "unit": 9,
+  "title": "The Fox and the Box",
+  "title_ko": "여우와 상자",
+  "vowel": "o",
+  "families": [
+    "op",
+    "ox"
+  ],
+  "words": {
+    "op": [
+      "top",
+      "hop",
+      "mop",
+      "pop"
+    ],
+    "ox": [
+      "box",
+      "fox",
+      "ox"
+    ]
+  },
+  "sight_words": [
+    "we",
+    "like"
+  ],
+  "objectives_ko": [
+    "짧은 모음 o(ɑ) 소리를 알고 -op·-ox 단어를 소리를 이어 읽는다",
+    "-op·-ox 단어 7개를 읽고 그림과 잇고 쓴다",
+    "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
+    "사이트워드 we, like를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Blend and Read",
+      "title_ko": "합치기·단어",
+      "pages": [
+        {
+          "type": "blend",
+          "family": "op",
+          "title": "-op words"
+        },
+        {
+          "type": "blend",
+          "family": "ox",
+          "title": "-ox words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letter."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The fox has a box.",
+      "audio": "b2_u09_s1",
+      "pic": "word_fox",
+      "words": [
+        "fox",
+        "box"
+      ]
+    },
+    {
+      "text": "We like to hop.",
+      "audio": "b2_u09_s2",
+      "pic": "word_hop",
+      "words": [
+        "hop"
+      ]
+    },
+    {
+      "text": "The top is in the box.",
+      "audio": "b2_u09_s3",
+      "pic": "word_top",
+      "words": [
+        "top",
+        "box"
+      ]
+    },
+    {
+      "text": "The ox can not hop.",
+      "audio": "b2_u09_s4",
+      "pic": "word_ox",
+      "words": [
+        "ox",
+        "hop"
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Fox and the Box",
+    "bgm": "b2_u9_story",
+    "panels": [
+      {
+        "id": "scene_b2_u09_1",
+        "desc": "A sly orange fox with a bushy white-tipped tail has snatched Hedgie's brown cardboard box from the picnic stone and hops away across the stepping stones with it under its arm, grinning; a colorful spinning top tumbles out of the box. Hedgie runs after it with his arms out; Bun hops after it; Pip, trying to shout the word, says it backwards; Beads clings to Bun's ear. Hidden in the picture: the fox, the box, the top. Grumble does NOT appear.",
+        "hidden": [
+          "fox",
+          "box",
+          "top"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The fox has my box!",
+            "audio": "b2_u09_l1"
+          },
+          {
+            "who": "bun",
+            "text": "Hop, hop! The fox can hop!",
+            "audio": "b2_u09_l2"
+          },
+          {
+            "who": "pip",
+            "text": "Pot! Pot?",
+            "audio": "b2_u09_l3"
+          }
+        ],
+        "video": "vid_b2_u09_1"
+      },
+      {
+        "id": "scene_b2_u09_2",
+        "desc": "Beads threads h-o-p and a line of new stepping stones pops up one after another; the friends hop along them after the fox — Bun, Hedgie, the cat and the puppy all mid-hop. Bun has popped a red balloon with a loud POP that makes the fox jump and look back; a mop in a bucket stands on one stone. Hidden in the picture: hopping Bun, the popping balloon, the mop. Grumble does NOT appear.",
+        "hidden": [
+          "hop",
+          "pop",
+          "mop"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/h/ /ɑ/ /p/ hop!",
+            "audio": "blend_hop",
+            "pop": "hop"
+          },
+          {
+            "who": "both",
+            "text": "We like to hop!",
+            "audio": "b2_u09_l4"
+          },
+          {
+            "who": "narrator",
+            "text": "Pop! Pop! The fox hops.",
+            "audio": "b2_u09_l5"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u09_3",
+        "desc": "The fox has run straight into a big brown ox with curved horns standing calmly on the far bank, and the box has flown out of its arms. At the same moment Grumble bursts out of the reeds right next to the fox holding his lantern up high, shouting his loudest Shh with his cheeks puffed; the fox freezes mid-hop with its fur standing up. Beads threads b-o-x; Bun and Hedgie arrive hopping. Hidden in the picture: the ox, the fox, the box.",
+        "hidden": [
+          "ox",
+          "fox",
+          "box"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The fox and the ox!",
+            "audio": "b2_u09_l6"
+          },
+          {
+            "who": "grumble",
+            "text": "SHH!",
+            "audio": "b2_u09_l7"
+          },
+          {
+            "who": "beads",
+            "text": "/b/ /ɑ/ /ks/ box!",
+            "audio": "blend_box",
+            "pop": "box"
+          }
+        ],
+        "video": "vid_b2_u09_2"
+      },
+      {
+        "id": "scene_b2_u09_4",
+        "desc": "Hedgie has his box back and the colorful top spins inside it; the fox sits nearby with its ears down, sorry, and the ox chews grass. Hedgie mops the wet stepping stone with the mop; Bun hugs the box; Pip finally says the word the right way, glowing; Beads rests on the box edge. Grumble crouches beside the box and spins the top with one claw, a real smile on his face for the first time, his lantern glowing bright on the stone. Hidden in the picture: the top, the mop, the box.",
+        "hidden": [
+          "top",
+          "mop",
+          "box"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "We like the top!",
+            "audio": "b2_u09_l8"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... I like it.",
+            "audio": "b2_u09_l9"
+          },
+          {
+            "who": "pip",
+            "text": "Pot... top! Top!",
+            "audio": "b2_u09_l10"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u09_1",
+      "from": "scene_b2_u09_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the fox hops from stone to stone with the box under its arm, the spinning top tumbles out and spins on a stone, the hedgehog runs with arms out, the rabbit hops after it, the baby bird flaps. Camera still. Playful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b2_u09_2",
+      "from": "scene_b2_u09_3",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the fox bumps into the big ox and the box pops up into the air, the raccoon bursts out of the reeds with his lantern held high and cheeks puffed, the fox freezes with its fur standing up; the box lands softly. Camera still. Funny, child-friendly, not scary. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "top",
+        "pictures": [
+          "top",
+          "pot",
+          "tap"
+        ]
+      },
+      {
+        "word": "box",
+        "pictures": [
+          "box",
+          "fox",
+          "bag"
+        ]
+      },
+      {
+        "word": "fox",
+        "pictures": [
+          "fox",
+          "box",
+          "fog"
+        ]
+      },
+      {
+        "word": "hop",
+        "pictures": [
+          "hop",
+          "top",
+          "mop"
+        ]
+      },
+      {
+        "word": "mop",
+        "pictures": [
+          "mop",
+          "map",
+          "hop"
+        ]
+      },
+      {
+        "word": "ox",
+        "pictures": [
+          "ox",
+          "box",
+          "fox"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "pop"
+      },
+      {
+        "word": "mop"
+      },
+      {
+        "word": "top"
+      },
+      {
+        "word": "box"
+      }
+    ],
+    "write": [
+      {
+        "word": "box",
+        "missing": 1
+      },
+      {
+        "word": "top",
+        "missing": 0
+      },
+      {
+        "word": "fox",
+        "missing": 2
+      },
+      {
+        "word": "hop",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "top",
+        "pictures": [
+          "top",
+          "pot",
+          "hop"
+        ]
+      },
+      {
+        "word": "fox",
+        "pictures": [
+          "fox",
+          "box",
+          "ox"
+        ]
+      },
+      {
+        "word": "mop",
+        "pictures": [
+          "mop",
+          "map",
+          "top"
+        ]
+      },
+      {
+        "word": "box",
+        "pictures": [
+          "box",
+          "fox",
+          "bag"
+        ]
+      },
+      {
+        "word": "pop",
+        "pictures": [
+          "pop",
+          "hop",
+          "pot"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "top",
+        "missing": 0
+      },
+      {
+        "word": "hop",
+        "missing": 1
+      },
+      {
+        "word": "mop",
+        "missing": 2
+      },
+      {
+        "word": "pop",
+        "missing": 0
+      },
+      {
+        "word": "box",
+        "missing": 1
+      },
+      {
+        "word": "fox",
+        "missing": 2
+      },
+      {
+        "word": "ox",
+        "missing": 1
+      },
+      {
+        "word": "top",
+        "missing": 2
+      }
+    ],
+    "family": {
+      "op": [
+        "top",
+        "hop",
+        "mop",
+        "pop"
+      ],
+      "ox": [
+        "box",
+        "fox",
+        "ox"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The fox has a box.",
+        "pictures": [
+          "fox",
+          "ox"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "We like the top.",
+        "pictures": [
+          "mop",
+          "top"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "The ox can hop.",
+        "pictures": [
+          "ox",
+          "fox"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "I see a mop.",
+        "pictures": [
+          "map",
+          "mop"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "top",
+      "hop",
+      "mop",
+      "box",
+      "fox",
+      "ox"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u09_1",
+        "desc": "A sly orange fox has snatched Hedgie's cardboard box from the picnic stone and hops away across the stones with it, grinning; a spinning top tumbles out of the box. Hedgie runs after it with his arms out; Bun hops after it; Pip shouts the word backwards; Beads clings to Bun's ear. Hidden in the picture: the fox, the box, the top. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The fox has my box!",
+            "audio": "sb2_u09_1_1"
+          },
+          {
+            "who": "bun",
+            "text": "Hop, hop! The fox can hop!",
+            "audio": "sb2_u09_1_2"
+          },
+          {
+            "who": "pip",
+            "text": "Pot! Pot?",
+            "audio": "sb2_u09_1_3"
+          }
+        ],
+        "task": "Find the -ox words!",
+        "task_ko": "-ox 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u09_2",
+        "desc": "Beads threads h-o-p and new stones pop up one after another; Bun, Hedgie, the cat and the puppy hop along them after the fox; Bun pops a red balloon with a loud POP that makes the fox jump and look back; a mop in a bucket stands on a stone. Hidden in the picture: hopping Bun, the popping balloon, the mop. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/h/ /ɑ/ /p/ hop!",
+            "audio": "sb2_u09_2_1"
+          },
+          {
+            "who": "both",
+            "text": "We like to hop!",
+            "audio": "sb2_u09_2_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Pop! Pop! The fox hops.",
+            "audio": "sb2_u09_2_3"
+          }
+        ],
+        "task": "Find the -op words!",
+        "task_ko": "-op 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u09_3",
+        "desc": "The fox has run into a big brown ox on the far bank and the box has flown out of its arms — and Grumble bursts from the reeds beside it, lantern held high, shouting his loudest Shh with puffed cheeks; the fox freezes with its fur standing up. Then: Hedgie has his box back with the top spinning inside, the fox sits sorry, and Grumble spins the top with one claw, smiling for the first time. Hidden in the picture: the ox, the fox, the box, the top, the mop.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The fox and the ox!",
+            "audio": "sb2_u09_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "SHH!",
+            "audio": "sb2_u09_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Bzzz... bzzz... Oh no!",
+            "audio": "sb2_u09_3_3"
+          }
+        ],
+        "task": "Find the box and the top!",
+        "task_ko": "상자와 팽이를 찾아요"
+      }
+    ]
+  }
+}

@@ -31,12 +31,17 @@
 <script>
 // 가정통신문: 유닛이 끝날 때 집에 보내는 안내. ?u=1
 const q = new URLSearchParams(location.search); const U = +(q.get('u') ?? 1);
-async function get(rel) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+const BK = +(new URLSearchParams(location.search).get('bk') || 1); let DIR = '';   // 권 번호와 그 권의 content 폴더 ('' = 1권)
+async function get(rel, root) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + (root ? '' : DIR) + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+async function getBook() { const books = (await get('books.json', true)) || [{ n: 1, dir: '' }]; const info = books.find((x) => x.n === BK) || books[0]; DIR = info.dir || ''; const book = await get('book.json'); if (book && !book.letters && DIR) { const b1 = await get('book.json', true); if (b1) book.letters = b1.letters; } return book; }
+const bkq = BK > 1 ? `&bk=${BK}` : '';   // 링크에 붙일 권 표시
 (async () => {
-  const book = await get('book.json'), unit = await get(`units/unit${String(U).padStart(2, '0')}.json`);
+  const book = await getBook(), unit = book && await get(`units/unit${String(U).padStart(2, '0')}.json`);
   if (!unit) { document.getElementById('out').textContent = '유닛 없음'; return; }
-  document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false && x.letters.length).map((x) => `<a href="?u=${x.n}">U${x.n}</a>`).join(' ');
+  const has = (x) => (x.letters && x.letters.length) || (x.families && x.families.length);
+  document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false && has(x)).map((x) => `<a href="?u=${x.n}${bkq}">U${x.n}</a>`).join(' ');
   const L = book.letters;
+  if (book.families && unit.families && unit.families.length) { document.getElementById('out').innerHTML = letter2(book, unit); return; }
   const words = unit.letters.map((l) => `<div>${l.toUpperCase()}${l} /${L[l].sound}/ — ` + L[l].words.map((w) => { const i = L[l].final ? w.lastIndexOf(l) : w.indexOf(l); return `<span>${w.slice(0, i)}<b>${w[i]}</b>${w.slice(i + 1)} <small style="color:var(--soft)">${book.words[w].ko}</small></span>`; }).join('') + `</div>`).join('');
   const actions = unit.letters.map((l) => `<li><b>${l.toUpperCase()}</b> /${L[l].sound}/: ${L[l].action_ko} — "${L[l].action}"</li>`).join('');
   const url = `${book.site_base}/book/?b=sb&u=${U}&p=6`;
@@ -60,6 +65,35 @@ async function get(rel) { for (const b of ['../content/', '../../content/']) { t
     <div class="sign">${new Date().getFullYear()}년 ____월 ____일 · ${book.series}</div>
   </div>`;
 })();
+// 2권 가정통신문: 단어 가족·합쳐 읽기·문장
+function letter2(book, unit) {
+  const fams = unit.families, vowel = unit.vowel || fams[0][0], vs = (book.vowels && book.vowels[vowel]) || {};
+  const famWords = (f) => (unit.words && unit.words[f]) || book.families[f].words;
+  const words = fams.map((f) => `<div><b>-${f}</b> — ` + famWords(f).map((w) => { const i = w.lastIndexOf(f); return `<span>${w.slice(0, i)}<b>${f}</b>${w.slice(i + f.length)} <small style="color:var(--soft)">${(book.words[w] || {}).ko || ''}</small></span>`; }).join('') + `</div>`).join('');
+  const ex = famWords(fams[0])[0], exSounds = ex.split('').map((ch) => '/' + ((book.vowels && book.vowels[ch]) ? book.vowels[ch].sound : (L2(book, ch))) + '/').join(' ');
+  const url = `${book.site_base}/book/?b=sb&u=${unit.unit}&p=5${bkq}`;
+  const nx = book.units.find((x) => x.n === unit.unit + 1);
+  return `<div class="sheet">
+    <h1>${book.series} ${book.book} 가정통신문</h1><div class="sub">Unit ${unit.unit} · ${unit.title} (${unit.title_ko || ''}) · 학원: ________________ · 선생님: ________________</div>
+    <p>안녕하세요. 이번 주 아이들은 <b>Unit ${unit.unit}</b>에서 모음 <b>${vowel}</b>(/${vs.sound || vowel}/)이 들어간 단어 가족 <b>${fams.map((f) => '-' + f).join(', ')}</b>을 배우고, 글자 소리를 <b>합쳐서 단어를 읽는 연습</b>을 했습니다. 집에서 아래 내용으로 5분만 함께해 주시면 학습 효과가 훨씬 커집니다.</p>
+    <h2>이번 유닛에서 배운 것</h2>
+    <div class="box words">${words}</div>
+    <p style="margin-top:8px">사이트워드(통째로 읽는 말): <b>${(unit.sight_words || []).join(', ')}</b> · 문장: <b>${(unit.sentences || []).slice(0, 2).map((s) => s.text).join(' / ')}</b> · 스토리: <b>${unit.story.title}</b></p>
+    <h2>집에서 이렇게 해 주세요</h2>
+    <ul>
+      <li><b>합쳐 읽기</b>: 글자를 하나씩 짚으며 소리를 낸 뒤 손뼉 한 번에 통째로 말하게 해 주세요. 예: ${exSounds} → "<b>${ex}</b>!" 글자 이름("씨, 에이, 티")이 아니라 <b>소리</b>로 해 주세요.</li>
+      <li><b>첫 글자 바꾸기</b>: "${famWords(fams[0]).slice(0, 3).join(' → ')}" 처럼 첫 글자만 바꿔 가며 읽기. 냉장고 자석 글자가 있으면 더 좋아요.</li>
+      <li><b>문장 세 번 읽기</b>: 워크북 D번은 QR을 찍으면 원어민 소리가 나옵니다. 사이트워드(${(unit.sight_words || []).join(', ')})는 통째로 읽습니다.</li>
+      <li><b>숨은 그림 찾기</b>: 스토리 그림에서 ${[...new Set(unit.story.panels.flatMap((p) => p.hidden || []))].slice(0, 5).join(', ')} … 를 찾아 영어로 말해 보게 해 주세요.</li>
+    </ul>
+    <h2>소리 듣기</h2>
+    <div class="qr"><img src="../assets/qr/${BK > 1 ? 'b' + BK + '_' : ''}sb_u${String(unit.unit).padStart(2, '0')}_p5.png" alt="QR" onerror="this.style.display='none'"><div>휴대폰으로 QR을 찍거나 아래 주소로 들어가면 이번 유닛의 문장·스토리를 들을 수 있습니다.<br><small>${url}</small><br>처음 한 번 "Start"를 누르면 소리가 납니다.</div></div>
+    <h2>다음 시간</h2>
+    <p>${nx ? `Unit ${nx.n} <b>${nx.title}</b> — ${(nx.families || []).length ? '단어 가족 ' + nx.families.map((f) => '-' + f).join(', ') : '복습'}` : '—'}. 워크북 숙제를 잊지 말고 가져오게 해 주세요.</p>
+    <div class="sign">${new Date().getFullYear()}년 ____월 ____일 · ${book.series}</div>
+  </div>`;
+}
+function L2(book, ch) { const d = book.letters && book.letters[ch]; return d ? (d.final ? 'ks' : d.sound) : ch; }
 </script>
 </body>
 </html>

@@ -1,5 +1,11 @@
 # 웹 교재·PDF·홈페이지 구조
 
+## 여러 권 (1권 "소리 정원", 2권 "단어 연못")
+- `content/books.json` 이 권 목록 `[{"n":1,"dir":"","title":…},{"n":2,"dir":"b2/",…}]`. 1권은 `content/book.json`·`content/units/`, 2권부터는 `content/b2/book.json`·`content/b2/units/`. 그림·소리는 전 권이 `web/assets/` 를 같이 쓴다(같은 id = 같은 파일, 2권 전용은 `b2_`·`sb2_`·`scene_b2_` 접두).
+- 웹 주소에 `bk=2` 가 붙으면 2권(없으면 1권). `app.js loadBook(bk)` 가 books.json 에서 폴더를 잡고 그 권의 book.json 을 읽는다(2권 book.json 에 letters 가 없으면 1권 것을 빌린다). `bkParam()` 이 링크에 `&bk=2` 를 붙이고, `bkKey()` 가 QR 이름 앞에 `b2_` 를 붙인다. 교재·스토리북·인쇄·표지·선생님 자료(수업안·플래시카드·진도표·가정통신문·시험지) 전부 같은 규칙.
+- 홈페이지는 권마다 카드(유닛 카드·학생책/워크북/수업 화면/스토리북 단추·그 권 PDF). 친구들 칸은 1권 4명 + 뒤 권의 새 친구(비즈). 선생님 자료 칸의 진도표·가정통신문·시험지 폼도 권별.
+- `python tools/pdf.py --book 2` → `PomiPhonics2_SB_Unit01.pdf` …, QR `b2_sb_u01_p1.png`, 주소에 `&bk=2`, `index.json` 항목에 `"book": 2`. `tests --book 2` 도 된다. `tools/build.py` 는 content 전체를 복사하므로 그대로.
+
 ## 원본 하나 → 셋
 `content/book.json`(책 전체: 캐릭터·글자 26·단어 78·사이트워드·지시문·유닛 목록·스토리북 표지/앞뒤 쪽) + `content/units/unitNN.json`(유닛: 쪽 명세·스토리·영상·정리 문제·게임·워크북 자료·스토리북 쪽·복습 자료) 를
 - **웹 교재** `web/book/index.html` 이 읽어 쪽을 그린다 (`?b=sb|wb&u=1&p=1&t=1`).
@@ -55,6 +61,17 @@ pages: L1 `alphabet_song` `alphabet_path` `word_hunt` / wb `wb_review_letters`, 
 - `story_recap`: 무대(장면 크게 + 말풍선) + 12장면 띠(썸네일 + 대사, 누르면 무대에 올리고 소리). ▶ Show time! = 장면마다 무대에 올리며 줄 읽기 → 마지막에 `story.panels[0]`(scene_u12_1) 피날레 + 그 줄들 → "Pip can sing!". 🎭 역할 읽기는 story 쪽과 같은 함수(`storyItem`). 슬라이드는 장면마다 한 장 + 피날레 한 장.
 - `certificate`: 제목·문구(영/한)·26 글자 띠·캐릭터 4명(`char_*_cheering`, 없으면 `_ref`)·Date·Teacher 서명 자리. 웹에서 이름을 넣으면 들어가고 🖨 → `print.html?b=sb&u=12&p=<쪽>&name=<이름>` (그 쪽만, 바로 인쇄 창; `&auto=0` 이면 안 띄움). 인쇄는 A4 세로(기존 쪽 크기).
 
+### 2권 쪽 종류와 데이터 (`docs/06-book2.md` 4절)
+유닛 JSON: `families`(가족 2~3개), `vowel`, `words {가족: [단어]}`, `sentences [{text, audio, pic, words}]`, `check {read_circle, match, write}`(듣기 대신 읽기), `game.rounds [{word, pictures}]`, `workbook_data {blend, family, sentences, write}`. book.json: `vowels`, `families {at: {vowel, words}}`, `words[w].family`. 도우미(`app.js`): `unitFamilies` `unitWords` `familyOf` `famVowel` `famWords` `famCls`(유닛 안 가족 순서로 색 fam-0~3) `famHtml`(-<모음 빨강>t) `wordFamHtml`(c·**at**) `letterSound`(모음은 vowels, 나머지는 letters).
+- L1: `blend`(page.family — 단어마다 글자 타일 3개가 떨어져 있다가 ▶ 에 낱소리와 함께 붙고 단어 소리·그림. `audio/blend_<word>.mp3` 가 있으면 그걸(HEAD 로 한 번 확인) 길이에 맞춰 타일 불, 없으면 `sound_<글자>`×3 + `word_<word>` 를 playSeq) → `blend`(가족 2) → `family_words`(두 가족 단어 카드 + ♪ 챈트(1.2초 박자·chant_word 반주) + 읽고 그림 잇기) → `read_play`(1권 것 재사용: 단어 10개 5열, 게임은 `rounds[].word` 단어 듣고 그림 고르기, "한 번 더"는 단어 조합).
+- L2: `sentences`(문장 4개 + 그림, 사이트워드 노랑·단어 밑줄, 단어 누르면 소리, 🔊 문장, ▶ Read all) → `story` ×2(1권 것) → `check`(`read_circle`: 단어 읽고 그림 3 / `match`: 단어–그림 / `write`: 빠진 글자 상자 — `checkBody2`·`checkSlides` 가 데이터 모양으로 가른다).
+- 워크북: `wb_blend`(빠진 글자 8, 화면은 빈 칸 누르면 글자·소리) · `wb_family`(가족 상자 분류 + 단어–그림 잇기) / `wb_sentences`(문장 읽고 그림 ○ + 따라 쓰기 줄) · `wb_write`(그림 보고 단어 4선 쓰기 6).
+- 0유닛: `characters` `intro_story` `vowels`(모음 5개 카드: 글자·소리·대표 단어·힌트, Listen to all) `alphabet`.
+- 복습 5·11: `review_words`(단어 카드 격자 + 가족 꼬리표, 슬라이드는 8개씩) · `review_board`(`squares[].family` 칸은 가족 — 도착하면 그 가족 단어 하나) · `review_bingo` / `story` ×2 · `review_test`(check 와 같은 2권 모양). 워크북 `wb_review_blend`(빠진 글자 8 + 가족 분류, `review.blend`·`review.sort`) · `wb_review_words`(2권이면 그림 보고 단어 쓰기 8 + 가족 분류).
+- 12유닛: `word_song`(= alphabet_song, 가사 줄에 `family` 가 있으면 가족 타일) · `bridge_path`(징검다리: `show.bridge.families` 순서대로 누르기, 없으면 book.families 순서) · `word_hunt`(`rounds[].family`) · `story_recap` · `review_test` · `certificate`(가족 26개 띠).
+- 선생님 슬라이드: blend 한 장(큰 줄), family_words 한 장, sentences 는 문장마다 한 장, review_words 8개씩, vowels 한 장, bridge_path 한 장. 나머지는 1권 것.
+- 머리띠(`lettersBadge`)는 2권이면 가족(-at -an), 복습은 앞 4개 + "…". 글자 도장도 가족.
+
 ## 스토리북 (`story.html` · `print.html?b=story`)
 데이터: book.json `"storybook": {"title", "title_ko", "bgm"(선택, 없으면 theme), "cover": {id, desc}, "front": [{id, desc, lines}], "back": [...]}` + 유닛 JSON `"storybook": {"pages": [{"id": "sb_u01_1", "desc", "lines": [{"who", "text", "audio"}], "task", "task_ko", "task_audio"(선택)}]}`. 쪽 순서 = 표지 → front → 0~11유닛 쪽 → back (`app.js storyPages()`).
 - 그림 `web/assets/art/<id>.jpg` (4:3, `sb_` 로 시작하면 jpg), 대사 소리 `web/assets/audio/<audio>.mp3`, 과제 소리 `task_audio` 또는 기본 `<쪽 id>_task` (없으면 합성 음성), 배경음악은 그 유닛 `story.bgm`, 표지·앞뒤 쪽은 `storybook.bgm`.
@@ -96,6 +113,8 @@ pages: L1 `alphabet_song` `alphabet_path` `word_hunt` / wb `wb_review_letters`, 
 - Level 1(글자): 그림 보고 첫소리 글자 3지선다 6 · 대문자–소문자 잇기 6(그림 힌트) · 빠진 글자 쓰기(B _ D) 4 · 그림 보고 첫 글자 쓰기 4. Level 2(단어): 그림–단어 잇기 6 · 첫 글자 쓰기 6 · 단어 읽고 그림 고르기 4 · 단어 완성(c_t) 4. Level 3(읽기·쓰기): 단어 읽고 그림 고르기 6(같은 첫소리 단어가 보기에 섞임) · 그림 보고 단어 쓰기 6(단어 상자) · 사이트워드 문장 완성 4(범위 유닛 이야기 줄에서, 부족하면 "I see a ___." 꼴로 채움) · 첫소리별 분류 4(그림 8개 번호를 글자 상자에).
 - A/B형은 `scope-level-set` 문자열 씨앗으로 섞어 문항·보기가 다르고, 다시 열어도 같다. 정답지(`key=1`)는 같은 배치에 답만 표시. 단어는 글자마다 돌아가며 뽑아 한 장 안에서 같은 단어가 겹치지 않는다(단어가 모자란 1~2글자 유닛은 겹칠 수 있다).
 - 말하기(`speaking=1`): 종이 시험 대신 교사용 체크리스트 1쪽 — 범위 글자 칸 × 아이 16줄, 글자를 가리키면 소리를 말하고 ✓.
+- 2권(`bk=2`): 범위 u1~u10·r1·r2·all, 글자 대신 **단어 가족**. Level 1 = 그림 보고 모음 고르기 6 · 빠진 모음 쓰기 6 · 단어 가족 고르기(-at/-an/-ap) 4 · 첫 글자 쓰기 4. Level 2 = 단어 읽고 그림 고르기 6 · 그림 보고 단어 쓰기 6(단어 상자) · 그림–단어 잇기 4 · 마지막 글자 쓰기 4. Level 3 = 문장 읽고 그림 고르기 6(유닛 `sentences`) · 사이트워드 문장 완성 4 · 단어 쓰기 6 · 가족별 분류 4. 꼬리는 가족별 점수표, 말하기 체크리스트는 가족 카드 단어 읽기. `batch=units&bk=2`·`batch=review&bk=2` 도 같은 규칙.
+- 선생님 자료(`web/teacher/*.html?bk=2`): 수업안은 2권 흐름(합치기 2가족·단어 가족·단어 잡기 / 문장·스토리·정리), 플래시카드는 가족 카드 + 단어 카드(가족 굵게), 진도표는 모음·가족 열, 가정통신문은 합쳐 읽기 안내.
 - PDF 묶음(`python tools/pdf.py tests`): `PomiPhonics1_Tests_Units.pdf`(1~4·6~10 유닛마다 Level 1(1~4)/2(6~10) A형 + 정답지), `PomiPhonics1_Tests_Review.pdf`(r1·r2·all × Level 1~3 × A/B + 정답지 + 말하기 체크리스트 3장). 그림은 `build/art_small/`(Pillow 로 360px 축소, git 밖)을 써서 가볍게(`&art=` 매개변수). `index.json` 은 있던 목록에 합쳐진다.
 
 ## 선생님 모드

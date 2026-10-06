@@ -10,6 +10,7 @@
 <body>
 <div id="top">
   <a class="brand" href="../">Pomi Phonics<small id="bookName"></small></a>
+  <select id="selBk" onchange="goTo({bk:this.value,u:1,p:1})" style="display:none"></select>
   <select id="selBook" onchange="goTo({b:this.value,p:1})"><option value="sb">학생책</option><option value="wb">워크북</option></select>
   <select id="selUnit" onchange="goTo({u:+this.value,p:1})"></select>
   <span class="grow"></span>
@@ -31,14 +32,24 @@
 <script src="board.js"></script>
 <script src="teach.js"></script>
 <script>
-// 주소: ?b=sb|wb&u=1&p=1&t=1(선생님 모드: 왼쪽 교재 + 오른쪽 필기판, 펜)
-function params() { const q = new URLSearchParams(location.search); return { b: q.get('b') || 'sb', u: +(q.get('u') ?? 1), p: +(q.get('p') ?? 1), s: +(q.get('s') ?? 0), t: q.get('t') === '1' }; }
-function goTo(ch) { const q = new URLSearchParams(location.search); if ('p' in ch && !('s' in ch)) ch.s = 0; for (const k in ch) q.set(k, ch[k]); if (App.teacher) q.set('t', '1'); history.pushState(null, '', '?' + q); route(); }
+// 주소: ?bk=2(권, 없으면 1권)&b=sb|wb&u=1&p=1&t=1(선생님 모드: 왼쪽 교재 + 오른쪽 필기판, 펜)
+function params() { const q = new URLSearchParams(location.search); return { bk: +(q.get('bk') || 1), b: q.get('b') || 'sb', u: +(q.get('u') ?? 1), p: +(q.get('p') ?? 1), s: +(q.get('s') ?? 0), t: q.get('t') === '1' }; }
+function goTo(ch) { const q = new URLSearchParams(location.search); if ('p' in ch && !('s' in ch)) ch.s = 0; for (const k in ch) q.set(k, ch[k]); if (+(q.get('bk') || 1) === 1) q.delete('bk'); if (App.teacher) q.set('t', '1'); history.pushState(null, '', '?' + q); route(); }
+// 권이 바뀌면 그 권의 book.json·유닛을 다시 읽고 유닛 목록을 채운다
+async function initBook(bk) {
+  if (!(await loadBook(bk))) { $('scaler').innerHTML = `<p>content/${App.dir}book.json 을 읽지 못했어요 (tools/serve.py 로 열어 주세요)</p>`; return false; }
+  const sel = $('selBk'); sel.innerHTML = App.books.map((x) => `<option value="${x.n}">${esc(x.title || (App.book.series + ' ' + x.n))}</option>`).join(''); sel.value = App.bk; sel.style.display = App.books.length > 1 ? '' : 'none';
+  $('selUnit').innerHTML = App.book.units.map((x) => `<option value="${x.n}">Unit ${x.n} · ${esc(x.title)}</option>`).join('');
+  await Promise.all(App.book.units.map((x) => loadUnit(x.n)));   // 쪽 번호 계산용
+  document.title = `${bookLabel()} — 웹 교재`;
+  return true;
+}
 async function route() {
-  const { b, u, p, s, t } = params();
+  const { bk, b, u, p, s, t } = params();
+  if (!App.book || App.bk !== bk) { if (!(await initBook(bk))) return; }
   App.b = b; App.u = u; App.p = p; App.s = s; App.teacher = t; document.body.classList.toggle('teacher', t);
   const unit = await loadUnit(u);
-  $('selBook').value = b; $('selUnit').value = u; $('bookName').textContent = b === 'sb' ? 'Student Book' : 'Workbook';
+  $('selBook').value = b; $('selUnit').value = u; $('bookName').textContent = (App.bk > 1 ? App.bk + ' · ' : '') + (b === 'sb' ? 'Student Book' : 'Workbook');
   const scaler = $('scaler');
   if (!unit) { scaler.innerHTML = `<div class="menu"><div class="unit-card"><span class="t">${u}유닛은 아직 준비 중이에요</span></div></div>`; return; }
   const pages = pageList(unit, b);
@@ -60,7 +71,7 @@ async function route() {
     $('pageInfo').textContent = `Unit ${u} · ${pg.lesson.title_ko} · ${p}/${pages.length} 쪽`;
     $('btnPrev').disabled = p <= 1; $('btnNext').disabled = p >= pages.length;
   }
-  $('lnkPrint').href = `print.html?b=${b}&u=${u}`;
+  $('lnkPrint').href = `print.html?b=${b}&u=${u}${bkParam()}`;
   fit(); $('stage').scrollTop = 0;
 }
 function renderPage(ctx) {
@@ -160,7 +171,7 @@ document.addEventListener('wheel', (e) => { if (!App.teacher || !e.ctrlKey) retu
 // 선생님 모드 필기판: 없으면 만들고, 글자 도장 단추를 이 유닛 글자로 채운다
 function ensureBoard(unit) {
   if (!$('boardPanel')) { $('stage').insertAdjacentHTML('beforeend', boardPanel()); boardSwitch(1); setColor(Ink.color); setSize(Ink.size); setTool('hand'); }
-  const stamps = unitLetters(unit).flatMap((l) => [l.toUpperCase(), l]).concat(unit.sight_words || []);
+  const stamps = (unitFamilies(unit).length ? unitFamilies(unit).map((f) => '-' + f) : unitLetters(unit).flatMap((l) => [l.toUpperCase(), l])).concat(unit.sight_words || []);
   $('stampBtns').innerHTML = stamps.map((t) => `<button class="tb small" onclick="boardStamp('${t}')">${t}</button>`).join('');
 }
 function startApp() { Sound.unlock(); $('overlay').style.display = 'none'; }
@@ -175,13 +186,7 @@ document.addEventListener('keydown', (e) => {
   else if (App.teacher && (e.key === '+' || e.key === '=')) zoomBy(0.15); else if (App.teacher && e.key === '-') zoomBy(-0.15); else if (App.teacher && e.key === '0') zoomSet(1);
   else if (App.teacher && (e.key === 'c' || e.key === 'C')) toggleCover();
 });
-(async () => {
-  App.book = await loadJSON('book.json');
-  if (!App.book) { $('scaler').innerHTML = '<p>content/book.json 을 읽지 못했어요 (tools/serve.py 로 열어 주세요)</p>'; return; }
-  $('selUnit').innerHTML = App.book.units.map((x) => `<option value="${x.n}">Unit ${x.n} · ${esc(x.title)}</option>`).join('');
-  await Promise.all(App.book.units.map((x) => loadUnit(x.n)));   // 쪽 번호 계산용
-  route();
-})();
+route();
 </script>
 </body>
 </html>

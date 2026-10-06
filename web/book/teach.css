@@ -147,6 +147,23 @@
 .sl-cert .cert { padding: 16px 40px 12px; } .sl-cert .cert h1 { font-size: 54px; } .sl-cert .cert-az { font-size: 22px; max-width: 900px; } .sl-cert .cert-name { font-size: 56px; min-height: 76px; } .sl-cert .cert-text { font-size: 36px; } .sl-cert .cert-ko { font-size: 22px; }
 .sl-cert .cert-chars .cert-char { max-height: 300px; max-width: 220px; } .sl-cert .cert-form input { font-size: 28px; width: 400px; }
 
+/* 2권 */
+.sl-blend { gap: 14px; } .sl-blend .blend-row { grid-template-columns: 70px 1fr 260px 200px; padding: 8px 18px; }
+.sl-blend .blend-row .tile { width: 100px; height: 112px; font-size: 78px; } .sl-blend .blend-row .tiles { gap: 40px; } .sl-blend .blend-row .joined { font-size: 64px; } .sl-blend .blend-row .spk { width: 56px; height: 56px; font-size: 26px; }
+.slide .blend-head .fam-big { font-size: 80px; } .slide .blend-head .fam-say { font-size: 36px; }
+.sl-fw { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 14px; }
+.sl-fw .fw { font-size: 40px; padding: 4px 22px; } .sl-fw .fam { font-size: 40px; } .sl-fw .fw-pics { gap: 16px; } .sl-fw .fw-pic .line { font-size: 34px; height: 46px; }
+.sl-sent { flex: 1; min-height: 0; display: flex; }
+.sl-sent .sent-row { grid-template-columns: 1fr 1.2fr 80px; gap: 30px; width: 100%; }
+.sl-sent .sent-row .spic { max-height: none; height: calc(var(--sh) - 220px); } .sl-sent .sent-row .stext { font-size: 64px; line-height: 1.4; }
+.sl-check.rc .rc-word { font-size: 54px; min-width: 150px; } .sl-check.rc .opt .pic { height: 130px; }
+.sl-match.m2 { grid-template-columns: 1fr 1fr; } .sl-match.m2 .it.wd { font-size: 60px; }
+.sl-write.w2 .boxes span { width: 70px; height: 84px; font-size: 56px; } .sl-write.w2 .write-it.w2 .pic { height: calc(var(--sh) - 560px); }
+.sl-rv.rw .rv-card .rv-word { font-size: 40px; } .sl-rv.rw .fam.sm { font-size: 22px; }
+.sl-path.bridge .lt { font-size: 50px; }
+
+.sl-vw { gap: 20px; } .sl-vw .vw-card .glyph { font-size: 130px; } .sl-vw .vw-card .glyph small { font-size: 96px; } .sl-vw .vw-card .ipa { font-size: 44px; } .sl-vw .vw-card .vw-pic { height: calc(var(--sh) - 560px); } .sl-vw .vw-card .vw-word { font-size: 40px; } .sl-vw .vw-card .hint { font-size: 20px; }
+
 /* 친구들 */
 .sl-chars { grid-template-columns: repeat(4, 1fr); gap: 20px; flex: 1; min-height: 0; }
 .sl-chars .char { min-height: 0; } .sl-chars .char .pic { height: auto; min-height: 200px; flex: 1; } .sl-chars .char h3 { font-size: 36px; } .sl-chars .char .say-line { font-size: 26px; }

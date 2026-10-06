@@ -1,0 +1,559 @@
+{
+  "unit": 4,
+  "title": "A Bed for Grumble",
+  "title_ko": "그럼블의 침대",
+  "vowel": "e",
+  "families": [
+    "ed",
+    "eg"
+  ],
+  "words": {
+    "ed": [
+      "bed",
+      "red",
+      "fed"
+    ],
+    "eg": [
+      "leg",
+      "peg",
+      "beg"
+    ]
+  },
+  "sight_words": [
+    "big",
+    "little"
+  ],
+  "objectives_ko": [
+    "짧은 모음 e(e) 소리를 알고 -ed·-eg 단어를 소리를 이어 읽는다",
+    "-ed·-eg 단어 6개를 읽고 그림과 잇고 쓴다",
+    "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
+    "사이트워드 big, little를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Blend and Read",
+      "title_ko": "합치기·단어",
+      "pages": [
+        {
+          "type": "blend",
+          "family": "ed",
+          "title": "-ed words"
+        },
+        {
+          "type": "blend",
+          "family": "eg",
+          "title": "-eg words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letter."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Grumble has a big leg.",
+      "audio": "b2_u04_s1",
+      "pic": "scene_b2_u04_1",
+      "words": [
+        "leg"
+      ]
+    },
+    {
+      "text": "The bed is red and little.",
+      "audio": "b2_u04_s2",
+      "pic": "word_bed",
+      "words": [
+        "bed",
+        "red"
+      ]
+    },
+    {
+      "text": "A peg is on the bed.",
+      "audio": "b2_u04_s3",
+      "pic": "word_peg",
+      "words": [
+        "peg",
+        "bed"
+      ]
+    },
+    {
+      "text": "Bun fed the hen.",
+      "audio": "b2_u04_s4",
+      "pic": "word_fed",
+      "words": [
+        "fed",
+        "hen"
+      ]
+    }
+  ],
+  "story": {
+    "title": "A Bed for Grumble",
+    "bgm": "b2_u4_story",
+    "panels": [
+      {
+        "id": "scene_b2_u04_1",
+        "desc": "Dusk at the Word Pond, the sky orange and purple. Grumble has tried to sneak across the stepping stones with his lantern, slipped, and now sits on a stone holding his hind leg, which is swollen big and wrapped in a hastily tied red cloth, his face scrunched in pain, lantern tipped beside him still glowing. Bun and Hedgie hurry over the stones toward him; Pip flutters above saying a word backwards with a worried face; Beads peeks from a lily pad. Hidden in the picture: Grumble's big leg, the red cloth.",
+        "hidden": [
+          "leg",
+          "red"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Grumble has a big leg!",
+            "audio": "b2_u04_l1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Ouch! My leg!",
+            "audio": "b2_u04_l2"
+          },
+          {
+            "who": "pip",
+            "text": "Deb! Deb?",
+            "audio": "b2_u04_l3"
+          }
+        ],
+        "video": "vid_b2_u04_1"
+      },
+      {
+        "id": "scene_b2_u04_2",
+        "desc": "On the bank, Bun and Hedgie have built a little bed out of soft reeds with a red blanket and a white pillow. Beads threads b-e-d and a row of new stepping stones rises so they can carry Grumble to the bank; Bun and Hedgie tuck Grumble into the bed, his bandaged leg propped up on a cushion, his nightcap askew, his lantern on a stump beside the bed glowing warmly. Pip pats his paw. Hidden in the picture: the bed, the red blanket.",
+        "hidden": [
+          "bed",
+          "red"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/b/ /e/ /d/ bed!",
+            "audio": "blend_bed",
+            "pop": "bed"
+          },
+          {
+            "who": "bun",
+            "text": "A little bed! A red bed!",
+            "audio": "b2_u04_l4"
+          },
+          {
+            "who": "hedgie",
+            "text": "Grumble is in the bed.",
+            "audio": "b2_u04_l5"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u04_3",
+        "desc": "Night by the bed, lit by Grumble's lantern. Hedgie feeds Grumble soup with a spoon from a bowl; a small brown puppy sits up on its back legs beside the bed, paws together, begging for a bite; Grumble's wet striped nightcap hangs on a washing line between two reeds, held by a wooden clothes peg. Beads threads l-e-g on the lantern stump; Bun yawns. Grumble's grumpy face has softened into a shy smile. Hidden in the picture: the puppy eating from a bowl after being fed, the begging puppy, the peg.",
+        "hidden": [
+          "fed",
+          "beg",
+          "peg"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Hedgie fed Grumble.",
+            "audio": "b2_u04_l6"
+          },
+          {
+            "who": "beads",
+            "text": "/l/ /e/ /g/ leg!",
+            "audio": "blend_leg",
+            "pop": "leg"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Thank you.",
+            "audio": "b2_u04_l7"
+          }
+        ],
+        "video": "vid_b2_u04_2"
+      },
+      {
+        "id": "scene_b2_u04_4",
+        "desc": "Morning. Grumble stands on the bank next to the little red bed, his leg thin again and only a small bandage left, holding the bed's pillow to his chest and looking at the friends hopefully; Bun and Hedgie laugh; the puppy still begs beside the bed; the peg and the dry nightcap hang on the line; the stepping stones sparkle in the sun. Pip hops on the bed's end. Hidden in the picture: the bed, the peg, the begging puppy.",
+        "hidden": [
+          "bed",
+          "peg",
+          "beg"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The big leg is little!",
+            "audio": "b2_u04_l8"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... It is my bed?",
+            "audio": "b2_u04_l9"
+          },
+          {
+            "who": "hedgie",
+            "text": "Yes! A bed for Grumble.",
+            "audio": "b2_u04_l10"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u04_1",
+      "from": "scene_b2_u04_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the raccoon tiptoes over a stepping stone, slips with a little splash and sits down holding his leg, his lantern swings and settles still glowing; the rabbit and the hedgehog hurry over the stones; the baby bird flutters anxiously. Camera still. Child-friendly, no real hurt. No text."
+    },
+    {
+      "id": "vid_b2_u04_2",
+      "from": "scene_b2_u04_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the hedgehog lifts a spoon of soup to the raccoon in the little bed, the puppy beside the bed sits up and begs with its paws together, the lantern flame flickers warmly, the nightcap on the line sways in the breeze. Camera still. Cozy, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "bed",
+        "pictures": [
+          "bed",
+          "red",
+          "bag"
+        ]
+      },
+      {
+        "word": "red",
+        "pictures": [
+          "red",
+          "bed",
+          "rat"
+        ]
+      },
+      {
+        "word": "fed",
+        "pictures": [
+          "fed",
+          "red",
+          "wet"
+        ]
+      },
+      {
+        "word": "leg",
+        "pictures": [
+          "leg",
+          "peg",
+          "beg"
+        ]
+      },
+      {
+        "word": "peg",
+        "pictures": [
+          "peg",
+          "pen",
+          "leg"
+        ]
+      },
+      {
+        "word": "beg",
+        "pictures": [
+          "beg",
+          "bag",
+          "peg"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "bed"
+      },
+      {
+        "word": "leg"
+      },
+      {
+        "word": "peg"
+      },
+      {
+        "word": "red"
+      }
+    ],
+    "write": [
+      {
+        "word": "bed",
+        "missing": 1
+      },
+      {
+        "word": "leg",
+        "missing": 0
+      },
+      {
+        "word": "peg",
+        "missing": 2
+      },
+      {
+        "word": "red",
+        "missing": 0
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "bed",
+        "pictures": [
+          "bed",
+          "red",
+          "leg"
+        ]
+      },
+      {
+        "word": "leg",
+        "pictures": [
+          "leg",
+          "peg",
+          "beg"
+        ]
+      },
+      {
+        "word": "red",
+        "pictures": [
+          "red",
+          "bed",
+          "fed"
+        ]
+      },
+      {
+        "word": "peg",
+        "pictures": [
+          "peg",
+          "leg",
+          "pen"
+        ]
+      },
+      {
+        "word": "beg",
+        "pictures": [
+          "beg",
+          "bag",
+          "bed"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "bed",
+        "missing": 0
+      },
+      {
+        "word": "red",
+        "missing": 1
+      },
+      {
+        "word": "fed",
+        "missing": 2
+      },
+      {
+        "word": "leg",
+        "missing": 0
+      },
+      {
+        "word": "peg",
+        "missing": 1
+      },
+      {
+        "word": "beg",
+        "missing": 2
+      },
+      {
+        "word": "bed",
+        "missing": 2
+      },
+      {
+        "word": "leg",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "ed": [
+        "bed",
+        "red",
+        "fed"
+      ],
+      "eg": [
+        "leg",
+        "peg",
+        "beg"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The bed is red.",
+        "pictures": [
+          "bed",
+          "bag"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "Grumble has a big leg.",
+        "pictures": [
+          "peg",
+          "leg"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "A peg is on the bed.",
+        "pictures": [
+          "peg",
+          "pen"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "Beg, beg, beg!",
+        "pictures": [
+          "bed",
+          "beg"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "bed",
+      "red",
+      "fed",
+      "leg",
+      "peg",
+      "beg"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u04_1",
+        "desc": "Dusk, orange and purple sky. Grumble has slipped while sneaking over the stepping stones and sits holding his hind leg, which is swollen big and tied with a red cloth, his face scrunched; his lantern tipped beside him still glows. Bun and Hedgie hurry over the stones; Pip flutters above saying a word backwards; Beads peeks from a lily pad. Hidden in the picture: the big leg, the red cloth.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Grumble has a big leg!",
+            "audio": "sb2_u04_1_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Ouch! My leg!",
+            "audio": "sb2_u04_1_2"
+          },
+          {
+            "who": "pip",
+            "text": "Deb! Deb?",
+            "audio": "sb2_u04_1_3"
+          }
+        ],
+        "task": "Find the big leg!",
+        "task_ko": "큰 다리를 찾아요"
+      },
+      {
+        "id": "sb2_u04_2",
+        "desc": "On the bank Bun and Hedgie have built a little bed of soft reeds with a red blanket and a white pillow; Beads threads b-e-d and a row of stones rises so they can carry Grumble to it. They tuck Grumble in with his leg propped on a cushion, nightcap askew, lantern glowing on a stump; Pip pats his paw. Hidden in the picture: the bed, the red blanket.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/b/ /e/ /d/ bed!",
+            "audio": "sb2_u04_2_1"
+          },
+          {
+            "who": "bun",
+            "text": "A little bed! A red bed!",
+            "audio": "sb2_u04_2_2"
+          },
+          {
+            "who": "hedgie",
+            "text": "Grumble is in the bed.",
+            "audio": "sb2_u04_2_3"
+          }
+        ],
+        "task": "Find the -ed words!",
+        "task_ko": "-ed 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u04_3",
+        "desc": "Night by the bed in lantern light. Hedgie feeds Grumble soup with a spoon; a puppy sits up begging beside the bed; Grumble's wet nightcap hangs on a line held by a wooden peg. Grumble's grumpy face has softened into a shy smile and he hugs the pillow, hoping to keep the bed. Pip sits on the bed's end looking at the sleeping cat on the bank, beak half open, thinking hard. Hidden in the picture: the fed puppy's bowl, the begging puppy, the peg, the leg on the cushion.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Hedgie fed Grumble.",
+            "audio": "sb2_u04_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... It is my bed?",
+            "audio": "sb2_u04_3_2"
+          },
+          {
+            "who": "pip",
+            "text": "C... a... t...?",
+            "audio": "sb2_u04_3_3"
+          }
+        ],
+        "task": "Find the -eg words!",
+        "task_ko": "-eg 단어를 찾아요"
+      }
+    ]
+  }
+}

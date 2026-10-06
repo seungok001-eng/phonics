@@ -1,0 +1,567 @@
+{
+  "unit": 2,
+  "title": "The Cap and the Bag",
+  "title_ko": "모자와 가방",
+  "vowel": "a",
+  "families": [
+    "ap",
+    "ag"
+  ],
+  "words": {
+    "ap": [
+      "cap",
+      "map",
+      "nap",
+      "tap"
+    ],
+    "ag": [
+      "bag",
+      "tag",
+      "rag",
+      "wag"
+    ]
+  },
+  "sight_words": [
+    "is",
+    "in"
+  ],
+  "objectives_ko": [
+    "짧은 모음 a(æ) 소리를 알고 -ap·-ag 단어를 소리를 이어 읽는다",
+    "-ap·-ag 단어 8개를 읽고 그림과 잇고 쓴다",
+    "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
+    "사이트워드 is, in를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Blend and Read",
+      "title_ko": "합치기·단어",
+      "pages": [
+        {
+          "type": "blend",
+          "family": "ap",
+          "title": "-ap words"
+        },
+        {
+          "type": "blend",
+          "family": "ag",
+          "title": "-ag words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letter."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The cap is in the bag.",
+      "audio": "b2_u02_s1",
+      "pic": "word_cap",
+      "words": [
+        "cap",
+        "bag"
+      ]
+    },
+    {
+      "text": "A map and a tap!",
+      "audio": "b2_u02_s2",
+      "pic": "word_map",
+      "words": [
+        "map",
+        "tap"
+      ]
+    },
+    {
+      "text": "The rag is on the mat.",
+      "audio": "b2_u02_s3",
+      "pic": "word_rag",
+      "words": [
+        "rag",
+        "mat"
+      ]
+    },
+    {
+      "text": "The tag is on the bag.",
+      "audio": "b2_u02_s4",
+      "pic": "word_tag",
+      "words": [
+        "tag",
+        "bag"
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Cap and the Bag",
+    "bgm": "b2_u2_story",
+    "panels": [
+      {
+        "id": "scene_b2_u02_1",
+        "desc": "A windy day at the Word Pond: leaves and reeds bend in the gust. Bun's blue baseball cap and Hedgie's red backpack have been blown off the stepping stones into the pond and float away on the water, the cap sitting on top of the bag; an unrolled paper map slides out of the bag's pocket. Hedgie reaches out from the stones with both paws in despair; Bun holds her ears; Pip tries to shout the word but says it backwards, feathers blown sideways; Beads clings to a reed. Hidden in the picture: the cap, the bag, the map. Grumble does NOT appear.",
+        "hidden": [
+          "cap",
+          "bag",
+          "map"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "My bag!",
+            "audio": "b2_u02_l1"
+          },
+          {
+            "who": "bun",
+            "text": "The cap is on the bag.",
+            "audio": "b2_u02_l2"
+          },
+          {
+            "who": "pip",
+            "text": "Pac! Pac?",
+            "audio": "b2_u02_l3"
+          }
+        ],
+        "video": "vid_b2_u02_1"
+      },
+      {
+        "id": "scene_b2_u02_2",
+        "desc": "Beads threads three beads together and a new stepping stone rises right under the floating cap, lifting it out of the water; Bun hops onto the stone and grabs the cap. On the bank the orange cat is curled up having a nap on the green mat, a snore bubble over its head; a silver water tap on a wooden post drips beside it; the paper map lies drying on a rock. Pip claps its wings. Hidden in the picture: the cap, the napping cat, the tap, the map. Grumble does NOT appear.",
+        "hidden": [
+          "cap",
+          "nap",
+          "tap",
+          "map"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /æ/ /p/ cap!",
+            "audio": "blend_cap",
+            "pop": "cap"
+          },
+          {
+            "who": "narrator",
+            "text": "Click-clack! The cap!",
+            "audio": "b2_u02_l4"
+          },
+          {
+            "who": "bun",
+            "text": "A map and a tap!",
+            "audio": "b2_u02_l5"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u02_3",
+        "desc": "The red backpack drifts toward the tall reeds. A happy brown dog swims behind it pushing it with its nose, tail wagging with motion lines; a blank paper tag and an old cleaning rag hang from the bag's strap. Beads threads b-a-g from a lily pad. In the reeds, Grumble has hooked the bag's strap with the pole of his lantern and lifts it out of the water, frowning but helping; his lantern glows warm. Hidden in the picture: the bag, the rag, the wagging dog, the tag.",
+        "hidden": [
+          "bag",
+          "rag",
+          "wag",
+          "tag"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/b/ /æ/ /g/ bag!",
+            "audio": "blend_bag",
+            "pop": "bag"
+          },
+          {
+            "who": "narrator",
+            "text": "Wag, wag! The bag!",
+            "audio": "b2_u02_l6"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! A bag!",
+            "audio": "b2_u02_l7"
+          }
+        ],
+        "video": "vid_b2_u02_2"
+      },
+      {
+        "id": "scene_b2_u02_4",
+        "desc": "Hedgie hugs his wet red backpack on the new stepping stones, the paper tag dangling from it; the stone rows now reach further into the pond. Grumble stands half out of the reeds wearing Bun's blue baseball cap on top of his striped nightcap, looking grumpy and a little pleased, lantern glowing; Bun points at him and laughs; Pip hops on Hedgie's bag; Beads rides on the cap's brim. Hidden in the picture: the cap on Grumble, the tag on the bag.",
+        "hidden": [
+          "cap",
+          "tag"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The cap is on Grumble!",
+            "audio": "b2_u02_l8"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my cap!",
+            "audio": "b2_u02_l9"
+          },
+          {
+            "who": "pip",
+            "text": "Pac!",
+            "audio": "b2_u02_l10"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u02_1",
+      "from": "scene_b2_u02_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: a gust bends the reeds, the blue cap and the red backpack bob away on the rippling water, the map slides out and floats, the hedgehog reaches out and the rabbit holds her ears; the baby bird's feathers blow sideways. Camera still. Child-friendly. No text."
+    },
+    {
+      "id": "vid_b2_u02_2",
+      "from": "scene_b2_u02_3",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the brown dog paddles and pushes the floating backpack with its nose, tail wagging fast, the raccoon in the reeds hooks the strap with his lantern pole and lifts it dripping out of the water; the bead caterpillar clicks its beads. Camera still. Playful, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "cap",
+        "pictures": [
+          "cap",
+          "cat",
+          "map"
+        ]
+      },
+      {
+        "word": "bag",
+        "pictures": [
+          "bag",
+          "rag",
+          "bat"
+        ]
+      },
+      {
+        "word": "tap",
+        "pictures": [
+          "tap",
+          "tag",
+          "cap"
+        ]
+      },
+      {
+        "word": "wag",
+        "pictures": [
+          "wag",
+          "bag",
+          "fan"
+        ]
+      },
+      {
+        "word": "map",
+        "pictures": [
+          "map",
+          "mat",
+          "nap"
+        ]
+      },
+      {
+        "word": "rag",
+        "pictures": [
+          "rag",
+          "bag",
+          "tag"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "nap"
+      },
+      {
+        "word": "tap"
+      },
+      {
+        "word": "tag"
+      },
+      {
+        "word": "cap"
+      }
+    ],
+    "write": [
+      {
+        "word": "cap",
+        "missing": 2
+      },
+      {
+        "word": "bag",
+        "missing": 1
+      },
+      {
+        "word": "map",
+        "missing": 0
+      },
+      {
+        "word": "rag",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "cap",
+        "pictures": [
+          "cap",
+          "map",
+          "cat"
+        ]
+      },
+      {
+        "word": "bag",
+        "pictures": [
+          "bag",
+          "tag",
+          "bat"
+        ]
+      },
+      {
+        "word": "nap",
+        "pictures": [
+          "nap",
+          "map",
+          "tap"
+        ]
+      },
+      {
+        "word": "wag",
+        "pictures": [
+          "wag",
+          "rag",
+          "bag"
+        ]
+      },
+      {
+        "word": "tap",
+        "pictures": [
+          "tap",
+          "cap",
+          "tag"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "cap",
+        "missing": 0
+      },
+      {
+        "word": "map",
+        "missing": 1
+      },
+      {
+        "word": "nap",
+        "missing": 2
+      },
+      {
+        "word": "tap",
+        "missing": 0
+      },
+      {
+        "word": "bag",
+        "missing": 1
+      },
+      {
+        "word": "tag",
+        "missing": 2
+      },
+      {
+        "word": "rag",
+        "missing": 0
+      },
+      {
+        "word": "wag",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "ap": [
+        "cap",
+        "map",
+        "nap",
+        "tap"
+      ],
+      "ag": [
+        "bag",
+        "tag",
+        "rag",
+        "wag"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The cap is in the bag.",
+        "pictures": [
+          "cap",
+          "hat"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "The cat is in a nap.",
+        "pictures": [
+          "tap",
+          "nap"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "I see a tap.",
+        "pictures": [
+          "tap",
+          "map"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "The tag is on the bag.",
+        "pictures": [
+          "rag",
+          "tag"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "cap",
+      "map",
+      "tap",
+      "bag",
+      "tag",
+      "rag"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u02_1",
+        "desc": "A windy day: reeds bend and leaves fly. Bun's blue cap and Hedgie's red backpack have blown into the pond and float away, the cap on top of the bag; a paper map slides out of the bag. Hedgie reaches out from the stones in despair; Bun holds her ears; Pip says the word backwards with its feathers blown sideways; Beads clings to a reed. Hidden in the picture: the cap, the bag, the map. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "My bag!",
+            "audio": "sb2_u02_1_1"
+          },
+          {
+            "who": "bun",
+            "text": "The cap is on the bag.",
+            "audio": "sb2_u02_1_2"
+          },
+          {
+            "who": "pip",
+            "text": "Pac! Pac?",
+            "audio": "sb2_u02_1_3"
+          }
+        ],
+        "task": "Find the -ap words!",
+        "task_ko": "-ap 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u02_2",
+        "desc": "Beads threads c-a-p and a new stepping stone rises right under the floating cap; Bun hops onto it and grabs the cap. On the bank the orange cat naps on the green mat with a snore bubble; a silver tap on a wooden post drips beside it; the map dries on a rock. Hidden in the picture: the cap, the napping cat, the tap, the map. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /æ/ /p/ cap!",
+            "audio": "sb2_u02_2_1"
+          },
+          {
+            "who": "narrator",
+            "text": "Click-clack! The cap!",
+            "audio": "sb2_u02_2_2"
+          },
+          {
+            "who": "bun",
+            "text": "A map and a tap!",
+            "audio": "sb2_u02_2_3"
+          }
+        ],
+        "task": "Find the -ap words!",
+        "task_ko": "-ap 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u02_3",
+        "desc": "The red backpack drifts to the reeds; a brown dog swims behind pushing it with its nose, tail wagging; a paper tag and an old rag hang from the strap. In the reeds Grumble has hooked the strap with his lantern pole and lifts the bag out — and now wears Bun's blue cap on top of his nightcap, grumpy but pleased; Bun laughs and points; Hedgie hugs his wet bag on the stones. Hidden in the picture: the bag, the rag, the wagging dog, the tag.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/b/ /æ/ /g/ bag!",
+            "audio": "sb2_u02_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my cap!",
+            "audio": "sb2_u02_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Cluck, cluck, cluck! Oh no!",
+            "audio": "sb2_u02_3_3"
+          }
+        ],
+        "task": "Find the -ag words!",
+        "task_ko": "-ag 단어를 찾아요"
+      }
+    ]
+  }
+}

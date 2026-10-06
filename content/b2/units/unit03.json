@@ -1,0 +1,572 @@
+{
+  "unit": 3,
+  "title": "Ten Hens in a Net",
+  "title_ko": "그물 속 암탉 열 마리",
+  "vowel": "e",
+  "families": [
+    "et",
+    "en"
+  ],
+  "words": {
+    "et": [
+      "net",
+      "pet",
+      "wet",
+      "jet",
+      "vet"
+    ],
+    "en": [
+      "hen",
+      "pen",
+      "ten",
+      "den"
+    ]
+  },
+  "sight_words": [
+    "has",
+    "and"
+  ],
+  "objectives_ko": [
+    "짧은 모음 e(e) 소리를 알고 -et·-en 단어를 소리를 이어 읽는다",
+    "-et·-en 단어 9개를 읽고 그림과 잇고 쓴다",
+    "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
+    "사이트워드 has, and를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Blend and Read",
+      "title_ko": "합치기·단어",
+      "pages": [
+        {
+          "type": "blend",
+          "family": "et",
+          "title": "-et words"
+        },
+        {
+          "type": "blend",
+          "family": "en",
+          "title": "-en words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letter."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The hen has a pen.",
+      "audio": "b2_u03_s1",
+      "pic": "word_hen",
+      "words": [
+        "hen",
+        "pen"
+      ]
+    },
+    {
+      "text": "The net has ten hens.",
+      "audio": "b2_u03_s2",
+      "pic": "scene_b2_u03_2",
+      "words": [
+        "net",
+        "ten",
+        "hen"
+      ]
+    },
+    {
+      "text": "The pet is wet.",
+      "audio": "b2_u03_s3",
+      "pic": "word_wet",
+      "words": [
+        "pet",
+        "wet"
+      ]
+    },
+    {
+      "text": "A jet and a vet!",
+      "audio": "b2_u03_s4",
+      "pic": "word_jet",
+      "words": [
+        "jet",
+        "vet"
+      ]
+    }
+  ],
+  "story": {
+    "title": "Ten Hens in a Net",
+    "bgm": "b2_u3_story",
+    "panels": [
+      {
+        "id": "scene_b2_u03_1",
+        "desc": "The bank of the Word Pond is full of flapping brown hens with red combs — ten of them — running in every direction with feathers flying. A butterfly net with a wooden handle lies on the sand; high above, a white jet plane draws a vapor trail across the sky. Bun points at the net; Pip, trying to say the word, has shouted it backwards and now stares at all the hens that came running; Hedgie covers his head; Beads peeks from a lily pad. Hidden in the picture: the net, a hen, ten hens, the jet. Grumble does NOT appear.",
+        "hidden": [
+          "net",
+          "hen",
+          "ten",
+          "jet"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I see a net.",
+            "audio": "b2_u03_l1"
+          },
+          {
+            "who": "pip",
+            "text": "Ten! Ten?",
+            "audio": "b2_u03_l2"
+          },
+          {
+            "who": "narrator",
+            "text": "Ten hens! Oh no!",
+            "audio": "b2_u03_l3"
+          }
+        ],
+        "video": "vid_b2_u03_1"
+      },
+      {
+        "id": "scene_b2_u03_2",
+        "desc": "Beads threads n-e-t and the butterfly net sinks into the water and rises as a wide flat stepping stone with a net pattern on it; the ten hens hop onto it in a crowd, clucking happily. On the bank an orange goldfish swims in a round glass bowl, and a dripping wet brown puppy shakes off water drops next to it, splashing Hedgie. Bun laughs; Pip glows. Hidden in the picture: the net stone, the goldfish bowl, the wet puppy, the ten hens. Grumble does NOT appear.",
+        "hidden": [
+          "net",
+          "pet",
+          "wet",
+          "ten"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/n/ /e/ /t/ net!",
+            "audio": "blend_net",
+            "pop": "net"
+          },
+          {
+            "who": "hedgie",
+            "text": "The net has ten hens!",
+            "audio": "b2_u03_l4"
+          },
+          {
+            "who": "bun",
+            "text": "The pet is wet!",
+            "audio": "b2_u03_l5"
+          }
+        ],
+        "video": "vid_b2_u03_2"
+      },
+      {
+        "id": "scene_b2_u03_3",
+        "desc": "One brown hen stands on a stepping stone holding a blue ballpoint pen in her beak, scribbling a wavy line on a lily pad; Hedgie giggles. Beads threads h-e-n beside her. At the edge of the reeds there is a cozy den — a round hole under a tree root — and Grumble's masked face peeks out of it with his lantern glowing inside the den, frowning at the noisy hens. Hidden in the picture: the hen, the pen, the den.",
+        "hidden": [
+          "hen",
+          "pen",
+          "den"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/h/ /e/ /n/ hen!",
+            "audio": "blend_hen",
+            "pop": "hen"
+          },
+          {
+            "who": "hedgie",
+            "text": "The hen has a pen!",
+            "audio": "b2_u03_l6"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my den!",
+            "audio": "b2_u03_l7"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u03_4",
+        "desc": "The ten hens walk in a neat line across the new -et and -en stepping stones toward a big flat stone where a kind owl veterinarian in a white coat and round glasses waits with a stethoscope, gently checking the first hen. A toy jet plane lies on the stone beside the vet's bag. Pip sits on the net stone, thinking hard with one wing on its beak; Beads clicks its beads; Bun and Hedgie count the hens on their paws. Hidden in the picture: the vet, the ten hens, the jet, the net. Grumble does NOT appear.",
+        "hidden": [
+          "vet",
+          "ten",
+          "jet",
+          "net"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The vet has ten hens.",
+            "audio": "b2_u03_l8"
+          },
+          {
+            "who": "pip",
+            "text": "Net? Ten? Net!",
+            "audio": "b2_u03_l9"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Ten and net!",
+            "audio": "b2_u03_l10"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b2_u03_1",
+      "from": "scene_b2_u03_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: ten brown hens flap and run in all directions with feathers floating down, the jet plane slides slowly across the sky leaving its trail, the baby bird stares with its beak open, the hedgehog covers his head. Camera still. Funny, child-friendly. No text."
+    },
+    {
+      "id": "vid_b2_u03_2",
+      "from": "scene_b2_u03_2",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the butterfly net sinks and rises as a wide stepping stone with a sparkle, the hens hop onto it one after another, the wet puppy shakes and water drops fly, the goldfish circles in its bowl. Camera still. Child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "net",
+        "pictures": [
+          "net",
+          "nap",
+          "pet"
+        ]
+      },
+      {
+        "word": "hen",
+        "pictures": [
+          "hen",
+          "pen",
+          "hat"
+        ]
+      },
+      {
+        "word": "jet",
+        "pictures": [
+          "jet",
+          "net",
+          "wet"
+        ]
+      },
+      {
+        "word": "ten",
+        "pictures": [
+          "ten",
+          "hen",
+          "tap"
+        ]
+      },
+      {
+        "word": "vet",
+        "pictures": [
+          "vet",
+          "pet",
+          "van"
+        ]
+      },
+      {
+        "word": "den",
+        "pictures": [
+          "den",
+          "pen",
+          "hen"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "pet"
+      },
+      {
+        "word": "pen"
+      },
+      {
+        "word": "jet"
+      },
+      {
+        "word": "hen"
+      }
+    ],
+    "write": [
+      {
+        "word": "net",
+        "missing": 1
+      },
+      {
+        "word": "hen",
+        "missing": 0
+      },
+      {
+        "word": "pen",
+        "missing": 2
+      },
+      {
+        "word": "wet",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "net",
+        "pictures": [
+          "net",
+          "hen",
+          "pet"
+        ]
+      },
+      {
+        "word": "hen",
+        "pictures": [
+          "hen",
+          "pen",
+          "ten"
+        ]
+      },
+      {
+        "word": "jet",
+        "pictures": [
+          "jet",
+          "wet",
+          "vet"
+        ]
+      },
+      {
+        "word": "pen",
+        "pictures": [
+          "pen",
+          "pan",
+          "pet"
+        ]
+      },
+      {
+        "word": "wet",
+        "pictures": [
+          "wet",
+          "net",
+          "vet"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "net",
+        "missing": 0
+      },
+      {
+        "word": "pet",
+        "missing": 1
+      },
+      {
+        "word": "wet",
+        "missing": 2
+      },
+      {
+        "word": "jet",
+        "missing": 0
+      },
+      {
+        "word": "hen",
+        "missing": 1
+      },
+      {
+        "word": "pen",
+        "missing": 2
+      },
+      {
+        "word": "ten",
+        "missing": 0
+      },
+      {
+        "word": "den",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "et": [
+        "net",
+        "pet",
+        "wet",
+        "jet",
+        "vet"
+      ],
+      "en": [
+        "hen",
+        "pen",
+        "ten",
+        "den"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The hen has a pen.",
+        "pictures": [
+          "pen",
+          "hen"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "The pet is wet.",
+        "pictures": [
+          "wet",
+          "jet"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "I see ten hens.",
+        "pictures": [
+          "den",
+          "ten"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "The vet has a net.",
+        "pictures": [
+          "vet",
+          "pet"
+        ],
+        "answer": 0
+      }
+    ],
+    "write": [
+      "net",
+      "pet",
+      "jet",
+      "hen",
+      "pen",
+      "ten"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb2_u03_1",
+        "desc": "The bank is full of ten flapping brown hens running everywhere with feathers flying. A butterfly net lies on the sand; a white jet plane draws a trail across the sky. Bun points at the net; Pip has shouted the word backwards and stares at all the hens that came running; Hedgie covers his head; Beads peeks from a lily pad. Hidden in the picture: the net, a hen, ten hens, the jet. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I see a net.",
+            "audio": "sb2_u03_1_1"
+          },
+          {
+            "who": "pip",
+            "text": "Ten! Ten?",
+            "audio": "sb2_u03_1_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Ten hens! Oh no!",
+            "audio": "sb2_u03_1_3"
+          }
+        ],
+        "task": "Find the -et words!",
+        "task_ko": "-et 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u03_2",
+        "desc": "Beads threads n-e-t and the net sinks and rises as a wide net-patterned stepping stone; the ten hens crowd onto it clucking. On the bank an orange goldfish swims in a round bowl, and a dripping wet puppy shakes off water drops, splashing Hedgie; Bun laughs; Pip glows. Hidden in the picture: the net stone, the goldfish bowl, the wet puppy, the ten hens. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/n/ /e/ /t/ net!",
+            "audio": "sb2_u03_2_1"
+          },
+          {
+            "who": "hedgie",
+            "text": "The net has ten hens!",
+            "audio": "sb2_u03_2_2"
+          },
+          {
+            "who": "bun",
+            "text": "The pet is wet!",
+            "audio": "sb2_u03_2_3"
+          }
+        ],
+        "task": "Find the -et words!",
+        "task_ko": "-et 단어를 찾아요"
+      },
+      {
+        "id": "sb2_u03_3",
+        "desc": "A hen on a stepping stone holds a blue pen in her beak and scribbles on a lily pad; Hedgie giggles. At the reeds a cozy den under a tree root: Grumble's masked face peeks out with his lantern glowing inside, frowning at the noise. Beyond, the ten hens walk in a line toward the kind owl vet waiting on a big stone with a stethoscope and a toy jet. Hidden in the picture: the hen, the pen, the den, the vet, the jet.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The hen has a pen!",
+            "audio": "sb2_u03_3_1"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my den!",
+            "audio": "sb2_u03_3_2"
+          },
+          {
+            "who": "narrator",
+            "text": "Ouch! Oh no, Grumble!",
+            "audio": "sb2_u03_3_3"
+          }
+        ],
+        "task": "Find the -en words!",
+        "task_ko": "-en 단어를 찾아요"
+      }
+    ]
+  }
+}
