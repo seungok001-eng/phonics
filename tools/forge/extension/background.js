@@ -47,13 +47,19 @@ async function setStatus(text) {
 }
 
 async function getConfig() {
-  return await chrome.storage.local.get([
+  const cfg = await chrome.storage.local.get([
     "token",
     "refreshToken",
     "running",
     "supabaseUrl",
     "workerId",
   ]);
+  // [교재 공방] 게임 공방 주소(8765)가 저장돼 있으면 교재 공방(8766)으로 바로잡는다
+  if (cfg.supabaseUrl && /:8765\b/.test(cfg.supabaseUrl)) {
+    cfg.supabaseUrl = cfg.supabaseUrl.replace(":8765", ":8766");
+    await chrome.storage.local.set({ supabaseUrl: cfg.supabaseUrl });
+  }
+  return cfg;
 }
 
 async function refreshAccessToken() {

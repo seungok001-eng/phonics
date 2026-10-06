@@ -5,7 +5,9 @@ const dotEl = document.getElementById("dot");
 const connStatusEl = document.getElementById("connStatus");
 
 async function loadState() {
-  const { supabaseUrl, running, lastStatus } = await chrome.storage.local.get(["supabaseUrl", "running", "lastStatus"]);
+  let { supabaseUrl, running, lastStatus } = await chrome.storage.local.get(["supabaseUrl", "running", "lastStatus"]);
+  // 게임 공방 주소(8765)가 남아 있으면 교재 공방(8766)으로 바로잡는다 (2026-10-06 실제로 생긴 혼동)
+  if (supabaseUrl && /:8765\b/.test(supabaseUrl)) { supabaseUrl = supabaseUrl.replace(":8765", ":8766"); await chrome.storage.local.set({ supabaseUrl }); }
   if (supabaseUrl) serverEl.value = supabaseUrl;
   dotEl.classList.add(running ? "on" : "off");
   connStatusEl.textContent = running ? "자동화 실행 중" : "중지됨";

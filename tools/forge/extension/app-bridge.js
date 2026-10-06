@@ -1,4 +1,4 @@
-const SUPABASE_URL = "http://localhost:8765"; // [캐릭터 공방] 로컬 서버
+const SUPABASE_URL = "http://localhost:8766"; // [교재 공방] 로컬 서버 (StudioForge 웹앱 메시지용, 우리 화면에서는 안 쓴다)
 
 // background.js 가 401 을 감지하면 이 content script 에 REQUEST_FRESH_TOKEN 을 보낸다.
 // 그러면 우리는 페이지 안(MAIN world)의 ExtensionTokenBridge 에 window.postMessage 로
