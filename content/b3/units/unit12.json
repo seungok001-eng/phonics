@@ -1,0 +1,701 @@
+{
+  "unit": 12,
+  "title": "The Forest Show",
+  "title_ko": "숲 공연",
+  "vowel": null,
+  "families": [],
+  "words": {},
+  "sight_words": [],
+  "review": {
+    "families": [
+      "sh",
+      "ch",
+      "th",
+      "ck",
+      "ng",
+      "bl",
+      "cl",
+      "fl",
+      "br",
+      "cr",
+      "dr",
+      "sn",
+      "st",
+      "sp",
+      "sw",
+      "-nd",
+      "-nt",
+      "-st",
+      "-mp",
+      "wh",
+      "qu"
+    ],
+    "words": [
+      "ship",
+      "shop",
+      "shell",
+      "shed",
+      "fish",
+      "dish",
+      "chin",
+      "chip",
+      "chop",
+      "chess",
+      "bench",
+      "lunch",
+      "thin",
+      "thumb",
+      "bath",
+      "path",
+      "moth",
+      "duck",
+      "sock",
+      "rock",
+      "lock",
+      "ring",
+      "king",
+      "wing",
+      "song",
+      "block",
+      "black",
+      "clock",
+      "clap",
+      "clam",
+      "clip",
+      "flag",
+      "flip",
+      "brick",
+      "brush",
+      "crab",
+      "crib",
+      "crack",
+      "drum",
+      "dress",
+      "snack",
+      "sniff",
+      "stick",
+      "stack",
+      "spot",
+      "spill",
+      "swim",
+      "swing",
+      "hand",
+      "sand",
+      "pond",
+      "tent",
+      "ant",
+      "plant",
+      "nest",
+      "vest",
+      "chest",
+      "lamp",
+      "stamp",
+      "chimp",
+      "whisk",
+      "whip",
+      "quilt",
+      "quack",
+      "quill",
+      "quick"
+    ],
+    "test": {
+      "read_circle": [
+        {
+          "word": "ship",
+          "pictures": [
+            "ship",
+            "chip",
+            "whip"
+          ]
+        },
+        {
+          "word": "thin",
+          "pictures": [
+            "thin",
+            "chin",
+            "swing"
+          ]
+        },
+        {
+          "word": "sock",
+          "pictures": [
+            "sock",
+            "snack",
+            "stick"
+          ]
+        },
+        {
+          "word": "clam",
+          "pictures": [
+            "clam",
+            "crab",
+            "lamp"
+          ]
+        },
+        {
+          "word": "drum",
+          "pictures": [
+            "drum",
+            "duck",
+            "dress"
+          ]
+        },
+        {
+          "word": "quilt",
+          "pictures": [
+            "quilt",
+            "quill",
+            "clip"
+          ]
+        }
+      ],
+      "match": [
+        {
+          "word": "bench"
+        },
+        {
+          "word": "king"
+        },
+        {
+          "word": "flag"
+        },
+        {
+          "word": "nest"
+        }
+      ],
+      "write": [
+        {
+          "word": "fish",
+          "missing": 2
+        },
+        {
+          "word": "chop",
+          "missing": 0
+        },
+        {
+          "word": "brick",
+          "missing": 0
+        },
+        {
+          "word": "lamp",
+          "missing": 2
+        }
+      ]
+    },
+    "blend": [
+      {
+        "word": "shell",
+        "missing": 0
+      },
+      {
+        "word": "lunch",
+        "missing": 3
+      },
+      {
+        "word": "moth",
+        "missing": 2
+      },
+      {
+        "word": "ring",
+        "missing": 2
+      },
+      {
+        "word": "block",
+        "missing": 0
+      },
+      {
+        "word": "crab",
+        "missing": 0
+      },
+      {
+        "word": "swim",
+        "missing": 0
+      },
+      {
+        "word": "tent",
+        "missing": 2
+      }
+    ],
+    "sort": {
+      "sh": [
+        "ship",
+        "shop",
+        "fish"
+      ],
+      "ch": [
+        "chin",
+        "chip",
+        "lunch"
+      ],
+      "cl": [
+        "clock",
+        "clap",
+        "clam"
+      ],
+      "cr": [
+        "crab",
+        "crib",
+        "crack"
+      ],
+      "-st": [
+        "nest",
+        "vest",
+        "chest"
+      ]
+    }
+  },
+  "show": {
+    "song": {
+      "title": "Pip's Pair Song",
+      "bgm": "song_backing",
+      "lines": [
+        {
+          "text": "S and h! /ʃ/ /ʃ/ /ʃ/!",
+          "audio": "b3_u12_s01"
+        },
+        {
+          "text": "Ship, shop, shell, shed!",
+          "audio": "b3_u12_s02"
+        },
+        {
+          "text": "Fish and dish! Together!",
+          "audio": "b3_u12_s03"
+        },
+        {
+          "text": "C and h! /tʃ/ /tʃ/ /tʃ/!",
+          "audio": "b3_u12_s04"
+        },
+        {
+          "text": "Chin, chip, chop, chess!",
+          "audio": "b3_u12_s05"
+        },
+        {
+          "text": "Bench and lunch! Together!",
+          "audio": "b3_u12_s06"
+        },
+        {
+          "text": "T and h! /θ/ /θ/ /θ/!",
+          "audio": "b3_u12_s07"
+        },
+        {
+          "text": "Thin, thumb, bath, path, moth!",
+          "audio": "b3_u12_s08"
+        },
+        {
+          "text": "C and k! /k/ /k/ /k/!",
+          "audio": "b3_u12_s09"
+        },
+        {
+          "text": "Duck, sock, rock, lock!",
+          "audio": "b3_u12_s10"
+        },
+        {
+          "text": "N and g! /ŋ/ /ŋ/ /ŋ/!",
+          "audio": "b3_u12_s11"
+        },
+        {
+          "text": "Ring, king, wing, song!",
+          "audio": "b3_u12_s12"
+        },
+        {
+          "text": "/bl/ /kl/ /fl/! Together!",
+          "audio": "b3_u12_s13"
+        },
+        {
+          "text": "Block, black, clock, clap, clam!",
+          "audio": "b3_u12_s14"
+        },
+        {
+          "text": "Clip, flag, flip! Clap, clap!",
+          "audio": "b3_u12_s15"
+        },
+        {
+          "text": "/br/ /kr/ /dr/! Together!",
+          "audio": "b3_u12_s16"
+        },
+        {
+          "text": "Brick, brush, crab, crib, crack!",
+          "audio": "b3_u12_s17"
+        },
+        {
+          "text": "Drum and dress! Boom, boom!",
+          "audio": "b3_u12_s18"
+        },
+        {
+          "text": "/sn/ /st/ /sp/ /sw/!",
+          "audio": "b3_u12_s19"
+        },
+        {
+          "text": "Snack, sniff, stick, stack!",
+          "audio": "b3_u12_s20"
+        },
+        {
+          "text": "Spot, spill, swim, swing!",
+          "audio": "b3_u12_s21"
+        },
+        {
+          "text": "/nd/ /nt/ /st/ /mp/!",
+          "audio": "b3_u12_s22"
+        },
+        {
+          "text": "Hand, sand, pond! Tent, ant, plant!",
+          "audio": "b3_u12_s23"
+        },
+        {
+          "text": "Nest, vest, chest! Lamp, stamp, chimp!",
+          "audio": "b3_u12_s24"
+        },
+        {
+          "text": "W and h! /w/ /w/ /w/!",
+          "audio": "b3_u12_s25"
+        },
+        {
+          "text": "Whisk and whip! Whoosh!",
+          "audio": "b3_u12_s26"
+        },
+        {
+          "text": "Q and u! /kw/ /kw/ /kw/!",
+          "audio": "b3_u12_s27"
+        },
+        {
+          "text": "Quilt, quack, quill, quick!",
+          "audio": "b3_u12_s28"
+        },
+        {
+          "text": "Sh! Ch! Th! Together!",
+          "audio": "b3_u12_s29"
+        },
+        {
+          "text": "Pip can sing! La la la!",
+          "audio": "b3_u12_s30"
+        }
+      ]
+    },
+    "hunt": {
+      "rounds": [
+        {
+          "family": "sh",
+          "scene": "scene_b3_u01_3",
+          "words": [
+            "ship",
+            "shop",
+            "shell",
+            "dish",
+            "fish"
+          ]
+        },
+        {
+          "family": "ch",
+          "scene": "scene_b3_u02_2",
+          "words": [
+            "chip",
+            "chin",
+            "lunch"
+          ]
+        },
+        {
+          "family": "th",
+          "scene": "scene_b3_u03_4",
+          "words": [
+            "bath",
+            "moth",
+            "thumb",
+            "path"
+          ]
+        },
+        {
+          "family": "ng",
+          "scene": "scene_b3_u04_4",
+          "words": [
+            "ring",
+            "wing",
+            "song",
+            "king"
+          ]
+        },
+        {
+          "family": "cl",
+          "scene": "scene_b3_u06_3",
+          "words": [
+            "clock",
+            "clap",
+            "clam",
+            "clip"
+          ]
+        },
+        {
+          "family": "cr",
+          "scene": "scene_b3_u07_3",
+          "words": [
+            "crack",
+            "crib",
+            "crab"
+          ]
+        },
+        {
+          "family": "st",
+          "scene": "scene_b3_u08_4",
+          "words": [
+            "stack",
+            "stick"
+          ]
+        },
+        {
+          "family": "-nt",
+          "scene": "scene_b3_u09_2",
+          "words": [
+            "tent",
+            "ant",
+            "plant"
+          ]
+        }
+      ]
+    },
+    "recap": [
+      {
+        "unit": 0,
+        "scene": "scene_b3_u00_2",
+        "line": {
+          "who": "twins",
+          "text": "Together! Hi, Pip!",
+          "audio": "b3_u00_l5",
+          "ko": "함께! 안녕, 핍!"
+        },
+        "ko": "숲에서 쌍둥이 파랑새 핌과 팜을 만났어요."
+      },
+      {
+        "unit": 1,
+        "scene": "scene_b3_u01_2",
+        "line": {
+          "who": "grumble",
+          "text": "SHH!",
+          "audio": "b3_u01_l5",
+          "ko": "쉬잇!"
+        },
+        "ko": "그럼블의 \"쉿!\"이 바로 sh 소리라서 첫 번째 문이 열렸어요."
+      },
+      {
+        "unit": 2,
+        "scene": "scene_b3_u02_2",
+        "line": {
+          "who": "twins",
+          "text": "Together! /tʃ/ /tʃ/ chip!",
+          "audio": "b3_u02_l4",
+          "ko": "함께! /tʃ/ /tʃ/ 감자칩!"
+        },
+        "ko": "점심 도둑 다람쥐를 찾고 감자칩을 나눠 먹었어요."
+      },
+      {
+        "unit": 3,
+        "scene": "scene_b3_u03_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... This bath is hot.",
+          "audio": "b3_u03_l9",
+          "ko": "쉿… 이 목욕물 따뜻하네."
+        },
+        "ko": "진흙에 빠진 그럼블에게 거품 목욕을 해 줬어요."
+      },
+      {
+        "unit": 4,
+        "scene": "scene_b3_u04_4",
+        "line": {
+          "who": "narrator",
+          "text": "The king can sing a song!",
+          "audio": "b3_u04_l9",
+          "ko": "왕이 노래를 불러요!"
+        },
+        "ko": "양말 속 반지를 찾아 주자 오리 왕이 노래했어요."
+      },
+      {
+        "unit": 5,
+        "scene": "scene_b3_u05_3",
+        "line": {
+          "who": "pip",
+          "text": "Sh! Sh! SH!",
+          "audio": "b3_u05_l8",
+          "ko": "쉬! 쉬! 쉬이! (sh!)"
+        },
+        "ko": "핍의 첫 짝꿍 소리 \"sh!\""
+      },
+      {
+        "unit": 6,
+        "scene": "scene_b3_u06_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh! ...Clap, clap.",
+          "audio": "b3_u06_l10",
+          "ko": "쉿! …짝, 짝."
+        },
+        "ko": "시계를 고치자 그럼블이 몰래 손뼉을 쳤어요."
+      },
+      {
+        "unit": 7,
+        "scene": "scene_b3_u07_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh! Not the drum!",
+          "audio": "b3_u07_l10",
+          "ko": "쉿! 북은 안 돼!"
+        },
+        "ko": "아기 새가 태어나고 그럼블이 등불을 걸어 줬어요."
+      },
+      {
+        "unit": 8,
+        "scene": "scene_b3_u08_4",
+        "line": {
+          "who": "twins",
+          "text": "Two for Grumble! Together!",
+          "audio": "b3_u08_l10",
+          "ko": "그럼블은 두 개! 함께!"
+        },
+        "ko": "그네로 시내를 건너 그럼블과 간식을 나눴어요."
+      },
+      {
+        "unit": 9,
+        "scene": "scene_b3_u09_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh! I said shh! Ha, ha!",
+          "audio": "b3_u09_l10",
+          "ko": "쉿! \"쉿\" 하랬지! 하하!"
+        },
+        "ko": "침팬지에게 램프를 주고 등불을 되찾았어요."
+      },
+      {
+        "unit": 10,
+        "scene": "scene_b3_u10_4",
+        "line": {
+          "who": "narrator",
+          "text": "Pip can sing the song!",
+          "audio": "b3_u10_l10",
+          "ko": "핍이 노래해요!"
+        },
+        "ko": "핍이 마지막 문을 열고 노래 조각 셋을 찾았어요."
+      },
+      {
+        "unit": 11,
+        "scene": "scene_b3_u11_4",
+        "line": {
+          "who": "hedgie",
+          "text": "Cap? It is not cap!",
+          "audio": "b3_u11_l11",
+          "ko": "캡? 캡이 아니야!"
+        },
+        "ko": "숲 끝에서 단어가 바뀌는 성문을 봤어요."
+      }
+    ],
+    "certificate": {
+      "title": "Pair Forest Certificate",
+      "text": "can read sound pairs!",
+      "text_ko": "두 글자 한 소리와 이어 소리를 읽을 수 있어요"
+    }
+  },
+  "objectives_ko": [
+    "짝꿍 소리 21개를 노래(핍의 짝꿍 노래)로 한 번에 읽는다",
+    "숲길을 짝꿍 순서대로 걷고 장면 그림에서 짝꿍 단어를 찾는다",
+    "12장면으로 이야기 전체를 되짚으며 대사를 따라 말한다(공연)",
+    "전체 복습 평가를 보고 짝꿍 숲 수료증을 받는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Pip's Pair Song",
+      "title_ko": "핍의 짝꿍 노래",
+      "pages": [
+        {
+          "type": "word_song",
+          "title": "Pip's Pair Song"
+        },
+        {
+          "type": "bridge_path",
+          "title": "Walk the forest path."
+        },
+        {
+          "type": "word_hunt",
+          "title": "Word hunt"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_blend",
+          "title": "A. Blend and write the pairs."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "The Show",
+      "title_ko": "숲 공연",
+      "pages": [
+        {
+          "type": "story_recap",
+          "title": "The Forest Show"
+        },
+        {
+          "type": "review_test",
+          "title": "Review Test"
+        },
+        {
+          "type": "certificate",
+          "title": "Certificate"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_words",
+          "title": "B. Read and sort the pairs."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Forest Show",
+    "bgm": "bgm_finale",
+    "panels": [
+      {
+        "id": "scene_b3_u12_1",
+        "desc": "Grand finale in the Pair Forest at golden sunset: a round stage made of black wooden blocks stands in the glade behind the last door, with strings of little flags and glowing lamps overhead and the open round doors of the forest glowing along the path behind. Pip stands at the front of the stage singing with its beak wide open and golden notes streaming up; Pim and Pam sing side by side next to Pip; Grumble sits beside them beating the crab's drum with two sticks, grinning, his lantern hanging above the stage like a bright star; Beads stands on a tall stick conducting with a string of rainbow beads; Bun and Hedgie dance on either side. All the forest friends clap from the grass: the three chipmunks, the Duck King and his ducks, the crab, the chimp with its little lamp, the moth and the fluffy baby bird. Far away on a hill, a castle gate glows softly.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Look! The Forest Show!",
+            "audio": "b3_u12_l1",
+            "ko": "봐요! 숲 공연이에요!"
+          },
+          {
+            "who": "twins",
+            "text": "Together! Sh, ch, th!",
+            "audio": "b3_u12_l2",
+            "ko": "함께! 쉬, 치, 스!"
+          },
+          {
+            "who": "both",
+            "text": "We can read! Hooray!",
+            "audio": "b3_u12_l3",
+            "ko": "우리는 읽을 수 있어요! 만세!"
+          }
+        ],
+        "ko": "노을 진 풀밭, 까만 블록 무대에서 핍이 노래하고 핌과 팜이 함께 불러요. 그럼블은 게의 북을 둥둥, 비즈는 지휘해요. 숲 친구들이 모두 손뼉을 치고, 저 멀리 성문이 은은하게 빛나요.",
+        "ask": [
+          {
+            "en": "Who is on the stage?",
+            "ko": "무대에 누가 있어?"
+          },
+          {
+            "en": "What is far away?",
+            "ko": "저 멀리 뭐가 보여?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "마지막 문 너머 풀밭의 블록 무대에서 숲 공연이 열려요. 핍과 핌·팜이 짝꿍 노래를 부르고 그럼블이 북을 쳐요. 숲 친구들이 모두 손뼉을 쳐요. 저 멀리 성문이 빛나요.",
+    "so_far_ko": "숲 파티에서 그럼블이 북을 쳤고, 숲 끝에서 단어가 바뀌는 성문을 봤어요.",
+    "goal_ko": "짝꿍 노래를 부르고, 이야기를 되짚고, 수료증을 받아요."
+  },
+  "videos": [],
+  "storybook": {
+    "pages": []
+  }
+}

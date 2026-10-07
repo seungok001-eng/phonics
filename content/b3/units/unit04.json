@@ -1,0 +1,651 @@
+{
+  "unit": 4,
+  "title": "The Duck King's Ring",
+  "title_ko": "오리 왕의 반지",
+  "vowel": null,
+  "families": [
+    "ck",
+    "ng"
+  ],
+  "words": {
+    "ck": [
+      "duck",
+      "sock",
+      "rock",
+      "lock"
+    ],
+    "ng": [
+      "ring",
+      "king",
+      "wing",
+      "song"
+    ]
+  },
+  "sight_words": [
+    "what",
+    "are"
+  ],
+  "objectives_ko": [
+    "ck(/k/)·ng(/ŋ/)가 두 글자 한 소리라는 것을 알고 말한다",
+    "ck·ng 단어 8개(duck sock rock lock ring king wing song)를 소리를 이어 읽고 그림과 잇고 쓴다",
+    "빠진 짝꿍(ck·ng)·모음을 듣고 쓴다",
+    "사이트워드 what, are를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Pairs and Blending",
+      "title_ko": "짝꿍·합치기",
+      "pages": [
+        {
+          "type": "digraph",
+          "family": "ck",
+          "title": "Say the pair: ck"
+        },
+        {
+          "type": "digraph",
+          "family": "ng",
+          "title": "Say the pair: ng"
+        },
+        {
+          "type": "blend",
+          "families": [
+            "ck",
+            "ng"
+          ],
+          "title": "Blend and read."
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing part."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The duck is on the rock.",
+      "audio": "b3_u04_s1",
+      "pic": "word_duck",
+      "words": [
+        "duck",
+        "rock"
+      ]
+    },
+    {
+      "text": "A ring is in the sock.",
+      "audio": "b3_u04_s2",
+      "pic": "word_ring",
+      "words": [
+        "ring",
+        "sock"
+      ]
+    },
+    {
+      "text": "The king can sing a song.",
+      "audio": "b3_u04_s3",
+      "pic": "word_song",
+      "words": [
+        "king",
+        "song"
+      ]
+    },
+    {
+      "text": "What is it? A lock!",
+      "audio": "b3_u04_s4",
+      "pic": "word_lock",
+      "words": [
+        "lock"
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Duck King's Ring",
+    "bgm": "bgm_bright",
+    "panels": [
+      {
+        "id": "scene_b3_u04_1",
+        "desc": "A sunny pond in the middle of the Pair Forest. A small yellow duck wearing a tiny golden crown — the Duck King — sits sadly on a big grey rock in the water, holding up one empty wing. On the bank stands a small wooden door with a golden padlock on it; the two letters c and k are carved on the door — the ONLY text allowed in the picture. Bun points at the padlock; Hedgie scratches his head; Pip says the two letters apart; Pim and Pam sit on the door frame. A red-and-white striped sock hangs on a reed. Hidden in the picture: the duck, the rock, the padlock, the striped sock, the little king with his crown. Grumble does NOT appear.",
+        "hidden": [
+          "duck",
+          "rock",
+          "lock",
+          "sock",
+          "king"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "What is that? A lock!",
+            "audio": "b3_u04_l1",
+            "ko": "저게 뭐지? 자물쇠야!"
+          },
+          {
+            "who": "narrator",
+            "text": "The king is sad.",
+            "audio": "b3_u04_l2",
+            "ko": "왕이 슬퍼요."
+          },
+          {
+            "who": "pip",
+            "text": "C... k...? C... k...?",
+            "audio": "b3_u04_l3",
+            "ko": "크… 크…? 크… 크…?"
+          }
+        ],
+        "video": "vid_b3_u04_1",
+        "ko": "숲속 연못, 작은 왕관을 쓴 오리 왕이 바위 위에서 슬퍼해요. 둑에는 자물쇠 달린 c·k 문. 핍은 \"크… 크…\"",
+        "ask": [
+          {
+            "en": "Who is on the rock?",
+            "ko": "바위 위에 누가 있어?"
+          },
+          {
+            "en": "What is on the door?",
+            "ko": "문에 뭐가 달려 있어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u04_2",
+        "desc": "Pim and Pam say the sound together with one sharp click, and the golden padlock pops open and falls; the little door swings open. Inside is a tiny round room full of socks hanging on lines, and in the middle hangs one red-and-white striped sock with something glinting inside it. Beads holds up three beads; Bun and Hedgie lean in; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the duck.",
+        "hidden": [
+          "lock",
+          "sock",
+          "duck"
+        ],
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /k/ /k/ lock!",
+            "audio": "b3_u04_l4",
+            "pop": "ck",
+            "ko": "함께! /k/ /k/ 자물쇠!"
+          },
+          {
+            "who": "beads",
+            "text": "/l/ /ɑ/ /k/ lock!",
+            "audio": "blend_lock",
+            "pop": "lock",
+            "ko": "/l/ /ɑ/ /k/ 자물쇠!"
+          },
+          {
+            "who": "narrator",
+            "text": "Click! Socks are in here!",
+            "audio": "b3_u04_l5",
+            "ko": "딸깍! 여기 양말들이 있어요!"
+          }
+        ],
+        "video": "vid_b3_u04_2",
+        "ko": "핌과 팜이 함께 /k/! 딸깍, 자물쇠가 열려요. 문 안은 양말이 가득한 작은 방! 줄무늬 양말 하나가 반짝여요.",
+        "ask": [
+          {
+            "en": "What pops open?",
+            "ko": "뭐가 열렸어?"
+          },
+          {
+            "en": "What is in the room?",
+            "ko": "방 안에 뭐가 가득해?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u04_3",
+        "desc": "Hedgie pulls the striped sock off its line and turns it upside down: a small gold ring with a blue gem drops into his paw, sparkling. Pim and Pam hum the sound together and the ring rings like a tiny bell, little sound waves around it; Pip, beak open, tries and says the two letters apart again; the Duck King claps his wings. Hidden in the picture: the ring, the sock, the little king with his crown, his wings.",
+        "hidden": [
+          "ring",
+          "sock",
+          "king",
+          "wing"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Look! A ring in a sock!",
+            "audio": "b3_u04_l6",
+            "ko": "봐! 양말 속에 반지!"
+          },
+          {
+            "who": "twins",
+            "text": "Together! /ŋ/ /ŋ/ ring!",
+            "audio": "b3_u04_l7",
+            "pop": "ng",
+            "ko": "함께! /ŋ/ /ŋ/ 반지!"
+          },
+          {
+            "who": "pip",
+            "text": "N... g...? N... g...?",
+            "audio": "b3_u04_l8",
+            "ko": "느… 그…? 느… 그…?"
+          }
+        ],
+        "ko": "헤지가 양말을 뒤집자 파란 보석 반지가 툭! 핌과 팜이 함께 /ŋ/~ 반지가 종처럼 울려요. 핍은 또 \"느… 그…\"",
+        "ask": [
+          {
+            "en": "What is in the sock?",
+            "ko": "양말 속에 뭐가 있었어?"
+          },
+          {
+            "en": "What does Pip say?",
+            "ko": "핍은 뭐라고 해?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u04_4",
+        "desc": "The Duck King wears the ring on a ribbon around his neck, stands tall on the rock and spreads both wings wide, singing a happy song with colorful music notes floating up. Bun and Hedgie dance on the bank; Pim and Pam sing along; Beads sways. Up in the tree, Grumble leans over his branch with a paw at his mouth, but his eyes are closed and his foot taps to the song. Hidden in the picture: the duck, the ring, the wings, the song notes, the little king, the rock.",
+        "hidden": [
+          "duck",
+          "ring",
+          "wing",
+          "song",
+          "king",
+          "rock"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The king can sing a song!",
+            "audio": "b3_u04_l9",
+            "ko": "왕이 노래를 불러요!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! ... La, la...",
+            "audio": "b3_u04_l10",
+            "ko": "쉿! …라, 라…"
+          },
+          {
+            "who": "both",
+            "text": "What a song! Quack!",
+            "audio": "b3_u04_l11",
+            "ko": "멋진 노래야! 꽥!"
+          }
+        ],
+        "ko": "오리 왕이 반지를 목에 걸고 날개를 활짝 펴 노래해요. 나무 위 그럼블은 \"쉿!\" 하면서도 발을 까딱까딱.",
+        "ask": [
+          {
+            "en": "What does the king do?",
+            "ko": "왕은 뭘 해?"
+          },
+          {
+            "en": "Does Grumble like the song?",
+            "ko": "그럼블은 노래가 좋은가 봐?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "오리 왕의 반지가 자물쇠 달린 c·k 문 안에 있어요. 핌과 팜이 /k/! 자물쇠가 열리고 양말 방에서 반지를 찾아요. /ŋ/~ 반지가 종처럼 울리고, 오리 왕이 노래해요. 나무 위 그럼블도 발을 까딱까딱.",
+    "so_far_ko": "가느다란 오솔길의 th 문을 열고, 진흙에 빠진 그럼블에게 거품 목욕을 해 줬어요.",
+    "goal_ko": "ck /k/ 와 ng /ŋ/ 를 말해 자물쇠를 열고 오리 왕의 반지를 찾아요."
+  },
+  "videos": [
+    {
+      "id": "vid_b3_u04_1",
+      "from": "scene_b3_u04_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: a small duck wearing a tiny golden crown sits sadly on a rock in the pond and sighs, ripples spread, a striped sock sways on a reed, the rabbit points at the golden padlock on a little door. Camera still. Gentle, child-friendly. No text."
+    },
+    {
+      "id": "vid_b3_u04_2",
+      "from": "scene_b3_u04_2",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the twin bluebirds say the sound together, the golden padlock clicks open and drops, the little door swings open onto a room full of socks hanging on lines, and one striped sock glints. Camera still. Surprising, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "duck",
+        "pictures": [
+          "duck",
+          "dish",
+          "sock"
+        ]
+      },
+      {
+        "word": "ring",
+        "pictures": [
+          "ring",
+          "king",
+          "rock"
+        ]
+      },
+      {
+        "word": "sock",
+        "pictures": [
+          "sock",
+          "shop",
+          "song"
+        ]
+      },
+      {
+        "word": "king",
+        "pictures": [
+          "king",
+          "ring",
+          "chin"
+        ]
+      },
+      {
+        "word": "rock",
+        "pictures": [
+          "rock",
+          "lock",
+          "ring"
+        ]
+      },
+      {
+        "word": "wing",
+        "pictures": [
+          "wing",
+          "ring",
+          "thin"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "lock"
+      },
+      {
+        "word": "song"
+      },
+      {
+        "word": "king"
+      },
+      {
+        "word": "sock"
+      }
+    ],
+    "write": [
+      {
+        "word": "duck",
+        "missing": 2
+      },
+      {
+        "word": "ring",
+        "missing": 2
+      },
+      {
+        "word": "rock",
+        "missing": 0
+      },
+      {
+        "word": "song",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "duck",
+        "pictures": [
+          "duck",
+          "sock",
+          "king"
+        ]
+      },
+      {
+        "word": "song",
+        "pictures": [
+          "song",
+          "ring",
+          "shop"
+        ]
+      },
+      {
+        "word": "lock",
+        "pictures": [
+          "lock",
+          "rock",
+          "chop"
+        ]
+      },
+      {
+        "word": "wing",
+        "pictures": [
+          "wing",
+          "king",
+          "thin"
+        ]
+      },
+      {
+        "word": "sock",
+        "pictures": [
+          "sock",
+          "song",
+          "shell"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "duck",
+        "missing": 2
+      },
+      {
+        "word": "sock",
+        "missing": 2
+      },
+      {
+        "word": "rock",
+        "missing": 1
+      },
+      {
+        "word": "lock",
+        "missing": 2
+      },
+      {
+        "word": "ring",
+        "missing": 2
+      },
+      {
+        "word": "king",
+        "missing": 0
+      },
+      {
+        "word": "wing",
+        "missing": 2
+      },
+      {
+        "word": "song",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "ck": [
+        "duck",
+        "sock",
+        "rock",
+        "lock"
+      ],
+      "ng": [
+        "ring",
+        "king",
+        "wing",
+        "song"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The duck is on the rock.",
+        "pictures": [
+          "duck",
+          "ring"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "A ring is in the sock.",
+        "pictures": [
+          "lock",
+          "ring"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "The socks are red.",
+        "pictures": [
+          "sock",
+          "king"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "What is it? A lock!",
+        "pictures": [
+          "song",
+          "lock"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "duck",
+      "sock",
+      "lock",
+      "ring",
+      "king",
+      "wing"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb3_u04_1",
+        "desc": "A sunny pond in the forest. A small yellow duck wearing a tiny golden crown — the Duck King — sits sadly on a big grey rock, holding up one empty wing. On the bank stands a small wooden door with a golden padlock and the two letters c and k carved on it — the ONLY text allowed in the picture. Bun points at the padlock; Pip says the two letters apart; Pim and Pam sit on the door frame; a striped sock hangs on a reed. Hidden in the picture: the duck, the rock, the padlock, the sock, the little king. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "What is that? A lock!",
+            "audio": "sb3_u04_1_1",
+            "ko": "저게 뭐지? 자물쇠야!"
+          },
+          {
+            "who": "narrator",
+            "text": "The king is sad.",
+            "audio": "sb3_u04_1_2",
+            "ko": "왕이 슬퍼요."
+          },
+          {
+            "who": "pip",
+            "text": "C... k...? C... k...?",
+            "audio": "sb3_u04_1_3",
+            "ko": "크… 크…? 크… 크…?"
+          }
+        ],
+        "task": "Find the ck words!",
+        "task_ko": "ck 단어를 찾아요",
+        "ko": "오리 왕이 바위 위에서 슬퍼해요. 둑에는 자물쇠 달린 c·k 문. 핍은 \"크… 크…\""
+      },
+      {
+        "id": "sb3_u04_2",
+        "desc": "The golden padlock has popped open and the little door stands open onto a tiny round room full of socks hanging on lines. Hedgie has turned one striped sock upside down and a gold ring with a blue gem drops into his paw, sparkling; Pim and Pam sit side by side on the door; Beads clicks its beads; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the ring, the duck.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /k/ /k/ lock!",
+            "audio": "sb3_u04_2_1",
+            "ko": "함께! /k/ /k/ 자물쇠!"
+          },
+          {
+            "who": "narrator",
+            "text": "Click! Socks are in here!",
+            "audio": "sb3_u04_2_2",
+            "ko": "딸깍! 여기 양말들이 있어요!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Look! A ring in a sock!",
+            "audio": "sb3_u04_2_3",
+            "ko": "봐! 양말 속에 반지!"
+          }
+        ],
+        "task": "Find the ring!",
+        "task_ko": "반지를 찾아요",
+        "ko": "딸깍! 자물쇠가 열리고 양말 방이 나와요. 줄무늬 양말 속에 반지가 있었어요!"
+      },
+      {
+        "id": "sb3_u04_3",
+        "desc": "The Duck King wears the ring on a ribbon, stands tall on the rock and spreads both wings, singing a happy song with colorful music notes floating up; Bun and Hedgie dance; Pim and Pam sing along; up in the tree Grumble taps his foot with his eyes closed. In front, Pip sits alone on a mossy stump with its eyes squeezed shut, trying hard, two separate little puffs coming out of its beak. Hidden in the picture: the ring, the wings, the song notes, the little king.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The king can sing a song!",
+            "audio": "sb3_u04_3_1",
+            "ko": "왕이 노래를 불러요!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! ... La, la...",
+            "audio": "sb3_u04_3_2",
+            "ko": "쉿! …라, 라…"
+          },
+          {
+            "who": "pip",
+            "text": "S... h... S... h...?",
+            "audio": "sb3_u04_3_3",
+            "ko": "스… 흐… 스… 흐…?"
+          }
+        ],
+        "task": "Find the ng words!",
+        "task_ko": "ng 단어를 찾아요",
+        "ko": "오리 왕이 날개를 펴고 노래해요. 그럼블도 발을 까딱까딱. 핍은 혼자 \"스… 흐…\" 애써요."
+      }
+    ]
+  }
+}

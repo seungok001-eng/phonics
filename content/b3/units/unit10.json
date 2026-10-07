@@ -1,0 +1,633 @@
+{
+  "unit": 10,
+  "title": "The Last Door",
+  "title_ko": "마지막 문",
+  "vowel": null,
+  "families": [
+    "wh",
+    "qu"
+  ],
+  "words": {
+    "wh": [
+      "whisk",
+      "whip"
+    ],
+    "qu": [
+      "quilt",
+      "quack",
+      "quill",
+      "quick"
+    ]
+  },
+  "sight_words": [
+    "where",
+    "who"
+  ],
+  "objectives_ko": [
+    "wh(/w/)·qu(/kw/) 짝꿍 소리를 말한다",
+    "단어 6개(whisk whip quilt quack quill quick)를 소리를 이어 읽고 그림과 잇고 쓴다",
+    "빠진 짝꿍·모음을 듣고 쓴다",
+    "사이트워드 where, who를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Pairs and Blending",
+      "title_ko": "짝꿍·합치기",
+      "pages": [
+        {
+          "type": "digraph",
+          "family": "wh",
+          "title": "Say the pair: wh"
+        },
+        {
+          "type": "digraph",
+          "family": "qu",
+          "title": "Say the pair: qu"
+        },
+        {
+          "type": "blend",
+          "families": [
+            "wh",
+            "qu"
+          ],
+          "title": "Blend and read."
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing part."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Where is the quilt?",
+      "audio": "b3_u10_s1",
+      "pic": "word_quilt",
+      "words": [
+        "quilt"
+      ]
+    },
+    {
+      "text": "Who has a whisk?",
+      "audio": "b3_u10_s2",
+      "pic": "word_whisk",
+      "words": [
+        "whisk"
+      ]
+    },
+    {
+      "text": "The duck can quack.",
+      "audio": "b3_u10_s3",
+      "pic": "word_quack",
+      "words": [
+        "quack"
+      ]
+    },
+    {
+      "text": "Quick! Look at the quill!",
+      "audio": "b3_u10_s4",
+      "pic": "word_quill",
+      "words": [
+        "quick",
+        "quill"
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Last Door",
+    "bgm": "bgm_finale",
+    "panels": [
+      {
+        "id": "scene_b3_u10_1",
+        "desc": "A windy evening at the very end of the Pair Forest. The path ends at two tall trees, and between them hangs a huge patchwork quilt like a curtain, flapping in the wind; on the quilt the two letters q and u are stitched — the ONLY text allowed in the picture. Leaves whirl. Bun holds her floppy ear down; Hedgie hugs a tree; Pip says the two letters in the wrong order; Pim and Pam cling to each other. A duck's head pokes out under the edge of the quilt, beak wide open, quacking. Hidden in the picture: the quilt, the quacking duck.",
+        "hidden": [
+          "quilt",
+          "quack"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Where is the last door?",
+            "audio": "b3_u10_l1",
+            "ko": "마지막 문은 어디 있지?"
+          },
+          {
+            "who": "hedgie",
+            "text": "Quack? Who is that?",
+            "audio": "b3_u10_l2",
+            "ko": "꽥? 누구지?"
+          },
+          {
+            "who": "pip",
+            "text": "Uq? Uq? Uqilt?",
+            "audio": "b3_u10_l3",
+            "ko": "우크? 우크? 우킬트?"
+          }
+        ],
+        "ko": "바람 부는 저녁, 숲의 맨 끝. 두 나무 사이에 q·u 가 수놓인 커다란 누비이불이 커튼처럼 펄럭여요. 이불 밑에서 \"꽥!\"",
+        "ask": [
+          {
+            "en": "What hangs between the trees?",
+            "ko": "나무 사이에 뭐가 걸려 있어?"
+          },
+          {
+            "en": "What do they hear?",
+            "ko": "무슨 소리가 들려?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u10_2",
+        "desc": "Pim and Pam say the sound together and the big quilt lifts up like a stage curtain. Behind it, the Duck King and a row of ducks quack happily, and there stands the last door of the forest: a tall round wooden door in a wall of roots, with the two letters w and h carved on it — together with q and u on the quilt, these are the ONLY text allowed in the picture. Its knocker is a big silver kitchen whisk, and a little rope whip hangs on a hook beside it. A small cheetah cub dashes past with speed lines. Beads clicks four beads. Hidden in the picture: the quilt, the quacking ducks, the whisk, the whip, the quick cheetah cub.",
+        "hidden": [
+          "quilt",
+          "quack",
+          "whisk",
+          "whip",
+          "quick"
+        ],
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /kw/ /kw/ quilt!",
+            "audio": "b3_u10_l4",
+            "pop": "qu",
+            "ko": "함께! /kw/ /kw/ 누비이불!"
+          },
+          {
+            "who": "beads",
+            "text": "/kw/ /ɪ/ /l/ /t/ quilt!",
+            "audio": "blend_quilt",
+            "pop": "quilt",
+            "ko": "/kw/ /ɪ/ /l/ /t/ 누비이불!"
+          },
+          {
+            "who": "narrator",
+            "text": "Quack, quack! The last door!",
+            "audio": "b3_u10_l5",
+            "ko": "꽥꽥! 마지막 문이에요!"
+          }
+        ],
+        "ko": "핌과 팜이 /kw/! 이불이 무대 막처럼 올라가요. 뒤에는 꽥꽥 오리들과 w·h 가 새겨진 마지막 문! 문고리는 커다란 거품기예요.",
+        "ask": [
+          {
+            "en": "What is behind the quilt?",
+            "ko": "이불 뒤에 뭐가 있었어?"
+          },
+          {
+            "en": "What is the door knocker?",
+            "ko": "문고리는 뭐야?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u10_3",
+        "desc": "The wind dies down. Pip flies up to the last door alone, takes a deep breath and says the sound by itself on the very first try, knocking with the big silver whisk; Pim and Pam, Bun, Hedgie and Beads stand behind it cheering together. The last door bursts open and golden light pours out over the friends. Hidden in the picture: the whisk, the whip on its hook, the quilt.",
+        "hidden": [
+          "whisk",
+          "whip",
+          "quilt"
+        ],
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Pip! You can do it!",
+            "audio": "b3_u10_l6",
+            "ko": "핍! 넌 할 수 있어!"
+          },
+          {
+            "who": "pip",
+            "text": "/w/ /w/ whisk!",
+            "audio": "b3_u10_l7",
+            "pop": "wh",
+            "ko": "/w/ /w/ 거품기!"
+          },
+          {
+            "who": "narrator",
+            "text": "Whoosh! Pop! Look!",
+            "audio": "b3_u10_l8",
+            "ko": "휘익! 펑! 봐요!"
+          }
+        ],
+        "video": "vid_b3_u10_1",
+        "ko": "바람이 멎었어요. 핍이 혼자 마지막 문 앞에 날아가 거품기 문고리를 두드리며 \"/w/ /w/ whisk!\" 한 번에 말해요. 문이 활짝 열리고 금빛이 쏟아져요.",
+        "ask": [
+          {
+            "en": "Who opens the last door?",
+            "ko": "누가 마지막 문을 열었어?"
+          },
+          {
+            "en": "What pours out?",
+            "ko": "문에서 뭐가 쏟아져?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u10_4",
+        "desc": "Behind the last door is a quiet round glade. A single big glowing golden music note rises from the grass and floats into Pip, who stands on a stump singing with its beak wide open and little golden notes streaming out. Grumble has come down from the trees and stands with the friends; with his eyes closed and a paw on his heart he hums along; Pim and Pam sing beside Pip; Bun and Hedgie hold paws; Beads sways; the ducks quack along and a white feather quill drifts down; the cheetah cub dashes in circles. Hidden in the picture: the quacking ducks, the feather quill, the quilt, the quick cheetah cub.",
+        "hidden": [
+          "quack",
+          "quill",
+          "quilt",
+          "quick"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Ship! Chip! Ring! Swing! Song!",
+            "audio": "b3_u10_l9",
+            "ko": "배! 감자칩! 반지! 그네! 노래!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip can sing the song!",
+            "audio": "b3_u10_l10",
+            "ko": "핍이 노래해요!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... La, la, la!",
+            "audio": "b3_u10_l11",
+            "ko": "쉿… 라, 라, 라!"
+          }
+        ],
+        "video": "vid_b3_u10_2",
+        "ko": "마지막 문 너머, 풀밭에서 금빛 음표가 솟아 핍에게 들어가요. 노래 조각 셋! 핍이 노래하고, 내려온 그럼블도 눈을 감고 따라 흥얼거려요.",
+        "ask": [
+          {
+            "en": "What goes into Pip?",
+            "ko": "핍에게 뭐가 들어갔어?"
+          },
+          {
+            "en": "What does Grumble do?",
+            "ko": "그럼블은 뭘 해?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "숲의 맨 끝, 커다란 누비이불이 바람에 펄럭여요. 핌과 팜이 /kw/! 이불이 올라가자 꽥꽥 오리들과 마지막 문이 나타나요. 핍이 혼자 \"/w/ /w/ whisk!\" — 마지막 문이 열리고 노래 조각 셋이 핍에게 들어가요. 그럼블도 눈을 감고 따라 흥얼거려요.",
+    "so_far_ko": "침팬지에게 램프를 주고 그럼블의 등불을 되찾았어요.",
+    "goal_ko": "wh·qu 를 말해 숲의 마지막 문을 열고 노래 조각 셋을 찾아요."
+  },
+  "videos": [
+    {
+      "id": "vid_b3_u10_1",
+      "from": "scene_b3_u10_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the baby bird flies up to the tall round door, knocks with the big silver whisk knocker, and the door bursts open with golden light pouring over the cheering friends and the twin bluebirds. Camera still. Joyful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b3_u10_2",
+      "from": "scene_b3_u10_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: a glowing golden music note rises from the grass and floats into the baby bird, which opens its beak and sings with little golden notes streaming out; the old raccoon closes his eyes and hums along, the twin bluebirds sing beside it, ducks bob along. Camera still. Warm, joyful, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "quilt",
+        "pictures": [
+          "quilt",
+          "quill",
+          "quack"
+        ]
+      },
+      {
+        "word": "whisk",
+        "pictures": [
+          "whisk",
+          "whip",
+          "fish"
+        ]
+      },
+      {
+        "word": "quack",
+        "pictures": [
+          "quack",
+          "quick",
+          "duck"
+        ]
+      },
+      {
+        "word": "whip",
+        "pictures": [
+          "whip",
+          "ship",
+          "whisk"
+        ]
+      },
+      {
+        "word": "quill",
+        "pictures": [
+          "quill",
+          "quilt",
+          "clip"
+        ]
+      },
+      {
+        "word": "quick",
+        "pictures": [
+          "quick",
+          "quack",
+          "quilt"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "quilt"
+      },
+      {
+        "word": "whisk"
+      },
+      {
+        "word": "quill"
+      },
+      {
+        "word": "whip"
+      }
+    ],
+    "write": [
+      {
+        "word": "whisk",
+        "missing": 0
+      },
+      {
+        "word": "quilt",
+        "missing": 0
+      },
+      {
+        "word": "quack",
+        "missing": 2
+      },
+      {
+        "word": "whip",
+        "missing": 0
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "whip",
+        "pictures": [
+          "whip",
+          "ship",
+          "chip"
+        ]
+      },
+      {
+        "word": "quilt",
+        "pictures": [
+          "quilt",
+          "quill",
+          "clip"
+        ]
+      },
+      {
+        "word": "whisk",
+        "pictures": [
+          "whisk",
+          "fish",
+          "dish"
+        ]
+      },
+      {
+        "word": "quack",
+        "pictures": [
+          "quack",
+          "duck",
+          "clock"
+        ]
+      },
+      {
+        "word": "quick",
+        "pictures": [
+          "quick",
+          "quill",
+          "quack"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "whisk",
+        "missing": 0
+      },
+      {
+        "word": "whip",
+        "missing": 0
+      },
+      {
+        "word": "quilt",
+        "missing": 0
+      },
+      {
+        "word": "quack",
+        "missing": 2
+      },
+      {
+        "word": "quill",
+        "missing": 1
+      },
+      {
+        "word": "quick",
+        "missing": 2
+      }
+    ],
+    "family": {
+      "wh": [
+        "whisk",
+        "whip"
+      ],
+      "qu": [
+        "quilt",
+        "quack",
+        "quill",
+        "quick"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "Where is the quilt?",
+        "pictures": [
+          "quilt",
+          "whip"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "Who has a whisk?",
+        "pictures": [
+          "quill",
+          "whisk"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "The duck can quack.",
+        "pictures": [
+          "quack",
+          "quilt"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "Quick! Look at the quill!",
+        "pictures": [
+          "whisk",
+          "quill"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "whisk",
+      "whip",
+      "quilt",
+      "quack",
+      "quill",
+      "quick"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb3_u10_1",
+        "desc": "A windy evening at the very end of the forest. Between two tall trees hangs a huge patchwork quilt like a curtain, flapping in the wind, with the two letters q and u stitched on it — the ONLY text allowed in the picture. Leaves whirl; Bun holds her ear down; Hedgie hugs a tree; Pip says the letters in the wrong order; Pim and Pam cling together; a duck's head pokes out under the quilt, quacking. Hidden in the picture: the quilt, the quacking duck.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Where is the last door?",
+            "audio": "sb3_u10_1_1",
+            "ko": "마지막 문은 어디 있지?"
+          },
+          {
+            "who": "hedgie",
+            "text": "Quack? Who is that?",
+            "audio": "sb3_u10_1_2",
+            "ko": "꽥? 누구지?"
+          },
+          {
+            "who": "pip",
+            "text": "Uq? Uq? Uqilt?",
+            "audio": "sb3_u10_1_3",
+            "ko": "우크? 우크? 우킬트?"
+          }
+        ],
+        "task": "Find the qu words!",
+        "task_ko": "qu 단어를 찾아요",
+        "ko": "숲의 맨 끝, q·u 가 수놓인 누비이불이 바람에 펄럭여요. 이불 밑에서 \"꽥!\""
+      },
+      {
+        "id": "sb3_u10_2",
+        "desc": "The quilt has lifted like a stage curtain: ducks quack in a row, and there stands the last door of the forest, a tall round wooden door in a wall of roots carved with the two letters w and h (with q and u on the quilt, the ONLY text allowed), its knocker a big silver whisk, a little rope whip on a hook beside it. Pip flies up alone and knocks with the whisk, saying the sound on the first try, and the door bursts open with golden light; the friends cheer behind. Hidden in the picture: the quilt, the ducks quacking, the whisk, the whip.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /kw/ /kw/ quilt!",
+            "audio": "sb3_u10_2_1",
+            "ko": "함께! /kw/ /kw/ 누비이불!"
+          },
+          {
+            "who": "narrator",
+            "text": "Quack, quack! The last door!",
+            "audio": "sb3_u10_2_2",
+            "ko": "꽥꽥! 마지막 문이에요!"
+          },
+          {
+            "who": "pip",
+            "text": "/w/ /w/ whisk!",
+            "audio": "sb3_u10_2_3",
+            "ko": "/w/ /w/ 거품기!"
+          }
+        ],
+        "task": "Find the wh words!",
+        "task_ko": "wh 단어를 찾아요",
+        "ko": "핌과 팜이 /kw/! 이불이 올라가고 마지막 문이 나타나요. 핍이 혼자 \"/w/ /w/ whisk!\" 문이 활짝 열려요."
+      },
+      {
+        "id": "sb3_u10_3",
+        "desc": "Behind the last door, in a quiet round glade, a big glowing golden music note rises from the grass and floats into Pip, who sings on a stump with its beak wide open and golden notes streaming out; Grumble stands with the friends, eyes closed, paw on his heart, humming along; Pim and Pam sing beside Pip; ducks quack along and a feather quill drifts down. Strings of little flags are being hung between the trees for a party. Hidden in the picture: the golden note, the ducks, the quill, the quilt.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Ship! Chip! Ring! Swing! Song!",
+            "audio": "sb3_u10_3_1",
+            "ko": "배! 감자칩! 반지! 그네! 노래!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... La, la, la!",
+            "audio": "sb3_u10_3_2",
+            "ko": "쉿… 라, 라, 라!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip can sing! A party!",
+            "audio": "sb3_u10_3_3",
+            "ko": "핍이 노래해요! 파티다!"
+          }
+        ],
+        "task": "Find the golden note!",
+        "task_ko": "금빛 음표를 찾아요",
+        "ko": "금빛 음표가 핍에게 들어가요. 노래 조각 셋! 핍이 노래하고 그럼블도 흥얼거려요. 파티 준비가 시작돼요."
+      }
+    ]
+  }
+}

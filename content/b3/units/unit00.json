@@ -1,0 +1,183 @@
+{
+  "unit": 0,
+  "title": "The Pair Forest",
+  "title_ko": "짝꿍 숲",
+  "vowel": null,
+  "families": [],
+  "words": {},
+  "sight_words": [],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Welcome to the Pair Forest",
+      "title_ko": "짝꿍 숲에 온 것을 환영해요",
+      "pages": [
+        {
+          "type": "characters",
+          "title": "Meet the friends!"
+        },
+        {
+          "type": "intro_story",
+          "title": "The Pair Forest"
+        },
+        {
+          "type": "vowels",
+          "title": "Short vowels"
+        },
+        {
+          "type": "alphabet",
+          "title": "The Alphabet Song"
+        }
+      ],
+      "workbook": []
+    }
+  ],
+  "story": {
+    "title": "The Pair Forest",
+    "bgm": "bgm_adventure",
+    "panels": [
+      {
+        "id": "scene_b3_u00_1",
+        "desc": "Pip, Bun, Hedgie and Beads step off the last round stepping stone of the Word Pond onto the far bank and walk into a tall, quiet pine forest of huge friendly trees. A mossy path leads to a giant old tree whose trunk holds a big round wooden door with an iron ring handle; on the door are two small empty round holes side by side, close together. Two tiny identical wisps of pale light float near the holes. Pip hops in front with its beak open, listening; Bun points at the door; Hedgie peeks out from behind Bun, a little worried; Beads rides on Hedgie's flower. Grumble does NOT appear.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is the Pair Forest.",
+            "audio": "b3_u00_l1",
+            "ko": "여기는 짝꿍 숲이에요."
+          },
+          {
+            "who": "bun",
+            "text": "Look! A big door!",
+            "audio": "b3_u00_l2",
+            "ko": "봐! 커다란 문이야!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Sh... sh... Is it Grumble?",
+            "audio": "b3_u00_l3",
+            "ko": "쉬… 쉬… 그럼블이야?"
+          }
+        ],
+        "video": "vid_b3_u00_1",
+        "ko": "징검다리를 건너 숲에 들어서니 커다란 나무에 둥근 문이 있어요. 문에 작은 구멍 둘, 그 옆에 똑같은 불빛 둘. \"쉬… 쉬…\" 소리가 나요.",
+        "ask": [
+          {
+            "en": "What is in the tree?",
+            "ko": "나무에 뭐가 있어?"
+          },
+          {
+            "en": "What do they hear?",
+            "ko": "무슨 소리가 들려?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u00_2",
+        "desc": "Pim and Pam, two tiny twin bluebirds — one with a small red feather tuft, one with a small yellow feather tuft — pop out of the two round holes in the big door at the same moment, side by side with their wingtips touching, beaks open together in a cheerful hello. Pip flutters up to them, delighted; Bun waves; Hedgie's eyes go wide; Beads clicks two of its beads together. High above, among the leafy branches of the giant tree, the tip of Grumble's striped nightcap and the warm glow of his lantern peek out of a cozy treetop bed made of leaves.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is Pim and Pam.",
+            "audio": "b3_u00_l4",
+            "ko": "얘들은 핌과 팜이에요."
+          },
+          {
+            "who": "twins",
+            "text": "Together! Hi, Pip!",
+            "audio": "b3_u00_l5",
+            "ko": "함께! 안녕, 핍!"
+          },
+          {
+            "who": "narrator",
+            "text": "Shh... Look up! A lantern!",
+            "audio": "b3_u00_l6",
+            "ko": "쉿… 위를 봐요! 등불이에요!"
+          }
+        ],
+        "ko": "문 구멍에서 쌍둥이 파랑새 핌과 팜이 동시에 쏙! 둘이 함께 \"안녕!\" 나무 위에 그럼블의 모자와 등불이 보여요.",
+        "ask": [
+          {
+            "en": "Who are Pim and Pam?",
+            "ko": "핌과 팜은 누구야?"
+          },
+          {
+            "en": "What is up in the tree?",
+            "ko": "나무 위에 뭐가 있어?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "징검다리를 건너 숲에 들어서니 커다란 나무에 둥근 문이 있어요. \"쉬… 쉬…\" 소리의 주인은 늘 붙어 다니는 쌍둥이 파랑새 핌과 팜! 나무 위에서 그럼블의 등불이 반짝여요.",
+    "so_far_ko": "2권에서 친구들은 글자를 합쳐 징검다리를 놓고 연못을 건너 노래 조각 둘을 찾았어요. 숲에서 똑같은 소리가 두 번 들렸어요.",
+    "goal_ko": "짝꿍 숲에 들어가 새 친구 핌과 팜을 만나요."
+  },
+  "videos": [
+    {
+      "id": "vid_b3_u00_1",
+      "from": "scene_b3_u00_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the friends step off the last stepping stone into the pine forest, two tiny wisps of pale light pulse twice beside the big round door in the giant tree, leaves sway, the baby bird tilts its head listening. Camera still. Calm, curious, child-friendly. No text."
+    }
+  ],
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb3_u00_1",
+        "desc": "Pip, Bun, Hedgie and Beads step off the last stepping stone of the Word Pond into a tall, quiet pine forest. A mossy path leads to a giant old tree with a big round wooden door in its trunk; two small empty round holes sit side by side on the door, and two tiny identical wisps of pale light float beside them. Bun points; Hedgie peeks from behind Bun; Pip listens with its beak open. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is the Pair Forest.",
+            "audio": "sb3_u00_1_1",
+            "ko": "여기는 짝꿍 숲이에요."
+          },
+          {
+            "who": "bun",
+            "text": "Look! A big door!",
+            "audio": "sb3_u00_1_2",
+            "ko": "봐! 커다란 문이야!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Sh... sh... Is it Grumble?",
+            "audio": "sb3_u00_1_3",
+            "ko": "쉬… 쉬… 그럼블이야?"
+          }
+        ],
+        "task": "Find the door!",
+        "task_ko": "문을 찾아요",
+        "ko": "연못을 건너 숲에 들어섰어요. 커다란 나무에 둥근 문, 그 옆에 똑같은 불빛 둘. 쉬… 쉬…"
+      },
+      {
+        "id": "sb3_u00_2",
+        "desc": "Pim and Pam, two tiny twin bluebirds (one with a red feather tuft, one with a yellow feather tuft), pop out of the two holes in the round door at the same moment, side by side, wingtips touching, saying hello together; Pip flutters up to them, delighted; Bun waves; Beads clicks two beads. High in the leafy branches, the tip of Grumble's striped nightcap and the glow of his lantern peek out of a treetop bed of leaves.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is Pim and Pam.",
+            "audio": "sb3_u00_2_1",
+            "ko": "얘들은 핌과 팜이에요."
+          },
+          {
+            "who": "twins",
+            "text": "Together! Hi, Pip!",
+            "audio": "sb3_u00_2_2",
+            "ko": "함께! 안녕, 핍!"
+          },
+          {
+            "who": "narrator",
+            "text": "Shh... Look up! A lantern!",
+            "audio": "sb3_u00_2_3",
+            "ko": "쉿… 위를 봐요! 등불이에요!"
+          }
+        ],
+        "task": "Find Pim and Pam!",
+        "task_ko": "핌과 팜을 찾아요",
+        "ko": "쌍둥이 파랑새 핌과 팜이 문 구멍에서 쏙! 둘이 함께 \"안녕!\" 나무 위에 그럼블의 등불이 보여요."
+      }
+    ]
+  }
+}

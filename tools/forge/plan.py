@@ -202,7 +202,7 @@ def build_sounds(book, units, bk=1, ipa=None):
     for cid, c in book.get('characters', {}).items():
         t = c.get('catchphrase', '').strip()
         if t and not t.startswith('('):
-            add(_sound(id=f'catch_{cid}', sub='line', title=f"말버릇 · {c.get('ko', cid)}: {t}", text=t, voice=c.get('voice') or nar, unit=0, who=cid))
+            add(_sound(id=(f'catch_{cid}' if bk == 1 else f'catch_b{bk}_{cid}'), sub='line', title=f"말버릇 · {c.get('ko', cid)}: {t}", text=t, voice=c.get('voice') or nar, unit=0, who=cid))
     for x in out: x['book'] = bk
     return out
 

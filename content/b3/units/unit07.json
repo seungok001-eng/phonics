@@ -1,0 +1,656 @@
+{
+  "unit": 7,
+  "title": "The Crab and the Crib",
+  "title_ko": "게와 아기 침대",
+  "vowel": null,
+  "families": [
+    "br",
+    "cr",
+    "dr"
+  ],
+  "words": {
+    "br": [
+      "brick",
+      "brush"
+    ],
+    "cr": [
+      "crab",
+      "crib",
+      "crack"
+    ],
+    "dr": [
+      "drum",
+      "dress"
+    ]
+  },
+  "sight_words": [
+    "with",
+    "for"
+  ],
+  "objectives_ko": [
+    "br·cr·dr 을 두 소리를 빠르게 이어 말한다",
+    "br·cr·dr 단어 7개(brick brush crab crib crack drum dress)를 소리를 이어 읽고 그림과 잇고 쓴다",
+    "빠진 짝꿍·모음을 듣고 쓴다",
+    "사이트워드 with, for를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Pairs and Blending",
+      "title_ko": "짝꿍·합치기",
+      "pages": [
+        {
+          "type": "digraph",
+          "family": "br",
+          "title": "Say the pair: br"
+        },
+        {
+          "type": "digraph",
+          "family": "cr",
+          "title": "Say the pair: cr"
+        },
+        {
+          "type": "digraph",
+          "family": "dr",
+          "title": "Say the pair: dr"
+        },
+        {
+          "type": "blend",
+          "families": [
+            "br",
+            "cr",
+            "dr"
+          ],
+          "title": "Blend and read."
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing part."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "A crab is on the brick.",
+      "audio": "b3_u07_s1",
+      "pic": "word_crab",
+      "words": [
+        "crab",
+        "brick"
+      ]
+    },
+    {
+      "text": "The egg has a crack.",
+      "audio": "b3_u07_s2",
+      "pic": "word_crack",
+      "words": [
+        "crack"
+      ]
+    },
+    {
+      "text": "I like the red dress.",
+      "audio": "b3_u07_s3",
+      "pic": "word_dress",
+      "words": [
+        "dress"
+      ]
+    },
+    {
+      "text": "A drum for the crab!",
+      "audio": "b3_u07_s4",
+      "pic": "word_drum",
+      "words": [
+        "drum",
+        "crab"
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Crab and the Crib",
+    "bgm": "bgm_silly",
+    "panels": [
+      {
+        "id": "scene_b3_u07_1",
+        "desc": "Afternoon. A low wall of red bricks crosses the forest path; in the middle of the wall is a small round door made of bricks with the two letters b and r carved on it — the ONLY text allowed in the picture. On top of the wall sits a small red crab with a toy drum hanging around its neck, snapping its big claws at anyone who comes near. Bun jumps back; Hedgie hides behind her; Pip says the two letters in the wrong order; Pim and Pam hover side by side. A pink dress hangs on a washing line between two trees. Hidden in the picture: the bricks, the crab, the drum, the pink dress.",
+        "hidden": [
+          "brick",
+          "crab",
+          "drum",
+          "dress"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "A crab with a drum!",
+            "audio": "b3_u07_l1",
+            "ko": "북을 멘 게야!"
+          },
+          {
+            "who": "narrator",
+            "text": "Snip! Snip! Snip!",
+            "audio": "b3_u07_l2",
+            "ko": "싹둑! 싹둑! 싹둑!"
+          },
+          {
+            "who": "pip",
+            "text": "Rb? Rb? Rbick?",
+            "audio": "b3_u07_l3",
+            "ko": "르브? 르브? 르빅?"
+          }
+        ],
+        "video": "vid_b3_u07_1",
+        "ko": "빨간 벽돌담이 길을 막았어요. 담 위에서 북을 멘 게가 집게를 싹둑싹둑! 핍은 br 을 거꾸로 \"르브?\"",
+        "ask": [
+          {
+            "en": "What is on the wall?",
+            "ko": "담 위에 뭐가 있어?"
+          },
+          {
+            "en": "What does the crab have?",
+            "ko": "게가 뭘 메고 있어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u07_2",
+        "desc": "Pim and Pam say the two sounds together and the bricks of the little door hop apart one by one and stack themselves neatly beside the path, opening a gap in the wall. The crab, startled, plays a quick drumroll. Beads holds up three beads. Through the gap, under a leafy tree, stands a small wooden baby crib with a soft blue blanket, and in it lies a big white egg. Hidden in the picture: the bricks, the drum, the crib.",
+        "hidden": [
+          "brick",
+          "drum",
+          "crib",
+          "crab"
+        ],
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /br/ /br/ brick!",
+            "audio": "b3_u07_l4",
+            "pop": "br",
+            "ko": "함께! /br/ /br/ 벽돌!"
+          },
+          {
+            "who": "beads",
+            "text": "/br/ /ɪ/ /k/ brick!",
+            "audio": "blend_brick",
+            "pop": "brick",
+            "ko": "/br/ /ɪ/ /k/ 벽돌!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Look! A crib with an egg!",
+            "audio": "b3_u07_l5",
+            "ko": "봐! 알이 든 아기 침대!"
+          }
+        ],
+        "video": "vid_b3_u07_2",
+        "ko": "핌과 팜이 /br/! 벽돌들이 폴짝폴짝 비켜 문이 열려요. 담 너머 나무 아래, 아기 침대에 커다란 알이 있어요.",
+        "ask": [
+          {
+            "en": "What is in the crib?",
+            "ko": "아기 침대에 뭐가 있어?"
+          },
+          {
+            "en": "What do the bricks do?",
+            "ko": "벽돌들은 어떻게 됐어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u07_3",
+        "desc": "The friends gather around the crib. A zigzag crack runs across the white egg and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Hedgie holds his paws together; Bun kneels. Hidden in the picture: the crack in the egg, the crib, the brush, the crab.",
+        "hidden": [
+          "crack",
+          "crib",
+          "brush",
+          "crab"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Crack! Crack! Crack!",
+            "audio": "b3_u07_l6",
+            "ko": "쩍! 쩍! 쩍!"
+          },
+          {
+            "who": "pip",
+            "text": "Rc? No! Cr... crack!",
+            "audio": "b3_u07_l7",
+            "ko": "르크? 아니! 크르… 크랙!"
+          },
+          {
+            "who": "bun",
+            "text": "A little chick! Shh...",
+            "audio": "b3_u07_l8",
+            "ko": "아기 새야! 쉿…"
+          }
+        ],
+        "ko": "알에 쩍 금이 가고 작은 노란 부리가 쏙! 게가 솔로 껍데기를 쓸어 줘요. 핍이 두 번째에 \"크랙!\"",
+        "ask": [
+          {
+            "en": "What comes out of the egg?",
+            "ko": "알에서 뭐가 나와?"
+          },
+          {
+            "en": "What does the crab hold?",
+            "ko": "게는 뭘 들고 있어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u07_4",
+        "desc": "A fluffy little grey baby bird has hatched and sits in the crib under the blue blanket, yawning. The crab lifts its claws to bang its drum in celebration — but Grumble has climbed down the tree and gently puts his paw on the drum, then hangs his glowing lantern on a branch over the crib like a soft night-light. Everyone smiles. Hidden in the picture: the drum, the crib, the pink dress on the washing line, the brush.",
+        "hidden": [
+          "drum",
+          "crib",
+          "dress",
+          "brush"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Drum, drum, drum!",
+            "audio": "b3_u07_l9",
+            "ko": "둥, 둥, 둥!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Not the drum!",
+            "audio": "b3_u07_l10",
+            "ko": "쉿! 북은 안 돼!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A lantern for the crib!",
+            "audio": "b3_u07_l11",
+            "ko": "아기 침대에 등불을!"
+          }
+        ],
+        "ko": "아기 새가 태어났어요! 게가 북을 치려 하자 내려온 그럼블이 \"쉿! 북은 안 돼!\" 그리고 등불을 아기 침대 위에 걸어 줘요.",
+        "ask": [
+          {
+            "en": "Who hatched?",
+            "ko": "누가 태어났어?"
+          },
+          {
+            "en": "What does Grumble hang up?",
+            "ko": "그럼블은 뭘 걸어 줬어?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑. 핌과 팜이 /br/! 벽돌이 비켜나고 아기 침대 속 알에 쩍 금이 가요. 핍은 \"크랙!\"을 두 번째에 바로 말해요. 아기 새가 태어나자 그럼블이 나무에서 내려와 등불을 걸어 줘요.",
+    "so_far_ko": "까만 블록을 치우고 멈춘 시계를 고쳤어요. 그럼블이 몰래 손뼉을 쳤어요.",
+    "goal_ko": "br·cr·dr 을 말해 벽돌문을 열고 아기 새를 지켜 줘요."
+  },
+  "videos": [
+    {
+      "id": "vid_b3_u07_1",
+      "from": "scene_b3_u07_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: a small red crab on top of a brick wall snaps its claws and taps its toy drum, the rabbit jumps back and the hedgehog hides behind her, a pink dress sways on a washing line. Camera still. Playful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b3_u07_2",
+      "from": "scene_b3_u07_2",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the bricks of the little door hop apart one by one and stack neatly beside the path, the crab plays a startled drumroll, and behind the wall a white egg in a small crib wobbles. Camera still. Surprising, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "crab",
+        "pictures": [
+          "crab",
+          "crib",
+          "clam"
+        ]
+      },
+      {
+        "word": "drum",
+        "pictures": [
+          "drum",
+          "dress",
+          "duck"
+        ]
+      },
+      {
+        "word": "brick",
+        "pictures": [
+          "brick",
+          "block",
+          "crack"
+        ]
+      },
+      {
+        "word": "crib",
+        "pictures": [
+          "crib",
+          "crab",
+          "brick"
+        ]
+      },
+      {
+        "word": "dress",
+        "pictures": [
+          "dress",
+          "drum",
+          "chess"
+        ]
+      },
+      {
+        "word": "brush",
+        "pictures": [
+          "brush",
+          "brick",
+          "block"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "crack"
+      },
+      {
+        "word": "drum"
+      },
+      {
+        "word": "brush"
+      },
+      {
+        "word": "crib"
+      }
+    ],
+    "write": [
+      {
+        "word": "crab",
+        "missing": 0
+      },
+      {
+        "word": "drum",
+        "missing": 0
+      },
+      {
+        "word": "brick",
+        "missing": 2
+      },
+      {
+        "word": "dress",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "crab",
+        "pictures": [
+          "crab",
+          "clam",
+          "crib"
+        ]
+      },
+      {
+        "word": "brush",
+        "pictures": [
+          "brush",
+          "brick",
+          "bench"
+        ]
+      },
+      {
+        "word": "dress",
+        "pictures": [
+          "dress",
+          "drum",
+          "chess"
+        ]
+      },
+      {
+        "word": "crack",
+        "pictures": [
+          "crack",
+          "crab",
+          "clock"
+        ]
+      },
+      {
+        "word": "drum",
+        "pictures": [
+          "drum",
+          "duck",
+          "dress"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "brick",
+        "missing": 0
+      },
+      {
+        "word": "brush",
+        "missing": 2
+      },
+      {
+        "word": "crab",
+        "missing": 0
+      },
+      {
+        "word": "crib",
+        "missing": 1
+      },
+      {
+        "word": "crack",
+        "missing": 2
+      },
+      {
+        "word": "drum",
+        "missing": 0
+      },
+      {
+        "word": "dress",
+        "missing": 1
+      },
+      {
+        "word": "crab",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "br": [
+        "brick",
+        "brush"
+      ],
+      "cr": [
+        "crab",
+        "crib",
+        "crack"
+      ],
+      "dr": [
+        "drum",
+        "dress"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "A crab is on the brick.",
+        "pictures": [
+          "crab",
+          "drum"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "The egg has a crack.",
+        "pictures": [
+          "crib",
+          "crack"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "I like the red dress.",
+        "pictures": [
+          "dress",
+          "brush"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "A drum for the crab!",
+        "pictures": [
+          "brick",
+          "drum"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "brick",
+      "brush",
+      "crab",
+      "crib",
+      "drum",
+      "dress"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb3_u07_1",
+        "desc": "Afternoon. A low wall of red bricks crosses the path, with a small round brick door in the middle carved with the two letters b and r — the ONLY text allowed in the picture. On top sits a small red crab with a toy drum around its neck, snapping its claws; Bun jumps back and Hedgie hides behind her; Pip says the letters in the wrong order; Pim and Pam hover. A pink dress hangs on a washing line. Hidden in the picture: the bricks, the crab, the drum, the dress.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "A crab with a drum!",
+            "audio": "sb3_u07_1_1",
+            "ko": "북을 멘 게야!"
+          },
+          {
+            "who": "narrator",
+            "text": "Snip! Snip! Snip!",
+            "audio": "sb3_u07_1_2",
+            "ko": "싹둑! 싹둑! 싹둑!"
+          },
+          {
+            "who": "pip",
+            "text": "Rb? Rb? Rbick?",
+            "audio": "sb3_u07_1_3",
+            "ko": "르브? 르브? 르빅?"
+          }
+        ],
+        "task": "Find the br words!",
+        "task_ko": "br 단어를 찾아요",
+        "ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑! 핍은 br 을 거꾸로 \"르브?\""
+      },
+      {
+        "id": "sb3_u07_2",
+        "desc": "The bricks of the little door have hopped apart and stacked themselves beside the path. Through the gap, under a leafy tree, a big white egg lies in a small wooden baby crib with a blue blanket; a zigzag crack runs across it and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Bun kneels. Hidden in the picture: the bricks, the crib, the crack, the brush, the crab.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /br/ /br/ brick!",
+            "audio": "sb3_u07_2_1",
+            "ko": "함께! /br/ /br/ 벽돌!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Look! A crib with an egg!",
+            "audio": "sb3_u07_2_2",
+            "ko": "봐! 알이 든 아기 침대!"
+          },
+          {
+            "who": "pip",
+            "text": "Rc? No! Cr... crack!",
+            "audio": "sb3_u07_2_3",
+            "ko": "르크? 아니! 크르… 크랙!"
+          }
+        ],
+        "task": "Find the cr words!",
+        "task_ko": "cr 단어를 찾아요",
+        "ko": "핌과 팜이 /br/! 벽돌이 비켜나요. 아기 침대 속 알에 쩍 금이! 핍이 \"크랙!\""
+      },
+      {
+        "id": "sb3_u07_3",
+        "desc": "A fluffy little grey baby bird has hatched and yawns in the crib under the blue blanket; Grumble, who has climbed down the tree, gently holds the crab's drum still with one paw and hangs his glowing lantern over the crib like a night-light; everyone smiles. Nearby on a tree stump, a tall stack of colorful pancakes is steaming. Hidden in the picture: the drum, the crib, the dress on the line, the brush.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh! Not the drum!",
+            "audio": "sb3_u07_3_1",
+            "ko": "쉿! 북은 안 돼!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A lantern for the crib!",
+            "audio": "sb3_u07_3_2",
+            "ko": "아기 침대에 등불을!"
+          },
+          {
+            "who": "narrator",
+            "text": "Sniff, sniff! Yum!",
+            "audio": "sb3_u07_3_3",
+            "ko": "킁킁! 맛있겠다!"
+          }
+        ],
+        "task": "Find the dr words!",
+        "task_ko": "dr 단어를 찾아요",
+        "ko": "아기 새가 태어났어요. 그럼블이 \"쉿! 북은 안 돼!\" 하며 등불을 걸어 줘요. — 킁킁! 어디서 맛있는 냄새가?"
+      }
+    ]
+  }
+}

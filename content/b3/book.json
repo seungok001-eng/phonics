@@ -1,0 +1,1961 @@
+{
+  "series": "Pop! Phonics",
+  "book": 3,
+  "title": "Pop! Phonics 3",
+  "subtitle": "Sound Pairs",
+  "site_base": "https://seungok001-eng.github.io/phonics",
+  "style": {
+    "art": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image.",
+    "object": "A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props.",
+    "scene": "Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind.",
+    "character_sheet": "Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described."
+  },
+  "characters": {
+    "pip": {
+      "name": "Pip",
+      "ko": "핍",
+      "desc": "a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf",
+      "personality": "a baby songbird that can read short words now; it says the two letters of a pair apart at first (s... h...), then mixes up the order of blends (lb for bl); in Unit 5 it copies Grumble's shh and says its first pair sound, sh!, and in Unit 10 it opens the last door of the forest by itself and sings",
+      "catchphrase": "S... h...?",
+      "voice": "Aoede",
+      "color": "#F5C542",
+      "poses": [
+        "ref",
+        "happy",
+        "surprised",
+        "sad",
+        "pointing",
+        "cheering",
+        "sleeping"
+      ],
+      "role_ko": "단어를 읽게 된 아기 새. 두 글자 짝꿍을 \"스… 흐…\" 따로따로 말하다가 5유닛에서 처음으로 \"sh!\"를 말해요."
+    },
+    "bun": {
+      "name": "Bun",
+      "ko": "번",
+      "desc": "a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile",
+      "personality": "brave and curious, always the first to shout the sound",
+      "catchphrase": "Let's try!",
+      "voice": "Leda",
+      "color": "#F47FA6",
+      "poses": [
+        "ref",
+        "happy",
+        "surprised",
+        "pointing",
+        "waving",
+        "thinking",
+        "cheering"
+      ],
+      "role_ko": "씩씩한 토끼. 제일 먼저 나서요. \"해 보자!\""
+    },
+    "hedgie": {
+      "name": "Hedgie",
+      "ko": "헤지",
+      "desc": "a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes",
+      "personality": "careful and thoughtful, great at finding hidden things",
+      "catchphrase": "Wow!",
+      "voice": "Puck",
+      "color": "#B9794B",
+      "poses": [
+        "ref",
+        "happy",
+        "surprised",
+        "pointing",
+        "waving",
+        "thinking",
+        "cheering"
+      ],
+      "role_ko": "조심스러운 고슴도치. 숨은 물건을 잘 찾아요. \"우와!\""
+    },
+    "grumble": {
+      "name": "Grumble",
+      "ko": "그럼블",
+      "desc": "a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers",
+      "personality": "the grumpy old raccoon, now sleeping in a leafy treetop bed in the Pair Forest and saying Shh! from the branches; his Shh! turns out to be exactly the sh sound and opens the first door; he climbs a little lower every unit, shares snacks and lends his lantern, and drums at the show",
+      "catchphrase": "Shh!",
+      "voice": "Charon",
+      "color": "#7C8A9E",
+      "poses": [
+        "ref",
+        "shh",
+        "popping",
+        "angry",
+        "surprised",
+        "happy",
+        "drum"
+      ],
+      "role_ko": "나무 위 침대에서 \"쉿!\" 하는 너구리 할아버지. 그 \"쉿!\"이 바로 sh 소리예요. 조금씩 내려와 친구가 돼요."
+    },
+    "beads": {
+      "name": "Beads",
+      "ko": "비즈",
+      "desc": "a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads",
+      "personality": "a bead caterpillar who threads letter beads together to make words; counts beads, clicks them together, says the whole word proudly after the sounds",
+      "catchphrase": "Click-clack!",
+      "voice": "Zephyr",
+      "color": "#6CC24A",
+      "poses": [
+        "ref",
+        "happy",
+        "surprised",
+        "pointing",
+        "thinking",
+        "cheering"
+      ],
+      "role_ko": "구슬 애벌레. 글자 구슬을 꿰어 단어를 만들어요. \"딸깍딸깍!\""
+    },
+    "twins": {
+      "name": "Pim & Pam",
+      "ko": "핌과 팜",
+      "desc": "two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere",
+      "personality": "twin bluebirds who are never apart and always speak at exactly the same time; together they show how two letters make one sound (sh, ch, th) or glide two sounds into one (bl, st); they guide the friends through the doors of the Pair Forest",
+      "catchphrase": "Together!",
+      "voice": "Laomedeia",
+      "color": "#4FA3E0",
+      "poses": [
+        "ref",
+        "happy",
+        "surprised",
+        "pointing",
+        "cheering"
+      ],
+      "role_ko": "늘 붙어 다니는 쌍둥이 파랑새. 둘이 동시에 말해서 두 글자가 한 소리를 내게 해요. \"함께!\""
+    }
+  },
+  "pose_desc": {
+    "ref": "standing straight, arms relaxed at the sides, friendly smile, looking at the viewer",
+    "happy": "jumping with both arms raised high, big open-mouth smile",
+    "surprised": "eyes wide, mouth open in an O, hands up near the face",
+    "pointing": "pointing to the right with one arm fully extended, looking that way, excited",
+    "waving": "waving one hand hello, smiling",
+    "thinking": "one finger on the chin, looking up, puzzled",
+    "cheering": "both fists raised in victory, laughing",
+    "glow": "glowing brightly with little sparkles around, eyes closed in delight",
+    "sad": "drooping leaf, big sad eyes, a single tear",
+    "hiding": "peeking out from behind something, only half visible, nervous",
+    "sleeping": "eyes closed, tiny snore bubble, relaxed",
+    "shh": "one paw pressed to the mouth in a shh gesture, frowning, only the upper body out of a dirt hole",
+    "popping": "bursting up out of a dirt hole with dirt flying, startled",
+    "angry": "frowning with crossed arms, cheeks puffed",
+    "drum": "happily beating a small drum with two sticks, grinning"
+  },
+  "narrator_voice": "Kore",
+  "instruction_voice": "Kore",
+  "letters": {
+    "a": {
+      "sound": "æ",
+      "sound_hint": "short a as at the start of apple",
+      "kind": "vowel"
+    },
+    "b": {
+      "sound": "b",
+      "sound_hint": "b as at the start of bus",
+      "kind": "consonant"
+    },
+    "c": {
+      "sound": "k",
+      "sound_hint": "k as at the start of cat",
+      "kind": "consonant"
+    },
+    "d": {
+      "sound": "d",
+      "sound_hint": "d as at the start of dog",
+      "kind": "consonant"
+    },
+    "e": {
+      "sound": "e",
+      "sound_hint": "short e as at the start of egg",
+      "kind": "vowel"
+    },
+    "f": {
+      "sound": "f",
+      "sound_hint": "f as at the start of fan",
+      "kind": "consonant"
+    },
+    "g": {
+      "sound": "g",
+      "sound_hint": "hard g as at the start of goat",
+      "kind": "consonant"
+    },
+    "h": {
+      "sound": "h",
+      "sound_hint": "h as at the start of hen",
+      "kind": "consonant"
+    },
+    "i": {
+      "sound": "ɪ",
+      "sound_hint": "short i as at the start of ink",
+      "kind": "vowel"
+    },
+    "j": {
+      "sound": "dʒ",
+      "sound_hint": "j as at the start of jelly",
+      "kind": "consonant"
+    },
+    "k": {
+      "sound": "k",
+      "sound_hint": "k as at the start of key",
+      "kind": "consonant"
+    },
+    "l": {
+      "sound": "l",
+      "sound_hint": "l as at the start of lemon",
+      "kind": "consonant"
+    },
+    "m": {
+      "sound": "m",
+      "sound_hint": "m as at the start of milk",
+      "kind": "consonant"
+    },
+    "n": {
+      "sound": "n",
+      "sound_hint": "n as at the start of nose",
+      "kind": "consonant"
+    },
+    "o": {
+      "sound": "ɑ",
+      "sound_hint": "short o as at the start of otter",
+      "kind": "vowel"
+    },
+    "p": {
+      "sound": "p",
+      "sound_hint": "p as at the start of pencil",
+      "kind": "consonant"
+    },
+    "q": {
+      "sound": "kw",
+      "sound_hint": "qu as at the start of queen",
+      "kind": "consonant"
+    },
+    "r": {
+      "sound": "r",
+      "sound_hint": "r as at the start of rocket",
+      "kind": "consonant"
+    },
+    "s": {
+      "sound": "s",
+      "sound_hint": "s as at the start of sun",
+      "kind": "consonant"
+    },
+    "t": {
+      "sound": "t",
+      "sound_hint": "t as at the start of turtle",
+      "kind": "consonant"
+    },
+    "u": {
+      "sound": "ʌ",
+      "sound_hint": "short u as at the start of umbrella",
+      "kind": "vowel"
+    },
+    "v": {
+      "sound": "v",
+      "sound_hint": "v as at the start of vet",
+      "kind": "consonant"
+    },
+    "w": {
+      "sound": "w",
+      "sound_hint": "w as at the start of window",
+      "kind": "consonant"
+    },
+    "x": {
+      "sound": "ks",
+      "sound_hint": "ks as at the end of six and box",
+      "kind": "consonant",
+      "final": true
+    },
+    "y": {
+      "sound": "j",
+      "sound_hint": "y as at the start of yogurt",
+      "kind": "consonant"
+    },
+    "z": {
+      "sound": "z",
+      "sound_hint": "z as at the start of zebra",
+      "kind": "consonant"
+    }
+  },
+  "vowels": {
+    "a": {
+      "sound": "æ",
+      "hint": "short a as in cat"
+    },
+    "e": {
+      "sound": "e",
+      "hint": "short e as in net"
+    },
+    "i": {
+      "sound": "ɪ",
+      "hint": "short i as in pig"
+    },
+    "o": {
+      "sound": "ɑ",
+      "hint": "short o as in dog"
+    },
+    "u": {
+      "sound": "ʌ",
+      "hint": "short u as in bug"
+    }
+  },
+  "families": {
+    "sh": {
+      "kind": "digraph",
+      "sound": "ʃ",
+      "sound_hint": "sh as at the start of ship",
+      "label": "sh",
+      "words": [
+        "ship",
+        "shop",
+        "shell",
+        "shed",
+        "fish",
+        "dish"
+      ]
+    },
+    "ch": {
+      "kind": "digraph",
+      "sound": "tʃ",
+      "sound_hint": "ch as at the start of chin",
+      "label": "ch",
+      "words": [
+        "chin",
+        "chip",
+        "chop",
+        "chess",
+        "bench",
+        "lunch"
+      ]
+    },
+    "th": {
+      "kind": "digraph",
+      "sound": "θ",
+      "sound_hint": "unvoiced th as at the start of thin",
+      "label": "th",
+      "words": [
+        "thin",
+        "thumb",
+        "bath",
+        "path",
+        "moth"
+      ]
+    },
+    "ck": {
+      "kind": "digraph",
+      "sound": "k",
+      "sound_hint": "ck as at the end of duck",
+      "label": "ck",
+      "words": [
+        "duck",
+        "sock",
+        "rock",
+        "lock"
+      ]
+    },
+    "ng": {
+      "kind": "digraph",
+      "sound": "ŋ",
+      "sound_hint": "ng as at the end of ring",
+      "label": "ng",
+      "words": [
+        "ring",
+        "king",
+        "wing",
+        "song"
+      ]
+    },
+    "bl": {
+      "kind": "blend",
+      "sound": "bl",
+      "sound_hint": "bl as at the start of block",
+      "label": "bl",
+      "words": [
+        "block",
+        "black"
+      ]
+    },
+    "cl": {
+      "kind": "blend",
+      "sound": "kl",
+      "sound_hint": "cl as at the start of clock",
+      "label": "cl",
+      "words": [
+        "clock",
+        "clap",
+        "clam",
+        "clip"
+      ]
+    },
+    "fl": {
+      "kind": "blend",
+      "sound": "fl",
+      "sound_hint": "fl as at the start of flag",
+      "label": "fl",
+      "words": [
+        "flag",
+        "flip"
+      ]
+    },
+    "br": {
+      "kind": "blend",
+      "sound": "br",
+      "sound_hint": "br as at the start of brick",
+      "label": "br",
+      "words": [
+        "brick",
+        "brush"
+      ]
+    },
+    "cr": {
+      "kind": "blend",
+      "sound": "kr",
+      "sound_hint": "cr as at the start of crab",
+      "label": "cr",
+      "words": [
+        "crab",
+        "crib",
+        "crack"
+      ]
+    },
+    "dr": {
+      "kind": "blend",
+      "sound": "dr",
+      "sound_hint": "dr as at the start of drum",
+      "label": "dr",
+      "words": [
+        "drum",
+        "dress"
+      ]
+    },
+    "sn": {
+      "kind": "blend",
+      "sound": "sn",
+      "sound_hint": "sn as at the start of snack",
+      "label": "sn",
+      "words": [
+        "snack",
+        "sniff"
+      ]
+    },
+    "st": {
+      "kind": "blend",
+      "sound": "st",
+      "sound_hint": "st as at the start of stick",
+      "label": "st",
+      "words": [
+        "stick",
+        "stack"
+      ]
+    },
+    "sp": {
+      "kind": "blend",
+      "sound": "sp",
+      "sound_hint": "sp as at the start of spot",
+      "label": "sp",
+      "words": [
+        "spot",
+        "spill"
+      ]
+    },
+    "sw": {
+      "kind": "blend",
+      "sound": "sw",
+      "sound_hint": "sw as at the start of swing",
+      "label": "sw",
+      "words": [
+        "swim",
+        "swing"
+      ]
+    },
+    "-nd": {
+      "kind": "final",
+      "sound": "nd",
+      "sound_hint": "nd as at the end of hand",
+      "label": "-nd",
+      "words": [
+        "hand",
+        "sand",
+        "pond"
+      ]
+    },
+    "-nt": {
+      "kind": "final",
+      "sound": "nt",
+      "sound_hint": "nt as at the end of tent",
+      "label": "-nt",
+      "words": [
+        "tent",
+        "ant",
+        "plant"
+      ]
+    },
+    "-st": {
+      "kind": "final",
+      "sound": "st",
+      "sound_hint": "st as at the end of nest",
+      "label": "-st",
+      "words": [
+        "nest",
+        "vest",
+        "chest"
+      ]
+    },
+    "-mp": {
+      "kind": "final",
+      "sound": "mp",
+      "sound_hint": "mp as at the end of lamp",
+      "label": "-mp",
+      "words": [
+        "lamp",
+        "stamp",
+        "chimp"
+      ]
+    },
+    "wh": {
+      "kind": "digraph",
+      "sound": "w",
+      "sound_hint": "wh as at the start of whisk",
+      "label": "wh",
+      "words": [
+        "whisk",
+        "whip"
+      ]
+    },
+    "qu": {
+      "kind": "digraph",
+      "sound": "kw",
+      "sound_hint": "qu as at the start of quilt",
+      "label": "qu",
+      "words": [
+        "quilt",
+        "quack",
+        "quill",
+        "quick"
+      ]
+    }
+  },
+  "words": {
+    "ship": {
+      "ko": "배",
+      "desc": "a small wooden sailing ship with white sails on little blue waves",
+      "family": "sh",
+      "chunks": [
+        "sh",
+        "i",
+        "p"
+      ],
+      "ipa": [
+        "ʃ",
+        "ɪ",
+        "p"
+      ]
+    },
+    "shop": {
+      "ko": "가게",
+      "desc": "a small cozy shop front with a red-and-white striped awning and a window full of colorful things, no signs or text",
+      "family": "sh",
+      "chunks": [
+        "sh",
+        "o",
+        "p"
+      ],
+      "ipa": [
+        "ʃ",
+        "ɑ",
+        "p"
+      ]
+    },
+    "shell": {
+      "ko": "조개껍데기",
+      "desc": "a pink-and-cream scallop seashell",
+      "family": "sh",
+      "chunks": [
+        "sh",
+        "e",
+        "ll"
+      ],
+      "ipa": [
+        "ʃ",
+        "e",
+        "l"
+      ]
+    },
+    "shed": {
+      "ko": "헛간",
+      "desc": "a small wooden garden shed with a green door and a little window",
+      "family": "sh",
+      "chunks": [
+        "sh",
+        "e",
+        "d"
+      ],
+      "ipa": [
+        "ʃ",
+        "e",
+        "d"
+      ]
+    },
+    "fish": {
+      "ko": "물고기",
+      "desc": "a plump orange fish with white stripes, swimming",
+      "family": "sh",
+      "chunks": [
+        "f",
+        "i",
+        "sh"
+      ],
+      "ipa": [
+        "f",
+        "ɪ",
+        "ʃ"
+      ]
+    },
+    "dish": {
+      "ko": "접시",
+      "desc": "a round white dish with a blue rim",
+      "family": "sh",
+      "chunks": [
+        "d",
+        "i",
+        "sh"
+      ],
+      "ipa": [
+        "d",
+        "ɪ",
+        "ʃ"
+      ]
+    },
+    "chin": {
+      "ko": "턱",
+      "desc": "the lower half of a smiling cartoon face showing a round chin with a little sparkle on it",
+      "family": "ch",
+      "chunks": [
+        "ch",
+        "i",
+        "n"
+      ],
+      "ipa": [
+        "tʃ",
+        "ɪ",
+        "n"
+      ]
+    },
+    "chip": {
+      "ko": "감자칩",
+      "desc": "a single golden potato chip, slightly curled",
+      "family": "ch",
+      "chunks": [
+        "ch",
+        "i",
+        "p"
+      ],
+      "ipa": [
+        "tʃ",
+        "ɪ",
+        "p"
+      ]
+    },
+    "chop": {
+      "ko": "장작 패기",
+      "desc": "a small axe chopping a log in two, with wood chips flying",
+      "family": "ch",
+      "chunks": [
+        "ch",
+        "o",
+        "p"
+      ],
+      "ipa": [
+        "tʃ",
+        "ɑ",
+        "p"
+      ]
+    },
+    "chess": {
+      "ko": "체스",
+      "desc": "a black chess knight and a white chess pawn standing on a small checkered board",
+      "family": "ch",
+      "chunks": [
+        "ch",
+        "e",
+        "ss"
+      ],
+      "ipa": [
+        "tʃ",
+        "e",
+        "s"
+      ]
+    },
+    "bench": {
+      "ko": "벤치",
+      "desc": "a green wooden park bench",
+      "family": "ch",
+      "chunks": [
+        "b",
+        "e",
+        "n",
+        "ch"
+      ],
+      "ipa": [
+        "b",
+        "e",
+        "n",
+        "tʃ"
+      ]
+    },
+    "lunch": {
+      "ko": "점심",
+      "desc": "an open red lunch box with a sandwich, an apple and a carrot inside",
+      "family": "ch",
+      "chunks": [
+        "l",
+        "u",
+        "n",
+        "ch"
+      ],
+      "ipa": [
+        "l",
+        "ʌ",
+        "n",
+        "tʃ"
+      ]
+    },
+    "thin": {
+      "ko": "가는",
+      "desc": "a very thin, long yellow pencil lying next to a short, fat red crayon",
+      "family": "th",
+      "chunks": [
+        "th",
+        "i",
+        "n"
+      ],
+      "ipa": [
+        "θ",
+        "ɪ",
+        "n"
+      ]
+    },
+    "thumb": {
+      "ko": "엄지",
+      "desc": "a cartoon hand giving a big thumbs-up",
+      "family": "th",
+      "chunks": [
+        "th",
+        "u",
+        "mb"
+      ],
+      "ipa": [
+        "θ",
+        "ʌ",
+        "m"
+      ]
+    },
+    "bath": {
+      "ko": "목욕",
+      "desc": "a round wooden bathtub full of white foamy bubbles",
+      "family": "th",
+      "chunks": [
+        "b",
+        "a",
+        "th"
+      ],
+      "ipa": [
+        "b",
+        "æ",
+        "θ"
+      ]
+    },
+    "path": {
+      "ko": "오솔길",
+      "desc": "a narrow winding dirt path through green grass and little flowers",
+      "family": "th",
+      "chunks": [
+        "p",
+        "a",
+        "th"
+      ],
+      "ipa": [
+        "p",
+        "æ",
+        "θ"
+      ]
+    },
+    "moth": {
+      "ko": "나방",
+      "desc": "a soft fuzzy brown moth with patterned wings",
+      "family": "th",
+      "chunks": [
+        "m",
+        "o",
+        "th"
+      ],
+      "ipa": [
+        "m",
+        "ɑ",
+        "θ"
+      ]
+    },
+    "duck": {
+      "ko": "오리",
+      "desc": "a yellow duck with an orange beak standing",
+      "family": "ck",
+      "chunks": [
+        "d",
+        "u",
+        "ck"
+      ],
+      "ipa": [
+        "d",
+        "ʌ",
+        "k"
+      ]
+    },
+    "sock": {
+      "ko": "양말",
+      "desc": "a single red-and-white striped sock",
+      "family": "ck",
+      "chunks": [
+        "s",
+        "o",
+        "ck"
+      ],
+      "ipa": [
+        "s",
+        "ɑ",
+        "k"
+      ]
+    },
+    "rock": {
+      "ko": "바위",
+      "desc": "a big round grey rock",
+      "family": "ck",
+      "chunks": [
+        "r",
+        "o",
+        "ck"
+      ],
+      "ipa": [
+        "r",
+        "ɑ",
+        "k"
+      ]
+    },
+    "lock": {
+      "ko": "자물쇠",
+      "desc": "a golden padlock",
+      "family": "ck",
+      "chunks": [
+        "l",
+        "o",
+        "ck"
+      ],
+      "ipa": [
+        "l",
+        "ɑ",
+        "k"
+      ]
+    },
+    "ring": {
+      "ko": "반지",
+      "desc": "a gold ring with a sparkling blue gem",
+      "family": "ng",
+      "chunks": [
+        "r",
+        "i",
+        "ng"
+      ],
+      "ipa": [
+        "r",
+        "ɪ",
+        "ŋ"
+      ]
+    },
+    "king": {
+      "ko": "왕",
+      "desc": "a kind lion king with a golden crown and a red robe",
+      "family": "ng",
+      "chunks": [
+        "k",
+        "i",
+        "ng"
+      ],
+      "ipa": [
+        "k",
+        "ɪ",
+        "ŋ"
+      ]
+    },
+    "wing": {
+      "ko": "날개",
+      "desc": "one big white bird wing spread wide open",
+      "family": "ng",
+      "chunks": [
+        "w",
+        "i",
+        "ng"
+      ],
+      "ipa": [
+        "w",
+        "ɪ",
+        "ŋ"
+      ]
+    },
+    "song": {
+      "ko": "노래",
+      "desc": "colorful music notes floating up in a happy wavy line",
+      "family": "ng",
+      "chunks": [
+        "s",
+        "o",
+        "ng"
+      ],
+      "ipa": [
+        "s",
+        "ɑ",
+        "ŋ"
+      ]
+    },
+    "block": {
+      "ko": "블록",
+      "desc": "a plain red wooden toy block cube, no letters",
+      "family": "bl",
+      "chunks": [
+        "bl",
+        "o",
+        "ck"
+      ],
+      "ipa": [
+        "bl",
+        "ɑ",
+        "k"
+      ]
+    },
+    "black": {
+      "ko": "검정",
+      "desc": "a big splash of black paint with a black paintbrush",
+      "family": "bl",
+      "chunks": [
+        "bl",
+        "a",
+        "ck"
+      ],
+      "ipa": [
+        "bl",
+        "æ",
+        "k"
+      ]
+    },
+    "clock": {
+      "ko": "시계",
+      "desc": "a round wall clock with a white face, two black hands and dots instead of numbers",
+      "family": "cl",
+      "chunks": [
+        "cl",
+        "o",
+        "ck"
+      ],
+      "ipa": [
+        "kl",
+        "ɑ",
+        "k"
+      ]
+    },
+    "clap": {
+      "ko": "손뼉 치기",
+      "desc": "two cartoon hands clapping with little motion lines",
+      "family": "cl",
+      "chunks": [
+        "cl",
+        "a",
+        "p"
+      ],
+      "ipa": [
+        "kl",
+        "æ",
+        "p"
+      ]
+    },
+    "clam": {
+      "ko": "조개",
+      "desc": "an open clam shell with a white pearl inside",
+      "family": "cl",
+      "chunks": [
+        "cl",
+        "a",
+        "m"
+      ],
+      "ipa": [
+        "kl",
+        "æ",
+        "m"
+      ]
+    },
+    "clip": {
+      "ko": "클립",
+      "desc": "a silver paper clip",
+      "family": "cl",
+      "chunks": [
+        "cl",
+        "i",
+        "p"
+      ],
+      "ipa": [
+        "kl",
+        "ɪ",
+        "p"
+      ]
+    },
+    "flag": {
+      "ko": "깃발",
+      "desc": "a red-and-yellow triangle flag on a wooden pole, waving",
+      "family": "fl",
+      "chunks": [
+        "fl",
+        "a",
+        "g"
+      ],
+      "ipa": [
+        "fl",
+        "æ",
+        "g"
+      ]
+    },
+    "flip": {
+      "ko": "뒤집기",
+      "desc": "a pancake flipping up in the air above a frying pan",
+      "family": "fl",
+      "chunks": [
+        "fl",
+        "i",
+        "p"
+      ],
+      "ipa": [
+        "fl",
+        "ɪ",
+        "p"
+      ]
+    },
+    "brick": {
+      "ko": "벽돌",
+      "desc": "a single red clay brick",
+      "family": "br",
+      "chunks": [
+        "br",
+        "i",
+        "ck"
+      ],
+      "ipa": [
+        "br",
+        "ɪ",
+        "k"
+      ]
+    },
+    "brush": {
+      "ko": "솔",
+      "desc": "a small wooden brush with soft bristles",
+      "family": "br",
+      "chunks": [
+        "br",
+        "u",
+        "sh"
+      ],
+      "ipa": [
+        "br",
+        "ʌ",
+        "ʃ"
+      ]
+    },
+    "crab": {
+      "ko": "게",
+      "desc": "a red crab with two big claws",
+      "family": "cr",
+      "chunks": [
+        "cr",
+        "a",
+        "b"
+      ],
+      "ipa": [
+        "kr",
+        "æ",
+        "b"
+      ]
+    },
+    "crib": {
+      "ko": "아기 침대",
+      "desc": "a small wooden baby crib with a soft blue blanket, empty",
+      "family": "cr",
+      "chunks": [
+        "cr",
+        "i",
+        "b"
+      ],
+      "ipa": [
+        "kr",
+        "ɪ",
+        "b"
+      ]
+    },
+    "crack": {
+      "ko": "금",
+      "desc": "a white egg with a zigzag crack across it and a tiny yellow beak peeking out",
+      "family": "cr",
+      "chunks": [
+        "cr",
+        "a",
+        "ck"
+      ],
+      "ipa": [
+        "kr",
+        "æ",
+        "k"
+      ]
+    },
+    "drum": {
+      "ko": "북",
+      "desc": "a red-and-white toy drum with two drumsticks",
+      "family": "dr",
+      "chunks": [
+        "dr",
+        "u",
+        "m"
+      ],
+      "ipa": [
+        "dr",
+        "ʌ",
+        "m"
+      ]
+    },
+    "dress": {
+      "ko": "원피스",
+      "desc": "a pink dress with a wide skirt on a hanger",
+      "family": "dr",
+      "chunks": [
+        "dr",
+        "e",
+        "ss"
+      ],
+      "ipa": [
+        "dr",
+        "e",
+        "s"
+      ]
+    },
+    "snack": {
+      "ko": "간식",
+      "desc": "a small plate with a snack of crackers, cheese cubes and grapes",
+      "family": "sn",
+      "chunks": [
+        "sn",
+        "a",
+        "ck"
+      ],
+      "ipa": [
+        "sn",
+        "æ",
+        "k"
+      ]
+    },
+    "sniff": {
+      "ko": "킁킁",
+      "desc": "a brown puppy sniffing a little flower, with small sniff lines near its nose",
+      "family": "sn",
+      "chunks": [
+        "sn",
+        "i",
+        "ff"
+      ],
+      "ipa": [
+        "sn",
+        "ɪ",
+        "f"
+      ]
+    },
+    "stick": {
+      "ko": "막대기",
+      "desc": "a brown wooden stick with one small green leaf",
+      "family": "st",
+      "chunks": [
+        "st",
+        "i",
+        "ck"
+      ],
+      "ipa": [
+        "st",
+        "ɪ",
+        "k"
+      ]
+    },
+    "stack": {
+      "ko": "쌓은 더미",
+      "desc": "a tall wobbly stack of colorful pancakes",
+      "family": "st",
+      "chunks": [
+        "st",
+        "a",
+        "ck"
+      ],
+      "ipa": [
+        "st",
+        "æ",
+        "k"
+      ]
+    },
+    "spot": {
+      "ko": "얼룩",
+      "desc": "a white T-shirt with one big round brown spot on the front",
+      "family": "sp",
+      "chunks": [
+        "sp",
+        "o",
+        "t"
+      ],
+      "ipa": [
+        "sp",
+        "ɑ",
+        "t"
+      ]
+    },
+    "spill": {
+      "ko": "쏟기",
+      "desc": "a cup of cocoa tipped over with cocoa spilling out",
+      "family": "sp",
+      "chunks": [
+        "sp",
+        "i",
+        "ll"
+      ],
+      "ipa": [
+        "sp",
+        "ɪ",
+        "l"
+      ]
+    },
+    "swim": {
+      "ko": "헤엄치기",
+      "desc": "a small penguin swimming in blue water with bubbles",
+      "family": "sw",
+      "chunks": [
+        "sw",
+        "i",
+        "m"
+      ],
+      "ipa": [
+        "sw",
+        "ɪ",
+        "m"
+      ]
+    },
+    "swing": {
+      "ko": "그네",
+      "desc": "a wooden swing hanging from a tree branch by two ropes",
+      "family": "sw",
+      "chunks": [
+        "sw",
+        "i",
+        "ng"
+      ],
+      "ipa": [
+        "sw",
+        "ɪ",
+        "ŋ"
+      ]
+    },
+    "hand": {
+      "ko": "손",
+      "desc": "an open cartoon hand waving, palm facing out",
+      "family": "-nd",
+      "chunks": [
+        "h",
+        "a",
+        "nd"
+      ],
+      "ipa": [
+        "h",
+        "æ",
+        "nd"
+      ]
+    },
+    "sand": {
+      "ko": "모래",
+      "desc": "a pile of golden sand with a little red bucket and spade",
+      "family": "-nd",
+      "chunks": [
+        "s",
+        "a",
+        "nd"
+      ],
+      "ipa": [
+        "s",
+        "æ",
+        "nd"
+      ]
+    },
+    "pond": {
+      "ko": "연못",
+      "desc": "a small round blue pond with lily pads and reeds",
+      "family": "-nd",
+      "chunks": [
+        "p",
+        "o",
+        "nd"
+      ],
+      "ipa": [
+        "p",
+        "ɑ",
+        "nd"
+      ]
+    },
+    "tent": {
+      "ko": "텐트",
+      "desc": "a green camping tent",
+      "family": "-nt",
+      "chunks": [
+        "t",
+        "e",
+        "nt"
+      ],
+      "ipa": [
+        "t",
+        "e",
+        "nt"
+      ]
+    },
+    "ant": {
+      "ko": "개미",
+      "desc": "a small red ant walking",
+      "family": "-nt",
+      "chunks": [
+        "a",
+        "nt"
+      ],
+      "ipa": [
+        "æ",
+        "nt"
+      ]
+    },
+    "plant": {
+      "ko": "화분",
+      "desc": "a green leafy plant in a small clay pot",
+      "family": "-nt",
+      "chunks": [
+        "pl",
+        "a",
+        "nt"
+      ],
+      "ipa": [
+        "pl",
+        "æ",
+        "nt"
+      ]
+    },
+    "nest": {
+      "ko": "둥지",
+      "desc": "a round brown bird nest with three blue eggs",
+      "family": "-st",
+      "chunks": [
+        "n",
+        "e",
+        "st"
+      ],
+      "ipa": [
+        "n",
+        "e",
+        "st"
+      ]
+    },
+    "vest": {
+      "ko": "조끼",
+      "desc": "a blue knitted vest",
+      "family": "-st",
+      "chunks": [
+        "v",
+        "e",
+        "st"
+      ],
+      "ipa": [
+        "v",
+        "e",
+        "st"
+      ]
+    },
+    "chest": {
+      "ko": "보물 상자",
+      "desc": "a wooden treasure chest with its lid open and gold coins inside, no numbers",
+      "family": "-st",
+      "chunks": [
+        "ch",
+        "e",
+        "st"
+      ],
+      "ipa": [
+        "tʃ",
+        "e",
+        "st"
+      ]
+    },
+    "lamp": {
+      "ko": "램프",
+      "desc": "a small yellow lamp, glowing",
+      "family": "-mp",
+      "chunks": [
+        "l",
+        "a",
+        "mp"
+      ],
+      "ipa": [
+        "l",
+        "æ",
+        "mp"
+      ]
+    },
+    "stamp": {
+      "ko": "우표",
+      "desc": "a postage stamp with a wavy edge showing a small red flower, no numbers or text",
+      "family": "-mp",
+      "chunks": [
+        "st",
+        "a",
+        "mp"
+      ],
+      "ipa": [
+        "st",
+        "æ",
+        "mp"
+      ]
+    },
+    "chimp": {
+      "ko": "침팬지",
+      "desc": "a small brown chimpanzee sitting and smiling",
+      "family": "-mp",
+      "chunks": [
+        "ch",
+        "i",
+        "mp"
+      ],
+      "ipa": [
+        "tʃ",
+        "ɪ",
+        "mp"
+      ]
+    },
+    "whisk": {
+      "ko": "거품기",
+      "desc": "a silver kitchen whisk",
+      "family": "wh",
+      "chunks": [
+        "wh",
+        "i",
+        "s",
+        "k"
+      ],
+      "ipa": [
+        "w",
+        "ɪ",
+        "s",
+        "k"
+      ]
+    },
+    "whip": {
+      "ko": "채찍",
+      "desc": "a long brown rope whip with a wooden handle, its tip curling in a loop",
+      "family": "wh",
+      "chunks": [
+        "wh",
+        "i",
+        "p"
+      ],
+      "ipa": [
+        "w",
+        "ɪ",
+        "p"
+      ]
+    },
+    "quilt": {
+      "ko": "누비이불",
+      "desc": "a patchwork quilt with colorful squares folded on a bed",
+      "family": "qu",
+      "chunks": [
+        "qu",
+        "i",
+        "l",
+        "t"
+      ],
+      "ipa": [
+        "kw",
+        "ɪ",
+        "l",
+        "t"
+      ]
+    },
+    "quack": {
+      "ko": "꽥",
+      "desc": "a duck with its beak wide open quacking loudly",
+      "family": "qu",
+      "chunks": [
+        "qu",
+        "a",
+        "ck"
+      ],
+      "ipa": [
+        "kw",
+        "æ",
+        "k"
+      ]
+    },
+    "quill": {
+      "ko": "깃펜",
+      "desc": "a long white feather quill pen",
+      "family": "qu",
+      "chunks": [
+        "qu",
+        "i",
+        "ll"
+      ],
+      "ipa": [
+        "kw",
+        "ɪ",
+        "l"
+      ]
+    },
+    "quick": {
+      "ko": "빠른",
+      "desc": "a small spotted cheetah cub dashing fast with speed lines",
+      "family": "qu",
+      "chunks": [
+        "qu",
+        "i",
+        "ck"
+      ],
+      "ipa": [
+        "kw",
+        "ɪ",
+        "k"
+      ]
+    }
+  },
+  "sight_words": {
+    "she": {
+      "ko": "그녀는",
+      "unit": 1
+    },
+    "he": {
+      "ko": "그는",
+      "unit": 1
+    },
+    "they": {
+      "ko": "그들은",
+      "unit": 2
+    },
+    "was": {
+      "ko": "~였다",
+      "unit": 2
+    },
+    "this": {
+      "ko": "이것",
+      "unit": 3
+    },
+    "that": {
+      "ko": "저것",
+      "unit": 3
+    },
+    "what": {
+      "ko": "무엇",
+      "unit": 4
+    },
+    "are": {
+      "ko": "~이다 (여럿)",
+      "unit": 4
+    },
+    "here": {
+      "ko": "여기",
+      "unit": 6
+    },
+    "there": {
+      "ko": "저기",
+      "unit": 6
+    },
+    "with": {
+      "ko": "~와 함께",
+      "unit": 7
+    },
+    "for": {
+      "ko": "~을 위해",
+      "unit": 7
+    },
+    "one": {
+      "ko": "하나",
+      "unit": 8
+    },
+    "two": {
+      "ko": "둘",
+      "unit": 8
+    },
+    "said": {
+      "ko": "말했다",
+      "unit": 9
+    },
+    "do": {
+      "ko": "하다",
+      "unit": 9
+    },
+    "where": {
+      "ko": "어디",
+      "unit": 10
+    },
+    "who": {
+      "ko": "누구",
+      "unit": 10
+    },
+    "the": {
+      "ko": "그",
+      "unit": 0,
+      "book2": true
+    },
+    "on": {
+      "ko": "~위에",
+      "unit": 0,
+      "book2": true
+    },
+    "is": {
+      "ko": "~이다",
+      "unit": 0,
+      "book2": true
+    },
+    "in": {
+      "ko": "~안에",
+      "unit": 0,
+      "book2": true
+    },
+    "has": {
+      "ko": "가지고 있다",
+      "unit": 0,
+      "book2": true
+    },
+    "and": {
+      "ko": "그리고",
+      "unit": 0,
+      "book2": true
+    },
+    "big": {
+      "ko": "큰",
+      "unit": 0,
+      "book2": true
+    },
+    "little": {
+      "ko": "작은",
+      "unit": 0,
+      "book2": true
+    },
+    "can": {
+      "ko": "할 수 있다",
+      "unit": 0,
+      "book2": true
+    },
+    "not": {
+      "ko": "~아니다",
+      "unit": 0,
+      "book2": true
+    },
+    "it": {
+      "ko": "그것",
+      "unit": 0,
+      "book2": true
+    },
+    "up": {
+      "ko": "위로",
+      "unit": 0,
+      "book2": true
+    },
+    "to": {
+      "ko": "~로",
+      "unit": 0,
+      "book2": true
+    },
+    "go": {
+      "ko": "가다",
+      "unit": 0,
+      "book2": true
+    },
+    "we": {
+      "ko": "우리",
+      "unit": 0,
+      "book2": true
+    },
+    "like": {
+      "ko": "좋아하다",
+      "unit": 0,
+      "book2": true
+    },
+    "you": {
+      "ko": "너",
+      "unit": 0,
+      "book2": true
+    },
+    "look": {
+      "ko": "보다",
+      "unit": 0,
+      "book2": true
+    },
+    "I": {
+      "ko": "나는",
+      "unit": 0,
+      "book1": true
+    },
+    "see": {
+      "ko": "보다",
+      "unit": 0,
+      "book1": true
+    },
+    "a": {
+      "ko": "하나의",
+      "unit": 0,
+      "book1": true
+    },
+    "an": {
+      "ko": "하나의 (모음 소리 앞)",
+      "unit": 0,
+      "book1": true
+    },
+    "my": {
+      "ko": "나의",
+      "unit": 0,
+      "book1": true
+    },
+    "at": {
+      "ko": "~을",
+      "unit": 0,
+      "book1": true
+    }
+  },
+  "instructions": {
+    "listen_repeat": "Listen and repeat.",
+    "listen_point": "Listen, point and say.",
+    "trace_write": "Trace and write.",
+    "look_circle": "Look and circle.",
+    "listen_circle": "Listen and circle.",
+    "listen_number": "Listen and number.",
+    "match_read": "Match and read.",
+    "say_check": "Say and check.",
+    "find_circle": "Find and circle. Then write.",
+    "trace_read": "Trace and read.",
+    "read_three": "Read three times.",
+    "listen_story": "Listen to the story.",
+    "sound_chant": "Sound chant",
+    "word_chant": "Word chant",
+    "sight_words": "Sight words",
+    "lets_play": "Let's play!",
+    "great_job": "Great job!",
+    "try_again": "Try again!",
+    "blend_read": "Blend and read.",
+    "read_match": "Read and match.",
+    "read_sentence": "Read the sentence.",
+    "read_circle": "Read and circle.",
+    "look_write": "Look and write.",
+    "write_missing": "Write the missing letter.",
+    "read_point": "Read, point and say.",
+    "family_chant": "Word family chant",
+    "say_pair": "Say the pair.",
+    "say_together": "Say it together!",
+    "find_pair": "Find the pair.",
+    "write_pair": "Write the missing pair.",
+    "write_part": "Write the missing part.",
+    "read_sort": "Read and sort.",
+    "pair_chant": "Pair chant"
+  },
+  "units": [
+    {
+      "n": 0,
+      "title": "The Pair Forest",
+      "families": []
+    },
+    {
+      "n": 1,
+      "title": "Shh! The First Door",
+      "families": [
+        "sh"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Lunch on the Bench",
+      "families": [
+        "ch"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "The Thin Path",
+      "families": [
+        "th"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "The Duck King's Ring",
+      "families": [
+        "ck",
+        "ng"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Pip's First Pair",
+      "families": [],
+      "review": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "n": 6,
+      "title": "The Black Block",
+      "families": [
+        "bl",
+        "cl",
+        "fl"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "The Crab and the Crib",
+      "families": [
+        "br",
+        "cr",
+        "dr"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Snack on the Swing",
+      "families": [
+        "sn",
+        "st",
+        "sp",
+        "sw"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "The Chimp's Camp",
+      "families": [
+        "-nd",
+        "-nt",
+        "-st",
+        "-mp"
+      ]
+    },
+    {
+      "n": 10,
+      "title": "The Last Door",
+      "families": [
+        "wh",
+        "qu"
+      ]
+    },
+    {
+      "n": 11,
+      "title": "The Forest Party",
+      "families": [],
+      "review": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "n": 12,
+      "title": "The Forest Show",
+      "families": [],
+      "review": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "show": true
+    }
+  ],
+  "storybook": {
+    "title": "Pip and the Pair Forest",
+    "title_ko": "핍과 짝꿍 숲",
+    "cover": {
+      "id": "sb3_cover",
+      "desc": "Picture-book cover illustration. Pip, the tiny yellow baby bird with a green leaf scarf, flies along a sunny forest path singing with its beak open and a golden note above it, with Pim and Pam, two tiny twin bluebirds (one with a red feather tuft, one with a yellow feather tuft), flying side by side next to it; Bun the white rabbit in green boots and Hedgie the hedgehog walk below, cheering; Beads the rainbow bead caterpillar rides on Hedgie's flower; up in a leafy tree, Grumble the old raccoon peeks out holding a brightly glowing lantern. Behind them, a giant friendly tree has a big round wooden door standing open with golden light inside, and more round doors glow along the path deeper in the forest. Leave a calm, simple sky area at the top for the title.",
+      "ko": "표지. 숲길을 날며 노래하는 핍과 쌍둥이 파랑새 핌·팜, 그 아래 번과 헤지, 꽃 위의 비즈, 나무 위 등불 든 그럼블, 열린 둥근 문들."
+    },
+    "front": [
+      {
+        "id": "sb3_front_1",
+        "desc": "Title page vignette: a small round picture of Pip sitting between Pim and Pam on a mossy branch, all three with their beaks open together, on a plain cream background with a few green leaves. Lots of empty space around the vignette.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Pip and the Pair Forest",
+            "audio": "sb3_front_1_1",
+            "ko": "핍과 짝꿍 숲"
+          }
+        ],
+        "ko": "속표지. 이끼 낀 가지에 나란히 앉은 핍과 핌·팜."
+      },
+      {
+        "id": "sb3_map",
+        "desc": "A hand-drawn storybook map of the Pair Forest seen from above: at the bottom, the far bank of the Word Pond with the finished bridge of stepping stones; a winding mossy path leads up through a dense green forest past nine round doors set in a giant tree, a hollow log, a rock, a pond bank, a clock trunk, a brick wall, a stream bank, a tent and a wall of roots, all shut; a tiny treetop bed with a lantern light; a little stream with a swing; a sandy pond; a round glade at the top edge of the forest; beyond it, on a far hill, a tiny castle. No letters or text anywhere.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The Pair Forest.",
+            "audio": "sb3_map_1",
+            "ko": "짝꿍 숲이에요."
+          },
+          {
+            "who": "narrator",
+            "text": "Doors, doors, doors! Shut!",
+            "audio": "sb3_map_2",
+            "ko": "문, 문, 문! 다 닫혔어요!"
+          }
+        ],
+        "ko": "짝꿍 숲 지도예요. 연못 건너 숲길을 따라 닫힌 둥근 문들이 있고, 숲 끝 너머 언덕에 작은 성이 보여요."
+      }
+    ],
+    "back": [
+      {
+        "id": "sb3_end",
+        "desc": "Final page: evening at the far edge of the Pair Forest. Pip, Pim and Pam, Bun, Hedgie, Beads and Grumble sit in a row on a fallen log seen from behind, looking out over a moonlit valley toward a tall castle on a far hill; on its big gate a short glowing word shimmers as a tiny sparkling e appears at its end (the letters c, a, p and e are the ONLY text allowed in the picture); Grumble's lantern hangs on a stick beside them like a star and the crab's drum rests at his feet; behind them the open round doors glow along the forest path. Calm and warm.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The End",
+            "audio": "sb3_end_1",
+            "ko": "끝"
+          }
+        ],
+        "ko": "숲 끝 통나무에 나란히 앉은 친구들의 뒷모습. 멀리 성문의 단어가 반짝이며 바뀌어요. 이야기 끝."
+      },
+      {
+        "id": "sb3_map_done",
+        "desc": "The same hand-drawn map of the Pair Forest as before, but now all nine round doors along the path stand open with a warm glow, a trail of tiny bird footprints runs from the bridge all the way to the glade at the top, strings of little flags hang over the party glade, and beyond the forest edge a small path leads toward the tiny castle on the far hill, its gate glinting. No letters or text anywhere.",
+        "lines": [],
+        "ko": "문이 모두 열린 지도. 발자국이 숲 끝까지 이어지고 성으로 가는 작은 길이 나 있어요."
+      }
+    ],
+    "bgm": "bgm_bright"
+  },
+  "style_v1": {
+    "art": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image.",
+    "object": "A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture.",
+    "scene": "Full illustrated scene with a simple uncluttered background and a calm, simple sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind.",
+    "character_sheet": "Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described."
+  },
+  "story_arc": {
+    "ko": "단어 연못 건너편에 짝꿍 숲이 있어요. 숲의 문은 두 글자가 함께 한 소리를 내야 열려요. 늘 붙어 다니는 쌍둥이 파랑새 핌과 팜이 두 글자를 함께 소리 내는 법을 알려 줘요. 핍은 처음엔 \"스… 흐…\" 따로따로 말하지만 5유닛에서 처음으로 \"sh!\"를 말하고, 10유닛에서 숲의 마지막 문을 열어 노래 조각 셋을 찾아요. 숲 끝 너머에는 단어가 바뀌는 성이 기다려요.",
+    "books_ko": "옛날에 노래 나무가 부르던 소리 노래가 네 조각으로 흩어졌어요. 1권 소리 정원, 2권 단어 연못, 3권 짝꿍 숲, 4권 마법 성에서 조각을 하나씩 찾아요. 네 조각을 다 모으면 노래 나무가 다시 노래해요.",
+    "characters_ko": "핍은 이제 짧은 단어를 읽지만 두 글자 짝꿍은 따로따로 말해요. 번과 헤지, 비즈가 함께하고, 새 친구 핌과 팜은 늘 둘이 함께 말해요. 나무 위 그럼블의 \"쉿!\"은 알고 보니 sh 소리 — 그럼블은 유닛마다 조금씩 내려와 마지막엔 함께 북을 쳐요."
+  }
+}

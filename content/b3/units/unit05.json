@@ -1,0 +1,602 @@
+{
+  "unit": 5,
+  "title": "Pip's First Pair",
+  "title_ko": "핍의 첫 짝꿍 소리",
+  "vowel": null,
+  "families": [],
+  "words": {},
+  "sight_words": [],
+  "review": {
+    "families": [
+      "sh",
+      "ch",
+      "th",
+      "ck",
+      "ng"
+    ],
+    "words": [
+      "ship",
+      "shop",
+      "shell",
+      "shed",
+      "fish",
+      "dish",
+      "chin",
+      "chip",
+      "chop",
+      "chess",
+      "bench",
+      "lunch",
+      "thin",
+      "thumb",
+      "bath",
+      "path",
+      "moth",
+      "duck",
+      "sock",
+      "rock",
+      "lock",
+      "ring",
+      "king",
+      "wing",
+      "song"
+    ],
+    "board": {
+      "squares": [
+        {
+          "word": "ship"
+        },
+        {
+          "family": "ch"
+        },
+        {
+          "word": "bath"
+        },
+        {
+          "special": "pop"
+        },
+        {
+          "word": "duck"
+        },
+        {
+          "family": "sh"
+        },
+        {
+          "word": "chin"
+        },
+        {
+          "special": "back"
+        },
+        {
+          "word": "ring"
+        },
+        {
+          "family": "th"
+        },
+        {
+          "word": "fish"
+        },
+        {
+          "special": "again"
+        },
+        {
+          "word": "lock"
+        },
+        {
+          "family": "ng"
+        },
+        {
+          "word": "chess"
+        },
+        {
+          "special": "pop"
+        },
+        {
+          "word": "moth"
+        },
+        {
+          "family": "ck"
+        },
+        {
+          "word": "king"
+        },
+        {
+          "word": "lunch"
+        }
+      ]
+    },
+    "bingo": {
+      "words": [
+        "ship",
+        "shell",
+        "fish",
+        "dish",
+        "chin",
+        "chip",
+        "bench",
+        "lunch",
+        "thin",
+        "bath",
+        "moth",
+        "duck",
+        "sock",
+        "ring",
+        "king",
+        "song"
+      ]
+    },
+    "test": {
+      "read_circle": [
+        {
+          "word": "shop",
+          "pictures": [
+            "shop",
+            "chop",
+            "ship"
+          ]
+        },
+        {
+          "word": "chin",
+          "pictures": [
+            "chin",
+            "thin",
+            "king"
+          ]
+        },
+        {
+          "word": "path",
+          "pictures": [
+            "path",
+            "bath",
+            "dish"
+          ]
+        },
+        {
+          "word": "lock",
+          "pictures": [
+            "lock",
+            "rock",
+            "sock"
+          ]
+        },
+        {
+          "word": "wing",
+          "pictures": [
+            "wing",
+            "king",
+            "ring"
+          ]
+        },
+        {
+          "word": "dish",
+          "pictures": [
+            "dish",
+            "fish",
+            "duck"
+          ]
+        }
+      ],
+      "match": [
+        {
+          "word": "shed"
+        },
+        {
+          "word": "chess"
+        },
+        {
+          "word": "thumb"
+        },
+        {
+          "word": "song"
+        }
+      ],
+      "write": [
+        {
+          "word": "fish",
+          "missing": 2
+        },
+        {
+          "word": "chop",
+          "missing": 0
+        },
+        {
+          "word": "moth",
+          "missing": 2
+        },
+        {
+          "word": "king",
+          "missing": 2
+        }
+      ]
+    },
+    "blend": [
+      {
+        "word": "shell",
+        "missing": 0
+      },
+      {
+        "word": "shed",
+        "missing": 1
+      },
+      {
+        "word": "chip",
+        "missing": 0
+      },
+      {
+        "word": "bench",
+        "missing": 3
+      },
+      {
+        "word": "thin",
+        "missing": 0
+      },
+      {
+        "word": "path",
+        "missing": 2
+      },
+      {
+        "word": "sock",
+        "missing": 2
+      },
+      {
+        "word": "song",
+        "missing": 2
+      }
+    ],
+    "sort": {
+      "sh": [
+        "ship",
+        "shop",
+        "fish"
+      ],
+      "ch": [
+        "chin",
+        "chip",
+        "lunch"
+      ],
+      "th": [
+        "thin",
+        "bath",
+        "moth"
+      ],
+      "ng": [
+        "ring",
+        "king",
+        "song"
+      ]
+    }
+  },
+  "objectives_ko": [
+    "두 글자 한 소리 sh·ch·th·ck·ng 를 구별해 말한다",
+    "단어 25개를 소리를 이어 읽고 그림을 고르고, 빠진 짝꿍을 쓴다",
+    "사이트워드 she, he, they, was, this, that, what, are를 보고 읽는다",
+    "게임판·빙고로 복습하고 유닛 평가를 본다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Review Games",
+      "title_ko": "복습 놀이",
+      "pages": [
+        {
+          "type": "review_words",
+          "title": "Pairs sh, ch, th, ck, ng"
+        },
+        {
+          "type": "review_board",
+          "title": "Game board"
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_blend",
+          "title": "A. Blend and write the pairs."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Story and Test",
+      "title_ko": "스토리·평가",
+      "pages": [
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "review_test",
+          "title": "Unit Test"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_words",
+          "title": "B. Read and sort the pairs."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "Pip's First Pair",
+    "bgm": "bgm_bright",
+    "panels": [
+      {
+        "id": "scene_b3_u05_1",
+        "desc": "A bright morning in the Pair Forest. The friends walk back along the mossy path past the four doors they have opened — the round door in the giant tree, the door in the hollow log, the little door in the rock and the small door by the pond — each standing open and glowing softly; the letter pairs carved on the doors (s h, c h, t h, c k) are the ONLY text allowed in the picture. Bun counts the doors on her paw; Hedgie carries the toy ship; Beads rides on Hedgie's flower; the three chipmunks, the Duck King and the moth follow in a line; Pim and Pam fly side by side; Pip hops behind. Hidden in the picture: the toy ship, a shell, the bench, the duck. Grumble does NOT appear.",
+        "hidden": [
+          "ship",
+          "shell",
+          "bench",
+          "duck"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Ship, shop, shell, fish, dish!",
+            "audio": "b3_u05_l1",
+            "ko": "배, 가게, 조개껍데기, 물고기, 접시!"
+          },
+          {
+            "who": "bun",
+            "text": "Chin, chip, chop, chess!",
+            "audio": "b3_u05_l2",
+            "ko": "턱, 감자칩, 장작 패기, 체스!"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Duck, sock, rock, lock!",
+            "audio": "b3_u05_l3",
+            "ko": "딸깍딸깍! 오리, 양말, 바위, 자물쇠!"
+          }
+        ],
+        "ko": "아침 산책. 지금까지 연 문 넷을 세어요. 다람쥐들, 오리 왕, 나방이 줄지어 따라와요.",
+        "ask": [
+          {
+            "en": "How many doors are open?",
+            "ko": "문이 몇 개 열렸어?"
+          },
+          {
+            "en": "Who follows the friends?",
+            "ko": "누가 따라와?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u05_2",
+        "desc": "Pip stands alone on a mossy stump in front of the first door with its eyes squeezed shut and feathers trembling, beak open, trying with all its might; two separate little puffs come out of its beak. Pim and Pam sit right in front of Pip, side by side, showing how to say it together; Bun and Hedgie hold their breath with paws over their mouths; the Duck King watches hopefully. Hidden in the picture: the thin path, a round wooden bathtub by the stream, the moth, a striped sock. Grumble does NOT appear.",
+        "hidden": [
+          "path",
+          "bath",
+          "moth",
+          "sock"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "S... h...? S... h...?",
+            "audio": "b3_u05_l4",
+            "ko": "스… 흐…? 스… 흐…?"
+          },
+          {
+            "who": "twins",
+            "text": "/ʃ/... Together, Pip!",
+            "audio": "b3_u05_l5",
+            "pop": "sh",
+            "ko": "/ʃ/… 같이 해, 핍!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Pip tries.",
+            "audio": "b3_u05_l6",
+            "ko": "핍이 해 봐요. 또 해 봐요."
+          }
+        ],
+        "ko": "핍이 그루터기 위에서 눈을 꼭 감고 애써요. 핌과 팜이 \"같이 해!\" 모두 숨을 참아요.",
+        "ask": [
+          {
+            "en": "What is Pip doing?",
+            "ko": "핍은 뭘 하고 있어?"
+          },
+          {
+            "en": "Who helps Pip?",
+            "ko": "누가 핍을 도와?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u05_3",
+        "desc": "Just then, from high in the giant tree, Grumble leans out and gives his biggest Shh! — and Pip, copying him, says the sound in one smooth breath for the first time: Pip glows bright gold with a swirl of sparkles bursting from its beak; the first door flings wide open again with a rush of leaves; Pim and Pam leap up together cheering; Bun and Hedgie jump with arms up; Beads clicks all its beads in a happy arc. Hidden in the picture: the fish leaping in the stream, the shell shop, a white dish.",
+        "hidden": [
+          "fish",
+          "shop",
+          "dish"
+        ],
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh! Shh! SHH!",
+            "audio": "b3_u05_l7",
+            "ko": "쉿! 쉿! 쉬잇!"
+          },
+          {
+            "who": "pip",
+            "text": "Sh! Sh! SH!",
+            "audio": "b3_u05_l8",
+            "ko": "쉬! 쉬! 쉬이! (sh!)"
+          },
+          {
+            "who": "twins",
+            "text": "Together! Pip did it!",
+            "audio": "b3_u05_l9",
+            "ko": "함께! 핍이 해냈어!"
+          }
+        ],
+        "video": "vid_b3_u05_1",
+        "ko": "그때 그럼블이 \"쉬잇!\" — 핍이 따라 하자 처음으로 \"sh!\" 한 소리로 나왔어요! 핍이 금빛으로 빛나고 모두 환호해요.",
+        "ask": [
+          {
+            "en": "What did Pip say?",
+            "ko": "핍이 뭐라고 했어?"
+          },
+          {
+            "en": "Who helped Pip?",
+            "ko": "누가 핍을 도와줬어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u05_4",
+        "desc": "Dusk, the sky deep blue. Grumble has climbed halfway down the giant tree and sits on a low branch holding his lantern up so its warm glow lights the path and the open doors; his face is calm and he gives a small, proud smile. Pip sits on Bun's head, still glowing softly; Hedgie waves up at Grumble; Pim and Pam snuggle together on the lantern hook; the Duck King, wearing his ring, sings beside the pond with music notes floating up and his wings spread. Far off in the trees, a big round wall clock with no numbers hangs on a trunk, its two hands stopped. Hidden in the picture: the ring, the little king, the song notes, a wing.",
+        "hidden": [
+          "ring",
+          "king",
+          "song",
+          "wing"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Grumble! Shh is sh!",
+            "audio": "b3_u05_l10",
+            "ko": "그럼블! \"쉿\"이 바로 sh 야!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Sh. Ha, ha!",
+            "audio": "b3_u05_l11",
+            "ko": "쉿… 쉬. 하하!"
+          },
+          {
+            "who": "narrator",
+            "text": "Tick... tock... Oh no!",
+            "audio": "b3_u05_l12",
+            "ko": "똑… 딱… 저런!"
+          }
+        ],
+        "video": "vid_b3_u05_2",
+        "ko": "해질녘, 그럼블이 나무 중간까지 내려와 등불로 길을 비춰요. \"쉿이 바로 sh!\" 그럼블이 껄껄 웃어요. 멀리 나무에 걸린 시계가 똑… 딱… 멈췄어요.",
+        "ask": [
+          {
+            "en": "Where is Grumble?",
+            "ko": "그럼블은 어디 앉아 있어?"
+          },
+          {
+            "en": "What stops?",
+            "ko": "뭐가 멈췄어?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "친구들이 지금까지 연 문 넷을 세며 산책해요. 핍이 온 힘을 다해도 \"스… 흐…\" 따로따로. 그때 그럼블의 \"쉬잇!\"을 따라 하자 처음으로 \"sh!\" — 핍의 첫 짝꿍 소리예요! 해질녘 그럼블이 등불로 길을 비추며 껄껄 웃어요.",
+    "so_far_ko": "오리 왕의 반지를 양말 속에서 찾아 줬어요. sh·ch·th·ck·ng 짝꿍 다섯을 배웠어요.",
+    "goal_ko": "짝꿍 소리를 복습하고 핍의 첫 짝꿍 소리를 들어요."
+  },
+  "videos": [
+    {
+      "id": "vid_b3_u05_1",
+      "from": "scene_b3_u05_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the old raccoon in the tree gives a big shush, the baby bird copies him and bursts into golden light with sparkles swirling from its beak, the round door flings open with a rush of leaves, the twin bluebirds leap up together and the friends cheer. Camera still. Joyful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b3_u05_2",
+      "from": "scene_b3_u05_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation at dusk: the raccoon on a low branch slowly raises his lantern and its warm glow spreads along the path and the open doors; far off, the hands of a big wall clock on a tree trunk twitch and stop. Camera still. Calm, warm, child-friendly. No text."
+    }
+  ],
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb3_u05_1",
+        "desc": "A bright morning. The friends walk back along the mossy path past the four doors they have opened, each standing open and glowing softly; the letter pairs carved on the doors (s h, c h, t h, c k) are the ONLY text allowed in the picture. Bun counts the doors on her paw; Hedgie carries the toy ship with Beads on his flower; the chipmunks, the Duck King and the moth follow in a line; Pim and Pam fly side by side; Pip hops behind. Hidden in the picture: the ship, a shell, the bench, the duck, the chess board. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Ship, shop, shell, fish, dish!",
+            "audio": "sb3_u05_1_1",
+            "ko": "배, 가게, 조개껍데기, 물고기, 접시!"
+          },
+          {
+            "who": "bun",
+            "text": "Chin, chip, chop, chess!",
+            "audio": "sb3_u05_1_2",
+            "ko": "턱, 감자칩, 장작 패기, 체스!"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Duck, sock, rock, lock!",
+            "audio": "sb3_u05_1_3",
+            "ko": "딸깍딸깍! 오리, 양말, 바위, 자물쇠!"
+          }
+        ],
+        "task": "Find the sh and ch words!",
+        "task_ko": "sh·ch 단어를 찾아요",
+        "ko": "지금까지 연 문 넷을 세며 산책해요. 다람쥐들, 오리 왕, 나방이 줄지어 따라와요."
+      },
+      {
+        "id": "sb3_u05_2",
+        "desc": "Pip stands alone on a mossy stump in front of the first door with its eyes squeezed shut and feathers trembling, beak open, trying with all its might; two separate little puffs come out. Pim and Pam sit in front of Pip side by side, showing how; Bun and Hedgie hold their breath with paws over their mouths. Hidden in the picture: the thin path, the bathtub, the moth, a striped sock. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "S... h...? S... h...?",
+            "audio": "sb3_u05_2_1",
+            "ko": "스… 흐…? 스… 흐…?"
+          },
+          {
+            "who": "twins",
+            "text": "/ʃ/... Together, Pip!",
+            "audio": "sb3_u05_2_2",
+            "ko": "/ʃ/… 같이 해, 핍!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Pip tries.",
+            "audio": "sb3_u05_2_3",
+            "ko": "핍이 해 봐요. 또 해 봐요."
+          }
+        ],
+        "task": "Find the th words!",
+        "task_ko": "th 단어를 찾아요",
+        "ko": "핍이 그루터기 위에서 눈을 꼭 감고 애써요. 핌과 팜이 \"같이 해!\" 모두 숨을 참아요."
+      },
+      {
+        "id": "sb3_u05_3",
+        "desc": "From high in the giant tree, Grumble gives his biggest Shh! and Pip, copying him, says the sound in one smooth breath for the first time: Pip glows bright gold with sparkles bursting from its beak, the first door flings open with a rush of leaves, and everyone jumps and cheers. Later, at dusk, Grumble sits on a low branch holding his lantern up to light the path, smiling a small proud smile. Far off in the trees, a big round wall clock with no numbers hangs on a trunk, its hands stopped. Hidden in the picture: the fish, the shop, the ring on the Duck King, the song notes.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Sh! Sh! SH!",
+            "audio": "sb3_u05_3_1",
+            "ko": "쉬! 쉬! 쉬이! (sh!)"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Sh. Ha, ha!",
+            "audio": "sb3_u05_3_2",
+            "ko": "쉿… 쉬. 하하!"
+          },
+          {
+            "who": "narrator",
+            "text": "Tick... tock... Oh no!",
+            "audio": "sb3_u05_3_3",
+            "ko": "똑… 딱… 저런!"
+          }
+        ],
+        "task": "Find Grumble's lantern!",
+        "task_ko": "그럼블의 등불을 찾아요",
+        "ko": "그럼블의 \"쉬잇!\"을 따라 하자 처음으로 \"sh!\" 핍의 첫 짝꿍 소리예요. 그럼블이 껄껄 웃어요. — 똑… 딱… 멀리 시계가 멈췄어요."
+      }
+    ]
+  }
+}

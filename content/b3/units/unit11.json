@@ -1,0 +1,634 @@
+{
+  "unit": 11,
+  "title": "The Forest Party",
+  "title_ko": "숲 파티",
+  "vowel": null,
+  "families": [],
+  "words": {},
+  "sight_words": [],
+  "review": {
+    "families": [
+      "bl",
+      "cl",
+      "fl",
+      "br",
+      "cr",
+      "dr",
+      "sn",
+      "st",
+      "sp",
+      "sw",
+      "-nd",
+      "-nt",
+      "-st",
+      "-mp",
+      "wh",
+      "qu"
+    ],
+    "words": [
+      "block",
+      "black",
+      "clock",
+      "clap",
+      "clam",
+      "clip",
+      "flag",
+      "flip",
+      "brick",
+      "brush",
+      "crab",
+      "crib",
+      "crack",
+      "drum",
+      "dress",
+      "snack",
+      "sniff",
+      "stick",
+      "stack",
+      "spot",
+      "spill",
+      "swim",
+      "swing",
+      "hand",
+      "sand",
+      "pond",
+      "tent",
+      "ant",
+      "plant",
+      "nest",
+      "vest",
+      "chest",
+      "lamp",
+      "stamp",
+      "chimp",
+      "whisk",
+      "whip",
+      "quilt",
+      "quack",
+      "quill",
+      "quick"
+    ],
+    "board": {
+      "squares": [
+        {
+          "word": "block"
+        },
+        {
+          "family": "cr"
+        },
+        {
+          "word": "swing"
+        },
+        {
+          "special": "pop"
+        },
+        {
+          "word": "hand"
+        },
+        {
+          "family": "fl"
+        },
+        {
+          "word": "drum"
+        },
+        {
+          "special": "back"
+        },
+        {
+          "word": "whisk"
+        },
+        {
+          "family": "-st"
+        },
+        {
+          "word": "clock"
+        },
+        {
+          "special": "again"
+        },
+        {
+          "word": "snack"
+        },
+        {
+          "family": "qu"
+        },
+        {
+          "word": "tent"
+        },
+        {
+          "special": "pop"
+        },
+        {
+          "word": "crab"
+        },
+        {
+          "family": "sp"
+        },
+        {
+          "word": "lamp"
+        },
+        {
+          "word": "flag"
+        }
+      ]
+    },
+    "bingo": {
+      "words": [
+        "block",
+        "clock",
+        "clap",
+        "flag",
+        "brick",
+        "crab",
+        "drum",
+        "dress",
+        "snack",
+        "stick",
+        "swim",
+        "swing",
+        "hand",
+        "tent",
+        "nest",
+        "quilt"
+      ]
+    },
+    "test": {
+      "read_circle": [
+        {
+          "word": "clap",
+          "pictures": [
+            "clap",
+            "clip",
+            "crab"
+          ]
+        },
+        {
+          "word": "drum",
+          "pictures": [
+            "drum",
+            "dress",
+            "duck"
+          ]
+        },
+        {
+          "word": "spot",
+          "pictures": [
+            "spot",
+            "spill",
+            "shop"
+          ]
+        },
+        {
+          "word": "plant",
+          "pictures": [
+            "plant",
+            "ant",
+            "flag"
+          ]
+        },
+        {
+          "word": "vest",
+          "pictures": [
+            "vest",
+            "nest",
+            "chest"
+          ]
+        },
+        {
+          "word": "quack",
+          "pictures": [
+            "quack",
+            "quick",
+            "duck"
+          ]
+        }
+      ],
+      "match": [
+        {
+          "word": "brush"
+        },
+        {
+          "word": "sniff"
+        },
+        {
+          "word": "stamp"
+        },
+        {
+          "word": "whip"
+        }
+      ],
+      "write": [
+        {
+          "word": "flag",
+          "missing": 0
+        },
+        {
+          "word": "crib",
+          "missing": 1
+        },
+        {
+          "word": "stack",
+          "missing": 0
+        },
+        {
+          "word": "pond",
+          "missing": 2
+        }
+      ]
+    },
+    "blend": [
+      {
+        "word": "black",
+        "missing": 0
+      },
+      {
+        "word": "clam",
+        "missing": 2
+      },
+      {
+        "word": "brick",
+        "missing": 0
+      },
+      {
+        "word": "crack",
+        "missing": 2
+      },
+      {
+        "word": "swim",
+        "missing": 0
+      },
+      {
+        "word": "sand",
+        "missing": 2
+      },
+      {
+        "word": "chest",
+        "missing": 2
+      },
+      {
+        "word": "quill",
+        "missing": 0
+      }
+    ],
+    "sort": {
+      "cl": [
+        "clock",
+        "clap",
+        "clip"
+      ],
+      "cr": [
+        "crab",
+        "crib",
+        "crack"
+      ],
+      "-nd": [
+        "hand",
+        "sand",
+        "pond"
+      ],
+      "qu": [
+        "quilt",
+        "quack",
+        "quill"
+      ]
+    }
+  },
+  "objectives_ko": [
+    "이어 소리 bl·cl·fl·br·cr·dr·sn·st·sp·sw, 끝소리 -nd·-nt·-st·-mp, 짝꿍 wh·qu 를 말한다",
+    "단어 41개를 소리를 이어 읽고 그림을 고르고, 빠진 짝꿍을 쓴다",
+    "사이트워드 here, there, with, for, one, two, said, do, where, who를 보고 읽는다",
+    "게임판·빙고로 복습하고 유닛 평가를 본다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Review Games",
+      "title_ko": "복습 놀이",
+      "pages": [
+        {
+          "type": "review_words",
+          "title": "Blends, endings, wh and qu"
+        },
+        {
+          "type": "review_board",
+          "title": "Game board"
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_blend",
+          "title": "A. Blend and write the pairs."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Story and Test",
+      "title_ko": "스토리·평가",
+      "pages": [
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "review_test",
+          "title": "Unit Test"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_words",
+          "title": "B. Read and sort the pairs."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Forest Party",
+    "bgm": "bgm_finale",
+    "panels": [
+      {
+        "id": "scene_b3_u11_1",
+        "desc": "A party in the glade behind the last door, under strings of little flags. A long table made of black wooden blocks holds a tall stack of pancakes, little plates of snacks and a whisk in a bowl; guests sit around it: the three chipmunks, the Duck King and his ducks, the crab with its drum, the chimp in its vest holding its little lamp, the moth and the fluffy baby bird. Bun points at the table; Hedgie carries a tray; Pip sings on a flag string; Pim and Pam hang a garland together; Beads clicks. Grumble does NOT appear — only his lantern light glows among the trees at the edge of the glade. Hidden in the picture: the flags, the black blocks, the stack, the snack, the lamp, the whisk.",
+        "hidden": [
+          "flag",
+          "block",
+          "black",
+          "stack",
+          "snack",
+          "lamp",
+          "whisk"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "A forest party! Look!",
+            "audio": "b3_u11_l1",
+            "ko": "숲 파티야! 봐!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Flags, blocks and a snack!",
+            "audio": "b3_u11_l2",
+            "ko": "깃발, 블록, 그리고 간식!"
+          },
+          {
+            "who": "bun",
+            "text": "Sit with us, chimp!",
+            "audio": "b3_u11_l3",
+            "ko": "우리랑 앉자, 침팬지야!"
+          }
+        ],
+        "ko": "마지막 문 너머 풀밭에서 숲 파티! 까만 블록 식탁에 팬케이크와 간식. 다람쥐들, 오리 왕, 게, 침팬지, 나방, 아기 새가 손님이에요.",
+        "ask": [
+          {
+            "en": "Who is at the party?",
+            "ko": "파티에 누가 왔어?"
+          },
+          {
+            "en": "What is on the table?",
+            "ko": "식탁에 뭐가 있어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u11_2",
+        "desc": "Party games: the chimp swings high on the big wooden swing, the ducks swim in a little pond, and the crab drums. Grumble steps into the glade from the trees with his lantern — walking on the ground now, not up in the treetops — looking shy; everyone turns and waves him over; Pip flies to him; Pim and Pam land together on his nightcap. Hidden in the picture: the swing, the swimming ducks, the pond, the drum, the crab.",
+        "hidden": [
+          "swing",
+          "swim",
+          "pond",
+          "drum",
+          "crab"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Here is Grumble!",
+            "audio": "b3_u11_l4",
+            "ko": "그럼블이 왔어요!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Can I swing?",
+            "audio": "b3_u11_l5",
+            "ko": "쉿… 나도 그네 타도 돼?"
+          },
+          {
+            "who": "twins",
+            "text": "Together! Swing with us!",
+            "audio": "b3_u11_l6",
+            "ko": "함께! 우리랑 그네 타자!"
+          }
+        ],
+        "ko": "침팬지는 그네를 타고, 오리들은 헤엄치고, 게는 북을 둥둥. 그럼블이 나무 위가 아니라 땅으로 걸어와요. \"나도 그네 타도 돼?\"",
+        "ask": [
+          {
+            "en": "Who comes to the party?",
+            "ko": "누가 파티에 왔어?"
+          },
+          {
+            "en": "What does Grumble ask?",
+            "ko": "그럼블이 뭘 물어봐?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u11_3",
+        "desc": "Grumble sits in the middle of the party beating the crab's drum with two sticks, grinning wide, his nightcap bouncing; the crab clacks its claws in time; everyone claps and dances around him. Pip stands on a black block reading out words, beak open; Beads conducts with a string of beads; Pim and Pam sing together. A clock on a tree trunk ticks along; the green tent stands at the edge of the glade. Hidden in the picture: the drum, the sticks, clapping paws, the clock, the tent.",
+        "hidden": [
+          "drum",
+          "stick",
+          "clap",
+          "clock",
+          "tent"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Block! Crab! Swing! Hand! Quilt!",
+            "audio": "b3_u11_l7",
+            "ko": "블록! 게! 그네! 손! 누비이불!"
+          },
+          {
+            "who": "narrator",
+            "text": "Drum, drum! Clap, clap!",
+            "audio": "b3_u11_l8",
+            "ko": "둥둥! 짝짝!"
+          },
+          {
+            "who": "grumble",
+            "text": "Not shh! Sh! Ch! Th!",
+            "audio": "b3_u11_l9",
+            "ko": "\"쉿\" 아니야! 쉬! 치! 스!"
+          }
+        ],
+        "video": "vid_b3_u11_1",
+        "ko": "그럼블이 게의 북을 막대기로 둥둥 쳐요. 모두 손뼉 치며 춤춰요. 핍은 블록 위에서 짝꿍 단어를 읽어요.",
+        "ask": [
+          {
+            "en": "What is Grumble playing?",
+            "ko": "그럼블이 뭘 쳐?"
+          },
+          {
+            "en": "What does Pip read?",
+            "ko": "핍은 뭘 읽어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u11_4",
+        "desc": "Night. The party has gone quiet: everyone stands at the far edge of the forest looking out over a moonlit valley. On a hill far away stands a tall castle with a big gate, and on the gate glows a short word, c a p — and as they watch, a tiny sparkling letter e appears at its end, making cape; these four letters are the ONLY text allowed in the picture. Grumble holds up his lantern; Hedgie points with one paw; Pip tilts its head; Pim and Pam huddle wide-eyed; Bun holds the patchwork quilt around her shoulders; Beads's antennae stand straight up; in a nest in a nearby tree the chimp sits with its little lamp, waving one hand. Hidden in the picture: the quilt around Bun, the chimp's lamp, the nest, the chimp's waving hand.",
+        "hidden": [
+          "quilt",
+          "lamp",
+          "nest",
+          "hand"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Look! A big gate!",
+            "audio": "b3_u11_l10",
+            "ko": "봐요! 커다란 성문!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Cap? It is not cap!",
+            "audio": "b3_u11_l11",
+            "ko": "캡? 캡이 아니야!"
+          },
+          {
+            "who": "pip",
+            "text": "Cap... cap-e? Pop!",
+            "audio": "b3_u11_l12",
+            "ko": "캡… 캡-이? 펑!"
+          }
+        ],
+        "video": "vid_b3_u11_2",
+        "ko": "밤, 숲 끝에서 저 멀리 언덕 위 성이 보여요. 성문에 c·a·p — 그런데 끝에 반짝이는 e 가 붙어 단어가 바뀌어요! \"캡이 아니야!\"",
+        "ask": [
+          {
+            "en": "What is far away?",
+            "ko": "저 멀리 뭐가 보여?"
+          },
+          {
+            "en": "What happens to the word?",
+            "ko": "성문의 단어가 어떻게 됐어?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "마지막 문 너머 풀밭에서 숲 파티가 열려요. 그럼블이 나무에서 내려와 게의 북을 둥둥, \"쉿 아니고 sh, ch, th!\" 밤이 되자 숲 끝 저 멀리 성이 보여요. 성문의 단어 cap 끝에 e 가 반짝 붙어 단어가 바뀌어요!",
+    "so_far_ko": "핍이 혼자 마지막 문을 열고 노래 조각 셋을 찾았어요. 그럼블도 따라 흥얼거렸어요.",
+    "goal_ko": "파티에서 이어 소리·끝소리·wh·qu 를 복습하고 성문의 수수께끼를 봐요."
+  },
+  "videos": [
+    {
+      "id": "vid_b3_u11_1",
+      "from": "scene_b3_u11_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the raccoon beats the crab's drum with two sticks and his nightcap bounces, the crab clacks its claws in time, the friends and animals clap and dance in a circle under strings of little flags. Camera still. Festive, child-friendly. No text."
+    },
+    {
+      "id": "vid_b3_u11_2",
+      "from": "scene_b3_u11_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation at night: far away on a hill, the glowing letters on a castle gate shimmer and a tiny sparkle appears at their end; the friends at the forest edge lean forward, the raccoon raises his lantern, the twin bluebirds blink wide-eyed. Camera still. Mysterious but friendly, child-friendly. No other text."
+    }
+  ],
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb3_u11_1",
+        "desc": "A party in the glade behind the last door, under strings of little flags. A long table made of black wooden blocks holds a stack of pancakes, snacks and a whisk in a bowl; the chipmunks, the Duck King and his ducks, the crab with its drum, the chimp with its lamp, the moth and the baby bird sit around it. Bun points; Hedgie carries a tray; Pip sings on a flag string; Pim and Pam hang a garland together. Grumble does NOT appear — only his lantern light glows among the trees. Hidden in the picture: the flags, the blocks, the stack, the snack, the lamp, the whisk.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "A forest party! Look!",
+            "audio": "sb3_u11_1_1",
+            "ko": "숲 파티야! 봐!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Flags, blocks and a snack!",
+            "audio": "sb3_u11_1_2",
+            "ko": "깃발, 블록, 그리고 간식!"
+          },
+          {
+            "who": "bun",
+            "text": "Sit with us, chimp!",
+            "audio": "sb3_u11_1_3",
+            "ko": "우리랑 앉자, 침팬지야!"
+          }
+        ],
+        "task": "Find the flags and the blocks!",
+        "task_ko": "깃발과 블록을 찾아요",
+        "ko": "마지막 문 너머 풀밭에서 숲 파티! 숲 친구들이 모두 손님이에요. 그럼블은 아직 숲 가장자리에."
+      },
+      {
+        "id": "sb3_u11_2",
+        "desc": "Grumble has walked into the glade on the ground and now sits in the middle beating the crab's drum with two sticks, grinning wide, nightcap bouncing; the crab clacks its claws in time; everyone claps and dances around him; the chimp swings on the big swing; ducks swim in a little pond. Pip stands on a black block reading out words; Beads conducts; Pim and Pam sing. Hidden in the picture: the drum, the sticks, the swing, the pond, clapping paws.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Here is Grumble!",
+            "audio": "sb3_u11_2_1",
+            "ko": "그럼블이 왔어요!"
+          },
+          {
+            "who": "grumble",
+            "text": "Not shh! Sh! Ch! Th!",
+            "audio": "sb3_u11_2_2",
+            "ko": "\"쉿\" 아니야! 쉬! 치! 스!"
+          },
+          {
+            "who": "pip",
+            "text": "Block! Crab! Swing! Hand! Quilt!",
+            "audio": "sb3_u11_2_3",
+            "ko": "블록! 게! 그네! 손! 누비이불!"
+          }
+        ],
+        "task": "Find the drum and the swing!",
+        "task_ko": "북과 그네를 찾아요",
+        "ko": "그럼블이 땅으로 걸어와 게의 북을 둥둥! \"쉿 아니고 sh, ch, th!\" 핍이 짝꿍 단어를 읽어요."
+      },
+      {
+        "id": "sb3_u11_3",
+        "desc": "Night. Everyone stands at the far edge of the forest looking out over a moonlit valley. On a hill far away stands a tall castle with a big gate, and on the gate glows a short word, c a p, with a tiny sparkling letter e appearing at its end, making cape — these four letters are the ONLY text allowed in the picture. Grumble holds up his lantern; Hedgie points; Pip tilts its head; Pim and Pam huddle wide-eyed; Bun holds the quilt around her shoulders; in a nest in a nearby tree the chimp waves one hand beside its little lamp. Hidden in the picture: the quilt, the lamp, the nest, the chimp's waving hand.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Look! A big gate!",
+            "audio": "sb3_u11_3_1",
+            "ko": "봐요! 커다란 성문!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Cap? It is not cap!",
+            "audio": "sb3_u11_3_2",
+            "ko": "캡? 캡이 아니야!"
+          },
+          {
+            "who": "pip",
+            "text": "Cap... cap-e? Pop!",
+            "audio": "sb3_u11_3_3",
+            "ko": "캡… 캡-이? 펑!"
+          }
+        ],
+        "task": "Find the gate!",
+        "task_ko": "성문을 찾아요",
+        "ko": "밤, 숲 끝에서 멀리 성이 보여요. 성문의 cap 끝에 반짝 e 가 붙어 단어가 바뀌어요! 마법일까요?"
+      }
+    ]
+  }
+}
