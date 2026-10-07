@@ -99,6 +99,21 @@ def rebuild():
                 if k in old: s[k] = old[k]
             if old.get('text_edited'): s['text'] = old['text']
         sounds[s['id']] = s
+    # 대본이 바뀐 소리(예: 캐릭터 이름 교체)는 승인을 풀고 교재의 mp3 도 지워 옛 녹음이 나가지 않게 한다 → 다시 생성해 승인
+    stale = 0
+    for s in sounds.values():
+        if s.get('approved') is None or s['sub'] == 'sound': continue
+        c = next((c for c in s['cands'] if c['n'] == s['approved']), None)
+        ct = (c or {}).get('text', '') or ''
+        for pre in ('Say slowly and clearly: ',):
+            if ct.startswith(pre): ct = ct[len(pre):]
+        if ct.strip() and ct.strip() != s['text'].strip():
+            s['approved'] = None; s['final'] = ''; s['applied'] = ''; stale += 1
+            try: os.remove(os.path.join(presets.WEB, 'assets', 'audio', f"{s['id']}.mp3"))
+            except OSError: pass
+            if os.path.isdir(os.path.join(ADATA, s['id'])): save_sound(s)
+            log(f"{s['id']} 대본이 바뀌어 승인 해제: \"{ct.strip()}\" → \"{s['text']}\"")
+    if stale: log(f'대본이 바뀐 소리 {stale}개 — 소리 탭에서 다시 만들기')
     state['book'] = book; state['units'] = units; state['items'] = items; state['sounds'] = sounds; state['books'] = books
     log(f'항목 {len(items)}개 · 소리 {len(sounds)}개 (content 에서)')
 
