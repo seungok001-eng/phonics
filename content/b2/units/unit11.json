@@ -356,7 +356,7 @@
   ],
   "story": {
     "title": "The Pond Party",
-    "bgm": "b2_u11_story",
+    "bgm": "bgm_finale",
     "panels": [
       {
         "id": "scene_b2_u11_1",

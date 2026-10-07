@@ -88,7 +88,7 @@
   ],
   "story": {
     "title": "The Queen's Quilt",
-    "bgm": "u7_story",
+    "bgm": "bgm_silly",
     "panels": [
       {
         "id": "scene_u07_1",

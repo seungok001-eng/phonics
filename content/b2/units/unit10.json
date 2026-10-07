@@ -152,7 +152,7 @@
   ],
   "story": {
     "title": "Fun in the Sun",
-    "bgm": "b2_u10_story",
+    "bgm": "bgm_finale",
     "panels": [
       {
         "id": "scene_b2_u10_1",

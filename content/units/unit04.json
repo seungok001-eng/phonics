@@ -88,7 +88,7 @@
   ],
   "story": {
     "title": "The Key",
-    "bgm": "u4_story",
+    "bgm": "bgm_adventure",
     "panels": [
       {
         "id": "scene_u04_1",

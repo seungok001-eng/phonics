@@ -139,7 +139,7 @@
   ],
   "story": {
     "title": "A Bed for Grumble",
-    "bgm": "b2_u4_story",
+    "bgm": "bgm_night",
     "panels": [
       {
         "id": "scene_b2_u04_1",

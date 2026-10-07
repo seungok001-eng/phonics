@@ -1,7 +1,7 @@
 {
-  "series": "Pomi Phonics",
+  "series": "Pop! Phonics",
   "book": 1,
-  "title": "Pomi Phonics 1",
+  "title": "Pop! Phonics 1",
   "subtitle": "Alphabet Sounds",
   "site_base": "https://seungok001-eng.github.io/phonics",
   "style": {
@@ -976,7 +976,8 @@
         "lines": [],
         "ko": "발자국이 다 찍힌 지도. 화분이 다 나무가 되고 씨앗이 담장 너머로 날아가요."
       }
-    ]
+    ],
+    "bgm": "bgm_bright"
   },
   "style_v1": {
     "art": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image.",

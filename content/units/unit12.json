@@ -159,7 +159,7 @@
   "show": {
     "song": {
       "title": "Pip's Song",
-      "bgm": "pips_song",
+      "bgm": "song_backing",
       "lines": [
         {
           "text": "A, a, /æ/, apple!",
@@ -553,7 +553,7 @@
   ],
   "story": {
     "title": "The Alphabet Show",
-    "bgm": "u12_story",
+    "bgm": "bgm_finale",
     "panels": [
       {
         "id": "scene_u12_1",

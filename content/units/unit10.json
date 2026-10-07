@@ -88,7 +88,7 @@
   ],
   "story": {
     "title": "Pip Sings!",
-    "bgm": "u10_story",
+    "bgm": "bgm_finale",
     "panels": [
       {
         "id": "scene_u10_1",

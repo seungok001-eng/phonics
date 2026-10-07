@@ -88,7 +88,7 @@
   ],
   "story": {
     "title": "The Volcano",
-    "bgm": "u9_story",
+    "bgm": "bgm_silly",
     "panels": [
       {
         "id": "scene_u09_1",

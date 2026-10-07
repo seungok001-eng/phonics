@@ -287,7 +287,7 @@
   ],
   "story": {
     "title": "Pip's Garden Walk",
-    "bgm": "u5_story",
+    "bgm": "bgm_bright",
     "panels": [
       {
         "id": "scene_u05_1",

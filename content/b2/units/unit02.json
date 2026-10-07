@@ -142,7 +142,7 @@
   ],
   "story": {
     "title": "The Cap and the Bag",
-    "bgm": "b2_u2_story",
+    "bgm": "bgm_silly",
     "panels": [
       {
         "id": "scene_b2_u02_1",

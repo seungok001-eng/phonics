@@ -140,7 +140,7 @@
   ],
   "story": {
     "title": "Zip It Up!",
-    "bgm": "b2_u7_story",
+    "bgm": "bgm_bright",
     "panels": [
       {
         "id": "scene_b2_u07_1",

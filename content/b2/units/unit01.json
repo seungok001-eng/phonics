@@ -143,7 +143,7 @@
   ],
   "story": {
     "title": "The Cat on the Mat",
-    "bgm": "b2_u1_story",
+    "bgm": "bgm_bright",
     "panels": [
       {
         "id": "scene_b2_u01_1",

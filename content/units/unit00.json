@@ -32,7 +32,7 @@
   ],
   "story": {
     "title": "The Little Door",
-    "bgm": "u0_intro",
+    "bgm": "bgm_adventure",
     "panels": [
       {
         "id": "scene_u00_1",

@@ -88,7 +88,7 @@
   ],
   "story": {
     "title": "The Goat Ate It!",
-    "bgm": "u3_story",
+    "bgm": "bgm_silly",
     "panels": [
       {
         "id": "scene_u03_1",

@@ -88,7 +88,7 @@
   ],
   "story": {
     "title": "The Duck Pond",
-    "bgm": "u2_story",
+    "bgm": "bgm_bright",
     "panels": [
       {
         "id": "scene_u02_1",

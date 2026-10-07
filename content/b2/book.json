@@ -1,7 +1,7 @@
 {
-  "series": "Pomi Phonics",
+  "series": "Pop! Phonics",
   "book": 2,
-  "title": "Pomi Phonics 2",
+  "title": "Pop! Phonics 2",
   "subtitle": "Short Vowels",
   "site_base": "https://seungok001-eng.github.io/phonics",
   "style": {
@@ -1162,7 +1162,8 @@
         "lines": [],
         "ko": "징검다리가 완성된 지도. 발자국이 건너편까지 이어지고 숲으로 작은 길이 나 있어요."
       }
-    ]
+    ],
+    "bgm": "bgm_bright"
   },
   "style_v1": {
     "art": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image.",

@@ -1,5 +1,5 @@
 @echo off
-rem Creates the desktop shortcut "Pomi forge" (Korean name) pointing at tools\forge.cmd. Works from any checkout location.
+rem Creates the desktop shortcut "phonics forge" (Korean name) pointing at tools\forge.cmd. Works from any checkout location.
 rem The Korean name is built from Unicode code points in PowerShell so this file stays ASCII-only (cmd cannot parse Korean here).
 rem Usage: forge-shortcut.cmd [quiet]   - "quiet" skips the pause and does nothing if the shortcut already exists.
 set "ROOT=%~dp0.."

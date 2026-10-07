@@ -2,15 +2,29 @@
   {
     "n": 1,
     "dir": "",
-    "title": "Pomi Phonics 1",
+    "title": "Pop! Phonics 1",
     "subtitle": "Alphabet Sounds",
     "ko": "알파벳 소리"
   },
   {
     "n": 2,
     "dir": "b2/",
-    "title": "Pomi Phonics 2",
+    "title": "Pop! Phonics 2",
     "subtitle": "Short Vowels",
     "ko": "짧은 모음·합치기"
+  },
+  {
+    "n": 3,
+    "dir": "b3/",
+    "title": "Pop! Phonics 3",
+    "subtitle": "Sound Pairs",
+    "ko": "두 글자 한 소리"
+  },
+  {
+    "n": 4,
+    "dir": "b4/",
+    "title": "Pop! Phonics 4",
+    "subtitle": "Long Vowels",
+    "ko": "긴 모음·마법 e"
   }
 ]

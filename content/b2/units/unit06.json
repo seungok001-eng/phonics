@@ -143,7 +143,7 @@
   ],
   "story": {
     "title": "The Pig and the Pin",
-    "bgm": "b2_u6_story",
+    "bgm": "bgm_silly",
     "panels": [
       {
         "id": "scene_b2_u06_1",

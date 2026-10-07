@@ -90,7 +90,7 @@
   ],
   "story": {
     "title": "Pop! Pop! Pop!",
-    "bgm": "u1_story",
+    "bgm": "bgm_bright",
     "panels": [
       {
         "id": "scene_u01_1",

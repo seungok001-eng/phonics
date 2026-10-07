@@ -289,7 +289,7 @@
   ],
   "story": {
     "title": "The Garden Party",
-    "bgm": "u11_story",
+    "bgm": "bgm_finale",
     "panels": [
       {
         "id": "scene_u11_1",

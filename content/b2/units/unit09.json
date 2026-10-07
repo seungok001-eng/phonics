@@ -140,7 +140,7 @@
   ],
   "story": {
     "title": "The Fox and the Box",
-    "bgm": "b2_u9_story",
+    "bgm": "bgm_adventure",
     "panels": [
       {
         "id": "scene_b2_u09_1",

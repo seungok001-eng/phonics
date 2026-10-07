@@ -140,7 +140,7 @@
   ],
   "story": {
     "title": "Fog on the Pond",
-    "bgm": "b2_u8_story",
+    "bgm": "bgm_night",
     "panels": [
       {
         "id": "scene_b2_u08_1",

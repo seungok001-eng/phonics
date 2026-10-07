@@ -88,7 +88,7 @@
   ],
   "story": {
     "title": "The Night Garden",
-    "bgm": "u6_story",
+    "bgm": "bgm_night",
     "panels": [
       {
         "id": "scene_u06_1",

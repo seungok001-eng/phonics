@@ -144,7 +144,7 @@
   ],
   "story": {
     "title": "Ten Hens in a Net",
-    "bgm": "b2_u3_story",
+    "bgm": "bgm_silly",
     "panels": [
       {
         "id": "scene_b2_u03_1",
