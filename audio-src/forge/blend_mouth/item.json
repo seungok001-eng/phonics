@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/m/ ... /aʊ/ ... /θ/ ... mouth",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382041.3631275,
+   "sec": 4.48,
+   "check": {
+    "transcript": "mouth",
+    "type": "word",
+    "ipa": "maʊθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mouth | TYPE=word | IPA=maʊθ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_mouth",
+ "sub": "blend",
+ "title": "합치기 mouth",
+ "text": "/m/ ... /aʊ/ ... /θ/ ... mouth",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

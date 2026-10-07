@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "clay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381683.7150035,
+   "sec": 1.04,
+   "check": {
+    "transcript": "clay",
+    "type": "word",
+    "ipa": "kleɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clay | TYPE=word | IPA=kleɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_clay",
+ "sub": "word",
+ "title": "단어 clay · 찰흙",
+ "text": "clay",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

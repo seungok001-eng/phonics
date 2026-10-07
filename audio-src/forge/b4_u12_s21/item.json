@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Boom, boom! Grumble's drum!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382562.5269878,
+   "sec": 3.12,
+   "check": {
+    "transcript": "Boom, boom, grumbles drum.",
+    "type": "sentence",
+    "ipa": "ˈbum ˈbum ˈɡrʌmbəlz ˈdrʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Boom, boom, grumbles drum. | TYPE=sentence | IPA=ˈbum ˈbum ˈɡrʌmbəlz ˈdrʌm | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s21",
+ "sub": "line",
+ "title": "4권 노래 21: Boom, boom! Grumble's drum!",
+ "text": "Boom, boom! Grumble's drum!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

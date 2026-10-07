@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "harp",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381766.7072818,
+   "sec": 1.04,
+   "check": {
+    "transcript": "harp",
+    "type": "word",
+    "ipa": "hɑɹp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=harp | TYPE=word | IPA=hɑɹp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_harp",
+ "sub": "word",
+ "title": "단어 harp · 하프",
+ "text": "harp",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

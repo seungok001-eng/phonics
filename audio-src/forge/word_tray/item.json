@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tray",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381678.2873385,
+   "sec": 0.92,
+   "check": {
+    "transcript": "tray",
+    "type": "word",
+    "ipa": "tɹeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tray | TYPE=word | IPA=tɹeɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_tray",
+ "sub": "word",
+ "title": "단어 tray · 쟁반",
+ "text": "tray",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

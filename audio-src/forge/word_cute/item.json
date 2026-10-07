@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cute",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381637.3834844,
+   "sec": 1.48,
+   "check": {
+    "transcript": "cute",
+    "type": "word",
+    "ipa": "kjut",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cute | TYPE=word | IPA=kjut | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_cute",
+ "sub": "word",
+ "title": "단어 cute · 귀여운",
+ "text": "cute",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

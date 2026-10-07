@@ -1,10 +1,28 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/oʊ/ /oʊ/ rope!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791384839.913576,
+   "sec": 2.19,
+   "check": {
+    "transcript": "o o o",
+    "type": "word",
+    "ipa": "oʊ oʊ oʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=o o o | TYPE=word | IPA=oʊ oʊ oʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:18",
  "text_edited": false,
- "error": "el: 낱소리 sound_o_e 녹음이 없다",
+ "error": "",
  "unit": 3,
  "letter": null,
  "id": "b4_u03_l7",
@@ -14,5 +32,5 @@
  "voice": "Leda",
  "who": "bun",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

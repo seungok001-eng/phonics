@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/ ... /aɪ/ ... /k/ ... bike",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381828.5307927,
+   "sec": 3.92,
+   "check": {
+    "transcript": "bike",
+    "type": "word",
+    "ipa": "baɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bike | TYPE=word | IPA=baɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_bike",
+ "sub": "blend",
+ "title": "합치기 bike",
+ "text": "/b/ ... /aɪ/ ... /k/ ... bike",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

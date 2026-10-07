@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the Song Tree!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382467.4977083,
+   "sec": 1.88,
+   "check": {
+    "transcript": "Find the song tree.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə sɔŋ triː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the song tree. | TYPE=sentence | IPA=faɪnd ðə sɔŋ triː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_3_task",
+ "sub": "instr",
+ "title": "10유닛 스토리북 과제 · Find the Song Tree!",
+ "text": "Find the Song Tree!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

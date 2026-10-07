@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the ai words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382309.4897046,
+   "sec": 2.48,
+   "check": {
+    "transcript": "Find the AI words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði eɪ aɪ wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the AI words. | TYPE=sentence | IPA=faɪnd ði eɪ aɪ wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb4_u06_1_task",
+ "sub": "instr",
+ "title": "6유닛 스토리북 과제 · Find the ai words!",
+ "text": "Find the ai words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

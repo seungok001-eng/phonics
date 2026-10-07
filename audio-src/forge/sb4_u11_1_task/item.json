@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find train, road, goat, seal!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382485.154436,
+   "sec": 5.2,
+   "check": {
+    "transcript": "Find train, road, goat, seal.",
+    "type": "sentence",
+    "ipa": "faɪnd treɪn roʊd goʊt siːl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find train, road, goat, seal. | TYPE=sentence | IPA=faɪnd treɪn roʊd goʊt siːl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb4_u11_1_task",
+ "sub": "instr",
+ "title": "11유닛 스토리북 과제 · Find train, road, goat, seal!",
+ "text": "Find train, road, goat, seal!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

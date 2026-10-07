@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Who is up there?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382128.7148945,
+   "sec": 1.92,
+   "check": {
+    "transcript": "Shh. Who is up there?",
+    "type": "sentence",
+    "ipa": "ʃː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Who is up there? | TYPE=sentence | IPA=ʃː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb4_u00_2_3",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 해설: Shh... Who is up there?",
+ "text": "Shh... Who is up there?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

@@ -12,9 +12,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:22",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -25,6 +25,5 @@
  "text": "Eee! A huge hug!",
  "voice": "Autonoe",
  "who": "fairy",
- "book": 4,
- "busy": 1
+ "book": 4
 }

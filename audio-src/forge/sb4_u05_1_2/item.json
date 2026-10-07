@@ -10,11 +10,28 @@
    "sec": 2.28,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Kite, pine, bike, five, hive!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791387094.0561259,
+   "sec": 2.46,
+   "check": {
+    "transcript": "kite, pine, bike, five, hive",
+    "type": "sentence",
+    "ipa": "kaɪt, paɪn, baɪk, faɪv, haɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kite, pine, bike, five, hive | TYPE=sentence | IPA=kaɪt, paɪn, baɪk, faɪv, haɪv | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:31",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -26,5 +43,5 @@
  "voice": "Puck",
  "who": "hedgie",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

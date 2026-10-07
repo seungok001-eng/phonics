@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the kite and the pine!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382190.0051107,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Find the kite and the pine.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə kaɪt ənd ðə paɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the kite and the pine. | TYPE=sentence | IPA=faɪnd ðə kaɪt ənd ðə paɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_2_task",
+ "sub": "instr",
+ "title": "2유닛 스토리북 과제 · Find the kite and the pine!",
+ "text": "Find the kite and the pine!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Snow! Snow! Brr!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382377.7826586,
+   "sec": 2.84,
+   "check": {
+    "transcript": "snow, snow, burr",
+    "type": "sentence",
+    "ipa": "snəʊ, snəʊ, bɜː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snow, snow, burr | TYPE=sentence | IPA=snəʊ, snəʊ, bɜː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb4_u08_1_1",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 해설: Snow! Snow! Brr!",
+ "text": "Snow! Snow! Brr!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

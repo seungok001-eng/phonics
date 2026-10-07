@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "feet",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381694.0942621,
+   "sec": 1.16,
+   "check": {
+    "transcript": "feet",
+    "type": "word",
+    "ipa": "fit",
+    "note": "ok",
+    "raw": "TRANSCRIPT=feet | TYPE=word | IPA=fit | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_feet",
+ "sub": "word",
+ "title": "단어 feet · 발",
+ "text": "feet",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

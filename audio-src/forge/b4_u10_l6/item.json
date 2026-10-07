@@ -1,10 +1,45 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ɑr/ /ɑr/ harp!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791384854.1832051,
+   "sec": 2.7,
+   "check": {
+    "transcript": "R",
+    "type": "letter-name",
+    "ipa": "ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/ɑr/ /ɑr/ harp!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791388202.740951,
+   "sec": 2.84,
+   "check": {
+    "transcript": "R",
+    "type": "letter-name",
+    "ipa": "ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:50",
  "text_edited": false,
- "error": "el: 낱소리 sound_ar 녹음이 없다",
+ "error": "",
  "unit": 10,
  "letter": null,
  "id": "b4_u10_l6",
@@ -14,5 +49,5 @@
  "voice": "Puck",
  "who": "hedgie",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

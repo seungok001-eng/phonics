@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Take the tape to the gate.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382152.8263443,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Take the tape to the gate.",
+    "type": "sentence",
+    "ipa": "ˈteɪk ðə ˈteɪp tə ðə ˈɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Take the tape to the gate. | TYPE=sentence | IPA=ˈteɪk ðə ˈteɪp tə ðə ˈɡeɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b4_u01_s4",
+ "sub": "line",
+ "title": "4권 1유닛 문장 4: Take the tape to the gate.",
+ "text": "Take the tape to the gate.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

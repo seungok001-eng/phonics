@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! The Song Tree Show!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382499.885107,
+   "sec": 2.4,
+   "check": {
+    "transcript": "Look, the Song Tree show.",
+    "type": "sentence",
+    "ipa": "lʊk ˈðə ˈsɔŋ tri ˈʃoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, the Song Tree show. | TYPE=sentence | IPA=lʊk ˈðə ˈsɔŋ tri ˈʃoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_l1",
+ "sub": "line",
+ "title": "4권 12유닛 대사 · 해설: Look! The Song Tree Show!",
+ "text": "Look! The Song Tree Show!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

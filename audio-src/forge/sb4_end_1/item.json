@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The End",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382583.3390238,
+   "sec": 1.36,
+   "check": {
+    "transcript": "the end",
+    "type": "sentence",
+    "ipa": "ðiː ɛnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the end | TYPE=sentence | IPA=ðiː ɛnd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb4_end_1",
+ "sub": "line",
+ "title": "스토리북 · 해설: The End",
+ "text": "The End",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Go slow on the road.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382368.7509036,
+   "sec": 1.64,
+   "check": {
+    "transcript": "Go slow on the road.",
+    "type": "sentence",
+    "ipa": "goʊ sloʊ ɑn ðə roʊd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go slow on the road. | TYPE=sentence | IPA=goʊ sloʊ ɑn ðə roʊd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b4_u08_s2",
+ "sub": "line",
+ "title": "4권 8유닛 문장 2: Go slow on the road.",
+ "text": "Go slow on the road.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ ... /eɪ/ ... /n/ ... cane",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381783.8097594,
+   "sec": 4.44,
+   "check": {
+    "transcript": "cane",
+    "type": "word",
+    "ipa": "keɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cane | TYPE=word | IPA=keɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_cane",
+ "sub": "blend",
+ "title": "합치기 cane",
+ "text": "/k/ ... /eɪ/ ... /n/ ... cane",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

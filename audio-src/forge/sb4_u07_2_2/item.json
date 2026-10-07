@@ -1,10 +1,28 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ /iː/ /f/ leaf!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791384845.9726162,
+   "sec": 3.51,
+   "check": {
+    "transcript": "leaf",
+    "type": "word",
+    "ipa": "liːf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=leaf | TYPE=word | IPA=liːf | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:38",
  "text_edited": false,
- "error": "el: 낱소리 sound_ea 녹음이 없다",
+ "error": "",
  "unit": 7,
  "letter": null,
  "id": "sb4_u07_2_2",
@@ -14,5 +32,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

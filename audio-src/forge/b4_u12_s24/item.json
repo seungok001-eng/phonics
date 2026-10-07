@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pop! Pop! Phonics!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382574.044197,
+   "sec": 2.8,
+   "check": {
+    "transcript": "Pop Phonics",
+    "type": "word",
+    "ipa": "ˈpɑːp ˈfɑːnɪks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pop Phonics | TYPE=word | IPA=ˈpɑːp ˈfɑːnɪks | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s24",
+ "sub": "line",
+ "title": "4권 노래 24: Pop! Pop! Phonics!",
+ "text": "Pop! Pop! Phonics!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

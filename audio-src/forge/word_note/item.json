@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "note",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381606.2032459,
+   "sec": 1.24,
+   "check": {
+    "transcript": "Note",
+    "type": "word",
+    "ipa": "noʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Note | TYPE=word | IPA=noʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_note",
+ "sub": "word",
+ "title": "단어 note · 쪽지",
+ "text": "note",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

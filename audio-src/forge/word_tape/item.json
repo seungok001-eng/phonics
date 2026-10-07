@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tape",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381553.3613493,
+   "sec": 0.92,
+   "check": {
+    "transcript": "tape",
+    "type": "word",
+    "ipa": "teɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tape | TYPE=word | IPA=teɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_tape",
+ "sub": "word",
+ "title": "단어 tape · 테이프",
+ "text": "tape",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

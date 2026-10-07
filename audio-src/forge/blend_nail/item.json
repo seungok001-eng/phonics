@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/n/ ... /eɪ/ ... /l/ ... nail",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381937.2333393,
+   "sec": 4.16,
+   "check": {
+    "transcript": "nail",
+    "type": "word",
+    "ipa": "neɪl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nail | TYPE=word | IPA=neɪl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_nail",
+ "sub": "blend",
+ "title": "합치기 nail",
+ "text": "/n/ ... /eɪ/ ... /l/ ... nail",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

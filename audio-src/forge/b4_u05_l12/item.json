@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Up, up, up the stone steps!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382276.506193,
+   "sec": 2.44,
+   "check": {
+    "transcript": "up up up the stone steps",
+    "type": "sentence",
+    "ipa": "ʌp ʌp ʌp ðə stoʊn stɛps",
+    "note": "ok",
+    "raw": "TRANSCRIPT=up up up the stone steps | TYPE=sentence | IPA=ʌp ʌp ʌp ðə stoʊn stɛps | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b4_u05_l12",
+ "sub": "line",
+ "title": "4권 5유닛 대사 · 해설: Up, up, up the stone steps!",
+ "text": "Up, up, up the stone steps!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

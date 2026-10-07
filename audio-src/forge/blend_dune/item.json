@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/d/ ... /uː/ ... /n/ ... dune",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381907.8918004,
+   "sec": 4.48,
+   "check": {
+    "transcript": "Dune",
+    "type": "word",
+    "ipa": "d uː n",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Dune | TYPE=word | IPA=d uː n | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_dune",
+ "sub": "blend",
+ "title": "합치기 dune",
+ "text": "/d/ ... /uː/ ... /n/ ... dune",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

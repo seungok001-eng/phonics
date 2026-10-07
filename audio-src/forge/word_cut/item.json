@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cut",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381662.0732696,
+   "sec": 0.96,
+   "check": {
+    "transcript": "cut",
+    "type": "word",
+    "ipa": "kʌt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cut | TYPE=word | IPA=kʌt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:25",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "word_cut",
+ "sub": "word",
+ "title": "단어 cut · 자르다",
+ "text": "cut",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

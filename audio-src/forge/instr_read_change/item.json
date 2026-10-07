@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Read and change.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382589.779644,
+   "sec": 2.24,
+   "check": {
+    "transcript": "read and change",
+    "type": "sentence",
+    "ipa": "riːd ænd tʃeɪndʒ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=read and change | TYPE=sentence | IPA=riːd ænd tʃeɪndʒ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_read_change",
+ "sub": "instr",
+ "title": "지시문 · Read and change.",
+ "text": "Read and change.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

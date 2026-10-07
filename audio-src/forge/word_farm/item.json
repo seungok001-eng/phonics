@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "farm",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381760.1438599,
+   "sec": 1.12,
+   "check": {
+    "transcript": "farm",
+    "type": "word",
+    "ipa": "fɑrm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=farm | TYPE=word | IPA=fɑrm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_farm",
+ "sub": "word",
+ "title": "단어 farm · 농장",
+ "text": "farm",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

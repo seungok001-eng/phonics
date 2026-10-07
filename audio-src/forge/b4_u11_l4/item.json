@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is the Song Tree.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382471.3397372,
+   "sec": 2.52,
+   "check": {
+    "transcript": "This is the song tree.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ðə sɔŋ trii",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is the song tree. | TYPE=sentence | IPA=ðɪs ɪz ðə sɔŋ trii | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b4_u11_l4",
+ "sub": "line",
+ "title": "4권 11유닛 대사 · 해설: This is the Song Tree.",
+ "text": "This is the Song Tree.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

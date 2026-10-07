@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cute mule! A flute!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382525.2550678,
+   "sec": 3.04,
+   "check": {
+    "transcript": "Acute mule, a flute.",
+    "type": "sentence",
+    "ipa": "əˈkjut ˈmjul, ə ˈflut",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Acute mule, a flute. | TYPE=sentence | IPA=əˈkjut ˈmjul, ə ˈflut | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s09",
+ "sub": "line",
+ "title": "4권 노래 9: A cute mule! A flute!",
+ "text": "A cute mule! A flute!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

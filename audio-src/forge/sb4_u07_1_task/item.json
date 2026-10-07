@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the ee words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382342.318718,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Find the E words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː iː wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the E words. | TYPE=sentence | IPA=faɪnd ðiː iː wɜːdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb4_u07_1_task",
+ "sub": "instr",
+ "title": "7유닛 스토리북 과제 · Find the ee words!",
+ "text": "Find the ee words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

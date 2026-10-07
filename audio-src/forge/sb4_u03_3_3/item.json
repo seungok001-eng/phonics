@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Splash! Splish! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382231.4679775,
+   "sec": 3.48,
+   "check": {
+    "transcript": "Splash, splish, oh no!",
+    "type": "sentence",
+    "ipa": "splæʃ splɪʃ oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Splash, splish, oh no! | TYPE=sentence | IPA=splæʃ splɪʃ oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_3_3",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 해설: Splash! Splish! Oh no!",
+ "text": "Splash! Splish! Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

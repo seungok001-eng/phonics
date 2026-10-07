@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click! Click! What is in here?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382263.077249,
+   "sec": 3.4,
+   "check": {
+    "transcript": "Click click. What is in here?",
+    "type": "sentence",
+    "ipa": "klɪk klɪk wɑt ɪz ɪn hɪɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click click. What is in here? | TYPE=sentence | IPA=klɪk klɪk wɑt ɪz ɪn hɪɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb4_u04_3_3",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 해설: Click! Click! What is in here?",
+ "text": "Click! Click! What is in here?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

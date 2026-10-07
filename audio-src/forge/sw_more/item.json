@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "more",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382112.3632102,
+   "sec": 1.04,
+   "check": {
+    "transcript": "more",
+    "type": "word",
+    "ipa": "mɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=more | TYPE=word | IPA=mɔɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sw_more",
+ "sub": "sw",
+ "title": "사이트워드 more · 더",
+ "text": "more",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

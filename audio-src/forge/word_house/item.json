@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "house",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381743.3630288,
+   "sec": 1.12,
+   "check": {
+    "transcript": "house",
+    "type": "word",
+    "ipa": "haʊs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=house | TYPE=word | IPA=haʊs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_house",
+ "sub": "word",
+ "title": "단어 house · 집",
+ "text": "house",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

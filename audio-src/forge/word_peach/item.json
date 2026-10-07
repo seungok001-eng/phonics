@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "peach",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381709.3753989,
+   "sec": 1.24,
+   "check": {
+    "transcript": "peach",
+    "type": "word",
+    "ipa": "piːtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=peach | TYPE=word | IPA=piːtʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_peach",
+ "sub": "word",
+ "title": "단어 peach · 복숭아",
+ "text": "peach",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

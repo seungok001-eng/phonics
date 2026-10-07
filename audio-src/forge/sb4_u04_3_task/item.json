@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the flute and the drum!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382264.5662813,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Find the flute and the drum.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə fluːt ənd ðə drʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the flute and the drum. | TYPE=sentence | IPA=faɪnd ðə fluːt ənd ðə drʌm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb4_u04_3_task",
+ "sub": "instr",
+ "title": "4유닛 스토리북 과제 · Find the flute and the drum!",
+ "text": "Find the flute and the drum!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

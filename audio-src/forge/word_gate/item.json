@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "gate",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381564.2060564,
+   "sec": 1.08,
+   "check": {
+    "transcript": "gate",
+    "type": "word",
+    "ipa": "ɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gate | TYPE=word | IPA=ɡeɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_gate",
+ "sub": "word",
+ "title": "단어 gate · 대문",
+ "text": "gate",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

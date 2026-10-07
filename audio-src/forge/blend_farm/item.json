@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/f/ ... /ɑr/ ... /m/ ... farm",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382052.0653446,
+   "sec": 4.56,
+   "check": {
+    "transcript": "farm",
+    "type": "word",
+    "ipa": "fɑɹm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=farm | TYPE=word | IPA=fɑɹm | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_farm",
+ "sub": "blend",
+ "title": "합치기 farm",
+ "text": "/f/ ... /ɑr/ ... /m/ ... farm",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

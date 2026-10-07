@@ -10,11 +10,28 @@
    "sec": 1.02,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look! A kit!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791385861.3560438,
+   "sec": 1.07,
+   "check": {
+    "transcript": "Look, a kite!",
+    "type": "sentence",
+    "ipa": "lʊk ə kaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a kite! | TYPE=sentence | IPA=lʊk ə kaɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:11",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -26,5 +43,5 @@
  "voice": "Puck",
  "who": "hedgie",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

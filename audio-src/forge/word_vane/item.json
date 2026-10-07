@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "vane",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381557.4038815,
+   "sec": 1.12,
+   "check": {
+    "transcript": "vein",
+    "type": "word",
+    "ipa": "veɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vein | TYPE=word | IPA=veɪn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "vane",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382924.7849948,
+   "sec": 1.2,
+   "check": {
+    "transcript": "vein",
+    "type": "word",
+    "ipa": "veɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vein | TYPE=word | IPA=veɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_vane",
+ "sub": "word",
+ "title": "단어 vane · 풍향계",
+ "text": "vane",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

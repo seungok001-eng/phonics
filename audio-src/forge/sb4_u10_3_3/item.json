@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Choo, choo! Let's go!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382464.2119398,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Choo choo! Let's go.",
+    "type": "sentence",
+    "ipa": "tʃuː tʃuː lɛts ɡoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Choo choo! Let's go. | TYPE=sentence | IPA=tʃuː tʃuː lɛts ɡoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_3_3",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 해설: Choo, choo! Let's go!",
+ "text": "Choo, choo! Let's go!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

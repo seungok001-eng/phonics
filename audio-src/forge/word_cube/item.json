@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cube",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381632.853594,
+   "sec": 1.04,
+   "check": {
+    "transcript": "cube",
+    "type": "word",
+    "ipa": "kjuːb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cube | TYPE=word | IPA=kjuːb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_cube",
+ "sub": "word",
+ "title": "단어 cube · 블록(정육면체)",
+ "text": "cube",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Rain, train, tail, sail!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382531.3079917,
+   "sec": 3.52,
+   "check": {
+    "transcript": "rain, train, tail, sail",
+    "type": "sentence",
+    "ipa": "ˈreɪn ˈtreɪn ˈteɪl ˈseɪl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rain, train, tail, sail | TYPE=sentence | IPA=ˈreɪn ˈtreɪn ˈteɪl ˈseɪl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s11",
+ "sub": "line",
+ "title": "4권 노래 11: Rain, train, tail, sail!",
+ "text": "Rain, train, tail, sail!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

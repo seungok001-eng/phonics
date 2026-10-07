@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I see the sea.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382334.748979,
+   "sec": 2.48,
+   "check": {
+    "transcript": "I see the sea.",
+    "type": "sentence",
+    "ipa": "aɪ siː ðə siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see the sea. | TYPE=sentence | IPA=aɪ siː ðə siː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b4_u07_s2",
+ "sub": "line",
+ "title": "4권 7유닛 문장 2: I see the sea.",
+ "text": "I see the sea.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

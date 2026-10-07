@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the snake and the cave!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382164.5829284,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Find the snake and the cave.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə sneɪk ænd ðə keɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the snake and the cave. | TYPE=sentence | IPA=faɪnd ðə sneɪk ænd ðə keɪv | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_3_task",
+ "sub": "instr",
+ "title": "1유닛 스토리북 과제 · Find the snake and the cave!",
+ "text": "Find the snake and the cave!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

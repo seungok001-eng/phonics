@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ ... /ɔr/ ... /n/ ... corn",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382070.805613,
+   "sec": 4.12,
+   "check": {
+    "transcript": "corn",
+    "type": "word",
+    "ipa": "kɔɹn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=corn | TYPE=word | IPA=kɔɹn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_corn",
+ "sub": "blend",
+ "title": "합치기 corn",
+ "text": "/k/ ... /ɔr/ ... /n/ ... corn",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

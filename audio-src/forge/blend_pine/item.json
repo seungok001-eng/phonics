@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ ... /aɪ/ ... /n/ ... pine",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381819.2777407,
+   "sec": 4.6,
+   "check": {
+    "transcript": "pine",
+    "type": "word",
+    "ipa": "paɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pine | TYPE=word | IPA=paɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_pine",
+ "sub": "blend",
+ "title": "합치기 pine",
+ "text": "/p/ ... /aɪ/ ... /n/ ... pine",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

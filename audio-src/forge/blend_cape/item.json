@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ ... /eɪ/ ... /p/ ... cape",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381783.8613985,
+   "sec": 4.04,
+   "check": {
+    "transcript": "cape",
+    "type": "word",
+    "ipa": "keɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cape | TYPE=word | IPA=keɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_cape",
+ "sub": "blend",
+ "title": "합치기 cape",
+ "text": "/k/ ... /eɪ/ ... /p/ ... cape",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "seed",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381697.160617,
+   "sec": 0.96,
+   "check": {
+    "transcript": "seed",
+    "type": "word",
+    "ipa": "siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seed | TYPE=word | IPA=siːd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_seed",
+ "sub": "word",
+ "title": "단어 seed · 씨앗",
+ "text": "seed",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

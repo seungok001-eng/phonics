@@ -10,11 +10,28 @@
    "sec": 1.53,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The kite is in the pine!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791385910.2652547,
+   "sec": 1.58,
+   "check": {
+    "transcript": "The kite is in the pine.",
+    "type": "sentence",
+    "ipa": "ðə kaɪt ɪz ɪn ðə paɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The kite is in the pine. | TYPE=sentence | IPA=ðə kaɪt ɪz ɪn ðə paɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:12",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -26,5 +43,5 @@
  "voice": "Puck",
  "who": "hedgie",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

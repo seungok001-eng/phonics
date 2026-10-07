@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A note!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382202.045052,
+   "sec": 1.96,
+   "check": {
+    "transcript": "Look, a note.",
+    "type": "sentence",
+    "ipa": "lʊk ə noʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a note. | TYPE=sentence | IPA=lʊk ə noʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b4_u03_l4",
+ "sub": "line",
+ "title": "4권 3유닛 대사 · 해설: Look! A note!",
+ "text": "Look! A note!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

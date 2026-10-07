@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look up! No moon!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382412.329246,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Look up, no moon.",
+    "type": "sentence",
+    "ipa": "lʊk ʌp noʊ mun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look up, no moon. | TYPE=sentence | IPA=lʊk ʌp noʊ mun | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb4_u09_1_1",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 해설: Look up! No moon!",
+ "text": "Look up! No moon!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

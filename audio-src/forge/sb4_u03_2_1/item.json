@@ -1,10 +1,28 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/n/ /oʊ/ /t/ note!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791384840.0847266,
+   "sec": 2.6,
+   "check": {
+    "transcript": "not",
+    "type": "word",
+    "ipa": "n ɑ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=not | TYPE=word | IPA=n ɑ t | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:20",
  "text_edited": false,
- "error": "el: 낱소리 sound_o_e 녹음이 없다",
+ "error": "",
  "unit": 3,
  "letter": null,
  "id": "sb4_u03_2_1",
@@ -14,5 +32,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

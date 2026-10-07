@@ -10,11 +10,28 @@
    "sec": 1.53,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A cake at the lake!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791385299.0660124,
+   "sec": 1.44,
+   "check": {
+    "transcript": "a kid at the lake",
+    "type": "sentence",
+    "ipa": "ə kɪd ət ðə leɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a kid at the lake | TYPE=sentence | IPA=ə kɪd ət ðə leɪk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:03",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -26,5 +43,5 @@
  "voice": "Puck",
  "who": "hedgie",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

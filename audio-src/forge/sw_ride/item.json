@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "ride",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382084.062014,
+   "sec": 1.24,
+   "check": {
+    "transcript": "ride",
+    "type": "word",
+    "ipa": "ɹaɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ride | TYPE=word | IPA=ɹaɪd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sw_ride",
+ "sub": "sw",
+ "title": "사이트워드 ride · 타다",
+ "text": "ride",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

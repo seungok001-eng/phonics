@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/r/ ... /oʊ/ ... /z/ ... rose",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381874.0215585,
+   "sec": 4.8,
+   "check": {
+    "transcript": "rose",
+    "type": "word",
+    "ipa": "ɹoʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rose | TYPE=word | IPA=ɹoʊz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_rose",
+ "sub": "blend",
+ "title": "합치기 rose",
+ "text": "/r/ ... /oʊ/ ... /z/ ... rose",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Toast in a bowl? Ha!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382362.4552896,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Toast in a bowl?",
+    "type": "sentence",
+    "ipa": "təʊst ɪn ə bəʊl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Toast in a bowl? | TYPE=sentence | IPA=təʊst ɪn ə bəʊl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b4_u08_l10",
+ "sub": "line",
+ "title": "4권 8유닛 대사 · 해설: Toast in a bowl? Ha!",
+ "text": "Toast in a bowl? Ha!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "globe",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381608.8323941,
+   "sec": 1.28,
+   "check": {
+    "transcript": "globe",
+    "type": "word",
+    "ipa": "/ɡloʊb/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=globe | TYPE=word | IPA=/ɡloʊb/ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_globe",
+ "sub": "word",
+ "title": "단어 globe · 지구본",
+ "text": "globe",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

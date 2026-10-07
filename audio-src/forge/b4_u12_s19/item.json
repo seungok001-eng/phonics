@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Star, car, farm, jar!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382556.710662,
+   "sec": 4.88,
+   "check": {
+    "transcript": "star car farm jar",
+    "type": "word",
+    "ipa": "stɑr kɑr fɑrm dʒɑr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=star car farm jar | TYPE=word | IPA=stɑr kɑr fɑrm dʒɑr | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s19",
+ "sub": "line",
+ "title": "4권 노래 19: Star, car, farm, jar!",
+ "text": "Star, car, farm, jar!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

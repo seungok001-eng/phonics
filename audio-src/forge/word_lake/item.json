@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "lake",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381565.0541189,
+   "sec": 1.12,
+   "check": {
+    "transcript": "lake",
+    "type": "word",
+    "ipa": "leɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lake | TYPE=word | IPA=leɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_lake",
+ "sub": "word",
+ "title": "단어 lake · 호수",
+ "text": "lake",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

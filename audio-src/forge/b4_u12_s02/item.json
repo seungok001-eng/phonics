@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cap, cape! Can, cane!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382503.9462368,
+   "sec": 3.64,
+   "check": {
+    "transcript": "cap, cape, can, cane",
+    "type": "sentence",
+    "ipa": "ˈkæp keɪp kæn keɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap, cape, can, cane | TYPE=sentence | IPA=ˈkæp keɪp kæn keɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s02",
+ "sub": "line",
+ "title": "4권 노래 2: Cap, cape! Can, cane!",
+ "text": "Cap, cape! Can, cane!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

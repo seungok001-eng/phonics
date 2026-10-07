@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/h/ ... /aɪ/ ... /v/ ... hive",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381841.347324,
+   "sec": 4.24,
+   "check": {
+    "transcript": "hive",
+    "type": "word",
+    "ipa": "ˈhaɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hive | TYPE=word | IPA=ˈhaɪv | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_hive",
+ "sub": "blend",
+ "title": "합치기 hive",
+ "text": "/h/ ... /aɪ/ ... /v/ ... hive",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

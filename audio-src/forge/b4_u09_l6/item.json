@@ -1,10 +1,28 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/aʊ/ /aʊ/ mouse!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791384851.2222707,
+   "sec": 2.87,
+   "check": {
+    "transcript": "ow",
+    "type": "word",
+    "ipa": "aʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ow | TYPE=word | IPA=aʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:41",
  "text_edited": false,
- "error": "el: 낱소리 sound_ou 녹음이 없다",
+ "error": "",
  "unit": 9,
  "letter": null,
  "id": "b4_u09_l6",
@@ -14,5 +32,5 @@
  "voice": "Leda",
  "who": "bun",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

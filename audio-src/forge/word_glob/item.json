@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "glob",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381627.2094688,
+   "sec": 1.28,
+   "check": {
+    "transcript": "glob",
+    "type": "word",
+    "ipa": "ɡlɑb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=glob | TYPE=word | IPA=ɡlɑb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "word_glob",
+ "sub": "word",
+ "title": "단어 glob · 덩어리",
+ "text": "glob",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

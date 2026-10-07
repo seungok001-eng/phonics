@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip can sing more!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382456.014541,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Pipkin sing more.",
+    "type": "sentence",
+    "ipa": "ˈpɪp.kɪn sɪŋ mɔːɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pipkin sing more. | TYPE=sentence | IPA=ˈpɪp.kɪn sɪŋ mɔːɹ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pip can sing more!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791384537.855365,
+   "sec": 1.64,
+   "check": {
+    "transcript": "Pip can sing more.",
+    "type": "sentence",
+    "ipa": "pɪp kæn sɪŋ mɔːɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip can sing more. | TYPE=sentence | IPA=pɪp kæn sɪŋ mɔːɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_2_2",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 해설: Pip can sing more!",
+ "text": "Pip can sing more!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

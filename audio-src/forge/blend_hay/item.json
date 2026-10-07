@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/h/ ... /eɪ/ ... hay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381944.9453526,
+   "sec": 3.04,
+   "check": {
+    "transcript": "hey",
+    "type": "word",
+    "ipa": "heɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hey | TYPE=word | IPA=heɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/h/ ... /eɪ/ ... hay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791383620.1260817,
+   "sec": 4.08,
+   "check": {
+    "transcript": "Hey",
+    "type": "word",
+    "ipa": "heɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hey | TYPE=word | IPA=heɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_hay",
+ "sub": "blend",
+ "title": "합치기 hay",
+ "text": "/h/ ... /eɪ/ ... hay",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "train",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381665.2545102,
+   "sec": 1.12,
+   "check": {
+    "transcript": "train",
+    "type": "word",
+    "ipa": "tɹeɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=train | TYPE=word | IPA=tɹeɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_train",
+ "sub": "word",
+ "title": "단어 train · 기차",
+ "text": "train",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

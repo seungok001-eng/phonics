@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "robe",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381607.815347,
+   "sec": 1.12,
+   "check": {
+    "transcript": "robe",
+    "type": "word",
+    "ipa": "roʊb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=robe | TYPE=word | IPA=roʊb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_robe",
+ "sub": "word",
+ "title": "단어 robe · 목욕 가운",
+ "text": "robe",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

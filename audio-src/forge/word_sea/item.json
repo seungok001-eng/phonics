@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "sea",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381700.6792676,
+   "sec": 1.2,
+   "check": {
+    "transcript": "C",
+    "type": "letter-name",
+    "ipa": "siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=C | TYPE=letter-name | IPA=siː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "sea",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791383225.251857,
+   "sec": 1.08,
+   "check": {
+    "transcript": "C",
+    "type": "letter-name",
+    "ipa": "siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=C | TYPE=letter-name | IPA=siː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_sea",
+ "sub": "word",
+ "title": "단어 sea · 바다",
+ "text": "sea",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

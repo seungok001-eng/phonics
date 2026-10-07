@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/r/ ... /ɑ/ ... /b/ ... rob",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381884.046351,
+   "sec": 4.72,
+   "check": {
+    "transcript": "Rob",
+    "type": "word",
+    "ipa": "ɹɑb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Rob | TYPE=word | IPA=ɹɑb | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:32",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "blend_rob",
+ "sub": "blend",
+ "title": "합치기 rob",
+ "text": "/r/ ... /ɑ/ ... /b/ ... rob",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The broom is on the roof.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382407.683365,
+   "sec": 2.48,
+   "check": {
+    "transcript": "The broom is on the roof.",
+    "type": "sentence",
+    "ipa": "ðə bɹum ɪz ɑn ðə ɹuf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The broom is on the roof. | TYPE=sentence | IPA=ðə bɹum ɪz ɑn ðə ɹuf | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b4_u09_s3",
+ "sub": "line",
+ "title": "4권 9유닛 문장 3: The broom is on the roof.",
+ "text": "The broom is on the roof.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "play",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382099.2376218,
+   "sec": 0.92,
+   "check": {
+    "transcript": "play",
+    "type": "word",
+    "ipa": "pleɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=play | TYPE=word | IPA=pleɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sw_play",
+ "sub": "sw",
+ "title": "사이트워드 play · 놀다",
+ "text": "play",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

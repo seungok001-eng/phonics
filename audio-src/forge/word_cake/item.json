@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cake",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381561.2574751,
+   "sec": 0.96,
+   "check": {
+    "transcript": "cake",
+    "type": "word",
+    "ipa": "keɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cake | TYPE=word | IPA=keɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_cake",
+ "sub": "word",
+ "title": "단어 cake · 케이크",
+ "text": "cake",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

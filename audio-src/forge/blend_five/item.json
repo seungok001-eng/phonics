@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/f/ ... /aɪ/ ... /v/ ... five",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381833.5777438,
+   "sec": 3.84,
+   "check": {
+    "transcript": "five",
+    "type": "word",
+    "ipa": "faɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=five | TYPE=word | IPA=faɪv | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_five",
+ "sub": "blend",
+ "title": "합치기 five",
+ "text": "/f/ ... /aɪ/ ... /v/ ... five",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

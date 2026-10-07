@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cave",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381574.9472566,
+   "sec": 1.2,
+   "check": {
+    "transcript": "cave",
+    "type": "word",
+    "ipa": "keɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cave | TYPE=word | IPA=keɪv | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_cave",
+ "sub": "word",
+ "title": "단어 cave · 동굴",
+ "text": "cave",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

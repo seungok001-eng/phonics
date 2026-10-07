@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "snake",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381567.3193414,
+   "sec": 1.28,
+   "check": {
+    "transcript": "snake",
+    "type": "word",
+    "ipa": "sneɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snake | TYPE=word | IPA=sneɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_snake",
+ "sub": "word",
+ "title": "단어 snake · 뱀",
+ "text": "snake",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

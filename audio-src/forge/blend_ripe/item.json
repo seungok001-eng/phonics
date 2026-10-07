@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/r/ ... /aɪ/ ... /p/ ... ripe",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381823.487113,
+   "sec": 4.96,
+   "check": {
+    "transcript": "ripe",
+    "type": "word",
+    "ipa": "raɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ripe | TYPE=word | IPA=raɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_ripe",
+ "sub": "blend",
+ "title": "합치기 ripe",
+ "text": "/r/ ... /aɪ/ ... /p/ ... ripe",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

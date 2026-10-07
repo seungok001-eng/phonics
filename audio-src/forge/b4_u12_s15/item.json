@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Boat, goat, soap, coat!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382543.8737345,
+   "sec": 3.8,
+   "check": {
+    "transcript": "boat goat soap coat",
+    "type": "sentence",
+    "ipa": "boʊt goʊt soʊp koʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=boat goat soap coat | TYPE=sentence | IPA=boʊt goʊt soʊp koʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s15",
+ "sub": "line",
+ "title": "4권 노래 15: Boat, goat, soap, coat!",
+ "text": "Boat, goat, soap, coat!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

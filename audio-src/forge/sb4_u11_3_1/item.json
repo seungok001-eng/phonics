@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The moon is out. Shh...",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382493.4936855,
+   "sec": 2.52,
+   "check": {
+    "transcript": "The moon is out. Shh.",
+    "type": "sentence",
+    "ipa": "ðə mun ɪz aʊt ʃː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The moon is out. Shh. | TYPE=sentence | IPA=ðə mun ɪz aʊt ʃː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb4_u11_3_1",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 해설: The moon is out. Shh...",
+ "text": "The moon is out. Shh...",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

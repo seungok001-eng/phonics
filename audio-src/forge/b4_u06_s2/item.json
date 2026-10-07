@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A jay on the hay.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382301.6492612,
+   "sec": 2.24,
+   "check": {
+    "transcript": "a jay on the hay",
+    "type": "sentence",
+    "ipa": "ə dʒeɪ ɑn ðə heɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a jay on the hay | TYPE=sentence | IPA=ə dʒeɪ ɑn ðə heɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b4_u06_s2",
+ "sub": "line",
+ "title": "4권 6유닛 문장 2: A jay on the hay.",
+ "text": "A jay on the hay.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

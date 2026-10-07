@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cape, cane, tape, cake, gate!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382278.413572,
+   "sec": 5.08,
+   "check": {
+    "transcript": "cape, cane, tape, cake, gate",
+    "type": "sentence",
+    "ipa": "keɪp keɪn teɪp keɪk ɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cape, cane, tape, cake, gate | TYPE=sentence | IPA=keɪp keɪn teɪp keɪk ɡeɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_1_1",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 해설: Cape, cane, tape, cake, gate!",
+ "text": "Cape, cane, tape, cake, gate!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

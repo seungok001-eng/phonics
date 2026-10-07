@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip and the Magic Castle",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382576.2174451,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Pip and the Magic Castle",
+    "type": "sentence",
+    "ipa": "pɪp ænd ðə mæʤɪk kæsl̩",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip and the Magic Castle | TYPE=sentence | IPA=pɪp ænd ðə mæʤɪk kæsl̩ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb4_front_1_1",
+ "sub": "line",
+ "title": "스토리북 · 해설: Pip and the Magic Castle",
+ "text": "Pip and the Magic Castle",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

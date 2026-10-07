@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kl/ ... /eɪ/ ... clay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381949.2096586,
+   "sec": 3.6,
+   "check": {
+    "transcript": "clay",
+    "type": "word",
+    "ipa": "klˈeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clay | TYPE=word | IPA=klˈeɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_clay",
+ "sub": "blend",
+ "title": "합치기 clay",
+ "text": "/kl/ ... /eɪ/ ... clay",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

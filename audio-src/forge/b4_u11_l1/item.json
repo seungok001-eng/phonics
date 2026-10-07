@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Choo, choo! Ride the train!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382468.285019,
+   "sec": 2.6,
+   "check": {
+    "transcript": "choo choo ride the train",
+    "type": "sentence",
+    "ipa": "tʃuː tʃuː ɹaɪd ðə tɹeɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=choo choo ride the train | TYPE=sentence | IPA=tʃuː tʃuː ɹaɪd ðə tɹeɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b4_u11_l1",
+ "sub": "line",
+ "title": "4권 11유닛 대사 · 해설: Choo, choo! Ride the train!",
+ "text": "Choo, choo! Ride the train!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

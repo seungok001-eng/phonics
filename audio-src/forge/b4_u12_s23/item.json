@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip can sing! La, la, la!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382569.9439588,
+   "sec": 3.2,
+   "check": {
+    "transcript": "Pipkin sing. La la la.",
+    "type": "sentence",
+    "ipa": "ˈpɪpˌkɪn ˈsɪŋ ˈlɑ ˈlɑ ˈlɑ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pipkin sing. La la la. | TYPE=sentence | IPA=ˈpɪpˌkɪn ˈsɪŋ ˈlɑ ˈlɑ ˈlɑ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s23",
+ "sub": "line",
+ "title": "4권 노래 23: Pip can sing! La, la, la!",
+ "text": "Pip can sing! La, la, la!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

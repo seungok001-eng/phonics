@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the ar words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382460.3523495,
+   "sec": 2.64,
+   "check": {
+    "transcript": "Find the R words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ɑɹ wɝdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the R words. | TYPE=sentence | IPA=faɪnd ði ɑɹ wɝdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_2_task",
+ "sub": "instr",
+ "title": "10유닛 스토리북 과제 · Find the ar words!",
+ "text": "Find the ar words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

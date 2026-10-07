@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I like to ride a bike.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382179.1744049,
+   "sec": 1.92,
+   "check": {
+    "transcript": "I like to ride a bike.",
+    "type": "sentence",
+    "ipa": "aɪ laɪk tuː raɪd ə baɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I like to ride a bike. | TYPE=sentence | IPA=aɪ laɪk tuː raɪd ə baɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_s2",
+ "sub": "line",
+ "title": "4권 2유닛 문장 2: I like to ride a bike.",
+ "text": "I like to ride a bike.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

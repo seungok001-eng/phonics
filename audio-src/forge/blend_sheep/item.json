@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ʃ/ ... /iː/ ... /p/ ... sheep",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381967.685535,
+   "sec": 4.44,
+   "check": {
+    "transcript": "sheep",
+    "type": "word",
+    "ipa": "ʃiːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sheep | TYPE=word | IPA=ʃiːp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_sheep",
+ "sub": "blend",
+ "title": "합치기 sheep",
+ "text": "/ʃ/ ... /iː/ ... /p/ ... sheep",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

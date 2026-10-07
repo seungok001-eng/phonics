@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Oh no! The cake!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382142.0379767,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Oh no, the cake!",
+    "type": "sentence",
+    "ipa": "oʊ noʊ ðə keɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh no, the cake! | TYPE=sentence | IPA=oʊ noʊ ðə keɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b4_u01_l11",
+ "sub": "line",
+ "title": "4권 1유닛 대사 · 해설: Oh no! The cake!",
+ "text": "Oh no! The cake!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

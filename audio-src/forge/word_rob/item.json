@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "rob",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381627.498265,
+   "sec": 0.92,
+   "check": {
+    "transcript": "Rob",
+    "type": "word",
+    "ipa": "ɹɑb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Rob | TYPE=word | IPA=ɹɑb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "word_rob",
+ "sub": "word",
+ "title": "단어 rob · 훔치다",
+ "text": "rob",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

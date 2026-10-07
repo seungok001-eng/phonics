@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "out",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382105.1978817,
+   "sec": 0.68,
+   "check": {
+    "transcript": "out",
+    "type": "word",
+    "ipa": "aʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=out | TYPE=word | IPA=aʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sw_out",
+ "sub": "sw",
+ "title": "사이트워드 out · 밖으로",
+ "text": "out",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

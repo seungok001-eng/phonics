@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "broom",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381740.3507817,
+   "sec": 1.28,
+   "check": {
+    "transcript": "broom",
+    "type": "word",
+    "ipa": "bɹuːm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=broom | TYPE=word | IPA=bɹuːm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_broom",
+ "sub": "word",
+ "title": "단어 broom · 빗자루",
+ "text": "broom",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

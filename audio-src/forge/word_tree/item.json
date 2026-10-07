@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tree",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381690.273249,
+   "sec": 1.04,
+   "check": {
+    "transcript": "tree",
+    "type": "word",
+    "ipa": "triː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tree | TYPE=word | IPA=triː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_tree",
+ "sub": "word",
+ "title": "단어 tree · 나무",
+ "text": "tree",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

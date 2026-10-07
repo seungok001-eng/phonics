@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/v/ ... /eɪ/ ... /n/ ... vane",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381792.8325372,
+   "sec": 4.56,
+   "check": {
+    "transcript": "vein",
+    "type": "word",
+    "ipa": "veɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vein | TYPE=word | IPA=veɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_vane",
+ "sub": "blend",
+ "title": "합치기 vane",
+ "text": "/v/ ... /eɪ/ ... /n/ ... vane",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

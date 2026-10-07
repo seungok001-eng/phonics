@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/ ... /uː/ ... /t/ ... boot",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382020.3820732,
+   "sec": 4.52,
+   "check": {
+    "transcript": "boot",
+    "type": "word",
+    "ipa": "b u t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=boot | TYPE=word | IPA=b u t | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:36",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_boot",
+ "sub": "blend",
+ "title": "합치기 boot",
+ "text": "/b/ ... /uː/ ... /t/ ... boot",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

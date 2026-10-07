@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cape, cane, tape, cake, gate!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382269.1411433,
+   "sec": 5.56,
+   "check": {
+    "transcript": "gate",
+    "type": "word",
+    "ipa": "ɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gate | TYPE=word | IPA=ɡeɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b4_u05_l1",
+ "sub": "line",
+ "title": "4권 5유닛 대사 · 해설: Cape, cane, tape, cake, gate!",
+ "text": "Cape, cane, tape, cake, gate!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

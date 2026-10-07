@@ -12,9 +12,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:27",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -25,6 +25,5 @@
  "text": "Kite, pine, bike, five, hive!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 4,
- "busy": 1
+ "book": 4
 }

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I like more corn!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382444.245653,
+   "sec": 2.2,
+   "check": {
+    "transcript": "I like more corn.",
+    "type": "sentence",
+    "ipa": "aɪ laɪk mɔɹ kɔɹn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I like more corn. | TYPE=sentence | IPA=aɪ laɪk mɔɹ kɔɹn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_s3",
+ "sub": "line",
+ "title": "4권 10유닛 문장 3: I like more corn!",
+ "text": "I like more corn!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

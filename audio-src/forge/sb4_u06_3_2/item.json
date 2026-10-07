@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A day to play!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382319.004016,
+   "sec": 1.88,
+   "check": {
+    "transcript": "a day to play",
+    "type": "sentence",
+    "ipa": "ə deɪ tu pleɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a day to play | TYPE=sentence | IPA=ə deɪ tu pleɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb4_u06_3_2",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 해설: A day to play!",
+ "text": "A day to play!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

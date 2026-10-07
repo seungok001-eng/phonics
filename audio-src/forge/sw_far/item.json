@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "far",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382107.8721778,
+   "sec": 1.12,
+   "check": {
+    "transcript": "far",
+    "type": "word",
+    "ipa": "fɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=far | TYPE=word | IPA=fɑɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sw_far",
+ "sub": "sw",
+ "title": "사이트워드 far · 먼·멀리",
+ "text": "far",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

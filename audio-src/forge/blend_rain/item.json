@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/r/ ... /eɪ/ ... /n/ ... rain",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381923.4456775,
+   "sec": 4.76,
+   "check": {
+    "transcript": "rain",
+    "type": "word",
+    "ipa": "ɹeɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rain | TYPE=word | IPA=ɹeɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_rain",
+ "sub": "blend",
+ "title": "합치기 rain",
+ "text": "/r/ ... /eɪ/ ... /n/ ... rain",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

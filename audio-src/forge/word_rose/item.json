@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "rose",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381617.2017837,
+   "sec": 1.28,
+   "check": {
+    "transcript": "rose",
+    "type": "word",
+    "ipa": "ɹoʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rose | TYPE=word | IPA=ɹoʊz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_rose",
+ "sub": "word",
+ "title": "단어 rose · 장미",
+ "text": "rose",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

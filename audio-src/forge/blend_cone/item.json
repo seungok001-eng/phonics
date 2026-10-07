@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ ... /oʊ/ ... /n/ ... cone",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381880.1729233,
+   "sec": 4.16,
+   "check": {
+    "transcript": "cone",
+    "type": "word",
+    "ipa": "koʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cone | TYPE=word | IPA=koʊn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_cone",
+ "sub": "blend",
+ "title": "합치기 cone",
+ "text": "/k/ ... /oʊ/ ... /n/ ... cone",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

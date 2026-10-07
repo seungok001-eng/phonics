@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ ... /eɪ/ ... /v/ ... cave",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381812.2328792,
+   "sec": 4.2,
+   "check": {
+    "transcript": "cave",
+    "type": "word",
+    "ipa": "keɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cave | TYPE=word | IPA=keɪv | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_cave",
+ "sub": "blend",
+ "title": "합치기 cave",
+ "text": "/k/ ... /eɪ/ ... /v/ ... cave",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

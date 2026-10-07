@@ -1,10 +1,28 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/m/ /uː/ /n/ moon!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791384851.296888,
+   "sec": 3.09,
+   "check": {
+    "transcript": "Mmm ooh nn moon",
+    "type": "sentence",
+    "ipa": "mː uː n mun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Mmm ooh nn moon | TYPE=sentence | IPA=mː uː n mun | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:48",
  "text_edited": false,
- "error": "el: 낱소리 sound_oo 녹음이 없다",
+ "error": "",
  "unit": 9,
  "letter": null,
  "id": "sb4_u09_2_1",
@@ -14,5 +32,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

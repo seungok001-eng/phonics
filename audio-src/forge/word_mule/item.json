@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "mule",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381644.2488499,
+   "sec": 1.16,
+   "check": {
+    "transcript": "mule",
+    "type": "word",
+    "ipa": "mjul",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mule | TYPE=word | IPA=mjul | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_mule",
+ "sub": "word",
+ "title": "단어 mule · 노새",
+ "text": "mule",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

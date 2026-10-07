@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "dune",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381649.4278371,
+   "sec": 1.04,
+   "check": {
+    "transcript": "Doan",
+    "type": "word",
+    "ipa": "ˈdoʊn",
+    "note": "mispronounced",
+    "raw": "TRANSCRIPT=Doan | TYPE=word | IPA=ˈdoʊn | NOTE=mispronounced"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_dune",
+ "sub": "word",
+ "title": "단어 dune · 모래 언덕",
+ "text": "dune",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

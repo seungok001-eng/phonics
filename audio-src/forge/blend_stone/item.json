@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/st/ ... /oʊ/ ... /n/ ... stone",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381876.4859147,
+   "sec": 5.12,
+   "check": {
+    "transcript": "stone",
+    "type": "word",
+    "ipa": "stəʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=stone | TYPE=word | IPA=stəʊn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_stone",
+ "sub": "blend",
+ "title": "합치기 stone",
+ "text": "/st/ ... /oʊ/ ... /n/ ... stone",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

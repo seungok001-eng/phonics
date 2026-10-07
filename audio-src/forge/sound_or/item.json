@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ɔr/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381545.3420022,
+   "sec": 1.12,
+   "check": {
+    "transcript": "or",
+    "type": "word",
+    "ipa": "ɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=or | TYPE=word | IPA=ɔɹ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/ɔr/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382890.7083745,
+   "sec": 1.04,
+   "check": {
+    "transcript": "or",
+    "type": "word",
+    "ipa": "ɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=or | TYPE=word | IPA=ɔɹ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sound_or",
+ "sub": "fsound",
+ "title": "짝꿍 소리 /ɔr/ (or)",
+ "text": "/ɔr/",
+ "voice": "Kore",
+ "ipa": "ɔr",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "huge",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381639.577782,
+   "sec": 1.8,
+   "check": {
+    "transcript": "huge",
+    "type": "word",
+    "ipa": "hjudʒ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=huge | TYPE=word | IPA=hjudʒ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_huge",
+ "sub": "word",
+ "title": "단어 huge · 거대한",
+ "text": "huge",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

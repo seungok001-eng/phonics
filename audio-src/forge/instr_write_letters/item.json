@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Write the missing letters.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382594.2336338,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Write the missing letters.",
+    "type": "sentence",
+    "ipa": "raɪt ðə ˈmɪsɪŋ ˈlɛtərz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Write the missing letters. | TYPE=sentence | IPA=raɪt ðə ˈmɪsɪŋ ˈlɛtərz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_write_letters",
+ "sub": "instr",
+ "title": "지시문 · Write the missing letters.",
+ "text": "Write the missing letters.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

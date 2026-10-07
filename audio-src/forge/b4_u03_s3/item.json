@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I see a rose. So red!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382213.5807312,
+   "sec": 3.24,
+   "check": {
+    "transcript": "I see a rose. So red.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə roʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a rose. So red. | TYPE=sentence | IPA=aɪ siː ə roʊz | SOʊ rɛd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b4_u03_s3",
+ "sub": "line",
+ "title": "4권 3유닛 문장 3: I see a rose. So red!",
+ "text": "I see a rose. So red!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

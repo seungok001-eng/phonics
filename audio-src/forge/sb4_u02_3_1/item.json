@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bzzz! A hive! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382196.724976,
+   "sec": 3.24,
+   "check": {
+    "transcript": "a hive oh no",
+    "type": "sentence",
+    "ipa": "ə haɪv oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a hive oh no | TYPE=sentence | IPA=ə haɪv oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_3_1",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 해설: Bzzz! A hive! Oh no!",
+ "text": "Bzzz! A hive! Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

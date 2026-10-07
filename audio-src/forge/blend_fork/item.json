@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/f/ ... /ɔr/ ... /k/ ... fork",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382067.8823228,
+   "sec": 4.04,
+   "check": {
+    "transcript": "fork",
+    "type": "word",
+    "ipa": "fɔɹk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fork | TYPE=word | IPA=fɔɹk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_fork",
+ "sub": "blend",
+ "title": "합치기 fork",
+ "text": "/f/ ... /ɔr/ ... /k/ ... fork",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

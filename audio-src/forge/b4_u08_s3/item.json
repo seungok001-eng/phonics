@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The crow is in the snow.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382370.7922227,
+   "sec": 2.12,
+   "check": {
+    "transcript": "The crow is in the snow.",
+    "type": "sentence",
+    "ipa": "ðə kɹoʊ ɪz ɪn ðə snoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The crow is in the snow. | TYPE=sentence | IPA=ðə kɹoʊ ɪz ɪn ðə snoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b4_u08_s3",
+ "sub": "line",
+ "title": "4권 8유닛 문장 3: The crow is in the snow.",
+ "text": "The crow is in the snow.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

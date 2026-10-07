@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/t/ ... /ɔr/ ... /tʃ/ ... torch",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382072.7513082,
+   "sec": 4.56,
+   "check": {
+    "transcript": "torch",
+    "type": "word",
+    "ipa": "tɔːtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=torch | TYPE=word | IPA=tɔːtʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_torch",
+ "sub": "blend",
+ "title": "합치기 torch",
+ "text": "/t/ ... /ɔr/ ... /tʃ/ ... torch",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

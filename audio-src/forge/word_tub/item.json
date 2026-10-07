@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tub",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381658.8371344,
+   "sec": 0.92,
+   "check": {
+    "transcript": "tub",
+    "type": "word",
+    "ipa": "tʌb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tub | TYPE=word | IPA=tʌb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:25",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "word_tub",
+ "sub": "word",
+ "title": "단어 tub · 욕조",
+ "text": "tub",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,10 +1,28 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/iː/ /iː/ seal!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791384845.8972893,
+   "sec": 2.74,
+   "check": {
+    "transcript": "E",
+    "type": "letter-name",
+    "ipa": "i",
+    "note": "ok",
+    "raw": "TRANSCRIPT=E | TYPE=letter-name | IPA=i | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:36",
  "text_edited": false,
- "error": "el: 낱소리 sound_ea 녹음이 없다",
+ "error": "",
  "unit": 7,
  "letter": null,
  "id": "b4_u07_l8",
@@ -14,5 +32,5 @@
  "voice": "Leda",
  "who": "bun",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

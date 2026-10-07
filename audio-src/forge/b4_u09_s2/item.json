@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A mouse is in the house.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382402.8189952,
+   "sec": 2.48,
+   "check": {
+    "transcript": "A mouse is in the house.",
+    "type": "sentence",
+    "ipa": "ə maʊs ɪz ɪn ðə haʊs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A mouse is in the house. | TYPE=sentence | IPA=ə maʊs ɪz ɪn ðə haʊs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b4_u09_s2",
+ "sub": "line",
+ "title": "4권 9유닛 문장 2: A mouse is in the house.",
+ "text": "A mouse is in the house.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

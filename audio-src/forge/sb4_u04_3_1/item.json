@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A tune on the flute!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382259.5455122,
+   "sec": 1.84,
+   "check": {
+    "transcript": "A tune on the flute.",
+    "type": "sentence",
+    "ipa": "ə tjun ɑn ðə flut",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A tune on the flute. | TYPE=sentence | IPA=ə tjun ɑn ðə flut | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb4_u04_3_1",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 해설: A tune on the flute!",
+ "text": "A tune on the flute!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I can slide and dive!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382183.423085,
+   "sec": 2.24,
+   "check": {
+    "transcript": "I can slide and dive.",
+    "type": "sentence",
+    "ipa": "aɪ kæn slaɪd ænd daɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I can slide and dive. | TYPE=sentence | IPA=aɪ kæn slaɪd ænd daɪv | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_s4",
+ "sub": "line",
+ "title": "4권 2유닛 문장 4: I can slide and dive!",
+ "text": "I can slide and dive!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

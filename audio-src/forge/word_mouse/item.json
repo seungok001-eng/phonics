@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "mouse",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381743.1649284,
+   "sec": 1.04,
+   "check": {
+    "transcript": "mouse",
+    "type": "word",
+    "ipa": "maʊs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mouse | TYPE=word | IPA=maʊs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_mouse",
+ "sub": "word",
+ "title": "단어 mouse · 생쥐",
+ "text": "mouse",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

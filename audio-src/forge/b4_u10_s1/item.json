@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A star in a jar!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382438.3280933,
+   "sec": 2.44,
+   "check": {
+    "transcript": "A star in a jar.",
+    "type": "sentence",
+    "ipa": "ə stɑːr ɪn ə dʒɑːr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A star in a jar. | TYPE=sentence | IPA=ə stɑːr ɪn ə dʒɑːr | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_s1",
+ "sub": "line",
+ "title": "4권 10유닛 문장 1: A star in a jar!",
+ "text": "A star in a jar!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

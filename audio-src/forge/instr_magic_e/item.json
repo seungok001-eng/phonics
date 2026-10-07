@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Add magic e!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382587.4234066,
+   "sec": 1.96,
+   "check": {
+    "transcript": "add magic e",
+    "type": "sentence",
+    "ipa": "æd ˈmædʒɪk iː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=add magic e | TYPE=sentence | IPA=æd ˈmædʒɪk iː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_magic_e",
+ "sub": "instr",
+ "title": "지시문 · Add magic e!",
+ "text": "Add magic e!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

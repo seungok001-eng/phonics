@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A hive is in the pine.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382179.2276766,
+   "sec": 2.2,
+   "check": {
+    "transcript": "A hive is in the pine.",
+    "type": "sentence",
+    "ipa": "ə haɪv ɪz ɪn ðə paɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A hive is in the pine. | TYPE=sentence | IPA=ə haɪv ɪz ɪn ðə paɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_s3",
+ "sub": "line",
+ "title": "4권 2유닛 문장 3: A hive is in the pine.",
+ "text": "A hive is in the pine.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

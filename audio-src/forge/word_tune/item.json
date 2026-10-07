@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tune",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381652.5214877,
+   "sec": 1.2,
+   "check": {
+    "transcript": "tune",
+    "type": "word",
+    "ipa": "tun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tune | TYPE=word | IPA=tun | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_tune",
+ "sub": "word",
+ "title": "단어 tune · 곡조(가락)",
+ "text": "tune",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

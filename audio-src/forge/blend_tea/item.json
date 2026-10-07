@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/t/ ... /iː/ ... tea",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381978.634526,
+   "sec": 2.88,
+   "check": {
+    "transcript": "diet",
+    "type": "word",
+    "ipa": "ˈdaɪ.ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=diet | TYPE=word | IPA=ˈdaɪ.ɪt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/t/ ... /iː/ ... tea",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791383727.4405189,
+   "sec": 2.76,
+   "check": {
+    "transcript": "t e t",
+    "type": "word",
+    "ipa": "ti:ti:",
+    "note": "ok",
+    "raw": "TRANSCRIPT=t e t | TYPE=word | IPA=ti:ti: | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_tea",
+ "sub": "blend",
+ "title": "합치기 tea",
+ "text": "/t/ ... /iː/ ... tea",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

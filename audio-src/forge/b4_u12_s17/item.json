@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Moon, boot, roof, broom!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382549.049365,
+   "sec": 5.08,
+   "check": {
+    "transcript": "moon, boot, roof, broom",
+    "type": "word",
+    "ipa": "mun, but, ruf, brum",
+    "note": "ok",
+    "raw": "TRANSCRIPT=moon, boot, roof, broom | TYPE=word | IPA=mun, but, ruf, brum | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s17",
+ "sub": "line",
+ "title": "4권 노래 17: Moon, boot, roof, broom!",
+ "text": "Moon, boot, roof, broom!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is the Magic Castle.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382121.308278,
+   "sec": 2.48,
+   "check": {
+    "transcript": "This is the magic castle.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ðə mædʒɪk kæsəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is the magic castle. | TYPE=sentence | IPA=ðɪs ɪz ðə mædʒɪk kæsəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb4_u00_1_1",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 해설: This is the Magic Castle.",
+ "text": "This is the Magic Castle.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

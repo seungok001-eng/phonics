@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Brr! Brr! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382352.5251625,
+   "sec": 3.12,
+   "check": {
+    "transcript": "Brr. Brr, oh no!",
+    "type": "sentence",
+    "ipa": "bɹ̩ bɹ̩ oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Brr. Brr, oh no! | TYPE=sentence | IPA=bɹ̩ bɹ̩ oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb4_u07_3_3",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 해설: Brr! Brr! Oh no!",
+ "text": "Brr! Brr! Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

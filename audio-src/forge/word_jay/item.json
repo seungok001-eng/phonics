@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "jay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381687.1034954,
+   "sec": 0.88,
+   "check": {
+    "transcript": "J",
+    "type": "letter-name",
+    "ipa": "dʒeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=J | TYPE=letter-name | IPA=dʒeɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "jay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791383164.2513795,
+   "sec": 1.2,
+   "check": {
+    "transcript": "J",
+    "type": "letter-name",
+    "ipa": "dʒeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=J | TYPE=letter-name | IPA=dʒeɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_jay",
+ "sub": "word",
+ "title": "단어 jay · 어치(파랑어치)",
+ "text": "jay",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

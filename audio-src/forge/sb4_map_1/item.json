@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The Magic Castle.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382577.6346543,
+   "sec": 2.08,
+   "check": {
+    "transcript": "The magic castle.",
+    "type": "sentence",
+    "ipa": "ðə ˈmædʒɪk ˈkæsəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The magic castle. | TYPE=sentence | IPA=ðə ˈmædʒɪk ˈkæsəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb4_map_1",
+ "sub": "line",
+ "title": "스토리북 · 해설: The Magic Castle.",
+ "text": "The Magic Castle.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The sheep has a leaf.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382343.1005116,
+   "sec": 2.12,
+   "check": {
+    "transcript": "The sheep has a leaf.",
+    "type": "sentence",
+    "ipa": "ðə ˈʃiːp həz ə ˈliːf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The sheep has a leaf. | TYPE=sentence | IPA=ðə ˈʃiːp həz ə ˈliːf | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b4_u07_s4",
+ "sub": "line",
+ "title": "4권 7유닛 문장 4: The sheep has a leaf.",
+ "text": "The sheep has a leaf.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

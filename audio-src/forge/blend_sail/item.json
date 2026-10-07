@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/s/ ... /eɪ/ ... /l/ ... sail",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381935.1849613,
+   "sec": 4.96,
+   "check": {
+    "transcript": "sail",
+    "type": "word",
+    "ipa": "seɪl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sail | TYPE=word | IPA=seɪl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_sail",
+ "sub": "blend",
+ "title": "합치기 sail",
+ "text": "/s/ ... /eɪ/ ... /l/ ... sail",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

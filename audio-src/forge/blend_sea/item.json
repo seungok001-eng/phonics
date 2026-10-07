@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/s/ ... /iː/ ... sea",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381968.1121726,
+   "sec": 3.4,
+   "check": {
+    "transcript": "see",
+    "type": "word",
+    "ipa": "siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=see | TYPE=word | IPA=siː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_sea",
+ "sub": "blend",
+ "title": "합치기 sea",
+ "text": "/s/ ... /iː/ ... sea",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

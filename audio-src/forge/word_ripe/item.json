@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "ripe",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381578.523048,
+   "sec": 1.24,
+   "check": {
+    "transcript": "ripe",
+    "type": "word",
+    "ipa": "ɹaɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ripe | TYPE=word | IPA=ɹaɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_ripe",
+ "sub": "word",
+ "title": "단어 ripe · 잘 익은",
+ "text": "ripe",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

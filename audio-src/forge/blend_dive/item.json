@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/d/ ... /aɪ/ ... /v/ ... dive",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381845.3249223,
+   "sec": 4.44,
+   "check": {
+    "transcript": "dive",
+    "type": "word",
+    "ipa": "daɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dive | TYPE=word | IPA=daɪv | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_dive",
+ "sub": "blend",
+ "title": "합치기 dive",
+ "text": "/d/ ... /aɪ/ ... /v/ ... dive",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

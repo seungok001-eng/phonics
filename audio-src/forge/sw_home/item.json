@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "home",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382087.4238086,
+   "sec": 0.8,
+   "check": {
+    "transcript": "home",
+    "type": "word",
+    "ipa": "hoʊm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=home | TYPE=word | IPA=hoʊm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sw_home",
+ "sub": "sw",
+ "title": "사이트워드 home · 집",
+ "text": "home",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

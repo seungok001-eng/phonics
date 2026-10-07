@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tube",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381633.5547578,
+   "sec": 0.92,
+   "check": {
+    "transcript": "tube",
+    "type": "word",
+    "ipa": "tub",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tube | TYPE=word | IPA=tub | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_tube",
+ "sub": "word",
+ "title": "단어 tube · 튜브(관)",
+ "text": "tube",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

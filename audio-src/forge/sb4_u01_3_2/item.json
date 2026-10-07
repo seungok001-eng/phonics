@@ -10,11 +10,28 @@
    "sec": 2.14,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! My can... a cane?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791385836.2618234,
+   "sec": 2.37,
+   "check": {
+    "transcript": "shh my can, a cane",
+    "type": "sentence",
+    "ipa": "ʃ maɪ kæn ə keɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh my can, a cane | TYPE=sentence | IPA=ʃ maɪ kæn ə keɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:10",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -26,5 +43,5 @@
  "voice": "Charon",
  "who": "grumble",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

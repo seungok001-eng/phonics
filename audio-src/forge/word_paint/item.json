@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "paint",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381675.6561577,
+   "sec": 0.88,
+   "check": {
+    "transcript": "paint",
+    "type": "word",
+    "ipa": "peɪnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=paint | TYPE=word | IPA=peɪnt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_paint",
+ "sub": "word",
+ "title": "단어 paint · 물감",
+ "text": "paint",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

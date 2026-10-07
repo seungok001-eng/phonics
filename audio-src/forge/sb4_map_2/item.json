@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Who is up there?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382580.8975103,
+   "sec": 1.68,
+   "check": {
+    "transcript": "Who is up there?",
+    "type": "sentence",
+    "ipa": "hu ɪz ʌp ðɛɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Who is up there? | TYPE=sentence | IPA=hu ɪz ʌp ðɛɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb4_map_2",
+ "sub": "line",
+ "title": "스토리북 · 해설: Who is up there?",
+ "text": "Who is up there?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

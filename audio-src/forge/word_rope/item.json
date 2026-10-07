@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "rope",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381614.1764693,
+   "sec": 1.28,
+   "check": {
+    "transcript": "rope",
+    "type": "word",
+    "ipa": "ɹoʊp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rope | TYPE=word | IPA=ɹoʊp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_rope",
+ "sub": "word",
+ "title": "단어 rope · 밧줄",
+ "text": "rope",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

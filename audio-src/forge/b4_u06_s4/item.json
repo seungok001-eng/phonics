@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We play with clay.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382305.4863849,
+   "sec": 1.92,
+   "check": {
+    "transcript": "We play with clay.",
+    "type": "sentence",
+    "ipa": "wi pleɪ wɪð kleɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We play with clay. | TYPE=sentence | IPA=wi pleɪ wɪð kleɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b4_u06_s4",
+ "sub": "line",
+ "title": "4권 6유닛 문장 4: We play with clay.",
+ "text": "We play with clay.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

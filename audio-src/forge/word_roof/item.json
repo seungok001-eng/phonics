@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "roof",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381736.4544866,
+   "sec": 1.16,
+   "check": {
+    "transcript": "roof",
+    "type": "word",
+    "ipa": "ruf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=roof | TYPE=word | IPA=ruf | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_roof",
+ "sub": "word",
+ "title": "단어 roof · 지붕",
+ "text": "roof",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the oo words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382431.5252326,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Find the oo words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ˈu wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the oo words. | TYPE=sentence | IPA=faɪnd ði ˈu wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb4_u09_3_task",
+ "sub": "instr",
+ "title": "9유닛 스토리북 과제 · Find the oo words!",
+ "text": "Find the oo words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

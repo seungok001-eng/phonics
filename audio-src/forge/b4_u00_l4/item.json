@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is Fairy E.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382118.0431976,
+   "sec": 2.44,
+   "check": {
+    "transcript": "fairly",
+    "type": "word",
+    "ipa": "ˈfɛr.li",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fairly | TYPE=word | IPA=ˈfɛr.li | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "b4_u00_l4",
+ "sub": "line",
+ "title": "4권 0유닛 대사 · 해설: This is Fairy E.",
+ "text": "This is Fairy E.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

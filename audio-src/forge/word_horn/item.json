@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "horn",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381770.383685,
+   "sec": 0.96,
+   "check": {
+    "transcript": "horned",
+    "type": "word",
+    "ipa": "hɔɹnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=horned | TYPE=word | IPA=hɔɹnd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_horn",
+ "sub": "word",
+ "title": "단어 horn · 호른(나팔)",
+ "text": "horn",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

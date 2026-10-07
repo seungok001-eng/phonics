@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the leaf and the peach!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382349.396107,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Find the leaf and the peach.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə lif ænd ðə piʧ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the leaf and the peach. | TYPE=sentence | IPA=faɪnd ðə lif ænd ðə piʧ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb4_u07_2_task",
+ "sub": "instr",
+ "title": "7유닛 스토리북 과제 · Find the leaf and the peach!",
+ "text": "Find the leaf and the peach!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

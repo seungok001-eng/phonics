@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The cub has a cube.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382241.313675,
+   "sec": 2.16,
+   "check": {
+    "transcript": "The cub has a cube.",
+    "type": "sentence",
+    "ipa": "ðə kʌb hæz ə kjuːb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cub has a cube. | TYPE=sentence | IPA=ðə kʌb hæz ə kjuːb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b4_u04_s1",
+ "sub": "line",
+ "title": "4권 4유닛 문장 1: The cub has a cube.",
+ "text": "The cub has a cube.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

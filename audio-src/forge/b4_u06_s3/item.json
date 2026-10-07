@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Paint the tray red.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382304.2157395,
+   "sec": 1.96,
+   "check": {
+    "transcript": "Paint the tray red.",
+    "type": "sentence",
+    "ipa": "peɪnt ðə treɪ ɹɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Paint the tray red. | TYPE=sentence | IPA=peɪnt ðə treɪ ɹɛd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b4_u06_s3",
+ "sub": "line",
+ "title": "4권 6유닛 문장 3: Paint the tray red.",
+ "text": "Paint the tray red.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

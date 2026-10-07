@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bike, five, hive, slide!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382514.777312,
+   "sec": 5.0,
+   "check": {
+    "transcript": "bike, five, hive, slide",
+    "type": "sentence",
+    "ipa": "ˈbaɪk ˈfaɪv ˈhaɪv ˈslaɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bike, five, hive, slide | TYPE=sentence | IPA=ˈbaɪk ˈfaɪv ˈhaɪv ˈslaɪd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s05",
+ "sub": "line",
+ "title": "4권 노래 5: Bike, five, hive, slide!",
+ "text": "Bike, five, hive, slide!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

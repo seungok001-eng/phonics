@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/r/ ... /oʊ/ ... /p/ ... rope",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381868.2578793,
+   "sec": 3.92,
+   "check": {
+    "transcript": "rope",
+    "type": "word",
+    "ipa": "r oʊ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rope | TYPE=word | IPA=r oʊ p | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_rope",
+ "sub": "blend",
+ "title": "합치기 rope",
+ "text": "/r/ ... /oʊ/ ... /p/ ... rope",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "bowl",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381725.9720142,
+   "sec": 0.96,
+   "check": {
+    "transcript": "bowl",
+    "type": "word",
+    "ipa": "boʊl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bowl | TYPE=word | IPA=boʊl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_bowl",
+ "sub": "word",
+ "title": "단어 bowl · 그릇",
+ "text": "bowl",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

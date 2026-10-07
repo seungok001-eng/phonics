@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/m/ ... /aʊ/ ... /s/ ... mouse",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382033.8756046,
+   "sec": 5.0,
+   "check": {
+    "transcript": "mouse",
+    "type": "word",
+    "ipa": "maʊs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mouse | TYPE=word | IPA=maʊs | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_mouse",
+ "sub": "blend",
+ "title": "합치기 mouse",
+ "text": "/m/ ... /aʊ/ ... /s/ ... mouse",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

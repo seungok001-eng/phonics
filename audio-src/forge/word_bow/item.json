@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "bow",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381731.9949036,
+   "sec": 1.24,
+   "check": {
+    "transcript": "bow",
+    "type": "word",
+    "ipa": "baʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bow | TYPE=word | IPA=baʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_bow",
+ "sub": "word",
+ "title": "단어 bow · 리본",
+ "text": "bow",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

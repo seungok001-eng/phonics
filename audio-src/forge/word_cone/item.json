@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cone",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381622.2047117,
+   "sec": 1.08,
+   "check": {
+    "transcript": "cone",
+    "type": "word",
+    "ipa": "koʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cone | TYPE=word | IPA=koʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_cone",
+ "sub": "word",
+ "title": "단어 cone · 아이스크림콘",
+ "text": "cone",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

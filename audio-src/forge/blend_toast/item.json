@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/t/ ... /oʊ/ ... /st/ ... toast",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382002.320067,
+   "sec": 4.76,
+   "check": {
+    "transcript": "toast",
+    "type": "word",
+    "ipa": "toʊst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=toast | TYPE=word | IPA=toʊst | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:36",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "blend_toast",
+ "sub": "blend",
+ "title": "합치기 toast",
+ "text": "/t/ ... /oʊ/ ... /st/ ... toast",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

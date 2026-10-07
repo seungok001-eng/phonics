@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the note and the rope!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382225.078052,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Find the note and the rope.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə noʊt ənd ðə roʊp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the note and the rope. | TYPE=sentence | IPA=faɪnd ðə noʊt ənd ðə roʊp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_2_task",
+ "sub": "instr",
+ "title": "3유닛 스토리북 과제 · Find the note and the rope!",
+ "text": "Find the note and the rope!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

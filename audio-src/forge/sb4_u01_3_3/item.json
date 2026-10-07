@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Whoosh! Look up! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382163.6575341,
+   "sec": 2.44,
+   "check": {
+    "transcript": "Whoosh. Look up. Oh, no.",
+    "type": "sentence",
+    "ipa": "ˈwʊʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Whoosh. Look up. Oh, no. | TYPE=sentence | IPA=ˈwʊʃ | lʊk ˈʌp | oʊ ˈnoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_3_3",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 해설: Whoosh! Look up! Oh no!",
+ "text": "Whoosh! Look up! Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

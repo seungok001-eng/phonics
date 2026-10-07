@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cute mule!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382244.9027374,
+   "sec": 1.64,
+   "check": {
+    "transcript": "acute mule",
+    "type": "sentence",
+    "ipa": "əˈkjut ˈmjul",
+    "note": "ok",
+    "raw": "TRANSCRIPT=acute mule | TYPE=sentence | IPA=əˈkjut ˈmjul | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A cute mule!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791384149.5287282,
+   "sec": 2.08,
+   "check": {
+    "transcript": "acute mule",
+    "type": "word",
+    "ipa": "əˈkjut ˈmjul",
+    "note": "ok",
+    "raw": "TRANSCRIPT=acute mule | TYPE=word | IPA=əˈkjut ˈmjul | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b4_u04_s2",
+ "sub": "line",
+ "title": "4권 4유닛 문장 2: A cute mule!",
+ "text": "A cute mule!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tea",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381705.64292,
+   "sec": 0.84,
+   "check": {
+    "transcript": "T",
+    "type": "letter-name",
+    "ipa": "tiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=T | TYPE=letter-name | IPA=tiː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "tea",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791383251.0741863,
+   "sec": 0.92,
+   "check": {
+    "transcript": "T",
+    "type": "letter-name",
+    "ipa": "ˈtiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=T | TYPE=letter-name | IPA=ˈtiː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_tea",
+ "sub": "word",
+ "title": "단어 tea · 차",
+ "text": "tea",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

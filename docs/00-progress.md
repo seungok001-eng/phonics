@@ -11,6 +11,9 @@
 - 웹(10-07 밤 중단 시점): 교사용 정답지 `web/teacher/answers.html` 와 자동 점검 도구 `tools/qa.py` 완성(1·2권 1,142화면, 콘솔 오류·소리 누락 0, 쪽 넘침 74곳 — 묶어서 고치는 중이었음). **남은 웹 일**: 쪽 넘침 74곳 고치기, pdf.py `answers` 묶음 확인, 이름 Pop! Phonics 를 웹 전체·PDF 파일 이름에 반영, 영상 대신 움직이는 장면, 음악 이름 바꿈(bgm_*·chant_beat·song_backing·theme·abc_song), 3·4권 쪽 종류(digraph·magic_e·chunks).
 
 ### 다음에 사용자가 할 일 (나중에 알려 주기)
+- [ ] (10-08 새벽) 1~4권 내용·웹·음성 완료: 음성 1권 472·2권 476/484·3권 518·4권 555 승인. 들어볼 것: 핍의 거꾸로 말 개그 줄(3권 Lbock·Rbick, 4권 Cap-e·Not-e·Tub-e), 이어 소리 /br/·/dr/·/sn/·/sp/·/sw/·/nd/·/mp/·/ɑr/·/ɔr/, 4권 bee·sea·tea·jay·hay(글자 이름처럼 들릴 수 있음).
+- [ ] 3·4권 새 친구 목소리 고르기(핌과 팜·요정 이, 지금 임시) — http://localhost:8766/audio/_voices/characters.html
+- [ ] 플로우 "다시 시작" → 남은 그림(1·2권 약 290장 + 3·4권 약 580장). 3·4권 PDF 는 그림 뒤에.
 - [ ] 소리 듣기 3개: 글자 이름 W, 2권 스토리북 "/l/ /ɑ/ /g/ log!"(sb2_u08_2_1), "/h/ /ɑ/ /p/ hop!"(sb2_u09_2_1) — 공방 소리 탭
 - [ ] Suno 로 9곡 만들기 (`content/music.md`)
 - [ ] 플로우 괜찮아지면 "다시 시작" (그림 약 250장 + 3·4권)

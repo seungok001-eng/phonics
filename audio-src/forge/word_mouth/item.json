@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "mouth",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381750.6282275,
+   "sec": 1.32,
+   "check": {
+    "transcript": "mouth",
+    "type": "word",
+    "ipa": "maʊθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mouth | TYPE=word | IPA=maʊθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_mouth",
+ "sub": "word",
+ "title": "단어 mouth · 입",
+ "text": "mouth",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

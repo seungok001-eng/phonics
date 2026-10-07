@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The rain stops. Sun!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382290.6830277,
+   "sec": 2.64,
+   "check": {
+    "transcript": "The rain stops. Sun.",
+    "type": "sentence",
+    "ipa": "ðə ˈɹeɪn ˈstɑps ˈsʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The rain stops. Sun. | TYPE=sentence | IPA=ðə ˈɹeɪn ˈstɑps ˈsʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b4_u06_l5",
+ "sub": "line",
+ "title": "4권 6유닛 대사 · 해설: The rain stops. Sun!",
+ "text": "The rain stops. Sun!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

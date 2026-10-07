@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "so",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382089.4337134,
+   "sec": 0.68,
+   "check": {
+    "transcript": "So.",
+    "type": "word",
+    "ipa": "soʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=So. | TYPE=word | IPA=soʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sw_so",
+ "sub": "sw",
+ "title": "사이트워드 so · 그래서·아주",
+ "text": "so",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

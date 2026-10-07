@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/ ... /iː/ ... bee",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381959.8730693,
+   "sec": 3.32,
+   "check": {
+    "transcript": "B",
+    "type": "letter-name",
+    "ipa": "biː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=B | TYPE=letter-name | IPA=biː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_bee",
+ "sub": "blend",
+ "title": "합치기 bee",
+ "text": "/b/ ... /iː/ ... bee",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the ou words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382415.7549071,
+   "sec": 2.44,
+   "check": {
+    "transcript": "Find the OU words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː aʊ wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the OU words. | TYPE=sentence | IPA=faɪnd ðiː aʊ wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb4_u09_1_task",
+ "sub": "instr",
+ "title": "9유닛 스토리북 과제 · Find the ou words!",
+ "text": "Find the ou words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "June",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382092.7518382,
+   "sec": 0.88,
+   "check": {
+    "transcript": "June",
+    "type": "word",
+    "ipa": "dʒuːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=June | TYPE=word | IPA=dʒuːn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sw_June",
+ "sub": "sw",
+ "title": "사이트워드 June · 6월",
+ "text": "June",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

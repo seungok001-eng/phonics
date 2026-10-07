@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two make one! Click-clack!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382528.9069452,
+   "sec": 2.52,
+   "check": {
+    "transcript": "To make one, click-clack.",
+    "type": "sentence",
+    "ipa": "tu meɪk wʌn klɪk klæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=To make one, click-clack. | TYPE=sentence | IPA=tu meɪk wʌn klɪk klæk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Two make one! Click-clack!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791384674.4236774,
+   "sec": 2.08,
+   "check": {
+    "transcript": "To make one, click clack.",
+    "type": "sentence",
+    "ipa": "tu meɪk wʌn, klɪk klæk.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=To make one, click clack. | TYPE=sentence | IPA=tu meɪk wʌn, klɪk klæk. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s10",
+ "sub": "line",
+ "title": "4권 노래 10: Two make one! Click-clack!",
+ "text": "Two make one! Click-clack!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

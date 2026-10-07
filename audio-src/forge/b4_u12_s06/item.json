@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hop, hope! Not, note!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382515.8620124,
+   "sec": 4.04,
+   "check": {
+    "transcript": "hop hope not note",
+    "type": "sentence",
+    "ipa": "hɒp hoʊp nɒt noʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hop hope not note | TYPE=sentence | IPA=hɒp hoʊp nɒt noʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s06",
+ "sub": "line",
+ "title": "4권 노래 6: Hop, hope! Not, note!",
+ "text": "Hop, hope! Not, note!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

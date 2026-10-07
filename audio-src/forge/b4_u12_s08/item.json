@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cub, cube! Tub, tube!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382519.1982896,
+   "sec": 3.8,
+   "check": {
+    "transcript": "cub cube tub tube",
+    "type": "sentence",
+    "ipa": "kʌb kjuːb tʌb tuːb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cub cube tub tube | TYPE=sentence | IPA=kʌb kjuːb tʌb tuːb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s08",
+ "sub": "line",
+ "title": "4권 노래 8: Cub, cube! Tub, tube!",
+ "text": "Cub, cube! Tub, tube!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

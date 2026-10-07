@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "use",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382092.4526415,
+   "sec": 1.32,
+   "check": {
+    "transcript": "use",
+    "type": "word",
+    "ipa": "juz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=use | TYPE=word | IPA=juz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sw_use",
+ "sub": "sw",
+ "title": "사이트워드 use · 쓰다",
+ "text": "use",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

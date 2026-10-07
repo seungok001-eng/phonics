@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the slide and the hive!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382201.2892969,
+   "sec": 2.4,
+   "check": {
+    "transcript": "Find the slide and the hive.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə slaɪd ənd ðə haɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the slide and the hive. | TYPE=sentence | IPA=faɪnd ðə slaɪd ənd ðə haɪv | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_3_task",
+ "sub": "instr",
+ "title": "2유닛 스토리북 과제 · Find the slide and the hive!",
+ "text": "Find the slide and the hive!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Use the tube in the tub.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382246.1844478,
+   "sec": 2.32,
+   "check": {
+    "transcript": "Use the tube in the tub.",
+    "type": "sentence",
+    "ipa": "juz ðə tub ɪn ðə təb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Use the tube in the tub. | TYPE=sentence | IPA=juz ðə tub ɪn ðə təb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b4_u04_s3",
+ "sub": "line",
+ "title": "4권 4유닛 문장 3: Use the tube in the tub.",
+ "text": "Use the tube in the tub.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

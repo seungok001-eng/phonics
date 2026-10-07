@@ -1,10 +1,45 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ /aɪ/ /t/ kite!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791384837.1855245,
+   "sec": 3.11,
+   "check": {
+    "transcript": "kite",
+    "type": "word",
+    "ipa": "kaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kite | TYPE=word | IPA=kaɪt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ /aɪ/ /t/ kite!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791386209.189383,
+   "sec": 2.88,
+   "check": {
+    "transcript": "kite",
+    "type": "word",
+    "ipa": "k aɪ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kite | TYPE=word | IPA=k aɪ t | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:17",
  "text_edited": false,
- "error": "el: 낱소리 sound_i_e 녹음이 없다",
+ "error": "",
  "unit": 2,
  "letter": null,
  "id": "sb4_u02_2_1",
@@ -14,5 +49,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

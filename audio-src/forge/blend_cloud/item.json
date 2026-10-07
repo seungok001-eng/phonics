@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kl/ ... /aʊ/ ... /d/ ... cloud",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382035.8233666,
+   "sec": 4.24,
+   "check": {
+    "transcript": "cloud",
+    "type": "word",
+    "ipa": "klaʊd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cloud | TYPE=word | IPA=klaʊd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_cloud",
+ "sub": "blend",
+ "title": "합치기 cloud",
+ "text": "/kl/ ... /aʊ/ ... /d/ ... cloud",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

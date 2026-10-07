@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/oʊ/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381515.185989,
+   "sec": 0.96,
+   "check": {
+    "transcript": "Oh",
+    "type": "word",
+    "ipa": "oʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh | TYPE=word | IPA=oʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sound_o_e",
+ "sub": "fsound",
+ "title": "짝꿍 소리 /oʊ/ (o…e)",
+ "text": "/oʊ/",
+ "voice": "Kore",
+ "ipa": "oʊ",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pop! Pop! Leaf, leaf, leaf!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382349.3230839,
+   "sec": 3.8,
+   "check": {
+    "transcript": "pop pop leaf leaf leaf",
+    "type": "sentence",
+    "ipa": "pɒp pɒp liːf liːf liːf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop pop leaf leaf leaf | TYPE=sentence | IPA=pɒp pɒp liːf liːf liːf | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb4_u07_2_3",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 해설: Pop! Pop! Leaf, leaf, leaf!",
+ "text": "Pop! Pop! Leaf, leaf, leaf!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

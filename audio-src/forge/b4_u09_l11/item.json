@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble is a pal!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382399.5797575,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Grumble is a pal.",
+    "type": "sentence",
+    "ipa": "ˈɡrʌmbəl ɪz ə pæl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble is a pal. | TYPE=sentence | IPA=ˈɡrʌmbəl ɪz ə pæl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b4_u09_l11",
+ "sub": "line",
+ "title": "4권 9유닛 대사 · 해설: Grumble is a pal!",
+ "text": "Grumble is a pal!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

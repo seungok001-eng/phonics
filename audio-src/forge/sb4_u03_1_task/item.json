@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the long o words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382221.0550463,
+   "sec": 2.68,
+   "check": {
+    "transcript": "Find the long O words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə lɔŋ oʊ wɜrdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the long O words. | TYPE=sentence | IPA=faɪnd ðə lɔŋ oʊ wɜrdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_1_task",
+ "sub": "instr",
+ "title": "3유닛 스토리북 과제 · Find the long o words!",
+ "text": "Find the long o words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

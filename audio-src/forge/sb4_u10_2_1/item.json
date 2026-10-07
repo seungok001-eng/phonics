@@ -1,10 +1,45 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/h/ /ɑr/ /p/ harp!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791384854.253936,
+   "sec": 2.8,
+   "check": {
+    "transcript": "R",
+    "type": "letter-name",
+    "ipa": "ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/h/ /ɑr/ /p/ harp!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791388307.420533,
+   "sec": 2.71,
+   "check": {
+    "transcript": "herb",
+    "type": "word",
+    "ipa": "h ɜː b",
+    "note": "ok",
+    "raw": "TRANSCRIPT=herb | TYPE=word | IPA=h ɜː b | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:52",
  "text_edited": false,
- "error": "el: 낱소리 sound_ar 녹음이 없다",
+ "error": "",
  "unit": 10,
  "letter": null,
  "id": "sb4_u10_2_1",
@@ -14,5 +49,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

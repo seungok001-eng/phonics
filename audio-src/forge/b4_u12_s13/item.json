@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tree, bee, feet, seed!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382538.6567774,
+   "sec": 5.04,
+   "check": {
+    "transcript": "tree, bee, feet, seed",
+    "type": "sentence",
+    "ipa": "tri bi fit sid",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tree, bee, feet, seed | TYPE=sentence | IPA=tri bi fit sid | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s13",
+ "sub": "line",
+ "title": "4권 노래 13: Tree, bee, feet, seed!",
+ "text": "Tree, bee, feet, seed!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "couch",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381752.6704173,
+   "sec": 1.2,
+   "check": {
+    "transcript": "couch",
+    "type": "word",
+    "ipa": "kaʊtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=couch | TYPE=word | IPA=kaʊtʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_couch",
+ "sub": "word",
+ "title": "단어 couch · 소파",
+ "text": "couch",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

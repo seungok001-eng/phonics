@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/t/ ... /eɪ/ ... /p/ ... tape",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381788.5074685,
+   "sec": 4.72,
+   "check": {
+    "transcript": "tape",
+    "type": "word",
+    "ipa": "teɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tape | TYPE=word | IPA=teɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_tape",
+ "sub": "blend",
+ "title": "합치기 tape",
+ "text": "/t/ ... /eɪ/ ... /p/ ... tape",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

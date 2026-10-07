@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A horn in the storm!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382449.0099883,
+   "sec": 2.2,
+   "check": {
+    "transcript": "A horn in the storm.",
+    "type": "sentence",
+    "ipa": "ə hɔɹn ɪn ðə stɔɹm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A horn in the storm. | TYPE=sentence | IPA=ə hɔɹn ɪn ðə stɔɹm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_s4",
+ "sub": "line",
+ "title": "4권 10유닛 문장 4: A horn in the storm!",
+ "text": "A horn in the storm!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

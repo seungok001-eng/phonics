@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the train and the jay!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382315.2980697,
+   "sec": 2.76,
+   "check": {
+    "transcript": "Find the train and the J.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə treɪn ænd ðə ˈdʒeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the train and the J. | TYPE=sentence | IPA=faɪnd ðə treɪn ænd ðə ˈdʒeɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Find the train and the jay!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791384286.6757429,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Find the train and the J.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə tɹeɪn ænd ðə ʤeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the train and the J. | TYPE=sentence | IPA=faɪnd ðə tɹeɪn ænd ðə ʤeɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb4_u06_2_task",
+ "sub": "instr",
+ "title": "6유닛 스토리북 과제 · Find the train and the jay!",
+ "text": "Find the train and the jay!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/st/ ... /ɔr/ ... /m/ ... storm",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382077.2777197,
+   "sec": 4.88,
+   "check": {
+    "transcript": "storm",
+    "type": "word",
+    "ipa": "stɔɹm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=storm | TYPE=word | IPA=stɔɹm | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_storm",
+ "sub": "blend",
+ "title": "합치기 storm",
+ "text": "/st/ ... /ɔr/ ... /m/ ... storm",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

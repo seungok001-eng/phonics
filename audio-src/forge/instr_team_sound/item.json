@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two letters, one sound.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382593.3322997,
+   "sec": 2.48,
+   "check": {
+    "transcript": "two letters one sound",
+    "type": "sentence",
+    "ipa": "tuː ˈlɛtərz wʌn saʊnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=two letters one sound | TYPE=sentence | IPA=tuː ˈlɛtərz wʌn saʊnd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_team_sound",
+ "sub": "instr",
+ "title": "지시문 · Two letters, one sound.",
+ "text": "Two letters, one sound.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

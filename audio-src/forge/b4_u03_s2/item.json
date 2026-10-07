@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A dog has a bone.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382210.665717,
+   "sec": 1.92,
+   "check": {
+    "transcript": "A dog has a bone.",
+    "type": "sentence",
+    "ipa": "ə dɑːg həz ə boʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A dog has a bone. | TYPE=sentence | IPA=ə dɑːg həz ə boʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b4_u03_s2",
+ "sub": "line",
+ "title": "4권 3유닛 문장 2: A dog has a bone.",
+ "text": "A dog has a bone.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

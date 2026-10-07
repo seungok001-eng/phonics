@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the tube and the mule!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382258.597582,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Find the tube and the mule.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə tjuːb ənd ðə mjuːl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the tube and the mule. | TYPE=sentence | IPA=faɪnd ðə tjuːb ənd ðə mjuːl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb4_u04_2_task",
+ "sub": "instr",
+ "title": "4유닛 스토리북 과제 · Find the tube and the mule!",
+ "text": "Find the tube and the mule!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

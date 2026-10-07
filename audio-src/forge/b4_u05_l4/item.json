@@ -10,11 +10,28 @@
    "sec": 2.32,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Cap... e... cap... e...",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791386882.5866647,
+   "sec": 2.97,
+   "check": {
+    "transcript": "cap e cap e",
+    "type": "sentence",
+    "ipa": "kæp i kæp i",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap e cap e | TYPE=sentence | IPA=kæp i kæp i | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:28",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -26,5 +43,5 @@
  "voice": "Aoede",
  "who": "pip",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

@@ -10,11 +10,28 @@
    "sec": 1.3,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I can not see!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791388262.2205741,
+   "sec": 1.49,
+   "check": {
+    "transcript": "I cannot see",
+    "type": "sentence",
+    "ipa": "aɪ ˈkæ.nɑt ˈsi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I cannot see | TYPE=sentence | IPA=aɪ ˈkæ.nɑt ˈsi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:51",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -26,5 +43,5 @@
  "voice": "Puck",
  "who": "hedgie",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the or words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382453.928117,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Find the or words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ɔɹ wɝdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the or words. | TYPE=sentence | IPA=faɪnd ði ɔɹ wɝdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_1_task",
+ "sub": "instr",
+ "title": "10유닛 스토리북 과제 · Find the or words!",
+ "text": "Find the or words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

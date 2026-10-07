@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Day, play, tray, hay!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382535.7867236,
+   "sec": 3.24,
+   "check": {
+    "transcript": "day play tray hey",
+    "type": "sentence",
+    "ipa": "deɪ pleɪ treɪ heɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=day play tray hey | TYPE=sentence | IPA=deɪ pleɪ treɪ heɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Day, play, tray, hay!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791384709.655816,
+   "sec": 4.08,
+   "check": {
+    "transcript": "day play tray hey",
+    "type": "sentence",
+    "ipa": "deɪ pleɪ treɪ heɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=day play tray hey | TYPE=sentence | IPA=deɪ pleɪ treɪ heɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s12",
+ "sub": "line",
+ "title": "4권 노래 12: Day, play, tray, hay!",
+ "text": "Day, play, tray, hay!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

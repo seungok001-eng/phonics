@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "slid",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381598.461063,
+   "sec": 1.24,
+   "check": {
+    "transcript": "slid",
+    "type": "word",
+    "ipa": "slɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=slid | TYPE=word | IPA=slɪd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "word_slid",
+ "sub": "word",
+ "title": "단어 slid · 미끄러졌다",
+ "text": "slid",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

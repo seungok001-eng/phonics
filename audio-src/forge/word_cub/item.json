@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cub",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381656.5342357,
+   "sec": 1.16,
+   "check": {
+    "transcript": "cub",
+    "type": "word",
+    "ipa": "kʌb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cub | TYPE=word | IPA=kʌb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:24",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "word_cub",
+ "sub": "word",
+ "title": "단어 cub · 새끼 곰",
+ "text": "cub",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

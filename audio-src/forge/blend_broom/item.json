@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/br/ ... /uː/ ... /m/ ... broom",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382025.1552048,
+   "sec": 4.76,
+   "check": {
+    "transcript": "broom",
+    "type": "word",
+    "ipa": "b r u m",
+    "note": "ok",
+    "raw": "TRANSCRIPT=broom | TYPE=word | IPA=b r u m | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:36",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_broom",
+ "sub": "blend",
+ "title": "합치기 broom",
+ "text": "/br/ ... /uː/ ... /m/ ... broom",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

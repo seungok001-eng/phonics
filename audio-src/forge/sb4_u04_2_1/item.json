@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The tub is a tube!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382254.5009966,
+   "sec": 2.08,
+   "check": {
+    "transcript": "The tub is a tube.",
+    "type": "sentence",
+    "ipa": "ðə tʌb ɪz ə tjuːb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The tub is a tube. | TYPE=sentence | IPA=ðə tʌb ɪz ə tjuːb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb4_u04_2_1",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 해설: The tub is a tube!",
+ "text": "The tub is a tube!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

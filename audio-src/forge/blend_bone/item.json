@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/ ... /oʊ/ ... /n/ ... bone",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381864.0035186,
+   "sec": 4.8,
+   "check": {
+    "transcript": "bone",
+    "type": "word",
+    "ipa": "boʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bone | TYPE=word | IPA=boʊn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_bone",
+ "sub": "blend",
+ "title": "합치기 bone",
+ "text": "/b/ ... /oʊ/ ... /n/ ... bone",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

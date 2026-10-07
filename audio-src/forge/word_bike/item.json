@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "bike",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381585.5767133,
+   "sec": 1.08,
+   "check": {
+    "transcript": "bike",
+    "type": "word",
+    "ipa": "baɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bike | TYPE=word | IPA=baɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_bike",
+ "sub": "word",
+ "title": "단어 bike · 자전거",
+ "text": "bike",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "take",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382083.3338163,
+   "sec": 1.08,
+   "check": {
+    "transcript": "take",
+    "type": "word",
+    "ipa": "teɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=take | TYPE=word | IPA=teɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sw_take",
+ "sub": "sw",
+ "title": "사이트워드 take · 가져가다",
+ "text": "take",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ ... /iː/ ... /f/ ... leaf",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381975.9364848,
+   "sec": 4.8,
+   "check": {
+    "transcript": "leaf",
+    "type": "word",
+    "ipa": "liːf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=leaf | TYPE=word | IPA=liːf | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_leaf",
+ "sub": "blend",
+ "title": "합치기 leaf",
+ "text": "/l/ ... /iː/ ... /f/ ... leaf",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

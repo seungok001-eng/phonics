@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the ay words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382325.163359,
+   "sec": 2.32,
+   "check": {
+    "transcript": "Find the A words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðiː eɪ wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the A words. | TYPE=sentence | IPA=faɪnd ðiː eɪ wɜːdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb4_u06_3_task",
+ "sub": "instr",
+ "title": "6유닛 스토리북 과제 · Find the ay words!",
+ "text": "Find the ay words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

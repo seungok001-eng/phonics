@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The snake can take the cake!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382138.4251058,
+   "sec": 2.52,
+   "check": {
+    "transcript": "The snake can take the cake.",
+    "type": "sentence",
+    "ipa": "ðə sneɪk kən teɪk ðə keɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The snake can take the cake. | TYPE=sentence | IPA=ðə sneɪk kən teɪk ðə keɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b4_u01_l8",
+ "sub": "line",
+ "title": "4권 1유닛 대사 · 해설: The snake can take the cake!",
+ "text": "The snake can take the cake!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

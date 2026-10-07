@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "hive",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381595.1062038,
+   "sec": 1.04,
+   "check": {
+    "transcript": "hive",
+    "type": "word",
+    "ipa": "haɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hive | TYPE=word | IPA=haɪv | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_hive",
+ "sub": "word",
+ "title": "단어 hive · 벌집",
+ "text": "hive",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

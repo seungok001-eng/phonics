@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "House, mouse, cloud, mouth!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382553.1953146,
+   "sec": 4.36,
+   "check": {
+    "transcript": "house, mouse, cloud, mouth",
+    "type": "sentence",
+    "ipa": "haʊs, maʊs, klaʊd, maʊθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=house, mouse, cloud, mouth | TYPE=sentence | IPA=haʊs, maʊs, klaʊd, maʊθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s18",
+ "sub": "line",
+ "title": "4권 노래 18: House, mouse, cloud, mouth!",
+ "text": "House, mouse, cloud, mouth!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "corn",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381772.6181283,
+   "sec": 1.08,
+   "check": {
+    "transcript": "corn",
+    "type": "word",
+    "ipa": "kɔɹn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=corn | TYPE=word | IPA=kɔɹn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_corn",
+ "sub": "word",
+ "title": "단어 corn · 옥수수",
+ "text": "corn",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

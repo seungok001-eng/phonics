@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look at the moon!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382400.1224291,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Look at the moon.",
+    "type": "sentence",
+    "ipa": "lʊk æt ðə mun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at the moon. | TYPE=sentence | IPA=lʊk æt ðə mun | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b4_u09_s1",
+ "sub": "line",
+ "title": "4권 9유닛 문장 1: Look at the moon!",
+ "text": "Look at the moon!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

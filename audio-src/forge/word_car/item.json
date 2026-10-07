@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "car",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381757.2850618,
+   "sec": 1.04,
+   "check": {
+    "transcript": "car",
+    "type": "word",
+    "ipa": "kɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=car | TYPE=word | IPA=kɑɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_car",
+ "sub": "word",
+ "title": "단어 car · 자동차",
+ "text": "car",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

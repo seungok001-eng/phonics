@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "slide",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381581.6140475,
+   "sec": 1.36,
+   "check": {
+    "transcript": "slide",
+    "type": "word",
+    "ipa": "slaɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=slide | TYPE=word | IPA=slaɪd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_slide",
+ "sub": "word",
+ "title": "단어 slide · 미끄럼틀",
+ "text": "slide",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

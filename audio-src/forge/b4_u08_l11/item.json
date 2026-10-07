@@ -10,11 +10,28 @@
    "sec": 2.88,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Toast! Snow! Boat! Goat!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791387590.295938,
+   "sec": 2.83,
+   "check": {
+    "transcript": "toast, snow, port, goat",
+    "type": "sentence",
+    "ipa": "təʊst, snəʊ, pɔːt, ɡəʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=toast, snow, port, goat | TYPE=sentence | IPA=təʊst, snəʊ, pɔːt, ɡəʊt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:40",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -26,5 +43,5 @@
  "voice": "Aoede",
  "who": "pip",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

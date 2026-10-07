@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/m/ ... /juː/ ... /l/ ... mule",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381901.8456469,
+   "sec": 5.08,
+   "check": {
+    "transcript": "muzzle",
+    "type": "word",
+    "ipa": "ˈmʌzəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=muzzle | TYPE=word | IPA=ˈmʌzəl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_mule",
+ "sub": "blend",
+ "title": "합치기 mule",
+ "text": "/m/ ... /juː/ ... /l/ ... mule",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

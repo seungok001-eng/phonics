@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "snow",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381725.1452725,
+   "sec": 1.12,
+   "check": {
+    "transcript": "snow",
+    "type": "word",
+    "ipa": "snoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snow | TYPE=word | IPA=snoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_snow",
+ "sub": "word",
+ "title": "단어 snow · 눈",
+ "text": "snow",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

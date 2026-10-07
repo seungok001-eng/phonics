@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the moon and the stars!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382496.7181842,
+   "sec": 2.44,
+   "check": {
+    "transcript": "Find the moon and the stars.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə mun ənd ðə stɑrz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the moon and the stars. | TYPE=sentence | IPA=faɪnd ðə mun ənd ðə stɑrz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb4_u11_3_task",
+ "sub": "instr",
+ "title": "11유닛 스토리북 과제 · Find the moon and the stars!",
+ "text": "Find the moon and the stars!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

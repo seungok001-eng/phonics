@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip did it! Cape!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382271.1997414,
+   "sec": 2.6,
+   "check": {
+    "transcript": "Pip did it. Cape",
+    "type": "sentence",
+    "ipa": "pɪp dɪd ɪt keɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip did it. Cape | TYPE=sentence | IPA=pɪp dɪd ɪt keɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b4_u05_l8",
+ "sub": "line",
+ "title": "4권 5유닛 대사 · 해설: Pip did it! Cape!",
+ "text": "Pip did it! Cape!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

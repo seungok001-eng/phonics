@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the boat and the crow!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382381.1091428,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Find the boat and the crow.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə boʊt ənd ðə kroʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the boat and the crow. | TYPE=sentence | IPA=faɪnd ðə boʊt ənd ðə kroʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb4_u08_2_task",
+ "sub": "instr",
+ "title": "8유닛 스토리북 과제 · Find the boat and the crow!",
+ "text": "Find the boat and the crow!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

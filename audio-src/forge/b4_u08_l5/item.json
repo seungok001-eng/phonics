@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A boat! Get in!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382359.7566974,
+   "sec": 1.68,
+   "check": {
+    "transcript": "A boat, get in.",
+    "type": "sentence",
+    "ipa": "ə boʊt ɡɛt ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A boat, get in. | TYPE=sentence | IPA=ə boʊt ɡɛt ɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b4_u08_l5",
+ "sub": "line",
+ "title": "4권 8유닛 대사 · 해설: A boat! Get in!",
+ "text": "A boat! Get in!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

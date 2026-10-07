@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/s/ ... /iː/ ... /l/ ... seal",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381980.03575,
+   "sec": 4.4,
+   "check": {
+    "transcript": "seal",
+    "type": "word",
+    "ipa": "/siːl/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seal | TYPE=word | IPA=/siːl/ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_seal",
+ "sub": "blend",
+ "title": "합치기 seal",
+ "text": "/s/ ... /iː/ ... /l/ ... seal",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

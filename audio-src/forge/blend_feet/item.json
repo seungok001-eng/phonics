@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/f/ ... /iː/ ... /t/ ... feet",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381960.6041927,
+   "sec": 3.92,
+   "check": {
+    "transcript": "feet",
+    "type": "word",
+    "ipa": "fit",
+    "note": "ok",
+    "raw": "TRANSCRIPT=feet | TYPE=word | IPA=fit | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_feet",
+ "sub": "blend",
+ "title": "합치기 feet",
+ "text": "/f/ ... /iː/ ... /t/ ... feet",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

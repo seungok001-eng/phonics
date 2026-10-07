@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Up, up! Look up there!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382427.6910014,
+   "sec": 2.32,
+   "check": {
+    "transcript": "Up, up. Look up there.",
+    "type": "sentence",
+    "ipa": "ˈʌp, ˈʌp. ˈlʊk ˈʌp ðɛr.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Up, up. Look up there. | TYPE=sentence | IPA=ˈʌp, ˈʌp. ˈlʊk ˈʌp ðɛr. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb4_u09_3_3",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 해설: Up, up! Look up there!",
+ "text": "Up, up! Look up there!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

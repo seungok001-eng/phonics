@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/sn/ ... /eɪ/ ... /k/ ... snake",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381807.6604562,
+   "sec": 5.6,
+   "check": {
+    "transcript": "snake",
+    "type": "word",
+    "ipa": "sneɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snake | TYPE=word | IPA=sneɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_snake",
+ "sub": "blend",
+ "title": "합치기 snake",
+ "text": "/sn/ ... /eɪ/ ... /k/ ... snake",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

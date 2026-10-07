@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ ... /eɪ/ ... /k/ ... cake",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381797.4634223,
+   "sec": 3.88,
+   "check": {
+    "transcript": "cake",
+    "type": "word",
+    "ipa": "keɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cake | TYPE=word | IPA=keɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_cake",
+ "sub": "blend",
+ "title": "합치기 cake",
+ "text": "/k/ ... /eɪ/ ... /k/ ... cake",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

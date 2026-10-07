@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the robe and the cone!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382232.667492,
+   "sec": 2.88,
+   "check": {
+    "transcript": "Find the robe and the cone.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ɹoʊb ənd ðə koʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the robe and the cone. | TYPE=sentence | IPA=faɪnd ðə ɹoʊb ənd ðə koʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_3_task",
+ "sub": "instr",
+ "title": "3유닛 스토리북 과제 · Find the robe and the cone!",
+ "text": "Find the robe and the cone!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

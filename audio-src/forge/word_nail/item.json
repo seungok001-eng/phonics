@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "nail",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381674.5337577,
+   "sec": 1.08,
+   "check": {
+    "transcript": "nail",
+    "type": "word",
+    "ipa": "neɪl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nail | TYPE=word | IPA=neɪl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_nail",
+ "sub": "word",
+ "title": "단어 nail · 못",
+ "text": "nail",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

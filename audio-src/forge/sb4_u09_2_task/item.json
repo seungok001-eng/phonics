@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the mouse and the tooth!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382421.4667366,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Find the mouse and the tooth.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə maʊs ənd ðə tuːθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the mouse and the tooth. | TYPE=sentence | IPA=faɪnd ðə maʊs ənd ðə tuːθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb4_u09_2_task",
+ "sub": "instr",
+ "title": "9유닛 스토리북 과제 · Find the mouse and the tooth!",
+ "text": "Find the mouse and the tooth!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

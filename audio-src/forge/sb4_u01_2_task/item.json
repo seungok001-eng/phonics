@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the cape and the gate!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382161.4552734,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Find the cape and the gate.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə keɪp ənd ðə geɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the cape and the gate. | TYPE=sentence | IPA=faɪnd ðə keɪp ənd ðə geɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_2_task",
+ "sub": "instr",
+ "title": "1유닛 스토리북 과제 · Find the cape and the gate!",
+ "text": "Find the cape and the gate!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

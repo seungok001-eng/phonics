@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Out, cloud, out!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382411.2437406,
+   "sec": 2.28,
+   "check": {
+    "transcript": "outcloud out",
+    "type": "sentence",
+    "ipa": "ˈaʊtˈklaʊdˈaʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=outcloud out | TYPE=sentence | IPA=ˈaʊtˈklaʊdˈaʊt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b4_u09_s4",
+ "sub": "line",
+ "title": "4권 9유닛 문장 4: Out, cloud, out!",
+ "text": "Out, cloud, out!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

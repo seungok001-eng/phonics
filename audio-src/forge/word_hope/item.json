@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "hope",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381602.7181213,
+   "sec": 0.88,
+   "check": {
+    "transcript": "hope",
+    "type": "word",
+    "ipa": "hoʊp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hope | TYPE=word | IPA=hoʊp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_hope",
+ "sub": "word",
+ "title": "단어 hope · 바람(희망)",
+ "text": "hope",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

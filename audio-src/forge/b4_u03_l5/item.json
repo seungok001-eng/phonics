@@ -12,9 +12,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:18",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -25,6 +25,5 @@
  "text": "A rope? A rope!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 4,
- "busy": 1
+ "book": 4
 }

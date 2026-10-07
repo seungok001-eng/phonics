@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/sl/ ... /aɪ/ ... /d/ ... slide",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381824.0348415,
+   "sec": 6.04,
+   "check": {
+    "transcript": "slide",
+    "type": "word",
+    "ipa": "slaɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=slide | TYPE=word | IPA=slaɪd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_slide",
+ "sub": "blend",
+ "title": "합치기 slide",
+ "text": "/sl/ ... /aɪ/ ... /d/ ... slide",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

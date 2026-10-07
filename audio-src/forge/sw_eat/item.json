@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "eat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382101.1008997,
+   "sec": 0.88,
+   "check": {
+    "transcript": "eat",
+    "type": "word",
+    "ipa": "it",
+    "note": "ok",
+    "raw": "TRANSCRIPT=eat | TYPE=word | IPA=it | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sw_eat",
+ "sub": "sw",
+ "title": "사이트워드 eat · 먹다",
+ "text": "eat",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

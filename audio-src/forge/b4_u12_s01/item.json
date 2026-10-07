@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Add an e! Eee! Eee!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382500.136413,
+   "sec": 2.84,
+   "check": {
+    "transcript": "I had an e e e",
+    "type": "sentence",
+    "ipa": "aɪ hæd ən i i i",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I had an e e e | TYPE=sentence | IPA=aɪ hæd ən i i i | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s01",
+ "sub": "line",
+ "title": "4권 노래 1: Add an e! Eee! Eee!",
+ "text": "Add an e! Eee! Eee!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

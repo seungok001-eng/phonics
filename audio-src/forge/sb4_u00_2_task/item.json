@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find Fairy E!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382132.3143795,
+   "sec": 2.08,
+   "check": {
+    "transcript": "Find fairy E.",
+    "type": "sentence",
+    "ipa": "faɪnd ˈfɛri ˈiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find fairy E. | TYPE=sentence | IPA=faɪnd ˈfɛri ˈiː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb4_u00_2_task",
+ "sub": "instr",
+ "title": "0유닛 스토리북 과제 · Find Fairy E!",
+ "text": "Find Fairy E!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

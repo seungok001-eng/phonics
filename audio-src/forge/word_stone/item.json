@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "stone",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381619.84017,
+   "sec": 1.24,
+   "check": {
+    "transcript": "stone",
+    "type": "word",
+    "ipa": "stoʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=stone | TYPE=word | IPA=stoʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_stone",
+ "sub": "word",
+ "title": "단어 stone · 돌",
+ "text": "stone",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

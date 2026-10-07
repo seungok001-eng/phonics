@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the magic e words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382281.604073,
+   "sec": 2.68,
+   "check": {
+    "transcript": "Find the magic E words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈmæʤɪk ˈi wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the magic E words. | TYPE=sentence | IPA=faɪnd ðə ˈmæʤɪk ˈi wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_1_task",
+ "sub": "instr",
+ "title": "5유닛 스토리북 과제 · Find the magic e words!",
+ "text": "Find the magic e words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

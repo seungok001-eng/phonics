@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We can read! We can sing!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382566.128522,
+   "sec": 2.96,
+   "check": {
+    "transcript": "We can read. We can sing.",
+    "type": "sentence",
+    "ipa": "wi kæn rid wi kæn sɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We can read. We can sing. | TYPE=sentence | IPA=wi kæn rid wi kæn sɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s22",
+ "sub": "line",
+ "title": "4권 노래 22: We can read! We can sing!",
+ "text": "We can read! We can sing!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

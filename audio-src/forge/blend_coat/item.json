@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ ... /oʊ/ ... /t/ ... coat",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381995.2231228,
+   "sec": 4.0,
+   "check": {
+    "transcript": "coat",
+    "type": "word",
+    "ipa": "k oʊ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=coat | TYPE=word | IPA=k oʊ t | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:36",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "blend_coat",
+ "sub": "blend",
+ "title": "합치기 coat",
+ "text": "/k/ ... /oʊ/ ... /t/ ... coat",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

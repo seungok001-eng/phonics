@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "dive",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381597.8126116,
+   "sec": 1.4,
+   "check": {
+    "transcript": "dive",
+    "type": "word",
+    "ipa": "daɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dive | TYPE=word | IPA=daɪv | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_dive",
+ "sub": "word",
+ "title": "단어 dive · 다이빙",
+ "text": "dive",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

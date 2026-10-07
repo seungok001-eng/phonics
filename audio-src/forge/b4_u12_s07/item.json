@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Rope, bone, rose, stone!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382518.3798497,
+   "sec": 3.6,
+   "check": {
+    "transcript": "rope bone rose stone",
+    "type": "sentence",
+    "ipa": "roʊp boʊn roʊz stoʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rope bone rose stone | TYPE=sentence | IPA=roʊp boʊn roʊz stoʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s07",
+ "sub": "line",
+ "title": "4권 노래 7: Rope, bone, rose, stone!",
+ "text": "Rope, bone, rose, stone!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

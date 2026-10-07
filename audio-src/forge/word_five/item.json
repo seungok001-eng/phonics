@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "five",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381588.4394162,
+   "sec": 1.12,
+   "check": {
+    "transcript": "five",
+    "type": "word",
+    "ipa": "faɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=five | TYPE=word | IPA=faɪv | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_five",
+ "sub": "word",
+ "title": "단어 five · 5",
+ "text": "five",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Kit, kite! Pin, pine!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382509.8539226,
+   "sec": 4.2,
+   "check": {
+    "transcript": "Kit, kite, pin, pine",
+    "type": "sentence",
+    "ipa": "kɪt kaɪt pɪn paɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Kit, kite, pin, pine | TYPE=sentence | IPA=kɪt kaɪt pɪn paɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s04",
+ "sub": "line",
+ "title": "4권 노래 4: Kit, kite! Pin, pine!",
+ "text": "Kit, kite! Pin, pine!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

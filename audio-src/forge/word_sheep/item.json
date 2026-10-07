@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "sheep",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381697.5337436,
+   "sec": 1.08,
+   "check": {
+    "transcript": "sheep",
+    "type": "word",
+    "ipa": "ʃiːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sheep | TYPE=word | IPA=ʃiːp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_sheep",
+ "sub": "word",
+ "title": "단어 sheep · 양",
+ "text": "sheep",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

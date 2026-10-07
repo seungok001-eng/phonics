@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Snow, bowl, crow! Go slow!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382547.9731967,
+   "sec": 5.88,
+   "check": {
+    "transcript": "go slow",
+    "type": "sentence",
+    "ipa": "ɡoʊ sloʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=go slow | TYPE=sentence | IPA=ɡoʊ sloʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s16",
+ "sub": "line",
+ "title": "4권 노래 16: Snow, bowl, crow! Go slow!",
+ "text": "Snow, bowl, crow! Go slow!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

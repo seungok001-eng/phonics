@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The car is far.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382442.1173382,
+   "sec": 2.2,
+   "check": {
+    "transcript": "The car is far.",
+    "type": "sentence",
+    "ipa": "ðə kɑɹ ɪz fɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The car is far. | TYPE=sentence | IPA=ðə kɑɹ ɪz fɑɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_s2",
+ "sub": "line",
+ "title": "4권 10유닛 문장 2: The car is far.",
+ "text": "The car is far.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

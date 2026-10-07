@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The cap is a cape!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382160.5466595,
+   "sec": 2.12,
+   "check": {
+    "transcript": "The cap is a cape.",
+    "type": "sentence",
+    "ipa": "ðə kæp ɪz ə keɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cap is a cape. | TYPE=sentence | IPA=ðə kæp ɪz ə keɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_2_2",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 해설: The cap is a cape!",
+ "text": "The cap is a cape!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

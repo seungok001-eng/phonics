@@ -1,10 +1,45 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/juː/ /juː/ mule!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791384842.1969895,
+   "sec": 2.4,
+   "check": {
+    "transcript": "U U Really",
+    "type": "sentence",
+    "ipa": "ˈjuː ˈjuː ˈɹɪli",
+    "note": "ok",
+    "raw": "TRANSCRIPT=U U Really | TYPE=sentence | IPA=ˈjuː ˈjuː ˈɹɪli | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/juː/ /juː/ mule!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791386520.4350793,
+   "sec": 2.4,
+   "check": {
+    "transcript": "you",
+    "type": "word",
+    "ipa": "juː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=you | TYPE=word | IPA=juː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:22",
  "text_edited": false,
- "error": "el: 낱소리 sound_u_e 녹음이 없다",
+ "error": "",
  "unit": 4,
  "letter": null,
  "id": "b4_u04_l7",
@@ -14,5 +49,5 @@
  "voice": "Leda",
  "who": "bun",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

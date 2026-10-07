@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A storm! Boom! Boom!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382434.7166576,
+   "sec": 3.28,
+   "check": {
+    "transcript": "A storm. Boom. Boom.",
+    "type": "sentence",
+    "ipa": "ə stɔɹm bum bum",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A storm. Boom. Boom. | TYPE=sentence | IPA=ə stɔɹm bum bum | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_l1",
+ "sub": "line",
+ "title": "4권 10유닛 대사 · 해설: A storm! Boom! Boom!",
+ "text": "A storm! Boom! Boom!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

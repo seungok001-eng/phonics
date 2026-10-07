@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/h/ ... /aʊ/ ... /s/ ... house",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382030.5993013,
+   "sec": 3.64,
+   "check": {
+    "transcript": "house",
+    "type": "word",
+    "ipa": "ˈhaʊs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=house | TYPE=word | IPA=ˈhaʊs | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_house",
+ "sub": "blend",
+ "title": "합치기 house",
+ "text": "/h/ ... /aʊ/ ... /s/ ... house",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

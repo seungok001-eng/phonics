@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ ... /iː/ ... /tʃ/ ... peach",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381983.3981683,
+   "sec": 3.92,
+   "check": {
+    "transcript": "peach",
+    "type": "word",
+    "ipa": "piːtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=peach | TYPE=word | IPA=piːtʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_peach",
+ "sub": "blend",
+ "title": "합치기 peach",
+ "text": "/p/ ... /iː/ ... /tʃ/ ... peach",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

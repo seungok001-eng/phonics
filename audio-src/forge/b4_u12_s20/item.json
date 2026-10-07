@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Horn, fork, corn, storm!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382560.683152,
+   "sec": 4.28,
+   "check": {
+    "transcript": "horn fork corn storm",
+    "type": "sentence",
+    "ipa": "hɔːn fɔːk kɔːn stɔːm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=horn fork corn storm | TYPE=sentence | IPA=hɔːn fɔːk kɔːn stɔːm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s20",
+ "sub": "line",
+ "title": "4권 노래 20: Horn, fork, corn, storm!",
+ "text": "Horn, fork, corn, storm!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

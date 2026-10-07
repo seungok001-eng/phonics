@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ ... /ɑr/ ... car",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382052.2608883,
+   "sec": 3.36,
+   "check": {
+    "transcript": "car",
+    "type": "word",
+    "ipa": "k ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=car | TYPE=word | IPA=k ɑɹ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_car",
+ "sub": "blend",
+ "title": "합치기 car",
+ "text": "/k/ ... /ɑr/ ... car",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

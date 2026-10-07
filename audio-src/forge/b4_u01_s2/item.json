@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A snake is in the lake.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382148.7949405,
+   "sec": 2.2,
+   "check": {
+    "transcript": "A snake is in the lake.",
+    "type": "sentence",
+    "ipa": "ə sneɪk ɪz ɪn ðə leɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A snake is in the lake. | TYPE=sentence | IPA=ə sneɪk ɪz ɪn ðə leɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b4_u01_s2",
+ "sub": "line",
+ "title": "4권 1유닛 문장 2: A snake is in the lake.",
+ "text": "A snake is in the lake.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

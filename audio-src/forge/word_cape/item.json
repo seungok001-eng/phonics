@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "cape",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381548.3945758,
+   "sec": 0.96,
+   "check": {
+    "transcript": "cape",
+    "type": "word",
+    "ipa": "keɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cape | TYPE=word | IPA=keɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_cape",
+ "sub": "word",
+ "title": "단어 cape · 망토",
+ "text": "cape",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A flute tune in June.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382249.9051082,
+   "sec": 2.88,
+   "check": {
+    "transcript": "a flute tune in June",
+    "type": "sentence",
+    "ipa": "əˈfluːttuːnɪnˈdʒuːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a flute tune in June | TYPE=sentence | IPA=əˈfluːttuːnɪnˈdʒuːn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b4_u04_s4",
+ "sub": "line",
+ "title": "4권 4유닛 문장 4: A flute tune in June.",
+ "text": "A flute tune in June.",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

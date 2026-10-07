@@ -10,11 +10,28 @@
    "sec": 2.51,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Train, road, goat, seal!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791388473.8000786,
+   "sec": 2.46,
+   "check": {
+    "transcript": "chain road goat seal",
+    "type": "sentence",
+    "ipa": "ʧeɪn roʊd goʊt sil",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chain road goat seal | TYPE=sentence | IPA=ʧeɪn roʊd goʊt sil | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:54",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -26,5 +43,5 @@
  "voice": "Aoede",
  "who": "pip",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

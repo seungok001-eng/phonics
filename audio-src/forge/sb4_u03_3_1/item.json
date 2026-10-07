@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "So we can go up!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382224.7425494,
+   "sec": 1.72,
+   "check": {
+    "transcript": "So we can go up.",
+    "type": "sentence",
+    "ipa": "soʊ wiː kən ɡoʊ ˈʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=So we can go up. | TYPE=sentence | IPA=soʊ wiː kən ɡoʊ ˈʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_3_1",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 해설: So we can go up!",
+ "text": "So we can go up!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

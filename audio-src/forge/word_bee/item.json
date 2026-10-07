@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "bee",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381690.5591848,
+   "sec": 1.0,
+   "check": {
+    "transcript": "B",
+    "type": "letter-name",
+    "ipa": "biː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=B | TYPE=letter-name | IPA=biː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "bee",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791383190.2542546,
+   "sec": 1.0,
+   "check": {
+    "transcript": "B",
+    "type": "letter-name",
+    "ipa": "biː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=B | TYPE=letter-name | IPA=biː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_bee",
+ "sub": "word",
+ "title": "단어 bee · 벌",
+ "text": "bee",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

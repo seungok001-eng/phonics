@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "day",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382098.132344,
+   "sec": 0.8,
+   "check": {
+    "transcript": "day",
+    "type": "word",
+    "ipa": "deɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=day | TYPE=word | IPA=deɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sw_day",
+ "sub": "sw",
+ "title": "사이트워드 day · 날·낮",
+ "text": "day",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

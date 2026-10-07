@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "hay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381681.3277175,
+   "sec": 1.4,
+   "check": {
+    "transcript": "I",
+    "type": "word",
+    "ipa": "aɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I | TYPE=word | IPA=aɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "hay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791383140.760899,
+   "sec": 0.84,
+   "check": {
+    "transcript": "Hi",
+    "type": "word",
+    "ipa": "haɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hi | TYPE=word | IPA=haɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_hay",
+ "sub": "word",
+ "title": "단어 hay · 건초",
+ "text": "hay",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eat a peach!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382337.7017448,
+   "sec": 1.52,
+   "check": {
+    "transcript": "Eat a peach.",
+    "type": "sentence",
+    "ipa": "ˈiːt ə ˈpiːtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Eat a peach. | TYPE=sentence | IPA=ˈiːt ə ˈpiːtʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b4_u07_s3",
+ "sub": "line",
+ "title": "4권 7유닛 문장 3: Eat a peach!",
+ "text": "Eat a peach!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/dʒ/ ... /eɪ/ ... jay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381953.5565045,
+   "sec": 3.36,
+   "check": {
+    "transcript": "J",
+    "type": "letter-name",
+    "ipa": "dʒeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=J | TYPE=letter-name | IPA=dʒeɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/dʒ/ ... /eɪ/ ... jay",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791383654.2050939,
+   "sec": 3.44,
+   "check": {
+    "transcript": "J",
+    "type": "letter-name",
+    "ipa": "dʒeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=J | TYPE=letter-name | IPA=dʒeɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_jay",
+ "sub": "blend",
+ "title": "합치기 jay",
+ "text": "/dʒ/ ... /eɪ/ ... jay",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

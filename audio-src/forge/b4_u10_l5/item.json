@@ -10,11 +10,28 @@
    "sec": 1.11,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Eee! A star!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791388176.1464894,
+   "sec": 1.44,
+   "check": {
+    "transcript": "E, hastā",
+    "type": "sentence",
+    "ipa": "e hastɑː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=E, hastā | TYPE=sentence | IPA=e hastɑː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:49",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -26,5 +43,5 @@
  "voice": "Autonoe",
  "who": "fairy",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

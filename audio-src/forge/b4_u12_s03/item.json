@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cake, gate, lake, snake!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382506.5137053,
+   "sec": 4.04,
+   "check": {
+    "transcript": "cake, gate, lake, snake",
+    "type": "sentence",
+    "ipa": "keɪk, ɡeɪt, leɪk, sneɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cake, gate, lake, snake | TYPE=sentence | IPA=keɪk, ɡeɪt, leɪk, sneɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s03",
+ "sub": "line",
+ "title": "4권 노래 3: Cake, gate, lake, snake!",
+ "text": "Cake, gate, lake, snake!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

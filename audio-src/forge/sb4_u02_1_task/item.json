@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the long i words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382186.097404,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Find the long I words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə lɔŋ aɪ wɝdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the long I words. | TYPE=sentence | IPA=faɪnd ðə lɔŋ aɪ wɝdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_1_task",
+ "sub": "instr",
+ "title": "2유닛 스토리북 과제 · Find the long i words!",
+ "text": "Find the long i words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

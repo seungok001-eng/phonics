@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "wave",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381570.3037271,
+   "sec": 1.08,
+   "check": {
+    "transcript": "wave",
+    "type": "word",
+    "ipa": "weɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wave | TYPE=word | IPA=weɪv | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_wave",
+ "sub": "word",
+ "title": "단어 wave · 파도",
+ "text": "wave",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

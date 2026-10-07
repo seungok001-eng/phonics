@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "boot",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381735.3574216,
+   "sec": 1.16,
+   "check": {
+    "transcript": "boot",
+    "type": "word",
+    "ipa": "bˈuːt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=boot | TYPE=word | IPA=bˈuːt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_boot",
+ "sub": "word",
+ "title": "단어 boot · 장화",
+ "text": "boot",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

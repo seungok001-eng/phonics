@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ ... /juː/ ... /t/ ... cute",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381896.830514,
+   "sec": 3.92,
+   "check": {
+    "transcript": "cute",
+    "type": "word",
+    "ipa": "kjut",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cute | TYPE=word | IPA=kjut | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_cute",
+ "sub": "blend",
+ "title": "합치기 cute",
+ "text": "/k/ ... /juː/ ... /t/ ... cute",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

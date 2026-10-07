@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sea, leaf, tea, seal!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382538.950078,
+   "sec": 4.32,
+   "check": {
+    "transcript": "C leaf T seal",
+    "type": "sentence",
+    "ipa": "siː liːf tiː siːl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=C leaf T seal | TYPE=sentence | IPA=siː liːf tiː siːl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_s14",
+ "sub": "line",
+ "title": "4권 노래 14: Sea, leaf, tea, seal!",
+ "text": "Sea, leaf, tea, seal!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

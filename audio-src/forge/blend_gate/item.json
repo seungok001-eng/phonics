@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/g/ ... /eɪ/ ... /t/ ... gate",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381798.8073764,
+   "sec": 4.68,
+   "check": {
+    "transcript": "gate",
+    "type": "word",
+    "ipa": "ɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gate | TYPE=word | IPA=ɡeɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_gate",
+ "sub": "blend",
+ "title": "합치기 gate",
+ "text": "/g/ ... /eɪ/ ... /t/ ... gate",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

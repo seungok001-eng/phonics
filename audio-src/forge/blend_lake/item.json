@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ ... /eɪ/ ... /k/ ... lake",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381802.808233,
+   "sec": 4.28,
+   "check": {
+    "transcript": "lake",
+    "type": "word",
+    "ipa": "leɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lake | TYPE=word | IPA=leɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_lake",
+ "sub": "blend",
+ "title": "합치기 lake",
+ "text": "/l/ ... /eɪ/ ... /k/ ... lake",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

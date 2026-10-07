@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/tr/ ... /iː/ ... tree",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381955.6352732,
+   "sec": 3.56,
+   "check": {
+    "transcript": "tree",
+    "type": "word",
+    "ipa": "triː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tree | TYPE=word | IPA=triː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_tree",
+ "sub": "blend",
+ "title": "합치기 tree",
+ "text": "/tr/ ... /iː/ ... tree",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

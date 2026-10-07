@@ -1,10 +1,28 @@
 {
- "cands": [],
- "approved": null,
- "final": "",
- "applied": "",
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ /eɪ/ /p/ cape!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791384834.3922093,
+   "sec": 2.36,
+   "check": {
+    "transcript": "k a",
+    "type": "word",
+    "ipa": "ˈkeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=k a | TYPE=word | IPA=ˈkeɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 00:06",
  "text_edited": false,
- "error": "el: 낱소리 sound_a_e 녹음이 없다",
+ "error": "",
  "unit": 1,
  "letter": null,
  "id": "sb4_u01_2_1",
@@ -14,5 +32,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 4,
- "busy": 1
+ "busy": 0
 }

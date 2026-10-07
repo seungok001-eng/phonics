@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The kit is a kite!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382189.9432611,
+   "sec": 2.24,
+   "check": {
+    "transcript": "The kit is a kite.",
+    "type": "sentence",
+    "ipa": "ðə kɪt ɪz ə kaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The kit is a kite. | TYPE=sentence | IPA=ðə kɪt ɪz ə kaɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_2_2",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 해설: The kit is a kite!",
+ "text": "The kit is a kite!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

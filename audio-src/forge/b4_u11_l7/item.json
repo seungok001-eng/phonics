@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The Song Tree can sing!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382474.5145195,
+   "sec": 2.4,
+   "check": {
+    "transcript": "The song tree can sing.",
+    "type": "sentence",
+    "ipa": "ðə sɔŋ tɹi kən sɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The song tree can sing. | TYPE=sentence | IPA=ðə sɔŋ tɹi kən sɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b4_u11_l7",
+ "sub": "line",
+ "title": "4권 11유닛 대사 · 해설: The Song Tree can sing!",
+ "text": "The Song Tree can sing!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

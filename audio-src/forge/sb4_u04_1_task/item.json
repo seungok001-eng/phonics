@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the long u words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382253.6126492,
+   "sec": 2.92,
+   "check": {
+    "transcript": "Find the long u words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə lɒŋ ˈjuː wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the long u words. | TYPE=sentence | IPA=faɪnd ðə lɒŋ ˈjuː wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb4_u04_1_task",
+ "sub": "instr",
+ "title": "4유닛 스토리북 과제 · Find the long u words!",
+ "text": "Find the long u words!",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

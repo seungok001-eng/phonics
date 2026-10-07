@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/fl/ ... /uː/ ... /t/ ... flute",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381906.703395,
+   "sec": 4.72,
+   "check": {
+    "transcript": "flute",
+    "type": "word",
+    "ipa": "flut",
+    "note": "ok",
+    "raw": "TRANSCRIPT=flute | TYPE=word | IPA=flut | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_flute",
+ "sub": "blend",
+ "title": "합치기 flute",
+ "text": "/fl/ ... /uː/ ... /t/ ... flute",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

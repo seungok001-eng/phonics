@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "sail",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791381670.0420887,
+   "sec": 1.08,
+   "check": {
+    "transcript": "sale",
+    "type": "word",
+    "ipa": "seɪl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sale | TYPE=word | IPA=seɪl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_sail",
+ "sub": "word",
+ "title": "단어 sail · 돛",
+ "text": "sail",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

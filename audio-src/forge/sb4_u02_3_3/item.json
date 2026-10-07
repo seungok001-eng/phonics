@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A big gap! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791382196.8216355,
+   "sec": 2.92,
+   "check": {
+    "transcript": "Look, a big gap! Oh no.",
+    "type": "sentence",
+    "ipa": "lʊk ə bɪg gæp oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a big gap! Oh no. | TYPE=sentence | IPA=lʊk ə bɪg gæp oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 23:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_3_3",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 해설: Look! A big gap! Oh no!",
+ "text": "Look! A big gap! Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}
