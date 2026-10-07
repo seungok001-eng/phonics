@@ -97,8 +97,8 @@ TEACH.listen_point = {
       `<div class="speed" id="speed"><div class="sp-bar"><button class="btn orange big main-play" onclick="speedStart()">▶ Start</button><span class="timer" id="spTimer">30</span><span class="sp-score" id="spScore">✔ 0 · ✖ 0</span></div>
         <div class="sp-card" id="spCard"><div class="hint">▶ 를 누르면 시작!</div></div>
         <div class="sp-btns"><button class="btn big okb" onclick="speedMark(true)">✔</button><button class="btn big nob" onclick="speedMark(false)">✖</button></div></div>`);
-    const rows = ctx.unit.letters.map((l) => `<div class="lp-row" data-letter="${l}"><div class="ltr say ${letterCls(l)}" data-say="sound_${l}" data-text="${esc(soundText(l))}">${l.toUpperCase()}<small>${l}</small></div>${L(l).words.map((w) => `<div class="cell say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-word="${w}">${pic('word_' + w, '', w)}<div class="wd">${wordHtml(w, l)}</div><span class="chk" onclick="event.stopPropagation();this.classList.toggle('on');Sound.sfx('tap')"></span></div>`).join('')}</div>`).join('');
-    return tWrap(ctx, App.book.instructions.listen_point, '듣고 글자와 그림을 가리키며 따라 말해요 · 말한 단어는 네모에 표시', 0, 2, `<div class="sl-tools"><button class="btn orange big main-play" onclick="listenPointAll()">▶ Listen</button></div><div class="lp-table sl-lp">${rows}</div>`);
+    const rows = lpRows(ctx);
+    return tWrap(ctx, App.book.instructions.listen_point, '① ▶ Listen: 손가락으로 짚으며 따라 말하기 ② 🔀 Point!: 들리는 단어 그림 누르기(아이를 불러 칠판에서) ③ 혼자 말하기 → ✓ 표시', 0, 2, `<div class="sl-tools">${lpTools(ctx, true)}</div><div class="lp-table sl-lp">${rows}</div>`);
   },
 };
 // 속도 라운드: 30초 타이머, 유닛 글자·단어 카드가 무작위로 한 장씩. ✔/✖ 로 다음 카드, 끝나면 맞힌 수

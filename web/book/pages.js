@@ -190,12 +190,43 @@ async function gamePick(el, w) {
 
 // ---------- 학생책 Lesson 2 ----------
 // 듣고 가리키고 말하기 + 말하고 표시
+// 2차시 첫 쪽: 1차시 단어 9개를 ① 듣고 가리키기 → ② 듣고 그림 찾기 놀이(🔀 Point!) → ③ 스스로 말하고 표시(점수 __/9)
+function lpRows(ctx) {
+  return ctx.unit.letters.map((l) => `<div class="lp-row" data-letter="${l}"><div class="ltr say ${letterCls(l)}" data-say="sound_${l}" data-text="${esc(soundText(l))}">${l.toUpperCase()}<small>${l}</small></div>${L(l).words.map((w) => `<div class="cell say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-word="${w}" onclick="lpTap(this)">${pic('word_' + w, '', w)}<div class="wd">${wordHtml(w, l)}</div><span class="chk" onclick="event.stopPropagation();this.classList.toggle('on');Sound.sfx('tap');lpCount()"></span></div>`).join('')}</div>`).join('');
+}
+function lpWords(ctx) { return ctx.unit.letters.flatMap((l) => L(l).words); }
+function lpTools(ctx, big) {
+  const b = big ? ' big' : '';
+  return `<div class="print-hide lp-tools"><button class="btn orange main-play${b}" onclick="listenPointAll()">▶ Listen</button><button class="btn${b}" onclick="lpPointStart()">🔀 Point!</button><span class="lp-msg" id="lpMsg"></span><span class="lp-score" id="lpScore">I can say <b>0</b> / ${lpWords(ctx).length}</span></div>`;
+}
 PAGES.listen_point = (ctx) => {
-  const rows = ctx.unit.letters.map((l) => `<div class="lp-row" data-letter="${l}"><div class="ltr say ${letterCls(l)}" data-say="sound_${l}" data-text="${esc(soundText(l))}">${l.toUpperCase()}<small>${l}</small></div>${L(l).words.map((w) => `<div class="cell say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-word="${w}">${pic('word_' + w, '', w)}<div class="wd">${wordHtml(w, l)}</div><span class="chk" onclick="event.stopPropagation();this.classList.toggle('on');Sound.sfx('tap')"></span></div>`).join('')}</div>`).join('');
-  return instr(1, App.book.instructions.listen_point, '듣고 글자와 그림을 가리키며 따라 말해요') +
-    `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="listenPointAll()">▶ Listen</button></div><div class="lp-table">${rows}</div>` +
-    instr(2, App.book.instructions.say_check, '단어를 말하고 네모에 표시');
+  const rows = lpRows(ctx);
+  return instr(1, App.book.instructions.listen_point, '▶ 듣고 글자·그림을 손가락으로 짚으며 따라 말해요') +
+    lpTools(ctx) + `<div class="lp-table">${rows}</div>` +
+    instr(2, 'Listen and point.', '🔀 Point! — 들리는 단어의 그림을 눌러요 (인쇄: 선생님이 말하는 단어를 짚어요)') +
+    instr(3, App.book.instructions.say_check, '혼자 말할 수 있는 단어에 ✓ — I can say __ / 9');
 };
+// 🔀 Point! 놀이: 단어를 무작위로 하나 들려주고, 맞는 그림을 누르면 ✓ (9개 다 하면 끝)
+const LP = { on: false, left: [], cur: '' };
+function lpPointStart() {
+  Sound.unlock(); stopSeq();
+  LP.on = true; LP.left = shuffle([...document.querySelectorAll('.lp-row .cell')].map((c) => c.dataset.word), Date.now() % 1000);
+  document.querySelectorAll('.lp-row .cell').forEach((c) => c.classList.remove('hit', 'miss'));
+  lpNext();
+}
+function lpNext() {
+  const m = $('lpMsg'); if (!m) return;
+  if (!LP.left.length) { LP.on = false; m.textContent = 'Great job! 🎉'; Sound.sfx('chime'); return; }
+  LP.cur = LP.left.shift(); m.textContent = `Point! (${9 - LP.left.length}/${document.querySelectorAll('.lp-row .cell').length})`;
+  Sound.play('word_' + LP.cur, LP.cur);
+}
+function lpTap(cell) {
+  if (!LP.on) return;   // 놀이 중이 아니면 data-say 로 단어만 들린다
+  event.stopPropagation(); Sound.unlock();
+  if (cell.dataset.word === LP.cur) { cell.classList.add('hit'); Sound.sfx('ok'); setTimeout(lpNext, 700); }
+  else { cell.classList.add('miss'); Sound.sfx('no'); setTimeout(() => cell.classList.remove('miss'), 500); Sound.play('word_' + LP.cur, LP.cur); }
+}
+function lpCount() { const n = document.querySelectorAll('.lp-row .chk.on').length, el = document.querySelector('#lpScore b'); if (el) el.textContent = n; }
 async function listenPointAll() {
   Sound.unlock(); const items = [];
   for (const l of App.units[App.u].letters) {

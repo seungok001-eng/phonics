@@ -4,7 +4,7 @@
 :root {
   --cream: #FFF9EE; --paper: #FFFFFF; --ink: #3B2F2F; --soft: #8C7B6B; --line: #E8DCC6;
   --orange: #F28C38; --yellow: #F5C542; --green: #8FD14F; --blue: #4FA3E0; --pink: #F47FA6; --purple: #A98BE0;
-  --vowel: #E0523E; --conso: #2E5FBF; --ok: #4CAF50; --bad: #E05A5A;
+  --vowel: #E0523E; --conso: #2E5FBF; --conso2: #1E9E5A; --conso3: #7E4BC8; --ok: #4CAF50; --bad: #E05A5A;
   --page-w: 794px; --page-h: 1123px;   /* A4 @96dpi */
   --radius: 18px;
 }
@@ -94,7 +94,7 @@ body.ink-on #boardCanvas, body.ink-on .page-ink { cursor: crosshair; }
 .instr { display: flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 700; margin: 2px 0; }
 .instr .n { background: var(--ink); color: #fff; border-radius: 50%; width: 30px; height: 30px; display: inline-flex; align-items: center; justify-content: center; font-family: 'Fredoka'; font-size: 17px; }
 .instr .ko { font-size: 13px; color: var(--soft); font-weight: 400; margin-left: auto; }
-.vowel { color: var(--vowel); } .conso { color: var(--conso); }
+.vowel { color: var(--vowel); } .conso { color: var(--conso); } .conso.k1 { color: var(--conso2); } .conso.k2 { color: var(--conso3); }
 .say { cursor: pointer; transition: transform .15s; user-select: none; }
 .say:active { transform: scale(.96); }
 .say.playing { animation: bounce .6s ease; }
@@ -206,6 +206,13 @@ body.role-on .bubble .av[data-who]:not([data-who="narrator"]):not([data-who="bot
 .lp-row .cell .wd { font-size: 22px; font-weight: 700; }
 .lp-row .cell .chk { width: 26px; height: 26px; border: 2px solid var(--line); border-radius: 6px; cursor: pointer; }
 .lp-row .cell .chk.on { background: var(--ok); border-color: var(--ok); }
+.lp-tools { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+.lp-tools .lp-msg { font-family: 'Fredoka'; font-weight: 700; color: var(--orange); font-size: 18px; min-width: 120px; }
+.lp-tools .lp-score { margin-left: auto; font-family: 'Fredoka'; font-weight: 700; color: var(--soft); font-size: 17px; } .lp-tools .lp-score b { color: var(--ok); font-size: 22px; }
+.lp-row .cell.hit { background: #EAF7E6; border-radius: 12px; } .lp-row .cell.hit .chk { background: var(--ok); border-color: var(--ok); }
+.lp-row .cell.miss { background: #FDE8E8; border-radius: 12px; }
+.lp-row .cell .chk { width: 32px; height: 32px; }
+body.teacher .lp-tools .lp-msg { font-size: 26px; } body.teacher .lp-tools .lp-score { font-size: 22px; } body.teacher .lp-tools .lp-score b { font-size: 30px; }
 
 /* ---------- 스토리 ---------- */
 .story-top { display: flex; align-items: center; gap: 12px; }

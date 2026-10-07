@@ -152,7 +152,12 @@ document.addEventListener('pointerdown', () => Sound.unlock(), { once: true });
 // ---------- 내용 도우미 ----------
 function L(l) { return App.book.letters[l]; }
 function W(w) { return App.book.words[w] || { ko: '', desc: '' }; }
-function letterCls(l) { return L(l).kind === 'vowel' ? 'vowel' : 'conso'; }
+function letterCls(l) {   // 모음은 빨강, 자음은 같은 유닛 안에서 순서대로 파랑·초록·보라 (k0·k1·k2) — 한 유닛의 글자가 서로 다른 색이 되게
+  if (L(l).kind === 'vowel') return 'vowel';
+  const u = (App.book.units || []).find((x) => (x.letters || []).includes(l));
+  const k = u ? (u.letters || []).filter((x) => L(x) && L(x).kind !== 'vowel').indexOf(l) : 0;
+  return 'conso k' + Math.max(0, k) % 3;
+}
 function soundText(l) { const d = L(l); return d.final ? 'ks' : d.sound; }   // 임시 합성 음성용 글
 function soundLabel(l) { return '/' + L(l).sound + '/'; }
 // 단어에서 목표 글자를 색칠: apple → <b>a</b>pple, six → si<b>x</b>
