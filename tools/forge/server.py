@@ -595,6 +595,14 @@ PHON_RE = re.compile(r'/([^/\s]+)/')
 IPA_LETTER = {'æ': 'a', 'ɪ': 'i', 'ɑ': 'o', 'ʌ': 'u', 'e': 'e', 'dʒ': 'j', 'j': 'y', 'kw': 'q', 'ks': 'x', 'ə': 'a'}
 
 
+def family_by_ipa(ph):
+    """낱소리 IPA → 짝꿍 가족 이름 (ʃ → sh, eɪ → a_e …). 뒤에 단어가 없는 "/ʃ/ /ʃ/!" 같은 줄에 쓴다."""
+    for b in state.get('books') or []:
+        for f, F in (b['book'].get('families') or {}).items():
+            if F.get('sound') == ph: return f.lstrip('-')
+    return None
+
+
 def word_info(w):
     """모든 권의 단어 정보(chunks·ipa) — 뒤 권이 앞 권 단어를 덮지 않게 처음 것."""
     for b in state.get('books') or []:
@@ -634,7 +642,7 @@ def phoneme_letters(text):
             elif ch == 'kw': out[idx] = 'q'
             elif len(run_) == len(word) and word: out[idx] = word[k]
             elif word and (word[0] == ch[0] or IPA_LETTER.get(ch) == word[0]): out[idx] = word[0]
-            else: out[idx] = IPA_LETTER.get(ch, ch[0])
+            else: out[idx] = IPA_LETTER.get(ch) or family_by_ipa(ch) or ch[0]
         i = run_[-1] + 2
     return parts, out
 

@@ -157,9 +157,9 @@ def build_sounds(book, units, bk=1, ipa=None):
         add(_sound(id=f'name_{l}', sub='name', title=f'글자 이름 {l.upper()}', text=l.upper(), voice=nar, unit=u, letter=l))
         add(_sound(id=f'sound_{l}', sub='sound', title=f"낱소리 /{L['sound']}/ ({l})", text=l, voice=nar, unit=u, letter=l, hint=L.get('sound_hint', '')))
     for f, F in (book.get('families') or {}).items():
-        if F.get('kind') in ('digraph', 'magic_e', 'team') and F.get('sound'):
+        if F.get('kind') in ('digraph', 'magic_e', 'team', 'blend', 'final') and F.get('sound'):
             u = next((x['unit'] for x in units if f in (x.get('families') or [])), None)
-            add(_sound(id=f'sound_{f}', sub='fsound', title=f"짝꿍 소리 /{F['sound']}/ ({f.replace('_', '…')})", text=f"/{F['sound']}/", voice=nar, unit=u, ipa=F['sound']))
+            add(_sound(id=f"sound_{f.lstrip('-')}", sub='fsound', title=f"짝꿍 소리 /{F['sound']}/ ({f.replace('_', '…')})", text=f"/{F['sound']}/", voice=nar, unit=u, ipa=F['sound']))
     for w in book['words']:
         add(_sound(id=f'word_{w}', sub='word', title=f"단어 {w} · {book['words'][w]['ko']}", text=w, voice=nar, unit=word_unit(book, w, units)))
     # 합치기(2권~): 단어 가족이 있는 단어마다 "/k/ ... /æ/ ... /t/ ... cat" (낱소리 IPA 는 1권 letters + 이 권 vowels)
