@@ -7,6 +7,9 @@
 #       python tools/qa.py --quick        → 유닛 0·1·5·12 와 시험지·자료 몇 개만 (빠른 확인)
 #       python tools/qa.py --no-shots     → 스크린샷 없이 (빠르다)
 #       python tools/qa.py --workers 6    → 동시에 여는 창 수 (기본 4)
+#       python tools/qa.py --only 수업    → 이름(라벨)에 그 글이 든 화면만
+#       python tools/qa.py --content build/fake_content → content/ 에 없는 파일은 그 폴더에서 (3·4권 내용이 오기 전 가짜 자료로 점검)
+# 수업 슬라이드는 두 크기로 연다: 필기판을 켠 기본(세로 1300) · 필기판 없이 16:9 전체화면(세로 900, 라벨 끝 "16:9")
 # 분류
 #   실제 버그: 콘솔·스크립트 오류 / 소리 없음(공방 계획에도 없는 id) / 계획에 없는 그림 이름 / 글꼴·JSON·스크립트 404 / 넘침
 #   대기(아직 만들기 전): 그림 대기(scene_·sb_ 와 공방에 있는 그림) / 소리 대기(공방에 있음·승인 전) / 음악 대기 / QR 대기(pdf.py 가 만듦)
@@ -146,7 +149,7 @@ READY_JS = r"""(() => {
   if (!document.querySelector('.page, .slide, .sheet, .poster, .sb-page, .bookcard, .menu')) return false;
   return [...document.images].every((i) => i.complete);
 })()"""
-SAYS_JS = r"""[...new Map([...document.querySelectorAll('[data-say]')].filter((e) => e.dataset.say).map((e) => [e.dataset.say, e.dataset.text || ''])).entries()]"""
+SAYS_JS = r"""[...new Map([...document.querySelectorAll('[data-say]')].filter((e) => e.dataset.say).map((e) => [e.dataset.say, [e.dataset.text || '', e.dataset.alt || '']])).entries()].map(([k, v]) => [k, v[0], v[1]])"""
 SLIDE_N_JS = r"""(() => { const t = document.querySelector('.sl-head .sl-no'); const m = t && t.textContent.match(/(\d+)\s*\/\s*(\d+)\s*$/); return m ? +m[2] : 0; })()"""
 # 넘침: 쪽(.page)·슬라이드·종이(.sheet)·포스터 안의 요소가 그 밖(쪽은 꼬리말 위)으로 나갔는지. 넘친 요소는 그 안쪽을 더 보지 않는다.
 # min-height 만 있는 종이(수업안 등)는 내용이 늘어나면 다음 장으로 넘어가므로 "몇 쪽 분량" 으로 알린다. 스크롤 상자 안쪽은 보지 않는다.
@@ -167,7 +170,7 @@ OVERFLOW_JS = r"""(() => {
     const k = r.width / (c.offsetWidth || r.width), foot = c.querySelector(':scope > .ph-foot');
     const lim = { b: (foot ? foot.getBoundingClientRect().top : r.bottom) + 3 * k, r: r.right + 3 * k, l: r.left - 3 * k, t: r.top - 3 * k };
     let n = 0;
-    const walk = (el) => {
+    const walk = (el, clip) => {   // clip = overflow:hidden 인 조상 안 (잘려서 밖으로 안 보인다)
       for (const ch of el.children) {
         if (ch === foot || n > 6) continue;
         const s = getComputedStyle(ch);
@@ -175,16 +178,31 @@ OVERFLOW_JS = r"""(() => {
         const svg = ch instanceof SVGElement && ch.tagName.toLowerCase() !== 'svg';   // 획순 그림 안의 번호 글자 등은 그림의 일부
         if (svg) continue;
         const e = ch.getBoundingClientRect();
-        if (e.width < 1 || e.height < 1) { walk(ch); continue; }
+        if (e.width < 1 || e.height < 1) { walk(ch, clip); continue; }
         const over = Math.max(e.bottom - lim.b, e.right - lim.r, lim.l - e.left, lim.t - e.top);
-        if (Math.round(over / k) >= 2) { out.push({ where, what: `${name(ch)} — ${Math.round(over / k)}px 밖으로` }); n++; continue; }
+        if (!clip && Math.round(over / k) >= 2) { out.push({ where, what: `${name(ch)} — ${Math.round(over / k)}px 밖으로` }); n++; continue; }
         if (s.display !== 'inline' && ch.clientWidth > 0 && ch.scrollWidth > ch.clientWidth + 8 && !/ellipsis/.test(s.textOverflow) && [...ch.childNodes].some((x) => x.nodeType === 3 && x.textContent.trim())) {
           out.push({ where, what: `${name(ch)} — 글자가 칸보다 ${ch.scrollWidth - ch.clientWidth}px 넓음` }); n++;
         }
-        if (!scroller(s)) walk(ch);
+        if (!scroller(s)) walk(ch, clip || /(hidden|clip)/.test(s.overflowX + s.overflowY));
       }
     };
-    walk(c);
+    walk(c, false);
+    // 잘림: overflow:hidden 상자 안의 내용이 상자보다 커서 잘려 안 보임 (그림 상자·말줄임표·움직이는 장면은 뺀다)
+    let m = 0;
+    c.querySelectorAll('*').forEach((el) => {
+      if (m > 4 || el.closest('.sl-embed') && !c.classList.contains('page')) return;
+      const s = getComputedStyle(el); if (!/(hidden|clip)/.test(s.overflowX + s.overflowY) || /ellipsis/.test(s.textOverflow)) return;
+      if (el.matches('.pic, .scene, .panel, .stage-pic, .hunt-scene, .hp-scene, .art, .mcard, .frame, .av, .thumb, .trace-line, svg, img, video') || el === c) return;
+      if (el.offsetParent === null || el.clientHeight < 8) return;
+      const dh = el.scrollHeight - el.clientHeight, dw = el.scrollWidth - el.clientWidth;
+      if (dh <= 6 && dw <= 6) return;
+      // 넘친 쪽에 실제로 보일 것(글자·그림)이 있는지: 상자 밖으로 나간 자식이 있어야 잘림
+      const r = el.getBoundingClientRect(), k2 = r.width / (el.offsetWidth || r.width);
+      const cut = [...el.querySelectorAll('*')].some((d) => { if (d.closest('.pic') && !d.matches('.pic')) return false; const e = d.getBoundingClientRect(); if (e.width < 2 || e.height < 2) return false; const ds = getComputedStyle(d); if (ds.visibility === 'hidden' || ds.display === 'none') return false; return e.bottom > r.bottom + 6 * k2 || e.right > r.right + 6 * k2; });
+      if (!cut) return;
+      out.push({ where, what: `${name(el)} — 안의 내용이 잘림 (${Math.max(dh, dw)}px)` }); m++;
+    });
   });
   document.querySelectorAll('.sb-page .band').forEach((b) => { if (b.scrollHeight > b.clientHeight + 4) out.push({ where: '스토리북 글 띠', what: `글이 띠보다 ${b.scrollHeight - b.clientHeight}px 길어 스크롤이 생김` }); });
   return out.slice(0, 12);
@@ -192,6 +210,15 @@ OVERFLOW_JS = r"""(() => {
 
 
 # ---------- 무엇을 열지 ----------
+EXTRA = None   # --content 로 덧붙인 내용 폴더 (없으면 content/ 만)
+def content_path(*parts):
+    """content/ 안의 파일 경로. 없으면 --content 폴더에서, 거기도 없으면 None"""
+    for base in [os.path.join(ROOT, 'content')] + ([EXTRA] if EXTRA else []):
+        f = os.path.join(base, *[x for x in parts if x])
+        if os.path.exists(f): return f
+    return None
+
+
 def J(path, label, group, bk, w=900, h=1250, discover=False):
     return {'path': path, 'label': label, 'group': group, 'book': bk, 'w': w, 'h': h, 'discover': discover}
 
@@ -211,11 +238,11 @@ def story_list(book, units):
 
 
 def jobs_for_book(bk, cdir, ufilter, quick):
-    book = json.load(open(os.path.join(ROOT, 'content', cdir, 'book.json'), encoding='utf-8'))
+    book = json.load(open(content_path(cdir, 'book.json'), encoding='utf-8'))
     units = {}
     for x in book['units']:
-        f = os.path.join(ROOT, 'content', cdir, 'units', f"unit{x['n']:02d}.json")
-        if os.path.exists(f): units[x['n']] = json.load(open(f, encoding='utf-8'))
+        f = content_path(cdir, 'units', f"unit{x['n']:02d}.json")
+        if f and x.get('ready') is not False: units[x['n']] = json.load(open(f, encoding='utf-8'))
     q, tag, jobs = (f'bk={bk}&' if bk > 1 else ''), f'{bk}권', []
     for x in book['units']:
         n, u = x['n'], units.get(x['n'])
@@ -225,6 +252,8 @@ def jobs_for_book(bk, cdir, ufilter, quick):
             for p, t in enumerate(types, 1):
                 jobs.append(J(f'/web/book/?{q}b={b}&u={n}&p={p}&nooverlay=1', f'{tag} {B} U{n} p{p} · {t}', B, bk))
                 jobs.append(J(f'/web/book/?{q}b={b}&u={n}&p={p}&t=1&s=0&nooverlay=1', f'{tag} 수업 {B} U{n} p{p} · {t} · 1', '수업 화면', bk, 1600, 1000, True))
+                # 16:9 전체화면(필기판 없음) → 슬라이드 세로 900 (교실 TV 에서 가장 흔한 크기)
+                jobs.append(J(f'/web/book/?{q}b={b}&u={n}&p={p}&t=1&s=0&board=0&nooverlay=1', f'{tag} 수업 {B} U{n} p{p} · {t} · 1 · 16:9', '수업 화면 16:9', bk, 1600, 940, True))
             if types: jobs.append(J(f'/web/book/print.html?{q}b={b}&u={n}', f'{tag} 인쇄 {B} U{n}', '인쇄', bk))
         if u.get('letters') or u.get('families'):
             for t, name in (('lesson-plan', '수업안'), ('flashcards', '플래시카드'), ('letter', '가정통신문')):
@@ -275,14 +304,16 @@ def sort_missing(url):
 
 
 def check_audio(says):
-    """화면의 [data-say] 소리 id → 파일이 없으면 (분류, id, 임시 글)"""
+    """화면의 [data-say] 소리 id → 파일이 없으면 (분류, id, 임시 글). data-alt(대신 틀 파일, 예 catch_b2_pip → catch_pip)가 있으면 대기"""
     out = []
-    for sid, text in says:
-        if os.path.exists(os.path.join(ROOT, 'web', 'assets', 'audio', sid + '.mp3')): continue
-        out.append(('소리 대기' if sid in AUDIO_PLAN else '소리 없음', sid, text))
+    has = lambda x: x and os.path.exists(os.path.join(ROOT, 'web', 'assets', 'audio', x + '.mp3'))
+    for sid, text, *alt in says:
+        if has(sid): continue
+        out.append(('소리 대기' if sid in AUDIO_PLAN or (alt and has(alt[0])) else '소리 없음', sid, text))
     return out
 
 
+TRANSIENT = re.compile(r'ERR_ADDRESS_IN_USE|ERR_CONNECTION_(REFUSED|RESET|ABORTED)|ERR_EMPTY_RESPONSE|ERR_NETWORK_CHANGED|ERR_INSUFFICIENT_RESOURCES')
 BUG = {'콘솔 오류', '스크립트 오류', '소리 없음', '계획에 없는 그림', '없는 파일', '넘침', '열기 실패'}
 WAIT = ['그림 대기', '소리 대기', '음악 대기', 'QR 대기', '영상 대기', '내용 대기', '여러 장 문서']
 
@@ -352,13 +383,16 @@ def worker(bws, jq, results, shots, lock, prog):
             shot = os.path.join(SHOTS, f'{k:04d}.jpg')
         try:
             r = visit(tab, job, shot)
+            for k in range(2):   # 포트 부족 같은 일시 오류 → 잠깐 쉬고 다시 (두 번까지)
+                if not any(TRANSIENT.search(w) for _, w in r['issues']): break
+                time.sleep(2 + 3 * k); r = visit(tab, job, shot)
         except Exception as e:   # 창이 망가지면 새로 연다
             r = {**job, 'issues': [('열기 실패', f'{type(e).__name__}: {e}'[:200])], 'waits': [], 'overflow': []}
             try: tab = Tab(bws)
             except Exception: pass
         if job['discover'] and r.get('slide_n', 1) > 1:
             for s in range(1, r['slide_n']):
-                jq.put({**job, 'path': job['path'].replace('&s=0&', f'&s={s}&'), 'label': re.sub(r' · 1$', f' · {s + 1}', job['label']), 'discover': False})
+                jq.put({**job, 'path': job['path'].replace('&s=0&', f'&s={s}&'), 'label': re.sub(r' · 1( · 16:9)?$', lambda m: f' · {s + 1}' + (m.group(1) or ''), job['label']), 'discover': False})
         with lock:
             results.append(r); prog['done'] += 1
             if prog['done'] % 25 == 0: print(f"  {prog['done']} 화면 …", flush=True)
@@ -373,10 +407,11 @@ def static_checks(books):
         code += open(f, encoding='utf-8').read()
     for sid in set(re.findall(r"Sound\.play\('([a-z][a-z0-9_]*)'\s*,", code)):   # 'word_' + w 처럼 이어 붙이는 것은 빼고 글자 그대로인 id 만
         if not os.path.exists(os.path.join(ROOT, 'web', 'assets', 'audio', sid + '.mp3')): out['소리 대기' if sid in AUDIO_PLAN else '소리 없음'].add(sid)
-    music = set(re.findall(r"(?:Sound\.bgm|chantTrack)\('([a-z][a-z0-9_]*)'", code)) | set(re.findall(r"music/([a-z][a-z0-9_]*)\.mp3", code))
+    music = set(re.findall(r"(?:Sound\.bgm|Sound\.music|chantTrack)\('([a-z][a-z0-9_]*)'", code)) | set(re.findall(r"music/([a-z][a-z0-9_]*)\.mp3", code)) | set(re.findall(r"music: '([a-z][a-z0-9_]*)'", code))
     for bk, cdir in books:
-        for f in [os.path.join(ROOT, 'content', cdir, 'book.json')] + glob.glob(os.path.join(ROOT, 'content', cdir, 'units', '*.json')):
-            music |= set(re.findall(r'"bgm"\s*:\s*"([^"]+)"', open(f, encoding='utf-8').read()))
+        cd = os.path.dirname(content_path(cdir, 'book.json'))
+        for f in [os.path.join(cd, 'book.json')] + glob.glob(os.path.join(cd, 'units', '*.json')):
+            music |= set(re.findall(r'"(?:bgm|music)"\s*:\s*"([^"]+)"', open(f, encoding='utf-8').read()))
     for m in music:
         if not os.path.exists(os.path.join(ROOT, 'web', 'assets', 'music', m + '.mp3')): out['음악 대기'].add(m)
     return {k: sorted(v) for k, v in out.items()}
@@ -435,11 +470,14 @@ def main():
     opt = lambda k: args[args.index(k) + 1] if k in args else None
     quick, shots, workers = '--quick' in args, '--no-shots' not in args, int(opt('--workers') or 4)
     ufilter = {0, 1, 5, 12} if quick else ({int(x) for x in opt('--units').split(',')} if opt('--units') else None)
+    global EXTRA
+    EXTRA = os.path.abspath(opt('--content')) if opt('--content') else None
     bp = os.path.join(ROOT, 'content', 'books.json')
     books = [(b['n'], b.get('dir', '')) for b in (json.load(open(bp, encoding='utf-8')) if os.path.exists(bp) else [{'n': 1, 'dir': ''}])]
-    books = [(n, d) for n, d in books if os.path.exists(os.path.join(ROOT, 'content', d, 'book.json')) and (not opt('--book') or n == int(opt('--book')))]
+    books = [(n, d) for n, d in books if content_path(d, 'book.json') and (not opt('--book') or n == int(opt('--book')))]
     jobs = [J('/web/index.html', '홈페이지', '홈페이지', 0, 1200, 1400)]
     for bk, d in books: jobs += jobs_for_book(bk, d, ufilter, quick)
+    if opt('--only'): jobs = [j for j in jobs if opt('--only') in j['label']]
     exe = next((b for b in BROWSERS if b and os.path.exists(b)), None)
     if not exe: raise SystemExit('크롬이나 엣지를 찾지 못했다')
     shutil.rmtree(QA_DIR, ignore_errors=True); os.makedirs(SHOTS, exist_ok=True)
@@ -448,8 +486,19 @@ def main():
     from http.server import ThreadingHTTPServer
     spec = importlib.util.spec_from_file_location('serve', os.path.join(ROOT, 'tools', 'serve.py'))
     sm = importlib.util.module_from_spec(spec); spec.loader.exec_module(sm)
-    class Srv(ThreadingHTTPServer): request_queue_size, daemon_threads = 128, True   # 창 여러 개가 JSON 을 한꺼번에 받아도 거절하지 않게
-    srv = Srv(('127.0.0.1', PORT), sm.H); threading.Thread(target=srv.serve_forever, daemon=True).start()
+    class Srv(ThreadingHTTPServer):   # 창 여러 개가 JSON 을 한꺼번에 받아도 거절하지 않게
+        request_queue_size, daemon_threads = 128, True
+        def handle_error(self, request, client_address): pass   # 크롬이 끊은 연결(10054) 같은 소음은 찍지 않는다
+    class H2(sm.H):   # --content: content/ 에 없는 파일은 덧붙인 폴더에서. HTTP/1.1 로 연결을 다시 써서 윈도우 포트 부족(ERR_ADDRESS_IN_USE)을 막는다
+        protocol_version = 'HTTP/1.1'
+        def translate_path(self, path):
+            p = super().translate_path(path)
+            rel = urllib.parse.unquote(urllib.parse.urlparse(path).path)
+            if EXTRA and rel.startswith('/content/') and not os.path.exists(p):
+                alt = os.path.join(EXTRA, *rel[len('/content/'):].split('/'))
+                if os.path.exists(alt): return alt
+            return p
+    srv = Srv(('127.0.0.1', PORT), H2); threading.Thread(target=srv.serve_forever, daemon=True).start()
     prof = os.path.join(QA_DIR, 'profile')
     chrome = subprocess.Popen([exe, '--headless=new', f'--remote-debugging-port={DPORT}', f'--user-data-dir={prof}', '--disable-gpu', '--no-first-run',
                                '--no-default-browser-check', '--mute-audio', '--hide-scrollbars', '--disable-background-timer-throttling',

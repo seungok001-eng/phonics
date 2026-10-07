@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>Pomi Phonics — 플래시카드</title>
+<title>Pop! Phonics — 플래시카드</title>
 <link rel="stylesheet" href="../assets/fonts/fonts.css">
 <style>
   :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --vowel:#E0523E; --conso:#2E5FBF; --cream:#FFF9EE; }
@@ -23,6 +23,7 @@
   .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
   @page { size:A4; margin:0; }
   @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } }
+  body { font-variant-ligatures: none; }   /* 합자 끔 (fl·fi) */
 </style>
 </head>
 <body>
@@ -35,6 +36,16 @@ const BK = +(new URLSearchParams(location.search).get('bk') || 1); let DIR = '';
 async function get(rel, root) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + (root ? '' : DIR) + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
 async function getBook() { const books = (await get('books.json', true)) || [{ n: 1, dir: '' }]; const info = books.find((x) => x.n === BK) || books[0]; DIR = info.dir || ''; const book = await get('book.json'); if (book && !book.letters && DIR) { const b1 = await get('book.json', true); if (b1) book.letters = b1.letters; } return book; }
 const bkq = BK > 1 ? `&bk=${BK}` : '';   // 링크에 붙일 권 표시
+// 3·4권 가족 이름: sh · a_e · ai 는 그대로, 2권 끝소리 가족(-at)과 끝소리(-nd)는 앞에 - (내용의 label 이 있으면 그것)
+function famLab(book, f) { const d = (book.families || {})[f] || {}; return d.label || (!d.kind || d.kind === 'final' ? '-' + String(f).replace(/^-/, '') : f); }
+function famKindOf(book, f) { return ((book.families || {})[f] || {}).kind || ''; }
+// 단어에서 가족 부분 굵게: 소리 덩어리(words[w].chunks)가 있으면 그 덩어리(마법 e 는 모음과 끝 e), 없으면 끝소리 글자
+function famBold(book, w, f) {
+  const d = (book.words || {})[w] || {}, key = String(f).replace(/^-/, ''), ch = d.chunks, k = ch ? ch.indexOf(key) : -1;
+  if (k >= 0) { const out = [], tail = []; ch.forEach((c, j) => { const b = (t) => j === k ? `<b>${t}</b>` : t; if (c.includes('_')) { out.push(b(c.split('_')[0])); tail.push(b(c.split('_')[1] || 'e')); } else out.push(b(c)); }); return out.concat(tail).join(''); }
+  const i = w.lastIndexOf(key); return i < 0 ? w : `${w.slice(0, i)}<b>${key}</b>${w.slice(i + key.length)}`;
+}
+
 (async () => {
   const book = await getBook(), unit = book && await get(`units/unit${String(U).padStart(2, '0')}.json`);
   if (!unit) { document.getElementById('out').textContent = '유닛 없음'; return; }
@@ -44,9 +55,10 @@ const bkq = BK > 1 ? `&bk=${BK}` : '';   // 링크에 붙일 권 표시
   const cards = [];
   // 2권: 가족 카드(-at, 모음 빨강) + 단어 카드(그림·단어, 가족 부분 굵게)
   for (const f of (unit.families || [])) {
-    const v = (book.families[f] && book.families[f].vowel) || f[0];
-    cards.push(`<div class="card"><span class="tag">Unit ${U} · word family</span><div class="glyph">-<span class="vowel">${v}</span>${f.slice(f.indexOf(v) + 1)}</div></div>`);
-    for (const w of ((unit.words && unit.words[f]) || book.families[f].words)) { const i = w.lastIndexOf(f); cards.push(`<div class="card"><span class="tag">Unit ${U} · -${f}</span><img src="../assets/art/word_${w}.png" alt="${w}" onerror="this.outerHTML='<div class=ph>${w}</div>'"><div class="wd">${w.slice(0, i)}<b>${f}</b>${w.slice(i + f.length)}</div></div>`); }
+    const v = (book.families[f] && book.families[f].vowel) || f[0], k = famKindOf(book, f);
+    const glyph = k ? (k === 'magic_e' || k === 'team' ? `<span class="vowel">${famLab(book, f)}</span>` : famLab(book, f)) : `-<span class="vowel">${v}</span>${f.slice(f.indexOf(v) + 1)}`;
+    cards.push(`<div class="card"><span class="tag">Unit ${U} · ${k ? 'sound pair' : 'word family'}</span><div class="glyph">${glyph}</div></div>`);
+    for (const w of ((unit.words && unit.words[f]) || book.families[f].words)) cards.push(`<div class="card"><span class="tag">Unit ${U} · ${famLab(book, f)}</span><img src="../assets/art/word_${w}.png" alt="${w}" onerror="this.outerHTML='<div class=ph>${w}</div>'"><div class="wd">${famBold(book, w, f)}</div></div>`);
   }
   for (const l of (unit.letters || [])) {
     cards.push(`<div class="card"><span class="tag">Unit ${U} · letter</span><div class="glyph ${cls(l)}">${l.toUpperCase()}<small>${l}</small></div></div>`);

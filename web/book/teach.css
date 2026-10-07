@@ -39,7 +39,7 @@
 .sl-trace .anim path.draw { animation: draw 1s ease forwards; }
 .sl-trace .anim text { font-family: 'Fredoka'; font-size: 12px; fill: #fff; font-weight: 700; paint-order: stroke; stroke: var(--orange); stroke-width: 5px; stroke-linejoin: round; }
 .sl-trace .trace-line { width: 100%; height: 150px; overflow: hidden; }
-.sl-trace .trace-line span { font-size: 110px; line-height: 150px; width: 102px; flex: none; }
+.sl-trace .trace-line span { font-size: 110px; line-height: 150px; width: 102px; flex: none; } .sl-trace .trace-line.wide span { font-size: 92px; }   /* M·W 는 넓어서 칸에 맞게 조금 작게 */
 .sl-circle { grid-template-columns: repeat(3, 1fr); gap: 30px; flex: 1; }
 .sl-circle .circle-box { padding: 24px; gap: 14px; }
 .sl-circle .ltr { font-size: 110px; line-height: 1.1; }
@@ -193,13 +193,21 @@
 .sl-sent .sent-row .spic { max-height: none; height: calc(var(--sh) - 220px); } .sl-sent .sent-row .stext { font-size: 64px; line-height: 1.4; }
 .sl-check.rc .rc-word { font-size: 54px; min-width: 150px; } .sl-check.rc .opt .pic { height: 130px; }
 .sl-match.m2 { grid-template-columns: 1fr 1fr; } .sl-match.m2 .it.wd { font-size: 60px; }
-.sl-write.w2 .boxes span { width: 70px; height: 84px; font-size: 56px; } .sl-write.w2 .write-it.w2 .pic { height: calc(var(--sh) - 560px); }
+.sl-write.w2 .boxes span { width: 70px; height: 84px; font-size: 56px; } .sl-write.w2 .boxes span.w2 { width: auto; min-width: 104px; padding: 0 6px; } .sl-write.w2 .boxes.n4 span, .sl-write.w2 .boxes.n5 span { width: 58px; font-size: 48px; } .sl-write.w2 .boxes.n4 span.w2 { width: auto; min-width: 86px; } .sl-write.w2 .write-it.w2 .pic { height: calc(var(--sh) - 560px); }
 .sl-rv.rw .rv-card .rv-word { font-size: 40px; } .sl-rv.rw .fam.sm { font-size: 22px; }
 .sl-path.bridge .lt { font-size: 60px; }
 
 .sl-vw { gap: 20px; } .sl-vw .vw-card .glyph { font-size: 130px; } .sl-vw .vw-card .glyph small { font-size: 96px; } .sl-vw .vw-card .ipa { font-size: 44px; } .sl-vw .vw-card .vw-pic { height: calc(var(--sh) - 560px); } .sl-vw .vw-card .vw-word { font-size: 40px; } .sl-vw .vw-card .hint { font-size: 20px; }
 
 /* 우리말 도움 · 지난/이번 이야기 (슬라이드) */
+.sl-story-side .sl-tools { gap: 10px; } .sl-story-side .sl-tools .role-btn, .sl-story-side .sl-tools .ko-btn, .sl-story-side .sl-tools .movie { font-size: 22px; padding: 10px 14px; }
+/* 세로가 낮은 슬라이드(16:9 전체화면, 세로 900): 스토리 옆 칸을 촘촘히 — 칸 설명·질문까지 잘리지 않게 */
+.slide.short .sofar .sf { padding: 5px 14px; font-size: 18px; } .slide.short .sofar .thumb { width: 80px; height: 60px; }
+.slide.short .sl-story-side { gap: 10px; } .slide.short .sl-story-side .sw span { font-size: 28px; padding: 2px 14px; }
+.slide.short .bubbles-col { gap: 8px; } .slide.short .bubbles-col .bubble { font-size: 30px; padding: 6px 18px 6px 10px; } .slide.short .bubbles-col .bubble .av { width: 52px; height: 52px; }
+.slide.short .bubbles-col .bubble .tr { font-size: 17px; }
+.slide.short .sl-story-side .kobox { font-size: 18px; padding: 6px 12px; line-height: 1.3; } .slide.short .sl-story-side .kobox .ask small { display: inline; margin-left: 8px; font-size: 16px; }
+.slide.short .sl-story-side .find .chip { font-size: 24px; padding: 2px 14px; }
 .sl-story.with-sofar .panel { max-height: calc(var(--sh) - 300px); }
 .slide .sofar .sf { font-size: 20px; padding: 10px 16px; gap: 14px; } .slide .sofar .sf b { font-size: 18px; } .slide .sofar .thumb { width: 110px; height: 82px; }
 .sl-story-side .kobox, .sl-recap-side .kobox { font-size: 22px; padding: 10px 16px; }
@@ -224,7 +232,15 @@
 .sl-read .read-card .pic { height: calc((var(--sh) - 470px) / 3); min-height: 0; flex: none; }
 .sl-game .choice .pic { height: calc(var(--sh) - 470px); min-height: 0; flex: none; }
 .sl-story .panel { height: auto; width: 100%; aspect-ratio: 4 / 3; max-height: calc(var(--sh) - 180px); align-self: start; }   /* 장면 그림(4:3)이 잘리지 않게 */
-.sl-chars .char .pic { height: calc(var(--sh) - 380px); min-height: 0; flex: none; }
+.sl-chars .char .pic { height: calc(var(--sh) - 380px); min-height: 0; flex: 0 1 auto; }   /* 글이 길면 그림이 줄어든다 */
+/* 친구 6명(4권): 3열 2줄, 카드 안은 그림 왼쪽 · 이름·말버릇·역할 오른쪽 */
+.sl-chars.n6 { grid-template-columns: repeat(3, 1fr); grid-auto-rows: minmax(0, 1fr); gap: 14px 20px; }
+.sl-chars.n6 .char { display: grid; grid-template-columns: 42% 1fr; grid-template-rows: auto auto 1fr; align-items: start; column-gap: 14px; }
+.sl-chars.n6 .char .pic { grid-row: 1 / 4; width: 100%; height: 100%; max-height: calc((var(--sh) - 300px) / 2); }
+.sl-chars.n6 .char h3 { font-size: 30px; } .sl-chars.n6 .char .say-line { font-size: 22px; text-align: center; } .sl-chars.n6 .char .role { font-size: 17px; }
+.sl-chars.n5 .char .role { font-size: 17px; } .slide.short .sl-chars .char .role { font-size: 16px; line-height: 1.3; }
+.sl-blend .blend-row .tile { width: auto; min-width: 100px; padding: 0 6px; } .sl-blend .blend-row .tile.w2 { min-width: 130px; }   /* m·mb 처럼 넓은 글자도 타일 안에 */
+.slide .blend-head.multi .fam-big { font-size: 56px; } .slide .blend-head.multi .fam-say { font-size: 26px; }
 .sl-write .write-it .pic { height: calc(var(--sh) - 600px); }
 .sl-match .it .pic { height: calc((var(--sh) - 500px) / 3); }
 .sl-paper { grid-template-columns: repeat(9, 1fr); gap: 14px 12px; padding: 18px 22px; flex: 0 0 auto; align-self: center; width: 100%; max-width: 1240px; } .sl-paper .lt { font-size: 64px; }
@@ -249,3 +265,27 @@
 .w-opt .pic { width: 100%; flex: 1; min-height: 0; max-height: 440px; } .w-opt .wd { font-family: 'Andika'; font-size: 44px; font-weight: 700; visibility: hidden; }
 .w-opt .num { position: absolute; left: 14px; top: 10px; width: 64px; height: 64px; border-radius: 50%; background: var(--orange); color: #fff; font-family: 'Fredoka'; font-weight: 700; font-size: 38px; display: flex; align-items: center; justify-content: center; }
 .w-opt.hit { border-color: var(--ok); background: #EAF7E6; } .w-opt.hit .wd { visibility: visible; color: var(--ok); } .w-opt.miss { border-color: var(--bad); background: #FDE8E8; }
+
+/* 3·4권 슬라이드: 짝꿍 소리 한 장(타일 크게 + 단어 카드 번호) · 마법 e 짝 한 장 / 전부 */
+.sl-dg { flex: 1; min-height: 0; display: flex; }
+.sl-dg .dg-card { flex: 1; border-width: 4px; padding: 16px 24px; gap: 18px; }
+.sl-dg .dg-top { gap: 30px; } .sl-dg .spk.big { width: 80px; height: 80px; font-size: 38px; }
+.sl-dg .dg-tile { width: 170px; height: 190px; font-size: 140px; border-width: 5px; border-radius: 26px; } .sl-dg .dg-tiles { gap: 60px; }
+.sl-dg .dg-card.joined .dg-tile:first-child { border-left-width: 5px; border-radius: 26px 0 0 26px; } .sl-dg .dg-card.joined .dg-tile:last-child { border-radius: 0 26px 26px 0; }
+.sl-dg .dg-ipa { font-size: 64px; }
+.sl-dg .dg-words { gap: 20px; } .sl-dg .dg-w { border-width: 3px; border-radius: 22px; padding: 10px; cursor: pointer; }
+.sl-dg .dg-w .pic { flex: none; height: calc(var(--sh) - 560px); } .sl-dg .dg-w .wd { font-size: 64px; }
+.sl-dg .dg-w .num { display: flex; position: absolute; left: 10px; top: 8px; width: 54px; height: 54px; border-radius: 50%; background: var(--orange); color: #fff; font-family: 'Fredoka'; font-weight: 700; font-size: 32px; align-items: center; justify-content: center; z-index: 1; }
+.sl-me { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 14px; }
+.sl-me .me-row { grid-template-columns: 1fr 1.25fr 200px 1fr; gap: 26px; border-width: 3px; border-radius: 26px; padding: 16px 24px; }
+.sl-me .me-pic { max-height: none; height: calc(var(--sh) - 330px); } .sl-me .me-pic .num { width: 54px; height: 54px; font-size: 32px; left: 0; top: 0; }
+.sl-me .me-letters { font-size: 150px; } .sl-me .me-to { font-size: 90px; }
+.sl-me .me-fairy { width: 190px; height: 190px; font-size: 90px; border-width: 5px; } .sl-me .me-fairy img { width: 130px; height: 110px; } .sl-me .me-fairy b { font-size: 34px; }
+.sl-me .sparkle { font-size: 56px; }
+.sl-me.all .me-rows { gap: 10px; } .sl-me.all .me-row { grid-template-columns: 1fr 1.4fr 120px 1fr; padding: 4px 20px; border-radius: 20px; }
+.sl-me.all .me-pic { height: calc((var(--sh) - 330px) / 5); } .sl-me.all .me-pic .num { width: 40px; height: 40px; font-size: 24px; }
+.sl-me.all .me-letters { font-size: 64px; } .sl-me.all .me-fairy { width: 96px; height: 96px; font-size: 44px; border-width: 3px; } .sl-me.all .me-fairy img { width: 60px; height: 50px; } .sl-me.all .me-fairy b { font-size: 18px; }
+.slide .sparkle { font-size: 48px; }
+/* 수료증 슬라이드: 친구들 줄이 남은 높이에 맞춰 줄어든다. 시리즈 수료증의 권 띠는 한 줄 */
+.sl-cert .cert { min-height: 0; } .sl-cert .cert.series .cert-az { max-width: none; flex-wrap: nowrap; }
+.slide.short .sl-cert .cert { gap: 6px; padding-top: 10px; } .slide.short .sl-cert .cert-name { min-height: 60px; margin-top: 4px; }

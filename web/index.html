@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>Pomi Phonics — 소리 정원에서 배우는 영어 파닉스</title>
+<title>Pop! Phonics 팝! 파닉스 — 소리 정원에서 시작하는 영어 파닉스</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="7~9세를 위한 영어 파닉스 교재. 학생책·워크북, 소리 나는 웹 교재, 선생님 자료.">
 <link rel="stylesheet" href="assets/fonts/fonts.css">
@@ -21,6 +21,9 @@
   .cta a.alt { background:var(--blue); box-shadow:0 4px 0 #2f7bb5; }
   .cta a.alt2 { background:var(--green); color:#1f3a0e; box-shadow:0 4px 0 #6aa832; }
   .cta a.alt3 { background:var(--pink); box-shadow:0 4px 0 #c45a80; }
+  .cta button.theme { font-family:'Fredoka'; font-size:20px; padding:12px 24px; border-radius:16px; border:0; cursor:pointer; background:var(--yellow); color:var(--ink); box-shadow:0 4px 0 #c9a02a; }
+  .cta button.theme.on { background:var(--ink); color:#fff; box-shadow:0 4px 0 #000; }
+  .cta [hidden] { display:none; }
   .cast { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:28px 0; }
   .cast div { background:#fff; border:3px solid var(--line); border-radius:20px; padding:12px; text-align:center; }
   .cast img { width:100%; height:190px; object-fit:contain; }
@@ -31,9 +34,9 @@
   section h2 { font-size:28px; color:var(--orange); margin-bottom:12px; }
   .units { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; }
   .bookcard { margin-top:36px; background:#fff; border:3px solid var(--line); border-radius:22px; padding:18px 20px 20px; }
-  .bookcard.b2 { border-color:#BFE3F7; }
+  .bookcard.b2 { border-color:#BFE3F7; } .bookcard.b3 { border-color:#CDEBC0; } .bookcard.b4 { border-color:#E2D5F5; }
   .bookcard .bh { display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:12px; }
-  .bookcard .bh h2 { font-size:28px; color:var(--orange); margin:0; } .bookcard.b2 .bh h2 { color:var(--blue); }
+  .bookcard .bh h2 { font-size:28px; color:var(--orange); margin:0; } .bookcard.b2 .bh h2 { color:var(--blue); } .bookcard.b3 .bh h2 { color:#4CAF50; } .bookcard.b4 .bh h2 { color:#A98BE0; }
   .bookcard .bh .sub { color:var(--soft); font-size:16px; }
   .bookcard .bh .cta { margin:0 0 0 auto; justify-content:flex-end; } .bookcard .bh .cta a { font-size:16px; padding:8px 16px; }
   .unit { background:#fff; border:3px solid var(--line); border-radius:16px; padding:12px 14px; }
@@ -53,17 +56,19 @@
   .feat b { font-family:'Fredoka'; font-size:18px; display:block; margin-bottom:4px; }
   footer { text-align:center; color:var(--soft); font-size:13px; padding:20px; }
   @media (max-width:700px) { .cast { grid-template-columns:repeat(2,1fr);} header .logo { font-size:40px; } }
+  body { font-variant-ligatures: none; }   /* 합자 끔 (fl·fi) */
 </style>
 </head>
 <body>
 <header>
-  <div class="logo">Pomi <span>Phonics</span></div>
-  <p>소리 정원에서 배우는 영어 파닉스 · 7~9세 · 알파벳 소리부터</p>
+  <div class="logo">Pop! <span>Phonics</span></div>
+  <p>팝! 파닉스 — 소리 정원에서 시작하는 영어 파닉스 · 7~9세 · 알파벳 소리부터</p>
   <div class="cta">
     <a href="book/?b=sb&u=1&p=1">📘 학생책 보기</a>
     <a class="alt" href="book/?b=wb&u=1&p=1">📗 워크북 보기</a>
     <a class="alt2" href="book/?b=sb&u=1&p=1&t=1">👩‍🏫 선생님 수업 화면</a>
     <a class="alt3" href="book/story.html" id="lnkStory" style="display:none">📙 스토리북 읽기</a>
+    <button class="theme" id="btnTheme" hidden onclick="themeToggle()" title="주제가 Pop! Phonics Song">▶ 주제가</button>
   </div>
 </header>
 <div class="wrap">
@@ -108,12 +113,19 @@
         </form>
         <span id="tPdfs"></span></div>
       <div><b>✉️ 가정통신문</b><span id="letterLinks"><a href="teacher/letter.html?u=1">Unit 1 가정통신문</a></span> (주소의 u=숫자를 바꾸면 다른 유닛)</div>
-      <div><b>🎵 노래·음악</b>주제가·알파벳 노래·배경음악은 제작 중 (지금은 임시 곡)</div>
+      <div><b>🎵 노래·음악</b>주제가·알파벳 노래·이야기 배경음악·챈트 반주(모두 9곡)는 제작 중 — 파일이 들어오면 교재가 저절로 틀어요</div>
     </div>
   </section>
 </div>
-<footer>© Pomi Phonics · 글꼴 Andika·Fredoka (SIL Open Font License)</footer>
+<footer>© Pop! Phonics 팝! 파닉스 · 글꼴 Andika·Fredoka (SIL Open Font License)</footer>
 <script>
+// 주제가: music/theme.mp3 가 있으면 ▶ 주제가 단추가 나타난다 (없으면 조용히 숨김). 누르면 틀고, 다시 누르면 멈춤
+const theme = new Audio(); theme.preload = 'metadata';
+theme.addEventListener('loadedmetadata', () => { document.getElementById('btnTheme').hidden = false; });
+theme.addEventListener('ended', () => themeBtn(false));
+theme.src = 'assets/music/theme.mp3';
+function themeBtn(on) { const b = document.getElementById('btnTheme'); b.classList.toggle('on', on); b.textContent = on ? '⏸ 주제가' : '▶ 주제가'; }
+function themeToggle() { if (theme.paused) { theme.play().then(() => themeBtn(true)).catch(() => {}); } else { theme.pause(); themeBtn(false); } }
 // 시험지 생성기 폼 → teacher/test.html 주소
 function makeTest() { const p = new URLSearchParams({ scope: tScope.value, level: tLevel.value, set: tSet.value }); if (tBk.value && tBk.value !== '1') p.set('bk', tBk.value); if (tBw.checked) p.set('bw', '1'); if (tKey.checked) p.set('key', '1'); location.href = 'teacher/test.html?' + p; }
 // 권 목록(content/books.json)을 읽어 권마다 카드(유닛·링크·스토리북·PDF). 1권은 content/ 바로 아래, 2권부터 content/b2/ 처럼 폴더가 있다
@@ -122,6 +134,7 @@ function makeTest() { const p = new URLSearchParams({ scope: tScope.value, level
   async function get(rel) { for (const b of base) { try { const r = await fetch(b + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
   const books = (await get('books.json')) || [{ n: 1, dir: '' }];
   const loaded = [];
+  const famLab = (book, f) => { const k = ((book.families || {})[f] || {}).kind; return !k || k === 'final' ? '-' + f.replace(/^-/, '') : f; };
   for (const bi of books) {
     const book = await get(bi.dir + 'book.json'); if (!book) continue;
     const have = {};
@@ -143,7 +156,7 @@ function makeTest() { const p = new URLSearchParams({ scope: tScope.value, level
       const ok = !!have[u.n];
       const wb = ok && have[u.n].lessons.some((l) => l.workbook && l.workbook.length);
       const sb = ok && book.storybook && have[u.n].storybook && have[u.n].storybook.pages && have[u.n].storybook.pages.length;
-      const lt = b2 ? ((u.families || []).length ? u.families.map((f) => '-' + f).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입')) : (u.letters.length ? u.letters.map((l) => l.toUpperCase() + l).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입'));
+      const lt = b2 ? ((u.families || []).length ? u.families.map((f) => famLab(book, f)).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입')) : (u.letters.length ? u.letters.map((l) => l.toUpperCase() + l).join(' · ') : (u.review ? '복습 ' + u.review.join('·') : '도입'));
       const teach = (b2 ? (u.families || []).length : u.letters.length) ? `<a class="${ok ? '' : 'off'}" href="teacher/lesson-plan.html?u=${u.n}${q}">수업안</a><a class="${ok ? '' : 'off'}" href="teacher/flashcards.html?u=${u.n}${q}">플래시카드</a><a class="${ok ? '' : 'off'}" href="teacher/test.html?scope=u${u.n}&level=${u.n >= 6 ? 2 : 1}&set=A${q}">시험지</a>` : '';
       return `<div class="unit"><span class="n ${ok ? '' : 'soon'}">Unit ${u.n}</span><h3>${u.title}</h3><div class="lt">${lt}</div>
         <div class="links"><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1${q}">학생책</a><a class="${wb ? '' : 'off'}" href="book/?b=wb&u=${u.n}&p=1${q}">워크북</a><a class="${ok ? '' : 'off'}" href="book/?b=sb&u=${u.n}&p=1&t=1${q}">수업 화면</a>${sb ? `<a href="book/story.html?u=${u.n}&p=1${q}">📙 스토리북</a>` : ''}${teach}</div></div>`;

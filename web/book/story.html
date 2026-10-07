@@ -2,14 +2,14 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>Pomi Phonics — 스토리북</title>
+<title>Pop! Phonics — 스토리북</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="story.css">
 </head>
 <body class="storybook">
 <div id="top">
-  <a class="brand" href="../">Pomi Phonics<small id="sbTitle"></small></a>
+  <a class="brand" href="../">Pop! Phonics<small id="sbTitle"></small></a>
   <button onclick="tocToggle()" id="btnToc" title="차례">☰ 차례</button>
   <span class="grow"></span>
   <span id="pageInfo"></span>
@@ -21,7 +21,7 @@
 </div>
 <div id="book"><div id="pageArea"></div></div>
 <div id="toc" class="off" onclick="if(event.target===this)tocToggle()"><div class="card"><h2>📙 차례</h2><div id="tocList"></div></div></div>
-<div id="overlay"><div class="card"><h1 style="color:var(--orange);margin:0 0 6px">Pomi Phonics</h1><p style="color:var(--soft);margin:0 0 18px">소리를 켜려면 한 번 눌러 주세요</p><button onclick="startApp()">▶ Start</button></div></div>
+<div id="overlay"><div class="card"><h1 style="color:var(--orange);margin:0 0 6px">Pop! Phonics</h1><p style="color:var(--soft);margin:0 0 18px">소리를 켜려면 한 번 눌러 주세요</p><button onclick="startApp()">▶ Start</button></div></div>
 <div id="toast"></div>
 <script src="app.js"></script>
 <script src="pages.js"></script>
@@ -39,7 +39,7 @@ function render() {
   const task = pg.task ? `<div class="task say" data-say="${esc(pg.task_audio || pg.id + '_task')}" data-text="${esc(pg.task)}">✨ <span>${esc(pg.task)}</span>${pg.task_ko ? `<small>${esc(pg.task_ko)}</small>` : ''}</div>` : '';
   const title = pg.cover ? `<div class="cover-title"><small>${esc(App.book.series)} ${App.book.book}</small><h1>${esc(pg.title)}</h1></div>` : '';
   const where = typeof pg.u === 'number' ? `Unit ${pg.u} · ${esc(pg.title)}` : pg.u === 'cover' ? '' : esc(pg.title);
-  $('pageArea').innerHTML = `<div class="sb-page ${pg.cover ? 'cover' : ''}"><div class="art">${pic(pg.id, '', pg.desc || pg.title)}${title}<div class="edge l" onclick="sbGo(-1)"></div><div class="edge r" onclick="sbGo(1)"></div></div>
+  $('pageArea').innerHTML = `<div class="sb-page ${pg.cover ? 'cover' : ''} kb${SB.i % 2}"><div class="art">${pic(pg.id, '', pg.desc || pg.title)}${title}<div class="edge l" onclick="sbGo(-1)"></div><div class="edge r" onclick="sbGo(1)"></div></div>
     ${pg.cover ? '' : `<div class="band"><div class="where">${where}</div><div class="lines">${lines}</div>${pko}${task}</div>`}</div>`;
   $('pageInfo').textContent = `${SB.i + 1} / ${n}`; $('btnPrev').disabled = SB.i <= 0; $('btnNext').disabled = SB.i >= n - 1;
   const q = new URLSearchParams(location.search); q.set('u', pg.u); q.set('p', pg.p); if (App.bk > 1) q.set('bk', App.bk); history.replaceState(null, '', '?' + q);
@@ -47,6 +47,8 @@ function render() {
   // 옆 쪽 그림 미리 받기
   [SB.i - 1, SB.i + 1].forEach((j) => { if (SB.pages[j]) { const im = new Image(); im.src = artSrc(SB.pages[j].id); } });
 }
+// 그림 움직임: 쪽이 나올 때 천천히 다가가고(CSS), 대사가 나오는 동안 살짝 더 다가갔다 돌아온다 (영상 대신, 움직임 줄이기 설정이면 멈춤)
+function artReading(on) { document.querySelector('.sb-page .art')?.classList.toggle('reading', on); }
 function sbGo(d) { const j = SB.i + d; if (j < 0 || j >= SB.pages.length) return; SB.i = j; render(); if (SB.auto) sbRead(); }
 function sbJump(i) { SB.i = i; tocToggle(false); render(); if (SB.auto) sbRead(); }
 // 자동 읽기: 이 쪽의 줄을 차례로 읽고(배경음악은 유닛 story.bgm), 과제를 읽은 뒤 다음 쪽으로
@@ -57,7 +59,7 @@ async function sbRead() {
   Sound.unlock(); Sound.bgm(pg.bgm);
   const items = (pg.lines || []).map((ln, k) => {
     const el = document.querySelector(`.line[data-line="${k}"]`);
-    return { id: ln.audio, text: ln.text, el, gap: 650, before: () => { talking(el?.querySelector('img'), true); if (ln.sfx) Sound.sfx(ln.sfx); }, after: () => talking(el?.querySelector('img'), false) };
+    return { id: ln.audio, text: ln.text, el, gap: 650, before: () => { artReading(true); talking(el?.querySelector('img'), true); if (ln.sfx) Sound.sfx(ln.sfx); }, after: () => { artReading(false); talking(el?.querySelector('img'), false); } };
   });
   const ok = await playSeq(items);
   if (!ok || my !== SB.token) return;

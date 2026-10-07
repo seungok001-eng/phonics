@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>Pomi Phonics — 정답지</title>
+<title>Pop! Phonics — 정답지</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../book/style.css">
 <style>
@@ -89,7 +89,7 @@ function markKey(root) {
   // ④ 분류: 단어를 맞는 상자에 넣어 보인다 (1권 첫 글자, 2권 단어 가족)
   root.querySelectorAll('.sort').forEach((st) => {
     st.querySelectorAll('.pool .wd[data-w]').forEach((wd) => {
-      const w = wd.dataset.w, key = B2() ? familyOf(w) : letterOf(w), bin = st.querySelector(`.bin[data-l="${key}"] .in`);
+      const w = wd.dataset.w, key = B2() ? familyOf(w) : letterOf(w), bin = [...st.querySelectorAll('.bin[data-ws]')].find((b) => b.dataset.ws.split(' ').includes(w))?.querySelector('.in') || st.querySelector(`.bin[data-l="${key}"] .in`);
       if (!bin) return; bin.insertAdjacentHTML('beforeend', `<span class="wd">${esc(w)}</span>`); wd.classList.add('k-moved');
     });
   });

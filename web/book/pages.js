@@ -1,4 +1,4 @@
-// Pomi Phonics 웹 교재 — 쪽 종류별 그리기. 각 함수는 ctx 를 받아 쪽 안쪽 HTML 을 돌려준다.
+// Pop! Phonics 웹 교재 — 쪽 종류별 그리기. 각 함수는 ctx 를 받아 쪽 안쪽 HTML 을 돌려준다.
 // ctx = { book, unit, b('sb'|'wb'), u, p, page(쪽 명세), pages(쪽 목록), print }
 const PAGES = {};
 
@@ -53,8 +53,8 @@ function soFarHtml(ctx) {
 function storyItem(ln, el, pn, idx, k) {
   const mine = ROLE.on && ROLE.has(ln.who);
   return { id: ln.audio, text: ln.text, el, gap: 550, wait: mine ? 2500 : 0,
-    before: () => { if (k === 0 && pn.video) playVideo(idx, true); if (!mine) talking(el?.querySelector('img'), true); if (ln.sfx && !mine) Sound.sfx(ln.sfx); },
-    after: () => { talking(el?.querySelector('img'), false); if (ln.pop) { Sound.sfx('pop'); el?.classList.add('playing'); } } };
+    before: () => { if (k === 0 && pn.video) playVideo(idx, true); panelReading(idx, true); if (!mine) talking(el?.querySelector('img'), true); if (ln.sfx && !mine) Sound.sfx(ln.sfx); },
+    after: () => { panelReading(idx, false); talking(el?.querySelector('img'), false); if (ln.pop) { Sound.sfx('pop'); el?.classList.add('playing'); } } };
 }
 function wordCard(w, l, extra = '') {
   return `<div class="word-card say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-word="${esc(w)}">${pic('word_' + w, '', w)}<div class="wd">${wordHtml(w, l)}</div>${extra}</div>`;
@@ -84,7 +84,7 @@ async function chant(l) {
   const d = L(l), card = document.querySelector(`.sound-card[data-letter="${l}"]`);
   const s = { id: 'sound_' + l, text: soundText(l), el: card?.querySelector('.tree'), gap: 150 };
   Sound.unlock();
-  const beat = await chantTrack('chant_sound');
+  const beat = await chantTrack('chant_beat');
   const ok = await playSeq([
     { id: 'name_' + l, text: l.toUpperCase(), el: card?.querySelector('.glyph') }, s, s, { ...s, gap: 400 },
     ...d.words.map((w) => ({ id: 'word_' + w, text: w, el: card?.querySelector(`.w[data-word="${w}"], .w[data-say="word_${w}"]`), gap: 300, before: () => Sound.sfx('pop') })),
@@ -92,7 +92,7 @@ async function chant(l) {
   chantTrackOff(); return ok;
 }
 async function playSoundsPage() { for (const l of App.units[App.u].letters) { if (!(await chant(l) ?? true)) return; await sleep(500); } }
-// 챈트 반주: web/assets/music/chant_sound.mp3 · chant_word.mp3 가 있으면 틀고 박자(1.2초)를 돌려준다. 없으면 0 (지금처럼 소리 길이대로)
+// 챈트 반주: web/assets/music/chant_beat.mp3 (소리 챈트·단어 챈트 공용, 100 BPM) 가 있으면 틀고 박자(1.2초)를 돌려준다. 없으면 0 (지금처럼 소리 길이대로)
 const CHANT_BEAT = 1200;
 let chantEl = null;
 function chantTrack(id) {
@@ -140,7 +140,7 @@ PAGES.words = (ctx) => {
 };
 async function wordChant() {
   Sound.unlock();
-  const beat = await chantTrack('chant_word'), items = [];
+  const beat = await chantTrack('chant_beat'), items = [];
   for (const l of App.units[App.u].letters) {
     items.push({ id: 'sound_' + l, text: soundText(l), el: document.querySelector(`.word-row .ltr[data-say="sound_${l}"]`), gap: 250, beat });
     for (const w of L(l).words) items.push({ id: 'word_' + w, text: w, el: document.querySelector(`.word-card[data-word="${w}"]`), gap: 300, beat });
@@ -265,26 +265,67 @@ PAGES.story = (ctx) => {
   const html = panels.map((pn, i) => {
     const idx = (half - 1) * 2 + i;
     const bubbles = pn.lines.map((ln, k) => `<div class="bubble say ${k % 2 ? 'right' : ''}" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-panel="${idx}" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}${lineKo(ln, ctx)}</span></div>`).join('');
-    const find = pn.hidden?.length ? `<div class="find"><b>🔍 Find:</b>${pn.hidden.map((w) => `<span class="chip" data-say="word_${esc(w)}" data-text="${esc(w)}" onclick="this.classList.toggle('on')">${esc(w)}</span>`).join('')}</div>` : '';
-    const movie = pn.video && !ctx.print ? `<button class="btn blue movie print-hide" onclick="playVideo(${idx})">▶ movie</button>` : '';
+    const find = findHtml(pn);
+    const movie = ctx.print ? '' : movieBtn(idx, pn.video);
     return `<div class="pwrap"><div class="panel" data-panel="${idx}"><div class="scene">${pic(pn.id, '', 'scene')}</div><span class="no">${idx + 1}</span>${movie}<div class="bubbles">${bubbles}</div></div>${find}${koBox(pn, ctx)}</div>`;
   }).join('');
   return `<div class="story-top"><h3 style="margin:0;font-size:24px">📖 ${esc(st.title)}</h3><button class="btn orange main-play print-hide" onclick="storyPlay(${half})">▶ ${esc(App.book.instructions.listen_story)}</button>${sw}${roleBtn()}${ctx.print ? '' : koBtn(false, st)}${sbLink}</div>${half === 1 ? soFarHtml(ctx) : ''}<div class="panels">${html}</div>`;
 };
 async function storyPlay(half) {
   Sound.unlock();
-  const st = App.units[App.u].story; Sound.bgm(st.bgm);
-  const items = [];
+  const st = App.units[App.u].story, items = half === 1 ? themeIntro(st) : [];
+  if (!items.length) Sound.bgm(st.bgm);
   st.panels.slice((half - 1) * 2, half * 2).forEach((pn, i) => {
     const idx = (half - 1) * 2 + i;
     pn.lines.forEach((ln, k) => items.push(storyItem(ln, document.querySelector(`.bubble[data-panel="${idx}"][data-line="${k}"]`), pn, idx, k)));
   });
   await playSeq(items);
 }
+// 0유닛 이야기 앞에 주제가 한 번 (music/theme.mp3 가 있을 때만, 쪽을 연 뒤 처음 ▶ 에만). 끝나면 이야기 배경음악
+let themeDone = false;
+function themeIntro(st) {
+  if (themeDone || App.u !== 0) return [];
+  themeDone = true;
+  return [{ music: 'theme', gap: 400, after: () => Sound.bgm(st.bgm) }];
+}
+// ---------- 장면 영상 · 움직이는 장면 ----------
+// 영상은 지금 빠졌다: web/assets/video/<id>.mp4 가 있을 때만 ▶ movie 단추가 보인다(HEAD 로 한 번 확인). 없으면 장면 그림이
+// 처음 나올 때 천천히 다가가고(켄 번스), 대사가 나오는 동안 살짝 더 다가갔다 돌아온다(.reading). 숨은 단어를 찾으면 반짝.
+const VIDEO_HAS = {};
+function videoExists(id) {
+  if (!id || PRINT) return Promise.resolve(false);
+  if (!(id in VIDEO_HAS)) VIDEO_HAS[id] = fetch(videoSrc(id), { method: 'HEAD' }).then((r) => r.ok).catch(() => false);
+  return VIDEO_HAS[id];
+}
+function movieBtn(idx, id, cls = '') { return id ? `<button class="btn blue movie print-hide ${cls}" data-video="${esc(id)}" hidden onclick="playVideo(${idx})">▶ movie</button>` : ''; }
+// 쪽·슬라이드를 그린 뒤 부른다: 영상 파일이 있는 ▶ movie 단추만 보이게
+function pageReady(root) {
+  (root || document).querySelectorAll('[data-video]').forEach(async (b) => { if (await videoExists(b.dataset.video)) b.hidden = false; });
+  (root || document).querySelectorAll('[data-music]').forEach(async (b) => { if (await musicExists(b.dataset.music)) b.hidden = false; });   // 주제가 단추 등
+}
+const MUSIC_HAS = {};
+function musicExists(id) { if (!(id in MUSIC_HAS)) MUSIC_HAS[id] = fetch(ASSETS + 'music/' + id + '.mp3', { method: 'HEAD' }).then((r) => r.ok).catch(() => false); return MUSIC_HAS[id]; }
+function panelReading(idx, on) { document.querySelector(`.panel[data-panel="${idx}"]`)?.classList.toggle('reading', on); }
+function findHtml(pn) { return pn.hidden?.length ? `<div class="find"><b>🔍 Find:</b>${pn.hidden.map((w) => `<span class="chip" data-say="word_${esc(w)}" data-text="${esc(w)}" onclick="findChip(this)">${esc(w)}</span>`).join('')}</div>` : ''; }
+// 숨은 단어를 찾으면(칩 켜기) 그 칸 그림 위에 작은 반짝임
+function findChip(el) {
+  el.classList.toggle('on'); if (!el.classList.contains('on')) return;
+  sparkle(el.closest('.pwrap, .sl-story')?.querySelector('.panel'));
+}
+function sparkle(box) {
+  if (!box || PRINT || (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) return;
+  const cx = 20 + Math.random() * 60, cy = 20 + Math.random() * 50;
+  for (let i = 0; i < 7; i++) {
+    const s = document.createElement('span'); s.className = 'sparkle'; s.textContent = i % 2 ? '✦' : '✧';
+    s.style.left = (cx + (Math.random() - 0.5) * 22) + '%'; s.style.top = (cy + (Math.random() - 0.5) * 22) + '%'; s.style.animationDelay = (i * 70) + 'ms';
+    box.appendChild(s); setTimeout(() => s.remove(), 1600);
+  }
+}
 // 장면 영상이 있으면 그림 자리에 튼다 (없으면 조용히 넘어간다). 소리는 끈다 — 대사·음악과 겹치지 않게
-function playVideo(idx, quiet) {
+async function playVideo(idx, quiet) {
   const panel = document.querySelector(`.panel[data-panel="${idx}"]`); if (!panel) return;
   const id = App.units[App.u].story.panels[idx].video; if (!id) return;
+  if (!(await videoExists(id))) return;   // 영상 파일이 없으면 움직이는 장면 그림만
   let v = panel.querySelector('video');
   if (!v) { v = document.createElement('video'); v.muted = true; v.playsInline = true; v.src = videoSrc(id); v.onerror = () => { v.remove(); if (!quiet) toast('영상이 아직 없어요'); }; panel.appendChild(v); }
   v.currentTime = 0; v.play().catch(() => {});
@@ -357,13 +398,13 @@ PAGES.wb_read = (ctx) => {
 };
 const S = { sel: null };
 function sortPick(el) { Sound.unlock(); document.querySelectorAll('.sort .wd.sel').forEach((x) => x.classList.remove('sel')); el.classList.add('sel'); S.sel = el; Sound.play('word_' + el.dataset.w, el.dataset.w); }
-function sortDrop(bin) { if (!S.sel) return; if ((B2() ? familyOf(S.sel.dataset.w) : letterOf(S.sel.dataset.w)) === bin.dataset.l) { S.sel.classList.remove('sel'); S.sel.classList.add('ok'); bin.querySelector('.in').appendChild(S.sel); S.sel = null; Sound.sfx('ok'); } else Sound.sfx('no'); }
+function sortDrop(bin) { if (!S.sel) return; const w = S.sel.dataset.w; if (bin.dataset.ws ? bin.dataset.ws.split(' ').includes(w) : (B2() ? familyOf(w) : letterOf(w)) === bin.dataset.l) { S.sel.classList.remove('sel'); S.sel.classList.add('ok'); bin.querySelector('.in').appendChild(S.sel); S.sel = null; Sound.sfx('ok'); } else Sound.sfx('no'); }
 function fillPick(el, w, ans) { Sound.unlock(); if (w === ans) { el.classList.add('ok'); el.closest('.fill').querySelector('.blank').textContent = w; Sound.sfx('ok'); Sound.play('word_' + w, w); } else Sound.sfx('no'); }
 
 // ---------- 0유닛 ----------
 PAGES.characters = (ctx) => {
-  const cs = Object.entries(App.book.characters).map(([id, c]) => `<div class="char">${pic('char_' + id + '_ref', '', c.name)}<h3 style="color:${c.color}">${esc(c.name)} <span class="ko">${esc(c.ko)}</span></h3><div class="say-line say" data-say="catch_${id}" data-text="${esc(c.catchphrase.replace(/[()]/g, ''))}">${esc(c.catchphrase)}</div>${c.role_ko ? `<div class="role">${esc(c.role_ko)}</div>` : `<div class="ko">${esc(c.personality)}</div>`}</div>`).join('');
-  return instr('', 'Meet the friends!', '친구들을 만나요') + `<div class="chars">${cs}</div>`;
+  const cs = Object.entries(App.book.characters).map(([id, c]) => `<div class="char">${pic('char_' + id + '_ref', '', c.name)}<h3 style="color:${c.color}">${esc(c.name)} <span class="ko">${esc(c.ko)}</span></h3><div class="say-line say" ${catchAttrs(id)} data-text="${esc(c.catchphrase.replace(/[()]/g, ''))}">${esc(c.catchphrase)}</div>${c.role_ko ? `<div class="role">${esc(c.role_ko)}</div>` : `<div class="ko">${esc(c.personality)}</div>`}</div>`).join('');
+  return instr('', 'Meet the friends!', '친구들을 만나요') + `<div class="chars n${Object.keys(App.book.characters).length}">${cs}</div>`;
 };
 PAGES.intro_story = (ctx) => PAGES.story({ ...ctx, page: { ...ctx.page, half: 1 } });
 PAGES.alphabet = (ctx) => {
@@ -372,7 +413,7 @@ PAGES.alphabet = (ctx) => {
 };
 async function abcSong(namesOnly) {
   Sound.unlock();
-  if (!namesOnly) { const ok = await new Promise((r) => { const a = new Audio(ASSETS + 'music/abc_song.mp3'); a.onerror = () => r(false); a.oncanplay = () => { a.play(); r(true); }; }); if (ok) return; toast('노래 파일이 아직 없어 글자 이름으로 대신해요'); }
+  if (!namesOnly) { stopSeq(); if (await Sound.music('abc_song')) return; }   // 알파벳 노래(music/abc_song.mp3)가 있으면 그것, 없으면 글자 이름을 차례로
   await playSeq(Object.keys(App.book.letters).map((l) => ({ id: 'name_' + l, text: l.toUpperCase(), el: document.querySelector(`.abc .lt[data-l="${l}"]`), gap: 120 })));
 }
 PAGES.alphabet_path = (ctx) => {
@@ -464,7 +505,7 @@ function boardHtml(ctx) {
 }
 function boardKey() { return 'pp_board_u' + App.u; }
 function boardLoad() { BD.pos = { A: -1, B: -1 }; BD.turn = 'A'; BD.busy = false; try { const d = JSON.parse(localStorage.getItem(boardKey()) || 'null'); if (d) { BD.pos = d.pos; BD.turn = d.turn; } } catch (e) { /* 무시 */ } }
-function boardSave() { try { localStorage.setItem(boardKey(), JSON.stringify({ pos: BD.pos, turn: BD.turn })); } catch (e) { /* 저장 못 해도 동작 */ } }
+function bdSave() { try { localStorage.setItem(boardKey(), JSON.stringify({ pos: BD.pos, turn: BD.turn })); } catch (e) { /* 저장 못 해도 동작 */ } }
 function boardDraw() {
   document.querySelectorAll('.bd-cell .pawns').forEach((p) => { p.innerHTML = ''; });
   for (const t of ['A', 'B']) {
@@ -472,8 +513,8 @@ function boardDraw() {
     const b = $('team' + t); if (b) { b.classList.toggle('on', BD.turn === t); b.classList.toggle('home', BD.pos[t] < 0); }
   }
 }
-function boardTurn(t) { if (BD.busy) return; BD.turn = t; boardSave(); boardDraw(); }
-function boardReset() { if (BD.busy) return; BD.pos = { A: -1, B: -1 }; BD.turn = 'A'; boardSave(); boardDraw(); const m = $('bdMsg'), d = $('dice'); if (m) m.textContent = ''; if (d) d.textContent = '?'; }
+function boardTurn(t) { if (BD.busy) return; BD.turn = t; bdSave(); boardDraw(); }
+function boardReset() { if (BD.busy) return; BD.pos = { A: -1, B: -1 }; BD.turn = 'A'; bdSave(); boardDraw(); const m = $('bdMsg'), d = $('dice'); if (m) m.textContent = ''; if (d) d.textContent = '?'; }
 async function diceRoll() {
   if (BD.busy) return; BD.busy = true; Sound.unlock(); stopSeq();
   const d = $('dice'); d.classList.add('rolling'); $('bdMsg').textContent = '';
@@ -484,7 +525,7 @@ async function diceRoll() {
   await boardStep(t, 1, n);
   const again = await boardLand(t);
   if (!again) BD.turn = t === 'A' ? 'B' : 'A';
-  boardSave(); boardDraw(); BD.busy = false;
+  bdSave(); boardDraw(); BD.busy = false;
 }
 // 한 칸씩 움직인다 (마지막 칸을 넘지 않는다)
 async function boardStep(t, dir, count) {
@@ -575,7 +616,7 @@ PAGES.wb_review_words = (ctx) => {
     const sort = rv.sort || Object.fromEntries(unitFamilies(ctx.unit).slice(0, 4).map((f) => [f, famWords(f).slice(0, 2)]));
     const pool = shuffle(Object.values(sort).flat(), 5 + ctx.u);
     return instr('C', 'Look and write.', '그림을 보고 단어를 써요 (화면에서는 빈 칸을 누르면 단어가 나와요)') + `<div class="write-row w2 g4">${ws.map((w) => `<div class="write-it w2">${pic('word_' + w, '', w)}<div class="w4 click" onclick="this.innerHTML='<span class=ans>${esc(w)}</span>';Sound.unlock();Sound.play('word_${esc(w)}','${esc(w)}')"></div></div>`).join('')}</div>` +
-      instr('D', 'Sort the words.', '단어를 눌러 가족 상자에 넣어요') + `<div class="sort rv fam-sort"><div class="pool" id="sortPool" style="grid-column:1/-1">${pool.map((w) => `<span class="wd" onclick="sortPick(this)" data-w="${esc(w)}">${esc(w)}</span>`).join('')}</div>${Object.keys(sort).map((f) => `<div class="bin ${famCls(f, ctx.unit)}" data-l="${f}" onclick="sortDrop(this)"><h4>${famHtml(f)}</h4><div class="in"></div></div>`).join('')}</div>`;
+      instr('D', 'Sort the words.', '단어를 눌러 가족 상자에 넣어요') + famSortHtml(sort, pool, ctx.unit);
   }
   const words = (rv.first_letter || rv.bingo.words).slice(0, 8);
   const fl = words.map((w) => { const l = letterOf(w); return `<div class="write-it fl">${pic('word_' + w, '', w)}<div class="box" onclick="this.textContent='${l.toUpperCase()}${l}';Sound.unlock();Sound.play('sound_${l}','${esc(soundText(l))}')"></div><div class="wd">_${esc(w.slice(1))}</div></div>`; }).join('');
@@ -603,12 +644,12 @@ PAGES.alphabet_song = (ctx) => {
   const sg = ctx.unit.show.song;
   return instr(1, `♪ ${sg.title}`, '글자 카드와 가사를 보며 노래해요. 줄을 누르면 그 줄만 나와요') +
     `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="songPlay()">▶ Sing!</button><button class="btn small" onclick="stopSeq();chantTrackOff()">⏹</button></div>` +
-    `<div class="song">${songLines(ctx.unit)}</div>`;
+    `<div class="song ${B2() ? 'words' : 'abc'}">${songLines(ctx.unit)}</div>`;   // abc = 알파벳 노래(26줄 뒤 마무리 줄은 가운데)
 };
-// 전체 부르기: 반주(music/<bgm>.mp3)가 있으면 그 위에 줄마다 소리, 없으면 1.2초 박자로 이어 붙인다. 줄과 글자 카드에 차례로 불
+// 전체 부르기: 반주(music/<bgm>.mp3, 없으면 song_backing)가 있으면 그 위에 줄마다 소리, 없으면 1.2초 박자로 이어 붙인다. 줄과 글자 카드에 차례로 불
 async function songPlay() {
   Sound.unlock(); stopSeq();
-  const sg = App.units[App.u].show.song, beat = await chantTrack(sg.bgm);
+  const sg = App.units[App.u].show.song, beat = await chantTrack(sg.bgm || 'song_backing');
   const items = sg.lines.map((ln, i) => { const el = document.querySelector(`.song-line[data-i="${i}"]`); return { id: ln.audio, text: ln.text, el, gap: 300, beat: beat ? 0 : CHANT_BEAT, before: () => el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }) }; });
   await playSeq(items); chantTrackOff();
 }
@@ -619,16 +660,17 @@ function huntButtons(ctx, r, seed) {
   const others = shuffle(unitWords(ctx.unit).filter((w) => !r.words.includes(w) && (r.letter ? letterOf(w) !== r.letter : familyOf(w) !== r.family)), seed).slice(0, 3);
   return shuffle(r.words.concat(others), seed + 7).map((w) => `<button class="hunt-w ${r.letter ? letterCls(letterOf(w)) : ''}" data-w="${esc(w)}" onclick="huntPick(this)">${esc(w)}</button>`).join('');
 }
+function huntSound(r) { return r.letter ? letterSound(r.letter) : famSound(r.family); }   // 라운드의 소리 (글자 또는 가족)
 function huntRoundHtml(ctx, i) {
   const r = ctx.unit.show.hunt.rounds[i];
   return `<div class="hunt-scene">${pic(r.scene, '', 'scene')}</div>
-    <div class="hunt-side"><div class="hunt-q say" data-say="sound_${esc(r.letter || famVowel(r.family))}" data-text="${esc(letterSound(r.letter || famVowel(r.family)).text)}">Find the ${r.letter ? `<b class="${letterCls(r.letter)}">${r.letter}</b> things` : `<b class="fam-big ${famCls(r.family, ctx.unit)}">${famHtml(r.family)}</b> words`}!</div><div class="hunt-ws">${huntButtons(ctx, r, i + 11)}</div></div>`;
+    <div class="hunt-side"><div class="hunt-q say" data-say="${esc(huntSound(r).id)}" data-text="${esc(huntSound(r).text)}">Find the ${r.letter ? `<b class="${letterCls(r.letter)}">${r.letter}</b> things` : `<b class="fam-big ${famCls(r.family, ctx.unit)}">${famHtml(r.family)}</b> words`}!</div><div class="hunt-ws">${huntButtons(ctx, r, i + 11)}</div></div>`;
 }
 PAGES.word_hunt = (ctx) => {
   const rounds = ctx.unit.show.hunt.rounds;
   if (ctx.print) {   // 인쇄: 라운드 전부(장면 + 찾을 단어 ☐)
     return instr(1, 'Find the things.', '장면에서 그 글자로 시작하는 것을 찾아 ☐ 에 표시해요') +
-      `<div class="hunt-print">${rounds.map((r, i) => `<div class="hp"><div class="hp-scene">${pic(r.scene, '', 'scene')}</div><div class="hp-side"><b>${i + 1}. Find the <span class="${r.letter ? letterCls(r.letter) : 'vowel'}">${r.letter || '-' + r.family}</span> ${r.letter ? 'things' : 'words'}!</b>${r.words.map((w) => `<span class="hp-w">☐ ${esc(w)}</span>`).join('')}</div></div>`).join('')}</div>`;
+      `<div class="hunt-print">${rounds.map((r, i) => `<div class="hp"><div class="hp-scene">${pic(r.scene, '', 'scene')}</div><div class="hp-side"><b>${i + 1}. Find the <span class="${r.letter ? letterCls(r.letter) : 'fam-big ' + famCls(r.family)}">${r.letter || famHtml(r.family)}</span> ${r.letter ? 'things' : 'words'}!</b>${r.words.map((w) => `<span class="hp-w">☐ ${esc(w)}</span>`).join('')}</div></div>`).join('')}</div>`;
   }
   HUNT.i = 0; HUNT.found = 0; HUNT.score = 0;
   return instr(1, 'Word hunt!', B2() ? '소리를 듣고, 장면에서 그 가족 단어를 찾아 눌러요' : '글자 소리를 듣고, 장면에서 그 소리로 시작하는 것을 찾아 단어를 눌러요') +
@@ -642,7 +684,7 @@ async function huntRound() {
   const r = rounds[HUNT.i]; HUNT.found = 0;
   $('hunt').innerHTML = huntRoundHtml({ unit }, HUNT.i);
   $('huntRound').textContent = `${HUNT.i + 1} / ${rounds.length}`; $('huntStars').textContent = '⭐'.repeat(HUNT.score); $('huntMsg').textContent = '';
-  await sleep(300); const ch = r.letter || famVowel(r.family); Sound.play(letterSound(ch).id, letterSound(ch).text);
+  await sleep(300); const hs = huntSound(r); Sound.play(hs.id, hs.text);
 }
 async function huntPick(el) {
   const rounds = App.units[App.u].show.hunt.rounds, r = rounds[HUNT.i]; if (!r || el.classList.contains('ok')) return;
@@ -691,15 +733,18 @@ PAGES.certificate = (ctx) => {
   // 친구마다 있는 자세 중 기뻐하는 것 (cheering → happy → ref). 없는 그림을 부르지 않는다
   const pose = (id) => ['cheering', 'happy', 'ref'].find((p) => (App.book.characters[id].poses || []).includes(p)) || 'ref';
   const chars = Object.keys(App.book.characters).map((id) => `<span class="pic cert-char"><img src="${artSrc('char_' + id + '_' + pose(id))}" alt="${esc(App.book.characters[id].name)}" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${artSrc('char_' + id + '_ref')}'}else picFallback(this)"></span>`).join('');
-  const az = B2() ? Object.keys(App.book.families).map((f) => `<span class="famc">${famHtml(f)}</span>`).join('') : Object.keys(App.book.letters).map((l) => `<span class="${letterCls(l)}">${l.toUpperCase()}${l}</span>`).join('');
-  const form = ctx.print ? '' : `<div class="cert-form print-hide"><input id="certName" placeholder="이름 (영어)" value="${esc(name)}" oninput="certName(this.value)"><button class="btn small" onclick="certPrint()">🖨 인쇄</button></div>`;
-  return form + `<div class="cert"><div class="cert-ribbon">${esc(App.book.series)} ${App.book.book}</div><h1>${esc(c.title)}</h1>
+  const az = c.series ? certBooks(c) : B2() ? Object.keys(App.book.families).map((f) => `<span class="famc">${famHtml(f)}</span>`).join('') : Object.keys(App.book.letters).map((l) => `<span class="${letterCls(l)}">${l.toUpperCase()}${l}</span>`).join('');
+  const song = c.music && !ctx.print ? `<button class="btn orange small main-play" data-music="${esc(c.music)}" hidden onclick="stopSeq();Sound.music('${esc(c.music)}')">♪ Pop! Phonics Song</button>` : '';
+  const form = ctx.print ? '' : `<div class="cert-form print-hide"><input id="certName" placeholder="이름 (영어)" value="${esc(name)}" oninput="certName(this.value)"><button class="btn small" onclick="certPrint()">🖨 인쇄</button>${song}</div>`;
+  return form + `<div class="cert${c.series ? ' series' : ''}"><div class="cert-ribbon">${esc(App.book.series)} ${c.series ? '1–' + App.book.book : App.book.book}</div><h1>${esc(c.title)}</h1>
     <div class="cert-az">${az}</div>
     <div class="cert-name"><span id="certNameOut">${esc(name) || '&nbsp;'}</span></div>
     <div class="cert-text">${esc(c.text)}</div><div class="cert-ko">${esc(c.text_ko || '')}</div>
     <div class="cert-chars">${chars}</div>
     <div class="cert-foot"><span>Date <i></i></span><span>Teacher <i></i></span></div></div>`;
 };
+// 시리즈 수료증의 권 띠: books.json 의 권 이름 (Pop! Phonics 1 · Alphabet Sounds …)
+function certBooks(c) { return (c.books || App.books.map((b) => b.n)).map((n) => { const b = (App.books || []).find((x) => x.n === n) || { n }; return `<span class="cert-bk b${n}"><b>${n}</b>${esc(b.subtitle || b.title || '')}</span>`; }).join(''); }
 function certName(v) { const o = $('certNameOut'); if (o) o.textContent = v || ' '; }
 function certPrint() { const v = $('certName')?.value || ''; window.open(`print.html?b=${App.b}&u=${App.u}&p=${App.p}&name=${encodeURIComponent(v)}${bkParam()}`, '_blank'); }
 
@@ -713,17 +758,33 @@ function wordMark(w) { return B2() ? wordFamHtml(w) : wordHtml(w, letterOf(w)); 
 function famTag(f, unit, cls = '') { return `<span class="fam ${famCls(f, unit)} ${cls}">${famHtml(f)}</span>`; }
 
 // 합치기: 가족 하나. 단어마다 글자 타일이 떨어져 있다가 ▶ 를 누르면 낱소리와 함께 붙고 단어 소리·그림
+// 3·4권은 words[w].chunks 로 소리 덩어리 타일(sh·i·p, c·a·p·e — 마법 e 의 끝 e 는 흐리게, a 와 같은 덩어리)
+// 가족: page.family(하나) · page.families(여럿, 3권 ["ck","ng"]) · 둘 다 없으면 유닛 가족 전부. 단어가 7개 넘으면 줄을 촘촘히(.many)
+function blendFams(ctx) { return ctx.page.families && ctx.page.families.length ? ctx.page.families : ctx.page.family ? [ctx.page.family] : unitFamilies(ctx.unit); }
+function blendWords(ctx) { return blendFams(ctx).flatMap((f) => ((ctx.unit.words && ctx.unit.words[f]) || famWords(f)).map((w) => [w, f])); }
 PAGES.blend = (ctx) => {
-  const f = ctx.page.family || unitFamilies(ctx.unit)[0], ws = (ctx.unit.words && ctx.unit.words[f]) || famWords(f);
-  const rows = ws.map((w) => blendRow(w, f, ctx.unit)).join('');
-  return instr(1, App.book.instructions.blend_read || 'Blend and read.', '▶ 를 누르면 글자 소리가 하나씩 나고 합쳐져 단어가 돼요. 따라 말해요') +
-    `<div class="blend-head"><span class="fam-big ${famCls(f, ctx.unit)}">${famHtml(f)}</span><span class="fam-say say" data-say="sound_${esc(famVowel(f))}" data-text="${esc(letterSound(famVowel(f)).text)}">🔊 /${esc(letterSound(famVowel(f)).text)}/</span><button class="btn orange main-play print-hide" onclick="blendAll()">▶ Blend all</button></div>` +
-    `<div class="blend-rows">${rows}</div>`;
+  const fs = blendFams(ctx), ws = blendWords(ctx);
+  const rows = blendRowsHtml(ws, ctx.unit, fs.length > 1);
+  return instr(1, App.book.instructions.blend_read || 'Blend and read.', '▶ 를 누르면 소리가 하나씩 나고 합쳐져 단어가 돼요. 따라 말해요') +
+    blendHead(fs, ctx.unit) + `<div class="blend-rows ${ws.length > 6 ? 'many' : ''}">${rows}</div>`;
 };
-function blendRow(w, f, unit) {
-  const tiles = w.split('').map((ch, k) => `<span class="tile ${App.book.vowels && App.book.vowels[ch] ? 'vowel' : ''}" data-k="${k}">${esc(ch)}</span>`).join('');
-  return `<div class="blend-row ${famCls(f, unit)}" data-w="${esc(w)}"><button class="spk print-hide" onclick="blendPlay(this.closest('.blend-row'))" title="합치기">▶</button>
-    <div class="tiles">${tiles}</div><div class="joined say" data-say="word_${esc(w)}" data-text="${esc(w)}">${wordFamHtml(w, f)}</div>
+// 줄들: 가족이 여럿이면 가족마다 무리로 나눈다 (줄 왼쪽에 가족 색 띠 + 가족 꼬리표, 무리 사이 간격)
+function blendRowsHtml(ws, unit, grouped) {
+  return ws.map(([w, f], i) => { const first = grouped && (i === 0 || ws[i - 1][1] !== f); return blendRow(w, f, unit, grouped, first); }).join('');
+}
+// 합치기 쪽 머리: 가족 글자 크게 + 🔊 가족 소리 (2권 모음 /æ/, 3·4권 /ʃ/) + ▶ Blend all
+function blendHead(fs, unit, big) {
+  const one = (f) => { const s = famSound(f), lab = famKind(f) ? (famIpa(f) || famSay(f)) : s.text; return `<span class="fam-big ${famCls(f, unit)}">${famHtml(f)}</span><span class="fam-say say" data-say="${esc(s.id)}" data-text="${esc(s.text)}">🔊 /${esc(lab)}/</span>`; };
+  return `<div class="blend-head ${[].concat(fs).length > 2 ? 'multi' : ''}">${[].concat(fs).map(one).join('')}<button class="btn orange ${big ? 'big ' : ''}main-play print-hide" onclick="blendAll()">▶ Blend all</button></div>`;
+}
+// 글자(덩어리) 타일 줄: 2권은 글자마다, 3·4권은 chunks 덩어리마다 (data-k = 덩어리 번호)
+function tilesHtml(w) {
+  const ts = chunkTiles(w), ch = wordChunks(w);
+  return `<div class="tiles n${ts.length}">${ts.map((t) => `<span class="tile${(ch ? isVowelChunk(ch[t.k]) : App.book.vowels && App.book.vowels[t.t]) ? ' vowel' : ''}${t.t.length > 1 ? ' w2' : ''}${t.me ? ' me' : ''}${t.silent ? ' silent' : ''}" data-k="${t.k}">${esc(t.t)}</span>`).join('')}</div>`;
+}
+function blendRow(w, f, unit, grouped, first) {
+  return `<div class="blend-row ${famCls(f, unit)}${grouped ? ' grp' : ''}${first ? ' grp-first' : ''}" data-w="${esc(w)}">${first ? `<span class="grp-tag">${famHtml(f)}</span>` : ''}<button class="spk print-hide" onclick="blendPlay(this.closest('.blend-row'))" title="합치기">▶</button>
+    ${tilesHtml(w)}<div class="joined say" data-say="word_${esc(w)}" data-text="${esc(w)}">${wordFamHtml(w, f)}</div>
     <div class="bpic say" data-say="word_${esc(w)}" data-text="${esc(w)}">${pic('word_' + w, '', w)}</div></div>`;
 }
 // 소리 파일이 있는지 (한 번 물어보고 기억) — blend_<word> 가 있으면 그걸 쓰고, 없으면 낱소리 + 단어
@@ -736,19 +797,19 @@ async function audioExists(id) {
 let blendToken = 0;
 async function blendPlay(row) {
   if (!row) return; Sound.unlock(); stopSeq();
-  const my = ++blendToken, w = row.dataset.w, tiles = [...row.querySelectorAll('.tile')];
+  const my = ++blendToken, w = row.dataset.w, tiles = [...row.querySelectorAll('.tile')], ch = wordChunks(w) || w.split('');
   row.classList.remove('joined', 'done'); tiles.forEach((t) => t.classList.remove('hl'));
-  const hit = (k) => { tiles.forEach((t, j) => t.classList.toggle('hl', j === k)); if (k >= 0) Sound.sfx('tap'); };
+  const hit = (k) => { tiles.forEach((t) => t.classList.toggle('hl', +t.dataset.k === k)); if (k >= 0) Sound.sfx('tap'); };   // 덩어리 k 의 타일 전부 (a_e 는 a 와 끝 e 같이)
   if (await audioExists('blend_' + w)) {
     // 합치기 음성 하나: 길이를 재서 타일 불을 그 길이에 맞춰 차례로, 마지막 1/4 에서 붙인다
     const el = new Audio(ASSETS + 'audio/blend_' + w + '.mp3');
     await new Promise((res) => { el.onloadedmetadata = res; el.onerror = res; setTimeout(res, 1500); });
-    const d = (el.duration && isFinite(el.duration) ? el.duration : 2.4) * 1000, n = tiles.length;
-    tiles.forEach((t, k) => setTimeout(() => { if (my === blendToken) hit(k); }, d * 0.75 * k / n));
+    const d = (el.duration && isFinite(el.duration) ? el.duration : 2.4) * 1000, n = ch.length;
+    ch.forEach((c, k) => setTimeout(() => { if (my === blendToken) hit(k); }, d * 0.75 * k / n));
     setTimeout(() => { if (my === blendToken) { hit(-1); row.classList.add('joined'); } }, d * 0.72);
-    await Sound.play('blend_' + w, w.split('').join(' ') + ', ' + w);
+    await Sound.play('blend_' + w, ch.map((c, k) => chunkSound(c, chunkIpa(w, k)).text).join(' ') + ', ' + w);
   } else {
-    const items = w.split('').map((ch, k) => ({ ...letterSound(ch), gap: 260, before: () => hit(k) }));
+    const items = ch.flatMap((c, k) => chunkItems(c, chunkIpa(w, k)).map((s) => ({ ...s, gap: 260, before: () => hit(k) })));
     if (!(await playSeq(items))) return;
     hit(-1); row.classList.add('joined'); Sound.sfx('pop'); await sleep(350);
     await Sound.play('word_' + w, w);
@@ -760,7 +821,7 @@ async function blendAll() { for (const row of document.querySelectorAll('.blend-
 // 단어 가족: 두 가족 단어 전부(단어 카드) + 챈트(1.2초 박자) + 읽고 그림 잇기
 PAGES.family_words = (ctx) => {
   const fs = unitFamilies(ctx.unit), all = unitWords(ctx.unit);
-  const rows = fs.map((f) => `<div class="fw-row ${famCls(f, ctx.unit)}">${famTag(f, ctx.unit)}${((ctx.unit.words && ctx.unit.words[f]) || famWords(f)).map((w) => `<span class="fw say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-w="${esc(w)}" onclick="fwPick(event,this)">${wordFamHtml(w, f)}</span>`).join('')}</div>`).join('');
+  const rows = fs.map((f) => `<div class="fw-row ${famCls(f, ctx.unit)}" data-f="${esc(f)}">${famTag(f, ctx.unit)}${((ctx.unit.words && ctx.unit.words[f]) || famWords(f)).map((w) => `<span class="fw say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-w="${esc(w)}" onclick="fwPick(event,this)">${wordFamHtml(w, f)}</span>`).join('')}</div>`).join('');
   const pics = shuffle(all, 3 + ctx.u).slice(0, 10).map((w) => `<div class="fw-pic" data-w="${esc(w)}" onclick="fwDrop(this)">${pic('word_' + w, '', w)}<div class="line"></div></div>`).join('');
   return instr(1, App.book.instructions.read_match || 'Read and match.', '단어를 읽어요. ♪ 챈트는 박자에 맞춰 단어를 이어 읽어요') +
     `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="famChant()">♪ ${esc(App.book.instructions.word_chant || 'Word chant')}</button></div>` +
@@ -775,9 +836,9 @@ function fwDrop(el) {
   else { el.classList.add('no'); Sound.sfx('no'); setTimeout(() => el.classList.remove('no'), 500); }
 }
 async function famChant() {
-  Sound.unlock(); const beat = (await chantTrack('chant_word')) || CHANT_BEAT, items = [];
+  Sound.unlock(); const beat = (await chantTrack('chant_beat')) || CHANT_BEAT, items = [];
   for (const row of document.querySelectorAll('.fw-row')) {
-    const f = row.querySelector('.fam'); items.push({ id: 'sound_' + famVowel(f.textContent.replace('-', '')), text: f.textContent.replace('-', ''), el: f, beat });
+    const f = row.dataset.f; items.push({ ...famSound(f), el: row.querySelector('.fam'), beat });
     for (const w of row.querySelectorAll('.fw')) items.push({ id: 'word_' + w.dataset.w, text: w.dataset.w, el: w, beat });
   }
   await playSeq(items); chantTrackOff();
@@ -819,27 +880,37 @@ function matchPick2(el) {
   if (!M.l) return;
   if (el.dataset.w === M.l) { el.classList.add('done'); document.querySelector(`#match .it[data-l="${M.l}"]`)?.classList.add('done'); Sound.sfx('ok'); Sound.play('word_' + M.l, M.l); M.l = null; } else { el.classList.add('no'); Sound.sfx('no'); setTimeout(() => el.classList.remove('no'), 500); }
 }
-// 빠진 글자 상자: missing 번째 글자가 빈 칸. 화면에서는 누르면 글자가 들어가고 소리
+// 빠진 글자 상자: missing 번째 글자가 빈 칸(없으면 1). 화면에서는 누르면 글자가 들어가고 소리
+// 3·4권(chunks 가 있는 단어)은 상자가 소리 덩어리마다(sh 는 넓은 상자 하나)이고 missing 은 덩어리 번호 — 없으면 가족 덩어리(ship → sh)
 function missingBoxes(w, miss, cls = '') {
-  return `<div class="boxes ${cls}">${w.split('').map((ch, j) => j === miss ? `<span class="blank" onclick="this.textContent='${ch}';this.classList.add('ok');Sound.unlock();Sound.play('${letterSound(ch).id}','${esc(letterSound(ch).text)}')"></span>` : `<span>${esc(ch)}</span>`).join('')}</div>`;
+  const ch = wordChunks(w);
+  if (miss == null) miss = ch ? Math.max(0, ch.indexOf(famKey(familyOf(w)))) : 1;
+  const ts = chunkTiles(w);
+  return `<div class="boxes n${ts.length} ${cls}">${ts.map((t) => { const c = `${t.t.length > 1 ? 'w2' : ''}${t.silent ? ' silent' : ''}`;
+    return t.k === miss ? `<span class="blank ${c}" onclick="this.textContent='${esc(t.t)}';this.classList.add('ok');chunkPlay('${esc(ch ? ch[t.k] : t.t)}','${esc(ch ? chunkIpa(w, t.k) : '')}')"></span>` : `<span class="${c}">${esc(t.t)}</span>`; }).join('')}</div>`;
 }
-function writeItems2(c) { return c.write.map((it) => `<div class="write-it w2">${pic('word_' + it.word, '', it.word)}${missingBoxes(it.word, it.missing ?? 1)}</div>`).join(''); }
+function writeItems2(c) { return c.write.map((it) => `<div class="write-it w2">${pic('word_' + it.word, '', it.word)}${missingBoxes(it.word, it.missing)}</div>`).join(''); }
 function checkBody2(ctx, c) {
   return instr('A', App.book.instructions.read_circle || 'Read and circle.', '단어를 읽고 맞는 그림에 동그라미') + `<div class="check-sec rc">${c.read_circle.map((it, i) => `<div class="lc-row">${rcRow(it, i)}</div>`).join('')}</div>` +
     instr('B', App.book.instructions.read_match || 'Read and match.', '단어를 누르고 맞는 그림을 눌러요') + matchHtml2(c) +
-    instr('C', 'Write the missing letter.', '빠진 글자를 써요') + `<div class="write-row w2 g4">${writeItems2(c)}</div>`;
+    instr('C', c.write.some((it) => (wordChunks(it.word) || []).some((x) => x.length > 1)) ? 'Write the missing letters.' : 'Write the missing letter.', '빠진 글자를 써요') + `<div class="write-row w2 g4">${writeItems2(c)}</div>`;
 }
 
 // ---------- 2권 워크북 ----------
+// 가족 분류 상자: sort = {가족: [단어]} — 상자에 들어갈 단어를 data-ws 로 (가족이 아닌 묶음도 된다)
+function famSortHtml(sort, pool, unit) {
+  return `<div class="sort rv fam-sort"><div class="pool" id="sortPool" style="grid-column:1/-1">${pool.map((w) => `<span class="wd" onclick="sortPick(this)" data-w="${esc(w)}">${esc(w)}</span>`).join('')}</div>${Object.keys(sort).map((f) => `<div class="bin ${famCls(f, unit)}" data-l="${esc(f)}" data-ws="${esc(sort[f].join(' '))}" onclick="sortDrop(this)"><h4>${famHtml(f)}</h4><div class="in"></div></div>`).join('')}</div>`;
+}
 PAGES.wb_blend = (ctx) => {
   const items = (ctx.unit.workbook_data?.blend || unitWords(ctx.unit).slice(0, 8).map((w, i) => ({ word: w, missing: i % 3 })));
-  return instr('A', 'Write the missing letter.', '그림을 보고 빠진 글자를 써요 (화면에서는 빈 칸을 누르면 글자가 나와요)') +
-    `<div class="write-row w2 g4">${items.map((it) => `<div class="write-it w2">${pic('word_' + it.word, '', it.word)}${missingBoxes(it.word, it.missing ?? 1)}</div>`).join('')}</div>`;
+  const many = items.some((it) => (wordChunks(it.word) || []).some((c) => c.length > 1));   // 3·4권: 빈 칸에 두 글자(sh)가 들어갈 수 있다
+  return instr('A', many ? (App.book.instructions.write_letters || App.book.instructions.write_pair || 'Write the missing letters.') : 'Write the missing letter.', many ? '그림을 보고 빈 칸에 들어갈 글자(짝꿍 글자)를 써요 (화면에서는 빈 칸을 누르면 나와요)' : '그림을 보고 빠진 글자를 써요 (화면에서는 빈 칸을 누르면 글자가 나와요)') +
+    `<div class="write-row w2 g4">${items.map((it) => `<div class="write-it w2">${pic('word_' + it.word, '', it.word)}${missingBoxes(it.word, it.missing)}</div>`).join('')}</div>`;
 };
 PAGES.wb_family = (ctx) => {
   const fam = ctx.unit.workbook_data?.family || Object.fromEntries(unitFamilies(ctx.unit).map((f) => [f, ((ctx.unit.words && ctx.unit.words[f]) || famWords(f)).slice(0, 4)]));
   const pool = shuffle(Object.values(fam).flat(), 5 + ctx.u);
-  const sortHtml = `<div class="sort rv fam-sort"><div class="pool" id="sortPool" style="grid-column:1/-1">${pool.map((w) => `<span class="wd" onclick="sortPick(this)" data-w="${esc(w)}">${esc(w)}</span>`).join('')}</div>${Object.keys(fam).map((f) => `<div class="bin ${famCls(f, ctx.unit)}" data-l="${f}" onclick="sortDrop(this)"><h4>${famHtml(f)}</h4><div class="in"></div></div>`).join('')}</div>`;
+  const sortHtml = famSortHtml(fam, pool, ctx.unit);
   const pairs = shuffle(unitWords(ctx.unit), 9 + ctx.u).slice(0, 4), right = shuffle(pairs, 2 + ctx.u);
   const match = `<div class="match m2" id="match"><div class="col">${pairs.map((w) => `<div class="it wd" data-l="${w}" onclick="matchPick2(this)">${wordFamHtml(w)}</div>`).join('')}</div><div class="col">${right.map((w) => `<div class="it" data-w="${w}" onclick="matchPick2(this)">${pic('word_' + w, '', w)}</div>`).join('')}</div></div>`;
   return instr('B', 'Sort the words.', '단어를 눌러 가족 상자에 넣어요') + sortHtml + instr('C', 'Read and match.', '단어를 읽고 맞는 그림과 이어요') + match;
@@ -867,8 +938,8 @@ PAGES.wb_review_blend = (ctx) => {
   const rv = ctx.unit.review, items = rv.blend || (rv.words || []).slice(0, 8).map((w, i) => ({ word: w, missing: i % 3 }));
   const sort = rv.sort || Object.fromEntries(unitFamilies(ctx.unit).slice(0, 4).map((f) => [f, famWords(f).slice(0, 2)]));
   const pool = shuffle(Object.values(sort).flat(), 5 + ctx.u);
-  const sortHtml = `<div class="sort rv fam-sort"><div class="pool" id="sortPool" style="grid-column:1/-1">${pool.map((w) => `<span class="wd" onclick="sortPick(this)" data-w="${esc(w)}">${esc(w)}</span>`).join('')}</div>${Object.keys(sort).map((f) => `<div class="bin ${famCls(f, ctx.unit)}" data-l="${f}" onclick="sortDrop(this)"><h4>${famHtml(f)}</h4><div class="in"></div></div>`).join('')}</div>`;
-  return instr('A', 'Write the missing letter.', '빠진 글자를 써요') + `<div class="write-row w2 g4">${items.map((it) => `<div class="write-it w2">${pic('word_' + it.word, '', it.word)}${missingBoxes(it.word, it.missing ?? 1)}</div>`).join('')}</div>` +
+  const sortHtml = famSortHtml(sort, pool, ctx.unit);
+  return instr('A', 'Write the missing letter.', '빠진 글자를 써요') + `<div class="write-row w2 g4">${items.map((it) => `<div class="write-it w2">${pic('word_' + it.word, '', it.word)}${missingBoxes(it.word, it.missing)}</div>`).join('')}</div>` +
     instr('B', 'Sort the words.', '단어를 눌러 가족 상자에 넣어요') + sortHtml;
 };
 
@@ -884,17 +955,100 @@ PAGES.bridge_path = (ctx) => {
 function bridgePick(el) { Sound.unlock(); const fs = bridgeOrder(); if (el.dataset.l === fs[pathNext]) { el.classList.add('done'); const w = famWords(el.dataset.l)[0]; Sound.play('word_' + w, w); pathNext++; if (pathNext === fs.length) { Sound.sfx('chime'); pathNext = 0; } } else Sound.sfx('no'); }
 
 // 모음 5개 소개 (2권 0유닛): 글자·소리·힌트·그 모음 가족의 단어 그림. "Listen to all"
+// 3권(가족에 모음 예시가 없음): 그 모음이 소리 덩어리로 든 단어(black → a). 4권(긴 모음): 소리는 글자 이름(name_a = /eɪ/)
 function vowelCards(unit) {
   const vs = App.book.vowels || {};
   return Object.entries(vs).map(([v, d]) => {
-    const fam = Object.keys(App.book.families || {}).find((f) => famVowel(f) === v), w = fam ? famWords(fam)[0] : '';
-    return `<div class="vw-card say" data-v="${v}" data-say="sound_${v}" data-text="${esc(d.sound)}"><div class="glyph vowel">${v.toUpperCase()}<small>${v}</small></div><div class="ipa">/${esc(d.sound)}/</div>${w ? `<div class="vw-pic">${pic('word_' + w, '', w)}</div><div class="vw-word">${wordFamHtml(w, fam)}</div>` : ''}<div class="hint">${esc(d.hint || '')}</div></div>`;
+    const fam = Object.keys(App.book.families || {}).find((f) => famVowel(f) === v && famWords(f).length);
+    let w = fam ? famWords(fam)[0] : '';
+    if (!w) w = Object.keys(App.book.words || {}).find((x) => (wordChunks(x) || []).includes(v) && !App.book.words[x].family) || Object.keys(App.book.words || {}).find((x) => (wordChunks(x) || []).includes(v)) || '';
+    const long = L(v) && L(v).sound !== d.sound, sid = long ? 'name_' + v : 'sound_' + v, stext = long ? v.toUpperCase() : d.sound;
+    const wh = w ? (fam ? wordFamHtml(w, fam) : chunkTiles(w).map((t) => wordChunks(w)[t.k] === v ? `<b class="vowel">${esc(t.t)}</b>` : esc(t.t)).join('')) : '';
+    return `<div class="vw-card say" data-v="${v}" data-say="${sid}" data-text="${esc(stext)}"><div class="glyph vowel">${v.toUpperCase()}<small>${v}</small></div><div class="ipa">/${esc(d.sound)}/</div>${w ? `<div class="vw-pic">${pic('word_' + w, '', w)}</div><div class="vw-word" data-w="${esc(w)}">${wh}</div>` : ''}<div class="hint">${esc(d.hint || '')}</div></div>`;
   }).join('');
 }
 PAGES.vowels = (ctx) => instr(1, App.book.instructions.listen_repeat, '모음 5개의 소리를 듣고 따라 말해요. 단어 속 빨간 글자가 모음이에요') +
   `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="vowelsAll()">▶ Listen to all</button></div><div class="vw-cards">${vowelCards(ctx.unit)}</div>`;
 async function vowelsAll() {
   Sound.unlock(); const items = [];
-  for (const c of document.querySelectorAll('.vw-card')) { const v = c.dataset.v, w = c.querySelector('.vw-word')?.textContent; items.push({ id: 'sound_' + v, text: c.dataset.text, el: c, gap: 300 }); if (w) items.push({ id: 'word_' + w, text: w, el: c.querySelector('.vw-word'), gap: 450 }); }
+  for (const c of document.querySelectorAll('.vw-card')) { const w = c.querySelector('.vw-word')?.dataset.w; items.push({ id: c.dataset.say, text: c.dataset.text, el: c, gap: 300 }); if (w) items.push({ id: 'word_' + w, text: w, el: c.querySelector('.vw-word'), gap: 450 }); }
   await playSeq(items);
 }
+
+// ========== 3·4권: 짝꿍 소리(digraph) · 마법 e(magic_e) — docs/13-book3-4.md 5절 ==========
+// 짝꿍 소리: 가족마다 두 글자 타일이 떨어져 있다가 ▶ 에 미끄러져 붙으며 하나의 소리로 빛난다(sound_<가족>, 없으면 합성 음성) → 그 가족 단어.
+// page.family 가 있으면 그 가족만, 없으면 유닛 가족 전부(4개까지). 4권 모음 짝 유닛(ai·ay …)도 같은 쪽.
+function digraphFams(ctx) { return ctx.page.family ? [ctx.page.family] : unitFamilies(ctx.unit).slice(0, 4); }
+function digraphParts(f) { const key = famKey(f); return key.includes('_') ? [key.split('_')[0], key.split('_')[1] || 'e'] : key.split(''); }
+function digraphWords(f, unit, n) { return ((unit.words && unit.words[f]) || famWords(f)).slice(0, n); }
+function digraphCard(f, unit, nWords, cols) {
+  const s = famSound(f), ws = digraphWords(f, unit, nWords);
+  const tiles = digraphParts(f).map((ch, i) => `<span class="dg-tile${isVowelChunk(ch) ? ' vowel' : ''}" data-i="${i}">${esc(ch)}</span>`).join('');
+  return `<div class="dg-card ${famCls(f, unit)}" data-f="${esc(f)}">
+    <div class="dg-top"><button class="spk big print-hide" onclick="digraphPlay(this.closest('.dg-card'))" title="두 글자 → 소리 하나">▶</button>
+      <div class="dg-tiles say" data-say="${esc(s.id)}" data-text="${esc(s.text)}">${tiles}</div>
+      <div class="dg-ipa say" data-say="${esc(s.id)}" data-text="${esc(s.text)}">/${esc(famIpa(f) || famSay(f))}/</div></div>
+    <div class="dg-words" style="grid-template-columns:repeat(${Math.max(1, Math.min(cols || ws.length, ws.length))},minmax(0,1fr))">${ws.map((w, i) => `<div class="dg-w say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-w="${esc(w)}"><span class="num">${i + 1}</span>${pic('word_' + w, '', w)}<div class="wd">${wordFamHtml(w, f)}</div></div>`).join('')}</div></div>`;
+}
+PAGES.digraph = (ctx) => {
+  const fs = digraphFams(ctx), n = fs.length;
+  // 가족이 하나면 단어 6개까지 3열, 둘이면 5개 한 줄, 셋 이상이면 3개씩 (2×2 칸)
+  const cards = fs.map((f) => n === 1 ? digraphCard(f, ctx.unit, 6, 3) : digraphCard(f, ctx.unit, n === 2 ? 5 : 3)).join('');
+  // 따라 쓰기: 가족마다 한 줄 (진한 글자 1 · 흐린 글자 2 · 빈 칸 3)
+  const trace = fs.map((f) => { const t = esc(famKey(f).replace('_', '')); return `<div class="trace-line dg-trace ${famCls(f, ctx.unit)}"><span class="solid">${t}</span><span>${t}</span><span>${t}</span><span class="box">${t}</span><span class="box">${t}</span><span class="box">${t}</span></div>`; }).join('');
+  return instr(1, App.book.instructions.team_sound || App.book.instructions.say_pair || App.book.instructions.listen_repeat || 'Listen and repeat.', '두 글자가 만나면 소리 하나! ▶ 를 누르면 글자가 붙으며 소리가 나요. 따라 말하고 단어를 읽어요') +
+    `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="digraphAll()">▶ Listen to all</button></div>` +
+    `<div class="dg-cards n${n}">${cards}</div>` +
+    instr(2, App.book.instructions.trace_write || 'Trace and write.', '두 글자를 붙여 따라 쓰고, 소리를 말해요') + `<div class="trace-rows dg-traces">${trace}</div>`;
+};
+// 타일을 떨어뜨렸다가 붙이고(빛남) 가족 소리 → 단어들
+async function digraphPlay(card) {
+  if (!card) return false; Sound.unlock(); stopSeq();
+  const my = seqToken;
+  card.classList.remove('joined'); await sleep(300); if (my !== seqToken) return false;
+  card.classList.add('joined'); Sound.sfx('pop'); await sleep(500); if (my !== seqToken) return false;
+  const s = famSound(card.dataset.f);
+  return playSeq([{ ...s, el: card.querySelector('.dg-tiles'), gap: 600 }, ...[...card.querySelectorAll('.dg-w')].map((el) => ({ id: 'word_' + el.dataset.w, text: el.dataset.w, el, gap: 350 }))]);
+}
+async function digraphAll() { for (const c of document.querySelectorAll('.dg-card')) { if (!(await digraphPlay(c))) return; await sleep(400); } }
+
+// 마법 e: unit.pairs [{from: "cap", to: "cape"}] 4~5개. 요정 이를 누르면 단어 끝에 반짝이는 e 가 붙어 cap → cape (word_cap → word_cape).
+// 모음은 제 이름 소리로 바뀐다(빛남). 다시 누르면 처음으로. 인쇄는 "cap + e →" 와 쓰기 줄.
+function fairyId() { return Object.keys(App.book.characters || {}).find((id) => /fairy/i.test(id + ' ' + (App.book.characters[id].name || ''))) || ''; }
+function fairyIcon() { const id = fairyId(); return id ? `<img src="${artSrc('char_' + id + '_ref')}" alt="Fairy E" onerror="this.replaceWith('🧚')">` : '🧚'; }
+function magicPairs(unit) { return (unit.pairs || []).filter((pr) => pr && pr.from && pr.to); }
+// 글자 타일: from 의 글자 + 끝에 숨은 e. 바뀌는 모음(from 의 마지막 모음)에 표시
+function magicLetters(pr) {
+  const from = pr.from, add = pr.to.startsWith(from) ? pr.to.slice(from.length) : '', vi = Math.max(from.search(/[aeiou](?!.*[aeiou])/), -1);
+  return `<span class="me-letters">${from.split('').map((ch, i) => `<span class="me-l${i === vi ? ' mv' : ''}">${esc(ch)}</span>`).join('')}${add ? `<span class="me-l me-e">${esc(add)}</span>` : ''}</span>` +
+    (add ? '' : `<span class="me-to">${esc(pr.to)}</span>`);   // e 를 붙이는 꼴이 아니면 새 단어를 통째로
+}
+function magicRow(pr, i) {
+  return `<div class="me-row" data-i="${i}" data-from="${esc(pr.from)}" data-to="${esc(pr.to)}">
+    <div class="me-pic from say" data-say="word_${esc(pr.from)}" data-text="${esc(pr.from)}"><span class="num">${i + 1}</span>${pic('word_' + pr.from, '', pr.from)}</div>
+    <div class="me-word">${magicLetters(pr)}</div>
+    <button class="me-fairy print-hide" onclick="magicTap(this.closest('.me-row'))" title="요정 이가 e 를 붙여요">${fairyIcon()}<b>+e</b></button>
+    <div class="me-plus screen-hide">+ e →</div><div class="w4 me-w4 screen-hide"></div>
+    <div class="me-pic to say" data-say="word_${esc(pr.to)}" data-text="${esc(pr.to)}">${pic('word_' + pr.to, '', pr.to)}</div></div>`;
+}
+function magicHead(unit, big) {
+  const f = unitFamilies(unit).find((x) => famKind(x) === 'magic_e'); if (!f) return '';
+  const s = famSound(f);
+  return `<div class="blend-head"><span class="fam-big ${famCls(f, unit)}">${famHtml(f)}</span><span class="fam-say say" data-say="${esc(s.id)}" data-text="${esc(s.text)}">🔊 /${esc(famIpa(f) || famSay(f))}/</span><button class="btn orange ${big ? 'big ' : ''}main-play print-hide" onclick="magicAll()">▶ Magic e!</button></div>`;
+}
+PAGES.magic_e = (ctx) => {
+  const prs = magicPairs(ctx.unit);
+  const head = magicHead(ctx.unit) || `<div class="print-hide"><button class="btn orange main-play" onclick="magicAll()">▶ Magic e!</button></div>`;
+  return instr(1, App.book.instructions.magic_e || 'Add the magic e!', ctx.print ? '끝에 e 를 붙이면 단어가 바뀌어요. 새 단어를 쓰고 읽어요' : '요정 이를 누르면 끝에 e 가 붙어요. 모음이 제 이름 소리로 바뀌어요 (cap → cape)') +
+    head + `<div class="me-rows n${prs.length}">${prs.map((pr, i) => magicRow(pr, i)).join('')}</div>`;
+};
+async function magicTap(row) {
+  if (!row) return false; Sound.unlock(); stopSeq();
+  const from = row.dataset.from, to = row.dataset.to;
+  if (row.classList.contains('magic')) { row.classList.remove('magic'); Sound.play('word_' + from, from); return true; }
+  if (!(await playSeq([{ id: 'word_' + from, text: from, el: row.querySelector('.me-pic.from'), gap: 250 }]))) return false;
+  row.classList.add('magic'); Sound.sfx('chime'); sparkle(row.querySelector('.me-word'));
+  await sleep(550);
+  return playSeq([{ id: 'word_' + to, text: to, el: row.querySelector('.me-pic.to'), gap: 300 }]);
+}
+async function magicAll() { const rows = [...document.querySelectorAll('.me-row')]; rows.forEach((r) => r.classList.remove('magic')); for (const r of rows) { if (!(await magicTap(r))) return; await sleep(500); } }

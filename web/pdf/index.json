@@ -141,6 +141,11 @@
  },
  {
   "book": 1,
+  "title": "Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
+  "file": "PopPhonics1_Answers.pdf"
+ },
+ {
+  "book": 1,
   "title": "이야기 안내서 (교사용)",
   "file": "PomiPhonics1_StoryGuide.pdf"
  },
@@ -293,6 +298,11 @@
   "book": 2,
   "title": "Unit Tests — 유닛별 시험지 + 정답지",
   "file": "PomiPhonics2_Tests_Units.pdf"
+ },
+ {
+  "book": 2,
+  "title": "Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
+  "file": "PopPhonics2_Answers.pdf"
  },
  {
   "book": 2,

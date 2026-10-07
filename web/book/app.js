@@ -1,4 +1,4 @@
-// Pomi Phonics 웹 교재 — 핵심: 내용 읽기, 쪽 넘기기, 소리(음성·배경음악 자동 줄이기·효과음), 공통 도우미.
+// Pop! Phonics 웹 교재 — 핵심: 내용 읽기, 쪽 넘기기, 소리(음성·배경음악 자동 줄이기·효과음), 공통 도우미.
 // 화면(index.html)과 인쇄(print.html)가 같이 쓴다. 프레임워크 없음.
 const PRINT = !!window.PRINT;
 // bk = 권 번호, dir = 그 권의 content 폴더('' = 1권 content/ 바로 아래, 'b2/' = 2권). books = content/books.json 의 권 목록
@@ -19,16 +19,28 @@ async function loadJSON(rel, root) {
 // 권 고르기: content/books.json 의 목록에서 bk 번째 권의 폴더를 잡고 그 book.json 을 읽는다. books.json 이 없으면 1권만.
 // 2권부터 book.json 에 letters 가 없으면 1권 것을 빌린다(낱소리·합치기에 쓴다).
 async function loadBook(bk) {
-  App.books = (await loadJSON('books.json', true)) || [{ n: 1, dir: '' }];
-  const info = App.books.find((x) => x.n === +bk) || App.books[0];
+  const list = (await loadJSON('books.json', true)) || [{ n: 1, dir: '' }];
+  // 내용(book.json)이 아직 없는 권(쓰는 중인 3·4권 등)은 목록에서 뺀다 — 1권은 늘 있다고 본다
+  const ok = await Promise.all(list.map((x) => (!x.dir ? true : contentExists(x.dir + 'book.json'))));
+  App.books = list.filter((x, i) => ok[i]);
+  const info = App.books.find((x) => x.n === +bk) || App.books[0] || { n: 1, dir: '' };
   App.bk = info.n; App.dir = info.dir || ''; App.units = {};
   App.book = await loadJSON('book.json');
   if (App.book && !App.book.letters && App.dir) { const b1 = await loadJSON('book.json', true); if (b1) App.book.letters = b1.letters; }
   return App.book;
 }
+// content 안 파일이 있는지 (HEAD 로 한 번)
+async function contentExists(rel) {
+  for (const b of (contentBase ? [contentBase] : CONTENT_BASES)) {
+    try { const r = await fetch(b + rel, { method: 'HEAD', cache: 'no-store' }); if (r.ok) return true; } catch (e) { /* 다음 후보 */ }
+  }
+  return false;
+}
 function bkParam(first) { return App.bk > 1 ? (first ? '?' : '&') + 'bk=' + App.bk : ''; }   // 주소에 붙일 권 표시 (1권은 없음)
+// 친구 말버릇 소리 id: 1권 catch_<id>, 2권부터 catch_b<권>_<id> (없으면 1권 것 → 합성 음성). data-say·data-alt 속성 글
+function catchAttrs(id) { return App.bk > 1 ? `data-say="catch_b${App.bk}_${esc(id)}" data-alt="catch_${esc(id)}"` : `data-say="catch_${esc(id)}"`; }
 function bkKey() { return App.bk > 1 ? 'b' + App.bk + '_' : ''; }                              // QR 파일 이름 앞붙이 (b2_sb_u01_p1)
-function bookLabel() { return App.book ? `${App.book.series} ${App.book.book}` : 'Pomi Phonics'; }
+function bookLabel() { return App.book ? `${App.book.series} ${App.book.book}` : 'Pop! Phonics'; }
 async function loadUnit(n) {
   if (!(n in App.units)) {
     const meta = App.book && App.book.units.find((x) => x.n === n);
@@ -53,7 +65,8 @@ function picFallback(img) {
 function videoSrc(id) { return ASSETS + 'video/' + id + '.mp4'; }
 
 // ---------- 소리 ----------
-// play(id, text): assets/audio/<id>.mp3 를 튼다. 파일이 아직 없으면 브라우저 합성 음성(임시)으로 text 를 읽는다.
+// play(id, text, dir): assets/<dir>/<id>.mp3 (기본 audio/) 를 튼다. 파일이 아직 없으면 브라우저 합성 음성(임시)으로 text 를 읽는다.
+// 돌려주는 약속(Promise)은 파일을 틀었으면 true, 파일이 없어 합성 음성·무음으로 넘어갔으면 false.
 // 음성이 나오는 동안 배경음악은 1/4 로 줄었다가 끝나면 돌아온다 (기획 확정 규칙).
 const Sound = {
   ctx: null, bgmEl: null, bgmId: '', bgmTarget: 0.45, cur: null, unlocked: false,
@@ -67,19 +80,26 @@ const Sound = {
     if (this.cur) { try { this.cur.el.pause(); } catch (e) {} const d = this.cur.done; this.cur = null; d(); }
     if (window.speechSynthesis) speechSynthesis.cancel();
   },
-  play(id, text) {
+  play(id, text, dir = 'audio/', alt) {   // alt = 첫 파일이 없을 때 대신 틀 파일 (예: 2권 말버릇 catch_b2_pip → 1권 catch_pip)
     return new Promise((resolve) => {
       this.stop();
-      const el = new Audio(ASSETS + 'audio/' + id + '.mp3');
-      let finished = false;
-      const done = () => { if (finished) return; finished = true; if (this.cur && this.cur.el === el) this.cur = null; this.duck(false); resolve(); };
+      const el = new Audio(ASSETS + dir + id + '.mp3');
+      let finished = false, cur = id, failed = '';
+      const done = (ok = true) => { if (finished) return; finished = true; if (this.cur && this.cur.el === el) this.cur = null; this.duck(false); resolve(ok); };
+      const miss = () => {
+        if (finished || failed === cur) return; failed = cur;   // 같은 파일의 실패(오류·재생 거절)는 한 번만
+        if (alt && cur !== alt) { cur = alt; el.src = ASSETS + dir + alt + '.mp3'; el.play().catch(miss); return; }
+        if (text) this.speak(text).then(() => done(false)); else done(false);
+      };
       this.cur = { el, done };
       this.duck(true);
-      el.onended = done;
-      el.onerror = () => { if (text) this.speak(text).then(done); else done(); };
-      el.play().catch(() => { if (text) this.speak(text).then(done); else done(); });
+      el.onended = () => done(true);
+      el.onerror = miss;
+      el.play().catch(miss);
     });
   },
+  // 음악 파일 한 번 (주제가·알파벳 노래): assets/music/<id>.mp3. 없으면 조용히 false
+  music(id) { return this.play(id, '', 'music/'); },
   speak(text) {
     return new Promise((res) => {
       if (!window.speechSynthesis) return res();
@@ -120,6 +140,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // 차례로 들려주기: items = [{id, text, el}] — el 에 .playing 을 붙였다 뗀다. 중간에 다른 소리를 누르면 멈춘다.
 // it.wait = 소리 없이 그만큼(ms) 기다린다(역할 읽기: 아이가 읽는 줄). it.beat = 소리 길이와 상관없이 이 간격(ms)마다 다음으로(챈트 박자).
+// it.music = 소리 대신 음악 파일(music/<이름>.mp3) 한 번 (없으면 바로 다음).
 let seqToken = 0;
 async function playSeq(items, gap = 450) {
   const my = ++seqToken;
@@ -128,7 +149,7 @@ async function playSeq(items, gap = 450) {
     if (it.el) it.el.classList.add('playing', 'hl');
     if (it.before) it.before();
     const t0 = performance.now();
-    if (it.wait) await sleep(it.wait); else await Sound.play(it.id, it.text);
+    if (it.wait) await sleep(it.wait); else if (it.music) await Sound.music(it.music); else await Sound.play(it.id, it.text);
     if (it.el) { it.el.classList.remove('playing'); setTimeout(() => it.el.classList.remove('hl'), 200); }
     if (it.after) it.after();
     if (it.beat) { const left = it.beat - (performance.now() - t0); if (left > 0) await sleep(left); }
@@ -145,7 +166,7 @@ document.addEventListener('click', (e) => {
   Sound.unlock();
   stopSeq();
   el.classList.add('playing'); setTimeout(() => el.classList.remove('playing'), 600);
-  Sound.play(el.dataset.say, el.dataset.text || '');
+  Sound.play(el.dataset.say, el.dataset.text || '', undefined, el.dataset.alt);
 });
 document.addEventListener('pointerdown', () => Sound.unlock(), { once: true });
 
@@ -186,9 +207,56 @@ function famVowel(f) { const d = App.book.families && App.book.families[f]; retu
 function famWords(f) { const d = App.book.families && App.book.families[f]; return (d && d.words) || []; }
 // 가족 색: 유닛 안에서 몇 번째 가족인지로 (fam-0 주황, fam-1 파랑, fam-2 초록, fam-3 보라)
 function famCls(f, unit) { const i = unitFamilies(unit || App.units[App.u] || {}).indexOf(f); return 'fam-' + (i < 0 ? 0 : i % 4); }
-function famHtml(f) { return `-<b class="vowel">${esc(famVowel(f))}</b>${esc(f.slice(f.indexOf(famVowel(f)) + 1))}`; }   // -<a>t (모음 빨강)
-// 단어에서 가족(끝소리) 부분을 굵게: cat → c<b>at</b>
-function wordFamHtml(w, f) { f = f || familyOf(w); const i = f ? w.lastIndexOf(f) : -1; if (i < 0) return esc(w); return esc(w.slice(0, i)) + `<b class="rime">${esc(f)}</b>` + esc(w.slice(i + f.length)); }
+// 3·4권 가족 종류: book.json families[f].kind — digraph(sh) · blend(bl) · final(-nd) · magic_e(a_e) · team(ai). 없으면 2권 끝소리 가족(-at)
+function famInfo(f) { return (App.book.families && App.book.families[f]) || {}; }
+function famKind(f) { return famInfo(f).kind || ''; }
+function famKey(f) { return String(f || '').replace(/^-/, ''); }   // 소리 id·덩어리에 쓰는 글자 (-nd → nd)
+function famHtml(f) {   // 2권 -<a>t (모음 빨강) · 3·4권 sh / -nd / <a>_e / <ai>
+  const k = famKind(f), key = famKey(f);
+  if (App.book.families && !App.book.families[f]) return /^[aeiou]$/.test(key) ? `<b class="vowel">${esc(key)}</b>` : esc(key);   // 가족이 아닌 묶음(짧은 모음 a 등)
+  if (!k) return `-<b class="vowel">${esc(famVowel(f))}</b>${esc(f.slice(f.indexOf(famVowel(f)) + 1))}`;
+  if (k === 'final') return `-${esc(key)}`;
+  if (k === 'magic_e') { const [v, e] = key.split('_'); return `<b class="vowel">${esc(v)}</b>_<b class="silent">${esc(e || 'e')}</b>`; }
+  if (k === 'team') return `<b class="vowel">${esc(key)}</b>`;
+  return `<b class="dg">${esc(key)}</b>`;
+}
+function famLabel(f) { const k = famKind(f); return famInfo(f).label || (!k || k === 'final' ? '-' + famKey(f) : famKey(f)); }   // 글자만 (도장·목록, 내용의 label 이 있으면 그것)
+// 짝꿍 소리 합성 음성용 글 (녹음 sound_<가족> 이 없을 때 임시). families[f].say 가 있으면 그것
+const FAM_SAY = { sh: 'shh', ch: 'ch', th: 'th', ck: 'k', ng: 'ng', wh: 'w', qu: 'kw', ph: 'f', a_e: 'ay', i_e: 'eye', o_e: 'oh', u_e: 'you', e_e: 'ee', ai: 'ay', ay: 'ay', ee: 'ee', ea: 'ee', oa: 'oh', ow: 'oh', oo: 'oo', ou: 'ow', ar: 'ar', or: 'or', er: 'er', ir: 'er', ur: 'er', oi: 'oy', oy: 'oy' };
+function famSay(f) { const key = famKey(f); return famInfo(f).say || FAM_SAY[key] || key.replace(/_/g, ''); }
+function famIpa(f) { return famInfo(f).sound || ''; }
+// 가족 소리 하나: 3·4권은 sound_<가족>(sound_sh), 2권은 모음 소리
+function famSound(f) { return famKind(f) ? { id: 'sound_' + famKey(f).replace(/^-/, ''), text: famSay(f) } : letterSound(famVowel(f)); }
+// ---------- 3·4권: 소리 덩어리 (words[w].chunks, 예 ship → sh·i·p, cape → c·a_e·p) ----------
+function wordChunks(w) { const d = App.book.words && App.book.words[w]; return d && Array.isArray(d.chunks) && d.chunks.length ? d.chunks : null; }
+// 글자 타일 (보이는 순서): 덩어리 번호 k. 마법 e(a_e)는 모음 자리에 a, 단어 끝에 흐린 e (같은 k) — c·a·p·e
+function chunkTiles(w) {
+  const ch = wordChunks(w); if (!ch) return w.split('').map((t, k) => ({ t, k }));
+  const out = [], tail = [];
+  ch.forEach((c, k) => { if (c.includes('_')) { const [v, e] = c.split('_'); out.push({ t: v, k, me: true }); tail.push({ t: e || 'e', k, me: true, silent: true }); } else out.push({ t: c, k }); });
+  return out.concat(tail);
+}
+// 덩어리 하나의 소리 (차례로 들려줄 것들): 낱글자 → 글자 소리 · 같은 글자 둘(ll) → 그 글자 · 가족(sh·a_e·ai) → sound_<덩어리>
+// · 그 밖(se·st)은 IPA 가 글자 하나의 소리와 같으면 그 글자(se /s/ → sound_s), 아니면 글자마다(st → /s/ /t/)
+function chunkItems(c, ipa) {
+  if (c.length === 1) return [letterSound(c)];
+  if (/^(.)\1$/.test(c)) return [letterSound(c[0])];
+  if (famInfo(c).kind || FAM_SAY[c]) return [{ id: 'sound_' + c, text: famSay(c) }];
+  const one = ipa && Object.keys(App.book.letters || {}).find((l) => L(l).sound === ipa && !L(l).final);
+  return one ? [letterSound(one)] : c.split('').map(letterSound);
+}
+function chunkSound(c, ipa) { return chunkItems(c, ipa)[0]; }
+function chunkIpa(w, k) { const d = App.book.words && App.book.words[w]; return (d && d.ipa && d.ipa[k]) || ''; }
+// 덩어리 소리 들려주기 (빈 칸 누르기 등)
+function chunkPlay(c, ipa) { Sound.unlock(); stopSeq(); playSeq(chunkItems(c, ipa).map((s) => ({ ...s, gap: 120 }))); }
+function isVowelChunk(c) { return /^[aeiou]$|^[aeiou]+(_e)?$|^[aeiou][wyr]$/.test(c); }   // 모음 덩어리 (a · ai · a_e · ar · ow)
+// 단어에서 가족 부분을 굵게: cat → c<b>at</b> · ship → <b>sh</b>ip · cape → c<b>a</b>p<b>e</b>(e 흐리게)
+function wordFamHtml(w, f) {
+  f = f || familyOf(w);
+  const ch = wordChunks(w), fk = ch && f ? ch.indexOf(famKey(f)) : -1;
+  if (fk >= 0) return chunkTiles(w).map((t) => t.k !== fk ? esc(t.t) : `<b class="rime${t.silent ? ' silent' : ''}">${esc(t.t)}</b>`).join('');
+  const i = f ? w.lastIndexOf(famKey(f)) : -1; if (i < 0) return esc(w); return esc(w.slice(0, i)) + `<b class="rime">${esc(famKey(f))}</b>` + esc(w.slice(i + famKey(f).length));
+}
 // 글자 하나의 소리 id·임시 글 (모음은 vowels, 나머지는 letters)
 function letterSound(ch) { const v = App.book.vowels && App.book.vowels[ch]; return v ? { id: 'sound_' + ch, text: v.sound } : L(ch) ? { id: 'sound_' + ch, text: soundText(ch) } : { id: 'sound_' + ch, text: ch }; }
 
@@ -213,7 +281,7 @@ function pageNo(b, u, p) {
 // 각 쪽 = { u: 'cover'|'front'|'back'|유닛 번호, p: 그 안의 번호, id(그림), lines, task, task_ko, title, bgm }. 유닛을 전부 읽은(loadUnit) 뒤에 부른다.
 function storyPages() {
   const sb = App.book.storybook; if (!sb) return [];
-  const out = [], bgm0 = sb.bgm || 'theme';
+  const out = [], bgm0 = sb.bgm || 'bgm_bright';   // 표지·앞뒤 쪽 배경음악 (content/music.md: 분위기 5곡 중 하나)
   out.push({ u: 'cover', p: 1, id: (sb.cover && sb.cover.id) || (bkKey() ? 'sb2_cover' : 'sb_cover'), lines: [], title: sb.title || 'Storybook', bgm: bgm0, cover: true });
   (sb.front || []).forEach((pg, i) => out.push({ u: 'front', p: i + 1, ...pg, title: sb.title, bgm: bgm0 }));
   for (const x of App.book.units) {

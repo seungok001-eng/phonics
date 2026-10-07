@@ -4,11 +4,11 @@
 #       python tools/pdf.py story      → 스토리북만
 #       python tools/pdf.py guides     → 교사용 이야기 안내서(..._StoryGuide.pdf, A4)·이야기 지도(..._StoryMap.pdf A3 가로, ..._StoryMap_A4.pdf 세로 2쪽)만
 #       python tools/pdf.py answers    → 교사용 정답지만 (..._Answers.pdf: 워크북 쪽 + 학생책 확인·복습 평가 쪽을 같은 배치로, A4 가로에 2쪽)
-#       python tools/pdf.py tests      → 시험지 묶음만 (PomiPhonics1_Tests_Units.pdf: 유닛마다 시험지+정답지 / _Tests_Review.pdf: 복습·전체 × 수준 × A/B + 정답지 + 말하기 체크리스트)
+#       python tools/pdf.py tests      → 시험지 묶음만 (PopPhonics1_Tests_Units.pdf: 유닛마다 시험지+정답지 / _Tests_Review.pdf: 복습·전체 × 수준 × A/B + 정답지 + 말하기 체크리스트)
 #       python tools/pdf.py --press    → 인쇄소용: 사방 3mm 도련 + 재단선 판형(A4 → 216×303mm, A5 가로 → 216×154mm) 을 web/pdf/press/ 에, 표지 PDF 도 함께
-#       python tools/pdf.py --book 2   → 2권(content/b2/): 파일 이름 PomiPhonics2_..., QR 이름 b2_..., 주소에 &bk=2. index.json 항목에 "book": 2
-# 결과: web/pdf/PomiPhonics1_SB_Unit01.pdf, ..._WB_Unit01.pdf, ..._Storybook.pdf, ..._Tests_*.pdf, web/pdf/index.json (홈페이지 목록용, 있던 목록에 합친다)
-#       web/pdf/press/ 에는 같은 이름 + PomiPhonics1_SB_Cover.pdf 등 표지
+#       python tools/pdf.py --book 2   → 2권(content/b2/): 파일 이름 PopPhonics2_..., QR 이름 b2_..., 주소에 &bk=2. index.json 항목에 "book": 2
+# 결과: web/pdf/PopPhonics1_SB_Unit01.pdf, ..._WB_Unit01.pdf, ..._Storybook.pdf, ..._Tests_*.pdf, web/pdf/index.json (홈페이지 목록용, 있던 목록에 합친다)
+#       web/pdf/press/ 에는 같은 이름 + PopPhonics1_SB_Cover.pdf 등 표지
 # 필요: pip install qrcode (한 번), 크롬 또는 엣지.
 import json, os, subprocess, sys, threading, time
 
@@ -131,7 +131,9 @@ def book_dir(bk):
     bp = os.path.join(ROOT, 'content', 'books.json')
     books = json.load(open(bp, encoding='utf-8')) if os.path.exists(bp) else [{'n': 1, 'dir': ''}]
     for x in books:
-        if x['n'] == bk: return x.get('dir', '')
+        if x['n'] == bk:
+            if not os.path.exists(os.path.join(ROOT, 'content', x.get('dir', ''), 'book.json')): raise SystemExit(f"{bk}권 내용(content/{x.get('dir', '')}book.json)이 아직 없다")
+            return x.get('dir', '')
     raise SystemExit(f'{bk}권이 content/books.json 에 없다')
 
 
@@ -152,7 +154,7 @@ def main():
     if not press:
         art = mid_art(); q += f'&art={art}' if art else ''   # 가정용 PDF 는 축소본 그림 (인쇄소용은 원본)
     qk = f'b{bk}_' if bk > 1 else ''                       # QR 이름 앞붙이 (web/book/app.js bkKey 와 같은 규칙)
-    pre = f'PomiPhonics{bk}'
+    pre = f'PopPhonics{bk}'                               # 시리즈 이름 Pop! Phonics (예전 파일은 PomiPhonics…)
     book = json.load(open(os.path.join(ROOT, 'content', cdir, 'book.json'), encoding='utf-8'))
     os.makedirs(out_dir, exist_ok=True)
     exe = browser(); srv = serve(); time.sleep(0.5)
@@ -219,10 +221,11 @@ def main():
     finally:
         srv.shutdown()
     # 목록: 있던 index.json 에 이번 결과를 합친다 (같은 파일 이름은 바꿔 넣고, 순서는 유닛 → 스토리북 → 시험지)
+    # 예전 이름(PomiPhonics…)의 같은 묶음은 새 이름이 생기면 목록에서 뺀다. 파일이 지워진 항목도 뺀다 (예전 PDF 파일은 손으로 지워도 된다)
     ip = os.path.join(out_dir, 'index.json')
     old = json.load(open(ip, encoding='utf-8')) if os.path.exists(ip) else []
     names = {e['file'] for e in index}
-    merged = [e for e in old if e['file'] not in names] + index
+    merged = [e for e in old if e['file'] not in names and e['file'].replace('PomiPhonics', 'PopPhonics') not in names and os.path.exists(os.path.join(out_dir, e['file']))] + index
     merged.sort(key=lambda e: (e.get('book', 1), 0 if '_SB_' in e['file'] or '_WB_' in e['file'] else 1 if 'Storybook' in e['file'] else 2 if 'Tests' in e['file'] or 'Answers' in e['file'] else 3, e['file']))
     json.dump(merged, open(ip, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 

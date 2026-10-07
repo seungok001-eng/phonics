@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>Pomi Phonics — 수업안</title>
+<title>Pop! Phonics — 수업안</title>
 <link rel="stylesheet" href="../assets/fonts/fonts.css">
 <style>
   :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --blue:#4FA3E0; }
@@ -25,6 +25,7 @@
   .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
   @page { size:A4; margin:0; }
   @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } }
+  body { font-variant-ligatures: none; }   /* 합자 끔 (fl·fi) */
 </style>
 </head>
 <body>
@@ -38,17 +39,25 @@ const BK = +(new URLSearchParams(location.search).get('bk') || 1); let DIR = '';
 async function get(rel, root) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + (root ? '' : DIR) + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
 async function getBook() { const books = (await get('books.json', true)) || [{ n: 1, dir: '' }]; const info = books.find((x) => x.n === BK) || books[0]; DIR = info.dir || ''; const book = await get('book.json'); if (book && !book.letters && DIR) { const b1 = await get('book.json', true); if (b1) book.letters = b1.letters; } return book; }
 const bkq = BK > 1 ? `&bk=${BK}` : '';   // 링크에 붙일 권 표시
+// 3·4권 가족 이름: sh · a_e · ai 는 그대로, 2권 끝소리 가족(-at)과 끝소리(-nd)는 앞에 - (내용의 label 이 있으면 그것)
+function famLab(book, f) { const d = (book.families || {})[f] || {}; return d.label || (!d.kind || d.kind === 'final' ? '-' + String(f).replace(/^-/, '') : f); }
+function famKindOf(book, f) { return ((book.families || {})[f] || {}).kind || ''; }
+// 쪽 번호: 앞 유닛들의 실제 쪽 수(읽은 유닛) — 없으면 기본(0유닛 4·복습 6·일반 8 / 워크북 0·2·4). 3·4권은 짝꿍 쪽이 더 있다
+const ALL = {};
+function pageNoOf(book, n, b, p) { let k = b === 'sb' ? 3 : 2; for (const x of book.units) { if (x.n === n) return k + p; const uj = ALL[x.n]; k += uj ? uj.lessons.reduce((a, l) => a + ((b === 'wb' ? l.workbook : l.pages) || []).length, 0) : b === 'sb' ? (x.n === 0 ? 4 : x.review ? 6 : 8) : (x.n === 0 ? 0 : x.review ? 2 : 4); } return k + p; }
+
 (async () => {
   const book = await getBook(), unit = book && await get(`units/unit${String(U).padStart(2, '0')}.json`);
   if (!unit) { document.getElementById('out').textContent = '유닛 없음'; return; }
+  await Promise.all(book.units.map(async (x) => { if (x.ready !== false) ALL[x.n] = x.n === U ? unit : await get(`units/unit${String(x.n).padStart(2, '0')}.json`); }));   // 쪽 번호용
   document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false).map((x) => `<a href="?u=${x.n}${bkq}">U${x.n}</a>`).join(' ');
   const L = (l) => book.letters[l];
   const B2 = !!(book.families && unit.families && unit.families.length);   // 2권 일반 유닛: 단어 가족·합치기
   if (B2) { document.getElementById('out').innerHTML = plan2(book, unit); return; }
   const words = unit.letters.flatMap((l) => L(l).words);
   const site = (b, p) => `<span class="tag">웹 ${b === 'sb' ? '학생책' : '워크북'} ${p}쪽</span>`;
-  const sbPages = unit.lessons.flatMap((ls) => ls.pages), sbIdx = (type, half) => sbPages.findIndex((p) => p.type === type && (!half || p.half === half)) + 1;
-  const pageNo = (b, p) => { let n = b === 'sb' ? 3 : 2; for (const x of book.units) { if (x.n === U) return n + p; n += b === 'sb' ? (x.n === 0 ? 4 : x.review ? 6 : 8) : (x.n === 0 ? 0 : x.review ? 2 : 4); } return n + p; };
+  const sbPages = unit.lessons.flatMap((ls) => ls.pages), sbIdx = (type, half) => sbPages.findIndex((p) => p.type === type && (!half || (p.half || 1) === half)) + 1;   // 스토리 첫 쪽은 half 가 없으면 1
+  const pageNo = (b, p) => pageNoOf(book, U, b, p);
   const sbp = (type, half) => { const i = sbIdx(type, half); return i ? `SB p.${pageNo('sb', i)} ${site('sb', i)}` : ''; };
   const wbp = (i) => `WB p.${pageNo('wb', i)} ${site('wb', i)}`;
   const common = `<table><tr><th>Objectives<br>목표</th><td><ul>${unit.objectives_ko.map((o) => `<li>${esc(o)}</li>`).join('')}</ul></td></tr>
@@ -81,38 +90,64 @@ const bkq = BK > 1 ? `&bk=${BK}` : '';   // 링크에 붙일 권 표시
 // 2권 수업안: L1 합치기(가족 2개)·단어 가족·놀이 / L2 문장·스토리·정리
 function plan2(book, unit) {
   const fams = unit.families, vowel = unit.vowel || fams[0][0], vs = (book.vowels && book.vowels[vowel]) || {};
+  const K = fams.some((f) => famKindOf(book, f)), ME = fams.some((f) => famKindOf(book, f) === 'magic_e');   // 3·4권: 짝꿍 소리·마법 e·모음 짝
   const words = fams.flatMap((f) => (unit.words && unit.words[f]) || book.families[f].words);
-  const famTxt = (f) => `<b>-${f}</b>`;
+  const famTxt = (f) => `<b>${famLab(book, f)}</b>`, fsnd = (f) => `/${esc((book.families[f] || {}).sound || f)}/`;
+  const newest = Object.values(book.characters).slice(-1)[0] || {}, readers = Object.entries(book.characters).filter(([id]) => !['pip', 'grumble'].includes(id)).map(([, c]) => c.name).join(' / ');
   const site = (b, p) => `<span class="tag">웹 ${b === 'sb' ? '학생책' : '워크북'} ${p}쪽</span>`;
-  const sbPages = unit.lessons.flatMap((ls) => ls.pages), sbIdx = (type, k) => sbPages.findIndex((p) => p.type === type && (k === undefined || p.half === k || p.family === k)) + 1;
-  const pageNo = (b, p) => { let n = b === 'sb' ? 3 : 2; for (const x of book.units) { if (x.n === unit.unit) return n + p; n += b === 'sb' ? (x.n === 0 ? 4 : x.review ? 6 : 8) : (x.n === 0 ? 0 : x.review ? 2 : 4); } return n + p; };
+  const sbPages = unit.lessons.flatMap((ls) => ls.pages), sbIdx = (type, k) => sbPages.findIndex((p) => p.type === type && (k === undefined || (p.half || 1) === k || p.family === k)) + 1;
+  const pageNo = (b, p) => pageNoOf(book, unit.unit, b, p);
   const sbp = (type, k) => { const i = sbIdx(type, k); return i ? `SB p.${pageNo('sb', i)} ${site('sb', i)}` : ''; };
   const wbp = (i) => `WB p.${pageNo('wb', i)} ${site('wb', i)}`;
+  const n1 = unit.lessons[0].pages.length, nAll = sbPages.length, w1 = (unit.lessons[0].workbook || []).length, wAll = unit.lessons.flatMap((l) => l.workbook || []).length;   // 1차시·전체 쪽 수
   const common = `<table><tr><th>Objectives<br>목표</th><td><ul>${(unit.objectives_ko || []).map((o) => `<li>${esc(o)}</li>`).join('')}</ul></td></tr>
-    <tr><th>Phonics</th><td>모음 <b>${vowel}</b> /${esc(vs.sound || vowel)}/ · 단어 가족 ${fams.map(famTxt).join(' · ')}</td></tr>
+    <tr><th>Phonics</th><td>${K ? `${ME ? '마법 e' : '짝꿍 소리'} ${fams.map((f) => famTxt(f) + ' ' + fsnd(f)).join(' · ')}${unit.vowel ? ` · 모음 <b>${unit.vowel}</b>` : ''}` : `모음 <b>${vowel}</b> /${esc(vs.sound || vowel)}/ · 단어 가족 ${fams.map(famTxt).join(' · ')}`}</td></tr>
     <tr><th>Words</th><td>${words.join(', ')}</td></tr>
     <tr><th>Sight words</th><td>${(unit.sight_words || []).join(', ')}</td></tr>
     <tr><th>Story</th><td>${esc(unit.story.title)}</td></tr>`;
-  const l1 = `<div class="sheet"><h1>Unit ${unit.unit} ${esc(unit.title)} <small>Lesson 1 · 합치기·단어 가족 · 50분</small></h1>${common}
-    <tr><th>Materials<br>준비물</th><td>웹 교재(전자칠판·PC), 학생책 pp.${pageNo('sb', 1)}–${pageNo('sb', 4)}, 워크북 pp.${pageNo('wb', 1)}–${pageNo('wb', 2)}, 플래시카드(가족 ${fams.map((f) => '-' + f).join('·')}, 단어 ${words.length}장), 글자 타일(자석 글자)</td></tr></table>
-    <h2>수업 흐름</h2><table class="flow"><tr><th>시간</th><th>활동</th><th>웹 교재</th><th>진행 (선생님 말은 영어, 설명은 한국어)</th></tr>
+  const l1 = `<div class="sheet"><h1>Unit ${unit.unit} ${esc(unit.title)} <small>Lesson 1 · ${K ? (ME ? '마법 e·합치기' : '짝꿍 소리·합치기') : '합치기·단어 가족'} · 50분</small></h1>${common}
+    <tr><th>Materials<br>준비물</th><td>웹 교재(전자칠판·PC), 학생책 pp.${pageNo('sb', 1)}–${pageNo('sb', n1)}, 워크북 pp.${pageNo('wb', 1)}–${pageNo('wb', w1)}, 플래시카드(${K ? '' : '가족 '}${fams.map((f) => famLab(book, f)).join('·')}, 단어 ${words.length}장), 글자 타일(자석 글자)</td></tr></table>
+    <h2>수업 흐름</h2><table class="flow"><tr><th>시간</th><th>활동</th><th>웹 교재</th><th>진행 (선생님 말은 영어, 설명은 한국어)</th></tr>${K ? flow3(book, unit, sbPages.slice(0, n1), (i) => `SB p.${pageNo('sb', i)} ${site('sb', i)}`, wbp(1) + (w1 > 1 ? ', ' + wbp(w1) : ''), newest) + '</table></div>' : `
     <tr><td class="t">5'</td><td>인사·주제가·모음 소리</td><td class="w">홈 → 학생책 1쪽 · Play</td><td>인사와 출석. 주제가. 이번 유닛 모음 <b>${vowel}</b> 의 소리 /${esc(vs.sound || vowel)}/ 를 세 번 말한다. 지난 유닛 가족 카드를 빠르게 읽는다. <span class="en">"What sound? /${esc(vs.sound || vowel)}/!"</span></td></tr>
     <tr><td class="t">10'</td><td>합치기 1: ${famTxt(fams[0])}</td><td class="w">${sbp('blend', fams[0])}</td><td>▶ 를 누르면 글자 타일이 소리와 함께 붙어 단어가 된다. 손가락으로 타일을 하나씩 짚으며 <span class="en">"/k/ … /æ/ … /t/ … cat!"</span> 을 따라 말한 뒤 손뼉 한 번에 통째로 말한다. 자석 글자로 첫 글자만 바꿔 새 단어 만들기(c→h→b).</td></tr>
     <tr><td class="t">10'</td><td>합치기 2: ${famTxt(fams[1] || fams[0])}</td><td class="w">${sbp('blend', fams[1] || fams[0])}</td><td>같은 방식. 두 가족의 끝소리가 어떻게 다른지(-${fams[0]} / -${fams[1] || fams[0]}) 귀로 비교한다. <span class="en">"Same or different?"</span></td></tr>
     <tr><td class="t">15'</td><td>단어 가족</td><td class="w">${sbp('family_words')}</td><td>♪ Word chant 로 가족별 단어를 박자에 맞춰 읽는다. "Read and match": 단어를 읽고 맞는 그림을 누른다(종이는 그림 아래에 단어 쓰기). 플래시카드로 "이 단어는 어느 가족?" 놀이 — 가족 카드 두 장을 양쪽에 두고 단어 카드를 들면 손으로 가리키기.</td></tr>
     <tr><td class="t">5'</td><td>놀이: 단어 잡기</td><td class="w">${sbp('read_play')}</td><td>▶ ${esc(unit.game?.title || 'Read and catch!')} — 단어를 듣고 맞는 그림을 누른다(5라운드, 두 팀 점수판). 끝나면 "한 번 더"로 새 조합.</td></tr>
-    <tr><td class="t">5'</td><td>정리·숙제</td><td class="w"></td><td>두 가족 단어를 손뼉 한 번에 하나씩 읽는다. 숙제: ${wbp(1)}, ${wbp(2)}. <span class="en">"Great job! Click-clack!"</span></td></tr></table></div>`;
+    <tr><td class="t">5'</td><td>정리·숙제</td><td class="w"></td><td>두 가족 단어를 손뼉 한 번에 하나씩 읽는다. 숙제: ${wbp(1)}, ${wbp(2)}. <span class="en">"Great job! Click-clack!"</span></td></tr></table></div>`}`;
   const l2 = `<div class="sheet"><h1>Unit ${unit.unit} ${esc(unit.title)} <small>Lesson 2 · 문장·스토리·정리 · 50분</small></h1>${common}
-    <tr><th>Materials<br>준비물</th><td>웹 교재, 학생책 pp.${pageNo('sb', 5)}–${pageNo('sb', 8)}, 워크북 pp.${pageNo('wb', 3)}–${pageNo('wb', 4)}, 사이트워드 카드(${(unit.sight_words || []).join(', ')})</td></tr></table>
+    <tr><th>Materials<br>준비물</th><td>웹 교재, 학생책 pp.${pageNo('sb', n1 + 1)}–${pageNo('sb', nAll)}, 워크북 pp.${pageNo('wb', w1 + 1)}–${pageNo('wb', wAll)}, 사이트워드 카드(${(unit.sight_words || []).join(', ')})</td></tr></table>
     <h2>수업 흐름</h2><table class="flow"><tr><th>시간</th><th>활동</th><th>웹 교재</th><th>진행</th></tr>
     <tr><td class="t">5'</td><td>인사·주제가·빨리 읽기</td><td class="w">홈 · Play</td><td>주제가. 지난 시간 단어 카드를 점점 빠르게 읽는다(합치지 않고 통째로 읽을 수 있으면 ✓).</td></tr>
     <tr><td class="t">5'</td><td>사이트워드</td><td class="w">${sbp('sentences')}</td><td>${(unit.sight_words || []).map((w) => `<b>${w}</b>`).join(', ')} 를 보고 통째로 읽는다. 카드를 들고 빨리 읽기, 문장에서 찾아 동그라미.</td></tr>
     <tr><td class="t">10'</td><td>문장 읽기</td><td class="w">${sbp('sentences')}</td><td>▶ Read all 로 네 문장을 듣고, 단어를 하나씩 눌러 소리를 확인하며 따라 읽는다. 한 명씩 한 문장 읽기 → 그림이 맞는지 확인. <span class="en">"The cat is on the mat. Point to the mat!"</span></td></tr>
-    <tr><td class="t">15'</td><td>스토리</td><td class="w">${sbp('story', 1)} · ${sbp('story', 2)}</td><td>① ▶ Listen to the story — 음악과 함께 끝까지 듣는다. ② 말풍선을 눌러 따라 말한다. ③ 🎭 역할 읽기(Bun / Hedgie / Beads). ④ 🔍 Find: 그림 속 단어 ${unit.story.panels.flatMap((p) => p.hidden || []).length}개 찾기. ⑤ 세 번 읽기.</td></tr>
+    <tr><td class="t">15'</td><td>스토리</td><td class="w">${sbp('story', 1)} · ${sbp('story', 2)}</td><td>① ▶ Listen to the story — 음악과 함께 끝까지 듣는다. ② 말풍선을 눌러 따라 말한다. ③ 🎭 역할 읽기(${esc(readers)}). ④ 🔍 Find: 그림 속 단어 ${unit.story.panels.flatMap((p) => p.hidden || []).length}개 찾기. ⑤ 세 번 읽기.</td></tr>
     <tr><td class="t">10'</td><td>유닛 정리</td><td class="w">${sbp('check')}</td><td>A 단어 읽고 그림 고르기 · B 단어–그림 잇기 · C 빠진 글자 쓰기. 웹에서 바로 정답 확인(초록 = 정답).</td></tr>
-    <tr><td class="t">5'</td><td>정리·숙제</td><td class="w"></td><td>가족별 단어를 한 번씩. 숙제: ${wbp(3)}, ${wbp(4)} (QR로 듣고 문장 3번 읽기). <span class="en">"You can read! See you next time!"</span></td></tr></table>
+    <tr><td class="t">5'</td><td>정리·숙제</td><td class="w"></td><td>가족별 단어를 한 번씩. 숙제: ${wbp(w1 + 1)}, ${wbp(wAll)} (QR로 듣고 문장 3번 읽기). <span class="en">"You can read! See you next time!"</span></td></tr></table>
     <h2>스토리 대본</h2><table>${unit.story.panels.map((p, i) => `<tr><th>칸 ${i + 1}</th><td>${p.lines.map((ln) => `<b>${esc(book.characters[ln.who]?.name || ln.who)}:</b> ${esc(ln.text)}`).join('<br>')}${(p.hidden || []).length ? `<br><span class="en">숨은 그림: ${p.hidden.join(', ')}</span>` : ''}</td></tr>`).join('')}</table></div>`;
   return l1 + l2;
+}
+
+// 3·4권 1차시: 쪽 목록 그대로 흐름을 만든다. 시간은 쪽 종류별 무게로 40분을 나눈다 (+ 처음 5분·끝 5분)
+function flow3(book, unit, pages, sbAt, hw, newest) {
+  const W = { digraph: 6, magic_e: 10, blend: 10, family_words: 8, read_play: 6 };
+  const tot = pages.reduce((a, p) => a + (W[p.type] || 6), 0);
+  let left = 40;
+  const mins = pages.map((p, i) => { const m = i === pages.length - 1 ? left : Math.max(3, Math.round(40 * (W[p.type] || 6) / tot)); left -= m; return m; });
+  const lab = (f) => `<b>${esc(famLab(book, f))}</b>`, snd = (f) => `/${esc((book.families[f] || {}).sound || f)}/`;
+  const ex = (f) => (((unit.words && unit.words[f]) || (book.families[f] || {}).words || [])[0] || '');
+  const ipa = (w) => ((book.words[w] || {}).ipa || []).map((x) => '/' + x + '/').join(' … ');
+  const row = (p, i) => {
+    const f = p.family || (p.families || unit.families)[0], w = ex(f);
+    if (p.type === 'digraph') return [`짝꿍 소리 ${lab(f)}`, `▶ 를 누르면 두 글자 타일이 미끄러져 붙으며 소리 하나 ${snd(f)} 가 난다. 아이들은 따라 말하고 허공에 두 글자를 한 번에 쓴다. 단어 카드는 번호로 — 선생님이 <span class="en">"Number 2!"</span> 하면 그 단어를 읽는다. <span class="en">"Two letters, one sound!"</span>`];
+    if (p.type === 'magic_e') return ['마법 e', `짝마다: 아이들이 앞 단어(${esc((unit.pairs || [])[0]?.from || 'cap')})를 읽는다 → <span class="en">"Add magic e! What's the new word?"</span> 새 단어를 먼저 외치게 한 뒤 요정 이를 눌러 확인(${esc((unit.pairs || [])[0]?.to || 'cape')}). 모음이 제 이름 소리로 바뀐다는 것을 손가락으로 a … e 를 이으며 보여 준다.`];
+    if (p.type === 'blend') return [`합치기 ${(p.families || [p.family]).filter(Boolean).map(lab).join(' · ')}`, `▶ 를 누르면 소리 덩어리 타일이 붙어 단어가 된다. 타일을 짚으며 <span class="en">"${esc(ipa(w))} … ${esc(w)}!"</span> 따라 말한 뒤 손뼉 한 번에 통째로. 짝꿍 글자(두 글자)는 한 타일 — 한 소리로 읽는다.`];
+    if (p.type === 'family_words') return ['단어 읽기·잇기', '♪ 챈트로 가족별 단어를 박자에 맞춰 읽는다. "Read and find": 선생님이 단어를 누르면 아이들이 그림 번호를 외친다(종이는 그림 아래에 단어 쓰기).'];
+    if (p.type === 'read_play') return ['놀이: 단어 잡기', `▶ ${esc(unit.game?.title || 'Read and catch!')} — 단어를 듣고 그림 번호를 외친다(두 팀 점수판). 끝나면 "한 번 더".`];
+    return [esc(p.title || p.type), ''];
+  };
+  return `<tr><td class="t">5'</td><td>인사·주제가·지난 소리</td><td class="w">홈 · Play</td><td>인사와 출석. 주제가. 지난 유닛 짝꿍·단어 카드를 빠르게 읽는다. <span class="en">"What sound? Say it together!"</span></td></tr>` +
+    pages.map((p, i) => { const [a, b] = row(p, i); return `<tr><td class="t">${mins[i]}'</td><td>${a}</td><td class="w">${sbAt(i + 1)}</td><td>${b}</td></tr>`; }).join('') +
+    `<tr><td class="t">5'</td><td>정리·숙제</td><td class="w"></td><td>오늘 소리를 다 같이 한 번 더. 숙제: ${hw}. <span class="en">"Great job! ${esc(newest.catchphrase || 'See you!')}"</span></td></tr>`;
 }
 </script>
 </body>
