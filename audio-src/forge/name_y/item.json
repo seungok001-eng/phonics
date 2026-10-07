@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=y | TYPE=letter-name | IPA=waɪ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "why",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791355337.104944,
+   "sec": 1.08,
+   "check": {
+    "transcript": "Why",
+    "type": "word",
+    "ipa": "waɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Why | TYPE=word | IPA=waɪ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:47",
+ "applied": "2026-10-07 15:43",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -47,5 +64,6 @@
  "title": "글자 이름 Y",
  "text": "Y",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

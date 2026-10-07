@@ -102,7 +102,7 @@ def rebuild():
     # 대본이 바뀐 소리(예: 캐릭터 이름 교체)는 승인을 풀고 교재의 mp3 도 지워 옛 녹음이 나가지 않게 한다 → 다시 생성해 승인
     stale = 0
     for s in sounds.values():
-        if s.get('approved') is None or s['sub'] == 'sound': continue
+        if s.get('approved') is None or s['sub'] in ('sound', 'name'): continue   # 낱소리·글자 이름은 변형 대본(/IPA/, aitch)을 쓴다
         c = next((c for c in s['cands'] if c['n'] == s['approved']), None)
         ct = (c or {}).get('text', '') or ''
         for pre in ('Say slowly and clearly: ',):
@@ -519,6 +519,8 @@ def gemini_loop():
 # ---------- 소리 (TTS 후보 → 승인 → mp3) ----------
 def sound_variants_for(s):
     """이 소리 항목의 기본 대본들. 낱소리는 설정의 덮어쓰기 표 → 없으면 규칙("/IPA/" + 늘인 철자). 나머지는 대본 하나."""
+    if s['sub'] == 'name':   # 글자 이름: 대문자 한 글자 + 철자 대본(H 를 'aitch' 로) — 한 글자만 보내면 H·M·W·Y 를 소리로 읽기도 한다
+        sp = presets.NAME_SPELL.get(s['letter']); return [s['text']] + ([sp] if sp else [])
     if s['sub'] == 'sound':
         over = (state['settings'].get('sound_variants') or {}).get(s['letter'])
         if over: return [str(t) for t in over if str(t).strip()]

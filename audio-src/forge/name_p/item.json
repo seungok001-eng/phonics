@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=p | TYPE=letter-name | IPA=piː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "pee",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791355324.7069345,
+   "sec": 0.84,
+   "check": {
+    "transcript": "p",
+    "type": "letter-name",
+    "ipa": "ˈpiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=p | TYPE=letter-name | IPA=ˈpiː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:52",
+ "applied": "2026-10-07 15:42",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -29,5 +46,7 @@
  "sub": "name",
  "title": "글자 이름 P",
  "text": "P",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
 }

@@ -72,3 +72,6 @@ DEFAULT_SETTINGS = {
     'gemini_usage': {'count': 0, 'cost': 0.0},
     'tts_usage': {'count': 0, 'tokens': 0, 'checks': 0},
 }
+
+# 글자 이름 철자 대본 (TTS 가 한 글자를 소리로 읽어 버릴 때 쓴다)
+NAME_SPELL = {'a': 'ay', 'b': 'bee', 'c': 'cee', 'd': 'dee', 'e': 'ee', 'f': 'ef', 'g': 'gee', 'h': 'aitch', 'i': 'eye', 'j': 'jay', 'k': 'kay', 'l': 'el', 'm': 'em', 'n': 'en', 'o': 'oh', 'p': 'pee', 'q': 'cue', 'r': 'ar', 's': 'ess', 't': 'tee', 'u': 'you', 'v': 'vee', 'w': 'double-u', 'x': 'ex', 'y': 'why', 'z': 'zee'}

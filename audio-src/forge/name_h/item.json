@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=h | TYPE=isolated-sound | IPA=h | NOTE=clean"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "aitch",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791355319.4840043,
+   "sec": 0.96,
+   "check": {
+    "transcript": "H",
+    "type": "letter-name",
+    "ipa": "eɪʧ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=H | TYPE=letter-name | IPA=eɪʧ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:46",
+ "applied": "2026-10-07 15:42",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,5 +64,6 @@
  "title": "글자 이름 H",
  "text": "H",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

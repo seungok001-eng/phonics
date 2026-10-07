@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=What? | TYPE=word | IPA=wʌt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "double-u",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791355331.891211,
+   "sec": 1.04,
+   "check": {
+    "transcript": "W",
+    "type": "letter-name",
+    "ipa": "ˈdʌb.əl.juː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=W | TYPE=letter-name | IPA=ˈdʌb.əl.juː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 4,
+ "final": "final.mp3",
+ "applied": "2026-10-07 15:43",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -65,5 +82,5 @@
  "text": "W",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

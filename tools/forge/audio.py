@@ -108,3 +108,26 @@ def finalize(src, dst):
           'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,'
           'apad=pad_dur=0.08,loudnorm=I=-16:TP=-1.5:LRA=11')
     run(['-i', src, '-af', af, '-ar', '44100', '-codec:a', 'libmp3lame', '-q:a', '4', dst])
+
+# ---------- 일레븐랩스 (캐릭터 대사 = 아이 목소리) ----------
+EL_URL = 'https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_44100_128'
+
+
+def el_tts(text, voice_id, key, model='eleven_multilingual_v2', style=0.35):
+    """일레븐랩스 TTS 한 번. 결과 mp3 bytes. 키는 TTS 권한만 있으면 된다(2026-10-06 두 번째 키)."""
+    if not key: raise RuntimeError('일레븐랩스 API 키가 없다 (art-src/forge/secrets.json elevenlabs_key)')
+    body = {'text': text, 'model_id': model, 'voice_settings': {'stability': 0.4, 'similarity_boost': 0.8, 'style': style, 'use_speaker_boost': True}}
+    req = urllib.request.Request(EL_URL.format(voice=voice_id), data=json.dumps(body).encode(), method='POST',
+                                 headers={'Content-Type': 'application/json', 'xi-api-key': key, 'Accept': 'audio/mpeg'})
+    try:
+        with urllib.request.urlopen(req, timeout=120) as f:
+            return f.read()
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f'일레븐랩스 HTTP {e.code}: {e.read().decode("utf-8", "replace")[:300]}')
+
+
+def mix(srcs, dst):
+    """두 목소리를 겹친다 ("both" 대사: 번과 헤지가 함께)."""
+    args = []
+    for s_ in srcs: args += ['-i', s_]
+    run(args + ['-filter_complex', f'amix=inputs={len(srcs)}:duration=longest:normalize=0,volume=0.8', '-ar', '24000', '-ac', '1', dst])
