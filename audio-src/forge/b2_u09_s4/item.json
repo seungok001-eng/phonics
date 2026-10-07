@@ -35,9 +35,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 19:47",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -47,6 +47,5 @@
  "title": "2권 9유닛 문장 4: The ox can not hop.",
  "text": "The ox can not hop.",
  "voice": "Kore",
- "book": 2,
- "busy": 1
+ "book": 2
 }

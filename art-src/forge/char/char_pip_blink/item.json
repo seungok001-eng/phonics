@@ -2,8 +2,8 @@
  "status": "pending",
  "raw": "",
  "cut": "",
- "attempts": 0,
- "error": "",
+ "attempts": 1,
+ "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
  "updated": 1791283499.8757808,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/eb0d5f67-3527-4044-8bee-127ad77d19e1?Expires=1791305075&KeyName=labs-flow-prod-cdn-key&Signature=YH3jCKwm91OklOC_Ihf1YHqPw5A",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_blink.png",
  "book": 1,
- "claimed_at": 1791283458.3908052
+ "claimed_at": 1791370026.2472534
 }

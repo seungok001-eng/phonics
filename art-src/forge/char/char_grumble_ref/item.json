@@ -1,5 +1,5 @@
 {
- "status": "review",
+ "status": "approved",
  "raw": "raw.png",
  "cut": "cut.png",
  "attempts": 0,
@@ -8,7 +8,7 @@
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/19484f5e-de72-4056-848c-7d1c8937062f?Expires=1791378664&KeyName=labs-flow-prod-cdn-key&Signature=PdZFi8u8gU0EMAOGE3xLa2r88iA",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 19:44",
  "gen": "",
  "job_type": "image",
  "reference": null,

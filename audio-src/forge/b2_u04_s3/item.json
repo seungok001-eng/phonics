@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=A pig is on the bed. | TYPE=sentence | IPA=ə pɪg ɪz ɑn ðə bɛd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A peg is on the bed.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791370077.4551148,
+   "sec": 2.4,
+   "check": {
+    "transcript": "A pig is on the bed.",
+    "type": "sentence",
+    "ipa": "ə pɪɡ ɪz ɑn ðə bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A pig is on the bed. | TYPE=sentence | IPA=ə pɪɡ ɪz ɑn ðə bɛd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 19:48",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -48,5 +65,5 @@
  "text": "A peg is on the bed.",
  "voice": "Kore",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 정답지</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../book/style.css">
+<style>
+  /* 교사용 정답지: 워크북 쪽 + 학생책 확인(check)·복습 평가(review_test) 쪽을 교재와 같은 배치로 작게(A4 가로에 2쪽), 정답은 빨강 */
+  :root { --key: #E0523E; }
+  @page { size: A4 landscape; margin: 0; }
+  body.print.akey { background: #F1E8D8; }
+  .top { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 12px auto; width: 297mm; max-width: calc(100% - 24px); font-size: 14px; }
+  .top a, .top button { background: #fff; border: 2px solid var(--line); border-radius: 10px; padding: 5px 10px; text-decoration: none; color: var(--ink); font-family: inherit; cursor: pointer; font-size: 14px; }
+  .top a.on { border-color: var(--key); color: var(--key); font-weight: 700; }
+  .top .note { color: var(--soft); }
+  .sheet { width: 297mm; height: 210mm; margin: 0 auto 16px; background: #fff; padding: 6mm 9mm 5mm; display: flex; flex-direction: column; gap: 2.5mm; overflow: hidden; box-shadow: 0 6px 24px rgba(0,0,0,.12); page-break-after: always; break-after: page; }
+  .sh-head { display: flex; align-items: baseline; gap: 10px; border-bottom: 2px solid var(--line); padding-bottom: 2mm; }
+  .sh-head b { font-family: 'Fredoka'; font-size: 18px; color: var(--key); }
+  .sh-head span { color: var(--soft); font-size: 12px; }
+  .sh-head .no { margin-left: auto; font-family: 'Fredoka'; color: var(--soft); }
+  .slots { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; }
+  .slot { display: flex; flex-direction: column; align-items: center; gap: 1.5mm; min-height: 0; }
+  .slot .lab { font-size: 12px; color: var(--ink); align-self: stretch; display: flex; gap: 8px; }
+  .slot .lab b { font-family: 'Fredoka'; color: var(--key); }
+  .slot .lab span { color: var(--soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  /* 쪽 하나를 0.61 배로 (794×1123 → 484×685) */
+  .frame { position: relative; width: 484px; height: 685px; overflow: hidden; border: 1.5px solid var(--line); border-radius: 6px; flex: none; }
+  body.print .frame .page { position: absolute; left: 0; top: 0; width: 794px; height: 1123px; transform: scale(.61); transform-origin: top left; page-break-after: auto; break-after: auto; margin: 0; border-radius: 0; box-shadow: none; }
+  @media screen { body.print .frame .page { margin: 0; box-shadow: none; } }
+  /* ---------- 정답 표시 ---------- */
+  .akey .k-ans { border-color: var(--key) !important; background: #FFE9E5 !important; box-shadow: 0 0 0 3px var(--key) inset; }
+  .akey .wb-circle .lts span.k-ans, .akey .circle-box .ltr.k-ans { box-shadow: none; border: 4px solid var(--key) !important; background: transparent !important; }
+  .akey .k-fill { color: var(--key) !important; font-weight: 700; }
+  .akey .k-faint { color: rgba(224, 82, 62, .55) !important; }
+  .akey .trace-line span.box { color: rgba(224, 82, 62, .45); }
+  .akey .k-tag { position: absolute; right: 4px; top: 2px; background: var(--key); color: #fff; font-family: 'Andika'; font-weight: 700; font-size: 18px; line-height: 1.2; border-radius: 8px; padding: 0 7px; z-index: 3; white-space: nowrap; }
+  .akey .match .it, .akey .pair .it { position: relative; }
+  .akey .k-say { display: inline-flex; align-items: center; gap: 4px; background: var(--key); color: #fff; border-radius: 10px; padding: 0 9px; font-family: 'Andika'; font-weight: 700; font-size: 18px; white-space: nowrap; }
+  .akey .sort .pool .wd.k-moved { opacity: .35; }
+  .akey .sort .bin .in .wd { border-color: var(--key); color: var(--key); font-size: 15px; padding: 0 6px; }   /* 정답을 넣어도 상자가 쪽 밖으로 길어지지 않게 */
+  .akey .sort .bin .in { gap: 3px; } .akey .sort .bin { min-height: 0; }
+  .akey .w4 .ans.k-fill, .akey .w4 .gray.k-fill { color: var(--key) !important; }
+  .akey .w4 .k-faint { position: absolute; left: 10px; top: 0; font-family: 'Andika'; font-size: 34px; line-height: 52px; z-index: 1; }
+  .akey .write-it .box.k-fill { color: var(--key); }
+  .akey .fill .blank.k-fill { color: var(--key); }
+  .akey .trace-sent span { color: rgba(224, 82, 62, .55); }
+  .empty { text-align: center; color: var(--soft); padding: 40px; }
+  @media print { body.print.akey { background: #fff; } .top { display: none; } .sheet { margin: 0; box-shadow: none; } }
+</style>
+</head>
+<body class="print akey">
+<div class="top" id="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span id="nav"></span><span class="note">교사용 정답지 · 워크북 쪽과 학생책 확인·복습 평가 쪽 · 정답은 빨강, 쓰기 칸은 정답을 흐리게</span></div>
+<div id="out"></div>
+<script>window.PRINT = true;</script>
+<script src="../book/app.js"></script>
+<script src="../book/strokes.js"></script>
+<script src="../book/pages.js"></script>
+<script>
+// 주소: answers.html?bk=1|2&u=N (u 가 없으면 그 권 전체). &art= 는 pdf.py 가 넘기는 축소 그림 폴더.
+// 교재 인쇄(print.html)와 같은 쪽 함수로 그린 뒤(섞는 순서가 씨앗 고정이라 배치가 똑같다), 정답을 표시한다.
+// 정답은 대부분 교재 쪽의 누르기 함수 안에 이미 들어 있다: checkPick(this,'보기','정답') · this.textContent='글자' 등.
+const q = new URLSearchParams(location.search);
+const KEY_TYPES = ['check', 'review_test'];   // 학생책에서 정답이 있는 쪽
+
+// onclick="fn(this,'a','b')" 의 두 인자
+function clickArgs(el) { const m = (el.getAttribute('onclick') || '').match(/\(this\s*,\s*'([^']*)'\s*,\s*'([^']*)'\s*\)/); return m ? [m[1], m[2]] : null; }
+function tag(el, text) { el.insertAdjacentHTML('beforeend', `<b class="k-tag">${esc(text)}</b>`); }
+// 그려진 쪽 하나에 정답 표시
+function markKey(root) {
+  // ① 고르기: 보기가 정답이면 빨간 테두리 (듣고·읽고 동그라미, 같은 글자, 첫소리 글자, 그림 고르기)
+  root.querySelectorAll('[onclick^="checkPick("], [onclick^="wbCircle("], [onclick^="writePick("], [onclick^="circlePick("]').forEach((el) => {
+    const a = clickArgs(el); if (a && a[0] === a[1]) el.classList.add('k-ans');
+  });
+  // 첫소리 찾아 쓰기(1권 C): 빈 줄에 정답 글자
+  root.querySelectorAll('.write-it').forEach((w) => { const ok = w.querySelector('[onclick^="writePick("].k-ans'), box = w.querySelector('.box'); if (ok && box && !box.textContent.trim()) { const l = clickArgs(ok)[1]; box.textContent = l.toUpperCase() + l; box.classList.add('k-fill'); } });
+  // 빈칸 고르기(이야기 완성): 빈칸에 정답 단어
+  root.querySelectorAll('[onclick^="fillPick("]').forEach((el) => { const a = clickArgs(el); if (!a || a[0] !== a[1]) return; const b = el.closest('.fill')?.querySelector('.blank'); if (b) { b.textContent = a[1]; b.classList.add('k-fill'); } });
+  // ② 빈 칸 채우기: 누르면 글자·단어가 들어가는 칸 (빠진 글자, 첫 글자, 단어 쓰기)
+  root.querySelectorAll('[onclick*="this.textContent=\'"]').forEach((el) => { const m = el.getAttribute('onclick').match(/this\.textContent='([^']*)'/); if (m) { el.textContent = m[1]; el.classList.add('k-fill'); } });
+  root.querySelectorAll('[onclick*="this.innerHTML=\'"]').forEach((el) => { const m = el.getAttribute('onclick').match(/<span class=ans>([^<]*)<\/span>/); if (m) { el.innerHTML = `<span class="ans k-fill">${m[1]}</span>`; } });
+  // ③ 잇기: 그림·단어 칸에 짝 표시 (1권: 글자, 2권: 단어)
+  root.querySelectorAll('.match:not(.m2)').forEach((mt) => {
+    mt.querySelectorAll('.col:not(:first-child) .it').forEach((it) => { const w = it.dataset.w || it.textContent.trim(); if (!w) return; const l = letterOf(w); tag(it, l.toUpperCase() + l); });
+  });
+  root.querySelectorAll('.match.m2').forEach((mt) => { mt.querySelectorAll('.col:nth-child(2) .it[data-w]').forEach((it) => tag(it, it.dataset.w)); });
+  // 큰 글자–작은 글자 잇기(복습): 작은 글자 칸에 짝 대문자
+  root.querySelectorAll('.pair .it[data-l]').forEach((it) => tag(it, it.dataset.l.toUpperCase()));
+  // ④ 분류: 단어를 맞는 상자에 넣어 보인다 (1권 첫 글자, 2권 단어 가족)
+  root.querySelectorAll('.sort').forEach((st) => {
+    st.querySelectorAll('.pool .wd[data-w]').forEach((wd) => {
+      const w = wd.dataset.w, key = B2() ? familyOf(w) : letterOf(w), bin = st.querySelector(`.bin[data-l="${key}"] .in`);
+      if (!bin) return; bin.insertAdjacentHTML('beforeend', `<span class="wd">${esc(w)}</span>`); wd.classList.add('k-moved');
+    });
+  });
+  // ⑤ 따라 쓰기 칸: 정답을 흐리게 (글자 줄, 단어 줄, 그림 보고 단어 쓰기)
+  root.querySelectorAll('.read-card .tr[style*="transparent"]').forEach((el) => { el.style.color = ''; el.classList.add('k-faint'); });
+  root.querySelectorAll('.wbw .write-it').forEach((wi) => { const w4 = wi.querySelectorAll('.w4'); const last = w4[w4.length - 1]; if (last && !last.textContent.trim()) last.innerHTML = `<span class="k-faint">${esc(wi.dataset.text || '')}</span>`; });
+  // ⑥ 듣기 문항: 선생님이 읽어 줄 소리·단어를 번호 옆에 (교재 인쇄에서는 🔊 단추가 숨는다)
+  root.querySelectorAll('.lc-row').forEach((row) => {
+    const sp = row.querySelector('.spk'); if (!sp) return;
+    const id = sp.dataset.say || '', say = id.startsWith('sound_') ? soundLabel(id.slice(6)) : (sp.dataset.text || id.replace(/^word_/, ''));
+    row.querySelector('.n')?.insertAdjacentHTML('afterend', `<span class="k-say">🔊 ${esc(say)}</span>`);
+  });
+}
+
+(async () => {
+  if (!(await loadBook(+(q.get('bk') || 1)))) { document.getElementById('out').textContent = 'book.json 을 읽지 못했어요'; return; }
+  await Promise.all(App.book.units.map((x) => loadUnit(x.n)));
+  const only = q.get('u') !== null ? +q.get('u') : null;
+  const bkq = App.bk > 1 ? `&bk=${App.bk}` : '';
+  // 위 막대: 권 전체 · 유닛별
+  document.getElementById('nav').innerHTML = `<a class="${only === null ? 'on' : ''}" href="?${bkq.slice(1)}">전체</a> ` + App.book.units.filter((x) => App.units[x.n] && pageList(App.units[x.n], 'wb').length).map((x) => `<a class="${only === x.n ? 'on' : ''}" href="?u=${x.n}${bkq}">U${x.n}</a>`).join(' ');
+  // 정답이 있는 쪽: 유닛마다 워크북 전부 → 학생책 확인·평가
+  const slots = [];
+  for (const x of App.book.units) {
+    const unit = App.units[x.n]; if (!unit || (only !== null && x.n !== only)) continue;
+    for (const b of ['wb', 'sb']) {
+      const pages = pageList(unit, b);
+      pages.forEach((pg, i) => { if (b === 'wb' || KEY_TYPES.includes(pg.type)) slots.push({ unit, u: x.n, b, p: i + 1, pg, pages }); });
+    }
+  }
+  if (!slots.length) { document.getElementById('out').innerHTML = '<div class="empty">정답이 있는 쪽이 없어요</div>'; return; }
+  let html = '';
+  for (let i = 0; i < slots.length; i += 2) {
+    const two = slots.slice(i, i + 2).map((s) => {
+      App.u = s.u; App.b = s.b;
+      const ctx = { book: App.book, unit: s.unit, b: s.b, u: s.u, p: s.p, page: s.pg, pages: s.pages, print: true };
+      const no = pageNo(s.b, s.u, s.p), fn = PAGES[s.pg.type] || (() => '');
+      return `<div class="slot"><div class="lab"><b>${s.b === 'sb' ? 'SB' : 'WB'} p.${no}</b>Unit ${s.u} · ${esc(s.unit.title)}<span>${esc(s.pg.title || s.pg.type)}</span></div>
+        <div class="frame"><article class="page ${s.b} t-${s.pg.type}" data-u="${s.u}"><div class="ph-head"><span class="unit">Unit ${s.u}</span><h2>${esc(s.unit.title)}</h2>${lettersBadge(s.unit)}</div>${fn(ctx)}<div class="ph-foot"><span>${s.b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${s.pg.lesson.n}</span><span class="pno">${no}</span></div></article></div></div>`;
+    }).join('');
+    html += `<div class="sheet"><div class="sh-head"><b>Answer Key</b><span>${esc(App.book.title)} · 교사용 정답지 · 정답은 빨강, 쓰기 칸은 흐린 글자</span><span class="no">${i / 2 + 1} / ${Math.ceil(slots.length / 2)}</span></div><div class="slots">${two}</div></div>`;
+  }
+  document.getElementById('out').innerHTML = html;
+  // 쪽마다 그 유닛으로 맞춘 뒤 정답 표시 (familyOf·letterOf 는 권 데이터를 쓴다)
+  document.querySelectorAll('.frame .page').forEach((pg) => { App.u = +pg.dataset.u; markKey(pg); });
+  document.title = `${App.book.title} — 정답지${only !== null ? ' · Unit ' + only : ''}`;
+  window.PRINT_READY = true;
+})();
+</script>
+</body>
+</html>

@@ -2,8 +2,8 @@
  "status": "pending",
  "raw": "",
  "cut": "",
- "attempts": 0,
- "error": "",
+ "attempts": 1,
+ "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
  "updated": 1791282981.9077435,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/6f417559-8342-49e1-90b7-f9a8127463ff?Expires=1791304558&KeyName=labs-flow-prod-cdn-key&Signature=BSMbPCXxDpfNQMprW-DmFbY-WpM",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_sad.png",
  "book": 1,
- "claimed_at": 1791282935.9825423
+ "claimed_at": 1791370018.7425072
 }

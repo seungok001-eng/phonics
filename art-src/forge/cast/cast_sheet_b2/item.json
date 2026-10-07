@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
- "auto_approved": false,
+ "updated": 1791369887.6945496,
+ "auto_approved": true,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 19:44",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -26,6 +26,12 @@
  "prompt": "(서버가 합성한다 — 캐릭터 기준 그림이 모두 승인되면 자동)",
  "aspect": "16:9",
  "out": "web/assets/art/cast_sheet_b2.png",
- "made_from": null,
+ "made_from": [
+  1791357164,
+  1791357589,
+  1791357058,
+  1791357108,
+  1791362473
+ ],
  "book": 2
 }

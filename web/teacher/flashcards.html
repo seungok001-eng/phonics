@@ -8,11 +8,11 @@
   :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --vowel:#E0523E; --conso:#2E5FBF; --cream:#FFF9EE; }
   * { box-sizing:border-box; }
   body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; }
-  .sheet { width:210mm; height:297mm; margin:16px auto; background:#fff; padding:10mm; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; gap:6mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; }
-  .card { border:3px dashed var(--line); border-radius:14px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; position:relative; }
+  .sheet { width:210mm; height:297mm; margin:16px auto; background:#fff; padding:10mm; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:repeat(2, minmax(0, 1fr)); gap:6mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; }
+  .card { border:3px dashed var(--line); border-radius:14px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; position:relative; min-height:0; overflow:hidden; }
   .card .glyph { font-family:'Andika'; font-size:150px; line-height:1; font-weight:700; }
   .card .glyph small { font-size:110px; font-weight:400; margin-left:8px; }
-  .card img { max-width:80%; max-height:60%; object-fit:contain; }
+  .card img { width:80%; height:58%; object-fit:contain; flex:none; }
   .card .ph { width:70%; height:55%; background:var(--cream); border-radius:12px; display:flex; align-items:center; justify-content:center; color:var(--soft); font-family:'Fredoka'; font-size:22px; }
   .card .wd { font-size:44px; font-weight:700; }
   .card .wd b { color:var(--orange); }

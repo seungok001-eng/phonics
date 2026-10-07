@@ -362,7 +362,7 @@ function fillPick(el, w, ans) { Sound.unlock(); if (w === ans) { el.classList.ad
 
 // ---------- 0유닛 ----------
 PAGES.characters = (ctx) => {
-  const cs = Object.entries(App.book.characters).map(([id, c]) => `<div class="char">${pic('char_' + id + '_ref', '', c.name)}<h3 style="color:${c.color}">${esc(c.name)} <span class="ko">${esc(c.ko)}</span></h3><div class="say-line say" data-say="catch_${id}" data-text="${esc(c.catchphrase.replace(/[()]/g, ''))}">${esc(c.catchphrase)}</div>${c.role_ko ? `<div class="role">${esc(c.role_ko)}</div>` : ''}<div class="ko">${esc(c.personality)}</div></div>`).join('');
+  const cs = Object.entries(App.book.characters).map(([id, c]) => `<div class="char">${pic('char_' + id + '_ref', '', c.name)}<h3 style="color:${c.color}">${esc(c.name)} <span class="ko">${esc(c.ko)}</span></h3><div class="say-line say" data-say="catch_${id}" data-text="${esc(c.catchphrase.replace(/[()]/g, ''))}">${esc(c.catchphrase)}</div>${c.role_ko ? `<div class="role">${esc(c.role_ko)}</div>` : `<div class="ko">${esc(c.personality)}</div>`}</div>`).join('');
   return instr('', 'Meet the friends!', '친구들을 만나요') + `<div class="chars">${cs}</div>`;
 };
 PAGES.intro_story = (ctx) => PAGES.story({ ...ctx, page: { ...ctx.page, half: 1 } });
@@ -688,7 +688,9 @@ async function recapPlay() {
 // 수료증: 이름·날짜 빈칸, 제목·문구(영/한), 캐릭터 4명(cheering → 없으면 ref), 26 글자 띠, 선생님 서명. 웹에서 이름을 넣으면 들어가고 🖨 로 그 쪽만 인쇄
 PAGES.certificate = (ctx) => {
   const c = ctx.unit.show.certificate, name = ctx.name || '';
-  const chars = Object.keys(App.book.characters).map((id) => `<span class="pic cert-char"><img src="${artSrc('char_' + id + '_cheering')}" alt="${esc(App.book.characters[id].name)}" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${artSrc('char_' + id + '_ref')}'}else picFallback(this)"></span>`).join('');
+  // 친구마다 있는 자세 중 기뻐하는 것 (cheering → happy → ref). 없는 그림을 부르지 않는다
+  const pose = (id) => ['cheering', 'happy', 'ref'].find((p) => (App.book.characters[id].poses || []).includes(p)) || 'ref';
+  const chars = Object.keys(App.book.characters).map((id) => `<span class="pic cert-char"><img src="${artSrc('char_' + id + '_' + pose(id))}" alt="${esc(App.book.characters[id].name)}" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='${artSrc('char_' + id + '_ref')}'}else picFallback(this)"></span>`).join('');
   const az = B2() ? Object.keys(App.book.families).map((f) => `<span class="famc">${famHtml(f)}</span>`).join('') : Object.keys(App.book.letters).map((l) => `<span class="${letterCls(l)}">${l.toUpperCase()}${l}</span>`).join('');
   const form = ctx.print ? '' : `<div class="cert-form print-hide"><input id="certName" placeholder="이름 (영어)" value="${esc(name)}" oninput="certName(this.value)"><button class="btn small" onclick="certPrint()">🖨 인쇄</button></div>`;
   return form + `<div class="cert"><div class="cert-ribbon">${esc(App.book.series)} ${App.book.book}</div><h1>${esc(c.title)}</h1>

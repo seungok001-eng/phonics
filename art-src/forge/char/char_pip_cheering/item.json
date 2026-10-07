@@ -2,8 +2,8 @@
  "status": "pending",
  "raw": "",
  "cut": "",
- "attempts": 0,
- "error": "",
+ "attempts": 1,
+ "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
  "updated": 1791283457.9446628,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/ee8d73d7-06a5-4522-b63d-9b1b846e0eee?Expires=1791305032&KeyName=labs-flow-prod-cdn-key&Signature=Wjfo1kpCa424swTbI7Ze1o3H9DM",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_cheering.png",
  "book": 1,
- "claimed_at": 1791283205.8985617
+ "claimed_at": 1791370023.7374756
 }

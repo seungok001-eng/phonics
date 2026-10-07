@@ -35,9 +35,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 19:47",
  "text_edited": false,
  "error": "",
  "unit": 12,
@@ -47,6 +47,5 @@
  "title": "2권 노래 20: U, u, /ʌ/! Short u!",
  "text": "U, u, /ʌ/! Short u!",
  "voice": "Kore",
- "book": 2,
- "busy": 1
+ "book": 2
 }

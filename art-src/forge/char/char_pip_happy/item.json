@@ -2,8 +2,8 @@
  "status": "pending",
  "raw": "",
  "cut": "",
- "attempts": 0,
- "error": "",
+ "attempts": 1,
+ "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
  "updated": 1791282964.6610956,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/4d06c0e9-153d-4bb6-ae41-afadadd77ce3?Expires=1791304541&KeyName=labs-flow-prod-cdn-key&Signature=tsT02EuP6LJ402JhNePoEZdBqNU",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_happy.png",
  "book": 1,
- "claimed_at": 1791282830.8997934
+ "claimed_at": 1791369936.2381132
 }

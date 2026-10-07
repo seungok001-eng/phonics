@@ -92,6 +92,7 @@
     <h2>선생님 자료</h2>
     <div class="feat">
       <div><b>📅 진도표</b><span id="sylLinks"><a href="teacher/syllabus.html">22차시 · 33차시</a></span></div>
+      <div><b>✅ 정답지</b><span id="ansLinks"><a href="teacher/answers.html">교사용 정답지</a></span> — 워크북 쪽·학생책 확인·복습 평가의 정답을 교재와 같은 배치로 (유닛별로도) <span id="ansPdfs"></span></div>
       <div><b>📖 이야기 안내서</b><span id="guideLinks"><a href="teacher/story-guide.html">교사용</a></span> — 권 줄기·등장인물·유닛별 줄거리·칸 설명·질문</div>
       <div><b>🗺 이야기 지도</b><span id="mapLinks"><a href="teacher/story-map.html">A3 포스터</a> · <a href="teacher/story-map.html?a4=1">A4 2쪽</a></span> — 0~12유닛을 길 하나로</div>
       <div><b>📝 수업안</b>유닛 카드의 "수업안" — 50분 흐름 2개, 웹 교재 쪽 번호 포함</div>
@@ -157,12 +158,14 @@ function makeTest() { const p = new URLSearchParams({ scope: tScope.value, level
   if (loaded.length > 1) {
     document.getElementById('sylLinks').innerHTML = loaded.map(({ n, book }) => `<a href="teacher/syllabus.html${bkq(n) ? '?' + bkq(n).slice(1) : ''}">${book.title}</a>`).join(' · ');
     document.getElementById('letterLinks').innerHTML = loaded.map(({ n, book }) => `<a href="teacher/letter.html?u=1${bkq(n)}">${book.title} Unit 1</a>`).join(' · ');
+    document.getElementById('ansLinks').innerHTML = loaded.map(({ n, book }) => `<a href="teacher/answers.html${bkq(n) ? '?' + bkq(n).slice(1) : ''}">${book.title}</a>`).join(' · ');
     document.getElementById('guideLinks').innerHTML = loaded.map(({ n, book }) => `<a href="teacher/story-guide.html${bkq(n) ? '?' + bkq(n).slice(1) : ''}">${book.title}</a>`).join(' · ');
     document.getElementById('mapLinks').innerHTML = loaded.map(({ n, book }) => `<a href="teacher/story-map.html${bkq(n) ? '?' + bkq(n).slice(1) : ''}">${book.title} A3</a> · <a href="teacher/story-map.html?a4=1${bkq(n)}">A4 2쪽</a>`).join(' · ');
     const sel = document.getElementById('tBk'); sel.innerHTML = loaded.map(({ n, book }) => `<option value="${n}">${book.title}</option>`).join(''); sel.style.display = '';
   }
   // PDF 목록 (전체) — 시험지 묶음은 선생님 자료 칸에도
   if (pdfList.length) { document.getElementById('pdfsec').style.display = ''; document.getElementById('pdfs').innerHTML = pdfList.map((f) => `<div><b>📄 ${f.title}</b><a href="pdf/${f.file}">${f.file}</a></div>`).join(''); }
+  const ap = pdfList.filter((f) => /_Answers\.pdf$/.test(f.file)); if (ap.length) document.getElementById('ansPdfs').innerHTML = 'PDF: ' + ap.map((f) => `<a href="pdf/${f.file}">${f.file}</a>`).join(' · ');
   const tp = pdfList.filter((f) => /Tests_/.test(f.file)); if (tp.length) document.getElementById('tPdfs').innerHTML = 'PDF 묶음: ' + tp.map((f) => `<a href="pdf/${f.file}">${f.title}</a>`).join(' · ');
 })();
 </script>

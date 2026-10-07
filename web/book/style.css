@@ -118,7 +118,7 @@ body.print .screen-hide { display: block !important; }
 
 /* ---------- 소리 쪽 ---------- */
 .sound-cards { display: grid; grid-template-columns: 1fr; gap: 12px; flex: 1; }
-.sound-card { display: grid; grid-template-columns: 150px 1fr 300px; align-items: center; gap: 14px; border: 3px solid var(--line); border-radius: var(--radius); padding: 12px 16px; background: var(--cream); }
+.sound-card { display: grid; grid-template-columns: minmax(150px, auto) minmax(0, 1fr) 300px; align-items: center; gap: 14px; border: 3px solid var(--line); border-radius: var(--radius); padding: 12px 16px; background: var(--cream); }
 .sound-card .glyph { font-family: 'Andika'; font-size: 104px; line-height: 1; font-weight: 700; text-align: center; }
 .sound-card .glyph small { font-size: 78px; font-weight: 400; margin-left: 6px; }
 .sound-card .tree { height: 200px; }
@@ -157,7 +157,7 @@ body.print .screen-hide { display: block !important; }
 
 /* ---------- 단어 쪽 ---------- */
 .word-rows { display: flex; flex-direction: column; gap: 10px; flex: 1; }
-.word-row { display: grid; grid-template-columns: 90px repeat(3, 1fr); gap: 12px; align-items: stretch; }
+.word-row { display: grid; grid-template-columns: minmax(90px, auto) repeat(3, minmax(0, 1fr)); gap: 12px; align-items: stretch; }
 .word-row .ltr { font-family: 'Andika'; font-size: 60px; font-weight: 700; display: flex; align-items: center; justify-content: center; background: var(--cream); border-radius: 14px; }
 .word-card { border: 3px solid var(--line); border-radius: 14px; padding: 8px; display: flex; flex-direction: column; align-items: center; gap: 4px; background: #fff; }
 .word-card .pic { width: 100%; height: 150px; }
@@ -276,7 +276,7 @@ body.teacher .lp-tools .lp-msg { font-size: 26px; } body.teacher .lp-tools .lp-s
 .sent .cnt { margin-left: auto; display: flex; gap: 4px; }
 .sent .cnt span { width: 26px; height: 26px; border: 2px solid var(--line); border-radius: 6px; cursor: pointer; }
 .sent .cnt span.on { background: var(--ok); border-color: var(--ok); }
-.sort { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.sort { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }   /* 상자 2~4개가 한 줄에 */
 .sort .bin { border: 3px solid var(--line); border-radius: 14px; min-height: 120px; padding: 6px; }
 .sort .bin h4 { margin: 0 0 4px; font-family: 'Andika'; font-size: 34px; text-align: center; }
 .sort .pool, .sort .bin .in { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }

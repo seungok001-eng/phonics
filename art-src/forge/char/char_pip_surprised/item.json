@@ -2,8 +2,8 @@
  "status": "pending",
  "raw": "",
  "cut": "",
- "attempts": 0,
- "error": "",
+ "attempts": 1,
+ "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
  "updated": 1791282935.8154163,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/56b579b1-ff35-4443-9e83-269cdace975a?Expires=1791304511&KeyName=labs-flow-prod-cdn-key&Signature=uB3XBcKmqyPYVlsc4RlHg_4HSzg",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_surprised.png",
  "book": 1,
- "claimed_at": 1791282833.3866692
+ "claimed_at": 1791370016.269716
 }

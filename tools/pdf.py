@@ -3,6 +3,7 @@
 #       python tools/pdf.py 1          → 1유닛만
 #       python tools/pdf.py story      → 스토리북만
 #       python tools/pdf.py guides     → 교사용 이야기 안내서(..._StoryGuide.pdf, A4)·이야기 지도(..._StoryMap.pdf A3 가로, ..._StoryMap_A4.pdf 세로 2쪽)만
+#       python tools/pdf.py answers    → 교사용 정답지만 (..._Answers.pdf: 워크북 쪽 + 학생책 확인·복습 평가 쪽을 같은 배치로, A4 가로에 2쪽)
 #       python tools/pdf.py tests      → 시험지 묶음만 (PomiPhonics1_Tests_Units.pdf: 유닛마다 시험지+정답지 / _Tests_Review.pdf: 복습·전체 × 수준 × A/B + 정답지 + 말하기 체크리스트)
 #       python tools/pdf.py --press    → 인쇄소용: 사방 3mm 도련 + 재단선 판형(A4 → 216×303mm, A5 가로 → 216×154mm) 을 web/pdf/press/ 에, 표지 PDF 도 함께
 #       python tools/pdf.py --book 2   → 2권(content/b2/): 파일 이름 PomiPhonics2_..., QR 이름 b2_..., 주소에 &bk=2. index.json 항목에 "book": 2
@@ -143,6 +144,8 @@ def main():
     story_only = 'story' in args
     tests_only = 'tests' in args
     guides_only = 'guides' in args
+    answers_only = 'answers' in args
+    special = story_only or tests_only or guides_only or answers_only   # 묶음 하나만 뽑을 때
     out_dir = os.path.join(OUT, 'press') if press else OUT
     cdir = book_dir(bk)                                   # 'b2/' 처럼 권 폴더
     q = ('&press=1' if press else '') + (f'&bk={bk}' if bk > 1 else '')
@@ -162,7 +165,7 @@ def main():
             up = os.path.join(ROOT, 'content', cdir, 'units', f'unit{u:02d}.json')
             if not os.path.exists(up): continue
             unit = json.load(open(up, encoding='utf-8')); units[u] = unit
-            if story_only or tests_only or guides_only or (only is not None and u != only): continue
+            if special or (only is not None and u != only): continue
             for b, label in (('sb', 'SB'), ('wb', 'WB')):
                 n = page_count(unit, b)
                 if not n: continue
@@ -173,14 +176,14 @@ def main():
                 print(f'{os.path.basename(out)}  ({n}쪽, {os.path.getsize(out) // 1024}KB)')
         # 스토리북 (A5 가로): 유닛 하나만 뽑을 때는 건너뛴다
         keys = story_keys(book, units, bk)
-        if keys and only is None and not tests_only and not guides_only:
+        if keys and only is None and (not special or story_only):
             for name, url in keys: make_qr(url, name)
             out = os.path.join(out_dir, f'{pre}_Storybook.pdf')
             print_pdf(exe, f'{base}/print.html?b=story{q}', out, budget=45000)
             index.append(entry(f"Storybook — {book['storybook'].get('title', '')}", out))
             print(f'{os.path.basename(out)}  ({len(keys)}쪽, {os.path.getsize(out) // 1024}KB)')
         # 시험지 묶음 (가정용 출력에만): 유닛별 / 복습·전체. 쪽이 많아 시간 예산을 넉넉히
-        if only is None and not story_only and not press and not guides_only:
+        if only is None and not press and (not special or tests_only):
             art = small_art(); aq = f'&art={art}' if art else ''
             for name, label in (('units', 'Unit Tests — 유닛별 시험지 + 정답지'), ('review', 'Review Tests — 복습·전체 시험지 + 정답지 + 말하기 체크리스트')):
                 out = os.path.join(out_dir, f'{pre}_Tests_{name.capitalize()}.pdf')
@@ -188,7 +191,7 @@ def main():
                 index.append(entry(label, out))
                 print(f'{os.path.basename(out)}  ({os.path.getsize(out) // 1024}KB)')
         # 교사용 이야기 안내서(A4) · 이야기 지도 포스터(A3 가로, A4 세로 2쪽) — 가정용 출력에만
-        if only is None and not story_only and not tests_only and not press:
+        if only is None and not press and (not special or guides_only):
             tb = f'http://localhost:{PORT}/web/teacher'; art = small_art(); bq = (f'bk={bk}&' if bk > 1 else '') + (f'art={art}&' if art else '')
             for name, url, label in (('StoryGuide', f'{tb}/story-guide.html?{bq}', '이야기 안내서 (교사용)'),
                                      ('StoryMap', f'{tb}/story-map.html?{bq}', '이야기 지도 포스터 (A3 가로)'),
@@ -197,8 +200,15 @@ def main():
                 print_pdf(exe, url, out, budget=40000)
                 index.append(entry(label, out))
                 print(f'{os.path.basename(out)}  ({os.path.getsize(out) // 1024}KB)')
+        # 교사용 정답지 (A4 가로에 교재 쪽 2개씩, 정답은 빨강) — 가정용 출력에만
+        if only is None and not press and (not special or answers_only):
+            art = small_art(); aq = f'&art={art}' if art else ''
+            out = os.path.join(out_dir, f'{pre}_Answers.pdf')
+            print_pdf(exe, f'http://localhost:{PORT}/web/teacher/answers.html?{"bk=%d&" % bk if bk > 1 else ""}{aq.lstrip("&")}', out, budget=60000)
+            index.append(entry('Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)', out))
+            print(f'{os.path.basename(out)}  ({os.path.getsize(out) // 1024}KB)')
         # 인쇄소용이면 표지도 (앞·뒤 한 벌씩)
-        if press and only is None and not tests_only and not guides_only:
+        if press and only is None and not special:
             make_qr(book['site_base'], 'site')
             for b, label in (('sb', 'SB'), ('wb', 'WB'), ('story', 'Storybook')):
                 if b == 'story' and not keys: continue
@@ -213,7 +223,7 @@ def main():
     old = json.load(open(ip, encoding='utf-8')) if os.path.exists(ip) else []
     names = {e['file'] for e in index}
     merged = [e for e in old if e['file'] not in names] + index
-    merged.sort(key=lambda e: (e.get('book', 1), 0 if '_SB_' in e['file'] or '_WB_' in e['file'] else 1 if 'Storybook' in e['file'] else 2 if 'Tests' in e['file'] else 3, e['file']))
+    merged.sort(key=lambda e: (e.get('book', 1), 0 if '_SB_' in e['file'] or '_WB_' in e['file'] else 1 if 'Storybook' in e['file'] else 2 if 'Tests' in e['file'] or 'Answers' in e['file'] else 3, e['file']))
     json.dump(merged, open(ip, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
