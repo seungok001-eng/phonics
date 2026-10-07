@@ -1,0 +1,657 @@
+{
+  "unit": 3,
+  "title": "A Note and a Rope",
+  "title_ko": "쪽지와 밧줄",
+  "vowel": "o",
+  "families": [
+    "o_e"
+  ],
+  "words": {
+    "o_e": [
+      "hope",
+      "note",
+      "robe",
+      "globe",
+      "bone",
+      "rope",
+      "nose",
+      "rose",
+      "stone",
+      "cone"
+    ]
+  },
+  "pairs": [
+    {
+      "from": "hop",
+      "to": "hope"
+    },
+    {
+      "from": "not",
+      "to": "note"
+    },
+    {
+      "from": "rob",
+      "to": "robe"
+    },
+    {
+      "from": "glob",
+      "to": "globe"
+    }
+  ],
+  "sight_words": [
+    "home",
+    "so"
+  ],
+  "objectives_ko": [
+    "긴 모음 o(oʊ)와 마법 e 를 알고, 끝에 e 가 붙으면 o 가 제 이름 소리를 내는 것을 안다",
+    "hop→hope 처럼 짝 단어 4쌍을 바꿔 읽는다",
+    "o_e 단어 10개를 소리를 이어 읽고 그림과 잇고 쓴다",
+    "사이트워드 home, so를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Magic e",
+      "title_ko": "마법 e·합치기",
+      "pages": [
+        {
+          "type": "magic_e",
+          "family": "o_e",
+          "title": "Add magic e!"
+        },
+        {
+          "type": "blend",
+          "family": "o_e",
+          "title": "o_e words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letters."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The rope is on the stone.",
+      "audio": "b4_u03_s1",
+      "pic": "word_rope",
+      "words": [
+        "rope",
+        "stone"
+      ]
+    },
+    {
+      "text": "A dog has a bone.",
+      "audio": "b4_u03_s2",
+      "pic": "word_bone",
+      "words": [
+        "bone"
+      ]
+    },
+    {
+      "text": "I see a rose. So red!",
+      "audio": "b4_u03_s3",
+      "pic": "word_rose",
+      "words": [
+        "rose"
+      ]
+    },
+    {
+      "text": "The robe is at home.",
+      "audio": "b4_u03_s4",
+      "pic": "word_robe",
+      "words": [
+        "robe"
+      ]
+    }
+  ],
+  "story": {
+    "title": "A Note and a Rope",
+    "bgm": "bgm_adventure",
+    "panels": [
+      {
+        "id": "scene_b4_u03_1",
+        "desc": "A great stone hall inside the castle. A wide stone staircase leads up to a high door, but in the middle of the stairs there is a deep gap. At the edge of the gap stands a wooden signpost carved with three letters n, o, t — these three letters are the ONLY text allowed in the picture — with a round red no symbol (a red circle with a diagonal line) painted beside the letters. Bun crouches, ready to hop over the gap; Hedgie grabs her red cape to stop her; Pip reads the sign in broken pieces; Fairy E flutters by the sign. In the hall stand a big round world globe on a wooden stand and a stone statue of a friendly lion with a big round nose; a red rose grows in a pot on one step. Hidden in the picture: the stone steps, the globe, the statue's nose, the rose. Grumble does NOT appear.",
+        "hidden": [
+          "stone",
+          "globe",
+          "nose",
+          "rose"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I can hop! Hop, hop!",
+            "audio": "b4_u03_l1",
+            "ko": "난 뛰어넘을 수 있어! 깡충, 깡충!"
+          },
+          {
+            "who": "hedgie",
+            "text": "No, Bun! It is big!",
+            "audio": "b4_u03_l2",
+            "ko": "안 돼, 번! 너무 넓어!"
+          },
+          {
+            "who": "pip",
+            "text": "Not-e? Not-e!",
+            "audio": "b4_u03_l3",
+            "ko": "낫-이? 낫-이!"
+          }
+        ],
+        "ko": "돌계단 한가운데에 깊은 틈이 있어요. 번이 뛰어넘으려 하자 헤지가 말려요. '안 돼' 표지 앞에서 핍은 \"낫-이!\"",
+        "ask": [
+          {
+            "en": "What is on the stairs?",
+            "ko": "계단에 뭐가 있어?"
+          },
+          {
+            "en": "Why does Hedgie stop Bun?",
+            "ko": "헤지는 왜 번을 말려?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u03_2",
+        "desc": "Fairy E taps the end of the wooden signpost with her star wand: a sparkling letter e appears, so it reads n o t e — these four letters are the ONLY text allowed in the picture — the red no symbol vanishes in sparkles, and a small folded paper note tied with a red ribbon flutters out of the sign down into Hedgie's paws. Hedgie opens it: inside there is only a simple drawing of a coiled rope, no words. Bun and Pip lean in to look; Beads peers from Hedgie's flower. Hidden in the picture: the note, the drawing of the rope, the stone steps. Grumble does NOT appear.",
+        "hidden": [
+          "note",
+          "rope",
+          "stone"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/n/ /oʊ/ /t/ note!",
+            "audio": "blend_note",
+            "pop": "note",
+            "ko": "/n/ /oʊ/ /t/ 쪽지!"
+          },
+          {
+            "who": "narrator",
+            "text": "Look! A note!",
+            "audio": "b4_u03_l4",
+            "ko": "봐요! 쪽지예요!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A rope? A rope!",
+            "audio": "b4_u03_l5",
+            "ko": "밧줄? 밧줄이래!"
+          }
+        ],
+        "video": "vid_b4_u03_1",
+        "ko": "요정 이가 톡! n-o-t 끝에 반짝 e 가 붙어 note 가 되자 표지에서 쪽지가 나와 헤지 손에 내려앉아요. 쪽지 안에는 밧줄 그림만 있어요.",
+        "ask": [
+          {
+            "en": "What is the sign now?",
+            "ko": "표지가 뭐로 바뀌었어?"
+          },
+          {
+            "en": "What is in the note?",
+            "ko": "쪽지에 뭐가 그려져 있어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u03_3",
+        "desc": "High up in the stone wall of the hall a small window opens, and Grumble leans out wearing a fluffy blue bathrobe over his striped pajamas and nightcap, grumpy and sleepy, slowly lowering a long brown rope down toward the friends. On the bottom step a small brown puppy chews a white bone, wagging its tail. Bun reaches up for the rope; Hedgie holds the note; Pip looks up at the rope, reading it in pieces. Hidden in the picture: the rope, the robe, the bone, the stone steps, the puppy's nose. No letters anywhere.",
+        "hidden": [
+          "rope",
+          "robe",
+          "bone",
+          "stone",
+          "nose"
+        ],
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh... Take the rope.",
+            "audio": "b4_u03_l6",
+            "ko": "쉿… 밧줄 잡아."
+          },
+          {
+            "who": "bun",
+            "text": "/oʊ/ /oʊ/ rope!",
+            "audio": "b4_u03_l7",
+            "ko": "/oʊ/ /oʊ/ 밧줄!"
+          },
+          {
+            "who": "pip",
+            "text": "Rop-e? Rop-e!",
+            "audio": "b4_u03_l8",
+            "ko": "랍-이? 랍-이!"
+          }
+        ],
+        "ko": "목욕 가운을 입은 그럼블이 창문에서 밧줄을 내려 줘요. 처음으로 친구들을 도와줬어요! 핍은 \"랍-이!\"",
+        "ask": [
+          {
+            "en": "Who has the rope?",
+            "ko": "밧줄은 누가 내려 줬어?"
+          },
+          {
+            "en": "What does Grumble wear?",
+            "ko": "그럼블은 뭘 입었어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u03_4",
+        "desc": "Bun swings across the gap on the rope with Pip clinging to her head and her red cape flying; Hedgie and Beads wait their turn holding the end of the rope; Fairy E sprinkles sparkles along it. Above, Grumble in his fluffy blue robe holds the rope tight in his window, peeking down with a tiny hidden smile; an ice cream cone sits on his windowsill. The globe and the potted red rose stand by the steps. Hidden in the picture: the rope, the robe, the ice cream cone, the rose, the globe. No letters anywhere.",
+        "hidden": [
+          "rope",
+          "robe",
+          "cone",
+          "rose",
+          "globe"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "So we can go up!",
+            "audio": "b4_u03_l9",
+            "ko": "그래서 위로 올라갈 수 있어요!"
+          },
+          {
+            "who": "bun",
+            "text": "Thank you, Grumble!",
+            "audio": "b4_u03_l10",
+            "ko": "고마워, 그럼블!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Go, go.",
+            "audio": "b4_u03_l11",
+            "ko": "쉿… 어서 가, 가."
+          }
+        ],
+        "video": "vid_b4_u03_2",
+        "ko": "번이 밧줄을 타고 틈을 휙 건너요. 창문의 그럼블이 밧줄을 꼭 잡아 주며 몰래 웃어요.",
+        "ask": [
+          {
+            "en": "How does Bun go over the gap?",
+            "ko": "번은 틈을 어떻게 건너?"
+          },
+          {
+            "en": "Is Grumble happy?",
+            "ko": "그럼블은 기분이 어때 보여?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "돌계단 한가운데 깊은 틈이 있어요. 번이 뛰어넘으려 하자 헤지가 말려요. 핍은 \"낫-이!\" 요정 이가 '안 돼' 표지를 톡! 하자 쪽지(note)가 되고, 쪽지에는 밧줄 그림이 있어요. 목욕 가운을 입은 그럼블이 창문에서 밧줄을 내려 줘요. 처음으로 친구들을 도와줬어요!",
+    "so_far_ko": "요정 이가 구급상자를 연으로 바꿨어요. 벌집에서 벌이 나오자 그럼블이 \"숨어!\" 하고 알려 줬어요.",
+    "goal_ko": "마법 e 로 짧은 o 단어를 긴 o 단어로 바꿔 읽고 계단의 틈을 건너요."
+  },
+  "videos": [
+    {
+      "id": "vid_b4_u03_1",
+      "from": "scene_b4_u03_2",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the tiny fairy taps the red no sign with her star wand, sparkles burst and the sign flips into a folded paper note that flutters down into the hedgehog's paws; he opens it and a little drawing of a rope shimmers. Camera still. Magical, child-friendly. No text."
+    },
+    {
+      "id": "vid_b4_u03_2",
+      "from": "scene_b4_u03_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the rabbit swings across the gap on a long rope with the baby bird on her head and her red cape flying, sparkles twinkle along the rope, the old raccoon in the window holds the rope tight and hides a small smile. Camera still. Exciting, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "note",
+        "pictures": [
+          "note",
+          "not",
+          "nose"
+        ]
+      },
+      {
+        "word": "rope",
+        "pictures": [
+          "rope",
+          "robe",
+          "rose"
+        ]
+      },
+      {
+        "word": "bone",
+        "pictures": [
+          "bone",
+          "cone",
+          "stone"
+        ]
+      },
+      {
+        "word": "globe",
+        "pictures": [
+          "globe",
+          "glob",
+          "hope"
+        ]
+      },
+      {
+        "word": "rose",
+        "pictures": [
+          "rose",
+          "nose",
+          "note"
+        ]
+      },
+      {
+        "word": "robe",
+        "pictures": [
+          "robe",
+          "rob",
+          "rope"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "stone"
+      },
+      {
+        "word": "cone"
+      },
+      {
+        "word": "nose"
+      },
+      {
+        "word": "hope"
+      }
+    ],
+    "write": [
+      {
+        "word": "rope",
+        "missing": 1
+      },
+      {
+        "word": "bone",
+        "missing": 0
+      },
+      {
+        "word": "note",
+        "missing": 2
+      },
+      {
+        "word": "rose",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "hop",
+        "pictures": [
+          "hop",
+          "hope",
+          "rope"
+        ]
+      },
+      {
+        "word": "note",
+        "pictures": [
+          "note",
+          "not",
+          "bone"
+        ]
+      },
+      {
+        "word": "cone",
+        "pictures": [
+          "cone",
+          "bone",
+          "stone"
+        ]
+      },
+      {
+        "word": "globe",
+        "pictures": [
+          "globe",
+          "glob",
+          "robe"
+        ]
+      },
+      {
+        "word": "nose",
+        "pictures": [
+          "nose",
+          "rose",
+          "note"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "hope",
+        "missing": 1
+      },
+      {
+        "word": "note",
+        "missing": 0
+      },
+      {
+        "word": "robe",
+        "missing": 2
+      },
+      {
+        "word": "bone",
+        "missing": 1
+      },
+      {
+        "word": "rope",
+        "missing": 0
+      },
+      {
+        "word": "nose",
+        "missing": 1
+      },
+      {
+        "word": "stone",
+        "missing": 2
+      },
+      {
+        "word": "cone",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "o": [
+        "hop",
+        "not",
+        "rob",
+        "glob"
+      ],
+      "o_e": [
+        "hope",
+        "note",
+        "robe",
+        "globe",
+        "bone",
+        "rope"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The rope is on the stone.",
+        "pictures": [
+          "rope",
+          "rose"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "A dog has a bone.",
+        "pictures": [
+          "cone",
+          "bone"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "I see a rose. So red!",
+        "pictures": [
+          "rose",
+          "nose"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "The robe is at home.",
+        "pictures": [
+          "globe",
+          "robe"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "rope",
+      "bone",
+      "note",
+      "rose",
+      "stone",
+      "cone"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb4_u03_1",
+        "desc": "A great stone hall with a wide stone staircase and a deep gap in the middle of the stairs. At the edge stands a wooden signpost carved with three letters n, o, t — the ONLY text allowed in the picture — with a round red no symbol painted beside them. Bun crouches to hop over; Hedgie grabs her red cape; Pip reads the sign in broken pieces; Fairy E flutters nearby. A globe on a stand, a lion statue with a big round nose and a potted red rose are in the hall. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I can hop! Hop, hop!",
+            "audio": "sb4_u03_1_1",
+            "ko": "난 뛰어넘을 수 있어! 깡충, 깡충!"
+          },
+          {
+            "who": "hedgie",
+            "text": "No, Bun! It is big!",
+            "audio": "sb4_u03_1_2",
+            "ko": "안 돼, 번! 너무 넓어!"
+          },
+          {
+            "who": "pip",
+            "text": "Not-e? Not-e!",
+            "audio": "sb4_u03_1_3",
+            "ko": "낫-이? 낫-이!"
+          }
+        ],
+        "task": "Find the long o words!",
+        "task_ko": "긴 o 단어를 찾아요",
+        "ko": "돌계단에 깊은 틈. 번이 뛰어넘으려 하자 헤지가 말려요. 핍은 \"낫-이!\""
+      },
+      {
+        "id": "sb4_u03_2",
+        "desc": "Hedgie holds open a folded paper note with a red ribbon that shows only a drawing of a coiled rope; Bun and Pip lean in. High in the stone wall, Grumble in a fluffy blue bathrobe leans out of a small window and slowly lowers a long brown rope; a puppy chews a bone on the bottom step. No letters anywhere.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/n/ /oʊ/ /t/ note!",
+            "audio": "sb4_u03_2_1",
+            "ko": "/n/ /oʊ/ /t/ 쪽지!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A rope? A rope!",
+            "audio": "sb4_u03_2_2",
+            "ko": "밧줄? 밧줄이래!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Take the rope.",
+            "audio": "sb4_u03_2_3",
+            "ko": "쉿… 밧줄 잡아."
+          }
+        ],
+        "task": "Find the note and the rope!",
+        "task_ko": "쪽지와 밧줄을 찾아요",
+        "ko": "표지가 쪽지로 바뀌었어요. 쪽지에는 밧줄 그림! 가운 입은 그럼블이 창문에서 밧줄을 내려 줘요."
+      },
+      {
+        "id": "sb4_u03_3",
+        "desc": "Bun swings across the gap on the rope with Pip on her head and her red cape flying; Hedgie and Beads hold the end of the rope; Fairy E sprinkles sparkles. Above, Grumble in his blue robe holds the rope tight with a tiny hidden smile, an ice cream cone on his windowsill. No letters anywhere.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "So we can go up!",
+            "audio": "sb4_u03_3_1",
+            "ko": "그래서 위로 올라갈 수 있어요!"
+          },
+          {
+            "who": "bun",
+            "text": "Thank you, Grumble!",
+            "audio": "sb4_u03_3_2",
+            "ko": "고마워, 그럼블!"
+          },
+          {
+            "who": "narrator",
+            "text": "Splash! Splish! Oh no!",
+            "audio": "sb4_u03_3_3",
+            "ko": "첨벙! 찰방! 저런!"
+          }
+        ],
+        "task": "Find the robe and the cone!",
+        "task_ko": "가운과 아이스크림콘을 찾아요",
+        "ko": "번이 밧줄을 타고 틈을 건너요. 그럼블이 몰래 웃어요. — 첨벙! 찰방! 저런!"
+      }
+    ]
+  }
+}

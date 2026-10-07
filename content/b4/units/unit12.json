@@ -1,0 +1,711 @@
+{
+  "unit": 12,
+  "title": "The Song Tree Show",
+  "title_ko": "노래 나무 쇼",
+  "vowel": null,
+  "families": [],
+  "words": {},
+  "sight_words": [],
+  "review": {
+    "vowels": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+    ],
+    "families": [
+      "a_e",
+      "i_e",
+      "o_e",
+      "u_e",
+      "ai",
+      "ay",
+      "ee",
+      "ea",
+      "oa",
+      "ow",
+      "oo",
+      "ou",
+      "ar",
+      "or"
+    ],
+    "words": [
+      "cape",
+      "cane",
+      "tape",
+      "vane",
+      "cake",
+      "gate",
+      "lake",
+      "snake",
+      "wave",
+      "cave",
+      "kite",
+      "pine",
+      "ripe",
+      "slide",
+      "bike",
+      "five",
+      "hide",
+      "nine",
+      "hive",
+      "dive",
+      "hope",
+      "note",
+      "robe",
+      "globe",
+      "bone",
+      "rope",
+      "nose",
+      "rose",
+      "stone",
+      "cone",
+      "cube",
+      "tube",
+      "cute",
+      "huge",
+      "mule",
+      "flute",
+      "dune",
+      "tune",
+      "rain",
+      "train",
+      "tail",
+      "sail",
+      "nail",
+      "paint",
+      "tray",
+      "hay",
+      "clay",
+      "jay",
+      "tree",
+      "bee",
+      "feet",
+      "seed",
+      "sheep",
+      "sea",
+      "leaf",
+      "tea",
+      "seal",
+      "peach",
+      "boat",
+      "goat",
+      "soap",
+      "coat",
+      "road",
+      "toast",
+      "snow",
+      "bowl",
+      "crow",
+      "bow",
+      "moon",
+      "boot",
+      "roof",
+      "broom",
+      "tooth",
+      "house",
+      "mouse",
+      "cloud",
+      "mouth",
+      "couch",
+      "star",
+      "car",
+      "farm",
+      "jar",
+      "harp",
+      "horn",
+      "fork",
+      "corn",
+      "torch",
+      "storm"
+    ],
+    "test": {
+      "read_circle": [
+        {
+          "word": "cape",
+          "pictures": [
+            "cape",
+            "cap",
+            "tape"
+          ]
+        },
+        {
+          "word": "kite",
+          "pictures": [
+            "kite",
+            "kit",
+            "bike"
+          ]
+        },
+        {
+          "word": "rope",
+          "pictures": [
+            "rope",
+            "robe",
+            "road"
+          ]
+        },
+        {
+          "word": "cube",
+          "pictures": [
+            "cube",
+            "cub",
+            "tube"
+          ]
+        },
+        {
+          "word": "train",
+          "pictures": [
+            "train",
+            "tree",
+            "tray"
+          ]
+        },
+        {
+          "word": "moon",
+          "pictures": [
+            "moon",
+            "mouse",
+            "boot"
+          ]
+        }
+      ],
+      "match": [
+        {
+          "word": "snake"
+        },
+        {
+          "word": "goat"
+        },
+        {
+          "word": "house"
+        },
+        {
+          "word": "star"
+        }
+      ],
+      "write": [
+        {
+          "word": "gate",
+          "missing": 1
+        },
+        {
+          "word": "pine",
+          "missing": 1
+        },
+        {
+          "word": "seal",
+          "missing": 1
+        },
+        {
+          "word": "horn",
+          "missing": 1
+        }
+      ]
+    },
+    "blend": [
+      {
+        "word": "cake",
+        "missing": 1
+      },
+      {
+        "word": "hive",
+        "missing": 1
+      },
+      {
+        "word": "bone",
+        "missing": 1
+      },
+      {
+        "word": "mule",
+        "missing": 1
+      },
+      {
+        "word": "sail",
+        "missing": 1
+      },
+      {
+        "word": "leaf",
+        "missing": 1
+      },
+      {
+        "word": "coat",
+        "missing": 1
+      },
+      {
+        "word": "cloud",
+        "missing": 1
+      }
+    ],
+    "sort": {
+      "a_e": [
+        "cake",
+        "gate",
+        "lake"
+      ],
+      "i_e": [
+        "kite",
+        "bike",
+        "five"
+      ],
+      "ai": [
+        "rain",
+        "train",
+        "tail"
+      ],
+      "ee": [
+        "tree",
+        "bee",
+        "feet"
+      ],
+      "oa": [
+        "boat",
+        "goat",
+        "soap"
+      ]
+    }
+  },
+  "show": {
+    "song": {
+      "title": "The Song Tree Song",
+      "bgm": "song_backing",
+      "lines": [
+        {
+          "text": "Add an e! Eee! Eee!",
+          "audio": "b4_u12_s01"
+        },
+        {
+          "text": "Cap, cape! Can, cane!",
+          "audio": "b4_u12_s02"
+        },
+        {
+          "text": "Cake, gate, lake, snake!",
+          "audio": "b4_u12_s03"
+        },
+        {
+          "text": "Kit, kite! Pin, pine!",
+          "audio": "b4_u12_s04"
+        },
+        {
+          "text": "Bike, five, hive, slide!",
+          "audio": "b4_u12_s05"
+        },
+        {
+          "text": "Hop, hope! Not, note!",
+          "audio": "b4_u12_s06"
+        },
+        {
+          "text": "Rope, bone, rose, stone!",
+          "audio": "b4_u12_s07"
+        },
+        {
+          "text": "Cub, cube! Tub, tube!",
+          "audio": "b4_u12_s08"
+        },
+        {
+          "text": "A cute mule! A flute!",
+          "audio": "b4_u12_s09"
+        },
+        {
+          "text": "Two make one! Click-clack!",
+          "audio": "b4_u12_s10"
+        },
+        {
+          "text": "Rain, train, tail, sail!",
+          "audio": "b4_u12_s11"
+        },
+        {
+          "text": "Day, play, tray, hay!",
+          "audio": "b4_u12_s12"
+        },
+        {
+          "text": "Tree, bee, feet, seed!",
+          "audio": "b4_u12_s13"
+        },
+        {
+          "text": "Sea, leaf, tea, seal!",
+          "audio": "b4_u12_s14"
+        },
+        {
+          "text": "Boat, goat, soap, coat!",
+          "audio": "b4_u12_s15"
+        },
+        {
+          "text": "Snow, bowl, crow! Go slow!",
+          "audio": "b4_u12_s16"
+        },
+        {
+          "text": "Moon, boot, roof, broom!",
+          "audio": "b4_u12_s17"
+        },
+        {
+          "text": "House, mouse, cloud, mouth!",
+          "audio": "b4_u12_s18"
+        },
+        {
+          "text": "Star, car, farm, jar!",
+          "audio": "b4_u12_s19"
+        },
+        {
+          "text": "Horn, fork, corn, storm!",
+          "audio": "b4_u12_s20"
+        },
+        {
+          "text": "Boom, boom! Grumble's drum!",
+          "audio": "b4_u12_s21"
+        },
+        {
+          "text": "We can read! We can sing!",
+          "audio": "b4_u12_s22"
+        },
+        {
+          "text": "Pip can sing! La, la, la!",
+          "audio": "b4_u12_s23"
+        },
+        {
+          "text": "Pop! Pop! Phonics!",
+          "audio": "b4_u12_s24"
+        }
+      ]
+    },
+    "hunt": {
+      "rounds": [
+        {
+          "family": "a_e",
+          "scene": "scene_b4_u01_3",
+          "words": [
+            "cake",
+            "lake",
+            "snake",
+            "wave"
+          ]
+        },
+        {
+          "family": "i_e",
+          "scene": "scene_b4_u02_3",
+          "words": [
+            "kite",
+            "pine",
+            "slide",
+            "ripe"
+          ]
+        },
+        {
+          "family": "o_e",
+          "scene": "scene_b4_u03_3",
+          "words": [
+            "rope",
+            "robe",
+            "bone",
+            "stone"
+          ]
+        },
+        {
+          "family": "u_e",
+          "scene": "scene_b4_u04_3",
+          "words": [
+            "dune",
+            "mule",
+            "flute",
+            "tube"
+          ]
+        },
+        {
+          "family": "ai",
+          "scene": "scene_b4_u06_2",
+          "words": [
+            "rain",
+            "sail",
+            "train",
+            "nail"
+          ]
+        },
+        {
+          "family": "ee",
+          "scene": "scene_b4_u07_4",
+          "words": [
+            "bee",
+            "feet",
+            "seed",
+            "sheep"
+          ]
+        },
+        {
+          "family": "oa",
+          "scene": "scene_b4_u08_3",
+          "words": [
+            "boat",
+            "goat",
+            "coat",
+            "soap"
+          ]
+        },
+        {
+          "family": "ar",
+          "scene": "scene_b4_u10_2",
+          "words": [
+            "harp",
+            "jar",
+            "star",
+            "car"
+          ]
+        }
+      ]
+    },
+    "recap": [
+      {
+        "unit": 0,
+        "scene": "scene_b4_u00_2",
+        "line": {
+          "who": "fairy",
+          "text": "Eee! Hi, Pip!",
+          "audio": "b4_u00_l5",
+          "ko": "이~! 안녕, 핍!"
+        },
+        "ko": "친구들이 마법 성에 닿아 요정 이를 만났어요."
+      },
+      {
+        "unit": 1,
+        "scene": "scene_b4_u01_1",
+        "line": {
+          "who": "pip",
+          "text": "Cap... e? Cap-e!",
+          "audio": "b4_u01_l2",
+          "ko": "캡… 이? 캡-이!"
+        },
+        "ko": "핍은 \"캡-이!\" 하고 끊어 읽었어요. 요정 이가 모자를 망토로 바꿨어요."
+      },
+      {
+        "unit": 2,
+        "scene": "scene_b4_u02_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh! Hide! Hide!",
+          "audio": "b4_u02_l10",
+          "ko": "쉿! 숨어! 숨어!"
+        },
+        "ko": "벌집에서 벌이 나오자 그럼블이 \"숨어!\" 하고 알려 줬어요."
+      },
+      {
+        "unit": 3,
+        "scene": "scene_b4_u03_3",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... Take the rope.",
+          "audio": "b4_u03_l6",
+          "ko": "쉿… 밧줄 잡아."
+        },
+        "ko": "그럼블이 창문에서 밧줄을 내려 줬어요."
+      },
+      {
+        "unit": 4,
+        "scene": "scene_b4_u04_2",
+        "line": {
+          "who": "narrator",
+          "text": "The tub is a tube!",
+          "audio": "b4_u04_l4",
+          "ko": "욕조가 튜브가 됐어요!"
+        },
+        "ko": "욕조가 튜브가 되어 모두 미끄러져 내려갔어요."
+      },
+      {
+        "unit": 5,
+        "scene": "scene_b4_u05_3",
+        "line": {
+          "who": "pip",
+          "text": "Cape! Cape! CAPE!",
+          "audio": "b4_u05_l7",
+          "ko": "케이프! 케이프! 케이프! (망토!)"
+        },
+        "ko": "핍의 첫 마법 단어 \"케이프!\""
+      },
+      {
+        "unit": 6,
+        "scene": "scene_b4_u06_3",
+        "line": {
+          "who": "bun",
+          "text": "We ride the train!",
+          "audio": "b4_u06_l6",
+          "ko": "우리 기차 탄다!"
+        },
+        "ko": "비를 그치고 커다래진 기차를 타고 달렸어요."
+      },
+      {
+        "unit": 7,
+        "scene": "scene_b4_u07_3",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... Tea? I like tea.",
+          "audio": "b4_u07_l7",
+          "ko": "쉿… 차 마실래? 난 차가 좋아."
+        },
+        "ko": "그럼블이 차를 가져와 함께 마셨어요."
+      },
+      {
+        "unit": 8,
+        "scene": "scene_b4_u08_3",
+        "line": {
+          "who": "pip",
+          "text": "Goat! A goat in a coat!",
+          "audio": "b4_u08_l8",
+          "ko": "염소! 외투 입은 염소!"
+        },
+        "ko": "외투 입은 염소와 배를 타고 해자를 건넜어요."
+      },
+      {
+        "unit": 9,
+        "scene": "scene_b4_u09_4",
+        "line": {
+          "who": "grumble",
+          "text": "Shh... Sit. Look at the moon.",
+          "audio": "b4_u09_l9",
+          "ko": "쉿… 앉아. 달 좀 봐."
+        },
+        "ko": "옥상 소파에서 그럼블과 함께 달을 봤어요."
+      },
+      {
+        "unit": 10,
+        "scene": "scene_b4_u10_3",
+        "line": {
+          "who": "narrator",
+          "text": "Pip can sing more!",
+          "audio": "b4_u10_l7",
+          "ko": "핍이 더 많이 노래할 수 있어요!"
+        },
+        "ko": "하프에서 노래 조각 넷이 나와 핍에게 들어갔어요."
+      },
+      {
+        "unit": 11,
+        "scene": "scene_b4_u11_3",
+        "line": {
+          "who": "both",
+          "text": "Pop! Pop! Phonics!",
+          "audio": "b4_u11_l9",
+          "ko": "팝! 팝! 파닉스!"
+        },
+        "ko": "노래 나무가 다시 노래하고 모두 함께 불렀어요."
+      }
+    ],
+    "certificate": {
+      "title": "Pop! Phonics Certificate",
+      "text": "finished all four Pop! Phonics books!",
+      "text_ko": "팝! 파닉스 1~4권을 모두 마쳤어요",
+      "series": true,
+      "books": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "music": "theme"
+    }
+  },
+  "objectives_ko": [
+    "마법 e 네 가족과 모음 짝·ar·or 열 가족을 노래(노래 나무 노래)로 한 번에 읽는다",
+    "성 계단 길을 가족 순서대로 오르고 장면 그림에서 가족 단어를 찾는다",
+    "12장면으로 4권 이야기를 되짚으며 대사를 따라 말한다(공연)",
+    "전체 복습 평가를 보고 팝! 파닉스 시리즈 수료증을 받는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "The Song Tree Song",
+      "title_ko": "노래 나무 노래",
+      "pages": [
+        {
+          "type": "word_song",
+          "title": "The Song Tree Song"
+        },
+        {
+          "type": "bridge_path",
+          "title": "Climb the castle stairs."
+        },
+        {
+          "type": "word_hunt",
+          "title": "Word hunt"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_blend",
+          "title": "A. Blend and write long vowels."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "The Show",
+      "title_ko": "노래 나무 쇼",
+      "pages": [
+        {
+          "type": "story_recap",
+          "title": "The Song Tree Show"
+        },
+        {
+          "type": "review_test",
+          "title": "Review Test"
+        },
+        {
+          "type": "certificate",
+          "title": "Certificate"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_review_words",
+          "title": "B. Read and sort long vowels."
+        }
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Song Tree Show",
+    "bgm": "bgm_finale",
+    "panels": [
+      {
+        "id": "scene_b4_u12_1",
+        "desc": "Grand series finale at the Song Tree at golden sunset: the giant tree is in full bloom and glowing, its branches full of colorful flowers, lanterns and swirling golden notes, and a round stage is made from its big roots. Pip stands at the front of the stage singing with its beak wide open, golden notes streaming up; Grumble sits beside it beating his little drum with two sticks, grinning, his lantern hanging from a branch like a star; Fairy E twirls above them showering sparkles from her star wand; Beads stands on a root conducting with a string of rainbow beads; Bun and Hedgie dance on either side. All the animal friends from the whole journey clap and sing around the hill: the cat, the pig, the fox, the goat in its red coat, the mule, the bear cub, the seal, the sheep, the jay, the crow, the little mouse and the twin bluebirds Pim and Pam (two tiny sky-blue birds always side by side, one with a small red feather tuft and one with a small yellow feather tuft). Petals and confetti everywhere. No letters anywhere.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Look! The Song Tree Show!",
+            "audio": "b4_u12_l1",
+            "ko": "봐요! 노래 나무 쇼예요!"
+          },
+          {
+            "who": "both",
+            "text": "We can read! We can sing!",
+            "audio": "b4_u12_l2",
+            "ko": "우리는 읽을 수 있어요! 노래할 수 있어요!"
+          },
+          {
+            "who": "fairy",
+            "text": "Eee! Cape, kite, rope, cube!",
+            "audio": "b4_u12_l3",
+            "ko": "이~! 망토, 연, 밧줄, 블록!"
+          }
+        ],
+        "ko": "노래 나무 뿌리 무대에서 핍이 노래하고 그럼블이 북을 둥둥, 요정 이는 반짝반짝, 비즈는 지휘, 번과 헤지는 춤을 춰요. 1~4권의 동물 친구들이 모두 모였어요.",
+        "ask": [
+          {
+            "en": "Who is on the stage?",
+            "ko": "무대에 누가 있어?"
+          },
+          {
+            "en": "What does Grumble play?",
+            "ko": "그럼블은 뭘 연주해?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "노래 나무 아래에서 시리즈 마지막 공연이 열려요. 핍이 노래하고 그럼블이 북을 치고, 요정 이가 반짝이를 뿌려요. 1~4권에서 만난 동물 친구들이 모두 모여 함께 노래해요.",
+    "so_far_ko": "노래 나무가 다시 노래했어요. 모두 함께 주제가를 부르고 그럼블은 북을 쳤어요.",
+    "goal_ko": "노래 나무 노래를 부르고, 4권 이야기를 되짚고, 시리즈 수료증을 받아요."
+  },
+  "videos": [],
+  "storybook": {
+    "pages": []
+  }
+}

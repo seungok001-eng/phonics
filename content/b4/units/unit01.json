@@ -1,0 +1,658 @@
+{
+  "unit": 1,
+  "title": "The Cap and the Cape",
+  "title_ko": "모자와 망토",
+  "vowel": "a",
+  "families": [
+    "a_e"
+  ],
+  "words": {
+    "a_e": [
+      "cape",
+      "cane",
+      "tape",
+      "vane",
+      "cake",
+      "gate",
+      "lake",
+      "snake",
+      "wave",
+      "cave"
+    ]
+  },
+  "pairs": [
+    {
+      "from": "cap",
+      "to": "cape"
+    },
+    {
+      "from": "can",
+      "to": "cane"
+    },
+    {
+      "from": "tap",
+      "to": "tape"
+    },
+    {
+      "from": "van",
+      "to": "vane"
+    }
+  ],
+  "sight_words": [
+    "make",
+    "take"
+  ],
+  "objectives_ko": [
+    "긴 모음 a(eɪ)와 마법 e 를 알고, 끝에 e 가 붙으면 a 가 제 이름 소리를 내는 것을 안다",
+    "cap→cape 처럼 짝 단어 4쌍을 바꿔 읽는다",
+    "a_e 단어 10개를 소리를 이어 읽고 그림과 잇고 쓴다",
+    "사이트워드 make, take를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Magic e",
+      "title_ko": "마법 e·합치기",
+      "pages": [
+        {
+          "type": "magic_e",
+          "family": "a_e",
+          "title": "Add magic e!"
+        },
+        {
+          "type": "blend",
+          "family": "a_e",
+          "title": "a_e words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letters."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The cap is a cape!",
+      "audio": "b4_u01_s1",
+      "pic": "word_cape",
+      "words": [
+        "cap",
+        "cape"
+      ]
+    },
+    {
+      "text": "A snake is in the lake.",
+      "audio": "b4_u01_s2",
+      "pic": "word_snake",
+      "words": [
+        "snake",
+        "lake"
+      ]
+    },
+    {
+      "text": "Make a cake!",
+      "audio": "b4_u01_s3",
+      "pic": "word_cake",
+      "words": [
+        "cake"
+      ]
+    },
+    {
+      "text": "Take the tape to the gate.",
+      "audio": "b4_u01_s4",
+      "pic": "word_tape",
+      "words": [
+        "tape",
+        "gate"
+      ]
+    }
+  ],
+  "story": {
+    "title": "The Cap and the Cape",
+    "bgm": "bgm_bright",
+    "panels": [
+      {
+        "id": "scene_b4_u01_1",
+        "desc": "The big round wooden gate of the Magic Castle, shut tight. Above it hangs a wooden sign carved with three letters c, a, p — these three letters are the ONLY text allowed in the picture — and a blue baseball cap hangs on a golden hook just below the sign. Pip hops in front of the cap with its beak open, reading it in two broken pieces, head tilted; Bun points at the cap; Hedgie scratches his head; Fairy E, the tiny glowing fairy with a star-tipped wand, hovers beside the sign giggling. Beads watches from Hedgie's flower. Beside the castle hill there is a little dark cave; a black weather vane with a rooster turns on top of a tower. Hidden in the picture: the gate, the cave, the weather vane. Grumble does NOT appear.",
+        "hidden": [
+          "gate",
+          "cave",
+          "vane"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! A cap on the gate!",
+            "audio": "b4_u01_l1",
+            "ko": "봐! 대문에 모자가 있어!"
+          },
+          {
+            "who": "pip",
+            "text": "Cap... e? Cap-e!",
+            "audio": "b4_u01_l2",
+            "ko": "캡… 이? 캡-이!"
+          },
+          {
+            "who": "fairy",
+            "text": "Eee! Eee!",
+            "audio": "b4_u01_l3",
+            "ko": "이~! 이~!"
+          }
+        ],
+        "video": "vid_b4_u01_1",
+        "ko": "닫힌 대문 한가운데 파란 모자가 걸려 있어요. 핍은 \"캡… 이? 캡-이!\" 하고 끊어 읽어요. 요정 이가 깔깔 웃어요.",
+        "ask": [
+          {
+            "en": "What is on the gate?",
+            "ko": "대문에 뭐가 걸려 있어?"
+          },
+          {
+            "en": "What does Pip say?",
+            "ko": "핍은 뭐라고 해?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u01_2",
+        "desc": "Fairy E taps the end of the wooden sign above the gate with her star wand: a sparkling letter e appears after the carved letters, so the sign now reads c a p e — these four letters are the ONLY text allowed in the picture. At the same moment the blue cap below swirls and stretches into a long red cape with a gold clasp, which floats down onto Bun's shoulders, and with a click the big gate swings open a little, showing warm light inside. Bun twirls in the cape, delighted; Hedgie claps; Pip stares with its beak open; Beads clicks its beads. Hidden in the picture: the red cape, the open gate, the weather vane on the tower. Grumble does NOT appear.",
+        "hidden": [
+          "cape",
+          "gate",
+          "vane"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /eɪ/ /p/ cape!",
+            "audio": "blend_cape",
+            "pop": "cape",
+            "ko": "/k/ /eɪ/ /p/ 망토!"
+          },
+          {
+            "who": "narrator",
+            "text": "The cap is a cape!",
+            "audio": "b4_u01_l4",
+            "ko": "모자가 망토가 됐어요!"
+          },
+          {
+            "who": "bun",
+            "text": "Look at my cape!",
+            "audio": "b4_u01_l5",
+            "ko": "내 망토 좀 봐!"
+          }
+        ],
+        "video": "vid_b4_u01_2",
+        "ko": "요정 이가 별 지팡이로 간판 끝을 톡! c-a-p 끝에 반짝 e 가 붙어 cape 가 되자 모자가 빨간 망토로 바뀌어요. 대문이 살짝 열려요.",
+        "ask": [
+          {
+            "en": "What is the cap now?",
+            "ko": "모자가 뭐로 바뀌었어?"
+          },
+          {
+            "en": "Who has the cape?",
+            "ko": "망토는 누가 걸쳤어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u01_3",
+        "desc": "Inside the gate: a sunny castle courtyard with a small blue lake with little waves. On a stone table by the lake sits a round birthday cake with pink icing and three candles, next to a roll of sticky tape. A long green snake with yellow spots rises out of the lake, eyeing the cake with a sneaky grin. Hedgie points at the cake; Bun, in her red cape, points at the snake; Pip hides behind Bun's boot; Fairy E giggles. Hidden in the picture: the cake, the lake, the snake, the waves, the roll of tape. Grumble does NOT appear. No letters anywhere.",
+        "hidden": [
+          "cake",
+          "lake",
+          "snake",
+          "wave",
+          "tape"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A cake at the lake!",
+            "audio": "b4_u01_l6",
+            "ko": "호수 옆에 케이크가 있어!"
+          },
+          {
+            "who": "bun",
+            "text": "/eɪ/ /eɪ/ snake!",
+            "audio": "b4_u01_l7",
+            "ko": "/eɪ/ /eɪ/ 뱀!"
+          },
+          {
+            "who": "narrator",
+            "text": "The snake can take the cake!",
+            "audio": "b4_u01_l8",
+            "ko": "뱀이 케이크를 가져갈지도 몰라요!"
+          }
+        ],
+        "ko": "대문 안은 햇살 가득한 안뜰이에요. 호숫가 돌 탁자에 케이크가 있는데, 뱀이 물에서 고개를 내밀고 케이크를 노려요!",
+        "ask": [
+          {
+            "en": "What is by the lake?",
+            "ko": "호숫가에 뭐가 있어?"
+          },
+          {
+            "en": "Who wants the cake?",
+            "ko": "누가 케이크를 노려?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u01_4",
+        "desc": "The snake slides away into a little dark cave with the whole cake balanced on its tail, grinning. Up on the castle wall, Grumble leans out of a high round window in his striped nightcap: Fairy E has just touched the tin can on his windowsill with her star wand, and it has turned into a wooden walking cane in his paw — he blinks at it, grumpy and surprised. A weather vane with a little rooster spins on the tower roof above him. Bun and Hedgie laugh below; Pip calls up to the window. Hidden in the picture: the cave, the cane, the weather vane, the snake, the cake. No letters anywhere.",
+        "hidden": [
+          "cave",
+          "cane",
+          "vane",
+          "snake",
+          "cake"
+        ],
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh! My can... a cane?",
+            "audio": "b4_u01_l9",
+            "ko": "쉿! 내 깡통이… 지팡이?"
+          },
+          {
+            "who": "pip",
+            "text": "Can-e? Can-e!",
+            "audio": "b4_u01_l10",
+            "ko": "캔-이? 캔-이!"
+          },
+          {
+            "who": "narrator",
+            "text": "Oh no! The cake!",
+            "audio": "b4_u01_l11",
+            "ko": "앗! 케이크가!"
+          }
+        ],
+        "ko": "뱀이 케이크를 꼬리에 얹고 동굴로 쏙! 탑 창문에 있던 그럼블의 깡통은 요정 이 지팡이에 닿아 지팡이(cane)로 바뀌었어요. 핍은 또 \"캔-이!\"",
+        "ask": [
+          {
+            "en": "Where is the snake going?",
+            "ko": "뱀은 어디로 가?"
+          },
+          {
+            "en": "What does Grumble have?",
+            "ko": "그럼블 손에 뭐가 있어?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "성 대문에 파란 모자가 걸려 있어요. 핍은 \"캡-이!\" 하고 끊어 읽어요. 요정 이가 지팡이로 톡! 하자 모자가 망토로 바뀌고 대문이 열려요. 안뜰 호숫가에서는 뱀이 케이크를 가져가고, 탑 창문 그럼블의 깡통은 지팡이로 바뀌어요.",
+    "so_far_ko": "친구들이 마법 성에 닿아 요정 이를 만났어요. 대문은 꼭 닫혀 있었어요.",
+    "goal_ko": "마법 e 로 짧은 a 단어를 긴 a 단어로 바꿔 읽고 대문을 열어요."
+  },
+  "videos": [
+    {
+      "id": "vid_b4_u01_1",
+      "from": "scene_b4_u01_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the blue cap on the gate swings on its hook, the baby bird tilts its head left and right, puzzled, the tiny glowing fairy giggles and twirls around the cap leaving twinkles, the rabbit points. Camera still. Playful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b4_u01_2",
+      "from": "scene_b4_u01_2",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the tiny fairy taps the cap with her star wand, sparkles burst, the cap swirls and stretches into a long red cape that floats down onto the rabbit's shoulders, the big wooden gate swings open with warm light. Camera still. Magical, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "cape",
+        "pictures": [
+          "cape",
+          "cap",
+          "cake"
+        ]
+      },
+      {
+        "word": "cane",
+        "pictures": [
+          "cane",
+          "can",
+          "cave"
+        ]
+      },
+      {
+        "word": "tape",
+        "pictures": [
+          "tape",
+          "tap",
+          "gate"
+        ]
+      },
+      {
+        "word": "snake",
+        "pictures": [
+          "snake",
+          "lake",
+          "vane"
+        ]
+      },
+      {
+        "word": "gate",
+        "pictures": [
+          "gate",
+          "cake",
+          "wave"
+        ]
+      },
+      {
+        "word": "wave",
+        "pictures": [
+          "wave",
+          "cave",
+          "cape"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "lake"
+      },
+      {
+        "word": "cake"
+      },
+      {
+        "word": "vane"
+      },
+      {
+        "word": "cave"
+      }
+    ],
+    "write": [
+      {
+        "word": "cape",
+        "missing": 1
+      },
+      {
+        "word": "gate",
+        "missing": 0
+      },
+      {
+        "word": "lake",
+        "missing": 2
+      },
+      {
+        "word": "tape",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "cake",
+        "pictures": [
+          "cake",
+          "cape",
+          "lake"
+        ]
+      },
+      {
+        "word": "cap",
+        "pictures": [
+          "cap",
+          "cape",
+          "can"
+        ]
+      },
+      {
+        "word": "cane",
+        "pictures": [
+          "cane",
+          "can",
+          "cave"
+        ]
+      },
+      {
+        "word": "tap",
+        "pictures": [
+          "tap",
+          "tape",
+          "van"
+        ]
+      },
+      {
+        "word": "snake",
+        "pictures": [
+          "snake",
+          "wave",
+          "gate"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "cape",
+        "missing": 1
+      },
+      {
+        "word": "cane",
+        "missing": 1
+      },
+      {
+        "word": "tape",
+        "missing": 0
+      },
+      {
+        "word": "cake",
+        "missing": 2
+      },
+      {
+        "word": "gate",
+        "missing": 1
+      },
+      {
+        "word": "lake",
+        "missing": 0
+      },
+      {
+        "word": "wave",
+        "missing": 2
+      },
+      {
+        "word": "cave",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "a": [
+        "cap",
+        "can",
+        "tap",
+        "van"
+      ],
+      "a_e": [
+        "cape",
+        "cane",
+        "tape",
+        "vane",
+        "cake",
+        "gate"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The cap is a cape!",
+        "pictures": [
+          "cape",
+          "cap"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "A snake is in the lake.",
+        "pictures": [
+          "cake",
+          "snake"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "I see a cave.",
+        "pictures": [
+          "cave",
+          "wave"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "Take the cane.",
+        "pictures": [
+          "vane",
+          "cane"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "cape",
+      "cake",
+      "gate",
+      "lake",
+      "snake",
+      "cave"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb4_u01_1",
+        "desc": "The big round wooden gate of the castle, shut tight, with a wooden sign above it carved with three letters c, a, p — the ONLY text allowed in the picture — and a blue baseball cap on a golden hook below the sign. Pip reads it in two broken pieces, head tilted; Bun points at the cap; Hedgie scratches his head; Fairy E, the tiny glowing fairy with a star-tipped wand, giggles beside the sign. A little dark cave sits by the hill and a weather vane turns on a tower. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! A cap on the gate!",
+            "audio": "sb4_u01_1_1",
+            "ko": "봐! 대문에 모자가 있어!"
+          },
+          {
+            "who": "pip",
+            "text": "Cap... e? Cap-e!",
+            "audio": "sb4_u01_1_2",
+            "ko": "캡… 이? 캡-이!"
+          },
+          {
+            "who": "fairy",
+            "text": "Eee! Eee!",
+            "audio": "sb4_u01_1_3",
+            "ko": "이~! 이~!"
+          }
+        ],
+        "task": "Find the long a words!",
+        "task_ko": "긴 a 단어를 찾아요",
+        "ko": "닫힌 대문에 파란 모자. 핍이 \"캡-이!\" 하고 끊어 읽자 요정 이가 깔깔 웃어요."
+      },
+      {
+        "id": "sb4_u01_2",
+        "desc": "Fairy E taps the end of the sign with her star wand and a sparkling letter e appears, so it reads c a p e — these four letters are the ONLY text allowed in the picture; the cap below swirls into a long red cape with a gold clasp that floats onto Bun's shoulders; the gate swings open a little with warm light; Bun twirls, Hedgie claps, Pip stares, Beads clicks its beads. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /eɪ/ /p/ cape!",
+            "audio": "sb4_u01_2_1",
+            "ko": "/k/ /eɪ/ /p/ 망토!"
+          },
+          {
+            "who": "narrator",
+            "text": "The cap is a cape!",
+            "audio": "sb4_u01_2_2",
+            "ko": "모자가 망토가 됐어요!"
+          },
+          {
+            "who": "bun",
+            "text": "Look at my cape!",
+            "audio": "sb4_u01_2_3",
+            "ko": "내 망토 좀 봐!"
+          }
+        ],
+        "task": "Find the cape and the gate!",
+        "task_ko": "망토와 대문을 찾아요",
+        "ko": "요정 이가 톡! 모자가 망토로 바뀌고 대문이 열려요. 번이 망토를 두르고 빙글 돌아요."
+      },
+      {
+        "id": "sb4_u01_3",
+        "desc": "A sunny courtyard with a small blue lake: a green snake with yellow spots slides off toward a little dark cave with a pink birthday cake balanced on its tail; Hedgie points at it, Bun laughs. Up in a high round tower window, Grumble holds a wooden walking cane that was a tin can a moment ago, blinking at it, grumpy and surprised; a weather vane spins above him. No letters anywhere.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A cake at the lake!",
+            "audio": "sb4_u01_3_1",
+            "ko": "호수 옆에 케이크가 있어!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! My can... a cane?",
+            "audio": "sb4_u01_3_2",
+            "ko": "쉿! 내 깡통이… 지팡이?"
+          },
+          {
+            "who": "narrator",
+            "text": "Whoosh! Look up! Oh no!",
+            "audio": "sb4_u01_3_3",
+            "ko": "휘익! 위를 봐요! 저런!"
+          }
+        ],
+        "task": "Find the snake and the cave!",
+        "task_ko": "뱀과 동굴을 찾아요",
+        "ko": "뱀이 케이크를 가지고 동굴로 쏙! 그럼블의 깡통은 지팡이가 됐어요. — 휘익! 위를 봐요! 저런!"
+      }
+    ]
+  }
+}

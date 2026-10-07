@@ -1,0 +1,659 @@
+{
+  "unit": 2,
+  "title": "A Kite in the Pine",
+  "title_ko": "소나무에 걸린 연",
+  "vowel": "i",
+  "families": [
+    "i_e"
+  ],
+  "words": {
+    "i_e": [
+      "kite",
+      "pine",
+      "ripe",
+      "slide",
+      "bike",
+      "five",
+      "hide",
+      "nine",
+      "hive",
+      "dive"
+    ]
+  },
+  "pairs": [
+    {
+      "from": "kit",
+      "to": "kite"
+    },
+    {
+      "from": "pin",
+      "to": "pine"
+    },
+    {
+      "from": "rip",
+      "to": "ripe"
+    },
+    {
+      "from": "slid",
+      "to": "slide"
+    }
+  ],
+  "sight_words": [
+    "like",
+    "ride"
+  ],
+  "objectives_ko": [
+    "긴 모음 i(aɪ)와 마법 e 를 알고, 끝에 e 가 붙으면 i 가 제 이름 소리를 내는 것을 안다",
+    "kit→kite 처럼 짝 단어 4쌍을 바꿔 읽는다",
+    "i_e 단어 10개를 소리를 이어 읽고 그림과 잇고 쓴다",
+    "사이트워드 like, ride를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+  ],
+  "lessons": [
+    {
+      "n": 1,
+      "title": "Magic e",
+      "title_ko": "마법 e·합치기",
+      "pages": [
+        {
+          "type": "magic_e",
+          "family": "i_e",
+          "title": "Add magic e!"
+        },
+        {
+          "type": "blend",
+          "family": "i_e",
+          "title": "i_e words"
+        },
+        {
+          "type": "family_words",
+          "title": "Read and match."
+        },
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_blend",
+          "title": "A. Write the missing letters."
+        },
+        {
+          "type": "wb_family",
+          "title": "B. Sort and match."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Sentences and Story",
+      "title_ko": "문장·스토리",
+      "pages": [
+        {
+          "type": "sentences",
+          "title": "Read the sentence."
+        },
+        {
+          "type": "story",
+          "title": "Story"
+        },
+        {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
+          "type": "check",
+          "title": "Unit Check"
+        }
+      ],
+      "workbook": [
+        {
+          "type": "wb_sentences",
+          "title": "C. Read and circle.  D. Trace the sentence."
+        },
+        {
+          "type": "wb_write",
+          "title": "E. Look and write."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The kit is a kite!",
+      "audio": "b4_u02_s1",
+      "pic": "word_kite",
+      "words": [
+        "kit",
+        "kite"
+      ]
+    },
+    {
+      "text": "I like to ride a bike.",
+      "audio": "b4_u02_s2",
+      "pic": "word_bike",
+      "words": [
+        "bike"
+      ]
+    },
+    {
+      "text": "A hive is in the pine.",
+      "audio": "b4_u02_s3",
+      "pic": "word_hive",
+      "words": [
+        "hive",
+        "pine"
+      ]
+    },
+    {
+      "text": "I can slide and dive!",
+      "audio": "b4_u02_s4",
+      "pic": "word_slide",
+      "words": [
+        "slide",
+        "dive"
+      ]
+    }
+  ],
+  "story": {
+    "title": "A Kite in the Pine",
+    "bgm": "bgm_silly",
+    "panels": [
+      {
+        "id": "scene_b4_u02_1",
+        "desc": "A small round green door in a tall hedge wall inside the castle grounds, shut tight. On the door is a small wooden sign carved with three letters k, i, t — these three letters are the ONLY text allowed in the picture — and a white first-aid kit with a red cross hangs on a hook below it. Pip hops in front of the kit, reading it in broken pieces, head tilted; Hedgie, holding a little red bicycle by the handlebars, points at the kit; Bun, still wearing her red cape, laughs; Fairy E sits on top of the kit swinging her legs. Wind ruffles the hedge. Hidden in the picture: the red bike, five red ladybugs in a row on the hedge, a round golden beehive hanging from a branch above the door. Grumble does NOT appear.",
+        "hidden": [
+          "bike",
+          "five",
+          "hive"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Look! A kit!",
+            "audio": "b4_u02_l1",
+            "ko": "봐! 구급상자야!"
+          },
+          {
+            "who": "pip",
+            "text": "Kit-e? Kit-e!",
+            "audio": "b4_u02_l2",
+            "ko": "킷-이? 킷-이!"
+          },
+          {
+            "who": "fairy",
+            "text": "Eee! Pip, Pip!",
+            "audio": "b4_u02_l3",
+            "ko": "이~! 핍, 핍!"
+          }
+        ],
+        "ko": "울타리 속 작은 초록 문에 구급상자가 걸려 있어요. 핍은 \"킷-이!\" 하고 또 끊어 읽어요.",
+        "ask": [
+          {
+            "en": "What is on the door?",
+            "ko": "문에 뭐가 걸려 있어?"
+          },
+          {
+            "en": "What does Hedgie hold?",
+            "ko": "헤지는 뭘 잡고 있어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u02_2",
+        "desc": "Fairy E taps the end of the wooden sign on the door with her star wand: a sparkling letter e appears, so the sign reads k i t e — these four letters are the ONLY text allowed in the picture — and the white first-aid kit below unfolds into a bright red diamond kite with a long tail of bows, which leaps up into the wind. The green door swings open onto a castle garden with tall pine trees. Bun grabs the kite string with both paws, her red cape flying; Hedgie cheers; Pip flaps beside the kite. Hidden in the picture: the kite, the tall pine trees, the bike by the door. Grumble does NOT appear.",
+        "hidden": [
+          "kite",
+          "pine",
+          "bike"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /aɪ/ /t/ kite!",
+            "audio": "blend_kite",
+            "pop": "kite",
+            "ko": "/k/ /aɪ/ /t/ 연!"
+          },
+          {
+            "who": "narrator",
+            "text": "The kit is a kite!",
+            "audio": "b4_u02_l4",
+            "ko": "구급상자가 연이 됐어요!"
+          },
+          {
+            "who": "bun",
+            "text": "I like the kite!",
+            "audio": "b4_u02_l5",
+            "ko": "이 연 좋아!"
+          }
+        ],
+        "video": "vid_b4_u02_1",
+        "ko": "요정 이가 톡! k-i-t 끝에 반짝 e 가 붙자 구급상자가 빨간 연(kite)이 되어 바람을 타고 날아올라요. 문이 열리고 소나무 정원이 보여요.",
+        "ask": [
+          {
+            "en": "What is the kit now?",
+            "ko": "구급상자가 뭐로 바뀌었어?"
+          },
+          {
+            "en": "Who holds the kite?",
+            "ko": "누가 연줄을 잡았어?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u02_3",
+        "desc": "The castle garden. A big gust of wind tugs the red kite out of Bun's paws and it gets stuck at the very top of a tall pine tree. Next to the pine stands a red playground slide with a blue ladder; Bun climbs the ladder to reach the kite; Hedgie rides the little red bike in circles below, looking up; a green frog dives into a round fountain with a splash; a ripe yellow pear hangs from a small tree. Pip looks up at the pine, reading it in pieces. Hidden in the picture: the kite, the pine, the slide, the diving frog, the ripe pear, the bike. Grumble does NOT appear. No letters anywhere.",
+        "hidden": [
+          "kite",
+          "pine",
+          "slide",
+          "dive",
+          "ripe",
+          "bike"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The kite is in the pine!",
+            "audio": "b4_u02_l6",
+            "ko": "연이 소나무에 걸렸어!"
+          },
+          {
+            "who": "bun",
+            "text": "/aɪ/ /aɪ/ slide! Up, up!",
+            "audio": "b4_u02_l7",
+            "ko": "/aɪ/ /aɪ/ 미끄럼틀! 올라가, 올라가!"
+          },
+          {
+            "who": "pip",
+            "text": "Pin-e? Pin-e!",
+            "audio": "b4_u02_l8",
+            "ko": "핀-이? 핀-이!"
+          }
+        ],
+        "ko": "바람에 연이 소나무 꼭대기에 걸렸어요. 번이 미끄럼틀 사다리로 올라가요. 개구리는 분수로 퐁당, 핍은 \"핀-이!\"",
+        "ask": [
+          {
+            "en": "Where is the kite?",
+            "ko": "연은 어디에 걸렸어?"
+          },
+          {
+            "en": "What does Bun climb?",
+            "ko": "번은 뭘 타고 올라가?"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u02_4",
+        "desc": "Bun has caught the kite and zooms down the slide holding it, cape flying — but a swarm of nine little bees buzzes out of the golden beehive in the pine. Hedgie and Pip duck behind the slide to hide; Fairy E hides in Hedgie's flower. Up in a castle window above the garden, Grumble leans out, waving his walking cane and pointing at the bees, warning the friends with a worried frown. Hidden in the picture: the beehive, nine bees, the slide, the friends hiding, the kite. No letters anywhere.",
+        "hidden": [
+          "hive",
+          "nine",
+          "slide",
+          "hide",
+          "kite"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Bzzz! A hive! Oh no!",
+            "audio": "b4_u02_l9",
+            "ko": "윙윙! 벌집이에요! 저런!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Hide! Hide!",
+            "audio": "b4_u02_l10",
+            "ko": "쉿! 숨어! 숨어!"
+          },
+          {
+            "who": "both",
+            "text": "We hide! We hide!",
+            "audio": "b4_u02_l11",
+            "ko": "숨자! 숨자!"
+          }
+        ],
+        "video": "vid_b4_u02_2",
+        "ko": "번이 연을 들고 미끄럼틀을 쭉! 그런데 벌집에서 벌 아홉 마리가 윙윙. 창문의 그럼블이 \"숨어!\" 하고 처음으로 알려 줘요.",
+        "ask": [
+          {
+            "en": "What comes out of the hive?",
+            "ko": "벌집에서 뭐가 나왔어?"
+          },
+          {
+            "en": "Who says hide?",
+            "ko": "누가 \"숨어!\" 했어?"
+          }
+        ]
+      }
+    ],
+    "synopsis_ko": "울타리 문에 구급상자(kit)가 걸려 있어요. 핍은 \"킷-이!\" 요정 이가 톡! 하자 연(kite)이 되어 날아올라요. 바람에 연이 소나무 꼭대기에 걸려 번이 미끄럼틀로 올라가 되찾아요. 벌집에서 벌이 나오자 창문의 그럼블이 \"숨어!\" 하고 처음으로 알려 줘요.",
+    "so_far_ko": "요정 이가 모자를 망토로 바꿔 대문이 열렸어요. 뱀이 케이크를 가져갔고, 그럼블의 깡통은 지팡이가 됐어요.",
+    "goal_ko": "마법 e 로 짧은 i 단어를 긴 i 단어로 바꿔 읽고 정원 문을 열어요."
+  },
+  "videos": [
+    {
+      "id": "vid_b4_u02_1",
+      "from": "scene_b4_u02_2",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the tiny fairy taps the white first-aid kit with her star wand, it unfolds into a red diamond kite that leaps into the wind, the round green door in the hedge swings open, the rabbit grabs the kite string. Camera still. Magical, child-friendly. No text."
+    },
+    {
+      "id": "vid_b4_u02_2",
+      "from": "scene_b4_u02_4",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the rabbit zooms down the slide holding the kite, little bees buzz out of the beehive in loops, the hedgehog and the baby bird duck behind the slide, the old raccoon in the window waves his cane in warning. Camera still. Silly, child-friendly. No text."
+    }
+  ],
+  "check": {
+    "read_circle": [
+      {
+        "word": "kite",
+        "pictures": [
+          "kite",
+          "kit",
+          "bike"
+        ]
+      },
+      {
+        "word": "pine",
+        "pictures": [
+          "pine",
+          "pin",
+          "five"
+        ]
+      },
+      {
+        "word": "slide",
+        "pictures": [
+          "slide",
+          "hide",
+          "hive"
+        ]
+      },
+      {
+        "word": "bike",
+        "pictures": [
+          "bike",
+          "kite",
+          "nine"
+        ]
+      },
+      {
+        "word": "hive",
+        "pictures": [
+          "hive",
+          "five",
+          "dive"
+        ]
+      },
+      {
+        "word": "ripe",
+        "pictures": [
+          "ripe",
+          "rip",
+          "pine"
+        ]
+      }
+    ],
+    "match": [
+      {
+        "word": "five"
+      },
+      {
+        "word": "nine"
+      },
+      {
+        "word": "dive"
+      },
+      {
+        "word": "hide"
+      }
+    ],
+    "write": [
+      {
+        "word": "kite",
+        "missing": 1
+      },
+      {
+        "word": "bike",
+        "missing": 0
+      },
+      {
+        "word": "pine",
+        "missing": 2
+      },
+      {
+        "word": "hive",
+        "missing": 1
+      }
+    ]
+  },
+  "game": {
+    "type": "catch_word",
+    "title": "Read and catch!",
+    "rounds": [
+      {
+        "word": "pine",
+        "pictures": [
+          "pine",
+          "pin",
+          "nine"
+        ]
+      },
+      {
+        "word": "kit",
+        "pictures": [
+          "kit",
+          "kite",
+          "bike"
+        ]
+      },
+      {
+        "word": "slide",
+        "pictures": [
+          "slide",
+          "hide",
+          "dive"
+        ]
+      },
+      {
+        "word": "five",
+        "pictures": [
+          "five",
+          "hive",
+          "nine"
+        ]
+      },
+      {
+        "word": "rip",
+        "pictures": [
+          "rip",
+          "ripe",
+          "pin"
+        ]
+      }
+    ]
+  },
+  "workbook_data": {
+    "blend": [
+      {
+        "word": "kite",
+        "missing": 1
+      },
+      {
+        "word": "pine",
+        "missing": 1
+      },
+      {
+        "word": "bike",
+        "missing": 0
+      },
+      {
+        "word": "five",
+        "missing": 2
+      },
+      {
+        "word": "hide",
+        "missing": 1
+      },
+      {
+        "word": "nine",
+        "missing": 0
+      },
+      {
+        "word": "hive",
+        "missing": 2
+      },
+      {
+        "word": "dive",
+        "missing": 1
+      }
+    ],
+    "family": {
+      "i": [
+        "kit",
+        "pin",
+        "rip",
+        "slid"
+      ],
+      "i_e": [
+        "kite",
+        "pine",
+        "ripe",
+        "slide",
+        "bike",
+        "hive"
+      ]
+    },
+    "sentences": [
+      {
+        "text": "The kit is a kite!",
+        "pictures": [
+          "kite",
+          "bike"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "I like to ride a bike.",
+        "pictures": [
+          "five",
+          "bike"
+        ],
+        "answer": 1
+      },
+      {
+        "text": "A hive is in the pine.",
+        "pictures": [
+          "hive",
+          "slide"
+        ],
+        "answer": 0
+      },
+      {
+        "text": "I can slide and dive!",
+        "pictures": [
+          "nine",
+          "slide"
+        ],
+        "answer": 1
+      }
+    ],
+    "write": [
+      "kite",
+      "pine",
+      "bike",
+      "five",
+      "hive",
+      "nine"
+    ]
+  },
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb4_u02_1",
+        "desc": "A small round green door in a tall hedge wall, shut tight, with a small wooden sign carved with three letters k, i, t — the ONLY text allowed in the picture — and a white first-aid kit hanging below it. Pip reads the kit in broken pieces; Hedgie holds a little red bike and points; Bun in her red cape laughs; Fairy E sits on the kit. Five red ladybugs sit in a row on the hedge and a golden beehive hangs above the door. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Look! A kit!",
+            "audio": "sb4_u02_1_1",
+            "ko": "봐! 구급상자야!"
+          },
+          {
+            "who": "pip",
+            "text": "Kit-e? Kit-e!",
+            "audio": "sb4_u02_1_2",
+            "ko": "킷-이? 킷-이!"
+          },
+          {
+            "who": "fairy",
+            "text": "Eee! Pip, Pip!",
+            "audio": "sb4_u02_1_3",
+            "ko": "이~! 핍, 핍!"
+          }
+        ],
+        "task": "Find the long i words!",
+        "task_ko": "긴 i 단어를 찾아요",
+        "ko": "울타리 문에 구급상자가 걸려 있어요. 핍은 \"킷-이!\" 하고 끊어 읽어요."
+      },
+      {
+        "id": "sb4_u02_2",
+        "desc": "The castle garden of tall pine trees, seen through the open green door. The red diamond kite that was a first-aid kit a moment ago has been tugged by a gust to the very top of a tall pine; Bun climbs a red playground slide to reach it; Hedgie rides the red bike below; a frog dives into a fountain; a ripe pear hangs from a little tree; Fairy E twirls beside Pip. Grumble does NOT appear. No letters anywhere.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /aɪ/ /t/ kite!",
+            "audio": "sb4_u02_2_1",
+            "ko": "/k/ /aɪ/ /t/ 연!"
+          },
+          {
+            "who": "narrator",
+            "text": "The kit is a kite!",
+            "audio": "sb4_u02_2_2",
+            "ko": "구급상자가 연이 됐어요!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The kite is in the pine!",
+            "audio": "sb4_u02_2_3",
+            "ko": "연이 소나무에 걸렸어!"
+          }
+        ],
+        "task": "Find the kite and the pine!",
+        "task_ko": "연과 소나무를 찾아요",
+        "ko": "구급상자가 연이 되어 날아올랐다가 소나무 꼭대기에 걸렸어요. 번이 미끄럼틀로 올라가요."
+      },
+      {
+        "id": "sb4_u02_3",
+        "desc": "Bun zooms down the slide holding the kite, but nine little bees buzz out of the beehive in the pine; Hedgie and Pip duck behind the slide; Fairy E hides in Hedgie's flower. In a castle window above, Grumble leans out waving his walking cane at the bees, warning the friends with a worried frown. No letters anywhere.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Bzzz! A hive! Oh no!",
+            "audio": "sb4_u02_3_1",
+            "ko": "윙윙! 벌집이에요! 저런!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Hide! Hide!",
+            "audio": "sb4_u02_3_2",
+            "ko": "쉿! 숨어! 숨어!"
+          },
+          {
+            "who": "narrator",
+            "text": "Look! A big gap! Oh no!",
+            "audio": "sb4_u02_3_3",
+            "ko": "봐요! 커다란 틈! 저런!"
+          }
+        ],
+        "task": "Find the slide and the hive!",
+        "task_ko": "미끄럼틀과 벌집을 찾아요",
+        "ko": "벌이 윙윙! 그럼블이 창문에서 \"숨어!\" 하고 알려 줘요. — 봐요! 커다란 틈! 저런!"
+      }
+    ]
+  }
+}
