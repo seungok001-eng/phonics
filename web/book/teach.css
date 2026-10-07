@@ -183,3 +183,4 @@
 .sl-chars .char .pic { height: calc(var(--sh) - 380px); min-height: 0; flex: none; }
 .sl-write .write-it .pic { height: calc(var(--sh) - 600px); }
 .sl-match .it .pic { height: calc((var(--sh) - 500px) / 3); }
+.sl-paper { grid-template-columns: repeat(9, 1fr); gap: 14px 12px; padding: 18px 22px; flex: 0 0 auto; align-self: center; width: 100%; max-width: 1240px; } .sl-paper .lt { font-size: 64px; }

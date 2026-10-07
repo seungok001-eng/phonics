@@ -205,6 +205,15 @@ TEACH.alphabet_review = {
     return tWrap(ctx, 'Follow A to Z.', 'A부터 Z까지 순서대로 눌러요', 1, 2, `<div class="path path26 sl-path" id="path">${path26Cells(ctx)}</div>`);
   },
 };
+// 12유닛 Follow A to Z: 색종이 타일 판 — 대문자 한 장, 소문자 한 장
+TEACH.alphabet_path = {
+  count: () => 2,
+  render: (ctx, s) => {
+    const ls = Object.keys(App.book.letters), upper = s === 0;
+    const cells = shuffle(ls, upper ? 11 : 29).map((l) => `<div class="lt" data-l="${l}" onclick="pathPick(this)"><span>${upper ? l.toUpperCase() : l}</span></div>`).join('');
+    return tWrap(ctx, upper ? 'Follow A to Z.' : 'Follow a to z.', upper ? 'A부터 Z까지 순서대로 눌러요' : 'a부터 z까지 순서대로 눌러요', s, 2, `<div class="path paper sl-path sl-paper" id="path" data-next="0">${cells}</div>`);
+  },
+};
 // 친구들 소개: 한 장
 TEACH.characters = {
   count: () => 1,
