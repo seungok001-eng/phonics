@@ -194,3 +194,24 @@
 .sl-write .write-it .pic { height: calc(var(--sh) - 600px); }
 .sl-match .it .pic { height: calc((var(--sh) - 500px) / 3); }
 .sl-paper { grid-template-columns: repeat(9, 1fr); gap: 14px 12px; padding: 18px 22px; flex: 0 0 auto; align-self: center; width: 100%; max-width: 1240px; } .sl-paper .lt { font-size: 64px; }
+
+/* 12쪽 큰 화면 수업: 큰 카드 · What's this? · Which one? */
+.bigcards { display: flex; flex-direction: column; gap: 12px; flex: 1; min-height: 0; }
+.bc-count { font-family: 'Fredoka'; font-weight: 700; font-size: 26px; color: var(--soft); margin-left: 6px; }
+.bc-card { flex: 1; min-height: 0; display: grid; grid-template-columns: 1.1fr 1fr; gap: 24px; align-items: center; border: 3px solid var(--line); border-radius: 28px; padding: 18px 28px; background: #fff; }
+.bc-pic { height: 100%; min-height: 0; display: flex; align-items: center; justify-content: center; cursor: pointer; } .bc-pic .pic { width: 100%; height: 100%; max-height: 520px; }
+.bc-side { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
+.bc-ltr { font-family: 'Andika'; font-weight: 700; font-size: 150px; line-height: 1; cursor: pointer; } .bc-ltr small { font-size: 100px; font-weight: 400; }
+.bc-word { font-family: 'Andika'; font-size: 96px; font-weight: 700; cursor: pointer; }
+.bc-strip { display: flex; gap: 8px; justify-content: center; } .bc-thumb { width: 86px; height: 72px; border: 3px solid var(--line); border-radius: 12px; padding: 3px; cursor: pointer; opacity: .55; } .bc-thumb .pic { width: 100%; height: 100%; } .bc-thumb.on { opacity: 1; border-color: var(--orange); }
+.guess { display: flex; flex-direction: column; gap: 12px; flex: 1; min-height: 0; }
+.g-card { flex: 1; min-height: 0; display: grid; grid-template-columns: 1.1fr 1fr; gap: 24px; align-items: center; border: 3px solid var(--line); border-radius: 28px; padding: 18px 28px; background: #fff; cursor: pointer; }
+.g-pic { height: 100%; min-height: 0; display: flex; align-items: center; justify-content: center; } .g-pic .pic { width: 100%; height: 100%; max-height: 540px; }
+.g-word { text-align: center; font-family: 'Andika'; font-weight: 700; font-size: 110px; } .g-word .a { display: none; } .g-word .q { color: var(--orange); font-size: 220px; } .g-word.open .a { display: inline; } .g-word.open .q { display: none; }
+.which { display: flex; flex-direction: column; gap: 14px; flex: 1; min-height: 0; }
+.which .teams { margin-left: auto; display: flex; gap: 8px; } .which .team { font-family: 'Fredoka'; font-weight: 700; font-size: 26px; padding: 8px 18px; border-radius: 14px; border: 3px solid var(--line); background: #fff; cursor: pointer; } .which .team.on { border-color: var(--orange); background: #FFF3E6; } .which .team b { font-size: 32px; color: var(--orange); margin-left: 6px; }
+.w-opts { flex: 1; min-height: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.w-opt { position: relative; border: 4px solid var(--line); border-radius: 26px; padding: 16px; background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; cursor: pointer; min-height: 0; }
+.w-opt .pic { width: 100%; flex: 1; min-height: 0; max-height: 440px; } .w-opt .wd { font-family: 'Andika'; font-size: 44px; font-weight: 700; visibility: hidden; }
+.w-opt .num { position: absolute; left: 14px; top: 10px; width: 64px; height: 64px; border-radius: 50%; background: var(--orange); color: #fff; font-family: 'Fredoka'; font-weight: 700; font-size: 38px; display: flex; align-items: center; justify-content: center; }
+.w-opt.hit { border-color: var(--ok); background: #EAF7E6; } .w-opt.hit .wd { visibility: visible; color: var(--ok); } .w-opt.miss { border-color: var(--bad); background: #FDE8E8; }

@@ -90,7 +90,99 @@ async function memFlip(el) {
   MEM.lock = false;
 }
 // 듣고 가리키기 한 장 + 플래시카드 속도 라운드 한 장
+// 12쪽(2차시 첫 쪽) — 큰 화면 수업용 4장. 아이들은 멀리 앉아 있으니 화면을 짚지 않고 입으로 답한다(따라 말하기 · 단어 외치기 · 번호 외치기)
 TEACH.listen_point = {
+  count: () => 4,
+  render: (ctx, s) => {
+    const n = 4;
+    if (s === 0) return tWrap(ctx, 'Listen and repeat.', '큰 카드 한 장씩: ▶ Auto 는 글자 소리 → 단어 순서로 넘어가요. 아이들은 자기 책을 짚으며 큰 소리로 따라 말해요', 0, n, bigCardsHtml(ctx));
+    if (s === 1) return tWrap(ctx, "What's this?", '그림만 보여요. 아이들이 단어를 외치면 카드를 눌러(또는 Space) 답을 보여 주고 소리를 들려줘요. 순서는 무작위', 1, n, guessHtml(ctx));
+    if (s === 2) return tWrap(ctx, 'Which one? 1, 2, 3!', '🔊 단어가 들리면 아이들이 1·2·3 번호를 외쳐요(손가락으로 들어도 좋아요). 선생님이 그 그림을 누르면 정답 확인. A·B 팀 점수', 2, n, whichHtml(ctx));
+    return tWrap(ctx, 'Speed round!', '30초 동안 카드가 한 장씩 나와요. 글자는 소리를, 단어는 읽어요. 아이가 말하면 ✔, 못 하면 ✖', 3, n,
+      `<div class="speed" id="speed"><div class="sp-bar"><button class="btn orange big main-play" onclick="speedStart()">▶ Start</button><span class="timer" id="spTimer">30</span><span class="sp-score" id="spScore">✔ 0 · ✖ 0</span></div>
+        <div class="sp-card" id="spCard"><div class="hint">▶ 를 누르면 시작!</div></div>
+        <div class="sp-btns"><button class="btn big okb" onclick="speedMark(true)">✔</button><button class="btn big nob" onclick="speedMark(false)">✖</button></div></div>`);
+  },
+};
+// 단어 → 글자 (단어가 속한 글자)
+function wordLetter(ctx, w) { return ctx.unit.letters.find((l) => L(l).words.includes(w)) || w[0]; }
+// ① 큰 카드: 한 번에 한 장(그림 크게 + 글자 + 단어), 아래 띠로 건너뛰기, ▶ Auto 로 차례 재생
+const BIG = { i: 0, ws: [], auto: 0 };
+function bigCardsHtml(ctx) {
+  BIG.ws = ctx.unit.letters.flatMap((l) => L(l).words); BIG.i = 0;
+  const strip = BIG.ws.map((w, i) => `<div class="bc-thumb ${i === 0 ? 'on' : ''}" data-i="${i}" onclick="bigGo(${i})">${pic('word_' + w, '', w)}</div>`).join('');
+  return `<div class="bigcards" id="bigcards"><div class="bc-tools sl-tools"><button class="btn orange big main-play" onclick="bigAuto()">▶ Auto</button><button class="btn big" onclick="bigGo(BIG.i - 1)">◀</button><button class="btn big" onclick="bigGo(BIG.i + 1)">▶</button><span class="bc-count" id="bcCount">1 / ${BIG.ws.length}</span></div>
+    <div class="bc-card" id="bcCard">${bigCardInner(ctx, 0)}</div><div class="bc-strip">${strip}</div></div>`;
+}
+function bigCardInner(ctx, i) {
+  const w = BIG.ws[i], l = wordLetter(ctx, w);
+  return `<div class="bc-pic say" data-say="word_${esc(w)}" data-text="${esc(w)}">${pic('word_' + w, '', w)}</div><div class="bc-side"><div class="bc-ltr say ${letterCls(l)}" data-say="sound_${l}" data-text="${esc(soundText(l))}">${l.toUpperCase()}<small>${l}</small></div><div class="bc-word say" data-say="word_${esc(w)}" data-text="${esc(w)}">${wordHtml(w, l)}</div></div>`;
+}
+function bigGo(i, silent) {
+  const ctx = { unit: App.units[App.u] }; if (!BIG.ws.length) return;
+  BIG.i = (i + BIG.ws.length) % BIG.ws.length;
+  const c = $('bcCard'); if (!c) return;
+  c.innerHTML = bigCardInner(ctx, BIG.i); $('bcCount').textContent = `${BIG.i + 1} / ${BIG.ws.length}`;
+  document.querySelectorAll('.bc-thumb').forEach((t) => t.classList.toggle('on', +t.dataset.i === BIG.i));
+  if (!silent) { Sound.unlock(); stopSeq(); Sound.play('word_' + BIG.ws[BIG.i], BIG.ws[BIG.i]); }
+}
+async function bigAuto() {   // 글자마다: 이름 → 소리 → 그 글자 단어 3개(카드 넘기며)
+  Sound.unlock(); stopSeq(); const ctx = { unit: App.units[App.u] }; const my = ++BIG.auto;
+  for (let i = 0; i < BIG.ws.length; i++) {
+    if (my !== BIG.auto) return;
+    const w = BIG.ws[i], l = wordLetter(ctx, w);
+    bigGo(i, true);
+    if (i === 0 || wordLetter(ctx, BIG.ws[i - 1]) !== l) { const ok = await playSeq([{ id: 'name_' + l, text: l.toUpperCase(), gap: 250 }, { id: 'sound_' + l, text: soundText(l), gap: 400 }]); if (!ok) return; }
+    const ok = await playSeq([{ id: 'word_' + w, text: w, el: $('bcCard'), gap: 900 }]); if (!ok) return;
+  }
+}
+// ② What's this?: 그림만 → 아이들이 외치면 누르거나 Space 로 답 공개
+const GUESS = { ws: [], i: 0, open: false };
+function guessHtml(ctx) {
+  GUESS.ws = shuffle(ctx.unit.letters.flatMap((l) => L(l).words), Date.now() % 997); GUESS.i = 0; GUESS.open = false;
+  return `<div class="guess" id="guess"><div class="sl-tools"><button class="btn orange big main-play" onclick="guessReveal()">Show! (Space)</button><button class="btn big" onclick="guessNext()">Next ▶</button><span class="bc-count" id="gCount">1 / ${GUESS.ws.length}</span></div><div class="g-card" id="gCard" onclick="guessReveal()">${guessInner(ctx)}</div></div>`;
+}
+function guessInner(ctx) {
+  const w = GUESS.ws[GUESS.i], l = wordLetter(ctx, w);
+  return `<div class="g-pic">${pic('word_' + w, '', w)}</div><div class="g-word ${GUESS.open ? 'open' : ''}"><span class="q">?</span><span class="a">${wordHtml(w, l)}</span></div>`;
+}
+function guessReveal() {
+  if (GUESS.open) return guessNext();
+  GUESS.open = true; const c = $('gCard'); if (!c) return; c.querySelector('.g-word').classList.add('open'); Sound.unlock(); Sound.play('word_' + GUESS.ws[GUESS.i], GUESS.ws[GUESS.i]);
+}
+function guessNext() {
+  const ctx = { unit: App.units[App.u] };
+  if (GUESS.i + 1 >= GUESS.ws.length) { Sound.sfx('chime'); GUESS.i = 0; GUESS.ws = shuffle(GUESS.ws, Date.now() % 991); } else GUESS.i++;
+  GUESS.open = false; const c = $('gCard'); if (c) c.innerHTML = guessInner(ctx); const k = $('gCount'); if (k) k.textContent = `${GUESS.i + 1} / ${GUESS.ws.length}`;
+}
+// ③ Which one?: 🔊 단어 → 큰 그림 3개(1·2·3) → 아이들이 번호를 외침 → 선생님이 누르면 확인. A·B 팀 점수
+const WHICH = { ws: [], i: 0, cur: '', opts: [], team: 'A', score: { A: 0, B: 0 }, done: false };
+function whichHtml(ctx) {
+  WHICH.ws = shuffle(ctx.unit.letters.flatMap((l) => L(l).words), Date.now() % 983); WHICH.i = 0; WHICH.score = { A: 0, B: 0 }; WHICH.done = false;
+  return `<div class="which" id="which"><div class="sl-tools"><button class="btn orange big main-play" onclick="whichPlay()">🔊 Listen</button><button class="btn big" onclick="whichNext()">Next ▶</button><span class="bc-count" id="wCount">1 / ${WHICH.ws.length}</span>
+      <span class="teams"><button class="team ${WHICH.team === 'A' ? 'on' : ''}" id="teamA" onclick="whichTeam('A')">A <b>0</b></button><button class="team" id="teamB" onclick="whichTeam('B')">B <b>0</b></button></span></div>
+    <div class="w-opts" id="wOpts">${whichInner(ctx)}</div></div>`;
+}
+function whichInner(ctx) {
+  const all = ctx.unit.letters.flatMap((l) => L(l).words); WHICH.cur = WHICH.ws[WHICH.i];
+  const others = shuffle(all.filter((w) => w !== WHICH.cur), Date.now() % 977).slice(0, 2);
+  WHICH.opts = shuffle([WHICH.cur, ...others], Date.now() % 971); WHICH.done = false;
+  return WHICH.opts.map((w, i) => `<div class="w-opt" data-w="${w}" onclick="whichPick(this)"><span class="num">${i + 1}</span>${pic('word_' + w, '', w)}<div class="wd">${esc(w)}</div></div>`).join('');
+}
+function whichPlay() { Sound.unlock(); stopSeq(); Sound.play('word_' + WHICH.cur, WHICH.cur); }
+function whichTeam(t) { WHICH.team = t; document.querySelectorAll('.which .team').forEach((b) => b.classList.toggle('on', b.id === 'team' + t)); }
+function whichPick(el) {
+  if (WHICH.done) return; Sound.unlock();
+  if (el.dataset.w === WHICH.cur) { WHICH.done = true; el.classList.add('hit'); Sound.sfx('ok'); WHICH.score[WHICH.team]++; const b = document.querySelector('#team' + WHICH.team + ' b'); if (b) b.textContent = WHICH.score[WHICH.team]; Sound.play('word_' + WHICH.cur, WHICH.cur); }
+  else { el.classList.add('miss'); Sound.sfx('no'); setTimeout(() => el.classList.remove('miss'), 500); }
+}
+function whichNext() {
+  const ctx = { unit: App.units[App.u] };
+  if (WHICH.i + 1 >= WHICH.ws.length) { Sound.sfx('chime'); WHICH.i = 0; WHICH.ws = shuffle(WHICH.ws, Date.now() % 967); } else WHICH.i++;
+  const o = $('wOpts'); if (o) o.innerHTML = whichInner(ctx); const k = $('wCount'); if (k) k.textContent = `${WHICH.i + 1} / ${WHICH.ws.length}`;
+  setTimeout(whichPlay, 400);
+}
+TEACH._listen_point_old = {
   count: () => 2,
   render: (ctx, s) => {
     if (s === 1) return tWrap(ctx, 'Speed round!', '30초 동안 카드가 한 장씩 나와요. 글자는 소리를, 단어는 읽어요. 아이가 말하면 ✔, 못 하면 ✖', 1, 2,
