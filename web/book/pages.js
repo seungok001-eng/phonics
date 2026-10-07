@@ -61,7 +61,7 @@ function wordCard(w, l, extra = '') {
 }
 
 // ---------- 학생책 Lesson 1 ----------
-// 소리: 글자 3개, 글자나무, 이름·소리·챈트·동작
+// 소리: 글자 3개, 글자나무, 이름·소리·챈트
 PAGES.sounds = (ctx) => {
   const cards = ctx.unit.letters.map((l) => {
     const d = L(l), cls = letterCls(l);
@@ -72,7 +72,6 @@ PAGES.sounds = (ctx) => {
         <div class="row">${spk('name_' + l, l.toUpperCase())} Name <b>${l.toUpperCase()}</b></div>
         <div class="row">${spk('sound_' + l, soundText(l))} Sound <b class="ipa ${cls}">${esc(soundLabel(l))}</b></div>
         <div class="row print-hide"><button class="btn orange" onclick="chant('${l}')">♪ Chant</button></div>
-        <div class="action">✋ ${esc(d.action)}<br><span class="ko">${esc(d.action_ko)}</span></div>
         <div class="words">${d.words.map((w) => `<span class="w say" data-say="word_${esc(w)}" data-text="${esc(w)}">${wordHtml(w, l)}</span>`).join('')}</div>
       </div>
     </div>`;

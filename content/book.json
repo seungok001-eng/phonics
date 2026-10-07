@@ -116,9 +116,7 @@
         "apple",
         "astronaut",
         "arrow"
-      ],
-      "action": "pretend to bite a big apple",
-      "action_ko": "큰 사과를 베어 무는 흉내"
+      ]
     },
     "b": {
       "sound": "b",
@@ -128,9 +126,7 @@
         "bus",
         "bag",
         "bed"
-      ],
-      "action": "turn a big bus steering wheel",
-      "action_ko": "버스 핸들을 돌리는 흉내"
+      ]
     },
     "c": {
       "sound": "k",
@@ -140,9 +136,7 @@
         "cat",
         "cup",
         "candy"
-      ],
-      "action": "stroke cat whiskers on your cheeks",
-      "action_ko": "고양이 수염을 쓰다듬는 흉내"
+      ]
     },
     "d": {
       "sound": "d",
@@ -152,9 +146,7 @@
         "dog",
         "duck",
         "doll"
-      ],
-      "action": "pat a dog's head",
-      "action_ko": "강아지 머리 쓰다듬기"
+      ]
     },
     "e": {
       "sound": "e",
@@ -164,9 +156,7 @@
         "egg",
         "elf",
         "exit"
-      ],
-      "action": "crack an egg into a bowl",
-      "action_ko": "달걀을 깨는 흉내"
+      ]
     },
     "f": {
       "sound": "f",
@@ -176,9 +166,7 @@
         "fan",
         "frog",
         "fork"
-      ],
-      "action": "fan your face with your hand",
-      "action_ko": "손으로 부채질"
+      ]
     },
     "g": {
       "sound": "g",
@@ -188,9 +176,7 @@
         "goat",
         "gift",
         "guitar"
-      ],
-      "action": "strum a guitar",
-      "action_ko": "기타 치는 흉내"
+      ]
     },
     "h": {
       "sound": "h",
@@ -200,9 +186,7 @@
         "hen",
         "hippo",
         "hammer"
-      ],
-      "action": "swing a hammer",
-      "action_ko": "망치질"
+      ]
     },
     "i": {
       "sound": "ɪ",
@@ -212,9 +196,7 @@
         "ink",
         "igloo",
         "insect"
-      ],
-      "action": "wiggle fingers like a tiny insect crawling",
-      "action_ko": "손가락으로 벌레 기어가기"
+      ]
     },
     "j": {
       "sound": "dʒ",
@@ -224,9 +206,7 @@
         "jelly",
         "juice",
         "jump"
-      ],
-      "action": "jump up once",
-      "action_ko": "한 번 뛰기"
+      ]
     },
     "k": {
       "sound": "k",
@@ -236,9 +216,7 @@
         "key",
         "kite",
         "koala"
-      ],
-      "action": "turn a key in a lock",
-      "action_ko": "열쇠 돌리기"
+      ]
     },
     "l": {
       "sound": "l",
@@ -248,9 +226,7 @@
         "lemon",
         "leg",
         "lock"
-      ],
-      "action": "lick a sour lemon and pucker",
-      "action_ko": "신 레몬을 핥고 찡그리기"
+      ]
     },
     "m": {
       "sound": "m",
@@ -260,9 +236,7 @@
         "milk",
         "moon",
         "monkey"
-      ],
-      "action": "rub your tummy, mmm",
-      "action_ko": "배를 문지르며 음~"
+      ]
     },
     "n": {
       "sound": "n",
@@ -272,9 +246,7 @@
         "nose",
         "net",
         "nine"
-      ],
-      "action": "touch your nose",
-      "action_ko": "코 만지기"
+      ]
     },
     "o": {
       "sound": "ɑ",
@@ -284,9 +256,7 @@
         "otter",
         "octopus",
         "olive"
-      ],
-      "action": "wave eight octopus arms",
-      "action_ko": "문어 다리 흔들기"
+      ]
     },
     "p": {
       "sound": "p",
@@ -296,9 +266,7 @@
         "pencil",
         "panda",
         "pot"
-      ],
-      "action": "pop bubbles with a finger",
-      "action_ko": "손가락으로 비눗방울 터뜨리기"
+      ]
     },
     "q": {
       "sound": "kw",
@@ -308,9 +276,7 @@
         "queen",
         "quilt",
         "quack"
-      ],
-      "action": "flap elbows like a duck, quack",
-      "action_ko": "오리처럼 팔꿈치 퍼덕이기"
+      ]
     },
     "r": {
       "sound": "r",
@@ -320,9 +286,7 @@
         "rocket",
         "rain",
         "rice"
-      ],
-      "action": "launch a rocket with your hands",
-      "action_ko": "로켓 발사 손짓"
+      ]
     },
     "s": {
       "sound": "s",
@@ -332,9 +296,7 @@
         "sun",
         "seal",
         "soup"
-      ],
-      "action": "make a big sun circle with your arms",
-      "action_ko": "팔로 큰 해 그리기"
+      ]
     },
     "t": {
       "sound": "t",
@@ -344,9 +306,7 @@
         "turtle",
         "tomato",
         "tooth"
-      ],
-      "action": "tap your tooth with a finger",
-      "action_ko": "손가락으로 이 톡톡"
+      ]
     },
     "u": {
       "sound": "ʌ",
@@ -356,9 +316,7 @@
         "umbrella",
         "up",
         "uncle"
-      ],
-      "action": "open an umbrella over your head",
-      "action_ko": "우산 펴기"
+      ]
     },
     "v": {
       "sound": "v",
@@ -368,9 +326,7 @@
         "vet",
         "vest",
         "volcano"
-      ],
-      "action": "erupt like a volcano with your arms",
-      "action_ko": "팔로 화산 폭발"
+      ]
     },
     "w": {
       "sound": "w",
@@ -380,9 +336,7 @@
         "window",
         "water",
         "worm"
-      ],
-      "action": "wiggle like a worm",
-      "action_ko": "지렁이처럼 꿈틀"
+      ]
     },
     "x": {
       "sound": "ks",
@@ -393,9 +347,7 @@
         "six",
         "box",
         "taxi"
-      ],
-      "action": "cross your arms to make an X",
-      "action_ko": "팔로 X 만들기"
+      ]
     },
     "y": {
       "sound": "j",
@@ -405,9 +357,7 @@
         "yogurt",
         "yak",
         "yo-yo"
-      ],
-      "action": "play with a yo-yo",
-      "action_ko": "요요 놀이"
+      ]
     },
     "z": {
       "sound": "z",
@@ -417,9 +367,7 @@
         "zebra",
         "zipper",
         "zigzag"
-      ],
-      "action": "zip up a jacket",
-      "action_ko": "지퍼 올리기"
+      ]
     }
   },
   "words": {

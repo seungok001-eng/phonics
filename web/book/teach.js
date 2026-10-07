@@ -26,10 +26,9 @@ TEACH.sounds = {
         <div class="row say" data-say="name_${l}" data-text="${l.toUpperCase()}">${spk('name_' + l, l.toUpperCase(), true)}<span>Name</span><b>${l.toUpperCase()}</b></div>
         <div class="row say" data-say="sound_${l}" data-text="${esc(soundText(l))}">${spk('sound_' + l, soundText(l), true)}<span>Sound</span><b class="ipa ${cls}">${esc(soundLabel(l))}</b></div>
         <button class="btn orange big main-play" onclick="chant('${l}')">♪ ${esc(App.book.instructions.sound_chant)}</button>
-        <div class="action">✋ ${esc(d.action)}<br><span class="ko">${esc(d.action_ko)}</span></div>
         <div class="words">${d.words.map((w) => `<span class="w say" data-word="${esc(w)}" data-say="word_${esc(w)}" data-text="${esc(w)}">${pic('word_' + w, 'wpic', w)}<span>${wordHtml(w, l)}</span></span>`).join('')}</div>
       </div></div>`;
-    return tWrap(ctx, App.book.instructions.listen_repeat, '선생님이 🔊 이름·소리, ♪ 챈트를 눌러요. 아이들은 큰 소리로 따라 말하고 ✋ 동작을 해요. 아래 단어 그림을 누르면 단어가 나와요', s, ctx.unit.letters.length, body);
+    return tWrap(ctx, App.book.instructions.listen_repeat, '선생님이 🔊 이름·소리, ♪ 챈트를 눌러요. 아이들은 큰 소리로 따라 말해요. 아래 단어 그림을 누르면 단어가 나와요', s, ctx.unit.letters.length, body);
   },
 };
 // 쓰기: 글자마다 획순 한 장 + 짝 찾기 한 장

@@ -43,7 +43,6 @@ const bkq = BK > 1 ? `&bk=${BK}` : '';   // 링크에 붙일 권 표시
   const L = book.letters;
   if (book.families && unit.families && unit.families.length) { document.getElementById('out').innerHTML = letter2(book, unit); return; }
   const words = unit.letters.map((l) => `<div>${l.toUpperCase()}${l} /${L[l].sound}/ — ` + L[l].words.map((w) => { const i = L[l].final ? w.lastIndexOf(l) : w.indexOf(l); return `<span>${w.slice(0, i)}<b>${w[i]}</b>${w.slice(i + 1)} <small style="color:var(--soft)">${book.words[w].ko}</small></span>`; }).join('') + `</div>`).join('');
-  const actions = unit.letters.map((l) => `<li><b>${l.toUpperCase()}</b> /${L[l].sound}/: ${L[l].action_ko} — "${L[l].action}"</li>`).join('');
   const url = `${book.site_base}/book/?b=sb&u=${U}&p=6`;
   document.getElementById('out').innerHTML = `<div class="sheet">
     <h1>${book.series} 가정통신문</h1><div class="sub">Unit ${U} · ${unit.title} (${unit.title_ko}) · 학원: ________________ · 선생님: ________________</div>
@@ -54,7 +53,6 @@ const bkq = BK > 1 ? `&bk=${BK}` : '';   // 링크에 붙일 권 표시
     <h2>집에서 이렇게 해 주세요</h2>
     <ul>
       <li><b>소리로 물어보기</b>: 글자 이름("에이")이 아니라 <b>소리</b>(/${L[unit.letters[0]].sound}/)로 물어봐 주세요. "A는 무슨 소리?" → "/${L[unit.letters[0]].sound}/!"</li>
-      <li><b>동작과 함께</b>: ${'<ul>' + actions + '</ul>'}</li>
       <li><b>스토리 세 번 읽기</b>: 워크북 F번은 QR을 찍으면 원어민 소리가 나옵니다. 아이가 한 줄씩 따라 읽게 해 주세요.</li>
       <li><b>숨은 그림 찾기</b>: 스토리 그림에서 ${unit.story.panels.flatMap((p) => p.hidden).slice(0, 5).join(', ')} … 를 찾아 영어로 말해 보게 해 주세요.</li>
     </ul>
