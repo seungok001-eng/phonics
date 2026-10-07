@@ -156,6 +156,10 @@ def build_sounds(book, units, bk=1, ipa=None):
         u = letter_unit(book, l)
         add(_sound(id=f'name_{l}', sub='name', title=f'글자 이름 {l.upper()}', text=l.upper(), voice=nar, unit=u, letter=l))
         add(_sound(id=f'sound_{l}', sub='sound', title=f"낱소리 /{L['sound']}/ ({l})", text=l, voice=nar, unit=u, letter=l, hint=L.get('sound_hint', '')))
+    for f, F in (book.get('families') or {}).items():
+        if F.get('kind') in ('digraph', 'magic_e', 'team') and F.get('sound'):
+            u = next((x['unit'] for x in units if f in (x.get('families') or [])), None)
+            add(_sound(id=f'sound_{f}', sub='fsound', title=f"짝꿍 소리 /{F['sound']}/ ({f.replace('_', '…')})", text=f"/{F['sound']}/", voice=nar, unit=u, ipa=F['sound']))
     for w in book['words']:
         add(_sound(id=f'word_{w}', sub='word', title=f"단어 {w} · {book['words'][w]['ko']}", text=w, voice=nar, unit=word_unit(book, w, units)))
     # 합치기(2권~): 단어 가족이 있는 단어마다 "/k/ ... /æ/ ... /t/ ... cat" (낱소리 IPA 는 1권 letters + 이 권 vowels)
@@ -163,8 +167,9 @@ def build_sounds(book, units, bk=1, ipa=None):
     for v, V in (book.get('vowels') or {}).items(): ipa[v] = V.get('sound', v)
     for w, W in book['words'].items():
         if not W.get('family') and not book.get('families'): continue
-        if not all(ch in ipa for ch in w): continue
-        parts = [f"/{ipa[ch]}/" for ch in w]
+        if W.get('ipa'): parts = [f"/{p}/" for p in W['ipa']]   # 3·4권: 소리 단위(sh, a_e …)
+        elif all(ch in ipa for ch in w): parts = [f"/{ipa[ch]}/" for ch in w]
+        else: continue
         add(_sound(id=f'blend_{w}', sub='blend', title=f"합치기 {w}", text=' ... '.join(parts) + f' ... {w}', voice=nar, unit=word_unit(book, w, units)))
     for w, S in book['sight_words'].items():
         add(_sound(id=f'sw_{w}', sub='sw', title=f"사이트워드 {w} · {S['ko']}", text=w, voice=nar, unit=S.get('unit')))
@@ -215,4 +220,4 @@ def build_all():
     return list(items.values()), list(sounds.values()), books
 
 
-SOUND_SUBS = {'name': '글자 이름', 'sound': '낱소리', 'word': '단어', 'sw': '사이트워드', 'blend': '합치기', 'line': '스토리 대사', 'instr': '지시문'}
+SOUND_SUBS = {'name': '글자 이름', 'sound': '낱소리', 'fsound': '짝꿍 소리', 'word': '단어', 'sw': '사이트워드', 'blend': '합치기', 'line': '스토리 대사', 'instr': '지시문'}

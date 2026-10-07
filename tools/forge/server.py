@@ -524,6 +524,8 @@ def sound_variants_for(s):
     """이 소리 항목의 기본 대본들. 낱소리는 설정의 덮어쓰기 표 → 없으면 규칙("/IPA/" + 늘인 철자). 나머지는 대본 하나."""
     if s['sub'] == 'name':   # 글자 이름: 대문자 한 글자 + 철자 대본(H 를 'aitch' 로) — 한 글자만 보내면 H·M·W·Y 를 소리로 읽기도 한다
         sp = presets.NAME_SPELL.get(s['letter']); return [s['text']] + ([sp] if sp else [])
+    if s['sub'] == 'fsound':
+        return [s['text']]
     if s['sub'] == 'sound':
         over = (state['settings'].get('sound_variants') or {}).get(s['letter'])
         if over: return [str(t) for t in over if str(t).strip()]
@@ -533,7 +535,7 @@ def sound_variants_for(s):
 
 def tts_script(s, text):
     """실제로 TTS 에 보내는 대본. 낱소리·글자 이름은 그대로, 단어·문장·지시문은 짧은 지시("Say slowly and clearly: ")를 앞에 붙인다."""
-    if s['sub'] in ('sound', 'name'): return text
+    if s['sub'] in ('sound', 'name', 'fsound'): return text
     pre = state['settings'].get('say_prefix')
     if pre is None: pre = presets.SAY_PREFIX
     return (pre + text) if pre and not text.lower().startswith(pre.strip().lower()[:8]) else text
@@ -562,7 +564,7 @@ def apply_check(s, c, res):
     """검사 결과를 후보에 적고, 대본과 다르면(단어·대사·지시문) 또는 덧붙는 모음이 있으면(낱소리) 경고 표시."""
     c['check'] = res
     heard = norm_text(res.get('transcript', ''))
-    if s['sub'] == 'sound':
+    if s['sub'] in ('sound', 'fsound'):
         c['warn'] = 'extra' in res.get('note', '').lower() or res.get('type', '') in ('word', 'sentence', 'letter-name')
     elif s['sub'] == 'name':
         c['warn'] = heard not in (s['text'].lower(), s['text'].lower() + '.') and heard != norm_text(s['text'])
@@ -581,12 +583,24 @@ def el_voices_for(s):
     out = []
     for w in ids:
         v = V.get(w) or {}
-        if v.get('engine') == 'elevenlabs' and v.get('voice_id'): out.append((v.get('name') or w, v['voice_id']))
-    return out if len(out) == len(ids) else []
+        if v.get('engine') != 'elevenlabs': return []
+        if v.get('voices'):   # 둘이 함께 말하는 캐릭터(핌과 팜): 목소리 여럿을 겹친다
+            out += [(x.get('name') or w, x['voice_id']) for x in v['voices'] if x.get('voice_id')]
+        elif v.get('voice_id'): out.append((v.get('name') or w, v['voice_id']))
+        else: return []
+    return out
 
 
 PHON_RE = re.compile(r'/([^/\s]+)/')
 IPA_LETTER = {'æ': 'a', 'ɪ': 'i', 'ɑ': 'o', 'ʌ': 'u', 'e': 'e', 'dʒ': 'j', 'j': 'y', 'kw': 'q', 'ks': 'x', 'ə': 'a'}
+
+
+def word_info(w):
+    """모든 권의 단어 정보(chunks·ipa) — 뒤 권이 앞 권 단어를 덮지 않게 처음 것."""
+    for b in state.get('books') or []:
+        W = (b['book'].get('words') or {}).get(w)
+        if W and W.get('chunks'): return W
+    return None
 
 
 def phoneme_letters(text):
@@ -604,6 +618,16 @@ def phoneme_letters(text):
             else: break
         after = parts[run_[-1] + 1] if run_[-1] + 1 < len(parts) else ''
         m = re.search(r'[A-Za-z]+', after); word = (m.group(0).lower() if m else '')
+        W = word_info(word)
+        if W and W.get('chunks') and W.get('ipa'):
+            ch_, ip_ = W['chunks'], W['ipa']
+            for k, idx in enumerate(run_):
+                ph = parts[idx]
+                if len(run_) == len(ch_): out[idx] = ch_[k]
+                elif ph in ip_: out[idx] = ch_[ip_.index(ph)]
+                else: out[idx] = ch_[0]
+            i = run_[-1] + 2
+            continue
         for k, idx in enumerate(run_):
             ch = parts[idx]
             if ch == 'ks': out[idx] = 'x'

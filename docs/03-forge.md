@@ -85,3 +85,11 @@ web/assets/art/ audio/ video/   교재가 읽는 파일 (교재에 넣기)
 - plan.py 를 고치면 **서버를 다시 띄워야** 한다(`/api/rebuild` 는 content 만 다시 읽는다). 재시작하면 대기열(queued·generating)은 pending 으로 돌아가므로 다시 넣는다.
 - **영상(vid_…)**: 2026-10-06 밤 플로우에 보낸 2개가 15분 시간 초과로 돌아왔다(확장이 새 플로우 화면의 "동영상" 탭을 못 찾는 것으로 추정, `ensureFlowTabSelected("video")`). 그림 대기열이 끝난 뒤 플로우 탭을 보면서 고친다. 그때까지 영상은 대기열에 넣지 않는다.
 - 플로우 처리 속도는 1분에 1장 안팎(max_inflight 2). 검수는 `art-src/forge/<kind>/<id>/cut.*` 을 격자로 모아 보고 `/api/items/<id>/action {"action":"approve"}` → `/api/apply_all`.
+
+## 2026-10-07 추가 메모 (음성·여러 권)
+- **누가 말하나**: 소리 항목에 `who`(plan.add_lines). `content/voices.json` 에 일레븐랩스 목소리가 정해진 캐릭터 대사는 일레븐랩스(아이 목소리), 해설·지시문·단어·낱소리는 제미나이. `both` = 번+헤지 겹치기, 목소리가 여럿(`voices`)인 캐릭터(핌과 팜)는 겹치기. 목소리를 바꾼 뒤 `POST /api/sounds/regen_voices` 로 대사 일괄 생성.
+- **대사 속 낱소리**("/d/ /d/ duck!")는 일레븐랩스가 글자 이름으로 읽어 버린다 → 승인된 낱소리 녹음 `sound_<글자 또는 짝꿍>.mp3` 을 아이 음높이로 올려(`audio.pitch_up`, 반드시 24kHz 로 맞춘 뒤 asetrate) 끼워 붙인다(`el_compose`). 어느 소리인지는 뒤따르는 단어로 정한다: 단어에 `chunks`·`ipa`(3·4권)가 있으면 그것, 없으면 글자.
+- **짝꿍·긴 모음 소리**: 3·4권 `families[f]` 에 `kind`(digraph·magic_e·team)·`sound` 가 있으면 `sound_<f>`(sub `fsound`, 대본 "/ʃ/") 항목이 생긴다. 합치기 대본은 `words[w].ipa` 가 있으면 그것("/ʃ/ ... /ɪ/ ... /p/ ... ship").
+- **대본이 바뀐 대사·지시문**은 다시 읽을 때 승인을 풀고 교재 mp3 를 지운다(옛 이름 녹음 방지). 낱소리·글자 이름·사이트워드·합치기는 일부러 다른 대본을 쓰니 제외.
+- **플로우 다시 만들기**: reset 할 때마다 `regen` 이 늘고 잡 꼬리표가 "Job word_duck r2." 로 바뀐다(같은 꼬리표면 플로우가 예전 결과를 돌려준다). 플로우는 오류가 잦아 `max_inflight` 1.
+- **받아쓰기 검사**: 기본 검사 모델(flash-lite)은 짧은 낱소리가 섞인 대사를 잘 못 듣는다. 의심스러우면 `gemini-3.5-flash` 로 다시 확인.
