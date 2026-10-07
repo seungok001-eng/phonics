@@ -50,18 +50,37 @@
     "raw": "TRANSCRIPT=a raccoon | TYPE=word | IPA=ə ɹæˈkuːn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A raccoon!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791355168.718825,
+   "sec": 1.56,
+   "check": {
+    "transcript": "raccoon",
+    "type": "word",
+    "ipa": "rækˈuːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=raccoon | TYPE=word | IPA=rækˈuːn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:03",
+ "applied": "2026-10-07 15:40",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "u01_l9",
  "sub": "line",
- "title": "1유닛 대사 · 함께: A raccoon!",
+ "title": "1권 1유닛 대사 · 함께: A raccoon!",
  "text": "A raccoon!",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
 }

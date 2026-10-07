@@ -67,18 +67,37 @@
     "raw": "TRANSCRIPT=This is Pip. Pip cannot sing. | TYPE=sentence | IPA=ðɪs ɪz pɪp pɪp kænɒt sɪŋ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "This is Pip. Pip cannot sing.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791355163.7662406,
+   "sec": 3.64,
+   "check": {
+    "transcript": "This is Pip. Pip cannot sing.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz pɪp. pɪp ˈkænɑt sɪŋ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is Pip. Pip cannot sing. | TYPE=sentence | IPA=ðɪs ɪz pɪp. pɪp ˈkænɑt sɪŋ. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-06 21:01",
+ "applied": "2026-10-07 15:39",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "u00_l3",
  "sub": "line",
- "title": "0유닛 대사 · 해설: This is Pip. Pip cannot sing.",
+ "title": "1권 0유닛 대사 · 해설: This is Pip. Pip cannot sing.",
  "text": "This is Pip. Pip cannot sing.",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
 }

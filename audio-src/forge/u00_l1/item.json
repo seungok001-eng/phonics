@@ -50,18 +50,37 @@
     "raw": "TRANSCRIPT=Bun and Hedgy find a little door. | TYPE=sentence | IPA=bʌn ænd hɛdʒi faɪnd ə lɪtəl dɔːɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Bun and Hedgie find a little door.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791355159.4043944,
+   "sec": 2.92,
+   "check": {
+    "transcript": "Bun and Hedgy find a little door.",
+    "type": "sentence",
+    "ipa": "bʌn ənd hɛdʒi faɪnd ə lɪtəl dɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun and Hedgy find a little door. | TYPE=sentence | IPA=bʌn ənd hɛdʒi faɪnd ə lɪtəl dɔɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-06 21:01",
+ "applied": "2026-10-07 15:39",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "u00_l1",
  "sub": "line",
- "title": "0유닛 대사 · 해설: Bun and Hedgie find a little door.",
+ "title": "1권 0유닛 대사 · 해설: Bun and Hedgie find a little door.",
  "text": "Bun and Hedgie find a little door.",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
 }
