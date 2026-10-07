@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Not shh boom boom | TYPE=sentence | IPA=nɑt ʃ buːm buːm | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Not shh! Boom, boom!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357176.9052272,
+   "sec": 2.04,
+   "check": {
+    "transcript": "not boom boom",
+    "type": "sentence",
+    "ipa": "nɑt bum bum",
+    "note": "ok",
+    "raw": "TRANSCRIPT=not boom boom | TYPE=sentence | IPA=nɑt bum bum | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:36",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -47,6 +64,7 @@
  "title": "2권 11유닛 대사 · 그럼블: Not shh! Boom, boom!",
  "text": "Not shh! Boom, boom!",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

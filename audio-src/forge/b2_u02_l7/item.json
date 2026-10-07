@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Sh, a bag. | TYPE=sentence | IPA=ʃ ə bæg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! A bag!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357014.9316561,
+   "sec": 1.21,
+   "check": {
+    "transcript": "sh a bag",
+    "type": "sentence",
+    "ipa": "ʃ ə bæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sh a bag | TYPE=sentence | IPA=ʃ ə bæg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:15",
+ "applied": "2026-10-07 16:36",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,6 +47,7 @@
  "title": "2권 2유닛 대사 · 그럼블: Shh! A bag!",
  "text": "Shh! A bag!",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Gough Gough | TYPE=word | IPA=ɡɒf | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Gof! Gof?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357126.8715596,
+   "sec": 1.25,
+   "check": {
+    "transcript": "Golfe",
+    "type": "word",
+    "ipa": "ɡolf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Golfe | TYPE=word | IPA=ɡolf | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -47,6 +64,7 @@
  "title": "2권 8유닛 대사 · 핍: Gof! Gof?",
  "text": "Gof! Gof?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

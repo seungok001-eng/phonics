@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791263602.5009203,
+ "updated": 1791357246.3194659,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/2ad8fa9d-9ee0-4771-84e3-de60c881e4fd?Expires=1791378821&KeyName=labs-flow-prod-cdn-key&Signature=7JUYxtGMElgiOElgLv-atsE_tl0",
  "prompt_edited": true,
- "applied": "2026-10-06 14:35",
+ "applied": "2026-10-07 16:19",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -20,5 +20,6 @@
  "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a cute yellow school bus seen from the side, with round windows, completely plain yellow body with NO writing, NO signs and NO letters painted on it.",
  "aspect": "1:1",
  "out": "web/assets/art/word_bus.png",
- "claimed_at": 1791263592.7978332
+ "book": 1,
+ "claimed_at": 1791357215.8849442
 }

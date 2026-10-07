@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=zigzag | TYPE=word | IPA=ˈzɪɡ.zæɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/z/ /z/ zigzag!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356942.717184,
+   "sec": 2.0,
+   "check": {
+    "transcript": "za za zig zag",
+    "type": "sentence",
+    "ipa": "za za zɪg zæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=za za zig zag | TYPE=sentence | IPA=za za zɪg zæɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:40",
+ "applied": "2026-10-07 16:32",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +47,7 @@
  "title": "1권 10유닛 대사 · 번: /z/ /z/ zigzag!",
  "text": "/z/ /z/ zigzag!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=We like to hop. | TYPE=sentence | IPA=wi lʌɪk tu hɑp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We like to hop!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791357154.3583097,
+   "sec": 1.49,
+   "check": {
+    "transcript": "We like to hop.",
+    "type": "sentence",
+    "ipa": "wi laɪk tu hɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like to hop. | TYPE=sentence | IPA=wi laɪk tu hɑp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:04",
+ "applied": "2026-10-07 16:43",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,6 +47,7 @@
  "title": "9유닛 스토리북 · 함께: We like to hop!",
  "text": "We like to hop!",
  "voice": "Kore",
+ "who": "both",
  "book": 2,
  "busy": 0
 }

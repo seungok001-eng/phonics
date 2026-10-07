@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Look, a dot. | TYPE=sentence | IPA=lʊk ə dɒt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look! A dot!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357129.2204854,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Look, a dot.",
+    "type": "sentence",
+    "ipa": "lʊk ə dɒt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a dot. | TYPE=sentence | IPA=lʊk ə dɒt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:01",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,6 +47,7 @@
  "title": "2권 8유닛 대사 · 번: Look! A dot!",
  "text": "Look! A dot!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

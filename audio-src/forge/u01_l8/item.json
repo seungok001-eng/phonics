@@ -33,18 +33,38 @@
     "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356764.2602785,
+   "sec": 0.84,
+   "check": {
+    "transcript": "sheet",
+    "type": "word",
+    "ipa": "ʃiːt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sheet | TYPE=word | IPA=ʃiːt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "u01_l8",
  "sub": "line",
- "title": "1유닛 대사 · 딕비: Shh!",
+ "title": "1권 1유닛 대사 · 그럼블: Shh!",
  "text": "Shh!",
- "voice": "Charon"
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 1,
+ "busy": 0
 }

@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=I see a goat. | TYPE=sentence | IPA=aɪ siː ə ɡoʊt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see a goat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356790.2150042,
+   "sec": 1.3,
+   "check": {
+    "transcript": "I see a goat!",
+    "type": "sentence",
+    "ipa": "aɪ siː ə ɡoʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a goat! | TYPE=sentence | IPA=aɪ siː ə ɡoʊt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:05",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "u03_l1",
  "sub": "line",
- "title": "3유닛 대사 · 번: I see a goat!",
+ "title": "1권 3유닛 대사 · 번: I see a goat!",
  "text": "I see a goat!",
- "voice": "Leda"
+ "voice": "Leda",
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

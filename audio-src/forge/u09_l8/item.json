@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=box | TYPE=word | IPA=bɒks | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/ks/ /ks/ box!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356914.8159971,
+   "sec": 2.28,
+   "check": {
+    "transcript": "kiss kiss box",
+    "type": "sentence",
+    "ipa": "kɪs kɪs bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kiss kiss box | TYPE=sentence | IPA=kɪs kɪs bɑks | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:39",
+ "applied": "2026-10-07 16:31",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,5 +47,7 @@
  "title": "1권 9유닛 대사 · 번: /ks/ /ks/ box!",
  "text": "/ks/ /ks/ box!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

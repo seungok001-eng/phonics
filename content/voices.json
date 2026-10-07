@@ -6,28 +6,28 @@
   },
   "pip": {
     "engine": "elevenlabs",
-    "voice_id": null,
-    "name": ""
+    "voice_id": "EeQEodFZVtBkjtgK3HBc",
+    "name": "Piku"
   },
   "bun": {
     "engine": "elevenlabs",
-    "voice_id": null,
-    "name": ""
+    "voice_id": "FgiNpTIapnCbaD6xiqIo",
+    "name": "Sunny"
   },
   "hedgie": {
     "engine": "elevenlabs",
-    "voice_id": null,
-    "name": ""
+    "voice_id": "pt0Iailp6NXMdRw1n3c5",
+    "name": "Adik M"
   },
   "grumble": {
     "engine": "elevenlabs",
-    "voice_id": null,
-    "name": ""
+    "voice_id": "s2wvuS7SwITYg8dqsJdn",
+    "name": "Antonio"
   },
   "beads": {
     "engine": "elevenlabs",
-    "voice_id": null,
-    "name": ""
+    "voice_id": "XjGYkUkzth8BPs29fmcV",
+    "name": "Teddy Twinkle"
   },
   "both": {
     "mix": [

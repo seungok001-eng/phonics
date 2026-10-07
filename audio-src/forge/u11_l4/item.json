@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=Grumble here is a gift. | TYPE=sentence | IPA=ˈɡrʌmbəl ˈhɪɹ ɪz ə ˈɡɪft. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Grumble! Here is a gift!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356963.6427455,
+   "sec": 1.76,
+   "check": {
+    "transcript": "crumble, here's a gift",
+    "type": "sentence",
+    "ipa": "ˈkrʌmbəl ˈhɪəz ə ɡɪft",
+    "note": "ok",
+    "raw": "TRANSCRIPT=crumble, here's a gift | TYPE=sentence | IPA=ˈkrʌmbəl ˈhɪəz ə ɡɪft | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Grumble! Here is a gift!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358394.2932136,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Crumble! Here is a gift.",
+    "type": "sentence",
+    "ipa": "ˈkrʌmbəl ˈhɪər ɪz ə ɡɪft",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Crumble! Here is a gift. | TYPE=sentence | IPA=ˈkrʌmbəl ˈhɪər ɪz ə ɡɪft | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:27",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +64,7 @@
  "title": "1권 11유닛 대사 · 헤지: Grumble! Here is a gift!",
  "text": "Grumble! Here is a gift!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

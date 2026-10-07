@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286020.970539,
+ "updated": 1791357902.4877272,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/20b55f7d-c7ee-4083-8fdf-defb055656a4?Expires=1791307582&KeyName=labs-flow-prod-cdn-key&Signature=H-7tnP2CJEzvZvX6diKGqhg7UEQ",
+ "flow_url": "https://flow-content.google/image/1d726dc9-9278-4ef0-8d65-1df87304c661?Expires=1791379477&KeyName=labs-flow-prod-cdn-key&Signature=1H-ZAx-NPpfWOT0xHyDIXwPo_gQ",
  "prompt_edited": false,
- "applied": "2026-10-06 20:28",
+ "applied": "2026-10-07 16:29",
  "gen": "",
  "job_type": "image",
  "reference": "tree_a",
@@ -17,8 +17,9 @@
  "kind": "tree",
  "letter": "o",
  "title": "글자나무 O",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a brown otter floating on its back holding a shell; a friendly purple octopus with eight curly arms; a few green olives on a small branch — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a brown otter floating on its back holding a shell; a friendly purple octopus with eight curly arms; a few green olives on a small branch — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
  "aspect": "3:4",
  "out": "web/assets/art/tree_o.png",
- "claimed_at": 1791285965.8889122
+ "book": 1,
+ "claimed_at": 1791357860.8767035
 }

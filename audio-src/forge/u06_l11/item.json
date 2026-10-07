@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=Shh. It is my pot. | TYPE=sentence | IPA=ʃ t ɪ z m aɪ p ɑ t | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! It is my pot!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356853.772722,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Sure, it is my pot.",
+    "type": "sentence",
+    "ipa": "ʃʊɹ ɪt ɪz maɪ pɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sure, it is my pot. | TYPE=sentence | IPA=ʃʊɹ ɪt ɪz maɪ pɑt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:10",
+ "applied": "2026-10-07 16:28",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "u06_l11",
  "sub": "line",
- "title": "6유닛 대사 · 그럼블: Shh! It is my pot!",
+ "title": "1권 6유닛 대사 · 그럼블: Shh! It is my pot!",
  "text": "Shh! It is my pot!",
- "voice": "Charon"
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 1,
+ "busy": 0
 }

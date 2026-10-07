@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=cat bug cup fun | TYPE=sentence | IPA=kæt bʌg kʌp fʌn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Cat! Bug! Cup! Fun!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357169.0035887,
+   "sec": 2.41,
+   "check": {
+    "transcript": "cat bug cup fun",
+    "type": "sentence",
+    "ipa": "kæt bʌg kʌp fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat bug cup fun | TYPE=sentence | IPA=kæt bʌg kʌp fʌn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:36",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -47,6 +64,7 @@
  "title": "10유닛 스토리북 · 핍: Cat! Bug! Cup! Fun!",
  "text": "Cat! Bug! Cup! Fun!",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

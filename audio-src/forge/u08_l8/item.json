@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Go to the umbrella. | TYPE=sentence | IPA=goʊ tuː ðiː ʌmˈbrɛlə | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Go to the umbrella!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356894.608881,
+   "sec": 1.25,
+   "check": {
+    "transcript": "Go to the umbrella.",
+    "type": "sentence",
+    "ipa": "goʊ tuː ði ʌmˈbrɛlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go to the umbrella. | TYPE=sentence | IPA=goʊ tuː ði ʌmˈbrɛlə | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:23",
+ "applied": "2026-10-07 16:30",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "1권 8유닛 대사 · 헤지: Go to the umbrella!",
  "text": "Go to the umbrella!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

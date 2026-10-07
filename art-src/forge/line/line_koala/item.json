@@ -1,14 +1,14 @@
 {
- "status": "approved",
- "raw": "raw.png",
- "cut": "cut.png",
+ "status": "queued",
+ "raw": "",
+ "cut": "",
  "attempts": 0,
  "error": "",
  "updated": 1791287596.7867985,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/3eaa8fa2-ce08-4f9a-9a42-384912f6b8a1?Expires=1791309170&KeyName=labs-flow-prod-cdn-key&Signature=OkbYsjislNaMhVP_G2GsYLiOKJg",
  "prompt_edited": false,
- "applied": "2026-10-06 20:56",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": "word_koala",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_koala.png",
+ "book": 1,
  "claimed_at": 1791287553.3768883
 }

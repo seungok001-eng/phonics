@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=wow | TYPE=word | IPA=waʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Wow!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356985.6808548,
+   "sec": 0.7,
+   "check": {
+    "transcript": "wow",
+    "type": "word",
+    "ipa": "waʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wow | TYPE=word | IPA=waʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:31",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -30,5 +47,7 @@
  "title": "말버릇 · 헤지: Wow!",
  "text": "Wow!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

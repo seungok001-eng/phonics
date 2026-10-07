@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=Click, clack. Cat, pig, bug. | TYPE=sentence | IPA=klɪk klæk kæt pɪɡ bʌɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Click-clack! Cat, pig, bug!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357189.1609151,
+   "sec": 2.65,
+   "check": {
+    "transcript": "Click, clack, cat, big bug.",
+    "type": "sentence",
+    "ipa": "klɪk klæk kæt bɪɡ bʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click, clack, cat, big bug. | TYPE=sentence | IPA=klɪk klæk kæt bɪɡ bʌɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Click-clack! Cat, pig, bug!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359117.5204172,
+   "sec": 2.32,
+   "check": {
+    "transcript": "clik-clack, cat, pig, bug",
+    "type": "sentence",
+    "ipa": "klɪk klæk, kæt, pɪg, bʌg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clik-clack, cat, pig, bug | TYPE=sentence | IPA=klɪk klæk, kæt, pɪg, bʌg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:08",
+ "applied": "2026-10-07 16:49",
  "text_edited": false,
  "error": "",
  "unit": 12,
@@ -30,6 +64,7 @@
  "title": "2권 12유닛 대사 · 비즈: Click-clack! Cat, pig, bug!",
  "text": "Click-clack! Cat, pig, bug!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

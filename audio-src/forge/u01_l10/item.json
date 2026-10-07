@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=A B C | TYPE=sentence | IPA=eɪ biː ˈsiː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A! B! C!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356763.8550806,
+   "sec": 1.3,
+   "check": {
+    "transcript": "ABC",
+    "type": "word",
+    "ipa": "ˈeɪ ˈbiː ˈsiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ABC | TYPE=word | IPA=ˈeɪ ˈbiː ˈsiː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 5,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -83,5 +100,5 @@
  "voice": "Kore",
  "who": "both",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=It is my garden. | TYPE=sentence | IPA=ɪt ɪz maɪ ˈgɑɹdən | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "It is my garden!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356842.6047199,
+   "sec": 1.39,
+   "check": {
+    "transcript": "It is my garden.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ ˈgɑɹdən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my garden. | TYPE=sentence | IPA=ɪt ɪz maɪ ˈgɑɹdən | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:09",
+ "applied": "2026-10-07 16:27",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,5 +47,7 @@
  "title": "5유닛 스토리북 · 함께: It is my garden!",
  "text": "It is my garden!",
  "voice": "Kore",
+ "who": "both",
+ "book": 1,
  "busy": 0
 }

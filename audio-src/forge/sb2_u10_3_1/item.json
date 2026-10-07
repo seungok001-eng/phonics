@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=cup | TYPE=word | IPA=kʌp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ /ʌ/ /p/ cup!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357167.9815273,
+   "sec": 1.76,
+   "check": {
+    "transcript": "take big cup",
+    "type": "sentence",
+    "ipa": "ˈteɪk ˈbɪɡ ˈkʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=take big cup | TYPE=sentence | IPA=ˈteɪk ˈbɪɡ ˈkʌp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:20",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,6 +47,7 @@
  "title": "10유닛 스토리북 · 비즈: /k/ /ʌ/ /p/ cup!",
  "text": "/k/ /ʌ/ /p/ cup!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

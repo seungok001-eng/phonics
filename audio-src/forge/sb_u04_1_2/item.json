@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=kite pop | TYPE=word | IPA=kaɪt pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ /k/ kite! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356818.983145,
+   "sec": 2.0,
+   "check": {
+    "transcript": "CoComelon Park",
+    "type": "sentence",
+    "ipa": "koʊkoʊmɛlən pɑɹk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=CoComelon Park | TYPE=sentence | IPA=koʊkoʊmɛlən pɑɹk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/ /k/ kite! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357987.5384502,
+   "sec": 3.11,
+   "check": {
+    "transcript": "Pop",
+    "type": "word",
+    "ipa": "pʰɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pop | TYPE=word | IPA=pʰɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:35",
+ "applied": "2026-10-07 16:45",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,5 +64,7 @@
  "title": "4유닛 스토리북 · 번: /k/ /k/ kite! Pop!",
  "text": "/k/ /k/ kite! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

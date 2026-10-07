@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=We can go on. | TYPE=sentence | IPA=wi kən ˈɡoʊ ˈɑn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We can go on!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791357000.992988,
+   "sec": 1.16,
+   "check": {
+    "transcript": "We can go on.",
+    "type": "sentence",
+    "ipa": "wi kæn goʊ ɑn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We can go on. | TYPE=sentence | IPA=wi kæn goʊ ɑn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:50",
+ "applied": "2026-10-07 16:35",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -30,6 +47,7 @@
  "title": "2권 1유닛 대사 · 함께: We can go on!",
  "text": "We can go on!",
  "voice": "Kore",
+ "who": "both",
  "book": 2,
  "busy": 0
 }

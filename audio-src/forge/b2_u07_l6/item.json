@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Sit, cat, sit. | TYPE=sentence | IPA=sɪt kæt sɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Sit, cat, sit!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357107.7562034,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Sit, cat, sit.",
+    "type": "sentence",
+    "ipa": "ˈsɪt, ˈkæt, ˈsɪt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sit, cat, sit. | TYPE=sentence | IPA=ˈsɪt, ˈkæt, ˈsɪt. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:00",
+ "applied": "2026-10-07 16:40",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,6 +47,7 @@
  "title": "2권 7유닛 대사 · 번: Sit, cat, sit!",
  "text": "Sit, cat, sit!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

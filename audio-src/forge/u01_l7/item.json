@@ -50,18 +50,55 @@
     "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/k/ /k/ cat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356762.4590182,
+   "sec": 2.0,
+   "check": {
+    "transcript": "K cat",
+    "type": "word",
+    "ipa": "ˈkeɪ kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=K cat | TYPE=word | IPA=ˈkeɪ kæt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/k/ /k/ cat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359573.3629603,
+   "sec": 2.15,
+   "check": {
+    "transcript": "Cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-10-07 16:22",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "u01_l7",
  "sub": "line",
- "title": "1유닛 대사 · 릴리: /k/ /k/ cat!",
+ "title": "1권 1유닛 대사 · 번: /k/ /k/ cat!",
  "text": "/k/ /k/ cat!",
- "voice": "Leda"
+ "voice": "Leda",
+ "who": "bun",
+ "book": 1,
+ "busy": 1
 }

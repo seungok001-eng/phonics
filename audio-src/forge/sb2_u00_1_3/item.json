@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=How can we go in? | TYPE=sentence | IPA=haʊ kæn wi ˈgoʊ ˈɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "How can we go in?",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356991.800549,
+   "sec": 1.35,
+   "check": {
+    "transcript": "How can we go in?",
+    "type": "sentence",
+    "ipa": "haʊ kæn wi goʊ ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=How can we go in? | TYPE=sentence | IPA=haʊ kæn wi goʊ ɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:49",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -30,6 +47,7 @@
  "title": "0유닛 스토리북 · 헤지: How can we go in?",
  "text": "How can we go in?",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

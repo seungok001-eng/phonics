@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286364.3659132,
+ "updated": 1791357592.068669,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/cce4187d-383b-4c89-bfdc-dd04e1a786d4?Expires=1791307940&KeyName=labs-flow-prod-cdn-key&Signature=r1uetRiQqlF7ruBHs_NXtklFpMU",
+ "flow_url": "https://flow-content.google/image/ea1ec212-19df-4a93-bcde-fa29a3ab4eb1?Expires=1791379166&KeyName=labs-flow-prod-cdn-key&Signature=umkiFFX8oFhjTErcJEbaf1GaIQU",
  "prompt_edited": false,
- "applied": "2026-10-06 20:33",
+ "applied": "2026-10-07 16:24",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "hammer",
  "title": "hammer · 망치",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a wooden-handled hammer with a grey steel head.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a wooden-handled hammer with a grey steel head.",
  "aspect": "1:1",
  "out": "web/assets/art/word_hammer.png",
- "claimed_at": 1791286335.8853877,
- "asset_no": 2023
+ "book": 1,
+ "asset_no": 2023,
+ "claimed_at": 1791357555.8790708
 }

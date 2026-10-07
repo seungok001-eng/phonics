@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=Can you see the queen? | TYPE=sentence | IPA=kæn juː siː ðə kwiːn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Can you see the queen?",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356866.0301294,
+   "sec": 1.39,
+   "check": {
+    "transcript": "Can you see the queen?",
+    "type": "sentence",
+    "ipa": "kæn juː siː ðə kwiːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Can you see the queen? | TYPE=sentence | IPA=kæn juː siː ðə kwiːn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:11",
+ "applied": "2026-10-07 16:28",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "u07_l4",
  "sub": "line",
- "title": "7유닛 대사 · 번: Can you see the queen?",
+ "title": "1권 7유닛 대사 · 번: Can you see the queen?",
  "text": "Can you see the queen?",
- "voice": "Leda"
+ "voice": "Leda",
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

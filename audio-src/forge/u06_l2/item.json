@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Milk! /m/ /m/ milk!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356845.7810028,
+   "sec": 3.3,
+   "check": {
+    "transcript": "milk mm milk",
+    "type": "sentence",
+    "ipa": "mɪlk ɛm ɛm mɪlk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=milk mm milk | TYPE=sentence | IPA=mɪlk ɛm ɛm mɪlk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:36",
+ "applied": "2026-10-07 16:27",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,5 +47,7 @@
  "title": "1권 6유닛 대사 · 번: Milk! /m/ /m/ milk!",
  "text": "Milk! /m/ /m/ milk!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

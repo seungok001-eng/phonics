@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Look at the volcano. | TYPE=sentence | IPA=lʊk ət ðə vɑlˈkeɪnoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look at the volcano!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356907.748711,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Look at the volcano.",
+    "type": "sentence",
+    "ipa": "lʊk æt ðə vɑlˈkeɪnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at the volcano. | TYPE=sentence | IPA=lʊk æt ðə vɑlˈkeɪnoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:24",
+ "applied": "2026-10-07 16:30",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,5 +47,7 @@
  "title": "1권 9유닛 대사 · 헤지: Look at the volcano!",
  "text": "Look at the volcano!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

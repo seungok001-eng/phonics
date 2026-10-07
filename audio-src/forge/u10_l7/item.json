@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Here is the zigzag. | TYPE=sentence | IPA=hir ɪz ðə ˈzɪgˌzæg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Here is the zigzag!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356940.0322275,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Here is the zig-zag.",
+    "type": "sentence",
+    "ipa": "ˈhɪɹ ɪz ðə ˈzɪɡˌzæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Here is the zig-zag. | TYPE=sentence | IPA=ˈhɪɹ ɪz ðə ˈzɪɡˌzæɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:26",
+ "applied": "2026-10-07 16:32",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +47,7 @@
  "title": "1권 10유닛 대사 · 헤지: Here is the zigzag!",
  "text": "Here is the zigzag!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

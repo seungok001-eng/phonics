@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sit, grumble sit | TYPE=sentence | IPA=sɪt ˈɡɹʌmbəl sɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Sit, Grumble, sit!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791357176.2259493,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Sit, Grumble, sit.",
+    "type": "sentence",
+    "ipa": "ˈsɪt ˈɡɹʌmbəl ˈsɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sit, Grumble, sit. | TYPE=sentence | IPA=ˈsɪt ˈɡɹʌmbəl ˈsɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:07",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,6 +47,7 @@
  "title": "2권 11유닛 대사 · 함께: Sit, Grumble, sit!",
  "text": "Sit, Grumble, sit!",
  "voice": "Kore",
+ "who": "both",
  "book": 2,
  "busy": 0
 }

@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=a bus b b bus | TYPE=word | IPA=ə bʌs bi bi bʌs | NOTE=extra sounds"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A bus! /b/ /b/ bus!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356768.400266,
+   "sec": 2.6,
+   "check": {
+    "transcript": "A bus",
+    "type": "sentence",
+    "ipa": "ə bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A bus | TYPE=sentence | IPA=ə bʌs | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A bus! /b/ /b/ bus!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359576.2726681,
+   "sec": 3.77,
+   "check": {
+    "transcript": "a bus",
+    "type": "sentence",
+    "ipa": "ə bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a bus | TYPE=sentence | IPA=ə bʌs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:03",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -29,5 +63,7 @@
  "sub": "line",
  "title": "1유닛 스토리북 · 번: A bus! /b/ /b/ bus!",
  "text": "A bus! /b/ /b/ bus!",
- "voice": "Leda"
+ "voice": "Leda",
+ "who": "bun",
+ "book": 1
 }

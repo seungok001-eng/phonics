@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=It is on my nose. | TYPE=sentence | IPA=ɪt ɪz ɑn maɪ noʊz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "It is on my nose!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356849.5845718,
+   "sec": 1.25,
+   "check": {
+    "transcript": "It is on my nose.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz ɑn maɪ noʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is on my nose. | TYPE=sentence | IPA=ɪt ɪz ɑn maɪ noʊz | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:10",
+ "applied": "2026-10-07 16:28",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "u06_l7",
  "sub": "line",
- "title": "6유닛 대사 · 헤지: It is on my nose!",
+ "title": "1권 6유닛 대사 · 헤지: It is on my nose!",
  "text": "It is on my nose!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

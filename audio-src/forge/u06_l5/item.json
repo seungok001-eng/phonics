@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/n/ /n/ net!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356847.6585157,
+   "sec": 1.25,
+   "check": {
+    "transcript": "snazzy",
+    "type": "word",
+    "ipa": "ˈsnæzi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snazzy | TYPE=word | IPA=ˈsnæzi | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/n/ /n/ net!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358079.9875932,
+   "sec": 1.72,
+   "check": {
+    "transcript": "No, no net.",
+    "type": "sentence",
+    "ipa": "noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=No, no net. | TYPE=sentence | IPA=noʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:36",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,5 +64,7 @@
  "title": "1권 6유닛 대사 · 번: /n/ /n/ net!",
  "text": "/n/ /n/ net!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

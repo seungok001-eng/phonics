@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=raccoon | TYPE=word | IPA=rækˈuːn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A raccoon!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356766.5310273,
+   "sec": 1.16,
+   "check": {
+    "transcript": "raccoon",
+    "type": "word",
+    "ipa": "rækˈuːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=raccoon | TYPE=word | IPA=rækˈuːn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 15:40",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -81,6 +98,7 @@
  "title": "1권 1유닛 대사 · 함께: A raccoon!",
  "text": "A raccoon!",
  "voice": "Kore",
+ "who": "both",
  "book": 1,
  "busy": 0
 }

@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791284279.10582,
+ "updated": 1791357487.1912441,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/eaa5fbe8-b3a1-4dec-bbdf-756699b98d39?Expires=1791305855&KeyName=labs-flow-prod-cdn-key&Signature=TZUcNMvZcsC7vtYe6Gxw3RKDCbU",
+ "flow_url": "https://flow-content.google/image/96c23d29-6827-4e62-bd51-64d6e8392ca5?Expires=1791379058&KeyName=labs-flow-prod-cdn-key&Signature=vQjIqi-x_dhyEKbAaJgeO6YuURs",
  "prompt_edited": false,
- "applied": "2026-10-06 20:03",
+ "applied": "2026-10-07 16:19",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "fork",
  "title": "fork · 포크",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a silver fork standing upright.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a silver fork standing upright.",
  "aspect": "1:1",
  "out": "web/assets/art/word_fork.png",
- "claimed_at": 1791284251.075788,
- "asset_no": 2015
+ "book": 1,
+ "asset_no": 2015,
+ "claimed_at": 1791357453.494378
 }

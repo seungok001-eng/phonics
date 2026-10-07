@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=ten | TYPE=word | IPA=tɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ten! Ten?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357034.9504235,
+   "sec": 1.67,
+   "check": {
+    "transcript": "10 10",
+    "type": "word",
+    "ipa": "tɛn tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=10 10 | TYPE=word | IPA=tɛn tɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Ten! Ten?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791358643.3600323,
+   "sec": 1.39,
+   "check": {
+    "transcript": "10 10",
+    "type": "sentence",
+    "ipa": "tɛn tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=10 10 | TYPE=sentence | IPA=tɛn tɛn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:16",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -30,6 +64,7 @@
  "title": "3유닛 스토리북 · 핍: Ten! Ten?",
  "text": "Ten! Ten?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

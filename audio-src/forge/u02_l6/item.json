@@ -16,19 +16,38 @@
     "raw": "TRANSCRIPT=Shh. Oh, no. | TYPE=sentence | IPA=ʃː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! Oh no!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356778.2787387,
+   "sec": 1.07,
+   "check": {
+    "transcript": "Oh no.",
+    "type": "sentence",
+    "ipa": "oʊ ˈnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh no. | TYPE=sentence | IPA=oʊ ˈnoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "u02_l6",
  "sub": "line",
- "title": "2유닛 대사 · 딕비: Shh! Oh no!",
+ "title": "1권 2유닛 대사 · 그럼블: Shh! Oh no!",
  "text": "Shh! Oh no!",
  "voice": "Charon",
+ "who": "grumble",
+ "book": 1,
  "busy": 0
 }

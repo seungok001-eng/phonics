@@ -13,7 +13,7 @@
 #   POST /functions/v1/flow-job-claim     → {job: {...}} 또는 {job: null}
 #   POST /functions/v1/flow-job-complete  → {job_id, image_base64, image_mime, image_url, error}
 #   POST /auth/v1/token                   → 가짜 토큰 (로그인 없음)
-import base64, json, os, shutil, sys, threading, time, traceback, webbrowser
+import base64, json, os, re, shutil, sys, threading, time, traceback, webbrowser
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, unquote, parse_qs
 
@@ -583,6 +583,62 @@ def el_voices_for(s):
     return out if len(out) == len(ids) else []
 
 
+PHON_RE = re.compile(r'/([^/\s]+)/')
+
+
+def phoneme_letters(text):
+    """대사 속 낱소리 덩어리마다 어느 글자의 소리인지: 뒤따르는 단어로 정한다.
+    "/d/ /d/ duck!" → d,d · "/b/ /æ/ /g/ bag!" → b,a,g (덩어리 수 = 단어 글자 수면 차례대로) · "/ks/ /ks/ box!" → x,x"""
+    parts = PHON_RE.split(text)   # [말, 덩어리, 말, 덩어리, …]
+    out = {}
+    i = 1
+    while i < len(parts):
+        run_ = []
+        j = i
+        while j < len(parts) and (j - i) % 2 == 0:
+            run_.append(j)
+            if j + 1 < len(parts) and parts[j + 1].strip() == '' and j + 2 < len(parts): j += 2
+            else: break
+        after = parts[run_[-1] + 1] if run_[-1] + 1 < len(parts) else ''
+        m = re.search(r'[A-Za-z]+', after); word = (m.group(0).lower() if m else '')
+        for k, idx in enumerate(run_):
+            ch = parts[idx]
+            if ch == 'ks': out[idx] = 'x'
+            elif ch == 'kw': out[idx] = 'q'
+            elif len(run_) == len(word) and word: out[idx] = word[k]
+            elif word: out[idx] = word[0]
+            else: out[idx] = ch[0]
+        i = run_[-1] + 2
+    return parts, out
+
+
+def el_compose(text, voices, tmp):
+    """낱소리 덩어리가 있는 대사: 말 조각 = 일레븐랩스(목소리가 둘이면 겹침), 낱소리 = sound_<글자>.mp3 를 높여서. 결과 wav 경로."""
+    import tempfile
+    def tmpf(ext):
+        fd, p = tempfile.mkstemp(suffix=ext); os.close(fd); tmp.append(p); return p
+    parts, letters = phoneme_letters(text)
+    segs = []
+    for idx, piece in enumerate(parts):
+        if idx % 2 == 1:   # 낱소리
+            src = os.path.join(presets.WEB, 'assets', 'audio', f'sound_{letters[idx]}.mp3')
+            if not os.path.exists(src): raise RuntimeError(f'낱소리 sound_{letters[idx]} 녹음이 없다')
+            w = tmpf('.wav'); audio.pitch_up(src, w); segs.append(w)
+        elif re.search(r'[A-Za-z]', piece):   # 말
+            outs = []
+            for name, vid in voices:
+                m = tmpf('.mp3'); open(m, 'wb').write(audio.el_tts(piece.strip(), vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2')))
+                w = tmpf('.wav'); audio.norm_wav(m, w); outs.append(w)
+            if len(outs) > 1:
+                w = tmpf('.wav'); audio.mix(outs, w); outs = [w]
+            segs.append(outs[0])
+        else: continue
+        gap = tmpf('.wav'); audio.silence(gap, 0.18); segs.append(gap)
+    if segs: segs = segs[:-1]
+    out = tmpf('.wav'); audio.concat(segs, out)
+    return out
+
+
 def tts_enqueue(s, text, voice):
     ev = el_voices_for(s)
     if ev:   # 캐릭터 대사 = 아이 목소리 (일레븐랩스). 대본은 지시문 없이 대사 그대로
@@ -615,12 +671,15 @@ def tts_loop():
                 import tempfile
                 tmp = []
                 try:
-                    for name, vid in t['voices']:
-                        fd, pth = tempfile.mkstemp(suffix='.mp3'); os.close(fd); tmp.append(pth)
-                        open(pth, 'wb').write(audio.el_tts(t['text'], vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2')))
-                    src = tmp[0]
-                    if len(tmp) > 1:
-                        fd, src = tempfile.mkstemp(suffix='.wav'); os.close(fd); audio.mix(tmp, src); tmp.append(src)
+                    if PHON_RE.search(t['text']):   # 낱소리 덩어리가 있으면 이어 붙이기
+                        src = el_compose(t['text'], t['voices'], tmp)
+                    else:
+                        for name, vid in t['voices']:
+                            fd, pth = tempfile.mkstemp(suffix='.mp3'); os.close(fd); tmp.append(pth)
+                            open(pth, 'wb').write(audio.el_tts(t['text'], vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2')))
+                        src = tmp[0]
+                        if len(tmp) > 1:
+                            fd, src = tempfile.mkstemp(suffix='.wav'); os.close(fd); audio.mix(tmp, src); tmp.append(src)
                     with lock:
                         add_cand(s, src_path=src, text=t['text'], voice=' + '.join(n for n, _ in t['voices']), how='el')
                         u = state['settings'].setdefault('el_usage', {'count': 0, 'chars': 0})

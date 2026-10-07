@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=A B C D E F | TYPE=sentence | IPA=eɪ biː siː diː iː ɛf | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A, B, C, D, E, F!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356836.4404144,
+   "sec": 1.81,
+   "check": {
+    "transcript": "a b c d e f",
+    "type": "sentence",
+    "ipa": "eɪ biː siː diː iː ɛf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a b c d e f | TYPE=sentence | IPA=eɪ biː siː diː iː ɛf | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:08",
+ "applied": "2026-10-07 16:27",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,5 +47,7 @@
  "title": "5유닛 스토리북 · 번: A, B, C, D, E, F!",
  "text": "A, B, C, D, E, F!",
  "voice": "Leda",
+ "who": "bun",
+ "book": 1,
  "busy": 0
 }

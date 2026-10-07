@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=click-clack | TYPE=word | IPA=ˈklɪkˌklæk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Click-clack!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357189.9401357,
+   "sec": 0.93,
+   "check": {
+    "transcript": "click-clack",
+    "type": "word",
+    "ipa": "klɪk klæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click-clack | TYPE=word | IPA=klɪk klæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:11",
+ "applied": "2026-10-07 16:45",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -30,6 +47,7 @@
  "title": "말버릇 · 비즈: Click-clack!",
  "text": "Click-clack!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

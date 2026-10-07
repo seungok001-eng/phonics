@@ -16,19 +16,38 @@
     "raw": "TRANSCRIPT=Thank you. | TYPE=sentence | IPA=ˈθæŋk ˌjuː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Thank you.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356782.4154687,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Sh, thank you.",
+    "type": "sentence",
+    "ipa": "ʃ, ˈθæŋk ju.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sh, thank you. | TYPE=sentence | IPA=ʃ, ˈθæŋk ju. | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "u02_l9",
  "sub": "line",
- "title": "2유닛 대사 · 딕비: Shh... Thank you.",
+ "title": "1권 2유닛 대사 · 그럼블: Shh... Thank you.",
  "text": "Shh... Thank you.",
  "voice": "Charon",
+ "who": "grumble",
+ "book": 1,
  "busy": 0
 }

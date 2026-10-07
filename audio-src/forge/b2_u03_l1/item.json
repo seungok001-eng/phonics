@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=icenet | TYPE=word | IPA=ˈaɪs.nɛt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "I see a net.",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357025.1027565,
+   "sec": 1.07,
+   "check": {
+    "transcript": "I see a net.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a net. | TYPE=sentence | IPA=aɪ siː ə nɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:36",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,6 +64,7 @@
  "title": "2권 3유닛 대사 · 번: I see a net.",
  "text": "I see a net.",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

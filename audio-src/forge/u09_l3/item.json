@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɑlˈkeɪnoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/v/ /v/ volcano!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356908.1074579,
+   "sec": 1.58,
+   "check": {
+    "transcript": "B's V volcano",
+    "type": "sentence",
+    "ipa": "biːz ˈviː vɑːlˈkeɪnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=B's V volcano | TYPE=sentence | IPA=biːz ˈviː vɑːlˈkeɪnoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:39",
+ "applied": "2026-10-07 16:31",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,5 +47,7 @@
  "title": "1권 9유닛 대사 · 번: /v/ /v/ volcano!",
  "text": "/v/ /v/ volcano!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/n/ /e/ /t/ net!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357034.8710668,
+   "sec": 1.67,
+   "check": {
+    "transcript": "missing it",
+    "type": "sentence",
+    "ipa": "ˈmɪsɪŋ ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=missing it | TYPE=sentence | IPA=ˈmɪsɪŋ ɪt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/n/ /e/ /t/ net!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791358645.2201347,
+   "sec": 1.49,
+   "check": {
+    "transcript": "no she's seeing it",
+    "type": "sentence",
+    "ipa": "no ʃiz ˈsiɪŋ ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=no she's seeing it | TYPE=sentence | IPA=no ʃiz ˈsiɪŋ ɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:16",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -30,6 +64,7 @@
  "title": "3유닛 스토리북 · 비즈: /n/ /e/ /t/ net!",
  "text": "/n/ /e/ /t/ net!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

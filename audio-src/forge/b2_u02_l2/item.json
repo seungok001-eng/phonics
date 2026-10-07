@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The cap is on the bag. | TYPE=sentence | IPA=ðə kæp ɪz ɒn ðə bæɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The cap is on the bag.",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357010.850634,
+   "sec": 1.49,
+   "check": {
+    "transcript": "The cap is on the bag.",
+    "type": "sentence",
+    "ipa": "ðə ˈkæp ɪz ɒn ðə ˈbæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cap is on the bag. | TYPE=sentence | IPA=ðə ˈkæp ɪz ɒn ðə ˈbæg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:51",
+ "applied": "2026-10-07 16:36",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,6 +47,7 @@
  "title": "2권 2유닛 대사 · 번: The cap is on the bag.",
  "text": "The cap is on the bag.",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

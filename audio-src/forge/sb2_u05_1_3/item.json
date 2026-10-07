@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=the cat and the hen | TYPE=sentence | IPA=ðə ˈkæt ənd ðə ˈhɛn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The cat and the hen!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357067.218162,
+   "sec": 1.86,
+   "check": {
+    "transcript": "the cat and the hen",
+    "type": "sentence",
+    "ipa": "ðə ˈkæt ænd ðə ˈhɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the cat and the hen | TYPE=sentence | IPA=ðə ˈkæt ænd ðə ˈhɛn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:57",
+ "applied": "2026-10-07 16:39",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,6 +47,7 @@
  "title": "5유닛 스토리북 · 헤지: The cat and the hen!",
  "text": "The cat and the hen!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

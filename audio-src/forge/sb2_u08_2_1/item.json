@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=log | TYPE=word | IPA=l ɔ g | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/l/ /ɑ/ /g/ log!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357135.0599053,
+   "sec": 2.09,
+   "check": {
+    "transcript": "L K G log",
+    "type": "word",
+    "ipa": "ɛl.keɪ.dʒi.lɔɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=L K G log | TYPE=word | IPA=ɛl.keɪ.dʒi.lɔɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:19",
+ "applied": "2026-10-07 16:42",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,6 +47,7 @@
  "title": "8유닛 스토리북 · 비즈: /l/ /ɑ/ /g/ log!",
  "text": "/l/ /ɑ/ /g/ log!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

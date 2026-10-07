@@ -1,14 +1,14 @@
 {
- "status": "approved",
- "raw": "raw.png",
- "cut": "cut.png",
+ "status": "queued",
+ "raw": "",
+ "cut": "",
  "attempts": 0,
  "error": "",
  "updated": 1791284366.1971533,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/80ece85d-cec8-4ad6-85c6-f9fc27a245e0?Expires=1791305940&KeyName=labs-flow-prod-cdn-key&Signature=kWWZ4Dt5SATnAFFKiMHxSXKcCCc",
  "prompt_edited": false,
- "applied": "2026-10-06 20:03",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": "word_doll",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_doll.png",
+ "book": 1,
  "claimed_at": 1791284320.8933961
 }

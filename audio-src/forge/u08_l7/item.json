@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=up up up | TYPE=sentence | IPA=ˈʌp ˈʌp ˈʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Up, up, up!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356894.450576,
+   "sec": 1.21,
+   "check": {
+    "transcript": "Up, up, up",
+    "type": "sentence",
+    "ipa": "ʌp ʌp ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Up, up, up | TYPE=sentence | IPA=ʌp ʌp ʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:23",
+ "applied": "2026-10-07 16:30",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "1권 8유닛 대사 · 번: Up, up, up!",
  "text": "Up, up, up!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

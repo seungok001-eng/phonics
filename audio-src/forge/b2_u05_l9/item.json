@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=click-clack, cat | TYPE=sentence | IPA=klɪk klæk, kæt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Click-clack! Cat!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357061.8999228,
+   "sec": 1.39,
+   "check": {
+    "transcript": "click clack cat",
+    "type": "sentence",
+    "ipa": "klɪk klæk kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click clack cat | TYPE=sentence | IPA=klɪk klæk kæt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:56",
+ "applied": "2026-10-07 16:39",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,6 +47,7 @@
  "title": "2권 5유닛 대사 · 비즈: Click-clack! Cat!",
  "text": "Click-clack! Cat!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

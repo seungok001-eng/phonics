@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi kənɑt si | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "We can not see!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357124.7753131,
+   "sec": 1.49,
+   "check": {
+    "transcript": "We cannot see!",
+    "type": "sentence",
+    "ipa": "wi kænot si",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We cannot see! | TYPE=sentence | IPA=wi kænot si | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "We can not see!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358887.5172682,
+   "sec": 1.44,
+   "check": {
+    "transcript": "We cannot see.",
+    "type": "sentence",
+    "ipa": "wi ˈkæn.nɑt ˈsi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi ˈkæn.nɑt ˈsi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 00:38",
+ "applied": "2026-10-07 16:49",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -47,6 +81,7 @@
  "title": "2권 8유닛 대사 · 번: We can not see!",
  "text": "We can not see!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

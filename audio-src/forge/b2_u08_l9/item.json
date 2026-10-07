@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=whew it is hot | TYPE=sentence | IPA=wju ɪt ɪz hɑt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! It is hot!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357130.9886718,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Sh, it is hot.",
+    "type": "sentence",
+    "ipa": "ʃ ɪt ɪz hɒt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sh, it is hot. | TYPE=sentence | IPA=ʃ ɪt ɪz hɒt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:19",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,6 +47,7 @@
  "title": "2권 8유닛 대사 · 그럼블: Shh! It is hot!",
  "text": "Shh! It is hot!",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

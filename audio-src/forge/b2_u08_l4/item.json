@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The dog is on the log. | TYPE=sentence | IPA=ðə dɔɡ ɪz ɒn ðə lɒɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The dog is on the log.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357126.9660249,
+   "sec": 1.67,
+   "check": {
+    "transcript": "The dog is on the log.",
+    "type": "sentence",
+    "ipa": "ðə dɑg ɪz ɑn ðə lɔg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The dog is on the log. | TYPE=sentence | IPA=ðə dɑg ɪz ɑn ðə lɔg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:01",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,6 +47,7 @@
  "title": "2권 8유닛 대사 · 헤지: The dog is on the log.",
  "text": "The dog is on the log.",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

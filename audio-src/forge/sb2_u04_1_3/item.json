@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=dab | TYPE=word | IPA=dæb | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Deb! Deb?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357049.0088444,
+   "sec": 1.07,
+   "check": {
+    "transcript": "debt debt",
+    "type": "word",
+    "ipa": "dɛt dɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=debt debt | TYPE=word | IPA=dɛt dɛt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:38",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -47,6 +64,7 @@
  "title": "4유닛 스토리북 · 핍: Deb! Deb?",
  "text": "Deb! Deb?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

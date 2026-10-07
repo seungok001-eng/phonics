@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT= | TYPE=noise | IPA= | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Sniff... Shh. Sniff.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356947.6684513,
+   "sec": 2.32,
+   "check": {
+    "transcript": "sniff shoe sniff",
+    "type": "sentence",
+    "ipa": "snɪf ʃuː snɪf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sniff shoe sniff | TYPE=sentence | IPA=snɪf ʃuː snɪf | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:40",
+ "applied": "2026-10-07 16:32",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +47,7 @@
  "title": "1권 10유닛 대사 · 그럼블: Sniff... Shh. Sniff.",
  "text": "Sniff... Shh. Sniff.",
  "voice": "Charon",
- "book": 1
+ "who": "grumble",
+ "book": 1,
+ "busy": 0
 }

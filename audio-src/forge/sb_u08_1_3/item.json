@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=seal pop | TYPE=word | IPA=sil pɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/s/ /s/ seal! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356901.6025054,
+   "sec": 2.69,
+   "check": {
+    "transcript": "gas seal pop",
+    "type": "sentence",
+    "ipa": "gæsiəlˈpɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gas seal pop | TYPE=sentence | IPA=gæsiəlˈpɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:38",
+ "applied": "2026-10-07 16:30",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "8유닛 스토리북 · 번: /s/ /s/ seal! Pop!",
  "text": "/s/ /s/ seal! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

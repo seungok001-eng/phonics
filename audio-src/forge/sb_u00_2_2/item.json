@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=chirp | TYPE=word | IPA=tʃɜːp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Chirp?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791356756.1454575,
+   "sec": 0.88,
+   "check": {
+    "transcript": "chip",
+    "type": "word",
+    "ipa": "tʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chip | TYPE=word | IPA=tʃɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:02",
+ "applied": "2026-10-07 16:22",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -29,5 +46,8 @@
  "sub": "line",
  "title": "0유닛 스토리북 · 핍: Chirp?",
  "text": "Chirp?",
- "voice": "Kore"
+ "voice": "Kore",
+ "who": "pip",
+ "book": 1,
+ "busy": 0
 }

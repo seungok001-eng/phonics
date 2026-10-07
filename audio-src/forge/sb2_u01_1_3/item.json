@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=click clack no pip no | TYPE=sentence | IPA=klɪk klæk noʊ pɪp noʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Click-clack! No, Pip. No!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357004.8998451,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Click click, no pip, no.",
+    "type": "sentence",
+    "ipa": "klɪk klɪk noʊ pɪp noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click click, no pip, no. | TYPE=sentence | IPA=klɪk klɪk noʊ pɪp noʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:50",
+ "applied": "2026-10-07 16:35",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -30,6 +47,7 @@
  "title": "1유닛 스토리북 · 비즈: Click-clack! No, Pip. No!",
  "text": "Click-clack! No, Pip. No!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

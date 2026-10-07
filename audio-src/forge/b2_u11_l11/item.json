@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Grumble? Is it you? | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈɪz ɪt ˈju | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Grumble? Is it you?",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357178.177082,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Grumble is it you",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ˈɪz ɪt ˈjuː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble is it you | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈɪz ɪt ˈjuː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:36",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -47,6 +64,7 @@
  "title": "2권 11유닛 대사 · 헤지: Grumble? Is it you?",
  "text": "Grumble? Is it you?",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

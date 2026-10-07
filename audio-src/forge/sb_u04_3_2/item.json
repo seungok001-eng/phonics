@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=the key and the lock | TYPE=sentence | IPA=ðə kiː ənd ðə lɒk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The key and the lock!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356824.5985048,
+   "sec": 1.53,
+   "check": {
+    "transcript": "The key and the log.",
+    "type": "sentence",
+    "ipa": "ðə kiː ənd ðə lɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The key and the log. | TYPE=sentence | IPA=ðə kiː ənd ðə lɒɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The key and the lock!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358005.9837732,
+   "sec": 1.21,
+   "check": {
+    "transcript": "the key and the lock",
+    "type": "sentence",
+    "ipa": "ðə kiː ənd ðə lɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the key and the lock | TYPE=sentence | IPA=ðə kiː ənd ðə lɒk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:07",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -29,5 +63,8 @@
  "sub": "line",
  "title": "4유닛 스토리북 · 헤지: The key and the lock!",
  "text": "The key and the lock!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

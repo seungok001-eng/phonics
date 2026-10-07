@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=sh thank you | TYPE=sentence | IPA=ʃ ˈθæŋk ju | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Thank you.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356788.439453,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=Sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... Thank you.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357877.2362592,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Shh, thank you.",
+    "type": "sentence",
+    "ipa": "ʃ, θæŋk ju",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, thank you. | TYPE=sentence | IPA=ʃ, θæŋk ju | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:33",
+ "applied": "2026-10-07 16:45",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,5 +64,7 @@
  "title": "2유닛 스토리북 · 그럼블: Shh... Thank you.",
  "text": "Shh... Thank you.",
  "voice": "Charon",
- "book": 1
+ "who": "grumble",
+ "book": 1,
+ "busy": 0
 }

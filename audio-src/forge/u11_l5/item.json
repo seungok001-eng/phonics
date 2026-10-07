@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Can you go to the party? | TYPE=sentence | IPA=kæn ju ˈgoʊ tu ðə ˈpɑɹti | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Can you go to the party?",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356964.797497,
+   "sec": 1.35,
+   "check": {
+    "transcript": "Can you go to the party?",
+    "type": "sentence",
+    "ipa": "kæn ju ɡoʊ tu ðə pɑːrti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Can you go to the party? | TYPE=sentence | IPA=kæn ju ɡoʊ tu ðə pɑːrti | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:27",
+ "applied": "2026-10-07 16:33",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "1권 11유닛 대사 · 번: Can you go to the party?",
  "text": "Can you go to the party?",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

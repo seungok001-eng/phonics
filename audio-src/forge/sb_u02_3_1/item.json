@@ -16,11 +16,39 @@
     "raw": "TRANSCRIPT=frog pop | TYPE=word | IPA=frɒɡ pɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/f/ /f/ frog! Pop!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356789.6894233,
+   "sec": 2.55,
+   "check": {
+    "transcript": "frog pop pop",
+    "type": "sentence",
+    "ipa": "fɹɑɡ pɑp pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=frog pop pop | TYPE=sentence | IPA=fɹɑɡ pɑp pɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/f/ /f/ frog! Pop!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791359595.331102,
+   "sec": 5.23,
+   "check": null,
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:33",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,5 +58,7 @@
  "title": "2유닛 스토리북 · 함께: /f/ /f/ frog! Pop!",
  "text": "/f/ /f/ frog! Pop!",
  "voice": "Kore",
- "book": 1
+ "who": "both",
+ "book": 1,
+ "busy": 1
 }

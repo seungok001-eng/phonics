@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=I see a tomato. | TYPE=sentence | IPA=aɪ siː ə təˈmɑːtoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see a tomato.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356892.5976546,
+   "sec": 1.35,
+   "check": {
+    "transcript": "I see a tomato.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə təˈmeɪtoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a tomato. | TYPE=sentence | IPA=aɪ siː ə təˈmeɪtoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:23",
+ "applied": "2026-10-07 16:30",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "1권 8유닛 대사 · 헤지: I see a tomato.",
  "text": "I see a tomato.",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

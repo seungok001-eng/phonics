@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=10 10 | TYPE=word | IPA=tɛn tɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Ten! Ten?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357027.2765257,
+   "sec": 1.39,
+   "check": {
+    "transcript": "10 10",
+    "type": "word",
+    "ipa": "tɛn tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=10 10 | TYPE=word | IPA=tɛn tɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Ten! Ten?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791358622.4061904,
+   "sec": 1.07,
+   "check": {
+    "transcript": "10 10",
+    "type": "word",
+    "ipa": "ˈtɛn ˈtɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=10 10 | TYPE=word | IPA=ˈtɛn ˈtɛn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 00:37",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,6 +81,7 @@
  "title": "2권 3유닛 대사 · 핍: Ten! Ten?",
  "text": "Ten! Ten?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

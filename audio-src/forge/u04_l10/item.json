@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=jump in | TYPE=sentence | IPA=ˈdʒʌmp ɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Jump in!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356816.5418081,
+   "sec": 0.88,
+   "check": {
+    "transcript": "Jump in.",
+    "type": "sentence",
+    "ipa": "ˈdʒʌmp ˈɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Jump in. | TYPE=sentence | IPA=ˈdʒʌmp ˈɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:07",
+ "applied": "2026-10-07 16:26",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "u04_l10",
  "sub": "line",
- "title": "4유닛 대사 · 번: Jump in!",
+ "title": "1권 4유닛 대사 · 번: Jump in!",
  "text": "Jump in!",
- "voice": "Leda"
+ "voice": "Leda",
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

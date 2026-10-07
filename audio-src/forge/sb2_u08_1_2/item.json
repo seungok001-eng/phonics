@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi ˈkæn.ɑt ˈsi | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "We can not see!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357133.1296437,
+   "sec": 1.53,
+   "check": {
+    "transcript": "We cannot see.",
+    "type": "sentence",
+    "ipa": "wi kənɑt si",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi kənɑt si | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "We can not see!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358914.5801024,
+   "sec": 1.53,
+   "check": {
+    "transcript": "We cannot see.",
+    "type": "sentence",
+    "ipa": "wi kænɑt si",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi kænɑt si | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 00:38",
+ "applied": "2026-10-07 16:49",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -47,6 +81,7 @@
  "title": "8유닛 스토리북 · 번: We can not see!",
  "text": "We can not see!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

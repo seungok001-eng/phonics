@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=pin | TYPE=word | IPA=pɪn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/p/ /ɪ/ /n/ pin!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357097.5442111,
+   "sec": 1.58,
+   "check": {
+    "transcript": "at night eating",
+    "type": "sentence",
+    "ipa": "æt naɪt ˈiːtɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=at night eating | TYPE=sentence | IPA=æt naɪt ˈiːtɪŋ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/p/ /ɪ/ /n/ pin!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791358829.4532657,
+   "sec": 1.58,
+   "check": {
+    "transcript": "European",
+    "type": "word",
+    "ipa": "ˌjʊɹəˈpiːən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=European | TYPE=word | IPA=ˌjʊɹəˈpiːən | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:18",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,6 +64,7 @@
  "title": "6유닛 스토리북 · 비즈: /p/ /ɪ/ /n/ pin!",
  "text": "/p/ /ɪ/ /n/ pin!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

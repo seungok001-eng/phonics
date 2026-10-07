@@ -1,14 +1,14 @@
 {
- "status": "approved",
- "raw": "raw.png",
- "cut": "cut.png",
+ "status": "queued",
+ "raw": "",
+ "cut": "",
  "attempts": 0,
  "error": "",
  "updated": 1791287958.9295475,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/8473e78d-1b83-4284-823e-2b48bf7066bd?Expires=1791309535&KeyName=labs-flow-prod-cdn-key&Signature=ixZg0_7y3BmuvApmjv6YZpe2Ns8",
  "prompt_edited": false,
- "applied": "2026-10-06 21:01",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": "word_quilt",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_quilt.png",
+ "book": 1,
  "claimed_at": 1791287915.8858101
 }

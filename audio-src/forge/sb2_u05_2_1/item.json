@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=tact tact | TYPE=word | IPA=tækt tækt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Tac... tac...",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357067.3095095,
+   "sec": 1.16,
+   "check": {
+    "transcript": "duck duck",
+    "type": "word",
+    "ipa": "ˈdʌk ˈdʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck duck | TYPE=word | IPA=ˈdʌk ˈdʌk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:39",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -47,6 +64,7 @@
  "title": "5유닛 스토리북 · 핍: Tac... tac...",
  "text": "Tac... tac...",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

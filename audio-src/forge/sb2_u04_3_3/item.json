@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "C... a... t...?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357055.0910861,
+   "sec": 2.04,
+   "check": {
+    "transcript": "see a potato",
+    "type": "sentence",
+    "ipa": "siː ə pəˈteɪtoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=see a potato | TYPE=sentence | IPA=siː ə pəˈteɪtoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:17",
+ "applied": "2026-10-07 16:38",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,6 +47,7 @@
  "title": "4유닛 스토리북 · 핍: C... a... t...?",
  "text": "C... a... t...?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

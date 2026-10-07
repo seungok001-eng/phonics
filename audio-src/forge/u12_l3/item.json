@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Boom boom. I like it. | TYPE=sentence | IPA=bʊm bum aɪ laɪk ɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Boom! Boom! I like it!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356981.7110684,
+   "sec": 1.81,
+   "check": {
+    "transcript": "Boom, boom. I like it.",
+    "type": "sentence",
+    "ipa": "ˈbum ˈbum ˈaɪ ˈlaɪk ˈɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Boom, boom. I like it. | TYPE=sentence | IPA=ˈbum ˈbum ˈaɪ ˈlaɪk ˈɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:29",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 12,
@@ -30,5 +47,7 @@
  "title": "1권 12유닛 대사 · 그럼블: Boom! Boom! I like it!",
  "text": "Boom! Boom! I like it!",
  "voice": "Charon",
- "book": 1
+ "who": "grumble",
+ "book": 1,
+ "busy": 0
 }

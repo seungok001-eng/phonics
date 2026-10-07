@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The pig is big. | TYPE=sentence | IPA=ðə pɪɡ ɪz bɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The pig is big!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357072.9897232,
+   "sec": 1.39,
+   "check": {
+    "transcript": "The pig is big.",
+    "type": "sentence",
+    "ipa": "ðə pɪɡ ɪz bɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig is big. | TYPE=sentence | IPA=ðə pɪɡ ɪz bɪɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:58",
+ "applied": "2026-10-07 16:39",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,6 +47,7 @@
  "title": "2권 6유닛 대사 · 헤지: The pig is big!",
  "text": "The pig is big!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

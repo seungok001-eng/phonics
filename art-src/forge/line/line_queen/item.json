@@ -1,14 +1,14 @@
 {
- "status": "approved",
- "raw": "raw.png",
- "cut": "cut.png",
+ "status": "queued",
+ "raw": "",
+ "cut": "",
  "attempts": 0,
  "error": "",
  "updated": 1791287944.4967918,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/516b704e-d615-4c5f-96f8-8d8547ee64db?Expires=1791309517&KeyName=labs-flow-prod-cdn-key&Signature=_KZ9TVJdg-9hEtNwI5iYoWBP2T8",
  "prompt_edited": false,
- "applied": "2026-10-06 21:01",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": "word_queen",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_queen.png",
+ "book": 1,
  "claimed_at": 1791287900.877613
 }

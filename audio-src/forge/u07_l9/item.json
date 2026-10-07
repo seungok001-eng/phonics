@@ -16,19 +16,38 @@
     "raw": "TRANSCRIPT=P Q R | TYPE=letter-name | IPA=pi kju aɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "P! Q! R!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356878.7469723,
+   "sec": 1.39,
+   "check": {
+    "transcript": "peaker",
+    "type": "word",
+    "ipa": "/ˈpiːkər/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=peaker | TYPE=word | IPA=/ˈpiːkər/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:11",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "u07_l9",
  "sub": "line",
- "title": "7유닛 대사 · 함께: P! Q! R!",
+ "title": "1권 7유닛 대사 · 함께: P! Q! R!",
  "text": "P! Q! R!",
  "voice": "Kore",
+ "who": "both",
+ "book": 1,
  "busy": 0
 }

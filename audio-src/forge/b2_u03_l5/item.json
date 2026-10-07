@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=The pet is wet. | TYPE=sentence | IPA=ðə pɛt ɪz wɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The pet is wet!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357028.982233,
+   "sec": 1.44,
+   "check": {
+    "transcript": "The pad is wet.",
+    "type": "sentence",
+    "ipa": "ðə pæd ɪz wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pad is wet. | TYPE=sentence | IPA=ðə pæd ɪz wɛt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The pet is wet!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358626.3464618,
+   "sec": 1.35,
+   "check": {
+    "transcript": "The pet is wet.",
+    "type": "sentence",
+    "ipa": "ðə pɛt ɪz wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pet is wet. | TYPE=sentence | IPA=ðə pɛt ɪz wɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 23:53",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -30,6 +64,7 @@
  "title": "2권 3유닛 대사 · 번: The pet is wet!",
  "text": "The pet is wet!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

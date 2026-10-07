@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=bag | TYPE=word | IPA=bæg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/b/ /æ/ /g/ bag!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357023.004399,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Being was too big.",
+    "type": "sentence",
+    "ipa": "ˈbiːɪŋ wʌz tuː bɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Being was too big. | TYPE=sentence | IPA=ˈbiːɪŋ wʌz tuː bɪg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/b/ /æ/ /g/ bag!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791358611.5223558,
+   "sec": 1.95,
+   "check": {
+    "transcript": "napkin ketchup",
+    "type": "word",
+    "ipa": "ˈnæpkən ˈkɛtʃəp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=napkin ketchup | TYPE=word | IPA=ˈnæpkən ˈkɛtʃəp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:16",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,6 +64,7 @@
  "title": "2유닛 스토리북 · 비즈: /b/ /æ/ /g/ bag!",
  "text": "/b/ /æ/ /g/ bag!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

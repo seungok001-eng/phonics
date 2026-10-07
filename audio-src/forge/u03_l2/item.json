@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=The goat ate it. | TYPE=sentence | IPA=ðə goʊt eɪt ɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The goat ate it!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356791.3451483,
+   "sec": 1.44,
+   "check": {
+    "transcript": "The goat ate it.",
+    "type": "sentence",
+    "ipa": "ðə ɡoʊt eɪt ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The goat ate it. | TYPE=sentence | IPA=ðə ɡoʊt eɪt ɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:05",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "u03_l2",
  "sub": "line",
- "title": "3유닛 대사 · 헤지: The goat ate it!",
+ "title": "1권 3유닛 대사 · 헤지: The goat ate it!",
  "text": "The goat ate it!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

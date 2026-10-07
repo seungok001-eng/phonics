@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=A, B, C | TYPE=sentence | IPA=eɪ biː siː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A! B! C!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791356955.7483437,
+   "sec": 1.25,
+   "check": {
+    "transcript": "A B C",
+    "type": "sentence",
+    "ipa": "ˈeɪ ˈbiː ˈsiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A B C | TYPE=sentence | IPA=ˈeɪ ˈbiː ˈsiː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:27",
+ "applied": "2026-10-07 16:32",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +47,7 @@
  "title": "10유닛 스토리북 · 핍: A! B! C!",
  "text": "A! B! C!",
  "voice": "Kore",
- "book": 1
+ "who": "pip",
+ "book": 1,
+ "busy": 0
 }

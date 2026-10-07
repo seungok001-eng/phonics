@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=pig | TYPE=word | IPA=p ɪ g | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/p/ /ɪ/ /g/ pig!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357092.7124412,
+   "sec": 1.86,
+   "check": {
+    "transcript": "G pig",
+    "type": "word",
+    "ipa": "ʤiː pɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=G pig | TYPE=word | IPA=ʤiː pɪg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:18",
+ "applied": "2026-10-07 16:40",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,6 +47,7 @@
  "title": "6유닛 스토리북 · 비즈: /p/ /ɪ/ /g/ pig!",
  "text": "/p/ /ɪ/ /g/ pig!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

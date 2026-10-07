@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=rocket | TYPE=word | IPA=ˈɹɑkɪt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/r/ /r/ rocket!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356875.7093039,
+   "sec": 1.67,
+   "check": {
+    "transcript": "star rocket",
+    "type": "sentence",
+    "ipa": "stɑːr ˈrɑːkət",
+    "note": "ok",
+    "raw": "TRANSCRIPT=star rocket | TYPE=sentence | IPA=stɑːr ˈrɑːkət | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:37",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +47,7 @@
  "title": "1권 7유닛 대사 · 번: /r/ /r/ rocket!",
  "text": "/r/ /r/ rocket!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

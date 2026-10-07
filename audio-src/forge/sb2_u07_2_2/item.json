@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Dip is on my lip. | TYPE=sentence | IPA=dɪp ɪz ɒn maɪ lɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Dip is on my lip!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357120.1988385,
+   "sec": 1.35,
+   "check": {
+    "transcript": "Dip is on my lip!",
+    "type": "sentence",
+    "ipa": "dɪp ɪz ɒn maɪ lɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Dip is on my lip! | TYPE=sentence | IPA=dɪp ɪz ɒn maɪ lɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:01",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,6 +47,7 @@
  "title": "7유닛 스토리북 · 번: Dip is on my lip!",
  "text": "Dip is on my lip!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

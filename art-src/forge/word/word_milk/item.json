@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286569.4632347,
+ "updated": 1791359354.32384,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/46456e29-8182-45a7-a32c-a984dc550f55?Expires=1791308145&KeyName=labs-flow-prod-cdn-key&Signature=FmYzUOZY_3paifBj_O5ioGl45Tc",
+ "flow_url": "https://flow-content.google/image/cec5fc4b-9f2a-4d2f-a48b-63b731c5ead7?Expires=1791380928&KeyName=labs-flow-prod-cdn-key&Signature=rVoiDHeDvmU2IYL7dfbmgHGZpWU",
  "prompt_edited": false,
- "applied": "2026-10-06 20:38",
+ "applied": "2026-10-07 16:53",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "milk",
  "title": "milk · 우유",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a white milk carton and a glass of milk.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a white milk carton and a glass of milk.",
  "aspect": "1:1",
  "out": "web/assets/art/word_milk.png",
- "claimed_at": 1791286540.8916616,
- "asset_no": 2036
+ "book": 1,
+ "asset_no": 2036,
+ "claimed_at": 1791359323.3789034
 }

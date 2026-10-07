@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=gub gub | TYPE=word | IPA=ɡʌb ɡʌb | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Gub! Gub?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357164.9661305,
+   "sec": 1.11,
+   "check": {
+    "transcript": "goop goop",
+    "type": "word",
+    "ipa": "ˈɡup ˈɡup",
+    "note": "ok",
+    "raw": "TRANSCRIPT=goop goop | TYPE=word | IPA=ˈɡup ˈɡup | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:06",
+ "applied": "2026-10-07 16:43",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,6 +47,7 @@
  "title": "10유닛 스토리북 · 핍: Gub! Gub?",
  "text": "Gub! Gub?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

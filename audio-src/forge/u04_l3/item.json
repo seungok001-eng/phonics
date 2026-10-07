@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=kite | TYPE=word | IPA=kaɪt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ /k/ kite!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356810.440364,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Ta la kate, kite",
+    "type": "sentence",
+    "ipa": "tɑː lɑː keɪt kaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ta la kate, kite | TYPE=sentence | IPA=tɑː lɑː keɪt kaɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:34",
+ "applied": "2026-10-07 16:25",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,5 +47,7 @@
  "title": "1권 4유닛 대사 · 번: /k/ /k/ kite!",
  "text": "/k/ /k/ kite!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 1
 }

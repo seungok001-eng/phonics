@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The pig has a wig. | TYPE=sentence | IPA=ðə pɪɡ hæz ə wɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The pig has a wig!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357096.3898518,
+   "sec": 1.63,
+   "check": {
+    "transcript": "The pig has a wig!",
+    "type": "sentence",
+    "ipa": "ðə pɪɡ hæz ə wɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig has a wig! | TYPE=sentence | IPA=ðə pɪɡ hæz ə wɪɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:59",
+ "applied": "2026-10-07 16:40",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,6 +47,7 @@
  "title": "6유닛 스토리북 · 번: The pig has a wig!",
  "text": "The pig has a wig!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

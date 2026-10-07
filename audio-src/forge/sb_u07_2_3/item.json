@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=quilt pop | TYPE=sentence | IPA=kwɪlt pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/kw/ /kw/ quilt! Pop!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356886.6189442,
+   "sec": 2.37,
+   "check": {
+    "transcript": "Shadda Diogee grilled pop",
+    "type": "sentence",
+    "ipa": "ˈʃædə daɪˈoʊgi ɡrɪld pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shadda Diogee grilled pop | TYPE=sentence | IPA=ˈʃædə daɪˈoʊgi ɡrɪld pɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/kw/ /kw/ quilt! Pop!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358178.2370458,
+   "sec": 2.83,
+   "check": {
+    "transcript": "Jaguar, Jaguar Girl, Bob",
+    "type": "sentence",
+    "ipa": "ˈdʒægwɑɹ ˈdʒægwɑɹ ɡɝɫ bɑb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Jaguar, Jaguar Girl, Bob | TYPE=sentence | IPA=ˈdʒægwɑɹ ˈdʒægwɑɹ ɡɝɫ bɑb | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:37",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +64,7 @@
  "title": "7유닛 스토리북 · 헤지: /kw/ /kw/ quilt! Pop!",
  "text": "/kw/ /kw/ quilt! Pop!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

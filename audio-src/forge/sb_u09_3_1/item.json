@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=k k box pop | TYPE=word | IPA=k k bɑks pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/ks/ /ks/ box! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356932.036399,
+   "sec": 2.6,
+   "check": {
+    "transcript": "K Kiss Greist box pop",
+    "type": "sentence",
+    "ipa": "keɪ kɪs ɡriːst bɑks pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=K Kiss Greist box pop | TYPE=sentence | IPA=keɪ kɪs ɡriːst bɑks pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:40",
+ "applied": "2026-10-07 16:31",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,5 +47,7 @@
  "title": "9유닛 스토리북 · 번: /ks/ /ks/ box! Pop!",
  "text": "/ks/ /ks/ box! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

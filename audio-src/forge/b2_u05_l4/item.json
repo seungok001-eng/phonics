@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=t | TYPE=isolated-sound | IPA=t | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Tac... tac...",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357057.0826728,
+   "sec": 1.72,
+   "check": {
+    "transcript": "dug dug",
+    "type": "word",
+    "ipa": "dʌg dʌg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dug dug | TYPE=word | IPA=dʌg dʌg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:38",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -47,6 +64,7 @@
  "title": "2권 5유닛 대사 · 핍: Tac... tac...",
  "text": "Tac... tac...",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=My bag! | TYPE=sentence | IPA=maɪ bæɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "My bag!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357010.7706048,
+   "sec": 0.65,
+   "check": {
+    "transcript": "my bag",
+    "type": "sentence",
+    "ipa": "maɪ bæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=my bag | TYPE=sentence | IPA=maɪ bæg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:51",
+ "applied": "2026-10-07 16:36",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,6 +47,7 @@
  "title": "2권 2유닛 대사 · 헤지: My bag!",
  "text": "My bag!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

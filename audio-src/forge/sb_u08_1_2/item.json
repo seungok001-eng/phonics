@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=Go seal? Go turtle? | TYPE=sentence | IPA=ɡoʊ sil ɡoʊ tɝtəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Go, seal! Go, turtle!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356900.5306368,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Go seal, go dodo.",
+    "type": "sentence",
+    "ipa": "goʊ sil goʊ ˈdoʊˌdoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go seal, go dodo. | TYPE=sentence | IPA=goʊ sil goʊ ˈdoʊˌdoʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Go, seal! Go, turtle!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358233.1346314,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Go see a goal turtle.",
+    "type": "sentence",
+    "ipa": "ɡoʊ siː ə ɡoʊl tɝtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go see a goal turtle. | TYPE=sentence | IPA=ɡoʊ siː ə ɡoʊl tɝtəl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:24",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +64,7 @@
  "title": "8유닛 스토리북 · 헤지: Go, seal! Go, turtle!",
  "text": "Go, seal! Go, turtle!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

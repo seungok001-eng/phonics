@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=seal | TYPE=word | IPA=sil | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/s/ /s/ seal!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356890.7112963,
+   "sec": 1.44,
+   "check": {
+    "transcript": "say S is seal",
+    "type": "sentence",
+    "ipa": "seɪ ɛs ɪz sil",
+    "note": "ok",
+    "raw": "TRANSCRIPT=say S is seal | TYPE=sentence | IPA=seɪ ɛs ɪz sil | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:38",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "1권 8유닛 대사 · 번: /s/ /s/ seal!",
  "text": "/s/ /s/ seal!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

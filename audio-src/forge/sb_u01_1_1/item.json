@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=I see an apple. | TYPE=sentence | IPA=aɪ siː ən ˈæpəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see an apple!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356766.3813741,
+   "sec": 1.25,
+   "check": {
+    "transcript": "I see an apple.",
+    "type": "sentence",
+    "ipa": "aɪ siː ən ˈæpəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see an apple. | TYPE=sentence | IPA=aɪ siː ən ˈæpəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:03",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -29,5 +46,8 @@
  "sub": "line",
  "title": "1유닛 스토리북 · 번: I see an apple!",
  "text": "I see an apple!",
- "voice": "Leda"
+ "voice": "Leda",
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Sit, pig. Sit, pup. | TYPE=sentence | IPA=sɪt pɪg sɪt pʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Sit, pig! Sit, pup!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357173.0202434,
+   "sec": 2.18,
+   "check": {
+    "transcript": "Sit, pig. Sit, pup.",
+    "type": "sentence",
+    "ipa": "sɪt pɪg sɪt pʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sit, pig. Sit, pup. | TYPE=sentence | IPA=sɪt pɪg sɪt pʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:06",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,6 +47,7 @@
  "title": "2권 11유닛 대사 · 번: Sit, pig! Sit, pup!",
  "text": "Sit, pig! Sit, pup!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

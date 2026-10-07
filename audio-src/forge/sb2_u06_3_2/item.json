@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=Shh. When, pig? | TYPE=sentence | IPA=ʃ wɛn pɪg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! ... Win, pig!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357099.6399348,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Shh, we're pig.",
+    "type": "sentence",
+    "ipa": "ʃ wiː ɹ pɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, we're pig. | TYPE=sentence | IPA=ʃ wiː ɹ pɪɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh! ... Win, pig!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791358831.5453298,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Shh. Win big.",
+    "type": "sentence",
+    "ipa": "ʃ wɪn bɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Win big. | TYPE=sentence | IPA=ʃ wɪn bɪɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 4,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:49",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -47,6 +81,7 @@
  "title": "6유닛 스토리북 · 그럼블: Shh! ... Win, pig!",
  "text": "Shh! ... Win, pig!",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

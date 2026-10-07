@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=The cap is on the bag. | TYPE=sentence | IPA=ðə kæp ɪz ɒn ðə bæɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The cap is on the bag.",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357018.857494,
+   "sec": 1.53,
+   "check": {
+    "transcript": "The cat is on the bag.",
+    "type": "sentence",
+    "ipa": "ðə kæt ɪz ɒn ðə bæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cat is on the bag. | TYPE=sentence | IPA=ðə kæt ɪz ɒn ðə bæɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The cap is on the bag.",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358598.4470975,
+   "sec": 1.44,
+   "check": {
+    "transcript": "The cap is on the bag.",
+    "type": "sentence",
+    "ipa": "ðə kæp ɪz ɒn ðə bæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cap is on the bag. | TYPE=sentence | IPA=ðə kæp ɪz ɒn ðə bæɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 00:34",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -47,6 +81,7 @@
  "title": "2유닛 스토리북 · 번: The cap is on the bag.",
  "text": "The cap is on the bag.",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

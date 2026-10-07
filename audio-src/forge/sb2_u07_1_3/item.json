@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=pease | TYPE=word | IPA=piːz | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Piz! Piz?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357116.1110475,
+   "sec": 1.3,
+   "check": {
+    "transcript": "piece piece",
+    "type": "word",
+    "ipa": "ˈpiːs ˈpiːs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=piece piece | TYPE=word | IPA=ˈpiːs ˈpiːs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -47,6 +64,7 @@
  "title": "7유닛 스토리북 · 핍: Piz! Piz?",
  "text": "Piz! Piz?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

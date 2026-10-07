@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=We can sing A to Z. | TYPE=sentence | IPA=wiː kæn sɪŋ ˈeɪ tuː ˈziː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We can sing A to Z!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356982.7190702,
+   "sec": 1.81,
+   "check": {
+    "transcript": "We can sing A to Z.",
+    "type": "sentence",
+    "ipa": "wi kən sɪŋ eɪ tuː ziː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We can sing A to Z. | TYPE=sentence | IPA=wi kən sɪŋ eɪ tuː ziː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:29",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 12,
@@ -30,5 +47,7 @@
  "title": "1권 12유닛 대사 · 함께: We can sing A to Z!",
  "text": "We can sing A to Z!",
  "voice": "Kore",
- "book": 1
+ "who": "both",
+ "book": 1,
+ "busy": 0
 }

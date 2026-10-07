@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=A B C | TYPE=letter-name | IPA=eɪ biː siː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A! B! C!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791356968.5002856,
+   "sec": 1.39,
+   "check": {
+    "transcript": "Abby see",
+    "type": "sentence",
+    "ipa": "ˈæbi siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Abby see | TYPE=sentence | IPA=ˈæbi siː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:27",
+ "applied": "2026-10-07 16:33",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "1권 11유닛 대사 · 핍: A! B! C!",
  "text": "A! B! C!",
  "voice": "Kore",
- "book": 1
+ "who": "pip",
+ "book": 1,
+ "busy": 0
 }

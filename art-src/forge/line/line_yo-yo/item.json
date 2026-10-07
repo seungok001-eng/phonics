@@ -1,14 +1,14 @@
 {
- "status": "approved",
- "raw": "raw.png",
- "cut": "cut.png",
+ "status": "queued",
+ "raw": "",
+ "cut": "",
  "attempts": 0,
  "error": "",
  "updated": 1791288642.7800214,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/d2e7305b-188c-44d1-be66-53f2729a9d83?Expires=1791310222&KeyName=labs-flow-prod-cdn-key&Signature=1jWMxkoYEslv4Fcz0Gh1gtR4sxQ",
  "prompt_edited": false,
- "applied": "2026-10-06 21:11",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": "word_yo-yo",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_yo-yo.png",
+ "book": 1,
  "claimed_at": 1791288605.8785605
 }

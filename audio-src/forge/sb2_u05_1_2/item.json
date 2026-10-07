@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=click-clack, can, fan, pan, van | TYPE=sentence | IPA=klɪk klæk, kæn, fæn, pæn, væn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Click-clack! Can, fan, pan, van!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357065.6136253,
+   "sec": 2.93,
+   "check": {
+    "transcript": "click clack, can fan, pan van",
+    "type": "sentence",
+    "ipa": "klɪk klæk, kæn fæn, pæn væn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click clack, can fan, pan van | TYPE=sentence | IPA=klɪk klæk, kæn fæn, pæn væn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:57",
+ "applied": "2026-10-07 16:39",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,6 +47,7 @@
  "title": "5유닛 스토리북 · 비즈: Click-clack! Can, fan, pan, van!",
  "text": "Click-clack! Can, fan, pan, van!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

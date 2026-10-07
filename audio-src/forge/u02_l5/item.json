@@ -16,19 +16,55 @@
     "raw": "TRANSCRIPT=egg | TYPE=word | IPA=ɛɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/e/ /e/ egg!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356777.2057302,
+   "sec": 1.25,
+   "check": {
+    "transcript": "eat egg",
+    "type": "sentence",
+    "ipa": "iːt ɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=eat egg | TYPE=sentence | IPA=iːt ɛɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/e/ /e/ egg!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359584.1559296,
+   "sec": 2.57,
+   "check": {
+    "transcript": "b",
+    "type": "isolated-sound",
+    "ipa": "b",
+    "note": "clean",
+    "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "u02_l5",
  "sub": "line",
- "title": "2유닛 대사 · 릴리: /e/ /e/ egg!",
+ "title": "1권 2유닛 대사 · 번: /e/ /e/ egg!",
  "text": "/e/ /e/ egg!",
  "voice": "Leda",
+ "who": "bun",
+ "book": 1,
  "busy": 0
 }

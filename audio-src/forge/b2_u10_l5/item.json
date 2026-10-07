@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Run pup run fun | TYPE=sentence | IPA=ɹʌn pʌp ɹʌn fʌn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Run, pup, run! Fun!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357158.1748726,
+   "sec": 2.55,
+   "check": {
+    "transcript": "Run, pup, run! Fun!",
+    "type": "sentence",
+    "ipa": "rʌn pʌp rʌn fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Run, pup, run! Fun! | TYPE=sentence | IPA=rʌn pʌp rʌn fʌn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:05",
+ "applied": "2026-10-07 16:43",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,6 +47,7 @@
  "title": "2권 10유닛 대사 · 번: Run, pup, run! Fun!",
  "text": "Run, pup, run! Fun!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=A worm. Oh no. | TYPE=sentence | IPA=ə wɜːɹm oʊ noʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A worm! Oh no!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356926.1932044,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Oh lum, oh no.",
+    "type": "sentence",
+    "ipa": "oʊ lʌm, oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh lum, oh no. | TYPE=sentence | IPA=oʊ lʌm, oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A worm! Oh no!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358308.549543,
+   "sec": 1.81,
+   "check": {
+    "transcript": "Oh, them! Oh, no!",
+    "type": "sentence",
+    "ipa": "oʊ ˈðɛm oʊ ˈnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh, them! Oh, no! | TYPE=sentence | IPA=oʊ ˈðɛm oʊ ˈnoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:25",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,5 +64,7 @@
  "title": "9유닛 스토리북 · 헤지: A worm! Oh no!",
  "text": "A worm! Oh no!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

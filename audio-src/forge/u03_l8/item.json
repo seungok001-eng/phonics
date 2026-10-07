@@ -16,19 +16,39 @@
     "raw": "TRANSCRIPT=hippo | TYPE=word | IPA=h ɪ p oʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/h/ /h/ hippo!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356796.3155863,
+   "sec": 1.39,
+   "check": {
+    "transcript": "hungry hippo",
+    "type": "sentence",
+    "ipa": "ˈhʌŋɡri ˈhɪpoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hungry hippo | TYPE=sentence | IPA=ˈhʌŋɡri ˈhɪpoʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/h/ /h/ hippo!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359599.0838163,
+   "sec": 3.39,
+   "check": null,
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:34",
+ "applied": "2026-10-07 16:25",
  "text_edited": false,
  "error": "",
- "unit": 3,
- "letter": null,
- "id": "u03_l8",
- "sub": "line",
- "title": "1권 3유닛 대사 · 번: /h/ /h/ hippo!",
- "text": "/h/ /h/ hippo!",
- "voice": "Leda",
- "book": 1
-}
+ "uni

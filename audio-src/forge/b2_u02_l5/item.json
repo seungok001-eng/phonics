@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=a map and a tap | TYPE=sentence | IPA=ə mæp ənd ə tæp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A map and a tap!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357012.9384685,
+   "sec": 1.67,
+   "check": {
+    "transcript": "A map and a tap.",
+    "type": "sentence",
+    "ipa": "ə mæp ænd ə tæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A map and a tap. | TYPE=sentence | IPA=ə mæp ænd ə tæp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:51",
+ "applied": "2026-10-07 16:36",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,6 +47,7 @@
  "title": "2권 2유닛 대사 · 번: A map and a tap!",
  "text": "A map and a tap!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

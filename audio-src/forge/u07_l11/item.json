@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=You can. | TYPE=sentence | IPA=ju kæn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "You can!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356881.175873,
+   "sec": 0.93,
+   "check": {
+    "transcript": "You again.",
+    "type": "sentence",
+    "ipa": "ju əˈɡɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=You again. | TYPE=sentence | IPA=ju əˈɡɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "You can!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358160.6982262,
+   "sec": 0.84,
+   "check": {
+    "transcript": "You can.",
+    "type": "sentence",
+    "ipa": "juː kæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=You can. | TYPE=sentence | IPA=juː kæn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:22",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +64,7 @@
  "title": "1권 7유닛 대사 · 헤지: You can!",
  "text": "You can!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

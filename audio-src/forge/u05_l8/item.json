@@ -16,19 +16,38 @@
     "raw": "TRANSCRIPT=The key is in my bag. | TYPE=sentence | IPA=ðə kiɪ z ɪn maɪ bæg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The key is in my bag.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356830.4076247,
+   "sec": 1.49,
+   "check": {
+    "transcript": "The key is in my bag.",
+    "type": "sentence",
+    "ipa": "ðə kiː ɪz ɪn maɪ bæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The key is in my bag. | TYPE=sentence | IPA=ðə kiː ɪz ɪn maɪ bæɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:08",
+ "applied": "2026-10-07 16:27",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "u05_l8",
  "sub": "line",
- "title": "5유닛 대사 · 헤지: The key is in my bag.",
+ "title": "1권 5유닛 대사 · 헤지: The key is in my bag.",
  "text": "The key is in my bag.",
  "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
  "busy": 0
 }

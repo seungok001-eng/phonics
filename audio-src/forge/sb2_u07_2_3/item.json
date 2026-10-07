@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Hit the pit. Hit it. | TYPE=sentence | IPA=hɪt ðə pɪt hɪt ɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Hit the pit! Hit it!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357122.621145,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Hit the bid! Hit it!",
+    "type": "sentence",
+    "ipa": "hɪt ðə bɪd hɪt ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hit the bid! Hit it! | TYPE=sentence | IPA=hɪt ðə bɪd hɪt ɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:01",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,6 +47,7 @@
  "title": "7유닛 스토리북 · 헤지: Hit the pit! Hit it!",
  "text": "Hit the pit! Hit it!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

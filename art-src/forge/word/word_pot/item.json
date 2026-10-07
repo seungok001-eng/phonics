@@ -1,14 +1,14 @@
 {
- "status": "approved",
+ "status": "review",
  "raw": "raw.png",
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286740.650325,
+ "updated": 1791359570.787673,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/4a2c7450-ac8b-49b1-aea5-47ac6d878570?Expires=1791308315&KeyName=labs-flow-prod-cdn-key&Signature=MYTEBB64NRPPwqrt91BjL-MaLDo",
+ "flow_url": "https://flow-content.google/image/a8b1c954-5b26-4f9e-8938-5e339120f28e?Expires=1791381133&KeyName=labs-flow-prod-cdn-key&Signature=AWslJD1iHMcs4r-FbE-gQCBuW7A",
  "prompt_edited": false,
- "applied": "2026-10-06 20:43",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "pot",
  "title": "pot · 냄비",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a red cooking pot with a lid.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a red cooking pot with a lid.",
  "aspect": "1:1",
  "out": "web/assets/art/word_pot.png",
- "claimed_at": 1791286710.888581,
- "asset_no": 2047
+ "book": 1,
+ "asset_no": 2047,
+ "claimed_at": 1791359528.5520067
 }

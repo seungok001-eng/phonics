@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=a can and a pan | TYPE=sentence | IPA=ə kæn ænd ə pæn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A can and a pan!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357008.9282005,
+   "sec": 1.39,
+   "check": {
+    "transcript": "A cannon a pan",
+    "type": "sentence",
+    "ipa": "ə kænən ə pæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A cannon a pan | TYPE=sentence | IPA=ə kænən ə pæn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A can and a pan!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358555.241017,
+   "sec": 1.35,
+   "check": {
+    "transcript": "a can and a pan",
+    "type": "sentence",
+    "ipa": "ə kæn ænd ə pæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a can and a pan | TYPE=sentence | IPA=ə kæn ænd ə pæn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 23:51",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -30,6 +64,7 @@
  "title": "1유닛 스토리북 · 헤지: A can and a pan!",
  "text": "A can and a pan!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

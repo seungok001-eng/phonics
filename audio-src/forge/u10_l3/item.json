@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=yak | TYPE=word | IPA=jæk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/j/ /j/ yak!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356936.9393578,
+   "sec": 1.49,
+   "check": {
+    "transcript": "yuck",
+    "type": "word",
+    "ipa": "jʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yuck | TYPE=word | IPA=jʌk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/j/ /j/ yak!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358328.2756217,
+   "sec": 1.67,
+   "check": {
+    "transcript": "Jeet Kune Do",
+    "type": "word",
+    "ipa": "ˈdʒiːt ˈkuːn ˈdoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Jeet Kune Do | TYPE=word | IPA=ˈdʒiːt ˈkuːn ˈdoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:40",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +64,7 @@
  "title": "1권 10유닛 대사 · 번: /j/ /j/ yak!",
  "text": "/j/ /j/ yak!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=a can and a pan | TYPE=sentence | IPA=ə kæn ənd ə pæn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A can and a pan!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356998.026218,
+   "sec": 1.53,
+   "check": {
+    "transcript": "again and again",
+    "type": "sentence",
+    "ipa": "əˈɡɛn ənd əˈɡɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=again and again | TYPE=sentence | IPA=əˈɡɛn ənd əˈɡɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A can and a pan!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358518.1991465,
+   "sec": 1.58,
+   "check": {
+    "transcript": "a cannon a pan",
+    "type": "sentence",
+    "ipa": "ə kænən ə pæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a cannon a pan | TYPE=sentence | IPA=ə kænən ə pæn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 23:50",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -30,6 +64,7 @@
  "title": "2권 1유닛 대사 · 헤지: A can and a pan!",
  "text": "A can and a pan!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

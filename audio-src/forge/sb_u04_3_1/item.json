@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=lemon pop | TYPE=word | IPA=lɛmən pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/l/ /l/ lemon! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356822.5494194,
+   "sec": 3.62,
+   "check": {
+    "transcript": "L, little lemon, pop.",
+    "type": "sentence",
+    "ipa": "ɛl, lɪtəl lɛmən, pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=L, little lemon, pop. | TYPE=sentence | IPA=ɛl, lɪtəl lɛmən, pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:35",
+ "applied": "2026-10-07 16:26",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,5 +47,7 @@
  "title": "4유닛 스토리북 · 번: /l/ /l/ lemon! Pop!",
  "text": "/l/ /l/ lemon! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

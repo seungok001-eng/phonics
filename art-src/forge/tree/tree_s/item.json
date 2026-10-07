@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286108.1881137,
+ "updated": 1791357985.878807,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/818376a9-a45f-4fcb-b188-a6416465d8fb?Expires=1791307682&KeyName=labs-flow-prod-cdn-key&Signature=CNNQKfWUgdICAtBfaG3tEg2ZE0w",
+ "flow_url": "https://flow-content.google/image/4b0ba469-3422-401f-9a36-0334d6eb642a?Expires=1791379562&KeyName=labs-flow-prod-cdn-key&Signature=y3Ez-GmQOIeIpiN_NlWryVMrvCQ",
  "prompt_edited": false,
- "applied": "2026-10-06 20:33",
+ "applied": "2026-10-07 16:29",
  "gen": "",
  "job_type": "image",
  "reference": "tree_a",
@@ -17,8 +17,9 @@
  "kind": "tree",
  "letter": "s",
  "title": "글자나무 S",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a smiling yellow sun with rays; a grey seal balancing a ball on its nose; a bowl of hot vegetable soup with a spoon — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a smiling yellow sun with rays; a grey seal balancing a ball on its nose; a bowl of hot vegetable soup with a spoon — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
  "aspect": "3:4",
  "out": "web/assets/art/tree_s.png",
- "claimed_at": 1791286065.8803658
+ "book": 1,
+ "claimed_at": 1791357943.382793
 }

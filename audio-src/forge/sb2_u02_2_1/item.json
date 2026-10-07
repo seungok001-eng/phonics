@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=cap | TYPE=word | IPA=kæp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ /æ/ /p/ cap!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357020.8078797,
+   "sec": 1.49,
+   "check": {
+    "transcript": "can we peek and",
+    "type": "sentence",
+    "ipa": "kæn wi pik ænd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=can we peek and | TYPE=sentence | IPA=kæn wi pik ænd | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/ /æ/ /p/ cap!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791358604.3795831,
+   "sec": 1.9,
+   "check": {
+    "transcript": "cap",
+    "type": "word",
+    "ipa": "kæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap | TYPE=word | IPA=kæp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:16",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,6 +64,7 @@
  "title": "2유닛 스토리북 · 비즈: /k/ /æ/ /p/ cap!",
  "text": "/k/ /æ/ /p/ cap!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

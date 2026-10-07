@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=tomato | TYPE=word | IPA=təˈmeɪtoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/t/ /t/ tomato!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356892.5086434,
+   "sec": 1.44,
+   "check": {
+    "transcript": "T T tomato",
+    "type": "word",
+    "ipa": "ˈtiː ˈtiː təˈmɑːtoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=T T tomato | TYPE=word | IPA=ˈtiː ˈtiː təˈmɑːtoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:38",
+ "applied": "2026-10-07 16:30",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "1권 8유닛 대사 · 번: /t/ /t/ tomato!",
  "text": "/t/ /t/ tomato!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

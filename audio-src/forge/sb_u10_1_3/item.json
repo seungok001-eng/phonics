@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=yak | TYPE=word | IPA=jæk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/j/ /j/ yak! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356950.1259682,
+   "sec": 4.41,
+   "check": {
+    "transcript": "DJ Yack Pop",
+    "type": "sentence",
+    "ipa": "diː ˈʤeɪ jæk pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=DJ Yack Pop | TYPE=sentence | IPA=diː ˈʤeɪ jæk pɒp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/j/ /j/ yak! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358365.3163552,
+   "sec": 1.67,
+   "check": {
+    "transcript": "Toy Jack Pop!",
+    "type": "sentence",
+    "ipa": "tɔɪ dʒæk pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Toy Jack Pop! | TYPE=sentence | IPA=tɔɪ dʒæk pɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-06 22:02",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -47,5 +81,7 @@
  "title": "10유닛 스토리북 · 번: /j/ /j/ yak! Pop!",
  "text": "/j/ /j/ yak! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

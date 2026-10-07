@@ -1,14 +1,14 @@
 {
- "status": "approved",
- "raw": "raw.png",
- "cut": "cut.png",
+ "status": "queued",
+ "raw": "",
+ "cut": "",
  "attempts": 0,
  "error": "",
  "updated": 1791286950.2642572,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/d7c45ab6-5b74-42dd-86d6-13e0a35e6956?Expires=1791308525&KeyName=labs-flow-prod-cdn-key&Signature=U9ZtjxDFS4S6pHc2LTVGkTFV748",
  "prompt_edited": false,
- "applied": "2026-10-06 20:43",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "uncle",
  "title": "uncle · 삼촌",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a friendly grown-up rabbit uncle with a mustache, a green cap and a watering can, waving.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a friendly grown-up rabbit uncle with a mustache, a green cap and a watering can, waving.",
  "aspect": "1:1",
  "out": "web/assets/art/word_uncle.png",
- "claimed_at": 1791286920.877863,
- "asset_no": 2062
+ "book": 1,
+ "asset_no": 2062,
+ "claimed_at": 1791286920.877863
 }

@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=I see a hippo. | TYPE=sentence | IPA=aɪ siː ə hɪpoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see a hippo!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356795.3095222,
+   "sec": 1.21,
+   "check": {
+    "transcript": "I see a hippo.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə hɪpoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a hippo. | TYPE=sentence | IPA=aɪ siː ə hɪpoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:05",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "u03_l7",
  "sub": "line",
- "title": "3유닛 대사 · 헤지: I see a hippo!",
+ "title": "1권 3유닛 대사 · 헤지: I see a hippo!",
  "text": "I see a hippo!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

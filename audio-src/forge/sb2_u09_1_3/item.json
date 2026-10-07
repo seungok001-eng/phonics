@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=pot pot | TYPE=word | IPA=pɑt pɑt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pot! Pot?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357151.037245,
+   "sec": 1.07,
+   "check": {
+    "transcript": "pot-pot",
+    "type": "word",
+    "ipa": "pɒt pɒt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pot-pot | TYPE=word | IPA=pɒt pɒt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:04",
+ "applied": "2026-10-07 16:42",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,6 +47,7 @@
  "title": "9유닛 스토리북 · 핍: Pot! Pot?",
  "text": "Pot! Pot?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

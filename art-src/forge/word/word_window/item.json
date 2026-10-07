@@ -1,14 +1,14 @@
 {
- "status": "approved",
- "raw": "raw.png",
- "cut": "cut.png",
+ "status": "queued",
+ "raw": "",
+ "cut": "",
  "attempts": 0,
  "error": "",
  "updated": 1791287018.8175118,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/df9749de-b1c5-4ca7-91be-9a047880f0f2?Expires=1791308595&KeyName=labs-flow-prod-cdn-key&Signature=h4mLTJy0XAp5giluuEtHjNR_qjk",
  "prompt_edited": false,
- "applied": "2026-10-06 20:48",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "window",
  "title": "window · 창문",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a window with blue curtains and a flower pot on the sill.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a window with blue curtains and a flower pot on the sill.",
  "aspect": "1:1",
  "out": "web/assets/art/word_window.png",
- "claimed_at": 1791286985.894523,
- "asset_no": 2066
+ "book": 1,
+ "asset_no": 2066,
+ "claimed_at": 1791286985.894523
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Milk! /m/ /m/ milk! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356856.8951087,
+   "sec": 4.27,
+   "check": {
+    "transcript": "milk, ma'am, milk, milk, pop",
+    "type": "sentence",
+    "ipa": "mɪlk mæm mɪlk mɪlk pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=milk, ma'am, milk, milk, pop | TYPE=sentence | IPA=mɪlk mæm mɪlk mɪlk pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:36",
+ "applied": "2026-10-07 16:28",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,5 +47,7 @@
  "title": "6유닛 스토리북 · 번: Milk! /m/ /m/ milk! Pop!",
  "text": "Milk! /m/ /m/ milk! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

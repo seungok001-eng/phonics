@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791284182.7978265,
+ "updated": 1791357378.3045528,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/9cea2d49-fade-4477-9f68-367b260d3626?Expires=1791305760&KeyName=labs-flow-prod-cdn-key&Signature=1bphCY9K2ne-debqKqPIJwAj2hU",
+ "flow_url": "https://flow-content.google/image/17178a2d-e46b-4f77-a5fe-76146e9497d9?Expires=1791378953&KeyName=labs-flow-prod-cdn-key&Signature=NDdMY9Y2SAo7ZEOlpVNMhspUnrE",
  "prompt_edited": false,
- "applied": "2026-10-06 19:57",
+ "applied": "2026-10-07 16:19",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "doll",
  "title": "doll · 인형",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a rag doll with yarn hair and a pink dress.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a rag doll with yarn hair and a pink dress.",
  "aspect": "1:1",
  "out": "web/assets/art/word_doll.png",
- "claimed_at": 1791284155.8891587,
- "asset_no": 2009
+ "book": 1,
+ "asset_no": 2009,
+ "claimed_at": 1791357348.379182
 }

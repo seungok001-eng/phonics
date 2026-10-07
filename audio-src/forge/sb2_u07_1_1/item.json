@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Zip it up. | TYPE=sentence | IPA=zɪp ɪt ʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Zip it up!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357112.7015266,
+   "sec": 0.93,
+   "check": {
+    "transcript": "Zip it up.",
+    "type": "sentence",
+    "ipa": "zɪp ɪt ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Zip it up. | TYPE=sentence | IPA=zɪp ɪt ʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:00",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,6 +47,7 @@
  "title": "7유닛 스토리북 · 헤지: Zip it up!",
  "text": "Zip it up!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

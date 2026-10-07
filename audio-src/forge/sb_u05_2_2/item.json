@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=G H I J K L | TYPE=letter-name | IPA=ʤiː eɪʧ aɪ ʤeɪ keɪ ɛl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "G, H, I, J, K, L!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356839.612095,
+   "sec": 2.37,
+   "check": {
+    "transcript": "GHEIJKL",
+    "type": "word",
+    "ipa": "ʤiː eɪʧ iː ʤeɪ keɪ ɛl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=GHEIJKL | TYPE=word | IPA=ʤiː eɪʧ iː ʤeɪ keɪ ɛl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:09",
+ "applied": "2026-10-07 16:27",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,5 +47,7 @@
  "title": "5유닛 스토리북 · 번: G, H, I, J, K, L!",
  "text": "G, H, I, J, K, L!",
  "voice": "Leda",
+ "who": "bun",
+ "book": 1,
  "busy": 0
 }

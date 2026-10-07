@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=The pig cannot go. | TYPE=sentence | IPA=ðə pɪg kænɑt goʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The pig can not go.",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357076.9145665,
+   "sec": 1.58,
+   "check": {
+    "transcript": "The pig cannot go.",
+    "type": "sentence",
+    "ipa": "ðə pɪg ˈkænˌnɑt ˈgoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig cannot go. | TYPE=sentence | IPA=ðə pɪg ˈkænˌnɑt ˈgoʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The pig can not go.",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358782.4189777,
+   "sec": 1.67,
+   "check": {
+    "transcript": "The pig cannot go.",
+    "type": "sentence",
+    "ipa": "ðə pɪɡ kænɑt ɡoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig cannot go. | TYPE=sentence | IPA=ðə pɪɡ kænɑt ɡoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 00:38",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -47,6 +81,7 @@
  "title": "2권 6유닛 대사 · 번: The pig can not go.",
  "text": "The pig can not go.",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

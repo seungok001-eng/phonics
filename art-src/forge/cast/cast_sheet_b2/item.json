@@ -1,0 +1,31 @@
+{
+ "status": "pending",
+ "raw": "",
+ "cut": "",
+ "attempts": 0,
+ "error": "",
+ "updated": 0,
+ "auto_approved": false,
+ "flow_url": "",
+ "prompt_edited": false,
+ "applied": "",
+ "gen": "",
+ "job_type": "image",
+ "reference": null,
+ "unit": null,
+ "id": "cast_sheet_b2",
+ "kind": "cast",
+ "chars": [
+  "pip",
+  "bun",
+  "hedgie",
+  "grumble",
+  "beads"
+ ],
+ "title": "2권 캐스트 시트 (기준 그림 5장 합성)",
+ "prompt": "(서버가 합성한다 — 캐릭터 기준 그림이 모두 승인되면 자동)",
+ "aspect": "16:9",
+ "out": "web/assets/art/cast_sheet_b2.png",
+ "made_from": null,
+ "book": 2
+}

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=jelly | TYPE=word | IPA=ˈdʒɛli | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/j/ /j/ jelly!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356812.522499,
+   "sec": 1.72,
+   "check": {
+    "transcript": "JJ Jelly",
+    "type": "word",
+    "ipa": "ˈdʒeɪ ˈdʒeɪ ˈdʒɛli",
+    "note": "ok",
+    "raw": "TRANSCRIPT=JJ Jelly | TYPE=word | IPA=ˈdʒeɪ ˈdʒeɪ ˈdʒɛli | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:34",
+ "applied": "2026-10-07 16:26",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,5 +47,7 @@
  "title": "1권 4유닛 대사 · 번: /j/ /j/ jelly!",
  "text": "/j/ /j/ jelly!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

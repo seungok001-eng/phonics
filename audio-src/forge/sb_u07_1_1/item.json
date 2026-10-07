@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Can you see the panda? | TYPE=sentence | IPA=kæn juː siː ðə ˈpændə | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Can you see the panda?",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356882.8397608,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Can you see the panda?",
+    "type": "sentence",
+    "ipa": "kæn juː siː ðə ˈpændə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Can you see the panda? | TYPE=sentence | IPA=kæn juː siː ðə ˈpændə | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:22",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +47,7 @@
  "title": "7유닛 스토리북 · 헤지: Can you see the panda?",
  "text": "Can you see the panda?",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

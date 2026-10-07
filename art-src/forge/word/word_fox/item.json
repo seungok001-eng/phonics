@@ -1,5 +1,5 @@
 {
- "status": "pending",
+ "status": "queued",
  "raw": "",
  "cut": "",
  "attempts": 0,
@@ -17,7 +17,7 @@
  "kind": "word",
  "word": "fox",
  "title": "fox · 여우",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: an orange fox with a bushy white-tipped tail.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: an orange fox with a bushy white-tipped tail.",
  "aspect": "1:1",
  "out": "web/assets/art/word_fox.png",
  "book": 2

@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=shh, my ears | TYPE=sentence | IPA=ʃ maɪ ɪəz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! My ears!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356799.2763205,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Shh. My ears.",
+    "type": "sentence",
+    "ipa": "ʃ mɑɪ ɪəɹs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. My ears. | TYPE=sentence | IPA=ʃ mɑɪ ɪəɹs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:05",
+ "applied": "2026-10-07 16:25",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "u03_l11",
  "sub": "line",
- "title": "3유닛 대사 · 그럼블: Shh! My ears!",
+ "title": "1권 3유닛 대사 · 그럼블: Shh! My ears!",
  "text": "Shh! My ears!",
- "voice": "Charon"
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=This is the party. | TYPE=sentence | IPA=ðɪs ɪz ðə pɑːɹti | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "This is the party!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356973.7646403,
+   "sec": 1.49,
+   "check": {
+    "transcript": "This is the party.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ðə pɑːɹti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is the party. | TYPE=sentence | IPA=ðɪs ɪz ðə pɑːɹti | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:28",
+ "applied": "2026-10-07 16:33",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "11유닛 스토리북 · 함께: This is the party!",
  "text": "This is the party!",
  "voice": "Kore",
- "book": 1
+ "who": "both",
+ "book": 1,
+ "busy": 0
 }

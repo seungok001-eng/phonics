@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=The net has ten hens. | TYPE=sentence | IPA=ðə nɛt hæz tɛn hɛnz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The net has ten hens!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357027.3794794,
+   "sec": 1.81,
+   "check": {
+    "transcript": "Then it has 10 hens.",
+    "type": "sentence",
+    "ipa": "ðɛn ɪt hɛz tɛn hɛnz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Then it has 10 hens. | TYPE=sentence | IPA=ðɛn ɪt hɛz tɛn hɛnz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The net has ten hens!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358624.1711998,
+   "sec": 2.09,
+   "check": {
+    "transcript": "The net has ten hens.",
+    "type": "sentence",
+    "ipa": "ðə nɛt hæz tɛn hɛnz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The net has ten hens. | TYPE=sentence | IPA=ðə nɛt hæz tɛn hɛnz. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 23:53",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -30,6 +64,7 @@
  "title": "2권 3유닛 대사 · 헤지: The net has ten hens!",
  "text": "The net has ten hens!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

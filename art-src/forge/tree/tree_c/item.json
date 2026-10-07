@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791263506.0779915,
+ "updated": 1791357646.0703468,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/37a3b916-a243-40a6-9749-a0aa1649bae8?Expires=1791379223&KeyName=labs-flow-prod-cdn-key&Signature=mXXXQUR-R8faklgSt1Z8w-mBz-U",
  "prompt_edited": false,
- "applied": "2026-10-06 14:35",
+ "applied": "2026-10-07 16:24",
  "gen": "",
  "job_type": "image",
  "reference": "tree_a",
@@ -17,8 +17,9 @@
  "kind": "tree",
  "letter": "c",
  "title": "글자나무 C",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a fluffy orange tabby cat sitting and smiling; a blue ceramic cup with a handle and little white stars; a round pink-and-white striped candy in a twisted clear wrapper — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a fluffy orange tabby cat sitting and smiling; a blue ceramic cup with a handle and little white stars; a round pink-and-white striped candy in a twisted clear wrapper — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
  "aspect": "3:4",
  "out": "web/assets/art/tree_c.png",
- "claimed_at": 1791263494.597566
+ "book": 1,
+ "claimed_at": 1791357593.3871315
 }

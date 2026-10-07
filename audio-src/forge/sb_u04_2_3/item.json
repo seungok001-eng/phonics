@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=jelly pop | TYPE=word | IPA=ˈdʒɛli pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/j/ /j/ jelly! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356822.456581,
+   "sec": 1.9,
+   "check": {
+    "transcript": "JJ Jelly Pop",
+    "type": "sentence",
+    "ipa": "ʤeɪ ʤeɪ ʤɛli pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=JJ Jelly Pop | TYPE=sentence | IPA=ʤeɪ ʤeɪ ʤɛli pɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:35",
+ "applied": "2026-10-07 16:26",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,5 +47,7 @@
  "title": "4유닛 스토리북 · 번: /j/ /j/ jelly! Pop!",
  "text": "/j/ /j/ jelly! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

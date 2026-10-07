@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286451.0801494,
+ "updated": 1791359240.9556632,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/1e98e4a7-6c49-4c5b-acf5-f5744500aad8?Expires=1791308028&KeyName=labs-flow-prod-cdn-key&Signature=8RObo3wuqm9hz13Qh0hNl0nA-fE",
+ "flow_url": "https://flow-content.google/image/374aeb53-2e29-407e-a293-1d353942b947?Expires=1791380790&KeyName=labs-flow-prod-cdn-key&Signature=H86Sqcq5vsqSNO0wXZVgYthZ6As",
  "prompt_edited": false,
- "applied": "2026-10-06 20:38",
+ "applied": "2026-10-07 16:53",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "jump",
  "title": "jump · 점프",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a child jumping high with arms up, joyful.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a child jumping high with arms up, joyful.",
  "aspect": "1:1",
  "out": "web/assets/art/word_jump.png",
- "claimed_at": 1791286423.5912914,
- "asset_no": 2029
+ "book": 1,
+ "asset_no": 2029,
+ "claimed_at": 1791359185.8910992
 }

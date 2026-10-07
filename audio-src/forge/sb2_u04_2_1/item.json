@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/b/ /e/ /d/ bed!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357051.181962,
+   "sec": 1.58,
+   "check": {
+    "transcript": "bury you, deep in",
+    "type": "sentence",
+    "ipa": "ˈbɛri juː, diːp ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bury you, deep in | TYPE=sentence | IPA=ˈbɛri juː, diːp ɪn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/b/ /e/ /d/ bed!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791358701.4831975,
+   "sec": 2.18,
+   "check": {
+    "transcript": "bed",
+    "type": "word",
+    "ipa": "bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:17",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,6 +64,7 @@
  "title": "4유닛 스토리북 · 비즈: /b/ /e/ /d/ bed!",
  "text": "/b/ /e/ /d/ bed!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

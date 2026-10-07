@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=It is an igloo. | TYPE=sentence | IPA=ɪt ɪz ən ɪɡluː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "It is an igloo!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356797.2741044,
+   "sec": 1.11,
+   "check": {
+    "transcript": "It is an igloo.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz ən ɪɡlu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is an igloo. | TYPE=sentence | IPA=ɪt ɪz ən ɪɡlu | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:05",
+ "applied": "2026-10-07 16:25",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "u03_l9",
  "sub": "line",
- "title": "3유닛 대사 · 헤지: It is an igloo!",
+ "title": "1권 3유닛 대사 · 헤지: It is an igloo!",
  "text": "It is an igloo!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

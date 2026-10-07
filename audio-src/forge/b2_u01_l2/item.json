@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=tach | TYPE=word | IPA=tæk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Tac! Tac?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791356994.8668067,
+   "sec": 1.11,
+   "check": {
+    "transcript": "tok tok",
+    "type": "word",
+    "ipa": "tok tok",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tok tok | TYPE=word | IPA=tok tok | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:14",
+ "applied": "2026-10-07 16:35",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -30,6 +47,7 @@
  "title": "2권 1유닛 대사 · 핍: Tac! Tac?",
  "text": "Tac! Tac?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

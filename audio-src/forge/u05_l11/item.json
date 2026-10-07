@@ -16,19 +16,55 @@
     "raw": "TRANSCRIPT=And my garden. | TYPE=sentence | IPA=ənd maɪ ˈɡɑːrdən | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "And my garden!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356834.327269,
+   "sec": 1.16,
+   "check": {
+    "transcript": "in my garden",
+    "type": "sentence",
+    "ipa": "ɪn maɪ ˈgɑːrdn̩",
+    "note": "ok",
+    "raw": "TRANSCRIPT=in my garden | TYPE=sentence | IPA=ɪn maɪ ˈgɑːrdn̩ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "And my garden!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358039.0669844,
+   "sec": 1.11,
+   "check": {
+    "transcript": "In my garden.",
+    "type": "sentence",
+    "ipa": "ɪn maɪ ˈɡɑːrdən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=In my garden. | TYPE=sentence | IPA=ɪn maɪ ˈɡɑːrdən | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:08",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "u05_l11",
  "sub": "line",
- "title": "5유닛 대사 · 헤지: And my garden!",
+ "title": "1권 5유닛 대사 · 헤지: And my garden!",
  "text": "And my garden!",
  "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
  "busy": 0
 }

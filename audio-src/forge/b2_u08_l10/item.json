@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=goff fog pot | TYPE=sentence | IPA=ɡɑf fɑɡ pɑt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Gof... fog! Pot!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357133.0302649,
+   "sec": 2.65,
+   "check": {
+    "transcript": "guff fog pot",
+    "type": "word",
+    "ipa": "ɡʌf fɒɡ pɒt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=guff fog pot | TYPE=word | IPA=ɡʌf fɒɡ pɒt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:19",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,6 +47,7 @@
  "title": "2권 8유닛 대사 · 핍: Gof... fog! Pot!",
  "text": "Gof... fog! Pot!",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

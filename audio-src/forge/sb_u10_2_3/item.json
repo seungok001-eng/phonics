@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=zigzag pop | TYPE=word | IPA=ˈzɪɡˌzæɡ pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/z/ /z/ zigzag! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356954.009365,
+   "sec": 2.41,
+   "check": {
+    "transcript": "Z Z zig zag pop",
+    "type": "sentence",
+    "ipa": "ˈziː ˈziː ˈzɪɡ.zæɡ ˈpɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Z Z zig zag pop | TYPE=sentence | IPA=ˈziː ˈziː ˈzɪɡ.zæɡ ˈpɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:41",
+ "applied": "2026-10-07 16:32",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +47,7 @@
  "title": "10유닛 스토리북 · 번: /z/ /z/ zigzag! Pop!",
  "text": "/z/ /z/ zigzag! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

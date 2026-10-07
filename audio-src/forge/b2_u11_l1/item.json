@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=A party! Look. | TYPE=sentence | IPA=ə ˈpɑɹɾi lʊk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A party! Look!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791357171.2542503,
+   "sec": 1.67,
+   "check": {
+    "transcript": "A party! Look.",
+    "type": "sentence",
+    "ipa": "ə ˈpɑɹtəɹ lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A party! Look. | TYPE=sentence | IPA=ə ˈpɑɹtəɹ lʊk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:06",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,6 +47,7 @@
  "title": "2권 11유닛 대사 · 함께: A party! Look!",
  "text": "A party! Look!",
  "voice": "Kore",
+ "who": "both",
  "book": 2,
  "busy": 0
 }

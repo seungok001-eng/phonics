@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=A bug in my mug! | TYPE=sentence | IPA=ə bʌg ɪn maɪ mʌg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A bug in my mug!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357164.3081167,
+   "sec": 1.44,
+   "check": {
+    "transcript": "A bug in my mug.",
+    "type": "sentence",
+    "ipa": "ə bʌg ɪn maɪ mʌg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A bug in my mug. | TYPE=sentence | IPA=ə bʌg ɪn maɪ mʌg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:06",
+ "applied": "2026-10-07 16:43",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,6 +47,7 @@
  "title": "10유닛 스토리북 · 헤지: A bug in my mug!",
  "text": "A bug in my mug!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

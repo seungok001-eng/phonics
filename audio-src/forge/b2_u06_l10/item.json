@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=shh, guinea pig | TYPE=sentence | IPA=ʃ ˈɡɪni pɪɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! ... Win, pig!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357086.5803602,
+   "sec": 1.63,
+   "check": {
+    "transcript": "win pig",
+    "type": "word",
+    "ipa": "wɪn pɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=win pig | TYPE=word | IPA=wɪn pɪg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:40",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -47,6 +64,7 @@
  "title": "2권 6유닛 대사 · 그럼블: Shh! ... Win, pig!",
  "text": "Shh! ... Win, pig!",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=panda pop | TYPE=sentence | IPA=ˈpændə ˈpɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/p/ /p/ panda! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356882.9366653,
+   "sec": 2.28,
+   "check": {
+    "transcript": "POP Panda pop",
+    "type": "sentence",
+    "ipa": "p ɒ p p æ n d ə p ɒ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=POP Panda pop | TYPE=sentence | IPA=p ɒ p p æ n d ə p ɒ p | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:37",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +47,7 @@
  "title": "7유닛 스토리북 · 번: /p/ /p/ panda! Pop!",
  "text": "/p/ /p/ panda! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=F | TYPE=letter-name | IPA=ɛf | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "E! F! G! H!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356830.5260847,
+   "sec": 1.95,
+   "check": {
+    "transcript": "fish",
+    "type": "word",
+    "ipa": "fɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fish | TYPE=word | IPA=fɪʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:35",
+ "applied": "2026-10-07 16:27",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,5 +47,7 @@
  "title": "1권 5유닛 대사 · 함께: E! F! G! H!",
  "text": "E! F! G! H!",
  "voice": "Kore",
- "book": 1
+ "who": "both",
+ "book": 1,
+ "busy": 0
 }

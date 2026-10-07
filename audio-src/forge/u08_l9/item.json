@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=up | TYPE=word | IPA=ʌp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/u/ /u/ up!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356896.8370538,
+   "sec": 1.02,
+   "check": {
+    "transcript": "Look up.",
+    "type": "sentence",
+    "ipa": "lʊk ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look up. | TYPE=sentence | IPA=lʊk ʌp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:38",
+ "applied": "2026-10-07 16:30",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "1권 8유닛 대사 · 번: /u/ /u/ up!",
  "text": "/u/ /u/ up!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

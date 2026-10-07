@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=cat | TYPE=word | IPA=k æ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/... /æ/... /t/...",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357071.6575415,
+   "sec": 2.41,
+   "check": {
+    "transcript": "making tea",
+    "type": "sentence",
+    "ipa": "ˈmeɪkɪŋ tiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=making tea | TYPE=sentence | IPA=ˈmeɪkɪŋ tiː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:17",
+ "applied": "2026-10-07 16:39",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,6 +47,7 @@
  "title": "5유닛 스토리북 · 비즈: /k/... /æ/... /t/...",
  "text": "/k/... /æ/... /t/...",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

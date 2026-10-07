@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=a koala and a key | TYPE=sentence | IPA=ə kwoʊˈɑːlə ənd ə kiː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A koala and a key!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356808.4644167,
+   "sec": 1.44,
+   "check": {
+    "transcript": "a koala and a key",
+    "type": "sentence",
+    "ipa": "ə koʊˈɑlə ənd ə ki",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a koala and a key | TYPE=sentence | IPA=ə koʊˈɑlə ənd ə ki | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:06",
+ "applied": "2026-10-07 16:25",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "u04_l1",
  "sub": "line",
- "title": "4유닛 대사 · 헤지: A koala and a key!",
+ "title": "1권 4유닛 대사 · 헤지: A koala and a key!",
  "text": "A koala and a key!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

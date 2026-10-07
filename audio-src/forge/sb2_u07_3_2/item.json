@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sh Can I sit? | TYPE=sentence | IPA=ʃ kæn aɪ sɪt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Can I sit?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357123.890528,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Shh, can I sit?",
+    "type": "sentence",
+    "ipa": "ʃ, kæn aɪ sɪt?",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, can I sit? | TYPE=sentence | IPA=ʃ, kæn aɪ sɪt? | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:18",
+ "applied": "2026-10-07 16:41",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,6 +47,7 @@
  "title": "7유닛 스토리북 · 그럼블: Shh... Can I sit?",
  "text": "Shh... Can I sit?",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

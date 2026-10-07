@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=I see the egg tree! | TYPE=sentence | IPA=aɪ siː ðiː ɛɡ triː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see the egg tree!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356837.3934646,
+   "sec": 1.44,
+   "check": {
+    "transcript": "I see the egg tree!",
+    "type": "sentence",
+    "ipa": "aɪ ˈsiː ði ˈɛɡ ˈtɹiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see the egg tree! | TYPE=sentence | IPA=aɪ ˈsiː ði ˈɛɡ ˈtɹiː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:09",
+ "applied": "2026-10-07 16:27",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,5 +47,7 @@
  "title": "5유닛 스토리북 · 헤지: I see the egg tree!",
  "text": "I see the egg tree!",
  "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
  "busy": 0
 }

@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=quilt | TYPE=word | IPA=kwɪlt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/kw/ /kw/ quilt!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356874.1253514,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Codio negro y a grilled",
+    "type": "sentence",
+    "ipa": "ˈkodjo ˈneɣɾo i a ˈgɾilt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Codio negro y a grilled | TYPE=sentence | IPA=ˈkodjo ˈneɣɾo i a ˈgɾilt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/kw/ /kw/ quilt!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358140.718118,
+   "sec": 1.95,
+   "check": {
+    "transcript": "caillou",
+    "type": "word",
+    "ipa": "kaˈju",
+    "note": "ok",
+    "raw": "TRANSCRIPT=caillou | TYPE=word | IPA=kaˈju | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:37",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +64,7 @@
  "title": "1권 7유닛 대사 · 헤지: /kw/ /kw/ quilt!",
  "text": "/kw/ /kw/ quilt!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

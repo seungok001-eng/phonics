@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=The seed is on the duck. | TYPE=sentence | IPA=ðə siːd ɪz ɒn ðə dʌk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The seed is on the duck.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356784.3448703,
+   "sec": 1.49,
+   "check": {
+    "transcript": "The seed is on the deck.",
+    "type": "sentence",
+    "ipa": "ðə siːd ɪz ɒn ðə dɛk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The seed is on the deck. | TYPE=sentence | IPA=ðə siːd ɪz ɒn ðə dɛk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The seed is on the duck.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357859.4292815,
+   "sec": 1.58,
+   "check": {
+    "transcript": "the seed is on the duck",
+    "type": "sentence",
+    "ipa": "ði siːd ɪz ɒn ðə dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the seed is on the duck | sentence=the seed is on the duck | TYPE=sentence | IPA=ði siːd ɪz ɒn ðə dʌk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:04",
+ "applied": "2026-10-07 16:45",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -29,5 +63,8 @@
  "sub": "line",
  "title": "2유닛 스토리북 · 헤지: The seed is on the duck.",
  "text": "The seed is on the duck.",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

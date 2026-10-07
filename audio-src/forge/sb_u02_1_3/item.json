@@ -16,19 +16,48 @@
     "raw": "TRANSCRIPT=duck pop | TYPE=word | IPA=dʌk pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/d/ /d/ duck! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356784.5915017,
+   "sec": 2.83,
+   "check": {
+    "transcript": "D D duck pop",
+    "type": "sentence",
+    "ipa": "di di dʌk pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=D D duck pop | TYPE=sentence | IPA=di di dʌk pɑp | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/d/ /d/ duck! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359590.1139553,
+   "sec": 3.36,
+   "check": {
+    "transcript": "D",
+    "type": "letter-name",
+    "ipa": "diː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=D | TYPE=letter-name | IPA=diː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:33",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "sb_u02_1_3",
- "sub": "line",
- "title": "2유닛 스토리북 · 번: /d/ /d/ duck! Pop!",
- "text": "/d/ /d/ duck! Pop!",
- "voice": "Leda",
- "book": 1
-}
+ "sub": "lin

@@ -16,18 +16,38 @@
     "raw": "TRANSCRIPT=the key and the lock | TYPE=sentence | IPA=ðə kiː ænd ðə lɒk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The key and the lock!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356814.8544452,
+   "sec": 1.44,
+   "check": {
+    "transcript": "the key and the lock",
+    "type": "sentence",
+    "ipa": "ðə ˈkiː ənd ðə ˈlɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the key and the lock | TYPE=sentence | IPA=ðə ˈkiː ənd ðə ˈlɒk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:07",
+ "applied": "2026-10-07 16:26",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "u04_l9",
  "sub": "line",
- "title": "4유닛 대사 · 헤지: The key and the lock!",
+ "title": "1권 4유닛 대사 · 헤지: The key and the lock!",
  "text": "The key and the lock!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

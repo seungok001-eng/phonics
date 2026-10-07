@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The seed is in the jelly. | TYPE=sentence | IPA=ðə siːd ɪz ɪn ðə ˈdʒɛli | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The seed is in the jelly!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356820.785185,
+   "sec": 1.63,
+   "check": {
+    "transcript": "The seed is in the jelly.",
+    "type": "sentence",
+    "ipa": "ðə siːd ɪz ɪn ðə ˈdʒɛli",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The seed is in the jelly. | TYPE=sentence | IPA=ðə siːd ɪz ɪn ðə ˈdʒɛli | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:07",
+ "applied": "2026-10-07 16:26",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -29,5 +46,8 @@
  "sub": "line",
  "title": "4유닛 스토리북 · 헤지: The seed is in the jelly!",
  "text": "The seed is in the jelly!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

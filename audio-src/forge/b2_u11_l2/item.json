@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=a mug, a bun, a fig | TYPE=sentence | IPA=ə mʌɡ, ə bʌn, ə fɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A mug, a bun, a fig!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357171.1682773,
+   "sec": 1.95,
+   "check": {
+    "transcript": "a mug, a bun, a fig",
+    "type": "sentence",
+    "ipa": "ə mʌɡ ə bʌn ə fɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a mug, a bun, a fig | TYPE=sentence | IPA=ə mʌɡ ə bʌn ə fɪɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:06",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,6 +47,7 @@
  "title": "2권 11유닛 대사 · 헤지: A mug, a bun, a fig!",
  "text": "A mug, a bun, a fig!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

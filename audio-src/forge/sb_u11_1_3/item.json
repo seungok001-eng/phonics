@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Can Grumble go too? | TYPE=sentence | IPA=kæn ˈɡrʌmbəl ɡoʊ tu | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Can Grumble go too?",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356975.6654537,
+   "sec": 1.49,
+   "check": {
+    "transcript": "Can Grumble go too?",
+    "type": "sentence",
+    "ipa": "kæn ˈɡrʌmbəl ɡoʊ tuː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Can Grumble go too? | TYPE=sentence | IPA=kæn ˈɡrʌmbəl ɡoʊ tuː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:28",
+ "applied": "2026-10-07 16:33",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "11유닛 스토리북 · 번: Can Grumble go too?",
  "text": "Can Grumble go too?",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

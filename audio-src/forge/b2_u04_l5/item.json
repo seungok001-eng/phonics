@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Grumble is in the bed. | TYPE=sentence | IPA=ˈɡɹʌmbəl ɪz ɪn ðə bɛd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Grumble is in the bed.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357042.8501573,
+   "sec": 1.49,
+   "check": {
+    "transcript": "Grumble is in the bed.",
+    "type": "sentence",
+    "ipa": "ˈɡrʌmbəl ɪz ɪn ðə bɛd.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble is in the bed. | TYPE=sentence | IPA=ˈɡrʌmbəl ɪz ɪn ðə bɛd. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:34",
+ "applied": "2026-10-07 16:37",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -47,6 +64,7 @@
  "title": "2권 4유닛 대사 · 헤지: Grumble is in the bed.",
  "text": "Grumble is in the bed.",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

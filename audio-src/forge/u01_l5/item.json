@@ -50,18 +50,55 @@
     "raw": "TRANSCRIPT=bus | TYPE=word | IPA=bʌs | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/b/ /b/ bus!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356760.1726885,
+   "sec": 1.63,
+   "check": {
+    "transcript": "B B buss",
+    "type": "word",
+    "ipa": "biː biː bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=B B buss | TYPE=word | IPA=biː biː bʌs | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/b/ /b/ bus!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359568.0731251,
+   "sec": 2.71,
+   "check": {
+    "transcript": "b",
+    "type": "isolated-sound",
+    "ipa": "b",
+    "note": "clean",
+    "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-10-07 16:22",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "u01_l5",
  "sub": "line",
- "title": "1유닛 대사 · 맥스: /b/ /b/ bus!",
+ "title": "1권 1유닛 대사 · 헤지: /b/ /b/ bus!",
  "text": "/b/ /b/ bus!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 1
 }

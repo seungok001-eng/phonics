@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/a/ /a/ apple!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356768.3055158,
+   "sec": 1.35,
+   "check": {
+    "transcript": "A apple",
+    "type": "sentence",
+    "ipa": "e ˈæp.əl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A apple | TYPE=sentence | IPA=e ˈæp.əl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/a/ /a/ apple!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359573.4439588,
+   "sec": 3.21,
+   "check": {
+    "transcript": "Apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:32",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -30,5 +64,7 @@
  "title": "1유닛 스토리북 · 헤지: /a/ /a/ apple!",
  "text": "/a/ /a/ apple!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 1
 }

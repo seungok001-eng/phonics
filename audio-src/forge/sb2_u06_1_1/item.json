@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=The pig is big. | TYPE=sentence | IPA=ðə pɪɡ ɪz bɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The pig is big!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357086.9857466,
+   "sec": 1.53,
+   "check": {
+    "transcript": "the biggest big",
+    "type": "sentence",
+    "ipa": "ðə ˈbɪgɪs ˈbɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the biggest big | TYPE=sentence | IPA=ðə ˈbɪgɪs ˈbɪg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The pig is big!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358813.3799038,
+   "sec": 1.39,
+   "check": {
+    "transcript": "The biggest big.",
+    "type": "sentence",
+    "ipa": "ðə ˈbɪgɪst ˈbɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The biggest big. | TYPE=sentence | IPA=ðə ˈbɪgɪst ˈbɪg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 23:59",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,6 +64,7 @@
  "title": "6유닛 스토리북 · 헤지: The pig is big!",
  "text": "The pig is big!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The fox has his box. | TYPE=sentence | IPA=ðə fɑks hæz hɪz bɑks | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The fox has my box!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357149.0536385,
+   "sec": 1.95,
+   "check": {
+    "transcript": "The fox has my box.",
+    "type": "sentence",
+    "ipa": "ðə fɑks hæz maɪ bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The fox has my box. | TYPE=sentence | IPA=ðə fɑks hæz maɪ bɑks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:20",
+ "applied": "2026-10-07 16:42",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,6 +47,7 @@
  "title": "9유닛 스토리북 · 헤지: The fox has my box!",
  "text": "The fox has my box!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

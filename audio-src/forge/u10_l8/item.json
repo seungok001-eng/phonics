@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=This is it. | TYPE=sentence | IPA=ðɪs ɪz ɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "This is it!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356944.9580913,
+   "sec": 1.07,
+   "check": {
+    "transcript": "This is it!",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is it! | TYPE=sentence | IPA=ðɪs ɪz ɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:26",
+ "applied": "2026-10-07 16:32",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +47,7 @@
  "title": "1권 10유닛 대사 · 함께: This is it!",
  "text": "This is it!",
  "voice": "Kore",
- "book": 1
+ "who": "both",
+ "book": 1,
+ "busy": 0
 }

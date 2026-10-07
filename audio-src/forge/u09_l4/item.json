@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Look at the water! | TYPE=sentence | IPA=lʊk ət ðə ˈwɔtər | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look at the water!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356911.7550004,
+   "sec": 1.39,
+   "check": {
+    "transcript": "Look at the water.",
+    "type": "sentence",
+    "ipa": "lʊk ət ðə wɔtəɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at the water. | TYPE=sentence | IPA=lʊk ət ðə wɔtəɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:24",
+ "applied": "2026-10-07 16:31",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,5 +47,7 @@
  "title": "1권 9유닛 대사 · 함께: Look at the water!",
  "text": "Look at the water!",
  "voice": "Kore",
- "book": 1
+ "who": "both",
+ "book": 1,
+ "busy": 0
 }

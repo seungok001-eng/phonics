@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=Shh, go to the dot. | TYPE=sentence | IPA=ʃ goʊ tuː ðə dɑːt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... Go to the dot.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357129.3067784,
+   "sec": 1.81,
+   "check": {
+    "transcript": "Shh. Go to the door.",
+    "type": "sentence",
+    "ipa": "ʃː. ɡoʊ tuː ðə dɔːɹ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Go to the door. | TYPE=sentence | IPA=ʃː. ɡoʊ tuː ðə dɔːɹ. | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh... Go to the dot.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791358902.5965157,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Shh. Go to the dot.",
+    "type": "sentence",
+    "ipa": "ʃ. ɡoʊ tuː ðə dɑt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Go to the dot. | TYPE=sentence | IPA=ʃ. ɡoʊ tuː ðə dɑt. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 00:35",
+ "applied": "2026-10-07 16:49",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -47,6 +81,7 @@
  "title": "2권 8유닛 대사 · 그럼블: Shh... Go to the dot.",
  "text": "Shh... Go to the dot.",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=The seed is in the zipper. | TYPE=sentence | IPA=ðə siːd ɪz ɪn ðə zɪpər | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The seed is in the zipper!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356940.1132724,
+   "sec": 1.63,
+   "check": {
+    "transcript": "The seat is in the zipper.",
+    "type": "sentence",
+    "ipa": "ðə sit ɪz ɪn ðə ˈzɪpər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The seat is in the zipper. | TYPE=sentence | IPA=ðə sit ɪz ɪn ðə ˈzɪpər | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The seed is in the zipper!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358334.366265,
+   "sec": 1.63,
+   "check": {
+    "transcript": "The seat is in the zipper.",
+    "type": "sentence",
+    "ipa": "ðə sit ɪz ɪn ðə zɪpər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The seat is in the zipper. | TYPE=sentence | IPA=ðə sit ɪz ɪn ðə zɪpər | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:26",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +64,7 @@
  "title": "1권 10유닛 대사 · 번: The seed is in the zipper!",
  "text": "The seed is in the zipper!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

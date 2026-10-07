@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=We like the top. | TYPE=sentence | IPA=wi laɪk ðə tɑp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We like the top!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357146.2671304,
+   "sec": 1.3,
+   "check": {
+    "transcript": "V like the top",
+    "type": "sentence",
+    "ipa": "vi laɪk ðə tɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=V like the top | TYPE=sentence | IPA=vi laɪk ðə tɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "We like the top!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358957.369701,
+   "sec": 1.11,
+   "check": {
+    "transcript": "We like the top.",
+    "type": "sentence",
+    "ipa": "wi lʌɪk ðə tɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like the top. | TYPE=sentence | IPA=wi lʌɪk ðə tɒp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:03",
+ "applied": "2026-10-07 16:49",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,6 +64,7 @@
  "title": "2권 9유닛 대사 · 헤지: We like the top!",
  "text": "We like the top!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

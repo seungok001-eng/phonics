@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=pots top top | TYPE=sentence | IPA=pɑts tɑp tɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pot... top! Top!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357148.0116444,
+   "sec": 2.18,
+   "check": {
+    "transcript": "pot top top",
+    "type": "sentence",
+    "ipa": "pɒt tɒp tɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pot top top | TYPE=sentence | IPA=pɒt tɒp tɒp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:19",
+ "applied": "2026-10-07 16:42",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,6 +47,7 @@
  "title": "2권 9유닛 대사 · 핍: Pot... top! Top!",
  "text": "Pot... top! Top!",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

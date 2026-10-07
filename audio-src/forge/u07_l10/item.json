@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Shh. Can I keep it? | TYPE=sentence | IPA=ʃ. kæn aɪ kip ɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Can I keep it?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356880.661512,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Shh. Can I keep it?",
+    "type": "sentence",
+    "ipa": "ʃkənˈaɪˈkiːpɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Can I keep it? | TYPE=sentence | IPA=ʃkənˈaɪˈkiːpɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:20",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +47,7 @@
  "title": "1권 7유닛 대사 · 그럼블: Shh... Can I keep it?",
  "text": "Shh... Can I keep it?",
  "voice": "Charon",
- "book": 1
+ "who": "grumble",
+ "book": 1,
+ "busy": 0
 }

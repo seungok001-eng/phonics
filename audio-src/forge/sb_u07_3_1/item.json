@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=rocket pop | TYPE=word | IPA=ˈrɑkɪt pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/r/ /r/ rocket! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356886.5336716,
+   "sec": 1.95,
+   "check": {
+    "transcript": "We are a rocket pop!",
+    "type": "sentence",
+    "ipa": "wi ɑɹ ə ɹɑkət pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We are a rocket pop! | TYPE=sentence | IPA=wi ɑɹ ə ɹɑkət pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:38",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +47,7 @@
  "title": "7유닛 스토리북 · 번: /r/ /r/ rocket! Pop!",
  "text": "/r/ /r/ rocket! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=cat | TYPE=word | IPA=k æ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ /æ/ /t/ cat!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357006.9128413,
+   "sec": 1.58,
+   "check": {
+    "transcript": "the a seemed can",
+    "type": "sentence",
+    "ipa": "ði ə simd kæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the a seemed can | TYPE=sentence | IPA=ði ə simd kæn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/ /æ/ /t/ cat!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791358549.5638678,
+   "sec": 2.51,
+   "check": {
+    "transcript": "Let's eat, cat.",
+    "type": "sentence",
+    "ipa": "lɛts iːt kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Let's eat, cat. | TYPE=sentence | IPA=lɛts iːt kæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:15",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -30,6 +64,7 @@
  "title": "1유닛 스토리북 · 비즈: /k/ /æ/ /t/ cat!",
  "text": "/k/ /æ/ /t/ cat!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

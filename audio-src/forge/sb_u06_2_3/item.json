@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/n/ /n/ net! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356859.5348287,
+   "sec": 3.2,
+   "check": {
+    "transcript": "Ninnette Pop",
+    "type": "sentence",
+    "ipa": "ˈnɪnɛt pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ninnette Pop | TYPE=sentence | IPA=ˈnɪnɛt pɒp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/n/ /n/ net! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358117.2619042,
+   "sec": 1.9,
+   "check": {
+    "transcript": "And a net pop.",
+    "type": "sentence",
+    "ipa": "and ə nɛt pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=And a net pop. | TYPE=sentence | IPA=and ə nɛt pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:37",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,5 +64,7 @@
  "title": "6유닛 스토리북 · 번: /n/ /n/ net! Pop!",
  "text": "/n/ /n/ net! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

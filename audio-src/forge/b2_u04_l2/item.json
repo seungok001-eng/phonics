@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Ouch, my leg. | TYPE=sentence | IPA=aʊtʃ maɪ lɛɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Ouch! My leg!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357041.028038,
+   "sec": 1.67,
+   "check": {
+    "transcript": "Ouch, my leg.",
+    "type": "sentence",
+    "ipa": "aʊtʃ maɪ lɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ouch, my leg. | TYPE=sentence | IPA=aʊtʃ maɪ lɛɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:16",
+ "applied": "2026-10-07 16:37",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,6 +47,7 @@
  "title": "2권 4유닛 대사 · 그럼블: Shh... Ouch! My leg!",
  "text": "Shh... Ouch! My leg!",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

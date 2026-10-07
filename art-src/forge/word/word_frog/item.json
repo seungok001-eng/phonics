@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791284249.3147423,
+ "updated": 1791357476.7591515,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/93e687a0-30ff-4434-a092-793dae737fcd?Expires=1791305827&KeyName=labs-flow-prod-cdn-key&Signature=DhwiqPDs_JjA1A7t9ECl3cgFF-k",
+ "flow_url": "https://flow-content.google/image/01382e4b-dcde-4987-8dd0-e00b11390be5?Expires=1791379050&KeyName=labs-flow-prod-cdn-key&Signature=NrL97Bwcj_SuBe6bewJhL9mpcRY",
  "prompt_edited": false,
- "applied": "2026-10-06 20:03",
+ "applied": "2026-10-07 16:19",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "frog",
  "title": "frog · 개구리",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a green frog sitting on a lily pad.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a green frog sitting on a lily pad.",
  "aspect": "1:1",
  "out": "web/assets/art/word_frog.png",
- "claimed_at": 1791284223.392497,
- "asset_no": 2014
+ "book": 1,
+ "asset_no": 2014,
+ "claimed_at": 1791357445.8790019
 }

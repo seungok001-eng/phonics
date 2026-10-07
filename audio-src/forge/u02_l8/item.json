@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=The raccoon is wet. | TYPE=sentence | IPA=ðə ræˈkuːn ɪz wɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The raccoon is wet!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356780.4573836,
+   "sec": 1.63,
+   "check": {
+    "transcript": "The raccoon is wet.",
+    "type": "sentence",
+    "ipa": "ðə ɹæˈkuːn ɪz wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The raccoon is wet. | TYPE=sentence | IPA=ðə ɹæˈkuːn ɪz wɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 15:40",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -64,6 +81,7 @@
  "title": "1권 2유닛 대사 · 헤지: The raccoon is wet!",
  "text": "The raccoon is wet!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 1,
  "busy": 0
 }

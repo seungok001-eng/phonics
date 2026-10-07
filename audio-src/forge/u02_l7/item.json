@@ -16,19 +16,55 @@
     "raw": "TRANSCRIPT=the frog, frog | TYPE=sentence | IPA=ðə fɹɑg fɹɑg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The frog! /f/ /f/ frog!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356780.6664808,
+   "sec": 3.34,
+   "check": {
+    "transcript": "The frog is eve frog.",
+    "type": "sentence",
+    "ipa": "ðə fɹɑɡ ɪz iv fɹɑɡ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The frog is eve frog. | TYPE=sentence | IPA=ðə fɹɑɡ ɪz iv fɹɑɡ. | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The frog! /f/ /f/ frog!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791359589.6564379,
+   "sec": 6.24,
+   "check": {
+    "transcript": "the frog",
+    "type": "sentence",
+    "ipa": "ðə fɹɑg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the frog | TYPE=sentence | IPA=ðə fɹɑg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "u02_l7",
  "sub": "line",
- "title": "2유닛 대사 · 함께: The frog! /f/ /f/ frog!",
+ "title": "1권 2유닛 대사 · 함께: The frog! /f/ /f/ frog!",
  "text": "The frog! /f/ /f/ frog!",
  "voice": "Kore",
- "busy": 0
+ "who": "both",
+ "book": 1,
+ "busy": 1
 }

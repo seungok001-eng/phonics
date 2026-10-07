@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=A P hop | TYPE=sentence | IPA=eɪ pi hɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357152.284301,
+   "sec": 1.3,
+   "check": {
+    "transcript": "It can't be helped.",
+    "type": "sentence",
+    "ipa": "ɪt kænt bi hɛlpt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It can't be helped. | TYPE=sentence | IPA=ɪt kænt bi hɛlpt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791358980.440061,
+   "sec": 1.44,
+   "check": {
+    "transcript": "hippop",
+    "type": "word",
+    "ipa": "ˈhɪpɑp",
+    "note": "missing the final t sound",
+    "raw": "TRANSCRIPT=hippop | TYPE=word | IPA=ˈhɪpɑp | NOTE=missing the final t sound"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:20",
+ "applied": "2026-10-07 16:49",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,6 +64,7 @@
  "title": "9유닛 스토리북 · 비즈: /h/ /ɑ/ /p/ hop!",
  "text": "/h/ /ɑ/ /p/ hop!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

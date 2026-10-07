@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=This is a yak. | TYPE=sentence | IPA=ðɪs ɪz ə jæk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "This is a yak!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356934.6146297,
+   "sec": 1.39,
+   "check": {
+    "transcript": "This is a yak.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ə jæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is a yak. | TYPE=sentence | IPA=ðɪs ɪz ə jæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:25",
+ "applied": "2026-10-07 16:32",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +47,7 @@
  "title": "1권 10유닛 대사 · 번: This is a yak!",
  "text": "This is a yak!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

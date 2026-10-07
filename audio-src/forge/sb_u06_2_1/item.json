@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=an otter and pip | TYPE=sentence | IPA=ən ˈɑ.tɚ ən pɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "An otter! And Pip!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356859.6180513,
+   "sec": 2.09,
+   "check": {
+    "transcript": "an Otto and Pip",
+    "type": "sentence",
+    "ipa": "æn ˈɑtoʊ ænd pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=an Otto and Pip | TYPE=sentence | IPA=æn ˈɑtoʊ ænd pɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:10",
+ "applied": "2026-10-07 16:28",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -29,5 +46,8 @@
  "sub": "line",
  "title": "6유닛 스토리북 · 헤지: An otter! And Pip!",
  "text": "An otter! And Pip!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

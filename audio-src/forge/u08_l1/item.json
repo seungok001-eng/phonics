@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The sun is up. | TYPE=sentence | IPA=ðə sʌn ɪz ʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The sun is up!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356888.5981493,
+   "sec": 1.25,
+   "check": {
+    "transcript": "The sun is up!",
+    "type": "sentence",
+    "ipa": "ðə ˈsʌn ɪz ˈʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The sun is up! | TYPE=sentence | IPA=ðə ˈsʌn ɪz ˈʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:23",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "1권 8유닛 대사 · 번: The sun is up!",
  "text": "The sun is up!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

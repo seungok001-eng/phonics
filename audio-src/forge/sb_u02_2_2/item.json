@@ -16,11 +16,39 @@
     "raw": "TRANSCRIPT=egg pop | TYPE=word | IPA=ɛɡ pɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/e/ /e/ egg! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356786.5602987,
+   "sec": 2.51,
+   "check": {
+    "transcript": "Iguana's egg pop",
+    "type": "sentence",
+    "ipa": "ɪˈgwɑːnəz ɛɡ pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Iguana's egg pop | TYPE=sentence | IPA=ɪˈgwɑːnəz ɛɡ pɒp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/e/ /e/ egg! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359592.2428703,
+   "sec": 2.76,
+   "check": null,
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:33",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,5 +58,7 @@
  "title": "2유닛 스토리북 · 번: /e/ /e/ egg! Pop!",
  "text": "/e/ /e/ egg! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 1
 }

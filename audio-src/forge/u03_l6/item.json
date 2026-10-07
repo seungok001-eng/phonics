@@ -16,11 +16,56 @@
     "raw": "TRANSCRIPT=goat | TYPE=word | IPA=ɡoʊt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/g/ /g/ goat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356794.4025006,
+   "sec": 2.18,
+   "check": {
+    "transcript": "such zig-zag",
+    "type": "sentence",
+    "ipa": "sʌʧ ˈzɪgˌzæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=such zig-zag | TYPE=sentence | IPA=sʌʧ ˈzɪgˌzæg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/g/ /g/ goat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357896.3112102,
+   "sec": 2.32,
+   "check": {
+    "transcript": "G Goat",
+    "type": "word",
+    "ipa": "ˈʤiː ˈɡoʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=G Goat | TYPE=word | IPA=ˈʤiː ˈɡoʊt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/g/ /g/ goat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359594.0536685,
+   "sec": 3.24,
+   "check": null,
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:33",
+ "applied": "2026-10-07 16:45",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -30,5 +75,7 @@
  "title": "1권 3유닛 대사 · 번: /g/ /g/ goat!",
  "text": "/g/ /g/ goat!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 1
 }

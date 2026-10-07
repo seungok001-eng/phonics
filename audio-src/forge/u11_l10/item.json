@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=Look, a seed! | TYPE=sentence | IPA=lʊk ə siːd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look! A seed!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356970.787279,
+   "sec": 1.35,
+   "check": {
+    "transcript": "seed",
+    "type": "word",
+    "ipa": "sid",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seed | TYPE=word | IPA=sid | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Look! A seed!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791358414.499891,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Look, a seed.",
+    "type": "sentence",
+    "ipa": "lʊk ə siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a seed. | TYPE=sentence | IPA=lʊk ə siːd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:28",
+ "applied": "2026-10-07 16:47",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +64,7 @@
  "title": "1권 11유닛 대사 · 함께: Look! A seed!",
  "text": "Look! A seed!",
  "voice": "Kore",
- "book": 1
+ "who": "both",
+ "book": 1,
+ "busy": 0
 }

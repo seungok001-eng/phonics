@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=The pot is hot. | TYPE=sentence | IPA=ðə ˈpɑt ɪz ˈhɑt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The pot is hot!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357131.0876386,
+   "sec": 1.81,
+   "check": {
+    "transcript": "the part is hot",
+    "type": "sentence",
+    "ipa": "ðə pɑɹt ɪz hɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the part is hot | TYPE=sentence | IPA=ðə pɑɹt ɪz hɑt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The pot is hot!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358904.6450763,
+   "sec": 1.49,
+   "check": {
+    "transcript": "The pot is hot.",
+    "type": "sentence",
+    "ipa": "ðə pɒt ɪz hɒt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pot is hot. | TYPE=sentence | IPA=ðə pɒt ɪz hɒt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:01",
+ "applied": "2026-10-07 16:49",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,6 +64,7 @@
  "title": "2권 8유닛 대사 · 헤지: The pot is hot!",
  "text": "The pot is hot!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

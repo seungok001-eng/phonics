@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286348.9410155,
+ "updated": 1791357583.1049013,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/03c04f12-c9a5-41e0-b153-03800b10c986?Expires=1791307923&KeyName=labs-flow-prod-cdn-key&Signature=9Zn305HYfuVa6F8YukLSGLiOcq8",
+ "flow_url": "https://flow-content.google/image/3a028bca-fac4-49b0-83a8-7c8ccec08c7a?Expires=1791379158&KeyName=labs-flow-prod-cdn-key&Signature=sLvMuEJ6iK7tFHv2sBuHm0mlINg",
  "prompt_edited": false,
- "applied": "2026-10-06 20:33",
+ "applied": "2026-10-07 16:24",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "hippo",
  "title": "hippo · 하마",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture. The object: a chubby purple-grey hippo smiling.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a chubby purple-grey hippo smiling.",
  "aspect": "1:1",
  "out": "web/assets/art/word_hippo.png",
- "claimed_at": 1791286318.3904445,
- "asset_no": 2022
+ "book": 1,
+ "asset_no": 2022,
+ "claimed_at": 1791357553.3938882
 }

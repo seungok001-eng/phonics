@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791263496.1445973,
+ "updated": 1791357633.0677843,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/b9db00ad-f4d5-4f9c-9fad-5bc07a481832?Expires=1791379207&KeyName=labs-flow-prod-cdn-key&Signature=4yD7W9Rvjrsgmjs3xkZDGLLUkdo",
  "prompt_edited": false,
- "applied": "2026-10-06 14:35",
+ "applied": "2026-10-07 16:24",
  "gen": "",
  "job_type": "image",
  "reference": "tree_a",
@@ -17,8 +17,9 @@
  "kind": "tree",
  "letter": "b",
  "title": "글자나무 B",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a cute yellow school bus seen from the side, with round windows; a red school backpack with two straps and a front pocket; a small cozy child's bed with a blue blanket and a white pillow — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a cute yellow school bus seen from the side, with round windows; a red school backpack with two straps and a front pocket; a small cozy child's bed with a blue blanket and a white pillow — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
  "aspect": "3:4",
  "out": "web/assets/art/tree_b.png",
- "claimed_at": 1791263484.5929866
+ "book": 1,
+ "claimed_at": 1791357590.8816679
 }

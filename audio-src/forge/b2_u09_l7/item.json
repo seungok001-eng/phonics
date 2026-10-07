@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "SHH!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357144.9777496,
+   "sec": 0.7,
+   "check": {
+    "transcript": "shut",
+    "type": "word",
+    "ipa": "ʃʌt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shut | TYPE=word | IPA=ʃʌt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:19",
+ "applied": "2026-10-07 16:42",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,6 +47,7 @@
  "title": "2권 9유닛 대사 · 그럼블: SHH!",
  "text": "SHH!",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

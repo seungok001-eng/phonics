@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356986.815866,
+   "sec": 0.79,
+   "check": {
+    "transcript": "chats",
+    "type": "word",
+    "ipa": "tʃæts",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chats | TYPE=word | IPA=tʃæts | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:44",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -30,5 +47,7 @@
  "title": "말버릇 · 그럼블: Shh!",
  "text": "Shh!",
  "voice": "Charon",
- "book": 1
+ "who": "grumble",
+ "book": 1,
+ "busy": 0
 }

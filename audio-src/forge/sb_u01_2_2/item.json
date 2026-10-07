@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=cat, cat | TYPE=word | IPA=k ˈæt, k ˈæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A cat! /k/ /k/ cat!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356770.3495476,
+   "sec": 3.25,
+   "check": {
+    "transcript": "a cat k k cat",
+    "type": "sentence",
+    "ipa": "ə kæt keɪ keɪ kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a cat k k cat | TYPE=sentence | IPA=ə kæt keɪ keɪ kæt | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A cat! /k/ /k/ cat!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359579.1543524,
+   "sec": 3.02,
+   "check": {
+    "transcript": "a cat",
+    "type": "sentence",
+    "ipa": "ə kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a cat | TYPE=sentence | IPA=ə kæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:33",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -30,5 +64,6 @@
  "title": "1유닛 스토리북 · 헤지: A cat! /k/ /k/ cat!",
  "text": "A cat! /k/ /k/ cat!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 1
 }

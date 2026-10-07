@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=It can go up up up. | TYPE=sentence | IPA=ɪt kæn ɡoʊ ʌp ʌp ʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "It can go up, up, up!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356979.8325162,
+   "sec": 1.63,
+   "check": {
+    "transcript": "It can go up up up.",
+    "type": "sentence",
+    "ipa": "ɪt kæn goʊ ʌp ʌp ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It can go up up up. | TYPE=sentence | IPA=ɪt kæn goʊ ʌp ʌp ʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:29",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "11유닛 스토리북 · 헤지: It can go up, up, up!",
  "text": "It can go up, up, up!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wɝm | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/w/ /w/ worm!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356913.3147202,
+   "sec": 1.39,
+   "check": {
+    "transcript": "little worm",
+    "type": "word",
+    "ipa": "ˈlɪtəl ˈwɜrm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=little worm | TYPE=word | IPA=ˈlɪtəl ˈwɜrm | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:39",
+ "applied": "2026-10-07 16:31",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -30,5 +47,7 @@
  "title": "1권 9유닛 대사 · 번: /w/ /w/ worm!",
  "text": "/w/ /w/ worm!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Here is a gift. | TYPE=sentence | IPA=hɪɹ ɪz ə gɪft | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Here is a gift!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356976.6291783,
+   "sec": 1.11,
+   "check": {
+    "transcript": "Here is a gift.",
+    "type": "sentence",
+    "ipa": "hiɹ ɪz ə gɪft",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Here is a gift. | TYPE=sentence | IPA=hiɹ ɪz ə gɪft | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:28",
+ "applied": "2026-10-07 16:33",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "11유닛 스토리북 · 헤지: Here is a gift!",
  "text": "Here is a gift!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

@@ -1,14 +1,14 @@
 {
- "status": "approved",
- "raw": "raw.png",
- "cut": "cut.png",
- "attempts": 1,
+ "status": "queued",
+ "raw": "",
+ "cut": "",
+ "attempts": 0,
  "error": "",
  "updated": 1791287479.1405568,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/b168445e-82b1-47b8-b101-0098c2062ab1?Expires=1791309057&KeyName=labs-flow-prod-cdn-key&Signature=75TpATA5zN5pPIZnb_ED_4Z4luo",
  "prompt_edited": false,
- "applied": "2026-10-06 20:56",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": "word_hippo",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_hippo.png",
+ "book": 1,
  "claimed_at": 1791287440.8913774
 }

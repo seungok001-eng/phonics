@@ -16,19 +16,38 @@
     "raw": "TRANSCRIPT=The egg is a seed. | TYPE=sentence | IPA=ði ɛɡ ɪz ə siːd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The egg is a seed!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356776.203316,
+   "sec": 1.49,
+   "check": {
+    "transcript": "The egg is a seed.",
+    "type": "sentence",
+    "ipa": "ði ɛg ɪz ə siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The egg is a seed. | TYPE=sentence | IPA=ði ɛg ɪz ə siːd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-10-07 16:23",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "u02_l4",
  "sub": "line",
- "title": "2유닛 대사 · 맥스: The egg is a seed!",
+ "title": "1권 2유닛 대사 · 헤지: The egg is a seed!",
  "text": "The egg is a seed!",
  "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
  "busy": 0
 }

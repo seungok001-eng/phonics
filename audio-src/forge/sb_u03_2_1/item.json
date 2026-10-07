@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=It is my gift. | TYPE=sentence | IPA=ɪt ɪz maɪ gɪft | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "It is my gift.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356803.4103358,
+   "sec": 1.11,
+   "check": {
+    "transcript": "It is my gift.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ ɡɪft",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my gift. | TYPE=sentence | IPA=ɪt ɪz maɪ ɡɪft | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:06",
+ "applied": "2026-10-07 16:25",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -29,5 +46,8 @@
  "sub": "line",
  "title": "3유닛 스토리북 · 헤지: It is my gift.",
  "text": "It is my gift.",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

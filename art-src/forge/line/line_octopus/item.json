@@ -1,14 +1,14 @@
 {
- "status": "approved",
- "raw": "raw.png",
- "cut": "cut.png",
+ "status": "queued",
+ "raw": "",
+ "cut": "",
  "attempts": 0,
  "error": "",
  "updated": 1791287837.111354,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/8bf2c580-5350-47f9-830a-d5648aea670c?Expires=1791309414&KeyName=labs-flow-prod-cdn-key&Signature=VYxcYXAz9AmbJnIbmg2Bzi0HDEw",
  "prompt_edited": false,
- "applied": "2026-10-06 21:01",
+ "applied": "",
  "gen": "",
  "job_type": "image",
  "reference": "word_octopus",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_octopus.png",
+ "book": 1,
  "claimed_at": 1791287798.3973837
 }

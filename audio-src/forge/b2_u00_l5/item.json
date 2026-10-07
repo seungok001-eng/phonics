@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Click-clack, hi pip. | TYPE=sentence | IPA=ˈklɪk ˈklæk ˈhaɪ ˈpɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Click-clack! Hi, Pip!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791356989.814339,
+   "sec": 1.86,
+   "check": {
+    "transcript": "click clack hi pip",
+    "type": "sentence",
+    "ipa": "klɪk klæk haɪ pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click clack hi pip | TYPE=sentence | IPA=klɪk klæk haɪ pɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:48",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -30,6 +47,7 @@
  "title": "2권 0유닛 대사 · 비즈: Click-clack! Hi, Pip!",
  "text": "Click-clack! Hi, Pip!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=I see a net. | TYPE=sentence | IPA=aɪ siː ə nɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see a net.",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357032.8067782,
+   "sec": 0.93,
+   "check": {
+    "transcript": "I see a net.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a net. | TYPE=sentence | IPA=aɪ siː ə nɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:54",
+ "applied": "2026-10-07 16:37",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -30,6 +47,7 @@
  "title": "3유닛 스토리북 · 번: I see a net.",
  "text": "I see a net.",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

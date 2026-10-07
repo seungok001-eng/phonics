@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Shh, thank you. | TYPE=sentence | IPA=ʃ, θæŋk ju | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Thank you.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357045.5715961,
+   "sec": 1.81,
+   "check": {
+    "transcript": "Sh, thank you.",
+    "type": "sentence",
+    "ipa": "ʃ, θæŋk ju.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sh, thank you. | TYPE=sentence | IPA=ʃ, θæŋk ju. | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:55",
+ "applied": "2026-10-07 16:37",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,6 +47,7 @@
  "title": "2권 4유닛 대사 · 그럼블: Shh... Thank you.",
  "text": "Shh... Thank you.",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

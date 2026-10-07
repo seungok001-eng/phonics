@@ -16,19 +16,38 @@
     "raw": "TRANSCRIPT=I J K L | TYPE=letter-name | IPA=aɪ dʒeɪ keɪ ɛl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I! J! K! L!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356833.534072,
+   "sec": 1.49,
+   "check": {
+    "transcript": "I J K L",
+    "type": "sentence",
+    "ipa": "aɪ ˈdʒeɪ ˈkeɪ ˈɛl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I J K L | TYPE=sentence | IPA=aɪ ˈdʒeɪ ˈkeɪ ˈɛl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:08",
+ "applied": "2026-10-07 16:27",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "u05_l9",
  "sub": "line",
- "title": "5유닛 대사 · 함께: I! J! K! L!",
+ "title": "1권 5유닛 대사 · 함께: I! J! K! L!",
  "text": "I! J! K! L!",
  "voice": "Kore",
+ "who": "both",
+ "book": 1,
  "busy": 0
 }

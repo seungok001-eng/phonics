@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=panda | TYPE=word | IPA=ˈpændə | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/p/ /p/ panda!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356864.059568,
+   "sec": 2.32,
+   "check": {
+    "transcript": "p p p panda",
+    "type": "word",
+    "ipa": "piː piː piː 'pændə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=p p p panda | TYPE=word | IPA=piː piː piː 'pændə | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:37",
+ "applied": "2026-10-07 16:28",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +47,7 @@
  "title": "1권 7유닛 대사 · 번: /p/ /p/ panda!",
  "text": "/p/ /p/ panda!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

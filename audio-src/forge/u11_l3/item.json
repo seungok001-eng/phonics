@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=and rice and yogurt | TYPE=sentence | IPA=ənd ɹaɪs ənd joʊɡəɹt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "And rice and yogurt!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356961.2133496,
+   "sec": 1.44,
+   "check": {
+    "transcript": "and rice and yogurt",
+    "type": "sentence",
+    "ipa": "ənd raɪs ən ˈjoʊɡərt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=and rice and yogurt | TYPE=sentence | IPA=ənd raɪs ən ˈjoʊɡərt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:27",
+ "applied": "2026-10-07 16:33",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "1권 11유닛 대사 · 번: And rice and yogurt!",
  "text": "And rice and yogurt!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

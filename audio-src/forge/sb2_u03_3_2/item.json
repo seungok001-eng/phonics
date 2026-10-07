@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Shh. It is my den. | TYPE=sentence | IPA=ʃ i t s m aɪ d ɛ n | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! It is my den!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357038.985459,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Shh, it is my den.",
+    "type": "sentence",
+    "ipa": "ʃ i t ɪ z m aɪ d ɛ n",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, it is my den. | TYPE=sentence | IPA=ʃ i t ɪ z m aɪ d ɛ n | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:34",
+ "applied": "2026-10-07 16:37",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,6 +64,7 @@
  "title": "3유닛 스토리북 · 그럼블: Shh! It is my den!",
  "text": "Shh! It is my den!",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

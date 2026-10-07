@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=octopus, pop | TYPE=word | IPA=ˈɑktəpəs, pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/o/ /o/ octopus! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356861.7353842,
+   "sec": 4.88,
+   "check": {
+    "transcript": "gorgonzola",
+    "type": "word",
+    "ipa": "ˌɡɔːrɡənˈzoʊlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gorgonzola | TYPE=word | IPA=ˌɡɔːrɡənˈzoʊlə | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/o/ /o/ octopus! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791358119.2133296,
+   "sec": 2.97,
+   "check": {
+    "transcript": "Look at you octopus. Pop.",
+    "type": "sentence",
+    "ipa": "lʊk ət ju ˈɑktəpəs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at you octopus. Pop. | TYPE=sentence | IPA=lʊk ət ju ˈɑktəpəs | pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:37",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,5 +64,7 @@
  "title": "6유닛 스토리북 · 번: /o/ /o/ octopus! Pop!",
  "text": "/o/ /o/ octopus! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

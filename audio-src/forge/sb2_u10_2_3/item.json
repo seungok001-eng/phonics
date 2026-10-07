@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Run, pup, run. Fun. | TYPE=sentence | IPA=rʌn pʌp rʌn fʌn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Run, pup, run! Fun!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357167.087728,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Run, pup, run, fun!",
+    "type": "sentence",
+    "ipa": "rʌn pʌp rʌn fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Run, pup, run, fun! | TYPE=sentence | IPA=rʌn pʌp rʌn fʌn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:36",
+ "applied": "2026-10-07 16:43",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -47,6 +64,7 @@
  "title": "10유닛 스토리북 · 번: Run, pup, run! Fun!",
  "text": "Run, pup, run! Fun!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The pig can win. | TYPE=sentence | IPA=ðə pɪg kæn wɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The pig can win!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791357084.467073,
+   "sec": 1.44,
+   "check": {
+    "transcript": "The pig can win!",
+    "type": "sentence",
+    "ipa": "ðə pɪɡ kən wɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig can win! | TYPE=sentence | IPA=ðə pɪɡ kən wɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:58",
+ "applied": "2026-10-07 16:40",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,6 +47,7 @@
  "title": "2권 6유닛 대사 · 함께: The pig can win!",
  "text": "The pig can win!",
  "voice": "Kore",
+ "who": "both",
  "book": 2,
  "busy": 0
 }

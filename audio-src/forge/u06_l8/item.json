@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=octopus | TYPE=word | IPA=ˈɑːktəpʊs | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/o/ /o/ octopus!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356851.8760195,
+   "sec": 2.79,
+   "check": {
+    "transcript": "blue octopus",
+    "type": "word",
+    "ipa": "blu ˈɑktəpəs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=blue octopus | TYPE=word | IPA=blu ˈɑktəpəs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:36",
+ "applied": "2026-10-07 16:28",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -30,5 +47,7 @@
  "title": "1권 6유닛 대사 · 번: /o/ /o/ octopus!",
  "text": "/o/ /o/ octopus!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

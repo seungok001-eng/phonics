@@ -16,19 +16,38 @@
     "raw": "TRANSCRIPT=It is my garden. | TYPE=sentence | IPA=ɪt ɪz maɪ ˈɡɑːrdən | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "It is my garden!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356832.4872792,
+   "sec": 1.35,
+   "check": {
+    "transcript": "It is my garden.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ ˈɡɑːrdən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my garden. | TYPE=sentence | IPA=ɪt ɪz maɪ ˈɡɑːrdən | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:08",
+ "applied": "2026-10-07 16:27",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "u05_l10",
  "sub": "line",
- "title": "5유닛 대사 · 번: It is my garden!",
+ "title": "1권 5유닛 대사 · 번: It is my garden!",
  "text": "It is my garden!",
  "voice": "Leda",
+ "who": "bun",
+ "book": 1,
  "busy": 0
 }

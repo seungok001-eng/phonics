@@ -16,18 +16,55 @@
     "raw": "TRANSCRIPT=We like the moon. | TYPE=sentence | IPA=wi laɪk ðə mun | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We like the moon!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356854.898291,
+   "sec": 1.39,
+   "check": {
+    "transcript": "They like the moon",
+    "type": "sentence",
+    "ipa": "ðeɪ lʌɪk ðə muːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=They like the moon | TYPE=sentence | IPA=ðeɪ lʌɪk ðə muːn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "We like the moon!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791358100.263905,
+   "sec": 1.49,
+   "check": {
+    "transcript": "We like the moon.",
+    "type": "sentence",
+    "ipa": "wi lʌɪk ðə mun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like the moon. | TYPE=sentence | IPA=wi lʌɪk ðə mun | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:10",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "u06_l10",
  "sub": "line",
- "title": "6유닛 대사 · 함께: We like the moon!",
+ "title": "1권 6유닛 대사 · 함께: We like the moon!",
  "text": "We like the moon!",
- "voice": "Kore"
+ "voice": "Kore",
+ "who": "both",
+ "book": 1,
+ "busy": 0
 }

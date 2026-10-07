@@ -84,18 +84,55 @@
     "raw": "TRANSCRIPT=Apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/æ/ /æ/ apple!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356758.3402576,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Is it apple?",
+    "type": "sentence",
+    "ipa": "ˈɪz ɪt ˈæpəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Is it apple? | TYPE=sentence | IPA=ˈɪz ɪt ˈæpəl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/æ/ /æ/ apple!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359567.9928093,
+   "sec": 3.12,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-10-07 16:22",
  "text_edited": true,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "u01_l3",
  "sub": "line",
- "title": "1유닛 대사 · 맥스: /a/ /a/ apple!",
+ "title": "1권 1유닛 대사 · 헤지: /a/ /a/ apple!",
  "text": "/æ/ /æ/ apple!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 1
 }

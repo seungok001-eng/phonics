@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Shh. Me? | TYPE=sentence | IPA=ʃ m i | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Me?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791356966.7158194,
+   "sec": 1.25,
+   "check": {
+    "transcript": "sh me",
+    "type": "sentence",
+    "ipa": "ʃ mi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sh me | TYPE=sentence | IPA=ʃ mi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:27",
+ "applied": "2026-10-07 16:33",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "1권 11유닛 대사 · 그럼블: Shh... Me?",
  "text": "Shh... Me?",
  "voice": "Charon",
- "book": 1
+ "who": "grumble",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The big leg is little. | TYPE=sentence | IPA=ðə bɪg lɛg ɪz lɪtəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The big leg is little!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357045.6748312,
+   "sec": 1.63,
+   "check": {
+    "transcript": "The big leg is little!",
+    "type": "sentence",
+    "ipa": "ðə bɪg lɛg ɪz lɪtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The big leg is little! | TYPE=sentence | IPA=ðə bɪg lɛg ɪz lɪtəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:55",
+ "applied": "2026-10-07 16:38",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,6 +47,7 @@
  "title": "2권 4유닛 대사 · 번: The big leg is little!",
  "text": "The big leg is little!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

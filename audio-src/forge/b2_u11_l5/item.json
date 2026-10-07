@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Shh. Hi. | TYPE=sentence | IPA=ʃ aɪ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... Hi.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357172.9367487,
+   "sec": 1.44,
+   "check": {
+    "transcript": "she",
+    "type": "word",
+    "ipa": "ʃiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=she | TYPE=word | IPA=ʃiː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:36",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -47,6 +64,7 @@
  "title": "2권 11유닛 대사 · 그럼블: Shh... Hi.",
  "text": "Shh... Hi.",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

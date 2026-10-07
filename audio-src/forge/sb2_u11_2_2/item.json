@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=notch boom boom | TYPE=sentence | IPA=nɑtʃ bum bum | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Not shh! Boom, boom!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357183.2127798,
+   "sec": 1.95,
+   "check": {
+    "transcript": "Noxus, boom boom",
+    "type": "sentence",
+    "ipa": "ˈnɑksəs, bum bum",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Noxus, boom boom | TYPE=sentence | IPA=ˈnɑksəs, bum bum | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Not shh! Boom, boom!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791359099.8518908,
+   "sec": 1.53,
+   "check": {
+    "transcript": "notch boom boom",
+    "type": "sentence",
+    "ipa": "nɑtʃ bum bum",
+    "note": "ok",
+    "raw": "TRANSCRIPT=notch boom boom | TYPE=sentence | IPA=nɑtʃ bum bum | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:21",
+ "applied": "2026-10-07 16:49",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,6 +64,7 @@
  "title": "11유닛 스토리북 · 그럼블: Not shh! Boom, boom!",
  "text": "Not shh! Boom, boom!",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Cat.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357062.0113013,
+   "sec": 1.39,
+   "check": {
+    "transcript": "Shh cat",
+    "type": "sentence",
+    "ipa": "ʃ kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh cat | TYPE=sentence | IPA=ʃ kæt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:17",
+ "applied": "2026-10-07 16:39",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -30,6 +47,7 @@
  "title": "2권 5유닛 대사 · 그럼블: Shh... Cat.",
  "text": "Shh... Cat.",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

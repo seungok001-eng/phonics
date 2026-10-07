@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Look Pip, you can go. | TYPE=sentence | IPA=lʊk pɪp juː kən ɡəʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look, Pip! You can go!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791357161.2378016,
+   "sec": 2.41,
+   "check": {
+    "transcript": "Look at. You can go. You can go!",
+    "type": "sentence",
+    "ipa": "lʊk ət",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at. You can go. You can go! | TYPE=sentence | IPA=lʊk ət | juː kən ɡəʊ | juː kən ɡəʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:05",
+ "applied": "2026-10-07 16:43",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,6 +47,7 @@
  "title": "2권 10유닛 대사 · 함께: Look, Pip! You can go!",
  "text": "Look, Pip! You can go!",
  "voice": "Kore",
+ "who": "both",
  "book": 2,
  "busy": 0
 }

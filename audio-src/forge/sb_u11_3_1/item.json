@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Look, a seed. | TYPE=sentence | IPA=ˈlʊk ə ˈsiːd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look! A seed!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356979.927767,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Look, a seed!",
+    "type": "sentence",
+    "ipa": "lʊk ə siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a seed! | TYPE=sentence | IPA=lʊk ə siːd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:29",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "11유닛 스토리북 · 함께: Look! A seed!",
  "text": "Look! A seed!",
  "voice": "Kore",
- "book": 1
+ "who": "both",
+ "book": 1,
+ "busy": 0
 }

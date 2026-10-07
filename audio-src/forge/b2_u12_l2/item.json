@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=We can read. | TYPE=sentence | IPA=wi kæn ˈɹid | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We can read!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791357188.0520816,
+   "sec": 1.11,
+   "check": {
+    "transcript": "We can read.",
+    "type": "sentence",
+    "ipa": "wi kæn rid",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We can read. | TYPE=sentence | IPA=wi kæn rid | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:08",
+ "applied": "2026-10-07 16:45",
  "text_edited": false,
  "error": "",
  "unit": 12,
@@ -30,6 +47,7 @@
  "title": "2권 12유닛 대사 · 함께: We can read!",
  "text": "We can read!",
  "voice": "Kore",
+ "who": "both",
  "book": 2,
  "busy": 0
 }

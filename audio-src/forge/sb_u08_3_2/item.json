@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=umbrella | TYPE=word | IPA=ʌmˈbrɛlə | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/u/ /u/ umbrella! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356905.630865,
+   "sec": 2.09,
+   "check": {
+    "transcript": "U, U Umbrella Pop!",
+    "type": "sentence",
+    "ipa": "ˈjuː ˈjuː ʌmˈbrɛlə ˈpɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=U, U Umbrella Pop! | TYPE=sentence | IPA=ˈjuː ˈjuː ʌmˈbrɛlə ˈpɒp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:39",
+ "applied": "2026-10-07 16:30",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "8유닛 스토리북 · 번: /u/ /u/ umbrella! Pop!",
  "text": "/u/ /u/ umbrella! Pop!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

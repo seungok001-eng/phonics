@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=We like the moon. | TYPE=sentence | IPA=wi lɑk ðə mun | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We like the moon!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356855.8469517,
+   "sec": 1.39,
+   "check": {
+    "transcript": "We like the moon.",
+    "type": "sentence",
+    "ipa": "wi lˈaɪk ðə mˈuːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like the moon. | TYPE=sentence | IPA=wi lˈaɪk ðə mˈuːn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:10",
+ "applied": "2026-10-07 16:28",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -29,5 +46,8 @@
  "sub": "line",
  "title": "6유닛 스토리북 · 헤지: We like the moon!",
  "text": "We like the moon!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Here is the yogurt. | TYPE=sentence | IPA=hir ɪz ðə ˈjoʊɡərt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Here is the yogurt!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356949.986374,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Here is the yogurt.",
+    "type": "sentence",
+    "ipa": "hir ɪz ðə ˈjoʊɡərt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Here is the yogurt. | TYPE=sentence | IPA=hir ɪz ðə ˈjoʊɡərt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:26",
+ "applied": "2026-10-07 16:32",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +47,7 @@
  "title": "10유닛 스토리북 · 헤지: Here is the yogurt!",
  "text": "Here is the yogurt!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

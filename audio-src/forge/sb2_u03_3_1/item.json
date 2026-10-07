@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=The hen has a pen. | TYPE=sentence | IPA=ðə hɛn hæz ə pɛn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The hen has a pen!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357038.8563242,
+   "sec": 1.53,
+   "check": {
+    "transcript": "The hen has a pen.",
+    "type": "sentence",
+    "ipa": "ðə hɛn hæz ə pɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The hen has a pen. | TYPE=sentence | IPA=ðə hɛn hæz ə pɛn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:54",
+ "applied": "2026-10-07 16:37",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -30,6 +47,7 @@
  "title": "3유닛 스토리북 · 헤지: The hen has a pen!",
  "text": "The hen has a pen!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

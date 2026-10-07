@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=Yes! A bed for Grumble. | TYPE=sentence | IPA=jɛs ə bɛd fɔɹ ˈɡɹʌmbəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Yes! A bed for Grumble.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357047.0205002,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Yes, a bet for Grumble.",
+    "type": "sentence",
+    "ipa": "jɛs ə bɛt fɔɹ ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yes, a bet for Grumble. | TYPE=sentence | IPA=jɛs ə bɛt fɔɹ ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Yes! A bed for Grumble.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358691.4093904,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Yes, a bed for Grumble",
+    "type": "sentence",
+    "ipa": "jɛs ə bɛd fɔːr ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yes, a bed for Grumble | TYPE=sentence | IPA=jɛs ə bɛd fɔːr ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 23:55",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,6 +64,7 @@
  "title": "2권 4유닛 대사 · 헤지: Yes! A bed for Grumble.",
  "text": "Yes! A bed for Grumble.",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

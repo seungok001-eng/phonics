@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=Net ten Net | TYPE=sentence | IPA=nɛt tɛn nɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Net? Ten? Net!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357030.9144866,
+   "sec": 1.9,
+   "check": {
+    "transcript": "Net 10 Net",
+    "type": "sentence",
+    "ipa": "nɛt tɛn nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Net 10 Net | TYPE=sentence | IPA=nɛt tɛn nɛt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Net? Ten? Net!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791358635.4104762,
+   "sec": 1.86,
+   "check": {
+    "transcript": "net 10, net",
+    "type": "sentence",
+    "ipa": "nɛt tɛn, nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net 10, net | TYPE=sentence | IPA=nɛt tɛn, nɛt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 00:34",
+ "applied": "2026-10-07 16:48",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,6 +81,7 @@
  "title": "2권 3유닛 대사 · 핍: Net? Ten? Net!",
  "text": "Net? Ten? Net!",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

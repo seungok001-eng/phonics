@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Rain, can you see the rocket? | TYPE=sentence | IPA=ˈreɪn kən juː ˈsiː ðə ˈɹɑːkɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Rain! Can you see the rocket?",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356873.77504,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Rain, can you see the rocket?",
+    "type": "sentence",
+    "ipa": "ɹeɪn kæn juː siː ðə ɹɑːkɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Rain, can you see the rocket? | TYPE=sentence | IPA=ɹeɪn kæn juː siː ðə ɹɑːkɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:22",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,5 +47,7 @@
  "title": "1권 7유닛 대사 · 헤지: Rain! Can you see the rocket?",
  "text": "Rain! Can you see the rocket?",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

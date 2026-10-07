@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Zip it is up. | TYPE=sentence | IPA=zɪp ɪt ɪz ʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Zip! It is up!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791357102.9041908,
+   "sec": 1.3,
+   "check": {
+    "transcript": "Zip. It is up.",
+    "type": "sentence",
+    "ipa": "zɪp ˈɪt ɪz ˈʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Zip. It is up. | TYPE=sentence | IPA=zɪp ˈɪt ɪz ˈʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:59",
+ "applied": "2026-10-07 16:40",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -30,6 +47,7 @@
  "title": "2권 7유닛 대사 · 헤지: Zip! It is up!",
  "text": "Zip! It is up!",
  "voice": "Puck",
+ "who": "hedgie",
  "book": 2,
  "busy": 0
 }

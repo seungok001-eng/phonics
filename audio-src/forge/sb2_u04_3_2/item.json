@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=It is my bed. | TYPE=sentence | IPA=ɪt ɪz maɪ bɛd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... It is my bed?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791357052.9169257,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Shh. It is my bed.",
+    "type": "sentence",
+    "ipa": "ʃː ˈɪt ɪz maɪ ˈbɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. It is my bed. | TYPE=sentence | IPA=ʃː ˈɪt ɪz maɪ ˈbɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:17",
+ "applied": "2026-10-07 16:38",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -30,6 +47,7 @@
  "title": "4유닛 스토리북 · 그럼블: Shh... It is my bed?",
  "text": "Shh... It is my bed?",
  "voice": "Charon",
+ "who": "grumble",
  "book": 2,
  "busy": 0
 }

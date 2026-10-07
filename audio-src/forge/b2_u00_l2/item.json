@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Look no stones. | TYPE=sentence | IPA=lʊk noʊ stoʊnz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look! No stones!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356987.7983255,
+   "sec": 1.86,
+   "check": {
+    "transcript": "Look, no stones.",
+    "type": "sentence",
+    "ipa": "lʊk noʊ stoʊnz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, no stones. | TYPE=sentence | IPA=lʊk noʊ stoʊnz | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:48",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -30,6 +47,7 @@
  "title": "2권 0유닛 대사 · 번: Look! No stones!",
  "text": "Look! No stones!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

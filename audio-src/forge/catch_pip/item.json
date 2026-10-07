@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=chirp | TYPE=word | IPA=ʧɜːp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Chirp?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791356983.6164134,
+   "sec": 0.88,
+   "check": {
+    "transcript": "chup",
+    "type": "word",
+    "ipa": "tʃʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chup | TYPE=word | IPA=tʃʌp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:31",
+ "applied": "2026-10-07 16:34",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -30,5 +47,7 @@
  "title": "말버릇 · 핍: Chirp?",
  "text": "Chirp?",
  "voice": "Kore",
- "book": 1
+ "who": "pip",
+ "book": 1,
+ "busy": 0
 }

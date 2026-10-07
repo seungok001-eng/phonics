@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=pig zip log box bug | TYPE=sentence | IPA=pɪg zɪp lɒg bɒks bʌg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pig! Zip! Log! Box! Bug!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357175.1829114,
+   "sec": 3.02,
+   "check": {
+    "transcript": "pig, zip, log, box, bug",
+    "type": "sentence",
+    "ipa": "pɪɡ zɪp lɔɡ bɒks bʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pig, zip, log, box, bug | TYPE=sentence | IPA=pɪɡ zɪp lɔɡ bɒks bʌɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:07",
+ "applied": "2026-10-07 16:44",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,6 +47,7 @@
  "title": "2권 11유닛 대사 · 핍: Pig! Zip! Log! Box! Bug!",
  "text": "Pig! Zip! Log! Box! Bug!",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

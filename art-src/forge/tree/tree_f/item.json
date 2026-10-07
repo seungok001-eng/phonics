@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791284133.981308,
+ "updated": 1791357718.210495,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/6e3021bb-29be-4b1e-b192-4bed389c1f6a?Expires=1791305707&KeyName=labs-flow-prod-cdn-key&Signature=Ca-_1og-A6IJs7xgru-BpzTjgaY",
+ "flow_url": "https://flow-content.google/image/9e996f33-05ee-40a3-aa00-310bf26a84ac?Expires=1791379291&KeyName=labs-flow-prod-cdn-key&Signature=LNxysgEDsmyNCVIoELIT5vfaulU",
  "prompt_edited": false,
- "applied": "2026-10-06 19:57",
+ "applied": "2026-10-07 16:24",
  "gen": "",
  "job_type": "image",
  "reference": "tree_a",
@@ -17,8 +17,9 @@
  "kind": "tree",
  "letter": "f",
  "title": "글자나무 F",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a small round electric fan, light blue; a green frog sitting on a lily pad; a silver fork standing upright — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a small round electric fan, light blue; a green frog sitting on a lily pad; a silver fork standing upright — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
  "aspect": "3:4",
  "out": "web/assets/art/tree_f.png",
- "claimed_at": 1791284090.888573
+ "book": 1,
+ "claimed_at": 1791357675.8876297
 }

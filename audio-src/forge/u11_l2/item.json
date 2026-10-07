@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=I see milk and soup. | TYPE=sentence | IPA=aɪ siː mɪlk ənd suːp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see milk and soup!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356958.9567528,
+   "sec": 1.58,
+   "check": {
+    "transcript": "I see milk and soup.",
+    "type": "sentence",
+    "ipa": "aɪ siː mɪlk ənd suːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see milk and soup. | TYPE=sentence | IPA=aɪ siː mɪlk ənd suːp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:27",
+ "applied": "2026-10-07 16:33",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -30,5 +47,7 @@
  "title": "1권 11유닛 대사 · 헤지: I see milk and soup!",
  "text": "I see milk and soup!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

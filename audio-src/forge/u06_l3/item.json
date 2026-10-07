@@ -16,18 +16,55 @@
     "raw": "TRANSCRIPT=An otter and pip. | TYPE=sentence | IPA=ən ˈɑ.tɚ ənd pɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "An otter! And Pip!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356846.7188406,
+   "sec": 1.63,
+   "check": {
+    "transcript": "an order and pep",
+    "type": "sentence",
+    "ipa": "æn ˈɔːdər ənd ˈpɛp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=an order and pep | TYPE=sentence | IPA=æn ˈɔːdər ənd ˈpɛp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "An otter! And Pip!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791358078.1622236,
+   "sec": 2.04,
+   "check": {
+    "transcript": "an otter and pip",
+    "type": "sentence",
+    "ipa": "æn ˈɑtɚ ənd pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=an otter and pip | TYPE=sentence | IPA=æn ˈɑtɚ ənd pɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:09",
+ "applied": "2026-10-07 16:46",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "u06_l3",
  "sub": "line",
- "title": "6유닛 대사 · 헤지: An otter! And Pip!",
+ "title": "1권 6유닛 대사 · 헤지: An otter! And Pip!",
  "text": "An otter! And Pip!",
- "voice": "Puck"
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

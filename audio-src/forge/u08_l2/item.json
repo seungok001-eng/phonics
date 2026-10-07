@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Go seal! Go turtle! | TYPE=sentence | IPA=goʊ ˈsiːəl goʊ ˈtɜːrtəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Go, seal! Go, turtle!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791356890.6238685,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Go Seal, Go Turtle!",
+    "type": "sentence",
+    "ipa": "goʊ sil goʊ ˈtɜrtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go Seal, Go Turtle! | TYPE=sentence | IPA=goʊ sil goʊ ˈtɜrtəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:23",
+ "applied": "2026-10-07 16:29",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "1권 8유닛 대사 · 헤지: Go, seal! Go, turtle!",
  "text": "Go, seal! Go, turtle!",
  "voice": "Puck",
- "book": 1
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
 }

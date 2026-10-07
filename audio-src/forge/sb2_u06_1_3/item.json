@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Ged | TYPE=word | IPA=/ɡɛd/ | NOTE=mispronounced"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Gip! Gip?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357090.871211,
+   "sec": 0.98,
+   "check": {
+    "transcript": "kip kip",
+    "type": "word",
+    "ipa": "kɪp kɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kip kip | TYPE=word | IPA=kɪp kɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 16:40",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -47,6 +64,7 @@
  "title": "6유닛 스토리북 · 핍: Gip! Gip?",
  "text": "Gip! Gip?",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

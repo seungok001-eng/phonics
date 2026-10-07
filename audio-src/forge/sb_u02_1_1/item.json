@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=I see the duck. | TYPE=sentence | IPA=aɪ siː ðə dʌk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see the duck!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791356782.309613,
+   "sec": 1.25,
+   "check": {
+    "transcript": "I see the duck!",
+    "type": "sentence",
+    "ipa": "aɪ siː ðə dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see the duck! | TYPE=sentence | IPA=aɪ siː ðə dʌk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:04",
+ "applied": "2026-10-07 16:24",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -29,5 +46,8 @@
  "sub": "line",
  "title": "2유닛 스토리북 · 번: I see the duck!",
  "text": "I see the duck!",
- "voice": "Leda"
+ "voice": "Leda",
+ "who": "bun",
+ "book": 1,
+ "busy": 0
 }

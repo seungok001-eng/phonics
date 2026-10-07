@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=bug | TYPE=word | IPA=bʌɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/b/ /ʌ/ /g/ bug!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791357166.2443678,
+   "sec": 2.09,
+   "check": {
+    "transcript": "B G-bug",
+    "type": "sentence",
+    "ipa": "biː dʒiː bʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=B G-bug | TYPE=sentence | IPA=biː dʒiː bʌɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:20",
+ "applied": "2026-10-07 16:43",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,6 +47,7 @@
  "title": "10유닛 스토리북 · 비즈: /b/ /ʌ/ /g/ bug!",
  "text": "/b/ /ʌ/ /g/ bug!",
  "voice": "Zephyr",
+ "who": "beads",
  "book": 2,
  "busy": 0
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Uncle, can we go in? | TYPE=sentence | IPA=ˈʌŋkəl, kæn wi ɡoʊ ɪn? | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Uncle! Can we go in?",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791356898.0538373,
+   "sec": 1.76,
+   "check": {
+    "transcript": "uncle can we go in",
+    "type": "sentence",
+    "ipa": "ˈʌŋkəl kɛn wi ˈgoʊ ˈɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uncle can we go in | TYPE=sentence | IPA=ˈʌŋkəl kɛn wi ˈgoʊ ˈɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:23",
+ "applied": "2026-10-07 16:30",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -30,5 +47,7 @@
  "title": "1권 8유닛 대사 · 함께: Uncle! Can we go in?",
  "text": "Uncle! Can we go in?",
  "voice": "Kore",
- "book": 1
+ "who": "both",
+ "book": 1,
+ "busy": 0
 }

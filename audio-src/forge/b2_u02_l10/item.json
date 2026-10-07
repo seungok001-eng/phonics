@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=pack | TYPE=word | IPA=pæk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pac!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791357016.915951,
+   "sec": 0.79,
+   "check": {
+    "transcript": "uck",
+    "type": "word",
+    "ipa": "ʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uck | TYPE=word | IPA=ʌk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:15",
+ "applied": "2026-10-07 16:36",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,6 +47,7 @@
  "title": "2권 2유닛 대사 · 핍: Pac!",
  "text": "Pac!",
  "voice": "Aoede",
+ "who": "pip",
  "book": 2,
  "busy": 0
 }

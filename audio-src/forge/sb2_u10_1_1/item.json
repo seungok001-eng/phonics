@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Look, a bug on the rug. | TYPE=sentence | IPA=lʊk ə bʌɡ ɒn ðə rʌɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Look! A bug on the rug!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791357163.0323198,
+   "sec": 1.81,
+   "check": {
+    "transcript": "Look, a bug on the rug!",
+    "type": "sentence",
+    "ipa": "lʊk ə bʌɡ ɒn ðə ɹʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a bug on the rug! | TYPE=sentence | IPA=lʊk ə bʌɡ ɒn ðə ɹʌɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:06",
+ "applied": "2026-10-07 16:43",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,6 +47,7 @@
  "title": "10유닛 스토리북 · 번: Look! A bug on the rug!",
  "text": "Look! A bug on the rug!",
  "voice": "Leda",
+ "who": "bun",
  "book": 2,
  "busy": 0
 }

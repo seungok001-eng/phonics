@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286173.7275085,
+ "updated": 1791358050.4461694,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/c926bf77-48ab-41a3-9cc6-daf0fbd9dac0?Expires=1791307749&KeyName=labs-flow-prod-cdn-key&Signature=AQ86SGQFns3FFqLTPsFn8sjIXy8",
+ "flow_url": "https://flow-content.google/image/3a168a78-eb31-406e-8646-88721b558674?Expires=1791379627&KeyName=labs-flow-prod-cdn-key&Signature=9JP4530prv8FNEQ4ah_u8ZnwoYY",
  "prompt_edited": false,
- "applied": "2026-10-06 20:33",
+ "applied": "2026-10-07 16:29",
  "gen": "",
  "job_type": "image",
  "reference": "tree_a",
@@ -17,8 +17,9 @@
  "kind": "tree",
  "letter": "v",
  "title": "글자나무 V",
- "prompt": "Children's picture-book illustration, hand-drawn 2D style, thick soft dark-brown outlines, flat bright cheerful colors with a light paper texture and gentle watercolor shading, rounded friendly shapes. No photo-realism, no 3D render look. Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a kind owl veterinarian in a white coat and round glasses holding a puppy; a blue knitted vest; a small volcano with orange lava erupting from the top — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A round, friendly storybook letter tree with a thick short trunk and a big round leafy green crown, standing alone. Three fruits hang from its branches like apples on strings: a kind owl veterinarian in a white coat and round glasses holding a puppy; a blue knitted vest; a small volcano with orange lava erupting from the top — each drawn small, clearly recognizable, hanging from a branch. On the trunk hangs a small BLANK wooden sign with absolutely nothing written on it (the sign is empty). Plain pure white background, no ground, no shadow, nothing else. Absolutely no letters, text, numbers or symbols anywhere. Same tree style as the attached reference image: same trunk, crown shape, colors and blank sign — only the three fruits are different.",
  "aspect": "3:4",
  "out": "web/assets/art/tree_v.png",
- "claimed_at": 1791286133.3873835
+ "book": 1,
+ "claimed_at": 1791358010.88905
 }

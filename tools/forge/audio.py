@@ -131,3 +131,22 @@ def mix(srcs, dst):
     args = []
     for s_ in srcs: args += ['-i', s_]
     run(args + ['-filter_complex', f'amix=inputs={len(srcs)}:duration=longest:normalize=0,volume=0.8', '-ar', '24000', '-ac', '1', dst])
+
+
+def pitch_up(src, dst, factor=1.18):
+    """낱소리(어른 목소리)를 아이 목소리 높이로: 음 높이만 올리고 길이는 그대로."""
+    run(['-i', src, '-af', f'asetrate=24000*{factor},aresample=24000,atempo={1 / factor:.4f},loudnorm=I=-18:TP=-2', '-ar', '24000', '-ac', '1', dst])
+
+
+def norm_wav(src, dst):
+    run(['-i', src, '-af', 'loudnorm=I=-18:TP=-2', '-ar', '24000', '-ac', '1', dst])
+
+
+def silence(dst, sec=0.22):
+    run(['-f', 'lavfi', '-i', f'anullsrc=r=24000:cl=mono', '-t', str(sec), dst])
+
+
+def concat(srcs, dst):
+    args = []
+    for s_ in srcs: args += ['-i', s_]
+    run(args + ['-filter_complex', ''.join(f'[{i}:a]' for i in range(len(srcs))) + f'concat=n={len(srcs)}:v=0:a=1', '-ar', '24000', '-ac', '1', dst])
