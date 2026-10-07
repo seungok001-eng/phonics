@@ -102,22 +102,36 @@
           {
             "who": "hedgie",
             "text": "We like the moon!",
-            "audio": "u06_l1"
+            "audio": "u06_l1",
+            "ko": "우린 달이 좋아!"
           },
           {
             "who": "bun",
             "text": "Milk! /m/ /m/ milk!",
             "audio": "u06_l2",
-            "pop": "m"
+            "pop": "m",
+            "ko": "우유! /m/ /m/ 우유!"
           },
           {
             "who": "pip",
             "text": "M!",
             "audio": "name_m",
-            "sfx": "chime"
+            "sfx": "chime",
+            "ko": "엠!"
           }
         ],
-        "video": "vid_u06_1"
+        "video": "vid_u06_1",
+        "ko": "달이 웃고 있어요. 원숭이가 씨앗을 꼭 쥐고 있어서 번이 우유를 줘요. 큰 화분 속에 그럼블이 숨었어요.",
+        "ask": [
+          {
+            "en": "What is in the sky?",
+            "ko": "하늘에 뭐가 있어?"
+          },
+          {
+            "en": "What is poking out of the pot?",
+            "ko": "화분에서 뭐가 삐죽 나왔어?"
+          }
+        ]
       },
       {
         "id": "scene_u06_2",
@@ -131,18 +145,32 @@
           {
             "who": "hedgie",
             "text": "An otter! And Pip!",
-            "audio": "u06_l3"
+            "audio": "u06_l3",
+            "ko": "수달! 그리고 핍!"
           },
           {
             "who": "narrator",
             "text": "Pip is in the net!",
-            "audio": "u06_l4"
+            "audio": "u06_l4",
+            "ko": "핍이 그물에 걸렸어요!"
           },
           {
             "who": "bun",
             "text": "/n/ /n/ net!",
             "audio": "u06_l5",
-            "pop": "n"
+            "pop": "n",
+            "ko": "/n/ /n/ 그물!"
+          }
+        ],
+        "ko": "수달이 그물에 걸렸어요. 핍도 같이 걸려 거꾸로 매달렸어요! 별 아홉 개가 반짝여요.",
+        "ask": [
+          {
+            "en": "Who is in the net?",
+            "ko": "그물에 누가 걸렸어?"
+          },
+          {
+            "en": "How many stars?",
+            "ko": "별이 몇 개야?"
           }
         ]
       },
@@ -158,21 +186,35 @@
           {
             "who": "bun",
             "text": "An octopus!",
-            "audio": "u06_l6"
+            "audio": "u06_l6",
+            "ko": "문어다!"
           },
           {
             "who": "hedgie",
             "text": "It is on my nose!",
-            "audio": "u06_l7"
+            "audio": "u06_l7",
+            "ko": "내 코에 묻었어!"
           },
           {
             "who": "bun",
             "text": "/o/ /o/ octopus!",
             "audio": "u06_l8",
-            "pop": "o"
+            "pop": "o",
+            "ko": "/o/ /o/ 문어!"
           }
         ],
-        "video": "vid_u06_2"
+        "video": "vid_u06_2",
+        "ko": "문어가 잉크를 뿜어서 헤지 코가 까매졌어요. 화분이 넘어져 그럼블 슬리퍼가 삐죽!",
+        "ask": [
+          {
+            "en": "What is on Hedgie's nose?",
+            "ko": "헤지 코에 뭐가 묻었어?"
+          },
+          {
+            "en": "What fell over?",
+            "ko": "뭐가 넘어졌어?"
+          }
+        ]
       },
       {
         "id": "scene_u06_4",
@@ -185,21 +227,38 @@
           {
             "who": "hedgie",
             "text": "Nine stars!",
-            "audio": "u06_l9"
+            "audio": "u06_l9",
+            "ko": "별 아홉 개!"
           },
           {
             "who": "both",
             "text": "We like the moon!",
-            "audio": "u06_l10"
+            "audio": "u06_l10",
+            "ko": "우린 달이 좋아!"
           },
           {
             "who": "grumble",
             "text": "Shh! It is my pot!",
-            "audio": "u06_l11"
+            "audio": "u06_l11",
+            "ko": "쉿! 내 화분이야!"
+          }
+        ],
+        "ko": "M·N·O 나무가 별빛 아래 빛나요. 그럼블이 흙투성이로 화분에서 나왔어요. 등불이 확실히 밝아졌어요.",
+        "ask": [
+          {
+            "en": "How many new trees?",
+            "ko": "새 나무가 몇 그루야?"
+          },
+          {
+            "en": "Is Grumble clean or dirty?",
+            "ko": "그럼블은 깨끗해, 더러워?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "둘째 정원은 밤이에요. 원숭이에게 우유를 주고, 그물에 걸린 수달(과 핍!)을 꺼내고, 문어가 잉크를 뿜어요. 화분에 숨은 그럼블은 데굴 굴러 나왔어요. 별 아홉 개가 길을 비춰요.",
+    "so_far_ko": "첫 정원 산책에서 열두 나무를 복습했어요. 그럼블의 모자 작전은 실패했어요.",
+    "goal_ko": "밤 정원에서 씨앗 세 개를 찾아 M·N·O 나무를 키워요."
   },
   "videos": [
     {
@@ -399,21 +458,25 @@
           {
             "who": "hedgie",
             "text": "We like the moon!",
-            "audio": "sb_u06_1_1"
+            "audio": "sb_u06_1_1",
+            "ko": "우린 달이 좋아!"
           },
           {
             "who": "bun",
             "text": "Milk! /m/ /m/ milk! Pop!",
-            "audio": "sb_u06_1_2"
+            "audio": "sb_u06_1_2",
+            "ko": "우유! /m/ /m/ 우유! 펑!"
           },
           {
             "who": "narrator",
             "text": "Shh... A pot glows?",
-            "audio": "sb_u06_1_3"
+            "audio": "sb_u06_1_3",
+            "ko": "쉿… 화분이 빛나요?"
           }
         ],
         "task": "Find the m things!",
-        "task_ko": "m으로 시작하는 것을 찾아요"
+        "task_ko": "m으로 시작하는 것을 찾아요",
+        "ko": "밤의 정원이에요. 달, 씨앗을 안은 원숭이, 우유. 화분 속에 숨은 그럼블의 모자 끝과 불빛이 보여요."
       },
       {
         "id": "sb_u06_2",
@@ -422,21 +485,25 @@
           {
             "who": "hedgie",
             "text": "An otter! And Pip!",
-            "audio": "sb_u06_2_1"
+            "audio": "sb_u06_2_1",
+            "ko": "수달! 그리고 핍!"
           },
           {
             "who": "narrator",
             "text": "Pip is in the net!",
-            "audio": "sb_u06_2_2"
+            "audio": "sb_u06_2_2",
+            "ko": "핍이 그물에 걸렸어요!"
           },
           {
             "who": "bun",
             "text": "/n/ /n/ net! Pop!",
-            "audio": "sb_u06_2_3"
+            "audio": "sb_u06_2_3",
+            "ko": "/n/ /n/ 그물! 펑!"
           }
         ],
         "task": "Find the n things!",
-        "task_ko": "n으로 시작하는 것을 찾아요"
+        "task_ko": "n으로 시작하는 것을 찾아요",
+        "ko": "그물에 걸린 수달, 거꾸로 같이 걸린 핍. 별 아홉 개가 반짝여요."
       },
       {
         "id": "sb_u06_3",
@@ -445,21 +512,25 @@
           {
             "who": "bun",
             "text": "/o/ /o/ octopus! Pop!",
-            "audio": "sb_u06_3_1"
+            "audio": "sb_u06_3_1",
+            "ko": "/o/ /o/ 문어! 펑!"
           },
           {
             "who": "grumble",
             "text": "Shh! It is my pot!",
-            "audio": "sb_u06_3_2"
+            "audio": "sb_u06_3_2",
+            "ko": "쉿! 내 화분이야!"
           },
           {
             "who": "narrator",
             "text": "Who is under the quilt?",
-            "audio": "sb_u06_3_3"
+            "audio": "sb_u06_3_3",
+            "ko": "이불 밑엔 누가 있을까요?"
           }
         ],
         "task": "Find the o things!",
-        "task_ko": "o로 시작하는 것을 찾아요"
+        "task_ko": "o로 시작하는 것을 찾아요",
+        "ko": "문어가 잉크를 뿜어 헤지 코가 까매지고 그럼블 화분이 넘어져요. 등불은 확실히 밝아졌어요."
       }
     ]
   }

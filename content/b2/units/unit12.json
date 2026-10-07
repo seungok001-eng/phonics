@@ -455,8 +455,10 @@
         "line": {
           "who": "beads",
           "text": "Click-clack! Hi, Pip!",
-          "audio": "b2_u00_l5"
-        }
+          "audio": "b2_u00_l5",
+          "ko": "딸깍딸깍! 안녕, 핍!"
+        },
+        "ko": "친구들이 단어 연못에 닿아 비즈를 만났어요."
       },
       {
         "unit": 1,
@@ -464,8 +466,10 @@
         "line": {
           "who": "pip",
           "text": "Tac! Tac?",
-          "audio": "b2_u01_l2"
-        }
+          "audio": "b2_u01_l2",
+          "ko": "탁! 탁?"
+        },
+        "ko": "핍은 \"캣\"을 거꾸로 \"탁!\" 비즈가 첫 징검돌을 만들었어요."
       },
       {
         "unit": 2,
@@ -473,8 +477,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh! It is my cap!",
-          "audio": "b2_u02_l9"
-        }
+          "audio": "b2_u02_l9",
+          "ko": "쉿! 내 모자야!"
+        },
+        "ko": "떠내려간 모자를 되찾았는데 그럼블이 쓰고 있었어요!"
       },
       {
         "unit": 3,
@@ -482,8 +488,10 @@
         "line": {
           "who": "pip",
           "text": "Net? Ten? Net!",
-          "audio": "b2_u03_l9"
-        }
+          "audio": "b2_u03_l9",
+          "ko": "넷? 텐? 넷! (그물!)"
+        },
+        "ko": "암탉 열 마리! 핍이 \"넷\"을 바로 말했어요."
       },
       {
         "unit": 4,
@@ -491,8 +499,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh... It is my bed?",
-          "audio": "b2_u04_l9"
-        }
+          "audio": "b2_u04_l9",
+          "ko": "쉿… 이거 내 침대야?"
+        },
+        "ko": "다리 다친 그럼블에게 침대를 만들어 줬어요."
       },
       {
         "unit": 5,
@@ -500,8 +510,10 @@
         "line": {
           "who": "pip",
           "text": "Cat! Cat! CAT!",
-          "audio": "b2_u05_l7"
-        }
+          "audio": "b2_u05_l7",
+          "ko": "캣! 캣! 캣! (고양이!)"
+        },
+        "ko": "핍의 첫 단어 \"캣!\""
       },
       {
         "unit": 6,
@@ -509,8 +521,10 @@
         "line": {
           "who": "both",
           "text": "The pig can win!",
-          "audio": "b2_u06_l8"
-        }
+          "audio": "b2_u06_l8",
+          "ko": "돼지가 이길 수 있어!"
+        },
+        "ko": "커다란 돼지가 큰 돌을 건너 이겼어요."
       },
       {
         "unit": 7,
@@ -518,8 +532,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh... Can I sit?",
-          "audio": "b2_u07_l9"
-        }
+          "audio": "b2_u07_l9",
+          "ko": "쉿… 나도 앉아도 돼?"
+        },
+        "ko": "그럼블이 처음으로 친구들 옆에 앉았어요."
       },
       {
         "unit": 8,
@@ -527,8 +543,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh... Go to the dot.",
-          "audio": "b2_u08_l7"
-        }
+          "audio": "b2_u08_l7",
+          "ko": "쉿… 불빛 쪽으로 와."
+        },
+        "ko": "안개 속 등불을 따라갔어요."
       },
       {
         "unit": 9,
@@ -536,8 +554,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh... I like it.",
-          "audio": "b2_u09_l9"
-        }
+          "audio": "b2_u09_l9",
+          "ko": "쉿… 나 이거 좋아."
+        },
+        "ko": "여우에게서 상자를 되찾고 그럼블이 웃었어요."
       },
       {
         "unit": 10,
@@ -545,8 +565,10 @@
         "line": {
           "who": "narrator",
           "text": "Pip can sing!",
-          "audio": "b2_u10_l9"
-        }
+          "audio": "b2_u10_l9",
+          "ko": "핍이 노래해요!"
+        },
+        "ko": "다리가 완성되고 핍이 노래했어요."
       },
       {
         "unit": 11,
@@ -554,8 +576,10 @@
         "line": {
           "who": "narrator",
           "text": "Sh... sh... Sh... sh...",
-          "audio": "b2_u11_l10"
-        }
+          "audio": "b2_u11_l10",
+          "ko": "쉬… 쉬… 쉬… 쉬…"
+        },
+        "ko": "숲에서 같은 소리가 두 번 들렸어요."
       }
     ],
     "certificate": {
@@ -634,21 +658,38 @@
           {
             "who": "narrator",
             "text": "Look! The Word Show!",
-            "audio": "b2_u12_l1"
+            "audio": "b2_u12_l1",
+            "ko": "봐요! 단어 쇼예요!"
           },
           {
             "who": "both",
             "text": "We can read!",
-            "audio": "b2_u12_l2"
+            "audio": "b2_u12_l2",
+            "ko": "우리는 읽을 수 있어요!"
           },
           {
             "who": "beads",
             "text": "Click-clack! Cat, pig, bug!",
-            "audio": "b2_u12_l3"
+            "audio": "b2_u12_l3",
+            "ko": "딸깍딸깍! 고양이, 돼지, 벌레!"
+          }
+        ],
+        "ko": "연잎 무대에서 핍이 노래해요. 그럼블은 냄비 북을 둥둥, 비즈는 지휘, 번과 헤지는 춤을 춰요.",
+        "ask": [
+          {
+            "en": "Who is on the stage?",
+            "ko": "무대에 누가 있어?"
+          },
+          {
+            "en": "What does Beads hold?",
+            "ko": "비즈가 뭘 들고 있어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "연잎 무대에서 단어 쇼가 열려요. 핍이 단어 노래를 부르고 그럼블이 냄비 북을 쳐요. 비즈가 구슬 줄로 지휘해요. 징검돌이 모두 빛나요.",
+    "so_far_ko": "연못 파티에서 그럼블이 북을 쳤고, 숲에서 같은 소리가 두 번 들렸어요.",
+    "goal_ko": "단어 노래를 부르고, 이야기를 되짚고, 수료증을 받아요."
   },
   "videos": [],
   "storybook": {

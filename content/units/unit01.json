@@ -104,22 +104,36 @@
           {
             "who": "bun",
             "text": "I see an apple!",
-            "audio": "u01_l1"
+            "audio": "u01_l1",
+            "ko": "사과가 보여!"
           },
           {
             "who": "pip",
             "text": "A!",
             "audio": "name_a",
-            "sfx": "chime"
+            "sfx": "chime",
+            "ko": "에이!"
           },
           {
             "who": "hedgie",
             "text": "/a/ /a/ apple!",
             "audio": "u01_l3",
-            "pop": "a"
+            "pop": "a",
+            "ko": "/a/ /a/ 사과!"
           }
         ],
-        "video": "vid_u01_1"
+        "video": "vid_u01_1",
+        "ko": "사과 바구니 속에 반짝이는 씨앗이 있어요. 번이 사과를 보고, 헤지가 /a/ 소리를 말해요.",
+        "ask": [
+          {
+            "en": "What is in the basket?",
+            "ko": "바구니 안에 뭐가 있어?"
+          },
+          {
+            "en": "What color is the apple?",
+            "ko": "사과는 무슨 색이야?"
+          }
+        ]
       },
       {
         "id": "scene_u01_2",
@@ -133,16 +147,29 @@
           {
             "who": "bun",
             "text": "I see a bus!",
-            "audio": "u01_l4"
+            "audio": "u01_l4",
+            "ko": "버스가 보여!"
           },
           {
             "who": "hedgie",
             "text": "/b/ /b/ bus!",
             "audio": "u01_l5",
-            "pop": "b"
+            "pop": "b",
+            "ko": "/b/ /b/ 버스!"
           }
         ],
-        "video": "vid_u01_2"
+        "video": "vid_u01_2",
+        "ko": "사과나무가 펑 하고 자랐어요! 이번엔 버스 지붕에 씨앗이 있어요. /b/ /b/ 버스!",
+        "ask": [
+          {
+            "en": "Where is the seed?",
+            "ko": "씨앗은 어디 있어?"
+          },
+          {
+            "en": "What is new in the garden?",
+            "ko": "정원에 새로 생긴 건 뭐야?"
+          }
+        ]
       },
       {
         "id": "scene_u01_3",
@@ -156,13 +183,26 @@
           {
             "who": "hedgie",
             "text": "I see a cat.",
-            "audio": "u01_l6"
+            "audio": "u01_l6",
+            "ko": "고양이가 보여."
           },
           {
             "who": "bun",
             "text": "/k/ /k/ cat!",
             "audio": "u01_l7",
-            "pop": "c"
+            "pop": "c",
+            "ko": "/k/ /k/ 고양이!"
+          }
+        ],
+        "ko": "컵 모양 화분 속에서 고양이가 자고 있어요. 등에 씨앗이 있어요. 헤지가 살금살금 다가가요.",
+        "ask": [
+          {
+            "en": "What is the cat doing?",
+            "ko": "고양이는 뭘 하고 있어?"
+          },
+          {
+            "en": "Who is tiptoeing?",
+            "ko": "누가 살금살금 걸어?"
           }
         ]
       },
@@ -179,21 +219,38 @@
             "who": "both",
             "text": "A! B! C!",
             "audio": "u01_l10",
-            "sfx": "chime"
+            "sfx": "chime",
+            "ko": "에이! 비! 시!"
           },
           {
             "who": "grumble",
             "text": "Shh!",
-            "audio": "u01_l8"
+            "audio": "u01_l8",
+            "ko": "쉿!"
           },
           {
             "who": "both",
             "text": "A raccoon!",
-            "audio": "u01_l9"
+            "audio": "u01_l9",
+            "ko": "너구리다!"
+          }
+        ],
+        "ko": "A, B, C 나무 세 그루가 섰어요. 그런데 나무 뒤에서 너구리 할아버지가 \"쉿!\" 해요. 등불이 아주 작게 켜져 있어요.",
+        "ask": [
+          {
+            "en": "How many trees?",
+            "ko": "나무가 몇 그루야?"
+          },
+          {
+            "en": "Who says Shh?",
+            "ko": "누가 \"쉿!\" 했어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "사과 바구니, 장난감 버스, 고양이 등에서 씨앗 세 개를 찾았어요. 친구들이 /a/ /b/ /k/ 소리를 말하자 펑! 글자나무가 자랐어요. 그런데 나무 뒤에서 \"쉿!\" 하는 소리가 났어요.",
+    "so_far_ko": "번과 헤지가 소리 정원에서 노래를 잃은 핍을 만났어요.",
+    "goal_ko": "씨앗 세 개를 찾아 소리를 말하고 A·B·C 나무를 키워요."
   },
   "videos": [
     {
@@ -393,21 +450,25 @@
           {
             "who": "bun",
             "text": "I see an apple!",
-            "audio": "sb_u01_1_1"
+            "audio": "sb_u01_1_1",
+            "ko": "사과가 보여!"
           },
           {
             "who": "hedgie",
             "text": "/a/ /a/ apple!",
-            "audio": "sb_u01_1_2"
+            "audio": "sb_u01_1_2",
+            "ko": "/a/ /a/ 사과!"
           },
           {
             "who": "narrator",
             "text": "Pop! A tree!",
-            "audio": "sb_u01_1_3"
+            "audio": "sb_u01_1_3",
+            "ko": "펑! 나무다!"
           }
         ],
         "task": "Find the a things!",
-        "task_ko": "a로 시작하는 것을 찾아요"
+        "task_ko": "a로 시작하는 것을 찾아요",
+        "ko": "사과 바구니 속에 씨앗이 빛나요. 번이 가리키고 헤지가 /a/를 말하니 펑! 나무가 자랐어요."
       },
       {
         "id": "sb_u01_2",
@@ -416,21 +477,25 @@
           {
             "who": "bun",
             "text": "A bus! /b/ /b/ bus!",
-            "audio": "sb_u01_2_1"
+            "audio": "sb_u01_2_1",
+            "ko": "버스! /b/ /b/ 버스!"
           },
           {
             "who": "hedgie",
             "text": "A cat! /k/ /k/ cat!",
-            "audio": "sb_u01_2_2"
+            "audio": "sb_u01_2_2",
+            "ko": "고양이! /k/ /k/ 고양이!"
           },
           {
             "who": "narrator",
             "text": "Pop! Pop!",
-            "audio": "sb_u01_2_3"
+            "audio": "sb_u01_2_3",
+            "ko": "펑! 펑!"
           }
         ],
         "task": "Find the b and c things!",
-        "task_ko": "b와 c로 시작하는 것을 찾아요"
+        "task_ko": "b와 c로 시작하는 것을 찾아요",
+        "ko": "버스 지붕과 컵 화분 속 고양이 등에 씨앗이 있어요. /b/ /b/ 버스! /k/ /k/ 고양이! 펑펑!"
       },
       {
         "id": "sb_u01_3",
@@ -439,21 +504,25 @@
           {
             "who": "both",
             "text": "A! B! C!",
-            "audio": "sb_u01_3_1"
+            "audio": "sb_u01_3_1",
+            "ko": "에이! 비! 시!"
           },
           {
             "who": "grumble",
             "text": "Shh!",
-            "audio": "sb_u01_3_2"
+            "audio": "sb_u01_3_2",
+            "ko": "쉿!"
           },
           {
             "who": "narrator",
             "text": "Who is that?",
-            "audio": "sb_u01_3_3"
+            "audio": "sb_u01_3_3",
+            "ko": "저건 누구일까요?"
           }
         ],
         "task": "Find Grumble!",
-        "task_ko": "그럼블을 찾아요"
+        "task_ko": "그럼블을 찾아요",
+        "ko": "나무 세 그루가 섰어요. 나무 뒤에서 그럼블이 '쉿!' 해요. 등불은 아주 작은 불꽃이에요."
       }
     ]
   }

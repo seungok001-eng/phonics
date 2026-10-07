@@ -102,21 +102,35 @@
           {
             "who": "bun",
             "text": "I see the duck!",
-            "audio": "u02_l1"
+            "audio": "u02_l1",
+            "ko": "오리가 보여!"
           },
           {
             "who": "hedgie",
             "text": "The seed is on the duck.",
-            "audio": "u02_l2"
+            "audio": "u02_l2",
+            "ko": "씨앗이 오리 등에 있어."
           },
           {
             "who": "bun",
             "text": "/d/ /d/ duck!",
             "audio": "u02_l3",
-            "pop": "d"
+            "pop": "d",
+            "ko": "/d/ /d/ 오리!"
           }
         ],
-        "video": "vid_u02_1"
+        "video": "vid_u02_1",
+        "ko": "오리가 연못에 떠 있어요. 등에 씨앗이 반짝여요. 번과 헤지가 가리켜요.",
+        "ask": [
+          {
+            "en": "Where is the seed?",
+            "ko": "씨앗은 어디 있어?"
+          },
+          {
+            "en": "What is on the pond?",
+            "ko": "연못에 뭐가 떠 있어?"
+          }
+        ]
       },
       {
         "id": "scene_u02_2",
@@ -130,13 +144,26 @@
           {
             "who": "hedgie",
             "text": "The egg is a seed!",
-            "audio": "u02_l4"
+            "audio": "u02_l4",
+            "ko": "달걀이 씨앗이야!"
           },
           {
             "who": "bun",
             "text": "/e/ /e/ egg!",
             "audio": "u02_l5",
-            "pop": "e"
+            "pop": "e",
+            "ko": "/e/ /e/ 달걀!"
+          }
+        ],
+        "ko": "둥지 속 알 하나가 금빛으로 빛나요. 그 알이 씨앗이에요!",
+        "ask": [
+          {
+            "en": "How many eggs?",
+            "ko": "알이 몇 개야?"
+          },
+          {
+            "en": "Which egg is the seed?",
+            "ko": "어느 알이 씨앗이야?"
           }
         ]
       },
@@ -152,16 +179,29 @@
           {
             "who": "grumble",
             "text": "Shh! Oh no!",
-            "audio": "u02_l6"
+            "audio": "u02_l6",
+            "ko": "쉿! 어어!"
           },
           {
             "who": "both",
             "text": "The frog! /f/ /f/ frog!",
             "audio": "u02_l7",
-            "pop": "f"
+            "pop": "f",
+            "ko": "개구리! /f/ /f/ 개구리!"
           }
         ],
-        "video": "vid_u02_2"
+        "video": "vid_u02_2",
+        "ko": "개구리 머리에 씨앗이 있어요. 그럼블이 살금살금 오다가 연못가에서 휘청! 친구들이 붙잡아요.",
+        "ask": [
+          {
+            "en": "Who is wobbling?",
+            "ko": "누가 휘청거려?"
+          },
+          {
+            "en": "What is on the frog's head?",
+            "ko": "개구리 머리에 뭐가 있어?"
+          }
+        ]
       },
       {
         "id": "scene_u02_4",
@@ -171,16 +211,32 @@
           {
             "who": "hedgie",
             "text": "The raccoon is wet!",
-            "audio": "u02_l8"
+            "audio": "u02_l8",
+            "ko": "너구리가 흠뻑 젖었어!"
           },
           {
             "who": "grumble",
             "text": "Shh... Thank you.",
-            "audio": "u02_l9"
+            "audio": "u02_l9",
+            "ko": "쉿… 고마워."
+          }
+        ],
+        "ko": "친구들이 흠뻑 젖은 그럼블을 건져 주었어요. 그럼블이 작게 \"고마워\" 해요. 핍이 나뭇잎 우산을 줘요.",
+        "ask": [
+          {
+            "en": "Is Grumble wet or dry?",
+            "ko": "그럼블은 젖었어, 말랐어?"
+          },
+          {
+            "en": "What does Pip give him?",
+            "ko": "핍이 뭘 줬어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "오리 연못에 씨앗이 있어요. 오리 등, 둥지 속 알, 개구리 머리 위에요. 그럼블이 몰래 다가오다 연못에 풍덩! 친구들이 건져 주었어요.",
+    "so_far_ko": "친구들이 A·B·C 나무를 키웠어요. 너구리 그럼블이 \"쉿!\" 하고 나타났어요.",
+    "goal_ko": "연못에서 씨앗 세 개를 찾아 D·E·F 나무를 키워요."
   },
   "videos": [
     {
@@ -380,21 +436,25 @@
           {
             "who": "bun",
             "text": "I see the duck!",
-            "audio": "sb_u02_1_1"
+            "audio": "sb_u02_1_1",
+            "ko": "오리가 보여!"
           },
           {
             "who": "hedgie",
             "text": "The seed is on the duck.",
-            "audio": "sb_u02_1_2"
+            "audio": "sb_u02_1_2",
+            "ko": "씨앗이 오리 등에 있어."
           },
           {
             "who": "bun",
             "text": "/d/ /d/ duck! Pop!",
-            "audio": "sb_u02_1_3"
+            "audio": "sb_u02_1_3",
+            "ko": "/d/ /d/ 오리! 펑!"
           }
         ],
         "task": "Find the d things!",
-        "task_ko": "d로 시작하는 것을 찾아요"
+        "task_ko": "d로 시작하는 것을 찾아요",
+        "ko": "오리 연못이에요. 오리 등에 씨앗이 있어요. 덤불 뒤에서 그럼블이 살금살금 다가와요."
       },
       {
         "id": "sb_u02_2",
@@ -403,21 +463,25 @@
           {
             "who": "hedgie",
             "text": "The egg is a seed!",
-            "audio": "sb_u02_2_1"
+            "audio": "sb_u02_2_1",
+            "ko": "달걀이 씨앗이야!"
           },
           {
             "who": "bun",
             "text": "/e/ /e/ egg! Pop!",
-            "audio": "sb_u02_2_2"
+            "audio": "sb_u02_2_2",
+            "ko": "/e/ /e/ 달걀! 펑!"
           },
           {
             "who": "narrator",
             "text": "Oh no! Grumble!",
-            "audio": "sb_u02_2_3"
+            "audio": "sb_u02_2_3",
+            "ko": "어떡해! 그럼블!"
           }
         ],
         "task": "Find the e things!",
-        "task_ko": "e로 시작하는 것을 찾아요"
+        "task_ko": "e로 시작하는 것을 찾아요",
+        "ko": "둥지 속 알이 빛나요. /e/ /e/ 달걀! 그럼블은 연못가에서 휘청거려요."
       },
       {
         "id": "sb_u02_3",
@@ -426,21 +490,25 @@
           {
             "who": "both",
             "text": "/f/ /f/ frog! Pop!",
-            "audio": "sb_u02_3_1"
+            "audio": "sb_u02_3_1",
+            "ko": "/f/ /f/ 개구리! 펑!"
           },
           {
             "who": "grumble",
             "text": "Shh... Thank you.",
-            "audio": "sb_u02_3_2"
+            "audio": "sb_u02_3_2",
+            "ko": "쉿… 고마워."
           },
           {
             "who": "narrator",
             "text": "Is Grumble a friend?",
-            "audio": "sb_u02_3_3"
+            "audio": "sb_u02_3_3",
+            "ko": "그럼블은 친구일까요?"
           }
         ],
         "task": "Find the f things!",
-        "task_ko": "f로 시작하는 것을 찾아요"
+        "task_ko": "f로 시작하는 것을 찾아요",
+        "ko": "풍덩! 머리에 개구리를 얹은 그럼블을 친구들이 건져 줘요. 젖은 등불이 조금 더 밝아졌어요."
       }
     ]
   }

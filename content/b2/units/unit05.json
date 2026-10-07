@@ -356,17 +356,31 @@
           {
             "who": "hedgie",
             "text": "The cat and the hen!",
-            "audio": "b2_u05_l1"
+            "audio": "b2_u05_l1",
+            "ko": "고양이하고 암탉!"
           },
           {
             "who": "narrator",
             "text": "Cat, hat, bat, mat, rat!",
-            "audio": "b2_u05_l2"
+            "audio": "b2_u05_l2",
+            "ko": "고양이, 모자, 방망이, 매트, 쥐!"
           },
           {
             "who": "beads",
             "text": "Click-clack! Can, fan, pan, van!",
-            "audio": "b2_u05_l3"
+            "audio": "b2_u05_l3",
+            "ko": "딸깍딸깍! 깡통, 선풍기, 프라이팬, 밴!"
+          }
+        ],
+        "ko": "아침 산책. 돌 여덟 줄을 세요. 고양이, 암탉, 강아지가 줄지어 따라와요.",
+        "ask": [
+          {
+            "en": "Who follows the friends?",
+            "ko": "누가 따라와?"
+          },
+          {
+            "en": "What is on the stones?",
+            "ko": "돌에 뭐가 그려져 있어?"
           }
         ]
       },
@@ -383,17 +397,31 @@
           {
             "who": "pip",
             "text": "Tac... tac...",
-            "audio": "b2_u05_l4"
+            "audio": "b2_u05_l4",
+            "ko": "탁… 탁…"
           },
           {
             "who": "beads",
             "text": "/k/... /æ/... /t/...",
-            "audio": "b2_u05_l5"
+            "audio": "b2_u05_l5",
+            "ko": "/k/… /æ/… /t/…"
           },
           {
             "who": "narrator",
             "text": "Pip tries. Pip tries.",
-            "audio": "b2_u05_l6"
+            "audio": "b2_u05_l6",
+            "ko": "핍이 해 봐요. 또 해 봐요."
+          }
+        ],
+        "ko": "핍이 고양이 돌 위에서 눈을 꼭 감고 애써요. 비즈가 구슬을 하나씩 들어요. 모두 숨을 참아요.",
+        "ask": [
+          {
+            "en": "What is Pip doing?",
+            "ko": "핍은 뭘 하고 있어?"
+          },
+          {
+            "en": "What does Beads hold?",
+            "ko": "비즈가 뭘 들고 있어?"
           }
         ]
       },
@@ -409,20 +437,34 @@
           {
             "who": "pip",
             "text": "Cat! Cat! CAT!",
-            "audio": "b2_u05_l7"
+            "audio": "b2_u05_l7",
+            "ko": "캣! 캣! 캣! (고양이!)"
           },
           {
             "who": "narrator",
             "text": "Pip can read! Cat!",
-            "audio": "b2_u05_l8"
+            "audio": "b2_u05_l8",
+            "ko": "핍이 읽었어요! 고양이!"
           },
           {
             "who": "beads",
             "text": "Click-clack! Cat!",
-            "audio": "b2_u05_l9"
+            "audio": "b2_u05_l9",
+            "ko": "딸깍딸깍! 고양이!"
           }
         ],
-        "video": "vid_b2_u05_1"
+        "video": "vid_b2_u05_1",
+        "ko": "\"캣!\" 핍의 첫 단어예요! 금빛으로 빛나요. 고양이가 펄쩍 뛰고 모두 환호해요.",
+        "ask": [
+          {
+            "en": "What did Pip say?",
+            "ko": "핍이 뭐라고 했어?"
+          },
+          {
+            "en": "How does the cat feel?",
+            "ko": "고양이는 기분이 어때?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u05_4",
@@ -436,22 +478,39 @@
           {
             "who": "narrator",
             "text": "The lantern is on.",
-            "audio": "b2_u05_l10"
+            "audio": "b2_u05_l10",
+            "ko": "등불이 켜졌어요."
           },
           {
             "who": "grumble",
             "text": "Shh... Cat.",
-            "audio": "b2_u05_l11"
+            "audio": "b2_u05_l11",
+            "ko": "쉿… 캣."
           },
           {
             "who": "bun",
             "text": "Thank you, Grumble!",
-            "audio": "b2_u05_l12"
+            "audio": "b2_u05_l12",
+            "ko": "고마워, 그럼블!"
           }
         ],
-        "video": "vid_b2_u05_2"
+        "video": "vid_b2_u05_2",
+        "ko": "해질녘, 그럼블이 등불을 들어 돌을 비춰 줘요. 작게 \"캣\" 하고 속삭여요. 번이 고맙다고 해요.",
+        "ask": [
+          {
+            "en": "What lights the stones?",
+            "ko": "돌을 비추는 건 뭐야?"
+          },
+          {
+            "en": "What does Grumble whisper?",
+            "ko": "그럼블이 뭐라고 속삭여?"
+          }
+        ]
       }
-    ]
+    ],
+    "synopsis_ko": "친구들이 징검돌 여덟 줄을 세며 걸어요. 핍이 고양이 돌 위에서 온 힘을 다해 \"캣!\" 하고 첫 단어를 말했어요! 해질녘 그럼블이 등불로 돌을 비춰 주고 \"캣\" 하고 속삭여요.",
+    "so_far_ko": "다친 그럼블을 침대에 눕혀 돌봐 줬어요. a·e 단어 가족 여덟 개를 배웠어요.",
+    "goal_ko": "a·e 단어를 복습하고 핍의 첫 단어를 들어요."
   },
   "videos": [
     {
@@ -476,21 +535,25 @@
           {
             "who": "narrator",
             "text": "Cat, hat, bat, mat, rat!",
-            "audio": "sb2_u05_1_1"
+            "audio": "sb2_u05_1_1",
+            "ko": "고양이, 모자, 방망이, 매트, 쥐!"
           },
           {
             "who": "beads",
             "text": "Click-clack! Can, fan, pan, van!",
-            "audio": "sb2_u05_1_2"
+            "audio": "sb2_u05_1_2",
+            "ko": "딸깍딸깍! 깡통, 선풍기, 프라이팬, 밴!"
           },
           {
             "who": "hedgie",
             "text": "The cat and the hen!",
-            "audio": "sb2_u05_1_3"
+            "audio": "sb2_u05_1_3",
+            "ko": "고양이하고 암탉!"
           }
         ],
         "task": "Find the a words!",
-        "task_ko": "a 단어를 찾아요"
+        "task_ko": "a 단어를 찾아요",
+        "ko": "돌 여덟 줄을 세며 산책해요. 고양이, 암탉, 강아지가 줄지어 따라와요."
       },
       {
         "id": "sb2_u05_2",
@@ -499,21 +562,25 @@
           {
             "who": "pip",
             "text": "Tac... tac...",
-            "audio": "sb2_u05_2_1"
+            "audio": "sb2_u05_2_1",
+            "ko": "탁… 탁…"
           },
           {
             "who": "beads",
             "text": "/k/... /æ/... /t/...",
-            "audio": "sb2_u05_2_2"
+            "audio": "sb2_u05_2_2",
+            "ko": "/k/… /æ/… /t/…"
           },
           {
             "who": "narrator",
             "text": "Pip tries. Pip tries.",
-            "audio": "sb2_u05_2_3"
+            "audio": "sb2_u05_2_3",
+            "ko": "핍이 해 봐요. 또 해 봐요."
           }
         ],
         "task": "Find the e words!",
-        "task_ko": "e 단어를 찾아요"
+        "task_ko": "e 단어를 찾아요",
+        "ko": "고양이 돌 위에서 핍이 눈을 꼭 감고 애써요. 비즈가 구슬을 하나씩 들어요. 모두 숨을 참아요."
       },
       {
         "id": "sb2_u05_3",
@@ -522,21 +589,25 @@
           {
             "who": "pip",
             "text": "Cat! Cat! CAT!",
-            "audio": "sb2_u05_3_1"
+            "audio": "sb2_u05_3_1",
+            "ko": "캣! 캣! 캣! (고양이!)"
           },
           {
             "who": "grumble",
             "text": "Shh... Cat.",
-            "audio": "sb2_u05_3_2"
+            "audio": "sb2_u05_3_2",
+            "ko": "쉿… 캣."
           },
           {
             "who": "narrator",
             "text": "Oink! Oink! Big, big, big!",
-            "audio": "sb2_u05_3_3"
+            "audio": "sb2_u05_3_3",
+            "ko": "꿀꿀! 꿀꿀! 커다란, 커다란…!"
           }
         ],
         "task": "Find Grumble's lantern!",
-        "task_ko": "그럼블의 등불을 찾아요"
+        "task_ko": "그럼블의 등불을 찾아요",
+        "ko": "'캣!' 핍의 첫 단어예요. 금빛으로 빛나요. 갈대에서 그럼블이 등불을 들고 '쉿… 캣.' — 꿀꿀! 커다란, 커다란…?"
       }
     ]
   }

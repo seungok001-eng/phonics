@@ -302,21 +302,35 @@
           {
             "who": "bun",
             "text": "I see the apple tree!",
-            "audio": "u05_l1"
+            "audio": "u05_l1",
+            "ko": "사과나무가 보여!"
           },
           {
             "who": "narrator",
             "text": "Pip tries. Achoo!",
-            "audio": "u05_l2"
+            "audio": "u05_l2",
+            "ko": "핍이 해 봐요. 에취!"
           },
           {
             "who": "both",
             "text": "A! B! C! D!",
             "audio": "u05_l3",
-            "sfx": "chime"
+            "sfx": "chime",
+            "ko": "에이! 비! 시! 디!"
           }
         ],
-        "video": "vid_u05_1"
+        "video": "vid_u05_1",
+        "ko": "아침 산책이에요. A·B·C·D 나무를 지나가요. 핍은 사과나무 아래서 에취!",
+        "ask": [
+          {
+            "en": "How many trees do you see?",
+            "ko": "나무가 몇 그루 보여?"
+          },
+          {
+            "en": "What did Pip do?",
+            "ko": "핍이 뭘 했어?"
+          }
+        ]
       },
       {
         "id": "scene_u05_2",
@@ -331,18 +345,32 @@
           {
             "who": "hedgie",
             "text": "A hat is on the tree!",
-            "audio": "u05_l4"
+            "audio": "u05_l4",
+            "ko": "나무에 모자가 씌워져 있어!"
           },
           {
             "who": "grumble",
             "text": "Shh! Hats on. Shh!",
-            "audio": "u05_l5"
+            "audio": "u05_l5",
+            "ko": "쉿! 모자 씌웠어. 쉿!"
           },
           {
             "who": "both",
             "text": "E! F! G! H!",
             "audio": "u05_l6",
-            "sfx": "chime"
+            "sfx": "chime",
+            "ko": "이! 에프! 지! 에이치!"
+          }
+        ],
+        "ko": "E·F·G·H 나무마다 그럼블의 줄무늬 모자가 씌워져 있어요! 그럼블은 사다리 위에서 모자를 묶고 있어요.",
+        "ask": [
+          {
+            "en": "What is on the trees?",
+            "ko": "나무에 뭐가 씌워져 있어?"
+          },
+          {
+            "en": "Where is Grumble?",
+            "ko": "그럼블은 어디 있어?"
           }
         ]
       },
@@ -359,21 +387,35 @@
           {
             "who": "narrator",
             "text": "Pop, pop, pop! The hats!",
-            "audio": "u05_l7"
+            "audio": "u05_l7",
+            "ko": "펑, 펑, 펑! 모자들이!"
           },
           {
             "who": "hedgie",
             "text": "The key is in my bag.",
-            "audio": "u05_l8"
+            "audio": "u05_l8",
+            "ko": "열쇠는 내 가방에 있어."
           },
           {
             "who": "both",
             "text": "I! J! K! L!",
             "audio": "u05_l9",
-            "sfx": "chime"
+            "sfx": "chime",
+            "ko": "아이! 제이! 케이! 엘!"
           }
         ],
-        "video": "vid_u05_2"
+        "video": "vid_u05_2",
+        "ko": "글자 이름을 말하자 모자가 펑펑 벗겨져요. 그럼블은 모자 더미에 앉았어요. 헤지 가방엔 열쇠가 있어요.",
+        "ask": [
+          {
+            "en": "Where are the hats now?",
+            "ko": "모자는 이제 어디 있어?"
+          },
+          {
+            "en": "What is in the bag?",
+            "ko": "가방 안에 뭐가 있어?"
+          }
+        ]
       },
       {
         "id": "scene_u05_4",
@@ -383,21 +425,38 @@
           {
             "who": "bun",
             "text": "It is my garden!",
-            "audio": "u05_l10"
+            "audio": "u05_l10",
+            "ko": "내 정원이야!"
           },
           {
             "who": "hedgie",
             "text": "And my garden!",
-            "audio": "u05_l11"
+            "audio": "u05_l11",
+            "ko": "내 정원이기도 해!"
           },
           {
             "who": "grumble",
             "text": "Shh... My garden.",
-            "audio": "u05_l12"
+            "audio": "u05_l12",
+            "ko": "쉿… 내 정원."
+          }
+        ],
+        "ko": "그럼블이 굴 앞에서 모자를 탑처럼 쌓아 쓰고 나무들을 부럽게 바라봐요. 핍이 손을 흔들어요.",
+        "ask": [
+          {
+            "en": "How does Grumble feel?",
+            "ko": "그럼블은 기분이 어때?"
+          },
+          {
+            "en": "Who is waving?",
+            "ko": "누가 손을 흔들어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "친구들이 첫 번째 정원을 산책하며 나무 열두 그루를 세요. 그럼블은 나무마다 잠옷 모자를 씌웠지만 소리에 모자가 펑펑 벗겨졌어요. 굴 앞에서 그럼블이 부럽게 바라봐요.",
+    "so_far_ko": "열쇠로 둘째 정원 문을 열었어요. 이제 A부터 L까지 나무 열두 그루가 있어요.",
+    "goal_ko": "A~L 나무를 다시 보며 소리와 단어를 복습해요."
   },
   "videos": [
     {
@@ -422,21 +481,25 @@
           {
             "who": "narrator",
             "text": "Pip tries. Achoo!",
-            "audio": "sb_u05_1_1"
+            "audio": "sb_u05_1_1",
+            "ko": "핍이 해 봐요. 에취!"
           },
           {
             "who": "bun",
             "text": "A, B, C, D, E, F!",
-            "audio": "sb_u05_1_2"
+            "audio": "sb_u05_1_2",
+            "ko": "에이, 비, 시, 디, 이, 에프!"
           },
           {
             "who": "hedgie",
             "text": "I see the egg tree!",
-            "audio": "sb_u05_1_3"
+            "audio": "sb_u05_1_3",
+            "ko": "달걀나무가 보여!"
           }
         ],
         "task": "Find a, b, c, d, e, f!",
-        "task_ko": "a~f 나무를 찾아요"
+        "task_ko": "a~f 나무를 찾아요",
+        "ko": "아침 산책이에요. A~F 나무를 지나요. 핍은 사과나무 아래서 에취!"
       },
       {
         "id": "sb_u05_2",
@@ -445,21 +508,25 @@
           {
             "who": "hedgie",
             "text": "The key is in my bag.",
-            "audio": "sb_u05_2_1"
+            "audio": "sb_u05_2_1",
+            "ko": "열쇠는 내 가방에 있어."
           },
           {
             "who": "bun",
             "text": "G, H, I, J, K, L!",
-            "audio": "sb_u05_2_2"
+            "audio": "sb_u05_2_2",
+            "ko": "지, 에이치, 아이, 제이, 케이, 엘!"
           },
           {
             "who": "both",
             "text": "It is my garden!",
-            "audio": "sb_u05_2_3"
+            "audio": "sb_u05_2_3",
+            "ko": "내 정원이야!"
           }
         ],
         "task": "Find g, h, i, j, k, l!",
-        "task_ko": "g~l 나무를 찾아요"
+        "task_ko": "g~l 나무를 찾아요",
+        "ko": "G~L 나무마다 그럼블의 줄무늬 잠옷 모자가 씌워져 있어요. 그럼블은 사다리 위에 있고, 헤지 가방엔 열쇠가 있어요."
       },
       {
         "id": "sb_u05_3",
@@ -468,21 +535,25 @@
           {
             "who": "both",
             "text": "It is my garden!",
-            "audio": "sb_u05_3_1"
+            "audio": "sb_u05_3_1",
+            "ko": "내 정원이야!"
           },
           {
             "who": "grumble",
             "text": "Shh... My garden.",
-            "audio": "sb_u05_3_2"
+            "audio": "sb_u05_3_2",
+            "ko": "쉿… 내 정원."
           },
           {
             "who": "narrator",
             "text": "Is Grumble sad?",
-            "audio": "sb_u05_3_3"
+            "audio": "sb_u05_3_3",
+            "ko": "그럼블은 슬픈 걸까요?"
           }
         ],
         "task": "Find Grumble's lantern!",
-        "task_ko": "그럼블의 등불을 찾아요"
+        "task_ko": "그럼블의 등불을 찾아요",
+        "ko": "모자가 다 벗겨졌어요. 굴 앞에서 모자를 탑처럼 쌓아 쓴 그럼블이 부럽게 바라봐요. 핍이 손을 흔들어요."
       }
     ]
   }

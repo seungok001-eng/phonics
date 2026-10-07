@@ -27,7 +27,8 @@
         "pointing",
         "cheering",
         "sleeping"
-      ]
+      ],
+      "role_ko": "노래를 잃은 아기 새. 친구들이 소리를 말해 주면 빛나요. 소리를 하나씩 배워 끝에 노래를 되찾아요."
     },
     "bun": {
       "name": "Bun",
@@ -45,7 +46,8 @@
         "waving",
         "thinking",
         "cheering"
-      ]
+      ],
+      "role_ko": "씩씩한 토끼. 제일 먼저 소리를 외쳐요. \"해 보자!\""
     },
     "hedgie": {
       "name": "Hedgie",
@@ -63,7 +65,8 @@
         "waving",
         "thinking",
         "cheering"
-      ]
+      ],
+      "role_ko": "조심스러운 고슴도치. 숨은 물건을 잘 찾아요. \"우와!\""
     },
     "grumble": {
       "name": "Grumble",
@@ -81,7 +84,8 @@
         "surprised",
         "happy",
         "drum"
-      ]
+      ],
+      "role_ko": "시끄러운 걸 싫어하는 너구리 할아버지. 씨앗을 숨기고 \"쉿!\" 하지만, 등불이 밝아지며 친구가 돼요."
     }
   },
   "pose_desc": {
@@ -967,7 +971,8 @@
     "title_ko": "핍과 소리 정원",
     "cover": {
       "id": "sb_cover",
-      "desc": "Picture-book cover illustration. Pip, the tiny yellow baby bird with a green leaf scarf, stands on a clay flower pot in the middle, beak open and glowing, with Bun the white rabbit in green boots and Hedgie the hedgehog cheering on either side. Around them the Sound Garden full of cheerful letter trees with fruit, pink blossoms and a little round wooden door in the wall. In a bottom corner Grumble the old raccoon peeks out of a dirt hole holding a brightly glowing lantern. Leave a calm, simple sky area at the top for the title."
+      "desc": "Picture-book cover illustration. Pip, the tiny yellow baby bird with a green leaf scarf, stands on a clay flower pot in the middle, beak open and glowing, with Bun the white rabbit in green boots and Hedgie the hedgehog cheering on either side. Around them the Sound Garden full of cheerful letter trees with fruit, pink blossoms and a little round wooden door in the wall. In a bottom corner Grumble the old raccoon peeks out of a dirt hole holding a brightly glowing lantern. Leave a calm, simple sky area at the top for the title.",
+      "ko": "표지. 화분 위에서 노래하는 핍, 양옆에 번과 헤지, 글자나무 정원, 구석에서 등불 든 그럼블."
     },
     "front": [
       {
@@ -977,9 +982,11 @@
           {
             "who": "narrator",
             "text": "Pip and the Sound Garden",
-            "audio": "sb_front_1_1"
+            "audio": "sb_front_1_1",
+            "ko": "핍과 소리 정원"
           }
-        ]
+        ],
+        "ko": "속표지. 빈 화분 위 핍이 떠 있는 씨앗을 올려다봐요."
       },
       {
         "id": "sb_map",
@@ -988,14 +995,17 @@
           {
             "who": "narrator",
             "text": "The Sound Garden.",
-            "audio": "sb_map_1"
+            "audio": "sb_map_1",
+            "ko": "소리 정원이에요."
           },
           {
             "who": "narrator",
             "text": "Twenty-six pots. No trees!",
-            "audio": "sb_map_2"
+            "audio": "sb_map_2",
+            "ko": "화분이 스물여섯 개. 나무는 없어요!"
           }
-        ]
+        ],
+        "ko": "소리 정원 지도예요. 화분 스물여섯 개, 연못, 담장, 그럼블의 언덕이 있어요."
       }
     ],
     "back": [
@@ -1006,14 +1016,17 @@
           {
             "who": "narrator",
             "text": "The End",
-            "audio": "sb_end_1"
+            "audio": "sb_end_1",
+            "ko": "끝"
           }
-        ]
+        ],
+        "ko": "담장에 나란히 앉은 네 친구의 뒷모습. 이야기 끝."
       },
       {
         "id": "sb_map_done",
         "desc": "The same hand-drawn map of the Sound Garden as before, but now every pot has grown into a small cheerful letter tree with fruit, blossoms cover the garden, a trail of little bird footprints runs along the whole path from the first door to the fence, and a tiny golden seed with a leaf is flying over the fence toward the blue pond. No letters or text anywhere.",
-        "lines": []
+        "lines": [],
+        "ko": "발자국이 다 찍힌 지도. 화분이 다 나무가 되고 씨앗이 담장 너머로 날아가요."
       }
     ]
   },
@@ -1022,5 +1035,10 @@
     "object": "A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture.",
     "scene": "Full illustrated scene with a simple uncluttered background and a calm, simple sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind.",
     "character_sheet": "Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described."
+  },
+  "story_arc": {
+    "ko": "학교 창고 뒤 작은 문 너머에 소리 정원이 있어요. 시끄러운 걸 싫어하는 너구리 그럼블이 글자나무 씨앗을 숨겨서 빈 화분만 스물여섯 개예요. 번과 헤지가 노래를 잃은 아기 새 핍을 위해 소리를 말하면 씨앗이 깨어나 글자나무가 자라요. 스물여섯 그루가 다 자라자 그럼블의 등불이 열리고 핍이 노래를 되찾아요.",
+    "books_ko": "옛날에 노래 나무가 부르던 소리 노래가 네 조각으로 흩어졌어요. 1권 소리 정원, 2권 단어 연못, 3권 짝꿍 숲, 4권 마법 성에서 조각을 하나씩 찾아요. 네 조각을 다 모으면 노래 나무가 다시 노래해요.",
+    "characters_ko": "아기 새 핍은 노래를 잃어 소리를 못 내요. 씩씩한 토끼 번과 조심스러운 고슴도치 헤지가 핍 대신 소리를 말해 줘요. 너구리 할아버지 그럼블은 \"쉿!\" 하며 방해하지만 사실은 외로웠어요."
   }
 }

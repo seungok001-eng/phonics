@@ -154,20 +154,34 @@
           {
             "who": "hedgie",
             "text": "The fox has my box!",
-            "audio": "b2_u09_l1"
+            "audio": "b2_u09_l1",
+            "ko": "여우가 내 상자를 가져갔어!"
           },
           {
             "who": "bun",
             "text": "Hop, hop! The fox can hop!",
-            "audio": "b2_u09_l2"
+            "audio": "b2_u09_l2",
+            "ko": "깡충깡충! 여우가 뛰어가!"
           },
           {
             "who": "pip",
             "text": "Pot! Pot?",
-            "audio": "b2_u09_l3"
+            "audio": "b2_u09_l3",
+            "ko": "팟! 팟?"
           }
         ],
-        "video": "vid_b2_u09_1"
+        "video": "vid_b2_u09_1",
+        "ko": "여우가 상자를 들고 돌 위를 깡충깡충! 팽이가 떨어져요. 핍은 \"팟!\"",
+        "ask": [
+          {
+            "en": "What does the fox have?",
+            "ko": "여우가 뭘 가져갔어?"
+          },
+          {
+            "en": "What falls out?",
+            "ko": "뭐가 떨어졌어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u09_2",
@@ -182,17 +196,31 @@
             "who": "beads",
             "text": "/h/ /ɑ/ /p/ hop!",
             "audio": "blend_hop",
-            "pop": "hop"
+            "pop": "hop",
+            "ko": "/h/ /ɑ/ /p/ 깡충!"
           },
           {
             "who": "both",
             "text": "We like to hop!",
-            "audio": "b2_u09_l4"
+            "audio": "b2_u09_l4",
+            "ko": "우린 깡충 뛰는 게 좋아!"
           },
           {
             "who": "narrator",
             "text": "Pop! Pop! The fox hops.",
-            "audio": "b2_u09_l5"
+            "audio": "b2_u09_l5",
+            "ko": "펑! 펑! 여우가 깡충 뛰어요."
+          }
+        ],
+        "ko": "h-o-p! 돌이 줄줄이 솟아요. 모두 깡충 뛰며 쫓아가요. 번이 풍선을 펑! 터뜨려요.",
+        "ask": [
+          {
+            "en": "What does Bun pop?",
+            "ko": "번이 뭘 터뜨렸어?"
+          },
+          {
+            "en": "Who is hopping?",
+            "ko": "누가 깡충 뛰어?"
           }
         ]
       },
@@ -208,21 +236,35 @@
           {
             "who": "narrator",
             "text": "The fox and the ox!",
-            "audio": "b2_u09_l6"
+            "audio": "b2_u09_l6",
+            "ko": "여우하고 황소!"
           },
           {
             "who": "grumble",
             "text": "SHH!",
-            "audio": "b2_u09_l7"
+            "audio": "b2_u09_l7",
+            "ko": "쉿!!"
           },
           {
             "who": "beads",
             "text": "/b/ /ɑ/ /ks/ box!",
             "audio": "blend_box",
-            "pop": "box"
+            "pop": "box",
+            "ko": "/b/ /ɑ/ /ks/ 상자!"
           }
         ],
-        "video": "vid_b2_u09_2"
+        "video": "vid_b2_u09_2",
+        "ko": "여우가 황소에 부딪혀 상자가 날아가요. 그럼블이 갈대에서 \"쉿!!\" 여우가 얼어붙어요.",
+        "ask": [
+          {
+            "en": "Who did the fox bump into?",
+            "ko": "여우가 누구와 부딪혔어?"
+          },
+          {
+            "en": "Who jumps out of the reeds?",
+            "ko": "갈대에서 누가 튀어나왔어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u09_4",
@@ -236,21 +278,38 @@
           {
             "who": "hedgie",
             "text": "We like the top!",
-            "audio": "b2_u09_l8"
+            "audio": "b2_u09_l8",
+            "ko": "우린 팽이가 좋아!"
           },
           {
             "who": "grumble",
             "text": "Shh... I like it.",
-            "audio": "b2_u09_l9"
+            "audio": "b2_u09_l9",
+            "ko": "쉿… 나 이거 좋아."
           },
           {
             "who": "pip",
             "text": "Pot... top! Top!",
-            "audio": "b2_u09_l10"
+            "audio": "b2_u09_l10",
+            "ko": "팟… 탑! 탑! (팽이!)"
+          }
+        ],
+        "ko": "상자를 되찾았어요. 팽이가 빙글빙글. 그럼블이 팽이를 돌리며 처음으로 활짝 웃어요.",
+        "ask": [
+          {
+            "en": "What spins?",
+            "ko": "뭐가 빙글빙글 돌아?"
+          },
+          {
+            "en": "Is Grumble smiling?",
+            "ko": "그럼블이 웃고 있어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "여우가 헤지의 상자를 들고 깡충깡충 달아나요. 비즈가 h-o-p 을 꿰고 모두 쫓아가요. 여우가 황소에 부딪히고 그럼블이 갈대에서 \"쉿!!\" 상자를 되찾고 그럼블이 팽이를 돌리며 처음 웃어요.",
+    "so_far_ko": "안개 속에서 그럼블의 등불이 길을 비춰 줬어요. 함께 수프를 먹었어요.",
+    "goal_ko": "여우에게서 상자를 되찾으며 -op·-ox 단어를 읽어요."
   },
   "videos": [
     {
@@ -496,21 +555,25 @@
           {
             "who": "hedgie",
             "text": "The fox has my box!",
-            "audio": "sb2_u09_1_1"
+            "audio": "sb2_u09_1_1",
+            "ko": "여우가 내 상자를 가져갔어!"
           },
           {
             "who": "bun",
             "text": "Hop, hop! The fox can hop!",
-            "audio": "sb2_u09_1_2"
+            "audio": "sb2_u09_1_2",
+            "ko": "깡충깡충! 여우가 뛰어가!"
           },
           {
             "who": "pip",
             "text": "Pot! Pot?",
-            "audio": "sb2_u09_1_3"
+            "audio": "sb2_u09_1_3",
+            "ko": "팟! 팟?"
           }
         ],
         "task": "Find the -ox words!",
-        "task_ko": "-ox 단어를 찾아요"
+        "task_ko": "-ox 단어를 찾아요",
+        "ko": "여우가 헤지의 상자를 들고 깡충깡충 달아나요. 팽이가 떨어져요. 핍은 '팟!'"
       },
       {
         "id": "sb2_u09_2",
@@ -519,21 +582,25 @@
           {
             "who": "beads",
             "text": "/h/ /ɑ/ /p/ hop!",
-            "audio": "sb2_u09_2_1"
+            "audio": "sb2_u09_2_1",
+            "ko": "/h/ /ɑ/ /p/ 깡충!"
           },
           {
             "who": "both",
             "text": "We like to hop!",
-            "audio": "sb2_u09_2_2"
+            "audio": "sb2_u09_2_2",
+            "ko": "우린 깡충 뛰는 게 좋아!"
           },
           {
             "who": "narrator",
             "text": "Pop! Pop! The fox hops.",
-            "audio": "sb2_u09_2_3"
+            "audio": "sb2_u09_2_3",
+            "ko": "펑! 펑! 여우가 깡충 뛰어요."
           }
         ],
         "task": "Find the -op words!",
-        "task_ko": "-op 단어를 찾아요"
+        "task_ko": "-op 단어를 찾아요",
+        "ko": "비즈가 h-o-p 을 꿰고 모두 깡충깡충 쫓아가요. 번이 풍선을 펑! 여우가 깜짝 놀라요."
       },
       {
         "id": "sb2_u09_3",
@@ -542,21 +609,25 @@
           {
             "who": "narrator",
             "text": "The fox and the ox!",
-            "audio": "sb2_u09_3_1"
+            "audio": "sb2_u09_3_1",
+            "ko": "여우하고 황소!"
           },
           {
             "who": "grumble",
             "text": "SHH!",
-            "audio": "sb2_u09_3_2"
+            "audio": "sb2_u09_3_2",
+            "ko": "쉿!!"
           },
           {
             "who": "narrator",
             "text": "Bzzz... bzzz... Oh no!",
-            "audio": "sb2_u09_3_3"
+            "audio": "sb2_u09_3_3",
+            "ko": "붕… 붕… 어떡해!"
           }
         ],
         "task": "Find the box and the top!",
-        "task_ko": "상자와 팽이를 찾아요"
+        "task_ko": "상자와 팽이를 찾아요",
+        "ko": "여우가 황소에 부딪히고 그럼블이 갈대에서 '쉿!!' 상자를 되찾고 그럼블이 팽이를 돌리며 처음 웃어요. 붕… 붕… 저런!"
       }
     ]
   }

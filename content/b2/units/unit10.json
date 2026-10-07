@@ -166,17 +166,31 @@
           {
             "who": "bun",
             "text": "Look! A bug on the rug!",
-            "audio": "b2_u10_l1"
+            "audio": "b2_u10_l1",
+            "ko": "봐! 깔개 위에 벌레!"
           },
           {
             "who": "hedgie",
             "text": "A bug in my mug!",
-            "audio": "b2_u10_l2"
+            "audio": "b2_u10_l2",
+            "ko": "내 머그컵에 벌레가!"
           },
           {
             "who": "pip",
             "text": "Gub! Gub?",
-            "audio": "b2_u10_l3"
+            "audio": "b2_u10_l3",
+            "ko": "겁! 겁?"
+          }
+        ],
+        "ko": "햇살 좋은 소풍이에요. 깔개 위에 벌레, 헤지 머그컵에도 벌레! 핍은 \"겁!\"",
+        "ask": [
+          {
+            "en": "Where is the bug?",
+            "ko": "벌레는 어디 있어?"
+          },
+          {
+            "en": "What is Hedgie holding?",
+            "ko": "헤지가 뭘 들고 있어?"
           }
         ]
       },
@@ -194,17 +208,31 @@
             "who": "beads",
             "text": "/b/ /ʌ/ /g/ bug!",
             "audio": "blend_bug",
-            "pop": "bug"
+            "pop": "bug",
+            "ko": "/b/ /ʌ/ /g/ 벌레!"
           },
           {
             "who": "narrator",
             "text": "Bun has a bun!",
-            "audio": "b2_u10_l4"
+            "audio": "b2_u10_l4",
+            "ko": "번이 빵을 먹어요!"
           },
           {
             "who": "bun",
             "text": "Run, pup, run! Fun!",
-            "audio": "b2_u10_l5"
+            "audio": "b2_u10_l5",
+            "ko": "달려, 강아지야! 신난다!"
+          }
+        ],
+        "ko": "b-u-g! 새 돌이 솟아요. 강아지가 벌레를 쫓아 달려요. 번이 빵을 먹어요.",
+        "ask": [
+          {
+            "en": "Who is running?",
+            "ko": "누가 달려?"
+          },
+          {
+            "en": "What is Bun eating?",
+            "ko": "번이 뭘 먹어?"
           }
         ]
       },
@@ -220,20 +248,34 @@
             "who": "beads",
             "text": "/k/ /ʌ/ /p/ cup!",
             "audio": "blend_cup",
-            "pop": "cup"
+            "pop": "cup",
+            "ko": "/k/ /ʌ/ /p/ 컵!"
           },
           {
             "who": "both",
             "text": "Look, Pip! You can go!",
-            "audio": "b2_u10_l6"
+            "audio": "b2_u10_l6",
+            "ko": "봐, 핍! 갈 수 있어!"
           },
           {
             "who": "narrator",
             "text": "Click-clack! The last stone!",
-            "audio": "b2_u10_l7"
+            "audio": "b2_u10_l7",
+            "ko": "딸깍딸깍! 마지막 돌!"
           }
         ],
-        "video": "vid_b2_u10_1"
+        "video": "vid_b2_u10_1",
+        "ko": "마지막 틈에 컵이 떠 있어요. c-u-p! 마지막 돌이 솟아 다리가 완성! 핍이 하늘로 솟아올라요.",
+        "ask": [
+          {
+            "en": "What floats in the water?",
+            "ko": "물에 뭐가 떠 있어?"
+          },
+          {
+            "en": "Where does Pip go?",
+            "ko": "핍은 어디로 가?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u10_4",
@@ -248,22 +290,39 @@
           {
             "who": "pip",
             "text": "Cat! Bug! Cup! Fun!",
-            "audio": "b2_u10_l8"
+            "audio": "b2_u10_l8",
+            "ko": "고양이! 벌레! 컵! 신나!"
           },
           {
             "who": "narrator",
             "text": "Pip can sing!",
-            "audio": "b2_u10_l9"
+            "audio": "b2_u10_l9",
+            "ko": "핍이 노래해요!"
           },
           {
             "who": "bun",
             "text": "A hug for you, Grumble!",
-            "audio": "b2_u10_l10"
+            "audio": "b2_u10_l10",
+            "ko": "그럼블, 안아 줄게!"
           }
         ],
-        "video": "vid_b2_u10_2"
+        "video": "vid_b2_u10_2",
+        "ko": "건너편 둑, 해질녘. 연못에서 금빛 음표가 나와 핍에게 들어가요. 핍이 노래해요. 번이 그럼블을 꼭 안아요.",
+        "ask": [
+          {
+            "en": "What comes out of the water?",
+            "ko": "물에서 뭐가 나왔어?"
+          },
+          {
+            "en": "Who hugs Grumble?",
+            "ko": "누가 그럼블을 안아?"
+          }
+        ]
       }
-    ]
+    ],
+    "synopsis_ko": "햇살 소풍에 깔개 위 벌레, 머그컵 속 벌레! 강아지가 달리고 번은 빵을 먹어요. 마지막 틈에 c-u-p 으로 돌이 솟아 다리가 완성됐어요! 연못에서 노래 조각이 나와 핍이 노래해요. 번이 그럼블을 꼭 안아 줘요.",
+    "so_far_ko": "여우에게서 상자를 되찾고 그럼블이 처음 웃었어요.",
+    "goal_ko": "마지막 돌을 놓아 다리를 완성하고 -ug·-un·-up 단어를 읽어요."
   },
   "videos": [
     {
@@ -515,21 +574,25 @@
           {
             "who": "bun",
             "text": "Look! A bug on the rug!",
-            "audio": "sb2_u10_1_1"
+            "audio": "sb2_u10_1_1",
+            "ko": "봐! 깔개 위에 벌레!"
           },
           {
             "who": "hedgie",
             "text": "A bug in my mug!",
-            "audio": "sb2_u10_1_2"
+            "audio": "sb2_u10_1_2",
+            "ko": "내 머그컵에 벌레가!"
           },
           {
             "who": "pip",
             "text": "Gub! Gub?",
-            "audio": "sb2_u10_1_3"
+            "audio": "sb2_u10_1_3",
+            "ko": "겁! 겁?"
           }
         ],
         "task": "Find the -ug words!",
-        "task_ko": "-ug 단어를 찾아요"
+        "task_ko": "-ug 단어를 찾아요",
+        "ko": "햇살 소풍이에요. 깔개 위에 벌레, 머그컵 속에도 벌레. 핍은 '겁!'"
       },
       {
         "id": "sb2_u10_2",
@@ -538,21 +601,25 @@
           {
             "who": "beads",
             "text": "/b/ /ʌ/ /g/ bug!",
-            "audio": "sb2_u10_2_1"
+            "audio": "sb2_u10_2_1",
+            "ko": "/b/ /ʌ/ /g/ 벌레!"
           },
           {
             "who": "narrator",
             "text": "Bun has a bun!",
-            "audio": "sb2_u10_2_2"
+            "audio": "sb2_u10_2_2",
+            "ko": "번이 빵을 먹어요!"
           },
           {
             "who": "bun",
             "text": "Run, pup, run! Fun!",
-            "audio": "sb2_u10_2_3"
+            "audio": "sb2_u10_2_3",
+            "ko": "달려, 강아지야! 신난다!"
           }
         ],
         "task": "Find the -un words!",
-        "task_ko": "-un 단어를 찾아요"
+        "task_ko": "-un 단어를 찾아요",
+        "ko": "비즈가 b-u-g 를 꿰고 강아지가 달려요. 번이 빵을 먹어요. 파티 모자도 보여요."
       },
       {
         "id": "sb2_u10_3",
@@ -561,21 +628,25 @@
           {
             "who": "beads",
             "text": "/k/ /ʌ/ /p/ cup!",
-            "audio": "sb2_u10_3_1"
+            "audio": "sb2_u10_3_1",
+            "ko": "/k/ /ʌ/ /p/ 컵!"
           },
           {
             "who": "pip",
             "text": "Cat! Bug! Cup! Fun!",
-            "audio": "sb2_u10_3_2"
+            "audio": "sb2_u10_3_2",
+            "ko": "고양이! 벌레! 컵! 신나!"
           },
           {
             "who": "narrator",
             "text": "Pip can sing! A party!",
-            "audio": "sb2_u10_3_3"
+            "audio": "sb2_u10_3_3",
+            "ko": "핍이 노래해요! 파티예요!"
           }
         ],
         "task": "Find the -up words!",
-        "task_ko": "-up 단어를 찾아요"
+        "task_ko": "-up 단어를 찾아요",
+        "ko": "마지막 틈에 컵이 떠 있어요. c-u-p 으로 마지막 돌, 다리 완성! 노래 조각이 핍에게 들어가 핍이 노래해요. 번이 그럼블을 안아요."
       }
     ]
   }

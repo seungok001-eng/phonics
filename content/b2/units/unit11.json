@@ -372,17 +372,31 @@
           {
             "who": "both",
             "text": "A party! Look!",
-            "audio": "b2_u11_l1"
+            "audio": "b2_u11_l1",
+            "ko": "파티야! 봐!"
           },
           {
             "who": "hedgie",
             "text": "A mug, a bun, a fig!",
-            "audio": "b2_u11_l2"
+            "audio": "b2_u11_l2",
+            "ko": "머그컵, 빵, 무화과!"
           },
           {
             "who": "bun",
             "text": "Sit, pig! Sit, pup!",
-            "audio": "b2_u11_l3"
+            "audio": "b2_u11_l3",
+            "ko": "앉아, 돼지야! 앉아, 강아지야!"
+          }
+        ],
+        "ko": "등불 아래 파티 상이에요. 머그컵, 빵, 무화과, 냄비! 돼지, 여우, 황소, 암탉들이 앉아요. 그럼블은 아직 멀리.",
+        "ask": [
+          {
+            "en": "Who is at the party?",
+            "ko": "파티에 누가 왔어?"
+          },
+          {
+            "en": "What is on the table?",
+            "ko": "상 위에 뭐가 있어?"
           }
         ]
       },
@@ -399,17 +413,31 @@
           {
             "who": "narrator",
             "text": "Grumble is here!",
-            "audio": "b2_u11_l4"
+            "audio": "b2_u11_l4",
+            "ko": "그럼블이 왔어요!"
           },
           {
             "who": "grumble",
             "text": "Shh... Hi.",
-            "audio": "b2_u11_l5"
+            "audio": "b2_u11_l5",
+            "ko": "쉿… 안녕."
           },
           {
             "who": "both",
             "text": "Sit, Grumble, sit!",
-            "audio": "b2_u11_l6"
+            "audio": "b2_u11_l6",
+            "ko": "앉아, 그럼블, 앉아!"
+          }
+        ],
+        "ko": "돼지가 달리기에서 이겨 트로피! 그럼블이 다리를 건너와요. 모두 손을 흔들어요.",
+        "ask": [
+          {
+            "en": "Who crosses the bridge?",
+            "ko": "누가 다리를 건너와?"
+          },
+          {
+            "en": "Who won the race?",
+            "ko": "달리기에서 누가 이겼어?"
           }
         ]
       },
@@ -427,20 +455,34 @@
           {
             "who": "pip",
             "text": "Pig! Zip! Log! Box! Bug!",
-            "audio": "b2_u11_l7"
+            "audio": "b2_u11_l7",
+            "ko": "돼지! 지퍼! 통나무! 상자! 벌레!"
           },
           {
             "who": "narrator",
             "text": "Hit the pot! Hop, hop!",
-            "audio": "b2_u11_l8"
+            "audio": "b2_u11_l8",
+            "ko": "냄비를 둥둥! 깡충, 깡충!"
           },
           {
             "who": "grumble",
             "text": "Not shh! Boom, boom!",
-            "audio": "b2_u11_l9"
+            "audio": "b2_u11_l9",
+            "ko": "쉿 아니야! 쿵, 쿵!"
           }
         ],
-        "video": "vid_b2_u11_1"
+        "video": "vid_b2_u11_1",
+        "ko": "그럼블이 냄비를 북처럼 쳐요. 모두 깡충깡충 춤춰요. 핍이 돌에 쓰인 단어를 읽어요.",
+        "ask": [
+          {
+            "en": "What is Grumble hitting?",
+            "ko": "그럼블이 뭘 쳐?"
+          },
+          {
+            "en": "What does Pip read?",
+            "ko": "핍이 뭘 읽어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u11_4",
@@ -455,22 +497,39 @@
           {
             "who": "narrator",
             "text": "Sh... sh... Sh... sh...",
-            "audio": "b2_u11_l10"
+            "audio": "b2_u11_l10",
+            "ko": "쉬… 쉬… 쉬… 쉬…"
           },
           {
             "who": "hedgie",
             "text": "Grumble? Is it you?",
-            "audio": "b2_u11_l11"
+            "audio": "b2_u11_l11",
+            "ko": "그럼블? 너야?"
           },
           {
             "who": "grumble",
             "text": "Not me! Shh!",
-            "audio": "b2_u11_l12"
+            "audio": "b2_u11_l12",
+            "ko": "나 아니야! 쉿!"
           }
         ],
-        "video": "vid_b2_u11_2"
+        "video": "vid_b2_u11_2",
+        "ko": "밤이에요. 숲에서 \"쉬… 쉬…\" 똑같은 소리가 두 번! 헤지가 그럼블을 보지만 그럼블은 \"나 아니야!\"",
+        "ask": [
+          {
+            "en": "Where does the sound come from?",
+            "ko": "소리는 어디서 나?"
+          },
+          {
+            "en": "Was it Grumble?",
+            "ko": "그럼블이었을까?"
+          }
+        ]
       }
-    ]
+    ],
+    "synopsis_ko": "건너편 둑에서 연못 파티! 돼지, 여우, 황소, 암탉들이 손님이에요. 그럼블이 다리를 건너와 냄비를 북처럼 쳐요. \"쉿 아니고 쿵쿵!\" 밤이 되자 숲에서 똑같은 소리가 두 번 들렸어요. 누굴까요?",
+    "so_far_ko": "다리가 완성되고 핍이 노래 조각을 찾아 노래했어요. 번이 그럼블을 안아 줬어요.",
+    "goal_ko": "파티에서 i·o·u 단어를 복습하고 숲의 이상한 소리를 들어요."
   },
   "videos": [
     {
@@ -495,21 +554,25 @@
           {
             "who": "both",
             "text": "A party! Look!",
-            "audio": "sb2_u11_1_1"
+            "audio": "sb2_u11_1_1",
+            "ko": "파티야! 봐!"
           },
           {
             "who": "hedgie",
             "text": "A mug, a bun, a fig!",
-            "audio": "sb2_u11_1_2"
+            "audio": "sb2_u11_1_2",
+            "ko": "머그컵, 빵, 무화과!"
           },
           {
             "who": "bun",
             "text": "Sit, pig! Sit, pup!",
-            "audio": "sb2_u11_1_3"
+            "audio": "sb2_u11_1_3",
+            "ko": "앉아, 돼지야! 앉아, 강아지야!"
           }
         ],
         "task": "Find mug, bun, fig!",
-        "task_ko": "머그컵·빵·무화과를 찾아요"
+        "task_ko": "머그컵·빵·무화과를 찾아요",
+        "ko": "건너편 둑의 파티예요. 머그컵, 빵, 무화과, 냄비. 손님 동물들이 왔어요. 그럼블은 아직 멀리 있어요."
       },
       {
         "id": "sb2_u11_2",
@@ -518,21 +581,25 @@
           {
             "who": "narrator",
             "text": "Grumble is here!",
-            "audio": "sb2_u11_2_1"
+            "audio": "sb2_u11_2_1",
+            "ko": "그럼블이 왔어요!"
           },
           {
             "who": "grumble",
             "text": "Not shh! Boom, boom!",
-            "audio": "sb2_u11_2_2"
+            "audio": "sb2_u11_2_2",
+            "ko": "쉿 아니야! 쿵, 쿵!"
           },
           {
             "who": "pip",
             "text": "Pig! Zip! Log! Box! Bug!",
-            "audio": "sb2_u11_2_3"
+            "audio": "sb2_u11_2_3",
+            "ko": "돼지! 지퍼! 통나무! 상자! 벌레!"
           }
         ],
         "task": "Find pig, zip, log, box, bug!",
-        "task_ko": "돼지·지퍼·통나무·상자·벌레를 찾아요"
+        "task_ko": "돼지·지퍼·통나무·상자·벌레를 찾아요",
+        "ko": "그럼블이 다리를 건너와 냄비를 북처럼 쳐요. '쉿 아니고 쿵쿵!' 핍이 돌의 단어를 읽어요."
       },
       {
         "id": "sb2_u11_3",
@@ -541,21 +608,25 @@
           {
             "who": "narrator",
             "text": "Sh... sh... Sh... sh...",
-            "audio": "sb2_u11_3_1"
+            "audio": "sb2_u11_3_1",
+            "ko": "쉬… 쉬… 쉬… 쉬…"
           },
           {
             "who": "hedgie",
             "text": "Grumble? Is it you?",
-            "audio": "sb2_u11_3_2"
+            "audio": "sb2_u11_3_2",
+            "ko": "그럼블? 너야?"
           },
           {
             "who": "grumble",
             "text": "Not me! Shh!",
-            "audio": "sb2_u11_3_3"
+            "audio": "sb2_u11_3_3",
+            "ko": "나 아니야! 쉿!"
           }
         ],
         "task": "Find the lantern!",
-        "task_ko": "등불을 찾아요"
+        "task_ko": "등불을 찾아요",
+        "ko": "밤이에요. 숲에서 똑같은 소리가 두 번 '쉬… 쉬…' 그럼블은 '나 아니야! 쉿!' 모두 귀를 쫑긋 세워요."
       }
     ]
   }

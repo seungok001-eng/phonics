@@ -102,21 +102,35 @@
           {
             "who": "bun",
             "text": "The sun is up!",
-            "audio": "u08_l1"
+            "audio": "u08_l1",
+            "ko": "해가 떴어!"
           },
           {
             "who": "hedgie",
             "text": "Go, seal! Go, turtle!",
-            "audio": "u08_l2"
+            "audio": "u08_l2",
+            "ko": "달려, 물개! 달려, 거북이!"
           },
           {
             "who": "bun",
             "text": "/s/ /s/ seal!",
             "audio": "u08_l3",
-            "pop": "s"
+            "pop": "s",
+            "ko": "/s/ /s/ 물개!"
           }
         ],
-        "video": "vid_u08_1"
+        "video": "vid_u08_1",
+        "ko": "해가 떠요. 물개가 코에 씨앗을 얹고 거북이와 달리기해요. 언덕 위 그럼블이 등불을 훅 불어 꺼요.",
+        "ask": [
+          {
+            "en": "Who is racing?",
+            "ko": "누가 달리기를 해?"
+          },
+          {
+            "en": "What does Grumble do with the lantern?",
+            "ko": "그럼블이 등불을 어떻게 했어?"
+          }
+        ]
       },
       {
         "id": "scene_u08_2",
@@ -130,18 +144,32 @@
           {
             "who": "hedgie",
             "text": "I see a tomato.",
-            "audio": "u08_l4"
+            "audio": "u08_l4",
+            "ko": "토마토가 보여."
           },
           {
             "who": "narrator",
             "text": "Pip taps. No tooth!",
-            "audio": "u08_l5"
+            "audio": "u08_l5",
+            "ko": "핍이 톡톡. 이가 없어요!"
           },
           {
             "who": "bun",
             "text": "/t/ /t/ tomato!",
             "audio": "u08_l6",
-            "pop": "t"
+            "pop": "t",
+            "ko": "/t/ /t/ 토마토!"
+          }
+        ],
+        "ko": "토마토 속에 씨앗이 있어요. 핍은 이를 톡톡 치려는데 이가 없어요! 어두워진 그럼블은 그루터기에 걸려 넘어져요.",
+        "ask": [
+          {
+            "en": "Where is the seed?",
+            "ko": "씨앗은 어디 있어?"
+          },
+          {
+            "en": "Does Pip have a tooth?",
+            "ko": "핍은 이가 있어?"
           }
         ]
       },
@@ -156,21 +184,35 @@
           {
             "who": "bun",
             "text": "Up, up, up!",
-            "audio": "u08_l7"
+            "audio": "u08_l7",
+            "ko": "위로, 위로, 위로!"
           },
           {
             "who": "hedgie",
             "text": "Go to the umbrella!",
-            "audio": "u08_l8"
+            "audio": "u08_l8",
+            "ko": "우산한테 가!"
           },
           {
             "who": "bun",
             "text": "/u/ /u/ up!",
             "audio": "u08_l9",
-            "pop": "u"
+            "pop": "u",
+            "ko": "/u/ /u/ 위!"
           }
         ],
-        "video": "vid_u08_2"
+        "video": "vid_u08_2",
+        "ko": "바람이 불어 우산이 날아가요. 핍이 우산 손잡이를 잡고 위로, 위로!",
+        "ask": [
+          {
+            "en": "What is flying?",
+            "ko": "뭐가 날아가?"
+          },
+          {
+            "en": "Who is holding the umbrella?",
+            "ko": "누가 우산을 잡고 있어?"
+          }
+        ]
       },
       {
         "id": "scene_u08_4",
@@ -183,22 +225,39 @@
           {
             "who": "both",
             "text": "Uncle! Can we go in?",
-            "audio": "u08_l10"
+            "audio": "u08_l10",
+            "ko": "삼촌! 들어가도 돼요?"
           },
           {
             "who": "grumble",
             "text": "Shh! Oh! My lantern!",
-            "audio": "u08_l11"
+            "audio": "u08_l11",
+            "ko": "쉿! 어! 내 등불이!"
           },
           {
             "who": "pip",
             "text": "U!",
             "audio": "name_u",
-            "sfx": "chime"
+            "sfx": "chime",
+            "ko": "유!"
+          }
+        ],
+        "ko": "우산이 문 앞에 내려앉았어요. 토끼 삼촌이 문을 열어 주며 윙크해요. 그럼블의 등불이 저절로 더 밝게 켜졌어요.",
+        "ask": [
+          {
+            "en": "Who opens the door?",
+            "ko": "누가 문을 열어 줘?"
+          },
+          {
+            "en": "Is the lantern on or off?",
+            "ko": "등불이 켜졌어, 꺼졌어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "해가 떴어요. 물개와 거북이가 달리기를 해요. 핍은 이가 없어서 부리를 톡톡. 우산이 핍을 매달고 날아가요! 그럼블이 등불을 껐는데 저절로 더 밝게 켜졌어요. 토끼 삼촌이 문을 열어 줘요.",
+    "so_far_ko": "여왕의 이불 밑에서 그럼블을 찾고 P·Q·R 나무를 키웠어요.",
+    "goal_ko": "해돋이 정원에서 씨앗 세 개를 찾아 S·T·U 나무를 키워요."
   },
   "videos": [
     {
@@ -398,21 +457,25 @@
           {
             "who": "bun",
             "text": "The sun is up!",
-            "audio": "sb_u08_1_1"
+            "audio": "sb_u08_1_1",
+            "ko": "해가 떴어!"
           },
           {
             "who": "hedgie",
             "text": "Go, seal! Go, turtle!",
-            "audio": "sb_u08_1_2"
+            "audio": "sb_u08_1_2",
+            "ko": "달려, 물개! 달려, 거북이!"
           },
           {
             "who": "bun",
             "text": "/s/ /s/ seal! Pop!",
-            "audio": "sb_u08_1_3"
+            "audio": "sb_u08_1_3",
+            "ko": "/s/ /s/ 물개! 펑!"
           }
         ],
         "task": "Find the s things!",
-        "task_ko": "s로 시작하는 것을 찾아요"
+        "task_ko": "s로 시작하는 것을 찾아요",
+        "ko": "해돋이예요. 물개와 거북이가 달리기를 해요. 언덕 위 그럼블이 등불을 훅 불어 꺼요."
       },
       {
         "id": "sb_u08_2",
@@ -421,21 +484,25 @@
           {
             "who": "narrator",
             "text": "Pip taps. No tooth!",
-            "audio": "sb_u08_2_1"
+            "audio": "sb_u08_2_1",
+            "ko": "핍이 톡톡. 이가 없어요!"
           },
           {
             "who": "bun",
             "text": "/t/ /t/ tomato! Pop!",
-            "audio": "sb_u08_2_2"
+            "audio": "sb_u08_2_2",
+            "ko": "/t/ /t/ 토마토! 펑!"
           },
           {
             "who": "grumble",
             "text": "Shh... Ouch!",
-            "audio": "sb_u08_2_3"
+            "audio": "sb_u08_2_3",
+            "ko": "쉿… 아야!"
           }
         ],
         "task": "Find the t things!",
-        "task_ko": "t로 시작하는 것을 찾아요"
+        "task_ko": "t로 시작하는 것을 찾아요",
+        "ko": "토마토 수프예요. 핍은 이가 없어 부리를 톡톡. 어두워진 그럼블은 그루터기에 걸려 넘어져요."
       },
       {
         "id": "sb_u08_3",
@@ -444,21 +511,25 @@
           {
             "who": "both",
             "text": "Up, up, up!",
-            "audio": "sb_u08_3_1"
+            "audio": "sb_u08_3_1",
+            "ko": "위로, 위로, 위로!"
           },
           {
             "who": "bun",
             "text": "/u/ /u/ umbrella! Pop!",
-            "audio": "sb_u08_3_2"
+            "audio": "sb_u08_3_2",
+            "ko": "/u/ /u/ 우산! 펑!"
           },
           {
             "who": "narrator",
             "text": "Who is Uncle?",
-            "audio": "sb_u08_3_3"
+            "audio": "sb_u08_3_3",
+            "ko": "삼촌은 누구일까요?"
           }
         ],
         "task": "Find the u things!",
-        "task_ko": "u로 시작하는 것을 찾아요"
+        "task_ko": "u로 시작하는 것을 찾아요",
+        "ko": "우산이 핍을 매달고 위로 위로 날아요. 문 앞의 토끼 삼촌이 윙크해요. 등불이 저절로 더 밝게 켜져요."
       }
     ]
   }

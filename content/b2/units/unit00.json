@@ -44,20 +44,34 @@
           {
             "who": "narrator",
             "text": "This is the Word Pond.",
-            "audio": "b2_u00_l1"
+            "audio": "b2_u00_l1",
+            "ko": "여기는 단어 연못이에요."
           },
           {
             "who": "bun",
             "text": "Look! No stones!",
-            "audio": "b2_u00_l2"
+            "audio": "b2_u00_l2",
+            "ko": "봐! 돌이 없어!"
           },
           {
             "who": "hedgie",
             "text": "How can we go in?",
-            "audio": "b2_u00_l3"
+            "audio": "b2_u00_l3",
+            "ko": "어떻게 들어가지?"
           }
         ],
-        "video": "vid_b2_u00_1"
+        "video": "vid_b2_u00_1",
+        "ko": "담장 틈으로 나오니 넓은 파란 연못이에요. 씨앗이 모래에 내려앉고 나무 구슬이 흩어져 있어요. 건너갈 돌이 없어요!",
+        "ask": [
+          {
+            "en": "What is on the sand?",
+            "ko": "모래 위에 뭐가 있어?"
+          },
+          {
+            "en": "Can they cross the pond?",
+            "ko": "연못을 건널 수 있을까?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u00_2",
@@ -67,21 +81,38 @@
           {
             "who": "narrator",
             "text": "This is Beads.",
-            "audio": "b2_u00_l4"
+            "audio": "b2_u00_l4",
+            "ko": "얘는 비즈예요."
           },
           {
             "who": "beads",
             "text": "Click-clack! Hi, Pip!",
-            "audio": "b2_u00_l5"
+            "audio": "b2_u00_l5",
+            "ko": "딸깍딸깍! 안녕, 핍!"
           },
           {
             "who": "narrator",
             "text": "Shh... Who is in the reeds?",
-            "audio": "b2_u00_l6"
+            "audio": "b2_u00_l6",
+            "ko": "쉿… 갈대 속에 누가 있을까요?"
+          }
+        ],
+        "ko": "연잎에서 구슬 애벌레 비즈가 나타나 구슬을 딸깍 부딪쳐요. 갈대 속에 그럼블 모자와 불빛이 보여요.",
+        "ask": [
+          {
+            "en": "Who is Beads?",
+            "ko": "비즈는 누구야?"
+          },
+          {
+            "en": "What is in the reeds?",
+            "ko": "갈대 속에 뭐가 있어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "담장 너머에 넓은 단어 연못이 있어요. 건너갈 돌이 없어요! 구슬 애벌레 비즈를 만났어요. 갈대 속에서 그럼블의 등불이 보여요.",
+    "so_far_ko": "1권에서 친구들은 스물여섯 글자나무를 키우고 핍은 소리를 되찾았어요. 씨앗 하나가 담장 너머로 날아갔어요.",
+    "goal_ko": "단어 연못에 닿아 새 친구 비즈를 만나요."
   },
   "videos": [
     {
@@ -100,21 +131,25 @@
           {
             "who": "narrator",
             "text": "This is the Word Pond.",
-            "audio": "sb2_u00_1_1"
+            "audio": "sb2_u00_1_1",
+            "ko": "여기는 단어 연못이에요."
           },
           {
             "who": "bun",
             "text": "Look! No stones!",
-            "audio": "sb2_u00_1_2"
+            "audio": "sb2_u00_1_2",
+            "ko": "봐! 돌이 없어!"
           },
           {
             "who": "hedgie",
             "text": "How can we go in?",
-            "audio": "sb2_u00_1_3"
+            "audio": "sb2_u00_1_3",
+            "ko": "어떻게 들어가지?"
           }
         ],
         "task": "Find the seed!",
-        "task_ko": "씨앗을 찾아요"
+        "task_ko": "씨앗을 찾아요",
+        "ko": "담장 틈으로 나온 셋이 넓은 연못에 닿았어요. 씨앗이 내려앉고 구슬이 흩어져 있어요. 돌이 없어요!"
       },
       {
         "id": "sb2_u00_2",
@@ -123,21 +158,25 @@
           {
             "who": "narrator",
             "text": "This is Beads.",
-            "audio": "sb2_u00_2_1"
+            "audio": "sb2_u00_2_1",
+            "ko": "얘는 비즈예요."
           },
           {
             "who": "beads",
             "text": "Click-clack! Hi, Pip!",
-            "audio": "sb2_u00_2_2"
+            "audio": "sb2_u00_2_2",
+            "ko": "딸깍딸깍! 안녕, 핍!"
           },
           {
             "who": "narrator",
             "text": "Shh... Who is in the reeds?",
-            "audio": "sb2_u00_2_3"
+            "audio": "sb2_u00_2_3",
+            "ko": "쉿… 갈대 속에 누가 있을까요?"
           }
         ],
         "task": "Find Beads!",
-        "task_ko": "비즈를 찾아요"
+        "task_ko": "비즈를 찾아요",
+        "ko": "구슬 애벌레 비즈가 나타나 '딸깍딸깍!' 해요. 갈대 속에 그럼블의 모자와 불빛이 보여요."
       }
     ]
   }

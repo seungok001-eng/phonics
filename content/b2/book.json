@@ -27,7 +27,8 @@
         "pointing",
         "cheering",
         "sleeping"
-      ]
+      ],
+      "role_ko": "소리를 되찾은 아기 새. 소리를 이어 붙여 단어를 읽으려다 거꾸로 말해요(\"탁!\"). 5유닛에서 첫 단어 \"캣!\"을 말해요."
     },
     "bun": {
       "name": "Bun",
@@ -45,7 +46,8 @@
         "waving",
         "thinking",
         "cheering"
-      ]
+      ],
+      "role_ko": "씩씩한 토끼. 제일 먼저 나서요. \"해 보자!\""
     },
     "hedgie": {
       "name": "Hedgie",
@@ -63,7 +65,8 @@
         "waving",
         "thinking",
         "cheering"
-      ]
+      ],
+      "role_ko": "조심스러운 고슴도치. 숨은 물건을 잘 찾아요. \"우와!\""
     },
     "grumble": {
       "name": "Grumble",
@@ -81,7 +84,8 @@
         "surprised",
         "happy",
         "drum"
-      ]
+      ],
+      "role_ko": "연못가 갈대숲에서 \"쉿!\" 하는 너구리 할아버지. 등불로 길을 비춰 주며 점점 친구가 돼요."
     },
     "beads": {
       "name": "Beads",
@@ -98,7 +102,8 @@
         "pointing",
         "thinking",
         "cheering"
-      ]
+      ],
+      "role_ko": "구슬 애벌레. 글자 구슬을 꿰어 단어를 만들어요. \"딸깍딸깍!\""
     }
   },
   "pose_desc": {
@@ -1100,7 +1105,8 @@
     "title_ko": "핍과 단어 연못",
     "cover": {
       "id": "sb2_cover",
-      "desc": "Picture-book cover illustration. Pip, the tiny yellow baby bird with a green leaf scarf, stands on a round stepping stone in the middle of a wide blue pond singing with its beak open and a golden note above it; Bun the white rabbit in green boots and Hedgie the hedgehog stand on the next stones cheering; Beads the rainbow bead caterpillar sits on a lily pad holding up a string of beads; in the reeds at one side Grumble the old raccoon peeks out holding a brightly glowing lantern. A row of stepping stones leads across the water toward a far bank with a pine forest. Leave a calm, simple sky area at the top for the title."
+      "desc": "Picture-book cover illustration. Pip, the tiny yellow baby bird with a green leaf scarf, stands on a round stepping stone in the middle of a wide blue pond singing with its beak open and a golden note above it; Bun the white rabbit in green boots and Hedgie the hedgehog stand on the next stones cheering; Beads the rainbow bead caterpillar sits on a lily pad holding up a string of beads; in the reeds at one side Grumble the old raccoon peeks out holding a brightly glowing lantern. A row of stepping stones leads across the water toward a far bank with a pine forest. Leave a calm, simple sky area at the top for the title.",
+      "ko": "표지. 연못 한가운데 징검돌 위에서 노래하는 핍, 번과 헤지, 연잎 위 비즈, 갈대 속 등불 든 그럼블."
     },
     "front": [
       {
@@ -1110,9 +1116,11 @@
           {
             "who": "narrator",
             "text": "Pip and the Word Pond",
-            "audio": "sb2_front_1_1"
+            "audio": "sb2_front_1_1",
+            "ko": "핍과 단어 연못"
           }
-        ]
+        ],
+        "ko": "속표지. 연잎 위에 나란히 앉은 핍과 비즈."
       },
       {
         "id": "sb2_map",
@@ -1121,14 +1129,17 @@
           {
             "who": "narrator",
             "text": "The Word Pond.",
-            "audio": "sb2_map_1"
+            "audio": "sb2_map_1",
+            "ko": "단어 연못이에요."
           },
           {
             "who": "narrator",
             "text": "Lots of beads. No stones!",
-            "audio": "sb2_map_2"
+            "audio": "sb2_map_2",
+            "ko": "구슬은 많은데 돌은 없어요!"
           }
-        ]
+        ],
+        "ko": "단어 연못 지도예요. 담장 틈, 구슬이 흩어진 둑, 연못, 갈대와 굴, 건너편 숲이 있어요."
       }
     ],
     "back": [
@@ -1139,14 +1150,17 @@
           {
             "who": "narrator",
             "text": "The End",
-            "audio": "sb2_end_1"
+            "audio": "sb2_end_1",
+            "ko": "끝"
           }
-        ]
+        ],
+        "ko": "마지막 돌에 앉은 다섯 친구의 뒷모습. 숲 속에 똑같은 불빛 둘. 이야기 끝."
       },
       {
         "id": "sb2_map_done",
         "desc": "The same hand-drawn map of the Word Pond as before, but now a complete bridge of round stepping stones in many rows crosses the whole pond, a trail of tiny bird footprints runs along it from the fence gap to the far bank, paper lanterns hang over the party lawn, and at the top edge of the pine forest two small pale wisps of light glow with a little path leading into the trees. No letters or text anywhere.",
-        "lines": []
+        "lines": [],
+        "ko": "징검다리가 완성된 지도. 발자국이 건너편까지 이어지고 숲으로 작은 길이 나 있어요."
       }
     ]
   },
@@ -1155,5 +1169,10 @@
     "object": "A single object only, centered, filling most of the frame, on a plain pure white background, no shadow on the ground, nothing else in the picture.",
     "scene": "Full illustrated scene with a simple uncluttered background and a calm, simple sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind.",
     "character_sheet": "Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described."
+  },
+  "story_arc": {
+    "ko": "글자나무 정원 담장 너머에 단어 연못이 있어요. 건너려면 글자들이 손을 잡고 단어가 되어 징검돌이 돼야 해요. 구슬 애벌레 비즈가 글자 구슬을 꿰어 단어를 만들어 줘요. 핍은 소리를 이어 붙이다 거꾸로 말하지만 5유닛에서 첫 단어 \"캣!\"을 말하고, 다리가 완성되면 노래 조각 둘을 찾아요.",
+    "books_ko": "옛날에 노래 나무가 부르던 소리 노래가 네 조각으로 흩어졌어요. 1권 소리 정원, 2권 단어 연못, 3권 짝꿍 숲, 4권 마법 성에서 조각을 하나씩 찾아요. 네 조각을 다 모으면 노래 나무가 다시 노래해요.",
+    "characters_ko": "소리를 되찾은 핍이 이제 단어를 읽으려 해요. 번과 헤지는 여전히 함께하고, 새 친구 비즈가 구슬을 꿰어 단어를 만들어요. 갈대숲의 그럼블은 등불로 길을 비추며 진짜 친구가 돼요."
   }
 }

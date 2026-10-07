@@ -360,8 +360,10 @@
         "line": {
           "who": "narrator",
           "text": "This is Pip. Pip cannot sing.",
-          "audio": "u00_l3"
-        }
+          "audio": "u00_l3",
+          "ko": "얘는 핍이에요. 핍은 노래를 못 해요."
+        },
+        "ko": "번과 헤지가 소리 정원에서 노래를 잃은 핍을 만났어요."
       },
       {
         "unit": 1,
@@ -369,8 +371,10 @@
         "line": {
           "who": "both",
           "text": "A! B! C!",
-          "audio": "u01_l10"
-        }
+          "audio": "u01_l10",
+          "ko": "에이! 비! 시!"
+        },
+        "ko": "씨앗 셋을 찾아 A·B·C 나무를 키웠어요. 그럼블이 \"쉿!\""
       },
       {
         "unit": 2,
@@ -378,8 +382,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh... Thank you.",
-          "audio": "u02_l9"
-        }
+          "audio": "u02_l9",
+          "ko": "쉿… 고마워."
+        },
+        "ko": "오리 연못에서 D·E·F 나무를 키우고 물에 빠진 그럼블을 건져 줬어요."
       },
       {
         "unit": 3,
@@ -387,8 +393,10 @@
         "line": {
           "who": "narrator",
           "text": "Pip tries. Hic! Hic!",
-          "audio": "u03_l5"
-        }
+          "audio": "u03_l5",
+          "ko": "핍이 해 봐요. 딸꾹! 딸꾹!"
+        },
+        "ko": "염소가 삼킨 씨앗을 선물로 되찾았어요. 핍은 딸꾹질!"
       },
       {
         "unit": 4,
@@ -396,8 +404,10 @@
         "line": {
           "who": "bun",
           "text": "Jump in!",
-          "audio": "u04_l10"
-        }
+          "audio": "u04_l10",
+          "ko": "뛰어 들어가자!"
+        },
+        "ko": "열쇠로 자물쇠를 열고 둘째 정원으로 뛰어들었어요."
       },
       {
         "unit": 5,
@@ -405,8 +415,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh... My garden.",
-          "audio": "u05_l12"
-        }
+          "audio": "u05_l12",
+          "ko": "쉿… 내 정원."
+        },
+        "ko": "정원 산책. 그럼블은 굴 앞에서 부럽게 바라봤어요."
       },
       {
         "unit": 6,
@@ -414,8 +426,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh! It is my pot!",
-          "audio": "u06_l11"
-        }
+          "audio": "u06_l11",
+          "ko": "쉿! 내 화분이야!"
+        },
+        "ko": "밤 정원. 화분에 숨은 그럼블이 굴러 나왔어요."
       },
       {
         "unit": 7,
@@ -423,8 +437,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh! It is my quilt!",
-          "audio": "u07_l5"
-        }
+          "audio": "u07_l5",
+          "ko": "쉿! 내 이불이야!"
+        },
+        "ko": "이불 밑은 여왕님이 아니라 그럼블이었어요!"
       },
       {
         "unit": 8,
@@ -432,8 +448,10 @@
         "line": {
           "who": "bun",
           "text": "Up, up, up!",
-          "audio": "u08_l7"
-        }
+          "audio": "u08_l7",
+          "ko": "위로, 위로, 위로!"
+        },
+        "ko": "우산이 핍을 매달고 위로, 위로 날아갔어요."
       },
       {
         "unit": 9,
@@ -441,8 +459,10 @@
         "line": {
           "who": "grumble",
           "text": "Shh! Look at my lantern!",
-          "audio": "u09_l10"
-        }
+          "audio": "u09_l10",
+          "ko": "쉿! 내 등불 좀 봐!"
+        },
+        "ko": "화산이 뻥! 그럼블이 별처럼 밝은 등불을 봤어요."
       },
       {
         "unit": 10,
@@ -450,8 +470,10 @@
         "line": {
           "who": "narrator",
           "text": "This is it! Pip sings!",
-          "audio": "u10_l10"
-        }
+          "audio": "u10_l10",
+          "ko": "바로 이거예요! 핍이 노래해요!"
+        },
+        "ko": "등불이 열리고 핍이 처음 노래했어요."
       },
       {
         "unit": 11,
@@ -459,8 +481,10 @@
         "line": {
           "who": "grumble",
           "text": "I like the song too!",
-          "audio": "u11_l7"
-        }
+          "audio": "u11_l7",
+          "ko": "나도 노래가 좋아!"
+        },
+        "ko": "파티에서 그럼블이 \"나도 노래가 좋았어!\" 하고 북을 쳤어요."
       }
     ],
     "certificate": {
@@ -539,21 +563,38 @@
           {
             "who": "narrator",
             "text": "Look! The Alphabet Show!",
-            "audio": "u12_l1"
+            "audio": "u12_l1",
+            "ko": "봐요! 알파벳 쇼예요!"
           },
           {
             "who": "both",
             "text": "We can sing A to Z!",
-            "audio": "u12_l2"
+            "audio": "u12_l2",
+            "ko": "에이부터 지까지 노래할 수 있어요!"
           },
           {
             "who": "grumble",
             "text": "Boom! Boom! I like it!",
-            "audio": "u12_l3"
+            "audio": "u12_l3",
+            "ko": "쿵! 쿵! 나 이거 좋아!"
+          }
+        ],
+        "ko": "꽃 무대 위에서 핍이 노래해요. 그럼블은 북을 둥둥, 번과 헤지는 춤을 춰요. 나무 스물여섯 그루가 빛나요.",
+        "ask": [
+          {
+            "en": "Who is singing?",
+            "ko": "누가 노래해?"
+          },
+          {
+            "en": "Who is drumming?",
+            "ko": "누가 북을 쳐?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "꽃 무대에서 알파벳 쇼가 열려요. 핍이 노래하고 그럼블이 북을 치고 번과 헤지가 춤춰요. 스물여섯 글자나무가 빛나요.",
+    "so_far_ko": "정원 파티에서 그럼블이 친구가 되었고, 씨앗 하나가 담장 너머로 날아갔어요.",
+    "goal_ko": "스물여섯 소리를 노래하고, 이야기를 되짚고, 수료증을 받아요."
   },
   "videos": [],
   "storybook": {

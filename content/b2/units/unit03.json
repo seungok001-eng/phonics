@@ -159,20 +159,34 @@
           {
             "who": "bun",
             "text": "I see a net.",
-            "audio": "b2_u03_l1"
+            "audio": "b2_u03_l1",
+            "ko": "그물이 보여."
           },
           {
             "who": "pip",
             "text": "Ten! Ten?",
-            "audio": "b2_u03_l2"
+            "audio": "b2_u03_l2",
+            "ko": "텐! 텐?"
           },
           {
             "who": "narrator",
             "text": "Ten hens! Oh no!",
-            "audio": "b2_u03_l3"
+            "audio": "b2_u03_l3",
+            "ko": "암탉 열 마리! 어떡해!"
           }
         ],
-        "video": "vid_b2_u03_1"
+        "video": "vid_b2_u03_1",
+        "ko": "암탉 열 마리가 뛰어다녀요. 그물이 모래에 있고 하늘에 제트기! 핍이 \"텐!\" 하자 암탉이 더 와요.",
+        "ask": [
+          {
+            "en": "How many hens?",
+            "ko": "암탉이 몇 마리야?"
+          },
+          {
+            "en": "What is in the sky?",
+            "ko": "하늘에 뭐가 있어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u03_2",
@@ -188,20 +202,34 @@
             "who": "beads",
             "text": "/n/ /e/ /t/ net!",
             "audio": "blend_net",
-            "pop": "net"
+            "pop": "net",
+            "ko": "/n/ /e/ /t/ 그물!"
           },
           {
             "who": "hedgie",
             "text": "The net has ten hens!",
-            "audio": "b2_u03_l4"
+            "audio": "b2_u03_l4",
+            "ko": "그물에 암탉 열 마리!"
           },
           {
             "who": "bun",
             "text": "The pet is wet!",
-            "audio": "b2_u03_l5"
+            "audio": "b2_u03_l5",
+            "ko": "애완동물이 젖었어!"
           }
         ],
-        "video": "vid_b2_u03_2"
+        "video": "vid_b2_u03_2",
+        "ko": "그물이 넓은 돌이 됐어요. 암탉들이 올라타요. 어항 속 금붕어, 젖은 강아지가 물을 털어요.",
+        "ask": [
+          {
+            "en": "Who is on the net?",
+            "ko": "그물 위에 누가 있어?"
+          },
+          {
+            "en": "Who is wet?",
+            "ko": "누가 젖었어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u03_3",
@@ -216,17 +244,31 @@
             "who": "beads",
             "text": "/h/ /e/ /n/ hen!",
             "audio": "blend_hen",
-            "pop": "hen"
+            "pop": "hen",
+            "ko": "/h/ /e/ /n/ 암탉!"
           },
           {
             "who": "hedgie",
             "text": "The hen has a pen!",
-            "audio": "b2_u03_l6"
+            "audio": "b2_u03_l6",
+            "ko": "암탉이 펜을 물었어!"
           },
           {
             "who": "grumble",
             "text": "Shh! It is my den!",
-            "audio": "b2_u03_l7"
+            "audio": "b2_u03_l7",
+            "ko": "쉿! 내 굴이야!"
+          }
+        ],
+        "ko": "암탉이 펜을 물고 낙서해요. 굴 속에서 그럼블이 \"내 굴이야!\"",
+        "ask": [
+          {
+            "en": "What does the hen hold?",
+            "ko": "암탉이 뭘 물었어?"
+          },
+          {
+            "en": "Where is Grumble?",
+            "ko": "그럼블은 어디 있어?"
           }
         ]
       },
@@ -243,21 +285,38 @@
           {
             "who": "narrator",
             "text": "The vet has ten hens.",
-            "audio": "b2_u03_l8"
+            "audio": "b2_u03_l8",
+            "ko": "수의사 선생님한테 암탉 열 마리가 왔어요."
           },
           {
             "who": "pip",
             "text": "Net? Ten? Net!",
-            "audio": "b2_u03_l9"
+            "audio": "b2_u03_l9",
+            "ko": "넷? 텐? 넷! (그물!)"
           },
           {
             "who": "beads",
             "text": "Click-clack! Ten and net!",
-            "audio": "b2_u03_l10"
+            "audio": "b2_u03_l10",
+            "ko": "딸깍딸깍! 텐하고 넷!"
+          }
+        ],
+        "ko": "암탉들이 줄지어 올빼미 수의사에게 가요. 핍이 드디어 \"넷!\" 하고 말해요.",
+        "ask": [
+          {
+            "en": "Who checks the hen?",
+            "ko": "누가 암탉을 봐 줘?"
+          },
+          {
+            "en": "What does Pip say?",
+            "ko": "핍이 뭐라고 해?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "암탉 열 마리가 푸드덕! 핍이 \"넷\" 대신 \"텐\"이라고 하자 암탉이 더 몰려왔어요. 그물이 넓은 징검돌이 되고, 펜 문 암탉과 굴 속 그럼블을 만나요. 올빼미 수의사가 암탉을 돌봐요.",
+    "so_far_ko": "떠내려간 모자와 가방을 되찾았어요. 그럼블은 번의 모자를 쓰고 있어요.",
+    "goal_ko": "-et·-en 단어를 읽어 암탉 열 마리를 건너게 해요."
   },
   "videos": [
     {
@@ -505,21 +564,25 @@
           {
             "who": "bun",
             "text": "I see a net.",
-            "audio": "sb2_u03_1_1"
+            "audio": "sb2_u03_1_1",
+            "ko": "그물이 보여."
           },
           {
             "who": "pip",
             "text": "Ten! Ten?",
-            "audio": "sb2_u03_1_2"
+            "audio": "sb2_u03_1_2",
+            "ko": "텐! 텐?"
           },
           {
             "who": "narrator",
             "text": "Ten hens! Oh no!",
-            "audio": "sb2_u03_1_3"
+            "audio": "sb2_u03_1_3",
+            "ko": "암탉 열 마리! 어떡해!"
           }
         ],
         "task": "Find the -et words!",
-        "task_ko": "-et 단어를 찾아요"
+        "task_ko": "-et 단어를 찾아요",
+        "ko": "암탉 열 마리가 푸드덕! 그물과 하늘의 제트기. 핍이 '텐!' 하자 암탉이 더 몰려와요."
       },
       {
         "id": "sb2_u03_2",
@@ -528,21 +591,25 @@
           {
             "who": "beads",
             "text": "/n/ /e/ /t/ net!",
-            "audio": "sb2_u03_2_1"
+            "audio": "sb2_u03_2_1",
+            "ko": "/n/ /e/ /t/ 그물!"
           },
           {
             "who": "hedgie",
             "text": "The net has ten hens!",
-            "audio": "sb2_u03_2_2"
+            "audio": "sb2_u03_2_2",
+            "ko": "그물에 암탉 열 마리!"
           },
           {
             "who": "bun",
             "text": "The pet is wet!",
-            "audio": "sb2_u03_2_3"
+            "audio": "sb2_u03_2_3",
+            "ko": "애완동물이 젖었어!"
           }
         ],
         "task": "Find the -et words!",
-        "task_ko": "-et 단어를 찾아요"
+        "task_ko": "-et 단어를 찾아요",
+        "ko": "그물이 넓은 징검돌이 되고 암탉들이 올라타요. 어항 속 금붕어, 젖은 강아지도 있어요."
       },
       {
         "id": "sb2_u03_3",
@@ -551,21 +618,25 @@
           {
             "who": "hedgie",
             "text": "The hen has a pen!",
-            "audio": "sb2_u03_3_1"
+            "audio": "sb2_u03_3_1",
+            "ko": "암탉이 펜을 물었어!"
           },
           {
             "who": "grumble",
             "text": "Shh! It is my den!",
-            "audio": "sb2_u03_3_2"
+            "audio": "sb2_u03_3_2",
+            "ko": "쉿! 내 굴이야!"
           },
           {
             "who": "narrator",
             "text": "Ouch! Oh no, Grumble!",
-            "audio": "sb2_u03_3_3"
+            "audio": "sb2_u03_3_3",
+            "ko": "아야! 어떡해, 그럼블!"
           }
         ],
         "task": "Find the -en words!",
-        "task_ko": "-en 단어를 찾아요"
+        "task_ko": "-en 단어를 찾아요",
+        "ko": "펜을 문 암탉, 굴 속 그럼블 '쉿! 내 굴!', 올빼미 수의사. 아야! 저런, 그럼블!"
       }
     ]
   }

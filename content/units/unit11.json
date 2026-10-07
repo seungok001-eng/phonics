@@ -304,20 +304,34 @@
           {
             "who": "both",
             "text": "This is the party!",
-            "audio": "u11_l1"
+            "audio": "u11_l1",
+            "ko": "파티다!"
           },
           {
             "who": "hedgie",
             "text": "I see milk and soup!",
-            "audio": "u11_l2"
+            "audio": "u11_l2",
+            "ko": "우유하고 수프가 보여!"
           },
           {
             "who": "bun",
             "text": "And rice and yogurt!",
-            "audio": "u11_l3"
+            "audio": "u11_l3",
+            "ko": "밥하고 요거트도!"
           }
         ],
-        "video": "vid_u11_1"
+        "video": "vid_u11_1",
+        "ko": "글자나무 아래 파티 상이 차려졌어요. 우유, 수프, 밥, 요거트! 번이 풍선 아홉 개를 묶어요. 그럼블은 아직 멀리 언덕에 있어요.",
+        "ask": [
+          {
+            "en": "What is on the table?",
+            "ko": "상 위에 뭐가 있어?"
+          },
+          {
+            "en": "How many balloons?",
+            "ko": "풍선이 몇 개야?"
+          }
+        ]
       },
       {
         "id": "scene_u11_2",
@@ -331,17 +345,31 @@
           {
             "who": "hedgie",
             "text": "Grumble! Here is a gift!",
-            "audio": "u11_l4"
+            "audio": "u11_l4",
+            "ko": "그럼블! 선물이에요!"
           },
           {
             "who": "bun",
             "text": "Can you go to the party?",
-            "audio": "u11_l5"
+            "audio": "u11_l5",
+            "ko": "파티에 올래?"
           },
           {
             "who": "grumble",
             "text": "Shh... Me?",
-            "audio": "u11_l6"
+            "audio": "u11_l6",
+            "ko": "쉿… 나?"
+          }
+        ],
+        "ko": "친구들이 그럼블 굴에 가서 선물을 주고 파티에 초대해요. 그럼블이 \"나?\" 하고 놀라요.",
+        "ask": [
+          {
+            "en": "What does Hedgie hold?",
+            "ko": "헤지가 뭘 들고 있어?"
+          },
+          {
+            "en": "How does Grumble feel?",
+            "ko": "그럼블은 기분이 어때?"
           }
         ]
       },
@@ -358,21 +386,35 @@
           {
             "who": "grumble",
             "text": "I like the song too!",
-            "audio": "u11_l7"
+            "audio": "u11_l7",
+            "ko": "나도 노래가 좋아!"
           },
           {
             "who": "narrator",
             "text": "Boom, boom! Look at Grumble!",
-            "audio": "u11_l8"
+            "audio": "u11_l8",
+            "ko": "쿵쿵! 그럼블을 봐요!"
           },
           {
             "who": "pip",
             "text": "A! B! C!",
             "audio": "u11_l9",
-            "sfx": "chime"
+            "sfx": "chime",
+            "ko": "에이! 비! 시!"
           }
         ],
-        "video": "vid_u11_2"
+        "video": "vid_u11_2",
+        "ko": "선물은 북이었어요! 그럼블이 신나게 북을 쳐요. \"나도 노래가 좋았어!\" 핍이 노래하고 모두 춤춰요.",
+        "ask": [
+          {
+            "en": "What was the gift?",
+            "ko": "선물은 뭐였어?"
+          },
+          {
+            "en": "What is Grumble doing?",
+            "ko": "그럼블은 뭘 하고 있어?"
+          }
+        ]
       },
       {
         "id": "scene_u11_4",
@@ -386,21 +428,38 @@
           {
             "who": "both",
             "text": "Look! A seed!",
-            "audio": "u11_l10"
+            "audio": "u11_l10",
+            "ko": "봐! 씨앗이야!"
           },
           {
             "who": "hedgie",
             "text": "It can go up, up, up!",
-            "audio": "u11_l11"
+            "audio": "u11_l11",
+            "ko": "위로, 위로, 위로 날아가!"
           },
           {
             "who": "bun",
             "text": "We can go too!",
-            "audio": "u11_l12"
+            "audio": "u11_l12",
+            "ko": "우리도 갈 수 있어!"
+          }
+        ],
+        "ko": "해질녘, 씨앗 하나가 담장 너머 연못 쪽으로 날아가요. 모두 올려다봐요. 씨앗은 어디로 갈까요?",
+        "ask": [
+          {
+            "en": "Where is the seed going?",
+            "ko": "씨앗은 어디로 가?"
+          },
+          {
+            "en": "What is beyond the fence?",
+            "ko": "담장 너머엔 뭐가 있어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "정원 파티예요. 친구들이 그럼블에게 북을 선물하고 초대했어요. 그럼블이 \"나도 노래가 좋았어!\" 하고 북을 쳐요. 해질녘, 씨앗 하나가 담장 너머로 날아갔어요.",
+    "so_far_ko": "스물여섯 그루가 다 자라고 핍이 노래를 되찾았어요. 그럼블은 감동해서 울었어요.",
+    "goal_ko": "파티를 열어 그럼블과 친구가 되고 M~Z 소리를 복습해요."
   },
   "videos": [
     {
@@ -425,21 +484,25 @@
           {
             "who": "both",
             "text": "This is the party!",
-            "audio": "sb_u11_1_1"
+            "audio": "sb_u11_1_1",
+            "ko": "파티다!"
           },
           {
             "who": "hedgie",
             "text": "I see milk and soup!",
-            "audio": "sb_u11_1_2"
+            "audio": "sb_u11_1_2",
+            "ko": "우유하고 수프가 보여!"
           },
           {
             "who": "bun",
             "text": "Can Grumble go too?",
-            "audio": "sb_u11_1_3"
+            "audio": "sb_u11_1_3",
+            "ko": "그럼블도 갈 수 있을까?"
           }
         ],
         "task": "Find milk, soup, rice, yogurt!",
-        "task_ko": "우유·수프·밥·요거트를 찾아요"
+        "task_ko": "우유·수프·밥·요거트를 찾아요",
+        "ko": "정원 파티예요. 상 위에 우유, 수프, 밥, 요거트가 있어요. 풍선 아홉 개. 그럼블은 아직 언덕에 있어요."
       },
       {
         "id": "sb_u11_2",
@@ -448,21 +511,25 @@
           {
             "who": "hedgie",
             "text": "Here is a gift!",
-            "audio": "sb_u11_2_1"
+            "audio": "sb_u11_2_1",
+            "ko": "여기 선물이야!"
           },
           {
             "who": "grumble",
             "text": "I like the song too!",
-            "audio": "sb_u11_2_2"
+            "audio": "sb_u11_2_2",
+            "ko": "나도 노래가 좋아!"
           },
           {
             "who": "narrator",
             "text": "Boom, boom! Look at Grumble!",
-            "audio": "sb_u11_2_3"
+            "audio": "sb_u11_2_3",
+            "ko": "쿵쿵! 그럼블을 봐요!"
           }
         ],
         "task": "Find the drum!",
-        "task_ko": "북을 찾아요"
+        "task_ko": "북을 찾아요",
+        "ko": "그럼블에게 북을 선물하고 파티에 초대해요. 그럼블이 '나도 노래가 좋았어!' 하고 북을 둥둥 쳐요."
       },
       {
         "id": "sb_u11_3",
@@ -471,21 +538,25 @@
           {
             "who": "both",
             "text": "Look! A seed!",
-            "audio": "sb_u11_3_1"
+            "audio": "sb_u11_3_1",
+            "ko": "봐! 씨앗이야!"
           },
           {
             "who": "hedgie",
             "text": "It can go up, up, up!",
-            "audio": "sb_u11_3_2"
+            "audio": "sb_u11_3_2",
+            "ko": "위로, 위로, 위로 날아가!"
           },
           {
             "who": "narrator",
             "text": "Over the fence... and then?",
-            "audio": "sb_u11_3_3"
+            "audio": "sb_u11_3_3",
+            "ko": "담장 너머로… 그다음은?"
           }
         ],
         "task": "Find the seed!",
-        "task_ko": "씨앗을 찾아요"
+        "task_ko": "씨앗을 찾아요",
+        "ko": "해질녘, 씨앗 하나가 담장 너머 연못 쪽으로 날아가요. 모두 올려다봐요. 그다음은 어떻게 될까요?"
       }
     ]
   }

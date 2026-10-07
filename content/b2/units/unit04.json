@@ -152,20 +152,34 @@
           {
             "who": "narrator",
             "text": "Grumble has a big leg!",
-            "audio": "b2_u04_l1"
+            "audio": "b2_u04_l1",
+            "ko": "그럼블 다리가 퉁퉁 부었어요!"
           },
           {
             "who": "grumble",
             "text": "Shh... Ouch! My leg!",
-            "audio": "b2_u04_l2"
+            "audio": "b2_u04_l2",
+            "ko": "쉿… 아야! 내 다리!"
           },
           {
             "who": "pip",
             "text": "Deb! Deb?",
-            "audio": "b2_u04_l3"
+            "audio": "b2_u04_l3",
+            "ko": "뎁! 뎁?"
           }
         ],
-        "video": "vid_b2_u04_1"
+        "video": "vid_b2_u04_1",
+        "ko": "해질녘, 그럼블이 돌에서 미끄러졌어요. 다리가 퉁퉁 부었어요. 핍은 \"뎁!\"",
+        "ask": [
+          {
+            "en": "What happened to Grumble?",
+            "ko": "그럼블에게 무슨 일이 생겼어?"
+          },
+          {
+            "en": "Is it morning or evening?",
+            "ko": "지금은 아침이야, 저녁이야?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u04_2",
@@ -179,17 +193,31 @@
             "who": "beads",
             "text": "/b/ /e/ /d/ bed!",
             "audio": "blend_bed",
-            "pop": "bed"
+            "pop": "bed",
+            "ko": "/b/ /e/ /d/ 침대!"
           },
           {
             "who": "bun",
             "text": "A little bed! A red bed!",
-            "audio": "b2_u04_l4"
+            "audio": "b2_u04_l4",
+            "ko": "작은 침대! 빨간 침대!"
           },
           {
             "who": "hedgie",
             "text": "Grumble is in the bed.",
-            "audio": "b2_u04_l5"
+            "audio": "b2_u04_l5",
+            "ko": "그럼블이 침대에 누웠어요."
+          }
+        ],
+        "ko": "갈대로 빨간 침대를 만들었어요. 비즈가 b-e-d 를 꿰고, 그럼블을 침대에 눕혀요.",
+        "ask": [
+          {
+            "en": "What color is the bed?",
+            "ko": "침대는 무슨 색이야?"
+          },
+          {
+            "en": "Who is in the bed?",
+            "ko": "침대에 누가 누웠어?"
           }
         ]
       },
@@ -205,21 +233,35 @@
           {
             "who": "narrator",
             "text": "Hedgie fed Grumble.",
-            "audio": "b2_u04_l6"
+            "audio": "b2_u04_l6",
+            "ko": "헤지가 그럼블에게 먹여 줬어요."
           },
           {
             "who": "beads",
             "text": "/l/ /e/ /g/ leg!",
             "audio": "blend_leg",
-            "pop": "leg"
+            "pop": "leg",
+            "ko": "/l/ /e/ /g/ 다리!"
           },
           {
             "who": "grumble",
             "text": "Shh... Thank you.",
-            "audio": "b2_u04_l7"
+            "audio": "b2_u04_l7",
+            "ko": "쉿… 고마워."
           }
         ],
-        "video": "vid_b2_u04_2"
+        "video": "vid_b2_u04_2",
+        "ko": "헤지가 수프를 먹여 줘요. 강아지가 앞발을 들고 졸라요. 빨래집게에 그럼블 모자가 걸려 있어요.",
+        "ask": [
+          {
+            "en": "What does Hedgie do?",
+            "ko": "헤지가 뭘 해?"
+          },
+          {
+            "en": "What is the puppy doing?",
+            "ko": "강아지는 뭘 해?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u04_4",
@@ -233,21 +275,38 @@
           {
             "who": "bun",
             "text": "The big leg is little!",
-            "audio": "b2_u04_l8"
+            "audio": "b2_u04_l8",
+            "ko": "퉁퉁 부은 다리가 작아졌어!"
           },
           {
             "who": "grumble",
             "text": "Shh... It is my bed?",
-            "audio": "b2_u04_l9"
+            "audio": "b2_u04_l9",
+            "ko": "쉿… 이거 내 침대야?"
           },
           {
             "who": "hedgie",
             "text": "Yes! A bed for Grumble.",
-            "audio": "b2_u04_l10"
+            "audio": "b2_u04_l10",
+            "ko": "응! 그럼블의 침대야."
+          }
+        ],
+        "ko": "아침이에요. 다리가 다 나았어요! 그럼블이 베개를 안고 \"내 침대야?\" 해요.",
+        "ask": [
+          {
+            "en": "Is the leg big now?",
+            "ko": "다리가 아직 부었어?"
+          },
+          {
+            "en": "What does Grumble hug?",
+            "ko": "그럼블이 뭘 안고 있어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "그럼블이 몰래 돌을 건너다 미끄러져 다리를 다쳤어요. 친구들이 빨간 침대를 만들어 눕히고 수프를 먹여 줬어요. 아침에 다리가 나은 그럼블이 \"이거 내 침대야?\" 하고 물어요.",
+    "so_far_ko": "암탉 열 마리를 건너게 했어요. 핍이 \"넷\"을 바로 말했어요.",
+    "goal_ko": "다친 그럼블을 돌보며 -ed·-eg 단어를 읽어요."
   },
   "videos": [
     {
@@ -492,21 +551,25 @@
           {
             "who": "narrator",
             "text": "Grumble has a big leg!",
-            "audio": "sb2_u04_1_1"
+            "audio": "sb2_u04_1_1",
+            "ko": "그럼블 다리가 퉁퉁 부었어요!"
           },
           {
             "who": "grumble",
             "text": "Shh... Ouch! My leg!",
-            "audio": "sb2_u04_1_2"
+            "audio": "sb2_u04_1_2",
+            "ko": "쉿… 아야! 내 다리!"
           },
           {
             "who": "pip",
             "text": "Deb! Deb?",
-            "audio": "sb2_u04_1_3"
+            "audio": "sb2_u04_1_3",
+            "ko": "뎁! 뎁?"
           }
         ],
         "task": "Find the big leg!",
-        "task_ko": "큰 다리를 찾아요"
+        "task_ko": "큰 다리를 찾아요",
+        "ko": "해질녘 그럼블이 돌에서 미끄러져 다리가 퉁퉁 부었어요. 핍은 '뎁!'"
       },
       {
         "id": "sb2_u04_2",
@@ -515,21 +578,25 @@
           {
             "who": "beads",
             "text": "/b/ /e/ /d/ bed!",
-            "audio": "sb2_u04_2_1"
+            "audio": "sb2_u04_2_1",
+            "ko": "/b/ /e/ /d/ 침대!"
           },
           {
             "who": "bun",
             "text": "A little bed! A red bed!",
-            "audio": "sb2_u04_2_2"
+            "audio": "sb2_u04_2_2",
+            "ko": "작은 침대! 빨간 침대!"
           },
           {
             "who": "hedgie",
             "text": "Grumble is in the bed.",
-            "audio": "sb2_u04_2_3"
+            "audio": "sb2_u04_2_3",
+            "ko": "그럼블이 침대에 누웠어요."
           }
         ],
         "task": "Find the -ed words!",
-        "task_ko": "-ed 단어를 찾아요"
+        "task_ko": "-ed 단어를 찾아요",
+        "ko": "갈대로 만든 빨간 침대예요. 비즈가 b-e-d 를 꿰고 그럼블을 눕혀요."
       },
       {
         "id": "sb2_u04_3",
@@ -538,21 +605,25 @@
           {
             "who": "narrator",
             "text": "Hedgie fed Grumble.",
-            "audio": "sb2_u04_3_1"
+            "audio": "sb2_u04_3_1",
+            "ko": "헤지가 그럼블에게 먹여 줬어요."
           },
           {
             "who": "grumble",
             "text": "Shh... It is my bed?",
-            "audio": "sb2_u04_3_2"
+            "audio": "sb2_u04_3_2",
+            "ko": "쉿… 이거 내 침대야?"
           },
           {
             "who": "pip",
             "text": "C... a... t...?",
-            "audio": "sb2_u04_3_3"
+            "audio": "sb2_u04_3_3",
+            "ko": "크… 애… 트…?"
           }
         ],
         "task": "Find the -eg words!",
-        "task_ko": "-eg 단어를 찾아요"
+        "task_ko": "-eg 단어를 찾아요",
+        "ko": "헤지가 수프를 먹여 주고 강아지는 앞발을 들어요. 그럼블은 '내 침대야?' 핍이 고양이를 보며 '크… 애… 트…?'"
       }
     ]
   }

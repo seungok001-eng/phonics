@@ -157,20 +157,34 @@
           {
             "who": "hedgie",
             "text": "The pig is big!",
-            "audio": "b2_u06_l1"
+            "audio": "b2_u06_l1",
+            "ko": "돼지가 커!"
           },
           {
             "who": "bun",
             "text": "The pig can not go.",
-            "audio": "b2_u06_l2"
+            "audio": "b2_u06_l2",
+            "ko": "돼지는 못 건너가."
           },
           {
             "who": "pip",
             "text": "Gip! Gip?",
-            "audio": "b2_u06_l3"
+            "audio": "b2_u06_l3",
+            "ko": "깁! 깁?"
           }
         ],
-        "video": "vid_b2_u06_1"
+        "video": "vid_b2_u06_1",
+        "ko": "돼지가 너무 커서 돌이 흔들려요. 헤지가 갈대로 재 봐요. 핍은 \"깁!\"",
+        "ask": [
+          {
+            "en": "Is the pig big or little?",
+            "ko": "돼지는 커, 작아?"
+          },
+          {
+            "en": "What is Hedgie doing?",
+            "ko": "헤지는 뭘 하고 있어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u06_2",
@@ -185,20 +199,34 @@
             "who": "beads",
             "text": "/p/ /ɪ/ /g/ pig!",
             "audio": "blend_pig",
-            "pop": "pig"
+            "pop": "pig",
+            "ko": "/p/ /ɪ/ /g/ 돼지!"
           },
           {
             "who": "narrator",
             "text": "Click-clack! A big stone!",
-            "audio": "b2_u06_l4"
+            "audio": "b2_u06_l4",
+            "ko": "딸깍딸깍! 큰 돌!"
           },
           {
             "who": "bun",
             "text": "The pig has a wig!",
-            "audio": "b2_u06_l5"
+            "audio": "b2_u06_l5",
+            "ko": "돼지가 가발을 썼어!"
           }
         ],
-        "video": "vid_b2_u06_2"
+        "video": "vid_b2_u06_2",
+        "ko": "p-i-g! 커다란 돌이 솟았어요. 돼지가 보라색 가발을 쓰고 무화과를 물었어요.",
+        "ask": [
+          {
+            "en": "What is on the pig's head?",
+            "ko": "돼지 머리에 뭐가 있어?"
+          },
+          {
+            "en": "What is in its mouth?",
+            "ko": "입에는 뭐가 있어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u06_3",
@@ -214,17 +242,31 @@
             "who": "beads",
             "text": "/p/ /ɪ/ /n/ pin!",
             "audio": "blend_pin",
-            "pop": "pin"
+            "pop": "pin",
+            "ko": "/p/ /ɪ/ /n/ 핀!"
           },
           {
             "who": "hedgie",
             "text": "A pin on the hat.",
-            "audio": "b2_u06_l6"
+            "audio": "b2_u06_l6",
+            "ko": "모자에 핀을 꽂아요."
           },
           {
             "who": "grumble",
             "text": "Shh! Not my hat!",
-            "audio": "b2_u06_l7"
+            "audio": "b2_u06_l7",
+            "ko": "쉿! 내 모자는 안 돼!"
+          }
+        ],
+        "ko": "지느러미 큰 물고기가 돌을 밀어요. 그럼블 모자가 찢어져서 헤지가 핀으로 꽂아 줘요.",
+        "ask": [
+          {
+            "en": "Who pushes the stone?",
+            "ko": "누가 돌을 밀어?"
+          },
+          {
+            "en": "What does Hedgie use?",
+            "ko": "헤지가 뭘 썼어?"
           }
         ]
       },
@@ -240,21 +282,38 @@
           {
             "who": "both",
             "text": "The pig can win!",
-            "audio": "b2_u06_l8"
+            "audio": "b2_u06_l8",
+            "ko": "돼지가 이길 수 있어!"
           },
           {
             "who": "pip",
             "text": "Gip... pig!",
-            "audio": "b2_u06_l9"
+            "audio": "b2_u06_l9",
+            "ko": "깁… 피그! (돼지!)"
           },
           {
             "who": "grumble",
             "text": "Shh! ... Win, pig!",
-            "audio": "b2_u06_l10"
+            "audio": "b2_u06_l10",
+            "ko": "쉿! … 이겨라, 돼지!"
+          }
+        ],
+        "ko": "돼지가 끝까지 갔어요. 트로피! 핍이 \"깁… 피그!\" 하고 바로 말해요. 그럼블도 작게 응원해요.",
+        "ask": [
+          {
+            "en": "What did the pig win?",
+            "ko": "돼지가 뭘 받았어?"
+          },
+          {
+            "en": "What does Pip say now?",
+            "ko": "핍이 이제 뭐라고 해?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "커다란 돼지한테 징검돌이 너무 작아요. 비즈가 p-i-g 를 꿰자 커다란 돌이 솟았어요. 돼지는 가발을 쓰고, 물고기가 돌을 밀고, 그럼블의 찢어진 모자는 핀으로 꽂았어요. 돼지가 끝까지 가서 이겼어요!",
+    "so_far_ko": "핍이 첫 단어 \"캣!\"을 말했어요. 그럼블의 등불이 돌을 비춰 줬어요.",
+    "goal_ko": "커다란 돼지를 건너게 하며 -ig·-in 단어를 읽어요."
   },
   "videos": [
     {
@@ -503,21 +562,25 @@
           {
             "who": "hedgie",
             "text": "The pig is big!",
-            "audio": "sb2_u06_1_1"
+            "audio": "sb2_u06_1_1",
+            "ko": "돼지가 커!"
           },
           {
             "who": "bun",
             "text": "The pig can not go.",
-            "audio": "sb2_u06_1_2"
+            "audio": "sb2_u06_1_2",
+            "ko": "돼지는 못 건너가."
           },
           {
             "who": "pip",
             "text": "Gip! Gip?",
-            "audio": "sb2_u06_1_3"
+            "audio": "sb2_u06_1_3",
+            "ko": "깁! 깁?"
           }
         ],
         "task": "Find the -ig words!",
-        "task_ko": "-ig 단어를 찾아요"
+        "task_ko": "-ig 단어를 찾아요",
+        "ko": "커다란 돼지, 너무 작은 징검돌. 헤지가 갈대로 재 봐요. 핍은 '깁!'"
       },
       {
         "id": "sb2_u06_2",
@@ -526,21 +589,25 @@
           {
             "who": "beads",
             "text": "/p/ /ɪ/ /g/ pig!",
-            "audio": "sb2_u06_2_1"
+            "audio": "sb2_u06_2_1",
+            "ko": "/p/ /ɪ/ /g/ 돼지!"
           },
           {
             "who": "narrator",
             "text": "Click-clack! A big stone!",
-            "audio": "sb2_u06_2_2"
+            "audio": "sb2_u06_2_2",
+            "ko": "딸깍딸깍! 큰 돌!"
           },
           {
             "who": "bun",
             "text": "The pig has a wig!",
-            "audio": "sb2_u06_2_3"
+            "audio": "sb2_u06_2_3",
+            "ko": "돼지가 가발을 썼어!"
           }
         ],
         "task": "Find the -ig words!",
-        "task_ko": "-ig 단어를 찾아요"
+        "task_ko": "-ig 단어를 찾아요",
+        "ko": "비즈가 p-i-g 를 꿰자 커다란 돌이 솟아요! 가발 쓴 돼지, 무화과, 지느러미 큰 물고기가 돌을 밀어요."
       },
       {
         "id": "sb2_u06_3",
@@ -549,21 +616,25 @@
           {
             "who": "beads",
             "text": "/p/ /ɪ/ /n/ pin!",
-            "audio": "sb2_u06_3_1"
+            "audio": "sb2_u06_3_1",
+            "ko": "/p/ /ɪ/ /n/ 핀!"
           },
           {
             "who": "grumble",
             "text": "Shh! ... Win, pig!",
-            "audio": "sb2_u06_3_2"
+            "audio": "sb2_u06_3_2",
+            "ko": "쉿! … 이겨라, 돼지!"
           },
           {
             "who": "narrator",
             "text": "Brr! Brr! Oh no!",
-            "audio": "sb2_u06_3_3"
+            "audio": "sb2_u06_3_3",
+            "ko": "으슬으슬! 어떡해!"
           }
         ],
         "task": "Find the -in words!",
-        "task_ko": "-in 단어를 찾아요"
+        "task_ko": "-in 단어를 찾아요",
+        "ko": "돼지가 끝까지 가서 트로피를 받아요. 그럼블의 찢어진 모자를 핀으로 꽂았어요. '쉿… 이겨라, 돼지!' — 으슬으슬! 저런!"
       }
     ]
   }

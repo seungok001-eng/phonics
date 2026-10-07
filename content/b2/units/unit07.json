@@ -153,20 +153,34 @@
           {
             "who": "hedgie",
             "text": "Zip it up!",
-            "audio": "b2_u07_l1"
+            "audio": "b2_u07_l1",
+            "ko": "지퍼 올려!"
           },
           {
             "who": "narrator",
             "text": "Rip! Oh no!",
-            "audio": "b2_u07_l2"
+            "audio": "b2_u07_l2",
+            "ko": "쭉! 어떡해!"
           },
           {
             "who": "pip",
             "text": "Piz! Piz?",
-            "audio": "b2_u07_l3"
+            "audio": "b2_u07_l3",
+            "ko": "피즈! 피즈?"
           }
         ],
-        "video": "vid_b2_u07_1"
+        "video": "vid_b2_u07_1",
+        "ko": "바람이 차요. 헤지 지퍼가 걸려서 당기다 쭉! 찢어졌어요. 핍은 \"피즈!\"",
+        "ask": [
+          {
+            "en": "What is wrong with the jacket?",
+            "ko": "재킷이 어떻게 됐어?"
+          },
+          {
+            "en": "Is it warm or cold?",
+            "ko": "따뜻해, 추워?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u07_2",
@@ -181,17 +195,31 @@
             "who": "beads",
             "text": "/z/ /ɪ/ /p/ zip!",
             "audio": "blend_zip",
-            "pop": "zip"
+            "pop": "zip",
+            "ko": "/z/ /ɪ/ /p/ 지퍼 올리기!"
           },
           {
             "who": "hedgie",
             "text": "Zip! It is up!",
-            "audio": "b2_u07_l4"
+            "audio": "b2_u07_l4",
+            "ko": "지퍼! 올라갔어!"
           },
           {
             "who": "bun",
             "text": "Dip is on my lip!",
-            "audio": "b2_u07_l5"
+            "audio": "b2_u07_l5",
+            "ko": "내 입술에 소스가 묻었어!"
+          }
+        ],
+        "ko": "z-i-p! 지퍼가 저절로 올라가요. 소풍이에요. 번 입술에 소스가 묻었어요.",
+        "ask": [
+          {
+            "en": "What is on Bun's lip?",
+            "ko": "번 입술에 뭐가 묻었어?"
+          },
+          {
+            "en": "Is the zipper up now?",
+            "ko": "지퍼가 올라갔어?"
           }
         ]
       },
@@ -209,20 +237,34 @@
             "who": "beads",
             "text": "/s/ /ɪ/ /t/ sit!",
             "audio": "blend_sit",
-            "pop": "sit"
+            "pop": "sit",
+            "ko": "/s/ /ɪ/ /t/ 앉다!"
           },
           {
             "who": "bun",
             "text": "Sit, cat, sit!",
-            "audio": "b2_u07_l6"
+            "audio": "b2_u07_l6",
+            "ko": "앉아, 고양이야, 앉아!"
           },
           {
             "who": "hedgie",
             "text": "Hit the pit! Hit it!",
-            "audio": "b2_u07_l7"
+            "audio": "b2_u07_l7",
+            "ko": "씨를 쳐! 쳐 봐!"
           }
         ],
-        "video": "vid_b2_u07_2"
+        "video": "vid_b2_u07_2",
+        "ko": "고양이가 구급상자 위에 앉았어요. 번이 방망이로 복숭아씨를 쳐서 풍덩! 그럼블은 귀를 막아요.",
+        "ask": [
+          {
+            "en": "Where does the cat sit?",
+            "ko": "고양이는 어디에 앉았어?"
+          },
+          {
+            "en": "What does Bun hit?",
+            "ko": "번이 뭘 쳤어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u07_4",
@@ -236,21 +278,38 @@
           {
             "who": "narrator",
             "text": "Sit, sit, sit!",
-            "audio": "b2_u07_l8"
+            "audio": "b2_u07_l8",
+            "ko": "앉아요, 앉아요, 앉아요!"
           },
           {
             "who": "grumble",
             "text": "Shh... Can I sit?",
-            "audio": "b2_u07_l9"
+            "audio": "b2_u07_l9",
+            "ko": "쉿… 나도 앉아도 돼?"
           },
           {
             "who": "pip",
             "text": "Piz... zip! Sit!",
-            "audio": "b2_u07_l10"
+            "audio": "b2_u07_l10",
+            "ko": "피즈… 집! 싯! (지퍼! 앉아!)"
+          }
+        ],
+        "ko": "모두 돌 위에 나란히 앉았어요. 그럼블이 처음으로 끝자리에 앉아요. 핍이 \"집! 싯!\" 하고 바로 말해요.",
+        "ask": [
+          {
+            "en": "Where is Grumble sitting?",
+            "ko": "그럼블은 어디 앉았어?"
+          },
+          {
+            "en": "How many friends sit?",
+            "ko": "몇 명이 앉았어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "추운 바람에 헤지 재킷 지퍼가 걸리고 쭉 찢어졌어요. 비즈가 z-i-p 을 꿰자 지퍼가 저절로! 소풍에서 번 입술에 소스가 묻고, 고양이는 구급상자에 앉고, 복숭아씨를 쳐요. 그럼블이 처음으로 친구들 옆에 앉아요.",
+    "so_far_ko": "커다란 돼지를 건너게 했어요. 돼지가 트로피를 받았어요.",
+    "goal_ko": "-ip·-it 단어를 읽고 그럼블과 나란히 앉아요."
   },
   "videos": [
     {
@@ -497,21 +556,25 @@
           {
             "who": "hedgie",
             "text": "Zip it up!",
-            "audio": "sb2_u07_1_1"
+            "audio": "sb2_u07_1_1",
+            "ko": "지퍼 올려!"
           },
           {
             "who": "narrator",
             "text": "Rip! Oh no!",
-            "audio": "sb2_u07_1_2"
+            "audio": "sb2_u07_1_2",
+            "ko": "쭉! 어떡해!"
           },
           {
             "who": "pip",
             "text": "Piz! Piz?",
-            "audio": "sb2_u07_1_3"
+            "audio": "sb2_u07_1_3",
+            "ko": "피즈! 피즈?"
           }
         ],
         "task": "Find the -ip words!",
-        "task_ko": "-ip 단어를 찾아요"
+        "task_ko": "-ip 단어를 찾아요",
+        "ko": "추운 바람이 불어요. 헤지 재킷 지퍼가 걸리고 쭉 찢어져요. 핍은 '피즈!'"
       },
       {
         "id": "sb2_u07_2",
@@ -520,21 +583,25 @@
           {
             "who": "beads",
             "text": "/z/ /ɪ/ /p/ zip!",
-            "audio": "sb2_u07_2_1"
+            "audio": "sb2_u07_2_1",
+            "ko": "/z/ /ɪ/ /p/ 지퍼 올리기!"
           },
           {
             "who": "bun",
             "text": "Dip is on my lip!",
-            "audio": "sb2_u07_2_2"
+            "audio": "sb2_u07_2_2",
+            "ko": "내 입술에 소스가 묻었어!"
           },
           {
             "who": "hedgie",
             "text": "Hit the pit! Hit it!",
-            "audio": "sb2_u07_2_3"
+            "audio": "sb2_u07_2_3",
+            "ko": "씨를 쳐! 쳐 봐!"
           }
         ],
         "task": "Find the -ip words!",
-        "task_ko": "-ip 단어를 찾아요"
+        "task_ko": "-ip 단어를 찾아요",
+        "ko": "비즈가 z-i-p 을 꿰자 지퍼가 저절로 올라가요. 소풍이에요. 번 입술에 소스, 구급상자 위 고양이, 방망이로 복숭아씨를 쳐요."
       },
       {
         "id": "sb2_u07_3",
@@ -543,21 +610,25 @@
           {
             "who": "narrator",
             "text": "Sit, sit, sit!",
-            "audio": "sb2_u07_3_1"
+            "audio": "sb2_u07_3_1",
+            "ko": "앉아요, 앉아요, 앉아요!"
           },
           {
             "who": "grumble",
             "text": "Shh... Can I sit?",
-            "audio": "sb2_u07_3_2"
+            "audio": "sb2_u07_3_2",
+            "ko": "쉿… 나도 앉아도 돼?"
           },
           {
             "who": "narrator",
             "text": "Look... We can not see!",
-            "audio": "sb2_u07_3_3"
+            "audio": "sb2_u07_3_3",
+            "ko": "저기… 안 보여!"
           }
         ],
         "task": "Find the -it words!",
-        "task_ko": "-it 단어를 찾아요"
+        "task_ko": "-it 단어를 찾아요",
+        "ko": "모두 나란히 앉아요. 그럼블이 처음으로 끝자리에 앉아요. '쉿… 앉아도 돼?' 저 멀리 안개가 와요."
       }
     ]
   }

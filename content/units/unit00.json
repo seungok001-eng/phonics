@@ -42,10 +42,22 @@
           {
             "who": "narrator",
             "text": "Bun and Hedgie find a little door.",
-            "audio": "u00_l1"
+            "audio": "u00_l1",
+            "ko": "번과 헤지가 작은 문을 찾았어요."
           }
         ],
-        "video": "vid_u00_1"
+        "video": "vid_u00_1",
+        "ko": "번이 담쟁이를 걷자 창고 벽 아래 작은 둥근 문이 나왔어요. 헤지는 조심조심 들여다봐요.",
+        "ask": [
+          {
+            "en": "Who is this?",
+            "ko": "이건 누구야?"
+          },
+          {
+            "en": "What do they find?",
+            "ko": "무엇을 찾았어?"
+          }
+        ]
       },
       {
         "id": "scene_u00_2",
@@ -55,21 +67,38 @@
           {
             "who": "narrator",
             "text": "This is the Sound Garden.",
-            "audio": "u00_l2"
+            "audio": "u00_l2",
+            "ko": "여기는 소리 정원이에요."
           },
           {
             "who": "narrator",
             "text": "This is Pip. Pip cannot sing.",
-            "audio": "u00_l3"
+            "audio": "u00_l3",
+            "ko": "얘는 핍이에요. 핍은 노래를 못 해요."
           },
           {
             "who": "narrator",
             "text": "Let's help Pip!",
-            "audio": "u00_l4"
+            "audio": "u00_l4",
+            "ko": "핍을 도와줘요!"
+          }
+        ],
+        "ko": "문 너머에 빈 화분이 줄지어 있어요. 첫 화분 위에서 핍이 눈물을 흘려요. 핍은 노래를 못 해요.",
+        "ask": [
+          {
+            "en": "Where is Pip?",
+            "ko": "핍은 어디 있어?"
+          },
+          {
+            "en": "Is Pip happy or sad?",
+            "ko": "핍은 기쁠까, 슬플까?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "번과 헤지가 학교 창고 뒤에서 작은 문을 찾았어요. 문 너머는 소리 정원! 빈 화분 스물여섯 개와 노래를 잃은 아기 새 핍이 있었어요.",
+    "so_far_ko": "이야기의 시작이에요.",
+    "goal_ko": "소리 정원에 들어가 핍을 만나요."
   },
   "videos": [
     {
@@ -88,21 +117,25 @@
           {
             "who": "narrator",
             "text": "Bun and Hedgie find a door.",
-            "audio": "sb_u00_1_1"
+            "audio": "sb_u00_1_1",
+            "ko": "번과 헤지가 문을 찾았어요."
           },
           {
             "who": "bun",
             "text": "Let's try!",
-            "audio": "sb_u00_1_2"
+            "audio": "sb_u00_1_2",
+            "ko": "해 보자!"
           },
           {
             "who": "hedgie",
             "text": "Wow! A little door!",
-            "audio": "sb_u00_1_3"
+            "audio": "sb_u00_1_3",
+            "ko": "우와! 작은 문이야!"
           }
         ],
         "task": "Find the little door!",
-        "task_ko": "작은 문을 찾아요"
+        "task_ko": "작은 문을 찾아요",
+        "ko": "창고 뒤에서 번이 담쟁이를 걷고 작은 둥근 문을 찾았어요. 헤지는 물뿌리개 뒤에서 빼꼼 내다봐요."
       },
       {
         "id": "sb_u00_2",
@@ -111,21 +144,25 @@
           {
             "who": "narrator",
             "text": "This is Pip. Pip cannot sing.",
-            "audio": "sb_u00_2_1"
+            "audio": "sb_u00_2_1",
+            "ko": "얘는 핍이에요. 핍은 노래를 못 해요."
           },
           {
             "who": "pip",
             "text": "Chirp?",
-            "audio": "sb_u00_2_2"
+            "audio": "sb_u00_2_2",
+            "ko": "짹?"
           },
           {
             "who": "narrator",
             "text": "Shh... Who is on the hill?",
-            "audio": "sb_u00_2_3"
+            "audio": "sb_u00_2_3",
+            "ko": "쉿… 언덕 위에 누가 있을까요?"
           }
         ],
         "task": "Find the tiny light!",
-        "task_ko": "작은 불빛을 찾아요"
+        "task_ko": "작은 불빛을 찾아요",
+        "ko": "문 너머는 소리 정원이에요. 빈 화분 스물여섯 개, 첫 화분 위에 눈물 흘리는 핍. 먼 언덕에 작은 불빛이 보여요."
       }
     ]
   }

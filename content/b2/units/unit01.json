@@ -158,21 +158,35 @@
           {
             "who": "bun",
             "text": "The cat is on the mat.",
-            "audio": "b2_u01_l1"
+            "audio": "b2_u01_l1",
+            "ko": "고양이가 매트 위에 있어."
           },
           {
             "who": "pip",
             "text": "Tac! Tac?",
-            "audio": "b2_u01_l2"
+            "audio": "b2_u01_l2",
+            "ko": "탁! 탁?"
           },
           {
             "who": "beads",
             "text": "/k/ /æ/ /t/ cat!",
             "audio": "blend_cat",
-            "pop": "cat"
+            "pop": "cat",
+            "ko": "/k/ /æ/ /t/ 고양이!"
           }
         ],
-        "video": "vid_b2_u01_1"
+        "video": "vid_b2_u01_1",
+        "ko": "고양이가 매트 위에 앉아 있어요. 구슬 c, a, t 가 따로따로! 핍이 거꾸로 밟고 \"탁!\" 해요.",
+        "ask": [
+          {
+            "en": "What is on the mat?",
+            "ko": "매트 위에 뭐가 있어?"
+          },
+          {
+            "en": "What is Pip doing?",
+            "ko": "핍은 뭘 하고 있어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u01_2",
@@ -187,20 +201,34 @@
           {
             "who": "narrator",
             "text": "Click-clack! A stone!",
-            "audio": "b2_u01_l3"
+            "audio": "b2_u01_l3",
+            "ko": "딸깍딸깍! 돌이다!"
           },
           {
             "who": "hedgie",
             "text": "The cat can go!",
-            "audio": "b2_u01_l4"
+            "audio": "b2_u01_l4",
+            "ko": "고양이가 건너가!"
           },
           {
             "who": "bun",
             "text": "A rat in a hat!",
-            "audio": "b2_u01_l5"
+            "audio": "b2_u01_l5",
+            "ko": "모자 쓴 쥐!"
           }
         ],
-        "video": "vid_b2_u01_2"
+        "video": "vid_b2_u01_2",
+        "ko": "비즈가 구슬을 꿰자 딸깍! 징검돌이 솟았어요. 고양이가 올라타요. 모자 쓴 쥐도 있어요.",
+        "ask": [
+          {
+            "en": "What is the cat on?",
+            "ko": "고양이는 어디에 올라탔어?"
+          },
+          {
+            "en": "Who wears a hat?",
+            "ko": "누가 모자를 썼어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u01_3",
@@ -215,18 +243,32 @@
           {
             "who": "hedgie",
             "text": "A can and a pan!",
-            "audio": "b2_u01_l6"
+            "audio": "b2_u01_l6",
+            "ko": "깡통하고 프라이팬!"
           },
           {
             "who": "beads",
             "text": "/k/ /æ/ /n/ can!",
             "audio": "blend_can",
-            "pop": "can"
+            "pop": "can",
+            "ko": "/k/ /æ/ /n/ 깡통!"
           },
           {
             "who": "grumble",
             "text": "Shh!",
-            "audio": "b2_u01_l7"
+            "audio": "b2_u01_l7",
+            "ko": "쉿!"
+          }
+        ],
+        "ko": "밴 지붕에 선풍기, 거울에 프라이팬, 굴러가는 깡통! 비즈가 c-a-n 을 꿰요. 갈대 속에서 \"쉿!\"",
+        "ask": [
+          {
+            "en": "What is on the van?",
+            "ko": "밴 위에 뭐가 있어?"
+          },
+          {
+            "en": "Who says Shh?",
+            "ko": "누가 \"쉿!\" 했어?"
           }
         ]
       },
@@ -242,21 +284,38 @@
           {
             "who": "both",
             "text": "We can go on!",
-            "audio": "b2_u01_l8"
+            "audio": "b2_u01_l8",
+            "ko": "계속 갈 수 있어!"
           },
           {
             "who": "grumble",
             "text": "Shh! My pond!",
-            "audio": "b2_u01_l9"
+            "audio": "b2_u01_l9",
+            "ko": "쉿! 내 연못이야!"
           },
           {
             "who": "pip",
             "text": "Tac!",
-            "audio": "b2_u01_l10"
+            "audio": "b2_u01_l10",
+            "ko": "탁!"
+          }
+        ],
+        "ko": "징검돌이 두 줄 생겼어요. 친구들이 첫 돌에 섰어요. 그럼블이 갈대에서 \"내 연못!\" 핍은 또 \"탁!\"",
+        "ask": [
+          {
+            "en": "How many rows of stones?",
+            "ko": "돌이 몇 줄이야?"
+          },
+          {
+            "en": "Where is Grumble?",
+            "ko": "그럼블은 어디 있어?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "고양이가 매트 위에서 연못을 건너고 싶어 해요. 구슬 c·a·t 가 따로 놓여 있어요. 핍은 거꾸로 밟고 \"탁!\" 비즈가 구슬을 꿰어 \"캣!\" 하자 징검돌이 솟았어요. 갈대 속 그럼블이 \"쉿! 내 연못!\"",
+    "so_far_ko": "친구들이 단어 연못에 닿아 비즈를 만났어요. 돌이 없어서 건널 수 없었어요.",
+    "goal_ko": "소리를 이어 -at·-an 단어를 읽고 징검돌 두 줄을 만들어요."
   },
   "videos": [
     {
@@ -504,21 +563,25 @@
           {
             "who": "bun",
             "text": "The cat is on the mat.",
-            "audio": "sb2_u01_1_1"
+            "audio": "sb2_u01_1_1",
+            "ko": "고양이가 매트 위에 있어."
           },
           {
             "who": "pip",
             "text": "Tac! Tac?",
-            "audio": "sb2_u01_1_2"
+            "audio": "sb2_u01_1_2",
+            "ko": "탁! 탁?"
           },
           {
             "who": "beads",
             "text": "Click-clack! No, Pip. No!",
-            "audio": "sb2_u01_1_3"
+            "audio": "sb2_u01_1_3",
+            "ko": "딸깍딸깍! 아니야, 핍. 아니야!"
           }
         ],
         "task": "Find the -at words!",
-        "task_ko": "-at 단어를 찾아요"
+        "task_ko": "-at 단어를 찾아요",
+        "ko": "매트 위에 고양이, 따로 놓인 구슬 c·a·t. 핍이 거꾸로 밟고 '탁!' 하자 비즈가 고개를 저어요."
       },
       {
         "id": "sb2_u01_2",
@@ -527,21 +590,25 @@
           {
             "who": "beads",
             "text": "/k/ /æ/ /t/ cat!",
-            "audio": "sb2_u01_2_1"
+            "audio": "sb2_u01_2_1",
+            "ko": "/k/ /æ/ /t/ 고양이!"
           },
           {
             "who": "narrator",
             "text": "Click-clack! A stone!",
-            "audio": "sb2_u01_2_2"
+            "audio": "sb2_u01_2_2",
+            "ko": "딸깍딸깍! 돌이다!"
           },
           {
             "who": "bun",
             "text": "A rat in a hat!",
-            "audio": "sb2_u01_2_3"
+            "audio": "sb2_u01_2_3",
+            "ko": "모자 쓴 쥐!"
           }
         ],
         "task": "Find the -at words!",
-        "task_ko": "-at 단어를 찾아요"
+        "task_ko": "-at 단어를 찾아요",
+        "ko": "비즈가 구슬을 꿰자 첫 징검돌이 솟고 고양이가 건너요. 모자 쓴 쥐와 방망이도 있어요."
       },
       {
         "id": "sb2_u01_3",
@@ -550,21 +617,25 @@
           {
             "who": "hedgie",
             "text": "A can and a pan!",
-            "audio": "sb2_u01_3_1"
+            "audio": "sb2_u01_3_1",
+            "ko": "깡통하고 프라이팬!"
           },
           {
             "who": "grumble",
             "text": "Shh! My pond!",
-            "audio": "sb2_u01_3_2"
+            "audio": "sb2_u01_3_2",
+            "ko": "쉿! 내 연못이야!"
           },
           {
             "who": "narrator",
             "text": "Splash! Oh no! Look!",
-            "audio": "sb2_u01_3_3"
+            "audio": "sb2_u01_3_3",
+            "ko": "풍덩! 어떡해! 봐!"
           }
         ],
         "task": "Find the -an words!",
-        "task_ko": "-an 단어를 찾아요"
+        "task_ko": "-an 단어를 찾아요",
+        "ko": "밴, 선풍기, 프라이팬, 깡통이 있어요. 돌이 두 줄 생겼어요. 갈대 속 그럼블이 '쉿! 내 연못!' — 풍덩! 저런, 봐요!"
       }
     ]
   }

@@ -156,20 +156,34 @@
           {
             "who": "hedgie",
             "text": "My bag!",
-            "audio": "b2_u02_l1"
+            "audio": "b2_u02_l1",
+            "ko": "내 가방!"
           },
           {
             "who": "bun",
             "text": "The cap is on the bag.",
-            "audio": "b2_u02_l2"
+            "audio": "b2_u02_l2",
+            "ko": "모자가 가방 위에 있어."
           },
           {
             "who": "pip",
             "text": "Pac! Pac?",
-            "audio": "b2_u02_l3"
+            "audio": "b2_u02_l3",
+            "ko": "팍! 팍?"
           }
         ],
-        "video": "vid_b2_u02_1"
+        "video": "vid_b2_u02_1",
+        "ko": "바람이 쌩! 모자와 가방이 연못에 떠내려가요. 지도도 흘러나와요. 핍은 \"팍!\"",
+        "ask": [
+          {
+            "en": "What is floating away?",
+            "ko": "뭐가 떠내려가?"
+          },
+          {
+            "en": "Is it windy?",
+            "ko": "바람이 불어?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u02_2",
@@ -185,17 +199,31 @@
             "who": "beads",
             "text": "/k/ /æ/ /p/ cap!",
             "audio": "blend_cap",
-            "pop": "cap"
+            "pop": "cap",
+            "ko": "/k/ /æ/ /p/ 야구모자!"
           },
           {
             "who": "narrator",
             "text": "Click-clack! The cap!",
-            "audio": "b2_u02_l4"
+            "audio": "b2_u02_l4",
+            "ko": "딸깍딸깍! 모자다!"
           },
           {
             "who": "bun",
             "text": "A map and a tap!",
-            "audio": "b2_u02_l5"
+            "audio": "b2_u02_l5",
+            "ko": "지도하고 수도꼭지!"
+          }
+        ],
+        "ko": "비즈가 c-a-p 를 꿰자 모자 밑에서 돌이 솟아요. 고양이는 낮잠, 수도꼭지에서 물이 똑.",
+        "ask": [
+          {
+            "en": "What is the cat doing?",
+            "ko": "고양이는 뭘 해?"
+          },
+          {
+            "en": "What drips?",
+            "ko": "뭐가 똑똑 떨어져?"
           }
         ]
       },
@@ -213,20 +241,34 @@
             "who": "beads",
             "text": "/b/ /æ/ /g/ bag!",
             "audio": "blend_bag",
-            "pop": "bag"
+            "pop": "bag",
+            "ko": "/b/ /æ/ /g/ 가방!"
           },
           {
             "who": "narrator",
             "text": "Wag, wag! The bag!",
-            "audio": "b2_u02_l6"
+            "audio": "b2_u02_l6",
+            "ko": "살랑살랑! 가방이다!"
           },
           {
             "who": "grumble",
             "text": "Shh! A bag!",
-            "audio": "b2_u02_l7"
+            "audio": "b2_u02_l7",
+            "ko": "쉿! 가방이네!"
           }
         ],
-        "video": "vid_b2_u02_2"
+        "video": "vid_b2_u02_2",
+        "ko": "개가 꼬리를 흔들며 가방을 밀어요. 그럼블이 등불 막대로 가방을 건져 올려요.",
+        "ask": [
+          {
+            "en": "Who pushes the bag?",
+            "ko": "누가 가방을 밀어?"
+          },
+          {
+            "en": "Who lifts the bag?",
+            "ko": "누가 가방을 들어 올려?"
+          }
+        ]
       },
       {
         "id": "scene_b2_u02_4",
@@ -239,21 +281,38 @@
           {
             "who": "bun",
             "text": "The cap is on Grumble!",
-            "audio": "b2_u02_l8"
+            "audio": "b2_u02_l8",
+            "ko": "그럼블이 모자를 썼어!"
           },
           {
             "who": "grumble",
             "text": "Shh! It is my cap!",
-            "audio": "b2_u02_l9"
+            "audio": "b2_u02_l9",
+            "ko": "쉿! 내 모자야!"
           },
           {
             "who": "pip",
             "text": "Pac!",
-            "audio": "b2_u02_l10"
+            "audio": "b2_u02_l10",
+            "ko": "팍!"
+          }
+        ],
+        "ko": "헤지가 젖은 가방을 안아요. 그럼블은 잠옷 모자 위에 번의 모자를 썼어요! 핍은 또 \"팍!\"",
+        "ask": [
+          {
+            "en": "What is on Grumble's head?",
+            "ko": "그럼블 머리에 뭐가 있어?"
+          },
+          {
+            "en": "Is Hedgie happy?",
+            "ko": "헤지는 기뻐?"
           }
         ]
       }
-    ]
+    ],
+    "synopsis_ko": "바람에 번의 모자와 헤지의 가방이 연못에 떠내려가요. 비즈가 c-a-p, b-a-g 를 꿰자 돌이 솟아 모자를 건졌어요. 개가 가방을 밀고 그럼블이 건져 줬어요. 그런데 그럼블이 모자를 쓰고 있네요!",
+    "so_far_ko": "비즈가 구슬을 꿰어 첫 징검돌을 만들었어요. 핍은 \"캣\"을 거꾸로 \"탁!\"이라고 했어요.",
+    "goal_ko": "떠내려간 모자와 가방을 되찾고 -ap·-ag 단어를 읽어요."
   },
   "videos": [
     {
@@ -500,21 +559,25 @@
           {
             "who": "hedgie",
             "text": "My bag!",
-            "audio": "sb2_u02_1_1"
+            "audio": "sb2_u02_1_1",
+            "ko": "내 가방!"
           },
           {
             "who": "bun",
             "text": "The cap is on the bag.",
-            "audio": "sb2_u02_1_2"
+            "audio": "sb2_u02_1_2",
+            "ko": "모자가 가방 위에 있어."
           },
           {
             "who": "pip",
             "text": "Pac! Pac?",
-            "audio": "sb2_u02_1_3"
+            "audio": "sb2_u02_1_3",
+            "ko": "팍! 팍?"
           }
         ],
         "task": "Find the -ap words!",
-        "task_ko": "-ap 단어를 찾아요"
+        "task_ko": "-ap 단어를 찾아요",
+        "ko": "바람에 번의 모자와 헤지의 가방이 연못으로 떠내려가요. 지도도 흘러나와요. 핍은 '팍!'"
       },
       {
         "id": "sb2_u02_2",
@@ -523,21 +586,25 @@
           {
             "who": "beads",
             "text": "/k/ /æ/ /p/ cap!",
-            "audio": "sb2_u02_2_1"
+            "audio": "sb2_u02_2_1",
+            "ko": "/k/ /æ/ /p/ 야구모자!"
           },
           {
             "who": "narrator",
             "text": "Click-clack! The cap!",
-            "audio": "sb2_u02_2_2"
+            "audio": "sb2_u02_2_2",
+            "ko": "딸깍딸깍! 모자다!"
           },
           {
             "who": "bun",
             "text": "A map and a tap!",
-            "audio": "sb2_u02_2_3"
+            "audio": "sb2_u02_2_3",
+            "ko": "지도하고 수도꼭지!"
           }
         ],
         "task": "Find the -ap words!",
-        "task_ko": "-ap 단어를 찾아요"
+        "task_ko": "-ap 단어를 찾아요",
+        "ko": "비즈가 c-a-p 를 꿰자 모자 밑에서 돌이 솟아요. 고양이는 낮잠, 수도꼭지, 지도가 있어요."
       },
       {
         "id": "sb2_u02_3",
@@ -546,21 +613,25 @@
           {
             "who": "beads",
             "text": "/b/ /æ/ /g/ bag!",
-            "audio": "sb2_u02_3_1"
+            "audio": "sb2_u02_3_1",
+            "ko": "/b/ /æ/ /g/ 가방!"
           },
           {
             "who": "grumble",
             "text": "Shh! It is my cap!",
-            "audio": "sb2_u02_3_2"
+            "audio": "sb2_u02_3_2",
+            "ko": "쉿! 내 모자야!"
           },
           {
             "who": "narrator",
             "text": "Cluck, cluck, cluck! Oh no!",
-            "audio": "sb2_u02_3_3"
+            "audio": "sb2_u02_3_3",
+            "ko": "꼬꼬꼬! 어떡해!"
           }
         ],
         "task": "Find the -ag words!",
-        "task_ko": "-ag 단어를 찾아요"
+        "task_ko": "-ag 단어를 찾아요",
+        "ko": "개가 가방을 밀고 그럼블이 등불 막대로 건져 줘요. 그런데 그럼블이 모자를 쓰고 있어요! 꼬꼬꼬! 저런!"
       }
     ]
   }
