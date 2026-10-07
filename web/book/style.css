@@ -596,3 +596,23 @@ body.teacher #top .brand small { display: none; }
 @media (max-width: 1750px) { body.teacher #pageInfo { display: none; } body.teacher #top .split button { padding: 6px 7px; } }
 #pageInfo { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 0 1 auto; }   /* 좁은 화면에서 세로로 접히지 않게 */
 @media (max-width: 1000px) { #pageInfo { display: none; } }
+
+/* 색종이 타일 판 (12유닛 Follow A to Z): 따뜻한 노랑 바탕에 찢은 종이 조각, 글자는 빨강·갈색 */
+.path.paper { background: #FFE9A3; border-radius: 22px; padding: 14px 14px 12px; gap: 11px 10px; grid-template-columns: repeat(7, 1fr); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.path.paper .lt { position: relative; border: 0; border-radius: 0; background: #FFF; aspect-ratio: 1; font-family: 'Fredoka'; font-weight: 700; font-size: 38px; color: #D9342B; clip-path: polygon(3% 8%, 94% 0, 100% 90%, 6% 100%); transform: rotate(-2deg); box-shadow: none; font-size: 34px; filter: drop-shadow(1px 2px 0 rgba(120,70,20,.12)); }
+.path.paper .lt span { display: block; transform: rotate(2deg); }
+.path.paper .lt:nth-child(5n+2) { background: #F9CF4A; color: #7A3E1D; }
+.path.paper .lt:nth-child(5n+3) { background: #F2A26B; color: #7A3E1D; }
+.path.paper .lt:nth-child(5n+4) { background: #F3CFA9; color: #D9342B; }
+.path.paper .lt:nth-child(5n+5) { background: #FBE2B8; color: #7A3E1D; }
+.path.paper .lt:nth-child(7n+1) { color: #D9342B; }
+.path.paper .lt:nth-child(4n+1) { clip-path: polygon(0 4%, 100% 0, 96% 100%, 4% 94%); transform: rotate(2deg); } .path.paper .lt:nth-child(4n+1) span { transform: rotate(-2deg); }
+.path.paper .lt:nth-child(4n+2) { clip-path: polygon(6% 0, 100% 6%, 94% 100%, 0 96%); transform: rotate(-3deg); } .path.paper .lt:nth-child(4n+2) span { transform: rotate(3deg); }
+.path.paper .lt:nth-child(4n+3) { clip-path: polygon(2% 10%, 90% 2%, 100% 96%, 8% 100%); transform: rotate(1deg); } .path.paper .lt:nth-child(4n+3) span { transform: rotate(-1deg); }
+.path.paper .lt:nth-child(6n+3) { clip-path: polygon(10% 0, 100% 10%, 90% 100%, 0 90%, 4% 40%); }
+.path.paper .lt:nth-child(9n+5) { clip-path: polygon(0 0, 92% 8%, 100% 100%, 12% 92%); transform: rotate(4deg); } .path.paper .lt:nth-child(9n+5) span { transform: rotate(-4deg); }
+.path.paper .lt.done { background: #BFE8B5; color: #2F7D32; filter: drop-shadow(0 0 0 #7FC67A) drop-shadow(1px 2px 0 rgba(120,70,20,.12)); }
+.path.paper .lt.done::after { content: attr(data-n); position: absolute; right: 6px; top: 4px; font-size: 12px; font-family: 'Andika'; color: #2F7D32; }
+.path.paper .lt:active { transform: scale(.94); }
+body.teacher .path.paper .lt { font-size: 34px; }
+@media print { .path.paper { gap: 10px 8px; padding: 12px; } .path.paper .lt { font-size: 32px; } }

@@ -327,11 +327,23 @@ async function abcSong(namesOnly) {
   await playSeq(Object.keys(App.book.letters).map((l) => ({ id: 'name_' + l, text: l.toUpperCase(), el: document.querySelector(`.abc .lt[data-l="${l}"]`), gap: 120 })));
 }
 PAGES.alphabet_path = (ctx) => {
-  const ls = Object.keys(App.book.letters), mixed = shuffle(ls, 11);
-  return instr('', 'Follow A to Z.', 'A부터 Z까지 순서대로 눌러요') + `<div class="path" id="path">${mixed.map((l) => `<div class="lt" data-l="${l}" onclick="pathPick(this)">${l.toUpperCase()}</div>`).join('')}</div><div class="screen-hide" style="color:var(--soft);font-size:14px">A → B → C … 순서대로 선으로 이어요</div>`;
+  // 색종이를 찢어 붙인 듯한 글자 타일 (대문자 A→Z, 소문자 a→z 두 판). 순서대로 누르면 불이 들어온다. 인쇄는 선으로 잇기
+  const ls = Object.keys(App.book.letters);
+  const board = (letters, upper, seed, id) => `<div class="path paper" id="${id}" data-next="0">${shuffle(letters, seed).map((l) => `<div class="lt" data-l="${l}" onclick="pathPick(this)"><span>${upper ? l.toUpperCase() : l}</span></div>`).join('')}</div>`;
+  return instr(1, 'Follow A to Z.', 'A부터 Z까지 순서대로 눌러요 (인쇄: 선으로 이어요)') + board(ls, true, 11, 'path') +
+    instr(2, 'Follow a to z.', 'a부터 z까지 순서대로 눌러요') + board(ls, false, 29, 'path2');
 };
-let pathNext = 0;
-function pathPick(el) { Sound.unlock(); const ls = Object.keys(App.book.letters); if (el.dataset.l === ls[pathNext]) { el.classList.add('done'); Sound.play('name_' + el.dataset.l, el.dataset.l.toUpperCase()); pathNext++; if (pathNext === ls.length) { Sound.sfx('chime'); pathNext = 0; } } else Sound.sfx('no'); }
+let pathNext = 0;   // (옛 판: 판에 data-next 가 없을 때만 쓴다)
+function pathPick(el) {
+  Sound.unlock(); const ls = Object.keys(App.book.letters), grid = el.parentElement, own = grid && grid.dataset.next !== undefined;
+  const i = own ? +grid.dataset.next : pathNext;
+  if (el.dataset.l === ls[i]) {
+    el.classList.add('done'); el.dataset.n = i + 1; Sound.play('name_' + el.dataset.l, el.dataset.l.toUpperCase());
+    const nx = i + 1 === ls.length ? 0 : i + 1;
+    if (nx === 0) Sound.sfx('chime');
+    if (own) grid.dataset.next = nx; else pathNext = nx;
+  } else Sound.sfx('no');
+}
 
 // ---------- 10유닛: 알파벳 전체 복습 ----------
 // A~Z 26칸(누르면 소리, 이름은 A–Z names 단추), 26개 소리 순서 재생, 섞인 칸을 A→Z 순서대로 누르기
