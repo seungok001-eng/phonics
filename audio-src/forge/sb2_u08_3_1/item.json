@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=Shh, go to the doctor. | TYPE=sentence | IPA=ʃ goʊ tuː ðə ˈdɑːktɚ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Shh... Go to the dot.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791359740.1876948,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Shh. Go to the dot.",
+    "type": "sentence",
+    "ipa": "ʃː ˈɡoʊ tuː ðə ˈdɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Go to the dot. | TYPE=sentence | IPA=ʃː ˈɡoʊ tuː ðə ˈdɑt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:49",
+ "applied": "2026-10-07 17:03",
  "text_edited": false,
  "error": "",
  "unit": 8,

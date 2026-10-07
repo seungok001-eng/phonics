@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=Look up. | TYPE=sentence | IPA=lʊk ʌp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/u/ /u/ up!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359659.2071412,
+   "sec": 2.05,
+   "check": {
+    "transcript": "up",
+    "type": "word",
+    "ipa": "ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=up | TYPE=word | IPA=ʌp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/u/ /u/ up!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360496.436803,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Ah",
+    "type": "isolated-sound",
+    "ipa": "/ɑ/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=Ah | TYPE=isolated-sound | IPA=/ɑ/ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:30",
+ "applied": "2026-10-07 17:32",
  "text_edited": false,
  "error": "",
  "unit": 8,

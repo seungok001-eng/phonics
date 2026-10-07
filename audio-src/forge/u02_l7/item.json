@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=the frog | TYPE=sentence | IPA=ðə fɹɑg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The frog! /f/ /f/ frog!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791360427.010908,
+   "sec": 4.39,
+   "check": {
+    "transcript": "the frog",
+    "type": "sentence",
+    "ipa": "ðə fɹɑg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the frog | TYPE=sentence | IPA=ðə fɹɑg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:24",
+ "applied": "2026-10-07 17:26",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -66,5 +83,5 @@
  "voice": "Kore",
  "who": "both",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

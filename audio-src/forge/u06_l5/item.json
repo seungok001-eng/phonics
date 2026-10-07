@@ -50,11 +50,62 @@
     "raw": "TRANSCRIPT=No, no net. | TYPE=sentence | IPA=noʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/n/ /n/ net!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359627.0705297,
+   "sec": 3.52,
+   "check": {
+    "transcript": "net",
+    "type": "word",
+    "ipa": "nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/n/ /n/ net!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360465.6586947,
+   "sec": 2.38,
+   "check": {
+    "transcript": "N",
+    "type": "letter-name",
+    "ipa": "ɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=N | TYPE=letter-name | IPA=ɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/n/ /n/ net!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791362655.0442324,
+   "sec": 2.34,
+   "check": {
+    "transcript": "n",
+    "type": "isolated-sound",
+    "ipa": "n",
+    "note": "clean",
+    "raw": "TRANSCRIPT=n | TYPE=isolated-sound | IPA=n | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-10-07 17:44",
  "text_edited": false,
  "error": "",
  "unit": 6,

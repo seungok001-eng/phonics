@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=Z Z zig zag pop | TYPE=sentence | IPA=ˈziː ˈziː ˈzɪɡ.zæɡ ˈpɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/z/ /z/ zigzag! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359689.4905787,
+   "sec": 7.92,
+   "check": {
+    "transcript": "zigzag pop",
+    "type": "word",
+    "ipa": "ˈzɪɡ.zæɡ ˈpɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zigzag pop | TYPE=word | IPA=ˈzɪɡ.zæɡ ˈpɒp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/z/ /z/ zigzag! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360526.4315202,
+   "sec": 5.18,
+   "check": {
+    "transcript": "zigzag pop",
+    "type": "sentence",
+    "ipa": "zɪɡzæɡ pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zigzag pop | TYPE=sentence | IPA=zɪɡzæɡ pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:32",
+ "applied": "2026-10-07 17:34",
  "text_edited": false,
  "error": "",
  "unit": 10,

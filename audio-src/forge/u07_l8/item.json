@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=star rocket | TYPE=sentence | IPA=stɑːr ˈrɑːkət | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/r/ /r/ rocket!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359644.215599,
+   "sec": 5.56,
+   "check": {
+    "transcript": "rocket",
+    "type": "word",
+    "ipa": "ˈrɑ.kət",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rocket | TYPE=word | IPA=ˈrɑ.kət | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/r/ /r/ rocket!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360482.5476084,
+   "sec": 3.59,
+   "check": {
+    "transcript": "rocket",
+    "type": "word",
+    "ipa": "ˈɹɑkɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rocket | TYPE=word | IPA=ˈɹɑkɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:29",
+ "applied": "2026-10-07 17:31",
  "text_edited": false,
  "error": "",
  "unit": 7,

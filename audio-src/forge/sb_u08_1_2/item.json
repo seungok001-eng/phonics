@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Go see a goal turtle. | TYPE=sentence | IPA=ɡoʊ siː ə ɡoʊl tɝtəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Go, seal! Go, turtle!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359728.1063278,
+   "sec": 1.67,
+   "check": {
+    "transcript": "Go seal, go turtle.",
+    "type": "sentence",
+    "ipa": "ˈɡoʊ ˈsiːl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go seal, go turtle. | TYPE=sentence | IPA=ˈɡoʊ ˈsiːl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-10-07 17:02",
  "text_edited": false,
  "error": "",
  "unit": 8,

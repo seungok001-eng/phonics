@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=K Kiss Greist box pop | TYPE=sentence | IPA=keɪ kɪs ɡriːst bɑks pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/ks/ /ks/ box! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359678.5613956,
+   "sec": 3.15,
+   "check": {
+    "transcript": "Box pop.",
+    "type": "sentence",
+    "ipa": "bɒks pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Box pop. | TYPE=sentence | IPA=bɒks pɒp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/ks/ /ks/ box! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360516.3997262,
+   "sec": 2.9,
+   "check": {
+    "transcript": "box pop",
+    "type": "word",
+    "ipa": "bɒks pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=box pop | TYPE=word | IPA=bɒks pɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:31",
+ "applied": "2026-10-07 17:33",
  "text_edited": false,
  "error": "",
  "unit": 9,

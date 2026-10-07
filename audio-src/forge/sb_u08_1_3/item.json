@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=gas seal pop | TYPE=sentence | IPA=gæsiəlˈpɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/s/ /s/ seal! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359661.165501,
+   "sec": 5.33,
+   "check": {
+    "transcript": "s",
+    "type": "isolated-sound",
+    "ipa": "s",
+    "note": "clean",
+    "raw": "TRANSCRIPT=s | TYPE=isolated-sound | IPA=s | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/s/ /s/ seal! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360498.372566,
+   "sec": 3.55,
+   "check": {
+    "transcript": "Seal, pop!",
+    "type": "sentence",
+    "ipa": "ˈsiːl pɑːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Seal, pop! | TYPE=sentence | IPA=ˈsiːl pɑːp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:30",
+ "applied": "2026-10-07 17:32",
  "text_edited": false,
  "error": "",
  "unit": 8,

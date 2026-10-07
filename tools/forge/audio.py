@@ -133,13 +133,33 @@ def mix(srcs, dst):
     run(args + ['-filter_complex', f'amix=inputs={len(srcs)}:duration=longest:normalize=0,volume=0.8', '-ar', '24000', '-ac', '1', dst])
 
 
+def peak_db(path):
+    """가장 큰 소리(dB). ffmpeg volumedetect."""
+    p = subprocess.run(['ffmpeg', '-hide_banner', '-i', path, '-af', 'volumedetect', '-f', 'null', '-'], capture_output=True, timeout=60)
+    for line in p.stderr.decode('utf-8', 'replace').splitlines():
+        if 'max_volume:' in line:
+            try: return float(line.split('max_volume:')[1].split('dB')[0])
+            except ValueError: pass
+    return 0.0
+
+
 def pitch_up(src, dst, factor=1.18):
-    """낱소리(어른 목소리)를 아이 목소리 높이로: 음 높이만 올리고 길이는 그대로."""
-    run(['-i', src, '-af', f'asetrate=24000*{factor},aresample=24000,atempo={1 / factor:.4f},loudnorm=I=-18:TP=-2', '-ar', '24000', '-ac', '1', dst])
+    """낱소리(어른 목소리)를 아이 목소리 높이로: 먼저 24kHz 로 맞춘 뒤 음 높이만 올리고 길이는 그대로, 가장 큰 소리를 -3dB 로.
+    (주의: 원본이 44.1kHz 라 asetrate 앞에 aresample 이 없으면 소리가 늘어지고 낮아진다 — 2026-10-07)"""
+    tmp = dst + '.tmp.wav'
+    run(['-i', src, '-af', f'aresample=24000,asetrate={int(24000 * factor)},aresample=24000,atempo={1 / factor:.4f}', '-ar', '24000', '-ac', '1', tmp])
+    run(['-i', tmp, '-af', f'volume={-3 - peak_db(tmp):.2f}dB', '-ar', '24000', '-ac', '1', dst])
+    try: os.remove(tmp)
+    except OSError: pass
 
 
 def norm_wav(src, dst):
-    run(['-i', src, '-af', 'loudnorm=I=-18:TP=-2', '-ar', '24000', '-ac', '1', dst])
+    """말 조각: 24kHz 모노, 가장 큰 소리를 -3dB 로 (짧은 조각에 loudnorm 을 쓰면 소리가 일그러진다)."""
+    tmp = dst + '.tmp.wav'
+    run(['-i', src, '-ar', '24000', '-ac', '1', tmp])
+    run(['-i', tmp, '-af', f'volume={-3 - peak_db(tmp):.2f}dB', '-ar', '24000', '-ac', '1', dst])
+    try: os.remove(tmp)
+    except OSError: pass
 
 
 def silence(dst, sec=0.22):

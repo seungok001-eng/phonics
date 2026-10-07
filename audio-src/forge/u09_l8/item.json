@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=kiss kiss box | TYPE=sentence | IPA=kɪs kɪs bɑks | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/ks/ /ks/ box!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359673.1354954,
+   "sec": 2.83,
+   "check": {
+    "transcript": "box",
+    "type": "word",
+    "ipa": "bɒks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=box | TYPE=word | IPA=bɒks | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/ks/ /ks/ box!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360510.4226356,
+   "sec": 1.97,
+   "check": {
+    "transcript": "Box",
+    "type": "word",
+    "ipa": "bɒks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Box | TYPE=word | IPA=bɒks | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:31",
+ "applied": "2026-10-07 17:33",
  "text_edited": false,
  "error": "",
  "unit": 9,

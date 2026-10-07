@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=U, U Umbrella Pop! | TYPE=sentence | IPA=ˈjuː ˈjuː ʌmˈbrɛlə ˈpɒp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/u/ /u/ umbrella! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359665.1629424,
+   "sec": 3.85,
+   "check": {
+    "transcript": "uh",
+    "type": "isolated-sound",
+    "ipa": "ʌ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=uh | TYPE=isolated-sound | IPA=ʌ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/u/ /u/ umbrella! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360502.4958918,
+   "sec": 2.94,
+   "check": {
+    "transcript": "umbrella pop",
+    "type": "word",
+    "ipa": "ʌmˈbrɛlə pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=umbrella pop | TYPE=word | IPA=ʌmˈbrɛlə pɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:30",
+ "applied": "2026-10-07 17:32",
  "text_edited": false,
  "error": "",
  "unit": 8,

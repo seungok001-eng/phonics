@@ -118,11 +118,28 @@
     "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 8,
+   "file": "cand_8.wav",
+   "text": "/æ/ /æ/ apple!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791360405.3610857,
+   "sec": 2.18,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 6,
+ "approved": 8,
  "final": "final.mp3",
- "applied": "2026-10-07 16:22",
+ "applied": "2026-10-07 17:24",
  "text_edited": true,
  "error": "",
  "unit": 1,
@@ -134,5 +151,5 @@
  "voice": "Puck",
  "who": "hedgie",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

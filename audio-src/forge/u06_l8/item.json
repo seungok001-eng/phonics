@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=blue octopus | TYPE=word | IPA=blu ˈɑktəpəs | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/o/ /o/ octopus!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359629.1481805,
+   "sec": 3.23,
+   "check": {
+    "transcript": "octopus",
+    "type": "word",
+    "ipa": "ˈɑktəpəs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=octopus | TYPE=word | IPA=ˈɑktəpəs | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/o/ /o/ octopus!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360468.4653368,
+   "sec": 2.44,
+   "check": {
+    "transcript": "octopus",
+    "type": "word",
+    "ipa": "ˈɑːktəpʊs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=octopus | TYPE=word | IPA=ˈɑːktəpʊs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:28",
+ "applied": "2026-10-07 17:29",
  "text_edited": false,
  "error": "",
  "unit": 6,

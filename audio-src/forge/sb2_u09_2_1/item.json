@@ -50,11 +50,96 @@
     "raw": "TRANSCRIPT=hippop | TYPE=word | IPA=ˈhɪpɑp | NOTE=missing the final t sound"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359717.4034998,
+   "sec": 3.56,
+   "check": {
+    "transcript": "cough",
+    "type": "word",
+    "ipa": "/kɒf/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cough | TYPE=word | IPA=/kɒf/ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360551.5367284,
+   "sec": 2.35,
+   "check": {
+    "transcript": "uh",
+    "type": "word",
+    "ipa": "ʌ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uh | TYPE=word | IPA=ʌ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791362665.34047,
+   "sec": 2.58,
+   "check": {
+    "transcript": "ah",
+    "type": "isolated-sound",
+    "ipa": "ʌ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=ah | TYPE=isolated-sound | IPA=ʌ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791363056.4844062,
+   "sec": 2.44,
+   "check": {
+    "transcript": "uh",
+    "type": "word",
+    "ipa": "ʌ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uh | TYPE=word | IPA=ʌ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 8,
+   "file": "cand_8.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791363104.6255772,
+   "sec": 2.49,
+   "check": {
+    "transcript": "ah",
+    "type": "isolated-sound",
+    "ipa": "ɑ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=ah | TYPE=isolated-sound | IPA=ɑ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:49",
+ "applied": "2026-10-07 17:41",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -66,5 +151,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

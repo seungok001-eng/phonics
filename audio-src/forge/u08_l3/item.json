@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=say S is seal | TYPE=sentence | IPA=seɪ ɛs ɪz sil | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/s/ /s/ seal!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359652.1884477,
+   "sec": 5.1,
+   "check": {
+    "transcript": "seal",
+    "type": "word",
+    "ipa": "sil",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seal | TYPE=word | IPA=sil | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/s/ /s/ seal!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360489.4490688,
+   "sec": 3.23,
+   "check": {
+    "transcript": "seal",
+    "type": "word",
+    "ipa": "sil",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seal | TYPE=word | IPA=sil | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:29",
+ "applied": "2026-10-07 17:31",
  "text_edited": false,
  "error": "",
  "unit": 8,

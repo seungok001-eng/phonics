@@ -67,11 +67,45 @@
     "raw": "TRANSCRIPT=Toy Jack Pop! | TYPE=sentence | IPA=tɔɪ dʒæk pɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/j/ /j/ yak! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359685.3915894,
+   "sec": 3.36,
+   "check": {
+    "transcript": "yuck pop",
+    "type": "sentence",
+    "ipa": "jʌk pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yuck pop | TYPE=sentence | IPA=jʌk pɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/j/ /j/ yak! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360523.4267004,
+   "sec": 1.92,
+   "check": {
+    "transcript": "yuck yuck yuck yuck",
+    "type": "sentence",
+    "ipa": "jʌk jʌk jʌk jʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yuck yuck yuck yuck | TYPE=sentence | IPA=jʌk jʌk jʌk jʌk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 16:47",
+ "applied": "2026-10-07 17:34",
  "text_edited": false,
  "error": "",
  "unit": 10,

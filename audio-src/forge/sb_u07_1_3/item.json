@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=POP Panda pop | TYPE=sentence | IPA=p ɒ p p æ n d ə p ɒ p | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/p/ /p/ panda! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359646.3485591,
+   "sec": 2.53,
+   "check": {
+    "transcript": "Panda pop",
+    "type": "sentence",
+    "ipa": "ˈpændə ˈpɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Panda pop | TYPE=sentence | IPA=ˈpændə ˈpɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/p/ /p/ panda! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360484.5636067,
+   "sec": 1.89,
+   "check": {
+    "transcript": "Panda Pop!",
+    "type": "sentence",
+    "ipa": "ˈpændə ˈpɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Panda Pop! | TYPE=sentence | IPA=ˈpændə ˈpɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:29",
+ "applied": "2026-10-07 17:31",
  "text_edited": false,
  "error": "",
  "unit": 7,

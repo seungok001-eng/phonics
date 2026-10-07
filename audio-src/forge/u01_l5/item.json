@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/b/ /b/ bus!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791360407.3919137,
+   "sec": 1.99,
+   "check": {
+    "transcript": "b",
+    "type": "isolated-sound",
+    "ipa": "b",
+    "note": "clean",
+    "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 16:22",
+ "applied": "2026-10-07 17:25",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -100,5 +117,5 @@
  "voice": "Puck",
  "who": "hedgie",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

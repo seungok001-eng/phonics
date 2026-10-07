@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=caillou | TYPE=word | IPA=kaˈju | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/kw/ /kw/ quilt!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359642.109118,
+   "sec": 2.36,
+   "check": {
+    "transcript": "quilt",
+    "type": "word",
+    "ipa": "kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quilt | TYPE=word | IPA=kwɪlt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/kw/ /kw/ quilt!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791360480.3167336,
+   "sec": 1.83,
+   "check": {
+    "transcript": "quilt",
+    "type": "word",
+    "ipa": "kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quilt | TYPE=word | IPA=kwɪlt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-10-07 17:30",
  "text_edited": false,
  "error": "",
  "unit": 7,

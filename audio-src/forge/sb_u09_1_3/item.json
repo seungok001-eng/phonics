@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=Read Biby Volcano, pop. | TYPE=sentence | IPA=ɹid ˈbɪbi vɑlˈkeɪnoʊ ˈpɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/v/ /v/ volcano! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359676.4276717,
+   "sec": 5.54,
+   "check": {
+    "transcript": "v",
+    "type": "isolated-sound",
+    "ipa": "/v/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=v | TYPE=isolated-sound | IPA=/v/ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/v/ /v/ volcano! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360512.6269803,
+   "sec": 4.15,
+   "check": {
+    "transcript": "volcano pop",
+    "type": "sentence",
+    "ipa": "vɑlˈkeɪnoʊ pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=volcano pop | TYPE=sentence | IPA=vɑlˈkeɪnoʊ pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:31",
+ "applied": "2026-10-07 17:33",
  "text_edited": false,
  "error": "",
  "unit": 9,

@@ -59,13 +59,36 @@
    "how": "el",
    "created": 1791359594.0536685,
    "sec": 3.24,
-   "check": null,
-   "warn": false
+   "check": {
+    "transcript": "goat",
+    "type": "word",
+    "ipa": "ɡoʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=goat | TYPE=word | IPA=ɡoʊt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/g/ /g/ goat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360435.269305,
+   "sec": 2.14,
+   "check": {
+    "transcript": "goat",
+    "type": "word",
+    "ipa": "ɡoʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=goat | TYPE=word | IPA=ɡoʊt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:45",
+ "applied": "2026-10-07 17:27",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -77,5 +100,5 @@
  "voice": "Leda",
  "who": "bun",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

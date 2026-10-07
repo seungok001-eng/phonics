@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=And a net pop. | TYPE=sentence | IPA=and ə nɛt pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/n/ /n/ net! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359636.1051567,
+   "sec": 4.31,
+   "check": {
+    "transcript": "N",
+    "type": "letter-name",
+    "ipa": "ɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=N | TYPE=letter-name | IPA=ɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/n/ /n/ net! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360476.3970976,
+   "sec": 3.08,
+   "check": {
+    "transcript": "n n nut pop",
+    "type": "sentence",
+    "ipa": "n n nʌt pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=n n nut pop | TYPE=sentence | IPA=n n nʌt pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-10-07 17:30",
  "text_edited": false,
  "error": "",
  "unit": 6,

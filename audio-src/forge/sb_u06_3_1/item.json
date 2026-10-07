@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=Look at you octopus. Pop. | TYPE=sentence | IPA=lʊk ət ju ˈɑktəpəs | pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/o/ /o/ octopus! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359638.1669607,
+   "sec": 4.07,
+   "check": {
+    "transcript": "octopus, pop",
+    "type": "sentence",
+    "ipa": "ˈɑːktəpəs, pɑːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=octopus, pop | TYPE=sentence | IPA=ˈɑːktəpəs, pɑːp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/o/ /o/ octopus! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360476.52144,
+   "sec": 3.04,
+   "check": {
+    "transcript": "octopus pop",
+    "type": "word",
+    "ipa": "ˈɑːktəpʊs pɑːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=octopus pop | TYPE=word | IPA=ˈɑːktəpʊs pɑːp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-10-07 17:30",
  "text_edited": false,
  "error": "",
  "unit": 6,

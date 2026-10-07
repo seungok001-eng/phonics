@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=za za zig zag | TYPE=sentence | IPA=za za zɪg zæɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/z/ /z/ zigzag!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359683.5396557,
+   "sec": 7.6,
+   "check": {
+    "transcript": "zigzag",
+    "type": "word",
+    "ipa": "zɪɡzæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zigzag | TYPE=word | IPA=zɪɡzæɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/z/ /z/ zigzag!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360521.4956656,
+   "sec": 4.77,
+   "check": {
+    "transcript": "Z",
+    "type": "letter-name",
+    "ipa": "zi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Z | TYPE=letter-name | IPA=zi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:32",
+ "applied": "2026-10-07 17:34",
  "text_edited": false,
  "error": "",
  "unit": 10,

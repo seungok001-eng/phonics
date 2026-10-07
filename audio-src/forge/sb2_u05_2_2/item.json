@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=making tea | TYPE=sentence | IPA=ˈmeɪkɪŋ tiː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/... /æ/... /t/...",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360541.38055,
+   "sec": 1.62,
+   "check": {
+    "transcript": "c a t",
+    "type": "word",
+    "ipa": "k æ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=c a t | TYPE=word | IPA=k æ t | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:39",
+ "applied": "2026-10-07 17:40",
  "text_edited": false,
  "error": "",
  "unit": 5,

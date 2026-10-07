@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=Let's eat, cat. | TYPE=sentence | IPA=lɛts iːt kæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/k/ /æ/ /t/ cat!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359690.5376022,
+   "sec": 3.24,
+   "check": {
+    "transcript": "can",
+    "type": "word",
+    "ipa": "kæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=can | TYPE=word | IPA=kæn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/k/ /æ/ /t/ cat!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360528.621947,
+   "sec": 2.21,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:47",
+ "applied": "2026-10-07 17:34",
  "text_edited": false,
  "error": "",
  "unit": 1,

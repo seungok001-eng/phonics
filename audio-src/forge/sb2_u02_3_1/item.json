@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=napkin ketchup | TYPE=word | IPA=ˈnæpkən ˈkɛtʃəp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/b/ /æ/ /g/ bag!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359694.6803234,
+   "sec": 4.02,
+   "check": {
+    "transcript": "b",
+    "type": "isolated-sound",
+    "ipa": "b",
+    "note": "clean",
+    "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/b/ /æ/ /g/ bag!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360532.6452556,
+   "sec": 2.62,
+   "check": {
+    "transcript": "bag",
+    "type": "word",
+    "ipa": "bæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bag | TYPE=word | IPA=bæg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:48",
+ "applied": "2026-10-07 17:40",
  "text_edited": false,
  "error": "",
  "unit": 2,

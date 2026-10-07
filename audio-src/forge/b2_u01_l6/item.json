@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=a cannon a pan | TYPE=sentence | IPA=ə kænən ə pæn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A can and a pan!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359732.2056527,
+   "sec": 1.44,
+   "check": {
+    "transcript": "a cannon a pan",
+    "type": "sentence",
+    "ipa": "ə kænən ə pæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a cannon a pan | TYPE=sentence | IPA=ə kænən ə pæn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:47",
+ "applied": "2026-10-07 17:03",
  "text_edited": false,
  "error": "",
  "unit": 1,

@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=sniff pip-squeaks | TYPE=word | IPA=snɪf pɪp.skwiːks | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Sniff... Pip sings!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791359730.2071311,
+   "sec": 1.9,
+   "check": {
+    "transcript": "sniff pips squeaks",
+    "type": "sentence",
+    "ipa": "snɪf pɪps skwɪks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sniff pips squeaks | TYPE=sentence | IPA=snɪf pɪps skwɪks | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Sniff... Pip sings!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791360564.243446,
+   "sec": 2.28,
+   "check": {
+    "transcript": "sniff pip synchs",
+    "type": "sentence",
+    "ipa": "snɪf pɪp sɪŋks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sniff pip synchs | TYPE=sentence | IPA=snɪf pɪp sɪŋks | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:47",
+ "applied": "2026-10-07 17:42",
  "text_edited": false,
  "error": "",
  "unit": 10,

@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=milk mm milk | TYPE=sentence | IPA=mɪlk ɛm ɛm mɪlk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Milk! /m/ /m/ milk!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359624.134015,
+   "sec": 3.75,
+   "check": {
+    "transcript": "milk",
+    "type": "word",
+    "ipa": "mɪlk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Milk! /m/ /m/ milk!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360463.6346927,
+   "sec": 2.98,
+   "check": {
+    "transcript": "milk",
+    "type": "word",
+    "ipa": "mɪlk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:27",
+ "applied": "2026-10-07 17:29",
  "text_edited": false,
  "error": "",
  "unit": 6,

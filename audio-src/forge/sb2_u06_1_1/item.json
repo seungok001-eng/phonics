@@ -50,11 +50,96 @@
     "raw": "TRANSCRIPT=The biggest big. | TYPE=sentence | IPA=ðə ˈbɪgɪst ˈbɪg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The pig is big!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359737.088803,
+   "sec": 1.39,
+   "check": {
+    "transcript": "the biggest big",
+    "type": "sentence",
+    "ipa": "ðə ˈbɪgəst bɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the biggest big | TYPE=sentence | IPA=ðə ˈbɪgəst bɪg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "The pig is big!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791360568.9991791,
+   "sec": 1.35,
+   "check": {
+    "transcript": "The pig is big.",
+    "type": "sentence",
+    "ipa": "ðə pɪɡ ɪz bɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig is big. | TYPE=sentence | IPA=ðə pɪɡ ɪz bɪɡ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "The pig is big!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791362668.7648988,
+   "sec": 1.53,
+   "check": {
+    "transcript": "The biggest big.",
+    "type": "sentence",
+    "ipa": "ðə ˈbɪgɪs bɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The biggest big. | TYPE=sentence | IPA=ðə ˈbɪgɪs bɪg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "The pig is big!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791363057.9008813,
+   "sec": 1.49,
+   "check": {
+    "transcript": "The biggest big.",
+    "type": "sentence",
+    "ipa": "ðə ˈbɪgɪs ˈbɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The biggest big. | TYPE=sentence | IPA=ðə ˈbɪgɪs ˈbɪg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 8,
+   "file": "cand_8.wav",
+   "text": "The pig is big!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791363105.877256,
+   "sec": 1.35,
+   "check": {
+    "transcript": "The pig is big.",
+    "type": "sentence",
+    "ipa": "ðə pɪg ɪz bɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig is big. | TYPE=sentence | IPA=ðə pɪg ɪz bɪg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 8,
  "final": "final.mp3",
- "applied": "2026-10-07 16:48",
+ "applied": "2026-10-07 17:52",
  "text_edited": false,
  "error": "",
  "unit": 6,

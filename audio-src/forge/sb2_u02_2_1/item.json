@@ -50,11 +50,62 @@
     "raw": "TRANSCRIPT=cap | TYPE=word | IPA=kæp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/k/ /æ/ /p/ cap!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359692.5137892,
+   "sec": 3.02,
+   "check": {
+    "transcript": "cup",
+    "type": "word",
+    "ipa": "kʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cup | TYPE=word | IPA=kʌp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/k/ /æ/ /p/ cap!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360530.6126866,
+   "sec": 2.1,
+   "check": {
+    "transcript": "cap",
+    "type": "word",
+    "ipa": "kæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap | TYPE=word | IPA=kæp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/k/ /æ/ /p/ cap!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791362657.2434452,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Cab",
+    "type": "word",
+    "ipa": "kæb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Cab | TYPE=word | IPA=kæb | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 16:47",
+ "applied": "2026-10-07 17:45",
  "text_edited": false,
  "error": "",
  "unit": 2,

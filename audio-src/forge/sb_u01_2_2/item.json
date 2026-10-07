@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=a cat | TYPE=sentence | IPA=ə kæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A cat! /k/ /k/ cat!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791360418.8778229,
+   "sec": 3.2,
+   "check": {
+    "transcript": "cut",
+    "type": "word",
+    "ipa": "kʌt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cut | TYPE=word | IPA=kʌt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:23",
+ "applied": "2026-10-07 17:25",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -65,5 +82,6 @@
  "text": "A cat! /k/ /k/ cat!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

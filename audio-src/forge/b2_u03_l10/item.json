@@ -50,11 +50,62 @@
     "raw": "TRANSCRIPT=Click clack, tinted. | TYPE=sentence | IPA=klɪk klæk tɪntɪd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Click-clack! Ten and net!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359735.6112187,
+   "sec": 1.76,
+   "check": {
+    "transcript": "click clack, tinynit",
+    "type": "sentence",
+    "ipa": "klɪk klæk, taɪniɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click clack, tinynit | TYPE=sentence | IPA=klɪk klæk, taɪniɪt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Click-clack! Ten and net!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360566.004454,
+   "sec": 1.86,
+   "check": {
+    "transcript": "click clack, tiddle tac",
+    "type": "sentence",
+    "ipa": "klɪk klæk tɪdəl tæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click clack, tiddle tac | TYPE=sentence | IPA=klɪk klæk tɪdəl tæk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Click-clack! Ten and net!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791362666.632402,
+   "sec": 1.9,
+   "check": {
+    "transcript": "Click, clack, tin and net.",
+    "type": "sentence",
+    "ipa": "klɪk klæk tɪn ənd nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click, clack, tin and net. | TYPE=sentence | IPA=klɪk klæk tɪn ənd nɛt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 16:48",
+ "applied": "2026-10-07 17:50",
  "text_edited": false,
  "error": "",
  "unit": 3,

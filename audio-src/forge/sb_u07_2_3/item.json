@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=Jaguar, Jaguar Girl, Bob | TYPE=sentence | IPA=ˈdʒægwɑɹ ˈdʒægwɑɹ ɡɝɫ bɑb | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/kw/ /kw/ quilt! Pop!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359648.3128612,
+   "sec": 3.25,
+   "check": {
+    "transcript": "quilt",
+    "type": "word",
+    "ipa": "kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quilt | TYPE=word | IPA=kwɪlt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/kw/ /kw/ quilt! Pop!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791360486.5189714,
+   "sec": 2.25,
+   "check": {
+    "transcript": "Quilp Bob",
+    "type": "word",
+    "ipa": "ˈkwɪlp ˈbɒb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Quilp Bob | TYPE=word | IPA=ˈkwɪlp ˈbɒb | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-10-07 17:31",
  "text_edited": false,
  "error": "",
  "unit": 7,

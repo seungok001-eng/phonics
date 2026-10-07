@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=JJ Jelly Pop | TYPE=sentence | IPA=ʤeɪ ʤeɪ ʤɛli pɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/j/ /j/ jelly! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359619.1415706,
+   "sec": 3.68,
+   "check": {
+    "transcript": "J",
+    "type": "letter-name",
+    "ipa": "dʒeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=J | TYPE=letter-name | IPA=dʒeɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/j/ /j/ jelly! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360456.3724241,
+   "sec": 2.69,
+   "check": {
+    "transcript": "Je",
+    "type": "isolated-sound",
+    "ipa": "dʒ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=Je | TYPE=isolated-sound | IPA=dʒ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:26",
+ "applied": "2026-10-07 17:28",
  "text_edited": false,
  "error": "",
  "unit": 4,

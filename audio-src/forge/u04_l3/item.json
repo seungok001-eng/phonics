@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=Ta la kate, kite | TYPE=sentence | IPA=tɑː lɑː keɪt kaɪt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/ /k/ kite!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359609.2484093,
+   "sec": 3.14,
+   "check": {
+    "transcript": "k",
+    "type": "isolated-sound",
+    "ipa": "k",
+    "note": "clean",
+    "raw": "TRANSCRIPT=k | TYPE=isolated-sound | IPA=k | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/k/ /k/ kite!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360450.4277835,
+   "sec": 2.18,
+   "check": {
+    "transcript": "c c",
+    "type": "isolated-sound",
+    "ipa": "k",
+    "note": "clean",
+    "raw": "TRANSCRIPT=c c | TYPE=isolated-sound | IPA=k | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:25",
+ "applied": "2026-10-07 17:28",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -49,5 +83,5 @@
  "voice": "Leda",
  "who": "bun",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=European | TYPE=word | IPA=ˌjʊɹəˈpiːən | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/p/ /ɪ/ /n/ pin!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359708.6021056,
+   "sec": 3.91,
+   "check": {
+    "transcript": "pin",
+    "type": "word",
+    "ipa": "pɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pin | TYPE=word | IPA=pɪn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/p/ /ɪ/ /n/ pin!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360546.4873035,
+   "sec": 2.65,
+   "check": {
+    "transcript": "A N pin",
+    "type": "sentence",
+    "ipa": "eɪ ɛn pɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A N pin | TYPE=sentence | IPA=eɪ ɛn pɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:48",
+ "applied": "2026-10-07 17:41",
  "text_edited": false,
  "error": "",
  "unit": 6,

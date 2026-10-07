@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=take big cup | TYPE=sentence | IPA=ˈteɪk ˈbɪɡ ˈkʌp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/ /ʌ/ /p/ cup!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359721.572146,
+   "sec": 2.92,
+   "check": {
+    "transcript": "uh",
+    "type": "word",
+    "ipa": "/ʌ/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uh | TYPE=word | IPA=/ʌ/ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/k/ /ʌ/ /p/ cup!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360556.519917,
+   "sec": 2.02,
+   "check": {
+    "transcript": "cup",
+    "type": "word",
+    "ipa": "k ʌ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cup | TYPE=word | IPA=k ʌ p | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:44",
+ "applied": "2026-10-07 17:42",
  "text_edited": false,
  "error": "",
  "unit": 10,

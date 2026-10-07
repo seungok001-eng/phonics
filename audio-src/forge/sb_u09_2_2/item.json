@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=Oh, them! Oh, no! | TYPE=sentence | IPA=oʊ ˈðɛm oʊ ˈnoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A worm! Oh no!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359730.1201541,
+   "sec": 1.86,
+   "check": {
+    "transcript": "Oh, bomb. Oh, no.",
+    "type": "sentence",
+    "ipa": "oʊ bɑm oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh, bomb. Oh, no. | TYPE=sentence | IPA=oʊ bɑm oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A worm! Oh no!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791360558.958549,
+   "sec": 1.9,
+   "check": {
+    "transcript": "A lum! Oh no!",
+    "type": "sentence",
+    "ipa": "ə lʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A lum! Oh no! | TYPE=sentence | IPA=ə lʌm | oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:47",
+ "applied": "2026-10-07 17:42",
  "text_edited": false,
  "error": "",
  "unit": 9,

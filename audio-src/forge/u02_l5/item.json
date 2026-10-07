@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/e/ /e/ egg!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360421.2504714,
+   "sec": 1.88,
+   "check": {
+    "transcript": "egg",
+    "type": "word",
+    "ipa": "ɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=egg | TYPE=word | IPA=ɛɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:23",
+ "applied": "2026-10-07 17:26",
  "text_edited": false,
  "error": "",
  "unit": 2,

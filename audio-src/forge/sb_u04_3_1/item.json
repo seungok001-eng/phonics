@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=L, little lemon, pop. | TYPE=sentence | IPA=ɛl, lɪtəl lɛmən, pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/l/ /l/ lemon! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359621.1599913,
+   "sec": 3.22,
+   "check": {
+    "transcript": "lemon pop",
+    "type": "word",
+    "ipa": "ˈlɛmən ˈpɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lemon pop | TYPE=word | IPA=ˈlɛmən ˈpɒp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/l/ /l/ lemon! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360458.5270326,
+   "sec": 2.39,
+   "check": {
+    "transcript": "l",
+    "type": "isolated-sound",
+    "ipa": "l",
+    "note": "clean",
+    "raw": "TRANSCRIPT=l | TYPE=isolated-sound | IPA=l | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:26",
+ "applied": "2026-10-07 17:29",
  "text_edited": false,
  "error": "",
  "unit": 4,

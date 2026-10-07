@@ -42,13 +42,36 @@
    "how": "el",
    "created": 1791359595.331102,
    "sec": 5.23,
-   "check": null,
-   "warn": false
+   "check": {
+    "transcript": "frog pop",
+    "type": "word",
+    "ipa": "fɹɑg pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=frog pop | TYPE=word | IPA=fɹɑg pɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/f/ /f/ frog! Pop!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791360433.561307,
+   "sec": 3.47,
+   "check": {
+    "transcript": "frosted pop",
+    "type": "word",
+    "ipa": "frˈɔstɪd pˈɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=frosted pop | TYPE=word | IPA=frˈɔstɪd pˈɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:24",
+ "applied": "2026-10-07 17:27",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -60,5 +83,5 @@
  "voice": "Kore",
  "who": "both",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

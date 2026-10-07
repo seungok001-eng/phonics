@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=Cat | TYPE=word | IPA=kæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/k/ /k/ cat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360410.326661,
+   "sec": 2.23,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 16:22",
+ "applied": "2026-10-07 17:25",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -100,5 +117,5 @@
  "voice": "Leda",
  "who": "bun",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=igloo | TYPE=word | IPA=ˈɪɡlu | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/i/ /i/ igloo!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359601.1635854,
+   "sec": 3.35,
+   "check": {
+    "transcript": "igloo",
+    "type": "word",
+    "ipa": "ˈɪɡlu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=igloo | TYPE=word | IPA=ˈɪɡlu | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/i/ /i/ igloo!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360439.3658056,
+   "sec": 2.46,
+   "check": {
+    "transcript": "igloo",
+    "type": "word",
+    "ipa": "ˈɪɡlu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=igloo | TYPE=word | IPA=ˈɪɡlu | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:45",
+ "applied": "2026-10-07 17:27",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -66,5 +100,5 @@
  "voice": "Leda",
  "who": "bun",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

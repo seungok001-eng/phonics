@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=zeraya pizip | TYPE=sentence | IPA=zɛraɪ pɪzɪp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/z/ /ɪ/ /p/ zip!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359712.4463005,
+   "sec": 5.63,
+   "check": {
+    "transcript": "Z",
+    "type": "letter-name",
+    "ipa": "z",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Z | TYPE=letter-name | IPA=z | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/z/ /ɪ/ /p/ zip!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360547.8066711,
+   "sec": 3.7,
+   "check": {
+    "transcript": "e",
+    "type": "letter-name",
+    "ipa": "i",
+    "note": "ok",
+    "raw": "TRANSCRIPT=e | TYPE=letter-name | IPA=i | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:49",
+ "applied": "2026-10-07 17:41",
  "text_edited": false,
  "error": "",
  "unit": 7,

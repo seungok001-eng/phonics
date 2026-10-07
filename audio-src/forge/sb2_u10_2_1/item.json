@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=B G-bug | TYPE=sentence | IPA=biː dʒiː bʌɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/b/ /ʌ/ /g/ bug!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359719.654156,
+   "sec": 3.83,
+   "check": {
+    "transcript": "p",
+    "type": "isolated-sound",
+    "ipa": "pʰ",
+    "note": "extra vowel",
+    "raw": "TRANSCRIPT=p | TYPE=isolated-sound | IPA=pʰ | NOTE=extra vowel"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/b/ /ʌ/ /g/ bug!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360554.5877814,
+   "sec": 2.63,
+   "check": {
+    "transcript": "b ah g b",
+    "type": "sentence",
+    "ipa": "bi ɑ g b",
+    "note": "ok",
+    "raw": "TRANSCRIPT=b ah g b | TYPE=sentence | IPA=bi ɑ g b | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:43",
+ "applied": "2026-10-07 17:42",
  "text_edited": false,
  "error": "",
  "unit": 10,

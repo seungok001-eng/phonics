@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=They like the moon. | TYPE=sentence | IPA=ðeɪ laɪk ðə mun | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "We like the moon!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359742.0947762,
+   "sec": 1.3,
+   "check": {
+    "transcript": "We like the moon.",
+    "type": "sentence",
+    "ipa": "wi laɪk ðə mun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like the moon. | TYPE=sentence | IPA=wi laɪk ðə mun | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-10-07 17:03",
  "text_edited": false,
  "error": "",
  "unit": 6,

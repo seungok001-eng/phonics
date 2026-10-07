@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=B's V volcano | TYPE=sentence | IPA=biːz ˈviː vɑːlˈkeɪnoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/v/ /v/ volcano!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359669.2375388,
+   "sec": 5.12,
+   "check": {
+    "transcript": "volcano",
+    "type": "word",
+    "ipa": "vɔlˈkeɪnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɔlˈkeɪnoʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/v/ /v/ volcano!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360505.3527818,
+   "sec": 3.32,
+   "check": {
+    "transcript": "volcano",
+    "type": "word",
+    "ipa": "vɑlˈkeɪnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɑlˈkeɪnoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:31",
+ "applied": "2026-10-07 17:32",
  "text_edited": false,
  "error": "",
  "unit": 9,

@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=Go, you worm. Pop! | TYPE=sentence | IPA=goʊ ju wɜːrm pɑːp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/w/ /w/ worm! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359678.4861825,
+   "sec": 2.98,
+   "check": {
+    "transcript": "worm pop",
+    "type": "sentence",
+    "ipa": "wɹm pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=worm pop | TYPE=sentence | IPA=wɹm pɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/w/ /w/ worm! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360514.3814523,
+   "sec": 2.59,
+   "check": {
+    "transcript": "worm",
+    "type": "word",
+    "ipa": "wˈɝm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wˈɝm | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:47",
+ "applied": "2026-10-07 17:33",
  "text_edited": false,
  "error": "",
  "unit": 9,

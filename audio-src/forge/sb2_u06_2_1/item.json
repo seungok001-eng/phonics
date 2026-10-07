@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=G pig | TYPE=word | IPA=ʤiː pɪg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/p/ /ɪ/ /g/ pig!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359706.4436905,
+   "sec": 3.66,
+   "check": {
+    "transcript": "pig",
+    "type": "word",
+    "ipa": "pɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pig | TYPE=word | IPA=pɪg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/p/ /ɪ/ /g/ pig!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360543.5472312,
+   "sec": 2.57,
+   "check": {
+    "transcript": "egg",
+    "type": "word",
+    "ipa": "ɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=egg | TYPE=word | IPA=ɛɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:40",
+ "applied": "2026-10-07 17:41",
  "text_edited": false,
  "error": "",
  "unit": 6,

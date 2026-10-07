@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=T T tomato | TYPE=word | IPA=ˈtiː ˈtiː təˈmɑːtoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/t/ /t/ tomato!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359654.121394,
+   "sec": 2.15,
+   "check": {
+    "transcript": "tomato",
+    "type": "word",
+    "ipa": "təˈmeɪtoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tomato | TYPE=word | IPA=təˈmeɪtoʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/t/ /t/ tomato!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360494.4921253,
+   "sec": 1.74,
+   "check": {
+    "transcript": "tomato",
+    "type": "word",
+    "ipa": "təˈmɑtoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tomato | TYPE=word | IPA=təˈmɑtoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:30",
+ "applied": "2026-10-07 17:32",
  "text_edited": false,
  "error": "",
  "unit": 8,

@@ -50,14 +50,72 @@
     "raw": "TRANSCRIPT=D | TYPE=letter-name | IPA=diː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/d/ /d/ duck! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360429.466967,
+   "sec": 2.3,
+   "check": {
+    "transcript": "duck pop",
+    "type": "word",
+    "ipa": "dʌk pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck pop | TYPE=word | IPA=dʌk pɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/d/ /d/ duck! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791362654.1426723,
+   "sec": 2.16,
+   "check": {
+    "transcript": "D D Dog pop",
+    "type": "sentence",
+    "ipa": "d d dɔɡ pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=D D Dog pop | TYPE=sentence | IPA=d d dɔɡ pɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/d/ /d/ duck! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791363052.6302927,
+   "sec": 2.43,
+   "check": {
+    "transcript": "duck pop",
+    "type": "sentence",
+    "ipa": "dʌk pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck pop | TYPE=sentence | IPA=dʌk pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 16:24",
+ "applied": "2026-10-07 17:51",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "sb_u02_1_3",
- "sub": "lin
+ "sub": "line",
+ "title": "2유닛 스토리북 · 번: /d/ /d/ duck! Pop!",
+ "text": "/d/ /d/ duck! Pop!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 1,
+ "busy": 0
+}

@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=We are a rocket pop! | TYPE=sentence | IPA=wi ɑɹ ə ɹɑkət pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/r/ /r/ rocket! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359650.1528413,
+   "sec": 6.26,
+   "check": {
+    "transcript": "rocket pop",
+    "type": "word",
+    "ipa": "ˈrɑkɪt pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rocket pop | TYPE=word | IPA=ˈrɑkɪt pɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/r/ /r/ rocket! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360487.4310987,
+   "sec": 4.24,
+   "check": {
+    "transcript": "er",
+    "type": "isolated-sound",
+    "ipa": "ɝ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=er | TYPE=isolated-sound | IPA=ɝ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:29",
+ "applied": "2026-10-07 17:31",
  "text_edited": false,
  "error": "",
  "unit": 7,

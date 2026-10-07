@@ -42,13 +42,36 @@
    "how": "el",
    "created": 1791359592.2428703,
    "sec": 2.76,
-   "check": null,
-   "warn": false
+   "check": {
+    "transcript": "boom boom",
+    "type": "word",
+    "ipa": "bʊm bʊm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=boom boom | TYPE=word | IPA=bʊm bʊm | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/e/ /e/ egg! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360431.2984357,
+   "sec": 2.21,
+   "check": {
+    "transcript": "egg pop",
+    "type": "word",
+    "ipa": "ɛɡ pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=egg pop | TYPE=word | IPA=ɛɡ pɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:24",
+ "applied": "2026-10-07 17:26",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -60,5 +83,5 @@
  "voice": "Leda",
  "who": "bun",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=Lia Ali-Liman | TYPE=sentence | IPA=liə ˈɑːli ˈliːmɑːn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/l/ /l/ lemon!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791359615.1191084,
+   "sec": 2.66,
+   "check": {
+    "transcript": "l",
+    "type": "isolated-sound",
+    "ipa": "/l/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=l | TYPE=isolated-sound | IPA=/l/ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/l/ /l/ lemon!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791360454.3251677,
+   "sec": 1.93,
+   "check": {
+    "transcript": "lemon",
+    "type": "word",
+    "ipa": "lɛmən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lemon | TYPE=word | IPA=lɛmən | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:45",
+ "applied": "2026-10-07 17:28",
  "text_edited": false,
  "error": "",
  "unit": 4,

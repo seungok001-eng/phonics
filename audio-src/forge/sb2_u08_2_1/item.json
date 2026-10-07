@@ -33,11 +33,96 @@
     "raw": "TRANSCRIPT=L K G log | TYPE=word | IPA=ɛl.keɪ.dʒi.lɔɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/l/ /ɑ/ /g/ log!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359713.5212882,
+   "sec": 3.92,
+   "check": {
+    "transcript": "lug",
+    "type": "word",
+    "ipa": "lʌg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lug | TYPE=word | IPA=lʌg | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/l/ /ɑ/ /g/ log!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360549.5975246,
+   "sec": 2.72,
+   "check": {
+    "transcript": "lug",
+    "type": "word",
+    "ipa": "lʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lug | TYPE=word | IPA=lʌɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/l/ /ɑ/ /g/ log!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791362662.3528714,
+   "sec": 2.72,
+   "check": {
+    "transcript": "rug",
+    "type": "word",
+    "ipa": "ɹʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rug | TYPE=word | IPA=ɹʌɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/l/ /ɑ/ /g/ log!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791363054.774758,
+   "sec": 2.67,
+   "check": {
+    "transcript": "lug",
+    "type": "word",
+    "ipa": "lʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lug | TYPE=word | IPA=lʌɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/l/ /ɑ/ /g/ log!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791363102.5253782,
+   "sec": 2.67,
+   "check": {
+    "transcript": "lug",
+    "type": "word",
+    "ipa": "lʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lug | TYPE=word | IPA=lʌɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:42",
+ "applied": "2026-10-07 17:41",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -49,5 +134,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

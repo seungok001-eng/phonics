@@ -50,11 +50,62 @@
     "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/b/ /e/ /d/ bed!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791359699.4223528,
+   "sec": 3.34,
+   "check": {
+    "transcript": "b, æ, d, bed",
+    "type": "sentence",
+    "ipa": "b æ d bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=b, æ, d, bed | TYPE=sentence | IPA=b æ d bɛd | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/b/ /e/ /d/ bed!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791360537.6313944,
+   "sec": 2.43,
+   "check": {
+    "transcript": "bed",
+    "type": "word",
+    "ipa": "bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/b/ /e/ /d/ bed!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791362660.230647,
+   "sec": 2.43,
+   "check": {
+    "transcript": "bed",
+    "type": "word",
+    "ipa": "bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 16:48",
+ "applied": "2026-10-07 17:45",
  "text_edited": false,
  "error": "",
  "unit": 4,

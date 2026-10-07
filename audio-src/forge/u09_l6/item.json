@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=little worm | TYPE=word | IPA=ˈlɪtəl ˈwɜrm | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/w/ /w/ worm!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359671.1537461,
+   "sec": 2.61,
+   "check": {
+    "transcript": "worm",
+    "type": "word",
+    "ipa": "wɝm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wɝm | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/w/ /w/ worm!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360507.5568602,
+   "sec": 1.94,
+   "check": {
+    "transcript": "worm",
+    "type": "word",
+    "ipa": "wɝm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wɝm | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:31",
+ "applied": "2026-10-07 17:33",
  "text_edited": false,
  "error": "",
  "unit": 9,

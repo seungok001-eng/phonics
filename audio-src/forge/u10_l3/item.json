@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=Jeet Kune Do | TYPE=word | IPA=ˈdʒiːt ˈkuːn ˈdoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/j/ /j/ yak!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359680.4111395,
+   "sec": 2.85,
+   "check": {
+    "transcript": "yuck",
+    "type": "word",
+    "ipa": "/jʌk/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yuck | TYPE=word | IPA=/jʌk/ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/j/ /j/ yak!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360518.3138776,
+   "sec": 2.06,
+   "check": {
+    "transcript": "yuck",
+    "type": "word",
+    "ipa": "jʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yuck | TYPE=word | IPA=jʌk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:47",
+ "applied": "2026-10-07 17:34",
  "text_edited": false,
  "error": "",
  "unit": 10,

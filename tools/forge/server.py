@@ -75,7 +75,7 @@ def read_json(path):
     except Exception: return None
 
 
-KEEP_ITEM = ('status', 'raw', 'cut', 'attempts', 'error', 'updated', 'auto_approved', 'flow_url', 'prompt_edited', 'applied', 'gen', 'asset_no', 'claimed_at', 'made_from')
+KEEP_ITEM = ('regen', 'status', 'raw', 'cut', 'attempts', 'error', 'updated', 'auto_approved', 'flow_url', 'prompt_edited', 'applied', 'gen', 'asset_no', 'claimed_at', 'made_from')
 KEEP_SOUND = ('cands', 'approved', 'final', 'applied', 'text_edited', 'voice', 'error')
 
 
@@ -212,6 +212,7 @@ def item_action(it, action):
     elif action == 'reject':
         it['status'] = 'review' if it.get('raw') else 'pending'; it['auto_approved'] = False
     elif action == 'reset':
+        it['regen'] = int(it.get('regen') or 0) + 1
         trash_files(it)
         it['status'] = 'pending'; it['raw'] = ''; it['cut'] = ''; it['error'] = ''; it['attempts'] = 0; it['auto_approved'] = False; it['applied'] = ''
         if it['kind'] == 'cast': it['made_from'] = None
@@ -393,10 +394,11 @@ def claim_job():
     it = pick_job('flow')
     if not it: return None
     ids = list(state['items'].keys())
-    job = {'id': it['id'], 'prompt': f"Job {it['id']}. {it['prompt']}",   # 앞에 잡 이름을 붙여 같은 프롬프트(선 그림 78장)가 섞이지 않게
+    tag = it['id'] + (f" r{it['regen']}" if it.get('regen') else '')   # 다시 만들 때마다 꼬리표를 바꿔 플로우가 예전 결과를 다시 돌려주지 않게
+    job = {'id': it['id'], 'prompt': f"Job {tag}. {it['prompt']}",   # 앞에 잡 이름을 붙여 같은 프롬프트(선 그림 78장)가 섞이지 않게
            'job_type': it.get('job_type', 'image'), 'count': 1,
            'aspect': it.get('aspect', '1:1'),   # 확장이 플로우 설정에서 이 비율(3:4·1:1·4:3)을 고른다 (2026-10-06)
-           'scene_id': f"ref:{it['id']}" if is_ref_item(it) else f"{it['kind']}:{it['id']}", 'scene_number': ids.index(it['id']) + 1, 'flow_model': 'flow'}
+           'scene_id': (f"ref:{it['id']}" if is_ref_item(it) else f"{it['kind']}:{it['id']}") + (f":r{it['regen']}" if it.get('regen') else ''), 'scene_number': ids.index(it['id']) + 1, 'flow_model': 'flow'}
     if it.get('reference'):
         r = ref_item(it)
         job['source_image_url'] = f"http://localhost:{port()}/files/{r['kind']}/{r['id']}/{os.path.basename(ref_file(r))}"
@@ -584,6 +586,7 @@ def el_voices_for(s):
 
 
 PHON_RE = re.compile(r'/([^/\s]+)/')
+IPA_LETTER = {'æ': 'a', 'ɪ': 'i', 'ɑ': 'o', 'ʌ': 'u', 'e': 'e', 'dʒ': 'j', 'j': 'y', 'kw': 'q', 'ks': 'x', 'ə': 'a'}
 
 
 def phoneme_letters(text):
@@ -606,8 +609,8 @@ def phoneme_letters(text):
             if ch == 'ks': out[idx] = 'x'
             elif ch == 'kw': out[idx] = 'q'
             elif len(run_) == len(word) and word: out[idx] = word[k]
-            elif word: out[idx] = word[0]
-            else: out[idx] = ch[0]
+            elif word and (word[0] == ch[0] or IPA_LETTER.get(ch) == word[0]): out[idx] = word[0]
+            else: out[idx] = IPA_LETTER.get(ch, ch[0])
         i = run_[-1] + 2
     return parts, out
 

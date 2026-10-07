@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=Pop | TYPE=word | IPA=pʰɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/k/ /k/ kite! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791359617.32214,
+   "sec": 3.42,
+   "check": {
+    "transcript": "k",
+    "type": "isolated-sound",
+    "ipa": "k",
+    "note": "clean",
+    "raw": "TRANSCRIPT=k | TYPE=isolated-sound | IPA=k | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/k/ /k/ kite! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791360456.4529555,
+   "sec": 2.55,
+   "check": {
+    "transcript": "k",
+    "type": "isolated-sound",
+    "ipa": "/k/",
+    "note": "clean",
+    "raw": "TRANSCRIPT=k | TYPE=isolated-sound | IPA=/k/ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:45",
+ "applied": "2026-10-07 17:28",
  "text_edited": false,
  "error": "",
  "unit": 4,
