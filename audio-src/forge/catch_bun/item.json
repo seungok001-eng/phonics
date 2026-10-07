@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Let's try. | TYPE=sentence | IPA=lɛts ˈtɹaɪ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Let's try!",
+   "voice": "TEST Sunny",
+   "how": "el",
+   "created": 1791356014.7316968,
+   "sec": 1.07,
+   "check": {
+    "transcript": "Let's try.",
+    "type": "sentence",
+    "ipa": "lɛts ˈtɹaɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Let's try. | TYPE=sentence | IPA=lɛts ˈtɹaɪ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,7 @@
  "title": "말버릇 · 번: Let's try!",
  "text": "Let's try!",
  "voice": "Leda",
- "book": 1
+ "who": "bun",
+ "book": 1,
+ "busy": 1
 }

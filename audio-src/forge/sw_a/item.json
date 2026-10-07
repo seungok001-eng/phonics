@@ -86,9 +86,9 @@
    "warn": true
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-06 15:51",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -97,5 +97,6 @@
  "sub": "sw",
  "title": "사이트워드 a · 하나의",
  "text": "a",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

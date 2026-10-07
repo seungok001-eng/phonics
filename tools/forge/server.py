@@ -115,6 +115,7 @@ def rebuild():
             log(f"{s['id']} 대본이 바뀌어 승인 해제: \"{ct.strip()}\" → \"{s['text']}\"")
     if stale: log(f'대본이 바뀐 소리 {stale}개 — 소리 탭에서 다시 만들기')
     state['book'] = book; state['units'] = units; state['items'] = items; state['sounds'] = sounds; state['books'] = books
+    state['voices'] = read_json(os.path.join(presets.CONTENT, 'voices.json')) or {}
     log(f'항목 {len(items)}개 · 소리 {len(sounds)}개 (content 에서)')
 
 
@@ -567,8 +568,27 @@ def apply_check(s, c, res):
         c['warn'] = heard != norm_text(s['text'])
 
 
+def el_key(): return (state['secrets'].get('elevenlabs_key') or '').strip()
+
+
+def el_voices_for(s):
+    """이 소리를 일레븐랩스로 만들 목소리들 [(이름, voice_id)] — 캐릭터 대사만. 'both' 는 번+헤지 두 목소리를 겹친다. 없으면 [] (제미나이)."""
+    who = s.get('who'); V = state.get('voices') or {}
+    if not who or who == 'narrator' or not el_key(): return []
+    ids = V.get('both', {}).get('mix', ['bun', 'hedgie']) if who == 'both' else [who]
+    out = []
+    for w in ids:
+        v = V.get(w) or {}
+        if v.get('engine') == 'elevenlabs' and v.get('voice_id'): out.append((v.get('name') or w, v['voice_id']))
+    return out if len(out) == len(ids) else []
+
+
 def tts_enqueue(s, text, voice):
-    state['tts_queue'].append({'kind': 'tts', 'id': s['id'], 'text': tts_script(s, text), 'voice': voice})
+    ev = el_voices_for(s)
+    if ev:   # 캐릭터 대사 = 아이 목소리 (일레븐랩스). 대본은 지시문 없이 대사 그대로
+        state['tts_queue'].append({'kind': 'el', 'id': s['id'], 'text': text, 'voices': ev})
+    else:
+        state['tts_queue'].append({'kind': 'tts', 'id': s['id'], 'text': tts_script(s, text), 'voice': voice})
     s['busy'] = s.get('busy', 0) + 1
 
 
@@ -591,6 +611,25 @@ def tts_loop():
                     u = state['settings'].setdefault('tts_usage', {'count': 0, 'tokens': 0, 'checks': 0})
                     u['count'] = u.get('count', 0) + 1; u['tokens'] = u.get('tokens', 0) + int(tokens); save_settings()
                 log(f"{t['id']} 후보 생성: \"{t['text']}\" ({t['voice']})")
+            elif t['kind'] == 'el':
+                import tempfile
+                tmp = []
+                try:
+                    for name, vid in t['voices']:
+                        fd, pth = tempfile.mkstemp(suffix='.mp3'); os.close(fd); tmp.append(pth)
+                        open(pth, 'wb').write(audio.el_tts(t['text'], vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2')))
+                    src = tmp[0]
+                    if len(tmp) > 1:
+                        fd, src = tempfile.mkstemp(suffix='.wav'); os.close(fd); audio.mix(tmp, src); tmp.append(src)
+                    with lock:
+                        add_cand(s, src_path=src, text=t['text'], voice=' + '.join(n for n, _ in t['voices']), how='el')
+                        u = state['settings'].setdefault('el_usage', {'count': 0, 'chars': 0})
+                        u['count'] = u.get('count', 0) + 1; u['chars'] = u.get('chars', 0) + len(t['text']) * len(t['voices']); save_settings()
+                    log(f"{t['id']} 일레븐랩스 후보: \"{t['text']}\" ({' + '.join(n for n, _ in t['voices'])})")
+                finally:
+                    for pth in tmp:
+                        try: os.remove(pth)
+                        except OSError: pass
             elif t['kind'] == 'cut':
                 try:
                     with lock: cut_candidate(s)
@@ -621,7 +660,7 @@ def tts_loop():
     while True:
         try:
             workers = max(1, int(state['settings'].get('tts_workers', 2)))
-            while state['tts_queue'] and state['tts_busy'] < workers and gemini_key():
+            while state['tts_queue'] and state['tts_busy'] < workers and (gemini_key() or el_key()):
                 with lock:
                     t = state['tts_queue'].pop(0)
                 state['tts_busy'] += 1
@@ -956,6 +995,17 @@ class H(BaseHTTPRequestHandler):
                         finally:
                             if os.path.exists(tmp): os.remove(tmp)
                         return self.send_json(sound_view(s))
+                if p == '/api/sounds/regen_voices':
+                    # 목소리 표(content/voices.json)에 일레븐랩스 목소리가 정해진 캐릭터의 대사 중, 아직 그 목소리 후보가 없는 것 전부
+                    body = self.body_json(); only = set(body.get('who') or [])
+                    n = 0
+                    for s in state['sounds'].values():
+                        ev = el_voices_for(s)
+                        if not ev or (only and s.get('who') not in only) or s.get('busy'): continue
+                        want = ' + '.join(nm for nm, _ in ev)
+                        if any(c.get('how') == 'el' and c.get('voice') == want for c in s['cands']): continue
+                        tts_enqueue(s, s['text'], s['voice']); n += 1
+                    return self.send_json({'queued': n})
                 if p == '/api/sounds/generate_all':
                     # 후보가 하나도 없는 소리 항목 전부 (분류·유닛으로 좁힐 수 있다). 낱소리는 변형 표 전부 × 기본 목소리
                     body = self.body_json(); sub = body.get('sub') or ''; unit = body.get('unit')

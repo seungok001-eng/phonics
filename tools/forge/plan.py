@@ -175,7 +175,7 @@ def build_sounds(book, units, bk=1, ipa=None):
             c = book['characters'].get(ln.get('who'))
             voice = (c or {}).get('voice') or nar
             who_ko = c['ko'] if c else {'narrator': '해설', 'both': '함께'}.get(ln.get('who'), ln.get('who'))
-            add(_sound(id=aid, sub='line', title=f"{label} · {who_ko}: {ln['text']}", text=ln['text'], voice=voice, unit=unit))
+            add(_sound(id=aid, sub='line', title=f"{label} · {who_ko}: {ln['text']}", text=ln['text'], voice=voice, unit=unit, who=ln.get('who')))
     for u in units:
         for p in (u.get('story') or {}).get('panels', []):
             add_lines(p.get('lines', []), u['unit'], f"{bk}권 {u['unit']}유닛 대사")
@@ -197,7 +197,7 @@ def build_sounds(book, units, bk=1, ipa=None):
     for cid, c in book.get('characters', {}).items():
         t = c.get('catchphrase', '').strip()
         if t and not t.startswith('('):
-            add(_sound(id=f'catch_{cid}', sub='line', title=f"말버릇 · {c.get('ko', cid)}: {t}", text=t, voice=c.get('voice') or nar, unit=0))
+            add(_sound(id=f'catch_{cid}', sub='line', title=f"말버릇 · {c.get('ko', cid)}: {t}", text=t, voice=c.get('voice') or nar, unit=0, who=cid))
     for x in out: x['book'] = bk
     return out
 

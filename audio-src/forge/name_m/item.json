@@ -50,11 +50,62 @@
     "raw": "TRANSCRIPT=Um | TYPE=word | IPA=ʌm | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "M.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791356051.71988,
+   "sec": 0.88,
+   "check": {
+    "transcript": "m",
+    "type": "isolated-sound",
+    "ipa": "m",
+    "note": "clean",
+    "raw": "TRANSCRIPT=m | TYPE=isolated-sound | IPA=m | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Em.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791356052.1275928,
+   "sec": 1.2,
+   "check": {
+    "transcript": "M",
+    "type": "letter-name",
+    "ipa": "ˈɛm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=M | TYPE=letter-name | IPA=ˈɛm | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "M, M.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791356054.1430044,
+   "sec": 0.8,
+   "check": {
+    "transcript": "mm-mm",
+    "type": "word",
+    "ipa": "m m",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mm-mm | TYPE=word | IPA=m m | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 15:42",
+ "applied": "2026-10-07 15:54",
  "text_edited": false,
  "error": "",
  "unit": 6,

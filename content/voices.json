@@ -1,0 +1,38 @@
+{
+  "_note": "누가 어떤 목소리로 말하나. narrator·지시문·단어·낱소리는 제미나이(어른). 캐릭터는 일레븐랩스 아이 목소리 — 사용자가 http://localhost:8766/audio/_voices/characters.html 에서 골라 voice_id 를 채운다. both = 번+헤지 겹치기",
+  "narrator": {
+    "engine": "gemini",
+    "voice": "Kore"
+  },
+  "pip": {
+    "engine": "elevenlabs",
+    "voice_id": null,
+    "name": ""
+  },
+  "bun": {
+    "engine": "elevenlabs",
+    "voice_id": null,
+    "name": ""
+  },
+  "hedgie": {
+    "engine": "elevenlabs",
+    "voice_id": null,
+    "name": ""
+  },
+  "grumble": {
+    "engine": "elevenlabs",
+    "voice_id": null,
+    "name": ""
+  },
+  "beads": {
+    "engine": "elevenlabs",
+    "voice_id": null,
+    "name": ""
+  },
+  "both": {
+    "mix": [
+      "bun",
+      "hedgie"
+    ]
+  }
+}
