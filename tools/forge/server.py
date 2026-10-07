@@ -102,7 +102,7 @@ def rebuild():
     # 대본이 바뀐 소리(예: 캐릭터 이름 교체)는 승인을 풀고 교재의 mp3 도 지워 옛 녹음이 나가지 않게 한다 → 다시 생성해 승인
     stale = 0
     for s in sounds.values():
-        if s.get('approved') is None or s['sub'] in ('sound', 'name'): continue   # 낱소리·글자 이름은 변형 대본(/IPA/, aitch)을 쓴다
+        if s.get('approved') is None or s['sub'] not in ('line', 'instr'): continue   # 대사·지시문만 (낱소리·글자 이름·사이트워드·합치기는 일부러 다른 대본 /IPA/·aitch 를 쓴다)
         c = next((c for c in s['cands'] if c['n'] == s['approved']), None)
         ct = (c or {}).get('text', '') or ''
         for pre in ('Say slowly and clearly: ',):

@@ -86,9 +86,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-10-07 15:54",
  "text_edited": false,
  "error": "",
  "unit": 1,
