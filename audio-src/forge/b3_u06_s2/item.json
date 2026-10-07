@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Here is a clock.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374258.362883,
+   "sec": 2.08,
+   "check": {
+    "transcript": "Here is a clock.",
+    "type": "sentence",
+    "ipa": "hir ɪz ə klɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Here is a clock. | TYPE=sentence | IPA=hir ɪz ə klɑk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_s2",
+ "sub": "line",
+ "title": "3권 6유닛 문장 2: Here is a clock.",
+ "text": "Here is a clock.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

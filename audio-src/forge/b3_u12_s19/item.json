@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/sn/ /st/ /sp/ /sw/!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374497.835711,
+   "sec": 4.76,
+   "check": {
+    "transcript": "sn st sp sw",
+    "type": "isolated-sound",
+    "ipa": "sn st sp sw",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sn st sp sw | TYPE=isolated-sound | IPA=sn st sp sw | NOTE=clean"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s19",
+ "sub": "line",
+ "title": "3권 노래 19: /sn/ /st/ /sp/ /sw/!",
+ "text": "/sn/ /st/ /sp/ /sw/!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

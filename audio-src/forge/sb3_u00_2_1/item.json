@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is Pim and Pam.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374085.055988,
+   "sec": 1.84,
+   "check": {
+    "transcript": "This is Pim and Pam.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz pɪm ənd pæm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is Pim and Pam. | TYPE=sentence | IPA=ðɪs ɪz pɪm ənd pæm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb3_u00_2_1",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 해설: This is Pim and Pam.",
+ "text": "This is Pim and Pam.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

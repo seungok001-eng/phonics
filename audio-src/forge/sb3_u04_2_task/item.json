@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the ring!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374209.966166,
+   "sec": 1.92,
+   "check": {
+    "transcript": "Find the ring.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ɹɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the ring. | TYPE=sentence | IPA=faɪnd ðə ɹɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb3_u04_2_task",
+ "sub": "instr",
+ "title": "4유닛 스토리북 과제 · Find the ring!",
+ "text": "Find the ring!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

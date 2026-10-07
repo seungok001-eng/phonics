@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kw/ ... /æ/ ... /k/ ... quack",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374020.182539,
+   "sec": 4.16,
+   "check": {
+    "transcript": "quack",
+    "type": "word",
+    "ipa": "kwˈæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quack | TYPE=word | IPA=kwˈæk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_quack",
+ "sub": "blend",
+ "title": "합치기 quack",
+ "text": "/kw/ ... /æ/ ... /k/ ... quack",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "pond",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373785.0632706,
+   "sec": 1.08,
+   "check": {
+    "transcript": "pond",
+    "type": "word",
+    "ipa": "pɒnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pond | TYPE=word | IPA=pɒnd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_pond",
+ "sub": "word",
+ "title": "단어 pond · 연못",
+ "text": "pond",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

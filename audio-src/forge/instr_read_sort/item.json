@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Read and sort.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374557.945186,
+   "sec": 2.08,
+   "check": {
+    "transcript": "read and sort",
+    "type": "sentence",
+    "ipa": "riːd ænd sɔːt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=read and sort | TYPE=sentence | IPA=riːd ænd sɔːt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:37",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_read_sort",
+ "sub": "instr",
+ "title": "지시문 · Read and sort.",
+ "text": "Read and sort.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

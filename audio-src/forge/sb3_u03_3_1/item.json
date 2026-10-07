@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... This bath is hot.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376720.3993862,
+   "sec": 2.0,
+   "check": {
+    "transcript": "This bat is hot.",
+    "type": "sentence",
+    "ipa": "ðɪs bæt ɪz hɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This bat is hot. | TYPE=sentence | IPA=ðɪs bæt ɪz hɑt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_3_1",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 그럼블: Shh... This bath is hot.",
+ "text": "Shh... This bath is hot.",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

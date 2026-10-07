@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "fish",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373663.61059,
+   "sec": 1.0,
+   "check": {
+    "transcript": "fish",
+    "type": "word",
+    "ipa": "fɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fish | TYPE=word | IPA=fɪʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:12",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_fish",
+ "sub": "word",
+ "title": "단어 fish · 물고기",
+ "text": "fish",
+ "voice": "Kore",
+ "book": 3
+}

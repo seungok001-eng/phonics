@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Oops! A spill!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374319.6537952,
+   "sec": 1.84,
+   "check": {
+    "transcript": "Oops, a spill.",
+    "type": "sentence",
+    "ipa": "ups ə spɪɫ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oops, a spill. | TYPE=sentence | IPA=ups ə spɪɫ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_l6",
+ "sub": "line",
+ "title": "3권 8유닛 대사 · 해설: Oops! A spill!",
+ "text": "Oops! A spill!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

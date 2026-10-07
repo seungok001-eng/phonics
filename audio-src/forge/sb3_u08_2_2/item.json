@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Whoosh! Swing, swing!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376805.4856913,
+   "sec": 2.04,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_2_2",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 번: Whoosh! Swing, swing!",
+ "text": "Whoosh! Swing, swing!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

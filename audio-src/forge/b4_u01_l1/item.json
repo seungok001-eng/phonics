@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A cap on the gate!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376881.8364313,
+   "sec": 1.81,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b4_u01_l1",
+ "sub": "line",
+ "title": "4권 1유닛 대사 · 번: Look! A cap on the gate!",
+ "text": "Look! A cap on the gate!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

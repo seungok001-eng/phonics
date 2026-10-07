@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! I said shh! Ha, ha!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376818.407863,
+   "sec": 2.04,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b3_u09_l10",
+ "sub": "line",
+ "title": "3권 9유닛 대사 · 그럼블: Shh! I said shh! Ha, ha!",
+ "text": "Shh! I said shh! Ha, ha!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

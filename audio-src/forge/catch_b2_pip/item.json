@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tac!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376652.047667,
+   "sec": 0.79,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b2_pip",
+ "sub": "line",
+ "title": "말버릇 · 핍: Tac!",
+ "text": "Tac!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 2,
+ "busy": 1
+}

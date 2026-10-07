@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "drum",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373751.5930583,
+   "sec": 1.0,
+   "check": {
+    "transcript": "drum",
+    "type": "word",
+    "ipa": "drʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=drum | TYPE=word | IPA=drʌm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:14",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_drum",
+ "sub": "word",
+ "title": "단어 drum · 북",
+ "text": "drum",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

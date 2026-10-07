@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say it together!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374547.446426,
+   "sec": 1.92,
+   "check": {
+    "transcript": "Say it together.",
+    "type": "sentence",
+    "ipa": "seɪ ɪt təˈgɛðɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say it together. | TYPE=sentence | IPA=seɪ ɪt təˈgɛðɚ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:36",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_say_together",
+ "sub": "instr",
+ "title": "지시문 · Say it together!",
+ "text": "Say it together!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! The door is shut.",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376663.2896452,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Look, the door is shut.",
+    "type": "sentence",
+    "ipa": "lʊk, ðə dɔɹ ɪz ʃʌt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, the door is shut. | TYPE=sentence | IPA=lʊk, ðə dɔɹ ɪz ʃʌt. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b3_u01_l1",
+ "sub": "line",
+ "title": "3권 1유닛 대사 · 번: Look! The door is shut.",
+ "text": "Look! The door is shut.",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

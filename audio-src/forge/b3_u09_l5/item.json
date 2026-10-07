@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pop! Look in the tent!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374347.0369756,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Pop, look in the tent.",
+    "type": "sentence",
+    "ipa": "pɑp lʊk ɪn ðə tɛnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pop, look in the tent. | TYPE=sentence | IPA=pɑp lʊk ɪn ðə tɛnt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b3_u09_l5",
+ "sub": "line",
+ "title": "3권 9유닛 대사 · 해설: Pop! Look in the tent!",
+ "text": "Pop! Look in the tent!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

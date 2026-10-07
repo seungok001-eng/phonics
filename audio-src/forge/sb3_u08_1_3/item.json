@@ -1,0 +1,47 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ws? Ws? Wsim?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376803.4701653,
+   "sec": 1.53,
+   "check": null,
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ws? Ws? Wsim?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791380124.2764733,
+   "sec": 1.72,
+   "check": {
+    "transcript": "suisime",
+    "type": "word",
+    "ipa": "sɥizim",
+    "note": "ok",
+    "raw": "TRANSCRIPT=suisime | TYPE=word | IPA=sɥizim | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_1_3",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 핍: Ws? Ws? Wsim?",
+ "text": "Ws? Ws? Wsim?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

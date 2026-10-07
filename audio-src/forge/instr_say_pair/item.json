@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say the pair.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374543.267058,
+   "sec": 1.48,
+   "check": {
+    "transcript": "Say the pair.",
+    "type": "sentence",
+    "ipa": "seɪ ðə pɛɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say the pair. | TYPE=sentence | IPA=seɪ ðə pɛɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:36",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_say_pair",
+ "sub": "instr",
+ "title": "지시문 · Say the pair.",
+ "text": "Say the pair.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

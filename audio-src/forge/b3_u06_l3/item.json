@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Lb? Lb? Lbock?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376760.328015,
+   "sec": 1.53,
+   "check": {
+    "transcript": "el bilb el boc",
+    "type": "sentence",
+    "ipa": "ɛl bɪlb ɛl bɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=el bilb el boc | TYPE=sentence | IPA=ɛl bɪlb ɛl bɒk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Lb? Lb? Lbock?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791379274.6964486,
+   "sec": 2.04,
+   "check": {
+    "transcript": "LBW",
+    "type": "word",
+    "ipa": "ɛl bi ˈdʌbəljuː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=LBW | TYPE=word | IPA=ɛl bi ˈdʌbəljuː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_l3",
+ "sub": "line",
+ "title": "3권 6유닛 대사 · 핍: Lb? Lb? Lbock?",
+ "text": "Lb? Lb? Lbock?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

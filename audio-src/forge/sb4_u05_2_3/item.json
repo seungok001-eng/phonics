@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Go, Pip, go!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791376953.0017624,
+   "sec": 1.39,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_2_3",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 함께: Go, Pip, go!",
+ "text": "Go, Pip, go!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 4,
+ "busy": 1
+}

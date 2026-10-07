@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "N... g...? N... g...?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376730.3389907,
+   "sec": 3.48,
+   "check": {
+    "transcript": "N G and G",
+    "type": "sentence",
+    "ipa": "ɛn ʤiː ænd ʤiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=N G and G | TYPE=sentence | IPA=ɛn ʤiː ænd ʤiː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_l8",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 핍: N... g...? N... g...?",
+ "text": "N... g...? N... g...?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

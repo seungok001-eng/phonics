@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Sh. Ha, ha!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376751.35883,
+   "sec": 1.81,
+   "check": {
+    "transcript": "shh shh haha",
+    "type": "sentence",
+    "ipa": "ʃ ʃ hɑ hɑ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh shh haha | TYPE=sentence | IPA=ʃ ʃ hɑ hɑ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b3_u05_l11",
+ "sub": "line",
+ "title": "3권 5유닛 대사 · 그럼블: Shh... Sh. Ha, ha!",
+ "text": "Shh... Sh. Ha, ha!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

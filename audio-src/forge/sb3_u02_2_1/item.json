@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Together! /tʃ/ /tʃ/ chip!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791376699.5702655,
+   "sec": 2.74,
+   "check": {
+    "transcript": "chip",
+    "type": "word",
+    "ipa": "tʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chip | TYPE=word | IPA=tʃɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb3_u02_2_1",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 핌과 팜: Together! /tʃ/ /tʃ/ chip!",
+ "text": "Together! /tʃ/ /tʃ/ chip!",
+ "voice": "Laomedeia",
+ "who": "twins",
+ "book": 3
+}

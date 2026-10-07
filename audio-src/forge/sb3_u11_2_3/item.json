@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Block! Crab! Swing! Hand! Quilt!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376861.6149945,
+   "sec": 4.69,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_2_3",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 핍: Block! Crab! Swing! Hand! Quilt!",
+ "text": "Block! Crab! Swing! Hand! Quilt!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

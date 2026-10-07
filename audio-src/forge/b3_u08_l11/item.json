@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble has a snack!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374322.2679677,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Grumble has a snack.",
+    "type": "sentence",
+    "ipa": "ˈɡrʌmbəl hæz ə snæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble has a snack. | TYPE=sentence | IPA=ˈɡrʌmbəl hæz ə snæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_l11",
+ "sub": "line",
+ "title": "3권 8유닛 대사 · 해설: Grumble has a snack!",
+ "text": "Grumble has a snack!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

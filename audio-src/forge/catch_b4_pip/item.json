@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cap-e!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791377042.0913274,
+   "sec": 0.98,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b4_pip",
+ "sub": "line",
+ "title": "말버릇 · 핍: Cap-e!",
+ "text": "Cap-e!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

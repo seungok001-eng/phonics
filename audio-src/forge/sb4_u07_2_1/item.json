@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee! Eee!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791376980.758702,
+   "sec": 0.93,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb4_u07_2_1",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 요정 이: Eee! Eee!",
+ "text": "Eee! Eee!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

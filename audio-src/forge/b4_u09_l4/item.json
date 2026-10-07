@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee! Out, cloud, out!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791376999.7847617,
+   "sec": 2.09,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b4_u09_l4",
+ "sub": "line",
+ "title": "4권 9유닛 대사 · 요정 이: Eee! Out, cloud, out!",
+ "text": "Eee! Out, cloud, out!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

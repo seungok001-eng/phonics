@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/st/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791377241.7046843,
+   "sec": 1.04,
+   "check": {
+    "transcript": "st",
+    "type": "isolated-sound",
+    "ipa": "st",
+    "note": "clean",
+    "raw": "TRANSCRIPT=st | TYPE=isolated-sound | IPA=st | NOTE=clean"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sound_st",
+ "sub": "fsound",
+ "title": "짝꿍 소리 /st/ (st)",
+ "text": "/st/",
+ "voice": "Kore",
+ "ipa": "st",
+ "book": 3,
+ "busy": 0
+}

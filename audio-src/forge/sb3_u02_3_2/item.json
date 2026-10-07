@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Lunch on the bench! Yum!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374148.408336,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Lunch on the bench, yum.",
+    "type": "sentence",
+    "ipa": "lʌntʃ ɒn ðə bɛntʃ jʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Lunch on the bench, yum. | TYPE=sentence | IPA=lʌntʃ ɒn ðə bɛntʃ jʌm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb3_u02_3_2",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 해설: Lunch on the bench! Yum!",
+ "text": "Lunch on the bench! Yum!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

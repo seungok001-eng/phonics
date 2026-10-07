@@ -1,0 +1,47 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Uq? Uq? Uqilt?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376829.4603238,
+   "sec": 2.55,
+   "check": null,
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Uq? Uq? Uqilt?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791380590.4659824,
+   "sec": 2.23,
+   "check": {
+    "transcript": "ok, ok, ok, yeah",
+    "type": "sentence",
+    "ipa": "oʊˈkeɪ, oʊˈkeɪ, oʊˈkeɪ, jɛ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ok, ok, ok, yeah | TYPE=sentence | IPA=oʊˈkeɪ, oʊˈkeɪ, oʊˈkeɪ, jɛ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_l3",
+ "sub": "line",
+ "title": "3권 10유닛 대사 · 핍: Uq? Uq? Uqilt?",
+ "text": "Uq? Uq? Uqilt?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

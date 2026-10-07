@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "snack",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373756.457597,
+   "sec": 1.08,
+   "check": {
+    "transcript": "snack",
+    "type": "word",
+    "ipa": "snæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snack | TYPE=word | IPA=snæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:14",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_snack",
+ "sub": "word",
+ "title": "단어 snack · 간식",
+ "text": "snack",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

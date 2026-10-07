@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pop! Pop! Phonics!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791377030.0848346,
+   "sec": 1.72,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b4_u11_l9",
+ "sub": "line",
+ "title": "4권 11유닛 대사 · 함께: Pop! Pop! Phonics!",
+ "text": "Pop! Pop! Phonics!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 4,
+ "busy": 1
+}

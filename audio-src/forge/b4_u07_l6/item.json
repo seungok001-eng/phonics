@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eat a peach! Yum!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376973.74209,
+   "sec": 1.63,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b4_u07_l6",
+ "sub": "line",
+ "title": "4권 7유닛 대사 · 헤지: Eat a peach! Yum!",
+ "text": "Eat a peach! Yum!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

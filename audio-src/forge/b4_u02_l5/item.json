@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I like the kite!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376898.5679693,
+   "sec": 1.35,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_l5",
+ "sub": "line",
+ "title": "4권 2유닛 대사 · 번: I like the kite!",
+ "text": "I like the kite!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

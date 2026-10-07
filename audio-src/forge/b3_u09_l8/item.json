@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A lamp for the chimp!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376816.244661,
+   "sec": 1.39,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b3_u09_l8",
+ "sub": "line",
+ "title": "3권 9유닛 대사 · 번: A lamp for the chimp!",
+ "text": "A lamp for the chimp!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

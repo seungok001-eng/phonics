@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "who",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374068.5051155,
+   "sec": 1.12,
+   "check": {
+    "transcript": "who",
+    "type": "word",
+    "ipa": "huː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=who | TYPE=word | IPA=huː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sw_who",
+ "sub": "sw",
+ "title": "사이트워드 who · 누구",
+ "text": "who",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

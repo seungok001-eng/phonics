@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! Rain! Oh no!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376964.6114454,
+   "sec": 3.02,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb4_u06_1_1",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 번: Look! Rain! Oh no!",
+ "text": "Look! Rain! Oh no!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

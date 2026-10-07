@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "flip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373733.5982027,
+   "sec": 1.08,
+   "check": {
+    "transcript": "flip",
+    "type": "word",
+    "ipa": "flɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=flip | TYPE=word | IPA=flɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:14",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_flip",
+ "sub": "word",
+ "title": "단어 flip · 뒤집기",
+ "text": "flip",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

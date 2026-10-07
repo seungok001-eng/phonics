@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A big gate!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374434.2985158,
+   "sec": 2.32,
+   "check": {
+    "transcript": "Look, a big gate.",
+    "type": "sentence",
+    "ipa": "ˈlʊk ə ˈbɪɡ ˈɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a big gate. | TYPE=sentence | IPA=ˈlʊk ə ˈbɪɡ ˈɡeɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_3_1",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 해설: Look! A big gate!",
+ "text": "Look! A big gate!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

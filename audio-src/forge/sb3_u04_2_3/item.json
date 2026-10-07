@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A ring in a sock!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376738.3807285,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Look, a ring in a sock.",
+    "type": "sentence",
+    "ipa": "lʊk ə ˈɹɪŋ ɪn ə sɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a ring in a sock. | TYPE=sentence | IPA=lʊk ə ˈɹɪŋ ɪn ə sɑk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb3_u04_2_3",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 헤지: Look! A ring in a sock!",
+ "text": "Look! A ring in a sock!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

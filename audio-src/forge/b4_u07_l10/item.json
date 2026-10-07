@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hee, hee! The bee!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376976.8036215,
+   "sec": 2.41,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b4_u07_l10",
+ "sub": "line",
+ "title": "4권 7유닛 대사 · 헤지: Hee, hee! The bee!",
+ "text": "Hee, hee! The bee!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

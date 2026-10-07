@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Here is Grumble!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374414.399513,
+   "sec": 1.88,
+   "check": {
+    "transcript": "Here is grumble.",
+    "type": "sentence",
+    "ipa": "ˈhɪər ɪz ˈɡrʌmbəl.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Here is grumble. | TYPE=sentence | IPA=ˈhɪər ɪz ˈɡrʌmbəl. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b3_u11_l4",
+ "sub": "line",
+ "title": "3권 11유닛 대사 · 해설: Here is Grumble!",
+ "text": "Here is Grumble!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

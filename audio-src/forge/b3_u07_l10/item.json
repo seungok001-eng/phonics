@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! Not the drum!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376782.2855306,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Shh, not the drum.",
+    "type": "sentence",
+    "ipa": "ʃ, nɑt ðə drəm.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, not the drum. | TYPE=sentence | IPA=ʃ, nɑt ðə drəm. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b3_u07_l10",
+ "sub": "line",
+ "title": "3권 7유닛 대사 · 그럼블: Shh! Not the drum!",
+ "text": "Shh! Not the drum!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

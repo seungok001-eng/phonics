@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "he",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374033.3820224,
+   "sec": 0.64,
+   "check": {
+    "transcript": "He",
+    "type": "word",
+    "ipa": "hi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=He | TYPE=word | IPA=hi | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sw_he",
+ "sub": "sw",
+ "title": "사이트워드 he · 그는",
+ "text": "he",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Thank you, Grumble!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376915.8989916,
+   "sec": 1.25,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b4_u03_l10",
+ "sub": "line",
+ "title": "4권 3유닛 대사 · 번: Thank you, Grumble!",
+ "text": "Thank you, Grumble!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

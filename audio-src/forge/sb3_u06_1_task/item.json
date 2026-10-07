@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the bl words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374269.278292,
+   "sec": 2.72,
+   "check": {
+    "transcript": "Find the BL words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə biː ɛl wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the BL words. | TYPE=sentence | IPA=faɪnd ðə biː ɛl wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_1_task",
+ "sub": "instr",
+ "title": "6유닛 스토리북 과제 · Find the bl words!",
+ "text": "Find the bl words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

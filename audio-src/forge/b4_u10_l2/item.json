@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I can not see!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791377009.8404706,
+   "sec": 1.16,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_l2",
+ "sub": "line",
+ "title": "4권 10유닛 대사 · 헤지: I can not see!",
+ "text": "I can not see!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

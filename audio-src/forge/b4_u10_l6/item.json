@@ -1,0 +1,18 @@
+{
+ "cands": [],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "el: 낱소리 sound_ar 녹음이 없다",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_l6",
+ "sub": "line",
+ "title": "4권 10유닛 대사 · 헤지: /ɑr/ /ɑr/ harp!",
+ "text": "/ɑr/ /ɑr/ harp!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

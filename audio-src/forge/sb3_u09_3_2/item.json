@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! I said shh! Ha, ha!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376826.4496064,
+   "sec": 2.55,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb3_u09_3_2",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 그럼블: Shh! I said shh! Ha, ha!",
+ "text": "Shh! I said shh! Ha, ha!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Let's try!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791377041.974675,
+   "sec": 1.02,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b4_bun",
+ "sub": "line",
+ "title": "말버릇 · 번: Let's try!",
+ "text": "Let's try!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

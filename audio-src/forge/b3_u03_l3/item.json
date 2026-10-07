@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "T... h...? T... h...?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376702.5880768,
+   "sec": 2.69,
+   "check": {
+    "transcript": "t h tish",
+    "type": "word",
+    "ipa": "tiː ˈtɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=t h tish | TYPE=word | IPA=tiː ˈtɪʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b3_u03_l3",
+ "sub": "line",
+ "title": "3권 3유닛 대사 · 핍: T... h...? T... h...?",
+ "text": "T... h...? T... h...?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

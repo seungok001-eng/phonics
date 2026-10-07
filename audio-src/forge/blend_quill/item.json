@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kw/ ... /ɪ/ ... /l/ ... quill",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374024.7191052,
+   "sec": 4.2,
+   "check": {
+    "transcript": "quell",
+    "type": "word",
+    "ipa": "kwɛl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quell | TYPE=word | IPA=kwɛl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_quill",
+ "sub": "blend",
+ "title": "합치기 quill",
+ "text": "/kw/ ... /ɪ/ ... /l/ ... quill",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

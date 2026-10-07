@@ -1,0 +1,47 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tn? Tn? Tnet?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376812.316813,
+   "sec": 2.0,
+   "check": null,
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Tn? Tn? Tnet?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791380414.208935,
+   "sec": 1.39,
+   "check": {
+    "transcript": "Internet",
+    "type": "word",
+    "ipa": "/ˈɪntərˌnɛt/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Internet | TYPE=word | IPA=/ˈɪntərˌnɛt/ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b3_u09_l3",
+ "sub": "line",
+ "title": "3권 9유닛 대사 · 핍: Tn? Tn? Tnet?",
+ "text": "Tn? Tn? Tnet?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

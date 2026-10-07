@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sniff, sniff! Yum!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374313.9663005,
+   "sec": 3.2,
+   "check": {
+    "transcript": "Sniff sniff. Yum.",
+    "type": "sentence",
+    "ipa": "snɪf snɪf jʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sniff sniff. Yum. | TYPE=sentence | IPA=snɪf snɪf jʌm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_3_3",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 해설: Sniff, sniff! Yum!",
+ "text": "Sniff, sniff! Yum!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

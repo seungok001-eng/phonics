@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cap... e... cap... e...",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376940.5374186,
+   "sec": 2.32,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b4_u05_l4",
+ "sub": "line",
+ "title": "4권 5유닛 대사 · 핍: Cap... e... cap... e...",
+ "text": "Cap... e... cap... e...",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

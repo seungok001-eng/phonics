@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pop! The door! Look!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374109.858116,
+   "sec": 2.12,
+   "check": {
+    "transcript": "pop, the door, look",
+    "type": "sentence",
+    "ipa": "pɑp ðə dɔr lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop, the door, look | TYPE=sentence | IPA=pɑp ðə dɔr lʊk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb3_u01_2_3",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 해설: Pop! The door! Look!",
+ "text": "Pop! The door! Look!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

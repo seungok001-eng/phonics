@@ -1,0 +1,18 @@
+{
+ "cands": [],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "el: 낱소리 sound_ar 녹음이 없다",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_2_1",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 비즈: /h/ /ɑr/ /p/ harp!",
+ "text": "/h/ /ɑr/ /p/ harp!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4,
+ "busy": 1
+}

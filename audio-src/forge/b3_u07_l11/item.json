@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A lantern for the crib!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376782.377483,
+   "sec": 1.67,
+   "check": {
+    "transcript": "A lantern for the crib.",
+    "type": "sentence",
+    "ipa": "ə ˈlæntən fɔː ðə ˈkɹɪb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A lantern for the crib. | TYPE=sentence | IPA=ə ˈlæntən fɔː ðə ˈkɹɪb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b3_u07_l11",
+ "sub": "line",
+ "title": "3권 7유닛 대사 · 헤지: A lantern for the crib!",
+ "text": "A lantern for the crib!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

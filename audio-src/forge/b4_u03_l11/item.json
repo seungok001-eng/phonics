@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Go, go.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376917.5273144,
+   "sec": 1.95,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b4_u03_l11",
+ "sub": "line",
+ "title": "4권 3유닛 대사 · 그럼블: Shh... Go, go.",
+ "text": "Shh... Go, go.",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

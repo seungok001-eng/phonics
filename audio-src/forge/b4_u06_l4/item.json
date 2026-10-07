@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee! Two... one!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791376958.5366695,
+   "sec": 1.76,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b4_u06_l4",
+ "sub": "line",
+ "title": "4권 6유닛 대사 · 요정 이: Eee! Two... one!",
+ "text": "Eee! Two... one!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

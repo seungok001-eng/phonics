@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We can read! We can sing!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791377040.2609098,
+   "sec": 2.41,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_l2",
+ "sub": "line",
+ "title": "4권 12유닛 대사 · 함께: We can read! We can sing!",
+ "text": "We can read! We can sing!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 4,
+ "busy": 1
+}

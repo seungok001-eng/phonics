@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! You can, Pip!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791376951.61511,
+   "sec": 2.04,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_2_2",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 비즈: Click-clack! You can, Pip!",
+ "text": "Click-clack! You can, Pip!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4,
+ "busy": 1
+}

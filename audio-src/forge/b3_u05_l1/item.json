@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ship, shop, shell, fish, dish!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374220.0624454,
+   "sec": 4.0,
+   "check": {
+    "transcript": "ship, shop, shell, fish, dish",
+    "type": "sentence",
+    "ipa": "ʃɪp ʃɑp ʃɛl fɪʃ dɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ship, shop, shell, fish, dish | TYPE=sentence | IPA=ʃɪp ʃɑp ʃɛl fɪʃ dɪʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b3_u05_l1",
+ "sub": "line",
+ "title": "3권 5유닛 대사 · 해설: Ship, shop, shell, fish, dish!",
+ "text": "Ship, shop, shell, fish, dish!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

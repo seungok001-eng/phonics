@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee! A huge hug!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791376930.6992006,
+   "sec": 1.81,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b4_u04_l10",
+ "sub": "line",
+ "title": "4권 4유닛 대사 · 요정 이: Eee! A huge hug!",
+ "text": "Eee! A huge hug!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

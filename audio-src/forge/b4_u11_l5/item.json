@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sing, Pip! Sing!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791377025.901756,
+   "sec": 1.72,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b4_u11_l5",
+ "sub": "line",
+ "title": "4권 11유닛 대사 · 번: Sing, Pip! Sing!",
+ "text": "Sing, Pip! Sing!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

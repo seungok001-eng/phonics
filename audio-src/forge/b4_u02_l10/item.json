@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! Hide! Hide!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376901.5603995,
+   "sec": 2.37,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_l10",
+ "sub": "line",
+ "title": "4권 2유닛 대사 · 그럼블: Shh! Hide! Hide!",
+ "text": "Shh! Hide! Hide!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

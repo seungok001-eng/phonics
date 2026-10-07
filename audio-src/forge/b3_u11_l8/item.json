@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Drum, drum! Clap, clap!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374419.1741734,
+   "sec": 2.36,
+   "check": {
+    "transcript": "drum drum, clap clap",
+    "type": "sentence",
+    "ipa": "ˈdrʌm ˈdrʌm ˈklæp ˈklæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=drum drum, clap clap | TYPE=sentence | IPA=ˈdrʌm ˈdrʌm ˈklæp ˈklæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b3_u11_l8",
+ "sub": "line",
+ "title": "3권 11유닛 대사 · 해설: Drum, drum! Clap, clap!",
+ "text": "Drum, drum! Clap, clap!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

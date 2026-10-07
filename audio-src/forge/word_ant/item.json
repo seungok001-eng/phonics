@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "ant",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373789.5429006,
+   "sec": 1.0,
+   "check": {
+    "transcript": "ant",
+    "type": "word",
+    "ipa": "ænt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ant | TYPE=word | IPA=ænt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_ant",
+ "sub": "word",
+ "title": "단어 ant · 개미",
+ "text": "ant",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

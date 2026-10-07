@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the gate!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374438.1864915,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Find the gate.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the gate. | TYPE=sentence | IPA=faɪnd ðə ɡeɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_3_task",
+ "sub": "instr",
+ "title": "11유닛 스토리북 과제 · Find the gate!",
+ "text": "Find the gate!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

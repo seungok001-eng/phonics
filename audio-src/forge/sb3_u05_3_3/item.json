@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tick... tock... Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374244.4649913,
+   "sec": 3.24,
+   "check": {
+    "transcript": "Tick-tock. Oh no!",
+    "type": "sentence",
+    "ipa": "tɪk tɒk oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Tick-tock. Oh no! | TYPE=sentence | IPA=tɪk tɒk oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb3_u05_3_3",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 해설: Tick... tock... Oh no!",
+ "text": "Tick... tock... Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

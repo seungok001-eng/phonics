@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The kite is in the pine!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376907.6008143,
+   "sec": 1.67,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_2_3",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 헤지: The kite is in the pine!",
+ "text": "The kite is in the pine!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

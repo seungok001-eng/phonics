@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Rb? Rb? Rbick?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376784.3241088,
+   "sec": 1.95,
+   "check": {
+    "transcript": "IBI RBI big",
+    "type": "sentence",
+    "ipa": "aɪ bi aɪ ɑɹ bi aɪ bɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=IBI RBI big | TYPE=sentence | IPA=aɪ bi aɪ ɑɹ bi aɪ bɪɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Rb? Rb? Rbick?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791379627.0150657,
+   "sec": 2.23,
+   "check": {
+    "transcript": "Arby Arby Arby's",
+    "type": "word",
+    "ipa": "ˈɑrbi ˈɑrbi ˈɑrbiz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Arby Arby Arby's | TYPE=word | IPA=ˈɑrbi ˈɑrbi ˈɑrbiz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_1_3",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 핍: Rb? Rb? Rbick?",
+ "text": "Rb? Rb? Rbick?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

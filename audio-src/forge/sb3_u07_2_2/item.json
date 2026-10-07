@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A crib with an egg!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376786.3175912,
+   "sec": 1.58,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_2_2",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 헤지: Look! A crib with an egg!",
+ "text": "Look! A crib with an egg!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

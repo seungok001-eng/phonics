@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Toast? Eat, eat.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376989.9802668,
+   "sec": 2.46,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b4_u08_l9",
+ "sub": "line",
+ "title": "4권 8유닛 대사 · 그럼블: Shh... Toast? Eat, eat.",
+ "text": "Shh... Toast? Eat, eat.",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

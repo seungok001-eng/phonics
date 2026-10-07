@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "for",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374053.5348039,
+   "sec": 1.2,
+   "check": {
+    "transcript": "four",
+    "type": "word",
+    "ipa": "fɔːɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=four | TYPE=word | IPA=fɔːɹ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sw_for",
+ "sub": "sw",
+ "title": "사이트워드 for · ~을 위해",
+ "text": "for",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

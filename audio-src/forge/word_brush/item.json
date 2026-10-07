@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "brush",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373740.6433704,
+   "sec": 1.12,
+   "check": {
+    "transcript": "brush",
+    "type": "word",
+    "ipa": "bɹʌʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=brush | TYPE=word | IPA=bɹʌʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:14",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_brush",
+ "sub": "word",
+ "title": "단어 brush · 솔",
+ "text": "brush",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

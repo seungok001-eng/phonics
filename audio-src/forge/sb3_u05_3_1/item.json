@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sh! Sh! SH!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376756.556072,
+   "sec": 4.69,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb3_u05_3_1",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 핍: Sh! Sh! SH!",
+ "text": "Sh! Sh! SH!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

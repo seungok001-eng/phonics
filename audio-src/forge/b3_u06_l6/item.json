@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Lc? No! Cl... clock!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376762.3424888,
+   "sec": 2.28,
+   "check": {
+    "transcript": "LC clock",
+    "type": "word",
+    "ipa": "ɛlˈsi klɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=LC clock | TYPE=word | IPA=ɛlˈsi klɑk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_l6",
+ "sub": "line",
+ "title": "3권 6유닛 대사 · 핍: Lc? No! Cl... clock!",
+ "text": "Lc? No! Cl... clock!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

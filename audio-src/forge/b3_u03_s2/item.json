@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "That is a moth.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374163.9821818,
+   "sec": 2.0,
+   "check": {
+    "transcript": "That is a moth.",
+    "type": "sentence",
+    "ipa": "ðæt ɪz ə mɑːθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=That is a moth. | TYPE=sentence | IPA=ðæt ɪz ə mɑːθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b3_u03_s2",
+ "sub": "line",
+ "title": "3권 3유닛 문장 2: That is a moth.",
+ "text": "That is a moth.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

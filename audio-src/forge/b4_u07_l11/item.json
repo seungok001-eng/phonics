@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bee, tree, sea, tea!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376977.0233548,
+   "sec": 2.74,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b4_u07_l11",
+ "sub": "line",
+ "title": "4권 7유닛 대사 · 핍: Bee, tree, sea, tea!",
+ "text": "Bee, tree, sea, tea!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

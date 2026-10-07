@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Slow! Go slow!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376994.771492,
+   "sec": 1.39,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb4_u08_2_2",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 헤지: Slow! Go slow!",
+ "text": "Slow! Go slow!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

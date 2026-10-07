@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Who has a whisk?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374390.7695677,
+   "sec": 1.64,
+   "check": {
+    "transcript": "Who has a whisk?",
+    "type": "sentence",
+    "ipa": "huː hæz ə wɪsk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Who has a whisk? | TYPE=sentence | IPA=huː hæz ə wɪsk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_s2",
+ "sub": "line",
+ "title": "3권 10유닛 문장 2: Who has a whisk?",
+ "text": "Who has a whisk?",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

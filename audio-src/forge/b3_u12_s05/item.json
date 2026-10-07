@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Chin, chip, chop, chess!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374453.0121942,
+   "sec": 3.24,
+   "check": {
+    "transcript": "chin chip chop chess",
+    "type": "sentence",
+    "ipa": "tʃɪn tʃɪp tʃɒp tʃɛs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chin chip chop chess | TYPE=sentence | IPA=tʃɪn tʃɪp tʃɒp tʃɛs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s05",
+ "sub": "line",
+ "title": "3권 노래 5: Chin, chip, chop, chess!",
+ "text": "Chin, chip, chop, chess!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

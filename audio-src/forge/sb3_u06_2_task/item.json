@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the cl words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374275.8024607,
+   "sec": 2.16,
+   "check": {
+    "transcript": "find the cool words",
+    "type": "sentence",
+    "ipa": "faɪnd ði kul wɜrdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=find the cool words | TYPE=sentence | IPA=faɪnd ði kul wɜrdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_2_task",
+ "sub": "instr",
+ "title": "6유닛 스토리북 과제 · Find the cl words!",
+ "text": "Find the cl words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

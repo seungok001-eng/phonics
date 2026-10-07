@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "C... k...? C... k...?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376736.4790816,
+   "sec": 5.39,
+   "check": {
+    "transcript": "CK CK",
+    "type": "letter-name",
+    "ipa": "siː keɪ siː keɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=CK CK | TYPE=letter-name | IPA=siː keɪ siː keɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb3_u04_1_3",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 핍: C... k...? C... k...?",
+ "text": "C... k...? C... k...?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

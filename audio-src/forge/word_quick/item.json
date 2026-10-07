@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "quick",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373816.2645228,
+   "sec": 0.88,
+   "check": {
+    "transcript": "quick",
+    "type": "word",
+    "ipa": "kwɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quick | TYPE=word | IPA=kwɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_quick",
+ "sub": "word",
+ "title": "단어 quick · 빠른",
+ "text": "quick",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

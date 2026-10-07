@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A rope? A rope!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376921.6775954,
+   "sec": 1.67,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_2_2",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 헤지: A rope? A rope!",
+ "text": "A rope? A rope!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tre... e? Tre-e?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376971.6638432,
+   "sec": 1.58,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b4_u07_l3",
+ "sub": "line",
+ "title": "4권 7유닛 대사 · 핍: Tre... e? Tre-e?",
+ "text": "Tre... e? Tre-e?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

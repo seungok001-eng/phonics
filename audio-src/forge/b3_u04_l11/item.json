@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "What a song! Quack!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791376735.8312266,
+   "sec": 2.55,
+   "check": {
+    "transcript": "What a song! Quack! Quack!",
+    "type": "sentence",
+    "ipa": "wʌt ə sɔŋ kwæk kwæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=What a song! Quack! Quack! | TYPE=sentence | IPA=wʌt ə sɔŋ kwæk kwæk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_l11",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 함께: What a song! Quack!",
+ "text": "What a song! Quack!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 3
+}

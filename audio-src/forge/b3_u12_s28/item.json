@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Quilt, quack, quill, quick!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374525.8069055,
+   "sec": 4.4,
+   "check": {
+    "transcript": "quilt quack quill quick",
+    "type": "sentence",
+    "ipa": "kwɪlt kwæk kwɪl kwɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quilt quack quill quick | TYPE=sentence | IPA=kwɪlt kwæk kwɪl kwɪk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s28",
+ "sub": "line",
+ "title": "3권 노래 28: Quilt, quack, quill, quick!",
+ "text": "Quilt, quack, quill, quick!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

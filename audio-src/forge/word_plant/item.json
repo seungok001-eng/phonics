@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "plant",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373793.7644641,
+   "sec": 1.12,
+   "check": {
+    "transcript": "plant",
+    "type": "word",
+    "ipa": "plænt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=plant | TYPE=word | IPA=plænt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_plant",
+ "sub": "word",
+ "title": "단어 plant · 화분",
+ "text": "plant",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

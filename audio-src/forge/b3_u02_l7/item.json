@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "They like chips! Look!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376687.4266722,
+   "sec": 1.39,
+   "check": {
+    "transcript": "they like chips look",
+    "type": "sentence",
+    "ipa": "ðeɪ laɪk ʧɪps lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=they like chips look | TYPE=sentence | IPA=ðeɪ laɪk ʧɪps lʊk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b3_u02_l7",
+ "sub": "line",
+ "title": "3권 2유닛 대사 · 헤지: They like chips! Look!",
+ "text": "They like chips! Look!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

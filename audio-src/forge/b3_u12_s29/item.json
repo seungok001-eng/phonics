@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sh! Ch! Th! Together!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374528.9646363,
+   "sec": 3.8,
+   "check": {
+    "transcript": "sh ch th together",
+    "type": "sentence",
+    "ipa": "ʃ tʃ θ təˈɡɛðər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sh ch th together | TYPE=sentence | IPA=ʃ tʃ θ təˈɡɛðər | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s29",
+ "sub": "line",
+ "title": "3권 노래 29: Sh! Ch! Th! Together!",
+ "text": "Sh! Ch! Th! Together!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

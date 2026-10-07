@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Goat! A goat in a coat!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376989.8740911,
+   "sec": 2.46,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b4_u08_l8",
+ "sub": "line",
+ "title": "4권 8유닛 대사 · 핍: Goat! A goat in a coat!",
+ "text": "Goat! A goat in a coat!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

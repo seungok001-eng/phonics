@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A clam is there.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374265.18463,
+   "sec": 2.12,
+   "check": {
+    "transcript": "Look, a clam is there.",
+    "type": "sentence",
+    "ipa": "lʊk ə klæm ɪz ðɛɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a clam is there. | TYPE=sentence | IPA=lʊk ə klæm ɪz ðɛɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_s4",
+ "sub": "line",
+ "title": "3권 6유닛 문장 4: Look! A clam is there.",
+ "text": "Look! A clam is there.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Train, road, goat, seal!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791377024.8803496,
+   "sec": 2.51,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b4_u11_l3",
+ "sub": "line",
+ "title": "4권 11유닛 대사 · 핍: Train, road, goat, seal!",
+ "text": "Train, road, goat, seal!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

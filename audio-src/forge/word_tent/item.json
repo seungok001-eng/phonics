@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "tent",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373785.8461192,
+   "sec": 1.28,
+   "check": {
+    "transcript": "tent",
+    "type": "word",
+    "ipa": "/tɛnt/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tent | TYPE=word | IPA=/tɛnt/ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_tent",
+ "sub": "word",
+ "title": "단어 tent · 텐트",
+ "text": "tent",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

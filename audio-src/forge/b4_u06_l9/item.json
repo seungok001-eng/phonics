@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! My paint is wet!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376962.5207124,
+   "sec": 1.9,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b4_u06_l9",
+ "sub": "line",
+ "title": "4권 6유닛 대사 · 그럼블: Shh! My paint is wet!",
+ "text": "Shh! My paint is wet!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

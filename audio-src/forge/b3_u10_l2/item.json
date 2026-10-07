@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Quack? Who is that?",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376828.4248564,
+   "sec": 1.35,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_l2",
+ "sub": "line",
+ "title": "3권 10유닛 대사 · 헤지: Quack? Who is that?",
+ "text": "Quack? Who is that?",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

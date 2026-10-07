@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A lantern for the crib!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376790.4503562,
+   "sec": 1.63,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_3_2",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 헤지: A lantern for the crib!",
+ "text": "A lantern for the crib!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pop! Here is the clock!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374249.5199432,
+   "sec": 2.56,
+   "check": {
+    "transcript": "pop",
+    "type": "word",
+    "ipa": "p ɒ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop | TYPE=word | IPA=p ɒ p | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_l5",
+ "sub": "line",
+ "title": "3권 6유닛 대사 · 해설: Pop! Here is the clock!",
+ "text": "Pop! Here is the clock!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

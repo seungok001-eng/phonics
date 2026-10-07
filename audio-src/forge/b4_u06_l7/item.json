@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A jay on the hay!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376960.5399227,
+   "sec": 1.58,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b4_u06_l7",
+ "sub": "line",
+ "title": "4권 6유닛 대사 · 헤지: A jay on the hay!",
+ "text": "A jay on the hay!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

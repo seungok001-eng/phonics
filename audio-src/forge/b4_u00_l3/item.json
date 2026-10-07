@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Can we go in?",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376875.649458,
+   "sec": 1.11,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "b4_u00_l3",
+ "sub": "line",
+ "title": "4권 0유닛 대사 · 헤지: Can we go in?",
+ "text": "Can we go in?",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/nd/ /nt/ /st/ /mp/!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374505.550134,
+   "sec": 3.4,
+   "check": {
+    "transcript": "nd nst mp",
+    "type": "word",
+    "ipa": "n d n s t m p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nd nst mp | TYPE=word | IPA=n d n s t m p | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s22",
+ "sub": "line",
+ "title": "3권 노래 22: /nd/ /nt/ /st/ /mp/!",
+ "text": "/nd/ /nt/ /st/ /mp/!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

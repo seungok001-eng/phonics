@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791377045.7938643,
+   "sec": 0.79,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b4_fairy",
+ "sub": "line",
+ "title": "말버릇 · 요정 이: Eee!",
+ "text": "Eee!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

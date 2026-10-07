@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Doors, doors, doors! Shut!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374538.9532983,
+   "sec": 2.8,
+   "check": {
+    "transcript": "Doors, doors, doors, shut!",
+    "type": "sentence",
+    "ipa": "dɔːz dɔːz dɔːz ʃʌt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Doors, doors, doors, shut! | TYPE=sentence | IPA=dɔːz dɔːz dɔːz ʃʌt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:36",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb3_map_2",
+ "sub": "line",
+ "title": "스토리북 · 해설: Doors, doors, doors! Shut!",
+ "text": "Doors, doors, doors! Shut!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

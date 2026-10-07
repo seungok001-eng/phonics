@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Where is the quilt?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374390.2569842,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Where is the quilt?",
+    "type": "sentence",
+    "ipa": "wɛɹ ɪz ðə kwɪɫt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Where is the quilt? | TYPE=sentence | IPA=wɛɹ ɪz ðə kwɪɫt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_s1",
+ "sub": "line",
+ "title": "3권 10유닛 문장 1: Where is the quilt?",
+ "text": "Where is the quilt?",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

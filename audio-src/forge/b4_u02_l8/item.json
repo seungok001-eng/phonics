@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pin-e? Pin-e!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376900.6864326,
+   "sec": 1.67,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_l8",
+ "sub": "line",
+ "title": "4권 2유닛 대사 · 핍: Pin-e? Pin-e!",
+ "text": "Pin-e? Pin-e!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

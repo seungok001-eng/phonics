@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "One snack, two snacks!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376801.3703563,
+   "sec": 1.35,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_1_1",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 번: One snack, two snacks!",
+ "text": "One snack, two snacks!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

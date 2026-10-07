@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/h/ ... /æ/ ... /nd/ ... hand",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373972.1596646,
+   "sec": 5.44,
+   "check": {
+    "transcript": "hand",
+    "type": "word",
+    "ipa": "hænd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hand | TYPE=word | IPA=hænd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_hand",
+ "sub": "blend",
+ "title": "합치기 hand",
+ "text": "/h/ ... /æ/ ... /nd/ ... hand",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

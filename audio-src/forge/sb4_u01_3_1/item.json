@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cake at the lake!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376892.8979592,
+   "sec": 1.63,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_3_1",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 헤지: A cake at the lake!",
+ "text": "A cake at the lake!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

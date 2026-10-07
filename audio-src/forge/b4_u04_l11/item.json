@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... tap, tap, tap.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376932.6706285,
+   "sec": 2.0,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b4_u04_l11",
+ "sub": "line",
+ "title": "4권 4유닛 대사 · 그럼블: Shh... tap, tap, tap.",
+ "text": "Shh... tap, tap, tap.",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

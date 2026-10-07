@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! ... La, la...",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376732.1830688,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Schlafglas",
+    "type": "word",
+    "ipa": "ˈʃlaːfˌɡlaːs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Schlafglas | TYPE=word | IPA=ˈʃlaːfˌɡlaːs | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_l10",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 그럼블: Shh! ... La, la...",
+ "text": "Shh! ... La, la...",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "spot",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373768.3845613,
+   "sec": 1.12,
+   "check": {
+    "transcript": "spot",
+    "type": "word",
+    "ipa": "spɒt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=spot | TYPE=word | IPA=spɒt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:14",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_spot",
+ "sub": "word",
+ "title": "단어 spot · 얼룩",
+ "text": "spot",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

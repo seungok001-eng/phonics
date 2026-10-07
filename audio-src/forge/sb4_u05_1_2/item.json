@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Kite, pine, bike, five, hive!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376947.6747923,
+   "sec": 2.28,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_1_2",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 헤지: Kite, pine, bike, five, hive!",
+ "text": "Kite, pine, bike, five, hive!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

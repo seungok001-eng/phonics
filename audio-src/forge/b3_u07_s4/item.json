@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A drum for the crab!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374300.882893,
+   "sec": 2.72,
+   "check": {
+    "transcript": "a drum for the crab",
+    "type": "sentence",
+    "ipa": "ə ˈdɹʌm fɚ ðə ˈkɹæb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a drum for the crab | TYPE=sentence | IPA=ə ˈdɹʌm fɚ ðə ˈkɹæb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b3_u07_s4",
+ "sub": "line",
+ "title": "3권 7유닛 문장 4: A drum for the crab!",
+ "text": "A drum for the crab!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

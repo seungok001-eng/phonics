@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Splash! Oh no!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376925.8177528,
+   "sec": 1.63,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b4_u04_l2",
+ "sub": "line",
+ "title": "4권 4유닛 대사 · 번: Splash! Oh no!",
+ "text": "Splash! Oh no!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

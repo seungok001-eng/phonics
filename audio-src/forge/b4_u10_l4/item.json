@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A harp and a jar!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791377011.953163,
+   "sec": 2.09,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_l4",
+ "sub": "line",
+ "title": "4권 10유닛 대사 · 번: Look! A harp and a jar!",
+ "text": "Look! A harp and a jar!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

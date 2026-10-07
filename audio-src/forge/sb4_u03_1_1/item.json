@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I can hop! Hop, hop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376917.6089206,
+   "sec": 2.23,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_1_1",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 번: I can hop! Hop, hop!",
+ "text": "I can hop! Hop, hop!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

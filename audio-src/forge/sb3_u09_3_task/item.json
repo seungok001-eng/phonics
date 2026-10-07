@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -mp words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374378.373565,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Find the amp words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði æmp wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the amp words. | TYPE=sentence | IPA=faɪnd ði æmp wɜːdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb3_u09_3_task",
+ "sub": "instr",
+ "title": "9유닛 스토리북 과제 · Find the -mp words!",
+ "text": "Find the -mp words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

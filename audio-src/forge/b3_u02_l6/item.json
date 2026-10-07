@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "C... h... ip? C... h... ip?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376685.3169627,
+   "sec": 3.95,
+   "check": {
+    "transcript": "C O E P C Q E P",
+    "type": "word",
+    "ipa": "si o i pi si kju i pi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=C O E P C Q E P | TYPE=word | IPA=si o i pi si kju i pi | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b3_u02_l6",
+ "sub": "line",
+ "title": "3권 2유닛 대사 · 핍: C... h... ip? C... h... ip?",
+ "text": "C... h... ip? C... h... ip?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

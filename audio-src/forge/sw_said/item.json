@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "said",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374060.888205,
+   "sec": 1.04,
+   "check": {
+    "transcript": "said",
+    "type": "word",
+    "ipa": "sɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=said | TYPE=word | IPA=sɛd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sw_said",
+ "sub": "sw",
+ "title": "사이트워드 said · 말했다",
+ "text": "said",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

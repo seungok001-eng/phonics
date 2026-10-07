@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "clam",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373727.5220652,
+   "sec": 1.0,
+   "check": {
+    "transcript": "clam",
+    "type": "word",
+    "ipa": "klæm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clam | TYPE=word | IPA=klæm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_clam",
+ "sub": "word",
+ "title": "단어 clam · 조개",
+ "text": "clam",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

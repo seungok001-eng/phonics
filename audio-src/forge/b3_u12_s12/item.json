@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ring, king, wing, song!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374477.8095036,
+   "sec": 4.04,
+   "check": {
+    "transcript": "ring king wing song",
+    "type": "sentence",
+    "ipa": "rɪŋ kɪŋ wɪŋ sɔŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ring king wing song | TYPE=sentence | IPA=rɪŋ kɪŋ wɪŋ sɔŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s12",
+ "sub": "line",
+ "title": "3권 노래 12: Ring, king, wing, song!",
+ "text": "Ring, king, wing, song!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

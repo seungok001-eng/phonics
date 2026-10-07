@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is the Pair Forest.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374078.227803,
+   "sec": 2.4,
+   "check": {
+    "transcript": "This is the pear forest.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ðə pɛɹ fɔɹɪst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is the pear forest. | TYPE=sentence | IPA=ðɪs ɪz ðə pɛɹ fɔɹɪst | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "This is the Pair Forest.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791375808.1623206,
+   "sec": 2.12,
+   "check": {
+    "transcript": "This is the pear forest.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ðə pɛɹ fɔɹɪst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is the pear forest. | TYPE=sentence | IPA=ðɪs ɪz ðə pɛɹ fɔɹɪst | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb3_u00_1_1",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 해설: This is the Pair Forest.",
+ "text": "This is the Pair Forest.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

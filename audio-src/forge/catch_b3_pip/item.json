@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "S... h...?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376867.4506056,
+   "sec": 1.44,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b3_pip",
+ "sub": "line",
+ "title": "말버릇 · 핍: S... h...?",
+ "text": "S... h...?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

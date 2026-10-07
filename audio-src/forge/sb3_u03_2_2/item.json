@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/θ/ /ɪ/ /n/ thin!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791376716.8121536,
+   "sec": 2.78,
+   "check": {
+    "transcript": "en",
+    "type": "word",
+    "ipa": "ɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=en | TYPE=word | IPA=ɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/θ/ /ɪ/ /n/ thin!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791378765.1796823,
+   "sec": 2.83,
+   "check": {
+    "transcript": "en",
+    "type": "word",
+    "ipa": "ɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=en | TYPE=word | IPA=ɛn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_2_2",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 비즈: /θ/ /ɪ/ /n/ thin!",
+ "text": "/θ/ /ɪ/ /n/ thin!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3,
+ "busy": 0
+}

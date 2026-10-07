@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! The Forest Show!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374438.2437942,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Look, the forest show.",
+    "type": "sentence",
+    "ipa": "lʊk ˈðə ˈfɔrəst ˈʃoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, the forest show. | TYPE=sentence | IPA=lʊk ˈðə ˈfɔrəst ˈʃoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_l1",
+ "sub": "line",
+ "title": "3권 12유닛 대사 · 해설: Look! The Forest Show!",
+ "text": "Look! The Forest Show!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

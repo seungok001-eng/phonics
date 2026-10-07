@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cap... e? Cap-e!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376889.6700199,
+   "sec": 2.09,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_1_2",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 핍: Cap... e? Cap-e!",
+ "text": "Cap... e? Cap-e!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

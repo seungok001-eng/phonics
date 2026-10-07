@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "shed",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373661.8775582,
+   "sec": 1.24,
+   "check": {
+    "transcript": "shed",
+    "type": "word",
+    "ipa": "ʃɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shed | TYPE=word | IPA=ʃɛd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:12",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_shed",
+ "sub": "word",
+ "title": "단어 shed · 헛간",
+ "text": "shed",
+ "voice": "Kore",
+ "book": 3
+}

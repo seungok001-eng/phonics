@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "song",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373713.5173466,
+   "sec": 1.08,
+   "check": {
+    "transcript": "song",
+    "type": "word",
+    "ipa": "sɔŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=song | TYPE=word | IPA=sɔŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_song",
+ "sub": "word",
+ "title": "단어 song · 노래",
+ "text": "song",
+ "voice": "Kore",
+ "book": 3
+}

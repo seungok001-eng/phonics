@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I can swim!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374332.3146992,
+   "sec": 1.48,
+   "check": {
+    "transcript": "I can swim.",
+    "type": "sentence",
+    "ipa": "aɪ kæn swɪm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I can swim. | TYPE=sentence | IPA=aɪ kæn swɪm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_s3",
+ "sub": "line",
+ "title": "3권 8유닛 문장 3: I can swim!",
+ "text": "I can swim!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

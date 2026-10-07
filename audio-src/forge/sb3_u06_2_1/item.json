@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Together! /bl/ /bl/ block!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791378097.1613202,
+   "sec": 3.45,
+   "check": {
+    "transcript": "together",
+    "type": "word",
+    "ipa": "təˈɡɛðɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=together | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_2_1",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 핌과 팜: Together! /bl/ /bl/ block!",
+ "text": "Together! /bl/ /bl/ block!",
+ "voice": "Laomedeia",
+ "who": "twins",
+ "book": 3,
+ "busy": 0
+}

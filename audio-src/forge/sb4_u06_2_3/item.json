@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We ride the train!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376967.4952312,
+   "sec": 1.35,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb4_u06_2_3",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 번: We ride the train!",
+ "text": "We ride the train!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

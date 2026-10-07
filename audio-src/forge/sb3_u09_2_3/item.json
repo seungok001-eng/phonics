@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pm? No! Lamp! Lamp!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376825.3193471,
+   "sec": 2.88,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb3_u09_2_3",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 핍: Pm? No! Lamp! Lamp!",
+ "text": "Pm? No! Lamp! Lamp!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

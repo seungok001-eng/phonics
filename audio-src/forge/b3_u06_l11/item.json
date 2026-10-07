@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble can clap!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376766.2296822,
+   "sec": 1.39,
+   "check": {
+    "transcript": "Grumble can clap!",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl kæn klæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble can clap! | TYPE=sentence | IPA=ˈɡɹʌmbəl kæn klæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_l11",
+ "sub": "line",
+ "title": "3권 6유닛 대사 · 번: Grumble can clap!",
+ "text": "Grumble can clap!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

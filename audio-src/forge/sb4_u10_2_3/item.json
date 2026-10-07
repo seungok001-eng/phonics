@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "La, la! Star, car, farm!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791377020.8354294,
+   "sec": 2.0,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_2_3",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 핍: La, la! Star, car, farm!",
+ "text": "La, la! Star, car, farm!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

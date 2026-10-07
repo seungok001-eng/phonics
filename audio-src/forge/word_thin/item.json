@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "thin",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373686.0593464,
+   "sec": 1.12,
+   "check": {
+    "transcript": "Finn",
+    "type": "word",
+    "ipa": "fɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Finn | TYPE=word | IPA=fɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:12",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_thin",
+ "sub": "word",
+ "title": "단어 thin · 가는",
+ "text": "thin",
+ "voice": "Kore",
+ "book": 3
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A ring is in the sock.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374193.4598382,
+   "sec": 2.16,
+   "check": {
+    "transcript": "A ring is in the sock.",
+    "type": "sentence",
+    "ipa": "ə rɪŋ ɪz ɪn ðə sɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A ring is in the sock. | TYPE=sentence | IPA=ə rɪŋ ɪz ɪn ðə sɑk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_s2",
+ "sub": "line",
+ "title": "3권 4유닛 문장 2: A ring is in the sock.",
+ "text": "A ring is in the sock.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

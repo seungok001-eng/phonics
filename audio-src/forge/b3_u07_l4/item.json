@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Together! /br/ /br/ brick!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791378103.1896684,
+   "sec": 3.19,
+   "check": {
+    "transcript": "Together",
+    "type": "word",
+    "ipa": "/təˈɡɛðər/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Together | TYPE=word | IPA=/təˈɡɛðər/ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b3_u07_l4",
+ "sub": "line",
+ "title": "3권 7유닛 대사 · 핌과 팜: Together! /br/ /br/ brick!",
+ "text": "Together! /br/ /br/ brick!",
+ "voice": "Laomedeia",
+ "who": "twins",
+ "book": 3,
+ "busy": 0
+}

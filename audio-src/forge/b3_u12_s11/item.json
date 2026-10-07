@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "N and g! /ŋ/ /ŋ/ /ŋ/!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374473.2725039,
+   "sec": 4.68,
+   "check": {
+    "transcript": "NG",
+    "type": "word",
+    "ipa": "ɛn dʒiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=NG | TYPE=word | IPA=ɛn dʒiː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s11",
+ "sub": "line",
+ "title": "3권 노래 11: N and g! /ŋ/ /ŋ/ /ŋ/!",
+ "text": "N and g! /ŋ/ /ŋ/ /ŋ/!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

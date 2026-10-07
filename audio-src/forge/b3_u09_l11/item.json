@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Do you like it, chimp?",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376818.301144,
+   "sec": 1.44,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b3_u09_l11",
+ "sub": "line",
+ "title": "3권 9유닛 대사 · 헤지: Do you like it, chimp?",
+ "text": "Do you like it, chimp?",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

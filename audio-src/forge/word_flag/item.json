@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "flag",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373733.3832347,
+   "sec": 1.2,
+   "check": {
+    "transcript": "flag",
+    "type": "word",
+    "ipa": "flæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=flag | TYPE=word | IPA=flæɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:14",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_flag",
+ "sub": "word",
+ "title": "단어 flag · 깃발",
+ "text": "flag",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

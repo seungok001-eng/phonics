@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "that",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374040.6656775,
+   "sec": 0.88,
+   "check": {
+    "transcript": "that",
+    "type": "word",
+    "ipa": "ðæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=that | TYPE=word | IPA=ðæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sw_that",
+ "sub": "sw",
+ "title": "사이트워드 that · 저것",
+ "text": "that",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "She has a shell.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374100.155074,
+   "sec": 1.64,
+   "check": {
+    "transcript": "She has a shell.",
+    "type": "sentence",
+    "ipa": "ʃi hɛz ə ʃɛl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=She has a shell. | TYPE=sentence | IPA=ʃi hɛz ə ʃɛl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b3_u01_s2",
+ "sub": "line",
+ "title": "3권 1유닛 문장 2: She has a shell.",
+ "text": "She has a shell.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

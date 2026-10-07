@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Nest, vest, chest! Lamp, stamp, chimp!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374513.936735,
+   "sec": 7.36,
+   "check": {
+    "transcript": "nest vest chest lamp stamp chimp",
+    "type": "sentence",
+    "ipa": "nɛst vɛst tʃɛst læmp stæmp tʃɪmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nest vest chest lamp stamp chimp | TYPE=sentence | IPA=nɛst vɛst tʃɛst læmp stæmp tʃɪmp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s24",
+ "sub": "line",
+ "title": "3권 노래 24: Nest, vest, chest! Lamp, stamp, chimp!",
+ "text": "Nest, vest, chest! Lamp, stamp, chimp!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

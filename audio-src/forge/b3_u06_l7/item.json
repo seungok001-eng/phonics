@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tick, tock! Tick, tock!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374253.0029035,
+   "sec": 2.44,
+   "check": {
+    "transcript": "tick-tock tick-tock",
+    "type": "sentence",
+    "ipa": "tɪk tɑk tɪk tɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tick-tock tick-tock | TYPE=sentence | IPA=tɪk tɑk tɪk tɑk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_l7",
+ "sub": "line",
+ "title": "3권 6유닛 대사 · 해설: Tick, tock! Tick, tock!",
+ "text": "Tick, tock! Tick, tock!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

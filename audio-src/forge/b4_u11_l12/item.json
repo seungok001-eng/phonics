@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Zzz... boom... zzz...",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791377032.1410017,
+   "sec": 2.65,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b4_u11_l12",
+ "sub": "line",
+ "title": "4권 11유닛 대사 · 그럼블: Zzz... boom... zzz...",
+ "text": "Zzz... boom... zzz...",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

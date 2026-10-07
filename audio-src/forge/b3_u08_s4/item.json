@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A spot is on my cap.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374333.692951,
+   "sec": 2.28,
+   "check": {
+    "transcript": "A spot is on my cap.",
+    "type": "sentence",
+    "ipa": "ə spɑt ɪz ɑn maɪ kæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A spot is on my cap. | TYPE=sentence | IPA=ə spɑt ɪz ɑn maɪ kæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_s4",
+ "sub": "line",
+ "title": "3권 8유닛 문장 4: A spot is on my cap.",
+ "text": "A spot is on my cap.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

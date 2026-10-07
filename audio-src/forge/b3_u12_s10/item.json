@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Duck, sock, rock, lock!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374469.7738333,
+   "sec": 3.36,
+   "check": {
+    "transcript": "duck sock rock lock",
+    "type": "sentence",
+    "ipa": "dʌk sɒk rɒk lɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck sock rock lock | TYPE=sentence | IPA=dʌk sɒk rɒk lɒk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s10",
+ "sub": "line",
+ "title": "3권 노래 10: Duck, sock, rock, lock!",
+ "text": "Duck, sock, rock, lock!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

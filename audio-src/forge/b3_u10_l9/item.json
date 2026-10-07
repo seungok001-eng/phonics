@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ship! Chip! Ring! Swing! Song!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376836.5533895,
+   "sec": 2.88,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_l9",
+ "sub": "line",
+ "title": "3권 10유닛 대사 · 핍: Ship! Chip! Ring! Swing! Song!",
+ "text": "Ship! Chip! Ring! Swing! Song!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/sp/ ... /ɑ/ ... /t/ ... spot",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373955.4177847,
+   "sec": 4.68,
+   "check": {
+    "transcript": "spot",
+    "type": "word",
+    "ipa": "spɒt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=spot | TYPE=word | IPA=spɒt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "blend_spot",
+ "sub": "blend",
+ "title": "합치기 spot",
+ "text": "/sp/ ... /ɑ/ ... /t/ ... spot",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

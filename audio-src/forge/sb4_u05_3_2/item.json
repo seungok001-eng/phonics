@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Cape.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376954.6992483,
+   "sec": 1.39,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_3_2",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 그럼블: Shh... Cape.",
+ "text": "Shh... Cape.",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

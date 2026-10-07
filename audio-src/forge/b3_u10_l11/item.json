@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... La, la, la!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376836.3593397,
+   "sec": 1.86,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_l11",
+ "sub": "line",
+ "title": "3권 10유닛 대사 · 그럼블: Shh... La, la, la!",
+ "text": "Shh... La, la, la!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

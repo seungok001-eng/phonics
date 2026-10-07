@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The clock can not tick!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376758.1840982,
+   "sec": 1.63,
+   "check": {
+    "transcript": "The clock cannot tick.",
+    "type": "sentence",
+    "ipa": "ðə klɑk kænɑt tɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The clock cannot tick. | TYPE=sentence | IPA=ðə klɑk kænɑt tɪk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The clock can not tick!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791379250.9033816,
+   "sec": 1.81,
+   "check": {
+    "transcript": "The clock cannot tick.",
+    "type": "sentence",
+    "ipa": "ðə klɑk kænɑt tɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The clock cannot tick. | TYPE=sentence | IPA=ðə klɑk kænɑt tɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_l2",
+ "sub": "line",
+ "title": "3권 6유닛 대사 · 헤지: The clock can not tick!",
+ "text": "The clock can not tick!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3,
+ "busy": 0
+}

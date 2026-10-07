@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A lamp in the chest!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376824.2938142,
+   "sec": 1.81,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb3_u09_2_2",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 헤지: Look! A lamp in the chest!",
+ "text": "Look! A lamp in the chest!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

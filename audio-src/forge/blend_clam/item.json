@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kl/ ... /æ/ ... /m/ ... clam",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373908.6325874,
+   "sec": 4.28,
+   "check": {
+    "transcript": "clam",
+    "type": "word",
+    "ipa": "klæm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clam | TYPE=word | IPA=klæm | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_clam",
+ "sub": "blend",
+ "title": "합치기 clam",
+ "text": "/kl/ ... /æ/ ... /m/ ... clam",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

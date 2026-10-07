@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A little chick! Shh...",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376780.3309367,
+   "sec": 2.04,
+   "check": {
+    "transcript": "A little chick.",
+    "type": "sentence",
+    "ipa": "ə lɪtəl tʃɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A little chick. | TYPE=sentence | IPA=ə lɪtəl tʃɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b3_u07_l8",
+ "sub": "line",
+ "title": "3권 7유닛 대사 · 번: A little chick! Shh...",
+ "text": "A little chick! Shh...",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

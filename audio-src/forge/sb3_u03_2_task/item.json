@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the moth!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374175.6809623,
+   "sec": 2.16,
+   "check": {
+    "transcript": "Find the moth!",
+    "type": "sentence",
+    "ipa": "faɪnd ðə mɔːθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the moth! | TYPE=sentence | IPA=faɪnd ðə mɔːθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_2_task",
+ "sub": "instr",
+ "title": "3유닛 스토리북 과제 · Find the moth!",
+ "text": "Find the moth!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

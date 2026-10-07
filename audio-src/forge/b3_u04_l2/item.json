@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The king is sad.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374182.7679808,
+   "sec": 1.84,
+   "check": {
+    "transcript": "The king is sad.",
+    "type": "sentence",
+    "ipa": "ðə kɪŋ ɪz sæd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The king is sad. | TYPE=sentence | IPA=ðə kɪŋ ɪz sæd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_l2",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 해설: The king is sad.",
+ "text": "The king is sad.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "We hide! We hide!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791376903.6653602,
+   "sec": 1.76,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_l11",
+ "sub": "line",
+ "title": "4권 2유닛 대사 · 함께: We hide! We hide!",
+ "text": "We hide! We hide!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 4,
+ "busy": 1
+}

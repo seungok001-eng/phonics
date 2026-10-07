@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/v/ ... /e/ ... /st/ ... vest",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373993.7317793,
+   "sec": 4.68,
+   "check": {
+    "transcript": "vast",
+    "type": "word",
+    "ipa": "v æ s t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vast | TYPE=word | IPA=v æ s t | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/v/ ... /e/ ... /st/ ... vest",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791375622.6452148,
+   "sec": 4.68,
+   "check": {
+    "transcript": "vast",
+    "type": "word",
+    "ipa": "v æ s t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vast | TYPE=word | IPA=v æ s t | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_vest",
+ "sub": "blend",
+ "title": "합치기 vest",
+ "text": "/v/ ... /e/ ... /st/ ... vest",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

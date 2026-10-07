@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Pip can do it.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791377026.8352857,
+   "sec": 1.63,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b4_u11_l6",
+ "sub": "line",
+ "title": "4권 11유닛 대사 · 그럼블: Shh... Pip can do it.",
+ "text": "Shh... Pip can do it.",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

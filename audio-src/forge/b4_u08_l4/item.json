@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee! Look!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791376986.7902522,
+   "sec": 0.98,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b4_u08_l4",
+ "sub": "line",
+ "title": "4권 8유닛 대사 · 요정 이: Eee! Look!",
+ "text": "Eee! Look!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

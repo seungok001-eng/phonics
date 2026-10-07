@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the drum and the swing!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374430.946196,
+   "sec": 2.76,
+   "check": {
+    "transcript": "Find the drum and the swing.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə drʌm ənd ðə swɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the drum and the swing. | TYPE=sentence | IPA=faɪnd ðə drʌm ənd ðə swɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_2_task",
+ "sub": "instr",
+ "title": "11유닛 스토리북 과제 · Find the drum and the swing!",
+ "text": "Find the drum and the swing!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

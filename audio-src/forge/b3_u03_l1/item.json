@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This path is thin!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376700.2942708,
+   "sec": 1.53,
+   "check": {
+    "transcript": "This path is thin!",
+    "type": "sentence",
+    "ipa": "ðɪs pæθ ɪz θɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This path is thin! | TYPE=sentence | IPA=ðɪs pæθ ɪz θɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b3_u03_l1",
+ "sub": "line",
+ "title": "3권 3유닛 대사 · 번: This path is thin!",
+ "text": "This path is thin!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "one",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374055.361024,
+   "sec": 0.84,
+   "check": {
+    "transcript": "one",
+    "type": "word",
+    "ipa": "wʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=one | TYPE=word | IPA=wʌn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sw_one",
+ "sub": "sw",
+ "title": "사이트워드 one · 하나",
+ "text": "one",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

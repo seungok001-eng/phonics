@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "S... h... Oh no!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376672.3694975,
+   "sec": 2.32,
+   "check": {
+    "transcript": "hark oh no",
+    "type": "sentence",
+    "ipa": "hɑrk oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hark oh no | TYPE=sentence | IPA=hɑrk oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b3_u01_l11",
+ "sub": "line",
+ "title": "3권 1유닛 대사 · 핍: S... h... Oh no!",
+ "text": "S... h... Oh no!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

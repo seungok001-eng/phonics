@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791376655.655424,
+   "sec": 1.02,
+   "check": {
+    "transcript": "Click-clack",
+    "type": "word",
+    "ipa": "klɪk klæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click-clack | TYPE=word | IPA=klɪk klæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b2_beads",
+ "sub": "line",
+ "title": "말버릇 · 비즈: Click-clack!",
+ "text": "Click-clack!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 2,
+ "busy": 1
+}

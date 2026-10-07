@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! That is a moth.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376714.2493002,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Look, that is a moth.",
+    "type": "sentence",
+    "ipa": "lʊk ðæt ɪz ə mɒθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, that is a moth. | TYPE=sentence | IPA=lʊk ðæt ɪz ə mɒθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_1_2",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 헤지: Look! That is a moth.",
+ "text": "Look! That is a moth.",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

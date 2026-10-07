@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/d/ ... /ʌ/ ... /k/ ... duck",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373871.2076716,
+   "sec": 5.32,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_duck",
+ "sub": "blend",
+ "title": "합치기 duck",
+ "text": "/d/ ... /ʌ/ ... /k/ ... duck",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

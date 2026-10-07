@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/θ/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373640.84504,
+   "sec": 0.88,
+   "check": {
+    "transcript": "f",
+    "type": "isolated-sound",
+    "ipa": "f",
+    "note": "clean",
+    "raw": "TRANSCRIPT=f | TYPE=isolated-sound | IPA=f | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/θ/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791375027.5825665,
+   "sec": 1.04,
+   "check": {
+    "transcript": "f",
+    "type": "isolated-sound",
+    "ipa": "f",
+    "note": "clean",
+    "raw": "TRANSCRIPT=f | TYPE=isolated-sound | IPA=f | NOTE=clean"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sound_th",
+ "sub": "fsound",
+ "title": "짝꿍 소리 /θ/ (th)",
+ "text": "/θ/",
+ "voice": "Kore",
+ "ipa": "θ",
+ "book": 3,
+ "busy": 0
+}

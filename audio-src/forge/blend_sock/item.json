@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/s/ ... /ɑ/ ... /k/ ... sock",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373875.8636093,
+   "sec": 4.84,
+   "check": {
+    "transcript": "sock",
+    "type": "word",
+    "ipa": "s ɑ k",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sock | TYPE=word | IPA=s ɑ k | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_sock",
+ "sub": "blend",
+ "title": "합치기 sock",
+ "text": "/s/ ... /ɑ/ ... /k/ ... sock",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

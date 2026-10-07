@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "C... k...? C... k...?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376724.3145068,
+   "sec": 2.88,
+   "check": {
+    "transcript": "CKCK",
+    "type": "word",
+    "ipa": "siː keɪ siː keɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=CKCK | TYPE=word | IPA=siː keɪ siː keɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_l3",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 핍: C... k...? C... k...?",
+ "text": "C... k...? C... k...?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

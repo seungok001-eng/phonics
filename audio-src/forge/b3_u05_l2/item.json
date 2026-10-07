@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Chin, chip, chop, chess!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376743.2424576,
+   "sec": 1.9,
+   "check": {
+    "transcript": "chin, chip, chop, chess",
+    "type": "sentence",
+    "ipa": "tʃɪn tʃɪp tʃɒp tʃɛs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chin, chip, chop, chess | TYPE=sentence | IPA=tʃɪn tʃɪp tʃɒp tʃɛs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b3_u05_l2",
+ "sub": "line",
+ "title": "3권 5유닛 대사 · 번: Chin, chip, chop, chess!",
+ "text": "Chin, chip, chop, chess!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

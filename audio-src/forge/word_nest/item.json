@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "nest",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373794.5478358,
+   "sec": 1.4,
+   "check": {
+    "transcript": "nest",
+    "type": "word",
+    "ipa": "nɛst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nest | TYPE=word | IPA=nɛst | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_nest",
+ "sub": "word",
+ "title": "단어 nest · 둥지",
+ "text": "nest",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

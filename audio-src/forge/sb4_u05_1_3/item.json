@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Rope, bone, rose! Cube, tube!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376949.6566784,
+   "sec": 3.2,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_1_3",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 번: Rope, bone, rose! Cube, tube!",
+ "text": "Rope, bone, rose! Cube, tube!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

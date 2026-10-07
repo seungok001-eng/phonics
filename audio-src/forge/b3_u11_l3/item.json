@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sit with us, chimp!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376849.3816674,
+   "sec": 1.39,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b3_u11_l3",
+ "sub": "line",
+ "title": "3권 11유닛 대사 · 번: Sit with us, chimp!",
+ "text": "Sit with us, chimp!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee! Pip, Pip!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791376896.4556644,
+   "sec": 1.35,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_l3",
+ "sub": "line",
+ "title": "4권 2유닛 대사 · 요정 이: Eee! Pip, Pip!",
+ "text": "Eee! Pip, Pip!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

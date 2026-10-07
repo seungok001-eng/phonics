@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Flags, blocks and a snack!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376858.3058038,
+   "sec": 2.04,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_1_2",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 헤지: Flags, blocks and a snack!",
+ "text": "Flags, blocks and a snack!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

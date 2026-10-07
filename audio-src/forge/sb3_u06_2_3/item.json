@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tick, tock! Tick, tock!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374271.8360288,
+   "sec": 2.56,
+   "check": {
+    "transcript": "Tik Tok Tik Tok",
+    "type": "sentence",
+    "ipa": "tɪk tɒk tɪk tɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Tik Tok Tik Tok | TYPE=sentence | IPA=tɪk tɒk tɪk tɒk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_2_3",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 해설: Tick, tock! Tick, tock!",
+ "text": "Tick, tock! Tick, tock!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

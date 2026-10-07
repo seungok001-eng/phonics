@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! It is big!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376873.6629152,
+   "sec": 1.9,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "b4_u00_l2",
+ "sub": "line",
+ "title": "4권 0유닛 대사 · 번: Look! It is big!",
+ "text": "Look! It is big!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

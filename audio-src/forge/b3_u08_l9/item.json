@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Snack? One snack?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376799.2475922,
+   "sec": 2.04,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_l9",
+ "sub": "line",
+ "title": "3권 8유닛 대사 · 그럼블: Shh... Snack? One snack?",
+ "text": "Shh... Snack? One snack?",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

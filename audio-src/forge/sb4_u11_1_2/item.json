@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! The goat and the seal!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791377032.0592628,
+   "sec": 1.9,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb4_u11_1_2",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 헤지: Look! The goat and the seal!",
+ "text": "Look! The goat and the seal!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

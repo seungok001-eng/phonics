@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "two",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374058.6530435,
+   "sec": 1.28,
+   "check": {
+    "transcript": "two",
+    "type": "word",
+    "ipa": "tu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=two | TYPE=word | IPA=tu | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sw_two",
+ "sub": "sw",
+ "title": "사이트워드 two · 둘",
+ "text": "two",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

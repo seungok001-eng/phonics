@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "hand",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373778.7557557,
+   "sec": 1.2,
+   "check": {
+    "transcript": "hand",
+    "type": "word",
+    "ipa": "hænd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hand | TYPE=word | IPA=hænd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_hand",
+ "sub": "word",
+ "title": "단어 hand · 손",
+ "text": "hand",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,47 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ws? Ws? Wsim?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376793.2791965,
+   "sec": 1.76,
+   "check": null,
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ws? Ws? Wsim?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791379715.9166107,
+   "sec": 2.0,
+   "check": {
+    "transcript": "wis vis psim",
+    "type": "sentence",
+    "ipa": "wɪs vɪs p͡sɪm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wis vis psim | TYPE=sentence | IPA=wɪs vɪs p͡sɪm | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_l3",
+ "sub": "line",
+ "title": "3권 8유닛 대사 · 핍: Ws? Ws? Wsim?",
+ "text": "Ws? Ws? Wsim?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

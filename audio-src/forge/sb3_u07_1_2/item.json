@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Snip! Snip! Snip!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374301.6321087,
+   "sec": 1.84,
+   "check": {
+    "transcript": "snip snip snip",
+    "type": "word",
+    "ipa": "snɪp snɪp snɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snip snip snip | TYPE=word | IPA=snɪp snɪp snɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_1_2",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 해설: Snip! Snip! Snip!",
+ "text": "Snip! Snip! Snip!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

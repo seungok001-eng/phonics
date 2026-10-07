@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Splat! Mud, mud, mud!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374158.5386689,
+   "sec": 3.16,
+   "check": {
+    "transcript": "splat mud mud mud",
+    "type": "sentence",
+    "ipa": "splʌt mʌd mʌd mʌd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=splat mud mud mud | TYPE=sentence | IPA=splʌt mʌd mʌd mʌd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b3_u03_l6",
+ "sub": "line",
+ "title": "3권 3유닛 대사 · 해설: Splat! Mud, mud, mud!",
+ "text": "Splat! Mud, mud, mud!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

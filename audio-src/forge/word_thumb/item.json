@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "thumb",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373689.2940464,
+   "sec": 0.92,
+   "check": {
+    "transcript": "thumb",
+    "type": "word",
+    "ipa": "θʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=thumb | TYPE=word | IPA=θʌm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:12",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_thumb",
+ "sub": "word",
+ "title": "단어 thumb · 엄지",
+ "text": "thumb",
+ "voice": "Kore",
+ "book": 3
+}

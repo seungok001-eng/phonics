@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/sn/ ... /ɪ/ ... /f/ ... sniff",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373948.1598935,
+   "sec": 4.4,
+   "check": {
+    "transcript": "sniff",
+    "type": "word",
+    "ipa": "snɪf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sniff | TYPE=word | IPA=snɪf | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "blend_sniff",
+ "sub": "blend",
+ "title": "합치기 sniff",
+ "text": "/sn/ ... /ɪ/ ... /f/ ... sniff",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

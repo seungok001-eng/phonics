@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Kit-e? Kit-e!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376905.6013112,
+   "sec": 1.72,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_1_2",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 핍: Kit-e? Kit-e!",
+ "text": "Kit-e? Kit-e!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

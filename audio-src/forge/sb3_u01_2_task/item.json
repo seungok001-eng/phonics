@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find Grumble!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374114.0343716,
+   "sec": 1.44,
+   "check": {
+    "transcript": "find grumble",
+    "type": "sentence",
+    "ipa": "faɪnd ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=find grumble | TYPE=sentence | IPA=faɪnd ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb3_u01_2_task",
+ "sub": "instr",
+ "title": "1유닛 스토리북 과제 · Find Grumble!",
+ "text": "Find Grumble!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

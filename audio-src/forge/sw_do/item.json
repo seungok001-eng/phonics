@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "do",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374062.7304034,
+   "sec": 0.68,
+   "check": {
+    "transcript": "T",
+    "type": "letter-name",
+    "ipa": "tiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=T | TYPE=letter-name | IPA=tiː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sw_do",
+ "sub": "sw",
+ "title": "사이트워드 do · 하다",
+ "text": "do",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

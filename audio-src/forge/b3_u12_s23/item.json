@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hand, sand, pond! Tent, ant, plant!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374512.5293565,
+   "sec": 6.12,
+   "check": {
+    "transcript": "hand, sand, pond, tent, ant, plant",
+    "type": "sentence",
+    "ipa": "hænd, sænd, pɒnd, tɛnt, ænt, plænt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hand, sand, pond, tent, ant, plant | TYPE=sentence | IPA=hænd, sænd, pɒnd, tɛnt, ænt, plænt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s23",
+ "sub": "line",
+ "title": "3권 노래 23: Hand, sand, pond! Tent, ant, plant!",
+ "text": "Hand, sand, pond! Tent, ant, plant!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

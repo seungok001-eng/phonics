@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "she",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374031.307618,
+   "sec": 0.96,
+   "check": {
+    "transcript": "she",
+    "type": "word",
+    "ipa": "ʃi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=she | TYPE=word | IPA=ʃi | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sw_she",
+ "sub": "sw",
+ "title": "사이트워드 she · 그녀는",
+ "text": "she",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

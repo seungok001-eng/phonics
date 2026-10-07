@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the qu words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374401.2521994,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Find the qu words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə kw ɜɹdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the qu words. | TYPE=sentence | IPA=faɪnd ðə kw ɜɹdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb3_u10_1_task",
+ "sub": "instr",
+ "title": "10유닛 스토리북 과제 · Find the qu words!",
+ "text": "Find the qu words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

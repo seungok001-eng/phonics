@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Boom! Not shh! Boom!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791377022.8652282,
+   "sec": 1.76,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_3_2",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 그럼블: Boom! Not shh! Boom!",
+ "text": "Boom! Not shh! Boom!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

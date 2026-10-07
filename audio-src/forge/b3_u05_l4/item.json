@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "S... h...? S... h...?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376745.2525258,
+   "sec": 2.74,
+   "check": {
+    "transcript": "su su su su",
+    "type": "word",
+    "ipa": "/su/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=su su su su | TYPE=word | IPA=/su/ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b3_u05_l4",
+ "sub": "line",
+ "title": "3권 5유닛 대사 · 핍: S... h...? S... h...?",
+ "text": "S... h...? S... h...?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tra... in? Train! Train!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376961.5592425,
+   "sec": 2.51,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b4_u06_l8",
+ "sub": "line",
+ "title": "4권 6유닛 대사 · 핍: Tra... in? Train! Train!",
+ "text": "Tra... in? Train! Train!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

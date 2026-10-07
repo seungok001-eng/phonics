@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "One snack, two snacks!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374326.2160842,
+   "sec": 2.56,
+   "check": {
+    "transcript": "one snack, two snacks",
+    "type": "sentence",
+    "ipa": "wʌn snæk tuː snæks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=one snack, two snacks | TYPE=sentence | IPA=wʌn snæk tuː snæks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_s1",
+ "sub": "line",
+ "title": "3권 8유닛 문장 1: One snack, two snacks!",
+ "text": "One snack, two snacks!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

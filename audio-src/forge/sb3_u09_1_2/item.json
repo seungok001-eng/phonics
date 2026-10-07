@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A chimp in a vest!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376820.4395497,
+   "sec": 1.44,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb3_u09_1_2",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 번: A chimp in a vest!",
+ "text": "A chimp in a vest!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Block! Crab! Swing! Hand! Quilt!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376852.713043,
+   "sec": 3.39,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b3_u11_l7",
+ "sub": "line",
+ "title": "3권 11유닛 대사 · 핍: Block! Crab! Swing! Hand! Quilt!",
+ "text": "Block! Crab! Swing! Hand! Quilt!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

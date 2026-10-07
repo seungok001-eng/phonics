@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ʃ/ /ɪ/ /p/ ship!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791376679.0722206,
+   "sec": 2.61,
+   "check": {
+    "transcript": "ship",
+    "type": "word",
+    "ipa": "ʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ship | TYPE=word | IPA=ʃɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb3_u01_3_1",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 비즈: /ʃ/ /ɪ/ /p/ ship!",
+ "text": "/ʃ/ /ɪ/ /p/ ship!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3
+}

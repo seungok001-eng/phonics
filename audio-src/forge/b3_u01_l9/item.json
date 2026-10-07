@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "He did it! He can shh!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376670.4123979,
+   "sec": 1.86,
+   "check": {
+    "transcript": "He did it. He can",
+    "type": "sentence",
+    "ipa": "hi dɪd ɪt hi kæn",
+    "note": "cut off at the end",
+    "raw": "TRANSCRIPT=He did it. He can | TYPE=sentence | IPA=hi dɪd ɪt hi kæn | NOTE=cut off at the end"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b3_u01_l9",
+ "sub": "line",
+ "title": "3권 1유닛 대사 · 번: He did it! He can shh!",
+ "text": "He did it! He can shh!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

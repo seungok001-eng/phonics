@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ ... /æ/ ... /θ/ ... path",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373863.8447926,
+   "sec": 3.88,
+   "check": {
+    "transcript": "pass",
+    "type": "word",
+    "ipa": "pæs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pass | TYPE=word | IPA=pæs | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_path",
+ "sub": "blend",
+ "title": "합치기 path",
+ "text": "/p/ ... /æ/ ... /θ/ ... path",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the stack!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374346.314062,
+   "sec": 1.56,
+   "check": {
+    "transcript": "Find the stack.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə stæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the stack. | TYPE=sentence | IPA=faɪnd ðə stæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_3_task",
+ "sub": "instr",
+ "title": "8유닛 스토리북 과제 · Find the stack!",
+ "text": "Find the stack!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

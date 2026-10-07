@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The tree has no leaf.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376978.8059812,
+   "sec": 1.58,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb4_u07_1_2",
+ "sub": "line",
+ "title": "7유닛 스토리북 · 헤지: The tree has no leaf.",
+ "text": "The tree has no leaf.",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

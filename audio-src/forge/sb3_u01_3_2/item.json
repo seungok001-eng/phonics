@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "My shh? Hmm... Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376679.3465512,
+   "sec": 2.23,
+   "check": {
+    "transcript": "sh sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb3_u01_3_2",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 그럼블: My shh? Hmm... Shh!",
+ "text": "My shh? Hmm... Shh!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

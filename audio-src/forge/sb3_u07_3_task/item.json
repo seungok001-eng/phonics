@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the dr words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374315.301367,
+   "sec": 2.52,
+   "check": {
+    "transcript": "Find the DR words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə diː ˈɑːr wɜːrdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the DR words. | TYPE=sentence | IPA=faɪnd ðə diː ˈɑːr wɜːrdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_3_task",
+ "sub": "instr",
+ "title": "7유닛 스토리북 과제 · Find the dr words!",
+ "text": "Find the dr words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

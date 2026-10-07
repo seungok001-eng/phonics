@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kw/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373649.6753182,
+   "sec": 1.0,
+   "check": {
+    "transcript": "qu",
+    "type": "isolated-sound",
+    "ipa": "kw",
+    "note": "clean",
+    "raw": "TRANSCRIPT=qu | TYPE=isolated-sound | IPA=kw | NOTE=clean"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/kw/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791375101.907116,
+   "sec": 0.96,
+   "check": {
+    "transcript": "quoi",
+    "type": "word",
+    "ipa": "kwa",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quoi | TYPE=word | IPA=kwa | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sound_qu",
+ "sub": "fsound",
+ "title": "짝꿍 소리 /kw/ (qu)",
+ "text": "/kw/",
+ "voice": "Kore",
+ "ipa": "kw",
+ "book": 3,
+ "busy": 0
+}

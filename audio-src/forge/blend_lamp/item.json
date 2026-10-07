@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ ... /æ/ ... /mp/ ... lamp",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374002.744183,
+   "sec": 5.52,
+   "check": {
+    "transcript": "lamp",
+    "type": "word",
+    "ipa": "læmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lamp | TYPE=word | IPA=læmp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_lamp",
+ "sub": "blend",
+ "title": "합치기 lamp",
+ "text": "/l/ ... /æ/ ... /mp/ ... lamp",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

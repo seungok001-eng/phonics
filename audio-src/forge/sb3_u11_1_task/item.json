@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the flags and the blocks!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374423.02975,
+   "sec": 2.68,
+   "check": {
+    "transcript": "Find the flags and the blocks.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə flæɡz ənd ðə blɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the flags and the blocks. | TYPE=sentence | IPA=faɪnd ðə flæɡz ənd ðə blɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_1_task",
+ "sub": "instr",
+ "title": "11유닛 스토리북 과제 · Find the flags and the blocks!",
+ "text": "Find the flags and the blocks!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

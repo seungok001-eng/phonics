@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... A chip? My chip?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376698.3329344,
+   "sec": 2.0,
+   "check": {
+    "transcript": "a chip, my chip",
+    "type": "sentence",
+    "ipa": "ə tʃɪp maɪ tʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a chip, my chip | TYPE=sentence | IPA=ə tʃɪp maɪ tʃɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb3_u02_3_1",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 그럼블: Shh... A chip? My chip?",
+ "text": "Shh... A chip? My chip?",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

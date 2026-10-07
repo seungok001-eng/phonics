@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Boom! Not shh! Boom!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791377016.8893409,
+   "sec": 1.76,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_l11",
+ "sub": "line",
+ "title": "4권 10유닛 대사 · 그럼블: Boom! Not shh! Boom!",
+ "text": "Boom! Not shh! Boom!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

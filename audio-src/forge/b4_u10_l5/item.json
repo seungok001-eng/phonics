@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee! A star!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791377012.7248156,
+   "sec": 1.11,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_l5",
+ "sub": "line",
+ "title": "4권 10유닛 대사 · 요정 이: Eee! A star!",
+ "text": "Eee! A star!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

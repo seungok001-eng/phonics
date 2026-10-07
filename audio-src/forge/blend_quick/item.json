@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kw/ ... /ɪ/ ... /k/ ... quick",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374026.295951,
+   "sec": 4.24,
+   "check": {
+    "transcript": "quack",
+    "type": "word",
+    "ipa": "kwæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quack | TYPE=word | IPA=kwæk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_quick",
+ "sub": "blend",
+ "title": "합치기 quick",
+ "text": "/kw/ ... /ɪ/ ... /k/ ... quick",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "He can chop the log.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374137.8273418,
+   "sec": 1.76,
+   "check": {
+    "transcript": "He can chop the log.",
+    "type": "sentence",
+    "ipa": "hiː kæn ʧɑp ðə lɔːɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=He can chop the log. | TYPE=sentence | IPA=hiː kæn ʧɑp ðə lɔːɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b3_u02_s4",
+ "sub": "line",
+ "title": "3권 2유닛 문장 4: He can chop the log.",
+ "text": "He can chop the log.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

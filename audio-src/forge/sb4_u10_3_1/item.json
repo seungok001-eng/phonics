@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! The Song Tree!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791377021.8361735,
+   "sec": 1.81,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_3_1",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 번: Look! The Song Tree!",
+ "text": "Look! The Song Tree!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

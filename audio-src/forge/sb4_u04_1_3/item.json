@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tub-e? Tub-e!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376934.6753738,
+   "sec": 1.81,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb4_u04_1_3",
+ "sub": "line",
+ "title": "4유닛 스토리북 · 핍: Tub-e? Tub-e!",
+ "text": "Tub-e? Tub-e!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sh! Sh! SH!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376747.2112463,
+   "sec": 1.63,
+   "check": {
+    "transcript": "syllable",
+    "type": "word",
+    "ipa": "ˈsɪləbəl",
+    "note": "mispronounced",
+    "raw": "TRANSCRIPT=syllable | TYPE=word | IPA=ˈsɪləbəl | NOTE=mispronounced"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b3_u05_l8",
+ "sub": "line",
+ "title": "3권 5유닛 대사 · 핍: Sh! Sh! SH!",
+ "text": "Sh! Sh! SH!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

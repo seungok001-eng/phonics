@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Let's try!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376651.9263005,
+   "sec": 1.02,
+   "check": {
+    "transcript": "Let's try.",
+    "type": "sentence",
+    "ipa": "lɛts ˈtraɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Let's try. | TYPE=sentence | IPA=lɛts ˈtraɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b2_bun",
+ "sub": "line",
+ "title": "말버릇 · 번: Let's try!",
+ "text": "Let's try!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 2,
+ "busy": 1
+}

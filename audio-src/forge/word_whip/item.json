@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "whip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373809.249781,
+   "sec": 1.04,
+   "check": {
+    "transcript": "whipp",
+    "type": "word",
+    "ipa": "ʍɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=whipp | TYPE=word | IPA=ʍɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_whip",
+ "sub": "word",
+ "title": "단어 whip · 채찍",
+ "text": "whip",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Tea? I like tea.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376974.7515078,
+   "sec": 2.14,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b4_u07_l7",
+ "sub": "line",
+ "title": "4권 7유닛 대사 · 그럼블: Shh... Tea? I like tea.",
+ "text": "Shh... Tea? I like tea.",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

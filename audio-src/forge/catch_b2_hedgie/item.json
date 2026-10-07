@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Wow!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376653.6238983,
+   "sec": 0.79,
+   "check": {
+    "transcript": "Whoa",
+    "type": "word",
+    "ipa": "woʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Whoa | TYPE=word | IPA=woʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b2_hedgie",
+ "sub": "line",
+ "title": "말버릇 · 헤지: Wow!",
+ "text": "Wow!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 2,
+ "busy": 1
+}

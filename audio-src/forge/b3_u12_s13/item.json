@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/bl/ /kl/ /fl/! Together!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374479.6204512,
+   "sec": 4.48,
+   "check": {
+    "transcript": "bla cla fla together",
+    "type": "sentence",
+    "ipa": "blɑ klɑ flɑ təˈgɛðɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bla cla fla together | TYPE=sentence | IPA=blɑ klɑ flɑ təˈgɛðɚ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s13",
+ "sub": "line",
+ "title": "3권 노래 13: /bl/ /kl/ /fl/! Together!",
+ "text": "/bl/ /kl/ /fl/! Together!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

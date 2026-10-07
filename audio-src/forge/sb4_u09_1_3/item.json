@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Clo... ud? Clo-ud?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791377005.8565123,
+   "sec": 2.41,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb4_u09_1_3",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 핍: Clo... ud? Clo-ud?",
+ "text": "Clo... ud? Clo-ud?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

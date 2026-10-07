@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Wow! A shell shop!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376668.2783687,
+   "sec": 1.49,
+   "check": {
+    "transcript": "Wow, a shell shop.",
+    "type": "sentence",
+    "ipa": "waʊ ə ʃɛl ʃɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Wow, a shell shop. | TYPE=sentence | IPA=waʊ ə ʃɛl ʃɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b3_u01_l7",
+ "sub": "line",
+ "title": "3권 1유닛 대사 · 헤지: Wow! A shell shop!",
+ "text": "Wow! A shell shop!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

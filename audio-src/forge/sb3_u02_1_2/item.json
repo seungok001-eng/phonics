@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "It was on the bench!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376693.3347864,
+   "sec": 1.49,
+   "check": {
+    "transcript": "It was on the bench.",
+    "type": "sentence",
+    "ipa": "ɪt wʌz ɒn ðə bɛnʧ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It was on the bench. | TYPE=sentence | IPA=ɪt wʌz ɒn ðə bɛnʧ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb3_u02_1_2",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 헤지: It was on the bench!",
+ "text": "It was on the bench!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

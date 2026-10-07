@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cape! Cape! CAPE!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376953.8151398,
+   "sec": 1.81,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_3_1",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 핍: Cape! Cape! CAPE!",
+ "text": "Cape! Cape! CAPE!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

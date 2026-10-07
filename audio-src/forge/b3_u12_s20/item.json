@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Snack, sniff, stick, stack!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374500.7654822,
+   "sec": 3.44,
+   "check": {
+    "transcript": "snack, sniff, stick, stack",
+    "type": "sentence",
+    "ipa": "snæk, snɪf, stɪk, stæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snack, sniff, stick, stack | TYPE=sentence | IPA=snæk, snɪf, stɪk, stæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s20",
+ "sub": "line",
+ "title": "3권 노래 20: Snack, sniff, stick, stack!",
+ "text": "Snack, sniff, stick, stack!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

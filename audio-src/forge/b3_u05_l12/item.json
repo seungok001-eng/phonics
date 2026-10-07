@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tick... tock... Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374227.1530433,
+   "sec": 3.0,
+   "check": {
+    "transcript": "tik tok oh no",
+    "type": "sentence",
+    "ipa": "tɪk tɑk oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tik tok oh no | TYPE=sentence | IPA=tɪk tɑk oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "b3_u05_l12",
+ "sub": "line",
+ "title": "3권 5유닛 대사 · 해설: Tick... tock... Oh no!",
+ "text": "Tick... tock... Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

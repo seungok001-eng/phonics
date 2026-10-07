@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "clap",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373724.3083894,
+   "sec": 0.96,
+   "check": {
+    "transcript": "clap",
+    "type": "word",
+    "ipa": "klæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clap | TYPE=word | IPA=klæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_clap",
+ "sub": "word",
+ "title": "단어 clap · 손뼉 치기",
+ "text": "clap",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

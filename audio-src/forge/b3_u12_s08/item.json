@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Thin, thumb, bath, path, moth!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374466.5404215,
+   "sec": 6.24,
+   "check": {
+    "transcript": "thin, thumb, bath, path, moth",
+    "type": "sentence",
+    "ipa": "θɪn θʌm bæθ pæθ mɔθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=thin, thumb, bath, path, moth | TYPE=sentence | IPA=θɪn θʌm bæθ pæθ mɔθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s08",
+ "sub": "line",
+ "title": "3권 노래 8: Thin, thumb, bath, path, moth!",
+ "text": "Thin, thumb, bath, path, moth!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

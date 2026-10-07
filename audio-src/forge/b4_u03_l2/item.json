@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "No, Bun! It is big!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376910.5171607,
+   "sec": 1.49,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b4_u03_l2",
+ "sub": "line",
+ "title": "4권 3유닛 대사 · 헤지: No, Bun! It is big!",
+ "text": "No, Bun! It is big!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

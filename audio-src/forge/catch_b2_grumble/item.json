@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376654.764578,
+   "sec": 0.7,
+   "check": {
+    "transcript": "ch",
+    "type": "isolated-sound",
+    "ipa": "tʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=ch | TYPE=isolated-sound | IPA=tʃ | NOTE=clean"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b2_grumble",
+ "sub": "line",
+ "title": "말버릇 · 그럼블: Shh!",
+ "text": "Shh!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 2,
+ "busy": 1
+}

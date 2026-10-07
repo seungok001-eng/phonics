@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A crab with a drum!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376775.2556233,
+   "sec": 1.49,
+   "check": {
+    "transcript": "A crab with a drum.",
+    "type": "sentence",
+    "ipa": "ə kræb wɪð ə drʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A crab with a drum. | TYPE=sentence | IPA=ə kræb wɪð ə drʌm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b3_u07_l1",
+ "sub": "line",
+ "title": "3권 7유닛 대사 · 번: A crab with a drum!",
+ "text": "A crab with a drum!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

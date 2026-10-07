@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Rop-e? Rop-e!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376916.0386298,
+   "sec": 1.58,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b4_u03_l8",
+ "sub": "line",
+ "title": "4권 3유닛 대사 · 핍: Rop-e? Rop-e!",
+ "text": "Rop-e? Rop-e!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

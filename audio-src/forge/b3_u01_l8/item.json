@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A fish and a dish!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376669.296476,
+   "sec": 1.76,
+   "check": {
+    "transcript": "A fish and a dish.",
+    "type": "sentence",
+    "ipa": "ə fɪʃ ənd ə dɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A fish and a dish. | TYPE=sentence | IPA=ə fɪʃ ənd ə dɪʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b3_u01_l8",
+ "sub": "line",
+ "title": "3권 1유닛 대사 · 번: A fish and a dish!",
+ "text": "A fish and a dish!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

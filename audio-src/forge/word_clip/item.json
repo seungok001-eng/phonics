@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "clip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373727.173326,
+   "sec": 0.96,
+   "check": {
+    "transcript": "clip",
+    "type": "word",
+    "ipa": "klɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clip | TYPE=word | IPA=klɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_clip",
+ "sub": "word",
+ "title": "단어 clip · 클립",
+ "text": "clip",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

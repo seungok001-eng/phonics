@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "chop",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373677.4425845,
+   "sec": 1.12,
+   "check": {
+    "transcript": "chop",
+    "type": "word",
+    "ipa": "tʃɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chop | TYPE=word | IPA=tʃɒp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:12",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_chop",
+ "sub": "word",
+ "title": "단어 chop · 장작 패기",
+ "text": "chop",
+ "voice": "Kore",
+ "book": 3
+}

@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Together! /ŋ/ /ŋ/ ring!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791376732.9401686,
+   "sec": 4.05,
+   "check": {
+    "transcript": "ring",
+    "type": "word",
+    "ipa": "ɹɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ring | TYPE=word | IPA=ɹɪŋ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /ŋ/ /ŋ/ ring!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791378863.9207861,
+   "sec": 3.81,
+   "check": {
+    "transcript": "together ring",
+    "type": "sentence",
+    "ipa": "təˈɡɛðɚ ɹɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=together ring | TYPE=sentence | IPA=təˈɡɛðɚ ɹɪŋ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:14",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_l7",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 핌과 팜: Together! /ŋ/ /ŋ/ ring!",
+ "text": "Together! /ŋ/ /ŋ/ ring!",
+ "voice": "Laomedeia",
+ "who": "twins",
+ "book": 3,
+ "busy": 0
+}

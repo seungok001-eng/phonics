@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Flip! Look, I can flip!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376773.21822,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Flip, look, I can flip.",
+    "type": "sentence",
+    "ipa": "ˈflɪp, ˈlʊk, ˈaɪ ˈkæn ˈflɪp.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Flip, look, I can flip. | TYPE=sentence | IPA=ˈflɪp, ˈlʊk, ˈaɪ ˈkæn ˈflɪp. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_3_1",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 헤지: Flip! Look, I can flip!",
+ "text": "Flip! Look, I can flip!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

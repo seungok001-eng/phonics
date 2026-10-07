@@ -1,0 +1,47 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ps? No! Sp... spot!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376797.437938,
+   "sec": 5.2,
+   "check": null,
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ps? No! Sp... spot!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791380049.1117818,
+   "sec": 3.58,
+   "check": {
+    "transcript": "ps no sport",
+    "type": "sentence",
+    "ipa": "psoʊspoʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ps no sport | TYPE=sentence | IPA=psoʊspoʊt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_l8",
+ "sub": "line",
+ "title": "3권 8유닛 대사 · 핍: Ps? No! Sp... spot!",
+ "text": "Ps? No! Sp... spot!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

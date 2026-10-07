@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip and the Pair Forest",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374532.5018702,
+   "sec": 2.48,
+   "check": {
+    "transcript": "Pip and the Pear Forest",
+    "type": "sentence",
+    "ipa": "pɪp ænd ðə pɛɹ fɔɹəst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip and the Pear Forest | TYPE=sentence | IPA=pɪp ænd ðə pɛɹ fɔɹəst | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pip and the Pair Forest",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791376548.7558417,
+   "sec": 2.44,
+   "check": {
+    "transcript": "Pip and the pear forest.",
+    "type": "sentence",
+    "ipa": "pɪp ænd ðə pɛɹ fɔɹəst.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip and the pear forest. | TYPE=sentence | IPA=pɪp ænd ðə pɛɹ fɔɹəst. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:36",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb3_front_1_1",
+ "sub": "line",
+ "title": "스토리북 · 해설: Pip and the Pair Forest",
+ "text": "Pip and the Pair Forest",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

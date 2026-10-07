@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "T and h! /θ/ /θ/ /θ/!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374460.9537976,
+   "sec": 3.0,
+   "check": {
+    "transcript": "T and H",
+    "type": "sentence",
+    "ipa": "tiː ænd eɪtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=T and H | TYPE=sentence | IPA=tiː ænd eɪtʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s07",
+ "sub": "line",
+ "title": "3권 노래 7: T and h! /θ/ /θ/ /θ/!",
+ "text": "T and h! /θ/ /θ/ /θ/!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

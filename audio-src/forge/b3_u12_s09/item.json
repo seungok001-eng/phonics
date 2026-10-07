@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "C and k! /k/ /k/ /k/!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374465.8068147,
+   "sec": 3.56,
+   "check": {
+    "transcript": "C and K",
+    "type": "sentence",
+    "ipa": "siː ənd ˈkeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=C and K | TYPE=sentence | IPA=siː ənd ˈkeɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s09",
+ "sub": "line",
+ "title": "3권 노래 9: C and k! /k/ /k/ /k/!",
+ "text": "C and k! /k/ /k/ /k/!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

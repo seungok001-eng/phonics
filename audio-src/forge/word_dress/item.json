@@ -1,0 +1,28 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "dress",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373752.614191,
+   "sec": 1.24,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_dress",
+ "sub": "word",
+ "title": "단어 dress · 원피스",
+ "text": "dress",
+ "voice": "Kore",
+ "book": 3
+}

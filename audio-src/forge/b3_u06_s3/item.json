@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Clap, clap! A flag!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374264.7208223,
+   "sec": 3.32,
+   "check": {
+    "transcript": "clap clap a flag",
+    "type": "sentence",
+    "ipa": "klæp klæp ə flæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clap clap a flag | TYPE=sentence | IPA=klæp klæp ə flæg | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_s3",
+ "sub": "line",
+ "title": "3권 6유닛 문장 3: Clap, clap! A flag!",
+ "text": "Clap, clap! A flag!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

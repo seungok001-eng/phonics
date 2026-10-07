@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Block, black, clock, clap, clam!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374483.8894396,
+   "sec": 5.28,
+   "check": {
+    "transcript": "block black clock clap clam",
+    "type": "sentence",
+    "ipa": "blɑk blæk klɑk klæp klæm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=block black clock clap clam | TYPE=sentence | IPA=blɑk blæk klɑk klæp klæm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s14",
+ "sub": "line",
+ "title": "3권 노래 14: Block, black, clock, clap, clam!",
+ "text": "Block, black, clock, clap, clam!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

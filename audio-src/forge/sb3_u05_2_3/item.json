@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip tries. Pip tries.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374238.3884964,
+   "sec": 3.88,
+   "check": {
+    "transcript": "Pip tries",
+    "type": "sentence",
+    "ipa": "pɪp traɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip tries | TYPE=sentence | IPA=pɪp traɪz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb3_u05_2_3",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 해설: Pip tries. Pip tries.",
+ "text": "Pip tries. Pip tries.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/br/ /kr/ /dr/! Together!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374490.3196907,
+   "sec": 4.76,
+   "check": {
+    "transcript": "dra",
+    "type": "word",
+    "ipa": "drɑ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dra | TYPE=word | IPA=drɑ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s16",
+ "sub": "line",
+ "title": "3권 노래 16: /br/ /kr/ /dr/! Together!",
+ "text": "/br/ /kr/ /dr/! Together!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

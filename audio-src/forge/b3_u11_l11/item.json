@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cap? It is not cap!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376854.4770904,
+   "sec": 2.09,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b3_u11_l11",
+ "sub": "line",
+ "title": "3권 11유닛 대사 · 헤지: Cap? It is not cap!",
+ "text": "Cap? It is not cap!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

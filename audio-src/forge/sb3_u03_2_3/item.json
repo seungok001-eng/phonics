@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! Go, moth! Oh no!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376718.4358237,
+   "sec": 1.95,
+   "check": {
+    "transcript": "Sh, go, moth, oh no.",
+    "type": "sentence",
+    "ipa": "ʃ, goʊ, mɔθ, oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sh, go, moth, oh no. | TYPE=sentence | IPA=ʃ, goʊ, mɔθ, oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_2_3",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 그럼블: Shh! Go, moth! Oh no!",
+ "text": "Shh! Go, moth! Oh no!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

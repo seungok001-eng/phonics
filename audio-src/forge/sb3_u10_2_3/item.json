@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/w/ /w/ whisk!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376842.8986225,
+   "sec": 2.22,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb3_u10_2_3",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 핍: /w/ /w/ whisk!",
+ "text": "/w/ /w/ whisk!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

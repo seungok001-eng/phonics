@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Together! /θ/ /θ/ thin!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791376720.481824,
+   "sec": 3.27,
+   "check": {
+    "transcript": "Together",
+    "type": "word",
+    "ipa": "təˈɡɛðɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Together | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /θ/ /θ/ thin!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791378732.3702319,
+   "sec": 2.99,
+   "check": {
+    "transcript": "Together",
+    "type": "word",
+    "ipa": "təˈɡɛðɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Together | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:12",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_2_1",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 핌과 팜: Together! /θ/ /θ/ thin!",
+ "text": "Together! /θ/ /θ/ thin!",
+ "voice": "Laomedeia",
+ "who": "twins",
+ "book": 3,
+ "busy": 0
+}

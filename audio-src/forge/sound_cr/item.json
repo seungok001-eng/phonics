@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kr/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791377235.7070453,
+   "sec": 1.08,
+   "check": {
+    "transcript": "kr",
+    "type": "isolated-sound",
+    "ipa": "kr",
+    "note": "extra vowel",
+    "raw": "TRANSCRIPT=kr | TYPE=isolated-sound | IPA=kr | NOTE=extra vowel"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/kr/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791377338.4358435,
+   "sec": 0.8,
+   "check": {
+    "transcript": "c",
+    "type": "isolated-sound",
+    "ipa": "k",
+    "note": "extra vowel",
+    "raw": "TRANSCRIPT=c | TYPE=isolated-sound | IPA=k | NOTE=extra vowel"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sound_cr",
+ "sub": "fsound",
+ "title": "짝꿍 소리 /kr/ (cr)",
+ "text": "/kr/",
+ "voice": "Kore",
+ "ipa": "kr",
+ "book": 3,
+ "busy": 0
+}

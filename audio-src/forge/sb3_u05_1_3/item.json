@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click-clack! Duck, sock, rock, lock!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791376753.5949054,
+   "sec": 2.88,
+   "check": {
+    "transcript": "Clickety-clack, duck, sock, rock, lock",
+    "type": "sentence",
+    "ipa": "ˈklɪkəti ˈklæk dʌk sɒk rɒk lɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Clickety-clack, duck, sock, rock, lock | TYPE=sentence | IPA=ˈklɪkəti ˈklæk dʌk sɒk rɒk lɒk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb3_u05_1_3",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 비즈: Click-clack! Duck, sock, rock, lock!",
+ "text": "Click-clack! Duck, sock, rock, lock!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3
+}

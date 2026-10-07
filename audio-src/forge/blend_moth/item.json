@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/m/ ... /ɑ/ ... /θ/ ... moth",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373867.3182266,
+   "sec": 4.04,
+   "check": {
+    "transcript": "moth",
+    "type": "word",
+    "ipa": "mɔθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=moth | TYPE=word | IPA=mɔθ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "blend_moth",
+ "sub": "blend",
+ "title": "합치기 moth",
+ "text": "/m/ ... /ɑ/ ... /θ/ ... moth",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

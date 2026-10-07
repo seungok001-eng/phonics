@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Spot, spill, swim, swing!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374504.9114013,
+   "sec": 5.16,
+   "check": {
+    "transcript": "spot spill swim swing",
+    "type": "sentence",
+    "ipa": "spɑt spɪl swɪm swɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=spot spill swim swing | TYPE=sentence | IPA=spɑt spɪl swɪm swɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s21",
+ "sub": "line",
+ "title": "3권 노래 21: Spot, spill, swim, swing!",
+ "text": "Spot, spill, swim, swing!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

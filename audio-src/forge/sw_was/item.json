@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "was",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374039.41626,
+   "sec": 1.28,
+   "check": {
+    "transcript": "was",
+    "type": "word",
+    "ipa": "wʌz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=was | TYPE=word | IPA=wʌz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sw_was",
+ "sub": "sw",
+ "title": "사이트워드 was · ~였다",
+ "text": "was",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

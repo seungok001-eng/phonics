@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/sp/ ... /ɪ/ ... /l/ ... spill",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373961.622862,
+   "sec": 3.92,
+   "check": {
+    "transcript": "spell",
+    "type": "word",
+    "ipa": "spɛl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=spell | TYPE=word | IPA=spɛl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "blend_spill",
+ "sub": "blend",
+ "title": "합치기 spill",
+ "text": "/sp/ ... /ɪ/ ... /l/ ... spill",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

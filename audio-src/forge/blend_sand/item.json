@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/s/ ... /æ/ ... /nd/ ... sand",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373972.878537,
+   "sec": 6.24,
+   "check": {
+    "transcript": "sand",
+    "type": "word",
+    "ipa": "s æ n d",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sand | TYPE=word | IPA=s æ n d | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_sand",
+ "sub": "blend",
+ "title": "합치기 sand",
+ "text": "/s/ ... /æ/ ... /nd/ ... sand",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

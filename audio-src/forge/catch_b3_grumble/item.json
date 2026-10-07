@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376870.3837314,
+   "sec": 0.84,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b3_grumble",
+ "sub": "line",
+ "title": "말버릇 · 그럼블: Shh!",
+ "text": "Shh!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

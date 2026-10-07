@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Kit-e? Kit-e!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376896.5328195,
+   "sec": 1.53,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_l2",
+ "sub": "line",
+ "title": "4권 2유닛 대사 · 핍: Kit-e? Kit-e!",
+ "text": "Kit-e? Kit-e!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

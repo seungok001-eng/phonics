@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "It is far, far!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791377016.8049095,
+   "sec": 1.49,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b4_u10_l10",
+ "sub": "line",
+ "title": "4권 10유닛 대사 · 헤지: It is far, far!",
+ "text": "It is far, far!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

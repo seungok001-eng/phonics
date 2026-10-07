@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the wh words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374408.6624877,
+   "sec": 2.64,
+   "check": {
+    "transcript": "Find the WH words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈdʌbəl.ju.eɪʧ wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the WH words. | TYPE=sentence | IPA=faɪnd ðə ˈdʌbəl.ju.eɪʧ wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb3_u10_2_task",
+ "sub": "instr",
+ "title": "10유닛 스토리북 과제 · Find the wh words!",
+ "text": "Find the wh words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

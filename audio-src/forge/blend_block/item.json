@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/bl/ ... /ɑ/ ... /k/ ... block",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373895.8243504,
+   "sec": 4.6,
+   "check": {
+    "transcript": "block",
+    "type": "word",
+    "ipa": "blɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=block | TYPE=word | IPA=blɒk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_block",
+ "sub": "blend",
+ "title": "합치기 block",
+ "text": "/bl/ ... /ɑ/ ... /k/ ... block",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/t/ ... /e/ ... /nt/ ... tent",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373982.1912925,
+   "sec": 5.6,
+   "check": {
+    "transcript": "tent",
+    "type": "word",
+    "ipa": "tɛnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tent | TYPE=word | IPA=tɛnt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_tent",
+ "sub": "blend",
+ "title": "합치기 tent",
+ "text": "/t/ ... /e/ ... /nt/ ... tent",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

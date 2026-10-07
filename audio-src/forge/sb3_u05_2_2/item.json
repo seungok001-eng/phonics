@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ʃ/... Together, Pip!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791378091.8018625,
+   "sec": 2.6,
+   "check": {
+    "transcript": "sh and together puppy",
+    "type": "sentence",
+    "ipa": "ʃ ænd təˈɡɛðər ˈpʌpi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sh and together puppy | TYPE=sentence | IPA=ʃ ænd təˈɡɛðər ˈpʌpi | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/ʃ/... Together, Pip!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791379204.5981197,
+   "sec": 2.74,
+   "check": {
+    "transcript": "Shh",
+    "type": "word",
+    "ipa": "ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh | TYPE=word | IPA=ʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:20",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb3_u05_2_2",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 핌과 팜: /ʃ/... Together, Pip!",
+ "text": "/ʃ/... Together, Pip!",
+ "voice": "Laomedeia",
+ "who": "twins",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "S... h...? S... h...?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376674.4492445,
+   "sec": 2.88,
+   "check": {
+    "transcript": "No, es gris.",
+    "type": "sentence",
+    "ipa": "no es gɾis",
+    "note": "ok",
+    "raw": "TRANSCRIPT=No, es gris. | TYPE=sentence | IPA=no es gɾis | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb3_u01_1_2",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 핍: S... h...? S... h...?",
+ "text": "S... h...? S... h...?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

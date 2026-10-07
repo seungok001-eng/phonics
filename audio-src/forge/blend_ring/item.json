@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/r/ ... /ɪ/ ... /ŋ/ ... ring",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373884.0589397,
+   "sec": 4.28,
+   "check": {
+    "transcript": "ring",
+    "type": "word",
+    "ipa": "/r ɪ ŋ/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ring | TYPE=word | IPA=/r ɪ ŋ/ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_ring",
+ "sub": "blend",
+ "title": "합치기 ring",
+ "text": "/r/ ... /ɪ/ ... /ŋ/ ... ring",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

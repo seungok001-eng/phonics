@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Yes! A chip, Grumble!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376691.4318972,
+   "sec": 2.37,
+   "check": {
+    "transcript": "Yes! A chip grumble?",
+    "type": "sentence",
+    "ipa": "jɛs ə tʃɪp ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yes! A chip grumble? | TYPE=sentence | IPA=jɛs ə tʃɪp ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Yes! A chip, Grumble!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791378528.4670398,
+   "sec": 1.86,
+   "check": {
+    "transcript": "Yes, a chip, grumble.",
+    "type": "sentence",
+    "ipa": "jɛs ə tʃɪp ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yes, a chip, grumble. | TYPE=sentence | IPA=jɛs ə tʃɪp ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b3_u02_l10",
+ "sub": "line",
+ "title": "3권 2유닛 대사 · 번: Yes! A chip, Grumble!",
+ "text": "Yes! A chip, Grumble!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/f/ ... /ɪ/ ... /ʃ/ ... fish",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373828.9288862,
+   "sec": 4.44,
+   "check": {
+    "transcript": "fish",
+    "type": "word",
+    "ipa": "fɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fish | TYPE=word | IPA=fɪʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_fish",
+ "sub": "blend",
+ "title": "합치기 fish",
+ "text": "/f/ ... /ɪ/ ... /ʃ/ ... fish",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

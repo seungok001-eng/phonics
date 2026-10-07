@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The Pair Forest.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374535.933357,
+   "sec": 1.92,
+   "check": {
+    "transcript": "The Pear Forest",
+    "type": "sentence",
+    "ipa": "ðə pɛɹ fɔɹɪst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The Pear Forest | TYPE=sentence | IPA=ðə pɛɹ fɔɹɪst | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The Pair Forest.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791376576.3729694,
+   "sec": 2.04,
+   "check": {
+    "transcript": "the pear forest",
+    "type": "sentence",
+    "ipa": "ðə pɛɹ fɔɹəst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the pear forest | TYPE=sentence | IPA=ðə pɛɹ fɔɹəst | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:36",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb3_map_1",
+ "sub": "line",
+ "title": "스토리북 · 해설: The Pair Forest.",
+ "text": "The Pair Forest.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

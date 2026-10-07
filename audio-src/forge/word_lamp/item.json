@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "lamp",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373798.6666565,
+   "sec": 1.08,
+   "check": {
+    "transcript": "lamp",
+    "type": "word",
+    "ipa": "læmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lamp | TYPE=word | IPA=læmp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_lamp",
+ "sub": "word",
+ "title": "단어 lamp · 램프",
+ "text": "lamp",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The clock can not tick!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376768.4403784,
+   "sec": 1.86,
+   "check": {
+    "transcript": "The clock cannot tick.",
+    "type": "sentence",
+    "ipa": "ðə klɑk kænɑt tɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The clock cannot tick. | TYPE=sentence | IPA=ðə klɑk kænɑt tɪk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The clock can not tick!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791379353.7434452,
+   "sec": 1.81,
+   "check": {
+    "transcript": "The clock cannot tick.",
+    "type": "sentence",
+    "ipa": "ðə klɑk ˈkænɑt tɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The clock cannot tick. | TYPE=sentence | IPA=ðə klɑk ˈkænɑt tɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_1_2",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 헤지: The clock can not tick!",
+ "text": "The clock can not tick!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3,
+ "busy": 0
+}

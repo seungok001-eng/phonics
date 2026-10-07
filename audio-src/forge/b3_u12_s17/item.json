@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Brick, brush, crab, crib, crack!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374491.9387462,
+   "sec": 5.52,
+   "check": {
+    "transcript": "brick, brush, crab, crib, crack",
+    "type": "sentence",
+    "ipa": "brɪk, brʌʃ, kræb, krɪb, kræk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=brick, brush, crab, crib, crack | TYPE=sentence | IPA=brɪk, brʌʃ, kræb, krɪb, kræk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s17",
+ "sub": "line",
+ "title": "3권 노래 17: Brick, brush, crab, crib, crack!",
+ "text": "Brick, brush, crab, crib, crack!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

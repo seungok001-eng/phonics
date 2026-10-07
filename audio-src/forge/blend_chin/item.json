@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/tʃ/ ... /ɪ/ ... /n/ ... chin",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373837.4644728,
+   "sec": 3.92,
+   "check": {
+    "transcript": "chin",
+    "type": "word",
+    "ipa": "tʃɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chin | TYPE=word | IPA=tʃɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_chin",
+ "sub": "blend",
+ "title": "합치기 chin",
+ "text": "/tʃ/ ... /ɪ/ ... /n/ ... chin",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

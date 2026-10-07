@@ -1,0 +1,47 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two for Grumble! Together!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791376810.3843098,
+   "sec": 1.63,
+   "check": null,
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Two for Grumble! Together!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791380376.6087315,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Time for gramble together.",
+    "type": "sentence",
+    "ipa": "ˈtaɪm fɔːr ˈɡræmbəl təˈɡɛðər.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Time for gramble together. | TYPE=sentence | IPA=ˈtaɪm fɔːr ˈɡræmbəl təˈɡɛðər. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_3_2",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 핌과 팜: Two for Grumble! Together!",
+ "text": "Two for Grumble! Together!",
+ "voice": "Laomedeia",
+ "who": "twins",
+ "book": 3,
+ "busy": 0
+}

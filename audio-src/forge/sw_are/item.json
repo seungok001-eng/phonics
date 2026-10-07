@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "are",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374046.5563898,
+   "sec": 0.92,
+   "check": {
+    "transcript": "R",
+    "type": "letter-name",
+    "ipa": "ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "are",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791375717.4129355,
+   "sec": 1.04,
+   "check": {
+    "transcript": "R",
+    "type": "letter-name",
+    "ipa": "ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sw_are",
+ "sub": "sw",
+ "title": "사이트워드 are · ~이다 (여럿)",
+ "text": "are",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

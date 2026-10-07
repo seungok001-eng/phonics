@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ps? No! Sp... spot!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376807.3838956,
+   "sec": 2.83,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_2_3",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 핍: Ps? No! Sp... spot!",
+ "text": "Ps? No! Sp... spot!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

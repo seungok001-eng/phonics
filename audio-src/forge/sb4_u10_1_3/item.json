@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tor... ch? Torch?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791377018.8411329,
+   "sec": 1.95,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_1_3",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 핍: Tor... ch? Torch?",
+ "text": "Tor... ch? Torch?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

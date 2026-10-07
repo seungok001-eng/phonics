@@ -1,0 +1,18 @@
+{
+ "cands": [],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "el: 낱소리 sound_a_e 녹음이 없다",
+ "unit": 1,
+ "letter": null,
+ "id": "b4_u01_l7",
+ "sub": "line",
+ "title": "4권 1유닛 대사 · 번: /eɪ/ /eɪ/ snake!",
+ "text": "/eɪ/ /eɪ/ snake!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

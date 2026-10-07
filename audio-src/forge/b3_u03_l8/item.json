@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Yes! A bath! A bath!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376708.2331011,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Yes, a bat, a bat.",
+    "type": "sentence",
+    "ipa": "jɛs ə bæt ə bæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yes, a bat, a bat. | TYPE=sentence | IPA=jɛs ə bæt ə bæt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "b3_u03_l8",
+ "sub": "line",
+ "title": "3권 3유닛 대사 · 헤지: Yes! A bath! A bath!",
+ "text": "Yes! A bath! A bath!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}

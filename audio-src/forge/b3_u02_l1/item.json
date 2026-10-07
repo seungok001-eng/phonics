@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "My lunch! Oh no!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376681.3792503,
+   "sec": 1.9,
+   "check": {
+    "transcript": "My lunch. Oh no!",
+    "type": "sentence",
+    "ipa": "maɪ lʌntʃ oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=My lunch. Oh no! | TYPE=sentence | IPA=maɪ lʌntʃ oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b3_u02_l1",
+ "sub": "line",
+ "title": "3권 2유닛 대사 · 번: My lunch! Oh no!",
+ "text": "My lunch! Oh no!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

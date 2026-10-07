@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! My can... a cane?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376894.597227,
+   "sec": 2.14,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_3_2",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 그럼블: Shh! My can... a cane?",
+ "text": "Shh! My can... a cane?",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 4,
+ "busy": 1
+}

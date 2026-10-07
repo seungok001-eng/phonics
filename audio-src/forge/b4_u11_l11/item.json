@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! Sleep, Grumble.",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791377029.8994288,
+   "sec": 2.04,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b4_u11_l11",
+ "sub": "line",
+ "title": "4권 11유닛 대사 · 번: Shh! Sleep, Grumble.",
+ "text": "Shh! Sleep, Grumble.",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 4,
+ "busy": 1
+}

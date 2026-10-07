@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Write the missing pair.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374550.5776844,
+   "sec": 2.08,
+   "check": {
+    "transcript": "Write the missing pair.",
+    "type": "sentence",
+    "ipa": "raɪt ðə ˈmɪsɪŋ pɛr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Write the missing pair. | TYPE=sentence | IPA=raɪt ðə ˈmɪsɪŋ pɛr | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:36",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_write_pair",
+ "sub": "instr",
+ "title": "지시문 · Write the missing pair.",
+ "text": "Write the missing pair.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

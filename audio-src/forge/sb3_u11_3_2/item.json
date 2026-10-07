@@ -1,0 +1,47 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Cap? It is not cap!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376862.629466,
+   "sec": 2.23,
+   "check": null,
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Cap? It is not cap!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791381367.3972516,
+   "sec": 2.18,
+   "check": {
+    "transcript": "Gap, it is not gap.",
+    "type": "sentence",
+    "ipa": "ˈɡæp ˈɪt ɪz ˈnɑt ˈɡæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Gap, it is not gap. | TYPE=sentence | IPA=ˈɡæp ˈɪt ɪz ˈnɑt ˈɡæp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_3_2",
+ "sub": "line",
+ "title": "11유닛 스토리북 · 헤지: Cap? It is not cap!",
+ "text": "Cap? It is not cap!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3,
+ "busy": 0
+}

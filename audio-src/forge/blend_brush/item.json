@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/br/ ... /ʌ/ ... /ʃ/ ... brush",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373923.7841713,
+   "sec": 4.4,
+   "check": {
+    "transcript": "brush",
+    "type": "word",
+    "ipa": "b r ʌ ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=brush | TYPE=word | IPA=b r ʌ ʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_brush",
+ "sub": "blend",
+ "title": "합치기 brush",
+ "text": "/br/ ... /ʌ/ ... /ʃ/ ... brush",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

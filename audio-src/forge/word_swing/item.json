@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "swing",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373774.806347,
+   "sec": 1.16,
+   "check": {
+    "transcript": "swing",
+    "type": "word",
+    "ipa": "swɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=swing | TYPE=word | IPA=swɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_swing",
+ "sub": "word",
+ "title": "단어 swing · 그네",
+ "text": "swing",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

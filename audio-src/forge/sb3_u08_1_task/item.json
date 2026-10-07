@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the sn and st words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374336.9169424,
+   "sec": 3.44,
+   "check": {
+    "transcript": "find the s-n and s-t words",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ɛs ɛn ænd ɛs ti wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=find the s-n and s-t words | TYPE=sentence | IPA=faɪnd ðə ɛs ɛn ænd ɛs ti wɜːdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_1_task",
+ "sub": "instr",
+ "title": "8유닛 스토리북 과제 · Find the sn and st words!",
+ "text": "Find the sn and st words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

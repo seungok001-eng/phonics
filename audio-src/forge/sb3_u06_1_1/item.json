@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A big black block!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376768.341613,
+   "sec": 2.46,
+   "check": {
+    "transcript": "Look, a big black block.",
+    "type": "sentence",
+    "ipa": "ˈlʊk ˈeɪ ˈbɪg ˈblæk ˈblɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a big black block. | TYPE=sentence | IPA=ˈlʊk ˈeɪ ˈbɪg ˈblæk ˈblɑk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_1_1",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 번: Look! A big black block!",
+ "text": "Look! A big black block!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the cr words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374308.7536657,
+   "sec": 2.6,
+   "check": {
+    "transcript": "Find the crh words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə kɹ̩ wɝdz",
+    "note": "crh mispronounced",
+    "raw": "TRANSCRIPT=Find the crh words. | TYPE=sentence | IPA=faɪnd ðə kɹ̩ wɝdz | NOTE=crh mispronounced"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_2_task",
+ "sub": "instr",
+ "title": "7유닛 스토리북 과제 · Find the cr words!",
+ "text": "Find the cr words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

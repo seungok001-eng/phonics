@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ship, shop, shell, shed!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374444.8727221,
+   "sec": 3.52,
+   "check": {
+    "transcript": "ship shop shell shed",
+    "type": "sentence",
+    "ipa": "ʃɪp ʃɑp ʃɛl ʃɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ship shop shell shed | TYPE=sentence | IPA=ʃɪp ʃɑp ʃɛl ʃɛd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s02",
+ "sub": "line",
+ "title": "3권 노래 2: Ship, shop, shell, shed!",
+ "text": "Ship, shop, shell, shed!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Click! Socks are in here!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374184.6284218,
+   "sec": 2.44,
+   "check": {
+    "transcript": "click socks are in here",
+    "type": "sentence",
+    "ipa": "klɪk sɒks ɑːɹ ɪn hɪɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click socks are in here | TYPE=sentence | IPA=klɪk sɒks ɑːɹ ɪn hɪɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_l5",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 해설: Click! Socks are in here!",
+ "text": "Click! Socks are in here!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

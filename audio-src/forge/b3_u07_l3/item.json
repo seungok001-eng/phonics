@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Rb? Rb? Rbick?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376776.3552976,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Abby, Abby, Abbyk",
+    "type": "sentence",
+    "ipa": "ˈæbi ˈæbi ˈæbik",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Abby, Abby, Abbyk | TYPE=sentence | IPA=ˈæbi ˈæbi ˈæbik | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Rb? Rb? Rbick?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791379542.9196782,
+   "sec": 1.72,
+   "check": {
+    "transcript": "ab arb arbik",
+    "type": "word",
+    "ipa": "ab arb arbɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ab arb arbik | TYPE=word | IPA=ab arb arbɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b3_u07_l3",
+ "sub": "line",
+ "title": "3권 7유닛 대사 · 핍: Rb? Rb? Rbick?",
+ "text": "Rb? Rb? Rbick?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

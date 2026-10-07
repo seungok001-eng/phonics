@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Do you like my vest?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374362.070241,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Do you like my vest?",
+    "type": "sentence",
+    "ipa": "duː juː laɪk maɪ vɛst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Do you like my vest? | TYPE=sentence | IPA=duː juː laɪk maɪ vɛst | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b3_u09_s4",
+ "sub": "line",
+ "title": "3권 9유닛 문장 4: Do you like my vest?",
+ "text": "Do you like my vest?",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

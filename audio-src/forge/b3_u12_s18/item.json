@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Drum and dress! Boom, boom!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374495.2357466,
+   "sec": 2.4,
+   "check": {
+    "transcript": "Drum and dress, boom boom.",
+    "type": "sentence",
+    "ipa": "ˈdrʌm ənd ˈdrɛs, ˈbum ˈbum.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Drum and dress, boom boom. | TYPE=sentence | IPA=ˈdrʌm ənd ˈdrɛs, ˈbum ˈbum. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:34",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s18",
+ "sub": "line",
+ "title": "3권 노래 18: Drum and dress! Boom, boom!",
+ "text": "Drum and dress! Boom, boom!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

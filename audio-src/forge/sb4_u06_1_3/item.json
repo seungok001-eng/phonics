@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ra... in? Ra-in?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376966.5749257,
+   "sec": 2.0,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb4_u06_1_3",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 핍: Ra... in? Ra-in?",
+ "text": "Ra... in? Ra-in?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

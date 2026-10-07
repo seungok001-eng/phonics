@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The king can sing a song!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374190.2967584,
+   "sec": 2.56,
+   "check": {
+    "transcript": "The king can sing a song.",
+    "type": "sentence",
+    "ipa": "ðə kɪŋ kən sɪŋ ə sɔŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The king can sing a song. | TYPE=sentence | IPA=ðə kɪŋ kən sɪŋ ə sɔŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_l9",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 해설: The king can sing a song!",
+ "text": "The king can sing a song!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

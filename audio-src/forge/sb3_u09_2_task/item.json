@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the -nt and -st words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374369.2201576,
+   "sec": 2.88,
+   "check": {
+    "transcript": "Find the ent and st words.",
+    "type": "sentence",
+    "ipa": "faɪnd ði ɛnt ænd st wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the ent and st words. | TYPE=sentence | IPA=faɪnd ði ɛnt ænd st wɜːdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb3_u09_2_task",
+ "sub": "instr",
+ "title": "9유닛 스토리북 과제 · Find the -nt and -st words!",
+ "text": "Find the -nt and -st words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

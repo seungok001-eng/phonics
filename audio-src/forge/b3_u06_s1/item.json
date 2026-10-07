@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The block is black.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374257.0729804,
+   "sec": 1.96,
+   "check": {
+    "transcript": "The block is black.",
+    "type": "sentence",
+    "ipa": "ðə blɑk ɪz blæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The block is black. | TYPE=sentence | IPA=ðə blɑk ɪz blæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "b3_u06_s1",
+ "sub": "line",
+ "title": "3권 6유닛 문장 1: The block is black.",
+ "text": "The block is black.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

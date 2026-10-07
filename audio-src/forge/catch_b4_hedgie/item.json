@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Wow!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791377043.8161995,
+   "sec": 0.7,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "catch_b4_hedgie",
+ "sub": "line",
+ "title": "말버릇 · 헤지: Wow!",
+ "text": "Wow!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

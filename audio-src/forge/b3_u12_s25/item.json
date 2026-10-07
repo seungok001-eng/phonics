@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "W and h! /w/ /w/ /w/!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374518.058945,
+   "sec": 4.28,
+   "check": {
+    "transcript": "WH",
+    "type": "letter-name",
+    "ipa": "dʌbəlju eɪtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=WH | TYPE=letter-name | IPA=dʌbəlju eɪtʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:35",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_s25",
+ "sub": "line",
+ "title": "3권 노래 25: W and h! /w/ /w/ /w/!",
+ "text": "W and h! /w/ /w/ /w/!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the chip and the chin!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374148.0343478,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Find the chip and the chin.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə tʃɪp ænd ðə tʃɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the chip and the chin. | TYPE=sentence | IPA=faɪnd ðə tʃɪp ænd ðə tʃɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:25",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb3_u02_2_task",
+ "sub": "instr",
+ "title": "2유닛 스토리북 과제 · Find the chip and the chin!",
+ "text": "Find the chip and the chin!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

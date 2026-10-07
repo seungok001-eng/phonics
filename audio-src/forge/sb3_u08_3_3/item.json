@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ooh-ooh! Aah-aah! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374343.267354,
+   "sec": 2.6,
+   "check": {
+    "transcript": "uh oh uh uh oh no",
+    "type": "sentence",
+    "ipa": "ʌ ˈoʊ ʌ ʌ ˈoʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uh oh uh uh oh no | TYPE=sentence | IPA=ʌ ˈoʊ ʌ ʌ ˈoʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ooh-ooh! Aah-aah! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791376222.568303,
+   "sec": 2.8,
+   "check": {
+    "transcript": "Oh oh oh oh no",
+    "type": "sentence",
+    "ipa": "oʊ oʊ oʊ oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh oh oh oh no | TYPE=sentence | IPA=oʊ oʊ oʊ oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_3_3",
+ "sub": "line",
+ "title": "8유닛 스토리북 · 해설: Ooh-ooh! Aah-aah! Oh no!",
+ "text": "Ooh-ooh! Aah-aah! Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

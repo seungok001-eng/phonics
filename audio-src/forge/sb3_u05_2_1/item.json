@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "S... h...? S... h...?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376754.3547463,
+   "sec": 2.28,
+   "check": {
+    "transcript": "cacao sister",
+    "type": "sentence",
+    "ipa": "kəˈkaʊ ˈsɪstər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cacao sister | TYPE=sentence | IPA=kəˈkaʊ ˈsɪstər | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:19",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb3_u05_2_1",
+ "sub": "line",
+ "title": "5유닛 스토리북 · 핍: S... h...? S... h...?",
+ "text": "S... h...? S... h...?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3
+}

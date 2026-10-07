@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ha, ha! Chip, chip, chip!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376689.448321,
+   "sec": 3.44,
+   "check": {
+    "transcript": "Hahaha chip chip chip",
+    "type": "sentence",
+    "ipa": "hæ hæ hæ tʃɪp tʃɪp tʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hahaha chip chip chip | TYPE=sentence | IPA=hæ hæ hæ tʃɪp tʃɪp tʃɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b3_u02_l8",
+ "sub": "line",
+ "title": "3권 2유닛 대사 · 번: Ha, ha! Chip, chip, chip!",
+ "text": "Ha, ha! Chip, chip, chip!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

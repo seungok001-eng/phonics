@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Quick! Look at the quill!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374397.2288086,
+   "sec": 2.2,
+   "check": {
+    "transcript": "Quick, look at the quill.",
+    "type": "sentence",
+    "ipa": "ˈkwɪk lʊk æt ðə kwɪl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Quick, look at the quill. | TYPE=sentence | IPA=ˈkwɪk lʊk æt ðə kwɪl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_s4",
+ "sub": "line",
+ "title": "3권 10유닛 문장 4: Quick! Look at the quill!",
+ "text": "Quick! Look at the quill!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

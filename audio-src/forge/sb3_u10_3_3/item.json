@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip can sing! A party!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374409.593072,
+   "sec": 2.6,
+   "check": {
+    "transcript": "Pip can sing a party?",
+    "type": "sentence",
+    "ipa": "pɪp kæn sɪŋ ə ˈpɑrti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip can sing a party? | TYPE=sentence | IPA=pɪp kæn sɪŋ ə ˈpɑrti | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb3_u10_3_3",
+ "sub": "line",
+ "title": "10유닛 스토리북 · 해설: Pip can sing! A party!",
+ "text": "Pip can sing! A party!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "whisk",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373809.5030103,
+   "sec": 1.08,
+   "check": {
+    "transcript": "Whisk",
+    "type": "word",
+    "ipa": "wɪsk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Whisk | TYPE=word | IPA=wɪsk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:15",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_whisk",
+ "sub": "word",
+ "title": "단어 whisk · 거품기",
+ "text": "whisk",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

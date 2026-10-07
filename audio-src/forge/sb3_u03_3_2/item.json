@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Thumbs up, Grumble!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376722.231404,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Thumbs up, Grumble.",
+    "type": "sentence",
+    "ipa": "ˈθʌmz ˈʌp ˈɡrʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Thumbs up, Grumble. | TYPE=sentence | IPA=ˈθʌmz ˈʌp ˈɡrʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_3_2",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 번: Thumbs up, Grumble!",
+ "text": "Thumbs up, Grumble!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

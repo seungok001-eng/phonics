@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kl/ ... /ɑ/ ... /k/ ... clock",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373903.543483,
+   "sec": 4.24,
+   "check": {
+    "transcript": "clock",
+    "type": "word",
+    "ipa": "klɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clock | TYPE=word | IPA=klɒk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_clock",
+ "sub": "blend",
+ "title": "합치기 clock",
+ "text": "/kl/ ... /ɑ/ ... /k/ ... clock",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

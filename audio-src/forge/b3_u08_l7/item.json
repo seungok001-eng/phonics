@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A spot! Oh no!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376797.2606225,
+   "sec": 2.37,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_l7",
+ "sub": "line",
+ "title": "3권 8유닛 대사 · 번: A spot! Oh no!",
+ "text": "A spot! Oh no!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

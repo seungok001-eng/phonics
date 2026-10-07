@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee! Cape, kite, rope, cube!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791377039.9690614,
+   "sec": 2.93,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b4_u12_l3",
+ "sub": "line",
+ "title": "4권 12유닛 대사 · 요정 이: Eee! Cape, kite, rope, cube!",
+ "text": "Eee! Cape, kite, rope, cube!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kr/ ... /ɪ/ ... /b/ ... crib",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373932.5956829,
+   "sec": 5.6,
+   "check": {
+    "transcript": "crib",
+    "type": "word",
+    "ipa": "kɹɪb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=crib | TYPE=word | IPA=kɹɪb | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_crib",
+ "sub": "blend",
+ "title": "합치기 crib",
+ "text": "/kr/ ... /ɪ/ ... /b/ ... crib",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

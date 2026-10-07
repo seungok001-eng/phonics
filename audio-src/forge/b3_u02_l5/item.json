@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A chip on his chin!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374122.8535852,
+   "sec": 2.52,
+   "check": {
+    "transcript": "A chip on his chin.",
+    "type": "sentence",
+    "ipa": "ə ˈtʃɪp ɑn hɪz ˈtʃɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A chip on his chin. | TYPE=sentence | IPA=ə ˈtʃɪp ɑn hɪz ˈtʃɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b3_u02_l5",
+ "sub": "line",
+ "title": "3권 2유닛 대사 · 해설: A chip on his chin!",
+ "text": "A chip on his chin!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

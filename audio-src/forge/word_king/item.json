@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "king",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373706.641817,
+   "sec": 1.0,
+   "check": {
+    "transcript": "King",
+    "type": "word",
+    "ipa": "kɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=King | TYPE=word | IPA=kɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_king",
+ "sub": "word",
+ "title": "단어 king · 왕",
+ "text": "king",
+ "voice": "Kore",
+ "book": 3
+}

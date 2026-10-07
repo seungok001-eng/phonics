@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Together! /sw/ /sw/ swing!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791378109.0910692,
+   "sec": 2.67,
+   "check": {
+    "transcript": "together swing",
+    "type": "sentence",
+    "ipa": "təˈɡɛðɚ swɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=together swing | TYPE=sentence | IPA=təˈɡɛðɚ swɪŋ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b3_u08_l4",
+ "sub": "line",
+ "title": "3권 8유닛 대사 · 핌과 팜: Together! /sw/ /sw/ swing!",
+ "text": "Together! /sw/ /sw/ swing!",
+ "voice": "Laomedeia",
+ "who": "twins",
+ "book": 3,
+ "busy": 0
+}

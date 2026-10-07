@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Can-e? Can-e!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376887.5169678,
+   "sec": 1.58,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b4_u01_l10",
+ "sub": "line",
+ "title": "4권 1유닛 대사 · 핍: Can-e? Can-e!",
+ "text": "Can-e? Can-e!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

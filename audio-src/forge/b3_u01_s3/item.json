@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "He can see a big ship.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374100.9994001,
+   "sec": 2.24,
+   "check": {
+    "transcript": "He can see a big ship.",
+    "type": "sentence",
+    "ipa": "hiː kæn siː ə bɪg ʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=He can see a big ship. | TYPE=sentence | IPA=hiː kæn siː ə bɪg ʃɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "b3_u01_s3",
+ "sub": "line",
+ "title": "3권 1유닛 문장 3: He can see a big ship.",
+ "text": "He can see a big ship.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/tʃ/ /ɪ/ /p/ chip!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791376696.0850563,
+   "sec": 2.16,
+   "check": {
+    "transcript": "ch",
+    "type": "isolated-sound",
+    "ipa": "tʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=ch | TYPE=isolated-sound | IPA=tʃ | NOTE=clean"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb3_u02_2_2",
+ "sub": "line",
+ "title": "2유닛 스토리북 · 비즈: /tʃ/ /ɪ/ /p/ chip!",
+ "text": "/tʃ/ /ɪ/ /p/ chip!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3
+}

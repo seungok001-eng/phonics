@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cub in a tub!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376924.5560975,
+   "sec": 1.44,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b4_u04_l1",
+ "sub": "line",
+ "title": "4권 4유닛 대사 · 헤지: A cub in a tub!",
+ "text": "A cub in a tub!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the sh and ch words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374234.4683604,
+   "sec": 3.32,
+   "check": {
+    "transcript": "Find the sh and ch words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ʃ ənd tʃ wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the sh and ch words. | TYPE=sentence | IPA=faɪnd ðə ʃ ənd tʃ wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:27",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb3_u05_1_task",
+ "sub": "instr",
+ "title": "5유닛 스토리북 과제 · Find the sh and ch words!",
+ "text": "Find the sh and ch words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

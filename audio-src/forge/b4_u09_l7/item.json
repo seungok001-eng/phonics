@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A mouse in a house!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791377002.0148742,
+   "sec": 1.35,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b4_u09_l7",
+ "sub": "line",
+ "title": "4권 9유닛 대사 · 헤지: A mouse in a house!",
+ "text": "A mouse in a house!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

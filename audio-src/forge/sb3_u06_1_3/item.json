@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Lb? Lb? Lbock?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376770.480327,
+   "sec": 1.63,
+   "check": {
+    "transcript": "L-A-B-L-B-L-bock",
+    "type": "sentence",
+    "ipa": "ˈɛl ˈeɪ ˈbiː ˈɛl ˈbiː ˈɛl bɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=L-A-B-L-B-L-bock | TYPE=sentence | IPA=ˈɛl ˈeɪ ˈbiː ˈɛl ˈbiː ˈɛl bɒk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Lb? Lb? Lbock?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791379378.8022904,
+   "sec": 2.51,
+   "check": {
+    "transcript": "LB, LB, el-bok",
+    "type": "sentence",
+    "ipa": "ɛl biː, ɛl biː, ɛl bɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=LB, LB, el-bok | TYPE=sentence | IPA=ɛl biː, ɛl biː, ɛl bɒk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_1_3",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 핍: Lb? Lb? Lbock?",
+ "text": "Lb? Lb? Lbock?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

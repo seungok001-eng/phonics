@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Where is the last door?",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376827.2482035,
+   "sec": 1.53,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_l1",
+ "sub": "line",
+ "title": "3권 10유닛 대사 · 번: Where is the last door?",
+ "text": "Where is the last door?",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

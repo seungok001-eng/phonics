@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Quack, quack! The last door!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374379.0302126,
+   "sec": 2.4,
+   "check": {
+    "transcript": "Quack quack, the last door.",
+    "type": "sentence",
+    "ipa": "kwæk kwæk, ðə læst dɔːr.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Quack quack, the last door. | TYPE=sentence | IPA=kwæk kwæk, ðə læst dɔːr. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_l5",
+ "sub": "line",
+ "title": "3권 10유닛 대사 · 해설: Quack, quack! The last door!",
+ "text": "Quack, quack! The last door!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

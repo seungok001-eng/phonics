@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Crunch, crunch! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374117.7619054,
+   "sec": 3.04,
+   "check": {
+    "transcript": "crunch crunch, oh no",
+    "type": "sentence",
+    "ipa": "kɹʌnʧ kɹʌnʧ oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=crunch crunch, oh no | TYPE=sentence | IPA=kɹʌnʧ kɹʌnʧ oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:24",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb3_u01_3_3",
+ "sub": "line",
+ "title": "1유닛 스토리북 · 해설: Crunch, crunch! Oh no!",
+ "text": "Crunch, crunch! Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

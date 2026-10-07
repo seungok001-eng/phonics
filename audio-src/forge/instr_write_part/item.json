@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Write the missing part.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374554.5336084,
+   "sec": 1.68,
+   "check": {
+    "transcript": "Write the missing part.",
+    "type": "sentence",
+    "ipa": "ɹaɪt ðə ˈmɪsɪŋ pɑɹt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Write the missing part. | TYPE=sentence | IPA=ɹaɪt ðə ˈmɪsɪŋ pɑɹt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:36",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_write_part",
+ "sub": "instr",
+ "title": "지시문 · Write the missing part.",
+ "text": "Write the missing part.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh! ...Clap, clap.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376774.3594384,
+   "sec": 1.9,
+   "check": {
+    "transcript": "Shh. Clap, clap.",
+    "type": "sentence",
+    "ipa": "ʃ. klæp, klæp.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Clap, clap. | TYPE=sentence | IPA=ʃ. klæp, klæp. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_3_2",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 그럼블: Shh! ...Clap, clap.",
+ "text": "Shh! ...Clap, clap.",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

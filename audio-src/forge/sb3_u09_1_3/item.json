@@ -1,0 +1,47 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tn? Tn? Tnet?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376822.3633366,
+   "sec": 2.93,
+   "check": null,
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Tn? Tn? Tnet?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791380505.5162356,
+   "sec": 2.37,
+   "check": {
+    "transcript": "teen, teen, teenet",
+    "type": "word",
+    "ipa": "tiːn, tiːn, tiːnɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=teen, teen, teenet | TYPE=word | IPA=tiːn, tiːn, tiːnɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb3_u09_1_3",
+ "sub": "line",
+ "title": "9유닛 스토리북 · 핍: Tn? Tn? Tnet?",
+ "text": "Tn? Tn? Tnet?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 3,
+ "busy": 0
+}

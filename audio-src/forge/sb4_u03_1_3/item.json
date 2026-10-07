@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Not-e? Not-e!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376919.524768,
+   "sec": 1.25,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_1_3",
+ "sub": "line",
+ "title": "3유닛 스토리북 · 핍: Not-e? Not-e!",
+ "text": "Not-e? Not-e!",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A kit!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376894.4893515,
+   "sec": 1.02,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "b4_u02_l1",
+ "sub": "line",
+ "title": "4권 2유닛 대사 · 헤지: Look! A kit!",
+ "text": "Look! A kit!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

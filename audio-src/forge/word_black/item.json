@@ -1,0 +1,34 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "black",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373718.5669994,
+   "sec": 1.08,
+   "check": {
+    "transcript": "black",
+    "type": "word",
+    "ipa": "blæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=black | TYPE=word | IPA=blæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "word_black",
+ "sub": "word",
+ "title": "단어 black · 검정",
+ "text": "black",
+ "voice": "Kore",
+ "book": 3
+}

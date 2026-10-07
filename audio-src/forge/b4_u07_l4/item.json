@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Eee! Eee!",
+   "voice": "Peanut",
+   "how": "el",
+   "created": 1791376972.6273434,
+   "sec": 1.07,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "b4_u07_l4",
+ "sub": "line",
+ "title": "4권 7유닛 대사 · 요정 이: Eee! Eee!",
+ "text": "Eee! Eee!",
+ "voice": "Autonoe",
+ "who": "fairy",
+ "book": 4,
+ "busy": 1
+}

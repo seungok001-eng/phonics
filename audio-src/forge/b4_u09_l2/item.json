@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cloud is on the moon.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376997.876828,
+   "sec": 1.72,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "b4_u09_l2",
+ "sub": "line",
+ "title": "4권 9유닛 대사 · 헤지: A cloud is on the moon.",
+ "text": "A cloud is on the moon.",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 4,
+ "busy": 1
+}

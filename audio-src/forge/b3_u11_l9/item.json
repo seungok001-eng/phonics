@@ -1,0 +1,29 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Not shh! Sh! Ch! Th!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1791376854.3700004,
+   "sec": 2.0,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "b3_u11_l9",
+ "sub": "line",
+ "title": "3권 11유닛 대사 · 그럼블: Not shh! Sh! Ch! Th!",
+ "text": "Not shh! Sh! Ch! Th!",
+ "voice": "Charon",
+ "who": "grumble",
+ "book": 3
+}

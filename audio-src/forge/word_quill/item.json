@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "quill",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373813.5164745,
+   "sec": 1.24,
+   "check": {
+    "transcript": "quill",
+    "type": "word",
+    "ipa": "/kwɪl/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quill | TYPE=word | IPA=/kwɪl/ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_quill",
+ "sub": "word",
+ "title": "단어 quill · 깃펜",
+ "text": "quill",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

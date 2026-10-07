@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "there",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374049.539139,
+   "sec": 1.16,
+   "check": {
+    "transcript": "There",
+    "type": "word",
+    "ipa": "ðɛɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=There | TYPE=word | IPA=ðɛɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sw_there",
+ "sub": "sw",
+ "title": "사이트워드 there · 저기",
+ "text": "there",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Together! Hi, Pip!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791376662.498948,
+   "sec": 1.72,
+   "check": {
+    "transcript": "together hip hop",
+    "type": "sentence",
+    "ipa": "təˈɡɛðər ˈhɪp ˈhɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=together hip hop | TYPE=sentence | IPA=təˈɡɛðər ˈhɪp ˈhɒp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb3_u00_2_2",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 핌과 팜: Together! Hi, Pip!",
+ "text": "Together! Hi, Pip!",
+ "voice": "Laomedeia",
+ "who": "twins",
+ "book": 3
+}

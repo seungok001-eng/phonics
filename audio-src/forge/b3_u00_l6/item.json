@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh... Look up! A lantern!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374073.9979248,
+   "sec": 3.04,
+   "check": {
+    "transcript": "Shh, look up, a lantern.",
+    "type": "sentence",
+    "ipa": "ʃ, lʊk ʌp, ə læntərn.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh, look up, a lantern. | TYPE=sentence | IPA=ʃ, lʊk ʌp, ə læntərn. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "b3_u00_l6",
+ "sub": "line",
+ "title": "3권 0유닛 대사 · 해설: Shh... Look up! A lantern!",
+ "text": "Shh... Look up! A lantern!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

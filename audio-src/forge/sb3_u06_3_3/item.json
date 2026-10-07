@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Snip! Snip! Oh no!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374278.8069255,
+   "sec": 2.6,
+   "check": {
+    "transcript": "snip snip oh no",
+    "type": "sentence",
+    "ipa": "snɪp snɪp oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snip snip oh no | TYPE=sentence | IPA=snɪp snɪp oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_3_3",
+ "sub": "line",
+ "title": "6유닛 스토리북 · 해설: Snip! Snip! Oh no!",
+ "text": "Snip! Snip! Oh no!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

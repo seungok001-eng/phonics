@@ -1,0 +1,30 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Go... at? Go-at?",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791376985.879858,
+   "sec": 2.23,
+   "check": null,
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "b4_u08_l3",
+ "sub": "line",
+ "title": "4권 8유닛 대사 · 핍: Go... at? Go-at?",
+ "text": "Go... at? Go-at?",
+ "voice": "Aoede",
+ "who": "pip",
+ "book": 4,
+ "busy": 1
+}

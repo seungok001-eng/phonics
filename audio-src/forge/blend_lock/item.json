@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ ... /ɑ/ ... /k/ ... lock",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373880.3202865,
+   "sec": 4.84,
+   "check": {
+    "transcript": "lock",
+    "type": "word",
+    "ipa": "lɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lock | TYPE=word | IPA=lɒk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:17",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_lock",
+ "sub": "blend",
+ "title": "합치기 lock",
+ "text": "/l/ ... /ɑ/ ... /k/ ... lock",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

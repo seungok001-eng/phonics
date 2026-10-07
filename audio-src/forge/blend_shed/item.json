@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ʃ/ ... /e/ ... /d/ ... shed",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373828.2417316,
+   "sec": 4.84,
+   "check": {
+    "transcript": "shed",
+    "type": "word",
+    "ipa": "ʃɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shed | TYPE=word | IPA=ʃɛd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:16",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_shed",
+ "sub": "blend",
+ "title": "합치기 shed",
+ "text": "/ʃ/ ... /e/ ... /d/ ... shed",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

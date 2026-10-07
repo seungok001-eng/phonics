@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pair chant",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374561.3939366,
+   "sec": 1.36,
+   "check": {
+    "transcript": "pear chat",
+    "type": "word",
+    "ipa": "pɛɹ tʃæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pear chat | TYPE=word | IPA=pɛɹ tʃæt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pair chant",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791376632.692722,
+   "sec": 1.72,
+   "check": {
+    "transcript": "pear chant",
+    "type": "word",
+    "ipa": "pɛɹ ʧænt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pear chant | TYPE=word | IPA=pɛɹ ʧænt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:37",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "instr_pair_chant",
+ "sub": "instr",
+ "title": "지시문 · Pair chant",
+ "text": "Pair chant",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

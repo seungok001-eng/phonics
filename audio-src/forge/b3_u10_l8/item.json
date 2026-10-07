@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Whoosh! Pop! Look!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374383.3818977,
+   "sec": 2.88,
+   "check": {
+    "transcript": "Shh. Pop. Look.",
+    "type": "sentence",
+    "ipa": "ʃː pɑp lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Pop. Look. | TYPE=sentence | IPA=ʃː pɑp lʊk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:31",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "b3_u10_l8",
+ "sub": "line",
+ "title": "3권 10유닛 대사 · 해설: Whoosh! Pop! Look!",
+ "text": "Whoosh! Pop! Look!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

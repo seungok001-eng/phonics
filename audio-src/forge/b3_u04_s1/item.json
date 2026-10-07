@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The duck is on the rock.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374192.0641553,
+   "sec": 2.12,
+   "check": {
+    "transcript": "The duck is on the rock.",
+    "type": "sentence",
+    "ipa": "ðə dʌk ɪz ɒn ðə rɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The duck is on the rock. | TYPE=sentence | IPA=ðə dʌk ɪz ɒn ðə rɒk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_s1",
+ "sub": "line",
+ "title": "3권 4유닛 문장 1: The duck is on the rock.",
+ "text": "The duck is on the rock.",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

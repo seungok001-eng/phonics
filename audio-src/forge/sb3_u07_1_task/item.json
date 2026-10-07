@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the br words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374304.2766507,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Find the browards.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə ˈbɹaʊwɚdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the browards. | TYPE=sentence | IPA=faɪnd ðə ˈbɹaʊwɚdz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Find the br words!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791376152.8600965,
+   "sec": 2.08,
+   "check": {
+    "transcript": "Find the br words.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə br wɜːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the br words. | TYPE=sentence | IPA=faɪnd ðə br wɜːdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_1_task",
+ "sub": "instr",
+ "title": "7유닛 스토리북 과제 · Find the br words!",
+ "text": "Find the br words!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Look! A big door!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376659.2516305,
+   "sec": 1.9,
+   "check": {
+    "transcript": "Look, a big door.",
+    "type": "sentence",
+    "ipa": "lʊk ə bɪɡ dɔːɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a big door. | TYPE=sentence | IPA=lʊk ə bɪɡ dɔːɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb3_u00_1_2",
+ "sub": "line",
+ "title": "0유닛 스토리북 · 번: Look! A big door!",
+ "text": "Look! A big door!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

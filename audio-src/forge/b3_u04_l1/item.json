@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "What is that? A lock!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791376722.3292415,
+   "sec": 2.18,
+   "check": {
+    "transcript": "What is that? A lock.",
+    "type": "sentence",
+    "ipa": "wʌt ɪz ðæt ə lɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=What is that? A lock. | TYPE=sentence | IPA=wʌt ɪz ðæt ə lɒk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:13",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "b3_u04_l1",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 번: What is that? A lock!",
+ "text": "What is that? A lock!",
+ "voice": "Leda",
+ "who": "bun",
+ "book": 3
+}

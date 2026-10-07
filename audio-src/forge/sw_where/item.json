@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "where",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374066.2772114,
+   "sec": 1.0,
+   "check": {
+    "transcript": "Where?",
+    "type": "word",
+    "ipa": "wɛɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Where? | TYPE=word | IPA=wɛɚ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:22",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sw_where",
+ "sub": "sw",
+ "title": "사이트워드 where · 어디",
+ "text": "where",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

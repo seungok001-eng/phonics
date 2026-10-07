@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "crack",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791373748.5734887,
+   "sec": 0.92,
+   "check": {
+    "transcript": "crack",
+    "type": "word",
+    "ipa": "kræk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=crack | TYPE=word | IPA=kræk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:14",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_crack",
+ "sub": "word",
+ "title": "단어 crack · 금",
+ "text": "crack",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

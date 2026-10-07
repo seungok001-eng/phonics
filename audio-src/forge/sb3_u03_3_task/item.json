@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Find the bath!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791374181.1681702,
+   "sec": 1.8,
+   "check": {
+    "transcript": "Find the bath.",
+    "type": "sentence",
+    "ipa": "faɪnd ðə bæθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Find the bath. | TYPE=sentence | IPA=faɪnd ðə bæθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 21:26",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_3_task",
+ "sub": "instr",
+ "title": "3유닛 스토리북 과제 · Find the bath!",
+ "text": "Find the bath!",
+ "voice": "Kore",
+ "book": 3,
+ "busy": 0
+}

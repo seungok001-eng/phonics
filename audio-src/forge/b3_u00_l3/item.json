@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Sh... sh... Is it Grumble?",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791376657.3799727,
+   "sec": 1.95,
+   "check": {
+    "transcript": "Is it Grumble?",
+    "type": "sentence",
+    "ipa": "ɪz ɪt ˈɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Is it Grumble? | TYPE=sentence | IPA=ɪz ɪt ˈɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-07 22:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "b3_u00_l3",
+ "sub": "line",
+ "title": "3권 0유닛 대사 · 헤지: Sh... sh... Is it Grumble?",
+ "text": "Sh... sh... Is it Grumble?",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 3
+}
