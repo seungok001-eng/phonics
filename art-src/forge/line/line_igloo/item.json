@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287380.3640459,
+ "updated": 1791360806.5346642,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/48d4649a-348f-4e08-b9b9-31d2aae6f215?Expires=1791308957&KeyName=labs-flow-prod-cdn-key&Signature=iGdmslcWmRHi6AU4-0Ls2cEbHKg",
+ "flow_url": "https://flow-content.google/image/ff32b0e4-f4b6-4680-a6f8-cc5f58731775?Expires=1791382376&KeyName=labs-flow-prod-cdn-key&Signature=Cfd_C0LtNTLD0MfZj6wsOq1odWk",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:16",
  "gen": "",
  "job_type": "image",
  "reference": "word_igloo",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_igloo.png",
  "book": 1,
- "claimed_at": 1791287340.8881903
+ "claimed_at": 1791360755.888522
 }

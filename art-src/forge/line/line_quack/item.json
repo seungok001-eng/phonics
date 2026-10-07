@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287982.7374923,
+ "updated": 1791361391.693774,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/98902d49-2911-4d89-bf4a-72f0c4fd0be7?Expires=1791309562&KeyName=labs-flow-prod-cdn-key&Signature=b3nMKFTSfDE0GjlAg_9-g2De9tc",
+ "flow_url": "https://flow-content.google/image/6791f811-d153-4638-af1b-2e4f30f3a958?Expires=1791382972&KeyName=labs-flow-prod-cdn-key&Signature=aACWqE4Jy_9iCmAlsSEatkR2_Ww",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:23",
  "gen": "",
  "job_type": "image",
  "reference": "word_quack",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_quack.png",
  "book": 1,
- "claimed_at": 1791287945.8831537
+ "claimed_at": 1791361355.884255
 }

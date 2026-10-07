@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791288021.4643078,
+ "updated": 1791361437.8546095,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/aeb24cfb-e7a4-4796-b9fa-2994f9e9f768?Expires=1791309600&KeyName=labs-flow-prod-cdn-key&Signature=DDhRpNHmxbrCKcNDJfGpcyt8WQU",
+ "flow_url": "https://flow-content.google/image/9bf3f9e8-b480-4320-9af2-eaf72b95cba6?Expires=1791383009&KeyName=labs-flow-prod-cdn-key&Signature=8sIU66yk5sttexM1KsG9s6OYWfE",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:24",
  "gen": "",
  "job_type": "image",
  "reference": "word_rain",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_rain.png",
  "book": 1,
- "claimed_at": 1791287983.3779879
+ "claimed_at": 1791361393.3908505
 }

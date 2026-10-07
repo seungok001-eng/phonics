@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791362720.1663373,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/c236dd4c-b8f1-4565-89f4-62cf48e4c2b0?Expires=1791384295&KeyName=labs-flow-prod-cdn-key&Signature=Kj8-6KZaIRLHZU0x968O19jUOm0",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:47",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,8 +17,10 @@
  "kind": "word",
  "word": "pet",
  "title": "pet · 애완동물",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: an orange goldfish swimming in a round glass bowl.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: an orange goldfish swimming in a round glass bowl.",
  "aspect": "1:1",
  "out": "web/assets/art/word_pet.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791362690.8887038,
+ "asset_no": 2101
 }

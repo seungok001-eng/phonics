@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287184.5388558,
+ "updated": 1791360051.3299727,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/a002100d-c78f-4c7b-899a-45726fb6e595?Expires=1791308761&KeyName=labs-flow-prod-cdn-key&Signature=Pqe-p3mfqKXnRLbcVuOchuDeXBI",
+ "flow_url": "https://flow-content.google/image/94b44388-9df3-454a-ac45-db925d63587a?Expires=1791381625&KeyName=labs-flow-prod-cdn-key&Signature=NIaLLuraBKOtTBBQvPPzyKZ2970",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,10 @@
  "kind": "word",
  "word": "zigzag",
  "title": "zigzag · 지그재그",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a bold yellow zigzag line.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a bold yellow zigzag line.",
  "aspect": "1:1",
  "out": "web/assets/art/word_zigzag.png",
  "book": 1,
  "asset_no": 2077,
- "claimed_at": 1791287156.1155405
+ "claimed_at": 1791360020.8765757
 }

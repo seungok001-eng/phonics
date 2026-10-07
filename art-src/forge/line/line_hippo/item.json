@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287479.1405568,
+ "updated": 1791360742.0479035,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/b168445e-82b1-47b8-b101-0098c2062ab1?Expires=1791309057&KeyName=labs-flow-prod-cdn-key&Signature=75TpATA5zN5pPIZnb_ED_4Z4luo",
+ "flow_url": "https://flow-content.google/image/f8b12b16-6f42-4b74-9d54-8d5eba4ec867?Expires=1791382320&KeyName=labs-flow-prod-cdn-key&Signature=7iDQ08uqi9B9lwL6098SRCeAhME",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:16",
  "gen": "",
  "job_type": "image",
  "reference": "word_hippo",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_hippo.png",
  "book": 1,
- "claimed_at": 1791287440.8913774
+ "claimed_at": 1791360703.3804753
 }

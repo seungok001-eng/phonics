@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791362529.1428852,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/10115e30-f611-4684-970d-fa0091b7fc33?Expires=1791384105&KeyName=labs-flow-prod-cdn-key&Signature=T9yoHYWegC4rA4qCLtW-5f-JJeQ",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:47",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,8 +17,10 @@
  "kind": "word",
  "word": "mat",
  "title": "mat · 매트",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a round green doormat with a woven straw edge.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a round green doormat with a woven straw edge.",
  "aspect": "1:1",
  "out": "web/assets/art/word_mat.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791362500.9684258,
+ "asset_no": 2089
 }

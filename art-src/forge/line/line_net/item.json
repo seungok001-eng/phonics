@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287771.1900663,
+ "updated": 1791361183.8961518,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/78b7374d-155a-408a-b3b3-875b7a6f783c?Expires=1791309342&KeyName=labs-flow-prod-cdn-key&Signature=31xQJJw_0QeVPLP3tfJUv1_d1E0",
+ "flow_url": "https://flow-content.google/image/bb5d84f0-57de-450f-9b30-f919490e0578?Expires=1791382752&KeyName=labs-flow-prod-cdn-key&Signature=MqezKFLKtaeH4hHGtYZWjSOWuiM",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:20",
  "gen": "",
  "job_type": "image",
  "reference": "word_net",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_net.png",
  "book": 1,
- "claimed_at": 1791287726.0130916
+ "claimed_at": 1791361135.8872223
 }

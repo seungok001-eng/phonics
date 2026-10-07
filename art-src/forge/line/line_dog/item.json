@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791284319.3937798,
+ "updated": 1791360257.0841203,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/50d09336-41ac-4b5a-8e4d-a2225d2e2302?Expires=1791305897&KeyName=labs-flow-prod-cdn-key&Signature=UbEefBP0SXmB6enOL0K4nuTXYB8",
+ "flow_url": "https://flow-content.google/image/ab67fa2f-0511-4867-aea7-0a853e6a47a7?Expires=1791381835&KeyName=labs-flow-prod-cdn-key&Signature=eebb2QkGvlo7vwnNA-viOnLGESg",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": "word_dog",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_dog.png",
  "book": 1,
- "claimed_at": 1791284280.8782897
+ "claimed_at": 1791360215.8808892
 }

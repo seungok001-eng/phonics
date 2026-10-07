@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791288666.4046946,
+ "updated": 1791362420.091323,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/157873e1-17fa-4c64-993c-b71057df48da?Expires=1791310242&KeyName=labs-flow-prod-cdn-key&Signature=RFiF3fPkG2INuKXm2pFevtSGSoU",
+ "flow_url": "https://flow-content.google/image/771ca98a-ca9d-4c2a-b6f1-ec9ed28161f8?Expires=1791383997&KeyName=labs-flow-prod-cdn-key&Signature=SxJ0sC65oxCu_42gfKmiEHcbxXY",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:41",
  "gen": "",
  "job_type": "image",
  "reference": "word_zebra",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_zebra.png",
  "book": 1,
- "claimed_at": 1791288625.895844
+ "claimed_at": 1791362380.886475
 }

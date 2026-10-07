@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791359490.076048,
+ "updated": 1791360466.0484998,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/afdd52fb-103e-4ca6-9dcb-786c2764ac1d?Expires=1791381063&KeyName=labs-flow-prod-cdn-key&Signature=gFKp0WPOVnbTdnkZSIat0FrKcyU",
+ "flow_url": "https://flow-content.google/image/0888a83d-df3a-4860-b602-0b56874997e4?Expires=1791382038&KeyName=labs-flow-prod-cdn-key&Signature=4E-gzSKIR-sqqw0F6zCHDR1fe2Y",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -22,5 +22,6 @@
  "out": "web/assets/art/word_octopus.png",
  "book": 1,
  "asset_no": 2043,
- "claimed_at": 1791359458.3825982
+ "claimed_at": 1791360433.38055,
+ "regen": 1
 }

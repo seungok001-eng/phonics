@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791284721.0627537,
+ "updated": 1791360502.4165072,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/2113cf50-9f17-480c-a1fb-723485b22792?Expires=1791306289&KeyName=labs-flow-prod-cdn-key&Signature=LLAH-0mJ7Ur_pecOM-puz8CAeCk",
+ "flow_url": "https://flow-content.google/image/85b89b7c-cab1-418c-bb35-8a35b18515ef?Expires=1791382083&KeyName=labs-flow-prod-cdn-key&Signature=VKXTOtoghkbgMqqA4HwBMKcmEXQ",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:16",
  "gen": "",
  "job_type": "image",
  "reference": "word_frog",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_frog.png",
  "book": 1,
- "claimed_at": 1791284673.3866122
+ "claimed_at": 1791360466.049776
 }

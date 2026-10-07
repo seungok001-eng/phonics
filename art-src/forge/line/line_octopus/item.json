@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287837.111354,
+ "updated": 1791361249.7638679,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/8bf2c580-5350-47f9-830a-d5648aea670c?Expires=1791309414&KeyName=labs-flow-prod-cdn-key&Signature=VYxcYXAz9AmbJnIbmg2Bzi0HDEw",
+ "flow_url": "https://flow-content.google/image/c5ca7aa8-ae47-4e7b-b36e-3193db26d90f?Expires=1791382825&KeyName=labs-flow-prod-cdn-key&Signature=yCoMY70mqk7ypcrJcG_Tgr_m23s",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:21",
  "gen": "",
  "job_type": "image",
  "reference": "word_octopus",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_octopus.png",
  "book": 1,
- "claimed_at": 1791287798.3973837
+ "claimed_at": 1791361208.3787982
 }

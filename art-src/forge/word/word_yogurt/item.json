@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287109.1495113,
+ "updated": 1791359964.7413526,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/bf022fe9-aec7-4306-9c1b-17f2ee3d4985?Expires=1791308685&KeyName=labs-flow-prod-cdn-key&Signature=301yeRfB12b1Hu2wUt5EGRMNZls",
+ "flow_url": "https://flow-content.google/image/3beb186a-8583-4732-a056-a3a9fda1eaef?Expires=1791381538&KeyName=labs-flow-prod-cdn-key&Signature=WetTHkPgAGVg8EEahpYUU4uQLqQ",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,10 @@
  "kind": "word",
  "word": "yogurt",
  "title": "yogurt · 요거트",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a cup of strawberry yogurt with a spoon.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a cup of strawberry yogurt with a spoon.",
  "aspect": "1:1",
  "out": "web/assets/art/word_yogurt.png",
  "book": 1,
  "asset_no": 2072,
- "claimed_at": 1791287080.9719927
+ "claimed_at": 1791359933.5036428
 }

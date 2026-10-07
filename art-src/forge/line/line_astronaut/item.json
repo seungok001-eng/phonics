@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791263609.595591,
+ "updated": 1791360089.3188758,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/7f7b9334-6f33-41a0-b7a5-85f564cfa80a?Expires=1791381669&KeyName=labs-flow-prod-cdn-key&Signature=cHMb10sYk9BcDjviv4SeoIuIwPs",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": "word_astronaut",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_astronaut.png",
  "book": 1,
- "claimed_at": 1791263596.8010435
+ "claimed_at": 1791360053.3821611
 }

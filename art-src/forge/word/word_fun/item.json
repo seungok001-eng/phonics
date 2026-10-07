@@ -1,12 +1,12 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
- "attempts": 0,
+ "status": "review",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 1,
  "error": "",
- "updated": 0,
+ "updated": 1791363870.831994,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/cb324b90-c1f2-4783-9ffb-2580a1319a28?Expires=1791385443&KeyName=labs-flow-prod-cdn-key&Signature=EhemBXrPKnbrpsFW8xy5Smb0vZM",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -17,8 +17,9 @@
  "kind": "word",
  "word": "fun",
  "title": "fun · 재미",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a pointy party hat with confetti and streamers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a pointy party hat with confetti and streamers.",
  "aspect": "1:1",
  "out": "web/assets/art/word_fun.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791363825.8842683
 }

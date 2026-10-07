@@ -1,9 +1,9 @@
 {
- "status": "queued",
+ "status": "pending",
  "raw": "",
  "cut": "",
- "attempts": 0,
- "error": "",
+ "attempts": 1,
+ "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
  "updated": 0,
  "auto_approved": false,
  "flow_url": "",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_peg.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791365095.883701
 }

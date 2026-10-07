@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791264806.696381,
+ "updated": 1791360139.9230168,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/8e19b089-faec-447b-84be-2ea3443da0c6?Expires=1791381717&KeyName=labs-flow-prod-cdn-key&Signature=7xazoakK8sj5MjOExtFXCuDQDJU",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": "word_bus",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_bus.png",
  "book": 1,
- "claimed_at": 1791264796.288009
+ "claimed_at": 1791360090.879945
 }

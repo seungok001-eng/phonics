@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
- "attempts": 0,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 1,
  "error": "",
- "updated": 0,
+ "updated": 1791363590.9883368,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/2d4f1c57-6420-465d-b407-1137b34e6b0b?Expires=1791385163&KeyName=labs-flow-prod-cdn-key&Signature=5XOT1uJxrLKQ_ZVIWMeIyWps3eI",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 18:01",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,8 +17,9 @@
  "kind": "word",
  "word": "mop",
  "title": "mop · 대걸레",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a mop with a wooden handle standing in a bucket.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a mop with a wooden handle standing in a bucket.",
  "aspect": "1:1",
  "out": "web/assets/art/word_mop.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791363558.3892045
 }

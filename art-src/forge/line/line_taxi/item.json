@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791288584.9054894,
+ "updated": 1791362340.386133,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/f08a6b98-0967-4c69-8290-d988091f3600?Expires=1791310159&KeyName=labs-flow-prod-cdn-key&Signature=UqfvzFkUU6LxynEvB0I5lNikCuw",
+ "flow_url": "https://flow-content.google/image/ba66aaeb-4219-42e4-aff9-391fdf06c871?Expires=1791383904&KeyName=labs-flow-prod-cdn-key&Signature=ehkGQwx8G5N210g1K6-Rt9TVuhQ",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:39",
  "gen": "",
  "job_type": "image",
  "reference": "word_taxi",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_taxi.png",
  "book": 1,
- "claimed_at": 1791288543.3809738
+ "claimed_at": 1791362288.376552
 }

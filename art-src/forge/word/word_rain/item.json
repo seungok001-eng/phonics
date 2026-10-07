@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286802.1987598,
+ "updated": 1791359651.6060944,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/268f2552-36d9-462b-98cb-47129e796b5c?Expires=1791308383&KeyName=labs-flow-prod-cdn-key&Signature=c-9hiIfwn1CpU5P45RQJQ1tfRnM",
+ "flow_url": "https://flow-content.google/image/e25289e3-f06f-4d00-b4c1-5895abae162b?Expires=1791381228&KeyName=labs-flow-prod-cdn-key&Signature=fEgAhpFPzpfExycVcw5w2LFC4rs",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 16:57",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,10 @@
  "kind": "word",
  "word": "rain",
  "title": "rain · 비",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a grey cloud with blue raindrops falling.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a grey cloud with blue raindrops falling.",
  "aspect": "1:1",
  "out": "web/assets/art/word_rain.png",
  "book": 1,
  "asset_no": 2052,
- "claimed_at": 1791286778.3784935
+ "claimed_at": 1791359613.3975265
 }

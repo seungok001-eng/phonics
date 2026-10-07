@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287018.8175118,
+ "updated": 1791359872.4102666,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/df9749de-b1c5-4ca7-91be-9a047880f0f2?Expires=1791308595&KeyName=labs-flow-prod-cdn-key&Signature=h4mLTJy0XAp5giluuEtHjNR_qjk",
+ "flow_url": "https://flow-content.google/image/89d681e7-d32e-4159-99a7-1033df769537?Expires=1791381448&KeyName=labs-flow-prod-cdn-key&Signature=BuoguGwGHX9oA5Ask5Xibn9yZ3c",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,10 @@
  "kind": "word",
  "word": "window",
  "title": "window · 창문",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a window with blue curtains and a flower pot on the sill.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a window with blue curtains and a flower pot on the sill.",
  "aspect": "1:1",
  "out": "web/assets/art/word_window.png",
  "book": 1,
  "asset_no": 2066,
- "claimed_at": 1791286985.894523
+ "claimed_at": 1791359843.3973343
 }

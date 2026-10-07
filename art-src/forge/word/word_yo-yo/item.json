@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287137.6440134,
+ "updated": 1791359994.5125065,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/d9e9e42c-d353-4f16-a1f8-b88952a8efcd?Expires=1791308716&KeyName=labs-flow-prod-cdn-key&Signature=VWc38wh69XhwnjglcS4G5D4Yd1I",
+ "flow_url": "https://flow-content.google/image/04096cc2-c821-488e-86b2-3fe6084ede9d?Expires=1791381570&KeyName=labs-flow-prod-cdn-key&Signature=aHc3yMTwUDBLD6l0lxJ1t6B5yBQ",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,10 @@
  "kind": "word",
  "word": "yo-yo",
  "title": "yo-yo · 요요",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a red yo-yo with its string.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a red yo-yo with its string.",
  "aspect": "1:1",
  "out": "web/assets/art/word_yo-yo.png",
  "book": 1,
  "asset_no": 2074,
- "claimed_at": 1791287110.891968
+ "claimed_at": 1791359965.882425
 }

@@ -1,5 +1,5 @@
 {
- "status": "queued",
+ "status": "pending",
  "raw": "",
  "cut": "",
  "attempts": 0,
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_pin.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791364825.879647
 }

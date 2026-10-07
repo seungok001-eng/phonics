@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791362914.8806138,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/7c84f6c3-6266-4cd7-ac6b-c876fb7ded37?Expires=1791384490&KeyName=labs-flow-prod-cdn-key&Signature=8u8Uc73GMWNU6YG9BjQACEzxslY",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:55",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,8 +17,10 @@
  "kind": "word",
  "word": "big",
  "title": "big · 큰",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a big grey elephant standing next to a tiny mouse.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a big grey elephant standing next to a tiny mouse.",
  "aspect": "1:1",
  "out": "web/assets/art/word_big.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791362885.8821585,
+ "asset_no": 2112
 }

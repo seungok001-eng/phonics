@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287204.670444,
+ "updated": 1791360579.377525,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/4f87cb7c-ae53-4c5b-a7c7-c77d92517b34?Expires=1791308784&KeyName=labs-flow-prod-cdn-key&Signature=PuPhEGqr0T8xFR0NMzFTzThnnQo",
+ "flow_url": "https://flow-content.google/image/c06b07b6-2002-4a84-80e5-cabfec3eb612?Expires=1791382158&KeyName=labs-flow-prod-cdn-key&Signature=IpVmatPVmY_kgQp8rwEzImWE21o",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:16",
  "gen": "",
  "job_type": "image",
  "reference": "word_goat",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_goat.png",
  "book": 1,
- "claimed_at": 1791287168.3820097
+ "claimed_at": 1791360543.3762772
 }

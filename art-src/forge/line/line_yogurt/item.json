@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791288605.2378244,
+ "updated": 1791362362.7275422,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/93805ba0-69da-4891-89f7-b3043b826534?Expires=1791310182&KeyName=labs-flow-prod-cdn-key&Signature=lGHaMauM2AEn94PypRz09sXU9pg",
+ "flow_url": "https://flow-content.google/image/b0b965fd-802a-46c5-8369-b8a4023a46be?Expires=1791383939&KeyName=labs-flow-prod-cdn-key&Signature=q28wWUAc7vXd5alFUNHR0Gtpwpk",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:39",
  "gen": "",
  "job_type": "image",
  "reference": "word_yogurt",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_yogurt.png",
  "book": 1,
- "claimed_at": 1791288565.8878922
+ "claimed_at": 1791362323.5394902
 }

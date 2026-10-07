@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791288147.9786277,
+ "updated": 1791362066.9454813,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/fea46adb-bbd2-4dfd-9bde-c394e773509e?Expires=1791309725&KeyName=labs-flow-prod-cdn-key&Signature=SU4G2fw4z5Az3cEuUilERz7ntlQ",
+ "flow_url": "https://flow-content.google/image/33636034-14c9-445e-a35e-4a6b12f12857?Expires=1791383639&KeyName=labs-flow-prod-cdn-key&Signature=EpX4g-rroWazDgLfoXos9jajt2Y",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:34",
  "gen": "",
  "job_type": "image",
  "reference": "word_tomato",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_tomato.png",
  "book": 1,
- "claimed_at": 1791288105.882566
+ "claimed_at": 1791362023.3776197
 }

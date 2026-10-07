@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287245.337587,
+ "updated": 1791360660.1492493,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/6979f519-e9ba-44d0-92ab-72e308a1dcf9?Expires=1791308822&KeyName=labs-flow-prod-cdn-key&Signature=42fu4JtjGX_pvG0-I4VxTJWjcIY",
+ "flow_url": "https://flow-content.google/image/4aca3ffe-7e05-4edd-bc2b-f6509123f08b?Expires=1791382237&KeyName=labs-flow-prod-cdn-key&Signature=GpvJndTMhEPkluuMZrzC9W2Un7o",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:16",
  "gen": "",
  "job_type": "image",
  "reference": "word_guitar",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_guitar.png",
  "book": 1,
- "claimed_at": 1791287205.8768535
+ "claimed_at": 1791360620.8861694
 }

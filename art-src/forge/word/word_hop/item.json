@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791363394.5880265,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/cfb83e8a-77f2-43ff-a703-195d24ba8c7b?Expires=1791384968&KeyName=labs-flow-prod-cdn-key&Signature=nlMZBjzq6Ggz106LYz5z_nEcvps",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 18:01",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,8 +17,9 @@
  "kind": "word",
  "word": "hop",
  "title": "hop · 깡충",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a grey rabbit hopping in the air with motion lines.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a grey rabbit hopping in the air with motion lines.",
  "aspect": "1:1",
  "out": "web/assets/art/word_hop.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791363363.376583
 }

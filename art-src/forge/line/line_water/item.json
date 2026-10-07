@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791288442.3662436,
+ "updated": 1791362250.6703277,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/3fab4297-fd79-4f77-994a-1979db6615f9?Expires=1791310018&KeyName=labs-flow-prod-cdn-key&Signature=_oy9gmcQJPMxgS6QOTKv4xZueMA",
+ "flow_url": "https://flow-content.google/image/56636e0b-8581-4c42-bb39-2fc1f37736ba?Expires=1791383818&KeyName=labs-flow-prod-cdn-key&Signature=bMdvub_64r8ySAINWVgTu__hLqI",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:38",
  "gen": "",
  "job_type": "image",
  "reference": "word_water",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_water.png",
  "book": 1,
- "claimed_at": 1791288308.3911407
+ "claimed_at": 1791362200.8825164
 }

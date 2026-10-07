@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791288041.4082088,
+ "updated": 1791361450.3081057,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/084d7915-aa0e-4c9b-bf00-9378c257f683?Expires=1791309619&KeyName=labs-flow-prod-cdn-key&Signature=GERliyDgKlDgvM31XdbPIIgRELM",
+ "flow_url": "https://flow-content.google/image/117dd271-bebc-44e9-b20b-64636c3dbae8?Expires=1791383029&KeyName=labs-flow-prod-cdn-key&Signature=69xe0FdmaZ8xZ4afjlAAVyNgvdw",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:24",
  "gen": "",
  "job_type": "image",
  "reference": "word_rice",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_rice.png",
  "book": 1,
- "claimed_at": 1791288003.389231
+ "claimed_at": 1791361413.3917766
 }

@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791284366.1971533,
+ "updated": 1791360278.0396886,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/80ece85d-cec8-4ad6-85c6-f9fc27a245e0?Expires=1791305940&KeyName=labs-flow-prod-cdn-key&Signature=kWWZ4Dt5SATnAFFKiMHxSXKcCCc",
+ "flow_url": "https://flow-content.google/image/6f17de3b-df68-422e-9933-457ed0491eae?Expires=1791381858&KeyName=labs-flow-prod-cdn-key&Signature=ScNpGcIAXjINi3_5V7TtlBRjg2w",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": "word_doll",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_doll.png",
  "book": 1,
- "claimed_at": 1791284320.8933961
+ "claimed_at": 1791360240.9601836
 }

@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791362671.6808257,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/60008772-4bad-468f-9fef-ab7de7cc6a31?Expires=1791384245&KeyName=labs-flow-prod-cdn-key&Signature=5mg1QrBeoeAJo_ZC53fRddLA3uQ",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:47",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,8 +17,10 @@
  "kind": "word",
  "word": "tag",
  "title": "tag · 꼬리표",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a blank paper gift tag on a loop of red string.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a blank paper gift tag on a loop of red string.",
  "aspect": "1:1",
  "out": "web/assets/art/word_tag.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791362640.8904574,
+ "asset_no": 2098
 }

@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287812.7004285,
+ "updated": 1791361227.1388607,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/694d8669-e033-4757-b07d-c492fad9a110?Expires=1791309390&KeyName=labs-flow-prod-cdn-key&Signature=TN8W9UqQZkNKTz9ygPezNO5ju4k",
+ "flow_url": "https://flow-content.google/image/41b1bb6b-6c90-4a1c-a5d6-6df5d158e45b?Expires=1791382802&KeyName=labs-flow-prod-cdn-key&Signature=QHcQMNur7fHBA3KOWzmEjGW5x0E",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:21",
  "gen": "",
  "job_type": "image",
  "reference": "word_otter",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_otter.png",
  "book": 1,
- "claimed_at": 1791287773.4285471
+ "claimed_at": 1791361185.8861032
 }

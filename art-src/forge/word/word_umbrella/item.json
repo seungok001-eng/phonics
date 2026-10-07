@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791286920.0273983,
+ "updated": 1791359777.1700623,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/05c34c39-5437-4138-8177-7ebb29800594?Expires=1791308498&KeyName=labs-flow-prod-cdn-key&Signature=XAe34697VH9W7RzJN60pTIm0Zg0",
+ "flow_url": "https://flow-content.google/image/5fee5d68-c59b-405e-ae22-f440225dcab3?Expires=1791381351&KeyName=labs-flow-prod-cdn-key&Signature=CzNcGEcXM7mrpPjGaHLb9Lg1Po8",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 16:57",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,10 @@
  "kind": "word",
  "word": "umbrella",
  "title": "umbrella · 우산",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: an open red umbrella.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: an open red umbrella.",
  "aspect": "1:1",
  "out": "web/assets/art/word_umbrella.png",
  "book": 1,
  "asset_no": 2060,
- "claimed_at": 1791286893.3845572
+ "claimed_at": 1791359745.8957093
 }

@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287704.1579032,
+ "updated": 1791361115.1252205,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/497d3700-3a10-47ef-b2d4-d45eeccf694b?Expires=1791309282&KeyName=labs-flow-prod-cdn-key&Signature=0mwF1nbd0TAEHFQi0fpat2JZl_E",
+ "flow_url": "https://flow-content.google/image/d0e5797e-14c9-4735-abd0-2723fcf6ca57?Expires=1791382681&KeyName=labs-flow-prod-cdn-key&Signature=JYKDiax5ztnzrKiHvHxi6lIw9ek",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:18",
  "gen": "",
  "job_type": "image",
  "reference": "word_moon",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_moon.png",
  "book": 1,
- "claimed_at": 1791287665.8820927
+ "claimed_at": 1791361050.8854477
 }

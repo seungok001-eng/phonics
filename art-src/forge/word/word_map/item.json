@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791362625.4832811,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/9b728d89-baaa-4941-bd8c-6a0b950bb21f?Expires=1791384198&KeyName=labs-flow-prod-cdn-key&Signature=GevdwhkVuLL5eJBvQyLSqUw5JUs",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:47",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,8 +17,10 @@
  "kind": "word",
  "word": "map",
  "title": "map · 지도",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: an unrolled paper treasure map with a dotted path, a little island and a red cross mark.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: an unrolled paper treasure map with a dotted path, a little island and a red cross mark.",
  "aspect": "1:1",
  "out": "web/assets/art/word_map.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791362593.387239,
+ "asset_no": 2095
 }

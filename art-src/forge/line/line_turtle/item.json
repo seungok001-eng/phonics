@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791288129.1557372,
+ "updated": 1791362035.0666783,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/9fd90a83-cbd7-463e-b132-81e19751ce82?Expires=1791309704&KeyName=labs-flow-prod-cdn-key&Signature=h2L2IygGA_Vwys0sS30z6_YpvXA",
+ "flow_url": "https://flow-content.google/image/4b53be62-839d-4f31-ad11-4c286619f818?Expires=1791383614&KeyName=labs-flow-prod-cdn-key&Signature=mpCNpr2pl4EjzWlD5gNL4yzJedk",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:34",
  "gen": "",
  "job_type": "image",
  "reference": "word_turtle",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_turtle.png",
  "book": 1,
- "claimed_at": 1791288085.9024022
+ "claimed_at": 1791361995.933792
 }

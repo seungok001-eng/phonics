@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287899.527547,
+ "updated": 1791361308.4517858,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/8c765629-ad2d-4920-8f4a-0ddff92f9200?Expires=1791309472&KeyName=labs-flow-prod-cdn-key&Signature=xUE8pZJw93iPu5HoE1OS2Mw_NLc",
+ "flow_url": "https://flow-content.google/image/6f217c62-9a59-4c1d-991b-18cf7aaeebdc?Expires=1791382885&KeyName=labs-flow-prod-cdn-key&Signature=_7GlQEqiElo5N5EETiv__oHt8b0",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:22",
  "gen": "",
  "job_type": "image",
  "reference": "word_panda",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_panda.png",
  "book": 1,
- "claimed_at": 1791287855.9051363
+ "claimed_at": 1791361268.3938024
 }

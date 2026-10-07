@@ -1,12 +1,12 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "review",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791362473.6120892,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/70467254-f547-49d4-92c4-e84e744be04b?Expires=1791384045&KeyName=labs-flow-prod-cdn-key&Signature=6pyqmKVDDPFDf9fiWrx8bLz6eJ8",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_beads_ref.png",
  "book": 2,
- "claimed_at": 1791296670.890611
+ "claimed_at": 1791362438.4040399
 }

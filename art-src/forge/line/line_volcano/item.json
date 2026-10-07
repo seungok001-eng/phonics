@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791288307.944573,
+ "updated": 1791362199.076195,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/710d2e14-0f47-4641-9579-2ad0d0a18e56?Expires=1791309883&KeyName=labs-flow-prod-cdn-key&Signature=rik8TvIdHiVpn7FayfqQXMsUj4E",
+ "flow_url": "https://flow-content.google/image/f718ac46-675a-4dfb-8515-36b69fefd050?Expires=1791383778&KeyName=labs-flow-prod-cdn-key&Signature=4yk5Hz4ViBrbIrGJgffeGcVkWBs",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:37",
  "gen": "",
  "job_type": "image",
  "reference": "word_volcano",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_volcano.png",
  "book": 1,
- "claimed_at": 1791288263.386545
+ "claimed_at": 1791362158.625202
 }

@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287566.6255481,
+ "updated": 1791360943.1310697,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/c442f3ca-9e65-4a93-ab7b-bd85819d6bb3?Expires=1791309147&KeyName=labs-flow-prod-cdn-key&Signature=lY_LD2Lhf7GGdH6HhUFb_4jmm6M",
+ "flow_url": "https://flow-content.google/image/d6298282-0226-4421-89e8-8b5f974b9c1f?Expires=1791382521&KeyName=labs-flow-prod-cdn-key&Signature=oPPubRv_51fWbG_JU_rTCyjfkWo",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:16",
  "gen": "",
  "job_type": "image",
  "reference": "word_kite",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_kite.png",
  "book": 1,
- "claimed_at": 1791287530.8873737
+ "claimed_at": 1791360890.889319
 }

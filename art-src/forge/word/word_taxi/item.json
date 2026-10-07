@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287099.6702936,
+ "updated": 1791359952.964063,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/bd83f00a-c079-4097-9b6e-2158b4d2b6e8?Expires=1791308675&KeyName=labs-flow-prod-cdn-key&Signature=rixNuNkNkGCC0cN-K0RpgzunlEI",
+ "flow_url": "https://flow-content.google/image/5005c26d-7de4-4766-b93b-5c41a209afed?Expires=1791381528&KeyName=labs-flow-prod-cdn-key&Signature=lgXXaG8GtLfmaLVe69anOEF9Pmc",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:08",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,10 @@
  "kind": "word",
  "word": "taxi",
  "title": "taxi · 택시",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a yellow taxi cab seen from the side.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a yellow taxi cab seen from the side.",
  "aspect": "1:1",
  "out": "web/assets/art/word_taxi.png",
  "book": 1,
  "asset_no": 2071,
- "claimed_at": 1791287070.8814993
+ "claimed_at": 1791359923.3795524
 }

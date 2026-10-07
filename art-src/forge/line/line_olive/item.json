@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791287855.90198,
+ "updated": 1791361267.5289314,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/af81227e-7b15-4897-a935-2c32547f04b3?Expires=1791309431&KeyName=labs-flow-prod-cdn-key&Signature=rbH4X-7RhfndBrqwf6ycwnDmUPU",
+ "flow_url": "https://flow-content.google/image/96f87d14-253b-4c16-8280-938bb2ce03bf?Expires=1791382845&KeyName=labs-flow-prod-cdn-key&Signature=qjxsajR5aujpOkWV0jGh-aa6fCE",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 17:21",
  "gen": "",
  "job_type": "image",
  "reference": "word_olive",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_olive.png",
  "book": 1,
- "claimed_at": 1791287813.38565
+ "claimed_at": 1791361228.3902116
 }
