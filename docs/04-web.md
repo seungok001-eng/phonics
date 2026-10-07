@@ -101,6 +101,15 @@ pages: L1 `alphabet_song` `alphabet_path` `word_hunt` / wb `wb_review_letters`, 
 - `playSeq` 항목의 `wait`(ms) 는 소리 없이 기다리기(역할 읽기), `beat`(ms) 는 소리 길이와 상관없이 고정 간격(챈트 박자).
 - 챈트: 소리 챈트·단어 챈트 때 `music/chant_sound.mp3`·`chant_word.mp3` 가 있으면 반주로 틀고(배경음악과 별도, duck 안 함) 소리를 1.2초 박자에 맞춰 이어 붙인다. 없으면 지금처럼 소리 길이대로.
 
+## 이야기 따라가기 (우리말 도움 · 안내서 · 지도)
+데이터(유닛 JSON): `story.synopsis_ko`(줄거리) · `so_far_ko`(지난 이야기 한 줄) · `goal_ko`(이번 이야기) · `panels[].ko`(칸 설명) · `panels[].lines[].ko`(대사 번역) · `panels[].ask[{en, ko}]`(질문 2개) · `storybook.pages[].ko`·`lines[].ko` · `show.recap[].ko`. book.json: `story_arc{ko, books_ko, characters_ko}`, `characters[].role_ko`(한 줄 역할). 없으면 그 부분만 조용히 빠진다.
+- 스토리 쪽(학생·슬라이드): 첫 칸 위에 **지난 이야기**(앞 유닛 마지막 칸 썸네일 + `so_far_ko`) · **이번 이야기**(`goal_ko`) 띠. `💬 우리말` 단추(`pages.js koBtn/koToggle`, 우리말 자료가 있는 유닛에만 보임): 켜면 대사 번역이 말풍선 아래 작게, 칸 설명과 질문 Q 두 개가 칸 옆(슬라이드)/아래(교재 쪽)에. **선생님 모드 기본 켬, 학생 화면 기본 끔**(모드별로 `localStorage pp_ko_t / pp_ko_s` 에 기억). 되짚기 공연(`story_recap`)도 같음. **인쇄본에는 우리말 설명·띠 없음**(교사용 안내서로).
+- 친구들 소개(`characters`·슬라이드): 캐치프레이즈 아래 `role_ko` 한 줄. 글이 길면 그림이 줄어 쪽 안에 맞는다.
+- 스토리북 보기(`story.html`): 위 막대 `💬 우리말`(기본 끔, `pp_ko_sb`) — 쪽 설명 `pages[].ko` 한 줄 + 대사 번역. 자료가 한 쪽도 없으면 단추 숨김.
+- **교사용 이야기 안내서** `web/teacher/story-guide.html?bk=1`: 권 줄기(`story_arc`)·등장인물(그림 + role_ko)·유닛 차례(줄거리 첫 문장) → 유닛마다 줄거리·지난/이번 이야기·칸 4개(썸네일, 영어 대사+번역, 칸 설명, 질문, 숨은 단어)·스토리북 쪽 요약·되짚기 12장면. A4 인쇄용. `?art=` 로 축소 그림 폴더.
+- **이야기 지도 포스터** `web/teacher/story-map.html?bk=1`: 0~12유닛을 뱀 모양 길 하나로(유닛마다 첫 칸 썸네일 + 제목 + 글자/가족 + `synopsis_ko` 첫 문장, 주황 = 글자 유닛·파랑 = 복습·초록 = 쇼), 친구들 칸(4명 + 비즈). A3 가로 1쪽. `?a4=1` 이면 A4 세로 2쪽(왼쪽·오른쪽 반, 점선에서 이어 붙이기).
+- `python tools/pdf.py guides` (또는 전체 실행에 포함): `PomiPhonics1_StoryGuide.pdf`(A4), `PomiPhonics1_StoryMap.pdf`(A3 가로 1쪽), `PomiPhonics1_StoryMap_A4.pdf`(2쪽). `--book 2` 도 됨. 그림은 `build/art_small/`(장면·스토리북·캐릭터 기준 그림 640px) 축소본을 써서 가볍게. 홈페이지 선생님 자료 칸에 권별 링크.
+
 ## 놀이·수업 도구
 - 소리 잡기 게임(`read_play`·슬라이드): 유닛 JSON 의 5라운드가 끝나면 "🔁 한 번 더" — 유닛 글자·단어에서 무작위 5라운드(바로 앞 라운드와 같은 조합은 피함). 팀 점수판: A·B 를 눌러 현재 팀을 고르고 정답이면 그 팀 +1, 🗑 로 점수 지우기.
 - 짝 맞추기 `Memory game` (선생님 슬라이드 `read_play` 3번째 장만, 학생책·인쇄에는 없음): 유닛 단어 6개 × 2 = 12장(4×3). 뒤집으면 단어 소리, 짝이면 그대로 남고 효과음, 다 맞추면 Great job.

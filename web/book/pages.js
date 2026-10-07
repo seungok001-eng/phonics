@@ -30,6 +30,25 @@ function roleTap(e, av) {
   Sound.unlock(); Sound.sfx('tap');
 }
 function roleBtn(big) { return `<button class="btn ${big ? 'big' : 'small'} role-btn print-hide ${ROLE.on ? 'on' : ''}" onclick="roleToggle(this)" title="역할 읽기: 켜고 말풍선의 친구를 누르면 그 줄은 아이가 읽어요">🎭 역할</button>`; }
+// ---------- 우리말 도움 (💬 우리말): 칸 설명(panels[].ko)·대사 번역(lines[].ko)·질문(panels[].ask). 선생님 모드 기본 켬, 학생 화면 기본 끔 (모드별로 기억). 인쇄에는 없음
+const KO = { on: false };
+function koKey() { return App.teacher ? 'pp_ko_t' : 'pp_ko_s'; }
+function koInit() { let v = null; try { v = localStorage.getItem(koKey()); } catch (e) { /* 없어도 동작 */ } KO.on = v === null ? !!App.teacher : v === '1'; document.body.classList.toggle('ko-on', KO.on); return KO.on; }
+function koToggle() { KO.on = !KO.on; try { localStorage.setItem(koKey(), KO.on ? '1' : '0'); } catch (e) { /* 무시 */ } document.body.classList.toggle('ko-on', KO.on); document.querySelectorAll('.ko-btn').forEach((b) => b.classList.toggle('on', KO.on)); }
+function hasKo(st) { return !!(st && st.panels && st.panels.some((pn) => pn.ko || (pn.ask && pn.ask.length) || pn.lines.some((ln) => ln.ko))); }   // 우리말 자료가 있는 유닛만 단추를 보인다
+function koBtn(big, st) { koInit(); if (st && !hasKo(st)) return ''; return `<button class="btn ${big ? 'big' : 'small'} ko-btn print-hide ${KO.on ? 'on' : ''}" onclick="koToggle()" title="우리말 도움: 칸 설명·대사 번역·질문을 보여요 (선생님이 읽고 아이가 답해요)">💬 우리말</button>`; }
+function koBox(pn, ctx) {   // 칸 설명 + 질문 두 개
+  if (ctx.print || !(pn.ko || (pn.ask && pn.ask.length))) return '';
+  return `<div class="kobox kohelp">${pn.ko ? `<div class="kd">${esc(pn.ko)}</div>` : ''}${(pn.ask || []).map((a) => `<div class="ask"><b>Q</b>${esc(a.en)}<small>${esc(a.ko)}</small></div>`).join('')}</div>`;
+}
+function lineKo(ln, ctx) { return !ctx.print && ln.ko ? `<small class="tr kohelp">${esc(ln.ko)}</small>` : ''; }
+// 지난 이야기(so_far_ko: 앞 유닛 마지막 칸 썸네일 + 한 줄) · 이번 이야기(goal_ko)
+function prevScene(u) { let last = null; for (const x of App.book.units) { if (x.n === u) break; const uj = App.units[x.n]; if (uj && uj.story && uj.story.panels && uj.story.panels.length) last = uj.story.panels[uj.story.panels.length - 1].id; } return last; }
+function soFarHtml(ctx) {
+  const st = ctx.unit.story; if (ctx.print || !(st.so_far_ko || st.goal_ko)) return '';
+  const prev = st.so_far_ko ? prevScene(ctx.u) : null;
+  return `<div class="sofar print-hide">${st.so_far_ko ? `<div class="sf">${prev ? pic(prev, 'thumb', 'last scene') : ''}<div><b>지난 이야기</b>${esc(st.so_far_ko)}</div></div>` : ''}${st.goal_ko ? `<div class="sf goal"><div><b>이번 이야기</b>${esc(st.goal_ko)}</div></div>` : ''}</div>`;
+}
 // 스토리 한 줄을 playSeq 항목으로 (역할 줄이면 소리 없이 2.5초)
 function storyItem(ln, el, pn, idx, k) {
   const mine = ROLE.on && ROLE.has(ln.who);
@@ -246,12 +265,12 @@ PAGES.story = (ctx) => {
   const sbLink = half === 1 && ctx.unit.storybook?.pages?.length && !ctx.print ? `<a class="btn small sb-link print-hide" href="story.html?u=${ctx.u}&p=1${bkParam()}" target="_blank" title="스토리북 (전체화면 그림책)">📙</a>` : '';
   const html = panels.map((pn, i) => {
     const idx = (half - 1) * 2 + i;
-    const bubbles = pn.lines.map((ln, k) => `<div class="bubble say ${k % 2 ? 'right' : ''}" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-panel="${idx}" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}</span></div>`).join('');
+    const bubbles = pn.lines.map((ln, k) => `<div class="bubble say ${k % 2 ? 'right' : ''}" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-panel="${idx}" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}${lineKo(ln, ctx)}</span></div>`).join('');
     const find = pn.hidden?.length ? `<div class="find"><b>🔍 Find:</b>${pn.hidden.map((w) => `<span class="chip" data-say="word_${esc(w)}" data-text="${esc(w)}" onclick="this.classList.toggle('on')">${esc(w)}</span>`).join('')}</div>` : '';
     const movie = pn.video && !ctx.print ? `<button class="btn blue movie print-hide" onclick="playVideo(${idx})">▶ movie</button>` : '';
-    return `<div class="pwrap"><div class="panel" data-panel="${idx}"><div class="scene">${pic(pn.id, '', 'scene')}</div><span class="no">${idx + 1}</span>${movie}<div class="bubbles">${bubbles}</div></div>${find}</div>`;
+    return `<div class="pwrap"><div class="panel" data-panel="${idx}"><div class="scene">${pic(pn.id, '', 'scene')}</div><span class="no">${idx + 1}</span>${movie}<div class="bubbles">${bubbles}</div></div>${find}${koBox(pn, ctx)}</div>`;
   }).join('');
-  return `<div class="story-top"><h3 style="margin:0;font-size:24px">📖 ${esc(st.title)}</h3><button class="btn orange main-play print-hide" onclick="storyPlay(${half})">▶ ${esc(App.book.instructions.listen_story)}</button>${sw}${roleBtn()}${sbLink}</div><div class="panels">${html}</div>`;
+  return `<div class="story-top"><h3 style="margin:0;font-size:24px">📖 ${esc(st.title)}</h3><button class="btn orange main-play print-hide" onclick="storyPlay(${half})">▶ ${esc(App.book.instructions.listen_story)}</button>${sw}${roleBtn()}${ctx.print ? '' : koBtn(false, st)}${sbLink}</div>${half === 1 ? soFarHtml(ctx) : ''}<div class="panels">${html}</div>`;
 };
 async function storyPlay(half) {
   Sound.unlock();
@@ -344,7 +363,7 @@ function fillPick(el, w, ans) { Sound.unlock(); if (w === ans) { el.classList.ad
 
 // ---------- 0유닛 ----------
 PAGES.characters = (ctx) => {
-  const cs = Object.entries(App.book.characters).map(([id, c]) => `<div class="char">${pic('char_' + id + '_ref', '', c.name)}<h3 style="color:${c.color}">${esc(c.name)} <span class="ko">${esc(c.ko)}</span></h3><div class="say-line say" data-say="catch_${id}" data-text="${esc(c.catchphrase.replace(/[()]/g, ''))}">${esc(c.catchphrase)}</div><div class="ko">${esc(c.personality)}</div></div>`).join('');
+  const cs = Object.entries(App.book.characters).map(([id, c]) => `<div class="char">${pic('char_' + id + '_ref', '', c.name)}<h3 style="color:${c.color}">${esc(c.name)} <span class="ko">${esc(c.ko)}</span></h3><div class="say-line say" data-say="catch_${id}" data-text="${esc(c.catchphrase.replace(/[()]/g, ''))}">${esc(c.catchphrase)}</div>${c.role_ko ? `<div class="role">${esc(c.role_ko)}</div>` : ''}<div class="ko">${esc(c.personality)}</div></div>`).join('');
   return instr('', 'Meet the friends!', '친구들을 만나요') + `<div class="chars">${cs}</div>`;
 };
 PAGES.intro_story = (ctx) => PAGES.story({ ...ctx, page: { ...ctx.page, half: 1 } });
@@ -637,20 +656,20 @@ async function huntPick(el) {
 }
 
 // 이야기 되돌아보기(공연): 12장면 띠(썸네일 + 대사, 누르면 소리) + ▶ 전체 공연(무대에 장면 크게 + 줄 읽기, 역할 읽기 🎭) + 마지막 피날레(unit.story 첫 칸)
-function recapStageHtml(scene, line, title) {
-  const bubble = line ? `<div class="bubble say" data-say="${esc(line.audio)}" data-text="${esc(line.text)}">${avatar(line.who)}<span>${esc(line.text)}</span></div>` : '';
-  return `<div class="stage-pic">${pic(scene, '', 'scene')}</div><div class="stage-cap">${title ? `<div class="stage-title">${esc(title)}</div>` : ''}${bubble}</div>`;
+function recapStageHtml(scene, line, title, ko) {
+  const bubble = line ? `<div class="bubble say" data-say="${esc(line.audio)}" data-text="${esc(line.text)}">${avatar(line.who)}<span>${esc(line.text)}${line.ko ? `<small class="tr kohelp">${esc(line.ko)}</small>` : ''}</span></div>` : '';
+  return `<div class="stage-pic">${pic(scene, '', 'scene')}</div><div class="stage-cap">${title ? `<div class="stage-title">${esc(title)}</div>` : ''}${bubble}${ko ? `<div class="kobox kohelp"><div class="kd">${esc(ko)}</div></div>` : ''}</div>`;
 }
 PAGES.story_recap = (ctx) => {
   const rc = ctx.unit.show.recap, fin = ctx.unit.story.panels[0];
   const strip = rc.map((r, i) => `<div class="rc-cell say" data-i="${i}" data-say="${esc(r.line.audio)}" data-text="${esc(r.line.text)}" onclick="recapShow(${i})"><span class="u">Unit ${r.unit}</span>${pic(r.scene, '', 'scene')}<div class="ln">${avatar(r.line.who)}<span>${esc(r.line.text)}</span></div></div>`).join('');
-  return `<div class="story-top"><h3 style="margin:0;font-size:24px">🎭 ${esc(ctx.unit.story.title)}</h3><button class="btn orange main-play print-hide" onclick="recapPlay()">▶ Show time!</button>${ctx.print ? '' : roleBtn()}</div>` +
+  return `<div class="story-top"><h3 style="margin:0;font-size:24px">🎭 ${esc(ctx.unit.story.title)}</h3><button class="btn orange main-play print-hide" onclick="recapPlay()">▶ Show time!</button>${ctx.print ? '' : roleBtn() + (ctx.unit.show.recap.some((r) => r.ko || r.line.ko) ? koBtn() : '')}</div>` +
     `<div class="stage" id="rcStage">${recapStageHtml(fin.id, null, ctx.unit.story.title)}</div><div class="rc-strip">${strip}</div>`;
 };
 // 띠의 한 장면을 무대에 올리고 그 줄을 읽는다
 function recapShow(i) {
   const unit = App.units[App.u], r = unit.show.recap[i]; stopSeq();
-  $('rcStage').innerHTML = recapStageHtml(r.scene, r.line, `Unit ${r.unit}`);
+  $('rcStage').innerHTML = recapStageHtml(r.scene, r.line, `Unit ${r.unit}`, r.ko);
   document.querySelectorAll('.rc-cell').forEach((c) => c.classList.toggle('on', +c.dataset.i === i));
 }
 async function recapPlay() {

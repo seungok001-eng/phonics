@@ -7,7 +7,8 @@
 .sl-head .ko { font-size: 18px; color: var(--soft); margin-left: auto; text-align: right; max-width: 520px; }
 .sl-head .sl-no { font-family: 'Fredoka'; font-size: 22px; color: var(--soft); white-space: nowrap; }
 .sl-body { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 14px; }
-.sl-tools { display: flex; gap: 14px; align-items: center; }
+.sl-tools { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.sl-tools .btn { white-space: nowrap; }
 .slide .btn.big { font-size: 28px; padding: 12px 26px; border-radius: 18px; }
 .slide .spk.big { width: 64px; height: 64px; font-size: 32px; }
 
@@ -163,6 +164,15 @@
 .sl-path.bridge .lt { font-size: 50px; }
 
 .sl-vw { gap: 20px; } .sl-vw .vw-card .glyph { font-size: 130px; } .sl-vw .vw-card .glyph small { font-size: 96px; } .sl-vw .vw-card .ipa { font-size: 44px; } .sl-vw .vw-card .vw-pic { height: calc(var(--sh) - 560px); } .sl-vw .vw-card .vw-word { font-size: 40px; } .sl-vw .vw-card .hint { font-size: 20px; }
+
+/* 우리말 도움 · 지난/이번 이야기 (슬라이드) */
+.sl-story.with-sofar .panel { max-height: calc(var(--sh) - 300px); }
+.slide .sofar .sf { font-size: 20px; padding: 10px 16px; gap: 14px; } .slide .sofar .sf b { font-size: 18px; } .slide .sofar .thumb { width: 110px; height: 82px; }
+.sl-story-side .kobox, .sl-recap-side .kobox { font-size: 22px; padding: 10px 16px; }
+.sl-story-side .kobox .ask small, .sl-recap-side .kobox .ask small { font-size: 18px; display: block; margin-left: 0; }
+.bubbles-col .bubble .tr { font-size: 20px; display: block; }
+.sl-chars .char .role { font-size: 20px; }
+.sl-chars.n5 { grid-template-columns: repeat(5, 1fr); } .sl-chars.n5 .char h3 { font-size: 28px; } .sl-chars.n5 .char .say-line { font-size: 20px; }
 
 /* 친구들 */
 .sl-chars { grid-template-columns: repeat(4, 1fr); gap: 20px; flex: 1; min-height: 0; }

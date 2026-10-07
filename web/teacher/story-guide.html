@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 이야기 안내서</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --blue:#4FA3E0; --sky:#F3FAFF; --skyline:#BFE3F7; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; font-size:14px; line-height:1.45; }
+  .sheet { width:210mm; min-height:297mm; margin:16px auto; background:#fff; padding:14mm 14mm 12mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; break-after:page; }
+  h1 { font-family:'Fredoka'; color:var(--orange); margin:0 0 4px; font-size:26px; }
+  h1 small { color:var(--soft); font-family:'Andika'; font-weight:400; font-size:14px; margin-left:8px; }
+  h2 { font-family:'Fredoka'; font-size:17px; margin:12px 0 6px; color:var(--blue); border-left:4px solid var(--blue); padding-left:8px; }
+  p { margin:4px 0; }
+  .lead { background:var(--cream); border:2px solid var(--line); border-radius:12px; padding:8px 12px; }
+  .chars { display:grid; grid-template-columns:repeat(5,1fr); gap:8px; }
+  .ch { border:2px solid var(--line); border-radius:12px; padding:6px; text-align:center; font-size:12px; }
+  .ch .cimg { position:relative; height:52mm; background:var(--cream); border-radius:8px; display:flex; align-items:center; justify-content:center; color:var(--soft); margin-bottom:4px; overflow:hidden; }
+  .ch .cimg img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; background:#fff; }
+  .ch b { font-family:'Fredoka'; font-size:16px; display:block; } .ch b small { color:var(--soft); font-family:'Andika'; font-weight:400; font-size:12px; }
+  .chars.n4 { grid-template-columns:repeat(4,1fr); }
+  table { width:100%; border-collapse:collapse; }
+  th, td { border:1px solid var(--line); padding:5px 7px; vertical-align:top; text-align:left; }
+  th { background:var(--cream); font-family:'Fredoka'; font-weight:500; white-space:nowrap; }
+  .toc td.n { width:36px; text-align:center; font-family:'Fredoka'; }
+  .unit-head { display:flex; align-items:baseline; gap:10px; }
+  .unit-head .n { background:var(--orange); color:#fff; font-family:'Fredoka'; border-radius:10px; padding:2px 10px; font-size:16px; }
+  .meta { display:flex; gap:8px; margin:6px 0; }
+  .meta div { flex:1; border-radius:10px; padding:6px 10px; font-size:13px; }
+  .meta .sf { background:var(--cream); border:2px solid var(--line); } .meta .goal { background:var(--sky); border:2px solid var(--skyline); }
+  .meta b { display:block; font-family:'Fredoka'; font-size:12px; color:var(--orange); } .meta .goal b { color:var(--blue); }
+  .pn td.th { width:48mm; } .thumbw { position:relative; display:flex; align-items:center; justify-content:center; width:46mm; height:34.5mm; border-radius:8px; background:var(--cream); color:var(--soft); font-size:11px; overflow:hidden; }
+  .thumbw img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+  .pn .no { font-family:'Fredoka'; color:#fff; background:var(--ink); border-radius:50%; width:20px; height:20px; display:inline-flex; align-items:center; justify-content:center; font-size:12px; margin-bottom:3px; }
+  .ln { margin:1px 0; } .ln b { color:var(--ink); } .ln .en { font-family:'Andika'; font-size:14px; } .ln .ko { color:var(--soft); font-size:12px; margin-left:6px; }
+  .kd { background:var(--sky); border-radius:8px; padding:4px 8px; margin-bottom:4px; font-size:12.5px; }
+  .ask { font-size:12.5px; margin:2px 0; } .ask b { background:var(--blue); color:#fff; border-radius:5px; padding:0 5px; font-family:'Fredoka'; margin-right:5px; font-size:11px; } .ask small { color:var(--soft); margin-left:6px; }
+  .hid { font-size:12px; color:var(--soft); margin-top:4px; } .hid span { border:1px solid var(--line); border-radius:6px; padding:0 6px; margin-right:3px; font-family:'Andika'; color:var(--ink); }
+  .sb td.th { width:36mm; } .sb .thumbw { width:34mm; height:25.5mm; }
+  .task { background:#FFF3D6; border-radius:6px; padding:1px 8px; font-size:12px; display:inline-block; margin-top:3px; }
+  .note { color:var(--soft); font-size:12px; }
+  .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:210mm; }
+  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
+  @page { size:A4; margin:0; }
+  @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } }
+</style>
+</head>
+<body>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span class="note">교사용 이야기 안내서 — 권 줄기 · 등장인물 · 유닛마다 줄거리 · 칸 설명 · 질문 · 숨은 단어 · 스토리북 쪽</span></div>
+<div id="out"></div>
+<script>
+// 교사용 이야기 안내서: ?bk=1|2. 데이터는 book.story_arc{ko, books_ko, characters_ko}, characters[].role_ko,
+// unit.story.synopsis_ko/so_far_ko/goal_ko, panels[].ko·ask[{en,ko}]·lines[].ko·hidden, storybook.pages[].ko·lines[].ko, show.recap[].ko
+const BK = +(new URLSearchParams(location.search).get('bk') || 1); let DIR = '';
+async function get(rel, root) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + (root ? '' : DIR) + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+async function getBook() { const books = (await get('books.json', true)) || [{ n: 1, dir: '' }]; const info = books.find((x) => x.n === BK) || books[0]; DIR = info.dir || ''; return get('book.json'); }
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const ART = new URLSearchParams(location.search).get('art') || '../assets/art/';   // pdf.py 는 축소본 폴더(build/art_small)를 넘겨 PDF 를 가볍게 한다
+const art = (id) => `${ART}${id}${/^(scene_|sb\d*_|cast_sheet)/.test(id) ? '.jpg' : '.png'}`;
+const thumb = (id, label) => `<span class="thumbw">${esc(label || id)}<img src="${art(id)}" alt="" onerror="this.remove()"></span>`;   // 그림이 없으면 뒤의 글자가 보인다
+const firstSentence = (t) => { const m = /^[^.!?。]*[.!?。]/.exec(t || ''); return m ? m[0] : (t || ''); };
+(async () => {
+  const book = await getBook(); if (!book) { document.getElementById('out').textContent = 'book.json 을 읽지 못했어요'; return; }
+  const units = {};
+  await Promise.all(book.units.filter((x) => x.ready !== false).map(async (x) => { units[x.n] = await get(`units/unit${String(x.n).padStart(2, '0')}.json`); }));
+  const arc = book.story_arc || {}, who = (id) => (book.characters[id] && book.characters[id].name) || (id === 'narrator' ? '해설' : id === 'both' ? '함께' : id);
+  const chars = Object.entries(book.characters).map(([id, c]) => `<div class="ch"><span class="cimg">${esc(c.name)}<img src="${art('char_' + id + '_ref')}" alt="" onerror="this.remove()"></span><b style="color:${c.color}">${esc(c.name)} <small>${esc(c.ko)}</small></b><div>${esc(c.role_ko || c.personality || '')}</div><div class="note">"${esc(c.catchphrase)}"</div></div>`).join('');
+  const toc = book.units.map((x) => { const u = units[x.n]; return `<tr><td class="n">${x.n}</td><td>${esc(x.title)}${u && u.title_ko ? ` <span class="note">${esc(u.title_ko)}</span>` : ''}</td><td>${u && u.story ? esc(firstSentence(u.story.synopsis_ko)) : '<span class="note">준비 중</span>'}</td></tr>`; }).join('');
+  let html = `<div class="sheet"><h1>${esc(book.title)} 이야기 안내서 <small>교사용 · ${esc(book.subtitle || '')}</small></h1>
+    <h2>이야기의 큰 줄기</h2><p class="lead">${esc(arc.ko || '(book.json 의 story_arc.ko 가 아직 없어요)')}</p>
+    ${arc.books_ko ? `<h2>권과 권 사이</h2><p>${esc(arc.books_ko)}</p>` : ''}
+    <h2>등장인물</h2>${arc.characters_ko ? `<p>${esc(arc.characters_ko)}</p>` : ''}<div class="chars n${Object.keys(book.characters).length}">${chars}</div>
+    <h2>유닛 차례</h2><table class="toc"><tr><th>유닛</th><th>제목</th><th>줄거리 한 줄</th></tr>${toc}</table>
+    <p class="note" style="margin-top:8px">수업 전에 그 유닛 쪽을 읽고, "지난 이야기 → 이번 이야기" 를 한 줄씩 우리말로 들려준 뒤 영어로 들려주세요. 질문(Q)은 선생님이 읽고 아이가 그림을 가리키거나 한 단어로 답하면 됩니다. 웹 교재 선생님 모드의 💬 우리말 단추를 켜면 같은 내용이 칸 옆에 나옵니다.</p></div>`;
+  for (const x of book.units) {
+    const u = units[x.n]; if (!u || !u.story) continue;
+    const st = u.story;
+    const panels = st.panels.map((pn, i) => `<tr><td class="th"><span class="no">${i + 1}</span>${thumb(pn.id, `칸 ${i + 1}`)}</td>
+      <td>${pn.lines.map((ln) => `<div class="ln"><b>${esc(who(ln.who))}:</b> <span class="en">${esc(ln.text)}</span>${ln.ko ? `<span class="ko">${esc(ln.ko)}</span>` : ''}</div>`).join('')}</td>
+      <td>${pn.ko ? `<div class="kd">${esc(pn.ko)}</div>` : ''}${(pn.ask || []).map((a) => `<div class="ask"><b>Q</b>${esc(a.en)}<small>${esc(a.ko)}</small></div>`).join('')}${(pn.hidden || []).length ? `<div class="hid">🔍 숨은 단어: ${pn.hidden.map((w) => `<span>${esc(w)}</span>`).join('')}</div>` : ''}</td></tr>`).join('');
+    const sbp = (u.storybook && u.storybook.pages) || [];
+    const sb = sbp.length ? `<h2>스토리북 쪽 (${sbp.length}쪽)</h2><table class="sb">${sbp.map((pg, i) => `<tr><td class="th">${thumb(pg.id, `쪽 ${i + 1}`)}</td><td>${(pg.lines || []).map((ln) => `<div class="ln"><b>${esc(who(ln.who))}:</b> <span class="en">${esc(ln.text)}</span>${ln.ko ? `<span class="ko">${esc(ln.ko)}</span>` : ''}</div>`).join('')}${pg.ko ? `<div class="kd" style="margin-top:4px">${esc(pg.ko)}</div>` : ''}${pg.task ? `<div class="task">✨ ${esc(pg.task)}${pg.task_ko ? ` <span class="note">${esc(pg.task_ko)}</span>` : ''}</div>` : ''}</td></tr>`).join('')}</table>` : '';
+    const recap = u.show && u.show.recap ? `<h2>되짚기 공연 (12장면)</h2><table class="sb">${u.show.recap.map((r) => `<tr><td class="th">${thumb(r.scene, `Unit ${r.unit}`)}</td><td><div class="ln"><b>Unit ${r.unit} · ${esc(who(r.line.who))}:</b> <span class="en">${esc(r.line.text)}</span>${r.line.ko ? `<span class="ko">${esc(r.line.ko)}</span>` : ''}</div>${r.ko ? `<div class="kd" style="margin-top:4px">${esc(r.ko)}</div>` : ''}</td></tr>`).join('')}</table>` : '';
+    html += `<div class="sheet"><div class="unit-head"><span class="n">Unit ${x.n}</span><h1>${esc(u.title)} <small>${esc(u.title_ko || '')} · ${esc(st.title)}</small></h1></div>
+      ${st.synopsis_ko ? `<p class="lead">${esc(st.synopsis_ko)}</p>` : '<p class="note">(synopsis_ko 아직 없음)</p>'}
+      ${(st.so_far_ko || st.goal_ko) ? `<div class="meta">${st.so_far_ko ? `<div class="sf"><b>지난 이야기</b>${esc(st.so_far_ko)}</div>` : ''}${st.goal_ko ? `<div class="goal"><b>이번 이야기</b>${esc(st.goal_ko)}</div>` : ''}</div>` : ''}
+      <h2>장면 ${st.panels.length}칸</h2><table class="pn"><tr><th>칸</th><th>대사 · 번역</th><th>설명 · 질문 · 숨은 단어</th></tr>${panels}</table>${sb}${recap}</div>`;
+  }
+  document.getElementById('out').innerHTML = html;
+  document.title = `${book.title} — 이야기 안내서`;
+  window.PRINT_READY = true;
+})();
+</script>
+</body>
+</html>

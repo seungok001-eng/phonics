@@ -2,6 +2,7 @@
 # 실행: python tools/pdf.py            → 있는 유닛 전부 (학생책·워크북 A4) + 스토리북 (A5 가로)
 #       python tools/pdf.py 1          → 1유닛만
 #       python tools/pdf.py story      → 스토리북만
+#       python tools/pdf.py guides     → 교사용 이야기 안내서(..._StoryGuide.pdf, A4)·이야기 지도(..._StoryMap.pdf A3 가로, ..._StoryMap_A4.pdf 세로 2쪽)만
 #       python tools/pdf.py tests      → 시험지 묶음만 (PomiPhonics1_Tests_Units.pdf: 유닛마다 시험지+정답지 / _Tests_Review.pdf: 복습·전체 × 수준 × A/B + 정답지 + 말하기 체크리스트)
 #       python tools/pdf.py --press    → 인쇄소용: 사방 3mm 도련 + 재단선 판형(A4 → 216×303mm, A5 가로 → 216×154mm) 을 web/pdf/press/ 에, 표지 PDF 도 함께
 #       python tools/pdf.py --book 2   → 2권(content/b2/): 파일 이름 PomiPhonics2_..., QR 이름 b2_..., 주소에 &bk=2. index.json 항목에 "book": 2
@@ -63,18 +64,22 @@ def story_keys(book, units, bk=1):
 
 
 def small_art(max_px=360):
-    """단어·선 그림 축소본(build/art_small/, git 밖): 시험지 PDF 는 그림이 작게 들어가므로 원본(장당 800KB)을 그대로 넣으면 60MB 가 넘는다.
-    Pillow 가 없으면 None (원본을 쓴다)."""
+    """그림 축소본(build/art_small/, git 밖): 시험지·이야기 안내서·지도 PDF 는 그림이 작게 들어가므로 원본(장당 1MB 안팎)을 그대로 넣으면 수십 MB 가 된다.
+    단어·선 그림은 max_px(360), 장면·스토리북·캐릭터 기준 그림은 640px. Pillow 가 없으면 None (원본을 쓴다)."""
     try:
         from PIL import Image
     except ImportError:
         print('Pillow 가 없어 시험지 PDF 에 원본 그림을 쓴다 (pip install pillow 하면 가벼워진다)'); return None
     src = os.path.join(ROOT, 'web', 'assets', 'art'); dst = os.path.join(ROOT, 'build', 'art_small'); os.makedirs(dst, exist_ok=True)
     for fn in os.listdir(src):
-        if not (fn.startswith('word_') or fn.startswith('line_')) or not fn.endswith('.png'): continue
+        small = fn.endswith('.png') and (fn.startswith('word_') or fn.startswith('line_'))
+        big = (fn.endswith('.jpg') and (fn.startswith('scene_') or fn.startswith('sb'))) or (fn.startswith('char_') and fn.endswith('_ref.png'))
+        if not (small or big): continue
         sp, dp = os.path.join(src, fn), os.path.join(dst, fn)
         if os.path.exists(dp) and os.path.getmtime(dp) >= os.path.getmtime(sp): continue
-        im = Image.open(sp).convert('RGBA'); im.thumbnail((max_px, max_px))
+        if fn.endswith('.jpg'):
+            im = Image.open(sp).convert('RGB'); im.thumbnail((640, 640)); im.save(dp, quality=78, optimize=True); continue
+        im = Image.open(sp).convert('RGBA'); im.thumbnail((640, 640) if big else (max_px, max_px))
         im.quantize(160, method=Image.Quantize.FASTOCTREE).save(dp, optimize=True)   # 색 160가지 팔레트로 (투명 유지) — 크기 1/4
     return '../../build/art_small/'   # web/teacher/ 에서 본 상대 경로
 
@@ -137,6 +142,7 @@ def main():
     only = nums[0] if nums else None
     story_only = 'story' in args
     tests_only = 'tests' in args
+    guides_only = 'guides' in args
     out_dir = os.path.join(OUT, 'press') if press else OUT
     cdir = book_dir(bk)                                   # 'b2/' 처럼 권 폴더
     q = ('&press=1' if press else '') + (f'&bk={bk}' if bk > 1 else '')
@@ -156,7 +162,7 @@ def main():
             up = os.path.join(ROOT, 'content', cdir, 'units', f'unit{u:02d}.json')
             if not os.path.exists(up): continue
             unit = json.load(open(up, encoding='utf-8')); units[u] = unit
-            if story_only or tests_only or (only is not None and u != only): continue
+            if story_only or tests_only or guides_only or (only is not None and u != only): continue
             for b, label in (('sb', 'SB'), ('wb', 'WB')):
                 n = page_count(unit, b)
                 if not n: continue
@@ -167,22 +173,32 @@ def main():
                 print(f'{os.path.basename(out)}  ({n}쪽, {os.path.getsize(out) // 1024}KB)')
         # 스토리북 (A5 가로): 유닛 하나만 뽑을 때는 건너뛴다
         keys = story_keys(book, units, bk)
-        if keys and only is None and not tests_only:
+        if keys and only is None and not tests_only and not guides_only:
             for name, url in keys: make_qr(url, name)
             out = os.path.join(out_dir, f'{pre}_Storybook.pdf')
             print_pdf(exe, f'{base}/print.html?b=story{q}', out, budget=45000)
             index.append(entry(f"Storybook — {book['storybook'].get('title', '')}", out))
             print(f'{os.path.basename(out)}  ({len(keys)}쪽, {os.path.getsize(out) // 1024}KB)')
         # 시험지 묶음 (가정용 출력에만): 유닛별 / 복습·전체. 쪽이 많아 시간 예산을 넉넉히
-        if only is None and not story_only and not press:
+        if only is None and not story_only and not press and not guides_only:
             art = small_art(); aq = f'&art={art}' if art else ''
             for name, label in (('units', 'Unit Tests — 유닛별 시험지 + 정답지'), ('review', 'Review Tests — 복습·전체 시험지 + 정답지 + 말하기 체크리스트')):
                 out = os.path.join(out_dir, f'{pre}_Tests_{name.capitalize()}.pdf')
                 print_pdf(exe, f'http://localhost:{PORT}/web/teacher/test.html?batch={name}{aq}{"&bk=%d" % bk if bk > 1 else ""}', out, budget=90000)
                 index.append(entry(label, out))
                 print(f'{os.path.basename(out)}  ({os.path.getsize(out) // 1024}KB)')
+        # 교사용 이야기 안내서(A4) · 이야기 지도 포스터(A3 가로, A4 세로 2쪽) — 가정용 출력에만
+        if only is None and not story_only and not tests_only and not press:
+            tb = f'http://localhost:{PORT}/web/teacher'; art = small_art(); bq = (f'bk={bk}&' if bk > 1 else '') + (f'art={art}&' if art else '')
+            for name, url, label in (('StoryGuide', f'{tb}/story-guide.html?{bq}', '이야기 안내서 (교사용)'),
+                                     ('StoryMap', f'{tb}/story-map.html?{bq}', '이야기 지도 포스터 (A3 가로)'),
+                                     ('StoryMap_A4', f'{tb}/story-map.html?{bq}a4=1', '이야기 지도 (A4 세로 2쪽 이어 붙이기)')):
+                out = os.path.join(out_dir, f'{pre}_{name}.pdf')
+                print_pdf(exe, url, out, budget=40000)
+                index.append(entry(label, out))
+                print(f'{os.path.basename(out)}  ({os.path.getsize(out) // 1024}KB)')
         # 인쇄소용이면 표지도 (앞·뒤 한 벌씩)
-        if press and only is None and not tests_only:
+        if press and only is None and not tests_only and not guides_only:
             make_qr(book['site_base'], 'site')
             for b, label in (('sb', 'SB'), ('wb', 'WB'), ('story', 'Storybook')):
                 if b == 'story' and not keys: continue

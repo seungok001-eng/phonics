@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pomi Phonics — 이야기 지도</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  /* 이야기 지도 포스터: A3 가로(420×297mm) 한 장. ?a4=1 이면 A4 세로 두 장(왼쪽·오른쪽 반)으로 잘라 이어 붙인다 */
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --blue:#4FA3E0; --green:#8FD14F; --yellow:#F5C542; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; }
+  .poster { position:relative; width:420mm; height:297mm; background:linear-gradient(180deg,#E3F3FB 0%,#FFF9EE 35%,#EAF6D8 100%); overflow:hidden; }
+  .poster svg.road { position:absolute; left:0; top:0; width:420mm; height:297mm; }
+  .title { position:absolute; left:14mm; top:8mm; }
+  .title h1 { font-family:'Fredoka'; font-size:34px; margin:0; color:var(--orange); line-height:1.1; }
+  .title h1 span { color:var(--green); }
+  .title p { margin:3px 0 0; font-size:13px; color:var(--soft); max-width:200mm; }
+  .stop { position:absolute; width:50mm; text-align:center; }
+  .stop .num { position:absolute; left:-3mm; top:-3mm; width:9mm; height:9mm; border-radius:50%; background:var(--orange); color:#fff; font-family:'Fredoka'; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center; border:2px solid #fff; z-index:2; }
+  .stop.rev .num { background:var(--blue); } .stop.show .num { background:var(--green); color:#1f3a0e; }
+  .stop .img { position:relative; width:50mm; height:37.5mm; border-radius:10px; overflow:hidden; border:3px solid #fff; box-shadow:0 2px 6px rgba(0,0,0,.18); background:var(--cream); display:flex; align-items:center; justify-content:center; }
+  .stop .img img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; }
+  .stop .img .ph { color:var(--soft); font-family:'Fredoka'; font-size:12px; }
+  .stop h3 { font-family:'Fredoka'; font-size:13px; margin:3px 0 0; line-height:1.15; }
+  .stop h3 small { display:block; font-family:'Andika'; font-weight:400; color:var(--soft); font-size:10px; }
+  .stop p { font-size:10px; margin:2px 0 0; line-height:1.25; color:var(--ink); max-height:2.6em; overflow:hidden; }
+  .cast { position:absolute; left:303mm; top:40mm; width:103mm; background:rgba(255,255,255,.85); border:3px solid var(--line); border-radius:14px; padding:6mm 5mm; }
+  .cast h2 { font-family:'Fredoka'; font-size:16px; margin:0 0 4mm; color:var(--orange); text-align:center; }
+  .cast .ch { display:flex; align-items:center; gap:4mm; margin-bottom:3.5mm; }
+  .cast .ch .cimg { position:relative; width:22mm; height:26mm; flex:none; background:var(--cream); border-radius:8px; display:flex; align-items:center; justify-content:center; color:var(--soft); font-size:10px; overflow:hidden; }
+  .cast .ch .cimg img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; background:#fff; }
+  .cast .ch b { font-family:'Fredoka'; font-size:14px; display:block; } .cast .ch b small { color:var(--soft); font-family:'Andika'; font-weight:400; font-size:10px; }
+  .cast .ch div { font-size:10.5px; line-height:1.25; }
+  .legend { position:absolute; left:303mm; top:8mm; width:103mm; font-size:11px; color:var(--soft); text-align:right; }
+  .legend b { font-family:'Fredoka'; color:var(--ink); }
+  .foot { position:absolute; left:14mm; bottom:6mm; font-size:10px; color:var(--soft); }
+  .end { position:absolute; font-family:'Fredoka'; font-size:14px; color:#fff; background:var(--green); border-radius:12px; padding:2px 10px; }
+  /* A4 세로 2쪽 */
+  .sheet { width:210mm; height:297mm; overflow:hidden; position:relative; background:#fff; page-break-after:always; break-after:page; }
+  .sheet .poster { position:absolute; top:0; }
+  .sheet.r .poster { left:-210mm; }
+  .sheet .cut { position:absolute; top:0; bottom:0; width:0; border-left:1px dashed #999; } .sheet.l .cut { right:0; } .sheet.r .cut { left:0; }
+  .sheet .cut::after { content:'✂ 이 선에서 이어 붙이기'; position:absolute; top:4mm; font-size:9px; color:#999; white-space:nowrap; } .sheet.l .cut::after { right:2mm; } .sheet.r .cut::after { left:2mm; }
+  @media screen { .poster.alone, .sheet { margin:16px auto; box-shadow:0 6px 24px rgba(0,0,0,.15); } }
+  .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:420mm; max-width:100%; padding:0 16px; font-size:13px; }
+  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
+  @media print { body { background:#fff; } .poster.alone, .sheet { margin:0; box-shadow:none; } .top { display:none; } }
+</style>
+</head>
+<body>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span id="nav"></span><span style="color:var(--soft)">A3 가로 1장. A3 프린터가 없으면 "A4 2쪽" 으로 뽑아 점선에서 이어 붙이세요 (교실 벽에 붙여 두고 유닛마다 "지금 여기!" 표시)</span></div>
+<div id="out"></div>
+<script>
+// 이야기 지도: 0~12유닛을 길 하나로. 유닛마다 장면 썸네일(첫 칸) + 제목 + 한 줄(synopsis_ko 첫 문장). ?bk=2 &a4=1
+const q = new URLSearchParams(location.search), BK = +(q.get('bk') || 1), A4 = q.get('a4') === '1'; let DIR = '';
+async function get(rel, root) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + (root ? '' : DIR) + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+async function getBook() { const books = (await get('books.json', true)) || [{ n: 1, dir: '' }]; const info = books.find((x) => x.n === BK) || books[0]; DIR = info.dir || ''; return get('book.json'); }
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const ART = new URLSearchParams(location.search).get('art') || '../assets/art/';   // pdf.py 는 축소본 폴더(build/art_small)를 넘겨 PDF 를 가볍게 한다
+const art = (id) => `${ART}${id}${/^(scene_|sb\d*_|cast_sheet)/.test(id) ? '.jpg' : '.png'}`;
+const firstSentence = (t) => { const m = /^[^.!?。]*[.!?。]/.exec(t || ''); return m ? m[0] : (t || ''); };
+document.head.insertAdjacentHTML('beforeend', `<style>@page { size: ${A4 ? 'A4 portrait' : 'A3 landscape'}; margin: 0; }</style>`);
+(async () => {
+  const book = await getBook(); if (!book) { document.getElementById('out').textContent = 'book.json 을 읽지 못했어요'; return; }
+  const units = {};
+  await Promise.all(book.units.filter((x) => x.ready !== false).map(async (x) => { units[x.n] = await get(`units/unit${String(x.n).padStart(2, '0')}.json`); }));
+  document.getElementById('nav').innerHTML = `<a href="?${BK > 1 ? 'bk=' + BK : ''}">A3 한 장</a> <a href="?a4=1${BK > 1 ? '&bk=' + BK : ''}">A4 2쪽</a>`;
+  // 길: 3줄 뱀 모양 (5·4·4), 칸 중심 좌표(mm)
+  const list = book.units, pos = [];
+  const rows = [[0, 1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]], rowY = [42, 128, 214], W = 50, GAP = 8, left = 14;
+  rows.forEach((r, ri) => { const n = r.length, span = n * W + (n - 1) * GAP, x0 = left + (5 * W + 4 * GAP - span) / 2; r.forEach((k, j) => { if (!list[k]) return; const col = ri % 2 ? n - 1 - j : j; pos[k] = { x: x0 + col * (W + GAP), y: rowY[ri] }; }); });
+  const cx = (p) => p.x + W / 2, cy = (p) => p.y + 20;
+  let d = ''; pos.forEach((p, k) => { if (!p) return; const x = cx(p), y = cy(p); if (!d) { d = `M ${x} ${y}`; return; } const pp = pos[k - 1]; const px = cx(pp), py = cy(pp); d += Math.abs(py - y) < 1 ? ` L ${x} ${y}` : ` C ${px} ${py + 45}, ${x} ${y - 45}, ${x} ${y}`; });
+  const road = `<svg class="road" viewBox="0 0 420 297" preserveAspectRatio="none"><path d="${d}" fill="none" stroke="#D9C9B8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="${d}" fill="none" stroke="#fff" stroke-width="1.2" stroke-dasharray="4 4" stroke-linecap="round"/></svg>`;
+  const stops = list.map((x, k) => {
+    const p = pos[k]; if (!p) return ''; const u = units[x.n], st = u && u.story;
+    const scene = st && st.panels && st.panels.length ? st.panels[0].id : '';
+    const kind = x.show ? 'show' : x.review ? 'rev' : '';
+    const sub = x.show ? '쇼' : x.review ? `복습 ${x.review.join('·')}` : (x.letters && x.letters.length ? x.letters.map((l) => l.toUpperCase() + l).join(' ') : (x.families && x.families.length ? x.families.map((f) => '-' + f).join(' ') : '도입'));
+    return `<div class="stop ${kind}" style="left:${p.x}mm;top:${p.y}mm"><span class="num">${x.n}</span><div class="img"><span class="ph">${u ? esc(x.title) : '준비 중'}</span>${scene ? `<img src="${art(scene)}" alt="" onerror="this.remove()">` : ''}</div><h3>${esc(x.title)}<small>${esc(sub)}</small></h3><p>${st ? esc(firstSentence(st.synopsis_ko)) : ''}</p></div>`;
+  }).join('');
+  const arc = book.story_arc || {};
+  const cast = `<div class="cast"><h2>친구들</h2>${Object.entries(book.characters).map(([id, c]) => `<div class="ch"><span class="cimg">${esc(c.name)}<img src="${art('char_' + id + '_ref')}" alt="" onerror="this.remove()"></span><div><b style="color:${c.color}">${esc(c.name)} <small>${esc(c.ko)} · "${esc(c.catchphrase)}"</small></b>${esc(c.role_ko || c.personality || '')}</div></div>`).join('')}</div>`;
+  const last = pos[list.length - 1];
+  const poster = `<div class="poster ${A4 ? '' : 'alone'}">${road}<div class="title"><h1>${esc(book.series.split(' ')[0])} <span>${esc(book.series.split(' ').slice(1).join(' '))}</span> ${book.book} · 이야기 지도</h1><p>${esc(firstSentence(arc.ko) || book.subtitle || '')}</p></div>
+    <div class="legend"><b>길을 따라 0에서 12까지</b><br>주황 = 글자 유닛 · 파랑 = 복습 · 초록 = 마지막 쇼</div>${stops}${last ? `<span class="end" style="left:${last.x + W + 3}mm;top:${last.y + 14}mm">🏁 끝!</span>` : ''}${cast}
+    <div class="foot">${esc(book.title)} · 이야기 지도 · 유닛을 마칠 때마다 스티커나 별을 붙여 주세요</div></div>`;
+  document.getElementById('out').innerHTML = A4 ? `<div class="sheet l">${poster}<div class="cut"></div></div><div class="sheet r">${poster}<div class="cut"></div></div>` : poster;
+  document.title = `${book.title} — 이야기 지도`;
+  window.PRINT_READY = true;
+})();
+</script>
+</body>
+</html>

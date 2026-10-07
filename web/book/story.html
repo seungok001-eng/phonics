@@ -16,6 +16,7 @@
   <button onclick="sbGo(-1)" id="btnPrev" title="앞 쪽 (←)">◀</button>
   <button onclick="sbGo(1)" id="btnNext" title="다음 쪽 (→)">▶</button>
   <button class="primary" onclick="sbReadToggle()" id="btnRead" title="자동 읽기 (스페이스)">▶ Read</button>
+  <button onclick="sbKoToggle()" id="btnKo" title="우리말: 쪽 설명 한 줄과 대사 번역">💬 우리말</button>
   <button onclick="toggleFull()" title="전체화면">⛶</button>
 </div>
 <div id="book"><div id="pageArea"></div></div>
@@ -33,12 +34,13 @@ function findPage({ u, p }) { const i = SB.pages.findIndex((x) => x.u === u && x
 function render() {
   const pg = SB.pages[SB.i], n = SB.pages.length;
   stopSeq();
-  const lines = (pg.lines || []).map((ln, k) => `<div class="line say" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}</span></div>`).join('');
+  const lines = (pg.lines || []).map((ln, k) => `<div class="line say" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}${ln.ko ? `<small class="tr kohelp">${esc(ln.ko)}</small>` : ''}</span></div>`).join('');
+  const pko = pg.ko ? `<div class="pko kohelp">${esc(pg.ko)}</div>` : '';
   const task = pg.task ? `<div class="task say" data-say="${esc(pg.task_audio || pg.id + '_task')}" data-text="${esc(pg.task)}">✨ <span>${esc(pg.task)}</span>${pg.task_ko ? `<small>${esc(pg.task_ko)}</small>` : ''}</div>` : '';
   const title = pg.cover ? `<div class="cover-title"><small>${esc(App.book.series)} ${App.book.book}</small><h1>${esc(pg.title)}</h1></div>` : '';
   const where = typeof pg.u === 'number' ? `Unit ${pg.u} · ${esc(pg.title)}` : pg.u === 'cover' ? '' : esc(pg.title);
   $('pageArea').innerHTML = `<div class="sb-page ${pg.cover ? 'cover' : ''}"><div class="art">${pic(pg.id, '', pg.desc || pg.title)}${title}<div class="edge l" onclick="sbGo(-1)"></div><div class="edge r" onclick="sbGo(1)"></div></div>
-    ${pg.cover ? '' : `<div class="band"><div class="where">${where}</div><div class="lines">${lines}</div>${task}</div>`}</div>`;
+    ${pg.cover ? '' : `<div class="band"><div class="where">${where}</div><div class="lines">${lines}</div>${pko}${task}</div>`}</div>`;
   $('pageInfo').textContent = `${SB.i + 1} / ${n}`; $('btnPrev').disabled = SB.i <= 0; $('btnNext').disabled = SB.i >= n - 1;
   const q = new URLSearchParams(location.search); q.set('u', pg.u); q.set('p', pg.p); if (App.bk > 1) q.set('bk', App.bk); history.replaceState(null, '', '?' + q);
   document.querySelectorAll('#tocList a').forEach((a) => a.classList.toggle('on', +a.dataset.i === SB.i));
@@ -72,6 +74,9 @@ function tocBuild() {
   $('tocList').innerHTML = groups.map((g) => `<a data-i="${g.first}" onclick="sbJump(${g.first})">${pic(g.id, 'thumb', g.title)}<span class="t">${typeof g.u === 'number' ? `<b>Unit ${g.u}</b> ` : ''}${esc(g.title)}</span><span class="n">${g.n}쪽</span></a>`).join('');
 }
 function tocToggle(on) { const t = $('toc'); t.classList.toggle('off', on === undefined ? !t.classList.contains('off') : !on); }
+// 💬 우리말: 이 기기에 기억 (기본 끔)
+function sbKoApply() { let on = false; try { on = localStorage.getItem('pp_ko_sb') === '1'; } catch (e) {} document.body.classList.toggle('ko-on', on); $('btnKo').classList.toggle('on', on); }
+function sbKoToggle() { let on = false; try { on = localStorage.getItem('pp_ko_sb') !== '1'; localStorage.setItem('pp_ko_sb', on ? '1' : '0'); } catch (e) {} sbKoApply(); }
 function toggleFull() { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); }
 function startApp() { Sound.unlock(); $('overlay').style.display = 'none'; }
 if (new URLSearchParams(location.search).get('nooverlay') === '1') $('overlay').style.display = 'none';
@@ -92,7 +97,7 @@ document.addEventListener('keydown', (e) => {
   SB.pages = storyPages();
   if (!SB.pages.length) { $('pageArea').innerHTML = '<p style="color:#fff;padding:20px">스토리북 내용(book.json 의 storybook)이 아직 없어요</p>'; return; }
   $('sbTitle').textContent = App.book.storybook.title || 'Storybook'; document.title = `${App.book.storybook.title || 'Storybook'} — ${bookLabel()}`;
-  tocBuild(); SB.i = findPage(params()); render();
+  tocBuild(); sbKoApply(); if (!SB.pages.some((pg) => pg.ko || (pg.lines || []).some((ln) => ln.ko))) $('btnKo').style.display = 'none'; SB.i = findPage(params()); render();
 })();
 </script>
 </body>

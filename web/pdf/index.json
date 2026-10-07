@@ -140,6 +140,21 @@
   "file": "PomiPhonics1_Tests_Units.pdf"
  },
  {
+  "book": 1,
+  "title": "이야기 안내서 (교사용)",
+  "file": "PomiPhonics1_StoryGuide.pdf"
+ },
+ {
+  "book": 1,
+  "title": "이야기 지도 포스터 (A3 가로)",
+  "file": "PomiPhonics1_StoryMap.pdf"
+ },
+ {
+  "book": 1,
+  "title": "이야기 지도 (A4 세로 2쪽 이어 붙이기)",
+  "file": "PomiPhonics1_StoryMap_A4.pdf"
+ },
+ {
   "book": 2,
   "title": "Student Book Unit 0 — The Word Pond",
   "file": "PomiPhonics2_SB_Unit00.pdf"
@@ -278,5 +293,20 @@
   "book": 2,
   "title": "Unit Tests — 유닛별 시험지 + 정답지",
   "file": "PomiPhonics2_Tests_Units.pdf"
+ },
+ {
+  "book": 2,
+  "title": "이야기 안내서 (교사용)",
+  "file": "PomiPhonics2_StoryGuide.pdf"
+ },
+ {
+  "book": 2,
+  "title": "이야기 지도 포스터 (A3 가로)",
+  "file": "PomiPhonics2_StoryMap.pdf"
+ },
+ {
+  "book": 2,
+  "title": "이야기 지도 (A4 세로 2쪽 이어 붙이기)",
+  "file": "PomiPhonics2_StoryMap_A4.pdf"
  }
 ]

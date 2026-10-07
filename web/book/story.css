@@ -26,6 +26,9 @@ body.storybook #top #pageInfo { color: var(--soft); font-size: 15px; white-space
 .sb-page .task { display: inline-flex; align-items: baseline; gap: 10px; align-self: flex-start; background: var(--yellow); border-radius: 16px; padding: 6px 16px; font-family: 'Andika'; font-size: max(22px, 2.4vmin); font-weight: 700; cursor: pointer; }
 .sb-page .task small { font-size: .65em; font-weight: 400; color: var(--ink); }
 .sb-page .task.hl { box-shadow: 0 0 0 4px var(--orange); }
+/* 우리말: 쪽 설명 한 줄 + 대사 번역 (💬 우리말 켜면) */
+.sb-page .line .tr { font-size: .5em; font-weight: 400; color: var(--soft); line-height: 1.2; }
+.sb-page .pko { font-size: max(18px, 1.9vmin); color: var(--ink); background: #F3FAFF; border: 2px dashed #BFE3F7; border-radius: 12px; padding: 6px 12px; line-height: 1.35; }
 /* 표지: 그림 위에 제목 (위쪽을 살짝 어둡게 해서 글자가 보이게) */
 .sb-page.cover .art::after { content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0) 40%); pointer-events: none; }
 .sb-page.cover .cover-title { position: absolute; left: 0; right: 0; top: 6%; text-align: center; color: #fff; text-shadow: 0 3px 12px rgba(0,0,0,.6); pointer-events: none; }
