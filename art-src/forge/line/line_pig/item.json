@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
- "attempts": 1,
- "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
- "updated": 0,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 0,
+ "error": "",
+ "updated": 1791366789.4451644,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/85f7e2a5-4ca6-4dbf-ae40-05f30911a4d5?Expires=1791388046&KeyName=labs-flow-prod-cdn-key&Signature=KvUx28PprI0W6QpuvvIiWgEJafQ",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 18:56",
  "gen": "",
  "job_type": "image",
  "reference": "word_pig",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_pig.png",
  "book": 2,
- "claimed_at": 1791365100.8822439
+ "claimed_at": 1791366770.8834217
 }

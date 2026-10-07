@@ -1,12 +1,12 @@
 {
  "status": "pending",
- "raw": "",
- "cut": "",
- "attempts": 0,
- "error": "",
- "updated": 0,
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 1,
+ "error": "A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received",
+ "updated": 1791366572.4515402,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/dcf5e2bc-5e0e-4093-ac16-7f29da8379f5?Expires=1791388152&KeyName=labs-flow-prod-cdn-key&Signature=yybPjCjMIyLKOaG_80KCE9e12C0",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_win.png",
  "book": 2,
- "claimed_at": 1791364830.878444
+ "claimed_at": 1791367295.8767483
 }

@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
- "attempts": 1,
- "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
- "updated": 0,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 0,
+ "error": "",
+ "updated": 1791366768.732046,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/2d7d72fe-dad7-4d3e-8097-e6cb8257e361?Expires=1791388030&KeyName=labs-flow-prod-cdn-key&Signature=6zRJ325Md_gDexaEZyOKDItcMnM",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-07 18:56",
  "gen": "",
  "job_type": "image",
  "reference": "word_beg",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_beg.png",
  "book": 2,
- "claimed_at": 1791365098.3910718
+ "claimed_at": 1791366748.3886065
 }
