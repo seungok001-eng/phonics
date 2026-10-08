@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791456927.907632,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/def00077-8d08-49f7-8f7e-35b64d16d8e0?Expires=1791478484&KeyName=labs-flow-prod-cdn-key&Signature=AeNzANuwVEz1Uec2eCD0pNRGsxA",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 19:56",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b2",
@@ -19,5 +19,6 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Beads. Every other character on the sheet must NOT appear in this picture. Scene: A sly orange fox has snatched Hedgie's cardboard box from the picnic stone and hops away across the stones with it, grinning; a spinning top tumbles out of the box. Hedgie runs after it with his arms out; Bun hops after it; Pip shouts the word backwards; Beads clings to Bun's ear. Hidden in the picture: the fox, the box, the top. Grumble does NOT appear. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads.",
  "aspect": "4:3",
  "out": "web/assets/art/sb2_u09_1.jpg",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791456868.1121304
 }

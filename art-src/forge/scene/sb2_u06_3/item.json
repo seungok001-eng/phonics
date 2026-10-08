@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791455780.7208846,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/ed7f6045-9481-4b1b-a38e-2184f3fe154e?Expires=1791477347&KeyName=labs-flow-prod-cdn-key&Signature=XGPYsb4T2yX8P15vAz7bNO_zwP4",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 19:40",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b2",
@@ -19,5 +19,6 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: The pig stands at the far end of the new stones beside a golden trophy; a cookie tin and a green bin stand on the last stone. In the reeds Grumble's torn nightcap is pinned together with a red-headed pin; he holds his lantern, which glows a little brighter, and whispers a cheer with a small smile; Pip says the word right at last and glows. Hidden in the picture: the pin, the tin, the bin, the trophy. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/sb2_u06_3.jpg",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791455730.6072574
 }

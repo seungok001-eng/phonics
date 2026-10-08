@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791455168.299721,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/8f4004d8-52dd-4df0-ab89-965b7ff97b44?Expires=1791476722&KeyName=labs-flow-prod-cdn-key&Signature=qbcnlKFLFHikzXGJkfqw3XqoYQI",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 19:40",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b2",
@@ -20,6 +20,6 @@
  "aspect": "4:3",
  "out": "web/assets/art/scene_b2_u05_3.jpg",
  "book": 2,
- "claimed_at": 1791442196.519761,
+ "claimed_at": 1791455105.6099653,
  "regen": 1
 }

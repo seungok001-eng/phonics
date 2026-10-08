@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791457052.2066698,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/9fd330e4-af0c-4bd3-941f-0559815e6b74?Expires=1791478609&KeyName=labs-flow-prod-cdn-key&Signature=934atLHUsGLqQSxKis8fgg10sEk",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 20:12",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b2",
@@ -19,5 +19,6 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: The fox has run into a big brown ox on the far bank and the box has flown out of its arms — and Grumble bursts from the reeds beside it, lantern held high, shouting his loudest Shh with puffed cheeks; the fox freezes with its fur standing up. Then: Hedgie has his box back with the top spinning inside, the fox sits sorry, and Grumble spins the top with one claw, smiling for the first time. Hidden in the picture: the ox, the fox, the box, the top, the mop. Characters: Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/sb2_u09_3.jpg",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791456993.1019983
 }

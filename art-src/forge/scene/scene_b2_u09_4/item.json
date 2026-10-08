@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791456868.004066,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/c7ef10f6-6098-4c72-98ea-c87038907475?Expires=1791478419&KeyName=labs-flow-prod-cdn-key&Signature=HFedBU_cI3RnmdPr2BqYvAipFBA",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 19:56",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b2",
@@ -19,5 +19,6 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble, Beads. Every other character on the sheet must NOT appear in this picture. Scene: Hedgie has his box back and the colorful top spins inside it; the fox sits nearby with its ears down, sorry, and the ox chews grass. Hedgie mops the wet stepping stone with the mop; Bun hugs the box; Pip finally says the word the right way, glowing; Beads rests on the box edge. Grumble crouches beside the box and spins the top with one claw, a real smile on his face for the first time, his lantern glowing bright on the stone. Hidden in the picture: the top, the mop, the box. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_b2_u09_4.jpg",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791456803.1061792
 }

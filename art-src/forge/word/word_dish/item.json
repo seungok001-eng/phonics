@@ -1,12 +1,12 @@
 {
- "status": "pending",
+ "status": "queued",
  "raw": "",
  "cut": "",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791458341.1125505,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/2552914b-3a3a-46f1-9a67-7a90a08860a7?Expires=1791479910&KeyName=labs-flow-prod-cdn-key&Signature=wFbI_lIXGX23JXPB5aYvkMI-dsk",
  "prompt_edited": false,
  "applied": "",
  "gen": "",
@@ -17,8 +17,10 @@
  "kind": "word",
  "word": "dish",
  "title": "dish · 접시",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a round white dish with a blue rim.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a round light-blue dish seen from the side and a little from above, with a yellow inside and a few red strawberries in it.",
  "aspect": "1:1",
  "out": "web/assets/art/word_dish.png",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791458305.613475,
+ "regen": 1
 }

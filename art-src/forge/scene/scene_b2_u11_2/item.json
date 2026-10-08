@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791457555.7759235,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/9c0e2eec-9604-400e-a4b9-e86957050329?Expires=1791479115&KeyName=labs-flow-prod-cdn-key&Signature=lUu5uq_0PJC3_sbXXEm-SH5r8ho",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 20:12",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b2",
@@ -19,5 +19,6 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble, Beads. Every other character on the sheet must NOT appear in this picture. Scene: Party games on the bank: the pig stands on a stone holding a golden trophy after winning a race, and the white pup digs a hole with dirt flying. Everyone turns to look: Grumble is walking across the stepping-stone bridge toward the party, lantern held in front of him, nightcap pinned, with a shy hopeful face; Bun and Hedgie wave him over with both arms; Pip flies out to meet him; Beads clicks its beads. Hidden in the picture: the pig, the pup, the trophy, the digging hole. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_b2_u11_2.jpg",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791457498.1400974
 }

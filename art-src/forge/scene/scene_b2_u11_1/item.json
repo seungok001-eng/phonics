@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791457498.1367269,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/a4803e84-ed97-44a0-99ab-98e43c9ac3be?Expires=1791479049&KeyName=labs-flow-prod-cdn-key&Signature=12gpTvKcLCb2yVI9i4UjP-nVouU",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 20:12",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b2",
@@ -19,5 +19,6 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Beads. Every other character on the sheet must NOT appear in this picture. Scene: A party on the far bank of the Word Pond under strings of paper lanterns, with the finished bridge of stepping stones behind. A long low table on the grass holds brown mugs, blue star cups, sesame buns, purple figs and a steaming red pot. Guests sit around it: the pink pig, the brown puppy, the fox (now friendly), the ox, the white pup and the ten hens. Bun points at the table; Hedgie carries a tray; Pip sings on a lantern string; Beads hangs a garland of beads. Hidden in the picture: a mug, a bun, a fig, the pot, a cup. Grumble does NOT appear — only his lantern light far off in the reeds across the water. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_b2_u11_1.jpg",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791457433.1125166
 }
