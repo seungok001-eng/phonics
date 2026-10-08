@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791460266.8478904,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/91298cdb-2cbc-4b64-aa96-3aa15e7e846b?Expires=1791481846&KeyName=labs-flow-prod-cdn-key&Signature=UplJxPhStOPN_SlHtQG74ZK-yA8",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 20:51",
  "gen": "",
  "job_type": "image",
  "reference": "word_shed",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_shed.png",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791460230.6097229
 }

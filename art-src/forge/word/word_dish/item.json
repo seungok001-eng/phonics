@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791458341.1125505,
+ "updated": 1791458663.4840298,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/2552914b-3a3a-46f1-9a67-7a90a08860a7?Expires=1791479910&KeyName=labs-flow-prod-cdn-key&Signature=wFbI_lIXGX23JXPB5aYvkMI-dsk",
+ "flow_url": "https://flow-content.google/image/8700185b-3204-415a-8d55-b6444dbb32ff?Expires=1791480242&KeyName=labs-flow-prod-cdn-key&Signature=5aMoE7MIFAb5RJ64Y5sfIblMfrA",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 20:32",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -21,6 +21,7 @@
  "aspect": "1:1",
  "out": "web/assets/art/word_dish.png",
  "book": 3,
- "claimed_at": 1791458305.613475,
- "regen": 1
+ "claimed_at": 1791458638.107287,
+ "regen": 1,
+ "asset_no": 2155
 }

@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/word_ship.png",
  "book": 3,
- "claimed_at": 1791458153.1111495
+ "claimed_at": 1791458153.1111495,
+ "asset_no": 2150
 }
