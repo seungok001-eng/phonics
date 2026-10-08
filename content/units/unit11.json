@@ -293,7 +293,7 @@
     "panels": [
       {
         "id": "scene_u11_1",
-        "desc": "A garden party on the lawn under the blooming letter trees, with paper lanterns and a long picnic table. On the table: a milk carton and glass, a bowl of hot soup, a bowl of white rice, a cup of strawberry yogurt, a plump tomato, a glass of orange juice. Bun ties a bunch of nine colorful balloons to the table; Hedgie carries a tray; Pip sings on a branch with little golden notes. Party guests: the queen swan with her golden crown, the panda, the monkey, the otter dancing. Hidden in the picture: the milk, the soup, the rice, the yogurt. Grumble does NOT appear at the party — only the faint shape of his hill in the far background with a bright lantern light.",
+        "desc": "A garden party on the lawn under the blooming letter trees, with paper lanterns and a long picnic table. On the table: a milk carton and glass, a bowl of hot soup, a bowl of white rice, a cup of strawberry yogurt, a plump tomato, a glass of orange juice. Bun ties a bunch of nine colorful balloons to the table; Hedgie carries a tray; Pip sings on a branch with little golden notes. Party guests: the queen swan with her golden crown, the panda, the monkey, the otter dancing. Hidden in the picture: the milk, the soup, the rice, the yogurt. Grumble does NOT appear at the party — only the faint shape of his hill in the far background with a bright lantern light. (The queen is a white swan with a small golden crown — an animal, not a human.)",
         "hidden": [
           "milk",
           "soup",
@@ -375,7 +375,7 @@
       },
       {
         "id": "scene_u11_3",
-        "desc": "At the party. Grumble has opened the gift — a small drum — and sits in the middle of the lawn happily beating it with two sticks, nightcap bouncing, a big grin on his face, his lantern hanging from a tree branch above him glowing like a star-lamp. Pip sings on the drum rim; Bun and Hedgie dance; the queen swan, the panda, the zebra and the yak clap along. Hidden in the picture: the queen swan, the panda, the zebra, the yak.",
+        "desc": "At the party. Grumble has opened the gift — a small drum — and sits in the middle of the lawn happily beating it with two sticks, nightcap bouncing, a big grin on his face, his lantern hanging from a tree branch above him glowing like a star-lamp. Pip sings on the drum rim; Bun and Hedgie dance; the queen swan, the panda, the zebra and the yak clap along. Hidden in the picture: the queen swan, the panda, the zebra, the yak. (The queen is a white swan with a small golden crown — an animal, not a human.)",
         "hidden": [
           "queen",
           "panda",
@@ -479,7 +479,7 @@
     "pages": [
       {
         "id": "sb_u11_1",
-        "desc": "A garden party under the blooming letter trees with paper lanterns and a long picnic table: milk, soup, rice, yogurt, a tomato, juice. Bun ties nine colorful balloons to the table; Hedgie carries a tray; Pip sings on a branch with golden notes. Guests: the queen swan with her crown, the panda, the monkey, the otter dancing. Grumble does NOT appear at the party — only a bright lantern light on his distant hill. Hidden in the picture: the milk, the soup, the rice, the yogurt.",
+        "desc": "A garden party under the blooming letter trees with paper lanterns and a long picnic table: milk, soup, rice, yogurt, a tomato, juice. Bun ties nine colorful balloons to the table; Hedgie carries a tray; Pip sings on a branch with golden notes. Guests: the queen swan with her crown, the panda, the monkey, the otter dancing. Grumble does NOT appear at the party — only a bright lantern light on his distant hill. Hidden in the picture: the milk, the soup, the rice, the yogurt. (The queen is a white swan with a small golden crown — an animal, not a human.)",
         "lines": [
           {
             "who": "both",

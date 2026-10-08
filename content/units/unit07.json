@@ -134,7 +134,7 @@
       },
       {
         "id": "scene_u07_2",
-        "desc": "Bun has lifted the patchwork quilt by one corner — and underneath is not the queen but Grumble, curled up with his lantern, blinking in surprise with his nightcap over one eye; his lantern glows bright. A yellow duck beside the bed quacks loudly at him with its beak wide open. Across the lawn, the real garden queen — a kind queen swan with a golden crown and a purple robe — sits awake on a throne of flowers holding a glowing golden seed and giggling. Hedgie gasps; Pip glows. Behind them the new P letter tree with pencil-, panda- and pot-shaped fruits. Hidden in the picture: the queen, the quilt, the quacking duck.",
+        "desc": "Bun has lifted the patchwork quilt by one corner — and underneath is not the queen but Grumble, curled up with his lantern, blinking in surprise with his nightcap over one eye; his lantern glows bright. A yellow duck beside the bed quacks loudly at him with its beak wide open. Across the lawn, the real garden queen — a kind queen swan with a golden crown and a purple robe — sits awake on a throne of flowers holding a glowing golden seed and giggling. Hedgie gasps; Pip glows. Behind them the new P letter tree with pencil-, panda- and pot-shaped fruits. Hidden in the picture: the queen, the quilt, the quacking duck. (The queen is a white swan with a small golden crown — an animal, not a human.)",
         "hidden": [
           "queen",
           "quilt",
@@ -481,7 +481,7 @@
       },
       {
         "id": "sb_u07_2",
-        "desc": "Bun lifts the quilt by one corner — underneath is Grumble, curled up with his bright lantern, blinking with his nightcap over one eye. A yellow duck quacks loudly at him with its beak wide open. Across the lawn the real garden queen, a swan with a golden crown and a purple robe, sits awake on a flower throne holding a glowing seed and giggling. Hedgie gasps; Pip glows. Hidden in the picture: the queen, the quilt, the quacking duck.",
+        "desc": "Bun lifts the quilt by one corner — underneath is Grumble, curled up with his bright lantern, blinking with his nightcap over one eye. A yellow duck quacks loudly at him with its beak wide open. Across the lawn the real garden queen, a swan with a golden crown and a purple robe, sits awake on a flower throne holding a glowing seed and giggling. Hedgie gasps; Pip glows. Hidden in the picture: the queen, the quilt, the quacking duck. (The queen is a white swan with a small golden crown — an animal, not a human.)",
         "lines": [
           {
             "who": "bun",

@@ -134,7 +134,7 @@
       },
       {
         "id": "scene_u09_2",
-        "desc": "BOOM — the little volcano pops with a puff of orange lava sparks and everyone jumps into the air: Bun with her boots flying, Hedgie rolled into a ball, Pip upside down. The water fountain sprays a tall splash of clear water, and a pink earthworm has been tossed out of the ground and lands on the lane looking dizzy with a tiny bump on its head. Behind them the new V letter tree with vet-, vest- and volcano-shaped fruits. Hidden in the picture: the fountain water, the worm, the window with blue curtains. Grumble has fallen backwards off his boxes with both pinecones shooting out of his ears; his lantern rolls on the ground still shining very bright.",
+        "desc": "BOOM — the little volcano pops with a puff of orange lava sparks and everyone jumps into the air: Bun with her boots flying, Hedgie rolled into a ball, Pip upside down. The water fountain sprays a tall splash of clear water, and a pink earthworm has been tossed out of the ground and lands on the lane looking dizzy with a tiny bump on its head. Behind them the new V letter tree with vet-, vest- and volcano-shaped fruits. Hidden in the picture: the fountain water, the worm, the window with blue curtains. Grumble has fallen backwards off his boxes with both pinecones shooting out of his ears; his lantern rolls on the ground still shining very bright. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
         "hidden": [
           "water",
           "worm",
@@ -176,7 +176,7 @@
       },
       {
         "id": "scene_u09_3",
-        "desc": "A veterinarian in a white coat kneels on the lane and gently wraps a tiny bandage around the pink worm, which lies on top of a brown cardboard box; six brown boxes are stacked beside the taxi. A glowing golden seed sits on the top box. Hedgie watches with his paws clasped; Bun holds up six fingers; Pip glows. Hidden in the picture: the vet, six red strawberries in a row on a box lid, the open box. Grumble does NOT appear.",
+        "desc": "A kind owl veterinarian in a white coat and round glasses kneels on the lane and gently wraps a tiny bandage around the pink worm, which lies on top of a brown cardboard box; six brown boxes are stacked beside the taxi. A glowing golden seed sits on the top box. Hedgie watches with his paws clasped; Bun holds up six fingers; Pip glows. Hidden in the picture: the vet, six red strawberries in a row on a box lid, the open box. Grumble does NOT appear. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
         "hidden": [
           "vet",
           "six",
@@ -218,7 +218,7 @@
       },
       {
         "id": "scene_u09_4",
-        "desc": "The village lane with three new letter trees (V with vet, vest and volcano fruits; W with window, water and worm fruits; X with six-strawberries, box and taxi fruits). The bandaged worm waves happily from the fountain edge; the taxi driver honks and waves. Bun and Hedgie point at the trees; Pip glows on the taxi roof. Grumble stands in the middle of the lane without his pinecones, holding his lantern up with both paws and staring at it with wide eyes: it blazes bright like a little star and lights the whole lane. Hidden in the picture: the taxi, the worm.",
+        "desc": "The village lane with three new letter trees (V with vet, vest and volcano fruits; W with window, water and worm fruits; X with six-strawberries, box and taxi fruits). The bandaged worm waves happily from the fountain edge; the taxi driver honks and waves. Bun and Hedgie point at the trees; Pip glows on the taxi roof. Grumble stands in the middle of the lane without his pinecones, holding his lantern up with both paws and staring at it with wide eyes: it blazes bright like a little star and lights the whole lane. Hidden in the picture: the taxi, the worm. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.) (The taxi driver is a friendly dog — an animal, not a human.)",
         "hidden": [
           "taxi",
           "worm"
@@ -508,7 +508,7 @@
       },
       {
         "id": "sb_u09_3",
-        "desc": "A kind owl vet in a white coat and round glasses kneels and wraps a tiny bandage around the worm lying on a cardboard box; six boxes are stacked by the taxi with a glowing seed on the top one; six strawberries sit in a row on a box lid. Three new letter trees (V, W, X with their fruits) stand along the lane. Grumble stands in the lane without his pinecones, holding his lantern up with both paws and staring: it blazes like a star and lights the whole lane. Hidden in the picture: the vet, the six strawberries, the box.",
+        "desc": "A kind owl vet in a white coat and round glasses kneels and wraps a tiny bandage around the worm lying on a cardboard box; six boxes are stacked by the taxi with a glowing seed on the top one; six strawberries sit in a row on a box lid. Three new letter trees (V, W, X with their fruits) stand along the lane. Grumble stands in the lane without his pinecones, holding his lantern up with both paws and staring: it blazes like a star and lights the whole lane. Hidden in the picture: the vet, the six strawberries, the box. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
         "lines": [
           {
             "who": "bun",

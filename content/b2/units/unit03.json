@@ -274,7 +274,7 @@
       },
       {
         "id": "scene_b2_u03_4",
-        "desc": "The ten hens walk in a neat line across the new -et and -en stepping stones toward a big flat stone where a kind owl veterinarian in a white coat and round glasses waits with a stethoscope, gently checking the first hen. A toy jet plane lies on the stone beside the vet's bag. Pip sits on the net stone, thinking hard with one wing on its beak; Beads clicks its beads; Bun and Hedgie count the hens on their paws. Hidden in the picture: the vet, the ten hens, the jet, the net. Grumble does NOT appear.",
+        "desc": "The ten hens walk in a neat line across the new -et and -en stepping stones toward a big flat stone where a kind owl veterinarian in a white coat and round glasses waits with a stethoscope, gently checking the first hen. A toy jet plane lies on the stone beside the vet's bag. Pip sits on the net stone, thinking hard with one wing on its beak; Beads clicks its beads; Bun and Hedgie count the hens on their paws. Hidden in the picture: the vet, the ten hens, the jet, the net. Grumble does NOT appear. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
         "hidden": [
           "vet",
           "ten",
@@ -613,7 +613,7 @@
       },
       {
         "id": "sb2_u03_3",
-        "desc": "A hen on a stepping stone holds a blue pen in her beak and scribbles on a lily pad; Hedgie giggles. At the reeds a cozy den under a tree root: Grumble's masked face peeks out with his lantern glowing inside, frowning at the noise. Beyond, the ten hens walk in a line toward the kind owl vet waiting on a big stone with a stethoscope and a toy jet. Hidden in the picture: the hen, the pen, the den, the vet, the jet.",
+        "desc": "A hen on a stepping stone holds a blue pen in her beak and scribbles on a lily pad; Hedgie giggles. At the reeds a cozy den under a tree root: Grumble's masked face peeks out with his lantern glowing inside, frowning at the noise. Beyond, the ten hens walk in a line toward the kind owl vet waiting on a big stone with a stethoscope and a toy jet. Hidden in the picture: the hen, the pen, the den, the vet, the jet. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
         "lines": [
           {
             "who": "hedgie",

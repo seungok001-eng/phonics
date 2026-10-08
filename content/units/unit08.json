@@ -216,7 +216,7 @@
       },
       {
         "id": "scene_u08_4",
-        "desc": "The umbrella has landed softly by the round garden door in the wall. A friendly grown-up rabbit with a mustache, a green cap and a watering can — Uncle, Bun's uncle and the garden's gardener — holds the little door open and winks as if he has always known the secret. Bun and Hedgie look up at him with open mouths; Pip sits on the umbrella, glowing. Three new letter trees (S with sun, seal and soup fruits; T with turtle, tomato and tooth fruits; U with umbrella, up-balloon and uncle fruits) stand by the door. Grumble has run up beside the trees and stares at his lantern: it has lit itself again all on its own and now shines brighter than ever, and he holds it away from his face in surprise. Hidden in the picture: the uncle with the watering can, the red umbrella.",
+        "desc": "The umbrella has landed softly by the round garden door in the wall. A friendly grown-up rabbit with a mustache, a green cap and a watering can — Uncle, Bun's uncle and the garden's gardener — holds the little door open and winks as if he has always known the secret. Bun and Hedgie look up at him with open mouths; Pip sits on the umbrella, glowing. Three new letter trees (S with sun, seal and soup fruits; T with turtle, tomato and tooth fruits; U with umbrella, up-balloon and uncle fruits) stand by the door. Grumble has run up beside the trees and stares at his lantern: it has lit itself again all on its own and now shines brighter than ever, and he holds it away from his face in surprise. Hidden in the picture: the uncle with the watering can, the red umbrella. (Uncle is a grown-up rabbit — an animal, not a human.)",
         "hidden": [
           "uncle",
           "umbrella"
@@ -506,7 +506,7 @@
       },
       {
         "id": "sb_u08_3",
-        "desc": "A gust of wind: an open red umbrella with a glowing seed on top flies up with Pip hanging from the handle, going up, up, up. It lands by the round garden door, where a friendly grown-up rabbit with a mustache, a green cap and a watering can — Uncle, Bun's uncle and the garden's gardener — holds the door open and winks. Three new letter trees (S, T, U with their fruits) stand by the door. Grumble runs up holding his lantern away from his face in surprise: it has lit itself again, brighter than ever. Hidden in the picture: the umbrella, Pip going up, the uncle.",
+        "desc": "A gust of wind: an open red umbrella with a glowing seed on top flies up with Pip hanging from the handle, going up, up, up. It lands by the round garden door, where a friendly grown-up rabbit with a mustache, a green cap and a watering can — Uncle, Bun's uncle and the garden's gardener — holds the door open and winks. Three new letter trees (S, T, U with their fruits) stand by the door. Grumble runs up holding his lantern away from his face in surprise: it has lit itself again, brighter than ever. Hidden in the picture: the umbrella, Pip going up, the uncle. (Uncle is a grown-up rabbit — an animal, not a human.)",
         "lines": [
           {
             "who": "both",

@@ -358,7 +358,7 @@
     "panels": [
       {
         "id": "scene_b3_u11_1",
-        "desc": "A party in the glade behind the last door, under strings of little flags. A long table made of black wooden blocks holds a tall stack of pancakes, little plates of snacks and a whisk in a bowl; guests sit around it: the three chipmunks, the Duck King and his ducks, the crab with its drum, the chimp in its vest holding its little lamp, the moth and the fluffy baby bird. Bun points at the table; Hedgie carries a tray; Pip sings on a flag string; Pim and Pam hang a garland together; Beads clicks. Grumble does NOT appear — only his lantern light glows among the trees at the edge of the glade. Hidden in the picture: the flags, the black blocks, the stack, the snack, the lamp, the whisk.",
+        "desc": "A party in the glade behind the last door, under strings of little flags. A long table made of black wooden blocks holds a tall stack of pancakes, little plates of snacks and a whisk in a bowl; guests sit around it: the three chipmunks, the Duck King and his ducks, the crab with its drum, the chimp in its vest holding its little lamp, the moth and the fluffy baby bird. Bun points at the table; Hedgie carries a tray; Pip sings on a flag string; Pim and Pam hang a garland together; Beads clicks. Grumble does NOT appear — only his lantern light glows among the trees at the edge of the glade. Hidden in the picture: the flags, the black blocks, the stack, the snack, the lamp, the whisk. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "flag",
           "block",
@@ -550,7 +550,7 @@
     "pages": [
       {
         "id": "sb3_u11_1",
-        "desc": "A party in the glade behind the last door, under strings of little flags. A long table made of black wooden blocks holds a stack of pancakes, snacks and a whisk in a bowl; the chipmunks, the Duck King and his ducks, the crab with its drum, the chimp with its lamp, the moth and the baby bird sit around it. Bun points; Hedgie carries a tray; Pip sings on a flag string; Pim and Pam hang a garland together. Grumble does NOT appear — only his lantern light glows among the trees. Hidden in the picture: the flags, the blocks, the stack, the snack, the lamp, the whisk.",
+        "desc": "A party in the glade behind the last door, under strings of little flags. A long table made of black wooden blocks holds a stack of pancakes, snacks and a whisk in a bowl; the chipmunks, the Duck King and his ducks, the crab with its drum, the chimp with its lamp, the moth and the baby bird sit around it. Bun points; Hedgie carries a tray; Pip sings on a flag string; Pim and Pam hang a garland together. Grumble does NOT appear — only his lantern light glows among the trees. Hidden in the picture: the flags, the blocks, the stack, the snack, the lamp, the whisk. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "lines": [
           {
             "who": "both",

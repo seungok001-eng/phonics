@@ -153,7 +153,7 @@
     "panels": [
       {
         "id": "scene_b3_u04_1",
-        "desc": "A sunny pond in the middle of the Pair Forest. A small yellow duck wearing a tiny golden crown — the Duck King — sits sadly on a big grey rock in the water, holding up one empty wing. On the bank stands a small wooden door with a golden padlock on it; the two letters c and k are carved on the door — the ONLY text allowed in the picture. Bun points at the padlock; Hedgie scratches his head; Pip says the two letters apart; Pim and Pam sit on the door frame. A red-and-white striped sock hangs on a reed. Hidden in the picture: the duck, the rock, the padlock, the striped sock, the little king with his crown. Grumble does NOT appear.",
+        "desc": "A sunny pond in the middle of the Pair Forest. A small yellow duck wearing a tiny golden crown — the Duck King — sits sadly on a big grey rock in the water, holding up one empty wing. On the bank stands a small wooden door with a golden padlock on it; the two letters c and k are carved on the door — the ONLY text allowed in the picture. Bun points at the padlock; Hedgie scratches his head; Pip says the two letters apart; Pim and Pam sit on the door frame. A red-and-white striped sock hangs on a reed. Hidden in the picture: the duck, the rock, the padlock, the striped sock, the little king with his crown. Grumble does NOT appear. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "duck",
           "rock",
@@ -196,7 +196,7 @@
       },
       {
         "id": "scene_b3_u04_2",
-        "desc": "Pim and Pam say the sound together with one sharp click, and the golden padlock pops open and falls; the little door swings open. Inside is a tiny round room full of socks hanging on lines, and in the middle hangs one red-and-white striped sock with something glinting inside it. Beads holds up three beads; Bun and Hedgie lean in; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the duck.",
+        "desc": "Pim and Pam say the sound together with one sharp click, and the golden padlock pops open and falls; the little door swings open. Inside is a tiny round room full of socks hanging on lines, and in the middle hangs one red-and-white striped sock with something glinting inside it. Beads holds up three beads; Bun and Hedgie lean in; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the duck. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "lock",
           "sock",
@@ -239,7 +239,7 @@
       },
       {
         "id": "scene_b3_u04_3",
-        "desc": "Hedgie pulls the striped sock off its line and turns it upside down: a small gold ring with a blue gem drops into his paw, sparkling. Pim and Pam hum the sound together and the ring rings like a tiny bell, little sound waves around it; Pip, beak open, tries and says the two letters apart again; the Duck King claps his wings. Hidden in the picture: the ring, the sock, the little king with his crown, his wings.",
+        "desc": "Hedgie pulls the striped sock off its line and turns it upside down: a small gold ring with a blue gem drops into his paw, sparkling. Pim and Pam hum the sound together and the ring rings like a tiny bell, little sound waves around it; Pip, beak open, tries and says the two letters apart again; the Duck King claps his wings. Hidden in the picture: the ring, the sock, the little king with his crown, his wings. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "ring",
           "sock",
@@ -281,7 +281,7 @@
       },
       {
         "id": "scene_b3_u04_4",
-        "desc": "The Duck King wears the ring on a ribbon around his neck, stands tall on the rock and spreads both wings wide, singing a happy song with colorful music notes floating up. Bun and Hedgie dance on the bank; Pim and Pam sing along; Beads sways. Up in the tree, Grumble leans over his branch with a paw at his mouth, but his eyes are closed and his foot taps to the song. Hidden in the picture: the duck, the ring, the wings, the song notes, the little king, the rock.",
+        "desc": "The Duck King wears the ring on a ribbon around his neck, stands tall on the rock and spreads both wings wide, singing a happy song with colorful music notes floating up. Bun and Hedgie dance on the bank; Pim and Pam sing along; Beads sways. Up in the tree, Grumble leans over his branch with a paw at his mouth, but his eyes are closed and his foot taps to the song. Hidden in the picture: the duck, the ring, the wings, the song notes, the little king, the rock. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "duck",
           "ring",
@@ -567,7 +567,7 @@
     "pages": [
       {
         "id": "sb3_u04_1",
-        "desc": "A sunny pond in the forest. A small yellow duck wearing a tiny golden crown — the Duck King — sits sadly on a big grey rock, holding up one empty wing. On the bank stands a small wooden door with a golden padlock and the two letters c and k carved on it — the ONLY text allowed in the picture. Bun points at the padlock; Pip says the two letters apart; Pim and Pam sit on the door frame; a striped sock hangs on a reed. Hidden in the picture: the duck, the rock, the padlock, the sock, the little king. Grumble does NOT appear.",
+        "desc": "A sunny pond in the forest. A small yellow duck wearing a tiny golden crown — the Duck King — sits sadly on a big grey rock, holding up one empty wing. On the bank stands a small wooden door with a golden padlock and the two letters c and k carved on it — the ONLY text allowed in the picture. Bun points at the padlock; Pip says the two letters apart; Pim and Pam sit on the door frame; a striped sock hangs on a reed. Hidden in the picture: the duck, the rock, the padlock, the sock, the little king. Grumble does NOT appear. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "lines": [
           {
             "who": "bun",
@@ -594,7 +594,7 @@
       },
       {
         "id": "sb3_u04_2",
-        "desc": "The golden padlock has popped open and the little door stands open onto a tiny round room full of socks hanging on lines. Hedgie has turned one striped sock upside down and a gold ring with a blue gem drops into his paw, sparkling; Pim and Pam sit side by side on the door; Beads clicks its beads; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the ring, the duck.",
+        "desc": "The golden padlock has popped open and the little door stands open onto a tiny round room full of socks hanging on lines. Hedgie has turned one striped sock upside down and a gold ring with a blue gem drops into his paw, sparkling; Pim and Pam sit side by side on the door; Beads clicks its beads; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the ring, the duck. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "lines": [
           {
             "who": "twins",
@@ -621,7 +621,7 @@
       },
       {
         "id": "sb3_u04_3",
-        "desc": "The Duck King wears the ring on a ribbon, stands tall on the rock and spreads both wings, singing a happy song with colorful music notes floating up; Bun and Hedgie dance; Pim and Pam sing along; up in the tree Grumble taps his foot with his eyes closed. In front, Pip sits alone on a mossy stump with its eyes squeezed shut, trying hard, two separate little puffs coming out of its beak. Hidden in the picture: the ring, the wings, the song notes, the little king.",
+        "desc": "The Duck King wears the ring on a ribbon, stands tall on the rock and spreads both wings, singing a happy song with colorful music notes floating up; Bun and Hedgie dance; Pim and Pam sing along; up in the tree Grumble taps his foot with his eyes closed. In front, Pip sits alone on a mossy stump with its eyes squeezed shut, trying hard, two separate little puffs coming out of its beak. Hidden in the picture: the ring, the wings, the song notes, the little king. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "lines": [
           {
             "who": "narrator",

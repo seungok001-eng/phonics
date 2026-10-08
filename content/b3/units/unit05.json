@@ -331,7 +331,7 @@
     "panels": [
       {
         "id": "scene_b3_u05_1",
-        "desc": "A bright morning in the Pair Forest. The friends walk back along the mossy path past the four doors they have opened — the round door in the giant tree, the door in the hollow log, the little door in the rock and the small door by the pond — each standing open and glowing softly; the letter pairs carved on the doors (s h, c h, t h, c k) are the ONLY text allowed in the picture. Bun counts the doors on her paw; Hedgie carries the toy ship; Beads rides on Hedgie's flower; the three chipmunks, the Duck King and the moth follow in a line; Pim and Pam fly side by side; Pip hops behind. Hidden in the picture: the toy ship, a shell, the bench, the duck. Grumble does NOT appear.",
+        "desc": "A bright morning in the Pair Forest. The friends walk back along the mossy path past the four doors they have opened — the round door in the giant tree, the door in the hollow log, the little door in the rock and the small door by the pond — each standing open and glowing softly; the letter pairs carved on the doors (s h, c h, t h, c k) are the ONLY text allowed in the picture. Bun counts the doors on her paw; Hedgie carries the toy ship; Beads rides on Hedgie's flower; the three chipmunks, the Duck King and the moth follow in a line; Pim and Pam fly side by side; Pip hops behind. Hidden in the picture: the toy ship, a shell, the bench, the duck. Grumble does NOT appear. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "ship",
           "shell",
@@ -372,7 +372,7 @@
       },
       {
         "id": "scene_b3_u05_2",
-        "desc": "Pip stands alone on a mossy stump in front of the first door with its eyes squeezed shut and feathers trembling, beak open, trying with all its might; two separate little puffs come out of its beak. Pim and Pam sit right in front of Pip, side by side, showing how to say it together; Bun and Hedgie hold their breath with paws over their mouths; the Duck King watches hopefully. Hidden in the picture: the thin path, a round wooden bathtub by the stream, the moth, a striped sock. Grumble does NOT appear.",
+        "desc": "Pip stands alone on a mossy stump in front of the first door with its eyes squeezed shut and feathers trembling, beak open, trying with all its might; two separate little puffs come out of its beak. Pim and Pam sit right in front of Pip, side by side, showing how to say it together; Bun and Hedgie hold their breath with paws over their mouths; the Duck King watches hopefully. Hidden in the picture: the thin path, a round wooden bathtub by the stream, the moth, a striped sock. Grumble does NOT appear. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "path",
           "bath",
@@ -455,7 +455,7 @@
       },
       {
         "id": "scene_b3_u05_4",
-        "desc": "Dusk, the sky deep blue. Grumble has climbed halfway down the giant tree and sits on a low branch holding his lantern up so its warm glow lights the path and the open doors; his face is calm and he gives a small, proud smile. Pip sits on Bun's head, still glowing softly; Hedgie waves up at Grumble; Pim and Pam snuggle together on the lantern hook; the Duck King, wearing his ring, sings beside the pond with music notes floating up and his wings spread. Far off in the trees, a big round wall clock with no numbers hangs on a trunk, its two hands stopped. Hidden in the picture: the ring, the little king, the song notes, a wing.",
+        "desc": "Dusk, the sky deep blue. Grumble has climbed halfway down the giant tree and sits on a low branch holding his lantern up so its warm glow lights the path and the open doors; his face is calm and he gives a small, proud smile. Pip sits on Bun's head, still glowing softly; Hedgie waves up at Grumble; Pim and Pam snuggle together on the lantern hook; the Duck King, wearing his ring, sings beside the pond with music notes floating up and his wings spread. Far off in the trees, a big round wall clock with no numbers hangs on a trunk, its two hands stopped. Hidden in the picture: the ring, the little king, the song notes, a wing. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "ring",
           "king",
@@ -518,7 +518,7 @@
     "pages": [
       {
         "id": "sb3_u05_1",
-        "desc": "A bright morning. The friends walk back along the mossy path past the four doors they have opened, each standing open and glowing softly; the letter pairs carved on the doors (s h, c h, t h, c k) are the ONLY text allowed in the picture. Bun counts the doors on her paw; Hedgie carries the toy ship with Beads on his flower; the chipmunks, the Duck King and the moth follow in a line; Pim and Pam fly side by side; Pip hops behind. Hidden in the picture: the ship, a shell, the bench, the duck, the chess board. Grumble does NOT appear.",
+        "desc": "A bright morning. The friends walk back along the mossy path past the four doors they have opened, each standing open and glowing softly; the letter pairs carved on the doors (s h, c h, t h, c k) are the ONLY text allowed in the picture. Bun counts the doors on her paw; Hedgie carries the toy ship with Beads on his flower; the chipmunks, the Duck King and the moth follow in a line; Pim and Pam fly side by side; Pip hops behind. Hidden in the picture: the ship, a shell, the bench, the duck, the chess board. Grumble does NOT appear. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "lines": [
           {
             "who": "narrator",
@@ -572,7 +572,7 @@
       },
       {
         "id": "sb3_u05_3",
-        "desc": "From high in the giant tree, Grumble gives his biggest Shh! and Pip, copying him, says the sound in one smooth breath for the first time: Pip glows bright gold with sparkles bursting from its beak, the first door flings open with a rush of leaves, and everyone jumps and cheers. Later, at dusk, Grumble sits on a low branch holding his lantern up to light the path, smiling a small proud smile. Far off in the trees, a big round wall clock with no numbers hangs on a trunk, its hands stopped. Hidden in the picture: the fish, the shop, the ring on the Duck King, the song notes.",
+        "desc": "From high in the giant tree, Grumble gives his biggest Shh! and Pip, copying him, says the sound in one smooth breath for the first time: Pip glows bright gold with sparkles bursting from its beak, the first door flings open with a rush of leaves, and everyone jumps and cheers. Later, at dusk, Grumble sits on a low branch holding his lantern up to light the path, smiling a small proud smile. Far off in the trees, a big round wall clock with no numbers hangs on a trunk, its hands stopped. Hidden in the picture: the fish, the shop, the ring on the Duck King, the song notes. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "lines": [
           {
             "who": "pip",
