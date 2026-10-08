@@ -1,6 +1,6 @@
 # 교재 공방 — content/book.json 과 content/units/*.json 에서 만들 그림·소리 항목 목록을 자동으로 만든다.
 # 항목 id 는 내용에서 결정적으로 나오므로 다시 만들어도 같은 항목은 같은 id 다 (server.rebuild 가 상태·그림을 보존한다).
-import glob, json, os
+import glob, json, os, re
 import presets
 
 LINE_PROMPT = ('Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, '
@@ -60,6 +60,34 @@ def _item(**kw):
     return it
 
 
+# 장면에 나오는 캐릭터만 (캐스트 시트를 참조로 붙이면 모두 그려 넣어서 — 2026-10-08)
+CHAR_KEYS = {'pip': ['pip', 'baby bird', 'yellow bird', 'songbird', 'baby songbird'], 'bun': ['bun', 'rabbit', 'bunny'], 'hedgie': ['hedgie', 'hedgehog'],
+             'grumble': ['grumble', 'raccoon'], 'beads': ['beads', 'caterpillar'], 'twins': ['pim', 'pam', 'twin', 'bluebird'], 'fairy': ['fairy']}
+
+
+def scene_chars(desc, order):
+    d = desc.lower(); out = []
+    for c in order:
+        keys = CHAR_KEYS.get(c, [c])
+        if not any(re.search(r'\b' + re.escape(k) + r's?\b', d) for k in keys): continue
+        name = keys[0]
+        if re.search(r'\b' + re.escape(name) + r'\b[^.]{0,30}\b(does not|doesn.t|is not) (appear|in )', d): continue
+        out.append(c)
+    return out
+
+
+def scene_prompt(st, chars, order, desc, page=False):
+    present = scene_chars(desc, order)
+    names = ', '.join(chars[c]['name'] for c in present)
+    who = ' '.join(f"{chars[c]['name']} is {chars[c]['desc']}." for c in present)
+    head = f"{st['art']} {st['scene']} " + ('Full-page picture-book illustration. ' if page else '')
+    if present:
+        cast = (f"Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: {names}. "
+                f"Every other character on the sheet must NOT appear in this picture. ")
+    else:
+        cast = "None of the characters from the attached sheet appear in this picture. "
+    return head + cast + f"Scene: {desc}" + (f" Characters: {who}" if who else '')
+
 def build_items(book, units, bk=1):
     """그림·영상 항목 전부 (플랜 순서 = 생성 순서)."""
     st = book['style']; chars = book['characters']; pose_desc = book['pose_desc']
@@ -114,8 +142,7 @@ def build_items(book, units, bk=1):
     who = ' '.join(f"{chars[c]['name']} is {chars[c]['desc']}." for c in order)
     for u in units:
         for p in (u.get('story') or {}).get('panels', []):
-            prompt = (f"{st['art']} {st['scene']} The characters must look exactly like the ones in the attached character sheet (left to right: {names}). "
-                      f"Scene: {p['desc']} Characters: {who}")
+            prompt = scene_prompt(st, chars, order, p['desc'])
             items.append(_item(id=p['id'], kind='scene', title=f"{bk}권 {u['unit']}유닛 장면 · {p['id'].split('_')[-1]}", unit=u['unit'],
                                prompt=prompt, reference=cast_id, aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
         for v in u.get('videos', []):
@@ -123,16 +150,14 @@ def build_items(book, units, bk=1):
                                prompt=v['prompt'], reference=v['from'], seconds=v.get('seconds', 8), aspect='4:3', out=f"web/assets/video/{v['id']}.mp4"))
         # 8. 스토리북 쪽 그림 (유닛 JSON storybook.pages, 캐스트 시트 참조, A5 가로에 맞게 4:3)
         for p in (u.get('storybook') or {}).get('pages', []):
-            prompt = (f"{st['art']} {st['scene']} Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: {names}). "
-                      f"Scene: {p['desc']} Characters: {who}")
+            prompt = scene_prompt(st, chars, order, p['desc'], page=True)
             items.append(_item(id=p['id'], kind='scene', title=f"{bk}권 {u['unit']}유닛 스토리북 · {p['id'].split('_')[-1]}쪽", unit=u['unit'],
                                prompt=prompt, reference=cast_id, aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
     # 9. 스토리북 표지·앞·뒤 쪽 (book.json storybook)
     sbk = book.get('storybook') or {}
     extra = ([sbk['cover']] if sbk.get('cover') else []) + list(sbk.get('front', [])) + list(sbk.get('back', []))
     for p in extra:
-        prompt = (f"{st['art']} {st['scene']} Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: {names}). "
-                  f"Scene: {p['desc']} Characters: {who}")
+        prompt = scene_prompt(st, chars, order, p['desc'], page=True)
         items.append(_item(id=p['id'], kind='scene', title=f"{bk}권 스토리북 · {p['id']}", unit=0,
                            prompt=prompt, reference=cast_id, aspect='4:3', out=f"web/assets/art/{p['id']}.jpg"))
     for it in items: it['book'] = bk
