@@ -92,7 +92,7 @@
     "panels": [
       {
         "id": "scene_u07_1",
-        "desc": "A cozy corner of the night garden at dawn, pale pink sky. On a garden bed lies a big lump covered by a colorful patchwork quilt — the friends think the garden queen is sleeping there. Beside it, a black-and-white panda sits drawing with a yellow pencil, and a red cooking pot full of pencils stands next to it with a glowing golden seed inside. Hedgie whispers and points at the panda; Pip is trying to say a sound, but a single round soap bubble floats out of its open beak and it stares at it cross-eyed. Bun covers her mouth laughing. Hidden in the picture: the pencil, the panda, the pot. The lump under the quilt is really Grumble: only his two slippers poke out from under the quilt edge, and a bright warm lantern glow shines through the fabric from inside.",
+        "desc": "A cozy corner of the night garden at dawn, pale pink sky. On a garden bed lies a big lump covered by a colorful patchwork quilt — the friends think the garden queen is sleeping there. Beside it, a black-and-white panda sits drawing with a yellow pencil, and a red cooking pot full of pencils stands next to it with a glowing golden seed inside. Hedgie whispers and points at the panda; Pip is trying to say a sound, but a single round soap bubble floats out of its open beak and it stares at it cross-eyed. Bun covers her mouth laughing. Hidden in the picture: the pencil, the panda, the pot. The lump under the quilt is really Grumble: only his two slippers poke out from under the quilt edge, and a bright warm lantern glow shines through the fabric from inside. (The queen is a white swan with a small golden crown — an animal, not a human.)",
         "hidden": [
           "pencil",
           "panda",
@@ -218,7 +218,7 @@
       },
       {
         "id": "scene_u07_4",
-        "desc": "The rocket blasts up through the rain cloud with a trail of flames and the cloud breaks apart, letting pale morning light through. Three new letter trees (P with pencil, panda and pot fruits; Q with queen, quilt and quack fruits; R with rocket, rain and rice fruits) stand in a row. The queen waves from her flower throne. Bun and Hedgie cheer; Pip glows brightly. Grumble stands beside the trees still wearing the quilt as a cape, hugging it, with a shy hopeful look; his lantern glows bright. Hidden in the picture: the quilt cape, the rocket in the sky.",
+        "desc": "The rocket blasts up through the rain cloud with a trail of flames and the cloud breaks apart, letting pale morning light through. Three new letter trees (P with pencil, panda and pot fruits; Q with queen, quilt and quack fruits; R with rocket, rain and rice fruits) stand in a row. The queen waves from her flower throne. Bun and Hedgie cheer; Pip glows brightly. Grumble stands beside the trees still wearing the quilt as a cape, hugging it, with a shy hopeful look; his lantern glows bright. Hidden in the picture: the quilt cape, the rocket in the sky. (The queen is a white swan with a small golden crown — an animal, not a human.)",
         "hidden": [
           "quilt",
           "rocket"
