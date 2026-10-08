@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/ɑr/ /ɑr/ harp!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791429830.922969,
+   "sec": 2.57,
+   "check": {
+    "transcript": "our our harp",
+    "type": "word",
+    "ipa": "ˈaʊər ˈaʊər ˈhɑːrp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=our our harp | TYPE=word | IPA=ˈaʊər ˈaʊər ˈhɑːrp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-08 00:50",
+ "applied": "2026-10-08 12:57",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -48,6 +65,5 @@
  "text": "/ɑr/ /ɑr/ harp!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 4,
- "busy": 0
+ "book": 4
 }

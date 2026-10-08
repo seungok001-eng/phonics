@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=jelly | TYPE=word | IPA=ˈdʒɛli | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/j/ /j/ jelly!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429556.6269002,
+   "sec": 2.2,
+   "check": {
+    "transcript": "jelly",
+    "type": "word",
+    "ipa": "ˈdʒɛli",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jelly | TYPE=word | IPA=ˈdʒɛli | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:28",
+ "applied": "2026-10-08 12:28",
  "text_edited": false,
  "error": "",
  "unit": 4,

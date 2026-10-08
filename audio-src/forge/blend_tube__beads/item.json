@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/t/ /uː/ /b/ tube!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429799.0236812,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Tube",
+    "type": "word",
+    "ipa": "tjuːb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Tube | TYPE=word | IPA=tjuːb | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_tube__beads",
+ "sub": "line",
+ "title": "4권 4유닛 대사 · 비즈: /t/ /uː/ /b/ tube!",
+ "text": "/t/ /uː/ /b/ tube!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4
+}

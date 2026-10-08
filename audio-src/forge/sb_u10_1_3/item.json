@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=yuck yuck yuck yuck | TYPE=sentence | IPA=jʌk jʌk jʌk jʌk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/j/ /j/ yak! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429633.8243,
+   "sec": 2.82,
+   "check": {
+    "transcript": "yak",
+    "type": "word",
+    "ipa": "jæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yak | TYPE=word | IPA=jæk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-10-07 17:34",
+ "applied": "2026-10-08 12:35",
  "text_edited": false,
  "error": "",
  "unit": 10,

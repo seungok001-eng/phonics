@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=cup | TYPE=word | IPA=k ʌ p | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/k/ /ʌ/ /p/ cup!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429696.9936645,
+   "sec": 1.94,
+   "check": {
+    "transcript": "cup",
+    "type": "word",
+    "ipa": "kʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cup | TYPE=word | IPA=kʌp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:42",
+ "applied": "2026-10-08 12:43",
  "text_edited": false,
  "error": "",
  "unit": 10,

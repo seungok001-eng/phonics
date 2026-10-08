@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=together | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /bl/ /bl/ block!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429751.4719982,
+   "sec": 3.03,
+   "check": {
+    "transcript": "block",
+    "type": "word",
+    "ipa": "blɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=block | TYPE=word | IPA=blɒk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:23",
+ "applied": "2026-10-08 12:49",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -31,6 +48,5 @@
  "text": "Together! /bl/ /bl/ block!",
  "voice": "Laomedeia",
  "who": "twins",
- "book": 3,
- "busy": 0
+ "book": 3
 }

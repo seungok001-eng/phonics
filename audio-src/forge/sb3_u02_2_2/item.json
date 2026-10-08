@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=ch | TYPE=isolated-sound | IPA=tʃ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/tʃ/ /ɪ/ /p/ chip!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429718.0862725,
+   "sec": 2.14,
+   "check": {
+    "transcript": "chip",
+    "type": "word",
+    "ipa": "ʧɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chip | TYPE=word | IPA=ʧɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:09",
+ "applied": "2026-10-08 12:45",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -31,5 +48,6 @@
  "text": "/tʃ/ /ɪ/ /p/ chip!",
  "voice": "Zephyr",
  "who": "beads",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

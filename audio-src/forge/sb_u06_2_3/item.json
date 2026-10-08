@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=n n nut pop | TYPE=sentence | IPA=n n nʌt pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/n/ /n/ net! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429580.8621218,
+   "sec": 3.01,
+   "check": {
+    "transcript": "n net pop",
+    "type": "sentence",
+    "ipa": "n nɛt pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=n net pop | TYPE=sentence | IPA=n nɛt pɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:30",
+ "applied": "2026-10-08 12:29",
  "text_edited": false,
  "error": "",
  "unit": 6,

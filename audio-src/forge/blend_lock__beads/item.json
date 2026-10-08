@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ /ɑ/ /k/ lock!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429734.0330682,
+   "sec": 2.45,
+   "check": {
+    "transcript": "lock",
+    "type": "word",
+    "ipa": "l ɑ k",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lock | TYPE=word | IPA=l ɑ k | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_lock__beads",
+ "sub": "line",
+ "title": "3권 4유닛 대사 · 비즈: /l/ /ɑ/ /k/ lock!",
+ "text": "/l/ /ɑ/ /k/ lock!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3
+}

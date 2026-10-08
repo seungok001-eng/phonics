@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=r | TYPE=isolated-sound | IPA=ɹ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/r/ /eɪ/ /n/ rain!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429811.1273615,
+   "sec": 3.47,
+   "check": {
+    "transcript": "rain",
+    "type": "word",
+    "ipa": "ɹeɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rain | TYPE=word | IPA=ɹeɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:35",
+ "applied": "2026-10-08 12:55",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -31,6 +48,5 @@
  "text": "/r/ /eɪ/ /n/ rain!",
  "voice": "Zephyr",
  "who": "beads",
- "book": 4,
- "busy": 0
+ "book": 4
 }

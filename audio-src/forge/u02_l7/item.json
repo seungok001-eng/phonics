@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=the frog | TYPE=sentence | IPA=ðə fɹɑg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "The frog! /f/ /f/ frog!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791429534.23511,
+   "sec": 4.4,
+   "check": {
+    "transcript": "The frog.",
+    "type": "sentence",
+    "ipa": "ðə ˈfɹɑɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The frog. | TYPE=sentence | IPA=ðə ˈfɹɑɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:26",
+ "applied": "2026-10-08 12:26",
  "text_edited": false,
  "error": "",
  "unit": 2,

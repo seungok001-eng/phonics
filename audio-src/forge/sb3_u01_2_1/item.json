@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/ʃ/... /ʃ/...",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429707.6580446,
+   "sec": 1.3,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:05",
+ "applied": "2026-10-08 12:44",
  "text_edited": false,
  "error": "",
  "unit": 1,

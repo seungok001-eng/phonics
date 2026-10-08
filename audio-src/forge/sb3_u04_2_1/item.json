@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Together | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /k/ /k/ lock!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429737.1717963,
+   "sec": 2.74,
+   "check": {
+    "transcript": "together",
+    "type": "word",
+    "ipa": "təˈɡɛðɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=together | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:17",
+ "applied": "2026-10-08 12:48",
  "text_edited": false,
  "error": "",
  "unit": 4,

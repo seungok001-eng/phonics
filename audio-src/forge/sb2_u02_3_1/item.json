@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=bag | TYPE=word | IPA=bæg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/b/ /æ/ /g/ bag!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429647.8950357,
+   "sec": 2.86,
+   "check": {
+    "transcript": "bag",
+    "type": "word",
+    "ipa": "bæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bag | TYPE=word | IPA=bæg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:40",
+ "applied": "2026-10-08 12:37",
  "text_edited": false,
  "error": "",
  "unit": 2,

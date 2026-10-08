@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=Igloo | TYPE=word | IPA=/ˈɪɡluː/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/h/ /h/ hippo! /i/ /i/ igloo!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791429552.059969,
+   "sec": 4.43,
+   "check": {
+    "transcript": "hippo a a igloo",
+    "type": "sentence",
+    "ipa": "ˈhɪpoʊ ˈeɪ ˈeɪ ˈɪgluː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hippo a a igloo | TYPE=sentence | IPA=ˈhɪpoʊ ˈeɪ ˈeɪ ˈɪgluː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:27",
+ "applied": "2026-10-08 12:27",
  "text_edited": false,
  "error": "",
  "unit": 3,

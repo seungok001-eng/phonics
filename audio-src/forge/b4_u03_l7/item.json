@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=o o o | TYPE=word | IPA=oʊ oʊ oʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/oʊ/ /oʊ/ rope!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429797.871175,
+   "sec": 2.16,
+   "check": {
+    "transcript": "O, O, rope",
+    "type": "word",
+    "ipa": "oʊ, oʊ, roʊp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=O, O, rope | TYPE=word | IPA=oʊ, oʊ, roʊp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:18",
+ "applied": "2026-10-08 12:53",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -31,6 +48,5 @@
  "text": "/oʊ/ /oʊ/ rope!",
  "voice": "Leda",
  "who": "bun",
- "book": 4,
- "busy": 0
+ "book": 4
 }

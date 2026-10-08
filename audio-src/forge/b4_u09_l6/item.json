@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=ow | TYPE=word | IPA=aʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/aʊ/ /aʊ/ mouse!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429823.9148488,
+   "sec": 2.95,
+   "check": {
+    "transcript": "mouse",
+    "type": "word",
+    "ipa": "maʊs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mouse | TYPE=word | IPA=maʊs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:41",
+ "applied": "2026-10-08 12:56",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -31,6 +48,5 @@
  "text": "/aʊ/ /aʊ/ mouse!",
  "voice": "Leda",
  "who": "bun",
- "book": 4,
- "busy": 0
+ "book": 4
 }

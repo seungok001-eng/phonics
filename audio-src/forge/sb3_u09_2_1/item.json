@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=tent | TYPE=word | IPA=tɛnt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /nt/ /nt/ tent!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429773.4332447,
+   "sec": 2.99,
+   "check": {
+    "transcript": "tent",
+    "type": "word",
+    "ipa": "tɛnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tent | TYPE=word | IPA=tɛnt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:42",
+ "applied": "2026-10-08 12:51",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -31,6 +48,5 @@
  "text": "Together! /nt/ /nt/ tent!",
  "voice": "Laomedeia",
  "who": "twins",
- "book": 3,
- "busy": 0
+ "book": 3
 }

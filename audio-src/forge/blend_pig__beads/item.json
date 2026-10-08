@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ /ɪ/ /g/ pig!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429663.9067416,
+   "sec": 2.45,
+   "check": {
+    "transcript": "a pig",
+    "type": "sentence",
+    "ipa": "ə pɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a pig | TYPE=sentence | IPA=ə pɪg | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_pig__beads",
+ "sub": "line",
+ "title": "2권 6유닛 대사 · 비즈: /p/ /ɪ/ /g/ pig!",
+ "text": "/p/ /ɪ/ /g/ pig!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 2,
+ "busy": 0
+}

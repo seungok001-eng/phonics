@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ /ɑ/ /t/ pot!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429680.8874733,
+   "sec": 2.04,
+   "check": {
+    "transcript": "pot",
+    "type": "word",
+    "ipa": "p ɒ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pot | TYPE=word | IPA=p ɒ t | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "blend_pot__beads",
+ "sub": "line",
+ "title": "2권 8유닛 대사 · 비즈: /p/ /ɑ/ /t/ pot!",
+ "text": "/p/ /ɑ/ /t/ pot!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 2,
+ "busy": 0
+}

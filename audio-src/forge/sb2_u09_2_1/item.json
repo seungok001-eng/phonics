@@ -135,11 +135,28 @@
     "raw": "TRANSCRIPT=ah | TYPE=isolated-sound | IPA=ɑ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 9,
+   "file": "cand_9.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429689.0223224,
+   "sec": 2.28,
+   "check": {
+    "transcript": "hop",
+    "type": "word",
+    "ipa": "h ɑ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hop | TYPE=word | IPA=h ɑ p | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 9,
  "final": "final.mp3",
- "applied": "2026-10-07 17:41",
+ "applied": "2026-10-08 12:42",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -151,5 +168,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

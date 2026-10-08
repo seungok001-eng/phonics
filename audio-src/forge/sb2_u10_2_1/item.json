@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=b ah g b | TYPE=sentence | IPA=bi ɑ g b | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/b/ /ʌ/ /g/ bug!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429694.9932332,
+   "sec": 2.52,
+   "check": {
+    "transcript": "b, a, g, bug",
+    "type": "word",
+    "ipa": "b ʌ g",
+    "note": "ok",
+    "raw": "TRANSCRIPT=b, a, g, bug | TYPE=word | IPA=b ʌ g | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:42",
+ "applied": "2026-10-08 12:43",
  "text_edited": false,
  "error": "",
  "unit": 10,

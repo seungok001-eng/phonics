@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=Z | TYPE=letter-name | IPA=zi | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/z/ /z/ zigzag!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429628.7257693,
+   "sec": 4.56,
+   "check": {
+    "transcript": "zigzag",
+    "type": "word",
+    "ipa": "ˈzɪɡ.zæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zigzag | TYPE=word | IPA=ˈzɪɡ.zæɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:34",
+ "applied": "2026-10-08 12:35",
  "text_edited": false,
  "error": "",
  "unit": 10,

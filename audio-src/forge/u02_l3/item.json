@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=dog | TYPE=word | IPA=dɔɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/d/ /d/ duck!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429527.6345189,
+   "sec": 1.89,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:26",
+ "applied": "2026-10-08 12:25",
  "text_edited": false,
  "error": "",
  "unit": 2,

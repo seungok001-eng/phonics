@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=n | TYPE=isolated-sound | IPA=n | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/n/ /n/ net!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429573.7228463,
+   "sec": 2.23,
+   "check": {
+    "transcript": "net",
+    "type": "word",
+    "ipa": "nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-10-07 17:44",
+ "applied": "2026-10-08 12:29",
  "text_edited": false,
  "error": "",
  "unit": 6,

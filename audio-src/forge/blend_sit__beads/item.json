@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/s/ /ɪ/ /t/ sit!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429673.8927624,
+   "sec": 3.11,
+   "check": {
+    "transcript": "sit",
+    "type": "word",
+    "ipa": "sɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sit | TYPE=word | IPA=sɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_sit__beads",
+ "sub": "line",
+ "title": "2권 7유닛 대사 · 비즈: /s/ /ɪ/ /t/ sit!",
+ "text": "/s/ /ɪ/ /t/ sit!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 2,
+ "busy": 0
+}

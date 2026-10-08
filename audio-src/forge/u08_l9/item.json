@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=Ah | TYPE=isolated-sound | IPA=/ɑ/ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/u/ /u/ up!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429602.7026448,
+   "sec": 1.5,
+   "check": {
+    "transcript": "up",
+    "type": "word",
+    "ipa": "ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=up | TYPE=word | IPA=ʌp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:32",
+ "applied": "2026-10-08 12:32",
  "text_edited": false,
  "error": "",
  "unit": 8,

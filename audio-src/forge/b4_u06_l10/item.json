@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=paint | TYPE=word | IPA=peɪnt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/eɪ/ /eɪ/ paint!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791429806.8964102,
+   "sec": 1.93,
+   "check": {
+    "transcript": "paint",
+    "type": "word",
+    "ipa": "peɪnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=paint | TYPE=word | IPA=peɪnt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:34",
+ "applied": "2026-10-08 12:54",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -31,6 +48,5 @@
  "text": "/eɪ/ /eɪ/ paint!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 4,
- "busy": 0
+ "book": 4
 }

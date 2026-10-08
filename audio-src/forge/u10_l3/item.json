@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=yuck | TYPE=word | IPA=jʌk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/j/ /j/ yak!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429626.8016965,
+   "sec": 1.94,
+   "check": {
+    "transcript": "yak",
+    "type": "word",
+    "ipa": "jæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yak | TYPE=word | IPA=jæk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:34",
+ "applied": "2026-10-08 12:35",
  "text_edited": false,
  "error": "",
  "unit": 10,

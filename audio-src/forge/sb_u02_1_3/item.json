@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=duck pop | TYPE=sentence | IPA=dʌk pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/d/ /d/ duck! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429534.848984,
+   "sec": 2.86,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-10-07 17:51",
+ "applied": "2026-10-08 12:26",
  "text_edited": false,
  "error": "",
  "unit": 2,

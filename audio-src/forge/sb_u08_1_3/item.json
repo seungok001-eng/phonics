@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=Seal, pop! | TYPE=sentence | IPA=ˈsiːl pɑːp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/s/ /s/ seal! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429608.9917455,
+   "sec": 4.16,
+   "check": {
+    "transcript": "seal",
+    "type": "word",
+    "ipa": "sil",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seal | TYPE=word | IPA=sil | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:32",
+ "applied": "2026-10-08 12:32",
  "text_edited": false,
  "error": "",
  "unit": 8,

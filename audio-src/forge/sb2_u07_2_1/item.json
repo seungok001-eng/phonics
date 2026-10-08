@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=e | TYPE=letter-name | IPA=i | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/z/ /ɪ/ /p/ zip!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429676.8895123,
+   "sec": 3.66,
+   "check": {
+    "transcript": "zipper",
+    "type": "word",
+    "ipa": "ˈzɪpɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zipper | TYPE=word | IPA=ˈzɪpɚ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:41",
+ "applied": "2026-10-08 12:41",
  "text_edited": false,
  "error": "",
  "unit": 7,

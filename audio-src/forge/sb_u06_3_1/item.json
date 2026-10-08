@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=octopus pop | TYPE=word | IPA=ˈɑːktəpʊs pɑːp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/o/ /o/ octopus! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429582.9671357,
+   "sec": 3.24,
+   "check": {
+    "transcript": "octopus",
+    "type": "word",
+    "ipa": "ˈɑːk.tə.pəs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=octopus | TYPE=word | IPA=ˈɑːk.tə.pəs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:30",
+ "applied": "2026-10-08 12:30",
  "text_edited": false,
  "error": "",
  "unit": 6,

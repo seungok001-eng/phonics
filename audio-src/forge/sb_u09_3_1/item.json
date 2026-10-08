@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=box pop | TYPE=word | IPA=bɒks pɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/ks/ /ks/ box! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429625.9259615,
+   "sec": 2.85,
+   "check": {
+    "transcript": "box",
+    "type": "word",
+    "ipa": "bɒks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=box | TYPE=word | IPA=bɒks | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:33",
+ "applied": "2026-10-08 12:34",
  "text_edited": false,
  "error": "",
  "unit": 9,

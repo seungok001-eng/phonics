@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=I | TYPE=letter-name | IPA=aɪ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/aɪ/ /aɪ/ slide! Up, up!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429792.150546,
+   "sec": 3.95,
+   "check": {
+    "transcript": "I slide",
+    "type": "sentence",
+    "ipa": "aɪ slaɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I slide | TYPE=sentence | IPA=aɪ slaɪd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:12",
+ "applied": "2026-10-08 12:53",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -31,6 +48,5 @@
  "text": "/aɪ/ /aɪ/ slide! Up, up!",
  "voice": "Leda",
  "who": "bun",
- "book": 4,
- "busy": 0
+ "book": 4
 }

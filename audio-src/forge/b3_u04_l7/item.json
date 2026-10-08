@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=together ring | TYPE=sentence | IPA=təˈɡɛðɚ ɹɪŋ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Together! /ŋ/ /ŋ/ ring!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429736.1474996,
+   "sec": 3.68,
+   "check": {
+    "transcript": "ring",
+    "type": "word",
+    "ipa": "ɹɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ring | TYPE=word | IPA=ɹɪŋ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 22:14",
+ "applied": "2026-10-08 12:47",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -48,6 +65,5 @@
  "text": "Together! /ŋ/ /ŋ/ ring!",
  "voice": "Laomedeia",
  "who": "twins",
- "book": 3,
- "busy": 0
+ "book": 3
 }

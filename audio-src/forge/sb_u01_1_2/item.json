@@ -61,11 +61,28 @@
     "raw": "TRANSCRIPT=Apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/a/ /a/ apple!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791429521.601409,
+   "sec": 2.04,
+   "check": {
+    "transcript": "a, a, apple",
+    "type": "word",
+    "ipa": "eɪ, eɪ, ˈæpəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a, a, apple | TYPE=word | IPA=eɪ, eɪ, ˈæpəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:25",
+ "applied": "2026-10-08 12:25",
  "text_edited": false,
  "error": "",
  "unit": 1,

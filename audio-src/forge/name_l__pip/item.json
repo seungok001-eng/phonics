@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "L!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791429561.1345613,
+   "sec": 0.65,
+   "check": {
+    "transcript": "el",
+    "type": "word",
+    "ipa": "ɛl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=el | TYPE=word | IPA=ɛl | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:28",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "name_l__pip",
+ "sub": "line",
+ "title": "1권 4유닛 대사 · 핍: L!",
+ "text": "L!",
+ "voice": "Kore",
+ "who": "pip",
+ "book": 1,
+ "busy": 0
+}

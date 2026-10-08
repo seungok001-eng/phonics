@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=er | TYPE=isolated-sound | IPA=ɝ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/r/ /r/ rocket! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429596.9690254,
+   "sec": 4.49,
+   "check": {
+    "transcript": "rocket",
+    "type": "word",
+    "ipa": "ˈɹɑkɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rocket | TYPE=word | IPA=ˈɹɑkɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:31",
+ "applied": "2026-10-08 12:31",
  "text_edited": false,
  "error": "",
  "unit": 7,

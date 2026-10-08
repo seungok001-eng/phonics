@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=herb | TYPE=word | IPA=h ɜː b | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/h/ /ɑr/ /p/ harp!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429832.058822,
+   "sec": 2.67,
+   "check": {
+    "transcript": "harp",
+    "type": "word",
+    "ipa": "/hɑːrp/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=harp | TYPE=word | IPA=/hɑːrp/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-08 00:52",
+ "applied": "2026-10-08 12:57",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -48,6 +65,5 @@
  "text": "/h/ /ɑr/ /p/ harp!",
  "voice": "Zephyr",
  "who": "beads",
- "book": 4,
- "busy": 0
+ "book": 4
 }

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "R!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791429590.2406073,
+   "sec": 0.7,
+   "check": {
+    "transcript": "not",
+    "type": "word",
+    "ipa": "nɒt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=not | TYPE=word | IPA=nɒt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:30",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "name_r__pip",
+ "sub": "line",
+ "title": "1권 7유닛 대사 · 핍: R!",
+ "text": "R!",
+ "voice": "Kore",
+ "who": "pip",
+ "book": 1,
+ "busy": 0
+}

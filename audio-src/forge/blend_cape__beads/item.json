@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ /eɪ/ /p/ cape!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429784.0205956,
+   "sec": 2.15,
+   "check": {
+    "transcript": "cape",
+    "type": "word",
+    "ipa": "keɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cape | TYPE=word | IPA=keɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_cape__beads",
+ "sub": "line",
+ "title": "4권 1유닛 대사 · 비즈: /k/ /eɪ/ /p/ cape!",
+ "text": "/k/ /eɪ/ /p/ cape!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4
+}

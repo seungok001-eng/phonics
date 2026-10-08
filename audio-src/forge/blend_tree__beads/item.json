@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/tr/ /iː/ tree!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791431913.9352763,
+   "sec": 3.04,
+   "check": {
+    "transcript": "tree",
+    "type": "word",
+    "ipa": "tri",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tree | TYPE=word | IPA=tri | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 13:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_tree__beads",
+ "sub": "line",
+ "title": "4권 7유닛 대사 · 비즈: /tr/ /iː/ tree!",
+ "text": "/tr/ /iː/ tree!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4,
+ "busy": 0
+}

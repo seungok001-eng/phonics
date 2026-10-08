@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=together chip | TYPE=sentence | IPA=təˈɡɛðɚ tʃɪp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /tʃ/ /tʃ/ chip!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429713.278315,
+   "sec": 2.72,
+   "check": {
+    "transcript": "together",
+    "type": "word",
+    "ipa": "təˈɡɛðəɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=together | TYPE=word | IPA=təˈɡɛðəɹ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Together! /tʃ/ /tʃ/ chip!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791431918.354079,
+   "sec": 2.72,
+   "check": {
+    "transcript": "Together chip",
+    "type": "sentence",
+    "ipa": "təˈɡɛðər tʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Together chip | TYPE=sentence | IPA=təˈɡɛðər tʃɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 22:06",
+ "applied": "2026-10-08 13:00",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -31,5 +65,6 @@
  "text": "Together! /tʃ/ /tʃ/ chip!",
  "voice": "Laomedeia",
  "who": "twins",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

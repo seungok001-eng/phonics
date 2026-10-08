@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429684.9212575,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Ah, hop.",
+    "type": "sentence",
+    "ipa": "ɑː hɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ah, hop. | TYPE=sentence | IPA=ɑː hɒp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_hop__beads",
+ "sub": "line",
+ "title": "2권 9유닛 대사 · 비즈: /h/ /ɑ/ /p/ hop!",
+ "text": "/h/ /ɑ/ /p/ hop!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 2,
+ "busy": 0
+}

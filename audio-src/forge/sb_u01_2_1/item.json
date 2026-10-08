@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=A bus | TYPE=sentence | IPA=ə bʌs | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A bus! /b/ /b/ bus!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429524.7768574,
+   "sec": 2.94,
+   "check": {
+    "transcript": "a bus",
+    "type": "sentence",
+    "ipa": "ə bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a bus | TYPE=sentence | IPA=ə bʌs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:25",
+ "applied": "2026-10-08 12:25",
  "text_edited": false,
  "error": "",
  "unit": 1,

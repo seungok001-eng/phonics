@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=Panda | TYPE=word | IPA=ˈpændə | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/p/ /p/ panda!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429583.6991422,
+   "sec": 1.42,
+   "check": {
+    "transcript": "panda",
+    "type": "word",
+    "ipa": "/ˈpændə/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=panda | TYPE=word | IPA=/ˈpændə/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:30",
+ "applied": "2026-10-08 12:30",
  "text_edited": false,
  "error": "",
  "unit": 7,

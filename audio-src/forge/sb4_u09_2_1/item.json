@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Mmm ooh nn moon | TYPE=sentence | IPA=mː uː n mun | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/m/ /uː/ /n/ moon!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429825.0488727,
+   "sec": 3.36,
+   "check": {
+    "transcript": "moon",
+    "type": "word",
+    "ipa": "mun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=moon | TYPE=word | IPA=mun | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:48",
+ "applied": "2026-10-08 12:56",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -31,6 +48,5 @@
  "text": "/m/ /uː/ /n/ moon!",
  "voice": "Zephyr",
  "who": "beads",
- "book": 4,
- "busy": 0
+ "book": 4
 }

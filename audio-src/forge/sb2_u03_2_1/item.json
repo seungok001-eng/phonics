@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/n/ /e/ /t/ net!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429651.87599,
+   "sec": 2.41,
+   "check": {
+    "transcript": "net",
+    "type": "word",
+    "ipa": "nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:40",
+ "applied": "2026-10-08 12:38",
  "text_edited": false,
  "error": "",
  "unit": 3,

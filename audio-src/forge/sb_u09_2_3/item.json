@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wˈɝm | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/w/ /w/ worm! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429624.96475,
+   "sec": 2.74,
+   "check": {
+    "transcript": "worm pop",
+    "type": "sentence",
+    "ipa": "wɜːrm pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=worm pop | TYPE=sentence | IPA=wɜːrm pɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:33",
+ "applied": "2026-10-08 12:34",
  "text_edited": false,
  "error": "",
  "unit": 9,

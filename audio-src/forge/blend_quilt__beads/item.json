@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kw/ /ɪ/ /l/ /t/ quilt!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429775.2080925,
+   "sec": 3.09,
+   "check": {
+    "transcript": "quilt",
+    "type": "word",
+    "ipa": "kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quilt | TYPE=word | IPA=kwɪlt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_quilt__beads",
+ "sub": "line",
+ "title": "3권 10유닛 대사 · 비즈: /kw/ /ɪ/ /l/ /t/ quilt!",
+ "text": "/kw/ /ɪ/ /l/ /t/ quilt!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3
+}

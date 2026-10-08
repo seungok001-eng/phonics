@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/br/ /ɪ/ /k/ brick!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429754.0702152,
+   "sec": 2.34,
+   "check": {
+    "transcript": "brick",
+    "type": "word",
+    "ipa": "bɹɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=brick | TYPE=word | IPA=bɹɪk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "blend_brick__beads",
+ "sub": "line",
+ "title": "3권 7유닛 대사 · 비즈: /br/ /ɪ/ /k/ brick!",
+ "text": "/br/ /ɪ/ /k/ brick!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3
+}

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=together swing | TYPE=sentence | IPA=təˈɡɛðɚ swɪŋ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /sw/ /sw/ swing!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429761.5149667,
+   "sec": 2.61,
+   "check": {
+    "transcript": "together swing",
+    "type": "sentence",
+    "ipa": "təˈɡɛðɚ swɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=together swing | TYPE=sentence | IPA=təˈɡɛðɚ swɪŋ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:28",
+ "applied": "2026-10-08 12:50",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -31,6 +48,5 @@
  "text": "Together! /sw/ /sw/ swing!",
  "voice": "Laomedeia",
  "who": "twins",
- "book": 3,
- "busy": 0
+ "book": 3
 }

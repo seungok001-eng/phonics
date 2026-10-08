@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/k/ /aɪ/ /t/ kite!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429788.1043172,
+   "sec": 2.81,
+   "check": {
+    "transcript": "kite",
+    "type": "word",
+    "ipa": "k aɪ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kite | TYPE=word | IPA=k aɪ t | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_kite__beads",
+ "sub": "line",
+ "title": "4권 2유닛 대사 · 비즈: /k/ /aɪ/ /t/ kite!",
+ "text": "/k/ /aɪ/ /t/ kite!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4
+}

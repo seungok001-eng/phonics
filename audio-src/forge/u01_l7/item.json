@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/k/ /k/ cat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429519.6131618,
+   "sec": 1.4,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-10-07 17:25",
+ "applied": "2026-10-08 12:24",
  "text_edited": false,
  "error": "",
  "unit": 1,

@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=hippo | TYPE=word | IPA=ˈhɪpoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/h/ /h/ hippo!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429544.626799,
+   "sec": 2.14,
+   "check": {
+    "transcript": "Hippo",
+    "type": "word",
+    "ipa": "ˈhɪpoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hippo | TYPE=word | IPA=ˈhɪpoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:27",
+ "applied": "2026-10-08 12:26",
  "text_edited": false,
  "error": "",
  "unit": 3,

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/t/ /e/ /nt/ tent!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429768.0834372,
+   "sec": 2.27,
+   "check": {
+    "transcript": "tent",
+    "type": "word",
+    "ipa": "tɛnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tent | TYPE=word | IPA=tɛnt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_tent__beads",
+ "sub": "line",
+ "title": "3권 9유닛 대사 · 비즈: /t/ /e/ /nt/ tent!",
+ "text": "/t/ /e/ /nt/ tent!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3
+}

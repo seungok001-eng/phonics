@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=An | TYPE=word | IPA=æn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/ən/",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791429835.5067153,
+   "sec": 0.76,
+   "check": {
+    "transcript": "un",
+    "type": "word",
+    "ipa": "ʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=un | TYPE=word | IPA=ʌn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "ən",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791429836.501663,
+   "sec": 1.08,
+   "check": {
+    "transcript": "N",
+    "type": "letter-name",
+    "ipa": "ɛ n",
+    "note": "ok",
+    "raw": "TRANSCRIPT=N | TYPE=letter-name | IPA=ɛ n | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 15:51",
+ "applied": "2026-10-08 12:58",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -30,5 +64,5 @@
  "title": "사이트워드 an · 하나의 (모음 소리 앞)",
  "text": "an",
  "voice": "Kore",
- "busy": 0
+ "book": 1
 }

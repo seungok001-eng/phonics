@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "M!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791429571.26693,
+   "sec": 0.7,
+   "check": {
+    "transcript": "them",
+    "type": "word",
+    "ipa": "ðɛm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=them | TYPE=word | IPA=ðɛm | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:29",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "name_m__pip",
+ "sub": "line",
+ "title": "1권 6유닛 대사 · 핍: M!",
+ "text": "M!",
+ "voice": "Kore",
+ "who": "pip",
+ "book": 1,
+ "busy": 0
+}

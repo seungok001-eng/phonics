@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/tʃ/ /ɪ/ /p/ chip!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429714.0201876,
+   "sec": 2.14,
+   "check": {
+    "transcript": "chip",
+    "type": "word",
+    "ipa": "ʧɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chip | TYPE=word | IPA=ʧɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_chip__beads",
+ "sub": "line",
+ "title": "3권 2유닛 대사 · 비즈: /tʃ/ /ɪ/ /p/ chip!",
+ "text": "/tʃ/ /ɪ/ /p/ chip!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3,
+ "busy": 0
+}

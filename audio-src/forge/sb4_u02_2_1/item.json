@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=kite | TYPE=word | IPA=k aɪ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/ /aɪ/ /t/ kite!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429793.0422173,
+   "sec": 2.81,
+   "check": {
+    "transcript": "kite",
+    "type": "word",
+    "ipa": "kaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kite | TYPE=word | IPA=kaɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-08 00:17",
+ "applied": "2026-10-08 12:53",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -48,6 +65,5 @@
  "text": "/k/ /aɪ/ /t/ kite!",
  "voice": "Zephyr",
  "who": "beads",
- "book": 4,
- "busy": 0
+ "book": 4
 }

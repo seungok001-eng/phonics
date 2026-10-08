@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /ʃ/ /ʃ/!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429701.1002948,
+   "sec": 2.36,
+   "check": {
+    "transcript": "together shh shh",
+    "type": "sentence",
+    "ipa": "təˈɡɛðɚ ʃː ʃː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=together shh shh | TYPE=sentence | IPA=təˈɡɛðɚ ʃː ʃː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:03",
+ "applied": "2026-10-08 12:43",
  "text_edited": false,
  "error": "",
  "unit": 1,

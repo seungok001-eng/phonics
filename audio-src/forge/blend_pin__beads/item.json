@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ /ɪ/ /n/ pin!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429665.8936408,
+   "sec": 2.72,
+   "check": {
+    "transcript": "en pen",
+    "type": "word",
+    "ipa": "ɛn pɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=en pen | TYPE=word | IPA=ɛn pɛn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:39",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_pin__beads",
+ "sub": "line",
+ "title": "2권 6유닛 대사 · 비즈: /p/ /ɪ/ /n/ pin!",
+ "text": "/p/ /ɪ/ /n/ pin!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 2,
+ "busy": 0
+}

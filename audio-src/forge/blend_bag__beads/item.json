@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/ /æ/ /g/ bag!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429643.9042015,
+   "sec": 2.86,
+   "check": {
+    "transcript": "bag",
+    "type": "word",
+    "ipa": "bæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bag | TYPE=word | IPA=bæg | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:37",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "blend_bag__beads",
+ "sub": "line",
+ "title": "2권 2유닛 대사 · 비즈: /b/ /æ/ /g/ bag!",
+ "text": "/b/ /æ/ /g/ bag!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 2,
+ "busy": 0
+}

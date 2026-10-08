@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/k/ /æ/ /t/ cat!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429639.8927443,
+   "sec": 2.13,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:34",
+ "applied": "2026-10-08 12:36",
  "text_edited": false,
  "error": "",
  "unit": 1,

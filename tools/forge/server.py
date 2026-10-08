@@ -657,8 +657,16 @@ def el_compose(text, voices, tmp):
     for idx, piece in enumerate(parts):
         if idx % 2 == 1:   # 낱소리
             src = os.path.join(presets.WEB, 'assets', 'audio', f'sound_{letters[idx]}.mp3')
-            if not os.path.exists(src): raise RuntimeError(f'낱소리 sound_{letters[idx]} 녹음이 없다')
-            w = tmpf('.wav'); audio.pitch_up(src, w); segs.append(w)
+            if os.path.exists(src):
+                w = tmpf('.wav'); audio.pitch_up(src, w); segs.append(w)
+            else:   # 가족이 아닌 이어 소리(tr 등)는 글자 소리를 붙여서
+                ch_ = letters[idx]
+                srcs = [os.path.join(presets.WEB, 'assets', 'audio', f'sound_{c}.mp3') for c in ch_]
+                if len(ch_) < 2 or not all(os.path.exists(x) for x in srcs): raise RuntimeError(f'낱소리 sound_{ch_} 녹음이 없다')
+                ws_ = []
+                for x in srcs:
+                    w = tmpf('.wav'); audio.pitch_up(x, w); ws_.append(w)
+                w = tmpf('.wav'); audio.concat(ws_, w); segs.append(w)
         elif re.search(r'[A-Za-z]', piece):   # 말
             rest = piece.strip()
             # 낱소리 바로 뒤의 목표 단어(/æ/ /æ/ apple! 의 apple)는 발음이 정확해야 한다 → 승인된 단어 녹음(word_<단어>)을 아이 음높이로 (2026-10-07 사용자: 캐릭터 목소리보다 정확한 발음)

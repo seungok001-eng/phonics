@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=you | TYPE=word | IPA=juː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/juː/ /juː/ mule!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429801.8976984,
+   "sec": 2.43,
+   "check": {
+    "transcript": "U mule",
+    "type": "word",
+    "ipa": "ju mjuːl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=U mule | TYPE=word | IPA=ju mjuːl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-08 00:22",
+ "applied": "2026-10-08 12:54",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -48,6 +65,5 @@
  "text": "/juː/ /juː/ mule!",
  "voice": "Leda",
  "who": "bun",
- "book": 4,
- "busy": 0
+ "book": 4
 }

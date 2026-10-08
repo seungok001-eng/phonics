@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/r/ /eɪ/ /n/ rain!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429806.0469208,
+   "sec": 3.47,
+   "check": {
+    "transcript": "rain",
+    "type": "word",
+    "ipa": "ɹeɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rain | TYPE=word | IPA=ɹeɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "blend_rain__beads",
+ "sub": "line",
+ "title": "4권 6유닛 대사 · 비즈: /r/ /eɪ/ /n/ rain!",
+ "text": "/r/ /eɪ/ /n/ rain!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4
+}

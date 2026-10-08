@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=goat | TYPE=word | IPA=ɡoʊt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/g/ /g/ goat! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429550.7013142,
+   "sec": 3.06,
+   "check": {
+    "transcript": "goat",
+    "type": "word",
+    "ipa": "goʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=goat | TYPE=word | IPA=goʊt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:27",
+ "applied": "2026-10-08 12:27",
  "text_edited": false,
  "error": "",
  "unit": 3,

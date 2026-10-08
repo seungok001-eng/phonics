@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=volcano pop | TYPE=sentence | IPA=vɑlˈkeɪnoʊ pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/v/ /v/ volcano! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429621.9212518,
+   "sec": 4.11,
+   "check": {
+    "transcript": "volcano",
+    "type": "word",
+    "ipa": "vɑlˈkeɪnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɑlˈkeɪnoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:33",
+ "applied": "2026-10-08 12:34",
  "text_edited": false,
  "error": "",
  "unit": 9,

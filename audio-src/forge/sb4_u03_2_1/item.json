@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=not | TYPE=word | IPA=n ɑ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/n/ /oʊ/ /t/ note!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429798.0149057,
+   "sec": 2.73,
+   "check": {
+    "transcript": "note",
+    "type": "word",
+    "ipa": "noʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=note | TYPE=word | IPA=noʊt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:20",
+ "applied": "2026-10-08 12:54",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -31,6 +48,5 @@
  "text": "/n/ /oʊ/ /t/ note!",
  "voice": "Zephyr",
  "who": "beads",
- "book": 4,
- "busy": 0
+ "book": 4
 }

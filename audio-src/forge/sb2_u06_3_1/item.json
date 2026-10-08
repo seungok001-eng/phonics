@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=A N pin | TYPE=sentence | IPA=eɪ ɛn pɪn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/p/ /ɪ/ /n/ pin!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429669.869435,
+   "sec": 2.72,
+   "check": {
+    "transcript": "in pin",
+    "type": "sentence",
+    "ipa": "ɪn pɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=in pin | TYPE=sentence | IPA=ɪn pɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:41",
+ "applied": "2026-10-08 12:40",
  "text_edited": false,
  "error": "",
  "unit": 6,

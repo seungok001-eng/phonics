@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/ /oʊ/ /t/ boat!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429816.0549006,
+   "sec": 2.29,
+   "check": {
+    "transcript": "boat",
+    "type": "word",
+    "ipa": "boʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=boat | TYPE=word | IPA=boʊt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "blend_boat__beads",
+ "sub": "line",
+ "title": "4권 8유닛 대사 · 비즈: /b/ /oʊ/ /t/ boat!",
+ "text": "/b/ /oʊ/ /t/ boat!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4
+}

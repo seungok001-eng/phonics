@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=leaf | TYPE=word | IPA=liːf | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/l/ /iː/ /f/ leaf!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429815.0515687,
+   "sec": 3.48,
+   "check": {
+    "transcript": "leaf",
+    "type": "word",
+    "ipa": "liːf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=leaf | TYPE=word | IPA=liːf | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:38",
+ "applied": "2026-10-08 12:55",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -31,6 +48,5 @@
  "text": "/l/ /iː/ /f/ leaf!",
  "voice": "Zephyr",
  "who": "beads",
- "book": 4,
- "busy": 0
+ "book": 4
 }

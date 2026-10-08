@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=igloo | TYPE=word | IPA=ˈɪɡlu | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/i/ /i/ igloo!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429547.6138582,
+   "sec": 2.12,
+   "check": {
+    "transcript": "igloo",
+    "type": "word",
+    "ipa": "ˈɪɡluː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=igloo | TYPE=word | IPA=ˈɪɡluː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:27",
+ "applied": "2026-10-08 12:27",
  "text_edited": false,
  "error": "",
  "unit": 3,

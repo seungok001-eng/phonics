@@ -118,11 +118,28 @@
     "raw": "TRANSCRIPT=lug | TYPE=word | IPA=lʌɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 8,
+   "file": "cand_8.wav",
+   "text": "/l/ /ɑ/ /g/ log!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429682.9044228,
+   "sec": 2.64,
+   "check": {
+    "transcript": "log",
+    "type": "word",
+    "ipa": "l ɔ g",
+    "note": "ok",
+    "raw": "TRANSCRIPT=log | TYPE=word | IPA=l ɔ g | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 8,
  "final": "final.mp3",
- "applied": "2026-10-07 17:41",
+ "applied": "2026-10-08 12:41",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -134,5 +151,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

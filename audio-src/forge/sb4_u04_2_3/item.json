@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=you | TYPE=word | IPA=juː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/m/ /juː/ /l/ mule!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429803.0424538,
+   "sec": 2.86,
+   "check": {
+    "transcript": "mule",
+    "type": "word",
+    "ipa": "mjuːl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mule | TYPE=word | IPA=mjuːl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:27",
+ "applied": "2026-10-08 12:54",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -31,6 +48,5 @@
  "text": "/m/ /juː/ /l/ mule!",
  "voice": "Zephyr",
  "who": "beads",
- "book": 4,
- "busy": 0
+ "book": 4
 }

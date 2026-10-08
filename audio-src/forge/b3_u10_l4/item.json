@@ -10,11 +10,28 @@
    "sec": 3.17,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /kw/ /kw/ quilt!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429777.266849,
+   "sec": 2.93,
+   "check": {
+    "transcript": "quilt",
+    "type": "word",
+    "ipa": "kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quilt | TYPE=word | IPA=kwɪlt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:43",
+ "applied": "2026-10-08 12:51",
  "text_edited": false,
  "error": "",
  "unit": 10,

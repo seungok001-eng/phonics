@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=Je | TYPE=isolated-sound | IPA=dʒ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/j/ /j/ jelly! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429564.765848,
+   "sec": 3.12,
+   "check": {
+    "transcript": "jelly, pop",
+    "type": "word",
+    "ipa": "ˈdʒɛli ˈpɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jelly, pop | TYPE=word | IPA=ˈdʒɛli ˈpɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:28",
+ "applied": "2026-10-08 12:28",
  "text_edited": false,
  "error": "",
  "unit": 4,

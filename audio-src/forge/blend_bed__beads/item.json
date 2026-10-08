@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/b/ /e/ /d/ bed!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429654.8933234,
+   "sec": 2.27,
+   "check": {
+    "transcript": "bed",
+    "type": "word",
+    "ipa": "bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_bed__beads",
+ "sub": "line",
+ "title": "2권 4유닛 대사 · 비즈: /b/ /e/ /d/ bed!",
+ "text": "/b/ /e/ /d/ bed!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 2,
+ "busy": 0
+}

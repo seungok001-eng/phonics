@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Together | TYPE=word | IPA=/təˈɡɛðər/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /br/ /br/ brick!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429753.273671,
+   "sec": 2.87,
+   "check": {
+    "transcript": "brick",
+    "type": "word",
+    "ipa": "brɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=brick | TYPE=word | IPA=brɪk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:26",
+ "applied": "2026-10-08 12:49",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -31,6 +48,5 @@
  "text": "Together! /br/ /br/ brick!",
  "voice": "Laomedeia",
  "who": "twins",
- "book": 3,
- "busy": 0
+ "book": 3
 }

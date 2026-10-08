@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=frosted pop | TYPE=word | IPA=frˈɔstɪd pˈɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/f/ /f/ frog! Pop!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1791429541.0435832,
+   "sec": 4.03,
+   "check": {
+    "transcript": "pop",
+    "type": "word",
+    "ipa": "pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop | TYPE=word | IPA=pɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:27",
+ "applied": "2026-10-08 12:26",
  "text_edited": false,
  "error": "",
  "unit": 2,

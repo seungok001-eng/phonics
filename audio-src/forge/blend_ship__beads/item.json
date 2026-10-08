@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/ʃ/ /ɪ/ /p/ ship!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429703.9988236,
+   "sec": 2.43,
+   "check": {
+    "transcript": "ship",
+    "type": "word",
+    "ipa": "ʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ship | TYPE=word | IPA=ʃɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "blend_ship__beads",
+ "sub": "line",
+ "title": "3권 1유닛 대사 · 비즈: /ʃ/ /ɪ/ /p/ ship!",
+ "text": "/ʃ/ /ɪ/ /p/ ship!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 3,
+ "busy": 0
+}

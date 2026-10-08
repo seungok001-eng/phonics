@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/t/ /ɔr/ /tʃ/ torch!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429826.0704088,
+   "sec": 2.38,
+   "check": {
+    "transcript": "torch",
+    "type": "word",
+    "ipa": "tɔɹtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=torch | TYPE=word | IPA=tɔɹtʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "blend_torch__beads",
+ "sub": "line",
+ "title": "4권 10유닛 대사 · 비즈: /t/ /ɔr/ /tʃ/ torch!",
+ "text": "/t/ /ɔr/ /tʃ/ torch!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4
+}

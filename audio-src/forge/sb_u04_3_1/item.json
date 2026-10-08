@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=l | TYPE=isolated-sound | IPA=l | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/l/ /l/ lemon! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429566.8962803,
+   "sec": 2.57,
+   "check": {
+    "transcript": "l lemon",
+    "type": "word",
+    "ipa": "l ˈlɛmən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=l lemon | TYPE=word | IPA=l ˈlɛmən | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:29",
+ "applied": "2026-10-08 12:28",
  "text_edited": false,
  "error": "",
  "unit": 4,

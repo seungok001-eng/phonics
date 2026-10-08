@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/l/ /e/ /g/ leg!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429655.903375,
+   "sec": 2.72,
+   "check": {
+    "transcript": "leg",
+    "type": "word",
+    "ipa": "l ɛ g",
+    "note": "ok",
+    "raw": "TRANSCRIPT=leg | TYPE=word | IPA=l ɛ g | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:38",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "blend_leg__beads",
+ "sub": "line",
+ "title": "2권 4유닛 대사 · 비즈: /l/ /e/ /g/ leg!",
+ "text": "/l/ /e/ /g/ leg!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 2,
+ "busy": 0
+}

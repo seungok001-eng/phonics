@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=en | TYPE=word | IPA=ɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/θ/ /ɪ/ /n/ thin!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429728.0190325,
+   "sec": 2.74,
+   "check": {
+    "transcript": "fin",
+    "type": "word",
+    "ipa": "fɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fin | TYPE=word | IPA=fɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 22:13",
+ "applied": "2026-10-08 12:47",
  "text_edited": false,
  "error": "",
  "unit": 3,

@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=tomato pop | TYPE=word | IPA=təˈmeɪtoʊ pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/t/ /t/ tomato! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429610.8891373,
+   "sec": 2.38,
+   "check": {
+    "transcript": "tomato",
+    "type": "word",
+    "ipa": "təˈmeɪtoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tomato | TYPE=word | IPA=təˈmeɪtoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:32",
+ "applied": "2026-10-08 12:32",
  "text_edited": false,
  "error": "",
  "unit": 8,

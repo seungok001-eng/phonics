@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/kl/ /aʊ/ /d/ cloud!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429824.0653498,
+   "sec": 2.9,
+   "check": {
+    "transcript": "cloud",
+    "type": "word",
+    "ipa": "klaʊd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cloud | TYPE=word | IPA=klaʊd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "blend_cloud__beads",
+ "sub": "line",
+ "title": "4권 9유닛 대사 · 비즈: /kl/ /aʊ/ /d/ cloud!",
+ "text": "/kl/ /aʊ/ /d/ cloud!",
+ "voice": "Zephyr",
+ "who": "beads",
+ "book": 4
+}

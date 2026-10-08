@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "U!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791429604.1527028,
+   "sec": 0.6,
+   "check": {
+    "transcript": "o",
+    "type": "letter-name",
+    "ipa": "oʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=o | TYPE=letter-name | IPA=oʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-08 12:32",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "name_u__pip",
+ "sub": "line",
+ "title": "1권 8유닛 대사 · 핍: U!",
+ "text": "U!",
+ "voice": "Kore",
+ "who": "pip",
+ "book": 1,
+ "busy": 0
+}

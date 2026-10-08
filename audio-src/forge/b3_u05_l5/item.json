@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/ʃ/... Together, Pip!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429742.225158,
+   "sec": 2.37,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:18",
+ "applied": "2026-10-08 12:48",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -31,6 +48,5 @@
  "text": "/ʃ/... Together, Pip!",
  "voice": "Laomedeia",
  "who": "twins",
- "book": 3,
- "busy": 0
+ "book": 3
 }

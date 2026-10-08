@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=lemon | TYPE=word | IPA=lɛmən | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "/l/ /l/ lemon!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791429557.635324,
+   "sec": 1.83,
+   "check": {
+    "transcript": "lemon",
+    "type": "word",
+    "ipa": "lɛmən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lemon | TYPE=word | IPA=lɛmən | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:28",
+ "applied": "2026-10-08 12:28",
  "text_edited": false,
  "error": "",
  "unit": 4,

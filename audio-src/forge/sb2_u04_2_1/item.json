@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/b/ /e/ /d/ bed!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429658.8762038,
+   "sec": 2.27,
+   "check": {
+    "transcript": "bed",
+    "type": "word",
+    "ipa": "bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-10-07 17:45",
+ "applied": "2026-10-08 12:38",
  "text_edited": false,
  "error": "",
  "unit": 4,

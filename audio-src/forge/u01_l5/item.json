@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/b/ /b/ bus!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1791429517.6260471,
+   "sec": 1.83,
+   "check": {
+    "transcript": "boss",
+    "type": "word",
+    "ipa": "bɔs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=boss | TYPE=word | IPA=bɔs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-10-07 17:25",
+ "applied": "2026-10-08 12:24",
  "text_edited": false,
  "error": "",
  "unit": 1,

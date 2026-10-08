@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=E | TYPE=letter-name | IPA=i | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/iː/ /iː/ seal!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429814.90356,
+   "sec": 2.62,
+   "check": {
+    "transcript": "seal",
+    "type": "word",
+    "ipa": "sil",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seal | TYPE=word | IPA=sil | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:36",
+ "applied": "2026-10-08 12:55",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -31,6 +48,5 @@
  "text": "/iː/ /iː/ seal!",
  "voice": "Leda",
  "who": "bun",
- "book": 4,
- "busy": 0
+ "book": 4
 }

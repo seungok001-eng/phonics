@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=coat | TYPE=word | IPA=k oʊ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/oʊ/ /oʊ/ coat!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429816.9275632,
+   "sec": 1.95,
+   "check": {
+    "transcript": "coat",
+    "type": "word",
+    "ipa": "koʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=coat | TYPE=word | IPA=koʊt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:39",
+ "applied": "2026-10-08 12:56",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -31,6 +48,5 @@
  "text": "/oʊ/ /oʊ/ coat!",
  "voice": "Leda",
  "who": "bun",
- "book": 4,
- "busy": 0
+ "book": 4
 }

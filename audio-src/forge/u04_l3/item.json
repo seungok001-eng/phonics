@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=c c | TYPE=isolated-sound | IPA=k | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/k/ /k/ kite!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429552.610817,
+   "sec": 2.02,
+   "check": {
+    "transcript": "kite",
+    "type": "word",
+    "ipa": "kaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kite | TYPE=word | IPA=kaɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:28",
+ "applied": "2026-10-08 12:27",
  "text_edited": false,
  "error": "",
  "unit": 4,

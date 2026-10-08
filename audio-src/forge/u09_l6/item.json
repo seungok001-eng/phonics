@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wɝm | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/w/ /w/ worm!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429614.7397947,
+   "sec": 1.82,
+   "check": {
+    "transcript": "worm",
+    "type": "word",
+    "ipa": "wɜɹm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wɜɹm | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:33",
+ "applied": "2026-10-08 12:33",
  "text_edited": false,
  "error": "",
  "unit": 9,

@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=Cab | TYPE=word | IPA=kæb | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "/k/ /æ/ /p/ cap!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791429644.8961434,
+   "sec": 2.04,
+   "check": {
+    "transcript": "cap",
+    "type": "word",
+    "ipa": "k æ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap | TYPE=word | IPA=k æ p | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-10-07 17:45",
+ "applied": "2026-10-08 12:37",
  "text_edited": false,
  "error": "",
  "unit": 2,

@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Milk! /m/ /m/ milk! Pop!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429579.1157482,
+   "sec": 3.58,
+   "check": {
+    "transcript": "milk",
+    "type": "word",
+    "ipa": "mɪlk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:29",
+ "applied": "2026-10-08 12:29",
  "text_edited": false,
  "error": "",
  "unit": 6,

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=together | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! /θ/ /θ/ thin!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429723.2029486,
+   "sec": 2.85,
+   "check": {
+    "transcript": "together",
+    "type": "word",
+    "ipa": "təˈɡɛðɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=together | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:10",
+ "applied": "2026-10-08 12:46",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -31,5 +48,6 @@
  "text": "Together! /θ/ /θ/ thin!",
  "voice": "Laomedeia",
  "who": "twins",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

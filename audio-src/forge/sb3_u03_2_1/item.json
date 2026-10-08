@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Together | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Together! /θ/ /θ/ thin!",
+   "voice": "Chutki + Candy",
+   "how": "el",
+   "created": 1791429726.1214614,
+   "sec": 2.85,
+   "check": {
+    "transcript": "thin",
+    "type": "word",
+    "ipa": "θɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=thin | TYPE=word | IPA=θɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 22:12",
+ "applied": "2026-10-08 12:46",
  "text_edited": false,
  "error": "",
  "unit": 3,

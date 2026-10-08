@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=octopus | TYPE=word | IPA=ˈɑːktəpʊs | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "/o/ /o/ octopus!",
+   "voice": "Sunny",
+   "how": "el",
+   "created": 1791429575.6913624,
+   "sec": 2.27,
+   "check": {
+    "transcript": "octopus",
+    "type": "word",
+    "ipa": "ˈɑktəpəs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=octopus | TYPE=word | IPA=ˈɑktəpəs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 17:29",
+ "applied": "2026-10-08 12:29",
  "text_edited": false,
  "error": "",
  "unit": 6,
