@@ -37,7 +37,6 @@
   },
   "twins": {
     "engine": "elevenlabs",
-    "provisional": true,
     "voices": [
       {
         "name": "Chutki",
