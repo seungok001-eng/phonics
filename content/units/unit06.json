@@ -115,7 +115,7 @@
           {
             "who": "pip",
             "text": "M!",
-            "audio": "name_m",
+            "audio": "name_m__pip",
             "sfx": "chime",
             "ko": "엠!"
           }

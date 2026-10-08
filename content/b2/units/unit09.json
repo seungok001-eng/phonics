@@ -195,7 +195,7 @@
           {
             "who": "beads",
             "text": "/h/ /ɑ/ /p/ hop!",
-            "audio": "blend_hop",
+            "audio": "blend_hop__beads",
             "pop": "hop",
             "ko": "/h/ /ɑ/ /p/ 깡충!"
           },
@@ -248,7 +248,7 @@
           {
             "who": "beads",
             "text": "/b/ /ɑ/ /ks/ box!",
-            "audio": "blend_box",
+            "audio": "blend_box__beads",
             "pop": "box",
             "ko": "/b/ /ɑ/ /ks/ 상자!"
           }

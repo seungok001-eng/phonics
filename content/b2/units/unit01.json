@@ -170,7 +170,7 @@
           {
             "who": "beads",
             "text": "/k/ /æ/ /t/ cat!",
-            "audio": "blend_cat",
+            "audio": "blend_cat__beads",
             "pop": "cat",
             "ko": "/k/ /æ/ /t/ 고양이!"
           }
@@ -249,7 +249,7 @@
           {
             "who": "beads",
             "text": "/k/ /æ/ /n/ can!",
-            "audio": "blend_can",
+            "audio": "blend_can__beads",
             "pop": "can",
             "ko": "/k/ /æ/ /n/ 깡통!"
           },

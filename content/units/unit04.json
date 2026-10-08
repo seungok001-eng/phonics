@@ -198,7 +198,7 @@
           {
             "who": "pip",
             "text": "L!",
-            "audio": "name_l",
+            "audio": "name_l__pip",
             "sfx": "chime",
             "ko": "엘!"
           }

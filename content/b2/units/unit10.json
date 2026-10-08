@@ -207,7 +207,7 @@
           {
             "who": "beads",
             "text": "/b/ /ʌ/ /g/ bug!",
-            "audio": "blend_bug",
+            "audio": "blend_bug__beads",
             "pop": "bug",
             "ko": "/b/ /ʌ/ /g/ 벌레!"
           },
@@ -247,7 +247,7 @@
           {
             "who": "beads",
             "text": "/k/ /ʌ/ /p/ cup!",
-            "audio": "blend_cup",
+            "audio": "blend_cup__beads",
             "pop": "cup",
             "ko": "/k/ /ʌ/ /p/ 컵!"
           },

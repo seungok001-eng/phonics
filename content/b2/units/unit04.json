@@ -192,7 +192,7 @@
           {
             "who": "beads",
             "text": "/b/ /e/ /d/ bed!",
-            "audio": "blend_bed",
+            "audio": "blend_bed__beads",
             "pop": "bed",
             "ko": "/b/ /e/ /d/ 침대!"
           },
@@ -239,7 +239,7 @@
           {
             "who": "beads",
             "text": "/l/ /e/ /g/ leg!",
-            "audio": "blend_leg",
+            "audio": "blend_leg__beads",
             "pop": "leg",
             "ko": "/l/ /e/ /g/ 다리!"
           },

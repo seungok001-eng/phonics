@@ -110,7 +110,7 @@
           {
             "who": "pip",
             "text": "A!",
-            "audio": "name_a",
+            "audio": "name_a__pip",
             "sfx": "chime",
             "ko": "에이!"
           },

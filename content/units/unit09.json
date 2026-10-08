@@ -199,7 +199,7 @@
           {
             "who": "pip",
             "text": "X!",
-            "audio": "name_x",
+            "audio": "name_x__pip",
             "sfx": "chime",
             "ko": "엑스!"
           }

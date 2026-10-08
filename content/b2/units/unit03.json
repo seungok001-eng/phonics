@@ -201,7 +201,7 @@
           {
             "who": "beads",
             "text": "/n/ /e/ /t/ net!",
-            "audio": "blend_net",
+            "audio": "blend_net__beads",
             "pop": "net",
             "ko": "/n/ /e/ /t/ 그물!"
           },
@@ -243,7 +243,7 @@
           {
             "who": "beads",
             "text": "/h/ /e/ /n/ hen!",
-            "audio": "blend_hen",
+            "audio": "blend_hen__beads",
             "pop": "hen",
             "ko": "/h/ /e/ /n/ 암탉!"
           },

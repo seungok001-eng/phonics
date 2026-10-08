@@ -194,7 +194,7 @@
           {
             "who": "beads",
             "text": "/z/ /ɪ/ /p/ zip!",
-            "audio": "blend_zip",
+            "audio": "blend_zip__beads",
             "pop": "zip",
             "ko": "/z/ /ɪ/ /p/ 지퍼 올리기!"
           },
@@ -236,7 +236,7 @@
           {
             "who": "beads",
             "text": "/s/ /ɪ/ /t/ sit!",
-            "audio": "blend_sit",
+            "audio": "blend_sit__beads",
             "pop": "sit",
             "ko": "/s/ /ɪ/ /t/ 앉다!"
           },

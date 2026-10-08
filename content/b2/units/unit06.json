@@ -198,7 +198,7 @@
           {
             "who": "beads",
             "text": "/p/ /ɪ/ /g/ pig!",
-            "audio": "blend_pig",
+            "audio": "blend_pig__beads",
             "pop": "pig",
             "ko": "/p/ /ɪ/ /g/ 돼지!"
           },
@@ -241,7 +241,7 @@
           {
             "who": "beads",
             "text": "/p/ /ɪ/ /n/ pin!",
-            "audio": "blend_pin",
+            "audio": "blend_pin__beads",
             "pop": "pin",
             "ko": "/p/ /ɪ/ /n/ 핀!"
           },

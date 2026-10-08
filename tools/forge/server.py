@@ -660,13 +660,24 @@ def el_compose(text, voices, tmp):
             if not os.path.exists(src): raise RuntimeError(f'낱소리 sound_{letters[idx]} 녹음이 없다')
             w = tmpf('.wav'); audio.pitch_up(src, w); segs.append(w)
         elif re.search(r'[A-Za-z]', piece):   # 말
-            outs = []
-            for name, vid in voices:
-                m = tmpf('.mp3'); open(m, 'wb').write(audio.el_tts(piece.strip(), vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2')))
-                w = tmpf('.wav'); audio.norm_wav(m, w); outs.append(w)
-            if len(outs) > 1:
-                w = tmpf('.wav'); audio.mix(outs, w); outs = [w]
-            segs.append(outs[0])
+            rest = piece.strip()
+            # 낱소리 바로 뒤의 목표 단어(/æ/ /æ/ apple! 의 apple)는 발음이 정확해야 한다 → 승인된 단어 녹음(word_<단어>)을 아이 음높이로 (2026-10-07 사용자: 캐릭터 목소리보다 정확한 발음)
+            if idx > 1:
+                m_ = re.match(r"\s*([A-Za-z]+)([!?.,]*)\s*(.*)$", piece, re.S)
+                wsrc = m_ and os.path.join(presets.WEB, 'assets', 'audio', f'word_{m_.group(1).lower()}.mp3')
+                if m_ and os.path.exists(wsrc):
+                    w = tmpf('.wav'); audio.pitch_up(wsrc, w); segs.append(w)
+                    rest = m_.group(3).strip()
+                    if re.search(r'[A-Za-z]', rest):
+                        gap = tmpf('.wav'); audio.silence(gap, 0.18); segs.append(gap)
+            if re.search(r'[A-Za-z]', rest):
+                outs = []
+                for name, vid in voices:
+                    m = tmpf('.mp3'); open(m, 'wb').write(audio.el_tts(rest, vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2')))
+                    w = tmpf('.wav'); audio.norm_wav(m, w); outs.append(w)
+                if len(outs) > 1:
+                    w = tmpf('.wav'); audio.mix(outs, w); outs = [w]
+                segs.append(outs[0])
         else: continue
         gap = tmpf('.wav'); audio.silence(gap, 0.18); segs.append(gap)
     if segs: segs = segs[:-1]

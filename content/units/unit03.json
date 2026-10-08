@@ -196,7 +196,7 @@
           {
             "who": "pip",
             "text": "H!",
-            "audio": "name_h",
+            "audio": "name_h__pip",
             "sfx": "chime",
             "ko": "에이치!"
           }

@@ -194,7 +194,7 @@
           {
             "who": "beads",
             "text": "/l/ /ɑ/ /g/ log!",
-            "audio": "blend_log",
+            "audio": "blend_log__beads",
             "pop": "log",
             "ko": "/l/ /ɑ/ /g/ 통나무!"
           },
@@ -248,7 +248,7 @@
           {
             "who": "beads",
             "text": "/p/ /ɑ/ /t/ pot!",
-            "audio": "blend_pot",
+            "audio": "blend_pot__beads",
             "pop": "pot",
             "ko": "/p/ /ɑ/ /t/ 냄비!"
           }

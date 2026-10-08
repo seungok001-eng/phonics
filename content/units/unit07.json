@@ -198,7 +198,7 @@
           {
             "who": "pip",
             "text": "R!",
-            "audio": "name_r",
+            "audio": "name_r__pip",
             "sfx": "chime",
             "ko": "알!"
           }

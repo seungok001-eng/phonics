@@ -237,7 +237,7 @@
           {
             "who": "pip",
             "text": "U!",
-            "audio": "name_u",
+            "audio": "name_u__pip",
             "sfx": "chime",
             "ko": "유!"
           }

@@ -198,7 +198,7 @@
           {
             "who": "beads",
             "text": "/k/ /æ/ /p/ cap!",
-            "audio": "blend_cap",
+            "audio": "blend_cap__beads",
             "pop": "cap",
             "ko": "/k/ /æ/ /p/ 야구모자!"
           },
@@ -240,7 +240,7 @@
           {
             "who": "beads",
             "text": "/b/ /æ/ /g/ bag!",
-            "audio": "blend_bag",
+            "audio": "blend_bag__beads",
             "pop": "bag",
             "ko": "/b/ /æ/ /g/ 가방!"
           },

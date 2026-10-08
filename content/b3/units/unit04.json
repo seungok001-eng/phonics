@@ -213,7 +213,7 @@
           {
             "who": "beads",
             "text": "/l/ /ɑ/ /k/ lock!",
-            "audio": "blend_lock",
+            "audio": "blend_lock__beads",
             "pop": "lock",
             "ko": "/l/ /ɑ/ /k/ 자물쇠!"
           },
