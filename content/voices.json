@@ -1,5 +1,5 @@
 {
-  "_note": "누가 어떤 목소리로 말하나. narrator·지시문·단어·낱소리는 제미나이(어른). 캐릭터는 일레븐랩스 아이 목소리 — 사용자가 http://localhost:8766/audio/_voices/characters.html 에서 골라 voice_id 를 채운다. both = 번+헤지 겹치기 · twins(핌과 팜)·fairy(요정 이)는 임시 선택(provisional) — 사용자 확인 필요.",
+  "_note": "누가 어떤 목소리로 말하나. narrator·지시문·단어·낱소리는 제미나이(어른). 캐릭터는 일레븐랩스 아이 목소리 — 사용자가 http://localhost:8766/audio/_voices/characters.html 에서 골라 voice_id 를 채운다. both = 번+헤지 겹치기",
   "narrator": {
     "engine": "gemini",
     "voice": "Kore"
@@ -50,8 +50,7 @@
   },
   "fairy": {
     "engine": "elevenlabs",
-    "provisional": true,
-    "name": "Peanut",
-    "voice_id": "rBkiq5ZQ43ogwd6i4uIQ"
+    "name": "Yuna",
+    "voice_id": "aHC3XZOMg3HZuXVYK6hy"
   }
 }

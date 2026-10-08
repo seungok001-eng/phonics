@@ -10,6 +10,23 @@
    "sec": 2.09,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Eee! Out, cloud, out!",
+   "voice": "Yuna",
+   "how": "el",
+   "created": 1791427970.9222472,
+   "sec": 1.72,
+   "check": {
+    "transcript": "E, out, cloud, out",
+    "type": "sentence",
+    "ipa": "i aʊt klaʊd aʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=E, out, cloud, out | TYPE=sentence | IPA=i aʊt klaʊd aʊt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -25,5 +42,6 @@
  "text": "Eee! Out, cloud, out!",
  "voice": "Autonoe",
  "who": "fairy",
- "book": 4
+ "book": 4,
+ "busy": 1
 }

@@ -10,11 +10,28 @@
    "sec": 1.39,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Eee! Hi, Pip!",
+   "voice": "Yuna",
+   "how": "el",
+   "created": 1791427958.9230273,
+   "sec": 1.53,
+   "check": {
+    "transcript": "E",
+    "type": "letter-name",
+    "ipa": "i",
+    "note": "ok",
+    "raw": "TRANSCRIPT=E | TYPE=letter-name | IPA=i | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:55",
+ "applied": "2026-10-08 11:53",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -25,5 +42,6 @@
  "text": "Eee! Hi, Pip!",
  "voice": "Autonoe",
  "who": "fairy",
- "book": 4
+ "book": 4,
+ "busy": 0
 }

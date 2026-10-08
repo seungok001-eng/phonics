@@ -10,6 +10,23 @@
    "sec": 0.98,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Eee! Look!",
+   "voice": "Yuna",
+   "how": "el",
+   "created": 1791427967.8878043,
+   "sec": 1.25,
+   "check": {
+    "transcript": "Look",
+    "type": "word",
+    "ipa": "lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look | TYPE=word | IPA=lʊk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -25,5 +42,6 @@
  "text": "Eee! Look!",
  "voice": "Autonoe",
  "who": "fairy",
- "book": 4
+ "book": 4,
+ "busy": 1
 }

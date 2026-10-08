@@ -10,11 +10,28 @@
    "sec": 0.84,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Eee! Eee!",
+   "voice": "Yuna",
+   "how": "el",
+   "created": 1791427961.0667791,
+   "sec": 1.07,
+   "check": {
+    "transcript": "ee",
+    "type": "word",
+    "ipa": "iː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ee | TYPE=word | IPA=iː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:06",
+ "applied": "2026-10-08 11:54",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -25,5 +42,6 @@
  "text": "Eee! Eee!",
  "voice": "Autonoe",
  "who": "fairy",
- "book": 4
+ "book": 4,
+ "busy": 0
 }

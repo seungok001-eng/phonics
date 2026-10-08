@@ -10,6 +10,23 @@
    "sec": 0.93,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Eee! Eee!",
+   "voice": "Yuna",
+   "how": "el",
+   "created": 1791427967.978018,
+   "sec": 1.3,
+   "check": {
+    "transcript": "eight",
+    "type": "word",
+    "ipa": "eɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=eight | TYPE=word | IPA=eɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -25,5 +42,6 @@
  "text": "Eee! Eee!",
  "voice": "Autonoe",
  "who": "fairy",
- "book": 4
+ "book": 4,
+ "busy": 1
 }

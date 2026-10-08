@@ -10,6 +10,23 @@
    "sec": 1.81,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Eee! A huge hug!",
+   "voice": "Yuna",
+   "how": "el",
+   "created": 1791427964.0970519,
+   "sec": 1.86,
+   "check": {
+    "transcript": "a huge hug",
+    "type": "sentence",
+    "ipa": "ə hjudʒ hʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a huge hug | TYPE=sentence | IPA=ə hjudʒ hʌɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -25,5 +42,6 @@
  "text": "Eee! A huge hug!",
  "voice": "Autonoe",
  "who": "fairy",
- "book": 4
+ "book": 4,
+ "busy": 1
 }

@@ -10,6 +10,23 @@
    "sec": 1.53,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Eee! Pip, Pip!",
+   "voice": "Yuna",
+   "how": "el",
+   "created": 1791427962.9294667,
+   "sec": 1.21,
+   "check": {
+    "transcript": "pip",
+    "type": "word",
+    "ipa": "pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pip | TYPE=word | IPA=pɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -25,5 +42,6 @@
  "text": "Eee! Pip, Pip!",
  "voice": "Autonoe",
  "who": "fairy",
- "book": 4
+ "book": 4,
+ "busy": 1
 }

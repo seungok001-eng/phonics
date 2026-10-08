@@ -27,6 +27,23 @@
     "raw": "TRANSCRIPT=E, hastā | TYPE=sentence | IPA=e hastɑː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Eee! A star!",
+   "voice": "Yuna",
+   "how": "el",
+   "created": 1791427970.8394456,
+   "sec": 1.39,
+   "check": {
+    "transcript": "estar",
+    "type": "word",
+    "ipa": "esˈtaɾ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=estar | TYPE=word | IPA=esˈtaɾ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -43,5 +60,5 @@
  "voice": "Autonoe",
  "who": "fairy",
  "book": 4,
- "busy": 0
+ "busy": 1
 }
