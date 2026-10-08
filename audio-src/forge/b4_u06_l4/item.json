@@ -29,9 +29,9 @@
    "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:33",
+ "applied": "2026-10-08 12:02",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -43,5 +43,5 @@
  "voice": "Autonoe",
  "who": "fairy",
  "book": 4,
- "busy": 1
+ "busy": 0
 }
