@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791283778.2712886,
+ "updated": 1791431378.9434168,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/ed8418bf-09a5-43b3-8052-7de5ce5d212e?Expires=1791305353&KeyName=labs-flow-prod-cdn-key&Signature=J2t6nGRl1U9Vq2SfSmrLkw927Rw",
+ "flow_url": "https://flow-content.google/image/dac64dbd-a228-4c2d-9987-dc02038e86a1?Expires=1791452953&KeyName=labs-flow-prod-cdn-key&Signature=jqm1gWwvehvr8AW0PGH5PCchwUE",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:03",
  "gen": "",
  "job_type": "image",
  "reference": "char_hedgie_ref",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_hedgie_pointing.png",
  "book": 1,
- "claimed_at": 1791283735.8773448
+ "claimed_at": 1791431339.022947
 }

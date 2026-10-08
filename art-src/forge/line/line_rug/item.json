@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791439124.0281796,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/d17cfba2-a982-4818-84ac-53790f3dd88b?Expires=1791460705&KeyName=labs-flow-prod-cdn-key&Signature=rubTE2ICmPOFxGFJIdW0wVPW1q8",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 14:59",
  "gen": "",
  "job_type": "image",
  "reference": "word_rug",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_rug.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791439089.0220098
 }

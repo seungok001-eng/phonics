@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791438078.948999,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/fe74301e-e218-4746-9aa2-b1b9386b6e00?Expires=1791459656&KeyName=labs-flow-prod-cdn-key&Signature=feuGpFCY5C4oUYZYFX270r30mZA",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 14:42",
  "gen": "",
  "job_type": "image",
  "reference": "word_lip",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_lip.png",
  "book": 2,
- "claimed_at": 1791367303.3869286
+ "claimed_at": 1791438041.519566
 }

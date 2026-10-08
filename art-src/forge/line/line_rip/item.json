@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791438154.2172348,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/7592f640-2d12-4b87-b7b3-88da13d3c3b5?Expires=1791459732&KeyName=labs-flow-prod-cdn-key&Signature=mmphMMx26NO2oGf9mVreBhoTlug",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 14:43",
  "gen": "",
  "job_type": "image",
  "reference": "word_rip",
@@ -21,5 +21,5 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_rip.png",
  "book": 2,
- "claimed_at": 1791367305.8896267
+ "claimed_at": 1791438116.526113
 }

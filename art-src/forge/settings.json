@@ -15,18 +15,18 @@
   "other": 350
  },
  "port": 8766,
- "next_asset_no": 2129,
+ "next_asset_no": 2149,
  "gemini_usage": {
   "count": 46,
   "cost": 3.06
  },
  "tts_usage": {
-  "count": 1204,
-  "tokens": 75266,
-  "checks": 1818
+  "count": 1951,
+  "tokens": 122927,
+  "checks": 2931
  },
  "el_usage": {
-  "count": 591,
-  "chars": 10426
+  "count": 1191,
+  "chars": 23048
  }
 }

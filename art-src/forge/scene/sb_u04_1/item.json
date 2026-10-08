@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
- "attempts": 0,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
+ "attempts": 1,
  "error": "",
- "updated": 1791291248.7016425,
+ "updated": 1791433792.263013,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/d0318efc-6528-49d5-a1f1-f165f0056555?Expires=1791312818&KeyName=labs-flow-prod-cdn-key&Signature=THuyVud_EnSNySWFt4BbiSQ22g8",
+ "flow_url": "https://flow-content.google/image/f3f9c42b-9ddb-45d6-bd9e-701fc98ac8fa?Expires=1791455363&KeyName=labs-flow-prod-cdn-key&Signature=Ogo2TzFfLmBy6P2l_LVRrDC0da4",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:36",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "sb_u04_1",
  "kind": "scene",
  "title": "1권 4유닛 스토리북 · 1쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: A big lemon tree. A grey koala hugs a branch holding a golden key; a red kite with a glowing seed is stuck in the branches. Bun and Hedgie look up; Pip hovers by the kite. On a hill behind, Grumble holds up a wooden sign painted with a big finger-over-lips pictogram, frowning hard; his lantern on the ground glows softly. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: A big lemon tree. A grey koala hugs a branch holding a golden key; a red kite with a glowing seed is stuck in the branches. Bun and Hedgie look up; Pip hovers by the kite. On a hill behind, Grumble holds up a wooden sign painted with a big finger-over-lips pictogram, frowning hard; his lantern on the ground glows softly. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/sb_u04_1.jpg",
  "book": 1,
- "claimed_at": 1791291200.8786333
+ "claimed_at": 1791433746.514883
 }

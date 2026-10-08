@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791290040.0117085,
+ "updated": 1791434086.4776826,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/4017d812-16b1-49fd-9dba-caa23842a665?Expires=1791311594&KeyName=labs-flow-prod-cdn-key&Signature=mJ2vH_3jxqYnw9TURyCAI8RdG4k",
+ "flow_url": "https://flow-content.google/image/33779015-ed20-4bee-ab39-dc8478fa2aec?Expires=1791455645&KeyName=labs-flow-prod-cdn-key&Signature=hqfR79q9Wwly_p_UVwMszsbkVWs",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:36",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "scene_u05_3",
  "kind": "scene",
  "title": "1권 5유닛 장면 · 3",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: POP! POP! POP! The striped nightcaps have all popped off the trees at the sound of the letters and are floating down like leaves; the trees with ink-, igloo- and insect fruits, jelly-, juice- and jump fruits, key-, kite- and koala fruits, and lemon-, leg- and lock fruits stand bare and cheerful again. Grumble sits on the ground in a pile of fallen nightcaps with one over his eyes, his ladder tipped over, his lantern beside him glowing a little brighter. Hedgie opens his red backpack and shows the golden key inside; Bun jumps and claps; Pip glows. Hidden in the picture: an ink bottle on a stump, a jar of red jelly on a bench, a red kite in a tree, a yellow lemon on the path. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: POP! POP! POP! The striped nightcaps have all popped off the trees at the sound of the letters and are floating down like leaves; the trees with ink-, igloo- and insect fruits, jelly-, juice- and jump fruits, key-, kite- and koala fruits, and lemon-, leg- and lock fruits stand bare and cheerful again. Grumble sits on the ground in a pile of fallen nightcaps with one over his eyes, his ladder tipped over, his lantern beside him glowing a little brighter. Hedgie opens his red backpack and shows the golden key inside; Bun jumps and claps; Pip glows. Hidden in the picture: an ink bottle on a stump, a jar of red jelly on a bench, a red kite in a tree, a yellow lemon on the path. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_u05_3.jpg",
  "book": 1,
- "claimed_at": 1791289975.8844473
+ "claimed_at": 1791434029.0270207
 }

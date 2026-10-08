@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791288845.5344548,
+ "updated": 1791432535.2521048,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/81608f25-f522-4fd4-9d1d-73968b200d95?Expires=1791310415&KeyName=labs-flow-prod-cdn-key&Signature=O_dszJ2V9ZE5JEKICxcBrhnmI3A",
+ "flow_url": "https://flow-content.google/image/a5558e0c-08c1-499a-8c09-ada5189c0f6d?Expires=1791454082&KeyName=labs-flow-prod-cdn-key&Signature=1XnFrvHjKlP-5rH0FTVqSMfjs-E",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:17",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "sb_u01_3",
  "kind": "scene",
  "title": "1권 1유닛 스토리북 · 3쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: Three new cheerful letter trees stand in a row with blank wooden signs on their trunks: one with apple, astronaut and arrow fruits, one with bus, bag and bed fruits, one with cat, cup and candy fruits. Bun and Hedgie cheer in front of them; Pip flutters between the trees glowing with joy. In the foreground corner, Grumble, the grumpy old raccoon in a striped nightcap, peeks out from behind a tree trunk with one paw at his mouth, holding a tiny candle lantern with a very small flickering flame. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: Three new cheerful letter trees stand in a row with blank wooden signs on their trunks: one with apple, astronaut and arrow fruits, one with bus, bag and bed fruits, one with cat, cup and candy fruits. Bun and Hedgie cheer in front of them; Pip flutters between the trees glowing with joy. In the foreground corner, Grumble, the grumpy old raccoon in a striped nightcap, peeks out from behind a tree trunk with one paw at his mouth, holding a tiny candle lantern with a very small flickering flame. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/sb_u01_3.jpg",
  "book": 1,
- "claimed_at": 1791288780.887819
+ "claimed_at": 1791432466.5248318
 }

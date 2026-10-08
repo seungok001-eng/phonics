@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791290271.3424485,
+ "updated": 1791434593.052703,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/2c5769d4-94ee-40cc-b35b-d0f813567e0f?Expires=1791311820&KeyName=labs-flow-prod-cdn-key&Signature=55ulC9eFYVI68_38OJNtcWL2BQ4",
+ "flow_url": "https://flow-content.google/image/062cd758-8fbf-485b-bd28-6398ebbdfe81?Expires=1791456134&KeyName=labs-flow-prod-cdn-key&Signature=dcelKE5kCtRjTp7sBSoHWUtUSTA",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:52",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "scene_u06_3",
  "kind": "scene",
  "title": "1권 6유닛 장면 · 3",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: The pond edge at night. A friendly purple octopus rises from the water with a glowing seed on its head and squirts a big spray of black ink: Hedgie's nose is covered with a round ink blob and he crosses his eyes to look at it; Bun ducks behind a bowl of green olives on the bank; Pip glows. Hidden in the picture: the octopus, the olives, Hedgie's ink-covered nose. Grumble's big clay flower pot has been knocked over by the splash and lies on its side: Grumble's two slippered feet and his lantern stick out of the opening, the lantern glowing a clear warm orange. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: The pond edge at night. A friendly purple octopus rises from the water with a glowing seed on its head and squirts a big spray of black ink: Hedgie's nose is covered with a round ink blob and he crosses his eyes to look at it; Bun ducks behind a bowl of green olives on the bank; Pip glows. Hidden in the picture: the octopus, the olives, Hedgie's ink-covered nose. Grumble's big clay flower pot has been knocked over by the splash and lies on its side: Grumble's two slippered feet and his lantern stick out of the opening, the lantern glowing a clear warm orange. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_u06_3.jpg",
  "book": 1,
- "claimed_at": 1791290203.420286
+ "claimed_at": 1791434519.0268123
 }

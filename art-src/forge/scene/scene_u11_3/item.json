@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791295748.8995655,
+ "updated": 1791436999.6897411,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/ea8db096-b059-430b-8c74-aa8b2af5d9d0?Expires=1791317316&KeyName=labs-flow-prod-cdn-key&Signature=UmgcinnBHODAy8N5Ou77jJ7tlhY",
+ "flow_url": "https://flow-content.google/image/f06c03ad-1dd0-427c-ae8b-6104c3c2b9bc?Expires=1791458557&KeyName=labs-flow-prod-cdn-key&Signature=p-6B6EF2B0bXxPCd2qpB_4NjEk8",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 14:27",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "scene_u11_3",
  "kind": "scene",
  "title": "1권 11유닛 장면 · 3",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: At the party. Grumble has opened the gift — a small drum — and sits in the middle of the lawn happily beating it with two sticks, nightcap bouncing, a big grin on his face, his lantern hanging from a tree branch above him glowing like a star-lamp. Pip sings on the drum rim; Bun and Hedgie dance; the queen swan, the panda, the zebra and the yak clap along. Hidden in the picture: the queen swan, the panda, the zebra, the yak. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: At the party. Grumble has opened the gift — a small drum — and sits in the middle of the lawn happily beating it with two sticks, nightcap bouncing, a big grin on his face, his lantern hanging from a tree branch above him glowing like a star-lamp. Pip sings on the drum rim; Bun and Hedgie dance; the queen swan, the panda, the zebra and the yak clap along. Hidden in the picture: the queen swan, the panda, the zebra, the yak. (The queen is a white swan with a small golden crown — an animal, not a human.) Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_u11_3.jpg",
  "book": 1,
- "claimed_at": 1791295698.3791358
+ "claimed_at": 1791436941.5257215
 }

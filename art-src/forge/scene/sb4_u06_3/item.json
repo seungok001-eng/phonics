@@ -1,0 +1,23 @@
+{
+ "status": "queued",
+ "raw": "",
+ "cut": "",
+ "attempts": 0,
+ "error": "",
+ "updated": 0,
+ "auto_approved": false,
+ "flow_url": "",
+ "prompt_edited": false,
+ "applied": "",
+ "gen": "",
+ "job_type": "image",
+ "reference": "cast_sheet_b4",
+ "unit": 6,
+ "id": "sb4_u06_3",
+ "kind": "scene",
+ "title": "4권 6유닛 스토리북 · 3쪽",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble, Beads, Fairy E). Scene: A bright play room: Grumble sits at a little table painting his small drum red, with colorful clay and a tray of paint pots beside him; a last raindrop has splashed his paint and his nightcap, and he frowns. Bun and Hedgie giggle; Pip waves from the train. No letters anywhere. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads. Fairy E is a tiny palm-sized fairy glowing with soft golden light, a round rosy face with big sparkling eyes, short wavy lilac hair, a little dress made of pale-green leaf petals, two round see-through wings like soap bubbles, holding a thin wand tipped with a small yellow star, no letters or symbols drawn anywhere on her or her wand.",
+ "aspect": "4:3",
+ "out": "web/assets/art/sb4_u06_3.jpg",
+ "book": 4
+}

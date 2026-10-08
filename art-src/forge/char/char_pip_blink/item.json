@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
- "attempts": 1,
- "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
- "updated": 1791283499.8757808,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 0,
+ "error": "",
+ "updated": 1791431019.6564162,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/eb0d5f67-3527-4044-8bee-127ad77d19e1?Expires=1791305075&KeyName=labs-flow-prod-cdn-key&Signature=YH3jCKwm91OklOC_Ihf1YHqPw5A",
+ "flow_url": "https://flow-content.google/image/347df030-7ce3-46fa-a939-af770d40c7e0?Expires=1791452587&KeyName=labs-flow-prod-cdn-key&Signature=vbI-mfxo3j3IkviPWBdjCj3QAkY",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 12:47",
  "gen": "",
  "job_type": "image",
  "reference": "char_pip_ref",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_blink.png",
  "book": 1,
- "claimed_at": 1791370026.2472534
+ "claimed_at": 1791430311.53732
 }

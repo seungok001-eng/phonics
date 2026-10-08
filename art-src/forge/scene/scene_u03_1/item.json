@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791288949.0472238,
+ "updated": 1791432938.2991602,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/a48a13bb-cd55-4157-9d2f-17f071b0ae86?Expires=1791310519&KeyName=labs-flow-prod-cdn-key&Signature=eAaH4wzJbEShx5Ak3pJqkxwIk70",
+ "flow_url": "https://flow-content.google/image/16164e15-7a9f-42b7-945c-75475f10c496?Expires=1791454514&KeyName=labs-flow-prod-cdn-key&Signature=0BBtPC6lYZcHjoYJ_etOlS_TK_U",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:17",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "scene_u03_1",
  "kind": "scene",
  "title": "1권 3유닛 장면 · 1",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: A grassy corner of the Sound Garden with a wooden fence. A white goat with small horns and a little beard is chewing, and a glowing golden seed is just disappearing into its mouth — gulp! Bun gasps with both paws on her cheeks, Hedgie points at the goat in shock, Pip flutters above them with its beak open in surprise. Hidden in the picture: a brown acoustic guitar leaning against the fence, a wooden-handled hammer lying on a tool bench. Far away on a small hill in the background, Grumble sits with two acorn caps pressed over his ears like earmuffs, eyes squeezed shut; his tiny candle lantern beside him is almost dark, only a faint spark. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: A grassy corner of the Sound Garden with a wooden fence. A white goat with small horns and a little beard is chewing, and a glowing golden seed is just disappearing into its mouth — gulp! Bun gasps with both paws on her cheeks, Hedgie points at the goat in shock, Pip flutters above them with its beak open in surprise. Hidden in the picture: a brown acoustic guitar leaning against the fence, a wooden-handled hammer lying on a tool bench. Far away on a small hill in the background, Grumble sits with two acorn caps pressed over his ears like earmuffs, eyes squeezed shut; his tiny candle lantern beside him is almost dark, only a faint spark. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_u03_1.jpg",
  "book": 1,
- "claimed_at": 1791288900.8827908
+ "claimed_at": 1791432899.0154376
 }

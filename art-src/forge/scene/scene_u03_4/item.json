@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791289117.3121738,
+ "updated": 1791433105.835266,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/42aec735-4efd-4d80-80f1-0a50ea2c96a7?Expires=1791310682&KeyName=labs-flow-prod-cdn-key&Signature=lYrLgvTP2xuSL2H08N8f5txj7wA",
+ "flow_url": "https://flow-content.google/image/39c28cfc-59fa-45c9-99ed-c0707c1b85b4?Expires=1791454657&KeyName=labs-flow-prod-cdn-key&Signature=BmVtkhCtqyPk2jJSWhkRmuJmB3g",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:36",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "scene_u03_4",
  "kind": "scene",
  "title": "1권 3유닛 장면 · 4",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: An icy corner of the garden with frost and a few snowflakes: a white igloo made of snow blocks, a glowing golden seed sitting on top of it. Bun and Hedgie stand before the igloo with arms raised in triumph; three new letter trees (G with goat, gift and guitar fruits; H with hen, hippo and hammer fruits; I with ink, igloo and insect fruits) stand behind them. Pip glows brightly. Right next to the igloo, Grumble has popped out of a dirt hole: both acorn caps have fallen to the ground, he presses one paw to his mouth, and his lantern now glows with a small warm light, noticeably brighter than before. Hidden in the picture: a tiny ladybug-like insect sitting on the top of the igloo, an ink bottle on the icy shelf. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: An icy corner of the garden with frost and a few snowflakes: a white igloo made of snow blocks, a glowing golden seed sitting on top of it. Bun and Hedgie stand before the igloo with arms raised in triumph; three new letter trees (G with goat, gift and guitar fruits; H with hen, hippo and hammer fruits; I with ink, igloo and insect fruits) stand behind them. Pip glows brightly. Right next to the igloo, Grumble has popped out of a dirt hole: both acorn caps have fallen to the ground, he presses one paw to his mouth, and his lantern now glows with a small warm light, noticeably brighter than before. Hidden in the picture: a tiny ladybug-like insect sitting on the top of the igloo, an ink bottle on the icy shelf. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_u03_4.jpg",
  "book": 1,
- "claimed_at": 1791289063.3917353
+ "claimed_at": 1791433041.6688669
 }

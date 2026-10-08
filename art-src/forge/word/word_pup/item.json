@@ -1,14 +1,14 @@
 {
- "status": "review",
+ "status": "approved",
  "raw": "raw.png",
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791363691.2620373,
+ "updated": 1791437855.1152265,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/46ec0e3e-8e1d-4947-af1d-0c3e935e3bb2?Expires=1791385264&KeyName=labs-flow-prod-cdn-key&Signature=9DZ6Nv4z65H1EzA98XvzElocjmQ",
+ "flow_url": "https://flow-content.google/image/c820ca04-b686-4127-a87e-d4667a50159a?Expires=1791459428&KeyName=labs-flow-prod-cdn-key&Signature=cxPMXmrZP4Jwxh2XCcUHJ-dKT6A",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 15:04",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,9 +17,10 @@
  "kind": "word",
  "word": "pup",
  "title": "pup · 강아지",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a tiny fluffy white puppy sitting in a basket.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a small light-brown puppy with floppy dark-brown ears sitting in a round orange basket, looking happy.",
  "aspect": "1:1",
  "out": "web/assets/art/word_pup.png",
  "book": 2,
- "claimed_at": 1791363658.3828294
+ "regen": 1,
+ "claimed_at": 1791437824.1250448
 }

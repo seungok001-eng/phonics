@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791290290.6159163,
+ "updated": 1791434652.3386059,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/abc3023c-f692-4afb-8705-83bb72b486f2?Expires=1791311859&KeyName=labs-flow-prod-cdn-key&Signature=ByjCU_9BK7FaJQMwnW3RXDLZxj8",
+ "flow_url": "https://flow-content.google/image/b9bd235c-4bb6-41af-b121-12119c43dc53?Expires=1791456210&KeyName=labs-flow-prod-cdn-key&Signature=0ev7NaQsMDD7KS-n_rM3Ww1rdVk",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:52",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "scene_u06_4",
  "kind": "scene",
  "title": "1권 6유닛 장면 · 4",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: The night garden path lit by nine bright stars overhead. Three new letter trees (M with milk, moon and monkey fruits; N with nose, net and nine-balloon fruits; O with otter, octopus and olive fruits) glow softly in the starlight. Bun and Hedgie dance with arms up; Pip glows brightly on top of the M tree. Grumble climbs out of the tipped-over flower pot covered in dirt, nightcap crooked, holding up his lantern which now shines clearly brighter than before and lights his grumpy, surprised face. Hidden in the picture: nine stars, the smiling moon. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: The night garden path lit by nine bright stars overhead. Three new letter trees (M with milk, moon and monkey fruits; N with nose, net and nine-balloon fruits; O with otter, octopus and olive fruits) glow softly in the starlight. Bun and Hedgie dance with arms up; Pip glows brightly on top of the M tree. Grumble climbs out of the tipped-over flower pot covered in dirt, nightcap crooked, holding up his lantern which now shines clearly brighter than before and lights his grumpy, surprised face. Hidden in the picture: nine stars, the smiling moon. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_u06_4.jpg",
  "book": 1,
- "claimed_at": 1791290240.8930402
+ "claimed_at": 1791434594.0200832
 }

@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791436247.005371,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/fd097160-c23a-4288-a28d-e2673add6aa2?Expires=1791457807&KeyName=labs-flow-prod-cdn-key&Signature=u-wgG6extP4UcHjj2Emj5iZSLFE",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 14:12",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "sb_u09_1",
  "kind": "scene",
  "title": "1권 9유닛 스토리북 · 1쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: A cozy village corner inside the garden: a house wall with a window with blue curtains, a stone water fountain, a yellow taxi on the lane. A small volcano mound in the lane rumbles with smoke puffs and a glowing seed on its rim. Hedgie points nervously; Bun leans in; Pip tries to say a sound but its whole body buzzes like a bee. Grumble sits on a stack of boxes with a pinecone stuck in each ear, eyes shut; his lantern beside him shines very bright, like a small star. Hidden in the picture: the volcano, a blue vest on a washing line, the taxi. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: A cozy village corner inside the garden: a house wall with a window with blue curtains, a stone water fountain, a yellow taxi on the lane. A small volcano mound in the lane rumbles with smoke puffs and a glowing seed on its rim. Hedgie points nervously; Bun leans in; Pip tries to say a sound but its whole body buzzes like a bee. Grumble sits on a stack of boxes with a pinecone stuck in each ear, eyes shut; his lantern beside him shines very bright, like a small star. Hidden in the picture: the volcano, a blue vest on a washing line, the taxi. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/sb_u09_1.jpg",
  "book": 1,
- "claimed_at": 1791298445.8952498
+ "claimed_at": 1791436191.5207388
 }

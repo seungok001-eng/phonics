@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791290601.128867,
+ "updated": 1791435314.4670017,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/acdd4df0-b7a5-4741-a5ed-7260373b76f6?Expires=1791312160&KeyName=labs-flow-prod-cdn-key&Signature=aKeb7A_dKtSTms07I_KFFhbYv90",
+ "flow_url": "https://flow-content.google/image/d147c182-ea6b-447c-9e23-0c8e7a9f25cb?Expires=1791456868&KeyName=labs-flow-prod-cdn-key&Signature=aVU9WI15slpZShR92oDe3r3R1aQ",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 14:12",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "sb_u07_3",
  "kind": "scene",
  "title": "1권 7유닛 스토리북 · 3쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: Rain falls from a grey cloud. A red-and-white toy rocket blasts up from its launch pad with a seed on its tip, breaking the cloud apart so pale light shines through. Bun holds a big leaf over her head; a bowl of steaming rice sits on the picnic table. Three new letter trees (P, Q, R with their fruits) stand in a row. Grumble wears the quilt wrapped around him like a cape and hugs it with a shy hopeful look; his lantern glows bright. Hidden in the picture: the rocket, the rain cloud, the rice. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Bun, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: Rain falls from a grey cloud. A red-and-white toy rocket blasts up from its launch pad with a seed on its tip, breaking the cloud apart so pale light shines through. Bun holds a big leaf over her head; a bowl of steaming rice sits on the picnic table. Three new letter trees (P, Q, R with their fruits) stand in a row. Grumble wears the quilt wrapped around him like a cape and hugs it with a shy hopeful look; his lantern glows bright. Hidden in the picture: the rocket, the rain cloud, the rice. Characters: Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/sb_u07_3.jpg",
  "book": 1,
- "claimed_at": 1791290543.382751
+ "claimed_at": 1791435246.5162716
 }

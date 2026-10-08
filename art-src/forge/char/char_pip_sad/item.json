@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
- "attempts": 1,
- "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
- "updated": 1791282981.9077435,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 0,
+ "error": "",
+ "updated": 1791430158.9407754,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/6f417559-8342-49e1-90b7-f9a8127463ff?Expires=1791304558&KeyName=labs-flow-prod-cdn-key&Signature=BSMbPCXxDpfNQMprW-DmFbY-WpM",
+ "flow_url": "https://flow-content.google/image/4fb60712-c2d6-43f4-adba-9321d183d2e5?Expires=1791451731&KeyName=labs-flow-prod-cdn-key&Signature=A7UpdcKTPAsdoMne_6V_yHTK8I0",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 12:47",
  "gen": "",
  "job_type": "image",
  "reference": "char_pip_ref",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_sad.png",
  "book": 1,
- "claimed_at": 1791370018.7425072
+ "claimed_at": 1791430116.5121598
 }

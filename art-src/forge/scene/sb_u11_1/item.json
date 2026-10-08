@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791295474.952785,
+ "updated": 1791437112.8432183,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/2cd95f66-525d-4bd0-8208-a709e874e20e?Expires=1791317028&KeyName=labs-flow-prod-cdn-key&Signature=Lb3oUOf8niTtqccyO-C_ovQgf6w",
+ "flow_url": "https://flow-content.google/image/cebf7a3f-8959-4ec3-bed1-189924fcca76?Expires=1791458669&KeyName=labs-flow-prod-cdn-key&Signature=11k8heW2T9oxs0HdPhduzRYMOm8",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 14:27",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "sb_u11_1",
  "kind": "scene",
  "title": "1권 11유닛 스토리북 · 1쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: A garden party under the blooming letter trees with paper lanterns and a long picnic table: milk, soup, rice, yogurt, a tomato, juice. Bun ties nine colorful balloons to the table; Hedgie carries a tray; Pip sings on a branch with golden notes. Guests: the queen swan with her crown, the panda, the monkey, the otter dancing. Grumble does NOT appear at the party — only a bright lantern light on his distant hill. Hidden in the picture: the milk, the soup, the rice, the yogurt. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie. Every other character on the sheet must NOT appear in this picture. Scene: A garden party under the blooming letter trees with paper lanterns and a long picnic table: milk, soup, rice, yogurt, a tomato, juice. Bun ties nine colorful balloons to the table; Hedgie carries a tray; Pip sings on a branch with golden notes. Guests: the queen swan with her crown, the panda, the monkey, the otter dancing. Grumble does NOT appear at the party — only a bright lantern light on his distant hill. Hidden in the picture: the milk, the soup, the rice, the yogurt. (The queen is a white swan with a small golden crown — an animal, not a human.) Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes.",
  "aspect": "4:3",
  "out": "web/assets/art/sb_u11_1.jpg",
  "book": 1,
- "claimed_at": 1791295410.8852074
+ "claimed_at": 1791437054.0208583
 }

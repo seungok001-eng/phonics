@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791283894.3567622,
+ "updated": 1791431580.2943857,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/d3ba8a0a-2bbf-4202-89a8-33be636553f6?Expires=1791305469&KeyName=labs-flow-prod-cdn-key&Signature=rfmmc7pk8ZBtoj6TK941dcsvvTs",
+ "flow_url": "https://flow-content.google/image/08b26c30-2955-4ebd-a686-f2de614d45f3?Expires=1791453156&KeyName=labs-flow-prod-cdn-key&Signature=GsTenlM73SDtlCTgYNtg2aUQ4eI",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:03",
  "gen": "",
  "job_type": "image",
  "reference": "char_hedgie_ref",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_hedgie_talk.png",
  "book": 1,
- "claimed_at": 1791283850.879245
+ "claimed_at": 1791431539.0242803
 }

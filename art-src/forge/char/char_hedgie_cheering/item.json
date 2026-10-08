@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791283870.1863456,
+ "updated": 1791431499.9550617,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/c069ec13-6449-4818-9eca-faa36796ed98?Expires=1791305445&KeyName=labs-flow-prod-cdn-key&Signature=tDnLEQP_pI3ybHsSU-P_6_IfCwA",
+ "flow_url": "https://flow-content.google/image/e1425f08-913c-4497-8824-df1e66cee981?Expires=1791453073&KeyName=labs-flow-prod-cdn-key&Signature=T6n8L4QTF4BdZyEziGED-Bih6Ys",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:03",
  "gen": "",
  "job_type": "image",
  "reference": "char_hedgie_ref",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_hedgie_cheering.png",
  "book": 1,
- "claimed_at": 1791283821.2054157
+ "claimed_at": 1791431459.0139253
 }

@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791437692.1446872,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/a0f6175e-7ad9-4167-9be4-111c81bd12ff?Expires=1791459256&KeyName=labs-flow-prod-cdn-key&Signature=amBiHHhID5KMwG06cQdOV8g7C8c",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 15:04",
  "gen": "",
  "job_type": "image",
  "reference": "char_beads_ref",
@@ -21,5 +21,6 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Beads, a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads. Pose: one finger on the chin, looking up, puzzled. SAME character as the attached reference image: identical face, hair, clothes and colors. Only the pose and expression change.",
  "aspect": "3:4",
  "out": "web/assets/art/char_beads_thinking.png",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791437641.5126457
 }

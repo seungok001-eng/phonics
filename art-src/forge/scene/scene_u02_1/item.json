@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791284578.0672593,
+ "updated": 1791432579.713554,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/bf34134c-c0cf-438f-a21d-9b5202033a62?Expires=1791306152&KeyName=labs-flow-prod-cdn-key&Signature=JPYLLwA28V9i46qoBU_KJl2mptw",
+ "flow_url": "https://flow-content.google/image/a0cef992-741f-4c0f-a9fc-edae43dd3ce6?Expires=1791454152&KeyName=labs-flow-prod-cdn-key&Signature=iF1Ux3h8kwQo0rahl16dWfxagiY",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:17",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "scene_u02_1",
  "kind": "scene",
  "title": "1권 2유닛 장면 · 1",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: A sunny garden pond with lily pads. A yellow duck floats in the middle with a glowing golden seed resting on its back. Bun and Hedgie crouch at the edge of the pond pointing at the duck; Pip flutters above the water, glowing. Hidden in the picture: a small brown puppy sitting on the bank, a rag doll leaning against a watering can. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie. Every other character on the sheet must NOT appear in this picture. Scene: A sunny garden pond with lily pads. A yellow duck floats in the middle with a glowing golden seed resting on its back. Bun and Hedgie crouch at the edge of the pond pointing at the duck; Pip flutters above the water, glowing. Hidden in the picture: a small brown puppy sitting on the bank, a rag doll leaning against a watering can. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_u02_1.jpg",
  "book": 1,
- "claimed_at": 1791284528.389977
+ "claimed_at": 1791432536.5224278
 }

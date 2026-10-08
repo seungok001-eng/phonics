@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
- "attempts": 1,
- "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
- "updated": 1791283544.5198467,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 0,
+ "error": "",
+ "updated": 1791431060.0247095,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/8fa81063-2b83-480b-ad46-0c70a2de0f41?Expires=1791305118&KeyName=labs-flow-prod-cdn-key&Signature=oiq5Zq3EbFJTAcrVlLHMamkGNDI",
+ "flow_url": "https://flow-content.google/image/e0d48d58-8778-4e73-ae7d-efec4adfaa6e?Expires=1791452636&KeyName=labs-flow-prod-cdn-key&Signature=TXLwTzZT0ftTyQKnn92Blw8pxUw",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 12:47",
  "gen": "",
  "job_type": "image",
  "reference": "char_pip_ref",
@@ -22,5 +22,5 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_pip_talk.png",
  "book": 1,
- "claimed_at": 1791370028.7440598
+ "claimed_at": 1791431021.525047
 }

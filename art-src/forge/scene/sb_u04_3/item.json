@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791289956.3571818,
+ "updated": 1791433911.6456985,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/32338cf2-1994-462c-ada3-e9012d315cf1?Expires=1791311505&KeyName=labs-flow-prod-cdn-key&Signature=dOGuOStjoZsbDqFWXlhEan4b4IE",
+ "flow_url": "https://flow-content.google/image/5ca8a013-69e2-4450-bac4-c4251eb9623a?Expires=1791455478&KeyName=labs-flow-prod-cdn-key&Signature=-igosPSNiJ05oKyPcK_G3Hr_drc",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:36",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "sb_u04_3",
  "kind": "scene",
  "title": "1권 4유닛 스토리북 · 3쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: A yellow lemon has dropped and split open showing a glowing seed; Bun catches it; Hedgie puckers at the sour smell. Behind the tree, a small round wooden door in the garden wall with a golden padlock, and Hedgie's key already in the lock: the door is opening onto a dark blue starry night garden. A scarecrow with one striped-sock leg stands by the tree. Grumble's quiet sign lies flat on the ground like a doormat and Grumble pops out of a hole beside the door, mouth open; his lantern glows warm and brighter. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Bun, Hedgie, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: A yellow lemon has dropped and split open showing a glowing seed; Bun catches it; Hedgie puckers at the sour smell. Behind the tree, a small round wooden door in the garden wall with a golden padlock, and Hedgie's key already in the lock: the door is opening onto a dark blue starry night garden. A scarecrow with one striped-sock leg stands by the tree. Grumble's quiet sign lies flat on the ground like a doormat and Grumble pops out of a hole beside the door, mouth open; his lantern glows warm and brighter. Characters: Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/sb_u04_3.jpg",
  "book": 1,
- "claimed_at": 1791289888.3857965
+ "claimed_at": 1791433861.5162966
 }

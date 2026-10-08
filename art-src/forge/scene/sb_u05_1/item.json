@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791290124.6291914,
+ "updated": 1791434197.8225646,
  "auto_approved": false,
- "flow_url": "https://flow-content.google/image/11963df9-02ca-48e0-a1e7-7e6034dc49d1?Expires=1791311658&KeyName=labs-flow-prod-cdn-key&Signature=y7tfTzIUK5A4lPgldmGIXNBTrto",
+ "flow_url": "https://flow-content.google/image/f860461f-ee7f-45d8-91c6-d992a7d5933c?Expires=1791455747&KeyName=labs-flow-prod-cdn-key&Signature=UXlgW9MspOdxj3Sprb1Btx8uq9Y",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 13:52",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet",
@@ -16,9 +16,9 @@
  "id": "sb_u05_1",
  "kind": "scene",
  "title": "1권 5유닛 스토리북 · 1쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble). Scene: A bright morning walk along the first garden path past the first six letter trees (apple; bus, bag, bed; cat, cup, candy; dog, duck, doll; egg, elf, exit sign; fan, frog, fork). Pip under the apple tree is scrunched up for a huge sneeze. Bun counts on her paw; Hedgie carries his red backpack. Hidden in the picture: an apple on the ground, a toy bus, a brown puppy, a green frog on a stone. Grumble does NOT appear. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie. Every other character on the sheet must NOT appear in this picture. Scene: A bright morning walk along the first garden path past the first six letter trees (apple; bus, bag, bed; cat, cup, candy; dog, duck, doll; egg, elf, exit sign; fan, frog, fork). Pip under the apple tree is scrunched up for a huge sneeze. Bun counts on her paw; Hedgie carries his red backpack. Hidden in the picture: an apple on the ground, a toy bus, a brown puppy, a green frog on a stone. Grumble does NOT appear. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes.",
  "aspect": "4:3",
  "out": "web/assets/art/sb_u05_1.jpg",
  "book": 1,
- "claimed_at": 1791290040.889496
+ "claimed_at": 1791434131.5212154
 }
