@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791441061.404003,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/1f2a524e-e969-48b4-854d-1fd5b585dd99?Expires=1791462632&KeyName=labs-flow-prod-cdn-key&Signature=UB-duc_3oI7AYyenP_XqMsv9E_I",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-08 16:00",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b2",
@@ -16,8 +16,9 @@
  "id": "sb2_u04_1",
  "kind": "scene",
  "title": "2권 4유닛 스토리북 · 1쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Full-page picture-book illustration. The characters must look exactly like the ones in the attached character sheet (left to right: Pip, Bun, Hedgie, Grumble, Beads). Scene: Dusk, orange and purple sky. Grumble has slipped while sneaking over the stepping stones and sits holding his hind leg, which is swollen big and tied with a red cloth, his face scrunched; his lantern tipped beside him still glows. Bun and Hedgie hurry over the stones; Pip flutters above saying a word backwards; Beads peeks from a lily pad. Hidden in the picture: the big leg, the red cloth. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Grumble, Beads. Every other character on the sheet must NOT appear in this picture. Scene: Dusk, orange and purple sky. Grumble has slipped while sneaking over the stepping stones and sits holding his hind leg, which is swollen big and tied with a red cloth, his face scrunched; his lantern tipped beside him still glows. Bun and Hedgie hurry over the stones; Pip flutters above saying a word backwards; Beads peeks from a lily pad. Hidden in the picture: the big leg, the red cloth. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads.",
  "aspect": "4:3",
  "out": "web/assets/art/sb2_u04_1.jpg",
- "book": 2
+ "book": 2,
+ "claimed_at": 1791441016.5182245
 }
