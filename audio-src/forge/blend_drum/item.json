@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=drum | TYPE=word | IPA=/d r ʌ m/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/dr/ ... /ʌ/ ... /m/ ... drum",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643455.224575,
+   "sec": 3.64,
+   "check": {
+    "transcript": "drum",
+    "type": "word",
+    "ipa": "ˈdɹʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=drum | TYPE=word | IPA=ˈdɹʌm | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:19",
+ "applied": "2026-10-10 23:44",
  "text_edited": false,
  "error": "",
  "unit": 7,

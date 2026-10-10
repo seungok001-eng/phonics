@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=pig | TYPE=word | IPA=pɪg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/p/ ... /ɪ/ ... /g/ ... pig",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642894.2494502,
+   "sec": 3.65,
+   "check": {
+    "transcript": "pig",
+    "type": "word",
+    "ipa": "pɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pig | TYPE=word | IPA=pɪg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:29",
+ "applied": "2026-10-10 23:34",
  "text_edited": false,
  "error": "",
  "unit": 6,

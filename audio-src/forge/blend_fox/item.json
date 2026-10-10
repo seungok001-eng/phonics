@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=fox | TYPE=word | IPA=f ɒ k s | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/f/ ... /ɑ/ ... /ks/ ... fox",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643102.5534472,
+   "sec": 4.4,
+   "check": {
+    "transcript": "fox",
+    "type": "word",
+    "ipa": "fɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fox | TYPE=word | IPA=fɑks | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:32",
+ "applied": "2026-10-10 23:38",
  "text_edited": false,
  "error": "",
  "unit": 9,

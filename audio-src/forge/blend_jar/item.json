@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=jar | TYPE=word | IPA=ʤ ɑːɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/dʒ/ ... /ɑr/ ... jar",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644251.5713248,
+   "sec": 3.47,
+   "check": {
+    "transcript": "jar",
+    "type": "word",
+    "ipa": "ʤɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jar | TYPE=word | IPA=ʤɑɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:37",
+ "applied": "2026-10-10 23:57",
  "text_edited": false,
  "error": "",
  "unit": 10,

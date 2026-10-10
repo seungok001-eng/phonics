@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=seal | TYPE=word | IPA=/siːl/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/s/ ... /iː/ ... /l/ ... seal",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644080.7744987,
+   "sec": 4.7,
+   "check": {
+    "transcript": "seal",
+    "type": "word",
+    "ipa": "sil",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seal | TYPE=word | IPA=sil | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:35",
+ "applied": "2026-10-10 23:54",
  "text_edited": false,
  "error": "",
  "unit": 7,

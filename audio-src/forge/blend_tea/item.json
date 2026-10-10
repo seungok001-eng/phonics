@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=t e t | TYPE=word | IPA=ti:ti: | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/t/ ... /iː/ ... tea",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644073.9127784,
+   "sec": 2.83,
+   "check": {
+    "transcript": "T",
+    "type": "letter-name",
+    "ipa": "tiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=T | TYPE=letter-name | IPA=tiː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 23:35",
+ "applied": "2026-10-10 23:54",
  "text_edited": false,
  "error": "",
  "unit": 7,

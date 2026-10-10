@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=big | TYPE=word | IPA=bɪg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/b/ ... /ɪ/ ... /g/ ... big",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642901.1789346,
+   "sec": 3.7,
+   "check": {
+    "transcript": "b",
+    "type": "isolated-sound",
+    "ipa": "b",
+    "note": "clean",
+    "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:29",
+ "applied": "2026-10-10 23:35",
  "text_edited": false,
  "error": "",
  "unit": 6,

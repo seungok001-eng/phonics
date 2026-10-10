@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=block | TYPE=word | IPA=blɒk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/bl/ ... /ɑ/ ... /k/ ... block",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643365.4662464,
+   "sec": 3.63,
+   "check": {
+    "transcript": "block",
+    "type": "word",
+    "ipa": "blɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=block | TYPE=word | IPA=blɑk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:18",
+ "applied": "2026-10-10 23:42",
  "text_edited": false,
  "error": "",
  "unit": 6,

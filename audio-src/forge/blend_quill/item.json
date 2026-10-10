@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=quell | TYPE=word | IPA=kwɛl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/kw/ ... /ɪ/ ... /l/ ... quill",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643634.8939257,
+   "sec": 3.88,
+   "check": {
+    "transcript": "quill",
+    "type": "word",
+    "ipa": "kwɪl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quill | TYPE=word | IPA=kwɪl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:21",
+ "applied": "2026-10-10 23:47",
  "text_edited": false,
  "error": "",
  "unit": 10,

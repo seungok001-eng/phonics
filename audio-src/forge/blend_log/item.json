@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=log | TYPE=word | IPA=lɔg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/l/ ... /ɑ/ ... /g/ ... log",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643026.1604362,
+   "sec": 3.83,
+   "check": {
+    "transcript": "log",
+    "type": "word",
+    "ipa": "l ɔ g",
+    "note": "ok",
+    "raw": "TRANSCRIPT=log | TYPE=word | IPA=l ɔ g | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:31",
+ "applied": "2026-10-10 23:37",
  "text_edited": false,
  "error": "",
  "unit": 8,

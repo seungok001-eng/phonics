@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=muzzle | TYPE=word | IPA=ˈmʌzəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/m/ ... /juː/ ... /l/ ... mule",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643909.8260577,
+   "sec": 4.04,
+   "check": {
+    "transcript": "mule",
+    "type": "word",
+    "ipa": "mjuːl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mule | TYPE=word | IPA=mjuːl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:32",
+ "applied": "2026-10-10 23:51",
  "text_edited": false,
  "error": "",
  "unit": 4,

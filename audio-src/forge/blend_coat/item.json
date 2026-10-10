@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=coat | TYPE=word | IPA=k oʊ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ ... /oʊ/ ... /t/ ... coat",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644115.1115935,
+   "sec": 3.28,
+   "check": {
+    "transcript": "coat",
+    "type": "word",
+    "ipa": "k oʊ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=coat | TYPE=word | IPA=k oʊ t | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:36",
+ "applied": "2026-10-10 23:55",
  "text_edited": false,
  "error": "",
  "unit": 8,

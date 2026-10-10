@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=dig | TYPE=word | IPA=/dɪɡ/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/d/ ... /ɪ/ ... /g/ ... dig",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642908.0576699,
+   "sec": 3.86,
+   "check": {
+    "transcript": "dig",
+    "type": "word",
+    "ipa": "dɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dig | TYPE=word | IPA=dɪg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:29",
+ "applied": "2026-10-10 23:35",
  "text_edited": false,
  "error": "",
  "unit": 6,

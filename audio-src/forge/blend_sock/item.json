@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sock | TYPE=word | IPA=s ɑ k | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/s/ ... /ɑ/ ... /k/ ... sock",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643317.0033371,
+   "sec": 4.16,
+   "check": {
+    "transcript": "sock",
+    "type": "word",
+    "ipa": "sɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sock | TYPE=word | IPA=sɑk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:17",
+ "applied": "2026-10-10 23:42",
  "text_edited": false,
  "error": "",
  "unit": 4,

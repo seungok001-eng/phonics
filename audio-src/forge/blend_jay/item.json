@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=J | TYPE=letter-name | IPA=dʒeɪ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/dʒ/ ... /eɪ/ ... jay",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644019.431485,
+   "sec": 3.03,
+   "check": {
+    "transcript": "J",
+    "type": "letter-name",
+    "ipa": "dʒeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=J | TYPE=letter-name | IPA=dʒeɪ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 23:34",
+ "applied": "2026-10-10 23:53",
  "text_edited": false,
  "error": "",
  "unit": 6,

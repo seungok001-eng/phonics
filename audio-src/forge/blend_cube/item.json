@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=cube | TYPE=word | IPA=kjuːb | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ ... /juː/ ... /b/ ... cube",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643882.4887848,
+   "sec": 3.64,
+   "check": {
+    "transcript": "cube",
+    "type": "word",
+    "ipa": "kjuːb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cube | TYPE=word | IPA=kjuːb | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:32",
+ "applied": "2026-10-10 23:51",
  "text_edited": false,
  "error": "",
  "unit": 4,

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=flag | TYPE=word | IPA=flæɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/fl/ ... /æ/ ... /g/ ... flag",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643406.9123037,
+   "sec": 3.85,
+   "check": {
+    "transcript": "ah",
+    "type": "isolated-sound",
+    "ipa": "ʌ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=ah | TYPE=isolated-sound | IPA=ʌ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:18",
+ "applied": "2026-10-10 23:43",
  "text_edited": false,
  "error": "",
  "unit": 6,

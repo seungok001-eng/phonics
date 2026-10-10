@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=dish | TYPE=word | IPA=dɪʃ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/d/ ... /ɪ/ ... /ʃ/ ... dish",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643226.4255118,
+   "sec": 3.87,
+   "check": {
+    "transcript": "dish",
+    "type": "word",
+    "ipa": "dɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dish | TYPE=word | IPA=dɪʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:16",
+ "applied": "2026-10-10 23:40",
  "text_edited": false,
  "error": "",
  "unit": 1,

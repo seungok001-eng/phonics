@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=finn | TYPE=word | IPA=fɪn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/θ/ ... /ɪ/ ... /n/ ... thin",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643275.4062774,
+   "sec": 3.95,
+   "check": {
+    "transcript": "thin",
+    "type": "word",
+    "ipa": "θɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=thin | TYPE=word | IPA=θɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:17",
+ "applied": "2026-10-10 23:41",
  "text_edited": false,
  "error": "",
  "unit": 3,

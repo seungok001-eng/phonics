@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=kit | TYPE=word | IPA=k ɪ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/ ... /ɪ/ ... /t/ ... kit",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643005.1514049,
+   "sec": 3.8,
+   "check": {
+    "transcript": "kit",
+    "type": "word",
+    "ipa": "kɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kit | TYPE=word | IPA=kɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:31",
+ "applied": "2026-10-10 23:36",
  "text_edited": false,
  "error": "",
  "unit": 7,

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=corn | TYPE=word | IPA=kɔɹn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ ... /ɔr/ ... /n/ ... corn",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644279.008246,
+   "sec": 3.86,
+   "check": {
+    "transcript": "corn",
+    "type": "word",
+    "ipa": "kɔːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=corn | TYPE=word | IPA=kɔːn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:37",
+ "applied": "2026-10-10 23:58",
  "text_edited": false,
  "error": "",
  "unit": 10,

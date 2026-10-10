@@ -18,9 +18,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-10 23:25",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -31,6 +31,5 @@
  "text": "Click-clack!",
  "voice": "Zephyr",
  "who": "beads",
- "book": 2,
- "busy": 1
+ "book": 2
 }

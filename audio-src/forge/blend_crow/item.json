@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=crow | TYPE=word | IPA=kɹoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/kr/ ... /oʊ/ ... crow",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644149.1738806,
+   "sec": 2.81,
+   "check": {
+    "transcript": "crow",
+    "type": "word",
+    "ipa": "/kraʊ/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=crow | TYPE=word | IPA=/kraʊ/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:36",
+ "applied": "2026-10-10 23:55",
  "text_edited": false,
  "error": "",
  "unit": 8,

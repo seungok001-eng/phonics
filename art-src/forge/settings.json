@@ -23,10 +23,10 @@
  "tts_usage": {
   "count": 1951,
   "tokens": 122927,
-  "checks": 2931
+  "checks": 3195
  },
  "el_usage": {
-  "count": 1191,
-  "chars": 23048
+  "count": 1213,
+  "chars": 23136
  }
 }

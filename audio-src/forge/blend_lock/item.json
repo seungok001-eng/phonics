@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=lock | TYPE=word | IPA=lɒk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/l/ ... /ɑ/ ... /k/ ... lock",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643330.8105087,
+   "sec": 3.64,
+   "check": {
+    "transcript": "lock",
+    "type": "word",
+    "ipa": "lɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lock | TYPE=word | IPA=lɑk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:17",
+ "applied": "2026-10-10 23:42",
  "text_edited": false,
  "error": "",
  "unit": 4,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=heart | TYPE=word | IPA=h ɑɹ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/h/ ... /ɑ/ ... /t/ ... hot",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643047.0222201,
+   "sec": 3.72,
+   "check": {
+    "transcript": "hot",
+    "type": "word",
+    "ipa": "h ɑ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hot | TYPE=word | IPA=h ɑ t | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:32",
+ "applied": "2026-10-10 23:37",
  "text_edited": false,
  "error": "",
  "unit": 8,

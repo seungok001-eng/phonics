@@ -16,19 +16,70 @@
     "raw": "TRANSCRIPT=them | TYPE=word | IPA=ðɛm | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Em!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643303.0107145,
+   "sec": 0.65,
+   "check": {
+    "transcript": "them",
+    "type": "word",
+    "ipa": "ðɛm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=them | TYPE=word | IPA=ðɛm | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Em!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643306.9794734,
+   "sec": 0.6,
+   "check": {
+    "transcript": "M",
+    "type": "letter-name",
+    "ipa": "ɛm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=M | TYPE=letter-name | IPA=ɛm | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Em!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643307.0438852,
+   "sec": 0.65,
+   "check": {
+    "transcript": "M",
+    "type": "letter-name",
+    "ipa": "ɛm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=M | TYPE=letter-name | IPA=ɛm | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-08 12:29",
- "text_edited": false,
+ "applied": "2026-10-10 23:43",
+ "text_edited": true,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "name_m__pip",
  "sub": "line",
  "title": "1권 6유닛 대사 · 핍: M!",
- "text": "M!",
+ "text": "Em!",
  "voice": "Kore",
  "who": "pip",
  "book": 1,

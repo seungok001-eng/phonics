@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=tap | TYPE=word | IPA=tæp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/t/ ... /æ/ ... /p/ ... tap",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642755.3058357,
+   "sec": 3.24,
+   "check": {
+    "transcript": "tap",
+    "type": "word",
+    "ipa": "tæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tap | TYPE=word | IPA=tæp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:27",
+ "applied": "2026-10-10 23:32",
  "text_edited": false,
  "error": "",
  "unit": 2,

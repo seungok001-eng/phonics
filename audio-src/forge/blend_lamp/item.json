@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=lamp | TYPE=word | IPA=læmp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/l/ ... /æ/ ... /mp/ ... lamp",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643586.6055381,
+   "sec": 4.2,
+   "check": {
+    "transcript": "lamp",
+    "type": "word",
+    "ipa": "læmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lamp | TYPE=word | IPA=læmp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:20",
+ "applied": "2026-10-10 23:46",
  "text_edited": false,
  "error": "",
  "unit": 9,

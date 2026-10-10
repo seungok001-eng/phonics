@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=tub | TYPE=word | IPA=tʌb | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/t/ ... /ʌ/ ... /b/ ... tub",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643944.1906388,
+   "sec": 3.41,
+   "check": {
+    "transcript": "tub",
+    "type": "word",
+    "ipa": "t ʌ b",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tub | TYPE=word | IPA=t ʌ b | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:32",
+ "applied": "2026-10-10 23:52",
  "text_edited": false,
  "error": "",
  "unit": null,

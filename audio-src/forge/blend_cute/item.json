@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=cute | TYPE=word | IPA=kjut | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ ... /juː/ ... /t/ ... cute",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643896.1204245,
+   "sec": 3.88,
+   "check": {
+    "transcript": "Cute",
+    "type": "word",
+    "ipa": "kjut",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Cute | TYPE=word | IPA=kjut | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:32",
+ "applied": "2026-10-10 23:51",
  "text_edited": false,
  "error": "",
  "unit": 4,

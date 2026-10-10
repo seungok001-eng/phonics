@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=chop | TYPE=word | IPA=tʃɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/tʃ/ ... /ɑ/ ... /p/ ... chop",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643247.2218661,
+   "sec": 3.38,
+   "check": {
+    "transcript": "chop",
+    "type": "word",
+    "ipa": "tʃɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chop | TYPE=word | IPA=tʃɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:16",
+ "applied": "2026-10-10 23:40",
  "text_edited": false,
  "error": "",
  "unit": 2,

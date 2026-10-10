@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=pot | TYPE=word | IPA=p ɑ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/p/ ... /ɑ/ ... /t/ ... pot",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643040.0653155,
+   "sec": 3.22,
+   "check": {
+    "transcript": "pot",
+    "type": "word",
+    "ipa": "/pɑt/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pot | TYPE=word | IPA=/pɑt/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:31",
+ "applied": "2026-10-10 23:37",
  "text_edited": false,
  "error": "",
  "unit": 8,

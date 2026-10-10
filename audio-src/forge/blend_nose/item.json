@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=nose | TYPE=word | IPA=noʊz | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/n/ ... /oʊ/ ... /z/ ... nose",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643834.3164752,
+   "sec": 4.84,
+   "check": {
+    "transcript": "nose",
+    "type": "word",
+    "ipa": "noʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nose | TYPE=word | IPA=noʊz | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:31",
+ "applied": "2026-10-10 23:50",
  "text_edited": false,
  "error": "",
  "unit": 3,

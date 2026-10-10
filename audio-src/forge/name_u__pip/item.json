@@ -16,19 +16,70 @@
     "raw": "TRANSCRIPT=o | TYPE=letter-name | IPA=oʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "You!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643320.01087,
+   "sec": 0.84,
+   "check": {
+    "transcript": "you",
+    "type": "word",
+    "ipa": "juː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=you | TYPE=word | IPA=juː | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "You!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643321.991549,
+   "sec": 0.74,
+   "check": {
+    "transcript": "U",
+    "type": "letter-name",
+    "ipa": "juː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=U | TYPE=letter-name | IPA=juː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "You!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643324.0001724,
+   "sec": 0.7,
+   "check": {
+    "transcript": "Q",
+    "type": "letter-name",
+    "ipa": "kjuː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Q | TYPE=letter-name | IPA=kjuː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 12:32",
- "text_edited": false,
+ "applied": "2026-10-10 23:43",
+ "text_edited": true,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "name_u__pip",
  "sub": "line",
  "title": "1권 8유닛 대사 · 핍: U!",
- "text": "U!",
+ "text": "You!",
  "voice": "Kore",
  "who": "pip",
  "book": 1,

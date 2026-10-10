@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=slide | TYPE=word | IPA=slaɪd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/sl/ ... /aɪ/ ... /d/ ... slide",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643737.9578626,
+   "sec": 5.52,
+   "check": {
+    "transcript": "slide",
+    "type": "word",
+    "ipa": "slaɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=slide | TYPE=word | IPA=slaɪd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:30",
+ "applied": "2026-10-10 23:49",
  "text_edited": false,
  "error": "",
  "unit": 2,

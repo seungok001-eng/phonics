@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=tin | TYPE=word | IPA=t ɪ n | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/t/ ... /ɪ/ ... /n/ ... tin",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642956.4976783,
+   "sec": 3.78,
+   "check": {
+    "transcript": "Ten",
+    "type": "word",
+    "ipa": "tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ten | TYPE=word | IPA=tɛn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:30",
+ "applied": "2026-10-10 23:36",
  "text_edited": false,
  "error": "",
  "unit": 6,

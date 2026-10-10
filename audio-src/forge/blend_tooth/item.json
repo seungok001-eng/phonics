@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=tooth | TYPE=word | IPA=tuːθ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/t/ ... /uː/ ... /θ/ ... tooth",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644190.119713,
+   "sec": 3.5,
+   "check": {
+    "transcript": "tooth",
+    "type": "word",
+    "ipa": "tuːθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tooth | TYPE=word | IPA=tuːθ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:36",
+ "applied": "2026-10-10 23:56",
  "text_edited": false,
  "error": "",
  "unit": 9,

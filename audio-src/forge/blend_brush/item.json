@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=brush | TYPE=word | IPA=b r ʌ ʃ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/br/ ... /ʌ/ ... /ʃ/ ... brush",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643427.5905745,
+   "sec": 3.76,
+   "check": {
+    "transcript": "brush",
+    "type": "word",
+    "ipa": "bɹʌʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=brush | TYPE=word | IPA=bɹʌʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:18",
+ "applied": "2026-10-10 23:43",
  "text_edited": false,
  "error": "",
  "unit": 7,

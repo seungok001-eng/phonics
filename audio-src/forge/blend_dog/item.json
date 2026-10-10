@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=dog | TYPE=word | IPA=d ɔ g | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/d/ ... /ɑ/ ... /g/ ... dog",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643019.219049,
+   "sec": 3.71,
+   "check": {
+    "transcript": "dog",
+    "type": "word",
+    "ipa": "d ɔ g",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dog | TYPE=word | IPA=d ɔ g | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:31",
+ "applied": "2026-10-10 23:37",
  "text_edited": false,
  "error": "",
  "unit": 8,

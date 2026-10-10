@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=vet | TYPE=word | IPA=vɛt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/v/ ... /e/ ... /t/ ... vet",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642817.6056616,
+   "sec": 3.95,
+   "check": {
+    "transcript": "vet",
+    "type": "word",
+    "ipa": "v ɛ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vet | TYPE=word | IPA=v ɛ t | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:28",
+ "applied": "2026-10-10 23:33",
  "text_edited": false,
  "error": "",
  "unit": 3,

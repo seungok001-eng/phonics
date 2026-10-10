@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=paint | TYPE=word | IPA=peɪnt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/p/ ... /eɪ/ ... /nt/ ... paint",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643992.3966894,
+   "sec": 3.45,
+   "check": {
+    "transcript": "paint",
+    "type": "word",
+    "ipa": "peɪnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=paint | TYPE=word | IPA=peɪnt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:33",
+ "applied": "2026-10-10 23:53",
  "text_edited": false,
  "error": "",
  "unit": 6,

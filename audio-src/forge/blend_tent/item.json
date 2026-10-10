@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=tent | TYPE=word | IPA=tɛnt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/t/ ... /e/ ... /nt/ ... tent",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643545.083972,
+   "sec": 3.45,
+   "check": {
+    "transcript": "tent",
+    "type": "word",
+    "ipa": "tɛnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tent | TYPE=word | IPA=tɛnt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:19",
+ "applied": "2026-10-10 23:45",
  "text_edited": false,
  "error": "",
  "unit": 9,

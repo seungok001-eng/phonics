@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=flute | TYPE=word | IPA=flut | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/fl/ ... /uː/ ... /t/ ... flute",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643916.6865644,
+   "sec": 3.55,
+   "check": {
+    "transcript": "flute",
+    "type": "word",
+    "ipa": "flut",
+    "note": "ok",
+    "raw": "TRANSCRIPT=flute | TYPE=word | IPA=flut | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:32",
+ "applied": "2026-10-10 23:52",
  "text_edited": false,
  "error": "",
  "unit": 4,

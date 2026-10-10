@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=clay | TYPE=word | IPA=klˈeɪ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/kl/ ... /eɪ/ ... clay",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644012.7257915,
+   "sec": 2.88,
+   "check": {
+    "transcript": "clay",
+    "type": "word",
+    "ipa": "kleɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clay | TYPE=word | IPA=kleɪ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:34",
+ "applied": "2026-10-10 23:53",
  "text_edited": false,
  "error": "",
  "unit": 6,

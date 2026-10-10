@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=B | TYPE=letter-name | IPA=biː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/b/ ... /iː/ ... bee",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644032.9866965,
+   "sec": 2.56,
+   "check": {
+    "transcript": "b",
+    "type": "isolated-sound",
+    "ipa": "b",
+    "note": "clean",
+    "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:34",
+ "applied": "2026-10-10 23:53",
  "text_edited": false,
  "error": "",
  "unit": 7,

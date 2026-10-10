@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=soap | TYPE=word | IPA=s oʊ p | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/s/ ... /oʊ/ ... /p/ ... soap",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644108.2574978,
+   "sec": 4.05,
+   "check": {
+    "transcript": "s",
+    "type": "isolated-sound",
+    "ipa": "s",
+    "note": "clean",
+    "raw": "TRANSCRIPT=s | TYPE=isolated-sound | IPA=s | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:36",
+ "applied": "2026-10-10 23:55",
  "text_edited": false,
  "error": "",
  "unit": 8,

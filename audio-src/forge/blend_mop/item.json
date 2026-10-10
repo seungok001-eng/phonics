@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=m ah p mop | TYPE=word | IPA=m ɑ p mɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/m/ ... /ɑ/ ... /p/ ... mop",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643081.864669,
+   "sec": 3.55,
+   "check": {
+    "transcript": "mop",
+    "type": "word",
+    "ipa": "mɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mop | TYPE=word | IPA=mɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:32",
+ "applied": "2026-10-10 23:38",
  "text_edited": false,
  "error": "",
  "unit": 9,

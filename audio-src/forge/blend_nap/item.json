@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=nap | TYPE=word | IPA=næp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/n/ ... /æ/ ... /p/ ... nap",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642748.3169777,
+   "sec": 3.65,
+   "check": {
+    "transcript": "n æ p",
+    "type": "sentence",
+    "ipa": "n æ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=n æ p | TYPE=sentence | IPA=n æ p | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:27",
+ "applied": "2026-10-10 23:32",
  "text_edited": false,
  "error": "",
  "unit": 2,

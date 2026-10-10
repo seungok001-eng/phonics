@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=seed | TYPE=word | IPA=sid | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/s/ ... /iː/ ... /d/ ... seed",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644046.70883,
+   "sec": 4.25,
+   "check": {
+    "transcript": "seed",
+    "type": "word",
+    "ipa": "siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=seed | TYPE=word | IPA=siːd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:35",
+ "applied": "2026-10-10 23:54",
  "text_edited": false,
  "error": "",
  "unit": 7,

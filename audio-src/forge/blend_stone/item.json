@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=stone | TYPE=word | IPA=stəʊn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/st/ ... /oʊ/ ... /n/ ... stone",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643848.0743473,
+   "sec": 4.22,
+   "check": {
+    "transcript": "stone",
+    "type": "word",
+    "ipa": "stoʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=stone | TYPE=word | IPA=stoʊn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:31",
+ "applied": "2026-10-10 23:50",
  "text_edited": false,
  "error": "",
  "unit": 3,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=bun | TYPE=word | IPA=bʌn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/b/ ... /ʌ/ ... /n/ ... bun",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643157.5478277,
+   "sec": 3.86,
+   "check": {
+    "transcript": "b",
+    "type": "isolated-sound",
+    "ipa": "b",
+    "note": "clean",
+    "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:33",
+ "applied": "2026-10-10 23:39",
  "text_edited": false,
  "error": "",
  "unit": 10,

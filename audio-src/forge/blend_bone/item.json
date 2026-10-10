@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=bone | TYPE=word | IPA=boʊn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/b/ ... /oʊ/ ... /n/ ... bone",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643820.5925336,
+   "sec": 3.97,
+   "check": {
+    "transcript": "b",
+    "type": "isolated-sound",
+    "ipa": "b",
+    "note": "clean",
+    "raw": "TRANSCRIPT=b | TYPE=isolated-sound | IPA=b | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:31",
+ "applied": "2026-10-10 23:50",
  "text_edited": false,
  "error": "",
  "unit": 3,

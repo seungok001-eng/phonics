@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=car | TYPE=word | IPA=k ɑɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ ... /ɑr/ ... car",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644237.9501226,
+   "sec": 2.87,
+   "check": {
+    "transcript": "car",
+    "type": "word",
+    "ipa": "k ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=car | TYPE=word | IPA=k ɑɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:37",
+ "applied": "2026-10-10 23:57",
  "text_edited": false,
  "error": "",
  "unit": 10,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=run | TYPE=word | IPA=r ʌ n | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/r/ ... /ʌ/ ... /n/ ... run",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643150.6672194,
+   "sec": 4.58,
+   "check": {
+    "transcript": "run",
+    "type": "word",
+    "ipa": "ɹʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=run | TYPE=word | IPA=ɹʌn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:33",
+ "applied": "2026-10-10 23:39",
  "text_edited": false,
  "error": "",
  "unit": 10,

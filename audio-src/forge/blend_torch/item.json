@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=torch | TYPE=word | IPA=tɔːtʃ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/t/ ... /ɔr/ ... /tʃ/ ... torch",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644285.8815503,
+   "sec": 3.55,
+   "check": {
+    "transcript": "torch",
+    "type": "word",
+    "ipa": "tɔːtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=torch | TYPE=word | IPA=tɔːtʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:37",
+ "applied": "2026-10-10 23:58",
  "text_edited": false,
  "error": "",
  "unit": 10,

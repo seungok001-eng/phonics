@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=den | TYPE=word | IPA=dɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/d/ ... /e/ ... /n/ ... den",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642845.4046848,
+   "sec": 3.84,
+   "check": {
+    "transcript": "den",
+    "type": "word",
+    "ipa": "d ɛ n",
+    "note": "ok",
+    "raw": "TRANSCRIPT=den | TYPE=word | IPA=d ɛ n | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:29",
+ "applied": "2026-10-10 23:34",
  "text_edited": false,
  "error": "",
  "unit": 3,

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=mouse | TYPE=word | IPA=maʊs | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/m/ ... /aʊ/ ... /s/ ... mouse",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644203.9240234,
+   "sec": 4.91,
+   "check": {
+    "transcript": "mouse",
+    "type": "word",
+    "ipa": "maʊs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mouse | TYPE=word | IPA=maʊs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:37",
+ "applied": "2026-10-10 23:56",
  "text_edited": false,
  "error": "",
  "unit": 9,

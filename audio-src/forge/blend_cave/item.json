@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=cave | TYPE=word | IPA=keɪv | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ ... /eɪ/ ... /v/ ... cave",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643710.3406208,
+   "sec": 4.36,
+   "check": {
+    "transcript": "cave",
+    "type": "word",
+    "ipa": "keɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cave | TYPE=word | IPA=keɪv | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:30",
+ "applied": "2026-10-10 23:48",
  "text_edited": false,
  "error": "",
  "unit": 1,

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=slid | TYPE=word | IPA=slɪd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/sl/ ... /ɪ/ ... /d/ ... slid",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643786.1307766,
+   "sec": 5.12,
+   "check": {
+    "transcript": "slid",
+    "type": "word",
+    "ipa": "slɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=slid | TYPE=word | IPA=slɪd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:31",
+ "applied": "2026-10-10 23:49",
  "text_edited": false,
  "error": "",
  "unit": null,

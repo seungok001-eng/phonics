@@ -16,21 +16,123 @@
     "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Tac!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791642315.8450296,
+   "sec": 0.88,
+   "check": {
+    "transcript": "tuck",
+    "type": "word",
+    "ipa": "tʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tuck | TYPE=word | IPA=tʌk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Tac!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791642315.9320762,
+   "sec": 0.84,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Tack!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643462.0638144,
+   "sec": 0.93,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Tack!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643465.130257,
+   "sec": 0.88,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Tack!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643466.1630237,
+   "sec": 0.88,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "Tack!",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643521.259498,
+   "sec": 1.06,
+   "check": {
+    "transcript": "tech",
+    "type": "word",
+    "ipa": "tɛk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tech | TYPE=word | IPA=tɛk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
- "text_edited": false,
+ "approved": 7,
+ "final": "final.mp3",
+ "applied": "2026-10-10 23:45",
+ "text_edited": true,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "catch_b2_pip",
  "sub": "line",
  "title": "말버릇 · 핍: Tac!",
- "text": "Tac!",
+ "text": "Tack!",
  "voice": "Aoede",
  "who": "pip",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

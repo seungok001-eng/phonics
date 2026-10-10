@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=cap | TYPE=word | IPA=k æ p | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/k/ ... /æ/ ... /p/ ... cap",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642734.2136276,
+   "sec": 3.22,
+   "check": {
+    "transcript": "cap",
+    "type": "word",
+    "ipa": "k æ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap | TYPE=word | IPA=k æ p | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:27",
+ "applied": "2026-10-10 23:32",
  "text_edited": false,
  "error": "",
  "unit": 2,

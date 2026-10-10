@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=pet | TYPE=word | IPA=pɛt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/p/ ... /e/ ... /t/ ... pet",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642796.8570502,
+   "sec": 3.1,
+   "check": {
+    "transcript": "pet",
+    "type": "word",
+    "ipa": "pɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pet | TYPE=word | IPA=pɛt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:28",
+ "applied": "2026-10-10 23:33",
  "text_edited": false,
  "error": "",
  "unit": 3,

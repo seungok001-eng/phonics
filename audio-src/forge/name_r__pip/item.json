@@ -16,19 +16,87 @@
     "raw": "TRANSCRIPT=not | TYPE=word | IPA=nɒt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ar!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643311.9661424,
+   "sec": 0.65,
+   "check": {
+    "transcript": "hat",
+    "type": "word",
+    "ipa": "hæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hat | TYPE=word | IPA=hæt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Ar!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643314.9573262,
+   "sec": 0.6,
+   "check": {
+    "transcript": "chat",
+    "type": "word",
+    "ipa": "tʃæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chat | TYPE=word | IPA=tʃæt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Ar!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643316.0103717,
+   "sec": 0.56,
+   "check": {
+    "transcript": "mud",
+    "type": "word",
+    "ipa": "mʌd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mud | TYPE=word | IPA=mʌd | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Ar!",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643437.7053943,
+   "sec": 0.64,
+   "check": {
+    "transcript": "R",
+    "type": "letter-name",
+    "ipa": "ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-08 12:30",
- "text_edited": false,
+ "applied": "2026-10-10 23:44",
+ "text_edited": true,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "name_r__pip",
  "sub": "line",
  "title": "1권 7유닛 대사 · 핍: R!",
- "text": "R!",
+ "text": "Ar!",
  "voice": "Kore",
  "who": "pip",
  "book": 1,

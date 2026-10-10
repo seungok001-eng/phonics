@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sniff | TYPE=word | IPA=snɪf | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/sn/ ... /ɪ/ ... /f/ ... sniff",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643475.9761472,
+   "sec": 4.51,
+   "check": {
+    "transcript": "f",
+    "type": "isolated-sound",
+    "ipa": "f",
+    "note": "clean",
+    "raw": "TRANSCRIPT=f | TYPE=isolated-sound | IPA=f | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:19",
+ "applied": "2026-10-10 23:44",
  "text_edited": false,
  "error": "",
  "unit": 8,

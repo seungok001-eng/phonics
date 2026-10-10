@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/b/ ... /e/ ... /d/ ... bed",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642852.3923068,
+   "sec": 3.46,
+   "check": {
+    "transcript": "bed",
+    "type": "word",
+    "ipa": "bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:29",
+ "applied": "2026-10-10 23:34",
  "text_edited": false,
  "error": "",
  "unit": 4,

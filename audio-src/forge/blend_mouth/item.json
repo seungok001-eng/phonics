@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=mouth | TYPE=word | IPA=maʊθ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/m/ ... /aʊ/ ... /θ/ ... mouth",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644217.64877,
+   "sec": 4.35,
+   "check": {
+    "transcript": "mouth",
+    "type": "word",
+    "ipa": "maʊθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mouth | TYPE=word | IPA=maʊθ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:37",
+ "applied": "2026-10-10 23:57",
  "text_edited": false,
  "error": "",
  "unit": 9,

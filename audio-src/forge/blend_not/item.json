@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=not | TYPE=word | IPA=n ɑ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/n/ ... /ɑ/ ... /t/ ... not",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643861.784562,
+   "sec": 3.85,
+   "check": {
+    "transcript": "not",
+    "type": "word",
+    "ipa": "n ɑ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=not | TYPE=word | IPA=n ɑ t | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:32",
+ "applied": "2026-10-10 23:51",
  "text_edited": false,
  "error": "",
  "unit": null,

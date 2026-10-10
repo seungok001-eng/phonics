@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=nest | TYPE=word | IPA=nɛst | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/n/ ... /e/ ... /st/ ... nest",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643565.8236036,
+   "sec": 4.18,
+   "check": {
+    "transcript": "nest",
+    "type": "word",
+    "ipa": "nɛst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nest | TYPE=word | IPA=nɛst | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:20",
+ "applied": "2026-10-10 23:46",
  "text_edited": false,
  "error": "",
  "unit": 9,

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=rose | TYPE=word | IPA=ɹoʊz | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/r/ ... /oʊ/ ... /z/ ... rose",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643841.1913993,
+   "sec": 5.38,
+   "check": {
+    "transcript": "rose",
+    "type": "word",
+    "ipa": "ɹoʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rose | TYPE=word | IPA=ɹoʊz | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:31",
+ "applied": "2026-10-10 23:50",
  "text_edited": false,
  "error": "",
  "unit": 3,

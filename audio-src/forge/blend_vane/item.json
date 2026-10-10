@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=vein | TYPE=word | IPA=veɪn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/v/ ... /eɪ/ ... /n/ ... vane",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643669.2260716,
+   "sec": 4.91,
+   "check": {
+    "transcript": "vein",
+    "type": "word",
+    "ipa": "veɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vein | TYPE=word | IPA=veɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:30",
+ "applied": "2026-10-10 23:47",
  "text_edited": false,
  "error": "",
  "unit": 1,

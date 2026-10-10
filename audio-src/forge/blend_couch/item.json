@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=couch | TYPE=word | IPA=/kaʊtʃ/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ ... /aʊ/ ... /tʃ/ ... couch",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644224.5052142,
+   "sec": 3.88,
+   "check": {
+    "transcript": "couch",
+    "type": "word",
+    "ipa": "k aʊ ʧ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=couch | TYPE=word | IPA=k aʊ ʧ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:37",
+ "applied": "2026-10-10 23:57",
  "text_edited": false,
  "error": "",
  "unit": 9,

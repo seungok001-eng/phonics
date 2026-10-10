@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=lunch | TYPE=word | IPA=lʌntʃ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/l/ ... /ʌ/ ... /n/ ... /tʃ/ ... lunch",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643268.4110465,
+   "sec": 4.7,
+   "check": {
+    "transcript": "lunch",
+    "type": "word",
+    "ipa": "lʌntʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lunch | TYPE=word | IPA=lʌntʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:16",
+ "applied": "2026-10-10 23:41",
  "text_edited": false,
  "error": "",
  "unit": 2,

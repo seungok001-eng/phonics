@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=fog | TYPE=word | IPA=f ɒ g | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/f/ ... /ɑ/ ... /g/ ... fog",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643033.1040306,
+   "sec": 4.49,
+   "check": {
+    "transcript": "fog",
+    "type": "word",
+    "ipa": "f ɒ g",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fog | TYPE=word | IPA=f ɒ g | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:31",
+ "applied": "2026-10-10 23:37",
  "text_edited": false,
  "error": "",
  "unit": 8,

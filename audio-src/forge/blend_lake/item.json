@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=lake | TYPE=word | IPA=leɪk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/l/ ... /eɪ/ ... /k/ ... lake",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643689.735803,
+   "sec": 3.97,
+   "check": {
+    "transcript": "lake",
+    "type": "word",
+    "ipa": "/leɪk/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lake | TYPE=word | IPA=/leɪk/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:30",
+ "applied": "2026-10-10 23:48",
  "text_edited": false,
  "error": "",
  "unit": 1,

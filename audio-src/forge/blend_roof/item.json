@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=roof | TYPE=word | IPA=ɹuːf | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/r/ ... /uː/ ... /f/ ... roof",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644176.3903847,
+   "sec": 5.14,
+   "check": {
+    "transcript": "roof",
+    "type": "word",
+    "ipa": "ruf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=roof | TYPE=word | IPA=ruf | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:36",
+ "applied": "2026-10-10 23:56",
  "text_edited": false,
  "error": "",
  "unit": 9,

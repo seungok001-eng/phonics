@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=boat | TYPE=word | IPA=b oʊ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/b/ ... /oʊ/ ... /t/ ... boat",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644094.5509074,
+   "sec": 3.47,
+   "check": {
+    "transcript": "boat",
+    "type": "word",
+    "ipa": "boʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=boat | TYPE=word | IPA=boʊt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:36",
+ "applied": "2026-10-10 23:54",
  "text_edited": false,
  "error": "",
  "unit": 8,

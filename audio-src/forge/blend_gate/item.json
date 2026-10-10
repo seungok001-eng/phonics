@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=gate | TYPE=word | IPA=ɡeɪt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/g/ ... /eɪ/ ... /t/ ... gate",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643682.8697605,
+   "sec": 3.68,
+   "check": {
+    "transcript": "gate",
+    "type": "word",
+    "ipa": "ɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gate | TYPE=word | IPA=ɡeɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:30",
+ "applied": "2026-10-10 23:48",
  "text_edited": false,
  "error": "",
  "unit": 1,

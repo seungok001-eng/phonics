@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=chimp | TYPE=word | IPA=ʧɪmp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/tʃ/ ... /ɪ/ ... /mp/ ... chimp",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643600.3205545,
+   "sec": 3.87,
+   "check": {
+    "transcript": "chimp",
+    "type": "word",
+    "ipa": "ʧɪmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chimp | TYPE=word | IPA=ʧɪmp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:20",
+ "applied": "2026-10-10 23:46",
  "text_edited": false,
  "error": "",
  "unit": 9,

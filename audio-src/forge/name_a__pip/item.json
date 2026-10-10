@@ -16,19 +16,70 @@
     "raw": "TRANSCRIPT=u | TYPE=isolated-sound | IPA=ʌ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ay!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643287.247656,
+   "sec": 0.65,
+   "check": {
+    "transcript": "May",
+    "type": "word",
+    "ipa": "meɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=May | TYPE=word | IPA=meɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Ay!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643289.0258036,
+   "sec": 0.6,
+   "check": {
+    "transcript": "A",
+    "type": "letter-name",
+    "ipa": "eɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A | TYPE=letter-name | IPA=eɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Ay!",
+   "voice": "Piku",
+   "how": "el",
+   "created": 1791643292.9763541,
+   "sec": 0.7,
+   "check": {
+    "transcript": "I",
+    "type": "letter-name",
+    "ipa": "aɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I | TYPE=letter-name | IPA=aɪ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-08 12:24",
- "text_edited": false,
+ "applied": "2026-10-10 23:42",
+ "text_edited": true,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "name_a__pip",
  "sub": "line",
  "title": "1권 1유닛 대사 · 핍: A!",
- "text": "A!",
+ "text": "Ay!",
  "voice": "Kore",
  "who": "pip",
  "book": 1,

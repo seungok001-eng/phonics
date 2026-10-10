@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=pop | TYPE=word | IPA=pɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/p/ ... /ʌ/ ... /p/ ... pup",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642237.9295073,
+   "sec": 3.16,
+   "check": {
+    "transcript": "pop",
+    "type": "word",
+    "ipa": "pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop | TYPE=word | IPA=pɑp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/p/ ... /ʌ/ ... /p/ ... pup",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643178.2077744,
+   "sec": 2.96,
+   "check": {
+    "transcript": "pop",
+    "type": "word",
+    "ipa": "pɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop | TYPE=word | IPA=pɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 4,
+ "final": "final.mp3",
+ "applied": "2026-10-10 23:39",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -48,5 +82,5 @@
  "text": "/p/ ... /ʌ/ ... /p/ ... pup",
  "voice": "Kore",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

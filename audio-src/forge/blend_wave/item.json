@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=wave | TYPE=word | IPA=w eɪ v | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/w/ ... /eɪ/ ... /v/ ... wave",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643703.4626484,
+   "sec": 4.38,
+   "check": {
+    "transcript": "wave",
+    "type": "word",
+    "ipa": "weɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wave | TYPE=word | IPA=weɪv | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:30",
+ "applied": "2026-10-10 23:48",
  "text_edited": false,
  "error": "",
  "unit": 1,

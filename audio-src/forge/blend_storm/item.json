@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=storm | TYPE=word | IPA=stɔɹm | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/st/ ... /ɔr/ ... /m/ ... storm",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644292.7575023,
+   "sec": 4.33,
+   "check": {
+    "transcript": "store",
+    "type": "word",
+    "ipa": "stɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=store | TYPE=word | IPA=stɔɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:38",
+ "applied": "2026-10-10 23:58",
  "text_edited": false,
  "error": "",
  "unit": 10,

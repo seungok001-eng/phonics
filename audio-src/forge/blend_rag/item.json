@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=rag | TYPE=word | IPA=ræɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/r/ ... /æ/ ... /g/ ... rag",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642776.17326,
+   "sec": 4.82,
+   "check": {
+    "transcript": "rag",
+    "type": "word",
+    "ipa": "ræg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rag | TYPE=word | IPA=ræg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:28",
+ "applied": "2026-10-10 23:33",
  "text_edited": false,
  "error": "",
  "unit": 2,

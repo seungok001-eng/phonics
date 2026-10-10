@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=farm | TYPE=word | IPA=fɑɹm | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/f/ ... /ɑr/ ... /m/ ... farm",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644244.806286,
+   "sec": 4.82,
+   "check": {
+    "transcript": "R",
+    "type": "letter-name",
+    "ipa": "ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:37",
+ "applied": "2026-10-10 23:57",
  "text_edited": false,
  "error": "",
  "unit": 10,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=bat | TYPE=word | IPA=bæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/b/ ... /æ/ ... /t/ ... bat",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642685.3253558,
+   "sec": 3.52,
+   "check": {
+    "transcript": "that",
+    "type": "word",
+    "ipa": "ðæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=that | TYPE=word | IPA=ðæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:26",
+ "applied": "2026-10-10 23:31",
  "text_edited": false,
  "error": "",
  "unit": 1,

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=train | TYPE=word | IPA=tɹeɪn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/tr/ ... /eɪ/ ... /n/ ... train",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643964.8995404,
+   "sec": 5.13,
+   "check": {
+    "transcript": "train",
+    "type": "word",
+    "ipa": "tɹeɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=train | TYPE=word | IPA=tɹeɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:33",
+ "applied": "2026-10-10 23:52",
  "text_edited": false,
  "error": "",
  "unit": 6,

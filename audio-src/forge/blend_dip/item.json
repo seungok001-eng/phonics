@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=dip | TYPE=word | IPA=dɪp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/d/ ... /ɪ/ ... /p/ ... dip",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642977.282801,
+   "sec": 3.46,
+   "check": {
+    "transcript": "dip",
+    "type": "word",
+    "ipa": "dɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dip | TYPE=word | IPA=dɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:31",
+ "applied": "2026-10-10 23:36",
  "text_edited": false,
  "error": "",
  "unit": 7,

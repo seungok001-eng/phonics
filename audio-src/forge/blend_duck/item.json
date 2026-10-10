@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/d/ ... /ʌ/ ... /k/ ... duck",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643310.1204264,
+   "sec": 3.55,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:17",
+ "applied": "2026-10-10 23:41",
  "text_edited": false,
  "error": "",
  "unit": 4,

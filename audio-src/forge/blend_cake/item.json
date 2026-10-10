@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=cake | TYPE=word | IPA=keɪk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/k/ ... /eɪ/ ... /k/ ... cake",
+   "voice": "",
+   "how": "upload",
+   "created": 1791643676.0542898,
+   "sec": 3.6,
+   "check": {
+    "transcript": "cake",
+    "type": "word",
+    "ipa": "keɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cake | TYPE=word | IPA=keɪk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:30",
+ "applied": "2026-10-10 23:48",
  "text_edited": false,
  "error": "",
  "unit": 1,

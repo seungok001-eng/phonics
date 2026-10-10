@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=mat | TYPE=word | IPA=m æ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/m/ ... /æ/ ... /t/ ... mat",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642692.269924,
+   "sec": 3.72,
+   "check": {
+    "transcript": "mat",
+    "type": "word",
+    "ipa": "mæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mat | TYPE=word | IPA=mæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:26",
+ "applied": "2026-10-10 23:31",
  "text_edited": false,
  "error": "",
  "unit": 1,

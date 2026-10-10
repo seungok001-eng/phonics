@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=fan | TYPE=word | IPA=fæn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/f/ ... /æ/ ... /n/ ... fan",
+   "voice": "",
+   "how": "upload",
+   "created": 1791642713.3108237,
+   "sec": 4.59,
+   "check": {
+    "transcript": "a",
+    "type": "isolated-sound",
+    "ipa": "æ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a | TYPE=isolated-sound | IPA=æ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:27",
+ "applied": "2026-10-10 23:31",
  "text_edited": false,
  "error": "",
  "unit": 1,

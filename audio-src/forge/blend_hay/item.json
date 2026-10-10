@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Hey | TYPE=word | IPA=heɪ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/h/ ... /eɪ/ ... hay",
+   "voice": "",
+   "how": "upload",
+   "created": 1791644006.0086064,
+   "sec": 2.97,
+   "check": {
+    "transcript": "A",
+    "type": "letter-name",
+    "ipa": "eɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A | TYPE=letter-name | IPA=eɪ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 23:33",
+ "applied": "2026-10-10 23:53",
  "text_edited": false,
  "error": "",
  "unit": 6,
