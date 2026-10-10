@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791616968.554202,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/5f367848-6da5-4858-847d-0ec7fa08c1b1?Expires=1791638544&KeyName=labs-flow-prod-cdn-key&Signature=qnyjmMT2qQAkvW_2ReYSxl4dY5U",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 19:02",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -22,5 +22,6 @@
  "aspect": "3:4",
  "out": "web/assets/art/char_fairy_ref.png",
  "book": 4,
- "regen": 1
+ "regen": 1,
+ "claimed_at": 1791616938.395199
 }

@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/word_brick.png",
  "book": 3,
- "claimed_at": 1791459143.1009753
+ "claimed_at": 1791459143.1009753,
+ "asset_no": 2181
 }

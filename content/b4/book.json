@@ -1195,7 +1195,7 @@
     },
     "flute": {
       "ko": "플루트",
-      "desc": "a shiny silver flute lying sideways",
+      "desc": "a shiny silver flute drawn large and diagonally from the bottom-left to the top-right corner so it fills the picture, with a few colorful music notes floating above it",
       "family": "u_e",
       "chunks": [
         "fl",
@@ -1829,7 +1829,7 @@
     },
     "cloud": {
       "ko": "구름",
-      "desc": "a fluffy white cloud",
+      "desc": "one big puffy cartoon rain cloud colored soft blue-grey with a darker grey bottom and a thick dark outline, with three small blue raindrops under it",
       "family": "ou",
       "chunks": [
         "cl",
@@ -1915,7 +1915,7 @@
     },
     "jar": {
       "ko": "병",
-      "desc": "a glass jar with a lid",
+      "desc": "a glass jar with a red lid, filled with bright red strawberry jam, a little strawberry drawn on the front",
       "family": "ar",
       "chunks": [
         "j",

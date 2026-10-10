@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791618160.7581568,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/74d9f26c-db41-489d-8bcf-c0ab6a529039?Expires=1791639739&KeyName=labs-flow-prod-cdn-key&Signature=D0wX-YbVqtQn8orvQG2nZgkHXB0",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 16:49",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -20,5 +20,7 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a white dog bone.",
  "aspect": "1:1",
  "out": "web/assets/art/word_bone.png",
- "book": 4
+ "book": 4,
+ "claimed_at": 1791618133.3959608,
+ "asset_no": 2234
 }

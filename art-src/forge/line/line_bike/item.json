@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791622158.1111214,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/362b8c0d-c9bb-4fdc-a120-e13a17afae5d?Expires=1791643737&KeyName=labs-flow-prod-cdn-key&Signature=clWdpRuyS_Y-ZfCK7TBN-DuD_hg",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 17:49",
  "gen": "",
  "job_type": "image",
  "reference": "word_bike",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_bike.png",
- "book": 4
+ "book": 4,
+ "claimed_at": 1791622120.8911095
 }

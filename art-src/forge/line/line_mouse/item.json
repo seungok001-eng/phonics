@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
- "attempts": 0,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 2,
  "error": "",
- "updated": 0,
+ "updated": 1791626495.0889416,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/b960e083-288e-410f-b1ef-28f61a7ee23f?Expires=1791648077&KeyName=labs-flow-prod-cdn-key&Signature=v0FZ-5_s4z6nBi6IgQrG8Tzhr8A",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 19:01",
  "gen": "",
  "job_type": "image",
  "reference": "word_mouse",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_mouse.png",
- "book": 4
+ "book": 4,
+ "claimed_at": 1791626460.894099
 }

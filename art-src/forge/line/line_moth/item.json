@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791614819.4068644,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/2c137924-ca36-4b30-9522-60e5b8b58f49?Expires=1791636397&KeyName=labs-flow-prod-cdn-key&Signature=VsW378d5xcwd26bZIcG8ix7ZYSc",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 15:47",
  "gen": "",
  "job_type": "image",
  "reference": "word_moth",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_moth.png",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791614780.8964555
 }

@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791614414.2991595,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/804a194f-523c-4e40-b8b5-91b70f5c7181?Expires=1791635992&KeyName=labs-flow-prod-cdn-key&Signature=JC0eTIyZfSU8UaO-NKWxIO6oaUo",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 15:40",
  "gen": "",
  "job_type": "image",
  "reference": "word_chin",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_chin.png",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791614375.897221
 }

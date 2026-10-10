@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/word_chess.png",
  "book": 3,
- "claimed_at": 1791458440.6136847
+ "claimed_at": 1791458440.6136847,
+ "asset_no": 2159
 }

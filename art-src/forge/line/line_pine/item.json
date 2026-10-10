@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791621858.2597747,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/a6bb1f03-a16f-440a-8688-0b5882df63eb?Expires=1791643439&KeyName=labs-flow-prod-cdn-key&Signature=rUv6QSCjdH1tEHFSvjYfRM5Bmbg",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 17:45",
  "gen": "",
  "job_type": "image",
  "reference": "word_pine",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_pine.png",
- "book": 4
+ "book": 4,
+ "claimed_at": 1791621823.629399
 }

@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
- "attempts": 0,
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
+ "attempts": 1,
  "error": "",
- "updated": 0,
+ "updated": 1791625166.2432768,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/58d8b55a-9a27-48cc-b883-ac3470d2f369?Expires=1791646744&KeyName=labs-flow-prod-cdn-key&Signature=LcQfjR2_KZrSPlokA5nb4KcYwlk",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 18:40",
  "gen": "",
  "job_type": "image",
  "reference": "word_sheep",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_sheep.png",
- "book": 4
+ "book": 4,
+ "claimed_at": 1791625128.3975086
 }

@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791615791.7265606,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/eb87c138-e758-489c-b5da-ceece6f66984?Expires=1791637361&KeyName=labs-flow-prod-cdn-key&Signature=uhiNPU9L3KFOrb-IBvRwkMakBtI",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 16:03",
  "gen": "",
  "job_type": "image",
  "reference": "word_stick",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_stick.png",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791615745.8916855
 }

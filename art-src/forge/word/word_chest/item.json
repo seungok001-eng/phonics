@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/word_chest.png",
  "book": 3,
- "claimed_at": 1791459853.1581585
+ "claimed_at": 1791459853.1581585,
+ "asset_no": 2203
 }
