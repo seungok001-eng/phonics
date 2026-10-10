@@ -1,10 +1,10 @@
 {
- "generator": "flow",
+ "generator": "gemini",
  "auto_approve_ref": false,
  "max_inflight": 1,
  "gemini_model": "gemini-3.1-flash-image",
  "gemini_size": "1K",
- "gemini_workers": 3,
+ "gemini_workers": 2,
  "tts_model": "gemini-3.8-flash-tts",
  "tts_workers": 2,
  "sound_variants": {},
@@ -17,8 +17,8 @@
  "port": 8766,
  "next_asset_no": 2288,
  "gemini_usage": {
-  "count": 46,
-  "cost": 3.06
+  "count": 213,
+  "cost": 14.249
  },
  "tts_usage": {
   "count": 1951,

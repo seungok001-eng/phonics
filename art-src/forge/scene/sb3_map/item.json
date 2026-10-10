@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791640191.0615268,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 22:51",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b3",
@@ -16,8 +16,9 @@
  "id": "sb3_map",
  "kind": "scene",
  "title": "3권 스토리북 · sb3_map",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. None of the characters from the attached sheet appear in this picture. Scene: A hand-drawn storybook map of the Pair Forest seen from above: at the bottom, the far bank of the Word Pond with the finished bridge of stepping stones; a winding mossy path leads up through a dense green forest past nine round doors set in a giant tree, a hollow log, a rock, a pond bank, a clock trunk, a brick wall, a stream bank, a tent and a wall of roots, all shut; a tiny treetop bed with a lantern light; a little stream with a swing; a sandy pond; a round glade at the top edge of the forest; beyond it, on a far hill, a tiny castle. No letters or text anywhere.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. One single continuous picture: never split it into panels, frames or a collage, and draw each character only once. Full-page picture-book illustration. None of the characters from the attached sheet appear in this picture. Scene: A hand-drawn storybook map of the Pair Forest seen from above: at the bottom, the far bank of the Word Pond with the finished bridge of stepping stones; a winding mossy path leads up through a dense green forest past nine round doors set in a giant tree, a hollow log, a rock, a pond bank, a clock trunk, a brick wall, a stream bank, a tent and a wall of roots, all shut; a tiny treetop bed with a lantern light; a little stream with a swing; a sandy pond; a round glade at the top edge of the forest; beyond it, on a far hill, a tiny castle. No letters or text anywhere.",
  "aspect": "4:3",
  "out": "web/assets/art/sb3_map.jpg",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791640178.5473828
 }

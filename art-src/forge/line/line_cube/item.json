@@ -1,13 +1,13 @@
 {
- "status": "pending",
+ "status": "failed",
  "raw": "",
  "cut": "",
- "attempts": 0,
- "error": "",
+ "attempts": 3,
+ "error": "제미나이: 제미나이가 그림을 돌려주지 않음: {\"candidates\": [{\"content\": {}, \"finishReason\": \"IMAGE_RECITATION\", \"index\": 0, \"finishMessage\": \"Unable to show the generated image. The model could not generate the image based on the prompt provided. You will not be charged for this request. Try rephrasing the prompt. If ",
  "updated": 0,
  "auto_approved": false,
  "flow_url": "",
- "prompt_edited": false,
+ "prompt_edited": true,
  "applied": "",
  "gen": "",
  "job_type": "image",
@@ -17,10 +17,10 @@
  "kind": "line",
  "word": "cube",
  "title": "cube 선 그림 · 블록(정육면체)",
- "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
+ "prompt": "Simple children's coloring page outline of the toy block in the attached picture: one chunky cube with rounded corners seen from a 3/4 angle, three visible faces, thick smooth black lines, plain white inside, white background, no color, no shading, no letters",
  "aspect": "1:1",
  "out": "web/assets/art/line_cube.png",
  "book": 4,
- "claimed_at": 1791623608.3947945,
- "regen": 1
+ "regen": 3,
+ "claimed_at": 1791641125.3376944
 }

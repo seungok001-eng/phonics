@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791639902.0008154,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 22:46",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b3",
@@ -16,8 +16,9 @@
  "id": "scene_b3_u07_3",
  "kind": "scene",
  "title": "3권 7유닛 장면 · 3",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie. Every other character on the sheet must NOT appear in this picture. Scene: The friends gather around the crib. A zigzag crack runs across the white egg and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Hedgie holds his paws together; Bun kneels. Hidden in the picture: the crack in the egg, the crib, the brush, the crab. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie. Every other character on the sheet must NOT appear in this picture. Scene: The friends gather around the crib. A zigzag crack runs across the white egg and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Hedgie holds his paws together; Bun kneels. Hidden in the picture: the crack in the egg, the crib, the brush, the crab. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small round hedgehog with BRIGHT ORANGE spikes (never brown), a peach-colored face and cream belly, standing on two legs, one tiny blue flower stuck in the spikes, curious cautious eyes.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_b3_u07_3.jpg",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791639890.342966
 }

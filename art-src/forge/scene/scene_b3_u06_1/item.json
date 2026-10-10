@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791639848.715554,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 22:46",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b3",
@@ -16,8 +16,10 @@
  "id": "scene_b3_u06_1",
  "kind": "scene",
  "title": "3권 6유닛 장면 · 1",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Pim & Pam. Every other character on the sheet must NOT appear in this picture. Scene: Morning. The forest path is blocked by a giant black wooden block, taller than Bun. Behind it, on a tree trunk, hangs a big round wall clock with dots instead of numbers, its two hands stopped. On the front of the black block the two letters b and l are carved — the ONLY text allowed in the picture. Bun pushes the block with all her might; Hedgie peeks around it; Pip, beak open, says the two letters in the wrong order and looks puzzled; Pim and Pam sit on top of the block. A small red-and-yellow flag sticks up from the top of the block. Hidden in the picture: the black block, the stopped clock, the flag. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Pim & Pam is two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Pim & Pam. Every other character on the sheet must NOT appear in this picture. Scene: Morning. The forest path is blocked by a giant black wooden block, taller than Bun. Behind it, on a tree trunk, hangs a big round wall clock with dots instead of numbers, its two hands stopped. On the front of the black block the two letters b and l are carved — the ONLY text allowed in the picture. Bun pushes the block with all her might; Hedgie peeks around it; Pip, beak open, says the two letters in the wrong order and looks puzzled; Pim and Pam sit on top of the block. A small red-and-yellow flag sticks up from the top of the block. Hidden in the picture: the black block, the stopped clock, the flag. Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small round hedgehog with BRIGHT ORANGE spikes (never brown), a peach-colored face and cream belly, standing on two legs, one tiny blue flower stuck in the spikes, curious cautious eyes. Pim & Pam is two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_b3_u06_1.jpg",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791639834.3024175,
+ "regen": 1
 }

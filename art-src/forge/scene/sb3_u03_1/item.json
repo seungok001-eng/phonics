@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791634786.398265,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/5741a3c3-71d7-45dd-baeb-da70ee00dcb2?Expires=1791656374&KeyName=labs-flow-prod-cdn-key&Signature=696qQJd0_8wD1Xvom6wzcHEgs9w",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 21:46",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b3",
@@ -20,6 +20,6 @@
  "aspect": "4:3",
  "out": "web/assets/art/sb3_u03_1.jpg",
  "book": 3,
- "claimed_at": 1791629750.9025154,
- "regen": 1
+ "regen": 1,
+ "claimed_at": 1791634757.9527166
 }

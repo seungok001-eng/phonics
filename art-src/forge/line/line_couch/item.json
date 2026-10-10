@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791640256.081517,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 22:52",
  "gen": "",
  "job_type": "image",
  "reference": "word_couch",
@@ -20,5 +20,6 @@
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_couch.png",
- "book": 4
+ "book": 4,
+ "claimed_at": 1791640244.5913992
 }

@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791640760.6020389,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 23:02",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b4",
@@ -16,8 +16,9 @@
  "id": "scene_b4_u09_2",
  "kind": "scene",
  "title": "4권 9유닛 장면 · 2",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Bun, Hedgie, Beads, Fairy E. Every other character on the sheet must NOT appear in this picture. Scene: Fairy E flies up toward the dark cloud and touches two little sparkles together with her star wand; they melt into one big bright sparkle. As the friends read the word, the cloud puffs apart into little wisps and drifts away, and a big round glowing moon comes out, lighting the rooftop silver. Beads stands on the chimney clicking its beads; Bun and Hedgie cheer. A straw broom leans on the chimney. Hidden in the picture: the cloud, the moon, the broom. Grumble does NOT appear. No letters anywhere. Characters: Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads. Fairy E is a tiny palm-sized fairy glowing with soft golden light, a round rosy face with big sparkling eyes, short wavy lilac hair, a little dress made of pale-green leaf petals, two round see-through wings like soap bubbles, holding a thin wand tipped with a small yellow star, no letters or symbols drawn anywhere on her or her wand.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. One single continuous picture: never split it into panels, frames or a collage, and draw each character only once. No humans or human children anywhere in the picture; every creature is an animal (Fairy E is the only fairy). Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Bun, Hedgie, Beads, Fairy E. Every other character on the sheet must NOT appear in this picture. Scene: Fairy E flies up toward the dark cloud and touches two little sparkles together with her star wand; they melt into one big bright sparkle. As the friends read the word, the cloud puffs apart into little wisps and drifts away, and a big round glowing moon comes out, lighting the rooftop silver. Beads stands on the chimney clicking its beads; Bun and Hedgie cheer. A straw broom leans on the chimney. Hidden in the picture: the cloud, the moon, the broom. Grumble does NOT appear. No letters anywhere. Characters: Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small round hedgehog with BRIGHT ORANGE spikes (never brown), a peach-colored face and cream belly, standing on two legs, one tiny blue flower stuck in the spikes, curious cautious eyes. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads. Fairy E is a tiny palm-sized fairy glowing with soft golden light, a round rosy face with big sparkling eyes, short wavy lilac hair, a little dress made of pale-green leaf petals, two round see-through wings like soap bubbles, holding a thin wand tipped with a small yellow star, no letters or symbols drawn anywhere on her or her wand.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_b4_u09_2.jpg",
- "book": 4
+ "book": 4,
+ "claimed_at": 1791640746.952717
 }

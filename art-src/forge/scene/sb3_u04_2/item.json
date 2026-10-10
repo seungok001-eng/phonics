@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791636042.9281375,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/c37e6681-4151-44c4-9d9b-50d91dfd3ff0?Expires=1791657615&KeyName=labs-flow-prod-cdn-key&Signature=YwdzZpkl_cfZVtzBrVDCEBapSSA",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 21:46",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b3",
@@ -16,8 +16,9 @@
  "id": "sb3_u04_2",
  "kind": "scene",
  "title": "3권 4유닛 스토리북 · 2쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Hedgie, Beads, Pim & Pam. Every other character on the sheet must NOT appear in this picture. Scene: The golden padlock has popped open and the little door stands open onto a tiny round room full of socks hanging on lines. Hedgie has turned one striped sock upside down and a gold ring with a blue gem drops into his paw, sparkling; Pim and Pam sit side by side on the door; Beads clicks its beads; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the ring, the duck. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.) Characters: Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads. Pim & Pam is two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Hedgie, Beads, Pim & Pam. Every other character on the sheet must NOT appear in this picture. Scene: The golden padlock has popped open and the little door stands open onto a tiny round room full of socks hanging on lines. Hedgie has turned one striped sock upside down and a gold ring with a blue gem drops into his paw, sparkling; Pim and Pam sit side by side on the door; Beads clicks its beads; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the ring, the duck. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.) Characters: Hedgie is a small round hedgehog with BRIGHT ORANGE spikes (never brown), a peach-colored face and cream belly, standing on two legs, one tiny blue flower stuck in the spikes, curious cautious eyes. Beads is a small friendly caterpillar whose body is a string of five round beads in rainbow colors (red, orange, yellow, green, blue), big round sparkling eyes, two tiny antennae tipped with little beads, a cheerful open smile, no letters on the beads. Pim & Pam is two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere.",
  "aspect": "4:3",
  "out": "web/assets/art/sb3_u04_2.jpg",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791635997.9581985
 }

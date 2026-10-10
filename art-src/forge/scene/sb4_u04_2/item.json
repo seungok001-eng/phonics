@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791640810.5983517,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 23:02",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b4",
@@ -16,8 +16,10 @@
  "id": "sb4_u04_2",
  "kind": "scene",
  "title": "4권 4유닛 스토리북 · 2쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Fairy E. Every other character on the sheet must NOT appear in this picture. Scene: Fairy E taps the tub and it twists into a long bendy green tube like a water slide; the water drains away and everyone slides through it, landing on a soft golden sand dune in a warm room with a painted desert sky, where a cute grey mule with long ears holds a silver flute. Grumble does NOT appear. No letters anywhere. Characters: Fairy E is a tiny palm-sized fairy glowing with soft golden light, a round rosy face with big sparkling eyes, short wavy lilac hair, a little dress made of pale-green leaf petals, two round see-through wings like soap bubbles, holding a thin wand tipped with a small yellow star, no letters or symbols drawn anywhere on her or her wand.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. One single continuous picture: never split it into panels, frames or a collage, and draw each character only once. No humans or human children anywhere in the picture; every creature is an animal (Fairy E is the only fairy). Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Fairy E. Every other character on the sheet must NOT appear in this picture. Scene: Fairy E taps the tub and it twists into a long bendy green tube like a water slide; the water drains away and everyone slides through it, landing on a soft golden sand dune in a warm room with a painted desert sky, where a cute grey mule with long ears holds a silver flute. Grumble does NOT appear. No letters anywhere. Characters: Fairy E is a tiny palm-sized fairy glowing with soft golden light, a round rosy face with big sparkling eyes, short wavy lilac hair, a little dress made of pale-green leaf petals, two round see-through wings like soap bubbles, holding a thin wand tipped with a small yellow star, no letters or symbols drawn anywhere on her or her wand.",
  "aspect": "4:3",
  "out": "web/assets/art/sb4_u04_2.jpg",
- "book": 4
+ "book": 4,
+ "regen": 2,
+ "claimed_at": 1791640799.001055
 }

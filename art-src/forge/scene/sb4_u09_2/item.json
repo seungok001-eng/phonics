@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791640784.598078,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 23:02",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b4",
@@ -16,8 +16,9 @@
  "id": "sb4_u09_2",
  "kind": "scene",
  "title": "4권 9유닛 스토리북 · 2쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Bun. Every other character on the sheet must NOT appear in this picture. Scene: The dark cloud puffs apart and a big round moon comes out, lighting the rooftop silver; the little mouse comes out of its house and opens its mouth to show a wobbly front tooth; Bun holds out a yellow rain boot for it; a straw broom sweeps the roof by itself. Grumble does NOT appear. No letters anywhere. Characters: Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. One single continuous picture: never split it into panels, frames or a collage, and draw each character only once. No humans or human children anywhere in the picture; every creature is an animal (Fairy E is the only fairy). Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Bun. Every other character on the sheet must NOT appear in this picture. Scene: The dark cloud puffs apart and a big round moon comes out, lighting the rooftop silver; the little mouse comes out of its house and opens its mouth to show a wobbly front tooth; Bun holds out a yellow rain boot for it; a straw broom sweeps the roof by itself. Grumble does NOT appear. No letters anywhere. Characters: Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile.",
  "aspect": "4:3",
  "out": "web/assets/art/sb4_u09_2.jpg",
- "book": 4
+ "book": 4,
+ "claimed_at": 1791640772.9725235
 }

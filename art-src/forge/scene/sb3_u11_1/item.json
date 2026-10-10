@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791640154.162893,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 22:51",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b3",
@@ -16,8 +16,9 @@
  "id": "sb3_u11_1",
  "kind": "scene",
  "title": "3권 11유닛 스토리북 · 1쪽",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Pim & Pam. Every other character on the sheet must NOT appear in this picture. Scene: A party in the glade behind the last door, under strings of little flags. A long table made of black wooden blocks holds a stack of pancakes, snacks and a whisk in a bowl; the chipmunks, the Duck King and his ducks, the crab with its drum, the chimp with its lamp, the moth and the baby bird sit around it. Bun points; Hedgie carries a tray; Pip sings on a flag string; Pim and Pam hang a garland together. Grumble does NOT appear — only his lantern light glows among the trees. Hidden in the picture: the flags, the blocks, the stack, the snack, the lamp, the whisk. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.) Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Pim & Pam is two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. One single continuous picture: never split it into panels, frames or a collage, and draw each character only once. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Pip, Bun, Hedgie, Pim & Pam. Every other character on the sheet must NOT appear in this picture. Scene: A party in the glade behind the last door, under strings of little flags. A long table made of black wooden blocks holds a stack of pancakes, snacks and a whisk in a bowl; the chipmunks, the Duck King and his ducks, the crab with its drum, the chimp with its lamp, the moth and the baby bird sit around it. Bun points; Hedgie carries a tray; Pip sings on a flag string; Pim and Pam hang a garland together. Grumble does NOT appear — only his lantern light glows among the trees. Hidden in the picture: the flags, the blocks, the stack, the snack, the lamp, the whisk. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.) Characters: Pip is a small round yellow baby songbird standing on tiny orange feet, big sparkling black eyes with rosy cheeks, a cowlick of three little feathers on top of the head, a cream-colored belly patch shaped like a musical note, short stubby wings held like little arms, a small orange beak closed shyly, wearing a single small green leaf tied around its neck like a scarf. Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small round hedgehog with BRIGHT ORANGE spikes (never brown), a peach-colored face and cream belly, standing on two legs, one tiny blue flower stuck in the spikes, curious cautious eyes. Pim & Pam is two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere.",
  "aspect": "4:3",
  "out": "web/assets/art/sb3_u11_1.jpg",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791640142.515149
 }

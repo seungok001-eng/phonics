@@ -1,14 +1,14 @@
 {
- "status": "pending",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791640035.4545133,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 22:48",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b3",
@@ -16,8 +16,9 @@
  "id": "scene_b3_u09_4",
  "kind": "scene",
  "title": "3권 9유닛 장면 · 4",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Bun, Hedgie, Grumble, Pim & Pam. Every other character on the sheet must NOT appear in this picture. Scene: Night. The chimp sits happily in a round nest high in a tree by the pond with its own little yellow lamp glowing beside it, and reaches down to hand the lantern back to Grumble. Grumble takes it, frowning but with a small smile, and pats the chimp's hand; Bun and Hedgie laugh; Pim and Pam sit on the rim of the nest. Tiny ants march along a branch; the potted plant sits by the tent. Hidden in the picture: the nest, the lamp, the chimp's hand, the plant, the ants. Characters: Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small hedgehog standing on two legs, soft spikes with one tiny flower stuck in them, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Pim & Pam is two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. One single continuous picture: never split it into panels, frames or a collage, and draw each character only once. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Bun, Hedgie, Grumble, Pim & Pam. Every other character on the sheet must NOT appear in this picture. Scene: Night. The chimp sits happily in a round nest high in a tree by the pond with its own little yellow lamp glowing beside it, and reaches down to hand the lantern back to Grumble. Grumble takes it, frowning but with a small smile, and pats the chimp's hand; Bun and Hedgie laugh; Pim and Pam sit on the rim of the nest. Tiny ants march along a branch; the potted plant sits by the tent. Hidden in the picture: the nest, the lamp, the chimp's hand, the plant, the ants. Characters: Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Hedgie is a small round hedgehog with BRIGHT ORANGE spikes (never brown), a peach-colored face and cream belly, standing on two legs, one tiny blue flower stuck in the spikes, curious cautious eyes. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers. Pim & Pam is two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere.",
  "aspect": "4:3",
  "out": "web/assets/art/scene_b3_u09_4.jpg",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791640020.4243586
 }
