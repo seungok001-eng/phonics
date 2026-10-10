@@ -1,9 +1,9 @@
 {
- "status": "failed",
+ "status": "pending",
  "raw": "",
  "cut": "",
- "attempts": 3,
- "error": "waiter 실패: Flow 응답 timeout (180000ms) — 네트워크 인터셉트 매칭 실패",
+ "attempts": 0,
+ "error": "",
  "updated": 0,
  "auto_approved": false,
  "flow_url": "",
@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_cube.png",
  "book": 4,
- "claimed_at": 1791623608.3947945
+ "claimed_at": 1791623608.3947945,
+ "regen": 1
 }

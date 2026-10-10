@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791626714.4864879,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/e7b2f520-1e64-4c92-8a55-893dd3dd28d7?Expires=1791648289&KeyName=labs-flow-prod-cdn-key&Signature=dC6vhQnhtSN9e0p0IgaD8agX9h0",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 19:17",
  "gen": "",
  "job_type": "image",
  "reference": "char_twins_ref",
@@ -21,5 +21,6 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described. The character: Pim & Pam, two tiny twin bluebirds always side by side, one with a small red feather tuft and one with a small yellow feather tuft, round sky-blue bodies with white bellies, big shiny black eyes, tiny orange beaks, their inner wingtips touching, drawn together as one pair, no letters anywhere. Pose: both fists raised in victory, laughing. SAME character as the attached reference image: identical face, hair, clothes and colors. Only the pose and expression change.",
  "aspect": "3:4",
  "out": "web/assets/art/char_twins_cheering.png",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791626673.3969433
 }

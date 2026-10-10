@@ -1,14 +1,14 @@
 {
- "status": "queued",
- "raw": "",
- "cut": "",
+ "status": "approved",
+ "raw": "raw.png",
+ "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 0,
+ "updated": 1791628080.6898,
  "auto_approved": false,
- "flow_url": "",
+ "flow_url": "https://flow-content.google/image/1dba573e-c994-427c-ba56-1eaba8bdb24c?Expires=1791649628&KeyName=labs-flow-prod-cdn-key&Signature=9Lo9T_b5mz323syZBWq6-cJBzA4",
  "prompt_edited": false,
- "applied": "",
+ "applied": "2026-10-10 20:00",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b3",
@@ -19,5 +19,6 @@
  "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. Full illustrated scene: the background is made of a few large flat color shapes (ground, bushes, sky) with a calm plain sky area near the top, characters large and clearly visible. No text, no letters. Do NOT draw any speech bubbles, thought bubbles or empty white balloons of any kind. Letter trees are ordinary round leafy trees with small fruits (like an orchard); never shape trees, clouds, paths or any object like letters of the alphabet. Full-page picture-book illustration. Use the attached character sheet ONLY to copy how the characters look. Draw ONLY these characters: Bun, Grumble. Every other character on the sheet must NOT appear in this picture. Scene: Everyone shares lunch on the long green bench with the three chipmunks; a chess game waits on a stump. Above, Grumble lets down a little basket on a string from his branch, peeking over with a hopeful face, and Bun drops a chip into it. As evening comes, a soft brown moth flutters toward Grumble's glowing lantern. Hidden in the picture: the bench, the chess board, the chopped log, the lunch box. Characters: Bun is a small white rabbit standing on two legs, one long ear flopped down, green rain boots, brave smile. Grumble is a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers.",
  "aspect": "4:3",
  "out": "web/assets/art/sb3_u02_3.jpg",
- "book": 3
+ "book": 3,
+ "claimed_at": 1791628010.8955095
 }
