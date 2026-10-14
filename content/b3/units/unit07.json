@@ -202,7 +202,7 @@
       },
       {
         "id": "scene_b3_u07_2",
-        "desc": "Pim and Pam say the two sounds together and the bricks of the little door hop apart one by one and stack themselves neatly beside the path, opening a gap in the wall. The crab, startled, plays a quick drumroll. Beads holds up three beads. Through the gap, under a leafy tree, stands a small wooden baby crib with a soft blue blanket, and in it lies a big white egg. Hidden in the picture: the bricks, the drum, the crib.",
+        "desc": "Pim and Pam say the two sounds together and the bricks of the little door hop apart one by one and stack themselves neatly beside the path, opening a gap in the wall. The crab, startled, plays a quick drumroll. Beads holds up three beads. Through the gap, under a leafy tree, stands a small wooden baby crib with a soft blue blanket, and in it lies a big white egg. Hidden in the picture: the bricks, the drum, the crib. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
         "hidden": [
           "brick",
           "drum",
@@ -287,7 +287,7 @@
       },
       {
         "id": "scene_b3_u07_4",
-        "desc": "A fluffy little grey baby bird has hatched and sits in the crib under the blue blanket, yawning. The crab lifts its claws to bang its drum in celebration — but Grumble has climbed down the tree and gently puts his paw on the drum, then hangs his glowing lantern on a branch over the crib like a soft night-light. Everyone smiles. Hidden in the picture: the drum, the crib, the pink dress on the washing line, the brush.",
+        "desc": "A fluffy little grey baby bird has hatched and sits in the crib under the blue blanket, yawning. The crab lifts its claws to bang its drum in celebration — but Grumble has climbed down the tree and gently puts his paw on the drum, then hangs his glowing lantern on a branch over the crib like a soft night-light. Everyone smiles. Hidden in the picture: the drum, the crib, the pink dress on the washing line, the brush. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
         "hidden": [
           "drum",
           "crib",
@@ -599,7 +599,7 @@
       },
       {
         "id": "sb3_u07_2",
-        "desc": "The bricks of the little door have hopped apart and stacked themselves beside the path. Through the gap, under a leafy tree, a big white egg lies in a small wooden baby crib with a blue blanket; a zigzag crack runs across it and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Bun kneels. Hidden in the picture: the bricks, the crib, the crack, the brush, the crab.",
+        "desc": "The bricks of the little door have hopped apart and stacked themselves beside the path. Through the gap, under a leafy tree, a big white egg lies in a small wooden baby crib with a blue blanket; a zigzag crack runs across it and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Bun kneels. Hidden in the picture: the bricks, the crib, the crack, the brush, the crab. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face; Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
         "lines": [
           {
             "who": "twins",
@@ -626,7 +626,7 @@
       },
       {
         "id": "sb3_u07_3",
-        "desc": "A fluffy little grey baby bird has hatched and yawns in the crib under the blue blanket; Grumble, who has climbed down the tree, gently holds the crab's drum still with one paw and hangs his glowing lantern over the crib like a night-light; everyone smiles. Nearby on a tree stump, a tall stack of colorful pancakes is steaming. Hidden in the picture: the drum, the crib, the dress on the line, the brush.",
+        "desc": "A fluffy little grey baby bird has hatched and yawns in the crib under the blue blanket; Grumble, who has climbed down the tree, gently holds the crab's drum still with one paw and hangs his glowing lantern over the crib like a night-light; everyone smiles. Nearby on a tree stump, a tall stack of colorful pancakes is steaming. Hidden in the picture: the drum, the crib, the dress on the line, the brush. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
         "lines": [
           {
             "who": "grumble",

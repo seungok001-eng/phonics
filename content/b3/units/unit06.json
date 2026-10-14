@@ -288,7 +288,7 @@
       },
       {
         "id": "scene_b3_u06_4",
-        "desc": "The clock ticks happily. The friends rest on the block step where the red-and-yellow flag waves; Hedgie flips a little pancake high in the air from a frying pan; up in the tree, Grumble, woken by the ticking, peeks down — and very softly claps his paws twice, then quickly hides his paws behind his back. Hidden in the picture: the flag, the flipping pancake, the clam, the black block.",
+        "desc": "The clock ticks happily. The friends rest on the block step where the red-and-yellow flag waves; Hedgie flips a little pancake high in the air from a frying pan; up in the tree, Grumble, woken by the ticking, peeks down — and very softly claps his paws twice, then quickly hides his paws behind his back. Hidden in the picture: the flag, the flipping pancake, the clam, the black block. Also clearly visible in the picture (each character only once): Bun the white rabbit in green boots, talking and pointing.",
         "hidden": [
           "flag",
           "flip",
@@ -574,7 +574,7 @@
     "pages": [
       {
         "id": "sb3_u06_1",
-        "desc": "Morning. A giant black wooden block, taller than Bun, blocks the forest path, with the two letters b and l carved on its front — the ONLY text allowed in the picture; a small red-and-yellow flag sticks up from its top. Behind it, a big round wall clock with dots instead of numbers hangs on a tree trunk, its hands stopped. Bun pushes the block with all her might; Pip says the two letters in the wrong order, puzzled; Pim and Pam sit on top. Hidden in the picture: the black block, the clock, the flag.",
+        "desc": "Morning. A giant black wooden block, taller than Bun, blocks the forest path, with the two letters b and l carved on its front — the ONLY text allowed in the picture; a small red-and-yellow flag sticks up from its top. Behind it, a big round wall clock with dots instead of numbers hangs on a tree trunk, its hands stopped. Bun pushes the block with all her might; Pip says the two letters in the wrong order, puzzled; Pim and Pam sit on top. Hidden in the picture: the black block, the clock, the flag. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
         "lines": [
           {
             "who": "bun",
@@ -601,7 +601,7 @@
       },
       {
         "id": "sb3_u06_2",
-        "desc": "The black block has slid aside as a little stair step and Bun has tumbled onto the grass. At the clock, above its face, a little round door with the two letters c and l carved on it (the ONLY text allowed) pops open as Pip, standing on the block step, says the word with a golden sparkle; the clock's hands move again; Bun and Hedgie clap, and a clam on a mossy rock opens and shuts its shell as if clapping; a paper clip holds a leaf to the clock. Hidden in the picture: the block, the clock, the clam, the clip, clapping paws.",
+        "desc": "The black block has slid aside as a little stair step and Bun has tumbled onto the grass. At the clock, above its face, a little round door with the two letters c and l carved on it (the ONLY text allowed) pops open as Pip, standing on the block step, says the word with a golden sparkle; the clock's hands move again; Bun and Hedgie clap, and a clam on a mossy rock opens and shuts its shell as if clapping; a paper clip holds a leaf to the clock. Hidden in the picture: the block, the clock, the clam, the clip, clapping paws. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
         "lines": [
           {
             "who": "twins",

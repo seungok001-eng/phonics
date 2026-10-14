@@ -138,7 +138,7 @@
       },
       {
         "id": "scene_u03_2",
-        "desc": "Same garden corner. Hedgie kneels and holds out a gift box wrapped in red paper with a yellow ribbon toward the goat; the goat's eyes go wide with delight and a LARGE glowing golden seed (as big as a plum) shoots out of its mouth into the air in the center of the picture with a big burst of sparkles — the seed is the brightest thing in the picture. Beside them Pip is trying its very best to say a sound but only hiccups: it bounces up with puffed feathers, little hiccup puffs around its head. Bun laughs and cups her paws to shout. Hidden in the picture: a brown hen pecking by the fence, a tiny ladybug-like insect on Bun's green boot. Grumble does NOT appear.",
+        "desc": "Same garden corner. Hedgie kneels and holds out a gift box wrapped in red paper with a yellow ribbon toward the goat; the goat's eyes go wide with delight and a LARGE glowing golden seed (as big as a plum) shoots out of its mouth into the air in the center of the picture with a big burst of sparkles — the seed is the brightest thing in the picture. Beside them Pip tries to say a sound but only hiccups. Pip is HICCUPPING, clearly not happy or smiling: Pip's body jerks up off the ground in a sudden jolt, its eyes are wide open in surprise, its cheeks are puffed out, one wing is pressed over its beak, there are short zig-zag jolt lines around its body and three small round bubbles popping up from its beak. Bun laughs and cups her paws to shout. Hidden in the picture: a brown hen pecking by the fence, a tiny ladybug-like insect on Bun's green boot. Grumble does NOT appear.",
         "hidden": [
           "gift",
           "hen",
@@ -505,7 +505,7 @@
       },
       {
         "id": "sb_u03_2",
-        "desc": "Hedgie holds out a red gift box with a yellow ribbon; the goat's eyes go wide and the seed pops back out of its mouth. Pip tries to say a sound but hiccups, bouncing up with puffed feathers and little hiccup puffs. A hen pecks by the fence; a chubby hippo lies in a muddy puddle nearby with a second seed on its head. Hidden in the picture: the gift, the hen, the hippo, a hammer in a toolbox. Grumble peeks from behind a bush: one acorn earmuff has fallen off and his lantern shows a small flame.",
+        "desc": "Hedgie holds out a red gift box with a yellow ribbon toward the goat; the goat's eyes go wide and a LARGE glowing golden seed (as big as a plum) shoots out of its mouth into the air with a burst of sparkles — the seed is the brightest thing in the picture. Pip tries to say a sound but only hiccups. Pip is HICCUPPING, clearly not happy or smiling: Pip's body jerks up off the ground in a sudden jolt, its eyes are wide open in surprise, its cheeks are puffed out, one wing is pressed over its beak, there are short zig-zag jolt lines around its body and three small round bubbles popping up from its beak. A hen pecks by the fence; a chubby hippo lies in a muddy puddle nearby with a second small seed on its head. Hidden in the picture: the gift, the hen, the hippo, a hammer in a toolbox. Grumble peeks from behind a bush: one acorn earmuff has fallen off and his lantern shows a small flame. Also clearly visible in the picture (each character only once): Bun the white rabbit in green boots, talking and pointing. The goat stands on four legs like a real goat.",
         "lines": [
           {
             "who": "hedgie",
@@ -537,7 +537,7 @@
       },
       {
         "id": "sb_u03_3",
-        "desc": "An icy corner with frost: a white igloo with a glowing seed on top, an ink bottle with a quill on an icy shelf, a tiny ladybug-like insect on the igloo. Three new letter trees (G, H, I with their fruits) stand behind Bun and Hedgie, who raise their arms. Grumble pops out of a dirt hole beside the igloo, both acorn caps fallen on the ground, paw at his mouth; his lantern glows with a small warm light, brighter than before.",
+        "desc": "An icy corner of the garden with snow: a white igloo with a glowing golden seed on its top. Bun and Hedgie cheer in front of the igloo; Pip flutters above them glowing. Three new round leafy fruit trees with round green crowns stand behind them (NOT shaped like letters, no letters anywhere). Grumble has popped out of a dirt hole in the snow: his two acorn-cap earmuffs have fallen onto the snow in front of him, and he presses both paws over his bare ears, wincing at the noise and shivering a little in the cold, while his lantern beside him now glows with a warm light. Hidden in the picture: an ink bottle on an icy shelf, a tiny ladybug-like insect on the igloo.",
         "lines": [
           {
             "who": "both",

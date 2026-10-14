@@ -271,7 +271,7 @@
       },
       {
         "id": "scene_b3_u09_3",
-        "desc": "The chimp hugs the lantern tightly and shakes its head — it is a little scared of the dark. Hedgie gently opens the treasure chest: inside are a small yellow lamp and a postage stamp with a red flower on it. Pip, beak open, points at the lamp; the chimp's eyes light up. Hidden in the picture: the chest, the lamp, the stamp, the chimp.",
+        "desc": "The chimp hugs the lantern tightly and shakes its head — it is a little scared of the dark. Hedgie gently opens the treasure chest: inside are a small yellow lamp and a postage stamp with a red flower on it. Pip, beak open, points at the lamp; the chimp's eyes light up. Hidden in the picture: the chest, the lamp, the stamp, the chimp. Also clearly visible in the picture (each character only once): Bun the white rabbit in green boots, talking and pointing.",
         "hidden": [
           "chest",
           "lamp",
@@ -632,7 +632,7 @@
       },
       {
         "id": "sb3_u09_2",
-        "desc": "The green tent's flap, stitched with the two letters n and t (the ONLY text allowed in the picture), has popped open. Inside, the chimp sits on a wooden treasure chest hugging the lantern; Hedgie has opened the chest and holds up a small yellow lamp and a postage stamp; Pip points at the lamp and the chimp's eyes light up; tiny ants march past a potted plant. Hidden in the picture: the tent, the ants, the plant, the chest, the lamp, the stamp.",
+        "desc": "The green tent's flap, stitched with the two letters n and t (the ONLY text allowed in the picture), has popped open. Inside, the chimp sits on a wooden treasure chest hugging the lantern; Hedgie has opened the chest and holds up a small yellow lamp and a postage stamp; Pip points at the lamp and the chimp's eyes light up; tiny ants march past a potted plant. Hidden in the picture: the tent, the ants, the plant, the chest, the lamp, the stamp. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
         "lines": [
           {
             "who": "twins",

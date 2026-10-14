@@ -18,7 +18,7 @@ function lettersBadge(unit) {
 }
 function avatar(who) {
   if (who === 'narrator') return `<span class="av" data-who="narrator">📖</span>`;
-  if (who === 'both') return `<span class="av" data-who="both">👧👦</span>`;
+  if (who === 'both') return `<span class="av both" data-who="both" title="번·헤지 함께"><img src="${artSrc('char_bun_ref')}" alt="Bun"><img src="${artSrc('char_hedgie_ref')}" alt="Hedgie"></span>`;   // 번과 헤지가 함께 말하는 줄: 두 얼굴을 반씩
   return `<span class="av ${ROLE.has(who) ? 'role' : ''}" data-who="${esc(who)}" onclick="roleTap(event,this)"><img src="${artSrc('char_' + who + '_ref')}" data-blink="${artSrc('char_' + who + '_blink')}" data-talk="${artSrc('char_' + who + '_talk')}" onerror="this.parentElement.classList.add('missing');this.replaceWith(document.createTextNode('${esc(App.book.characters[who]?.name || who)}'))"></span>`;
 }
 // 역할 읽기: 🎭 를 켜고 말풍선의 아바타(번·헤지·그럼블)를 누르면 "아이가 읽는 역할". 자동 읽기 때 그 줄은 소리 없이 말풍선만 켜지고 2.5초 기다린다.

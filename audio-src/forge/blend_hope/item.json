@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=hope | TYPE=word | IPA=hoʊp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/h/ ... /oʊ/ ... /p/ ... hope",
+   "voice": "",
+   "how": "upload",
+   "created": 1791973286.5182078,
+   "sec": 3.27,
+   "check": {
+    "transcript": "Oh",
+    "type": "word",
+    "ipa": "oʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh | TYPE=word | IPA=oʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-10 23:49",
+ "applied": "2026-10-14 19:21",
  "text_edited": false,
  "error": "",
  "unit": 3,

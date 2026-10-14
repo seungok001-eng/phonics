@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=hen | TYPE=word | IPA=hɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/h/ /e/ /n/ hen!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791973345.6538043,
+   "sec": 2.58,
+   "check": {
+    "transcript": "hen",
+    "type": "word",
+    "ipa": "hɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hen | TYPE=word | IPA=hɛn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 12:37",
+ "applied": "2026-10-14 19:22",
  "text_edited": false,
  "error": "",
  "unit": 3,

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Ah, hop. | TYPE=sentence | IPA=ɑː hɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "/h/ /ɑ/ /p/ hop!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1791973347.6587749,
+   "sec": 2.1,
+   "check": {
+    "transcript": "hop",
+    "type": "word",
+    "ipa": "h ɑ p",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hop | TYPE=word | IPA=h ɑ p | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 12:42",
+ "applied": "2026-10-14 19:23",
  "text_edited": false,
  "error": "",
  "unit": 9,

@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=pen | TYPE=word | IPA=pɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "h",
+   "voice": "",
+   "how": "upload",
+   "created": 1791973190.1338975,
+   "sec": 0.18,
+   "check": {
+    "transcript": "bath",
+    "type": "word",
+    "ipa": "bæθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bath | TYPE=word | IPA=bæθ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "h",
+   "voice": "",
+   "how": "upload",
+   "created": 1791973192.2601824,
+   "sec": 0.35,
+   "check": {
+    "transcript": "h",
+    "type": "isolated-sound",
+    "ipa": "h",
+    "note": "extra vowel",
+    "raw": "TRANSCRIPT=h | TYPE=isolated-sound | IPA=h | NOTE=extra vowel"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-06 20:50",
+ "applied": "2026-10-14 19:19",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -48,5 +82,6 @@
  "text": "h",
  "voice": "Kore",
  "hint": "h as at the start of hen",
+ "book": 1,
  "busy": 0
 }

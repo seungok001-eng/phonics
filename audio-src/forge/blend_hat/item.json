@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=hat | TYPE=word | IPA=hæt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/h/ ... /æ/ ... /t/ ... hat",
+   "voice": "",
+   "how": "upload",
+   "created": 1791973223.845264,
+   "sec": 3.5,
+   "check": {
+    "transcript": "hat",
+    "type": "word",
+    "ipa": "hæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hat | TYPE=word | IPA=hæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-10 23:31",
+ "applied": "2026-10-14 19:20",
  "text_edited": false,
  "error": "",
  "unit": 1,

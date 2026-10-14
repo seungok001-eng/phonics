@@ -231,7 +231,7 @@ body.teacher .lp-tools .lp-msg { font-size: 26px; } body.teacher .lp-tools .lp-s
 .panel .bubbles { position: absolute; left: 10px; right: 10px; bottom: 8px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
 .bubble { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,.95); border: 2px solid var(--line); border-radius: 18px; padding: 4px 12px 4px 6px; font-size: 20px; font-weight: 700; cursor: pointer; max-width: 92%; }
 .bubble.right { align-self: flex-end; }
-.bubble .av { width: 40px; height: 40px; border-radius: 50%; background: var(--cream); overflow: hidden; display: inline-flex; align-items: center; justify-content: center; }
+.bubble .av { width: 40px; height: 40px; border-radius: 50%; background: #EEF5FF; border: 1px solid var(--line); overflow: hidden; display: inline-flex; align-items: center; justify-content: center; }
 .bubble .av img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .bubble .av.missing { font-size: 10px; }
 .bubble.hl { border-color: var(--orange); background: #FFF3E6; }
@@ -455,7 +455,7 @@ body.print .panel .scene img, body.print .stage-pic .pic img { animation: none !
 .rc-cell .u { position: absolute; left: 6px; top: 6px; background: var(--ink); color: #fff; font-family: 'Fredoka'; font-size: 11px; border-radius: 8px; padding: 0 6px; z-index: 1; }
 .rc-cell > .pic { width: 100%; aspect-ratio: 4 / 3; border-radius: 8px; } .rc-cell > .pic img { width: 100%; height: 100%; object-fit: contain; }
 .rc-cell .ln { display: flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; line-height: 1.2; }
-.rc-cell .ln .av { width: 22px; height: 22px; border-radius: 50%; overflow: hidden; flex: none; font-size: 11px; display: inline-flex; align-items: center; justify-content: center; background: var(--cream); } .rc-cell .ln .av img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.rc-cell .ln .av { width: 22px; height: 22px; border-radius: 50%; overflow: hidden; flex: none; font-size: 11px; display: inline-flex; align-items: center; justify-content: center; background: #EEF5FF; border: 1px solid var(--line); } .rc-cell .ln .av img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .rc-cell.on, .rc-cell.hl { border-color: var(--orange); background: #FFF3E6; }
 /* 수료증 */
 .cert-form { display: flex; gap: 8px; align-items: center; }
@@ -638,7 +638,7 @@ body.print .page.story:not(.cover) { display: flex; flex-direction: column; }
 .page.story .band .txt { flex: 1; display: flex; flex-direction: column; gap: 2mm; min-width: 0; }
 .page.story .band .where { font-family: 'Fredoka'; font-size: 10px; color: var(--soft); }
 .page.story .line { display: flex; align-items: center; gap: 8px; font-family: 'Andika'; font-size: 19px; line-height: 1.2; }
-.page.story .line .av { width: 26px; height: 26px; border-radius: 50%; background: var(--cream); overflow: hidden; display: inline-flex; align-items: center; justify-content: center; flex: none; font-size: 14px; }
+.page.story .line .av { width: 26px; height: 26px; border-radius: 50%; background: #EEF5FF; border: 1px solid var(--line); overflow: hidden; display: inline-flex; align-items: center; justify-content: center; flex: none; font-size: 14px; }
 .page.story .line .av img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .page.story .task { align-self: flex-start; background: var(--yellow); border-radius: 10px; padding: 1px 10px; font-family: 'Andika'; font-size: 15px; font-weight: 700; margin-top: 1mm; }
 .page.story .task small { font-weight: 400; margin-left: 6px; font-size: 11px; }
@@ -809,3 +809,8 @@ body.print .t-check .write-row.w2.g4 .write-it.w2 .pic { height: 70px; }
 body.print .t-wb_review_words .match .it .pic { height: 46px; }
 /* 사이트워드 칩의 "복습" 꼬리표 (앞 권에서 배운 단어) */
 .swr { font-size: .55em; font-weight: 400; margin-left: 4px; padding: 0 4px; border: 1px solid currentColor; border-radius: 6px; vertical-align: middle; opacity: .75; }
+
+/* 번·헤지가 함께 말하는 줄의 얼굴: 두 얼굴을 반씩 (모든 아바타 크기에 맞춤) */
+.av.both { display: inline-flex !important; } .av.both img { width: 50% !important; height: 100% !important; object-fit: cover; object-position: center top; border-radius: 0 !important; }
+/* 아바타 얼굴 자리: 번은 귀가 길어 위를 자르면 귀만 보인다 → 얼굴 쪽으로 */
+.av[data-who="bun"] img, .av.both img[alt="Bun"] { object-position: center 30% !important; }

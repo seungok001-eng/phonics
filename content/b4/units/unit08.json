@@ -278,7 +278,7 @@
       },
       {
         "id": "scene_b4_u08_4",
-        "desc": "The far side of the moat: a warm little stone room with a crackling fire. Grumble, wrapped in a long coat over his robe, waits at the door holding out a yellow bowl piled with golden toast; his small drum sits by the fire with a big red ribbon bow on it. The friends step out of the boat rubbing their paws; the goat and the crow follow. Hidden in the picture: the toast, the bowl, the ribbon bow, the coat, the boat. No letters anywhere.",
+        "desc": "The far side of the moat: a warm little stone room with a crackling fire. Grumble, wrapped in a long coat over his robe, waits at the door holding out a yellow bowl piled with golden toast; his small drum sits by the fire with a big red ribbon bow on it. The friends step out of the boat rubbing their paws; the goat and the crow follow. Hidden in the picture: the toast, the bowl, the ribbon bow, the coat, the boat. No letters anywhere. Also clearly visible in the picture (each character only once): Pip the little yellow bird, fluttering close to the others.",
         "hidden": [
           "toast",
           "bowl",
@@ -592,7 +592,7 @@
       },
       {
         "id": "sb4_u08_2",
-        "desc": "A small red rowing boat has risen out of the moat; it glides slowly through the falling snow with Bun rowing, Hedgie in the middle, the goat at the front in a long red coat, the crow with a red ribbon bow, and Pip on the goat's head; a bar of soap bobs in the water. Grumble does NOT appear. No letters anywhere.",
+        "desc": "A small red rowing boat has risen out of the moat; it glides slowly through the falling snow with Bun rowing, Hedgie in the middle, the goat at the front in a long red coat, the crow with a red ribbon bow, and Pip on the goat's head; a bar of soap bobs in the water. Grumble does NOT appear. No letters anywhere. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
         "lines": [
           {
             "who": "beads",

@@ -203,7 +203,7 @@
       },
       {
         "id": "scene_b4_u02_2",
-        "desc": "Fairy E taps the end of the wooden sign on the door with her star wand: a sparkling letter e appears, so the sign reads k i t e — these four letters are the ONLY text allowed in the picture — and the white first-aid kit below unfolds into a bright red diamond kite with a long tail of bows, which leaps up into the wind. The green door swings open onto a castle garden with tall pine trees. Bun grabs the kite string with both paws, her red cape flying; Hedgie cheers; Pip flaps beside the kite. Hidden in the picture: the kite, the tall pine trees, the bike by the door. Grumble does NOT appear.",
+        "desc": "Fairy E taps the end of the wooden sign on the door with her star wand: a sparkling letter e appears, so the sign reads k i t e — these four letters are the ONLY text allowed in the picture — and the white first-aid kit below unfolds into a bright red diamond kite with a long tail of bows, which leaps up into the wind. The green door swings open onto a castle garden with tall pine trees. Bun grabs the kite string with both paws, her red cape flying; Hedgie cheers; Pip flaps beside the kite. Hidden in the picture: the kite, the tall pine trees, the bike by the door. Grumble does NOT appear. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
         "hidden": [
           "kite",
           "pine",
@@ -603,7 +603,7 @@
       },
       {
         "id": "sb4_u02_2",
-        "desc": "The castle garden of tall pine trees, seen through the open green door. The red diamond kite that was a first-aid kit a moment ago has been tugged by a gust to the very top of a tall pine; Bun climbs a red playground slide to reach it; Hedgie rides the red bike below; a frog dives into a fountain; a ripe pear hangs from a little tree; Fairy E twirls beside Pip. Grumble does NOT appear. No letters anywhere.",
+        "desc": "The castle garden of tall pine trees, seen through the open green door. The red diamond kite that was a first-aid kit a moment ago has been tugged by a gust to the very top of a tall pine; Bun climbs a red playground slide to reach it; Hedgie rides the red bike below; a frog dives into a fountain; a ripe pear hangs from a little tree; Fairy E twirls beside Pip. Grumble does NOT appear. No letters anywhere. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
         "lines": [
           {
             "who": "beads",

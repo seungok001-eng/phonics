@@ -201,7 +201,7 @@
       },
       {
         "id": "scene_b4_u04_2",
-        "desc": "Fairy E taps the end of the wooden sign on the wall with her star wand: a sparkling letter e appears, so it reads t u b e — these four letters are the ONLY text allowed in the picture — and the bathtub below stretches and twists into a long bendy green tube, like a giant water slide, that curves through the wall to the next room. The bubbly water drains away into it with a whoosh. The bear cub slides in first, laughing, hugging the red toy cube; Bun jumps in after it with her cape flying; Hedgie and Pip watch, amazed. Hidden in the picture: the green tube, the red cube, the cute cub. Grumble does NOT appear.",
+        "desc": "Fairy E taps the end of the wooden sign on the wall with her star wand: a sparkling letter e appears, so it reads t u b e — these four letters are the ONLY text allowed in the picture — and the bathtub below stretches and twists into a long bendy green tube, like a giant water slide, that curves through the wall to the next room. The bubbly water drains away into it with a whoosh. The bear cub slides in first, laughing, hugging the red toy cube; Bun jumps in after it with her cape flying; Hedgie and Pip watch, amazed. Hidden in the picture: the green tube, the red cube, the cute cub. Grumble does NOT appear. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
         "hidden": [
           "tube",
           "cube",
@@ -599,7 +599,7 @@
       },
       {
         "id": "sb4_u04_2",
-        "desc": "Fairy E taps the tub and it twists into a long bendy green tube like a water slide; the water drains away and everyone slides through it, landing on a soft golden sand dune in a warm room with a painted desert sky, where a cute grey mule with long ears holds a silver flute. Grumble does NOT appear. No letters anywhere.",
+        "desc": "Fairy E taps the tub and it twists into a long bendy green tube like a water slide; the water drains away and everyone slides through it, landing on a soft golden sand dune in a warm room with a painted desert sky, where a cute grey mule with long ears holds a silver flute. Grumble does NOT appear. No letters anywhere. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking; Hedgie the orange hedgehog, talking with a surprised happy face.",
         "lines": [
           {
             "who": "narrator",
