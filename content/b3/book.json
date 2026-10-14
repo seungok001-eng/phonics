@@ -667,7 +667,8 @@
         "tʃ",
         "ɑ",
         "p"
-      ]
+      ],
+      "abstract": true
     },
     "chess": {
       "ko": "체스",
@@ -731,7 +732,8 @@
         "θ",
         "ɪ",
         "n"
-      ]
+      ],
+      "abstract": true
     },
     "thumb": {
       "ko": "엄지",
@@ -971,7 +973,8 @@
         "kl",
         "æ",
         "p"
-      ]
+      ],
+      "abstract": true
     },
     "clam": {
       "ko": "조개",
@@ -1031,7 +1034,8 @@
         "fl",
         "ɪ",
         "p"
-      ]
+      ],
+      "abstract": true
     },
     "brick": {
       "ko": "벽돌",
@@ -1106,7 +1110,8 @@
         "kr",
         "æ",
         "k"
-      ]
+      ],
+      "abstract": true
     },
     "drum": {
       "ko": "북",
@@ -1166,7 +1171,8 @@
         "sn",
         "ɪ",
         "f"
-      ]
+      ],
+      "abstract": true
     },
     "stick": {
       "ko": "막대기",
@@ -1226,7 +1232,8 @@
         "sp",
         "ɪ",
         "l"
-      ]
+      ],
+      "abstract": true
     },
     "swim": {
       "ko": "헤엄치기",
@@ -1241,7 +1248,8 @@
         "sw",
         "ɪ",
         "m"
-      ]
+      ],
+      "abstract": true
     },
     "swing": {
       "ko": "그네",
@@ -1528,7 +1536,8 @@
         "kw",
         "ɪ",
         "k"
-      ]
+      ],
+      "abstract": true
     }
   },
   "sight_words": {

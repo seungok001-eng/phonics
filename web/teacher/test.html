@@ -316,7 +316,8 @@ function buildTest2(scope, level, set) {
   let cur = 0; const take = (n) => { const out = []; while (out.length < n) { out.push(pool[cur % pool.length]); cur++; } return out; };
   const usedText = [];   // 이 장에 나온 문장 — 그림 보고 단어 쓰기의 답이 문장 속에 보이면 안 된다
   const inText = (w) => usedText.some((t) => new RegExp('\\b' + w + '\\b', 'i').test(t));
-  const takeFresh = (n) => { const out = []; for (let g = 0; out.length < n && g < pool.length * 2; g++) { const w = pool[cur % pool.length]; cur++; if (!inText(w) && !out.includes(w)) out.push(w); } return out.length < n ? out.concat(take(n - out.length)) : out; };
+  const takeFresh = (n, ok = () => true) => { const out = []; for (let g = 0; out.length < n && g < pool.length * 2; g++) { const w = pool[cur % pool.length]; cur++; if (!inText(w) && !out.includes(w) && ok(w)) out.push(w); } return out.length < n ? out.concat(take(n - out.length)) : out; };
+  const concrete = (w) => !((BOOK.words || {})[w] || {}).abstract;   // 동사·형용사(abstract: true)는 그림만 보고 쓰는 문항에서 뺀다 (강아지 그림을 보고 fed 를 떠올릴 수 없다)
   const takeFams = (n) => { const out = []; for (let i = 0; i < n; i++) out.push(order[i % order.length]); return out; };
   const otherFams = (f, n, sd) => { let o = shuffle(fams.filter((x) => x !== f), sd).slice(0, n); if (o.length < n) { const rest = shuffle(Object.keys(BOOK.families).filter((x) => x !== f && !o.includes(x)), sd); rest.sort((a, b) => (famKind(a) === famKind(f) ? 0 : 1) - (famKind(b) === famKind(f) ? 0 : 1)); o = o.concat(rest.slice(0, n - o.length)); } return o; };   // 범위에 가족이 모자라면 같은 종류(마법 e 끼리 등)부터
   const otherWords = (w, n, sd, sameFam) => shuffle(words.filter((x) => x !== w && (sameFam ? famOf(x) === famOf(w) : famOf(x) !== famOf(w))), sd).slice(0, n);
@@ -342,7 +343,7 @@ function buildTest2(scope, level, set) {
     const opts = put(w, shuffle(ds, nx()), P());
     const base = (on) => `<div class="it rp"><span class="no">${no + 1}</span><div class="wd big">${esc(w)}</div><div class="opts pics">${opts.map((o, j) => `<span class="o ${on && o === w ? 'on' : ''}">${pb(o, 'sm')}<b>${'abc'[j]}</b></span>`).join('')}</div></div>`; return item(base(false), base(true), [famOf(w)]); }); };
   // 그림 보고 단어 쓰기 (4선)
-  const writeWord = (n) => takeFresh(n).map((w) => { const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="w4">${on ? `<span class="ans">${esc(w)}</span>` : ''}</div></div>`; return item(base(false), base(true), [famOf(w)]); });
+  const writeWord = (n) => takeFresh(n, concrete).map((w) => { const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="w4">${on ? `<span class="ans">${esc(w)}</span>` : ''}</div></div>`; return item(base(false), base(true), [famOf(w)]); });
   // 그림–단어 잇기
   const matchPicWord = (n) => { const ws = take(n), right = shuffleMatch(ws, nx());
     const html = (on) => `<div class="match"><div class="col l">${ws.map((w, i) => `<div class="mi"><span class="no">${no + i + 1}</span>${pb(w, 'sm')}${on ? `<span class="ak">→ ${esc(w)}</span>` : ''}<span class="dot"></span></div>`).join('')}</div><div class="col r">${right.map((w) => `<div class="mi"><span class="dot"></span><span class="wdm">${esc(w)}</span></div>`).join('')}</div></div>`;

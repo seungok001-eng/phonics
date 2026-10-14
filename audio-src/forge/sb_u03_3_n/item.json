@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=More seeds on the hippo and the igloo, grumbles lantern glows. | TYPE=sentence | IPA=mɔɹ sidz ɑn ðə hɪpoʊ ænd ði ɪglu, ɡɹʌmbəlz læntɚn ɡloʊz. | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A seed is on the igloo. Grumble's lantern glows.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791969933.251336,
+   "sec": 4.44,
+   "check": {
+    "transcript": "A seed is on the igloo, Grumble's lantern glows.",
+    "type": "sentence",
+    "ipa": "ə siːd ɪz ɒn ðiː ɪɡluː ˈɡrʌmbəlz ˈlæntən ɡləʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A seed is on the igloo, Grumble's lantern glows. | TYPE=sentence | IPA=ə siːd ɪz ɒn ðiː ɪɡluː ˈɡrʌmbəlz ˈlæntən ɡləʊz | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-14 17:44",
+ "applied": "2026-10-14 18:25",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -31,5 +48,6 @@
  "text": "A seed is on the igloo. Grumble's lantern glows.",
  "voice": "Kore",
  "who": "narrator",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

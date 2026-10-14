@@ -11,7 +11,7 @@
       "cube",
       "tube",
       "cute",
-      "huge",
+      "plume",
       "mule",
       "flute",
       "dune",
@@ -30,6 +30,10 @@
     {
       "from": "cut",
       "to": "cute"
+    },
+    {
+      "from": "plum",
+      "to": "plume"
     }
   ],
   "sight_words": [
@@ -38,10 +42,10 @@
   ],
   "objectives_ko": [
     "긴 모음 u 와 마법 e 를 알고, u_e 가 /juː/(cube) 또는 /uː/(flute) 소리를 내는 것을 안다",
-    "cub→cube 처럼 짝 단어 3쌍을 바꿔 읽는다",
+    "cub→cube 처럼 짝 단어 4쌍을 바꿔 읽는다",
     "u_e 단어 8개를 소리를 이어 읽고 그림과 잇고 쓴다",
     "사이트워드 use, June을 보고 읽고, 배운 단어로 된 문장 4개를 읽는다",
-    "※ 선생님 참고: u_e 는 소리가 둘이에요. cube·cute·mule·huge 는 \"유\"(글자 이름 U 와 같은 소리), tube·flute·dune·tune 은 \"우\"로 읽어요. 단어마다 바른 소리로 들려주고, 두 소리를 구별하라고 묻는 문항은 없어요. huge 의 g 는 j 소리(아직 배우지 않음)라 통째로 읽어 줘요."
+    "※ 선생님 참고: u_e 는 소리가 둘이에요. cube·cute·mule·huge 는 \"유\"(글자 이름 U 와 같은 소리), tube·flute·dune·tune 은 \"우\"로 읽어요. 단어마다 바른 소리로 들려주고, 두 소리를 구별하라고 묻는 문항은 없어요. huge 의 g 는 j 소리(아직 배우지 않음)라 통째로 읽어 줘요. plum→plume 의 pl 은 아직 배우지 않은 이어 소리예요(p 와 l 을 빠르게 이어서). plume 의 u_e 는 flute 처럼 /uː/ 소리예요."
   ],
   "lessons": [
     {
@@ -285,7 +289,7 @@
         "hidden": [
           "flute",
           "tune",
-          "huge",
+          "plume",
           "mule"
         ],
         "lines": [

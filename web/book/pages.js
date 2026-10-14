@@ -653,7 +653,7 @@ function pairPick(el) {
 PAGES.wb_review_words = (ctx) => {
   const rv = ctx.unit.review, ls = unitLetters(ctx.unit);
   if (B2()) {   // 2권부터: 그림 보고 단어 쓰기 8 + 단어–그림 잇기 5 (분류는 앞 쪽 wb_review_blend 에 있으니 다른 활동으로)
-    const ws = (rv.first_letter || rv.words || []).slice(0, 8);
+    const ws = (rv.first_letter || (rv.words || []).filter((w) => !(App.book.words[w] || {}).abstract)).slice(0, 8);   // 그림만 보고 쓰니 동사·형용사(abstract)는 빼고
     const used = new Set(ws.concat((rv.blend || []).map((it) => it.word), Object.values(rv.sort || {}).flat()));
     const mw = shuffle((rv.words || unitWords(ctx.unit)).filter((w) => !used.has(w)), 21 + ctx.u).slice(0, 5);
     return instr('C', 'Look and write.', '그림을 보고 단어를 써요 (화면에서는 빈 칸을 누르면 단어가 나와요)', '그림을 보고 단어를 써요') + `<div class="write-row w2 g4">${ws.map((w) => `<div class="write-it w2">${pic('word_' + w, '', w)}<div class="w4 click" onclick="this.innerHTML='<span class=ans>${esc(w)}</span>';Sound.unlock();Sound.play('word_${esc(w)}','${esc(w)}')"></div></div>`).join('')}</div>` +

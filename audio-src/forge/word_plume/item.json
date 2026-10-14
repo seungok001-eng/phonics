@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "plume",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791969629.9014518,
+   "sec": 1.2,
+   "check": {
+    "transcript": "plume",
+    "type": "word",
+    "ipa": "plum",
+    "note": "ok",
+    "raw": "TRANSCRIPT=plume | TYPE=word | IPA=plum | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 18:21",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_plume",
+ "sub": "word",
+ "title": "단어 plume · 깃털 장식",
+ "text": "plume",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

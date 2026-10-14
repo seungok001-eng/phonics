@@ -511,7 +511,8 @@
     "nap": {
       "ko": "낮잠",
       "desc": "a kitten curled up fast asleep on a round cushion, with a tiny snore bubble",
-      "family": "ap"
+      "family": "ap",
+      "abstract": true
     },
     "tap": {
       "ko": "수도꼭지",
@@ -536,7 +537,8 @@
     "wag": {
       "ko": "꼬리 흔들기",
       "desc": "a happy brown dog seen from behind wagging its tail, with motion lines",
-      "family": "ag"
+      "family": "ag",
+      "abstract": true
     },
     "net": {
       "ko": "그물",
@@ -551,7 +553,8 @@
     "wet": {
       "ko": "젖은",
       "desc": "a dripping wet puppy shaking off water drops",
-      "family": "et"
+      "family": "et",
+      "abstract": true
     },
     "jet": {
       "ko": "제트기",
@@ -591,12 +594,14 @@
     "red": {
       "ko": "빨강",
       "desc": "a big splash of red paint with a red paintbrush",
-      "family": "ed"
+      "family": "ed",
+      "abstract": true
     },
     "fed": {
       "ko": "먹이 주기",
       "desc": "a brown puppy happily eating from a full dog bowl",
-      "family": "ed"
+      "family": "ed",
+      "abstract": true
     },
     "leg": {
       "ko": "다리",
@@ -611,7 +616,8 @@
     "beg": {
       "ko": "조르기",
       "desc": "a puppy sitting up on its back legs with its front paws together, begging",
-      "family": "eg"
+      "family": "eg",
+      "abstract": true
     },
     "pig": {
       "ko": "돼지",
@@ -621,12 +627,14 @@
     "big": {
       "ko": "큰",
       "desc": "a big grey elephant standing next to a tiny mouse",
-      "family": "ig"
+      "family": "ig",
+      "abstract": true
     },
     "dig": {
       "ko": "파기",
       "desc": "a shovel digging a hole in the ground with dirt flying up",
-      "family": "ig"
+      "family": "ig",
+      "abstract": true
     },
     "wig": {
       "ko": "가발",
@@ -656,7 +664,8 @@
     "win": {
       "ko": "이기기",
       "desc": "a golden trophy cup with a star on it",
-      "family": "in"
+      "family": "in",
+      "abstract": true
     },
     "tin": {
       "ko": "양철통",
@@ -676,22 +685,26 @@
     "dip": {
       "ko": "찍어 먹는 소스",
       "desc": "a bowl of creamy dip with potato chips around it",
-      "family": "ip"
+      "family": "ip",
+      "abstract": true
     },
     "rip": {
       "ko": "찢어짐",
       "desc": "a sheet of paper torn in two with a jagged rip",
-      "family": "ip"
+      "family": "ip",
+      "abstract": true
     },
     "sit": {
       "ko": "앉다",
       "desc": "a brown dog sitting on a round mat",
-      "family": "it"
+      "family": "it",
+      "abstract": true
     },
     "hit": {
       "ko": "치다",
       "desc": "a baseball bat hitting a ball with motion lines",
-      "family": "it"
+      "family": "it",
+      "abstract": true
     },
     "kit": {
       "ko": "구급상자",
@@ -726,7 +739,8 @@
     "hot": {
       "ko": "뜨거운",
       "desc": "a big thermometer with its red line shooting up to the very top, a blazing orange sun behind it and wavy heat lines, no numbers or letters",
-      "family": "ot"
+      "family": "ot",
+      "abstract": true
     },
     "dot": {
       "ko": "점",
@@ -746,7 +760,8 @@
     "hop": {
       "ko": "깡충",
       "desc": "a grey rabbit hopping in the air with motion lines",
-      "family": "op"
+      "family": "op",
+      "abstract": true
     },
     "mop": {
       "ko": "대걸레",
@@ -756,7 +771,8 @@
     "pop": {
       "ko": "펑",
       "desc": "a red balloon bursting with a pop and little pieces flying",
-      "family": "op"
+      "family": "op",
+      "abstract": true
     },
     "box": {
       "ko": "상자",
@@ -781,7 +797,8 @@
     "hug": {
       "ko": "포옹",
       "desc": "a big teddy bear hugging a small teddy bear",
-      "family": "ug"
+      "family": "ug",
+      "abstract": true
     },
     "mug": {
       "ko": "머그컵",
@@ -801,7 +818,8 @@
     "run": {
       "ko": "달리기",
       "desc": "a pair of red running shoes with motion lines, nobody wearing them",
-      "family": "un"
+      "family": "un",
+      "abstract": true
     },
     "bun": {
       "ko": "빵",
@@ -811,7 +829,8 @@
     "fun": {
       "ko": "재미",
       "desc": "a pointy party hat with confetti and streamers",
-      "family": "un"
+      "family": "un",
+      "abstract": true
     },
     "cup": {
       "ko": "컵",
@@ -826,7 +845,8 @@
     "up": {
       "ko": "위",
       "desc": "one cartoon hand with the index finger pointing straight up toward a small sun in the sky, plain background, no arrow",
-      "family": "up"
+      "family": "up",
+      "abstract": true
     }
   },
   "sight_words": {

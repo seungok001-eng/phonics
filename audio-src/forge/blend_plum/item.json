@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/p/ ... /l/ ... /ʌ/ ... /m/ ... plum",
+   "voice": "",
+   "how": "upload",
+   "created": 1791969696.3712633,
+   "sec": 4.38,
+   "check": {
+    "transcript": "plum",
+    "type": "word",
+    "ipa": "plʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=plum | TYPE=word | IPA=plʌm | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 18:21",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "blend_plum",
+ "sub": "blend",
+ "title": "합치기 plum",
+ "text": "/p/ ... /l/ ... /ʌ/ ... /m/ ... plum",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

@@ -128,11 +128,12 @@
 - 시험지 생성기: 해시 난수(mulberry32) + 부분마다 정답 자리 고르게. 첫소리·끝소리 문항은 점수표의 따로 칸.
 - 정답 둘·그림 겹침 정리(hen/pen → net/hen, cap/cape → cape/cake, quack 과 duck 떼기, mug/cup, house/roof, tooth/mouth), cute → cube, hope → rope, "The dog can sit."
 - 그림 다시 그림(탑뷰): zipper·nose·six·vet·up·hot·mat·whip(휘핑크림) + 선 그림.
-- 그림 고르기 문항의 동사·형용사를 같은 가족 명사로 바꿈(남은 것: 2권 red·fed·beg·dip·rip, 3권 flip·quick 1문항씩 — 같은 가족에 그림 있는 명사가 없음).
+- 그림 고르기 문항의 동사·형용사를 같은 가족 명사로 바꿈. 같은 가족에 명사가 없는 red·fed·beg·dip·rip·flip·quick 은 그림이 분명해(빨간 물감·밥 먹는 강아지·조르는 강아지·소스·찢어진 종이·뒤집히는 팬케이크·달리는 치타) "단어를 읽고 그림 고르기"에는 남겨 둠.
+- 동사·형용사는 book.json `words[w].abstract: true` 로 표시(2권 20개·3권 9개·4권 13개) — **그림만 보고 쓰는 문항**(시험지 수준 3 "Look and write the word", 복습 워크북 그림 보고 쓰기의 기본 목록)에서는 뺀다. 워크북 Look and write 는 흐린 글자를 따라 쓰는 활동이라 그대로.
 
 **2. 파닉스 내용**
 - 3권 이어 소리(bl·st·-nd…)와 qu: "두 소리를 빠르게 이어요"로 — 학생책·슬라이드·수업안·가정통신문 모두.
-- 4권 u_e: 두 소리(cube /juː/, flute /uː/)로 가르침 — 타일·합치기 소리가 단어 소리를 따른다(flute·tube·tune·dune 은 oo 소리). hug→huge 등 짝 3개를 빼고 짝 3쌍으로.
+- 4권 u_e: 두 소리(cube /juː/, flute /uː/)로 가르침 — 타일·합치기 소리가 단어 소리를 따른다(flute·tube·tune·dune 은 oo 소리). hug→huge 는 빼고 짝은 다시 4쌍: i_e slid→slide, o_e glob→globe(있던 그림), u_e plum→plume(새 그림·소리, huge 자리를 plume 으로).
 - 빈칸: c/k 칸 14개 → 모음·가족 칸, rose 는 o_e, 3·4권 check.write 는 4개 중 3개 이상 가족 칸.
 - 사이트워드: 2권 no·for 추가, 앞 권에서 배운 말은 "복습" 꼬리표. th·who·oo·u_e·tr/sl/gl/pl 은 선생님 참고(수업안).
 - 어색한 문장 고침 + 새 사이트워드가 문장 쪽에 나오게(녹음 15개 새로).

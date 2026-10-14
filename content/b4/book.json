@@ -361,7 +361,7 @@
         "cube",
         "tube",
         "cute",
-        "huge",
+        "plume",
         "mule",
         "flute",
         "dune",
@@ -749,7 +749,8 @@
         "r",
         "aɪ",
         "p"
-      ]
+      ],
+      "abstract": true
     },
     "slide": {
       "ko": "미끄럼틀",
@@ -809,7 +810,8 @@
         "h",
         "aɪ",
         "d"
-      ]
+      ],
+      "abstract": true
     },
     "nine": {
       "ko": "9",
@@ -854,7 +856,8 @@
         "d",
         "aɪ",
         "v"
-      ]
+      ],
+      "abstract": true
     },
     "kit": {
       "ko": "구급상자",
@@ -896,7 +899,8 @@
         "r",
         "ɪ",
         "p"
-      ]
+      ],
+      "abstract": true
     },
     "slid": {
       "ko": "미끄러졌다",
@@ -910,7 +914,8 @@
         "sl",
         "ɪ",
         "d"
-      ]
+      ],
+      "abstract": true
     },
     "hope": {
       "ko": "바람(희망)",
@@ -925,7 +930,8 @@
         "h",
         "oʊ",
         "p"
-      ]
+      ],
+      "abstract": true
     },
     "note": {
       "ko": "쪽지",
@@ -1074,7 +1080,8 @@
         "h",
         "ɑ",
         "p"
-      ]
+      ],
+      "abstract": true
     },
     "not": {
       "ko": "~아니다",
@@ -1088,7 +1095,8 @@
         "n",
         "ɑ",
         "t"
-      ]
+      ],
+      "abstract": true
     },
     "rob": {
       "ko": "훔치다",
@@ -1102,7 +1110,8 @@
         "r",
         "ɑ",
         "b"
-      ]
+      ],
+      "abstract": true
     },
     "glob": {
       "ko": "덩어리",
@@ -1161,7 +1170,8 @@
         "k",
         "juː",
         "t"
-      ]
+      ],
+      "abstract": true
     },
     "huge": {
       "ko": "거대한",
@@ -1176,7 +1186,8 @@
         "h",
         "juː",
         "dʒ"
-      ]
+      ],
+      "abstract": true
     },
     "mule": {
       "ko": "노새",
@@ -1236,7 +1247,8 @@
         "t",
         "uː",
         "n"
-      ]
+      ],
+      "abstract": true
     },
     "cub": {
       "ko": "새끼 곰",
@@ -1278,7 +1290,8 @@
         "k",
         "ʌ",
         "t"
-      ]
+      ],
+      "abstract": true
     },
     "hug": {
       "ko": "포옹",
@@ -2033,6 +2046,39 @@
         "n",
         "d",
         "oʊ"
+      ]
+    },
+    "plum": {
+      "ko": "자두",
+      "desc": "one round shiny purple plum with a short brown stem and one green leaf",
+      "chunks": [
+        "p",
+        "l",
+        "u",
+        "m"
+      ],
+      "ipa": [
+        "p",
+        "l",
+        "ʌ",
+        "m"
+      ]
+    },
+    "plume": {
+      "ko": "깃털 장식",
+      "desc": "one big fluffy curly feather plume, bright purple and pink, standing up on its own like a decoration, no hat and no bird",
+      "family": "u_e",
+      "chunks": [
+        "p",
+        "l",
+        "u_e",
+        "m"
+      ],
+      "ipa": [
+        "p",
+        "l",
+        "uː",
+        "m"
       ]
     }
   },

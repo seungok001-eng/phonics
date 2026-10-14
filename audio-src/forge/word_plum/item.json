@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "plum",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791969627.2582622,
+   "sec": 0.96,
+   "check": {
+    "transcript": "plum",
+    "type": "word",
+    "ipa": "plʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=plum | TYPE=word | IPA=plʌm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 18:21",
+ "text_edited": false,
+ "error": "",
+ "unit": null,
+ "letter": null,
+ "id": "word_plum",
+ "sub": "word",
+ "title": "단어 plum · 자두",
+ "text": "plum",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}
