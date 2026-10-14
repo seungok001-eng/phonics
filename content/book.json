@@ -429,7 +429,7 @@
     },
     "exit": {
       "ko": "출구",
-      "desc": "a green exit sign over a door, with a white running-figure pictogram, no letters"
+      "desc": "a glowing green emergency exit sign with a white running stick-figure and a white arrow pointing to an open doorway, the sign drawn large; no letters or words"
     },
     "fan": {
       "ko": "선풍기",
@@ -437,7 +437,7 @@
     },
     "frog": {
       "ko": "개구리",
-      "desc": "a green frog sitting on a lily pad"
+      "desc": "a cute green frog sitting on a lily pad, two big round eyes both with black pupils, smiling"
     },
     "fork": {
       "ko": "포크",
@@ -477,7 +477,7 @@
     },
     "insect": {
       "ko": "곤충",
-      "desc": "a cute ladybug-like insect with six legs and antennae"
+      "desc": "a magnifying glass over a small group of different insects: an ant, a bee, a ladybug and a grasshopper, all clearly six-legged"
     },
     "jelly": {
       "ko": "젤리",
@@ -509,7 +509,7 @@
     },
     "leg": {
       "ko": "다리",
-      "desc": "a child's leg and foot in a striped sock, kicking"
+      "desc": "one cartoon child's leg from the knee down, bare skin with a plain white short sock and a red sneaker, shown from the side, nothing else"
     },
     "lock": {
       "ko": "자물쇠",
@@ -529,7 +529,7 @@
     },
     "nose": {
       "ko": "코",
-      "desc": "a simple smiling cartoon face where the nose is drawn very big and round in the center, with tiny dot eyes and a small mouth, so the big nose is clearly the main thing"
+      "desc": "a friendly cartoon child's face with normal open eyes with black pupils, smiling, and one finger touching the tip of the nose; a small soft glow only around the nose"
     },
     "net": {
       "ko": "그물",
@@ -537,7 +537,7 @@
     },
     "nine": {
       "ko": "9",
-      "desc": "nine colorful balloons in a bunch"
+      "desc": "nine shiny red balls arranged neatly in three rows of three, with the numeral 9 drawn large next to them (only the numeral, no words)"
     },
     "otter": {
       "ko": "수달",
@@ -545,7 +545,7 @@
     },
     "octopus": {
       "ko": "문어",
-      "desc": "a friendly purple octopus with eight curly arms"
+      "desc": "a cute purple octopus with exactly eight curly tentacles, big round eyes with black pupils, smiling"
     },
     "olive": {
       "ko": "올리브",
@@ -569,11 +569,11 @@
     },
     "quilt": {
       "ko": "누비이불",
-      "desc": "a patchwork quilt with colorful squares folded on a bed"
+      "desc": "a soft patchwork quilt with colorful squares, folded and shown on its own (no bed, no pillow)"
     },
     "quack": {
       "ko": "꽥",
-      "desc": "a duck with its beak wide open quacking loudly"
+      "desc": "a white duck with its beak wide open quacking loudly, with a big empty speech bubble and sound lines coming out of its beak"
     },
     "rocket": {
       "ko": "로켓",
@@ -625,7 +625,7 @@
     },
     "vet": {
       "ko": "수의사",
-      "desc": "an animal doctor: a kind owl veterinarian in a white doctor coat with a big stethoscope, listening to the heartbeat of a small puppy with a bandaged paw lying on a little exam table; the stethoscope and the puppy patient are big and clear"
+      "desc": "an owl veterinarian in a white coat with a stethoscope, with big round eyes with black pupils, gently examining a puppy with a bandaged paw on an exam table"
     },
     "vest": {
       "ko": "조끼",

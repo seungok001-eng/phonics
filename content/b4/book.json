@@ -815,7 +815,7 @@
     },
     "nine": {
       "ko": "9",
-      "desc": "nine colorful balloons in a bunch",
+      "desc": "nine shiny red balls arranged neatly in three rows of three, with the numeral 9 drawn large next to them (only the numeral, no words)",
       "family": "i_e",
       "chunks": [
         "n",
@@ -1010,7 +1010,7 @@
     },
     "nose": {
       "ko": "코",
-      "desc": "a simple smiling cartoon face where the nose is drawn very big and round in the center, with tiny dot eyes and a small mouth, so the big nose is clearly the main thing",
+      "desc": "a friendly cartoon child's face with normal open eyes with black pupils, smiling, and one finger touching the tip of the nose; a small soft glow only around the nose",
       "family": "o_e",
       "chunks": [
         "n",

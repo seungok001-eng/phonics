@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791359321.6427455,
+ "updated": 1791974275.8127112,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/2590f1d2-9f7b-4d39-aaa9-942e040aa1fe?Expires=1791380884&KeyName=labs-flow-prod-cdn-key&Signature=e5z9X3ez3Czhao0Rv7t7gS8C7KU",
  "prompt_edited": false,
- "applied": "2026-10-07 16:53",
+ "applied": "2026-10-14 19:41",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,11 @@
  "kind": "word",
  "word": "leg",
  "title": "leg · 다리",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a child's leg and foot in a striped sock, kicking.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: one cartoon child's leg from the knee down, bare skin with a plain white short sock and a red sneaker, shown from the side, nothing else.",
  "aspect": "1:1",
  "out": "web/assets/art/word_leg.png",
  "book": 1,
  "asset_no": 2034,
- "claimed_at": 1791359278.3912036
+ "claimed_at": 1791974254.300663,
+ "regen": 1
 }

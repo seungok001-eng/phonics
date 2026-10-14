@@ -1478,7 +1478,7 @@
     },
     "quilt": {
       "ko": "누비이불",
-      "desc": "a patchwork quilt with colorful squares folded on a bed",
+      "desc": "a soft patchwork quilt with colorful squares, folded and shown on its own (no bed, no pillow)",
       "family": "qu",
       "chunks": [
         "qu",
@@ -1495,7 +1495,7 @@
     },
     "quack": {
       "ko": "꽥",
-      "desc": "a duck with its beak wide open quacking loudly",
+      "desc": "a white duck with its beak wide open quacking loudly, with a big empty speech bubble and sound lines coming out of its beak",
       "family": "qu",
       "chunks": [
         "qu",

@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791357445.7317023,
+ "updated": 1791974249.382158,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/a19793f5-ecfc-4963-acf6-207c212676ea?Expires=1791379018&KeyName=labs-flow-prod-cdn-key&Signature=4T_x7dRZlTsXBI027ygRcUOfe_E",
  "prompt_edited": false,
- "applied": "2026-10-07 16:19",
+ "applied": "2026-10-14 19:41",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,11 @@
  "kind": "word",
  "word": "exit",
  "title": "exit · 출구",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. The object: a green exit sign over a door, with a white running-figure pictogram, no letters.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a glowing green emergency exit sign with a white running stick-figure and a white arrow pointing to an open doorway, the sign drawn large; no letters or words.",
  "aspect": "1:1",
  "out": "web/assets/art/word_exit.png",
  "book": 1,
  "asset_no": 2012,
- "claimed_at": 1791357413.3867373
+ "claimed_at": 1791974222.2797778,
+ "regen": 1
 }
