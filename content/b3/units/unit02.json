@@ -138,7 +138,7 @@
   ],
   "story": {
     "title": "Lunch on the Bench",
-    "bgm": "bgm_silly",
+    "bgm": "bgm_b3_silly",
     "panels": [
       {
         "id": "scene_b3_u02_1",

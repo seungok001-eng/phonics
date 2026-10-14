@@ -89,6 +89,13 @@ pages: L1 `alphabet_song` `alphabet_path` `word_hunt` / wb `wb_review_letters`, 
 - 시리즈 수료증(4권 12유닛 `certificate.series: true, books: [1,2,3,4], music: "theme"`): 리본 "Pop! Phonics 1–4", 글자·가족 띠 대신 권 띠(books.json 의 권 부제), `music` 파일이 있으면 ♪ Pop! Phonics Song 단추(없으면 숨김).
 - 12유닛 단어 노래(2권부터)는 줄을 두 단 그대로(알파벳 노래만 27줄째부터 가운데, `.song.abc`).
 
+## 장면 해설 한 줄 (narr, 2026-10-13)
+사용자: "스토리 그림만 봐서는 무슨 내용인지 선생님도 아이도 모른다" → 장면마다 해설 한 줄.
+- 데이터: `story.panels[].narr` · `storybook.pages[].narr` · book.json `storybook.front/back[].narr` = `{"text": 쉬운 영어 한 줄, "ko": 우리말, "audio": "<그림 id>_n"}`. 듣기용이라 아직 안 배운 단어가 들어가도 된다. 공방은 who=narrator(어른 목소리, 제미나이)로 녹음한다(plan.py).
+- 웹: `narrHtml(pn, idx, cls)` · `narrItem(pn, idx)`(pages.js). 학생책 스토리 쪽은 그림 위에, 선생님 슬라이드는 그림 바로 아래 큰 자막(`.narr.big`), 스토리북은 글 띠 맨 위, 인쇄(학생책·스토리북)에도 영어+우리말로 나온다. ▶ 를 누르면 해설을 먼저 읽고 대사.
+- **이야기 한눈에** 슬라이드: 해설이 있는 유닛은 스토리 첫 쪽(half 1) 앞에 한 장 — 장면 썸네일 4칸 + 칸마다 우리말 해설 + 줄거리(synopsis_ko) + 지난/이번 이야기 띠. ▶ Story in pictures = 해설을 차례로 읽으며 칸에 불(`glancePlay`). 읽기 전에 그림으로 이야기를 짚는 단계.
+- 스토리북 💬 우리말은 이제 기본 켬(`pp_ko_sb` 가 '0' 일 때만 끔).
+
 ## 스토리북 (`story.html` · `print.html?b=story`)
 데이터: book.json `"storybook": {"title", "title_ko", "bgm"(선택, 없으면 bgm_bright), "cover": {id, desc}, "front": [{id, desc, lines}], "back": [...]}` + 유닛 JSON `"storybook": {"pages": [{"id": "sb_u01_1", "desc", "lines": [{"who", "text", "audio"}], "task", "task_ko", "task_audio"(선택)}]}`. 쪽 순서 = 표지 → front → 0~11유닛 쪽 → back (`app.js storyPages()`).
 - 그림 `web/assets/art/<id>.jpg` (4:3, `sb_` 로 시작하면 jpg), 대사 소리 `web/assets/audio/<audio>.mp3`, 과제 소리 `task_audio` 또는 기본 `<쪽 id>_task` (없으면 합성 음성), 배경음악은 그 유닛 `story.bgm`, 표지·앞뒤 쪽은 `storybook.bgm`.

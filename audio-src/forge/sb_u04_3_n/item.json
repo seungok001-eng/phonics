@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A seed in the lemon. Then the key opens the gate!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892755.0800235,
+   "sec": 4.24,
+   "check": {
+    "transcript": "A seed in the lemon, then the key opens the gate.",
+    "type": "sentence",
+    "ipa": "əˈsiːdɪnðəˈlɛmən ðɛnðəˈkiːˈoʊpənzðəˈɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A seed in the lemon, then the key opens the gate. | TYPE=sentence | IPA=əˈsiːdɪnðəˈlɛmən ðɛnðəˈkiːˈoʊpənzðəˈɡeɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb_u04_3_n",
+ "sub": "line",
+ "title": "1권 4유닛 스토리북 해설 · 해설: A seed in the lemon. Then the key opens the gate!",
+ "text": "A seed in the lemon. Then the key opens the gate!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

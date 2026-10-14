@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Night in the garden. A monkey holds a seed.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892780.3057678,
+   "sec": 3.56,
+   "check": {
+    "transcript": "Night in the garden, a monkey holds a seed.",
+    "type": "sentence",
+    "ipa": "naɪt ɪn ðə ˈɡɑrdən, ə ˈmʌŋki hoʊldz ə sid.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Night in the garden, a monkey holds a seed. | TYPE=sentence | IPA=naɪt ɪn ðə ˈɡɑrdən, ə ˈmʌŋki hoʊldz ə sid. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_u06_1_n",
+ "sub": "line",
+ "title": "1권 6유닛 해설 · 해설: Night in the garden. A monkey holds a seed.",
+ "text": "Night in the garden. A monkey holds a seed.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

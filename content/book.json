@@ -934,7 +934,12 @@
             "ko": "핍과 소리 정원"
           }
         ],
-        "ko": "속표지. 빈 화분 위 핍이 떠 있는 씨앗을 올려다봐요."
+        "ko": "속표지. 빈 화분 위 핍이 떠 있는 씨앗을 올려다봐요.",
+        "narr": {
+          "text": "Can Pip find the song?",
+          "ko": "핍은 노래를 찾을 수 있을까요?",
+          "audio": "sb_front_1_n"
+        }
       },
       {
         "id": "sb_map",
@@ -953,7 +958,12 @@
             "ko": "화분이 스물여섯 개. 나무는 없어요!"
           }
         ],
-        "ko": "소리 정원 지도예요. 화분 스물여섯 개, 연못, 담장, 그럼블의 언덕이 있어요."
+        "ko": "소리 정원 지도예요. 화분 스물여섯 개, 연못, 담장, 그럼블의 언덕이 있어요.",
+        "narr": {
+          "text": "This is the Sound Garden. Twenty-six pots are empty.",
+          "ko": "소리 정원 지도예요. 화분 스물여섯 개가 비어 있어요.",
+          "audio": "sb_map_n"
+        }
       }
     ],
     "back": [
@@ -974,7 +984,12 @@
         "id": "sb_map_done",
         "desc": "The same hand-drawn map of the Sound Garden as before, but now every pot has grown into a small cheerful letter tree with fruit, blossoms cover the garden, a trail of little bird footprints runs along the whole path from the first door to the fence, and a tiny golden seed with a leaf is flying over the fence toward the blue pond. No letters or text anywhere.",
         "lines": [],
-        "ko": "발자국이 다 찍힌 지도. 화분이 다 나무가 되고 씨앗이 담장 너머로 날아가요."
+        "ko": "발자국이 다 찍힌 지도. 화분이 다 나무가 되고 씨앗이 담장 너머로 날아가요.",
+        "narr": {
+          "text": "Now every pot has a tree!",
+          "ko": "이제 화분마다 나무가 자랐어요!",
+          "audio": "sb_map_done_n"
+        }
       }
     ],
     "bgm": "bgm_bright"

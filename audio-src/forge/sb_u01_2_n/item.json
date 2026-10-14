@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Seeds on a bus and on a cat. Pop! Pop!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892692.4081748,
+   "sec": 4.64,
+   "check": {
+    "transcript": "Seeds on a bus. And on a cat. Pop. Pop.",
+    "type": "sentence",
+    "ipa": "ˈsidz ˈɑn ə ˈbəs ˈænd ˈɑn ə ˈkæt ˈpɑp ˈpɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Seeds on a bus. And on a cat. Pop. Pop. | TYPE=sentence | IPA=ˈsidz ˈɑn ə ˈbəs ˈænd ˈɑn ə ˈkæt ˈpɑp ˈpɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_2_n",
+ "sub": "line",
+ "title": "1권 1유닛 스토리북 해설 · 해설: Seeds on a bus and on a cat. Pop! Pop!",
+ "text": "Seeds on a bus and on a cat. Pop! Pop!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

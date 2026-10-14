@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Boom! Water shoots up, and a worm pops out!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892845.5815237,
+   "sec": 4.64,
+   "check": {
+    "transcript": "Boom! Water shoots up and a worm pops out.",
+    "type": "sentence",
+    "ipa": "ˈbum ˈwɔtər ˈʃuts ˈʌp ən ə ˈwɜrm ˈpɑps ˈaʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Boom! Water shoots up and a worm pops out. | TYPE=sentence | IPA=ˈbum ˈwɔtər ˈʃuts ˈʌp ən ə ˈwɜrm ˈpɑps ˈaʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_u09_2_n",
+ "sub": "line",
+ "title": "1권 9유닛 해설 · 해설: Boom! Water shoots up, and a worm pops out!",
+ "text": "Boom! Water shoots up, and a worm pops out!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

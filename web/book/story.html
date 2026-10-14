@@ -40,7 +40,7 @@ function render() {
   const title = pg.cover ? `<div class="cover-title"><small>${esc(App.book.series)} ${App.book.book}</small><h1>${esc(pg.title)}</h1></div>` : '';
   const where = typeof pg.u === 'number' ? `Unit ${pg.u} · ${esc(pg.title)}` : pg.u === 'cover' ? '' : esc(pg.title);
   $('pageArea').innerHTML = `<div class="sb-page ${pg.cover ? 'cover' : ''} kb${SB.i % 2}"><div class="art">${pic(pg.id, '', pg.desc || pg.title)}${title}<div class="edge l" onclick="sbGo(-1)"></div><div class="edge r" onclick="sbGo(1)"></div></div>
-    ${pg.cover ? '' : `<div class="band"><div class="where">${where}</div><div class="lines">${lines}</div>${pko}${task}</div>`}</div>`;
+    ${pg.cover ? '' : `<div class="band"><div class="where">${where}</div>${narrHtml(pg, 0)}<div class="lines">${lines}</div>${pko}${task}</div>`}</div>`;
   $('pageInfo').textContent = `${SB.i + 1} / ${n}`; $('btnPrev').disabled = SB.i <= 0; $('btnNext').disabled = SB.i >= n - 1;
   const q = new URLSearchParams(location.search); q.set('u', pg.u); q.set('p', pg.p); if (App.bk > 1) q.set('bk', App.bk); history.replaceState(null, '', '?' + q);
   document.querySelectorAll('#tocList a').forEach((a) => a.classList.toggle('on', +a.dataset.i === SB.i));
@@ -57,10 +57,11 @@ function setReadBtn() { $('btnRead').textContent = SB.auto ? '⏸ Stop' : '▶ R
 async function sbRead() {
   const my = ++SB.token, pg = SB.pages[SB.i];
   Sound.unlock(); Sound.bgm(pg.bgm);
-  const items = (pg.lines || []).map((ln, k) => {
+  const nar = pg.narr ? [{ id: pg.narr.audio, text: pg.narr.text, el: document.querySelector('.narr'), gap: 500, before: () => artReading(true), after: () => artReading(false) }] : [];   // 해설 먼저
+  const items = nar.concat((pg.lines || []).map((ln, k) => {
     const el = document.querySelector(`.line[data-line="${k}"]`);
     return { id: ln.audio, text: ln.text, el, gap: 650, before: () => { artReading(true); talking(el?.querySelector('img'), true); if (ln.sfx) Sound.sfx(ln.sfx); }, after: () => { artReading(false); talking(el?.querySelector('img'), false); } };
-  });
+  }));
   const ok = await playSeq(items);
   if (!ok || my !== SB.token) return;
   const t = document.querySelector('.task');
@@ -76,9 +77,9 @@ function tocBuild() {
   $('tocList').innerHTML = groups.map((g) => `<a data-i="${g.first}" onclick="sbJump(${g.first})">${pic(g.id, 'thumb', g.title)}<span class="t">${typeof g.u === 'number' ? `<b>Unit ${g.u}</b> ` : ''}${esc(g.title)}</span><span class="n">${g.n}쪽</span></a>`).join('');
 }
 function tocToggle(on) { const t = $('toc'); t.classList.toggle('off', on === undefined ? !t.classList.contains('off') : !on); }
-// 💬 우리말: 이 기기에 기억 (기본 끔)
-function sbKoApply() { let on = false; try { on = localStorage.getItem('pp_ko_sb') === '1'; } catch (e) {} document.body.classList.toggle('ko-on', on); $('btnKo').classList.toggle('on', on); }
-function sbKoToggle() { let on = false; try { on = localStorage.getItem('pp_ko_sb') !== '1'; localStorage.setItem('pp_ko_sb', on ? '1' : '0'); } catch (e) {} sbKoApply(); }
+// 💬 우리말: 이 기기에 기억 (기본 켬 — 그림만으로는 이야기를 알기 어렵다)
+function sbKoApply() { let on = true; try { on = localStorage.getItem('pp_ko_sb') !== '0'; } catch (e) {} document.body.classList.toggle('ko-on', on); $('btnKo').classList.toggle('on', on); }
+function sbKoToggle() { try { const on = localStorage.getItem('pp_ko_sb') === '0'; localStorage.setItem('pp_ko_sb', on ? '1' : '0'); } catch (e) {} sbKoApply(); }
 function toggleFull() { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); }
 function startApp() { Sound.unlock(); $('overlay').style.display = 'none'; }
 if (new URLSearchParams(location.search).get('nooverlay') === '1') $('overlay').style.display = 'none';

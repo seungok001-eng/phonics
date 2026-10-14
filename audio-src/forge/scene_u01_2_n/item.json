@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pop! An apple tree grows. The next seed is on the bus.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892680.2560012,
+   "sec": 5.2,
+   "check": {
+    "transcript": "Pop. An apple tree grows. The next seed is on the bus.",
+    "type": "sentence",
+    "ipa": "pɑp ən æpəl tɹi gɹoʊz ðə nɛkst sid ɪz ɑn ðə bəs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pop. An apple tree grows. The next seed is on the bus. | TYPE=sentence | IPA=pɑp ən æpəl tɹi gɹoʊz ðə nɛkst sid ɪz ɑn ðə bəs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_u01_2_n",
+ "sub": "line",
+ "title": "1권 1유닛 해설 · 해설: Pop! An apple tree grows. The next seed is on the bus.",
+ "text": "Pop! An apple tree grows. The next seed is on the bus.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

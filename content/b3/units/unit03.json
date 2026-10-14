@@ -136,7 +136,7 @@
   ],
   "story": {
     "title": "The Thin Path",
-    "bgm": "bgm_night",
+    "bgm": "bgm_b3_night",
     "panels": [
       {
         "id": "scene_b3_u03_1",

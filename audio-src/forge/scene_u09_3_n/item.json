@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "An owl vet helps the worm. Six boxes are nearby.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892844.6889784,
+   "sec": 4.6,
+   "check": {
+    "transcript": "An owl that helps the worm. Six boxes are nearby.",
+    "type": "sentence",
+    "ipa": "ən aʊl ðæt hɛlp̚s ðə wɝm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=An owl that helps the worm. Six boxes are nearby. | TYPE=sentence | IPA=ən aʊl ðæt hɛlp̚s ðə wɝm | sɪks bɑksɪz ɑɹ nɪɹbaɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_u09_3_n",
+ "sub": "line",
+ "title": "1권 9유닛 해설 · 해설: An owl vet helps the worm. Six boxes are nearby.",
+ "text": "An owl vet helps the worm. Six boxes are nearby.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

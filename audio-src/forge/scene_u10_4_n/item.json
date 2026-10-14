@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "All twenty-six trees bloom. Pip sings at last!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892870.2730398,
+   "sec": 4.56,
+   "check": {
+    "transcript": "All 26 trees bloom. Pip sings at last.",
+    "type": "sentence",
+    "ipa": "ɔːl ˈtwɛnti-sɪks triːz bluːm ˈpɪp sɪŋz æt læst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=All 26 trees bloom. Pip sings at last. | TYPE=sentence | IPA=ɔːl ˈtwɛnti-sɪks triːz bluːm ˈpɪp sɪŋz æt læst | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "All twenty-six trees bloom. Pip sings at last!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791947392.184032,
+   "sec": 4.72,
+   "check": {
+    "transcript": "All 26 trees bloom. Pip sings at last.",
+    "type": "sentence",
+    "ipa": "ɔːl tuːˈwɪntiˈsɪks triːz bluːm pɪp sɪŋz æt lɑːst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=All 26 trees bloom. Pip sings at last. | TYPE=sentence | IPA=ɔːl tuːˈwɪntiˈsɪks triːz bluːm pɪp sɪŋz æt lɑːst | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:12",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "scene_u10_4_n",
+ "sub": "line",
+ "title": "1권 10유닛 해설 · 해설: All twenty-six trees bloom. Pip sings at last!",
+ "text": "All twenty-six trees bloom. Pip sings at last!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

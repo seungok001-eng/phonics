@@ -140,6 +140,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // 차례로 들려주기: items = [{id, text, el}] — el 에 .playing 을 붙였다 뗀다. 중간에 다른 소리를 누르면 멈춘다.
 // it.wait = 소리 없이 그만큼(ms) 기다린다(역할 읽기: 아이가 읽는 줄). it.beat = 소리 길이와 상관없이 이 간격(ms)마다 다음으로(챈트 박자).
+// it.bar = 한 마디 길이(ms): 소리가 끝나면 다음 마디 첫 박까지 기다린다(반주 위 노래, 100 BPM 4박 = 2400).
 // it.music = 소리 대신 음악 파일(music/<이름>.mp3) 한 번 (없으면 바로 다음).
 let seqToken = 0;
 async function playSeq(items, gap = 450) {
@@ -153,6 +154,7 @@ async function playSeq(items, gap = 450) {
     if (it.el) { it.el.classList.remove('playing'); setTimeout(() => it.el.classList.remove('hl'), 200); }
     if (it.after) it.after();
     if (it.beat) { const left = it.beat - (performance.now() - t0); if (left > 0) await sleep(left); }
+    else if (it.bar) { const used = performance.now() - t0; await sleep(Math.max(1, Math.ceil((used + 150) / it.bar)) * it.bar - used); }   // 반주 위 노래: 다음 마디 첫 박에 맞춰 시작
     else await sleep(it.gap ?? gap);
   }
   return my === seqToken;

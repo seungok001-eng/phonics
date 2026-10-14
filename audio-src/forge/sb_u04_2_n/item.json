@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A seed is in the jelly. Pip jumps instead of talking.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892753.172859,
+   "sec": 4.8,
+   "check": {
+    "transcript": "A seed is in the jelly. Pip jumps instead of talking.",
+    "type": "sentence",
+    "ipa": "əˈsiːdɪzɪnðədʒɛliːpɪpˈdʒʌmpsɪnˈstɛdʌvˈtɔːkɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A seed is in the jelly. Pip jumps instead of talking. | TYPE=sentence | IPA=əˈsiːdɪzɪnðədʒɛliːpɪpˈdʒʌmpsɪnˈstɛdʌvˈtɔːkɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb_u04_2_n",
+ "sub": "line",
+ "title": "1권 4유닛 스토리북 해설 · 해설: A seed is in the jelly. Pip jumps instead of talking.",
+ "text": "A seed is in the jelly. Pip jumps instead of talking.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

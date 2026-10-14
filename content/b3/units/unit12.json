@@ -247,7 +247,7 @@
   "show": {
     "song": {
       "title": "Pip's Pair Song",
-      "bgm": "song_backing",
+      "bgm": "song_backing_b3",
       "lines": [
         {
           "text": "S and h! /ʃ/ /ʃ/ /ʃ/!",
@@ -651,7 +651,7 @@
   ],
   "story": {
     "title": "The Forest Show",
-    "bgm": "bgm_finale",
+    "bgm": "bgm_b3_finale",
     "panels": [
       {
         "id": "scene_b3_u12_1",

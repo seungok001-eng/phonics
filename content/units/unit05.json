@@ -330,7 +330,12 @@
             "en": "What did Pip do?",
             "ko": "핍이 뭘 했어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A morning walk past the new letter trees.",
+          "ko": "새로 자란 글자나무 사이로 아침 산책을 해요.",
+          "audio": "scene_u05_1_n"
+        }
       },
       {
         "id": "scene_u05_2",
@@ -372,7 +377,12 @@
             "en": "Where is Grumble?",
             "ko": "그럼블은 어디 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble put his hats on the trees!",
+          "ko": "그럼블이 나무마다 자기 모자를 씌워 놓았어요!",
+          "audio": "scene_u05_2_n"
+        }
       },
       {
         "id": "scene_u05_3",
@@ -415,7 +425,12 @@
             "en": "What is in the bag?",
             "ko": "가방 안에 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Say the letter names, and the hats pop off!",
+          "ko": "글자 이름을 말하자 모자가 펑펑 벗겨져요!",
+          "audio": "scene_u05_3_n"
+        }
       },
       {
         "id": "scene_u05_4",
@@ -451,7 +466,12 @@
             "en": "Who is waving?",
             "ko": "누가 손을 흔들어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble wears all his hats. He looks at the trees.",
+          "ko": "그럼블이 모자를 잔뜩 쓰고 나무들을 부럽게 바라봐요.",
+          "audio": "scene_u05_4_n"
+        }
       }
     ],
     "synopsis_ko": "친구들이 첫 번째 정원을 산책하며 나무 열두 그루를 세요. 그럼블은 나무마다 잠옷 모자를 씌웠지만 소리에 모자가 펑펑 벗겨졌어요. 굴 앞에서 그럼블이 부럽게 바라봐요.",
@@ -499,7 +519,12 @@
         ],
         "task": "Find a, b, c, d, e, f!",
         "task_ko": "a~f 나무를 찾아요",
-        "ko": "아침 산책이에요. A~F 나무를 지나요. 핍은 사과나무 아래서 에취!"
+        "ko": "아침 산책이에요. A~F 나무를 지나요. 핍은 사과나무 아래서 에취!",
+        "narr": {
+          "text": "A morning walk. Pip sneezes under the apple tree.",
+          "ko": "아침 산책이에요. 핍이 사과나무 아래서 에취!",
+          "audio": "sb_u05_1_n"
+        }
       },
       {
         "id": "sb_u05_2",
@@ -526,7 +551,12 @@
         ],
         "task": "Find g, h, i, j, k, l!",
         "task_ko": "g~l 나무를 찾아요",
-        "ko": "G~L 나무마다 그럼블의 줄무늬 잠옷 모자가 씌워져 있어요. 그럼블은 사다리 위에 있고, 헤지 가방엔 열쇠가 있어요."
+        "ko": "G~L 나무마다 그럼블의 줄무늬 잠옷 모자가 씌워져 있어요. 그럼블은 사다리 위에 있고, 헤지 가방엔 열쇠가 있어요.",
+        "narr": {
+          "text": "Grumble's hats are on the trees!",
+          "ko": "나무마다 그럼블의 모자가 씌워져 있어요!",
+          "audio": "sb_u05_2_n"
+        }
       },
       {
         "id": "sb_u05_3",
@@ -553,7 +583,12 @@
         ],
         "task": "Find Grumble's lantern!",
         "task_ko": "그럼블의 등불을 찾아요",
-        "ko": "모자가 다 벗겨졌어요. 굴 앞에서 모자를 탑처럼 쌓아 쓴 그럼블이 부럽게 바라봐요. 핍이 손을 흔들어요."
+        "ko": "모자가 다 벗겨졌어요. 굴 앞에서 모자를 탑처럼 쌓아 쓴 그럼블이 부럽게 바라봐요. 핍이 손을 흔들어요.",
+        "narr": {
+          "text": "The hats are off. Grumble looks sad.",
+          "ko": "모자가 다 벗겨졌어요. 그럼블은 쓸쓸해 보여요.",
+          "audio": "sb_u05_3_n"
+        }
       }
     ]
   }

@@ -21,9 +21,9 @@
   "cost": 14.249
  },
  "tts_usage": {
-  "count": 1951,
-  "tokens": 122927,
-  "checks": 3195
+  "count": 2037,
+  "tokens": 131712,
+  "checks": 3281
  },
  "el_usage": {
   "count": 1213,

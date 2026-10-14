@@ -61,3 +61,7 @@ body.storybook #top #pageInfo { color: var(--soft); font-size: 15px; white-space
 #tocList a .thumb.missing .ph { font-size: 10px; }
 #tocList a .t { flex: 1; font-size: 18px; } #tocList a .t b { font-family: 'Fredoka'; color: var(--orange); }
 #tocList a .n { color: var(--soft); font-size: 14px; }
+/* 해설 한 줄: 쪽 글 맨 위 (영어 + 우리말 항상 보임) */
+.sb-page .narr { padding: 8px 16px; border-left-width: 8px; border-radius: 14px; }
+.sb-page .narr .ne { font-size: max(30px, 3.2vmin); line-height: 1.25; }
+.sb-page .narr .nk { font-size: max(22px, 2.4vmin); }

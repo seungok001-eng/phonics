@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "At sunset, a seed flies over the wall.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892900.186176,
+   "sec": 3.36,
+   "check": {
+    "transcript": "At sunset, a seed flies over the wall.",
+    "type": "sentence",
+    "ipa": "æt ˈsʌn.sɛt ə siːd flaɪz ˈoʊ.vɚ ðə wɑːl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=At sunset, a seed flies over the wall. | TYPE=sentence | IPA=æt ˈsʌn.sɛt ə siːd flaɪz ˈoʊ.vɚ ðə wɑːl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb_u11_3_n",
+ "sub": "line",
+ "title": "1권 11유닛 스토리북 해설 · 해설: At sunset, a seed flies over the wall.",
+ "text": "At sunset, a seed flies over the wall.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Uncle Rabbit opens the door. Grumble's lantern shines.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892829.5205529,
+   "sec": 4.64,
+   "check": {
+    "transcript": "Uncle Rabbit opens the door. Crumble's lantern shines.",
+    "type": "sentence",
+    "ipa": "ˈʌŋkəl ˈræbɪt ˈoʊpənz ðə ˈdɔːr ˈkrʌmbəlz ˈlæntərn ˈʃaɪnz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Uncle Rabbit opens the door. Crumble's lantern shines. | TYPE=sentence | IPA=ˈʌŋkəl ˈræbɪt ˈoʊpənz ðə ˈdɔːr ˈkrʌmbəlz ˈlæntərn ˈʃaɪnz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_u08_4_n",
+ "sub": "line",
+ "title": "1권 8유닛 해설 · 해설: Uncle Rabbit opens the door. Grumble's lantern shines.",
+ "text": "Uncle Rabbit opens the door. Grumble's lantern shines.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The friends bring Grumble a gift and ask him to come.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892884.1511357,
+   "sec": 3.32,
+   "check": {
+    "transcript": "The friends bring Grumble a gift and ask him to come.",
+    "type": "sentence",
+    "ipa": "ðə fɹɛndz bɹɪŋ ɡɹʌmbəl ə ɡɪft ənd æsk hɪm tə kʌm.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The friends bring Grumble a gift and ask him to come. | TYPE=sentence | IPA=ðə fɹɛndz bɹɪŋ ɡɹʌmbəl ə ɡɪft ənd æsk hɪm tə kʌm. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_u11_2_n",
+ "sub": "line",
+ "title": "1권 11유닛 해설 · 해설: The friends bring Grumble a gift and ask him to come.",
+ "text": "The friends bring Grumble a gift and ask him to come.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

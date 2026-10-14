@@ -158,7 +158,7 @@
   ],
   "story": {
     "title": "A Kite in the Pine",
-    "bgm": "bgm_silly",
+    "bgm": "bgm_b4_silly",
     "panels": [
       {
         "id": "scene_b4_u02_1",

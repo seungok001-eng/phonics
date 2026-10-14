@@ -177,7 +177,7 @@
   ],
   "story": {
     "title": "The Chimp's Camp",
-    "bgm": "bgm_night",
+    "bgm": "bgm_b3_night",
     "panels": [
       {
         "id": "scene_b3_u09_1",

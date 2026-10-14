@@ -732,3 +732,11 @@ body.print .dg-card .dg-tiles { gap: 0; } body.print .dg-card .dg-tile { border-
 .me-plus { font-family: 'Andika'; font-size: 30px; font-weight: 700; color: var(--soft); white-space: nowrap; }
 body.print .me-row { grid-template-columns: 130px auto auto 1fr 130px; } body.print .me-plus.screen-hide { display: block !important; } body.print .me-pic.to { opacity: 1; }
 body.print .me-w4 { height: 56px; } body.print .me-letters { font-size: 48px; }
+
+/* ---------- 해설 한 줄 (narr: 장면에서 무슨 일인지 — 쉬운 영어 + 우리말, 누르면 어른 목소리) ---------- */
+.narr { display: flex; flex-direction: column; gap: 1px; background: #FFF4D6; border-left: 6px solid var(--orange); border-radius: 10px; padding: 5px 12px; cursor: pointer; }
+.narr .ne { font-family: 'Andika'; font-weight: 700; font-size: 17px; color: var(--ink); }
+.narr .nk { font-family: 'Malgun Gothic', sans-serif; font-size: 14px; color: #7A5A20; }
+.narr.hl, .narr.playing { background: #FFE39A; }
+.page.story .narr { background: rgba(255, 244, 214, .95); padding: 1.5mm 4mm; }
+.page.story .narr .ne { font-size: 18px; } .page.story .narr .nk { font-size: 12px; }

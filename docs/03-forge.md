@@ -93,3 +93,10 @@ web/assets/art/ audio/ video/   교재가 읽는 파일 (교재에 넣기)
 - **대본이 바뀐 대사·지시문**은 다시 읽을 때 승인을 풀고 교재 mp3 를 지운다(옛 이름 녹음 방지). 낱소리·글자 이름·사이트워드·합치기는 일부러 다른 대본을 쓰니 제외.
 - **플로우 다시 만들기**: reset 할 때마다 `regen` 이 늘고 잡 꼬리표가 "Job word_duck r2." 로 바뀐다(같은 꼬리표면 플로우가 예전 결과를 돌려준다). 플로우는 오류가 잦아 `max_inflight` 1.
 - **받아쓰기 검사**: 기본 검사 모델(flash-lite)은 짧은 낱소리가 섞인 대사를 잘 못 듣는다. 의심스러우면 `gemini-3.5-flash` 로 다시 확인.
+
+## 2026-10-13 탑뷰(TopView) API 로 그림 만들기
+- 사용자 결정: 남은·다시 그릴 그림은 **탑뷰 API 의 Nano Banana 2.1**(1K 한 장 0.25 크레딧).
+- 키: `art-src/forge/secrets.json` 에 `"topview_uid"`, `"topview_key"`(탑뷰 계정 → API 설정). 커밋 금지.
+- 쓰는 법: 설정 `generator: gemini`, `gemini_model: "topview:Nano Banana 2.1"`, `gemini_size: "1K"`. 모델 이름이 `topview:` 로 시작하면 `gemini_generate` 가 `topview_generate` 로 넘긴다(server.py).
+  - 참조 그림(캐스트 시트 등)이 있으면 `/v1/upload/credential` → PUT → `/v1/upload/check` 로 올리고(같은 그림은 한 번만), `/v1/common_task/image_edit/task/submit` 에 `inputImageFileIds`. 없으면 `text2image`. 4초마다 `.../task/query` 로 확인(최대 6분).
+  - 쓴 크레딧은 설정 `topview_usage {count, credits}`.

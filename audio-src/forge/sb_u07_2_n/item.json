@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "It is Grumble! The swan queen laughs.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892815.6025927,
+   "sec": 3.84,
+   "check": {
+    "transcript": "It is grumble, the Swan Queen laughs.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz ˈɡɹʌmbəl ðə swɑn kwiːn læfs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is grumble, the Swan Queen laughs. | TYPE=sentence | IPA=ɪt ɪz ˈɡɹʌmbəl ðə swɑn kwiːn læfs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb_u07_2_n",
+ "sub": "line",
+ "title": "1권 7유닛 스토리북 해설 · 해설: It is Grumble! The swan queen laughs.",
+ "text": "It is Grumble! The swan queen laughs.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

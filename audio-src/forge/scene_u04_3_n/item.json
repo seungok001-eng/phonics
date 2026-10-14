@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A lemon falls and splits. A seed is inside!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892744.827181,
+   "sec": 4.56,
+   "check": {
+    "transcript": "a lemon falls and splits a seed is inside",
+    "type": "sentence",
+    "ipa": "ə lɛmən fɔlz ænd splɪts ə sid ɪz ɪnsaɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a lemon falls and splits a seed is inside | TYPE=sentence | IPA=ə lɛmən fɔlz ænd splɪts ə sid ɪz ɪnsaɪd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_u04_3_n",
+ "sub": "line",
+ "title": "1권 4유닛 해설 · 해설: A lemon falls and splits. A seed is inside!",
+ "text": "A lemon falls and splits. A seed is inside!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

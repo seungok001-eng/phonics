@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A seed is in the zebra's zipper. Pip falls asleep.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892863.3147767,
+   "sec": 5.04,
+   "check": {
+    "transcript": "A seed is in the zebra zipper. Pip falls asleep.",
+    "type": "sentence",
+    "ipa": "ə siːd ɪz ɪn ðə ˈziːbrə ˈzɪpər pɪp fɔːlz əˈsliːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A seed is in the zebra zipper. Pip falls asleep. | TYPE=sentence | IPA=ə siːd ɪz ɪn ðə ˈziːbrə ˈzɪpər pɪp fɔːlz əˈsliːp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "scene_u10_2_n",
+ "sub": "line",
+ "title": "1권 10유닛 해설 · 해설: A seed is in the zebra's zipper. Pip falls asleep.",
+ "text": "A seed is in the zebra's zipper. Pip falls asleep.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

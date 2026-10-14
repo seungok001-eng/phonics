@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "One egg in the nest is gold. It is a seed!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892701.8198993,
+   "sec": 4.32,
+   "check": {
+    "transcript": "One egg in the nest is gold. It is a seed.",
+    "type": "sentence",
+    "ipa": "wʌn ɛɡ ɪn ðə nɛst ɪz ɡoʊld ɪt ɪz ə siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=One egg in the nest is gold. It is a seed. | TYPE=sentence | IPA=wʌn ɛɡ ɪn ðə nɛst ɪz ɡoʊld ɪt ɪz ə siːd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_u02_2_n",
+ "sub": "line",
+ "title": "1권 2유닛 해설 · 해설: One egg in the nest is gold. It is a seed!",
+ "text": "One egg in the nest is gold. It is a seed!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

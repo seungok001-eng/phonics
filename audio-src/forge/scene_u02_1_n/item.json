@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A seed is on the duck's back.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892699.0407777,
+   "sec": 2.36,
+   "check": {
+    "transcript": "A seed is on the duck's back.",
+    "type": "sentence",
+    "ipa": "əˈsiːdɪzɒndəˈdʌksbæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A seed is on the duck's back. | TYPE=sentence | IPA=əˈsiːdɪzɒndəˈdʌksbæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_u02_1_n",
+ "sub": "line",
+ "title": "1권 2유닛 해설 · 해설: A seed is on the duck's back.",
+ "text": "A seed is on the duck's back.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

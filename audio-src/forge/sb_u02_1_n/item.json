@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A seed rides on the duck. Grumble sneaks near.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892710.2496989,
+   "sec": 4.4,
+   "check": {
+    "transcript": "A seed rides on the duck. Grumble sneaks near.",
+    "type": "sentence",
+    "ipa": "əˈsid ˈraɪdz ɑn ðə ˈdʌk ˈɡrʌmbəl ˈsniks ˈnɪr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A seed rides on the duck. Grumble sneaks near. | TYPE=sentence | IPA=əˈsid ˈraɪdz ɑn ðə ˈdʌk ˈɡrʌmbəl ˈsniks ˈnɪr | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb_u02_1_n",
+ "sub": "line",
+ "title": "1권 2유닛 스토리북 해설 · 해설: A seed rides on the duck. Grumble sneaks near.",
+ "text": "A seed rides on the duck. Grumble sneaks near.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

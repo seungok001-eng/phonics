@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Another seed is on the hippo's head.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892723.3828833,
+   "sec": 3.32,
+   "check": {
+    "transcript": "Another seed is on the hippo's head.",
+    "type": "sentence",
+    "ipa": "əˈnʌðəɹ ˈsiːd ɪz ˈɑn ðə ˈhɪpoʊz ˈhɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Another seed is on the hippo's head. | TYPE=sentence | IPA=əˈnʌðəɹ ˈsiːd ɪz ˈɑn ðə ˈhɪpoʊz ˈhɛd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_u03_3_n",
+ "sub": "line",
+ "title": "1권 3유닛 해설 · 해설: Another seed is on the hippo's head.",
+ "text": "Another seed is on the hippo's head.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

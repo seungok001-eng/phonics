@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A seed is on the sleeping cat.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892683.789642,
+   "sec": 2.64,
+   "check": {
+    "transcript": "A seed is on the sleeping cat.",
+    "type": "sentence",
+    "ipa": "ə siːd ɪz ɒn ðə ˈsliːpɪŋ kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A seed is on the sleeping cat. | TYPE=sentence | IPA=ə siːd ɪz ɒn ðə ˈsliːpɪŋ kæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_u01_3_n",
+ "sub": "line",
+ "title": "1권 1유닛 해설 · 해설: A seed is on the sleeping cat.",
+ "text": "A seed is on the sleeping cat.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

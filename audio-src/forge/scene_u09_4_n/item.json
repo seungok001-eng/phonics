@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Three new trees! Grumble's lantern shines like a star.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892849.1669428,
+   "sec": 5.24,
+   "check": {
+    "transcript": "Three new trees. Grumble's lantern shines like a star.",
+    "type": "sentence",
+    "ipa": "θɹi nu tɹiz ˈgɹʌmbəlz ˈlæntəɹn ʃaɪnz laɪk eɪ stɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Three new trees. Grumble's lantern shines like a star. | TYPE=sentence | IPA=θɹi nu tɹiz ˈgɹʌmbəlz ˈlæntəɹn ʃaɪnz laɪk eɪ stɑɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_u09_4_n",
+ "sub": "line",
+ "title": "1권 9유닛 해설 · 해설: Three new trees! Grumble's lantern shines like a star.",
+ "text": "Three new trees! Grumble's lantern shines like a star.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

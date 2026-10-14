@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie gives a gift. The goat spits out the seed!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892721.9199858,
+   "sec": 4.48,
+   "check": {
+    "transcript": "Heggy gives a gift. The goat spits out the seed.",
+    "type": "sentence",
+    "ipa": "ˈhɛgi gɪvʌz ə gɪft. ðə goat spɪts aʊt ðə sid.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Heggy gives a gift. The goat spits out the seed. | TYPE=sentence | IPA=ˈhɛgi gɪvʌz ə gɪft. ðə goat spɪts aʊt ðə sid. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_u03_2_n",
+ "sub": "line",
+ "title": "1권 3유닛 해설 · 해설: Hedgie gives a gift. The goat spits out the seed!",
+ "text": "Hedgie gives a gift. The goat spits out the seed!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

@@ -269,7 +269,7 @@
   "show": {
     "song": {
       "title": "The Song Tree Song",
-      "bgm": "song_backing",
+      "bgm": "song_backing_b4",
       "lines": [
         {
           "text": "Add an e! Eee! Eee!",
@@ -661,7 +661,7 @@
   ],
   "story": {
     "title": "The Song Tree Show",
-    "bgm": "bgm_finale",
+    "bgm": "bgm_b4_finale",
     "panels": [
       {
         "id": "scene_b4_u12_1",

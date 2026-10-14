@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Night. A monkey holds a seed. Someone hides in a pot.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892792.5103903,
+   "sec": 5.04,
+   "check": {
+    "transcript": "night A monkey holds a seed Someone hides in a pot",
+    "type": "sentence",
+    "ipa": "naɪt eɪ ˈmʌŋki hoʊldz ə sid ˈsʌmwʌn haɪdz ɪn ə pɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=night A monkey holds a seed Someone hides in a pot | TYPE=sentence | IPA=naɪt eɪ ˈmʌŋki hoʊldz ə sid ˈsʌmwʌn haɪdz ɪn ə pɑt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb_u06_1_n",
+ "sub": "line",
+ "title": "1권 6유닛 스토리북 해설 · 해설: Night. A monkey holds a seed. Someone hides in a pot.",
+ "text": "Night. A monkey holds a seed. Someone hides in a pot.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

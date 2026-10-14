@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Splash! The friends pull Grumble out.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892713.7449121,
+   "sec": 3.44,
+   "check": {
+    "transcript": "Splash, the friends pool grumble out.",
+    "type": "sentence",
+    "ipa": "splæʃ ði fɹɛndz pul ˈgɹʌmbəl aʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Splash, the friends pool grumble out. | TYPE=sentence | IPA=splæʃ ði fɹɛndz pul ˈgɹʌmbəl aʊt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb_u02_3_n",
+ "sub": "line",
+ "title": "1권 2유닛 스토리북 해설 · 해설: Splash! The friends pull Grumble out.",
+ "text": "Splash! The friends pull Grumble out.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

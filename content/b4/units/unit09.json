@@ -146,7 +146,7 @@
   ],
   "story": {
     "title": "The Moon and the Mouse",
-    "bgm": "bgm_night",
+    "bgm": "bgm_b4_night",
     "panels": [
       {
         "id": "scene_b4_u09_1",

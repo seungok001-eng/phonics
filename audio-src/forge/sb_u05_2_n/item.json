@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble's hats are on the trees!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892772.617348,
+   "sec": 2.92,
+   "check": {
+    "transcript": "Grumble's hats are on the trees.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəlz ˈhæts ɑɹ ɑn ðə ˈtɹiz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble's hats are on the trees. | TYPE=sentence | IPA=ˈɡɹʌmbəlz ˈhæts ɑɹ ɑn ðə ˈtɹiz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb_u05_2_n",
+ "sub": "line",
+ "title": "1권 5유닛 스토리북 해설 · 해설: Grumble's hats are on the trees!",
+ "text": "Grumble's hats are on the trees!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

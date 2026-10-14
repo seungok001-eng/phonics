@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A yak licks yogurt. Grumble walks away alone.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892873.233322,
+   "sec": 4.56,
+   "check": {
+    "transcript": "A yak licks yogurt, grumble walks away alone.",
+    "type": "sentence",
+    "ipa": "ə jæk lɪks ˈjoʊɡərt, ˈɡrʌmbəl wɔks əˈweɪ əˈloʊn.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A yak licks yogurt, grumble walks away alone. | TYPE=sentence | IPA=ə jæk lɪks ˈjoʊɡərt, ˈɡrʌmbəl wɔks əˈweɪ əˈloʊn. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb_u10_1_n",
+ "sub": "line",
+ "title": "1권 10유닛 스토리북 해설 · 해설: A yak licks yogurt. Grumble walks away alone.",
+ "text": "A yak licks yogurt. Grumble walks away alone.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

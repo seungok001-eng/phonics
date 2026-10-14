@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "It rains. A seed is on top of the rocket.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892807.3754268,
+   "sec": 4.32,
+   "check": {
+    "transcript": "It rains. A seed is on top of the rocket.",
+    "type": "sentence",
+    "ipa": "ɪt ɹeɪnz ˈeɪ siːd ɪz ɑːn tɑːp əv ðə ˈɹɑːkɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It rains. A seed is on top of the rocket. | TYPE=sentence | IPA=ɪt ɹeɪnz ˈeɪ siːd ɪz ɑːn tɑːp əv ðə ˈɹɑːkɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_u07_3_n",
+ "sub": "line",
+ "title": "1권 7유닛 해설 · 해설: It rains. A seed is on top of the rocket.",
+ "text": "It rains. A seed is on top of the rocket.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "An otter and Pip are stuck in a net!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892783.6877065,
+   "sec": 3.2,
+   "check": {
+    "transcript": "An otter and pip are stuck in a net.",
+    "type": "sentence",
+    "ipa": "ən ˈɑtər ənd pɪp ɑr stʌk ɪn ə nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=An otter and pip are stuck in a net. | TYPE=sentence | IPA=ən ˈɑtər ənd pɪp ɑr stʌk ɪn ə nɛt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_u06_2_n",
+ "sub": "line",
+ "title": "1권 6유닛 해설 · 해설: An otter and Pip are stuck in a net!",
+ "text": "An otter and Pip are stuck in a net!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

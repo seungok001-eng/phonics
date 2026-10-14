@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The key opens the gate. Behind it is a night garden.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892746.508166,
+   "sec": 4.6,
+   "check": {
+    "transcript": "The key opens the gate. Behind it is a knight garden.",
+    "type": "sentence",
+    "ipa": "ðə ki oʊpnz ðə ɡeɪt. bəhaɪnd ɪt ɪz ə naɪt ɡɑːrdən.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The key opens the gate. Behind it is a knight garden. | TYPE=sentence | IPA=ðə ki oʊpnz ðə ɡeɪt. bəhaɪnd ɪt ɪz ə naɪt ɡɑːrdən. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_u04_4_n",
+ "sub": "line",
+ "title": "1권 4유닛 해설 · 해설: The key opens the gate. Behind it is a night garden.",
+ "text": "The key opens the gate. Behind it is a night garden.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

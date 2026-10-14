@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The sun is up. A seal races a turtle.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892820.2804954,
+   "sec": 3.2,
+   "check": {
+    "transcript": "The sun is up, a seal races a turtle.",
+    "type": "sentence",
+    "ipa": "ðə sʌn ɪz ʌp ə sil ˈreɪsɪz ə ˈtɜrtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The sun is up, a seal races a turtle. | TYPE=sentence | IPA=ðə sʌn ɪz ʌp ə sil ˈreɪsɪz ə ˈtɜrtəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_u08_1_n",
+ "sub": "line",
+ "title": "1권 8유닛 해설 · 해설: The sun is up. A seal races a turtle.",
+ "text": "The sun is up. A seal races a turtle.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

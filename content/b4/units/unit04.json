@@ -157,7 +157,7 @@
   ],
   "story": {
     "title": "A Cute Mule",
-    "bgm": "bgm_silly",
+    "bgm": "bgm_b4_silly",
     "panels": [
       {
         "id": "scene_b4_u04_1",

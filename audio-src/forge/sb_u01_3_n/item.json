@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Three trees grow. A raccoon hides behind them.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892694.5458653,
+   "sec": 3.96,
+   "check": {
+    "transcript": "Three trees grow. A raccoon hides behind them.",
+    "type": "sentence",
+    "ipa": "θriː triːz ɡɹoʊ ə ɹækuːn haɪdz bəhaɪnd ðəm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Three trees grow. A raccoon hides behind them. | TYPE=sentence | IPA=θriː triːz ɡɹoʊ ə ɹækuːn haɪdz bəhaɪnd ðəm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_3_n",
+ "sub": "line",
+ "title": "1권 1유닛 스토리북 해설 · 해설: Three trees grow. A raccoon hides behind them.",
+ "text": "Three trees grow. A raccoon hides behind them.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

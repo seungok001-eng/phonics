@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun runs to the last pot. Grumble comes back!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892866.849981,
+   "sec": 4.12,
+   "check": {
+    "transcript": "Bun runs to the last pot. Grumble comes back.",
+    "type": "sentence",
+    "ipa": "bʌn rʌnz tuː ðə læst pɑt ˈɡrʌmbəl kʌmz bæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun runs to the last pot. Grumble comes back. | TYPE=sentence | IPA=bʌn rʌnz tuː ðə læst pɑt ˈɡrʌmbəl kʌmz bæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "scene_u10_3_n",
+ "sub": "line",
+ "title": "1권 10유닛 해설 · 해설: Bun runs to the last pot. Grumble comes back!",
+ "text": "Bun runs to the last pot. Grumble comes back!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

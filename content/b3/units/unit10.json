@@ -145,7 +145,7 @@
   ],
   "story": {
     "title": "The Last Door",
-    "bgm": "bgm_finale",
+    "bgm": "bgm_b3_finale",
     "panels": [
       {
         "id": "scene_b3_u10_1",

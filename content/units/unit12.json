@@ -589,7 +589,12 @@
             "en": "Who is drumming?",
             "ko": "누가 북을 쳐?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The Alphabet Show! Pip sings, and Grumble plays the drum.",
+          "ko": "알파벳 쇼예요! 핍은 노래하고 그럼블은 북을 쳐요.",
+          "audio": "scene_u12_1_n"
+        }
       }
     ],
     "synopsis_ko": "꽃 무대에서 알파벳 쇼가 열려요. 핍이 노래하고 그럼블이 북을 치고 번과 헤지가 춤춰요. 스물여섯 글자나무가 빛나요.",

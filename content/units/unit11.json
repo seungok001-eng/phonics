@@ -331,7 +331,12 @@
             "en": "How many balloons?",
             "ko": "풍선이 몇 개야?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A party under the trees! Grumble is far away.",
+          "ko": "나무 아래 파티가 열렸어요! 그럼블은 아직 멀리 있어요.",
+          "audio": "scene_u11_1_n"
+        }
       },
       {
         "id": "scene_u11_2",
@@ -371,7 +376,12 @@
             "en": "How does Grumble feel?",
             "ko": "그럼블은 기분이 어때?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The friends bring Grumble a gift and ask him to come.",
+          "ko": "친구들이 그럼블에게 선물을 주고 파티에 초대해요.",
+          "audio": "scene_u11_2_n"
+        }
       },
       {
         "id": "scene_u11_3",
@@ -414,7 +424,12 @@
             "en": "What is Grumble doing?",
             "ko": "그럼블은 뭘 하고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The gift is a drum! Grumble plays, and everyone dances.",
+          "ko": "선물은 북이었어요! 그럼블이 북을 치고 모두 춤춰요.",
+          "audio": "scene_u11_3_n"
+        }
       },
       {
         "id": "scene_u11_4",
@@ -454,7 +469,12 @@
             "en": "What is beyond the fence?",
             "ko": "담장 너머엔 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "At sunset, a seed flies over the wall.",
+          "ko": "해질녘, 씨앗 하나가 담장 너머로 날아가요.",
+          "audio": "scene_u11_4_n"
+        }
       }
     ],
     "synopsis_ko": "정원 파티예요. 친구들이 그럼블에게 북을 선물하고 초대했어요. 그럼블이 \"나도 노래가 좋았어!\" 하고 북을 쳐요. 해질녘, 씨앗 하나가 담장 너머로 날아갔어요.",
@@ -502,11 +522,16 @@
         ],
         "task": "Find milk, soup, rice, yogurt!",
         "task_ko": "우유·수프·밥·요거트를 찾아요",
-        "ko": "정원 파티예요. 상 위에 우유, 수프, 밥, 요거트가 있어요. 풍선 아홉 개. 그럼블은 아직 언덕에 있어요."
+        "ko": "정원 파티예요. 상 위에 우유, 수프, 밥, 요거트가 있어요. 풍선 아홉 개. 그럼블은 아직 언덕에 있어요.",
+        "narr": {
+          "text": "A party under the trees! Grumble is far away.",
+          "ko": "나무 아래 파티예요! 그럼블은 아직 멀리 있어요.",
+          "audio": "sb_u11_1_n"
+        }
       },
       {
         "id": "sb_u11_2",
-        "desc": "Grumble's burrow. Grumble hugs his star-bright lantern in the mouth of his hole. Hedgie holds out a red gift box with a yellow ribbon; Bun points back at the party lanterns; Pip chirps a tiny golden note. Then, at the party: Grumble has opened the gift — a small drum — and beats it happily with two sticks in the middle of the lawn, nightcap bouncing, a big grin, his lantern hanging from a branch above like a star-lamp. Hidden in the picture: the gift box, the drum, a toy rocket by the hole.",
+        "desc": "Grumble's burrow at dusk. Grumble sits at the mouth of his hole with his star-bright lantern beside him; he has just opened a red gift box with a yellow ribbon, and inside it is a small red-and-yellow drum — he beats it with one stick, grinning in happy surprise. Hedgie and Bun stand in front of him cheering; Pip chirps a tiny golden note in the air. One single moment: each character appears only once. Hidden in the picture: the gift box, the drum, a toy rocket by the hole.",
         "lines": [
           {
             "who": "hedgie",
@@ -529,7 +554,12 @@
         ],
         "task": "Find the drum!",
         "task_ko": "북을 찾아요",
-        "ko": "그럼블에게 북을 선물하고 파티에 초대해요. 그럼블이 '나도 노래가 좋았어!' 하고 북을 둥둥 쳐요."
+        "ko": "그럼블에게 북을 선물하고 파티에 초대해요. 그럼블이 '나도 노래가 좋았어!' 하고 북을 둥둥 쳐요.",
+        "narr": {
+          "text": "A drum for Grumble! Now he is a friend.",
+          "ko": "그럼블에게 북을 선물해요! 이제 그럼블도 친구예요.",
+          "audio": "sb_u11_2_n"
+        }
       },
       {
         "id": "sb_u11_3",
@@ -556,7 +586,12 @@
         ],
         "task": "Find the seed!",
         "task_ko": "씨앗을 찾아요",
-        "ko": "해질녘, 씨앗 하나가 담장 너머 연못 쪽으로 날아가요. 모두 올려다봐요. 그다음은 어떻게 될까요?"
+        "ko": "해질녘, 씨앗 하나가 담장 너머 연못 쪽으로 날아가요. 모두 올려다봐요. 그다음은 어떻게 될까요?",
+        "narr": {
+          "text": "At sunset, a seed flies over the wall.",
+          "ko": "해질녘, 씨앗 하나가 담장 너머로 날아가요.",
+          "audio": "sb_u11_3_n"
+        }
       }
     ]
   }

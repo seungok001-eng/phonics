@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble put his hats on the trees!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892761.6507962,
+   "sec": 3.52,
+   "check": {
+    "transcript": "Grumble put his hats on the trees.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl pʊt hɪz hæts ɑn ðə tɹiz",
+    "note": "mispronounced trees as treez",
+    "raw": "TRANSCRIPT=Grumble put his hats on the trees. | TYPE=sentence | IPA=ˈɡɹʌmbəl pʊt hɪz hæts ɑn ðə tɹiz | NOTE=mispronounced trees as treez"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_u05_2_n",
+ "sub": "line",
+ "title": "1권 5유닛 해설 · 해설: Grumble put his hats on the trees!",
+ "text": "Grumble put his hats on the trees!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

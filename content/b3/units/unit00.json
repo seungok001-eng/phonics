@@ -34,7 +34,7 @@
   ],
   "story": {
     "title": "The Pair Forest",
-    "bgm": "bgm_adventure",
+    "bgm": "bgm_b3_adventure",
     "panels": [
       {
         "id": "scene_b3_u00_1",

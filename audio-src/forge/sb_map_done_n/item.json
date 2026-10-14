@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Now every pot has a tree!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892912.5319943,
+   "sec": 2.36,
+   "check": {
+    "transcript": "Now every pot has a tree.",
+    "type": "sentence",
+    "ipa": "naʊ ˈɛvri pɑt hæz ə tri",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Now every pot has a tree. | TYPE=sentence | IPA=naʊ ˈɛvri pɑt hæz ə tri | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_map_done_n",
+ "sub": "line",
+ "title": "1권 스토리북 해설 · 해설: Now every pot has a tree!",
+ "text": "Now every pot has a tree!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

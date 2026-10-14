@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Boom! Everyone flies up. A worm pops out!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892855.2931356,
+   "sec": 4.24,
+   "check": {
+    "transcript": "Boom. Everyone flies up, a worm pops out.",
+    "type": "sentence",
+    "ipa": "bʊm ˈɛvriwʌn flaɪz ʌp ə wɜːm pɒps aʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Boom. Everyone flies up, a worm pops out. | TYPE=sentence | IPA=bʊm ˈɛvriwʌn flaɪz ʌp ə wɜːm pɒps aʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb_u09_2_n",
+ "sub": "line",
+ "title": "1권 9유닛 스토리북 해설 · 해설: Boom! Everyone flies up. A worm pops out!",
+ "text": "Boom! Everyone flies up. A worm pops out!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

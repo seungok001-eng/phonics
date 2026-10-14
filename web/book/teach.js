@@ -237,21 +237,35 @@ function speedEnd() {
   Sound.sfx('chime'); Sound.play('instr_great_job', App.book.instructions.great_job);
 }
 // 스토리: 칸마다 한 장 (두 쪽에 걸친 4칸을 한 흐름으로)
+// 해설(narr)이 있는 유닛은 첫 쪽(half 1) 앞에 "이야기 한눈에" 한 장: 장면 썸네일 + 우리말 해설 + 줄거리 (읽기 전에 그림으로 이야기 짚기)
+function hasGlance(st) { return !!(st && st.panels && st.panels.some((pn) => pn.narr)); }
+function glanceSlide(ctx, s, n) {
+  const st = ctx.unit.story;
+  const cards = st.panels.map((pn, i) => `<div class="gl-card" data-gl="${i}"><div class="gl-pic">${pic(pn.id, '', 'scene')}<span class="no">${i + 1}</span></div><div class="gl-t">${esc((pn.narr && pn.narr.ko) || pn.ko || '')}</div></div>`).join('');
+  return tWrap(ctx, st.title, '이야기 한눈에: 읽기 전에 그림을 하나씩 짚으며 우리말로 무슨 일인지 먼저 이야기해요. ▶ 를 누르면 장면 해설을 차례로 들려줘요', s, n,
+    `${soFarHtml(ctx)}<div class="sl-glance"><div class="gl-head"><button class="btn orange big main-play" onclick="glancePlay()">▶ Story in pictures</button>${st.synopsis_ko ? `<div class="gl-syn">${esc(st.synopsis_ko)}</div>` : ''}</div><div class="gl-grid n${st.panels.length}">${cards}</div></div>`);
+}
+async function glancePlay() {
+  Sound.unlock(); const st = App.units[App.u].story; Sound.bgm(st.bgm);
+  await playSeq(st.panels.map((pn, i) => pn.narr && { id: pn.narr.audio, text: pn.narr.text, el: document.querySelector(`.gl-card[data-gl="${i}"]`), gap: 700 }).filter(Boolean));
+}
 TEACH.story = {
-  count: (ctx) => ctx.page.half === 2 ? ctx.unit.story.panels.length - 2 : Math.min(2, ctx.unit.story.panels.length),
-  render: (ctx, s) => {
-    const st = ctx.unit.story, base = ctx.page.half === 2 ? 2 : 0, idx = base + s, pn = st.panels[idx];
-    const n = TEACH.story.count(ctx);
+  count: (ctx) => ctx.page.half === 2 ? ctx.unit.story.panels.length - 2 : Math.min(2, ctx.unit.story.panels.length) + (hasGlance(ctx.unit.story) ? 1 : 0),
+  render: (ctx, s0) => {
+    const st = ctx.unit.story, glance = ctx.page.half !== 2 && hasGlance(st), n = TEACH.story.count(ctx);
+    if (glance && s0 === 0) return glanceSlide(ctx, s0, n);
+    const s = glance ? s0 - 1 : s0, base = ctx.page.half === 2 ? 2 : 0, idx = base + s, pn = st.panels[idx];
     const bubbles = pn.lines.map((ln, k) => `<div class="bubble say" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-panel="${idx}" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}${lineKo(ln, ctx)}</span></div>`).join('');
-    const sofar = idx === 0 ? soFarHtml(ctx) : '';   // 첫 칸 슬라이드에만 지난·이번 이야기 띠
+    const sofar = idx === 0 && !glance ? soFarHtml(ctx) : '';   // 첫 칸 슬라이드에만 지난·이번 이야기 띠 (한눈에 장이 있으면 거기에)
     const sw = idx === 0 && ctx.unit.sight_words.length ? `<div class="sw"><b>${esc(App.book.instructions.sight_words)}</b>${ctx.unit.sight_words.map((w) => `<span class="say" data-say="sw_${esc(w)}" data-text="${esc(w)}">${esc(w)}</span>`).join('')}</div>` : '';
     const find = findHtml(pn), movie = movieBtn(idx, pn.video);   // ▶ movie 는 영상 파일이 있을 때만 보인다 (pages.js pageReady)
-    const body = `${sofar}<div class="sl-story ${sofar ? 'with-sofar' : ''}"><div class="panel" data-panel="${idx}"><div class="scene">${pic(pn.id, '', 'scene')}</div><span class="no">${idx + 1}</span></div>
+    const narr = narrHtml(pn, idx, 'big');   // 그림 바로 아래 해설 자막 (영어 + 우리말)
+    const body = `${sofar}<div class="sl-story ${sofar ? 'with-sofar' : ''}"><div class="sl-left"><div class="panel" data-panel="${idx}"><div class="scene">${pic(pn.id, '', 'scene')}</div><span class="no">${idx + 1}</span></div>${narr}</div>
       <div class="sl-story-side">${sw}<div class="sl-tools"><button class="btn orange big main-play" onclick="storyPlayPanel(${idx})">▶ ${esc(App.book.instructions.listen_story)}</button>${movie}${roleBtn(true)}${koBtn(true, st)}</div><div class="bubbles-col">${bubbles}</div>${find}${koBox(pn, ctx)}</div></div>`;
-    return tWrap(ctx, st.title, '선생님이 ▶ 를 누르면 음악과 함께 대사가 나와요. 아이들은 자기 책 말풍선을 짚으며 따라 말해요. 숨은 단어(Find)를 아이들이 찾아 외치면 눌러요(반짝). 🎭 역할: 친구 얼굴을 눌러 정하면 그 줄은 아이들이 읽어요', s, n, body);
+    return tWrap(ctx, st.title, `선생님이 ▶ 를 누르면 ${pn.narr ? '해설(그림 아래)을 먼저 읽고 ' : ''}대사가 나와요. 아이들은 자기 책 말풍선을 짚으며 따라 말해요. 숨은 단어(Find)를 아이들이 찾아 외치면 눌러요(반짝). 🎭 역할: 친구 얼굴을 눌러 정하면 그 줄은 아이들이 읽어요`, s0, n, body);
   },
 };
-TEACH.intro_story = { count: (ctx) => ctx.unit.story.panels.length, render: (ctx, s) => TEACH.story.render({ ...ctx, page: { ...ctx.page, half: 1 } }, s) };
+TEACH.intro_story = { count: (ctx) => ctx.unit.story.panels.length + (hasGlance(ctx.unit.story) ? 1 : 0), render: (ctx, s) => TEACH.story.render({ ...ctx, page: { ...ctx.page, half: 1 } }, s) };
 // 정리: A·B·C 한 장씩 (복습 평가도 같은 모양, 문항만 많다)
 TEACH.check = { count: () => 3, render: (ctx, s) => checkSlides(ctx, ctx.unit.check, s) };
 TEACH.review_test = { count: () => 3, render: (ctx, s) => checkSlides(ctx, ctx.unit.review.test, s) };
@@ -350,7 +364,7 @@ async function storyPlayPanel(idx) {
   Sound.unlock();
   const st = App.units[App.u].story, pn = st.panels[idx], intro = idx === 0 ? themeIntro(st) : [];   // 0유닛 첫 칸: 주제가 한 번 먼저
   if (!intro.length) Sound.bgm(st.bgm);
-  await playSeq(intro.concat(pn.lines.map((ln, k) => storyItem(ln, document.querySelector(`.bubble[data-panel="${idx}"][data-line="${k}"]`), pn, idx, k))));
+  await playSeq(intro.concat(narrItem(pn, idx), pn.lines.map((ln, k) => storyItem(ln, document.querySelector(`.bubble[data-panel="${idx}"][data-line="${k}"]`), pn, idx, k))));
 }
 
 // 손가락 두 개로 교재 칸 확대·축소 + 끌기 (태블릿·전자칠판). 마우스는 Ctrl+휠.

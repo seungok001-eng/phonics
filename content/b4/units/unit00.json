@@ -34,7 +34,7 @@
   ],
   "story": {
     "title": "The Magic Castle",
-    "bgm": "bgm_adventure",
+    "bgm": "bgm_b4_adventure",
     "panels": [
       {
         "id": "scene_b4_u00_1",

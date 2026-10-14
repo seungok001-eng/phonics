@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A magic seed is in the apple basket!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892675.729547,
+   "sec": 3.32,
+   "check": {
+    "transcript": "A magic seed is in the apple basket.",
+    "type": "sentence",
+    "ipa": "ə ˈmæʤɪk siːd ɪz ɪn ði ˈæpəl ˈbæskɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A magic seed is in the apple basket. | TYPE=sentence | IPA=ə ˈmæʤɪk siːd ɪz ɪn ði ˈæpəl ˈbæskɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_u01_1_n",
+ "sub": "line",
+ "title": "1권 1유닛 해설 · 해설: A magic seed is in the apple basket!",
+ "text": "A magic seed is in the apple basket!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

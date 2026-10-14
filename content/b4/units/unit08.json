@@ -147,7 +147,7 @@
   ],
   "story": {
     "title": "A Goat in a Boat",
-    "bgm": "bgm_adventure",
+    "bgm": "bgm_b4_adventure",
     "panels": [
       {
         "id": "scene_b4_u08_1",

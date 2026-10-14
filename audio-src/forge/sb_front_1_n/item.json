@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Can Pip find the song?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892906.3359053,
+   "sec": 1.96,
+   "check": {
+    "transcript": "Can Pip find the song?",
+    "type": "sentence",
+    "ipa": "kæn pɪp faɪnd ðə sɔŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Can Pip find the song? | TYPE=sentence | IPA=kæn pɪp faɪnd ðə sɔŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_front_1_n",
+ "sub": "line",
+ "title": "1권 스토리북 해설 · 해설: Can Pip find the song?",
+ "text": "Can Pip find the song?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

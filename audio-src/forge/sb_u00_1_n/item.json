@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Behind the shed, Bun finds a little door.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892671.9707766,
+   "sec": 3.76,
+   "check": {
+    "transcript": "Behind the shed, Bun finds a little door.",
+    "type": "sentence",
+    "ipa": "bəˈhaɪnd ðə ˈʃɛd bʌn ˈfaɪndz ə ˈlɪtəl ˈdɔr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Behind the shed, Bun finds a little door. | TYPE=sentence | IPA=bəˈhaɪnd ðə ˈʃɛd bʌn ˈfaɪndz ə ˈlɪtəl ˈdɔr | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_u00_1_n",
+ "sub": "line",
+ "title": "1권 0유닛 스토리북 해설 · 해설: Behind the shed, Bun finds a little door.",
+ "text": "Behind the shed, Bun finds a little door.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

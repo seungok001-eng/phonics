@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun finds a little round door behind the shed.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892666.1799815,
+   "sec": 3.8,
+   "check": {
+    "transcript": "Bun finds a little round door behind the shed.",
+    "type": "sentence",
+    "ipa": "bʌn faɪndz ə lɪtəl raʊnd dɔːr bəhaɪnd ðə ʃɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun finds a little round door behind the shed. | TYPE=sentence | IPA=bʌn faɪndz ə lɪtəl raʊnd dɔːr bəhaɪnd ðə ʃɛd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "scene_u00_1_n",
+ "sub": "line",
+ "title": "1권 0유닛 해설 · 해설: Bun finds a little round door behind the shed.",
+ "text": "Bun finds a little round door behind the shed.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

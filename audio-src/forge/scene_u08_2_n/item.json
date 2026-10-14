@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A seed is in the tomato. Grumble trips in the dark.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892823.6197891,
+   "sec": 4.56,
+   "check": {
+    "transcript": "a seed is in the tomato grumble trips in the dark",
+    "type": "sentence",
+    "ipa": "ə siːd ɪz ɪn ðə təˈmɑːtəʊ ˈɡrʌmbəl trɪps ɪn ðə dɑːk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a seed is in the tomato grumble trips in the dark | TYPE=sentence | IPA=ə siːd ɪz ɪn ðə təˈmɑːtəʊ ˈɡrʌmbəl trɪps ɪn ðə dɑːk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_u08_2_n",
+ "sub": "line",
+ "title": "1권 8유닛 해설 · 해설: A seed is in the tomato. Grumble trips in the dark.",
+ "text": "A seed is in the tomato. Grumble trips in the dark.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

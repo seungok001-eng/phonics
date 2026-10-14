@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "An owl vet helps the worm. Grumble's lantern shines.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892856.9392107,
+   "sec": 4.92,
+   "check": {
+    "transcript": "An owl that helps the worm grumbles Lantern shines.",
+    "type": "sentence",
+    "ipa": "æn ˈaʊəl ðæt hɛlps ðə wɜːrm ˈɡrʌmbəlz ˈlæntərn ʃaɪnz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=An owl that helps the worm grumbles Lantern shines. | TYPE=sentence | IPA=æn ˈaʊəl ðæt hɛlps ðə wɜːrm ˈɡrʌmbəlz ˈlæntərn ʃaɪnz. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb_u09_3_n",
+ "sub": "line",
+ "title": "1권 9유닛 스토리북 해설 · 해설: An owl vet helps the worm. Grumble's lantern shines.",
+ "text": "An owl vet helps the worm. Grumble's lantern shines.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

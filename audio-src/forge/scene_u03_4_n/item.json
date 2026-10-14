@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The last seed is on the igloo. Three new trees!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892728.532031,
+   "sec": 4.08,
+   "check": {
+    "transcript": "The last seed is on the igloo. Three new trees.",
+    "type": "sentence",
+    "ipa": "ðə læst siːd ɪz ɒn ðiː ɪɡluː ˈθriː njuː triːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The last seed is on the igloo. Three new trees. | TYPE=sentence | IPA=ðə læst siːd ɪz ɒn ðiː ɪɡluː ˈθriː njuː triːz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_u03_4_n",
+ "sub": "line",
+ "title": "1권 3유닛 해설 · 해설: The last seed is on the igloo. Three new trees!",
+ "text": "The last seed is on the igloo. Three new trees!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

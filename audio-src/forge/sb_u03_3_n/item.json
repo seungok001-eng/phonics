@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "More seeds on the hippo and the igloo. Grumble's lantern glows.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892736.0052922,
+   "sec": 5.52,
+   "check": {
+    "transcript": "More seeds on the hippo and the igloo, grumbles lantern glows.",
+    "type": "sentence",
+    "ipa": "mɔɹ sidz ɑn ðə hɪpoʊ ænd ði ɪglu, ɡɹʌmbəlz læntɚn ɡloʊz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=More seeds on the hippo and the igloo, grumbles lantern glows. | TYPE=sentence | IPA=mɔɹ sidz ɑn ðə hɪpoʊ ænd ði ɪglu, ɡɹʌmbəlz læntɚn ɡloʊz. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb_u03_3_n",
+ "sub": "line",
+ "title": "1권 3유닛 스토리북 해설 · 해설: A seed is on the igloo. Grumble's lantern glows.",
+ "text": "A seed is on the igloo. Grumble's lantern glows.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

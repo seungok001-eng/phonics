@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say the sound, and the seed pops into a tree!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892688.2118862,
+   "sec": 3.6,
+   "check": {
+    "transcript": "Say the sound and the seed pops into a tree.",
+    "type": "sentence",
+    "ipa": "seɪ ðə saʊnd ænd ðə sid pɑps ɪntu ə tri",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say the sound and the seed pops into a tree. | TYPE=sentence | IPA=seɪ ðə saʊnd ænd ðə sid pɑps ɪntu ə tri | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb_u01_1_n",
+ "sub": "line",
+ "title": "1권 1유닛 스토리북 해설 · 해설: Say the sound, and the seed pops into a tree!",
+ "text": "Say the sound, and the seed pops into a tree!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

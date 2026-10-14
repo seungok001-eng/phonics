@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A morning walk. Pip sneezes under the apple tree.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892769.656513,
+   "sec": 3.96,
+   "check": {
+    "transcript": "A morning walk. Pip sneezes under the apple tree.",
+    "type": "sentence",
+    "ipa": "ə ˈmɔrnɪŋ ˈwɔk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A morning walk. Pip sneezes under the apple tree. | TYPE=sentence | IPA=ə ˈmɔrnɪŋ ˈwɔk | pɪp ˈsnizɪz ˈʌndər ði ˈæpəl tri | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb_u05_1_n",
+ "sub": "line",
+ "title": "1권 5유닛 스토리북 해설 · 해설: A morning walk. Pip sneezes under the apple tree.",
+ "text": "A morning walk. Pip sneezes under the apple tree.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

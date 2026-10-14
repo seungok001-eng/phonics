@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The rocket flies up. Grumble wants to keep the quilt.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892807.8944273,
+   "sec": 4.76,
+   "check": {
+    "transcript": "The rocket flies up. Grumble wants to keep the quilt.",
+    "type": "sentence",
+    "ipa": "ðə ˈrɑkət ˈflaɪz ˈʌp ˈɡrʌmbəl ˈwɑnts tə ˈkip ðə ˈkwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The rocket flies up. Grumble wants to keep the quilt. | TYPE=sentence | IPA=ðə ˈrɑkət ˈflaɪz ˈʌp ˈɡrʌmbəl ˈwɑnts tə ˈkip ðə ˈkwɪlt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_u07_4_n",
+ "sub": "line",
+ "title": "1권 7유닛 해설 · 해설: The rocket flies up. Grumble wants to keep the quilt.",
+ "text": "The rocket flies up. Grumble wants to keep the quilt.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

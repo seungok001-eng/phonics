@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Three new trees glow. Grumble climbs out of a pot.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892787.9215279,
+   "sec": 4.76,
+   "check": {
+    "transcript": "Three new trees glow. Grumble climbs out of a pot.",
+    "type": "sentence",
+    "ipa": "θriː nuː triːz ɡloʊ ˈɡrʌmbəl klaɪmz aʊt əv ə pɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Three new trees glow. Grumble climbs out of a pot. | TYPE=sentence | IPA=θriː nuː triːz ɡloʊ ˈɡrʌmbəl klaɪmz aʊt əv ə pɑt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_u06_4_n",
+ "sub": "line",
+ "title": "1권 6유닛 해설 · 해설: Three new trees glow. Grumble climbs out of a pot.",
+ "text": "Three new trees glow. Grumble climbs out of a pot.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

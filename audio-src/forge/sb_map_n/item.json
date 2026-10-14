@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "This is the Sound Garden. Twenty-six pots are empty.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892910.4320898,
+   "sec": 4.04,
+   "check": {
+    "transcript": "This is the sound garden. Twenty-six pots are empty.",
+    "type": "sentence",
+    "ipa": "ðɪs ɪz ðə saʊnd ɡɑɹdən. twɛnti sɪks pɑts ɑɹ ɛmpti.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This is the sound garden. Twenty-six pots are empty. | TYPE=sentence | IPA=ðɪs ɪz ðə saʊnd ɡɑɹdən. twɛnti sɪks pɑts ɑɹ ɛmpti. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:11",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_map_n",
+ "sub": "line",
+ "title": "1권 스토리북 해설 · 해설: This is the Sound Garden. Twenty-six pots are empty.",
+ "text": "This is the Sound Garden. Twenty-six pots are empty.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

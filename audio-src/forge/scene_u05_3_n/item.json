@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Say the letter names, and the hats pop off!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892765.8402612,
+   "sec": 3.56,
+   "check": {
+    "transcript": "Say the letter names and the hats pop off.",
+    "type": "sentence",
+    "ipa": "seɪ ðə ˈlɛtər neɪmz ənd ðə hæts pɑp ɔf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Say the letter names and the hats pop off. | TYPE=sentence | IPA=seɪ ðə ˈlɛtər neɪmz ənd ðə hæts pɑp ɔf | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_u05_3_n",
+ "sub": "line",
+ "title": "1권 5유닛 해설 · 해설: Say the letter names, and the hats pop off!",
+ "text": "Say the letter names, and the hats pop off!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

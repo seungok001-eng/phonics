@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A gift! The goat spits out the seed.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892732.3213437,
+   "sec": 3.68,
+   "check": {
+    "transcript": "A gift, the goat spits out the seat.",
+    "type": "sentence",
+    "ipa": "ə gɪft, ðə goʊt spɪts aʊt ðə sit.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A gift, the goat spits out the seat. | TYPE=sentence | IPA=ə gɪft, ðə goʊt spɪts aʊt ðə sit. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb_u03_2_n",
+ "sub": "line",
+ "title": "1권 3유닛 스토리북 해설 · 해설: A gift! The goat spits out the seed.",
+ "text": "A gift! The goat spits out the seed.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

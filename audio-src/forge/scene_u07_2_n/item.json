@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Under the quilt is Grumble! The swan queen laughs.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892804.4716241,
+   "sec": 4.6,
+   "check": {
+    "transcript": "Under the quilt is grumble; the swan queen laughs.",
+    "type": "sentence",
+    "ipa": "ˈʌndər ðə kwɪlt ɪz ˈɡrʌmbəl; ðə swɑn kwiːn læfs.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Under the quilt is grumble; the swan queen laughs. | TYPE=sentence | IPA=ˈʌndər ðə kwɪlt ɪz ˈɡrʌmbəl; ðə swɑn kwiːn læfs. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_u07_2_n",
+ "sub": "line",
+ "title": "1권 7유닛 해설 · 해설: Under the quilt is Grumble! The swan queen laughs.",
+ "text": "Under the quilt is Grumble! The swan queen laughs.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

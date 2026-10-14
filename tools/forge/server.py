@@ -450,10 +450,11 @@ def complete_job(body):
 def gemini_generate(prompt, ref_png=None, aspect='1:1', model=None, size=None):
     """제미나이 이미지 생성 한 번. 참조 그림(bytes)이 있으면 같이 보낸다. 결과 PNG bytes."""
     import urllib.request, urllib.error
-    key = gemini_key()
-    if not key: raise RuntimeError('제미나이 API 키가 없다 (설정에서 넣기)')
     model = model or state['settings'].get('gemini_model', 'gemini-3.1-flash-image')
     size = size or state['settings'].get('gemini_size', '1K')
+    if model.startswith('topview:'): return topview_generate(prompt, ref_png, aspect, model[len('topview:'):], size)   # 탑뷰 API 의 나노바나나
+    key = gemini_key()
+    if not key: raise RuntimeError('제미나이 API 키가 없다 (설정에서 넣기)')
     if 'pro' in model and size == '512px': size = '1K'   # Pro는 1K부터
     parts = [{'text': prompt}]
     if ref_png:
@@ -478,6 +479,60 @@ def gemini_generate(prompt, ref_png=None, aspect='1:1', model=None, size=None):
                 return base64.b64decode(d['data'])
     fb = res.get('promptFeedback') or {}
     raise RuntimeError('제미나이가 그림을 돌려주지 않음: ' + (fb.get('blockReason') or json.dumps(res)[:300]))
+
+
+TOPVIEW = 'https://api.topview.ai'
+TOPVIEW_FILES = {}   # 참조 그림 sha1 → 탑뷰 fileId (캐스트 시트를 매번 다시 올리지 않게)
+
+
+def topview_call(path, body=None, timeout=60):
+    """탑뷰 API 한 번. body 가 있으면 POST(JSON), 없으면 GET. 결과의 result 를 돌려준다."""
+    import urllib.request, urllib.error
+    uid, key = (state['secrets'].get('topview_uid') or '').strip(), (state['secrets'].get('topview_key') or '').strip()
+    if not (uid and key): raise RuntimeError('탑뷰 UID·API 키가 없다 (art-src/forge/secrets.json 의 topview_uid·topview_key)')
+    h = {'Authorization': f'Bearer {key}', 'Topview-Uid': uid, 'Accept': 'application/json'}
+    if body is not None: h['Content-Type'] = 'application/json'
+    req = urllib.request.Request(TOPVIEW + path, data=None if body is None else json.dumps(body).encode(), headers=h, method='GET' if body is None else 'POST')
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as f: res = json.load(f)
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f'탑뷰 HTTP {e.code}: {e.read().decode("utf-8", "replace")[:300]}')
+    if str(res.get('code')) != '200': raise RuntimeError(f'탑뷰: {res.get("code")} {res.get("message")}')
+    return res.get('result')
+
+
+def topview_upload(png):
+    """참조 그림 올리기: 업로드 주소 받기 → PUT → 확인. fileId 를 돌려준다."""
+    import urllib.request, hashlib
+    h = hashlib.sha1(png).hexdigest()
+    if h in TOPVIEW_FILES: return TOPVIEW_FILES[h]
+    cred = topview_call('/v1/upload/credential?format=png')
+    urllib.request.urlopen(urllib.request.Request(cred['uploadUrl'], data=png, method='PUT'), timeout=120).read()
+    if str(topview_call(f"/v1/upload/check?fileId={cred['fileId']}")).lower() != 'true': raise RuntimeError('탑뷰: 참조 그림 업로드 확인 실패')
+    TOPVIEW_FILES[h] = cred['fileId']
+    return cred['fileId']
+
+
+def topview_generate(prompt, ref_png, aspect, model, size):
+    """탑뷰 나노바나나 한 장: 참조 그림이 있으면 image_edit, 없으면 text2image. 4초마다 결과 확인(최대 6분). 결과 PNG bytes."""
+    import urllib.request
+    ids = [topview_upload(ref_png)] if ref_png else []
+    kind = 'image_edit' if ids else 'text2image'
+    body = {'model': model, 'prompt': prompt, 'aspectRatio': aspect, 'resolution': size, 'generateCount': 1}
+    if ids: body['inputImageFileIds'] = ids
+    task = topview_call(f'/v1/common_task/{kind}/task/submit', body)['taskId']
+    for _ in range(90):
+        time.sleep(4)
+        r = topview_call(f'/v1/common_task/{kind}/task/query?taskId={task}&needCloudFrontUrl=true')
+        if r.get('status') == 'fail': raise RuntimeError('탑뷰 실패: ' + str(r.get('errorMsg'))[:300])
+        if r.get('status') == 'success':
+            img = next((x for x in r.get('images') or [] if x.get('status', 'success') == 'success' and x.get('filePath')), None)
+            if not img: raise RuntimeError('탑뷰: 그림 없음 ' + str(r.get('errorMsg'))[:300])
+            data = urllib.request.urlopen(img['filePath'], timeout=120).read()
+            u = state['settings'].setdefault('topview_usage', {'count': 0, 'credits': 0.0})
+            u['count'] = u.get('count', 0) + 1; u['credits'] = round(u.get('credits', 0.0) + float(r.get('costCredit') or 0), 3); save_settings()
+            return imgproc.to_png(imgproc.load(data).convert('RGB'))
+    raise RuntimeError('탑뷰: 6분 안에 끝나지 않음')
 
 
 def gemini_run_one(it):

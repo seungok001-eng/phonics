@@ -157,7 +157,7 @@
   ],
   "story": {
     "title": "The Black Block",
-    "bgm": "bgm_adventure",
+    "bgm": "bgm_b3_adventure",
     "panels": [
       {
         "id": "scene_b3_u06_1",

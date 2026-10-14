@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Inside is a garden of empty pots. Pip is sad.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892668.6632788,
+   "sec": 5.56,
+   "check": {
+    "transcript": "Inside is a garden of empty pots. Pip is sad.",
+    "type": "sentence",
+    "ipa": "ˈɪn.saɪd ɪz ə ˈɡɑr.dən ʌv ˈɛm.tɪ pɑts. pɪp ɪz sæd.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Inside is a garden of empty pots. Pip is sad. | TYPE=sentence | IPA=ˈɪn.saɪd ɪz ə ˈɡɑr.dən ʌv ˈɛm.tɪ pɑts. pɪp ɪz sæd. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "scene_u00_2_n",
+ "sub": "line",
+ "title": "1권 0유닛 해설 · 해설: Inside is a garden of empty pots. Pip is sad.",
+ "text": "Inside is a garden of empty pots. Pip is sad.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A seed in the zipper. Grumble comes back!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892876.5659058,
+   "sec": 3.0,
+   "check": {
+    "transcript": "a seed in the zipper, Grumble comes back",
+    "type": "sentence",
+    "ipa": "ə siːd ɪn ðə ˈzɪpər ˈɡrʌmbəl kʌmz bæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a seed in the zipper, Grumble comes back | TYPE=sentence | IPA=ə siːd ɪn ðə ˈzɪpər ˈɡrʌmbəl kʌmz bæk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb_u10_2_n",
+ "sub": "line",
+ "title": "1권 10유닛 스토리북 해설 · 해설: A seed in the zipper. Grumble comes back!",
+ "text": "A seed in the zipper. Grumble comes back!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

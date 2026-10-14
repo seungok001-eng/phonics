@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A morning walk past the new letter trees.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892759.6116261,
+   "sec": 3.16,
+   "check": {
+    "transcript": "A morning walk past the new letter trees.",
+    "type": "sentence",
+    "ipa": "ə ˈmɔːnɪŋ wɔːk pɑːst ðə nuː ˈlɛtə triːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A morning walk past the new letter trees. | TYPE=sentence | IPA=ə ˈmɔːnɪŋ wɔːk pɑːst ðə nuː ˈlɛtə triːz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:05",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_u05_1_n",
+ "sub": "line",
+ "title": "1권 5유닛 해설 · 해설: A morning walk past the new letter trees.",
+ "text": "A morning walk past the new letter trees.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

@@ -34,7 +34,7 @@
   ],
   "story": {
     "title": "The Word Pond",
-    "bgm": "bgm_adventure",
+    "bgm": "bgm_b2_adventure",
     "panels": [
       {
         "id": "scene_b2_u00_1",

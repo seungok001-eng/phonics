@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble sneaks up... and slips into the pond!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892705.0368285,
+   "sec": 3.84,
+   "check": {
+    "transcript": "Grumble sneaks up and slips into the pond.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ˈsniːks ˈʌp ənd ˈslɪps ˈɪntuː ðə ˈpɑnd.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble sneaks up and slips into the pond. | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈsniːks ˈʌp ənd ˈslɪps ˈɪntuː ðə ˈpɑnd. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_u02_3_n",
+ "sub": "line",
+ "title": "1권 2유닛 해설 · 해설: Grumble sneaks up... and slips into the pond!",
+ "text": "Grumble sneaks up... and slips into the pond!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Oh no! The goat ate the seed!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892717.5429535,
+   "sec": 3.6,
+   "check": {
+    "transcript": "Oh no! The goat ate the seed.",
+    "type": "sentence",
+    "ipa": "oʊ noʊ ði goʊt eɪt ðə siːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh no! The goat ate the seed. | TYPE=sentence | IPA=oʊ noʊ ði goʊt eɪt ðə siːd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_u03_1_n",
+ "sub": "line",
+ "title": "1권 3유닛 해설 · 해설: Oh no! The goat ate the seed!",
+ "text": "Oh no! The goat ate the seed!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

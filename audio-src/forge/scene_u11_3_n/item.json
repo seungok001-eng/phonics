@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The gift is a drum! Grumble plays, and everyone dances.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892888.523637,
+   "sec": 5.68,
+   "check": {
+    "transcript": "The gift is a drum. Grumble plays and everyone dances.",
+    "type": "sentence",
+    "ipa": "ðə gɪft ɪz ə drʌm. ˈgrʌmbəl pleɪz ənd ˈɛvriwʌn ˈdænsəz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The gift is a drum. Grumble plays and everyone dances. | TYPE=sentence | IPA=ðə gɪft ɪz ə drʌm. ˈgrʌmbəl pleɪz ənd ˈɛvriwʌn ˈdænsəz. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_u11_3_n",
+ "sub": "line",
+ "title": "1권 11유닛 해설 · 해설: The gift is a drum! Grumble plays, and everyone dances.",
+ "text": "The gift is a drum! Grumble plays, and everyone dances.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

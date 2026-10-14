@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The friends pull wet Grumble out of the pond.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892705.8603485,
+   "sec": 3.56,
+   "check": {
+    "transcript": "The friends poll wet grumble out of the pond.",
+    "type": "sentence",
+    "ipa": "ðə fɹɛndz poʊl wɛt ɡɹʌmbəl aʊt ʌv ðə pɑnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The friends poll wet grumble out of the pond. | TYPE=sentence | IPA=ðə fɹɛndz poʊl wɛt ɡɹʌmbəl aʊt ʌv ðə pɑnd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:04",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_u02_4_n",
+ "sub": "line",
+ "title": "1권 2유닛 해설 · 해설: The friends pull wet Grumble out of the pond.",
+ "text": "The friends pull wet Grumble out of the pond.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

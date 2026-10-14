@@ -53,7 +53,7 @@ function renderStory(base) {
     const lines = (pg.lines || []).map((ln) => `<div class="line">${avatar(ln.who)}<span>${esc(ln.text)}</span></div>`).join('');
     const task = pg.task ? `<div class="task">✨ ${esc(pg.task)}${pg.task_ko ? `<small>${esc(pg.task_ko)}</small>` : ''}</div>` : '';
     const where = typeof pg.u === 'number' ? `Unit ${pg.u} · ${esc(pg.title)}` : '';
-    return `<article class="page story"><div class="art">${pic(pg.id, '', pg.title)}</div><div class="band"><div class="txt"><div class="where">${where}</div>${lines}${task}</div><div class="foot">${qr}<span class="url">${url}</span><span class="pno">${i}</span></div></div></article>`;
+    return `<article class="page story"><div class="art">${pic(pg.id, '', pg.title)}</div><div class="band"><div class="txt"><div class="where">${where}</div>${narrHtml(pg, i)}${lines}${task}</div><div class="foot">${qr}<span class="url">${url}</span><span class="pno">${i}</span></div></div></article>`;
   }).join('');
   document.title = `${bookLabel()} — ${App.book.storybook.title || 'Storybook'}`;
   window.PRINT_READY = true;

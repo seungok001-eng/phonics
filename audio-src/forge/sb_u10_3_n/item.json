@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The lantern opens. Pip sings at last!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892876.852353,
+   "sec": 4.52,
+   "check": {
+    "transcript": "The lantern opens. Pip sings at last.",
+    "type": "sentence",
+    "ipa": "ðə læntərn oʊpənz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The lantern opens. Pip sings at last. | TYPE=sentence | IPA=ðə læntərn oʊpənz | pɪp sɪŋz æt læst | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb_u10_3_n",
+ "sub": "line",
+ "title": "1권 10유닛 스토리북 해설 · 해설: The lantern opens. Pip sings at last!",
+ "text": "The lantern opens. Pip sings at last!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

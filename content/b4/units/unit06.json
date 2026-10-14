@@ -147,7 +147,7 @@
   ],
   "story": {
     "title": "Rain on the Train",
-    "bgm": "bgm_silly",
+    "bgm": "bgm_b4_silly",
     "panels": [
       {
         "id": "scene_b4_u06_1",

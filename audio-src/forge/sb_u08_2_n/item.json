@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A seed is in the tomato soup. Grumble trips.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892834.4618258,
+   "sec": 4.72,
+   "check": {
+    "transcript": "A seed is in the tomato soup. Grumble trips.",
+    "type": "sentence",
+    "ipa": "ə siːd ɪz ɪn ðə təˈmˈɑːtəʊ suːp ˈɡɹʌmbəl tɹɪps",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A seed is in the tomato soup. Grumble trips. | TYPE=sentence | IPA=ə siːd ɪz ɪn ðə təˈmˈɑːtəʊ suːp ˈɡɹʌmbəl tɹɪps | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb_u08_2_n",
+ "sub": "line",
+ "title": "1권 8유닛 스토리북 해설 · 해설: A seed is in the tomato soup. Grumble trips.",
+ "text": "A seed is in the tomato soup. Grumble trips.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

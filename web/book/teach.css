@@ -289,3 +289,22 @@
 /* 수료증 슬라이드: 친구들 줄이 남은 높이에 맞춰 줄어든다. 시리즈 수료증의 권 띠는 한 줄 */
 .sl-cert .cert { min-height: 0; } .sl-cert .cert.series .cert-az { max-width: none; flex-wrap: nowrap; }
 .slide.short .sl-cert .cert { gap: 6px; padding-top: 10px; } .slide.short .sl-cert .cert-name { min-height: 60px; margin-top: 4px; }
+/* 스토리 슬라이드: 그림 아래 해설 자막 · 이야기 한눈에 */
+.sl-left { display: flex; flex-direction: column; gap: 12px; min-height: 0; }
+.sl-left .panel { flex: 1; height: auto; min-height: 0; }
+.narr.big { padding: 10px 18px; border-left-width: 10px; border-radius: 16px; flex: none; }
+.narr.big .ne { font-size: 30px; line-height: 1.2; }
+.narr.big .nk { font-size: 26px; line-height: 1.25; }
+.sl-glance { display: flex; flex-direction: column; gap: 16px; flex: 1; min-height: 0; }
+.sl-glance .gl-head { display: flex; gap: 20px; align-items: center; }
+.sl-glance .gl-syn { flex: 1; font-size: 24px; line-height: 1.35; background: #F3FAFF; border: 2px dashed #BFE3F7; border-radius: 14px; padding: 10px 16px; }
+.sl-glance .gl-grid { flex: 1; min-height: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.sl-glance .gl-grid.n1, .sl-glance .gl-grid.n2 { grid-template-columns: repeat(2, 1fr); }
+.sl-glance .gl-grid.n3 { grid-template-columns: repeat(3, 1fr); }
+.sl-glance .gl-card { display: flex; flex-direction: column; gap: 8px; min-height: 0; border: 4px solid transparent; border-radius: 18px; padding: 4px; }
+.sl-glance .gl-card.hl, .sl-glance .gl-card.playing { border-color: var(--orange); background: #FFF4D6; }
+.sl-glance .gl-pic { position: relative; border-radius: 14px; overflow: hidden; flex: 1; min-height: 0; background: var(--cream); }
+.sl-glance .gl-pic .pic { position: absolute; inset: 0; display: block; }
+.sl-glance .gl-pic img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.sl-glance .gl-pic .no { position: absolute; left: 8px; top: 8px; width: 40px; height: 40px; border-radius: 50%; background: var(--ink); color: #fff; font: 700 22px 'Fredoka'; display: flex; align-items: center; justify-content: center; }
+.sl-glance .gl-t { font-size: 22px; line-height: 1.3; font-family: 'Malgun Gothic', sans-serif; }

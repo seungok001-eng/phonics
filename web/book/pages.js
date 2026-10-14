@@ -42,6 +42,15 @@ function koBox(pn, ctx) {   // 칸 설명 + 질문 두 개
   return `<div class="kobox kohelp">${pn.ko ? `<div class="kd">${esc(pn.ko)}</div>` : ''}${(pn.ask || []).map((a) => `<div class="ask"><b>Q</b>${esc(a.en)}<small>${esc(a.ko)}</small></div>`).join('')}</div>`;
 }
 function lineKo(ln, ctx) { return !ctx.print && ln.ko ? `<small class="tr kohelp">${esc(ln.ko)}</small>` : ''; }
+// 해설 한 줄(narr): 이 장면에서 무슨 일이 일어나는지 쉬운 영어 + 우리말. 대사보다 먼저 어른 목소리로 읽는다
+function narrHtml(pn, idx, cls = '') {
+  const n = pn && pn.narr; if (!n) return '';
+  return `<div class="narr say ${cls}" data-say="${esc(n.audio)}" data-text="${esc(n.text)}" data-narr="${idx}"><span class="ne">${esc(n.text)}</span>${n.ko ? `<span class="nk">${esc(n.ko)}</span>` : ''}</div>`;
+}
+function narrItem(pn, idx) {
+  if (!pn.narr) return [];
+  return [{ id: pn.narr.audio, text: pn.narr.text, el: document.querySelector(`.narr[data-narr="${idx}"]`), gap: 450, before: () => panelReading(idx, true), after: () => panelReading(idx, false) }];
+}
 // 지난 이야기(so_far_ko: 앞 유닛 마지막 칸 썸네일 + 한 줄) · 이번 이야기(goal_ko)
 function prevScene(u) { let last = null; for (const x of App.book.units) { if (x.n === u) break; const uj = App.units[x.n]; if (uj && uj.story && uj.story.panels && uj.story.panels.length) last = uj.story.panels[uj.story.panels.length - 1].id; } return last; }
 function soFarHtml(ctx) {
@@ -267,7 +276,7 @@ PAGES.story = (ctx) => {
     const bubbles = pn.lines.map((ln, k) => `<div class="bubble say ${k % 2 ? 'right' : ''}" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-panel="${idx}" data-line="${k}">${avatar(ln.who)}<span>${esc(ln.text)}${lineKo(ln, ctx)}</span></div>`).join('');
     const find = findHtml(pn);
     const movie = ctx.print ? '' : movieBtn(idx, pn.video);
-    return `<div class="pwrap"><div class="panel" data-panel="${idx}"><div class="scene">${pic(pn.id, '', 'scene')}</div><span class="no">${idx + 1}</span>${movie}<div class="bubbles">${bubbles}</div></div>${find}${koBox(pn, ctx)}</div>`;
+    return `<div class="pwrap">${narrHtml(pn, idx)}<div class="panel" data-panel="${idx}"><div class="scene">${pic(pn.id, '', 'scene')}</div><span class="no">${idx + 1}</span>${movie}<div class="bubbles">${bubbles}</div></div>${find}${koBox(pn, ctx)}</div>`;
   }).join('');
   return `<div class="story-top"><h3 style="margin:0;font-size:24px">📖 ${esc(st.title)}</h3><button class="btn orange main-play print-hide" onclick="storyPlay(${half})">▶ ${esc(App.book.instructions.listen_story)}</button>${sw}${roleBtn()}${ctx.print ? '' : koBtn(false, st)}${sbLink}</div>${half === 1 ? soFarHtml(ctx) : ''}<div class="panels">${html}</div>`;
 };
@@ -277,6 +286,7 @@ async function storyPlay(half) {
   if (!items.length) Sound.bgm(st.bgm);
   st.panels.slice((half - 1) * 2, half * 2).forEach((pn, i) => {
     const idx = (half - 1) * 2 + i;
+    items.push(...narrItem(pn, idx));
     pn.lines.forEach((ln, k) => items.push(storyItem(ln, document.querySelector(`.bubble[data-panel="${idx}"][data-line="${k}"]`), pn, idx, k)));
   });
   await playSeq(items);
@@ -650,7 +660,7 @@ PAGES.alphabet_song = (ctx) => {
 async function songPlay() {
   Sound.unlock(); stopSeq();
   const sg = App.units[App.u].show.song, beat = await chantTrack(sg.bgm || 'song_backing');
-  const items = sg.lines.map((ln, i) => { const el = document.querySelector(`.song-line[data-i="${i}"]`); return { id: ln.audio, text: ln.text, el, gap: 300, beat: beat ? 0 : CHANT_BEAT, before: () => el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }) }; });
+  const items = sg.lines.map((ln, i) => { const el = document.querySelector(`.song-line[data-i="${i}"]`); return { id: ln.audio, text: ln.text, el, gap: 300, beat: beat ? 0 : CHANT_BEAT, bar: beat ? 2400 : 0, before: () => el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }) }; });
   await playSeq(items); chantTrackOff();
 }
 

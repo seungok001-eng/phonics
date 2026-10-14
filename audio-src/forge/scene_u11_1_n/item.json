@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A party under the trees! Grumble is far away.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892880.6559923,
+   "sec": 4.12,
+   "check": {
+    "transcript": "a party under the trees Grumble is far away",
+    "type": "sentence",
+    "ipa": "ə ˈpɑɹti ˈʌndɚ ðə tɹiz ˈgɹʌmbəl ɪz fɑɹ əˈweɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a party under the trees Grumble is far away | TYPE=sentence | IPA=ə ˈpɑɹti ˈʌndɚ ðə tɹiz ˈgɹʌmbəl ɪz fɑɹ əˈweɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:10",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_u11_1_n",
+ "sub": "line",
+ "title": "1권 11유닛 해설 · 해설: A party under the trees! Grumble is far away.",
+ "text": "A party under the trees! Grumble is far away.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

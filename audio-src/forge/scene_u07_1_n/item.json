@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Someone sleeps under a quilt. A panda draws.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892800.1431043,
+   "sec": 4.48,
+   "check": {
+    "transcript": "Someone sleeps under a quilt. A panda draws.",
+    "type": "sentence",
+    "ipa": "ˈsʌmwʌn ˈslips ˈʌndər ə ˈkwɪlt. ə ˈpændə ˈdrɔz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Someone sleeps under a quilt. A panda draws. | TYPE=sentence | IPA=ˈsʌmwʌn ˈslips ˈʌndər ə ˈkwɪlt. ə ˈpændə ˈdrɔz. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_u07_1_n",
+ "sub": "line",
+ "title": "1권 7유닛 해설 · 해설: Someone sleeps under a quilt. A panda draws.",
+ "text": "Someone sleeps under a quilt. A panda draws.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The octopus squirts ink on Hedgie's nose!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892786.2335684,
+   "sec": 4.24,
+   "check": {
+    "transcript": "The octopus squirts ink on Heggy's nose.",
+    "type": "sentence",
+    "ipa": "ðə ˈɑktəpəs skwɜrts ɪŋk ɑn ˈhɛgiz noʊz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The octopus squirts ink on Heggy's nose. | TYPE=sentence | IPA=ðə ˈɑktəpəs skwɜrts ɪŋk ɑn ˈhɛgiz noʊz. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_u06_3_n",
+ "sub": "line",
+ "title": "1권 6유닛 해설 · 해설: The octopus squirts ink on Hedgie's nose!",
+ "text": "The octopus squirts ink on Hedgie's nose!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip lost the song. Now Pip cannot sing.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892675.1875453,
+   "sec": 4.0,
+   "check": {
+    "transcript": "Pip lost the song. Now Pip cannot sing.",
+    "type": "sentence",
+    "ipa": "pɪp lɔst ðə sɔŋ naʊ pɪp ˈkænɑt sɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip lost the song. Now Pip cannot sing. | TYPE=sentence | IPA=pɪp lɔst ðə sɔŋ naʊ pɪp ˈkænɑt sɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb_u00_2_n",
+ "sub": "line",
+ "title": "1권 0유닛 스토리북 해설 · 해설: Pip lost the song. Now Pip cannot sing.",
+ "text": "Pip lost the song. Now Pip cannot sing.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Three trees! But a grumpy raccoon says, \"Shh!\"",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892687.2465148,
+   "sec": 4.52,
+   "check": {
+    "transcript": "Three trees, but a grumpy raccoon says shh.",
+    "type": "sentence",
+    "ipa": "θɹiː tɹiːz, bʌt ə ɡɹʌmpi ɹækuːn sɛz ʃː.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Three trees, but a grumpy raccoon says shh. | TYPE=sentence | IPA=θɹiː tɹiːz, bʌt ə ɡɹʌmpi ɹækuːn sɛz ʃː. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-13 21:03",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_u01_4_n",
+ "sub": "line",
+ "title": "1권 1유닛 해설 · 해설: Three trees! But a grumpy raccoon says, \"Shh!\"",
+ "text": "Three trees! But a grumpy raccoon says, \"Shh!\"",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1,
+ "busy": 0
+}

@@ -354,7 +354,7 @@
   ],
   "story": {
     "title": "The Forest Party",
-    "bgm": "bgm_finale",
+    "bgm": "bgm_b3_finale",
     "panels": [
       {
         "id": "scene_b3_u11_1",

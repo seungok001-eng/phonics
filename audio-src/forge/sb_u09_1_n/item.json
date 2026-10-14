@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A little volcano rumbles in the town.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892852.6225677,
+   "sec": 3.12,
+   "check": {
+    "transcript": "A little volcano rumbles in the town.",
+    "type": "sentence",
+    "ipa": "ə lɪtəl vɑlkeɪnoʊ rʌmbəlz ɪn ðə taʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A little volcano rumbles in the town. | TYPE=sentence | IPA=ə lɪtəl vɑlkeɪnoʊ rʌmbəlz ɪn ðə taʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:09",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb_u09_1_n",
+ "sub": "line",
+ "title": "1권 9유닛 스토리북 해설 · 해설: A little volcano rumbles in the town.",
+ "text": "A little volcano rumbles in the town.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

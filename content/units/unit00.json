@@ -57,7 +57,12 @@
             "en": "What do they find?",
             "ko": "무엇을 찾았어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Bun finds a little round door behind the shed.",
+          "ko": "번이 창고 뒤에서 작은 둥근 문을 찾았어요.",
+          "audio": "scene_u00_1_n"
+        }
       },
       {
         "id": "scene_u00_2",
@@ -93,7 +98,12 @@
             "en": "Is Pip happy or sad?",
             "ko": "핍은 기쁠까, 슬플까?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Inside is a garden of empty pots. Pip is sad.",
+          "ko": "문 안은 빈 화분뿐인 정원이에요. 노래를 잃은 핍이 울고 있어요.",
+          "audio": "scene_u00_2_n"
+        }
       }
     ],
     "synopsis_ko": "번과 헤지가 학교 창고 뒤에서 작은 문을 찾았어요. 문 너머는 소리 정원! 빈 화분 스물여섯 개와 노래를 잃은 아기 새 핍이 있었어요.",
@@ -135,7 +145,12 @@
         ],
         "task": "Find the little door!",
         "task_ko": "작은 문을 찾아요",
-        "ko": "창고 뒤에서 번이 담쟁이를 걷고 작은 둥근 문을 찾았어요. 헤지는 물뿌리개 뒤에서 빼꼼 내다봐요."
+        "ko": "창고 뒤에서 번이 담쟁이를 걷고 작은 둥근 문을 찾았어요. 헤지는 물뿌리개 뒤에서 빼꼼 내다봐요.",
+        "narr": {
+          "text": "Behind the shed, Bun finds a little door.",
+          "ko": "창고 뒤에서 번이 작은 문을 찾았어요.",
+          "audio": "sb_u00_1_n"
+        }
       },
       {
         "id": "sb_u00_2",
@@ -162,7 +177,12 @@
         ],
         "task": "Find the tiny light!",
         "task_ko": "작은 불빛을 찾아요",
-        "ko": "문 너머는 소리 정원이에요. 빈 화분 스물여섯 개, 첫 화분 위에 눈물 흘리는 핍. 먼 언덕에 작은 불빛이 보여요."
+        "ko": "문 너머는 소리 정원이에요. 빈 화분 스물여섯 개, 첫 화분 위에 눈물 흘리는 핍. 먼 언덕에 작은 불빛이 보여요.",
+        "narr": {
+          "text": "Pip lost the song. Now Pip cannot sing.",
+          "ko": "핍은 노래를 잃어버려서 노래를 할 수 없어요.",
+          "audio": "sb_u00_2_n"
+        }
       }
     ]
   }

@@ -208,6 +208,7 @@ def build_sounds(book, units, bk=1, ipa=None):
             add(_sound(id=aid, sub='line', title=f"{label} · {who_ko}: {ln['text']}", text=ln['text'], voice=voice, unit=unit, who=ln.get('who')))
     for u in units:
         for p in (u.get('story') or {}).get('panels', []):
+            if p.get('narr'): add_lines([{**p['narr'], 'who': 'narrator'}], u['unit'], f"{bk}권 {u['unit']}유닛 해설")   # 장면 해설 한 줄 (어른 목소리)
             add_lines(p.get('lines', []), u['unit'], f"{bk}권 {u['unit']}유닛 대사")
         for i, sn in enumerate(u.get('sentences') or []):   # 2권~: 읽기 문장
             if sn.get('audio'): add(_sound(id=sn['audio'], sub='line', title=f"{bk}권 {u['unit']}유닛 문장 {i + 1}: {sn['text']}", text=sn['text'], voice=nar, unit=u['unit']))
@@ -215,11 +216,13 @@ def build_sounds(book, units, bk=1, ipa=None):
         for i, ln in enumerate(song):
             if ln.get('audio'): add(_sound(id=ln['audio'], sub='line', title=f"{bk}권 노래 {i + 1}: {ln['text']}", text=ln['text'], voice=nar, unit=u['unit']))
         for p in (u.get('storybook') or {}).get('pages', []):   # 스토리북 글 + 쪽마다 과제("Find the g things!")는 <쪽id>_task (웹 story.html 이 찾는 이름)
+            if p.get('narr'): add_lines([{**p['narr'], 'who': 'narrator'}], u['unit'], f"{bk}권 {u['unit']}유닛 스토리북 해설")
             add_lines(p.get('lines', []), u['unit'], f"{u['unit']}유닛 스토리북")
             if p.get('task'):
                 add(_sound(id=p.get('task_audio') or f"{p['id']}_task", sub='instr', title=f"{u['unit']}유닛 스토리북 과제 · {p['task']}", text=p['task'], voice=ins, unit=u['unit']))
     sbk = book.get('storybook') or {}
     for p in list(sbk.get('front', [])) + list(sbk.get('back', [])):
+        if p.get('narr'): add_lines([{**p['narr'], 'who': 'narrator'}], 0, f"{bk}권 스토리북 해설")
         add_lines(p.get('lines', []), 0, '스토리북')
     for k, t in book.get('instructions', {}).items():
         add(_sound(id=f'instr_{k}', sub='instr', title=f'지시문 · {t}', text=t, voice=ins))

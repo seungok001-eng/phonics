@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip flies up with the umbrella to Uncle's door.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892838.0774808,
+   "sec": 3.56,
+   "check": {
+    "transcript": "Pip flies up with the umbrella to Uncle's door.",
+    "type": "sentence",
+    "ipa": "pɪp flaɪz ʌp wɪð ði ʌmˈbrɛlə tu ˈʌŋkəlz dɔːr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip flies up with the umbrella to Uncle's door. | TYPE=sentence | IPA=pɪp flaɪz ʌp wɪð ði ʌmˈbrɛlə tu ˈʌŋkəlz dɔːr | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:08",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb_u08_3_n",
+ "sub": "line",
+ "title": "1권 8유닛 스토리북 해설 · 해설: Pip flies up with the umbrella to Uncle's door.",
+ "text": "Pip flies up with the umbrella to Uncle's door.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

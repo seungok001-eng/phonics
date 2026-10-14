@@ -156,7 +156,7 @@
   ],
   "story": {
     "title": "A Note and a Rope",
-    "bgm": "bgm_adventure",
+    "bgm": "bgm_b4_adventure",
     "panels": [
       {
         "id": "scene_b4_u03_1",

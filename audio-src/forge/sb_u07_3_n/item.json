@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The rocket flies up, and the sun comes out.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892819.075178,
+   "sec": 3.28,
+   "check": {
+    "transcript": "The rocket flies up and the sun comes out.",
+    "type": "sentence",
+    "ipa": "ðə ˈɹɑkɪt flaɪz ʌp ænd ðə sʌn kʌmz aʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The rocket flies up and the sun comes out. | TYPE=sentence | IPA=ðə ˈɹɑkɪt flaɪz ʌp ænd ðə sʌn kʌmz aʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb_u07_3_n",
+ "sub": "line",
+ "title": "1권 7유닛 스토리북 해설 · 해설: The rocket flies up, and the sun comes out.",
+ "text": "The rocket flies up, and the sun comes out.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

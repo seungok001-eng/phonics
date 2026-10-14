@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble wears all his hats. He looks at the trees.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892765.7686703,
+   "sec": 3.64,
+   "check": {
+    "transcript": "Grumble wears all his hats. He looks at the trees.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ˈwɛəz ɔːl hɪz ˈhæts hiː lʊks ət ðə ˈtɹiːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble wears all his hats. He looks at the trees. | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈwɛəz ɔːl hɪz ˈhæts hiː lʊks ət ðə ˈtɹiːz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:06",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_u05_4_n",
+ "sub": "line",
+ "title": "1권 5유닛 해설 · 해설: Grumble wears all his hats. He looks at the trees.",
+ "text": "Grumble wears all his hats. He looks at the trees.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

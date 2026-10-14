@@ -261,7 +261,7 @@
   "show": {
     "song": {
       "title": "Pip's Word Song",
-      "bgm": "song_backing",
+      "bgm": "song_backing_b2",
       "lines": [
         {
           "text": "A, a, /æ/! Short a!",
@@ -648,7 +648,7 @@
   ],
   "story": {
     "title": "The Word Show",
-    "bgm": "bgm_finale",
+    "bgm": "bgm_b2_finale",
     "panels": [
       {
         "id": "scene_b2_u12_1",

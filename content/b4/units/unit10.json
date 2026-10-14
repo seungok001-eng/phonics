@@ -146,7 +146,7 @@
   ],
   "story": {
     "title": "The Star Room",
-    "bgm": "bgm_finale",
+    "bgm": "bgm_b4_finale",
     "panels": [
       {
         "id": "scene_b4_u10_1",

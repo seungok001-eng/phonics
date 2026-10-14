@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A koala holds a gold key. A seed is in the kite.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892739.8427835,
+   "sec": 4.8,
+   "check": {
+    "transcript": "A koala holds a gold key. A seed is in the kite.",
+    "type": "sentence",
+    "ipa": "ə kwoʊlə hoʊldz ə goʊld ki",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A koala holds a gold key. A seed is in the kite. | TYPE=sentence | IPA=ə kwoʊlə hoʊldz ə goʊld ki | ə sid ɪz ɪn ðə kaɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:18",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_u04_1_n",
+ "sub": "line",
+ "title": "1권 4유닛 해설 · 해설: A koala holds a gold key. A seed is in the kite.",
+ "text": "A koala holds a gold key. A seed is in the kite.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}

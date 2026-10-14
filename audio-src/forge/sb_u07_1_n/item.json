@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Who is under the quilt? A panda draws.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791892813.9743,
+   "sec": 4.48,
+   "check": {
+    "transcript": "Who is under the quilt? A panda draws.",
+    "type": "sentence",
+    "ipa": "hu ˈɪz ˈʌndər ðə ˈkwɪlt ə ˈpændə ˈdrɔːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Who is under the quilt? A panda draws. | TYPE=sentence | IPA=hu ˈɪz ˈʌndər ðə ˈkwɪlt ə ˈpændə ˈdrɔːz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 12:07",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb_u07_1_n",
+ "sub": "line",
+ "title": "1권 7유닛 스토리북 해설 · 해설: Who is under the quilt? A panda draws.",
+ "text": "Who is under the quilt? A panda draws.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
+}
