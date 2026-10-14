@@ -116,7 +116,7 @@
             "text": "/s/ /s/ seal!",
             "audio": "u08_l3",
             "pop": "s",
-            "ko": "/s/ /s/ 물개!"
+            "ko": "s, s 물개!"
           }
         ],
         "video": "vid_u08_1",
@@ -163,7 +163,7 @@
             "text": "/t/ /t/ tomato!",
             "audio": "u08_l6",
             "pop": "t",
-            "ko": "/t/ /t/ 토마토!"
+            "ko": "t, t 토마토!"
           }
         ],
         "ko": "토마토 속에 씨앗이 있어요. 핍은 이를 톡톡 치려는데 이가 없어요! 어두워진 그럼블은 그루터기에 걸려 넘어져요.",
@@ -208,7 +208,7 @@
             "text": "/u/ /u/ up!",
             "audio": "u08_l9",
             "pop": "u",
-            "ko": "/u/ /u/ 위!"
+            "ko": "u, u 위!"
           }
         ],
         "video": "vid_u08_2",
@@ -490,7 +490,7 @@
             "who": "bun",
             "text": "/s/ /s/ seal! Pop!",
             "audio": "sb_u08_1_3",
-            "ko": "/s/ /s/ 물개! 펑!"
+            "ko": "s, s 물개! 펑!"
           }
         ],
         "task": "Find the s things!",
@@ -516,7 +516,7 @@
             "who": "bun",
             "text": "/t/ /t/ tomato! Pop!",
             "audio": "sb_u08_2_2",
-            "ko": "/t/ /t/ 토마토! 펑!"
+            "ko": "t, t 토마토! 펑!"
           },
           {
             "who": "grumble",
@@ -548,7 +548,7 @@
             "who": "bun",
             "text": "/u/ /u/ umbrella! Pop!",
             "audio": "sb_u08_3_2",
-            "ko": "/u/ /u/ 우산! 펑!"
+            "ko": "u, u 우산! 펑!"
           },
           {
             "who": "narrator",

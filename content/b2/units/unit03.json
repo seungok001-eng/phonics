@@ -203,7 +203,7 @@
             "text": "/n/ /e/ /t/ net!",
             "audio": "blend_net__beads",
             "pop": "net",
-            "ko": "/n/ /e/ /t/ 그물!"
+            "ko": "n-e-t 그물!"
           },
           {
             "who": "hedgie",
@@ -245,7 +245,7 @@
             "text": "/h/ /e/ /n/ hen!",
             "audio": "blend_hen__beads",
             "pop": "hen",
-            "ko": "/h/ /e/ /n/ 암탉!"
+            "ko": "h-e-n 암탉!"
           },
           {
             "who": "hedgie",
@@ -592,7 +592,7 @@
             "who": "beads",
             "text": "/n/ /e/ /t/ net!",
             "audio": "sb2_u03_2_1",
-            "ko": "/n/ /e/ /t/ 그물!"
+            "ko": "n-e-t 그물!"
           },
           {
             "who": "hedgie",

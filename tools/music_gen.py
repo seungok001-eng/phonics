@@ -31,7 +31,7 @@ for bk in (1, 2, 3, 4):
     TRACKS.append({'name': 'song_backing' if bk == 1 else f'song_backing_b{bk}', 'len': 120000, 'inst': True, 'kind': 'backing', 'bpm': 100,
                    'prompt': f"instrumental cheerful children's sing-along backing track, {WORLD[bk]}, soft bass, light drums, exactly 100 bpm, 4/4, steady tempo, simple repeating chords, {NOV}"})
 TRACKS.insert(0, {'name': 'chant_beat', 'len': 40000, 'inst': True, 'kind': 'beat', 'bpm': 100,
-                  'prompt': f"instrumental kids classroom chant backing, steady clap and stomp, woodblock, light shaker, exactly 100 bpm, 4/4, very steady tempo, no melody, simple 2-bar loop, {NOV}"})
+                  'prompt': f"instrumental gentle children's chant groove, soft warm bass, light ukulele strums on the beat, soft brushed snare, quiet shaker, exactly 100 bpm, 4/4, very steady tempo, calm and friendly, simple 2-bar loop, no harsh clicks, no woodblock, no claps, {NOV}"})
 TRACKS.insert(0, {'name': 'abc_song', 'kind': 'song', 'plan': {
     'positive_global_styles': ["gentle children's song", 'kids choir', 'music box', 'soft piano', '96 bpm', 'slow and very clear English', 'each letter name sung clearly and separately'],
     'negative_global_styles': ['rap', 'fast', 'distortion', 'adult solo voice'],

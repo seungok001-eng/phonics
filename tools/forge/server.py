@@ -524,9 +524,10 @@ def topview_generate(prompt, ref_png, aspect, model, size):
     for _ in range(90):
         time.sleep(4)
         r = topview_call(f'/v1/common_task/{kind}/task/query?taskId={task}&needCloudFrontUrl=true')
-        if r.get('status') == 'fail': raise RuntimeError('탑뷰 실패: ' + str(r.get('errorMsg'))[:300])
-        if r.get('status') == 'success':
-            img = next((x for x in r.get('images') or [] if x.get('status', 'success') == 'success' and x.get('filePath')), None)
+        st = str(r.get('status') or '').lower()   # 위는 소문자, 그림마다는 'SUCCESS' 처럼 대문자로 온다
+        if st == 'fail': raise RuntimeError('탑뷰 실패: ' + str(r.get('errorMsg'))[:300])
+        if st == 'success':
+            img = next((x for x in r.get('images') or [] if str(x.get('status') or 'success').lower() == 'success' and x.get('filePath')), None)
             if not img: raise RuntimeError('탑뷰: 그림 없음 ' + str(r.get('errorMsg'))[:300])
             data = urllib.request.urlopen(img['filePath'], timeout=120).read()
             u = state['settings'].setdefault('topview_usage', {'count': 0, 'credits': 0.0})

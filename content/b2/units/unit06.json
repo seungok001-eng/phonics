@@ -200,7 +200,7 @@
             "text": "/p/ /ɪ/ /g/ pig!",
             "audio": "blend_pig__beads",
             "pop": "pig",
-            "ko": "/p/ /ɪ/ /g/ 돼지!"
+            "ko": "p-i-g 돼지!"
           },
           {
             "who": "narrator",
@@ -243,7 +243,7 @@
             "text": "/p/ /ɪ/ /n/ pin!",
             "audio": "blend_pin__beads",
             "pop": "pin",
-            "ko": "/p/ /ɪ/ /n/ 핀!"
+            "ko": "p-i-n 핀!"
           },
           {
             "who": "hedgie",
@@ -590,7 +590,7 @@
             "who": "beads",
             "text": "/p/ /ɪ/ /g/ pig!",
             "audio": "sb2_u06_2_1",
-            "ko": "/p/ /ɪ/ /g/ 돼지!"
+            "ko": "p-i-g 돼지!"
           },
           {
             "who": "narrator",
@@ -617,7 +617,7 @@
             "who": "beads",
             "text": "/p/ /ɪ/ /n/ pin!",
             "audio": "sb2_u06_3_1",
-            "ko": "/p/ /ɪ/ /n/ 핀!"
+            "ko": "p-i-n 핀!"
           },
           {
             "who": "grumble",

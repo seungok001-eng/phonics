@@ -212,7 +212,7 @@
             "text": "/r/ /eɪ/ /n/ rain!",
             "audio": "blend_rain__beads",
             "pop": "rain",
-            "ko": "/r/ /eɪ/ /n/ 비!"
+            "ko": "r-ai-n 비!"
           },
           {
             "who": "narrator",
@@ -296,7 +296,7 @@
             "who": "hedgie",
             "text": "/eɪ/ /eɪ/ paint!",
             "audio": "b4_u06_l10",
-            "ko": "/eɪ/ /eɪ/ 물감!"
+            "ko": "ai, ai 물감!"
           },
           {
             "who": "narrator",
@@ -597,7 +597,7 @@
             "who": "beads",
             "text": "/r/ /eɪ/ /n/ rain!",
             "audio": "sb4_u06_2_1",
-            "ko": "/r/ /eɪ/ /n/ 비!"
+            "ko": "r-ai-n 비!"
           },
           {
             "who": "narrator",

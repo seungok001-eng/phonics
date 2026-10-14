@@ -203,7 +203,7 @@
             "text": "/kl/ /aʊ/ /d/ cloud!",
             "audio": "blend_cloud__beads",
             "pop": "cloud",
-            "ko": "/kl/ /aʊ/ /d/ 구름!"
+            "ko": "cl-ou-d 구름!"
           },
           {
             "who": "fairy",
@@ -246,7 +246,7 @@
             "who": "bun",
             "text": "/aʊ/ /aʊ/ mouse!",
             "audio": "b4_u09_l6",
-            "ko": "/aʊ/ /aʊ/ 생쥐!"
+            "ko": "ou, ou 생쥐!"
           },
           {
             "who": "hedgie",
@@ -595,7 +595,7 @@
             "who": "beads",
             "text": "/m/ /uː/ /n/ moon!",
             "audio": "sb4_u09_2_1",
-            "ko": "/m/ /uː/ /n/ 달!"
+            "ko": "m-oo-n 달!"
           },
           {
             "who": "narrator",

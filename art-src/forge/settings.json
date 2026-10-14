@@ -2,7 +2,7 @@
  "generator": "gemini",
  "auto_approve_ref": false,
  "max_inflight": 1,
- "gemini_model": "gemini-3.1-flash-image",
+ "gemini_model": "topview:Nano Banana 2.1",
  "gemini_size": "1K",
  "gemini_workers": 2,
  "tts_model": "gemini-3.8-flash-tts",
@@ -28,5 +28,9 @@
  "el_usage": {
   "count": 1213,
   "chars": 23136
+ },
+ "topview_usage": {
+  "count": 11,
+  "credits": 2.75
  }
 }

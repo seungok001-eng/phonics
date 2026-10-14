@@ -214,7 +214,7 @@
             "text": "/k/ /aɪ/ /t/ kite!",
             "audio": "blend_kite__beads",
             "pop": "kite",
-            "ko": "/k/ /aɪ/ /t/ 연!"
+            "ko": "k-i-t-e 연!"
           },
           {
             "who": "narrator",
@@ -264,7 +264,7 @@
             "who": "bun",
             "text": "/aɪ/ /aɪ/ slide! Up, up!",
             "audio": "b4_u02_l7",
-            "ko": "/aɪ/ /aɪ/ 미끄럼틀! 올라가, 올라가!"
+            "ko": "i, i 미끄럼틀! 올라가, 올라가!"
           },
           {
             "who": "pip",
@@ -608,7 +608,7 @@
             "who": "beads",
             "text": "/k/ /aɪ/ /t/ kite!",
             "audio": "sb4_u02_2_1",
-            "ko": "/k/ /aɪ/ /t/ 연!"
+            "ko": "k-i-t-e 연!"
           },
           {
             "who": "narrator",

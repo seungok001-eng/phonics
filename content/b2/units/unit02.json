@@ -200,7 +200,7 @@
             "text": "/k/ /æ/ /p/ cap!",
             "audio": "blend_cap__beads",
             "pop": "cap",
-            "ko": "/k/ /æ/ /p/ 야구모자!"
+            "ko": "c-a-p 야구모자!"
           },
           {
             "who": "narrator",
@@ -242,7 +242,7 @@
             "text": "/b/ /æ/ /g/ bag!",
             "audio": "blend_bag__beads",
             "pop": "bag",
-            "ko": "/b/ /æ/ /g/ 가방!"
+            "ko": "b-a-g 가방!"
           },
           {
             "who": "narrator",
@@ -587,7 +587,7 @@
             "who": "beads",
             "text": "/k/ /æ/ /p/ cap!",
             "audio": "sb2_u02_2_1",
-            "ko": "/k/ /æ/ /p/ 야구모자!"
+            "ko": "c-a-p 야구모자!"
           },
           {
             "who": "narrator",
@@ -614,7 +614,7 @@
             "who": "beads",
             "text": "/b/ /æ/ /g/ bag!",
             "audio": "sb2_u02_3_1",
-            "ko": "/b/ /æ/ /g/ 가방!"
+            "ko": "b-a-g 가방!"
           },
           {
             "who": "grumble",

@@ -110,7 +110,7 @@
             "text": "Milk! /m/ /m/ milk!",
             "audio": "u06_l2",
             "pop": "m",
-            "ko": "우유! /m/ /m/ 우유!"
+            "ko": "우유! m, m 우유!"
           },
           {
             "who": "pip",
@@ -164,7 +164,7 @@
             "text": "/n/ /n/ net!",
             "audio": "u06_l5",
             "pop": "n",
-            "ko": "/n/ /n/ 그물!"
+            "ko": "n, n 그물!"
           }
         ],
         "ko": "수달이 그물에 걸렸어요. 핍도 같이 걸려 거꾸로 매달렸어요! 별 아홉 개가 반짝여요.",
@@ -210,7 +210,7 @@
             "text": "/o/ /o/ octopus!",
             "audio": "u06_l8",
             "pop": "o",
-            "ko": "/o/ /o/ 문어!"
+            "ko": "o, o 문어!"
           }
         ],
         "video": "vid_u06_2",
@@ -485,7 +485,7 @@
             "who": "bun",
             "text": "Milk! /m/ /m/ milk! Pop!",
             "audio": "sb_u06_1_2",
-            "ko": "우유! /m/ /m/ 우유! 펑!"
+            "ko": "우유! m, m 우유! 펑!"
           },
           {
             "who": "narrator",
@@ -523,7 +523,7 @@
             "who": "bun",
             "text": "/n/ /n/ net! Pop!",
             "audio": "sb_u06_2_3",
-            "ko": "/n/ /n/ 그물! 펑!"
+            "ko": "n, n 그물! 펑!"
           }
         ],
         "task": "Find the n things!",
@@ -543,7 +543,7 @@
             "who": "bun",
             "text": "/o/ /o/ octopus! Pop!",
             "audio": "sb_u06_3_1",
-            "ko": "/o/ /o/ 문어! 펑!"
+            "ko": "o, o 문어! 펑!"
           },
           {
             "who": "grumble",

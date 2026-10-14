@@ -197,7 +197,7 @@
             "text": "/h/ /ɑ/ /p/ hop!",
             "audio": "blend_hop__beads",
             "pop": "hop",
-            "ko": "/h/ /ɑ/ /p/ 깡충!"
+            "ko": "h-o-p 깡충!"
           },
           {
             "who": "both",
@@ -250,7 +250,7 @@
             "text": "/b/ /ɑ/ /ks/ box!",
             "audio": "blend_box__beads",
             "pop": "box",
-            "ko": "/b/ /ɑ/ /ks/ 상자!"
+            "ko": "b-o-x 상자!"
           }
         ],
         "video": "vid_b2_u09_2",
@@ -583,7 +583,7 @@
             "who": "beads",
             "text": "/h/ /ɑ/ /p/ hop!",
             "audio": "sb2_u09_2_1",
-            "ko": "/h/ /ɑ/ /p/ 깡충!"
+            "ko": "h-o-p 깡충!"
           },
           {
             "who": "both",

@@ -194,7 +194,7 @@
             "text": "/b/ /e/ /d/ bed!",
             "audio": "blend_bed__beads",
             "pop": "bed",
-            "ko": "/b/ /e/ /d/ 침대!"
+            "ko": "b-e-d 침대!"
           },
           {
             "who": "bun",
@@ -241,7 +241,7 @@
             "text": "/l/ /e/ /g/ leg!",
             "audio": "blend_leg__beads",
             "pop": "leg",
-            "ko": "/l/ /e/ /g/ 다리!"
+            "ko": "l-e-g 다리!"
           },
           {
             "who": "grumble",
@@ -579,7 +579,7 @@
             "who": "beads",
             "text": "/b/ /e/ /d/ bed!",
             "audio": "sb2_u04_2_1",
-            "ko": "/b/ /e/ /d/ 침대!"
+            "ko": "b-e-d 침대!"
           },
           {
             "who": "bun",

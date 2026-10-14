@@ -213,7 +213,7 @@
             "text": "/n/ /oʊ/ /t/ note!",
             "audio": "blend_note__beads",
             "pop": "note",
-            "ko": "/n/ /oʊ/ /t/ 쪽지!"
+            "ko": "n-o-t-e 쪽지!"
           },
           {
             "who": "narrator",
@@ -262,7 +262,7 @@
             "who": "bun",
             "text": "/oʊ/ /oʊ/ rope!",
             "audio": "b4_u03_l7",
-            "ko": "/oʊ/ /oʊ/ 밧줄!"
+            "ko": "o, o 밧줄!"
           },
           {
             "who": "pip",
@@ -606,7 +606,7 @@
             "who": "beads",
             "text": "/n/ /oʊ/ /t/ note!",
             "audio": "sb4_u03_2_1",
-            "ko": "/n/ /oʊ/ /t/ 쪽지!"
+            "ko": "n-o-t-e 쪽지!"
           },
           {
             "who": "hedgie",

@@ -210,7 +210,7 @@
             "text": "/b/ /oʊ/ /t/ boat!",
             "audio": "blend_boat__beads",
             "pop": "boat",
-            "ko": "/b/ /oʊ/ /t/ 배!"
+            "ko": "b-oa-t 배!"
           },
           {
             "who": "narrator",
@@ -254,7 +254,7 @@
             "who": "bun",
             "text": "/oʊ/ /oʊ/ coat!",
             "audio": "b4_u08_l7",
-            "ko": "/oʊ/ /oʊ/ 외투!"
+            "ko": "oa, oa 외투!"
           },
           {
             "who": "pip",
@@ -598,7 +598,7 @@
             "who": "beads",
             "text": "/b/ /oʊ/ /t/ boat!",
             "audio": "sb4_u08_2_1",
-            "ko": "/b/ /oʊ/ /t/ 배!"
+            "ko": "b-oa-t 배!"
           },
           {
             "who": "hedgie",

@@ -107,7 +107,7 @@ let chantEl = null;
 function chantTrack(id) {
   return new Promise((res) => {
     chantTrackOff();
-    const a = new Audio(ASSETS + 'music/' + id + '.mp3'); a.loop = true; a.volume = 0.5;
+    const a = new Audio(ASSETS + 'music/' + id + '.mp3'); a.loop = true; a.volume = 0.3;   // 반주는 소리보다 작게
     a.onerror = () => res(0);
     a.oncanplay = () => { if (chantEl !== a) return; a.play().then(() => res(CHANT_BEAT)).catch(() => res(0)); };
     chantEl = a; a.load();

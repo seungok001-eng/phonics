@@ -209,7 +209,7 @@
             "text": "/b/ /ʌ/ /g/ bug!",
             "audio": "blend_bug__beads",
             "pop": "bug",
-            "ko": "/b/ /ʌ/ /g/ 벌레!"
+            "ko": "b-u-g 벌레!"
           },
           {
             "who": "narrator",
@@ -249,7 +249,7 @@
             "text": "/k/ /ʌ/ /p/ cup!",
             "audio": "blend_cup__beads",
             "pop": "cup",
-            "ko": "/k/ /ʌ/ /p/ 컵!"
+            "ko": "c-u-p 컵!"
           },
           {
             "who": "both",
@@ -602,7 +602,7 @@
             "who": "beads",
             "text": "/b/ /ʌ/ /g/ bug!",
             "audio": "sb2_u10_2_1",
-            "ko": "/b/ /ʌ/ /g/ 벌레!"
+            "ko": "b-u-g 벌레!"
           },
           {
             "who": "narrator",
@@ -629,7 +629,7 @@
             "who": "beads",
             "text": "/k/ /ʌ/ /p/ cup!",
             "audio": "sb2_u10_3_1",
-            "ko": "/k/ /ʌ/ /p/ 컵!"
+            "ko": "c-u-p 컵!"
           },
           {
             "who": "pip",

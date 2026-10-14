@@ -215,7 +215,7 @@
             "text": "/k/ /eɪ/ /p/ cape!",
             "audio": "blend_cape__beads",
             "pop": "cape",
-            "ko": "/k/ /eɪ/ /p/ 망토!"
+            "ko": "c-a-p-e 망토!"
           },
           {
             "who": "narrator",
@@ -264,7 +264,7 @@
             "who": "bun",
             "text": "/eɪ/ /eɪ/ snake!",
             "audio": "b4_u01_l7",
-            "ko": "/eɪ/ /eɪ/ 뱀!"
+            "ko": "a, a 뱀!"
           },
           {
             "who": "narrator",
@@ -607,7 +607,7 @@
             "who": "beads",
             "text": "/k/ /eɪ/ /p/ cape!",
             "audio": "sb4_u01_2_1",
-            "ko": "/k/ /eɪ/ /p/ 망토!"
+            "ko": "c-a-p-e 망토!"
           },
           {
             "who": "narrator",

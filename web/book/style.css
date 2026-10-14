@@ -225,7 +225,7 @@ body.teacher .lp-tools .lp-msg { font-size: 26px; } body.teacher .lp-tools .lp-s
 .panel { position: relative; border: 3px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--cream); flex: 1; display: flex; }
 .panel .scene { position: absolute; inset: 0; }
 .panel .scene .pic { width: 100%; height: 100%; }
-.panel .scene img { width: 100%; height: 100%; object-fit: cover; }
+.panel .scene { background: var(--cream); } .panel .scene img { width: 100%; height: 100%; object-fit: contain; }   /* 장면 그림은 자르지 않는다 */
 .panel video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: #000; }
 .panel .no { position: absolute; left: 10px; top: 8px; background: var(--ink); color: #fff; font-family: 'Fredoka'; border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; }
 .panel .bubbles { position: absolute; left: 10px; right: 10px; bottom: 8px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
@@ -431,7 +431,7 @@ body.print .panel .scene img, body.print .stage-pic .pic img { animation: none !
 .hunt-bar .round { font-family: 'Fredoka'; font-size: 20px; color: var(--soft); } .hunt-bar .stars { font-size: 22px; letter-spacing: 2px; } .hunt-bar .msg { font-family: 'Fredoka'; font-size: 22px; color: var(--orange); }
 .hunt { display: flex; flex-direction: column; gap: 10px; flex: 1; min-height: 0; }
 .hunt-scene { width: 100%; aspect-ratio: 4 / 3; max-height: 540px; border: 3px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--cream); display: flex; }
-.hunt-scene .pic { width: 100%; height: 100%; } .hunt-scene img { width: 100%; height: 100%; object-fit: cover; }
+.hunt-scene .pic { width: 100%; height: 100%; } .hunt-scene img { width: 100%; height: 100%; object-fit: contain; }
 .hunt-side { display: flex; flex-direction: column; gap: 10px; }
 .hunt-q { font-family: 'Fredoka'; font-size: 30px; cursor: pointer; } .hunt-q b { font-family: 'Andika'; font-size: 40px; }
 .hunt-ws { display: flex; flex-wrap: wrap; gap: 10px; }
@@ -440,20 +440,20 @@ body.print .panel .scene img, body.print .stage-pic .pic img { animation: none !
 .hunt-w.no { border-color: var(--bad); animation: shake .4s; }
 .hunt-print { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; flex: 1; }
 .hp { display: flex; gap: 8px; border: 2px solid var(--line); border-radius: 12px; padding: 6px; }
-.hp-scene { width: 200px; height: 150px; flex: none; border-radius: 8px; overflow: hidden; } .hp-scene .pic { width: 100%; height: 100%; } .hp-scene img { width: 100%; height: 100%; object-fit: cover; }
+.hp-scene { width: 200px; height: 150px; flex: none; border-radius: 8px; overflow: hidden; } .hp-scene .pic { width: 100%; height: 100%; } .hp-scene img { width: 100%; height: 100%; object-fit: contain; }
 .hp-side { display: flex; flex-direction: column; gap: 4px; font-size: 17px; } .hp-side b { font-family: 'Fredoka'; font-size: 17px; } .hp-side b span { font-family: 'Andika'; font-size: 22px; }
 .hp-w { font-weight: 700; }
 /* 공연(되돌아보기): 무대 + 12장면 띠 */
 .stage { display: flex; gap: 12px; height: 330px; flex: none; }
 .stage-pic { width: 380px; flex: none; aspect-ratio: 4 / 3; border: 3px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--cream); display: flex; }
-.stage-pic .pic { width: 100%; height: 100%; } .stage-pic img { width: 100%; height: 100%; object-fit: cover; }
+.stage-pic .pic { width: 100%; height: 100%; } .stage-pic img { width: 100%; height: 100%; object-fit: contain; }
 .stage-cap { flex: 1; display: flex; flex-direction: column; gap: 12px; justify-content: center; }
 .stage-title { font-family: 'Fredoka'; font-size: 26px; color: var(--orange); }
 .stage-cap .bubble { font-size: 24px; max-width: 100%; }
 .rc-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; flex: none; }
 .rc-cell { position: relative; border: 2px solid var(--line); border-radius: 12px; padding: 4px; display: flex; flex-direction: column; gap: 3px; cursor: pointer; min-height: 0; background: #fff; }
 .rc-cell .u { position: absolute; left: 6px; top: 6px; background: var(--ink); color: #fff; font-family: 'Fredoka'; font-size: 11px; border-radius: 8px; padding: 0 6px; z-index: 1; }
-.rc-cell > .pic { width: 100%; aspect-ratio: 4 / 3; border-radius: 8px; } .rc-cell > .pic img { width: 100%; height: 100%; object-fit: cover; }
+.rc-cell > .pic { width: 100%; aspect-ratio: 4 / 3; border-radius: 8px; } .rc-cell > .pic img { width: 100%; height: 100%; object-fit: contain; }
 .rc-cell .ln { display: flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; line-height: 1.2; }
 .rc-cell .ln .av { width: 22px; height: 22px; border-radius: 50%; overflow: hidden; flex: none; font-size: 11px; display: inline-flex; align-items: center; justify-content: center; background: var(--cream); } .rc-cell .ln .av img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .rc-cell.on, .rc-cell.hl { border-color: var(--orange); background: #FFF3E6; }
@@ -621,17 +621,21 @@ body.print .page:last-child { page-break-after: auto; }
 body.print .say { cursor: default; }
 body.print .spk, body.print .btn { display: none; }
 body.print .pic.missing { border-style: solid; }
-/* 스토리북 인쇄 (A5 가로 210×148mm): 그림이 쪽을 채우고 아래에 글 띠 */
+/* 스토리북 인쇄 (A5 가로 210×148mm): 표지는 그림이 쪽을 채우고, 본문 쪽은 위 그림(자르지 않음) + 아래 글 띠(그림을 가리지 않게 따로) */
 body.print .page.story { width: 210mm; height: 148mm; padding: 0; display: block; background: #fff; }
 .page.story .art { position: absolute; inset: 0; }
 .page.story .art .pic { width: 100%; height: 100%; border-radius: 0; }
 .page.story .art .pic img { width: 100%; height: 100%; object-fit: cover; }
 .page.story .art .pic.missing .ph { font-size: 28px; }
 .page.story .band { position: absolute; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,.93); padding: 4mm 8mm 4mm; display: flex; align-items: flex-end; gap: 6mm; }
+body.print .page.story:not(.cover) { display: flex; flex-direction: column; }
+.page.story:not(.cover) .art { position: relative; inset: auto; flex: 1; min-height: 0; background: var(--cream); }
+.page.story:not(.cover) .art .pic img { object-fit: contain; }
+.page.story:not(.cover) .band { position: static; background: #fff; border-top: 1px solid var(--line); padding: 2.5mm 8mm 3mm; align-items: center; }
 .page.story .band .txt { flex: 1; display: flex; flex-direction: column; gap: 2mm; min-width: 0; }
 .page.story .band .where { font-family: 'Fredoka'; font-size: 10px; color: var(--soft); }
-.page.story .line { display: flex; align-items: center; gap: 8px; font-family: 'Andika'; font-size: 22px; line-height: 1.25; }
-.page.story .line .av { width: 32px; height: 32px; border-radius: 50%; background: var(--cream); overflow: hidden; display: inline-flex; align-items: center; justify-content: center; flex: none; font-size: 14px; }
+.page.story .line { display: flex; align-items: center; gap: 8px; font-family: 'Andika'; font-size: 19px; line-height: 1.2; }
+.page.story .line .av { width: 26px; height: 26px; border-radius: 50%; background: var(--cream); overflow: hidden; display: inline-flex; align-items: center; justify-content: center; flex: none; font-size: 14px; }
 .page.story .line .av img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .page.story .task { align-self: flex-start; background: var(--yellow); border-radius: 10px; padding: 1px 10px; font-family: 'Andika'; font-size: 15px; font-weight: 700; margin-top: 1mm; }
 .page.story .task small { font-weight: 400; margin-left: 6px; font-size: 11px; }
@@ -740,3 +744,8 @@ body.print .me-w4 { height: 56px; } body.print .me-letters { font-size: 48px; }
 .narr.hl, .narr.playing { background: #FFE39A; }
 .page.story .narr { background: rgba(255, 244, 214, .95); padding: 1.5mm 4mm; }
 .page.story .narr .ne { font-size: 18px; } .page.story .narr .nk { font-size: 12px; }
+/* 스토리북 인쇄 본문 쪽: 글 띠를 낮게 — 해설은 한 줄 전체, 대사·과제는 두 칸으로 */
+.page.story:not(.cover) .band .txt { display: grid; grid-template-columns: 1fr 1fr; column-gap: 6mm; row-gap: 1.2mm; align-items: center; }
+.page.story:not(.cover) .band .txt > .where, .page.story:not(.cover) .band .txt > .narr { grid-column: 1 / -1; }
+.page.story:not(.cover) .band .narr { padding: 1mm 4mm; flex-direction: row; align-items: baseline; gap: 4mm; flex-wrap: wrap; }
+.page.story:not(.cover) .band .task { margin-top: 0; }

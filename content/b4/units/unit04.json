@@ -212,7 +212,7 @@
             "text": "/t/ /uː/ /b/ tube!",
             "audio": "blend_tube__beads",
             "pop": "tube",
-            "ko": "/t/ /uː/ /b/ 튜브!"
+            "ko": "t-u-b-e 튜브!"
           },
           {
             "who": "narrator",
@@ -261,7 +261,7 @@
             "who": "bun",
             "text": "/juː/ /juː/ mule!",
             "audio": "b4_u04_l7",
-            "ko": "/juː/ /juː/ 노새!"
+            "ko": "u, u 노새!"
           },
           {
             "who": "pip",
@@ -616,7 +616,7 @@
             "who": "beads",
             "text": "/m/ /juː/ /l/ mule!",
             "audio": "sb4_u04_2_3",
-            "ko": "/m/ /juː/ /l/ 노새!"
+            "ko": "m-u-l-e 노새!"
           }
         ],
         "task": "Find the tube and the mule!",

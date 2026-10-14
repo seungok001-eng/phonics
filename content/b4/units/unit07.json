@@ -210,7 +210,7 @@
             "text": "/tr/ /iː/ tree!",
             "audio": "blend_tree__beads",
             "pop": "tree",
-            "ko": "/tr/ /iː/ 나무!"
+            "ko": "tr-ee 나무!"
           },
           {
             "who": "narrator",
@@ -258,7 +258,7 @@
             "who": "bun",
             "text": "/iː/ /iː/ seal!",
             "audio": "b4_u07_l8",
-            "ko": "/iː/ /iː/ 물개!"
+            "ko": "ea, ea 물개!"
           }
         ],
         "video": "vid_b4_u07_2",
@@ -602,7 +602,7 @@
             "who": "beads",
             "text": "/l/ /iː/ /f/ leaf!",
             "audio": "sb4_u07_2_2",
-            "ko": "/l/ /iː/ /f/ 잎!"
+            "ko": "l-ea-f 잎!"
           },
           {
             "who": "narrator",

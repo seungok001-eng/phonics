@@ -205,7 +205,7 @@
             "text": "/t/ /ɔr/ /tʃ/ torch!",
             "audio": "blend_torch__beads",
             "pop": "torch",
-            "ko": "/t/ /ɔr/ /tʃ/ 횃불!"
+            "ko": "t-or-ch 횃불!"
           },
           {
             "who": "bun",
@@ -247,7 +247,7 @@
             "who": "hedgie",
             "text": "/ɑr/ /ɑr/ harp!",
             "audio": "b4_u10_l6",
-            "ko": "/ɑr/ /ɑr/ 하프!"
+            "ko": "ar, ar 하프!"
           },
           {
             "who": "narrator",
@@ -597,7 +597,7 @@
             "who": "beads",
             "text": "/h/ /ɑr/ /p/ harp!",
             "audio": "sb4_u10_2_1",
-            "ko": "/h/ /ɑr/ /p/ 하프!"
+            "ko": "h-ar-p 하프!"
           },
           {
             "who": "narrator",
