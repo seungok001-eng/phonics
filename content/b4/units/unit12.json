@@ -51,12 +51,12 @@
       "nine",
       "hive",
       "dive",
-      "hope",
+      "rope",
       "note",
       "robe",
       "globe",
       "bone",
-      "rope",
+      "hope",
       "nose",
       "rose",
       "stone",
@@ -98,7 +98,7 @@
       "snow",
       "bowl",
       "crow",
-      "bow",
+      "window",
       "moon",
       "boot",
       "roof",
@@ -120,6 +120,26 @@
       "torch",
       "storm"
     ],
+    "bingo": {
+      "words": [
+        "cape",
+        "cake",
+        "kite",
+        "bike",
+        "rope",
+        "bone",
+        "cube",
+        "mule",
+        "rain",
+        "train",
+        "bee",
+        "leaf",
+        "boat",
+        "moon",
+        "house",
+        "star"
+      ]
+    },
     "test": {
       "read_circle": [
         {
@@ -405,10 +425,10 @@
           "family": "u_e",
           "scene": "scene_b4_u04_3",
           "words": [
-            "dune",
             "mule",
+            "cube",
             "flute",
-            "tube"
+            "dune"
           ]
         },
         {
@@ -624,6 +644,10 @@
         {
           "type": "word_hunt",
           "title": "Word hunt"
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
         }
       ],
       "workbook": [

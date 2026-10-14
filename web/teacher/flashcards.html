@@ -49,25 +49,31 @@ function famBold(book, w, f) {
 (async () => {
   const book = await getBook(), unit = book && await get(`units/unit${String(U).padStart(2, '0')}.json`);
   if (!unit) { document.getElementById('out').textContent = '유닛 없음'; return; }
-  const has = (x) => (x.letters && x.letters.length) || (x.families && x.families.length);
-  document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false && has(x)).map((x) => `<a href="?u=${x.n}${bkq}">U${x.n}</a>`).join(' ');
+  document.getElementById('nav').innerHTML = book.units.filter((x) => x.ready !== false).map((x) => `<a href="?u=${x.n}${bkq}">U${x.n}</a>`).join(' ');
+  // 0유닛: 1권은 알파벳 26글자, 2~4권은 모음 5개 / 복습(5·11): 복습 글자·가족 + 단어(글자마다 1장, 가족마다 2장) / 쇼(12): 글자·가족 카드만
+  const rv = unit.review || {}, info = book.units.find((x) => x.n === U) || {};
+  const fams = unit.families && unit.families.length ? unit.families : rv.families || [];
+  const letters = unit.letters && unit.letters.length ? unit.letters : rv.letters || (U === 0 && !book.families ? Object.keys(book.letters) : []);
+  const nWords = U === 0 || info.show ? 0 : info.review ? (fams.length ? 2 : 1) : 99;   // 카드 한 벌이 너무 길어지지 않게
   const cls = (l) => book.letters[l].kind === 'vowel' ? 'vowel' : 'conso';
   const cards = [];
   // 2권: 가족 카드(-at, 모음 빨강) + 단어 카드(그림·단어, 가족 부분 굵게)
-  for (const f of (unit.families || [])) {
+  if (U === 0 && book.families) for (const v of Object.keys(book.vowels || {})) cards.push(`<div class="card"><span class="tag">Unit 0 · vowel</span><div class="glyph vowel">${v.toUpperCase()}<small>${v}</small></div></div>`);
+  for (const f of fams) {
     const v = (book.families[f] && book.families[f].vowel) || f[0], k = famKindOf(book, f);
     const glyph = k ? (k === 'magic_e' || k === 'team' ? `<span class="vowel">${famLab(book, f)}</span>` : famLab(book, f)) : `-<span class="vowel">${v}</span>${f.slice(f.indexOf(v) + 1)}`;
     cards.push(`<div class="card"><span class="tag">Unit ${U} · ${k ? 'sound pair' : 'word family'}</span><div class="glyph">${glyph}</div></div>`);
-    for (const w of ((unit.words && unit.words[f]) || book.families[f].words)) cards.push(`<div class="card"><span class="tag">Unit ${U} · ${famLab(book, f)}</span><img src="../assets/art/word_${w}.png" alt="${w}" onerror="this.outerHTML='<div class=ph>${w}</div>'"><div class="wd">${famBold(book, w, f)}</div></div>`);
+    const fw = (rv.words || []).length ? rv.words.filter((w) => book.families[f].words.includes(w) || ((book.words[w] || {}).family === f)) : (unit.words && unit.words[f]) || book.families[f].words;
+    for (const w of fw.slice(0, nWords)) cards.push(`<div class="card"><span class="tag">Unit ${U} · ${famLab(book, f)}</span><img src="../assets/art/word_${w}.png" alt="${w}" onerror="this.outerHTML='<div class=ph>${w}</div>'"><div class="wd">${famBold(book, w, f)}</div></div>`);
   }
-  for (const l of (unit.letters || [])) {
+  for (const l of letters) {
     cards.push(`<div class="card"><span class="tag">Unit ${U} · letter</span><div class="glyph ${cls(l)}">${l.toUpperCase()}<small>${l}</small></div></div>`);
-    for (const w of book.letters[l].words) {
+    for (const w of book.letters[l].words.slice(0, nWords)) {
       const i = book.letters[l].final ? w.lastIndexOf(l) : w.indexOf(l);
       cards.push(`<div class="card"><span class="tag">Unit ${U} · ${l.toUpperCase()}${l}</span><img src="../assets/art/word_${w}.png" alt="${w}" onerror="this.outerHTML='<div class=ph>${w}</div>'"><div class="wd">${w.slice(0, i)}<b>${w[i]}</b>${w.slice(i + 1)}</div></div>`);
     }
   }
-  for (const w of unit.sight_words) cards.push(`<div class="card"><span class="tag">Unit ${U} · sight word</span><div class="sw">${w}</div></div>`);
+  for (const w of unit.sight_words || []) cards.push(`<div class="card"><span class="tag">Unit ${U} · sight word</span><div class="sw">${w}</div></div>`);
   let html = '';
   for (let i = 0; i < cards.length; i += 4) html += `<div class="sheet">${cards.slice(i, i + 4).join('')}</div>`;
   document.getElementById('out').innerHTML = html;

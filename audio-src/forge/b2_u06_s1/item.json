@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=The pig is big. | TYPE=sentence | IPA=ðə pɪɡ ɪz bɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The big pig can dig.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967131.304534,
+   "sec": 2.76,
+   "check": {
+    "transcript": "The big pig can dig.",
+    "type": "sentence",
+    "ipa": "ðə bɪg pɪg kæn dɪg.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The big pig can dig. | TYPE=sentence | IPA=ðə bɪg pɪg kæn dɪg. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:58",
+ "applied": "2026-10-14 17:40",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b2_u06_s1",
  "sub": "line",
- "title": "2권 6유닛 문장 1: The pig is big.",
- "text": "The pig is big.",
+ "title": "2권 6유닛 문장 1: The big pig can dig.",
+ "text": "The big pig can dig.",
  "voice": "Kore",
  "book": 2,
  "busy": 0

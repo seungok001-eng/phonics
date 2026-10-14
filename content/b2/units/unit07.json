@@ -29,7 +29,7 @@
     "짧은 모음 i(ɪ) 소리를 알고 -ip·-it 단어를 소리를 이어 읽는다",
     "-ip·-it 단어 8개를 읽고 그림과 잇고 쓴다",
     "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
-    "사이트워드 it, up를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 it(1권 복습), up를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "text": "The cat can sit on it.",
+      "text": "The dog can sit.",
       "audio": "b2_u07_s3",
       "pic": "word_sit",
       "words": [
@@ -129,12 +129,11 @@
       ]
     },
     {
-      "text": "Hit the pit! Hit it!",
+      "text": "Pip can hit it!",
       "audio": "b2_u07_s4",
       "pic": "word_hit",
       "words": [
-        "hit",
-        "pit"
+        "hit"
       ]
     }
   ],
@@ -332,22 +331,22 @@
         "pictures": [
           "zip",
           "lip",
-          "sit"
+          "pit"
         ]
       },
       {
-        "word": "sit",
+        "word": "lip",
         "pictures": [
-          "sit",
-          "hit",
-          "pit"
+          "lip",
+          "zip",
+          "kit"
         ]
       },
       {
         "word": "kit",
         "pictures": [
           "kit",
-          "hit",
+          "pit",
           "cat"
         ]
       },
@@ -381,13 +380,13 @@
         "word": "lip"
       },
       {
-        "word": "hit"
+        "word": "dip"
       },
       {
         "word": "kit"
       },
       {
-        "word": "zip"
+        "word": "pit"
       }
     ],
     "write": [
@@ -396,8 +395,8 @@
         "missing": 1
       },
       {
-        "word": "sit",
-        "missing": 0
+        "word": "pit",
+        "missing": 1
       },
       {
         "word": "kit",
@@ -422,11 +421,11 @@
         ]
       },
       {
-        "word": "sit",
+        "word": "dip",
         "pictures": [
-          "sit",
-          "hit",
-          "kit"
+          "dip",
+          "rip",
+          "pit"
         ]
       },
       {
@@ -449,8 +448,8 @@
         "word": "kit",
         "pictures": [
           "kit",
-          "hit",
-          "sit"
+          "pit",
+          "zip"
         ]
       }
     ]
@@ -483,7 +482,7 @@
       },
       {
         "word": "kit",
-        "missing": 0
+        "missing": 1
       },
       {
         "word": "pit",
@@ -522,7 +521,7 @@
         "answer": 1
       },
       {
-        "text": "The cat can sit.",
+        "text": "The dog can sit.",
         "pictures": [
           "sit",
           "hit"
@@ -530,10 +529,10 @@
         "answer": 0
       },
       {
-        "text": "Hit the pit!",
+        "text": "Pip can hit it!",
         "pictures": [
           "kit",
-          "pit"
+          "hit"
         ],
         "answer": 1
       }
@@ -542,9 +541,9 @@
       "zip",
       "lip",
       "dip",
-      "sit",
-      "hit",
-      "kit"
+      "kit",
+      "pit",
+      "rip"
     ]
   },
   "storybook": {

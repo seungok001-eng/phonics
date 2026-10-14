@@ -31,7 +31,8 @@
     "모음 짝 ai·ay 가 긴 a(eɪ) 소리 하나를 내는 것을 안다",
     "ai·ay 단어 10개를 소리를 이어 읽고 그림과 잇고 쓴다",
     "빠진 모음 짝을 듣고 쓴다",
-    "사이트워드 day, play를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 day, play를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다",
+    "※ 선생님 참고: train·tray 의 tr 은 아직 배우지 않은 이어 소리예요(t 와 r 을 빠르게 이어 \"트r\"). 7유닛 tree 도 같아요."
   ],
   "lessons": [
     {
@@ -137,7 +138,7 @@
       ]
     },
     {
-      "text": "We play with clay.",
+      "text": "We play with clay. What a day!",
       "audio": "b4_u06_s4",
       "pic": "word_clay",
       "words": [
@@ -408,7 +409,7 @@
       },
       {
         "word": "sail",
-        "missing": 0
+        "missing": 1
       },
       {
         "word": "tray",

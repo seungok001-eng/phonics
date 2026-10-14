@@ -388,7 +388,7 @@
         "pictures": [
           "wing",
           "ring",
-          "thin"
+          "chin"
         ]
       }
     ],
@@ -417,11 +417,11 @@
       },
       {
         "word": "rock",
-        "missing": 0
+        "missing": 2
       },
       {
         "word": "song",
-        "missing": 1
+        "missing": 2
       }
     ]
   },
@@ -458,7 +458,7 @@
         "pictures": [
           "wing",
           "king",
-          "thin"
+          "chin"
         ]
       },
       {
@@ -483,7 +483,7 @@
       },
       {
         "word": "rock",
-        "missing": 1
+        "missing": 2
       },
       {
         "word": "lock",
@@ -495,7 +495,7 @@
       },
       {
         "word": "king",
-        "missing": 0
+        "missing": 2
       },
       {
         "word": "wing",
@@ -503,7 +503,7 @@
       },
       {
         "word": "song",
-        "missing": 1
+        "missing": 2
       }
     ],
     "family": {

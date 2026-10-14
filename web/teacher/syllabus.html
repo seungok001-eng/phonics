@@ -14,7 +14,7 @@
   th, td { border:1px solid var(--line); padding:5px 7px; vertical-align:top; text-align:left; }
   th { background:var(--cream); font-family:'Fredoka'; font-weight:500; }
   td.c { text-align:center; white-space:nowrap; }
-  tr.rev td { background:#FFF3E6; }
+  tr.rev td { background:#FFF3E6; } tr.fin td { background:#EAF5FF; font-weight:600; }
   .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:297mm; }
   .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
   @page { size:A4 landscape; margin:0; }
@@ -23,14 +23,15 @@
 </style>
 </head>
 <body>
-<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span style="color:var(--soft)">22차시(주 2회 11주) · 33차시(주 3회, 유닛마다 복습 차시 추가)</span></div>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span style="color:var(--soft)" id="topNote"></span></div>
 <div id="out"></div>
 <script>
-// 진도표: book.json 유닛 목록에서 자동으로. 22차시(기본)와 33차시(복습 차시 추가) 두 가지
+// 진도표: book.json 유닛 목록과 유닛 JSON 의 차시에서 자동으로. 주 2회(기본)와 주 3회(유닛마다 복습 차시) 두 가지, 끝에 최종 평가 한 차시
 const BK = +(new URLSearchParams(location.search).get('bk') || 1); let DIR = '';   // 권 번호와 그 권의 content 폴더 ('' = 1권)
 async function get(rel, root) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + (root ? '' : DIR) + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
 async function getBook() { const books = (await get('books.json', true)) || [{ n: 1, dir: '' }]; const info = books.find((x) => x.n === BK) || books[0]; DIR = info.dir || ''; const book = await get('book.json'); if (book && !book.letters && DIR) { const b1 = await get('book.json', true); if (b1) book.letters = b1.letters; } return book; }
-const bkq = BK > 1 ? `&bk=${BK}` : '';   // 링크에 붙일 권 표시
+const bkq = BK > 1 ? `&bk=${BK}` : '';
+const esc = (x) => String(x ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));   // 링크에 붙일 권 표시
 // 3·4권 가족 이름: sh · a_e · ai 는 그대로, 2권 끝소리 가족(-at)과 끝소리(-nd)는 앞에 - (내용의 label 이 있으면 그것)
 function famLab(book, f) { const d = (book.families || {})[f] || {}; return d.label || (!d.kind || d.kind === 'final' ? '-' + String(f).replace(/^-/, '') : f); }
 function famKindOf(book, f) { return ((book.families || {})[f] || {}).kind || ''; }
@@ -53,30 +54,40 @@ function famBold(book, w, f) {
   const KIND = Object.values(book.families || {}).some((f) => f.kind);   // 3·4권 (짝꿍 소리·마법 e·모음 짝)
   const words = (u) => (B2 ? (u.families || []).flatMap((f) => (u.words && u.words[f]) || book.families[f].words) : u.letters.flatMap((l) => book.letters[l].words)).join(', ');
   const sw = (u) => Object.entries(book.sight_words).filter(([w, s]) => s.unit === u.n).map(([w]) => w).join(', ');
+  const famWord = !B2 ? '소리·단어' : !KIND ? '단어 가족' : Object.values(book.families).some((f) => f.kind === 'magic_e') ? '긴 모음' : '짝꿍 소리';   // 복습 줄에 쓰는 말 (3권 짝꿍 소리 · 4권 긴 모음)
+  const range = (a, b) => (b < a ? '—' : a === b ? `p.${a}` : `pp.${a}–${b}`);
+  // 진도표: 유닛 JSON 의 차시(lessons)마다 한 줄 — 쪽 범위도 그 차시의 실제 쪽 수로. withReview 면 일반 유닛 뒤에 복습 차시, 12유닛 뒤에 최종 평가
   function table(withReview) {
     let n = 0, rows = '';
     for (const u of book.units) {
-      const uj = units[u.n];
-      const title = u.title, lt = B2 ? (u.families || []).map((f) => famLab(book, f)).join(' ') : u.letters.map((l) => l.toUpperCase() + l).join(' ');
-      const l1n = units[u.n] ? (units[u.n].lessons[0].pages || []).length : 4, l1w = units[u.n] ? (units[u.n].lessons[0].workbook || []).length : 2;   // 1차시 쪽 수
-      const sb = sbStart(u.n), wb = wbStart(u.n);
-      if (u.n === 0) { n++; rows += `<tr><td class="c">${n}</td><td class="c">0</td><td>${title}</td><td>${B2 ? `모음 5개 소리, 새 친구(${Object.values(book.characters).slice(-1).map((c) => c.ko || c.name).join('')}) 소개, 도입 스토리` : '알파벳 이름·순서 익히기, 캐릭터 소개, 도입 스토리'}</td><td>${B2 ? 'Preview: Vowels' : 'Preview: Alphabet'}</td><td></td><td class="c">pp.${sb}–${sb + 3}</td><td class="c">—</td></tr>`; continue; }
-      if (u.review) {
-        n++; rows += `<tr class="rev"><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>${u.show ? (B2 ? '단어 노래·징검다리·단어 사냥' : '알파벳 노래·길 찾기·단어 사냥') : `${u.review.join('·')}유닛 ${B2 ? '단어 가족' : '소리·단어'} 복습 (게임판·빙고·플래시카드)`}</td><td>${u.show ? 'Show' : 'Review'}</td><td></td><td class="c">pp.${sb}–${sb + 2}</td><td class="c">pp.${wb}</td></tr>`;
-        n++; rows += `<tr class="rev"><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>${u.show ? '되짚기 공연 + 최종 평가 + 수료증' : '복습 스토리 + 유닛 평가'}</td><td></td><td></td><td class="c">pp.${sb + 3}–${sb + 5}</td><td class="c">pp.${wb + 1}</td></tr>`;
-        continue;
-      }
-      const snd = KIND ? (u.families || []).map((f) => '/' + ((book.families[f] || {}).sound || f) + '/').join(' ') : B2 ? `/${(book.vowels && book.vowels[u.vowel] || {}).sound || u.vowel}/` : u.letters.map((l) => '/' + book.letters[l].sound + '/').join(' ');
-      const goal = KIND ? `${(u.families || []).some((f) => famKindOf(book, f) === 'magic_e') ? '마법 e' : '짝꿍 소리'} ${lt} 듣고 말하기·합쳐 읽기, 단어${uj ? ' ' + words(uj).split(', ').length + '개' : ''}` : B2 ? `단어 가족 ${lt} 합쳐 읽기(모음 ${u.vowel}), 단어${uj ? ' ' + words(uj).split(', ').length + '개' : ''}` : `글자 ${lt} 의 이름·소리, 대소문자 쓰기, 단어 9개`;
-      const sbN = cnt(u, 'sb'), wbN = cnt(u, 'wb');
-      n++; rows += `<tr><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>${goal}</td><td>${snd}</td><td>${uj ? words(uj) : ''}</td><td class="c">pp.${sb}–${sb + l1n - 1}</td><td class="c">pp.${wb}–${wb + l1w - 1}</td></tr>`;
-      n++; rows += `<tr><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>${B2 ? '문장 읽기' : '듣고 가리키기'}, 사이트워드(${sw(u) || '—'}), 스토리, 유닛 정리</td><td></td><td>${uj ? uj.story.title : ''}</td><td class="c">pp.${sb + l1n}–${sb + sbN - 1}</td><td class="c">pp.${wb + l1w}–${wb + wbN - 1}</td></tr>`;
-      if (withReview) { n++; rows += `<tr class="rev"><td class="c">${n}</td><td class="c">${u.n}</td><td>${title}</td><td>유닛 복습: 플래시카드 경주, ${B2 ? '단어 잡기' : '소리 잡기'} 게임, 유닛 시험지(A/B형)</td><td></td><td></td><td class="c">—</td><td class="c">—</td></tr>`; }
+      const uj = units[u.n], title = u.title, lt = B2 ? (u.families || []).map((f) => famLab(book, f)).join(' ') : (u.letters || []).map((l) => l.toUpperCase() + l).join(' ');
+      const lessons = uj ? uj.lessons : [{ pages: Array(cnt(u, 'sb')).fill(0), workbook: Array(cnt(u, 'wb')).fill(0) }];
+      let sp = sbStart(u.n), wp = wbStart(u.n);
+      lessons.forEach((ls, li) => {
+        const ns = (ls.pages || []).length, nw = (ls.workbook || []).length, sbR = range(sp, sp + ns - 1), wbR = range(wp, wp + nw - 1); sp += ns; wp += nw;
+        let goal, snd = '', wd = '', cls = '';
+        if (u.n === 0) { goal = `${B2 ? '모음 5개 소리' : '알파벳 이름·순서(알파벳 노래)'}, 친구들 소개${B2 ? `(새 친구 ${Object.values(book.characters).slice(-1).map((c) => c.ko || c.name).join('')})` : ''}, 도입 이야기 · 워크북 없음`; snd = B2 ? 'Preview: Vowels' : 'Preview: Alphabet'; }
+        else if (u.show) { cls = 'rev'; goal = li === 0 ? (B2 ? '노래·징검다리·단어 사냥 (권 전체 복습)' : '알파벳 노래·A to Z 길·단어 사냥 (권 전체 복습)') : '되짚기 공연 + 복습 평가 + 수료증'; snd = li === 0 ? 'Show' : ''; }
+        else if (u.review) { cls = 'rev'; goal = li === 0 ? `${u.review.join('·')}유닛 ${famWord} 복습 (놀이판·카드)` : `복습 이야기 + 빙고 + 복습 평가 (시험지 생성기 복습 ${u.n < 6 ? 1 : 2}, B형 있음)`; snd = li === 0 ? 'Review' : ''; }
+        else if (li === 0) {
+          snd = KIND ? (u.families || []).map((f) => '/' + ((book.families[f] || {}).sound || f) + '/').join(' ') : B2 ? `/${(book.vowels && book.vowels[u.vowel] || {}).sound || u.vowel}/` : u.letters.map((l) => '/' + book.letters[l].sound + '/').join(' ');
+          const k0 = famKindOf(book, (u.families || [])[0]);
+          goal = KIND ? `${k0 === 'magic_e' ? '마법 e' : k0 === 'blend' || k0 === 'final' ? '이어 소리' : k0 === 'team' ? '모음 짝' : '짝꿍 소리'} ${lt} 듣고 말하기·이어 읽기, 단어${uj ? ' ' + words(uj).split(', ').length + '개' : ''}` : B2 ? `단어 가족 ${lt} 이어 읽기(모음 ${u.vowel}), 단어${uj ? ' ' + words(uj).split(', ').length + '개' : ''}` : `글자 ${lt} 의 이름·소리, 대소문자 쓰기, 단어 ${uj ? words(uj).split(', ').length : 9}개`;
+          wd = uj ? words(uj) : '';
+        } else { goal = `${B2 ? '문장 읽기' : '듣고 말하기 복습'}, 사이트워드(${sw(u) || '—'}), 이야기, 유닛 정리`; wd = uj ? uj.story.title : ''; }
+        n++; rows += `<tr class="${cls}"><td class="c">${n}</td><td class="c">${u.n}</td><td>${esc(title)}</td><td>${goal}</td><td>${snd}</td><td>${esc(wd)}</td><td class="c">${sbR}</td><td class="c">${wbR}</td></tr>`;
+      });
+      if (withReview && !u.review && u.n > 0) { n++; rows += `<tr class="rev"><td class="c">${n}</td><td class="c">${u.n}</td><td>${esc(title)}</td><td>유닛 복습: 플래시카드 경주, ${B2 ? '단어 잡기' : '소리 잡기'} 게임, 유닛 시험지 (A형 — B형은 시험지 생성기에서)</td><td></td><td></td><td class="c">—</td><td class="c">—</td></tr>`; }
     }
-    return `<table><tr><th>차시</th><th>유닛</th><th>제목</th><th>목표·활동</th><th>${B2 && !KIND ? '모음' : '소리'}</th><th>단어 · 스토리</th><th>학생책</th><th>워크북</th></tr>${rows}</table>`;
+    // 최종 평가: 12유닛 뒤, 교재 밖 시험지
+    n++; rows += `<tr class="fin"><td class="c">${n}</td><td class="c">—</td><td>최종 평가</td><td><b>최종 평가 (교재 밖 시험지)</b>: 종이 20문항(수준 1~3 중 하나, A/B형) + 말하기 체크리스트 — <a href="test.html?scope=all&level=2${bkq}">시험지 생성기</a> · PDF PopPhonics${BK}_FinalTest.pdf</td><td></td><td></td><td class="c">—</td><td class="c">—</td></tr>`;
+    return { n, html: `<table><tr><th>차시</th><th>유닛</th><th>제목</th><th>목표·활동</th><th>${B2 && !KIND ? '모음' : '소리'}</th><th>단어 · 스토리</th><th>학생책</th><th>워크북</th></tr>${rows}</table>` };
   }
-  document.getElementById('out').innerHTML = `<div class="sheet"><h1>${book.series} ${book.book} 진도표 <small>22차시 · 주 2회 11주 · 50분</small></h1>${table(false)}</div>
-    <div class="sheet"><h1>${book.series} ${book.book} 진도표 <small>33차시 · 주 3회 11주 · 유닛마다 복습 차시</small></h1>${table(true)}</div>`;
+  const t2 = table(false), t3 = table(true);
+  document.getElementById('topNote').textContent = `${t2.n}차시(주 2회 약 ${Math.ceil(t2.n / 2)}주) · ${t3.n}차시(주 3회 약 ${Math.ceil(t3.n / 3)}주, 유닛마다 복습 차시) — 둘 다 마지막은 최종 평가`;
+  document.getElementById('out').innerHTML = `<div class="sheet"><h1>${esc(book.title)} 진도표 <small>${t2.n}차시 (0~12유닛 ${t2.n - 1} + 최종 평가 1) · 주 2회 약 ${Math.ceil(t2.n / 2)}주 · 50분</small></h1>${t2.html}</div>
+    <div class="sheet"><h1>${esc(book.title)} 진도표 <small>${t3.n}차시 · 주 3회 약 ${Math.ceil(t3.n / 3)}주 · 유닛마다 복습 차시</small></h1>${t3.html}</div>`;
+  window.PRINT_READY = true;
 })();
 </script>
 </body>

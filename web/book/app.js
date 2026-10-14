@@ -238,12 +238,16 @@ function chunkTiles(w) {
   ch.forEach((c, k) => { if (c.includes('_')) { const [v, e] = c.split('_'); out.push({ t: v, k, me: true }); tail.push({ t: e || 'e', k, me: true, silent: true }); } else out.push({ t: c, k }); });
   return out.concat(tail);
 }
-// 덩어리 하나의 소리 (차례로 들려줄 것들): 낱글자 → 글자 소리 · 같은 글자 둘(ll) → 그 글자 · 가족(sh·a_e·ai) → sound_<덩어리>
+// 덩어리 하나의 소리 (차례로 들려줄 것들): 낱글자 → 글자 소리 · 같은 글자 둘(ll) → 그 글자 · 가족(sh·a_e·ai) → sound_<덩어리>(단어의 ipa 가 다르면 그 소리의 가족)
 // · 그 밖(se·st)은 IPA 가 글자 하나의 소리와 같으면 그 글자(se /s/ → sound_s), 아니면 글자마다(st → /s/ /t/)
 function chunkItems(c, ipa) {
   if (c.length === 1) return [letterSound(c)];
   if (/^(.)\1$/.test(c)) return [letterSound(c[0])];
-  if (famInfo(c).kind || FAM_SAY[c]) return [{ id: 'sound_' + c, text: famSay(c) }];
+  if (famInfo(c).kind || FAM_SAY[c]) {
+    // 그 단어의 덩어리 소리(ipa)가 가족 소리와 다르면(flute 의 u_e = /uː/, 가족 u_e = /juː/) 같은 소리를 내는 다른 가족(oo /uː/)의 소리로
+    const alt = ipa && famIpa(c) && ipa !== famIpa(c) && Object.keys(App.book.families || {}).find((f) => famKind(f) && famIpa(f) === ipa);
+    return [alt ? famSound(alt) : { id: 'sound_' + c, text: famSay(c) }];
+  }
   const one = ipa && Object.keys(App.book.letters || {}).find((l) => L(l).sound === ipa && !L(l).final);
   return one ? [letterSound(one)] : c.split('').map(letterSound);
 }

@@ -23,7 +23,8 @@
     "두 글자 th 가 한 소리 /θ/ 를 낸다는 것을 알고 말한다",
     "th 단어 5개(thin thumb bath path moth)를 소리를 이어 읽고 그림과 잇고 쓴다",
     "빠진 짝꿍(th)·모음을 듣고 쓴다",
-    "사이트워드 this, that을 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 this(1권 복습), that을 보고 읽고, 배운 단어로 된 문장 4개를 읽는다",
+    "※ 선생님 참고: th 는 소리가 둘이에요. 이 유닛에서 배우는 thin·bath·moth 의 th 는 혀끝을 이 사이에 살짝 내밀고 바람만 내는 소리(ㅆ에 가까운 무성음), 사이트워드 this·that 의 th 는 같은 입 모양에 목을 울리는 소리(ㄷ에 가까운 유성음)예요. this·that 은 통째로 읽는 말로 다뤄요. thumb 의 끝 b 는 소리가 나지 않아요(th-u-m)."
   ],
   "lessons": [
     {
@@ -324,19 +325,11 @@
   "check": {
     "read_circle": [
       {
-        "word": "thin",
-        "pictures": [
-          "thin",
-          "chin",
-          "shell"
-        ]
-      },
-      {
         "word": "thumb",
         "pictures": [
           "thumb",
-          "thin",
-          "chip"
+          "chin",
+          "shell"
         ]
       },
       {
@@ -348,14 +341,6 @@
         ]
       },
       {
-        "word": "path",
-        "pictures": [
-          "path",
-          "bath",
-          "shed"
-        ]
-      },
-      {
         "word": "moth",
         "pictures": [
           "moth",
@@ -364,11 +349,27 @@
         ]
       },
       {
+        "word": "path",
+        "pictures": [
+          "path",
+          "bath",
+          "shed"
+        ]
+      },
+      {
         "word": "chin",
         "pictures": [
           "chin",
-          "thin",
+          "thumb",
           "chip"
+        ]
+      },
+      {
+        "word": "shell",
+        "pictures": [
+          "shell",
+          "moth",
+          "chess"
         ]
       }
     ],
@@ -388,7 +389,7 @@
     ],
     "write": [
       {
-        "word": "thin",
+        "word": "thumb",
         "missing": 0
       },
       {
@@ -410,10 +411,10 @@
     "title": "Read and catch!",
     "rounds": [
       {
-        "word": "thin",
+        "word": "chin",
         "pictures": [
-          "thin",
           "chin",
+          "thumb",
           "ship"
         ]
       },
@@ -437,7 +438,7 @@
         "word": "thumb",
         "pictures": [
           "thumb",
-          "thin",
+          "chin",
           "chess"
         ]
       },
@@ -474,8 +475,8 @@
         "missing": 2
       },
       {
-        "word": "thumb",
-        "missing": 1
+        "word": "chin",
+        "missing": 0
       }
     ],
     "family": {

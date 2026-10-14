@@ -120,7 +120,7 @@
 - 그림: 젤리 병 속 씨앗. 핍은 /j/ 대신 펄쩍펄쩍 뛴다. 팻말을 거꾸로 든 그럼블.
 - **헤지**: The seed is in the jelly!
 - **해설**: Pip jumps and jumps!
-- **번**: /j/ /j/ jelly! Pop!
+- **번**: /dʒ/ /dʒ/ jelly! Pop!
 - 과제: Find the j things! — j로 시작하는 것을 찾아요
 
 ### 17쪽 — `sb_u04_3`

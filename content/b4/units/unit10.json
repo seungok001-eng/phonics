@@ -408,7 +408,7 @@
       },
       {
         "word": "car",
-        "missing": 0
+        "missing": 1
       },
       {
         "word": "corn",
@@ -416,7 +416,7 @@
       },
       {
         "word": "fork",
-        "missing": 2
+        "missing": 1
       }
     ]
   },
@@ -474,7 +474,7 @@
       },
       {
         "word": "car",
-        "missing": 0
+        "missing": 1
       },
       {
         "word": "farm",

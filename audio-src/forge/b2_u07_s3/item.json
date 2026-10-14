@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=The cat can sit on it. | TYPE=sentence | IPA=ðə kæt kən sɪt ɑn ɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The dog can sit.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967135.9694912,
+   "sec": 1.72,
+   "check": {
+    "transcript": "The dog can sit.",
+    "type": "sentence",
+    "ipa": "ðə dɔɡ kæn sɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The dog can sit. | TYPE=sentence | IPA=ðə dɔɡ kæn sɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:00",
+ "applied": "2026-10-14 17:41",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b2_u07_s3",
  "sub": "line",
- "title": "2권 7유닛 문장 3: The cat can sit on it.",
- "text": "The cat can sit on it.",
+ "title": "2권 7유닛 문장 3: The dog can sit.",
+ "text": "The dog can sit.",
  "voice": "Kore",
  "book": 2,
  "busy": 0

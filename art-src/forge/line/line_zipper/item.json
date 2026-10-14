@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791362437.741185,
+ "updated": 1791966874.5542748,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/c709a5bb-2ae1-4a86-b31f-f72a5a2453db?Expires=1791384017&KeyName=labs-flow-prod-cdn-key&Signature=UzMvpFmelfI14TJW_h7xGFbkRqA",
  "prompt_edited": false,
- "applied": "2026-10-07 17:41",
+ "applied": "2026-10-14 17:38",
  "gen": "",
  "job_type": "image",
  "reference": "word_zipper",
@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_zipper.png",
  "book": 1,
- "claimed_at": 1791362400.877565
+ "claimed_at": 1791966849.4725628,
+ "regen": 1
 }

@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791362158.6241324,
+ "updated": 1791966909.4038553,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/84d5fc49-62b2-4651-9790-65b2d3f40544?Expires=1791383738&KeyName=labs-flow-prod-cdn-key&Signature=6NMQOopN3WeJPhO1kS-R6UiqewM",
  "prompt_edited": false,
- "applied": "2026-10-07 17:36",
+ "applied": "2026-10-14 17:38",
  "gen": "",
  "job_type": "image",
  "reference": "word_vet",
@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_vet.png",
  "book": 1,
- "claimed_at": 1791362120.8808198
+ "claimed_at": 1791966879.4826283,
+ "regen": 1
 }

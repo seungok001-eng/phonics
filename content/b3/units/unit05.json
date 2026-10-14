@@ -115,7 +115,7 @@
         "chip",
         "bench",
         "lunch",
-        "thin",
+        "thumb",
         "bath",
         "moth",
         "duck",
@@ -139,7 +139,7 @@
           "word": "chin",
           "pictures": [
             "chin",
-            "thin",
+            "chip",
             "king"
           ]
         },
@@ -216,7 +216,7 @@
       },
       {
         "word": "shed",
-        "missing": 1
+        "missing": 0
       },
       {
         "word": "chip",
@@ -285,10 +285,6 @@
         {
           "type": "review_board",
           "title": "Game board"
-        },
-        {
-          "type": "review_bingo",
-          "title": "Bingo"
         }
       ],
       "workbook": [
@@ -311,6 +307,10 @@
           "type": "story",
           "title": "Story",
           "half": 2
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
         },
         {
           "type": "review_test",

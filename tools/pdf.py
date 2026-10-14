@@ -4,12 +4,14 @@
 #       python tools/pdf.py story      → 스토리북만
 #       python tools/pdf.py guides     → 교사용 이야기 안내서(..._StoryGuide.pdf, A4)·이야기 지도(..._StoryMap.pdf A3 가로, ..._StoryMap_A4.pdf 세로 2쪽)만
 #       python tools/pdf.py answers    → 교사용 정답지만 (..._Answers.pdf: 워크북 쪽 + 학생책 확인·복습 평가 쪽을 같은 배치로, A4 가로에 2쪽)
-#       python tools/pdf.py tests      → 시험지 묶음만 (PopPhonics1_Tests_Units.pdf: 유닛마다 시험지+정답지 / _Tests_Review.pdf: 복습·전체 × 수준 × A/B + 정답지 + 말하기 체크리스트)
+#       python tools/pdf.py tests      → 시험지 묶음만 (PopPhonics1_Tests_Units.pdf: 유닛마다 시험지+정답지 / _Tests_Review.pdf: 복습 1·2 × 수준 × A/B + 정답지 + 말하기
+#                                         / _FinalTest.pdf: 최종 평가(1~10유닛) 수준 1~3 × A/B + 정답지 + 말하기 체크리스트). 묶음마다 맨 앞에 차례 한 장
+#       python tools/pdf.py teacher    → 선생님 자료만 (..._LessonPlans.pdf: 전 유닛 수업안 / ..._Pronunciation.pdf: 선생님용 소리 안내 / PopPhonics_HowTo.pdf: 수업 화면 사용법, 권 공통)
 #       python tools/pdf.py --press    → 인쇄소용: 사방 3mm 도련 + 재단선 판형(A4 → 216×303mm, A5 가로 → 216×154mm) 을 web/pdf/press/ 에, 표지 PDF 도 함께
 #       python tools/pdf.py --book 2   → 2권(content/b2/): 파일 이름 PopPhonics2_..., QR 이름 b2_..., 주소에 &bk=2. index.json 항목에 "book": 2
 # 결과: web/pdf/PopPhonics1_SB_Unit01.pdf, ..._WB_Unit01.pdf, ..._Storybook.pdf, ..._Tests_*.pdf, web/pdf/index.json (홈페이지 목록용, 있던 목록에 합친다)
 #       web/pdf/press/ 에는 같은 이름 + PopPhonics1_SB_Cover.pdf 등 표지
-# 필요: pip install qrcode (한 번), 크롬 또는 엣지.
+# 필요: pip install qrcode (한 번), 크롬 또는 엣지. pip install pypdf 가 있으면 학생책·워크북 유닛 PDF 가 홀수 쪽일 때 빈 쪽(Notes)을 붙여 짝수로 만든다(양면 인쇄).
 import json, os, subprocess, sys, threading, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -126,6 +128,21 @@ def print_pdf(exe, url, out, budget=20000):
         raise RuntimeError(f'PDF 실패: {r.stderr[-400:]}')
 
 
+def pad_even(out):
+    """양면 인쇄: 쪽 수가 홀수면 끝에 빈 쪽 하나를 붙여 다음 유닛이 늘 앞면에서 시작하게. pypdf 가 없으면 알리고 넘어간다."""
+    try:
+        from pypdf import PdfReader, PdfWriter
+    except ImportError:
+        print('  (pypdf 가 없어 짝수 쪽 맞추기를 건너뛴다 — pip install pypdf)'); return
+    r = PdfReader(out)
+    if len(r.pages) % 2 == 0: return
+    w = PdfWriter(); w.append(r)
+    box = r.pages[-1].mediabox
+    w.add_blank_page(width=box.width, height=box.height)   # 빈 쪽 (메모용)
+    with open(out, 'wb') as f: w.write(f)
+    print(f'  홀수 쪽이라 빈 쪽 하나를 붙였다 → {len(r.pages) + 1}쪽')
+
+
 def book_dir(bk):
     """권 번호 → content 안 폴더 ('' = 1권). content/books.json 이 있으면 거기서, 없으면 1권만."""
     bp = os.path.join(ROOT, 'content', 'books.json')
@@ -147,7 +164,8 @@ def main():
     tests_only = 'tests' in args
     guides_only = 'guides' in args
     answers_only = 'answers' in args
-    special = story_only or tests_only or guides_only or answers_only   # 묶음 하나만 뽑을 때
+    teacher_only = 'teacher' in args
+    special = story_only or tests_only or guides_only or answers_only or teacher_only   # 묶음 하나만 뽑을 때
     out_dir = os.path.join(OUT, 'press') if press else OUT
     cdir = book_dir(bk)                                   # 'b2/' 처럼 권 폴더
     q = ('&press=1' if press else '') + (f'&bk={bk}' if bk > 1 else '')
@@ -160,7 +178,8 @@ def main():
     exe = browser(); srv = serve(); time.sleep(0.5)
     base = f'http://localhost:{PORT}/web/book'
     index, units = [], {}
-    def entry(title, out): return {'book': bk, 'title': title, 'file': os.path.basename(out)}
+    bt = book.get('title') or f'Pop! Phonics {bk}'          # 목록 제목 앞에 권 이름 (홈페이지 PDF 목록이 권마다 구분되게)
+    def entry(title, out, b=bk): return {'book': b, 'title': f'{bt} · {title}' if b else title, 'file': os.path.basename(out)}
     try:
         for x in book['units']:
             u = x['n']
@@ -174,6 +193,7 @@ def main():
                 for p in range(1, n + 1): make_qr(f"{book['site_base']}/book/?b={b}&u={u}&p={p}{'&bk=%d' % bk if bk > 1 else ''}", f'{qk}{b}_u{u:02d}_p{p}')
                 out = os.path.join(out_dir, f'{pre}_{label}_Unit{u:02d}.pdf')
                 print_pdf(exe, f'{base}/print.html?b={b}&u={u}{q}', out)
+                if not press: pad_even(out)   # 가정용은 양면 인쇄가 어긋나지 않게 짝수 쪽으로 (인쇄소용은 제본소가 맞춘다)
                 index.append(entry(f"{'Student Book' if b == 'sb' else 'Workbook'} Unit {u} — {unit['title']}", out))
                 print(f'{os.path.basename(out)}  ({n}쪽, {os.path.getsize(out) // 1024}KB)')
         # 스토리북 (A5 가로): 유닛 하나만 뽑을 때는 건너뛴다
@@ -187,8 +207,10 @@ def main():
         # 시험지 묶음 (가정용 출력에만): 유닛별 / 복습·전체. 쪽이 많아 시간 예산을 넉넉히
         if only is None and not press and (not special or tests_only):
             art = small_art(); aq = f'&art={art}' if art else ''
-            for name, label in (('units', 'Unit Tests — 유닛별 시험지 + 정답지'), ('review', 'Review Tests — 복습·전체 시험지 + 정답지 + 말하기 체크리스트')):
-                out = os.path.join(out_dir, f'{pre}_Tests_{name.capitalize()}.pdf')
+            for name, fn, label in (('units', 'Tests_Units', 'Unit Tests — 유닛별 시험지 + 정답지'),
+                                    ('review', 'Tests_Review', 'Review Tests — 복습 1·2 시험지 + 정답지 + 말하기 체크리스트'),
+                                    ('final', 'FinalTest', '최종 평가 Final Test — 수준 1~3 · A/B형 + 정답지 + 말하기 체크리스트')):
+                out = os.path.join(out_dir, f'{pre}_{fn}.pdf')
                 print_pdf(exe, f'http://localhost:{PORT}/web/teacher/test.html?batch={name}{aq}{"&bk=%d" % bk if bk > 1 else ""}', out, budget=90000)
                 index.append(entry(label, out))
                 print(f'{os.path.basename(out)}  ({os.path.getsize(out) // 1024}KB)')
@@ -209,6 +231,17 @@ def main():
             print_pdf(exe, f'http://localhost:{PORT}/web/teacher/answers.html?{"bk=%d&" % bk if bk > 1 else ""}{aq.lstrip("&")}', out, budget=60000)
             index.append(entry('Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)', out))
             print(f'{os.path.basename(out)}  ({os.path.getsize(out) // 1024}KB)')
+        # 선생님 자료: 전 유닛 수업안 · 선생님용 소리 안내 (권마다) + 수업 화면 사용법 (권 공통, 1권을 뽑을 때만) — 가정용 출력에만
+        if only is None and not press and (not special or teacher_only):
+            tb = f'http://localhost:{PORT}/web/teacher'; bq = f'bk={bk}&' if bk > 1 else ''
+            jobs = [('LessonPlans', f'{tb}/lesson-plan.html?{bq}u=all', '수업안 — 전 유닛 (0~12유닛, 차시마다 흐름·시간·숙제)', bk),
+                    ('Pronunciation', f'{tb}/pronunciation.html?bk={bk}', '선생님용 소리 안내 — 우리말 비슷한 소리·입 모양·흔한 실수', bk)]
+            if bk == 1: jobs.append(('HowTo', f'{tb}/how-to.html', '수업 화면 사용법 · 학급 운영 (1~4권 공통)', 0))
+            for name, url, label, b in jobs:
+                out = os.path.join(out_dir, f'{pre}_{name}.pdf' if b else f'PopPhonics_{name}.pdf')
+                print_pdf(exe, url, out, budget=60000)
+                index.append(entry(label, out, b))
+                print(f'{os.path.basename(out)}  ({os.path.getsize(out) // 1024}KB)')
         # 인쇄소용이면 표지도 (앞·뒤 한 벌씩)
         if press and only is None and not special:
             make_qr(book['site_base'], 'site')
@@ -226,7 +259,11 @@ def main():
     old = json.load(open(ip, encoding='utf-8')) if os.path.exists(ip) else []
     names = {e['file'] for e in index}
     merged = [e for e in old if e['file'] not in names and e['file'].replace('PomiPhonics', 'PopPhonics') not in names and os.path.exists(os.path.join(out_dir, e['file']))] + index
-    merged.sort(key=lambda e: (e.get('book', 1), 0 if '_SB_' in e['file'] or '_WB_' in e['file'] else 1 if 'Storybook' in e['file'] else 2 if 'Tests' in e['file'] or 'Answers' in e['file'] else 3, e['file']))
+    # 옛 목록 항목(권 이름이 없는 제목)도 권 이름을 붙여 둔다 — 다음 실행 전에도 홈페이지 목록이 권마다 구분되게
+    for e in merged:
+        if e.get('book') and not e['title'].startswith('Pop! Phonics'): e['title'] = f"Pop! Phonics {e['book']} · {e['title']}"
+    cat = lambda f: 0 if '_SB_' in f or '_WB_' in f else 1 if 'Storybook' in f else 2 if 'FinalTest' in f else 3 if 'Tests' in f or 'Answers' in f else 4
+    merged.sort(key=lambda e: (e.get('book', 1), cat(e['file']), e['file']))
     json.dump(merged, open(ip, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 

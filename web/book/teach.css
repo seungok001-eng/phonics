@@ -307,3 +307,14 @@
 .sl-glance .gl-pic img { width: 100%; height: 100%; object-fit: contain; display: block; }   /* 그림을 자르지 않고 통째로 */
 .sl-glance .gl-pic .no { position: absolute; left: 8px; top: 8px; width: 40px; height: 40px; border-radius: 50%; background: var(--ink); color: #fff; font: 700 22px 'Fredoka'; display: flex; align-items: center; justify-content: center; }
 .sl-glance .gl-t { flex: 1; font-size: 24px; line-height: 1.35; font-family: 'Malgun Gothic', sans-serif; }
+
+/* 차시 끝 숙제 안내 (그 차시 학생책 마지막 쪽 뒤 한 장) */
+.sl-hw { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; text-align: center; }
+.sl-hw .hw-big { font-family: 'Fredoka'; font-weight: 700; font-size: 110px; color: var(--orange); line-height: 1; }
+.sl-hw .hw-pages { font-family: 'Fredoka'; font-weight: 700; font-size: 84px; color: var(--blue); }
+.sl-hw .hw-ko { font-size: 40px; color: var(--ink); }
+.sl-hw .hw-list { display: flex; flex-direction: column; gap: 10px; font-size: 30px; background: var(--cream); border-radius: 22px; padding: 18px 34px; text-align: left; }
+.sl-hw .hw-list b { font-family: 'Fredoka'; color: var(--blue); margin-right: 18px; }
+/* 읽고 그림 찾기: 그림이 몇 줄이든(가족 4개·단어 12개) 남은 높이에 맞춰 줄어든다 */
+.sl-fw .fw-pics { grid-auto-rows: minmax(0, 1fr); }
+.sl-fw .fw-pic { min-height: 0; } .sl-fw .fw-pic .pic { height: auto; flex: 1 1 0; min-height: 0; }

@@ -38,6 +38,7 @@
   .ask { font-size:12.5px; margin:2px 0; } .ask b { background:var(--blue); color:#fff; border-radius:5px; padding:0 5px; font-family:'Fredoka'; margin-right:5px; font-size:11px; } .ask small { color:var(--soft); margin-left:6px; }
   .hid { font-size:12px; color:var(--soft); margin-top:4px; } .hid span { border:1px solid var(--line); border-radius:6px; padding:0 6px; margin-right:3px; font-family:'Andika'; color:var(--ink); }
   .sb td.th { width:36mm; } .sb .thumbw { width:34mm; height:25.5mm; }
+  .ln.nr b, .ln.nr .en { color:#3E8E2F; }
   .task { background:#FFF3D6; border-radius:6px; padding:1px 8px; font-size:12px; display:inline-block; margin-top:3px; }
   .note { color:var(--soft); font-size:12px; }
   .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:210mm; }
@@ -60,6 +61,8 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 const ART = new URLSearchParams(location.search).get('art') || '../assets/art/';   // pdf.py 는 축소본 폴더(build/art_small)를 넘겨 PDF 를 가볍게 한다
 const art = (id) => `${ART}${id}${/^(scene_|sb\d*_|cast_sheet)/.test(id) ? '.jpg' : '.png'}`;
 const thumb = (id, label) => `<span class="thumbw">${esc(label || id)}<img src="${art(id)}" alt="" onerror="this.remove()"></span>`;   // 그림이 없으면 뒤의 글자가 보인다
+// 장면 해설 한 줄(narr = {text, ko, audio}): 대사 앞에 초록으로 (있는 유닛만)
+const narrLn = (pn) => (pn && pn.narr ? `<div class="ln nr"><b>해설:</b> <span class="en">${esc(pn.narr.text)}</span>${pn.narr.ko ? `<span class="ko">${esc(pn.narr.ko)}</span>` : ''}</div>` : '');
 const firstSentence = (t) => { const m = /^[^.!?。]*[.!?。]/.exec(t || ''); return m ? m[0] : (t || ''); };
 (async () => {
   const book = await getBook(); if (!book) { document.getElementById('out').textContent = 'book.json 을 읽지 못했어요'; return; }
@@ -78,10 +81,10 @@ const firstSentence = (t) => { const m = /^[^.!?。]*[.!?。]/.exec(t || ''); re
     const u = units[x.n]; if (!u || !u.story) continue;
     const st = u.story;
     const panels = st.panels.map((pn, i) => `<tr><td class="th"><span class="no">${i + 1}</span>${thumb(pn.id, `칸 ${i + 1}`)}</td>
-      <td>${pn.lines.map((ln) => `<div class="ln"><b>${esc(who(ln.who))}:</b> <span class="en">${esc(ln.text)}</span>${ln.ko ? `<span class="ko">${esc(ln.ko)}</span>` : ''}</div>`).join('')}</td>
+      <td>${narrLn(pn)}${pn.lines.map((ln) => `<div class="ln"><b>${esc(who(ln.who))}:</b> <span class="en">${esc(ln.text)}</span>${ln.ko ? `<span class="ko">${esc(ln.ko)}</span>` : ''}</div>`).join('')}</td>
       <td>${pn.ko ? `<div class="kd">${esc(pn.ko)}</div>` : ''}${(pn.ask || []).map((a) => `<div class="ask"><b>Q</b>${esc(a.en)}<small>${esc(a.ko)}</small></div>`).join('')}${(pn.hidden || []).length ? `<div class="hid">🔍 숨은 단어: ${pn.hidden.map((w) => `<span>${esc(w)}</span>`).join('')}</div>` : ''}</td></tr>`).join('');
     const sbp = (u.storybook && u.storybook.pages) || [];
-    const sb = sbp.length ? `<h2>스토리북 쪽 (${sbp.length}쪽)</h2><table class="sb">${sbp.map((pg, i) => `<tr><td class="th">${thumb(pg.id, `쪽 ${i + 1}`)}</td><td>${(pg.lines || []).map((ln) => `<div class="ln"><b>${esc(who(ln.who))}:</b> <span class="en">${esc(ln.text)}</span>${ln.ko ? `<span class="ko">${esc(ln.ko)}</span>` : ''}</div>`).join('')}${pg.ko ? `<div class="kd" style="margin-top:4px">${esc(pg.ko)}</div>` : ''}${pg.task ? `<div class="task">✨ ${esc(pg.task)}${pg.task_ko ? ` <span class="note">${esc(pg.task_ko)}</span>` : ''}</div>` : ''}</td></tr>`).join('')}</table>` : '';
+    const sb = sbp.length ? `<h2>스토리북 쪽 (${sbp.length}쪽)</h2><table class="sb">${sbp.map((pg, i) => `<tr><td class="th">${thumb(pg.id, `쪽 ${i + 1}`)}</td><td>${narrLn(pg)}${(pg.lines || []).map((ln) => `<div class="ln"><b>${esc(who(ln.who))}:</b> <span class="en">${esc(ln.text)}</span>${ln.ko ? `<span class="ko">${esc(ln.ko)}</span>` : ''}</div>`).join('')}${pg.ko ? `<div class="kd" style="margin-top:4px">${esc(pg.ko)}</div>` : ''}${pg.task ? `<div class="task">✨ ${esc(pg.task)}${pg.task_ko ? ` <span class="note">${esc(pg.task_ko)}</span>` : ''}</div>` : ''}</td></tr>`).join('')}</table>` : '';
     const recap = u.show && u.show.recap ? `<h2>되짚기 공연 (12장면)</h2><table class="sb">${u.show.recap.map((r) => `<tr><td class="th">${thumb(r.scene, `Unit ${r.unit}`)}</td><td><div class="ln"><b>Unit ${r.unit} · ${esc(who(r.line.who))}:</b> <span class="en">${esc(r.line.text)}</span>${r.line.ko ? `<span class="ko">${esc(r.line.ko)}</span>` : ''}</div>${r.ko ? `<div class="kd" style="margin-top:4px">${esc(r.ko)}</div>` : ''}</td></tr>`).join('')}</table>` : '';
     html += `<div class="sheet"><div class="unit-head"><span class="n">Unit ${x.n}</span><h1>${esc(u.title)} <small>${esc(u.title_ko || '')} · ${esc(st.title)}</small></h1></div>
       ${st.synopsis_ko ? `<p class="lead">${esc(st.synopsis_ko)}</p>` : '<p class="note">(synopsis_ko 아직 없음)</p>'}

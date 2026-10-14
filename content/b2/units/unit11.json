@@ -142,12 +142,12 @@
         "fin",
         "zip",
         "lip",
-        "sit",
+        "pit",
         "kit",
         "dog",
         "log",
         "pot",
-        "hot",
+        "dot",
         "top",
         "fox",
         "bug",
@@ -157,9 +157,9 @@
     "test": {
       "read_circle": [
         {
-          "word": "dig",
+          "word": "wig",
           "pictures": [
-            "dig",
+            "wig",
             "pig",
             "dog"
           ]
@@ -181,18 +181,18 @@
           ]
         },
         {
-          "word": "hit",
+          "word": "kit",
           "pictures": [
-            "hit",
+            "kit",
             "hat",
-            "kit"
+            "pit"
           ]
         },
         {
           "word": "hop",
           "pictures": [
             "hop",
-            "hot",
+            "top",
             "mop"
           ]
         },
@@ -238,9 +238,19 @@
         }
       ]
     },
+    "first_letter": [
+      "pig",
+      "fin",
+      "zip",
+      "kit",
+      "dog",
+      "pot",
+      "box",
+      "bug"
+    ],
     "blend": [
       {
-        "word": "win",
+        "word": "fin",
         "missing": 0
       },
       {
@@ -264,11 +274,11 @@
         "missing": 2
       },
       {
-        "word": "hug",
+        "word": "mug",
         "missing": 0
       },
       {
-        "word": "run",
+        "word": "sun",
         "missing": 1
       }
     ],
@@ -314,10 +324,6 @@
         {
           "type": "review_board",
           "title": "Game board"
-        },
-        {
-          "type": "review_bingo",
-          "title": "Bingo"
         }
       ],
       "workbook": [
@@ -340,6 +346,10 @@
           "type": "story",
           "title": "Story",
           "half": 2
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
         },
         {
           "type": "review_test",

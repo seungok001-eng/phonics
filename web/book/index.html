@@ -96,7 +96,8 @@ function mainPlay() { Sound.unlock(); const b = document.querySelector('.main-pl
 function toggleTeacher() { App.teacher = !App.teacher; const q = new URLSearchParams(location.search); if (App.teacher) q.set('t', '1'); else q.delete('t'); history.replaceState(null, '', '?' + q); route(); }
 function toggleFull() { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); }
 // 선생님 모드 보기 설정 (교재 배율·교재 칸 너비·필기판 보이기) — 이 기기에 기억
-const View = { zoom: 1, frac: 0.6, side: 'right', board: true, slides: true };
+// 처음에는 "교재만"(슬라이드가 화면을 꽉 채움). 필기판은 위 막대의 7:3·5:5·3:7 한 번이면 열리고, 고른 것은 기억한다
+const View = { zoom: 1, frac: 0.6, side: 'right', board: false, slides: true };
 try { Object.assign(View, JSON.parse(localStorage.getItem('pp_view') || '{}')); } catch (e) {}
 if (!(View.frac > 0.1 && View.frac < 0.95)) View.frac = 0.6;
 if (new URLSearchParams(location.search).get('board') === '0') View.board = false;   // 주소에 board=0 이면 필기판 없이 (16:9 전체화면, 점검 도구도 쓴다)

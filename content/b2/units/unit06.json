@@ -31,7 +31,7 @@
     "짧은 모음 i(ɪ) 소리를 알고 -ig·-in 단어를 소리를 이어 읽는다",
     "-ig·-in 단어 10개를 읽고 그림과 잇고 쓴다",
     "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
-    "사이트워드 can, not를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 can(1권 복습), not를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -106,11 +106,12 @@
   ],
   "sentences": [
     {
-      "text": "The pig is big.",
+      "text": "The big pig can dig.",
       "audio": "b2_u06_s1",
       "pic": "word_pig",
       "words": [
-        "pig"
+        "pig",
+        "dig"
       ]
     },
     {
@@ -132,7 +133,7 @@
       ]
     },
     {
-      "text": "The fig is in the bin.",
+      "text": "The fig is not in the bin.",
       "audio": "b2_u06_s4",
       "pic": "word_bin",
       "words": [
@@ -336,7 +337,7 @@
         "pictures": [
           "pig",
           "pin",
-          "big"
+          "wig"
         ]
       },
       {
@@ -352,7 +353,7 @@
         "pictures": [
           "wig",
           "pig",
-          "win"
+          "fin"
         ]
       },
       {
@@ -382,13 +383,13 @@
     ],
     "match": [
       {
-        "word": "dig"
+        "word": "fig"
       },
       {
         "word": "fin"
       },
       {
-        "word": "win"
+        "word": "tin"
       },
       {
         "word": "wig"
@@ -422,7 +423,7 @@
         "pictures": [
           "pig",
           "pin",
-          "big"
+          "fig"
         ]
       },
       {
@@ -437,8 +438,8 @@
         "word": "wig",
         "pictures": [
           "wig",
-          "dig",
-          "fig"
+          "fig",
+          "pin"
         ]
       },
       {
@@ -450,10 +451,10 @@
         ]
       },
       {
-        "word": "win",
+        "word": "tin",
         "pictures": [
-          "win",
-          "wig",
+          "tin",
+          "ten",
           "fin"
         ]
       }
@@ -546,7 +547,7 @@
     ],
     "write": [
       "pig",
-      "big",
+      "fig",
       "wig",
       "pin",
       "fin",

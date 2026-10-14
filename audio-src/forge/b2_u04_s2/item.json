@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=The bed is red and little. | TYPE=sentence | IPA=ðə bɛd ɪz rɛd ænd lɪtəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A red bed for Grumble!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967123.0882869,
+   "sec": 2.48,
+   "check": {
+    "transcript": "A red bed for Grumble",
+    "type": "sentence",
+    "ipa": "ə rɛd bɛd fɔːr ɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A red bed for Grumble | TYPE=sentence | IPA=ə rɛd bɛd fɔːr ɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:55",
+ "applied": "2026-10-14 17:40",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b2_u04_s2",
  "sub": "line",
- "title": "2권 4유닛 문장 2: The bed is red and little.",
- "text": "The bed is red and little.",
+ "title": "2권 4유닛 문장 2: A red bed for Grumble!",
+ "text": "A red bed for Grumble!",
  "voice": "Kore",
  "book": 2,
  "busy": 0

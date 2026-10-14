@@ -32,7 +32,7 @@
     "bl·cl·fl 은 두 소리를 빠르게 이어 말하는 짝꿍(이어 소리)임을 알고 말한다",
     "bl·cl·fl 단어 8개(block black clock clap clam clip flag flip)를 소리를 이어 읽고 그림과 잇고 쓴다",
     "빠진 짝꿍·모음을 듣고 쓴다",
-    "사이트워드 here, there를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 here(1권 복습), there를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -357,9 +357,9 @@
         ]
       },
       {
-        "word": "clap",
+        "word": "clip",
         "pictures": [
-          "clap",
+          "clip",
           "clam",
           "flag"
         ]
@@ -384,7 +384,7 @@
         "word": "clam",
         "pictures": [
           "clam",
-          "clap",
+          "clock",
           "clip"
         ]
       },
@@ -408,7 +408,7 @@
         "word": "clam"
       },
       {
-        "word": "flip"
+        "word": "flag"
       }
     ],
     "write": [
@@ -417,12 +417,12 @@
         "missing": 0
       },
       {
-        "word": "clap",
+        "word": "clip",
         "missing": 0
       },
       {
         "word": "flag",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "clock",
@@ -446,7 +446,7 @@
         "word": "flag",
         "pictures": [
           "flag",
-          "clap",
+          "clip",
           "black"
         ]
       },
@@ -455,7 +455,7 @@
         "pictures": [
           "clam",
           "clip",
-          "flip"
+          "block"
         ]
       },
       {
@@ -467,11 +467,11 @@
         ]
       },
       {
-        "word": "flip",
+        "word": "clip",
         "pictures": [
-          "flip",
+          "clip",
           "ship",
-          "clip"
+          "flag"
         ]
       }
     ]
@@ -484,7 +484,7 @@
       },
       {
         "word": "black",
-        "missing": 1
+        "missing": 0
       },
       {
         "word": "clock",
@@ -492,7 +492,7 @@
       },
       {
         "word": "clap",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "clam",
@@ -500,7 +500,7 @@
       },
       {
         "word": "clip",
-        "missing": 1
+        "missing": 0
       },
       {
         "word": "flag",
@@ -508,7 +508,7 @@
       },
       {
         "word": "flip",
-        "missing": 2
+        "missing": 0
       }
     ],
     "family": {

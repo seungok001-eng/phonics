@@ -16,19 +16,87 @@
     "raw": "TRANSCRIPT=Hit the pit. Hit it. | TYPE=sentence | IPA=hɪt ðə pɪt hɪt ɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pip can hit it!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967138.056289,
+   "sec": 1.36,
+   "check": {
+    "transcript": "Pepkin hit it.",
+    "type": "sentence",
+    "ipa": "ˈpɛp.kɪn ˈhɪt ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pepkin hit it. | TYPE=sentence | IPA=ˈpɛp.kɪn ˈhɪt ɪt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Pip can hit it!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967381.0707922,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Pip can hit it.",
+    "type": "sentence",
+    "ipa": "pɪp kæn hɪt ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip can hit it. | TYPE=sentence | IPA=pɪp kæn hɪt ɪt | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Pip can hit it!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967398.8453524,
+   "sec": 1.56,
+   "check": {
+    "transcript": "Pip can hit it.",
+    "type": "sentence",
+    "ipa": "ˈpɪp kæn ˈhɪt ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip can hit it. | TYPE=sentence | IPA=ˈpɪp kæn ˈhɪt ɪt | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Pip can hit it!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967416.8305109,
+   "sec": 1.56,
+   "check": {
+    "transcript": "Pip can hit it.",
+    "type": "sentence",
+    "ipa": "pɪp kæn hɪt ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip can hit it. | TYPE=sentence | IPA=pɪp kæn hɪt ɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 00:00",
+ "applied": "2026-10-14 17:43",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b2_u07_s4",
  "sub": "line",
- "title": "2권 7유닛 문장 4: Hit the pit! Hit it!",
- "text": "Hit the pit! Hit it!",
+ "title": "2권 7유닛 문장 4: Pip can hit it!",
+ "text": "Pip can hit it!",
  "voice": "Kore",
  "book": 2,
  "busy": 0

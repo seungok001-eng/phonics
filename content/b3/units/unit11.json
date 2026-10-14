@@ -136,7 +136,7 @@
       "words": [
         "block",
         "clock",
-        "clap",
+        "clip",
         "flag",
         "brick",
         "crab",
@@ -155,10 +155,10 @@
     "test": {
       "read_circle": [
         {
-          "word": "clap",
+          "word": "clip",
           "pictures": [
-            "clap",
             "clip",
+            "clam",
             "crab"
           ]
         },
@@ -198,8 +198,8 @@
           "word": "quack",
           "pictures": [
             "quack",
-            "quick",
-            "duck"
+            "quilt",
+            "clock"
           ]
         }
       ],
@@ -208,7 +208,7 @@
           "word": "brush"
         },
         {
-          "word": "sniff"
+          "word": "snack"
         },
         {
           "word": "stamp"
@@ -236,6 +236,16 @@
         }
       ]
     },
+    "first_letter": [
+      "block",
+      "clock",
+      "flag",
+      "crab",
+      "drum",
+      "stick",
+      "tent",
+      "quilt"
+    ],
     "blend": [
       {
         "word": "black",
@@ -243,7 +253,7 @@
       },
       {
         "word": "clam",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "brick",
@@ -251,7 +261,7 @@
       },
       {
         "word": "crack",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "swim",
@@ -312,10 +322,6 @@
         {
           "type": "review_board",
           "title": "Game board"
-        },
-        {
-          "type": "review_bingo",
-          "title": "Bingo"
         }
       ],
       "workbook": [
@@ -338,6 +344,10 @@
           "type": "story",
           "title": "Story",
           "half": 2
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
         },
         {
           "type": "review_test",

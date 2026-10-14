@@ -21,6 +21,10 @@
           "title": "The Word Pond"
         },
         {
+          "type": "review_words",
+          "title": "Words from Book 1"
+        },
+        {
           "type": "vowels",
           "title": "Five short vowels"
         },
@@ -178,6 +182,22 @@
         "task_ko": "비즈를 찾아요",
         "ko": "구슬 애벌레 비즈가 나타나 '딸깍딸깍!' 해요. 갈대 속에 그럼블의 모자와 불빛이 보여요."
       }
+    ]
+  },
+  "review": {
+    "words": [
+      "apple",
+      "bus",
+      "cat",
+      "dog",
+      "egg",
+      "fan",
+      "hen",
+      "kite",
+      "moon",
+      "pot",
+      "sun",
+      "zebra"
     ]
   }
 }

@@ -1,642 +1,707 @@
 [
  {
+  "book": 0,
+  "title": "수업 화면 사용법 · 학급 운영 (1~4권 공통)",
+  "file": "PopPhonics_HowTo.pdf"
+ },
+ {
   "book": 1,
-  "title": "Student Book Unit 0 — The Little Door",
+  "title": "Pop! Phonics 1 · Student Book Unit 0 — The Little Door",
   "file": "PopPhonics1_SB_Unit00.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 1 — Pop! Pop! Pop!",
+  "title": "Pop! Phonics 1 · Student Book Unit 1 — Pop! Pop! Pop!",
   "file": "PopPhonics1_SB_Unit01.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 2 — The Duck Pond",
+  "title": "Pop! Phonics 1 · Student Book Unit 2 — The Duck Pond",
   "file": "PopPhonics1_SB_Unit02.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 3 — The Goat Ate It!",
+  "title": "Pop! Phonics 1 · Student Book Unit 3 — The Goat Ate It!",
   "file": "PopPhonics1_SB_Unit03.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 4 — The Key",
+  "title": "Pop! Phonics 1 · Student Book Unit 4 — The Key",
   "file": "PopPhonics1_SB_Unit04.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 5 — Pip's Garden Walk",
+  "title": "Pop! Phonics 1 · Student Book Unit 5 — Pip's Garden Walk",
   "file": "PopPhonics1_SB_Unit05.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 6 — The Night Garden",
+  "title": "Pop! Phonics 1 · Student Book Unit 6 — The Night Garden",
   "file": "PopPhonics1_SB_Unit06.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 7 — The Queen's Quilt",
+  "title": "Pop! Phonics 1 · Student Book Unit 7 — The Queen's Quilt",
   "file": "PopPhonics1_SB_Unit07.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 8 — Up, Up, Up!",
+  "title": "Pop! Phonics 1 · Student Book Unit 8 — Up, Up, Up!",
   "file": "PopPhonics1_SB_Unit08.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 9 — The Volcano",
+  "title": "Pop! Phonics 1 · Student Book Unit 9 — The Volcano",
   "file": "PopPhonics1_SB_Unit09.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 10 — Pip Sings!",
+  "title": "Pop! Phonics 1 · Student Book Unit 10 — Pip Sings!",
   "file": "PopPhonics1_SB_Unit10.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 11 — The Garden Party",
+  "title": "Pop! Phonics 1 · Student Book Unit 11 — The Garden Party",
   "file": "PopPhonics1_SB_Unit11.pdf"
  },
  {
   "book": 1,
-  "title": "Student Book Unit 12 — The Alphabet Show",
+  "title": "Pop! Phonics 1 · Student Book Unit 12 — The Alphabet Show",
   "file": "PopPhonics1_SB_Unit12.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 1 — Pop! Pop! Pop!",
+  "title": "Pop! Phonics 1 · Workbook Unit 1 — Pop! Pop! Pop!",
   "file": "PopPhonics1_WB_Unit01.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 2 — The Duck Pond",
+  "title": "Pop! Phonics 1 · Workbook Unit 2 — The Duck Pond",
   "file": "PopPhonics1_WB_Unit02.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 3 — The Goat Ate It!",
+  "title": "Pop! Phonics 1 · Workbook Unit 3 — The Goat Ate It!",
   "file": "PopPhonics1_WB_Unit03.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 4 — The Key",
+  "title": "Pop! Phonics 1 · Workbook Unit 4 — The Key",
   "file": "PopPhonics1_WB_Unit04.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 5 — Pip's Garden Walk",
+  "title": "Pop! Phonics 1 · Workbook Unit 5 — Pip's Garden Walk",
   "file": "PopPhonics1_WB_Unit05.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 6 — The Night Garden",
+  "title": "Pop! Phonics 1 · Workbook Unit 6 — The Night Garden",
   "file": "PopPhonics1_WB_Unit06.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 7 — The Queen's Quilt",
+  "title": "Pop! Phonics 1 · Workbook Unit 7 — The Queen's Quilt",
   "file": "PopPhonics1_WB_Unit07.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 8 — Up, Up, Up!",
+  "title": "Pop! Phonics 1 · Workbook Unit 8 — Up, Up, Up!",
   "file": "PopPhonics1_WB_Unit08.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 9 — The Volcano",
+  "title": "Pop! Phonics 1 · Workbook Unit 9 — The Volcano",
   "file": "PopPhonics1_WB_Unit09.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 10 — Pip Sings!",
+  "title": "Pop! Phonics 1 · Workbook Unit 10 — Pip Sings!",
   "file": "PopPhonics1_WB_Unit10.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 11 — The Garden Party",
+  "title": "Pop! Phonics 1 · Workbook Unit 11 — The Garden Party",
   "file": "PopPhonics1_WB_Unit11.pdf"
  },
  {
   "book": 1,
-  "title": "Workbook Unit 12 — The Alphabet Show",
+  "title": "Pop! Phonics 1 · Workbook Unit 12 — The Alphabet Show",
   "file": "PopPhonics1_WB_Unit12.pdf"
  },
  {
   "book": 1,
-  "title": "Storybook — Pip and the Sound Garden",
+  "title": "Pop! Phonics 1 · Storybook — Pip and the Sound Garden",
   "file": "PopPhonics1_Storybook.pdf"
  },
  {
   "book": 1,
-  "title": "Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
+  "title": "Pop! Phonics 1 · 최종 평가 Final Test — 수준 1~3 · A/B형 + 정답지 + 말하기 체크리스트",
+  "file": "PopPhonics1_FinalTest.pdf"
+ },
+ {
+  "book": 1,
+  "title": "Pop! Phonics 1 · Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
   "file": "PopPhonics1_Answers.pdf"
  },
  {
   "book": 1,
-  "title": "Review Tests — 복습·전체 시험지 + 정답지 + 말하기 체크리스트",
+  "title": "Pop! Phonics 1 · Review Tests — 복습 1·2 시험지 + 정답지 + 말하기 체크리스트",
   "file": "PopPhonics1_Tests_Review.pdf"
  },
  {
   "book": 1,
-  "title": "Unit Tests — 유닛별 시험지 + 정답지",
+  "title": "Pop! Phonics 1 · Unit Tests — 유닛별 시험지 + 정답지",
   "file": "PopPhonics1_Tests_Units.pdf"
  },
  {
   "book": 1,
-  "title": "이야기 안내서 (교사용)",
+  "title": "Pop! Phonics 1 · 수업안 — 전 유닛 (0~12유닛, 차시마다 흐름·시간·숙제)",
+  "file": "PopPhonics1_LessonPlans.pdf"
+ },
+ {
+  "book": 1,
+  "title": "Pop! Phonics 1 · 선생님용 소리 안내 — 우리말 비슷한 소리·입 모양·흔한 실수",
+  "file": "PopPhonics1_Pronunciation.pdf"
+ },
+ {
+  "book": 1,
+  "title": "Pop! Phonics 1 · 이야기 안내서 (교사용)",
   "file": "PopPhonics1_StoryGuide.pdf"
  },
  {
   "book": 1,
-  "title": "이야기 지도 포스터 (A3 가로)",
+  "title": "Pop! Phonics 1 · 이야기 지도 포스터 (A3 가로)",
   "file": "PopPhonics1_StoryMap.pdf"
  },
  {
   "book": 1,
-  "title": "이야기 지도 (A4 세로 2쪽 이어 붙이기)",
+  "title": "Pop! Phonics 1 · 이야기 지도 (A4 세로 2쪽 이어 붙이기)",
   "file": "PopPhonics1_StoryMap_A4.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 0 — The Word Pond",
+  "title": "Pop! Phonics 2 · Student Book Unit 0 — The Word Pond",
   "file": "PopPhonics2_SB_Unit00.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 1 — The Cat on the Mat",
+  "title": "Pop! Phonics 2 · Student Book Unit 1 — The Cat on the Mat",
   "file": "PopPhonics2_SB_Unit01.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 2 — The Cap and the Bag",
+  "title": "Pop! Phonics 2 · Student Book Unit 2 — The Cap and the Bag",
   "file": "PopPhonics2_SB_Unit02.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 3 — Ten Hens in a Net",
+  "title": "Pop! Phonics 2 · Student Book Unit 3 — Ten Hens in a Net",
   "file": "PopPhonics2_SB_Unit03.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 4 — A Bed for Grumble",
+  "title": "Pop! Phonics 2 · Student Book Unit 4 — A Bed for Grumble",
   "file": "PopPhonics2_SB_Unit04.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 5 — Pip's First Word",
+  "title": "Pop! Phonics 2 · Student Book Unit 5 — Pip's First Word",
   "file": "PopPhonics2_SB_Unit05.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 6 — The Pig and the Pin",
+  "title": "Pop! Phonics 2 · Student Book Unit 6 — The Pig and the Pin",
   "file": "PopPhonics2_SB_Unit06.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 7 — Zip It Up!",
+  "title": "Pop! Phonics 2 · Student Book Unit 7 — Zip It Up!",
   "file": "PopPhonics2_SB_Unit07.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 8 — Fog on the Pond",
+  "title": "Pop! Phonics 2 · Student Book Unit 8 — Fog on the Pond",
   "file": "PopPhonics2_SB_Unit08.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 9 — The Fox and the Box",
+  "title": "Pop! Phonics 2 · Student Book Unit 9 — The Fox and the Box",
   "file": "PopPhonics2_SB_Unit09.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 10 — Fun in the Sun",
+  "title": "Pop! Phonics 2 · Student Book Unit 10 — Fun in the Sun",
   "file": "PopPhonics2_SB_Unit10.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 11 — The Pond Party",
+  "title": "Pop! Phonics 2 · Student Book Unit 11 — The Pond Party",
   "file": "PopPhonics2_SB_Unit11.pdf"
  },
  {
   "book": 2,
-  "title": "Student Book Unit 12 — The Word Show",
+  "title": "Pop! Phonics 2 · Student Book Unit 12 — The Word Show",
   "file": "PopPhonics2_SB_Unit12.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 1 — The Cat on the Mat",
+  "title": "Pop! Phonics 2 · Workbook Unit 1 — The Cat on the Mat",
   "file": "PopPhonics2_WB_Unit01.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 2 — The Cap and the Bag",
+  "title": "Pop! Phonics 2 · Workbook Unit 2 — The Cap and the Bag",
   "file": "PopPhonics2_WB_Unit02.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 3 — Ten Hens in a Net",
+  "title": "Pop! Phonics 2 · Workbook Unit 3 — Ten Hens in a Net",
   "file": "PopPhonics2_WB_Unit03.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 4 — A Bed for Grumble",
+  "title": "Pop! Phonics 2 · Workbook Unit 4 — A Bed for Grumble",
   "file": "PopPhonics2_WB_Unit04.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 5 — Pip's First Word",
+  "title": "Pop! Phonics 2 · Workbook Unit 5 — Pip's First Word",
   "file": "PopPhonics2_WB_Unit05.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 6 — The Pig and the Pin",
+  "title": "Pop! Phonics 2 · Workbook Unit 6 — The Pig and the Pin",
   "file": "PopPhonics2_WB_Unit06.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 7 — Zip It Up!",
+  "title": "Pop! Phonics 2 · Workbook Unit 7 — Zip It Up!",
   "file": "PopPhonics2_WB_Unit07.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 8 — Fog on the Pond",
+  "title": "Pop! Phonics 2 · Workbook Unit 8 — Fog on the Pond",
   "file": "PopPhonics2_WB_Unit08.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 9 — The Fox and the Box",
+  "title": "Pop! Phonics 2 · Workbook Unit 9 — The Fox and the Box",
   "file": "PopPhonics2_WB_Unit09.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 10 — Fun in the Sun",
+  "title": "Pop! Phonics 2 · Workbook Unit 10 — Fun in the Sun",
   "file": "PopPhonics2_WB_Unit10.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 11 — The Pond Party",
+  "title": "Pop! Phonics 2 · Workbook Unit 11 — The Pond Party",
   "file": "PopPhonics2_WB_Unit11.pdf"
  },
  {
   "book": 2,
-  "title": "Workbook Unit 12 — The Word Show",
+  "title": "Pop! Phonics 2 · Workbook Unit 12 — The Word Show",
   "file": "PopPhonics2_WB_Unit12.pdf"
  },
  {
   "book": 2,
-  "title": "Storybook — Pip and the Word Pond",
+  "title": "Pop! Phonics 2 · Storybook — Pip and the Word Pond",
   "file": "PopPhonics2_Storybook.pdf"
  },
  {
   "book": 2,
-  "title": "Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
+  "title": "Pop! Phonics 2 · 최종 평가 Final Test — 수준 1~3 · A/B형 + 정답지 + 말하기 체크리스트",
+  "file": "PopPhonics2_FinalTest.pdf"
+ },
+ {
+  "book": 2,
+  "title": "Pop! Phonics 2 · Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
   "file": "PopPhonics2_Answers.pdf"
  },
  {
   "book": 2,
-  "title": "Review Tests — 복습·전체 시험지 + 정답지 + 말하기 체크리스트",
+  "title": "Pop! Phonics 2 · Review Tests — 복습 1·2 시험지 + 정답지 + 말하기 체크리스트",
   "file": "PopPhonics2_Tests_Review.pdf"
  },
  {
   "book": 2,
-  "title": "Unit Tests — 유닛별 시험지 + 정답지",
+  "title": "Pop! Phonics 2 · Unit Tests — 유닛별 시험지 + 정답지",
   "file": "PopPhonics2_Tests_Units.pdf"
  },
  {
   "book": 2,
-  "title": "이야기 안내서 (교사용)",
+  "title": "Pop! Phonics 2 · 수업안 — 전 유닛 (0~12유닛, 차시마다 흐름·시간·숙제)",
+  "file": "PopPhonics2_LessonPlans.pdf"
+ },
+ {
+  "book": 2,
+  "title": "Pop! Phonics 2 · 선생님용 소리 안내 — 우리말 비슷한 소리·입 모양·흔한 실수",
+  "file": "PopPhonics2_Pronunciation.pdf"
+ },
+ {
+  "book": 2,
+  "title": "Pop! Phonics 2 · 이야기 안내서 (교사용)",
   "file": "PopPhonics2_StoryGuide.pdf"
  },
  {
   "book": 2,
-  "title": "이야기 지도 포스터 (A3 가로)",
+  "title": "Pop! Phonics 2 · 이야기 지도 포스터 (A3 가로)",
   "file": "PopPhonics2_StoryMap.pdf"
  },
  {
   "book": 2,
-  "title": "이야기 지도 (A4 세로 2쪽 이어 붙이기)",
+  "title": "Pop! Phonics 2 · 이야기 지도 (A4 세로 2쪽 이어 붙이기)",
   "file": "PopPhonics2_StoryMap_A4.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 0 — The Pair Forest",
+  "title": "Pop! Phonics 3 · Student Book Unit 0 — The Pair Forest",
   "file": "PopPhonics3_SB_Unit00.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 1 — Shh! The First Door",
+  "title": "Pop! Phonics 3 · Student Book Unit 1 — Shh! The First Door",
   "file": "PopPhonics3_SB_Unit01.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 2 — Lunch on the Bench",
+  "title": "Pop! Phonics 3 · Student Book Unit 2 — Lunch on the Bench",
   "file": "PopPhonics3_SB_Unit02.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 3 — The Thin Path",
+  "title": "Pop! Phonics 3 · Student Book Unit 3 — The Thin Path",
   "file": "PopPhonics3_SB_Unit03.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 4 — The Duck King's Ring",
+  "title": "Pop! Phonics 3 · Student Book Unit 4 — The Duck King's Ring",
   "file": "PopPhonics3_SB_Unit04.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 5 — Pip's First Pair",
+  "title": "Pop! Phonics 3 · Student Book Unit 5 — Pip's First Pair",
   "file": "PopPhonics3_SB_Unit05.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 6 — The Black Block",
+  "title": "Pop! Phonics 3 · Student Book Unit 6 — The Black Block",
   "file": "PopPhonics3_SB_Unit06.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 7 — The Crab and the Crib",
+  "title": "Pop! Phonics 3 · Student Book Unit 7 — The Crab and the Crib",
   "file": "PopPhonics3_SB_Unit07.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 8 — Snack on the Swing",
+  "title": "Pop! Phonics 3 · Student Book Unit 8 — Snack on the Swing",
   "file": "PopPhonics3_SB_Unit08.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 9 — The Chimp's Camp",
+  "title": "Pop! Phonics 3 · Student Book Unit 9 — The Chimp's Camp",
   "file": "PopPhonics3_SB_Unit09.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 10 — The Last Door",
+  "title": "Pop! Phonics 3 · Student Book Unit 10 — The Last Door",
   "file": "PopPhonics3_SB_Unit10.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 11 — The Forest Party",
+  "title": "Pop! Phonics 3 · Student Book Unit 11 — The Forest Party",
   "file": "PopPhonics3_SB_Unit11.pdf"
  },
  {
   "book": 3,
-  "title": "Student Book Unit 12 — The Forest Show",
+  "title": "Pop! Phonics 3 · Student Book Unit 12 — The Forest Show",
   "file": "PopPhonics3_SB_Unit12.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 1 — Shh! The First Door",
+  "title": "Pop! Phonics 3 · Workbook Unit 1 — Shh! The First Door",
   "file": "PopPhonics3_WB_Unit01.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 2 — Lunch on the Bench",
+  "title": "Pop! Phonics 3 · Workbook Unit 2 — Lunch on the Bench",
   "file": "PopPhonics3_WB_Unit02.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 3 — The Thin Path",
+  "title": "Pop! Phonics 3 · Workbook Unit 3 — The Thin Path",
   "file": "PopPhonics3_WB_Unit03.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 4 — The Duck King's Ring",
+  "title": "Pop! Phonics 3 · Workbook Unit 4 — The Duck King's Ring",
   "file": "PopPhonics3_WB_Unit04.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 5 — Pip's First Pair",
+  "title": "Pop! Phonics 3 · Workbook Unit 5 — Pip's First Pair",
   "file": "PopPhonics3_WB_Unit05.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 6 — The Black Block",
+  "title": "Pop! Phonics 3 · Workbook Unit 6 — The Black Block",
   "file": "PopPhonics3_WB_Unit06.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 7 — The Crab and the Crib",
+  "title": "Pop! Phonics 3 · Workbook Unit 7 — The Crab and the Crib",
   "file": "PopPhonics3_WB_Unit07.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 8 — Snack on the Swing",
+  "title": "Pop! Phonics 3 · Workbook Unit 8 — Snack on the Swing",
   "file": "PopPhonics3_WB_Unit08.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 9 — The Chimp's Camp",
+  "title": "Pop! Phonics 3 · Workbook Unit 9 — The Chimp's Camp",
   "file": "PopPhonics3_WB_Unit09.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 10 — The Last Door",
+  "title": "Pop! Phonics 3 · Workbook Unit 10 — The Last Door",
   "file": "PopPhonics3_WB_Unit10.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 11 — The Forest Party",
+  "title": "Pop! Phonics 3 · Workbook Unit 11 — The Forest Party",
   "file": "PopPhonics3_WB_Unit11.pdf"
  },
  {
   "book": 3,
-  "title": "Workbook Unit 12 — The Forest Show",
+  "title": "Pop! Phonics 3 · Workbook Unit 12 — The Forest Show",
   "file": "PopPhonics3_WB_Unit12.pdf"
  },
  {
   "book": 3,
-  "title": "Storybook — Pip and the Pair Forest",
+  "title": "Pop! Phonics 3 · Storybook — Pip and the Pair Forest",
   "file": "PopPhonics3_Storybook.pdf"
  },
  {
   "book": 3,
-  "title": "Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
+  "title": "Pop! Phonics 3 · 최종 평가 Final Test — 수준 1~3 · A/B형 + 정답지 + 말하기 체크리스트",
+  "file": "PopPhonics3_FinalTest.pdf"
+ },
+ {
+  "book": 3,
+  "title": "Pop! Phonics 3 · Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
   "file": "PopPhonics3_Answers.pdf"
  },
  {
   "book": 3,
-  "title": "Review Tests — 복습·전체 시험지 + 정답지 + 말하기 체크리스트",
+  "title": "Pop! Phonics 3 · Review Tests — 복습 1·2 시험지 + 정답지 + 말하기 체크리스트",
   "file": "PopPhonics3_Tests_Review.pdf"
  },
  {
   "book": 3,
-  "title": "Unit Tests — 유닛별 시험지 + 정답지",
+  "title": "Pop! Phonics 3 · Unit Tests — 유닛별 시험지 + 정답지",
   "file": "PopPhonics3_Tests_Units.pdf"
  },
  {
   "book": 3,
-  "title": "이야기 안내서 (교사용)",
+  "title": "Pop! Phonics 3 · 수업안 — 전 유닛 (0~12유닛, 차시마다 흐름·시간·숙제)",
+  "file": "PopPhonics3_LessonPlans.pdf"
+ },
+ {
+  "book": 3,
+  "title": "Pop! Phonics 3 · 선생님용 소리 안내 — 우리말 비슷한 소리·입 모양·흔한 실수",
+  "file": "PopPhonics3_Pronunciation.pdf"
+ },
+ {
+  "book": 3,
+  "title": "Pop! Phonics 3 · 이야기 안내서 (교사용)",
   "file": "PopPhonics3_StoryGuide.pdf"
  },
  {
   "book": 3,
-  "title": "이야기 지도 포스터 (A3 가로)",
+  "title": "Pop! Phonics 3 · 이야기 지도 포스터 (A3 가로)",
   "file": "PopPhonics3_StoryMap.pdf"
  },
  {
   "book": 3,
-  "title": "이야기 지도 (A4 세로 2쪽 이어 붙이기)",
+  "title": "Pop! Phonics 3 · 이야기 지도 (A4 세로 2쪽 이어 붙이기)",
   "file": "PopPhonics3_StoryMap_A4.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 0 — The Magic Castle",
+  "title": "Pop! Phonics 4 · Student Book Unit 0 — The Magic Castle",
   "file": "PopPhonics4_SB_Unit00.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 1 — The Cap and the Cape",
+  "title": "Pop! Phonics 4 · Student Book Unit 1 — The Cap and the Cape",
   "file": "PopPhonics4_SB_Unit01.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 2 — A Kite in the Pine",
+  "title": "Pop! Phonics 4 · Student Book Unit 2 — A Kite in the Pine",
   "file": "PopPhonics4_SB_Unit02.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 3 — A Note and a Rope",
+  "title": "Pop! Phonics 4 · Student Book Unit 3 — A Note and a Rope",
   "file": "PopPhonics4_SB_Unit03.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 4 — A Cute Mule",
+  "title": "Pop! Phonics 4 · Student Book Unit 4 — A Cute Mule",
   "file": "PopPhonics4_SB_Unit04.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 5 — Pip's Magic Word",
+  "title": "Pop! Phonics 4 · Student Book Unit 5 — Pip's Magic Word",
   "file": "PopPhonics4_SB_Unit05.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 6 — Rain on the Train",
+  "title": "Pop! Phonics 4 · Student Book Unit 6 — Rain on the Train",
   "file": "PopPhonics4_SB_Unit06.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 7 — A Bee in the Tree",
+  "title": "Pop! Phonics 4 · Student Book Unit 7 — A Bee in the Tree",
   "file": "PopPhonics4_SB_Unit07.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 8 — A Goat in a Boat",
+  "title": "Pop! Phonics 4 · Student Book Unit 8 — A Goat in a Boat",
   "file": "PopPhonics4_SB_Unit08.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 9 — The Moon and the Mouse",
+  "title": "Pop! Phonics 4 · Student Book Unit 9 — The Moon and the Mouse",
   "file": "PopPhonics4_SB_Unit09.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 10 — The Star Room",
+  "title": "Pop! Phonics 4 · Student Book Unit 10 — The Star Room",
   "file": "PopPhonics4_SB_Unit10.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 11 — The Song Tree Sings",
+  "title": "Pop! Phonics 4 · Student Book Unit 11 — The Song Tree Sings",
   "file": "PopPhonics4_SB_Unit11.pdf"
  },
  {
   "book": 4,
-  "title": "Student Book Unit 12 — The Song Tree Show",
+  "title": "Pop! Phonics 4 · Student Book Unit 12 — The Song Tree Show",
   "file": "PopPhonics4_SB_Unit12.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 1 — The Cap and the Cape",
+  "title": "Pop! Phonics 4 · Workbook Unit 1 — The Cap and the Cape",
   "file": "PopPhonics4_WB_Unit01.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 2 — A Kite in the Pine",
+  "title": "Pop! Phonics 4 · Workbook Unit 2 — A Kite in the Pine",
   "file": "PopPhonics4_WB_Unit02.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 3 — A Note and a Rope",
+  "title": "Pop! Phonics 4 · Workbook Unit 3 — A Note and a Rope",
   "file": "PopPhonics4_WB_Unit03.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 4 — A Cute Mule",
+  "title": "Pop! Phonics 4 · Workbook Unit 4 — A Cute Mule",
   "file": "PopPhonics4_WB_Unit04.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 5 — Pip's Magic Word",
+  "title": "Pop! Phonics 4 · Workbook Unit 5 — Pip's Magic Word",
   "file": "PopPhonics4_WB_Unit05.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 6 — Rain on the Train",
+  "title": "Pop! Phonics 4 · Workbook Unit 6 — Rain on the Train",
   "file": "PopPhonics4_WB_Unit06.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 7 — A Bee in the Tree",
+  "title": "Pop! Phonics 4 · Workbook Unit 7 — A Bee in the Tree",
   "file": "PopPhonics4_WB_Unit07.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 8 — A Goat in a Boat",
+  "title": "Pop! Phonics 4 · Workbook Unit 8 — A Goat in a Boat",
   "file": "PopPhonics4_WB_Unit08.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 9 — The Moon and the Mouse",
+  "title": "Pop! Phonics 4 · Workbook Unit 9 — The Moon and the Mouse",
   "file": "PopPhonics4_WB_Unit09.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 10 — The Star Room",
+  "title": "Pop! Phonics 4 · Workbook Unit 10 — The Star Room",
   "file": "PopPhonics4_WB_Unit10.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 11 — The Song Tree Sings",
+  "title": "Pop! Phonics 4 · Workbook Unit 11 — The Song Tree Sings",
   "file": "PopPhonics4_WB_Unit11.pdf"
  },
  {
   "book": 4,
-  "title": "Workbook Unit 12 — The Song Tree Show",
+  "title": "Pop! Phonics 4 · Workbook Unit 12 — The Song Tree Show",
   "file": "PopPhonics4_WB_Unit12.pdf"
  },
  {
   "book": 4,
-  "title": "Storybook — Pip and the Magic Castle",
+  "title": "Pop! Phonics 4 · Storybook — Pip and the Magic Castle",
   "file": "PopPhonics4_Storybook.pdf"
  },
  {
   "book": 4,
-  "title": "Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
+  "title": "Pop! Phonics 4 · 최종 평가 Final Test — 수준 1~3 · A/B형 + 정답지 + 말하기 체크리스트",
+  "file": "PopPhonics4_FinalTest.pdf"
+ },
+ {
+  "book": 4,
+  "title": "Pop! Phonics 4 · Answer Key — 교사용 정답지 (워크북 · 확인 · 평가)",
   "file": "PopPhonics4_Answers.pdf"
  },
  {
   "book": 4,
-  "title": "Review Tests — 복습·전체 시험지 + 정답지 + 말하기 체크리스트",
+  "title": "Pop! Phonics 4 · Review Tests — 복습 1·2 시험지 + 정답지 + 말하기 체크리스트",
   "file": "PopPhonics4_Tests_Review.pdf"
  },
  {
   "book": 4,
-  "title": "Unit Tests — 유닛별 시험지 + 정답지",
+  "title": "Pop! Phonics 4 · Unit Tests — 유닛별 시험지 + 정답지",
   "file": "PopPhonics4_Tests_Units.pdf"
  },
  {
   "book": 4,
-  "title": "이야기 안내서 (교사용)",
+  "title": "Pop! Phonics 4 · 수업안 — 전 유닛 (0~12유닛, 차시마다 흐름·시간·숙제)",
+  "file": "PopPhonics4_LessonPlans.pdf"
+ },
+ {
+  "book": 4,
+  "title": "Pop! Phonics 4 · 선생님용 소리 안내 — 우리말 비슷한 소리·입 모양·흔한 실수",
+  "file": "PopPhonics4_Pronunciation.pdf"
+ },
+ {
+  "book": 4,
+  "title": "Pop! Phonics 4 · 이야기 안내서 (교사용)",
   "file": "PopPhonics4_StoryGuide.pdf"
  },
  {
   "book": 4,
-  "title": "이야기 지도 포스터 (A3 가로)",
+  "title": "Pop! Phonics 4 · 이야기 지도 포스터 (A3 가로)",
   "file": "PopPhonics4_StoryMap.pdf"
  },
  {
   "book": 4,
-  "title": "이야기 지도 (A4 세로 2쪽 이어 붙이기)",
+  "title": "Pop! Phonics 4 · 이야기 지도 (A4 세로 2쪽 이어 붙이기)",
   "file": "PopPhonics4_StoryMap_A4.pdf"
  }
 ]

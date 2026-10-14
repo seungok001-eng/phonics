@@ -28,7 +28,7 @@
     "짧은 모음 o(ɑ) 소리를 알고 -og·-ot 단어를 소리를 이어 읽는다",
     "-og·-ot 단어 7개를 읽고 그림과 잇고 쓴다",
     "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
-    "사이트워드 to, go를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 to(1권 복습), go(1권 복습)를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -112,11 +112,12 @@
       ]
     },
     {
-      "text": "Go to the pot.",
+      "text": "Go, dog! Go to the log!",
       "audio": "b2_u08_s2",
-      "pic": "word_pot",
+      "pic": "word_dog",
       "words": [
-        "pot"
+        "dog",
+        "log"
       ]
     },
     {
@@ -340,7 +341,7 @@
         "pictures": [
           "pot",
           "pit",
-          "hot"
+          "dot"
         ]
       },
       {
@@ -352,11 +353,11 @@
         ]
       },
       {
-        "word": "hot",
+        "word": "dot",
         "pictures": [
-          "hot",
+          "dot",
           "pot",
-          "hat"
+          "dog"
         ]
       },
       {
@@ -404,7 +405,7 @@
         "missing": 2
       },
       {
-        "word": "hot",
+        "word": "dot",
         "missing": 1
       }
     ]
@@ -425,7 +426,7 @@
         "word": "pot",
         "pictures": [
           "pot",
-          "hot",
+          "dot",
           "pit"
         ]
       },
@@ -446,10 +447,10 @@
         ]
       },
       {
-        "word": "hot",
+        "word": "dot",
         "pictures": [
-          "hot",
-          "hat",
+          "dot",
+          "dog",
           "pot"
         ]
       }
@@ -483,7 +484,7 @@
       },
       {
         "word": "cot",
-        "missing": 0
+        "missing": 1
       },
       {
         "word": "dog",
@@ -542,7 +543,7 @@
       "log",
       "fog",
       "pot",
-      "hot",
+      "dot",
       "cot"
     ]
   },

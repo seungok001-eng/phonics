@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Doan | TYPE=word | IPA=ˈdoʊ.ən | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "/d/ ... /uː/ ... /n/ ... dune",
+   "voice": "",
+   "how": "upload",
+   "created": 1791967456.5802178,
+   "sec": 4.41,
+   "check": {
+    "transcript": "d",
+    "type": "isolated-sound",
+    "ipa": "d",
+    "note": "extra vowel",
+    "raw": "TRANSCRIPT=d | TYPE=isolated-sound | IPA=d | NOTE=extra vowel"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-10 23:52",
+ "applied": "2026-10-14 17:44",
  "text_edited": false,
  "error": "",
  "unit": 4,

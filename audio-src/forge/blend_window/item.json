@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "/w/ ... /ɪ/ ... /n/ ... /d/ ... /oʊ/ ... window",
+   "voice": "",
+   "how": "upload",
+   "created": 1791967470.8739748,
+   "sec": 6.09,
+   "check": {
+    "transcript": "window",
+    "type": "word",
+    "ipa": "ˈwɪndoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=window | TYPE=word | IPA=ˈwɪndoʊ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-10-14 17:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "blend_window",
+ "sub": "blend",
+ "title": "합치기 window",
+ "text": "/w/ ... /ɪ/ ... /n/ ... /d/ ... /oʊ/ ... window",
+ "voice": "Kore",
+ "book": 4,
+ "busy": 0
+}

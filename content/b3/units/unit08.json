@@ -154,7 +154,7 @@
       ]
     },
     {
-      "text": "A spot is on my cap.",
+      "text": "Oh no! A big spot!",
       "audio": "b3_u08_s4",
       "pic": "word_spot",
       "words": [
@@ -397,9 +397,9 @@
         ]
       },
       {
-        "word": "sniff",
+        "word": "stack",
         "pictures": [
-          "sniff",
+          "stack",
           "snack",
           "stick"
         ]
@@ -410,13 +410,13 @@
         "word": "stack"
       },
       {
-        "word": "spill"
+        "word": "spot"
       },
       {
         "word": "swim"
       },
       {
-        "word": "sniff"
+        "word": "snack"
       }
     ],
     "write": [
@@ -426,7 +426,7 @@
       },
       {
         "word": "stick",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "spot",
@@ -459,19 +459,19 @@
         ]
       },
       {
-        "word": "spill",
+        "word": "spot",
         "pictures": [
-          "spill",
           "spot",
-          "clip"
+          "shop",
+          "stick"
         ]
       },
       {
-        "word": "sniff",
+        "word": "snack",
         "pictures": [
-          "sniff",
           "snack",
-          "stack"
+          "stack",
+          "sock"
         ]
       },
       {
@@ -492,7 +492,7 @@
       },
       {
         "word": "sniff",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "stick",
@@ -500,7 +500,7 @@
       },
       {
         "word": "stack",
-        "missing": 1
+        "missing": 0
       },
       {
         "word": "spot",
@@ -508,7 +508,7 @@
       },
       {
         "word": "spill",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "swim",
@@ -516,7 +516,7 @@
       },
       {
         "word": "swing",
-        "missing": 2
+        "missing": 0
       }
     ],
     "family": {
@@ -563,7 +563,7 @@
         "answer": 0
       },
       {
-        "text": "A spot is on my cap.",
+        "text": "Oh no! A big spot!",
         "pictures": [
           "spill",
           "spot"

@@ -112,6 +112,26 @@
       "pup",
       "up"
     ],
+    "bingo": {
+      "words": [
+        "cat",
+        "van",
+        "map",
+        "bag",
+        "jet",
+        "hen",
+        "bed",
+        "leg",
+        "pig",
+        "pin",
+        "zip",
+        "dog",
+        "pot",
+        "fox",
+        "bug",
+        "sun"
+      ]
+    },
     "test": {
       "read_circle": [
         {
@@ -135,7 +155,7 @@
           "pictures": [
             "fig",
             "fog",
-            "fun"
+            "fin"
           ]
         },
         {
@@ -155,11 +175,11 @@
           ]
         },
         {
-          "word": "wet",
+          "word": "leg",
           "pictures": [
-            "wet",
-            "wag",
-            "wig"
+            "leg",
+            "log",
+            "lip"
           ]
         }
       ],
@@ -171,7 +191,7 @@
           "word": "jet"
         },
         {
-          "word": "dig"
+          "word": "wig"
         },
         {
           "word": "box"
@@ -611,6 +631,10 @@
         {
           "type": "word_hunt",
           "title": "Word hunt"
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
         }
       ],
       "workbook": [

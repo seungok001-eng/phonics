@@ -31,7 +31,8 @@
     "모음 짝 oo(uː)와 ou(aʊ)가 각각 소리 하나를 내는 것을 안다",
     "oo·ou 단어 10개를 소리를 이어 읽고 그림과 잇고 쓴다",
     "빠진 모음 짝을 듣고 쓴다",
-    "사이트워드 look, out을 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 look(1권 복습), out을 보고 읽고, 배운 단어로 된 문장 4개를 읽는다",
+    "※ 선생님 참고: oo 는 소리가 둘이에요. moon·boot·roof 의 oo 는 긴 \"우~\", 사이트워드 look(그리고 book·foot)의 oo 는 짧은 \"으/우\" 소리예요. look 은 통째로 읽는 말로 다뤄요."
   ],
   "lessons": [
     {
@@ -381,7 +382,7 @@
         "pictures": [
           "house",
           "mouse",
-          "roof"
+          "boot"
         ]
       }
     ],
@@ -406,7 +407,7 @@
       },
       {
         "word": "boot",
-        "missing": 2
+        "missing": 1
       },
       {
         "word": "house",
@@ -451,14 +452,14 @@
         "pictures": [
           "tooth",
           "boot",
-          "mouth"
+          "couch"
         ]
       },
       {
         "word": "roof",
         "pictures": [
           "roof",
-          "house",
+          "broom",
           "moon"
         ]
       }

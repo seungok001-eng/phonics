@@ -1,0 +1,95 @@
+# 점검 결과 메모 (에이전트 보고 요약)
+
+## A. 수업 흐름·시간 (lesson flow agent)
+- [심각] 수업안: 0·5·11·12유닛 없음/오류. 2~4권 0·5·11·12는 lesson-plan.html:55-63 families 빈 배열→1권 경로→unit.letters.flatMap TypeError 빈 화면. 1권 0유닛 objectives_ko 없음→TypeError. 1권 5·11·12는 일반 유닛 수업안이 잘못 나옴. 4권 합계 28차시 수업안 없음.
+- [보통] 1권 수업안이 옛 흐름(아이가 칠판에 나와 누르기, 🔀 Point!)과 다름 lesson-plan.html:75,82; 2권도 "누른다" 114-115.
+- [보통] 시간 배분 틀림: 1권 1차시 read_play 5분→실제 13-15분(54-56분 총), 2차시 듣고 가리키기 5→12분 + 플래시카드 5분 중복(57분). 3·4권 flow3 가중치 비현실(132행).
+- [보통] 3권 9유닛 1차시 넘침(8쪽·슬라이드16장 55-58분), 8유닛 빠듯; 2차시 44분 여유 → read_play나 두 번째 blend 쪽 2차시로.
+- [보통] 복습 2차시(5·11) 33-37분 모자람 → 빙고 이동/복습 Speed round.
+- [보통] 12유닛 1차시 32분; 노래가 음악 없으면 낭독; 수료증 한 명씩 인쇄(10분) → 이름 목록 일괄 인쇄.
+- [보통] 0유닛 얇음(25분), 수업안 없음, alphabet 쪽 TEACH 없음(teachFallback으로 A4 축소), 2~4권 0유닛에 지난 권 복습 없음.
+- [보통] 음악 없음: 수업안 매 차시 "주제가 홈→Play"(71·80·111·120·148행)인데 홈 주제가 단추는 파일 없으면 숨김. 스토리 힌트 "음악과 함께".
+- [보통] 노래 반주 있으면 줄 간격 300ms로 박자 어긋남 pages.js:653.
+- [보통] 놀이판 도착하자마자 답을 읽어 줌 pages.js:540-542 boardLand.
+- [보통] 단어 사냥 슬라이드 라운드 자동 진행+▶ 다음 슬라이드 → 같은 라운드 두 번 pages.js:695, teach.js:382-389.
+- [보통] 3권 이어 소리(bl…, -nd…)에 "두 글자 소리 하나" 문구: teach.js:417, pages.js:999, lesson-plan.html:141,143, letter.html:85,98.
+- [보통] 종이 지시문 "눌러요" pages.js 156,354,396,424,444,599,619,627,895,916,943,952.
+- [보통] 2~4권 복습 워크북 두 쪽 같은 분류 문제 (wb_review_blend 939-943 vs wb_review_words 616-619 같은 rv.sort+같은 섞기).
+- [보통] 빙고: 1권 아이 16단어 옮겨쓰기 10분; 슬라이드가 선생님 판 기준 BINGO 알림 pages.js:587.
+- [보통] 진도표 "22차시·11주/33차시" → 실제 25/34 syllabus.html:26,78,79.
+- [보통] 1권 10유닛 수업안이 alphabet_review 반영 안 함.
+- [보통] 차시 끝 숙제 안내 슬라이드 없음.
+- [보통] docs/01-concept.md 옛 설정(Mina·Jun·Pomi·Digby, 11유닛), 00-progress 20행 Lily·Max, web/pdf/press 옛 PomiPhonics.
+- [사소] 2권 10유닛 수업안 -up 빠짐; 4권 6~10 합치기 행 이름 빔(143); 1권 역할에 Pip(ROLE_SKIP); 영상 HEAD 404; 죽은 코드 teach.js:198-208; 듣고 가리키기 9 고정(10유닛 6단어) pages.js:225,238; Read and find 그림 10장까지 teach.js:298 pages.js:825; 짝꿍 슬라이드 단어 4개 vs 책 6개 teach.js:418; wb_blend 지시문 pair vs part; 평가 A 슬라이드 그림 작음; 놀이판 저장 키 권 구분 없음 pages.js:506; 선생님 화면 기본 필기판 40% index.html:99; 힌트 길고 시간 없음; family_words 쓰기 언제?; 1권 1차시 쓰기 양 많음.
+- 잘된 점: 슬라이드는 아이가 안 만짐, 음성 파일 누락 0, 숙제=그날 내용, 2~4권 구조 일관, 3·4권 flow3 자동, p.N 표시, 스토리 지난/이번 띠.
+- 시간표: 1권U1 1차시 54-56 넘침, U1 2차시 47(수업안대로 57), U5 2차시 33-37 모자람, U12 1차시 32 모자람, 2권 U1 45/44 적정, 2권 U10 1차시 50, 3권 U1 38 여유, U8 50, U9 55-58 넘침, 4권 U1 50-53 빠듯, U6 48, U11 48-50, U12 2차시 40-45.
+
+## B. 선생님 자료·시험 (teacher materials agent)
+- [심각] 2~4권 Read and circle 정답이 항상 첫 번째 그림(216문항) — content check.read_circle[].pictures[0]=정답, pages.js:872 rcRow 안 섞음. 워크북 문장 정답 a,b,a,b 번갈이.
+- [심각] 시험지 생성기 정답 위치 패턴(한 장 6문항 전부 c 등) test.html:136 shuffle 약한 LCG, seed+k*131.
+- [심각] 3권 이어 소리 "소리 하나" 개념 오류(qu도 두 소리) — objectives_ko와 모순.
+- [심각] 0·5·11·12 수업안 빈 화면(16유닛), 가정통신문·플래시카드도 U1~10만, letter.html?u=5&bk=4 빈 화면.
+- [심각] 3·4권 2차시 수업안에 2권 예문 "The cat is on the mat" 고정(lesson-plan.html:122), 1권 수업안 예시 고정("This is A", "/b/ bus", "A raccoon!", ▶ movie).
+- [보통] 최종 시험은 사양대로 있음(수준1~3·A/B·정답지·점수표·말하기)하지만 따로 PDF 없음(Tests_Review.pdf 49~75쪽에 섞임), 홈 폼에 "최종 평가" 말 없음.
+- [보통] 홈 말하기 체크리스트 링크 1권 복습1 고정 index.html:112, 수준 이름 1권 것 109.
+- [보통] 2~4권 첫 글자 쓰기 문항이 가족 점수표에 잘못 들어감(test.html missFirst famOf).
+- [보통] 4권 시험 수준2 "마지막 글자" 빈칸이 마법 e 단어에서 마지막 글자 아님.
+- [보통] 수준3 쓰기 정답 철자가 같은 장 문장에 나옴.
+- [보통] 말하기 채점 기준 없음.
+- [보통] 2권 U10 가족 3개인데 수업안 2개.
+- [보통] 진도표 차시 수 틀림, 최종 평가 차시 없음, 유닛 시험 B형 안내 없음.
+- [보통] 수업안이 매 차시 주제가·챈트 음악 지시.
+- [보통] 홈 PDF 목록 권 구분 없는 이름(128개).
+- [보통] 수업안·플래시카드·진도표·가정통신문 PDF 없음, 01-concept 10절 약속 자료(월간계획·사이트워드 시험지 등) 없음.
+- [보통] 선생님용 발음 안내(우리말 근사음·입 모양·흔한 실수) 없음.
+- [보통] 슬라이드 사용법 안내 없음; 학급 운영 메모 없음.
+- [보통] 1권 가정통신문 "A는 무슨 소리?→/m/" 섞임 letter.html:66; 3·4권 가정통신문 cat 예시 고정 97.
+- [보통] 01-concept 옛 설정.
+- [사소] 3·4권 시험지 "단어 가족" 용어 test.html:388,392; 3권 U1 시험 보기에 안 배운 소리; 3권 WB "missing pair" 빈칸 홑글자; 정답지에 family_words·빙고·word_hunt 없음; 수업안 예상 답 없음; 역할 읽기 목록 불일치, narrator/both id 그대로; 이야기 지도 범례 "글자 유닛" 2~4권; 홈 "이 교재는" 1권 기준·11유닛; 그럼블이 권마다 다시 친구 되는 흐름, 4권 핌과 팜 대사 없음; press/ 옛 PomiPhonics 29개; 2권 PDF 10-08.
+- 잘된 점: PDF 목록 1:1, 최종 시험 권별 내용 맞음, A/B 실제 다름, 정답 둘인 보기 없음, 정답지 표시 정확, 이야기 자료 완비·일치, 2~4권 진도표·플래시카드 그 권 내용.
+
+## C. 파닉스 내용 (content agent)
+- [심각] 정답 그림 둘: 2권 u03 workbook_data.sentences[0] "The hen has a pen." 그림 [pen, hen] → [den, hen]. 4권 u01 sentences[0] "The cap is a cape!" [cape, cap] → [cape, cake].
+- [심각] quack 그림이 오리 → duck과 구별 불가: 3권 u10 check.read_circle [quack,quick,duck], game [quack,duck,clock], 3권 u11 review.test.read_circle, 1권 u12 review.test.listen_circle [quack,duck,queen], 1권 u07 check.match q–quack. duck 방해 그림 교체.
+- [심각] mug/cup 그림 비슷: 2권 u10 workbook_data.sentences[3] "I see a cup." [mug,cup] → pup/bug; hot 그림(코코아 머그) 교체.
+- [심각] 4권 u4 u_e: 가족 /juː/인데 tube·flute·dune·tune ipa /uː/; tub→tube 짝; 12유닛 hunt u_e 3/4가 /uː/; chunkItems가 가족이면 ipa 무시 sound_u_e("you") → flute "fl-you-t". /juː/ 단어로(cube·cute·mule·mute·fuse) 또는 ipa 따르게.
+- [심각] 4권 u4 pairs hug→huge (soft g 안 배움, 대사 "A huge hug!", workbook blend huge 빠진 칸 g) → us→use.
+- [보통] 안 배운 이어 소리 tr/sl/gl/pl: 4권 tree(u7 제목), train·tray(u6), slide·slid(u2 짝), globe·glob(u3 짝), 3권 plant(u9).
+- [보통] 이미 배운 사이트워드를 새 단어로: 2권 12개(the is in and can it we like you look go to), 3권 this·here, 4권 see·like·go·look; 4권 prev_book 표시 어긋남.
+- [보통] 안 가르친 이야기 단어: no/Oh no!(2~4권 거의 전부), for(2권 u4 제목), of, read(2권 u5), door, together(3권 37번), lantern·party·stone·magic·castle → no·for·of 사이트워드, 나머지 0유닛 "이야기 단어" 카드.
+- [보통] 4권 u9 oo 유닛 사이트워드 look(/ʊ/); 3권 u3 th 유닛 this/that(/ð/) vs 가르침 /θ/, thumb 묵음 b; 3권 u10 wh 사이트워드 who(/h/), wh 단어 whisk·whip(낯섦, whip 부적절); ow: bow(/aʊ/도), "Wow!".
+- [보통] 이중자음·끝 묶음 안 가르침: ll/ss/ff(shell chess dress sniff spill quill), 3권 u8 workbook blend sniff 빠진 칸 ff·spill ll; -nch -mb -sk -lt.
+- [보통] c/k 빠진 글자 문항 14개 (2권 u1 can·cat, u2 cap, u7 kit, u8 cot, u10 cup; 3권 u4 king; 4권 u1 lake·cake, u4 cute, u5 cave, u10 car×2·fork) → 모음/가족 칸으로.
+- [보통] 4권 u05 review.test.write rose 빠진 칸 s(/z/) → o_e.
+- [보통] check.write 절반이 유닛 패턴 안 물음(3권 u4 rock[r] song[o], u1 shop[o], 4권 u1 gate[g] lake[k], u10 car[c] fork[k]).
+- [보통] 그림으로 어려운 동사·형용사: 2권 hit sit hot wet red beg fed nap win dig run rip dip fun; 3권 thin(연필), quick, flip·stack(둘 다 팬케이크), spill, sniff, clap, crack; 4권 hope(jar와 헷갈림), hide, cute, huge, tune, ripe, dive.
+- [보통] 낯선 단어: 2권 den peg rag cot tin pit fig tag tap kit(구급상자); 3권 shed clam quill crib; 4권 vane robe mule dune jay hay harp torch; 짝 van→vane, rob→robe, glob→globe, slid→slide (→ man→mane, rod→rode, hid→hide).
+- [보통] 비슷한 그림: 4권 u9 check.read_circle [house,mouse,roof], game [roof,house,moon], game [tooth,boot,mouth].
+- [보통] 2권 u07 sentences[2] "The cat can sit on it." sit 그림은 앉은 개.
+- [보통] 3권 이어 소리 가족 2단어뿐(bl fl br dr sn st sp sw wh); flap·snip·sniff·quack이 먼저 나옴.
+- [사소] 어색한 영어: 2권 u02 "The cat is in a nap.", u04 "The bed is red and little.", u07 "Hit the pit! Hit it!", u08 "Go to the pot.", 3권 u08 "A spot is on my cap."(spot 그림 티셔츠). 사이트워드가 문장 쪽에 없음(2권 u06 can/not, 3권 u07 with, u09 said, 4권 u06 day). 1권 /j/ 표기 jelly·yak 같음, /a/ vs /æ/ 표기. 영국식 어휘. 1권 uncle=토끼(rabbit), insect=무당벌레, up=화살표. 4권까지 안 가르치는 er/ir/ur, y, soft c/g, oi, igh.
+- 잘된 점: 정답 모두 보기 안, 빠진 칸 번호 범위 안, 분류·사냥 단어 가족 맞음, 복습 범위 완전, 배운 범위 안, 2권 문장 읽힘, chunks·ipa 맞음, 37단어 권 사이 일관, storybook.md=JSON, 난이도 흐름 무리 없음.
+
+## D. 종이 교재 PDF (print agent)
+- [심각] 스토리북 인쇄: 반투명 글 띠(style.css:630 .page.story .band absolute, rgba .93)가 그림 아래 37% 가림 → Find 과제 물건이 가려짐(1권 27쪽 tomato·tooth, 19쪽 lantern, 4쪽 Pip; 2권 11 net, 27 log, 32 rug, 36 log·bug; 3권 15 ring). 인쇄용은 그림/글 분리.
+- [심각] 1권 스토리북 36쪽 그럼블 두 번(sb_u11_2) — 이미 다시 그리기 목록.
+- [심각] 종이에 화면 전용 한국어 안내 대량: pages.js instr() 인쇄 분기 없음 ("단어를 눌러 가족 상자에 넣어요" 45회, "▶ 를 누르면…" 38, "단어를 누르고 맞는 그림을 눌러요" 36, "두 글자가 만나면 소리 하나! ▶…" 31, 등 + 🔊/▶/🔀 기호).
+- [심각] "Let's play!" 칸 종이에서 할 일 없음(1권 SB U1 p11, 2권 U1 p11, 4권 U1 p11·U6 p50).
+- [심각] 1권 WB "H. Finish the story." 보기 단어 print-hide라 고를 게 없음, 빈칸 20mm.
+- [심각] 2~4권 SB U12 p2 Cross the pond: 정답 순서가 안내문에 인쇄됨, 쪽 2/3 빔.
+- [심각] 4권 SB U5 p45 C 4번 흰 고양이 그림 + c_t_ (cute) → 아이는 cat.
+- [심각] 1권 SB U11 p91 C 3번 zipper 그림이 조끼(vest로 읽힘), U12 p96 vest와 함께.
+- [보통] 4권 magic e 빈칸 표기 불일치(cape e 빈칸 vs gate·lake·cake e 회색).
+- [보통] 4권 hope 그림(강아지와 과자통) 추상어 → rope·bone·nose.
+- [보통] 2권 mat 그림 둥근 초록 매트 = rug와 구별 안 됨.
+- [보통] 1권 확인 쪽 C "Find and circle. Then write."에 정답 단어 인쇄(U1 p15, U5 p45, U8 p69, U11 p91, U12 p96).
+- [보통] 선 잇기에 점(●) 없음; 2·4권 p10 "Read and match" 1번 실제는 챈트 → "Read and chant."
+- [보통] 쓰기 칸 작음(.w4 52px ≈ 14mm, 가운데 4-5mm), 1권 WB U1 p5 빈 줄 4선 없음.
+- [보통] 흑백 복사에서 사라짐: 묵음 e 살구색, 가족 색, "빨간 글자가 모음", WB 크림 바탕.
+- [보통] 스토리북 인쇄에 대사 한국어 없음 → (해설 한 줄 추가로 일부 해결).
+- [보통] 빈 반쪽 많음(1·4권 U0 p6-7, 4권 U0 p6, U1 p10, U6 p46-47, U12 p98, WB U1 p5-6, U6 p22; 1권 SB U1 p12 제목만).
+- [보통] 유닛 PDF 홀수 쪽(양면 인쇄 어긋남): 2권 U10 9, 3권 U4 9, U8 11, U10 9, 4권 U6-U10 9.
+- [보통] 3권 Answers p2 카드 아래 잘림, 글씨 작음.
+- [보통] 1권 애매한 단어 그림: nose, six(딸기), vet(부엉이), up(풍선·화살표).
+- [사소] QR 9mm + 개인 계정 주소 인쇄; 4권 U0 카드 영어 설명 7pt; 1권 WB U1 p4 선 그림 12mm; 2권 Unit 1 시험 그림 반복; WB Unit 0 없음(안내 필요); Roll and say 판 화살표 없음.
+- 잘된 점: 최종 시험 사양 충족(Tests_Review.pdf 안), 영어 click 문구 없음, 따라 쓰기 칸·단어 그림 대부분 좋음, 캐릭터 일관, 스토리 문장 수준 맞음, 쪽 머리·번호 일관.

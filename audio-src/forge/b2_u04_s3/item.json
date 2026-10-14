@@ -50,19 +50,53 @@
     "raw": "TRANSCRIPT=A pig is on the bed. | TYPE=sentence | IPA=ə pɪɡ ɪz ɑn ðə bɛd | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A little peg is on the bed.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967126.8818967,
+   "sec": 2.6,
+   "check": {
+    "transcript": "A little pig is on the bed.",
+    "type": "sentence",
+    "ipa": "ə lɪtəl pɪɡ ɪz ɒn ðə bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A little pig is on the bed. | TYPE=sentence | IPA=ə lɪtəl pɪɡ ɪz ɒn ðə bɛd | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A little peg is on the bed.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967359.2107701,
+   "sec": 2.52,
+   "check": {
+    "transcript": "A little peg is on the bed.",
+    "type": "sentence",
+    "ipa": "ə ˈlɪtəl pɛg ɪz ɒn ðə bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A little peg is on the bed. | TYPE=sentence | IPA=ə ˈlɪtəl pɛg ɪz ɒn ðə bɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 19:48",
+ "applied": "2026-10-14 17:42",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b2_u04_s3",
  "sub": "line",
- "title": "2권 4유닛 문장 3: A peg is on the bed.",
- "text": "A peg is on the bed.",
+ "title": "2권 4유닛 문장 3: A little peg is on the bed.",
+ "text": "A little peg is on the bed.",
  "voice": "Kore",
  "book": 2,
  "busy": 0

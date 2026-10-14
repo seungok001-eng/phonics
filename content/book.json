@@ -529,7 +529,7 @@
     },
     "nose": {
       "ko": "코",
-      "desc": "a cartoon nose on a round face, only the nose area"
+      "desc": "a simple smiling cartoon face where the nose is drawn very big and round in the center, with tiny dot eyes and a small mouth, so the big nose is clearly the main thing"
     },
     "net": {
       "ko": "그물",
@@ -617,7 +617,7 @@
     },
     "up": {
       "ko": "위",
-      "desc": "a red balloon floating up into the sky with a big upward arrow beside it"
+      "desc": "one cartoon hand with the index finger pointing straight up toward a small sun in the sky, plain background, no arrow"
     },
     "uncle": {
       "ko": "삼촌",
@@ -625,7 +625,7 @@
     },
     "vet": {
       "ko": "수의사",
-      "desc": "a kind owl veterinarian in a white coat and round glasses holding a puppy"
+      "desc": "an animal doctor: a kind owl veterinarian in a white doctor coat with a big stethoscope, listening to the heartbeat of a small puppy with a bandaged paw lying on a little exam table; the stethoscope and the puppy patient are big and clear"
     },
     "vest": {
       "ko": "조끼",
@@ -649,7 +649,7 @@
     },
     "six": {
       "ko": "6",
-      "desc": "six red strawberries in a row"
+      "desc": "two small cartoon hands held up together showing six fingers: five fingers open on one hand and one finger up on the other, plain background, no numbers"
     },
     "box": {
       "ko": "상자",
@@ -677,7 +677,7 @@
     },
     "zipper": {
       "ko": "지퍼",
-      "desc": "a close-up of a metal zipper on a blue jacket, half open"
+      "desc": "one big metal zipper drawn large and close-up on its own, half unzipped with the pull tab in the middle, on a plain background, no jacket or clothing shape"
     },
     "zigzag": {
       "ko": "지그재그",

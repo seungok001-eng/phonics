@@ -463,7 +463,7 @@
       },
       {
         "word": "shop",
-        "missing": 1
+        "missing": 0
       },
       {
         "word": "shell",
@@ -471,7 +471,7 @@
       },
       {
         "word": "shed",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "fish",
@@ -479,7 +479,7 @@
       },
       {
         "word": "dish",
-        "missing": 1
+        "missing": 2
       }
     ],
     "family": {

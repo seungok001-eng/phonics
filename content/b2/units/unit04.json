@@ -21,13 +21,14 @@
   },
   "sight_words": [
     "big",
-    "little"
+    "little",
+    "for"
   ],
   "objectives_ko": [
     "짧은 모음 e(e) 소리를 알고 -ed·-eg 단어를 소리를 이어 읽는다",
     "-ed·-eg 단어 6개를 읽고 그림과 잇고 쓴다",
     "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
-    "사이트워드 big, little를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 big, little, for를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -110,16 +111,16 @@
       ]
     },
     {
-      "text": "The bed is red and little.",
+      "text": "A red bed for Grumble!",
       "audio": "b2_u04_s2",
       "pic": "word_bed",
       "words": [
-        "bed",
-        "red"
+        "red",
+        "bed"
       ]
     },
     {
-      "text": "A peg is on the bed.",
+      "text": "A little peg is on the bed.",
       "audio": "b2_u04_s3",
       "pic": "word_peg",
       "words": [
@@ -345,7 +346,7 @@
         "pictures": [
           "fed",
           "red",
-          "wet"
+          "bed"
         ]
       },
       {

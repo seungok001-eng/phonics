@@ -25,9 +25,8 @@ function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@pa
   if (!(await loadBook(+(q.get('bk') || 1)))) { document.body.textContent = 'book.json 을 읽지 못했어요'; return; }
   App.b = b; App.u = u;
   await Promise.all(App.book.units.map((x) => loadUnit(x.n)));
-  const base = (App.book.site_base || '').replace(/^https?:\/\//, '');
   if (press) document.body.classList.add('press');
-  if (b === 'story') { pageSize(press ? '216mm 154mm' : '210mm 148mm'); renderStory(base); return; }
+  if (b === 'story') { pageSize(press ? '216mm 154mm' : '210mm 148mm'); renderStory(); return; }
   if (press) pageSize('216mm 303mm');
   const unit = App.units[u]; if (!unit) { document.body.textContent = '유닛 없음'; return; }
   const pages = pageList(unit, b), onlyP = +(q.get('p') || 0), name = q.get('name') || '';   // &p=N 이면 그 쪽만 (수료증 인쇄), &name= 은 수료증 이름
@@ -36,24 +35,24 @@ function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@pa
     if (onlyP && p !== onlyP) return '';
     const ctx = { book: App.book, unit, b, u, p, page: pg, pages, print: true, name };
     const fn = PAGES[pg.type] || (() => '');
-    const qr = `<img class="qr" src="../assets/qr/${bkKey()}${b}_u${String(u).padStart(2, '0')}_p${p}.png" onerror="this.style.display='none'" alt="QR">`;
-    return `<article class="page ${b} t-${pg.type}"><div class="ph-head"><span class="unit">Unit ${u}</span><h2>${esc(unit.title)}</h2>${lettersBadge(unit)}</div>${fn(ctx)}<div class="ph-foot"><span>${qr}${base}/book/?b=${b}&u=${u}&p=${p}${bkParam()}</span><span>${b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${pg.lesson.n}</span><span class="pno">${no}</span></div></article>`;
+    // QR(15mm) + "🎧 듣기" — 긴 주소 글자는 찍지 않는다 (QR 이 없으면 둘 다 숨김)
+    const qr = `<img class="qr" src="../assets/qr/${bkKey()}${b}_u${String(u).padStart(2, '0')}_p${p}.png" onerror="this.parentElement.style.visibility='hidden'" alt="QR">`;
+    return `<article class="page ${b} t-${pg.type}"><div class="ph-head"><span class="unit">Unit ${u}</span><h2>${esc(unit.title)}</h2>${lettersBadge(unit)}</div>${fn(ctx)}<div class="ph-foot"><span class="qrbox">${qr}<b>🎧 듣기</b></span><span>${b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${pg.lesson.n}</span><span class="pno">${no}</span></div></article>`;
   }).join('');
   document.title = `${bookLabel()} — ${b === 'sb' ? 'Student Book' : 'Workbook'} Unit ${u}`;
   window.PRINT_READY = true;
   if (onlyP && q.get('auto') !== '0') setTimeout(() => print(), 800);   // 한 쪽 인쇄는 바로 인쇄 창
 })();
 // 스토리북: 표지 → 앞 쪽 → 유닛 쪽 → 뒤 쪽. 쪽마다 그림이 꽉 차고 아래 글 띠, QR 은 story.html 의 그 쪽
-function renderStory(base) {
+function renderStory() {
   const pages = storyPages(); if (!pages.length) { document.body.textContent = '스토리북 내용(book.json 의 storybook)이 없어요'; return; }
   document.getElementById('pages').innerHTML = pages.map((pg, i) => {
     if (pg.cover) return `<article class="page story cover"><div class="art">${pic(pg.id, '', pg.title)}</div><div class="cover-title"><small>${esc(App.book.series)} ${App.book.book}</small><h1>${esc(pg.title)}</h1></div></article>`;
-    const url = `${base}/book/story.html?u=${pg.u}&p=${pg.p}${bkParam()}`;
-    const qr = `<img class="qr" src="../assets/qr/${storyKey(pg)}.png" onerror="this.style.display='none'" alt="QR">`;
+    const qr = `<span class="qrbox"><img class="qr" src="../assets/qr/${storyKey(pg)}.png" onerror="this.parentElement.style.visibility='hidden'" alt="QR"><b>🎧 듣기</b></span>`;
     const lines = (pg.lines || []).map((ln) => `<div class="line">${avatar(ln.who)}<span>${esc(ln.text)}</span></div>`).join('');
     const task = pg.task ? `<div class="task">✨ ${esc(pg.task)}${pg.task_ko ? `<small>${esc(pg.task_ko)}</small>` : ''}</div>` : '';
     const where = typeof pg.u === 'number' ? `Unit ${pg.u} · ${esc(pg.title)}` : '';
-    return `<article class="page story"><div class="art">${pic(pg.id, '', pg.title)}</div><div class="band"><div class="txt"><div class="where">${where}</div>${narrHtml(pg, i)}${lines}${task}</div><div class="foot">${qr}<span class="url">${url}</span><span class="pno">${i}</span></div></div></article>`;
+    return `<article class="page story"><div class="art">${pic(pg.id, '', pg.title)}</div><div class="band"><div class="txt"><div class="where">${where}</div>${narrHtml(pg, i)}${lines}${task}</div><div class="foot">${qr}<span class="pno">${i}</span></div></div></article>`;
   }).join('');
   document.title = `${bookLabel()} — ${App.book.storybook.title || 'Storybook'}`;
   window.PRINT_READY = true;

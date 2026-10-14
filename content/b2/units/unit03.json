@@ -30,7 +30,7 @@
     "짧은 모음 e(e) 소리를 알고 -et·-en 단어를 소리를 이어 읽는다",
     "-et·-en 단어 9개를 읽고 그림과 잇고 쓴다",
     "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
-    "사이트워드 has, and를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 has, and(1권 복습)를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -338,7 +338,7 @@
         "word": "net",
         "pictures": [
           "net",
-          "nap",
+          "map",
           "pet"
         ]
       },
@@ -355,7 +355,7 @@
         "pictures": [
           "jet",
           "net",
-          "wet"
+          "pet"
         ]
       },
       {
@@ -411,7 +411,7 @@
         "missing": 2
       },
       {
-        "word": "wet",
+        "word": "jet",
         "missing": 1
       }
     ]
@@ -440,7 +440,7 @@
         "word": "jet",
         "pictures": [
           "jet",
-          "wet",
+          "net",
           "vet"
         ]
       },
@@ -453,11 +453,11 @@
         ]
       },
       {
-        "word": "wet",
+        "word": "ten",
         "pictures": [
-          "wet",
-          "net",
-          "vet"
+          "ten",
+          "pen",
+          "jet"
         ]
       }
     ]
@@ -516,7 +516,7 @@
       {
         "text": "The hen has a pen.",
         "pictures": [
-          "pen",
+          "net",
           "hen"
         ],
         "answer": 1

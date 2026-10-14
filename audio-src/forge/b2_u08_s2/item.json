@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=Go to the pot. | TYPE=sentence | IPA=goʊ tuː ðə pɑːt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Go, dog! Go to the log!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967141.858109,
+   "sec": 2.52,
+   "check": {
+    "transcript": "Go dog, go to the log.",
+    "type": "sentence",
+    "ipa": "ɡoʊ dɔɡ ɡoʊ tuː ðə lɔɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go dog, go to the log. | TYPE=sentence | IPA=ɡoʊ dɔɡ ɡoʊ tuː ðə lɔɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 00:02",
+ "applied": "2026-10-14 17:41",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b2_u08_s2",
  "sub": "line",
- "title": "2권 8유닛 문장 2: Go to the pot.",
- "text": "Go to the pot.",
+ "title": "2권 8유닛 문장 2: Go, dog! Go to the log!",
+ "text": "Go, dog! Go to the log!",
  "voice": "Kore",
  "book": 2,
  "busy": 0

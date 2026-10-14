@@ -54,7 +54,7 @@
       "snow",
       "bowl",
       "crow",
-      "bow",
+      "window",
       "moon",
       "boot",
       "roof",
@@ -266,7 +266,7 @@
         "missing": 1
       },
       {
-        "word": "bow",
+        "word": "crow",
         "missing": 1
       },
       {
@@ -320,10 +320,6 @@
         {
           "type": "review_board",
           "title": "Game board"
-        },
-        {
-          "type": "review_bingo",
-          "title": "Bingo"
         }
       ],
       "workbook": [
@@ -346,6 +342,10 @@
           "type": "story",
           "title": "Story",
           "half": 2
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
         },
         {
           "type": "review_test",

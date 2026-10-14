@@ -332,7 +332,7 @@
       },
       {
         "letter": "q",
-        "word": "quack"
+        "word": "quilt"
       },
       {
         "letter": "r",
@@ -380,7 +380,7 @@
         "audio": "sound_q",
         "answer": "q",
         "pictures": [
-          "quack",
+          "queen",
           "panda",
           "rocket"
         ]
@@ -391,7 +391,7 @@
         "pictures": [
           "rain",
           "panda",
-          "quack"
+          "quilt"
         ]
       },
       {

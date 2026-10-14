@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=A spot is on my cap. | TYPE=sentence | IPA=ə spɑt ɪz ɑn maɪ kæp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Oh no! A big spot!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967150.2172165,
+   "sec": 2.92,
+   "check": {
+    "transcript": "Oh no, a big spot.",
+    "type": "sentence",
+    "ipa": "oʊ noʊ ə bɪɡ spɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh no, a big spot. | TYPE=sentence | IPA=oʊ noʊ ə bɪɡ spɑt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:30",
+ "applied": "2026-10-14 17:41",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b3_u08_s4",
  "sub": "line",
- "title": "3권 8유닛 문장 4: A spot is on my cap.",
- "text": "A spot is on my cap.",
+ "title": "3권 8유닛 문장 4: Oh no! A big spot!",
+ "text": "Oh no! A big spot!",
  "voice": "Kore",
  "book": 3,
  "busy": 0

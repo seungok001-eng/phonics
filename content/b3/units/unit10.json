@@ -27,7 +27,8 @@
     "wh(/w/)·qu(/kw/) 짝꿍 소리를 말한다",
     "단어 6개(whisk whip quilt quack quill quick)를 소리를 이어 읽고 그림과 잇고 쓴다",
     "빠진 짝꿍·모음을 듣고 쓴다",
-    "사이트워드 where, who를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 where, who를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다",
+    "※ 선생님 참고: who 는 wh 로 시작하지만 \"후\"(h 소리)로 읽는 사이트워드예요. wh 소리(w)의 예외라고 알려 주고 통째로 읽게 해요. whip 그림은 휘핑크림이에요."
   ],
   "lessons": [
     {
@@ -356,7 +357,7 @@
         "pictures": [
           "quack",
           "quick",
-          "duck"
+          "clock"
         ]
       },
       {
@@ -449,16 +450,16 @@
         "word": "quack",
         "pictures": [
           "quack",
-          "duck",
-          "clock"
+          "clock",
+          "quilt"
         ]
       },
       {
-        "word": "quick",
+        "word": "quill",
         "pictures": [
-          "quick",
           "quill",
-          "quack"
+          "quilt",
+          "whip"
         ]
       }
     ]
@@ -479,15 +480,15 @@
       },
       {
         "word": "quack",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "quill",
-        "missing": 1
+        "missing": 0
       },
       {
         "word": "quick",
-        "missing": 2
+        "missing": 0
       }
     ],
     "family": {

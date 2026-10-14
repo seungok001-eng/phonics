@@ -160,7 +160,7 @@
           },
           {
             "who": "bun",
-            "text": "/j/ /j/ jelly!",
+            "text": "/dʒ/ /dʒ/ jelly!",
             "audio": "u04_l6",
             "pop": "j",
             "ko": "j, j 젤리!"
@@ -521,7 +521,7 @@
           },
           {
             "who": "bun",
-            "text": "/j/ /j/ jelly! Pop!",
+            "text": "/dʒ/ /dʒ/ jelly! Pop!",
             "audio": "sb_u04_2_3",
             "ko": "j, j 젤리! 펑!"
           }

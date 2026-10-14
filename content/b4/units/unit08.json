@@ -20,7 +20,7 @@
       "snow",
       "bowl",
       "crow",
-      "bow"
+      "window"
     ]
   },
   "sight_words": [
@@ -31,7 +31,7 @@
     "모음 짝 oa·ow 가 긴 o(oʊ) 소리 하나를 내는 것을 안다",
     "oa·ow 단어 10개를 소리를 이어 읽고 그림과 잇고 쓴다",
     "빠진 모음 짝을 듣고 쓴다",
-    "사이트워드 go, slow를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 go(1권 복습), slow를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -359,7 +359,7 @@
         "word": "crow",
         "pictures": [
           "crow",
-          "bow",
+          "window",
           "road"
         ]
       },
@@ -375,7 +375,7 @@
         "word": "bowl",
         "pictures": [
           "bowl",
-          "bow",
+          "window",
           "soap"
         ]
       },
@@ -399,7 +399,7 @@
         "word": "snow"
       },
       {
-        "word": "bow"
+        "word": "window"
       }
     ],
     "write": [
@@ -409,7 +409,7 @@
       },
       {
         "word": "soap",
-        "missing": 0
+        "missing": 1
       },
       {
         "word": "snow",
@@ -450,9 +450,9 @@
         ]
       },
       {
-        "word": "bow",
+        "word": "window",
         "pictures": [
-          "bow",
+          "window",
           "bowl",
           "boat"
         ]
@@ -515,7 +515,7 @@
         "snow",
         "bowl",
         "crow",
-        "bow"
+        "window"
       ]
     },
     "sentences": [
@@ -546,7 +546,7 @@
       {
         "text": "Toast in a bowl!",
         "pictures": [
-          "bow",
+          "window",
           "toast"
         ],
         "answer": 1

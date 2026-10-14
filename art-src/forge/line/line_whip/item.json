@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791616897.6430893,
+ "updated": 1791966971.153438,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/0d831e97-013b-412b-9521-93986cf792b4?Expires=1791638476&KeyName=labs-flow-prod-cdn-key&Signature=vZrmroKI4xFHmv7tlsqiohJ2Gbk",
  "prompt_edited": false,
- "applied": "2026-10-10 16:22",
+ "applied": "2026-10-14 17:38",
  "gen": "",
  "job_type": "image",
  "reference": "word_whip",
@@ -16,10 +16,11 @@
  "id": "line_whip",
  "kind": "line",
  "word": "whip",
- "title": "whip 선 그림 · 채찍",
+ "title": "whip 선 그림 · 휘핑크림",
  "prompt": "Convert the attached picture into a clean black-outline coloring page for children: same object, same pose, bold smooth black outlines only, pure white fill, no color, no shading, no gray, white background, no text",
  "aspect": "1:1",
  "out": "web/assets/art/line_whip.png",
  "book": 3,
- "claimed_at": 1791616858.406359
+ "claimed_at": 1791966941.504175,
+ "regen": 1
 }

@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791362120.0808513,
+ "updated": 1791966909.9881015,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/17cc21c4-a323-4be4-8866-bb51e8267a92?Expires=1791383699&KeyName=labs-flow-prod-cdn-key&Signature=a3IGKNEckJdpf5ts6Scb2Hl-vxc",
  "prompt_edited": false,
- "applied": "2026-10-07 17:36",
+ "applied": "2026-10-14 17:38",
  "gen": "",
  "job_type": "image",
  "reference": "word_up",
@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_up.png",
  "book": 1,
- "claimed_at": 1791362080.886266
+ "claimed_at": 1791966875.480451,
+ "regen": 1
 }

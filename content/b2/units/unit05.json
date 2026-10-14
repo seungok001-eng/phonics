@@ -134,7 +134,7 @@
         "hen",
         "ten",
         "bed",
-        "red",
+        "pen",
         "leg",
         "peg"
       ]
@@ -158,11 +158,11 @@
           ]
         },
         {
-          "word": "wet",
+          "word": "jet",
           "pictures": [
-            "wet",
+            "jet",
             "net",
-            "wag"
+            "bat"
           ]
         },
         {
@@ -195,13 +195,13 @@
           "word": "rat"
         },
         {
-          "word": "nap"
+          "word": "map"
         },
         {
           "word": "pet"
         },
         {
-          "word": "fed"
+          "word": "leg"
         }
       ],
       "write": [
@@ -218,7 +218,7 @@
           "missing": 0
         },
         {
-          "word": "red",
+          "word": "bed",
           "missing": 1
         }
       ]
@@ -299,10 +299,6 @@
         {
           "type": "review_board",
           "title": "Game board"
-        },
-        {
-          "type": "review_bingo",
-          "title": "Bingo"
         }
       ],
       "workbook": [
@@ -325,6 +321,10 @@
           "type": "story",
           "title": "Story",
           "half": 2
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
         },
         {
           "type": "review_test",
@@ -404,7 +404,7 @@
             "who": "beads",
             "text": "/k/... /æ/... /t/...",
             "audio": "b2_u05_l5",
-            "ko": "/k/… /æ/… /t/…"
+            "ko": "c… a… t… (캣의 소리를 하나씩)"
           },
           {
             "who": "narrator",
@@ -569,7 +569,7 @@
             "who": "beads",
             "text": "/k/... /æ/... /t/...",
             "audio": "sb2_u05_2_2",
-            "ko": "/k/… /æ/… /t/…"
+            "ko": "c… a… t… (캣의 소리를 하나씩)"
           },
           {
             "who": "narrator",

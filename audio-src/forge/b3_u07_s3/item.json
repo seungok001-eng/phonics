@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=I like the red dress. | TYPE=sentence | IPA=aɪ laɪk ðə rɛd drɛs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I like the dress.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967146.8060567,
+   "sec": 1.56,
+   "check": {
+    "transcript": "I like the dress.",
+    "type": "sentence",
+    "ipa": "aɪ laɪk ðə drɛs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I like the dress. | TYPE=sentence | IPA=aɪ laɪk ðə drɛs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:28",
+ "applied": "2026-10-14 17:41",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b3_u07_s3",
  "sub": "line",
- "title": "3권 7유닛 문장 3: I like the red dress.",
- "text": "I like the red dress.",
+ "title": "3권 7유닛 문장 3: I like the dress.",
+ "text": "I like the dress.",
  "voice": "Kore",
  "book": 3,
  "busy": 0

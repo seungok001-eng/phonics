@@ -93,7 +93,7 @@ document.head.insertAdjacentHTML('beforeend', `<style>@page { size: ${A4 ? 'A4 p
   const cast = `<div class="cast"><h2>친구들</h2>${Object.entries(book.characters).map(([id, c]) => `<div class="ch"><span class="cimg">${esc(c.name)}<img src="${art('char_' + id + '_ref')}" alt="" onerror="this.remove()"></span><div><b style="color:${c.color}">${esc(c.name)} <small>${esc(c.ko)} · "${esc(c.catchphrase)}"</small></b>${esc(c.role_ko || c.personality || '')}</div></div>`).join('')}</div>`;
   const last = pos[list.length - 1];
   const poster = `<div class="poster ${A4 ? '' : 'alone'}">${road}<div class="title"><h1>${esc(book.series.split(' ')[0])} <span>${esc(book.series.split(' ').slice(1).join(' '))}</span> ${book.book} · 이야기 지도</h1><p>${esc(firstSentence(arc.ko) || book.subtitle || '')}</p></div>
-    <div class="legend"><b>길을 따라 0에서 12까지</b><br>주황 = 글자 유닛 · 파랑 = 복습 · 초록 = 마지막 쇼</div>${stops}${last ? `<span class="end" style="left:${last.x + W + 3}mm;top:${last.y + 14}mm">🏁 끝!</span>` : ''}${cast}
+    <div class="legend"><b>길을 따라 0에서 12까지</b><br>주황 = ${!book.families ? '글자' : !Object.values(book.families).some((f) => f.kind) ? '단어 가족' : Object.values(book.families).some((f) => f.kind === 'magic_e') ? '긴 모음' : '짝꿍 소리'} 유닛 · 파랑 = 복습 · 초록 = 마지막 쇼</div>${stops}${last ? `<span class="end" style="left:${last.x + W + 3}mm;top:${last.y + 14}mm">🏁 끝!</span>` : ''}${cast}
     <div class="foot">${esc(book.title)} · 이야기 지도 · 유닛을 마칠 때마다 스티커나 별을 붙여 주세요</div></div>`;
   document.getElementById('out').innerHTML = A4 ? `<div class="sheet l">${poster}<div class="cut"></div></div><div class="sheet r">${poster}<div class="cut"></div></div>` : poster;
   document.title = `${book.title} — 이야기 지도`;

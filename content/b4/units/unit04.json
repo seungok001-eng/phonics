@@ -30,10 +30,6 @@
     {
       "from": "cut",
       "to": "cute"
-    },
-    {
-      "from": "hug",
-      "to": "huge"
     }
   ],
   "sight_words": [
@@ -42,9 +38,10 @@
   ],
   "objectives_ko": [
     "긴 모음 u 와 마법 e 를 알고, u_e 가 /juː/(cube) 또는 /uː/(flute) 소리를 내는 것을 안다",
-    "cub→cube 처럼 짝 단어 4쌍을 바꿔 읽는다",
+    "cub→cube 처럼 짝 단어 3쌍을 바꿔 읽는다",
     "u_e 단어 8개를 소리를 이어 읽고 그림과 잇고 쓴다",
-    "사이트워드 use, June을 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 use, June을 보고 읽고, 배운 단어로 된 문장 4개를 읽는다",
+    "※ 선생님 참고: u_e 는 소리가 둘이에요. cube·cute·mule·huge 는 \"유\"(글자 이름 U 와 같은 소리), tube·flute·dune·tune 은 \"우\"로 읽어요. 단어마다 바른 소리로 들려주고, 두 소리를 구별하라고 묻는 문항은 없어요. huge 의 g 는 j 소리(아직 배우지 않음)라 통째로 읽어 줘요."
   ],
   "lessons": [
     {
@@ -365,32 +362,32 @@
         "word": "mule",
         "pictures": [
           "mule",
-          "huge",
-          "dune"
+          "dune",
+          "tub"
         ]
       },
       {
-        "word": "cute",
+        "word": "dune",
         "pictures": [
-          "cute",
-          "cut",
-          "cube"
+          "dune",
+          "cube",
+          "mule"
         ]
       },
       {
         "word": "flute",
         "pictures": [
           "flute",
-          "tune",
-          "tube"
+          "tube",
+          "mule"
         ]
       },
       {
-        "word": "huge",
+        "word": "tub",
         "pictures": [
-          "huge",
-          "hug",
-          "mule"
+          "tub",
+          "tube",
+          "cub"
         ]
       }
     ],
@@ -399,10 +396,10 @@
         "word": "dune"
       },
       {
-        "word": "tune"
+        "word": "flute"
       },
       {
-        "word": "cute"
+        "word": "mule"
       },
       {
         "word": "cube"
@@ -415,7 +412,7 @@
       },
       {
         "word": "tube",
-        "missing": 0
+        "missing": 1
       },
       {
         "word": "mule",
@@ -459,16 +456,16 @@
         "word": "cut",
         "pictures": [
           "cut",
-          "cute",
-          "hug"
+          "cube",
+          "tub"
         ]
       },
       {
-        "word": "huge",
+        "word": "mule",
         "pictures": [
-          "huge",
-          "hug",
-          "tune"
+          "mule",
+          "tube",
+          "cub"
         ]
       }
     ]
@@ -484,16 +481,8 @@
         "missing": 1
       },
       {
-        "word": "cute",
-        "missing": 0
-      },
-      {
-        "word": "huge",
-        "missing": 2
-      },
-      {
         "word": "mule",
-        "missing": 1
+        "missing": 0
       },
       {
         "word": "flute",
@@ -506,6 +495,14 @@
       {
         "word": "tune",
         "missing": 1
+      },
+      {
+        "word": "cube",
+        "missing": 2
+      },
+      {
+        "word": "mule",
+        "missing": 1
       }
     ],
     "family": {
@@ -513,15 +510,15 @@
         "cub",
         "tub",
         "cut",
-        "hug"
+        "bug"
       ],
       "u_e": [
         "cube",
         "tube",
         "cute",
-        "huge",
         "mule",
-        "flute"
+        "flute",
+        "dune"
       ]
     },
     "sentences": [
@@ -552,7 +549,7 @@
       {
         "text": "A flute tune in June.",
         "pictures": [
-          "huge",
+          "cube",
           "flute"
         ],
         "answer": 1

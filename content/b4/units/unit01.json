@@ -422,7 +422,7 @@
       },
       {
         "word": "lake",
-        "missing": 2
+        "missing": 1
       },
       {
         "word": "tape",
@@ -492,7 +492,7 @@
       },
       {
         "word": "cake",
-        "missing": 2
+        "missing": 1
       },
       {
         "word": "gate",
@@ -532,7 +532,7 @@
         "text": "The cap is a cape!",
         "pictures": [
           "cape",
-          "cap"
+          "cake"
         ],
         "answer": 0
       },

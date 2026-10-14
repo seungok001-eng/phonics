@@ -21,6 +21,10 @@
           "title": "The Magic Castle"
         },
         {
+          "type": "review_words",
+          "title": "Words from Book 3"
+        },
+        {
           "type": "vowels",
           "title": "Five long vowels"
         },
@@ -178,6 +182,22 @@
         "task_ko": "요정 이를 찾아요",
         "ko": "성문 글자 끝에서 반짝이던 요정 이가 나타나 '이~! 안녕, 핍!' 해요. 탑 창문에서 누군가 내다봐요."
       }
+    ]
+  },
+  "review": {
+    "words": [
+      "ship",
+      "fish",
+      "chin",
+      "bath",
+      "duck",
+      "ring",
+      "clock",
+      "flag",
+      "crab",
+      "drum",
+      "tent",
+      "quilt"
     ]
   }
 }

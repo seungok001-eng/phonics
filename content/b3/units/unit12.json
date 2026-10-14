@@ -98,6 +98,26 @@
       "quill",
       "quick"
     ],
+    "bingo": {
+      "words": [
+        "ship",
+        "fish",
+        "chin",
+        "bench",
+        "bath",
+        "moth",
+        "duck",
+        "ring",
+        "block",
+        "clock",
+        "flag",
+        "crab",
+        "drum",
+        "snack",
+        "tent",
+        "quilt"
+      ]
+    },
     "test": {
       "read_circle": [
         {
@@ -109,9 +129,9 @@
           ]
         },
         {
-          "word": "thin",
+          "word": "thumb",
           "pictures": [
-            "thin",
+            "thumb",
             "chin",
             "swing"
           ]
@@ -614,6 +634,10 @@
         {
           "type": "word_hunt",
           "title": "Word hunt"
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
         }
       ],
       "workbook": [

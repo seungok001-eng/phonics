@@ -31,7 +31,7 @@
     "br·cr·dr 을 두 소리를 빠르게 이어 말한다",
     "br·cr·dr 단어 7개(brick brush crab crib crack drum dress)를 소리를 이어 읽고 그림과 잇고 쓴다",
     "빠진 짝꿍·모음을 듣고 쓴다",
-    "사이트워드 with, for를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 with, for(2권 복습)를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "text": "The egg has a crack.",
+      "text": "An egg with a crack!",
       "audio": "b3_u07_s2",
       "pic": "word_crack",
       "words": [
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "text": "I like the red dress.",
+      "text": "I like the dress.",
       "audio": "b3_u07_s3",
       "pic": "word_dress",
       "words": [
@@ -398,7 +398,7 @@
     ],
     "match": [
       {
-        "word": "crack"
+        "word": "crab"
       },
       {
         "word": "drum"
@@ -421,7 +421,7 @@
       },
       {
         "word": "brick",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "dress",
@@ -458,9 +458,9 @@
         ]
       },
       {
-        "word": "crack",
+        "word": "crib",
         "pictures": [
-          "crack",
+          "crib",
           "crab",
           "clock"
         ]
@@ -483,7 +483,7 @@
       },
       {
         "word": "brush",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "crab",
@@ -491,11 +491,11 @@
       },
       {
         "word": "crib",
-        "missing": 1
+        "missing": 0
       },
       {
         "word": "crack",
-        "missing": 2
+        "missing": 0
       },
       {
         "word": "drum",
@@ -503,11 +503,11 @@
       },
       {
         "word": "dress",
-        "missing": 1
+        "missing": 0
       },
       {
-        "word": "crab",
-        "missing": 1
+        "word": "clam",
+        "missing": 0
       }
     ],
     "family": {
@@ -535,7 +535,7 @@
         "answer": 0
       },
       {
-        "text": "The egg has a crack.",
+        "text": "An egg with a crack!",
         "pictures": [
           "crib",
           "crack"
@@ -543,7 +543,7 @@
         "answer": 1
       },
       {
-        "text": "I like the red dress.",
+        "text": "I like the dress.",
         "pictures": [
           "dress",
           "brush"

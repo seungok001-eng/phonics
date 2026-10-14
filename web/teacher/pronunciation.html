@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pop! Phonics — 선생님용 소리 안내</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --green:#8FD14F; --red:#B5472F; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; font-size:12px; line-height:1.45; }
+  .sheet { width:210mm; min-height:297mm; margin:16px auto; background:#fff; padding:14mm 14mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; }
+  h1 { font-family:'Fredoka'; color:var(--orange); margin:0 0 4px; font-size:22px; } h1 small { color:var(--soft); font-family:'Andika'; font-weight:400; font-size:12px; margin-left:8px; }
+  h2 { font-family:'Fredoka'; font-size:16px; margin:12px 0 6px; border-left:5px solid var(--green); padding-left:8px; }
+  .cont { color:var(--soft); font-family:'Fredoka'; font-size:13px; margin-bottom:6px; }
+  .box { background:var(--cream); border:2px solid var(--line); border-radius:12px; padding:8px 12px; font-size:12.5px; }
+  .box ul { margin:2px 0; padding-left:18px; }
+  table { width:100%; border-collapse:collapse; table-layout:fixed; }
+  th, td { border:1px solid var(--line); padding:4px 6px; vertical-align:top; text-align:left; }
+  th { background:var(--cream); font-family:'Fredoka'; font-weight:500; }
+  tbody { break-inside:avoid; page-break-inside:avoid; }
+  tr.g td { background:#FFF3E6; } tr.g b { font-family:'Fredoka'; font-size:14px; color:var(--orange); margin-right:6px; }
+  .ltr { font-family:'Fredoka'; font-size:24px; font-weight:700; line-height:1.15; }
+  .ltr small { display:block; font-family:'Andika'; font-weight:400; font-size:10px; color:var(--soft); }
+  .ipa { color:var(--soft); font-size:11px; }
+  .ex { font-size:15px; } .ex b { color:var(--orange); }
+  .err { color:var(--red); }
+  .var { margin-top:3px; color:var(--soft); font-size:11px; }
+  td.k { font-family:'Fredoka'; font-size:13px; } td.k small { display:block; font-family:'Andika'; color:var(--soft); font-size:11px; }
+  .snd { border:1.5px solid var(--line); background:#fff; border-radius:8px; padding:0 4px; cursor:pointer; font-size:12px; line-height:1.4; }
+  .top { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin:0 auto 10px; width:210mm; }
+  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
+  .top a.on { border-color:var(--orange); font-weight:700; }
+  @page { size:A4; margin:0; }
+  @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top, .snd { display:none !important; } }
+  body { font-variant-ligatures: none; }   /* 합자 끔 (fl·fi) */
+</style>
+</head>
+<body>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span id="nav"></span></div>
+<div id="out"></div>
+<script>
+// 선생님용 소리 안내: 각 권에서 배우는 소리를 빠짐없이 (내용 JSON 에서 자동으로) — 우리말 비슷한 소리·입 모양·흔한 실수와 함께
+// ?bk=1~4 (기본 1), ?bk=all 이면 네 권을 차례로 (PDF 한 개로 뽑을 때)
+const BKQ = new URLSearchParams(location.search).get('bk') || '1', ALL = BKQ === 'all';
+const BK = ALL ? 1 : (+BKQ || 1); let DIR = '';   // 권 번호와 그 권의 content 폴더 ('' = 1권)
+async function get(rel, root) { for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + (root ? '' : DIR) + rel, { cache: 'no-store' }); if (r.ok) return r.json(); } catch (e) {} } return null; }
+async function getBook(n = BK) { const books = (await get('books.json', true)) || [{ n: 1, dir: '' }]; const info = books.find((x) => x.n === n) || books[0]; DIR = info.dir || ''; const book = await get('book.json'); if (book && !book.letters && DIR) { const b1 = await get('book.json', true); if (b1) book.letters = b1.letters; } if (book) book.info = info; return book; }
+// 3·4권 가족 이름: sh · a_e · ai 는 그대로, 2권 끝소리 가족(-at)과 끝소리(-nd)는 앞에 - (내용의 label 이 있으면 그것)
+function famLab(book, f) { const d = (book.families || {})[f] || {}; return d.label || (!d.kind || d.kind === 'final' ? '-' + String(f).replace(/^-/, '') : f); }
+function famKindOf(book, f) { return ((book.families || {})[f] || {}).kind || ''; }
+// 단어에서 가족 부분 굵게: 소리 덩어리(words[w].chunks)가 있으면 그 덩어리(마법 e 는 모음과 끝 e), 없으면 끝소리 글자
+function famBold(book, w, f) {
+  const d = (book.words || {})[w] || {}, key = String(f).replace(/^-/, ''), ch = d.chunks, k = ch ? ch.indexOf(key) : -1;
+  if (k >= 0) { const out = [], tail = []; ch.forEach((c, j) => { const b = (t) => j === k ? `<b>${t}</b>` : t; if (c.includes('_')) { out.push(b(c.split('_')[0])); tail.push(b(c.split('_')[1] || 'e')); } else out.push(b(c)); }); return out.concat(tail).join(''); }
+  const i = w.lastIndexOf(key); return i < 0 ? w : `${w.slice(0, i)}<b>${key}</b>${w.slice(i + key.length)}`;
+}
+
+// ── 소리 사전: 키(글자·가족 이름) → [우리말 비슷한 소리, 입 모양 팁, 흔한 실수]
+// 우리말은 어디까지나 '비슷한 소리'. 반드시 🔊 원어민 소리와 입 모양을 같이 보여 준다.
+const S = {
+  // 1권 글자 26개 (2·3권 짧은 모음 a e i o u 도 이 줄을 쓴다)
+  a: ['애 (입을 크게)', '입을 옆으로 크게 벌리고 턱을 아래로 툭 떨어뜨려요. 짧게.', "'에'처럼 작게 말하기 → bad 와 bed 가 같아져요. 이름 '에이'로 읽기."],
+  b: ['ㅂ (목 떨림)', '두 입술을 붙였다가 툭 터뜨려요. 목에 손을 대면 떨려요.', "'브'로 길게 끌기 — 짧게 툭."],
+  c: ['ㅋ', '혀 뒤쪽을 입천장 안쪽에 붙였다가 바람과 함께 떼요. (k 와 같은 소리)', "이름 '씨'로 읽기. 이 책의 c 는 늘 /k/ (city 의 부드러운 c 는 아직 안 배움)."],
+  d: ['ㄷ (목 떨림)', '혀끝을 윗잇몸(윗니 바로 뒤)에 붙였다가 떼요. 목이 떨려요.', "'드'로 길게 끌기. 끝소리에 '으' 붙이기 (bed ≠ '베드')."],
+  e: ['에 (짧게)', 'a 보다 입을 덜 벌리고 입꼬리를 살짝 옆으로. 짧게.', "a /æ/ 와 구별하지 않기 (pen ↔ pan). 이름 '이'로 읽기."],
+  f: ["(우리말에 없음) 'ㅍ'가 아닌 바람 소리", '윗니로 아랫입술을 살짝 물고 그 틈으로 바람만 길게 ffff.', "'ㅍ'로 말하기 → fan 이 pan 으로 들려요."],
+  g: ['ㄱ (목 떨림)', 'c·k 와 같은 자리(혀 뒤쪽)에서, 목만 떨어요.', "'그'로 길게 끌기. 이름 '쥐'로 읽기. 이 책의 g 는 늘 단단한 /g/."],
+  h: ["ㅎ (숨소리)", '입을 벌리고 거울에 김을 서리게 하듯 숨만 "하" 내쉬어요.', "'흐'처럼 목소리를 크게 내기 — 숨만 내요. 이름 '에이치'."],
+  i: ["이와 에 사이 (짧게)", "'이'보다 입에 힘을 빼고 살짝 더 벌려 아주 짧게.", "'이~'로 길게 말하기 → sit 이 seat 처럼 들려요. 이름 '아이'."],
+  j: ['ㅈ (입술 내밀기)', '입술을 앞으로 살짝 내밀고, 혀를 윗잇몸 뒤에 붙였다 떼며 "쥐"처럼.', "z 와 섞기. '쥬'로 길게 끌기."],
+  k: ['ㅋ', 'c 와 같은 소리. 혀 뒤쪽을 입천장 안쪽에 붙였다 떼요.', "'크'로 길게 끌기. c 와 다른 소리라고 생각하기."],
+  l: ["ㄹ ('을'처럼)", "혀끝을 윗잇몸에 꼭 붙인 채 '을~'. 단어 앞에서는 '(을)레몬'처럼.", 'r 과 섞기. 혀끝을 떼고 굴리면 r 처럼 들려요.'],
+  m: ['ㅁ (입 다물고)', "입술을 다물고 콧소리 '음~' (맛있을 때 mmm).", "'므'로 끊어 말하기 — 입을 다문 채 '음'."],
+  n: ['ㄴ', "혀끝을 윗잇몸에 붙이고 콧소리 '은~'.", "'느'로 끊어 말하기 — '은~'처럼 이어서."],
+  o: ['아 (입을 크게)', "입을 세로로 크게 벌리고 '아' (병원에서 '아~' 하듯).", "'오'로 읽기 (hot ≠ '홋'). 이름 '오우'로 읽기."],
+  p: ['ㅍ', '두 입술을 붙였다가 바람과 함께 터뜨려요. 입 앞에 손을 대면 바람이 느껴져요.', "'프'로 길게 끌기. f 와 섞기 (pan ↔ fan)."],
+  q: ["쿼 (두 소리 k + w)", 'q 는 늘 u 와 함께 (qu). /k/ 하고 곧바로 입술을 동그랗게 /w/.', "이름 '큐'로 읽기. /w/ 를 빼먹고 /k/ 만 내기."],
+  r: ["(우)ㄹ — 혀가 닿지 않는 ㄹ", "입술을 동그랗게 내밀고, 혀끝을 살짝 뒤로 당기되 어디에도 닿지 않게 '(우)르'.", "우리말 'ㄹ'이나 l 처럼 혀끝을 입천장에 대기 → rice 가 lice 처럼."],
+  s: ["ㅅ (바람 소리)", '윗니와 아랫니를 거의 닿게 하고 뱀 소리 ssss.', "'스'로 길게 끌기. i 앞에서 '쉬'처럼 되기 (sip → ship)."],
+  t: ['ㅌ', '혀끝을 윗잇몸에 붙였다가 바람과 함께 떼요.', "'트'로 끌기. 끝소리에 '으' 붙이기 (cat ≠ '캣트')."],
+  u: ["어 (짧게)", "입에 힘을 빼고 살짝만 벌려 짧게 '어' (배를 맞았을 때 '어!').", "'우'로 읽기 (bug ≠ '부그'). 이름 '유'로 읽기."],
+  v: ["(우리말에 없음) 'ㅂ'가 아님 — 떨리는 f", 'f 처럼 윗니를 아랫입술에 얹고 목을 떨며 vvvv. 입술이 간질간질해요.', "'ㅂ'로 말하기 → vet 이 bet 으로 들려요."],
+  w: ["우 → 다음 모음 (워·위)", "입술을 작게 동그랗게 모아 '우'로 시작해서 바로 다음 소리로 미끄러져요.", "입술을 모으지 않기. '우'를 따로 길게 내기. 이름 '더블유'."],
+  x: ['ㄱ + ㅅ (끝소리 ks)', '이 책의 x 는 단어 끝 (six, box). /k/ 와 /s/ 를 붙여 짧게.', "이름 '엑스'로 읽기. box 를 '박스'처럼 '스'에 힘주어 늘리기."],
+  y: ["이 → 다음 모음 (야·여)", "'이' 입 모양에서 곧바로 다음 모음으로 넘어가요 (yak '얙').", "이름 '와이'로 읽기. '이'를 따로 길게 내기 ('이악')."],
+  z: ["(우리말에 없음) ㅅ + 목 떨림", 's 와 같은 입 모양에서 목을 떨며 벌 소리 zzzz.', "'ㅈ'로 말하기 → zoo 가 Jew 처럼 들려요."],
+  // 4권 긴 모음 (= 글자 이름 소리)
+  long_a: ['에이', "글자 A 의 이름과 같은 소리. '에'에서 '이'로 미끄러지게.", "'에'로 짧게 끊기. 짧은 a /æ/ 로 읽기 (cape → cap)."],
+  long_e: ['이~ (길게)', "웃는 입으로 입꼬리를 당기고 길게 '이~'. 글자 E 의 이름.", '짧은 i /ɪ/ 와 섞기 (feet ↔ fit).'],
+  long_i: ['아이', "'아'에서 '이'로 미끄러지는 한 소리. 글자 I 의 이름.", "'아-이' 두 박자로 끊기. 짧은 i 로 읽기 (kite → kit)."],
+  long_o: ['오우', "입술을 '오'에서 '우'로 오므려요. 글자 O 의 이름.", "'오'로만 짧게 끝내기 (boat ≠ '보트')."],
+  long_u: ['유~', "'이'에서 '우'로 이어 '유~'. 글자 U 의 이름. 앞 소리에 따라 '우~'로만 나는 말도 있어요 (flute).", "u 를 모두 '유'로 읽기."],
+  // 3권 짝꿍 소리 (두 글자, 소리 하나)
+  sh: ["쉬 (조용히 하라는 소리)", "입술을 앞으로 동그랗게 내밀고 '쉬~' 바람.", "'ㅅ'로 말하기 → ship 이 sip 처럼. s 와 h 를 따로 읽기."],
+  ch: ['ㅊ (입술 내밀기)', '입술을 내밀고 기차 소리 ch-ch-ch. 짧게 툭.', "'치'·'츠'로 끌기. c 와 h 를 따로 읽기."],
+  th: ["(우리말에 없음) 'ㅆ'가 아닌 바람 소리", '혀끝을 윗니와 아랫니 사이로 살짝 내밀고 바람만. (this·the 의 th 는 같은 자리에서 목을 떨어요 /ð/)', "'ㅆ'(thin ≠ '씬')나 'ㄸ'으로 말하기. 혀를 내밀지 않기."],
+  ck: ['ㅋ (소리 하나)', 'c 와 k 가 합쳐 /k/ 하나. 짧은 모음 뒤 끝소리 (duck).', "'크'를 붙이기 (duck ≠ '덕크'). /k/ 를 두 번 내기."],
+  ng: ["받침 'ㅇ' (콧소리)", "혀 뒤쪽을 입천장 안쪽에 붙인 채 코로 '응'. 우리말 '방'의 받침 ㅇ 과 같아요.", "끝에 g 소리 붙이기 (ring ≠ '링그')."],
+  wh: ['우 → 다음 모음 (w 와 같음)', 'w 처럼 입술을 동그랗게 모아 시작해요. 요즘 영어는 거의 w 와 같은 소리.', "'ㅎ'를 세게 넣기. h 를 따로 소리 내기."],
+  qu: ['쿼 (두 소리 k + w)', '/k/ 다음 곧바로 입술을 동그랗게 /w/: quick = 퀵. 두 글자지만 소리도 두 개.', "이름 '큐'로 읽기. u 를 모음 '우'로 따로 읽기 (quilt ≠ '쿠일트')."],
+  // 3권 섞어 읽는 첫소리 (두 소리가 다 들림)
+  bl: ["ㅂ + ㄹ ('으' 없이)", 'b 로 입술을 터뜨리자마자 혀끝을 윗잇몸에 붙여 l.', "b 와 l 사이에 '으'를 넣어 두 박자로 말하기 ('브-락')."],
+  cl: ["ㅋ + ㄹ ('으' 없이)", '/k/ 곧바로 혀끝을 윗잇몸에 붙여 l.', "'크-'와 l 사이를 끊기 (clock ≠ '크-락')."],
+  fl: ["f + ㄹ ('ㅍ' 아님)", '윗니로 아랫입술을 물고 바람 f, 이어서 바로 l.', "f 를 'ㅍ'로 하기 (flag ≠ '플래그')."],
+  br: ["ㅂ + r (혀 안 닿게)", '입술을 터뜨리며 바로 입술을 동그랗게 r. 혀끝은 어디에도 닿지 않게.', "'브' 다음 r 을 'ㄹ'(혀 닿기)로 하기 → bl 처럼 들려요."],
+  cr: ['ㅋ + r', '/k/ 다음 바로 r (입술 동그랗게, 혀 안 닿게).', "'크-' 하고 끊기. r 을 l 처럼 하기 (crab → clab)."],
+  dr: ['ㄷ + r', "d 다음 바로 r. 원어민 소리가 'ㅈr'처럼 들려도 자연스러운 거예요.", "d 와 r 사이에 '으'를 크게 넣기 ('드-럼')."],
+  sn: ["ㅅ + ㄴ ('스' 없이)", 's 바람을 내다가 그대로 혀끝을 붙여 n.', "s 뒤에 '으' 넣기 ('스-낵')."],
+  st: ["ㅅ + ㄸ ('스' 없이)", "s 바람 다음 혀끝을 붙여 t. s 뒤의 t 는 바람이 적어 'ㄸ'에 가깝게 들려요.", "s 뒤에 '으' 넣기 ('스-틱')."],
+  sp: ["ㅅ + ㅃ ('스' 없이)", "s 다음 입술을 터뜨려 p. s 뒤의 p 는 'ㅃ'에 가깝게 들려요.", "s 뒤에 '으' 넣기 ('스-팟')."],
+  sw: ["ㅅ + 우 ('스' 없이)", 's 를 내면서 미리 입술을 동그랗게 모아 두었다가 w.', "s 뒤에 '으' 넣기 ('스-윔'). w 의 입술 모으기를 빼먹기."],
+  // 3권 끝에 오는 두 소리 ('으' 붙이지 않기)
+  '-nd': ["ㄴ + ㄷ 받침 ('드' 없음)", 'n 다음 혀끝을 붙인 그대로 d 로 살짝 막고 끝.', "'드'를 붙이기 (hand ≠ '핸드'). d 를 빼먹기."],
+  '-nt': ["ㄴ + ㅌ 받침 ('트' 없음)", 'n 다음 혀끝 그대로 t 로 짧게 막아요.', "'트'를 붙이기 (tent ≠ '텐트'). t 를 빼먹기."],
+  '-st': ["ㅅ + ㅌ ('스트' 아님)", 's 바람 다음 혀끝을 붙여 t 로 짧게 끝내요.', "'스트' 두 박자로 늘리기 (nest ≠ '네스트'). t 를 빼먹기."],
+  '-mp': ["ㅁ + ㅍ 받침 ('프' 없음)", '입술을 다문 채 m, 그대로 입술을 살짝 터뜨려 p.', "'프'를 붙이기 (lamp ≠ '램프'). p 를 빼먹기."],
+  // 4권 마법 e (끝 e 는 소리 없음)
+  a_e: ['에이 (끝 e 는 소리 없음)', 'a 가 제 이름 소리로 바뀌어요: cap → cape. 끝 e 는 손가락으로 가리키기만.', "끝 e 를 '에'로 읽기. a 를 짧은 /æ/ 그대로 읽기."],
+  i_e: ['아이 (끝 e 는 소리 없음)', 'i 가 제 이름 소리로: kit → kite.', '끝 e 소리 내기. 짧은 i 그대로 읽기 (kite → kit).'],
+  o_e: ['오우 (끝 e 는 소리 없음)', "o 가 제 이름 소리로: hop → hope. 입술이 '오'에서 '우'로.", "'오'로만 짧게 (note ≠ '노트'). 끝 e 소리 내기."],
+  u_e: ['유~ 또는 우~ (끝 e 는 소리 없음)', "cube·cute 는 '유~' /juː/, flute·tube 는 '우~' /uː/ — 앞 소리에 따라 달라요. 🔊 단어 소리로 확인.", "모든 u_e 를 '유'로 읽기 (flute ≠ '플류트')."],
+  // 4권 모음 짝꿍
+  ai: ['에이', "앞 글자 a 가 제 이름 '에이'를 말하고 i 는 조용히.", "'아이'로 읽기 (rain ≠ '라인'). 두 글자를 따로 읽기."],
+  ay: ['에이 (단어 끝)', 'ai 와 같은 소리. 단어 끝에는 ay 를 써요 (tray, hay).', "'아이'로 읽기."],
+  ee: ['이~ (길게)', "웃는 입으로 길게 '이~'. 두 글자, 소리 하나.", "'에에'로 읽기. 짧게 끊기 (feet → fit)."],
+  ea: ['이~ (길게)', "ee 와 같은 소리 (sea, leaf). e 가 이름 '이', a 는 조용히.", "'에아'·'이아' 두 소리로 읽기. (bread 처럼 짧은 '에'로 나는 말도 있지만 이 책 단어는 모두 '이~')"],
+  oa: ['오우', "o 가 제 이름 '오우', a 는 조용히. 입술이 '오'에서 '우'로.", "'오아'로 읽기. '오'로만 짧게 (boat ≠ '보트')."],
+  ow: ["오우 (snow) — 단어에 따라 아우 (cow)", "이 책의 ow 단어는 oa 와 같은 '오우'. cow·how 처럼 '아우'로 나는 ow 도 있어요 — 단어마다 🔊 로 확인.", "'오우'와 '아우'를 섞기. '오'로만 짧게 끝내기."],
+  oo: ['우~ (길게)', "입술을 동그랗게 앞으로 내밀고 길게 '우~' (moon). book·look 처럼 짧은 '우' /ʊ/ 로 나는 말도 있어요.", "'오오'로 읽기."],
+  ou: ['아우', "'아'에서 '우'로 입이 오므라들어요 (house, cloud). cow 의 ow 와 같은 소리.", "'오우'로 읽기. 두 글자를 따로 읽기."],
+  ar: ['아 + r', "입을 크게 '아' 다음 혀를 살짝 뒤로 당겨 r (혀는 어디에도 안 닿게). 해적 소리 Arrr!", "r 을 빼고 '아'로만 끝내기 (car ≠ '카'). r 을 혀 닿는 'ㄹ'로 하기 ('알')."],
+  or: ['오 + r', "입술을 동그랗게 '오' 다음 혀를 살짝 당겨 r (horn, fork).", "r 을 빼고 '오'로만 끝내기 (fork ≠ '포크'). r 을 혀 닿는 'ㄹ'로 하기."],
+};
+// 2권 단어 가족: 모음 줄 + 끝소리로 만든다 (끝소리 → [비슷한 소리, 흔한 실수])
+const VK = { a: '애', e: '에', i: '이(짧게)', o: '아', u: '어' };
+const FIN = {
+  t: ["t (받침처럼 짧게 막음)", "'트'를 붙이지 않기 (cat ≠ '캣트')."],
+  n: ["n (받침 'ㄴ')", "'느'를 붙이지 않기 — 혀끝을 붙인 채 끝."],
+  p: ["p (받침 'ㅂ'처럼 입술을 닫음)", "'프'를 붙이지 않기 (cap ≠ '캐프')."],
+  g: ["g (받침 'ㄱ'처럼, 목 떨림)", "'그'를 붙이지 않기 (bag ≠ '배그')."],
+  d: ["d (받침 'ㄷ'처럼, 목 떨림)", "'드'를 붙이지 않기 (bed ≠ '베드')."],
+  x: ["ks ('ㄱ' + 짧은 바람 'ㅅ')", "'스'에 힘주어 늘리지 않기 (box ≠ '박스')."],
+};
+// 묶음 제목과 그 묶음을 가르치는 법 한 줄
+const GROUP = {
+  letters: ['글자 26개의 소리', "글자 이름(에이·비·씨)이 아니라 소리를 가르쳐요. 자음은 '으'를 붙이지 말고 짧게 툭."],
+  short: ['짧은 모음 5개', 'a e i o u 의 짧은 소리. 모든 단어 읽기의 기초 — 입 모양을 크게 과장해서 보여 주세요.'],
+  short_ref: ['짧은 모음 5개 (2권 복습·참고)', '3권 단어도 가운데 모음은 모두 짧은 소리예요.'],
+  fam: ['단어 가족', "모음 소리 + 끝소리를 붙여 한 덩어리(-at)로 읽고, 앞에 첫소리를 붙여요: c + at → cat. 끝소리에 '으'를 붙이지 않아요."],
+  digraph: ['짝꿍 소리 (두 글자, 소리 하나)', "두 글자를 따로 읽지 않고 새 소리 하나로: 'sh 는 s 소리도 h 소리도 아니에요!' (qu 만 두 소리 /kw/)"],
+  blend: ['섞어 읽는 첫소리 (두 소리)', "두 소리가 각자 다 들려요. 사이에 '으'를 넣지 말고 빠르게 이어요: b-l → bl."],
+  final: ['끝에 오는 두 소리', "두 소리를 다 내되, 마지막에 '으'를 붙이지 않아요 (hand ≠ '핸드')."],
+  long: ['긴 모음 (글자 이름 소리)', "긴 모음은 글자 이름과 같은 소리: A '에이', E '이~', I '아이', O '오우', U '유~'."],
+  magic_e: ['마법 e', '끝의 e 는 소리가 없고, 앞 모음을 제 이름 소리로 바꿔요: cap → cape, kit → kite.'],
+  team: ['모음 짝꿍', '두 글자가 긴 모음 하나를 내요. ai·ee·oa 는 앞 글자가 제 이름을 말해요. oo·ou·ow 는 따로 익혀요.'],
+  rvowel: ['r 이 붙은 모음', '모음 뒤의 r 이 소리를 바꿔요. r 은 혀끝이 어디에도 닿지 않게 살짝 당겨요.'],
+};
+
+// ── 표 한 줄 만들기
+const btn = (id) => `<button class="snd" data-a="${id}" title="듣기">🔊</button>`;
+// o = { key, glyph, sub, audio, ipa, word, wordHtml, hint, tip, extra }
+function row(book, o) {
+  const d = S[o.key], wd = (book.words || {})[o.word] || {};
+  const ex = o.word ? `<span class="ex">${o.wordHtml || o.word}</span> ${btn('word_' + o.word)}<br><span class="ipa">${wd.ipa ? '/' + wd.ipa.join('') + '/ ' : ''}</span>${wd.ko || ''}` : '';
+  const ko = o.ko || (d ? d[0] : `<span class="ipa">${o.hint || ''}</span>`);   // 사전에 없으면 영어 설명만
+  const tip = o.tip || (d ? d[1] : ''), err = o.err || (d ? d[2] : '');
+  return `<tr><td><div class="ltr">${o.glyph}${o.sub ? `<small>${o.sub}</small>` : ''}</div>${btn(o.audio)} <span class="ipa">/${o.ipa || ''}/</span></td><td>${ex}</td><td>${ko}</td><td>${tip}${o.extra || ''}</td><td class="err">${err ? '⚠ ' + err : ''}</td></tr>`;
+}
+// 같은 가족인데 단어마다 소리가 다르면 (u_e 의 /juː/ · /uː/ 등) 단어별로 나눠 보여 준다
+function variants(book, f) {
+  const key = String(f).replace(/^-/, ''), by = {};
+  for (const w of book.families[f].words) { const d = (book.words || {})[w] || {}, k = d.chunks ? d.chunks.indexOf(key) : -1; if (k >= 0 && d.ipa) (by[d.ipa[k]] = by[d.ipa[k]] || []).push(w); }
+  const ks = Object.keys(by); return ks.length > 1 ? `<div class="var">단어별 소리: ${ks.map((s) => `/${s}/ ${by[s].join(', ')}`).join(' · ')}</div>` : '';
+}
+// 예시 단어에서 모음 글자 하나 굵게
+const boldCh = (w, c) => { const i = w.indexOf(c); return i < 0 ? w : `${w.slice(0, i)}<b>${c}</b>${w.slice(i + 1)}`; };
+
+// ── 한 권의 묶음들: [{ g: 묶음 이름, rows: [tr 문자열] }] — 순서는 유닛 순서
+function bookGroups(book) {
+  const units = book.units || [];
+  if (!book.families) {   // 1권: 글자 26개
+    const ls = units.flatMap((u) => u.letters || []);
+    return [{ g: 'letters', rows: ls.map((l) => { const d = book.letters[l], w = d.words[0], i = d.final ? w.lastIndexOf(l) : w.indexOf(l);
+      return row(book, { key: l, glyph: l.toUpperCase() + l, audio: 'sound_' + l, ipa: d.sound, word: w, wordHtml: `${w.slice(0, i)}<b>${w[i]}</b>${w.slice(i + 1)}`, hint: d.sound_hint }); }) }];
+  }
+  const fams = [...new Set(units.flatMap((u) => u.families || []))];
+  const LONG = fams.some((f) => ['magic_e', 'team'].includes(famKindOf(book, f)));   // 4권: 모음이 긴 소리
+  const KIND = fams.some((f) => famKindOf(book, f));
+  const out = [], vs = book.vowels || {};
+  // 모음 줄: 2·3권 짧은 모음(sound_a), 4권 긴 모음(name_a = 글자 이름 소리)
+  out.push({ g: LONG ? 'long' : KIND ? 'short_ref' : 'short', rows: Object.keys(vs).map((v) => {
+    if (LONG) { const f = fams.find((x) => book.families[x].vowel === v), w = f && book.families[f].words[0];
+      return row(book, { key: 'long_' + v, glyph: v, sub: '긴 모음', audio: 'name_' + v, ipa: vs[v].sound, word: w, wordHtml: w && famBold(book, w, f), hint: vs[v].hint }); }
+    const w = ((vs[v].hint || '').match(/as in ([a-z-]+)/) || [])[1];
+    return row(book, { key: v, glyph: v, sub: '짧은 모음', audio: 'sound_' + v, ipa: vs[v].sound, word: w, wordHtml: w && boldCh(w, v), hint: vs[v].hint });
+  }) });
+  if (!KIND) {   // 2권: 단어 가족은 모음 + 끝소리로
+    out.push({ g: 'fam', rows: fams.map((f) => {
+      const d = book.families[f], v = d.vowel, fin = f.slice(v.length), w = d.words[0], fl = book.letters[fin] || {}, fs = fin === 'x' ? 'ks' : fl.sound || fin;
+      const vsnd = (vs[v] || {}).sound || v, head = w.slice(0, w.length - f.length), fx = FIN[fin] || [fin, ''];
+      return row(book, { key: '', glyph: famLab(book, f), audio: 'sound_' + f, ipa: vsnd + fs, word: w, wordHtml: famBold(book, w, f),
+        ko: `${VK[v] || v} + ${fx[0]}`, tip: `모음 소리 + 끝소리를 붙여서: /${vsnd}/ + /${fs}/ → ${f}.${head ? ` 앞에 첫소리를 붙이면 ${head} + ${f} → ${w}` : ''}`, err: fx[1] });
+    }) });
+    return out;
+  }
+  // 3·4권: 종류별 묶음 (처음 나온 순서). ar·or 처럼 r 로 끝나는 모음 짝꿍은 따로
+  const kindOf = (f) => { const d = book.families[f]; return d.kind === 'team' && /r$/.test(d.sound || '') ? 'rvowel' : d.kind || 'fam'; };
+  for (const f of fams) {
+    const k = kindOf(f), d = book.families[f], w = d.words[0];
+    let grp = out.find((x) => x.g === k); if (!grp) out.push(grp = { g: k, rows: [] });
+    grp.rows.push(row(book, { key: f, glyph: famLab(book, f), audio: 'sound_' + String(f).replace(/^-/, ''), ipa: d.sound, word: w, wordHtml: famBold(book, w, f), hint: d.sound_hint || d.hint, extra: variants(book, f) }));
+  }
+  return out;
+}
+
+// ── 쪽 나누기: 줄(tbody)을 하나씩 넣다가 A4 를 넘으면 새 장으로 (줄이 쪽 사이에서 잘리지 않게)
+let H = 0, MM = 0;   // A4 세로 높이(px), 1mm(px)
+function paginate(head, contHead, thead, items) {
+  const out = document.getElementById('out'); let sheet, tbl;
+  const fresh = (h) => { sheet = document.createElement('div'); sheet.className = 'sheet'; sheet.innerHTML = `${h}<table>${thead}</table>`; out.appendChild(sheet); tbl = sheet.querySelector('table'); };
+  const over = () => tbl.getBoundingClientRect().bottom - sheet.getBoundingClientRect().top > H - 14 * MM - 4 * MM;   // 아래 여백 + 인쇄 오차 4mm
+  fresh(head);
+  for (const it of items) {
+    tbl.insertAdjacentHTML('beforeend', it);
+    if (over() && tbl.tBodies.length > 1) { tbl.lastElementChild.remove(); fresh(contHead); tbl.insertAdjacentHTML('beforeend', it); }
+  }
+}
+// 묶음 → tbody 목록 (묶음 제목은 첫 줄과 같은 tbody 에 넣어 쪽 끝에 제목만 남지 않게)
+function groupItems(groups) {
+  const items = [];
+  for (const { g, rows } of groups) {
+    const [t, how] = GROUP[g] || [g, ''];
+    rows.forEach((r, i) => items.push(`<tbody>${i ? '' : `<tr class="g"><td colspan="5"><b>${t}</b>${how}</td></tr>`}${r}</tbody>`));
+  }
+  return items;
+}
+const THEAD = `<colgroup><col style="width:21mm"><col style="width:27mm"><col style="width:30mm"><col><col style="width:47mm"></colgroup>
+  <thead><tr><th>글자 · 소리</th><th>예시 단어</th><th>비슷한 소리</th><th>입 모양 팁</th><th>흔한 실수</th></tr></thead>`;
+
+// ── 첫 장: 쓰는 법 + 한국 아이들이 자주 틀리는 것
+const MIS = [
+  ['f / p', 'fan ≠ pan', "f 는 윗니로 아랫입술을 살짝 물고 바람을 내보내요. p 는 두 입술을 붙였다 터뜨려요. 'ㅍ'로 f 를 내면 fan 이 pan 이 돼요."],
+  ['v / b', 'vet ≠ bet', "v 는 윗니 + 아랫입술(f 자리)에서 목을 떨어요. b 는 두 입술. v 를 'ㅂ'로 내지 않기."],
+  ['th 두 가지', 'thin /θ/ · this /ð/', "thin: 혀끝을 이 사이로 살짝 내밀고 바람만 — 'ㅆ'가 아니에요. this·the: 같은 자리에서 목을 떨어요 — 'ㄷ'가 아니에요."],
+  ['r / l', 'rice ≠ lice', "r: 입술을 동그랗게 '(우)르', 혀끝은 어디에도 닿지 않게. l: 혀끝을 윗잇몸에 붙이고 '을'. 우리말 'ㄹ'은 둘 사이라 둘 다 틀리기 쉬워요."],
+  ['z / j', 'zoo ≠ Jew', "z 는 'ㅈ'가 아니라 'ㅅ'에 목 떨림을 더한 벌 소리 zzz. j 는 입술을 내밀고 '쥐'."],
+  ['짧은 a / e', 'bad /æ/ ≠ bed /e/', "a 는 입을 옆·아래로 크게 벌린 '애', e 는 덜 벌린 '에'. 우리말로는 같게 들려서 입 크기로 구별해요."],
+  ['짧은 o', 'hot · dog /ɑ/', "입을 크게 벌린 '아'. '오'가 아니에요 (hot ≠ '홋')."],
+  ['짧은 u', 'cup · bug /ʌ/', "힘을 뺀 짧은 '어'. '우'가 아니에요."],
+  ['짧은 i', 'sit /ɪ/ ≠ seat', "'이'와 '에' 사이를 짧게. 길게 '이~' 하면 다른 단어(seat)가 돼요."],
+  ["끝소리에 '으' 넣기", 'bed · cat', "bed 를 '베드', cat 을 '캣트'라고 하지 않기. 끝소리는 입 모양만 하고 '으'를 붙이지 않아요. 낱소리 연습 때도 /b/ 를 '브'로 길게 끌지 말고 짧게 툭."],
+  ['사이트워드의 약한 모음', 'a · the · was', "a 는 '어', the 는 '더'(th 는 /ð/), was 는 '워즈'. 글자대로 '에이'·'테'·'와스'로 읽지 않고 통째로 익혀요."],
+  ['섞는 소리 vs 짝꿍 소리', 'bl · st · -nd / sh · ch · th · ck · ng', 'bl·st·-nd 는 두 소리를 빠르게 이어요 (두 소리 다 들림). sh·ch·th·ck·ng 는 두 글자가 소리 하나 (새 소리).'],
+  ['qu', 'quick /kw/', "두 소리 '쿠' + 'ㅝ'를 빠르게 '쿼'. quick = 퀵. 이름 '큐'가 아니에요."],
+  ['u_e 두 소리', 'cube /juː/ · flute /uː/', "cube·cute 는 '유~', flute·tube·June 은 '우~' — 앞 소리에 따라 달라요. 🔊 로 확인."],
+  ['ck', 'duck /k/', "c 와 k 가 합쳐 소리 하나 /k/. duck 을 '덕크'라고 하지 않기."],
+  ['ng', 'ring /ŋ/', "콧소리 받침 'ㅇ' (우리말 '강'의 ㅇ). 끝에 g 소리를 내지 않아요 (ring ≠ '링그')."],
+  ['마법 e', 'cake · kite', "끝의 e 는 소리가 없어요. 앞 모음만 이름 소리로 바꿔요 (cake ≠ '케이케')."],
+  ['x', 'six · box /ks/', "1권 x 는 끝소리: 'ㄱ' + 짧은 바람 'ㅅ'. 이름 '엑스'가 아니에요."],
+  ['c', 'cat · cup /k/', "이 책의 c 는 늘 'ㅋ'. city 의 부드러운 c (/s/) 는 아직 배우지 않아요."],
+  ['y', 'yak /j/', "'이' 입 모양에서 바로 다음 모음으로: yak '얙'. 이름 '와이'가 아니에요."],
+  ['w', 'window /w/', "입술을 동그랗게 모아 '우'로 시작해서 다음 모음으로 미끄러져요."],
+  ['h', 'hen /h/', "숨소리 'ㅎ'. '흐'처럼 목소리를 크게 내지 않아요."],
+  ['ar / or', 'star /ɑr/ · fork /ɔr/', "ar 은 '아' 다음 혀를 살짝 당기는 r, or 은 '오' 다음 r. r 을 빼고 '카'·'포크'로 읽지 않기."],
+  ['ow / ou', 'snow /oʊ/ · cow, house /aʊ/', "ow 는 두 가지: snow '오우', cow '아우'. ou 는 '아우' (house). 4권 ow 는 단어마다 🔊 로 확인."],
+  ['oo 길게 / 짧게', 'moon /uː/ · book /ʊ/', "moon·boot 는 긴 '우~', look·book 은 짧은 '우'. 4권 oo 단어는 긴 '우~'."],
+];
+const INTRO = `<h1>선생님용 소리 안내 <small>Pop! Phonics 1~4권 · 발음 지도용</small></h1>
+  <div class="box"><ul>
+    <li><b>🔊 를 먼저</b> 눌러 원어민 소리를 듣고 따라 해 보세요. 여기 적힌 우리말은 <b>'비슷한 소리'일 뿐</b> 정답이 아니에요.</li>
+    <li>파닉스에서 가르치는 것은 글자의 <b>이름</b>(에이·비·씨)이 아니라 <b>소리</b>(/æ/ · /b/ · /k/)예요.</li>
+    <li>빗금 안 기호(/æ/)는 국제 발음 기호(IPA)예요. 몰라도 괜찮아요 — 사전과 비교할 때만 작게 참고하세요.</li>
+    <li>우리말 근사음은 <b>꼭 입 모양 팁과 같이</b> 보여 주세요. f · v · th · r · z 처럼 우리말에 없는 소리는 입 모양이 전부예요.</li>
+    <li>자음은 짧게 툭: /b/ 를 '브'로 길게 끌지 않기. 단어 끝소리에 '으'를 붙이지 않기.</li>
+    <li>목 떨림 확인: 아이 손을 목에 대게 하세요. b d g v z j 는 떨리고, p t k f s 는 안 떨려요.</li>
+    <li>표: 글자 · 소리(🔊 /IPA/) | 예시 단어(🔊) | 비슷한 소리 | 입 모양 팁 | 흔한 실수. 인쇄하면 🔊 단추는 안 나와요.</li>
+  </ul></div>
+  <h2>한국 아이들이 자주 틀리는 것</h2>`;
+
+// ── 그리기
+(async () => {
+  try {
+    document.getElementById('nav').innerHTML = ['1', '2', '3', '4', 'all'].map((n) => `<a class="${n === BKQ || (n === '1' && !ALL && BK === 1) ? 'on' : ''}" href="?bk=${n}">${n === 'all' ? '전 권 한 번에' : n + '권'}</a>`).join(' ');
+    await document.fonts.ready;   // 글꼴이 다 들어온 뒤에 높이를 재야 쪽이 맞는다
+    const probe = document.createElement('div'); probe.style.height = '297mm'; document.body.appendChild(probe); H = probe.offsetHeight; MM = H / 297; probe.remove();
+    // 첫 장: 쓰는 법 + 자주 틀리는 것
+    paginate(INTRO, `<div class="cont">한국 아이들이 자주 틀리는 것 (계속)</div>`, `<colgroup><col style="width:42mm"><col></colgroup><thead><tr><th>헷갈리는 소리</th><th>이렇게 가르쳐요</th></tr></thead>`,
+      MIS.map(([k, ex, how]) => `<tbody><tr><td class="k">${k}<small>${ex}</small></td><td>${how}</td></tr></tbody>`));
+    // 권별 소리 표
+    for (const n of ALL ? [1, 2, 3, 4] : [BK]) {
+      const book = await getBook(n); if (!book) continue;
+      const t = `${book.info.title || book.series} 소리 안내`;
+      paginate(`<h1>${t} <small>${book.info.ko || ''} · ${book.info.subtitle || ''} · 유닛 순서</small></h1>`, `<div class="cont">${t} (계속)</div>`, THEAD, groupItems(bookGroups(book)));
+    }
+    // 🔊 단추: 누르면 소리, 파일이 없으면 숨김 (파일마다 한 번만 확인)
+    document.addEventListener('click', (e) => { const b = e.target.closest('.snd'); if (b) new Audio('../assets/audio/' + b.dataset.a + '.mp3').play().catch(() => {}); });
+    const ids = [...new Set([...document.querySelectorAll('.snd')].map((b) => b.dataset.a))];
+    ids.forEach((id) => fetch('../assets/audio/' + id + '.mp3', { method: 'HEAD' }).then((r) => r.ok, () => false).then((ok) => { if (!ok) document.querySelectorAll(`.snd[data-a="${id}"]`).forEach((b) => (b.style.display = 'none')); }));
+  } finally { window.PRINT_READY = true; }
+})();
+</script>
+</body>
+</html>

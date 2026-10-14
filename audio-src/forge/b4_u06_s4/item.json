@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=We play with clay. | TYPE=sentence | IPA=wi pleɪ wɪð kleɪ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "We play with clay. What a day!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967153.0571775,
+   "sec": 3.24,
+   "check": {
+    "transcript": "We play with clay, what a day!",
+    "type": "sentence",
+    "ipa": "wi pleɪ wɪð kleɪ wʌt ə deɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We play with clay, what a day! | TYPE=sentence | IPA=wi pleɪ wɪð kleɪ wʌt ə deɪ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:44",
+ "applied": "2026-10-14 17:42",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b4_u06_s4",
  "sub": "line",
- "title": "4권 6유닛 문장 4: We play with clay.",
- "text": "We play with clay.",
+ "title": "4권 6유닛 문장 4: We play with clay. What a day!",
+ "text": "We play with clay. What a day!",
  "voice": "Kore",
  "book": 4,
  "busy": 0

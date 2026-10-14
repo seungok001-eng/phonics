@@ -39,7 +39,8 @@
     "단어 끝의 이어 소리 -nd·-nt·-st·-mp 를 말한다",
     "단어 12개(hand sand pond tent ant plant nest vest chest lamp stamp chimp)를 소리를 이어 읽고 그림과 잇고 쓴다",
     "빠진 짝꿍·모음을 듣고 쓴다",
-    "사이트워드 said, do를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 said, do를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다",
+    "※ 선생님 참고: plant 의 pl 은 아직 배우지 않은 이어 소리예요(p 와 l 을 빠르게 이어 \"플\"). bl·cl·fl 처럼 두 소리를 이어 읽게 도와주세요."
   ],
   "lessons": [
     {
@@ -86,10 +87,6 @@
         {
           "type": "family_words",
           "title": "Read and match."
-        },
-        {
-          "type": "read_play",
-          "title": "Read and play. Let's play!"
         }
       ],
       "workbook": [
@@ -108,6 +105,10 @@
       "title": "Sentences and Story",
       "title_ko": "문장·스토리",
       "pages": [
+        {
+          "type": "read_play",
+          "title": "Read and play. Let's play!"
+        },
         {
           "type": "sentences",
           "title": "Read the sentence."
@@ -140,7 +141,7 @@
   ],
   "sentences": [
     {
-      "text": "The chimp has a lamp.",
+      "text": "The chimp said, \"A lamp!\"",
       "audio": "b3_u09_s1",
       "pic": "word_chimp",
       "words": [
@@ -524,7 +525,7 @@
       },
       {
         "word": "chest",
-        "missing": 0
+        "missing": 2
       },
       {
         "word": "lamp",

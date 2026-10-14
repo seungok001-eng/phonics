@@ -470,7 +470,7 @@
     },
     "mat": {
       "ko": "매트",
-      "desc": "a round green doormat with a woven straw edge",
+      "desc": "a rectangular brown bristly doormat lying flat in front of a green front door, plain with no letters or pattern",
       "family": "at"
     },
     "rat": {
@@ -560,7 +560,7 @@
     },
     "vet": {
       "ko": "수의사",
-      "desc": "a kind owl veterinarian in a white coat and round glasses holding a puppy",
+      "desc": "an animal doctor: a kind owl veterinarian in a white doctor coat with a big stethoscope, listening to the heartbeat of a small puppy with a bandaged paw lying on a little exam table; the stethoscope and the puppy patient are big and clear",
       "family": "et"
     },
     "hen": {
@@ -725,7 +725,7 @@
     },
     "hot": {
       "ko": "뜨거운",
-      "desc": "a steaming mug of cocoa with wavy heat lines rising",
+      "desc": "a big thermometer with its red line shooting up to the very top, a blazing orange sun behind it and wavy heat lines, no numbers or letters",
       "family": "ot"
     },
     "dot": {
@@ -825,26 +825,33 @@
     },
     "up": {
       "ko": "위",
-      "desc": "a red balloon floating up into the sky with a big upward arrow beside it",
+      "desc": "one cartoon hand with the index finger pointing straight up toward a small sun in the sky, plain background, no arrow",
       "family": "up"
     }
   },
   "sight_words": {
     "the": {
       "ko": "그",
-      "unit": 1
+      "unit": 1,
+      "book1": true
     },
     "on": {
       "ko": "~위에",
       "unit": 1
     },
+    "no": {
+      "ko": "아니(요)",
+      "unit": 1
+    },
     "is": {
       "ko": "~이다",
-      "unit": 2
+      "unit": 2,
+      "book1": true
     },
     "in": {
       "ko": "~안에",
-      "unit": 2
+      "unit": 2,
+      "book1": true
     },
     "has": {
       "ko": "가지고 있다",
@@ -852,7 +859,8 @@
     },
     "and": {
       "ko": "그리고",
-      "unit": 3
+      "unit": 3,
+      "book1": true
     },
     "big": {
       "ko": "큰",
@@ -862,9 +870,14 @@
       "ko": "작은",
       "unit": 4
     },
+    "for": {
+      "ko": "~을 위해",
+      "unit": 4
+    },
     "can": {
       "ko": "할 수 있다",
-      "unit": 6
+      "unit": 6,
+      "book1": true
     },
     "not": {
       "ko": "~아니다",
@@ -872,7 +885,8 @@
     },
     "it": {
       "ko": "그것",
-      "unit": 7
+      "unit": 7,
+      "book1": true
     },
     "up": {
       "ko": "위로",
@@ -880,27 +894,33 @@
     },
     "to": {
       "ko": "~로",
-      "unit": 8
+      "unit": 8,
+      "book1": true
     },
     "go": {
       "ko": "가다",
-      "unit": 8
+      "unit": 8,
+      "book1": true
     },
     "we": {
       "ko": "우리",
-      "unit": 9
+      "unit": 9,
+      "book1": true
     },
     "like": {
       "ko": "좋아하다",
-      "unit": 9
+      "unit": 9,
+      "book1": true
     },
     "you": {
       "ko": "너",
-      "unit": 10
+      "unit": 10,
+      "book1": true
     },
     "look": {
       "ko": "보다",
-      "unit": 10
+      "unit": 10,
+      "book1": true
     },
     "I": {
       "ko": "나는",

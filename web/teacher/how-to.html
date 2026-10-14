@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Pop! Phonics — 수업 화면 사용법·학급 운영</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --blue:#4FA3E0; --green:#8FD14F; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Andika','Malgun Gothic',sans-serif; color:var(--ink); background:#F1E8D8; font-size:13.5px; line-height:1.55; }
+  .sheet { width:210mm; min-height:297mm; margin:16px auto; background:#fff; padding:14mm 14mm; box-shadow:0 6px 24px rgba(0,0,0,.12); page-break-after:always; break-after:page; }
+  h1 { font-family:'Fredoka'; color:var(--orange); margin:0 0 4px; font-size:26px; } h1 small { color:var(--soft); font-family:'Andika'; font-weight:400; font-size:14px; margin-left:8px; }
+  h2 { font-family:'Fredoka'; font-size:17px; margin:14px 0 6px; border-left:5px solid var(--green); padding-left:8px; break-after:avoid; }
+  table { width:100%; border-collapse:collapse; margin:2px 0 4px; }
+  th, td { border:1px solid var(--line); padding:4px 7px; vertical-align:top; text-align:left; }
+  th { background:var(--cream); font-family:'Fredoka'; font-weight:500; white-space:nowrap; }
+  tr { break-inside:avoid; }
+  td.k { white-space:nowrap; font-weight:700; width:24%; }
+  kbd { display:inline-block; border:1.5px solid #bbb; border-bottom-width:3px; border-radius:6px; padding:0 6px; font-family:'Andika'; font-size:12px; background:#fafafa; }
+  ul { margin:3px 0; padding-left:20px; } li { margin:1px 0; }
+  .box { background:var(--cream); border:2px solid var(--line); border-radius:10px; padding:8px 12px; margin:6px 0; }
+  .note { color:var(--soft); font-size:12px; }
+  .top { display:flex; gap:10px; align-items:center; margin:0 auto 10px; width:210mm; }
+  .top a, .top button { background:#fff; border:2px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; color:var(--ink); font-family:inherit; cursor:pointer; }
+  @page { size:A4; margin:0; }
+  @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } .top { display:none; } a { color:inherit; text-decoration:none; } }
+  body { font-variant-ligatures: none; }   /* 합자 끔 (fl·fi) */
+</style>
+</head>
+<body>
+<div class="top"><a href="../">← 홈</a><button onclick="print()">🖨 인쇄</button><span class="note">1~4권 공통 · A4 3쪽</span></div>
+<!-- 수업 화면 사용법·학급 운영: 권마다 같은 화면이라 한 장으로. 단추·키는 web/book/index.html · teach.js · board.js 와 맞춘다 -->
+
+<div class="sheet">
+  <h1>수업 화면 사용법 <small>Pop! Phonics 1~4권 · 선생님용</small></h1>
+  <div class="box"><b>수업 방식 한 줄</b> — 선생님이 앞의 큰 화면(전자칠판·TV)을 누르고, 아이들은 자리에 앉아 <b>화면을 만지지 않고</b> 자기 책을 보며 <b>입으로</b> 답해요(따라 말하기 · 단어 외치기 · 번호 외치기 · 손가락 들기). 화면의 보기에는 큰 번호(1·2·3)가 붙어 있어요 — 아이가 "Number 2!" 하면 선생님이 2번을 눌러 확인합니다.</div>
+
+  <h2>1. 수업 화면 열기</h2>
+  <ul>
+    <li>홈페이지 → 권 카드의 <b>👩‍🏫 수업 화면</b>, 또는 유닛 카드의 <b>수업 화면</b>. 웹 교재에서는 위 막대의 <b>👩‍🏫</b> 단추로 켜고 끕니다(주소에 <code>t=1</code>).</li>
+    <li>처음 한 번 <b>▶ Start</b> 를 눌러야 소리가 나요(브라우저 규칙). 스피커 소리를 미리 확인하세요.</li>
+    <li><b>⛶</b> 로 전체 화면. 위 막대에서 권 · 학생책/워크북 · 유닛을 고릅니다. 수업 전에 <b>홈페이지를 다른 탭에</b> 열어 두면 주제가(▶ 주제가)를 바로 틀 수 있어요.</li>
+    <li>선생님 모드에서는 교재 쪽이 <b>슬라이드</b>(16:9, 한 화면에 한 가지를 크게)로 바뀌어요. 한 쪽 = 슬라이드 여러 장. <b>📐</b> 를 누르면 교재 쪽 그대로 보기 ↔ 슬라이드.</li>
+  </ul>
+
+  <h2>2. 키보드</h2>
+  <table>
+    <tr><td class="k"><kbd>→</kbd> <kbd>←</kbd></td><td>다음·이전 슬라이드 (쪽의 마지막 장이면 다음 쪽으로). 화면의 ◀ ▶ 단추도 같아요</td></tr>
+    <tr><td class="k"><kbd>Space</kbd></td><td>그 장의 주 재생 단추(주황 단추: ▶ Listen · ♪ Chant · ▶ Sing! 등). What's this? 장에서는 답 공개</td></tr>
+    <tr><td class="k"><kbd>↑</kbd> <kbd>↓</kbd> <kbd>PgUp</kbd> <kbd>PgDn</kbd></td><td>교재 칸 위아래로 움직이기</td></tr>
+    <tr><td class="k"><kbd>+</kbd> <kbd>-</kbd> <kbd>0</kbd></td><td>교재 크게 · 작게 · 화면에 맞춤 (Ctrl+마우스 휠, 두 손가락 벌리기도 돼요)</td></tr>
+    <tr><td class="k"><kbd>C</kbd></td><td>🙈 교재 가리개: 화면을 덮고 아래 손잡이를 끌어 조금씩 보여 주기(답 숨기기), 두 번 누르면 걷힘</td></tr>
+  </table>
+  <p class="note">숫자 키로 답을 고르는 기능은 없어요 — 아이가 번호를 외치면 선생님이 그 보기를 누릅니다.</p>
+
+  <h2>3. 위 막대 단추</h2>
+  <table>
+    <tr><td class="k">🔊 Play</td><td>그 장의 주 재생 (= Space)</td></tr>
+    <tr><td class="k">🔍− 맞춤 🔍+</td><td>교재 크기 (맞춤 = 화면 높이에 맞춤)</td></tr>
+    <tr><td class="k">교재만 · 7:3 · 5:5 · 3:7</td><td>교재와 <b>필기판</b>의 넓이. <b>교재만</b> = 필기판 숨김(16:9 TV 에 꽉). 가운데 굵은 손잡이를 끌어도 되고, 두 번 톡 치면 반반</td></tr>
+    <tr><td class="k">◨ / ⬓</td><td>필기판을 옆 ↔ 아래로</td></tr>
+    <tr><td class="k">🙈</td><td>교재 가리개 (= C)</td></tr>
+    <tr><td class="k">📐</td><td>슬라이드 ↔ 교재 쪽 그대로</td></tr>
+    <tr><td class="k">🖨</td><td>그 유닛 인쇄용 쪽 (A4)</td></tr>
+  </table>
+
+  <h2>4. 필기판 · 펜</h2>
+  <ul>
+    <li>도구: ✋ 손(교재 누르기) · ✏️ 펜 · 🖍️ 형광펜 · 🧽 지우개 · 🔴 레이저 포인터, 색·굵기, 되돌리기, 도형 보정(손으로 그린 동그라미·직선을 반듯하게). <b>펜을 고른 채로는 교재 단추가 눌리지 않아요 — 다시 ✋ 로.</b></li>
+    <li>필기판 1·2·3 (판 세 개), 바탕 빈 판 · 4줄(영어 공책) · 모눈, <b>글자 도장</b>(그 유닛 글자·가족·사이트워드를 눌러 찍기), 🗑 판 지우기.</li>
+    <li>슬라이드 위에도 펜으로 쓸 수 있어요(장마다 따로 기억).</li>
+  </ul>
+</div>
+
+<div class="sheet">
+  <h1>활동별 진행 <small>슬라이드 위 노란 안내 글에도 "선생님은 ~ / 아이들은 ~" 이 적혀 있어요</small></h1>
+  <table>
+    <tr><th>활동</th><th>선생님</th><th>아이들</th></tr>
+    <tr><td>소리 (1권)</td><td>🔊 Name → 🔊 Sound → ♪ Chant (챈트 반주가 저절로)</td><td>따라 말하기</td></tr>
+    <tr><td>따라 쓰기 · 짝 찾기</td><td>획순 그림을 누르면 순서대로 그려져요</td><td>허공에 크게 → 책에 쓰기, 짝 번호 외치기</td></tr>
+    <tr><td>단어 · Read it! 1·2·3</td><td>"Number 2!" → 그림을 눌러 소리로 확인</td><td>번호 단어 읽기</td></tr>
+    <tr><td>소리 잡기 / 단어 잡기</td><td>🔊 → 아이들이 번호를 외치면 그 그림을 누름. <b>A·B 팀</b>을 골라 두면 맞힌 팀 점수 +1, 🔁 한 번 더(새 조합)</td><td>팀별로 번호 외치기</td></tr>
+    <tr><td>메모리 게임</td><td>아이가 번호 두 개("3, 7!")를 외치면 그 카드를 뒤집기. 시간이 모자라면 건너뛰기</td><td>번호 두 개 외치기, 뒤집힐 때 단어 말하기</td></tr>
+    <tr><td>듣고 말하기 (1권 2차시 첫 쪽)</td><td>① ▶ Auto ② What's this?(그림만 → Space 로 공개) ③ Which one? 1·2·3 ④ Speed round(30초, ✔/✖)</td><td>따라 말하기 → 단어 외치기 → 번호 → 빨리 읽기</td></tr>
+    <tr><td>합치기 (2~4권)</td><td>▶ 를 누르면 소리 타일이 하나씩 붙어 단어가 돼요</td><td>소리를 따라 한 뒤 손뼉에 단어 외치기</td></tr>
+    <tr><td>짝꿍 소리 · 이어 소리 · 모음 짝 (3·4권)</td><td>▶ 에 두 글자 타일이 붙으며 소리. <b>sh·ch·th·ck·ng·ai·ee…</b> = 두 글자 소리 하나 / <b>bl·st·-nd·-mp…</b> = 두 소리를 빠르게 이어요(소리 하나가 아니에요) / qu = k+w</td><td>따라 하기, 번호 단어 읽기</td></tr>
+    <tr><td>마법 e (4권)</td><td>cap → "새 단어는?" → 아이들이 먼저 외치면 🧚 요정을 눌러 확인(cape)</td><td>새 단어 먼저 외치기</td></tr>
+    <tr><td>단어 가족 · Read and find</td><td>♪ 챈트 / 단어를 누르면(소리) 그림 번호를 듣고 그 그림 누르기</td><td>그림 번호 외치기</td></tr>
+    <tr><td>문장</td><td>문장마다 한 장: 아이들이 먼저 읽고 → 단어·🔊 로 확인</td><td>노란 사이트워드는 통째로 읽기</td></tr>
+    <tr><td><b>이야기</b></td><td><b>이야기 한눈에</b>(해설이 있는 유닛): 장면 썸네일 + 우리말 해설로 줄거리를 먼저 → <b>▶ Story in pictures</b>. 칸마다 <b>▶</b> = 해설 한 줄(그림 아래 초록 자막, 어른 목소리) → 대사. <b>💬 우리말</b> = 대사 번역·칸 설명·질문(선생님 모드 기본 켬). <b>🎭 역할 읽기</b>: 켜고 친구 얼굴(번·헤지·그럼블…)을 누르면 그 줄은 소리 없이 2.5초 멈춰요 — 아이들이 읽을 차례(핍·해설·함께 줄은 역할이 안 돼요). <b>🔍 Find</b>: 숨은 단어를 아이들이 찾아 외치면 눌러 반짝</td><td>따라 말하기, 맡은 역할 읽기, 숨은 단어 외치기</td></tr>
+    <tr><td>유닛 정리 · 평가</td><td>A·B·C 한 장씩. 책에 먼저 풀게 한 뒤 함께 확인(초록 = 정답)</td><td>번호·글자 외치기</td></tr>
+    <tr><td>놀이판 (복습)</td><td>두 팀. 🎲 를 누르면 말이 움직여요. 도착한 칸을 그 팀이 먼저 외치게 하고 확인. ⭐ 한 칸 더 · ↩ 뒤로 · 🔁 다시, ↺ 처음부터</td><td>팀별로 칸의 소리·단어 외치기</td></tr>
+    <tr><td>빙고 (복습)</td><td>아이들은 책의 빙고판에 단어 16개를 <b>미리</b> 써 와요(수업 중에 쓰면 10분). 🔊 Call a word 로 부르고 그 칸 표시. 화면의 BINGO 는 선생님 판 기준</td><td>자기 판에 동그라미, 한 줄이면 "Bingo!"</td></tr>
+    <tr><td>노래 (12유닛)</td><td>▶ Sing! — 반주 위에 줄마다 소리, 줄을 누르면 그 줄만</td><td>가사 보며 부르기</td></tr>
+    <tr><td>A to Z 길 · 징검다리</td><td>아이들이 다음 글자(가족)를 외치면 그 칸을 누름. 틀리면 소리</td><td>다음 것 외치기</td></tr>
+    <tr><td>단어 사냥 (12유닛)</td><td>장면에서 찾은 단어를 아이들이 외치면 그 단추를 눌러 ✓, 다 찾으면 다음 라운드</td><td>단어 외치기</td></tr>
+    <tr><td>되짚기 공연 · 수료증</td><td>장면마다 "기억나요?" → ▶. 수료증은 이름을 넣고 🖨 (한 장씩 — <b>수업 전에 미리 인쇄</b>)</td><td>장면 이야기, 박수</td></tr>
+    <tr><td>📚 Homework</td><td>차시 마지막 쪽 뒤에 숙제(워크북 쪽) 슬라이드가 한 장 나와요</td><td>워크북에 표시</td></tr>
+  </table>
+  <h2>음악</h2>
+  <ul>
+    <li><b>주제가</b>: 홈페이지 맨 위 <b>▶ 주제가</b>(0유닛 이야기 첫 ▶ 와 4권 수료증에서도). <b>ABC 노래</b>: 0유닛 알파벳 쪽 ♪ ABC Song.</li>
+    <li>챈트 반주·이야기 배경음악·노래 반주는 교재가 저절로 틀어요. 말소리가 나올 때 배경음악은 작아져요.</li>
+  </ul>
+</div>
+
+<div class="sheet">
+  <h1>인쇄 · 시험 · 학급 운영</h1>
+  <h2>인쇄 (홈페이지 권 카드의 "PDF 내려받기")</h2>
+  <table>
+    <tr><td class="k">학생책 · 워크북</td><td>유닛마다 PDF (A4, 쪽마다 QR → 그 쪽의 소리). 양면 인쇄하도록 쪽 수가 짝수(끝에 빈 쪽이 붙을 수 있어요). <b>0유닛은 워크북이 없어요.</b></td></tr>
+    <tr><td class="k">스토리북</td><td>A5 가로 한 권 (책 끝까지 이야기 + 해설)</td></tr>
+    <tr><td class="k">시험지 묶음</td><td><b>_Tests_Units</b>(유닛별 A형 + 정답지) · <b>_Tests_Review</b>(복습 1·2) · <b>_FinalTest</b>(최종 평가: 수준 1~3 × A/B형 + 정답지 + 말하기 체크리스트). 묶음 첫 장이 차례</td></tr>
+    <tr><td class="k">선생님 자료</td><td>정답지 · 수업안(전 유닛) · <a href="pronunciation.html">선생님용 소리 안내</a> · 이야기 안내서 · 이야기 지도(A3/A4) · 진도표 · 가정통신문(유닛 카드) · 플래시카드(유닛 카드)</td></tr>
+  </table>
+  <p class="note">흑백 복사하면 묵음 e·가족 색·빨간 모음이 사라져요. 시험지는 생성기에서 <b>흑백(선그림)</b> 을 켜고 뽑으세요.</p>
+
+  <h2>시험 수준 고르기 (<a href="test.html">시험지 생성기</a>)</h2>
+  <table>
+    <tr><td class="k">Level 1</td><td>소리·글자 확인 — 아직 단어 읽기가 서툰 아이, 또는 복습 1(1~4유닛) 직후</td></tr>
+    <tr><td class="k">Level 2</td><td>단어 읽기·쓰기 — 대부분의 아이 (유닛 시험 기본: 1~4유닛 Level 1, 6~10유닛 Level 2)</td></tr>
+    <tr><td class="k">Level 3</td><td>문장 읽기·쓰기 — 잘 읽는 아이. 반 전체는 Level 2, 몇 명만 Level 3 도 좋아요</td></tr>
+    <tr><td class="k">A형 · B형</td><td>문항·보기가 다른 두 벌. 짝꿍끼리 다른 형, 재시험은 다른 형으로. 정답지는 같은 배치에 답만</td></tr>
+    <tr><td class="k">최종 평가</td><td>12유닛 뒤 한 차시: 종이 20문항(20분 안팎) + 말하기 체크리스트(한 명 1~2분 — 다른 아이들은 워크북·색칠). 듣기 문항은 없어요</td></tr>
+  </table>
+  <h2>점수 보기</h2>
+  <ul>
+    <li>20점 중 <b>14점(70%) 아래</b>면 시험지 끝 점수표에서 ✗ 가 많은 글자·가족을 다음 시간 처음 5분에 다시(플래시카드·Speed round). "첫소리"·"끝소리" 칸은 그 자리 쓰기를 따로 센 것.</li>
+    <li>말하기 체크리스트: 칸마다 <b>2</b> 바로 읽음 · <b>1</b> 소리 내어 이어 읽음 · <b>0</b> 못 읽음. 2~4권은 끝 4칸이 <b>처음 보는 단어</b>(가짜 단어) — 외운 것이 아니라 소리를 이어 읽는지 봐요. 합계 70% 아래면 0·1점 소리를 다시.</li>
+    <li>반 평균이 낮은 소리는 <a href="pronunciation.html">소리 안내</a>의 "자주 틀리는 것"을 먼저 확인하세요(f/p, v/b, th, r/l, 끝소리에 '으' 붙이기 등).</li>
+  </ul>
+  <h2>학급 운영</h2>
+  <ul>
+    <li><b>팀</b>: 반을 A·B 두 팀으로 고정해 두면 소리 잡기·놀이판·Which one? 에서 바로 써요. <b>답 규칙</b>: "손 들고 번호" 또는 "다 같이 외치기" 를 활동마다 정해 주세요.</li>
+    <li><b>숙제</b>: 그날 배운 쪽 = 그날 워크북 숙제(차시 끝 📚 Homework 장). 다음 시간 인사 때 워크북을 펴 두게 하고, 정답지(유닛별)로 빠르게 확인.</li>
+    <li><b>결석한 아이</b>: 그 차시의 워크북 숙제 + 가정통신문을 보내고, 집에서 QR 로 소리를 듣게 해요. 다음 시간 시작 5분에 그 유닛 플래시카드로 함께 따라잡기. 시험을 못 본 아이는 B형으로.</li>
+    <li><b>시간</b>: 수업안의 "⏱ 예상" 이 50분을 넘으면 메모리 게임을 빼거나 표시된 쪽을 다음 차시로, 모자라면 표시된 놀이를 더해요. 복습·쇼 유닛은 놀이를 한 판 더 하기 좋아요.</li>
+    <li><b>가정통신문</b>은 유닛이 끝날 때(0~12유닛 모두 있음), 복습 유닛 통신문에는 "잘한 소리 / 더 연습할 소리" 메모 칸이 있어요.</li>
+  </ul>
+</div>
+<script>window.PRINT_READY = true;   // pdf.py 가 기다리는 표시 (내용이 정적이라 바로)</script>
+</body>
+</html>

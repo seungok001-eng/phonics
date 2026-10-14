@@ -359,7 +359,7 @@ body.print .panel .scene img, body.print .stage-pic .pic img { animation: none !
 .bd-bar .team.home::after { content: '🏠'; position: absolute; left: 50%; top: 36px; transform: translateX(-50%); font-size: 12px; }   /* 아직 출발 전 */
 .bd-bar .msg { font-family: 'Fredoka'; font-size: 22px; color: var(--orange); flex: 1; }
 .board { display: grid; gap: 8px; flex: 1; min-height: 0; background: #EAF3D9; border: 3px solid var(--green); border-radius: var(--radius); padding: 10px; }
-.bd-cell { position: relative; background: #fff; border: 3px solid var(--line); border-radius: 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 18px 4px 6px; min-height: 0; }
+.bd-cell { cursor: pointer; position: relative; background: #fff; border: 3px solid var(--line); border-radius: 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 18px 4px 6px; min-height: 0; }
 .bd-cell .no { position: absolute; left: 6px; top: 3px; font-family: 'Fredoka'; font-size: 13px; color: var(--soft); }
 .bd-cell .tag { position: absolute; right: 4px; top: 3px; background: var(--green); color: #1f3a0e; font-family: 'Fredoka'; font-size: 11px; border-radius: 8px; padding: 0 6px; }
 .bd-cell .tag.fin { background: var(--orange); color: #fff; }
@@ -495,10 +495,11 @@ body.print .panel .scene img, body.print .stage-pic .pic img { animation: none !
 .blend-row.joined .tile { border-radius: 0; border-left-width: 0; } .blend-row.joined .tile:first-child { border-left-width: 3px; border-radius: 12px 0 0 12px; } .blend-row.joined .tile:last-child { border-radius: 0 12px 12px 0; }
 /* 3·4권 소리 덩어리 타일: 두 글자 덩어리(sh)는 넓게, 마법 e 의 끝 e 는 흐리게(모음과 같은 덩어리 — 같은 점선 밑줄) */
 .blend-row .tile.w2 { width: auto; min-width: 84px; padding: 0 8px; }
-.tile.me { box-shadow: inset 0 -5px 0 -2px #F5C542; } .tile.silent { opacity: .45; }
+.tile.me { box-shadow: inset 0 -5px 0 -2px #F5C542; } .tile.silent { border-style: dashed; }
 .blend-row .tiles.n4 { gap: 16px; } .blend-row .tiles.n4 .tile { width: 56px; } .blend-row .tiles.n4 .tile.w2 { width: auto; min-width: 72px; }
 .blend-row .tiles.n5, .blend-row .tiles.n6 { gap: 8px; } .blend-row .tiles.n5 .tile, .blend-row .tiles.n6 .tile { width: 48px; font-size: 40px; } .blend-row .tiles.n5 .tile.w2, .blend-row .tiles.n6 .tile.w2 { width: auto; min-width: 64px; padding: 0 4px; }
-.silent { opacity: .45; } b.silent { font-weight: 700; }
+/* 마법 e 의 끝 e(소리 없음): 늘 회색 글자 + 점선 밑줄 — 흑백 복사에서도 보이게 (색·흐림만으로 표시하지 않는다) */
+.silent { color: #8a8a8a !important; text-decoration: underline dotted 2px; text-underline-offset: 4px; } b.silent { font-weight: 700; }
 b.dg { color: inherit !important; }   /* 짝꿍 글자(sh·bl)는 가족 색 그대로 (2권 꼴의 모음 빨강을 받지 않게) */
 .boxes span.w2 { width: auto; min-width: 52px; padding: 0 4px; }
 .blend-row .joined { font-family: 'Andika'; font-size: 40px; font-weight: 700; text-align: center; opacity: .25; transition: opacity .4s; cursor: pointer; }
@@ -557,7 +558,8 @@ body.print .blend-row .joined { opacity: 1; }
 .w4 { position: relative; width: 100%; height: 52px; border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; }
 .w4::before { content: ''; position: absolute; left: 0; right: 0; top: 33%; border-top: 1px dashed #bbb; }
 .w4::after { content: ''; position: absolute; left: 0; right: 0; top: 66%; border-top: 2px solid #888; }
-.w4 .gray, .w4 .ans { position: absolute; left: 10px; top: 0; font-family: 'Andika'; font-size: 34px; line-height: 52px; color: #c9c9c9; z-index: 1; }
+/* 글자 기준선 맞추기: Andika 는 기준선이 (줄 높이/2 + 0.415 × 글자 크기) 에 온다 → 줄 높이 40px 이면 기준선이 66% 선, x 높이(0.5em)가 가운데 칸 */
+.w4 .gray, .w4 .ans { position: absolute; left: 10px; top: 0; font-family: 'Andika'; font-size: 34px; line-height: 40px; color: #c9c9c9; z-index: 1; }
 .w4 .ans { color: var(--ink); } .w4.click { cursor: pointer; }
 .wbw .write-it.w2 .pic { height: 110px; }
 .wbs-rows { display: flex; flex-direction: column; gap: 10px; }
@@ -582,7 +584,8 @@ body.print .blend-row .joined { opacity: 1; }
 .vw-card .glyph { font-family: 'Andika'; font-size: 64px; line-height: 1; font-weight: 700; } .vw-card .glyph small { font-size: 46px; font-weight: 400; margin-left: 4px; }
 .vw-card .ipa { font-family: 'Andika'; font-size: 26px; font-weight: 700; color: var(--vowel); }
 .vw-card .vw-pic { width: 100%; height: 120px; } .vw-card .vw-pic .pic { width: 100%; height: 100%; }
-.vw-card .vw-word { font-family: 'Andika'; font-size: 24px; font-weight: 700; } .vw-card .vw-word .rime { color: var(--ink); } .vw-card .vw-word .rime::first-letter { color: var(--vowel); }
+.vw-card .vw-word { font-family: 'Andika'; font-size: 24px; font-weight: 700; } .vw-card .vw-word .rime { color: var(--ink); display: inline-block; } .vw-card .vw-word .rime::first-letter { color: var(--vowel); }
+.vw-card .vw-word .rime::first-letter, .vw-card .vw-word b.vowel { text-decoration: underline 3px; text-underline-offset: 4px; }   /* 모음은 색 + 밑줄 ("밑줄 친 글자가 모음") */
 .vw-card .hint { font-size: 12px; color: var(--soft); text-align: center; }
 .vw-card.hl, .vw-card.playing { border-color: var(--orange); background: #FFF3E6; }
 
@@ -639,8 +642,9 @@ body.print .page.story:not(.cover) { display: flex; flex-direction: column; }
 .page.story .line .av img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .page.story .task { align-self: flex-start; background: var(--yellow); border-radius: 10px; padding: 1px 10px; font-family: 'Andika'; font-size: 15px; font-weight: 700; margin-top: 1mm; }
 .page.story .task small { font-weight: 400; margin-left: 6px; font-size: 11px; }
-.page.story .foot { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; font-size: 8px; color: var(--soft); flex: none; }
-.page.story .foot img.qr { width: 11mm; height: 11mm; margin: 0; }
+.page.story .foot { display: flex; align-items: center; gap: 3mm; font-size: 8px; color: var(--soft); flex: none; }
+.page.story .foot .qrbox { display: flex; align-items: center; gap: 1.5mm; font-family: 'Fredoka'; font-size: 11px; color: var(--ink); }
+.page.story .foot img.qr { width: 15mm; height: 15mm; margin: 0; }
 .page.story .foot .pno { font-family: 'Fredoka'; font-size: 16px; color: var(--ink); }
 .page.story.cover .art::after { content: ''; position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0) 45%); }
 .page.story.cover .cover-title { position: absolute; left: 0; right: 0; top: 8mm; text-align: center; color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,.6); }
@@ -735,7 +739,7 @@ body.print .dg-card .dg-tiles { gap: 0; } body.print .dg-card .dg-tile { border-
 .me-pic.hl, .me-pic.playing { outline: 3px solid var(--orange); border-radius: 12px; }
 .me-plus { font-family: 'Andika'; font-size: 30px; font-weight: 700; color: var(--soft); white-space: nowrap; }
 body.print .me-row { grid-template-columns: 130px auto auto 1fr 130px; } body.print .me-plus.screen-hide { display: block !important; } body.print .me-pic.to { opacity: 1; }
-body.print .me-w4 { height: 56px; } body.print .me-letters { font-size: 48px; }
+body.print .me-w4 { height: 76px; } body.print .me-letters { font-size: 48px; }
 
 /* ---------- 해설 한 줄 (narr: 장면에서 무슨 일인지 — 쉬운 영어 + 우리말, 누르면 어른 목소리) ---------- */
 .narr { display: flex; flex-direction: column; gap: 1px; background: #FFF4D6; border-left: 6px solid var(--orange); border-radius: 10px; padding: 5px 12px; cursor: pointer; }
@@ -749,3 +753,59 @@ body.print .me-w4 { height: 56px; } body.print .me-letters { font-size: 48px; }
 .page.story:not(.cover) .band .txt > .where, .page.story:not(.cover) .band .txt > .narr { grid-column: 1 / -1; }
 .page.story:not(.cover) .band .narr { padding: 1mm 4mm; flex-direction: row; align-items: baseline; gap: 4mm; flex-wrap: wrap; }
 .page.story:not(.cover) .band .task { margin-top: 0; }
+
+/* ---------- 종이(인쇄) 다듬기: 4선 쓰기 칸 · 잇기 점 · 흑백 복사 · QR · 종이용 활동 ---------- */
+/* 쪽 꼬리 QR: 15mm + "🎧 듣기" (긴 주소는 찍지 않는다). 꼬리를 18mm 로 높이고 내용은 그만큼 위에서 끝난다 */
+body.print .page { padding-bottom: 72px; }
+body.print .ph-foot { height: 68px; padding-bottom: 6px; }
+.ph-foot .qrbox { display: inline-flex; align-items: center; gap: 8px; font-family: 'Fredoka'; font-size: 14px; color: var(--ink); }
+.ph-foot .qrbox img.qr { width: 15mm; height: 15mm; margin: 0; }
+body.print.press .page { padding-bottom: calc(72px + 13mm); }
+/* 4선 쓰기 칸: 종이에서는 20mm — 가운데 칸(x 높이) 7mm, 기준선 67.5%. 글자 크기 53px 의 x 높이가 가운데 칸, 줄 높이 59px 로 기준선을 맞춘다 */
+.read-card .tr.l4 { position: relative; height: 52px; line-height: 40px; font-size: 34px; border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; }
+.read-card .tr.l4 + .tr.l4 { margin-top: 10px; }
+.read-card .tr.l4::before, .read-card .tr.l4::after { content: ''; position: absolute; left: 0; right: 0; }
+.read-card .tr.l4::before { top: 33%; border-top: 1px dashed #bbb; } .read-card .tr.l4::after { top: 66%; border-top: 2px solid #888; }
+body.print .w4, body.print .read-card .tr.l4 { height: 76px; }
+body.print .w4::before, body.print .read-card .tr.l4::before { top: 32.5%; } body.print .w4::after, body.print .read-card .tr.l4::after { top: 67.5%; }
+body.print .w4 .gray, body.print .w4 .ans, body.print .w4 .k-faint, body.print .read-card .tr.l4 { font-size: 53px; line-height: 59px; }
+body.print .read-card .tr.l4.long { font-size: 44px; line-height: 66px; }   /* 긴 단어(8자 이상)는 칸에 들어가게 작게 — 기준선은 같은 자리 */
+/* 잇기: 종이에서는 칸 안쪽 가장자리에 점(●) — 점에서 점으로 선을 긋는다. 칸 사이를 넓게 */
+body.print .match { column-gap: 64px; } body.print .match.m2 { column-gap: 140px; } body.print .pair { column-gap: 64px; }
+body.print .match .it, body.print .pair .it { position: relative; }
+body.print .match .col:not(:last-child) .it::after, body.print .pair .col:first-child .it::after,
+body.print .match .col:not(:first-child) .it::before, body.print .pair .col:last-child .it::before { content: '●'; position: absolute; top: 50%; transform: translateY(-50%); font-size: 16px; line-height: 1; color: var(--ink); font-family: sans-serif; }
+body.print .match .col:not(:last-child) .it::after, body.print .pair .col:first-child .it::after { right: 3px; }   /* 점은 칸 안쪽 가장자리 (칸 밖으로 넘치지 않게) */
+body.print .match .col:not(:first-child) .it::before, body.print .pair .col:last-child .it::before { left: 3px; }
+body.print .match .col:not(:last-child) .it, body.print .pair .col:first-child .it { padding-right: 18px; }
+body.print .match .col:not(:first-child) .it, body.print .pair .col:last-child .it { padding-left: 18px; }
+/* 흑백 복사: 워크북 바탕은 흰색, 모음은 색에 밑줄을 더한다 */
+body.print .page.wb { background: #fff; }
+body.print b.vowel, body.print .tile.vowel, body.print .dg-tile.vowel, body.print .me-l.mv { text-decoration: underline 3px; text-underline-offset: 4px; }
+body.print .read-card .tr b.vowel { text-decoration: none; }   /* 따라 쓰기 줄에서는 밑줄이 기준선과 겹치니 뺀다 */
+/* 1권 이야기 완성: 보기 단어와 넓은 빈칸 */
+body.print .fill { flex-wrap: wrap; } body.print .fill .blank { min-width: 150px; } body.print .fill .choices span { padding: 0 12px; }
+/* 종이용 놀이(Listen and circle): 두 단 */
+.check-sec.game-paper { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; } .game-paper .opt .pic { height: 70px; }
+/* 듣고 가리키기 종이판: ② 번호 그림 ③ ☐ 표시 줄 */
+body.print .t-listen_point .lp-row .cell .pic { height: 96px; }
+.lp-paper { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.lp-pp { position: relative; border: 2px solid var(--line); border-radius: 12px; padding: 4px; } .lp-pp .pic { width: 100%; height: 72px; }
+.lp-pp .n { position: absolute; left: 4px; top: 3px; width: 28px; height: 28px; border: 2px solid var(--ink); border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; font-family: 'Fredoka'; font-weight: 700; font-size: 16px; z-index: 1; }
+.lp-check { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; font-size: 22px; font-weight: 700; border: 2px solid var(--line); border-radius: 12px; padding: 8px 12px; } .lp-check b { margin-left: auto; font-family: 'Fredoka'; }
+/* 빙고 종이판: 1권은 3×3 */
+.bingo.n3 { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); } body.print .bingo.blank .bg-cell { border-color: #bbb; }
+/* 징검다리 종이판: 처음·끝 돌 표시 + 아래 가족 단어 쓰기 */
+.path .lt { position: relative; }
+.path .lt .tag { position: absolute; top: -9px; left: 50%; transform: translateX(-50%); background: var(--green); color: #1f3a0e; font-family: 'Fredoka'; font-size: 11px; line-height: 1.4; border-radius: 8px; padding: 0 6px; }
+.path .lt .tag.fin { background: var(--orange); color: #fff; }
+.bridge-write .write-it.w2 .pic { height: 80px; } .bridge-write .write-it.w2 { gap: 4px; }
+/* 읽고 그림 찾기: 단어가 11개 이상이면 한 줄에 6개 */
+.fw-pics.c6 { grid-template-columns: repeat(6, 1fr); } .page .fw-pics.c6 .fw-pic .pic { height: 96px; }
+/* 꼬리(QR 15mm)가 높아진 만큼 빠듯한 쪽의 그림을 조금 줄인다 */
+body.print .game-paper .opt .pic { height: 58px; }
+body.print .t-check .opt .pic { height: 66px; } body.print .t-check .write-it .pic { height: 60px; }
+body.print .t-check .write-row.w2.g4 .write-it.w2 .pic { height: 70px; }
+body.print .t-wb_review_words .match .it .pic { height: 46px; }
+/* 사이트워드 칩의 "복습" 꼬리표 (앞 권에서 배운 단어) */
+.swr { font-size: .55em; font-weight: 400; margin-left: 4px; padding: 0 4px; border: 1px solid currentColor; border-radius: 6px; vertical-align: middle; opacity: .75; }

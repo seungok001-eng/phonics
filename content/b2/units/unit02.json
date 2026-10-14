@@ -29,7 +29,7 @@
     "짧은 모음 a(æ) 소리를 알고 -ap·-ag 단어를 소리를 이어 읽는다",
     "-ap·-ag 단어 8개를 읽고 그림과 잇고 쓴다",
     "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
-    "사이트워드 is, in를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 is(1권 복습), in(1권 복습)를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -355,11 +355,11 @@
         ]
       },
       {
-        "word": "wag",
+        "word": "tag",
         "pictures": [
-          "wag",
-          "bag",
-          "fan"
+          "tag",
+          "rag",
+          "map"
         ]
       },
       {
@@ -367,7 +367,7 @@
         "pictures": [
           "map",
           "mat",
-          "nap"
+          "cap"
         ]
       },
       {
@@ -381,10 +381,10 @@
     ],
     "match": [
       {
-        "word": "nap"
+        "word": "map"
       },
       {
-        "word": "tap"
+        "word": "bag"
       },
       {
         "word": "tag"
@@ -433,19 +433,19 @@
         ]
       },
       {
-        "word": "nap",
+        "word": "map",
         "pictures": [
-          "nap",
           "map",
+          "mat",
           "tap"
         ]
       },
       {
-        "word": "wag",
+        "word": "rag",
         "pictures": [
-          "wag",
           "rag",
-          "bag"
+          "bag",
+          "rat"
         ]
       },
       {
@@ -462,7 +462,7 @@
     "blend": [
       {
         "word": "cap",
-        "missing": 0
+        "missing": 1
       },
       {
         "word": "map",
@@ -517,7 +517,7 @@
         "answer": 0
       },
       {
-        "text": "The cat is in a nap.",
+        "text": "The cat can nap.",
         "pictures": [
           "tap",
           "nap"

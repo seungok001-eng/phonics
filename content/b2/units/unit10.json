@@ -35,7 +35,7 @@
     "짧은 모음 u(ʌ) 소리를 알고 -ug·-un·-up 단어를 소리를 이어 읽는다",
     "-ug·-un·-up 단어 11개를 읽고 그림과 잇고 쓴다",
     "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
-    "사이트워드 you, look를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 you(1권 복습), look(1권 복습)를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -353,7 +353,7 @@
         "pictures": [
           "sun",
           "bun",
-          "run"
+          "bug"
         ]
       },
       {
@@ -381,10 +381,10 @@
         ]
       },
       {
-        "word": "hug",
+        "word": "mug",
         "pictures": [
-          "hug",
           "mug",
+          "rug",
           "bug"
         ]
       }
@@ -394,13 +394,13 @@
         "word": "mug"
       },
       {
-        "word": "run"
+        "word": "sun"
       },
       {
         "word": "bun"
       },
       {
-        "word": "up"
+        "word": "pup"
       }
     ],
     "write": [
@@ -439,7 +439,7 @@
         "pictures": [
           "sun",
           "bun",
-          "fun"
+          "bug"
         ]
       },
       {
@@ -451,19 +451,19 @@
         ]
       },
       {
-        "word": "hug",
+        "word": "rug",
         "pictures": [
-          "hug",
+          "rug",
           "mug",
           "bug"
         ]
       },
       {
-        "word": "run",
+        "word": "bun",
         "pictures": [
-          "run",
+          "bun",
           "sun",
-          "bun"
+          "pup"
         ]
       }
     ]
@@ -496,7 +496,7 @@
       },
       {
         "word": "cup",
-        "missing": 0
+        "missing": 2
       },
       {
         "word": "pup",
@@ -550,7 +550,7 @@
       {
         "text": "I see a cup.",
         "pictures": [
-          "mug",
+          "pup",
           "cup"
         ],
         "answer": 1
@@ -561,7 +561,7 @@
       "mug",
       "rug",
       "sun",
-      "run",
+      "bun",
       "cup"
     ]
   },

@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=a hat and a bat | TYPE=sentence | IPA=ə ˈhæt ənd ə ˈbæt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A hat? No, a bat!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967122.3820584,
+   "sec": 3.08,
+   "check": {
+    "transcript": "A hat? No, a bat.",
+    "type": "sentence",
+    "ipa": "ə hæt noʊ ə bæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A hat? No, a bat. | TYPE=sentence | IPA=ə hæt noʊ ə bæt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:50",
+ "applied": "2026-10-14 17:40",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "b2_u01_s3",
  "sub": "line",
- "title": "2권 1유닛 문장 3: A hat and a bat!",
- "text": "A hat and a bat!",
+ "title": "2권 1유닛 문장 3: A hat? No, a bat!",
+ "text": "A hat? No, a bat!",
  "voice": "Kore",
  "book": 2,
  "busy": 0

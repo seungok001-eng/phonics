@@ -84,8 +84,8 @@
           "audio": "word_quack",
           "options": [
             "quack",
-            "duck",
-            "queen"
+            "queen",
+            "cup"
           ],
           "answer": "quack"
         }
@@ -153,6 +153,26 @@
       "z": [
         "zebra",
         "zigzag"
+      ]
+    },
+    "bingo": {
+      "words": [
+        "apple",
+        "bus",
+        "cat",
+        "dog",
+        "egg",
+        "fan",
+        "goat",
+        "hen",
+        "jelly",
+        "kite",
+        "lemon",
+        "moon",
+        "queen",
+        "sun",
+        "turtle",
+        "zebra"
       ]
     }
   },
@@ -516,6 +536,10 @@
         {
           "type": "word_hunt",
           "title": "Word hunt"
+        },
+        {
+          "type": "review_bingo",
+          "title": "Bingo"
         }
       ],
       "workbook": [

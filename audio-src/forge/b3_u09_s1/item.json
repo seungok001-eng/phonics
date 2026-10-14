@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=The chimp has a lamp. | TYPE=sentence | IPA=ðə ˈtʃɪmp hæz ə ˈlæmp. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The chimp said, \"A lamp!\"",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1791967150.7244613,
+   "sec": 2.4,
+   "check": {
+    "transcript": "The chimp said, a lamp.",
+    "type": "sentence",
+    "ipa": "ðə tʃɪmp sɛd ə læmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The chimp said, a lamp. | TYPE=sentence | IPA=ðə tʃɪmp sɛd ə læmp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:30",
+ "applied": "2026-10-14 17:42",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b3_u09_s1",
  "sub": "line",
- "title": "3권 9유닛 문장 1: The chimp has a lamp.",
- "text": "The chimp has a lamp.",
+ "title": "3권 9유닛 문장 1: The chimp said, \"A lamp!\"",
+ "text": "The chimp said, \"A lamp!\"",
  "voice": "Kore",
  "book": 3,
  "busy": 0

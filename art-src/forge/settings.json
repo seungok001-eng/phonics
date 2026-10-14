@@ -21,16 +21,16 @@
   "cost": 14.249
  },
  "tts_usage": {
-  "count": 2037,
-  "tokens": 131712,
-  "checks": 3281
+  "count": 2055,
+  "tokens": 132707,
+  "checks": 3306
  },
  "el_usage": {
-  "count": 1213,
-  "chars": 23136
+  "count": 1215,
+  "chars": 23173
  },
  "topview_usage": {
-  "count": 11,
-  "credits": 2.75
+  "count": 27,
+  "credits": 6.75
  }
 }

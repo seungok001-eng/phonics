@@ -24,13 +24,14 @@
   },
   "sight_words": [
     "the",
-    "on"
+    "on",
+    "no"
   ],
   "objectives_ko": [
     "짧은 모음 a(æ) 소리를 알고 -at·-an 단어를 소리를 이어 읽는다",
     "-at·-an 단어 9개를 읽고 그림과 잇고 쓴다",
     "빠진 글자(첫소리·모음·끝소리)를 듣고 쓴다",
-    "사이트워드 the, on를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
+    "사이트워드 the(1권 복습), on, no를 보고 읽고, 배운 단어로 된 문장 4개를 읽는다"
   ],
   "lessons": [
     {
@@ -123,9 +124,9 @@
       ]
     },
     {
-      "text": "A hat and a bat!",
+      "text": "A hat? No, a bat!",
       "audio": "b2_u01_s3",
-      "pic": "word_hat",
+      "pic": "word_bat",
       "words": [
         "hat",
         "bat"
@@ -403,7 +404,7 @@
       },
       {
         "word": "can",
-        "missing": 0
+        "missing": 1
       },
       {
         "word": "rat",
@@ -465,7 +466,7 @@
     "blend": [
       {
         "word": "cat",
-        "missing": 0
+        "missing": 2
       },
       {
         "word": "hat",

@@ -340,12 +340,12 @@
       "sound": "oʊ",
       "hint": "magic e: long o as in rope",
       "words": [
-        "hope",
+        "rope",
         "note",
         "robe",
         "globe",
         "bone",
-        "rope",
+        "hope",
         "nose",
         "rose",
         "stone",
@@ -443,7 +443,7 @@
         "snow",
         "bowl",
         "crow",
-        "bow"
+        "window"
       ]
     },
     "oo": {
@@ -1004,7 +1004,7 @@
     },
     "nose": {
       "ko": "코",
-      "desc": "a cartoon nose on a round face, only the nose area",
+      "desc": "a simple smiling cartoon face where the nose is drawn very big and round in the center, with tiny dot eyes and a small mouth, so the big nose is clearly the main thing",
       "family": "o_e",
       "chunks": [
         "n",
@@ -2015,6 +2015,25 @@
         "ɔr",
         "m"
       ]
+    },
+    "window": {
+      "ko": "창문",
+      "desc": "a window with blue curtains and a flower pot on the sill",
+      "family": "ow",
+      "chunks": [
+        "w",
+        "i",
+        "n",
+        "d",
+        "ow"
+      ],
+      "ipa": [
+        "w",
+        "ɪ",
+        "n",
+        "d",
+        "oʊ"
+      ]
     }
   },
   "sight_words": {
@@ -2028,7 +2047,8 @@
     },
     "like": {
       "ko": "좋아하다",
-      "unit": 2
+      "unit": 2,
+      "prev_book": 1
     },
     "ride": {
       "ko": "타다",
@@ -2060,7 +2080,8 @@
     },
     "see": {
       "ko": "보다",
-      "unit": 7
+      "unit": 7,
+      "prev_book": 1
     },
     "eat": {
       "ko": "먹다",
@@ -2068,7 +2089,8 @@
     },
     "go": {
       "ko": "가다",
-      "unit": 8
+      "unit": 8,
+      "prev_book": 1
     },
     "slow": {
       "ko": "느린·천천히",
@@ -2076,7 +2098,8 @@
     },
     "look": {
       "ko": "보다",
-      "unit": 9
+      "unit": 9,
+      "prev_book": 1
     },
     "out": {
       "ko": "밖으로",
@@ -2200,6 +2223,11 @@
       "unit": 0,
       "prev_book": 2
     },
+    "no": {
+      "ko": "아니(요)",
+      "unit": 0,
+      "prev_book": 2
+    },
     "she": {
       "ko": "그녀는",
       "unit": 0,
@@ -2248,7 +2276,7 @@
     "for": {
       "ko": "~을 위해",
       "unit": 0,
-      "prev_book": 3
+      "prev_book": 2
     },
     "one": {
       "ko": "하나",
@@ -2521,6 +2549,6 @@
   "story_arc": {
     "ko": "짝꿍 숲 끝의 마법 성은 단어가 바뀌는 수수께끼로 잠겨 있어요. 손바닥만 한 요정 이가 별 지팡이로 단어 끝에 반짝 e 를 붙이면 cap 이 cape 로 바뀌어요. 핍은 \"캡-이!\" 하고 끊어 읽다가 5유닛에서 첫 마법 단어 \"케이프!\"를 말해요. 6유닛부터는 두 모음이 한 소리를 내는 짝으로 비를 그치고, 나무를 깨우고, 배를 띄우고, 달을 꺼내요. 10유닛 꼭대기 방에서 노래 조각 넷을 찾고, 11유닛에서 노래 나무가 다시 노래해요. 모두 함께 주제가를 불러요.",
     "books_ko": "옛날에 노래 나무가 부르던 소리 노래가 네 조각으로 흩어졌어요. 1권 소리 정원, 2권 단어 연못, 3권 짝꿍 숲, 4권 마법 성에서 조각을 하나씩 찾아요. 4권에서 마지막 조각을 찾아 노래 나무가 다시 노래하고, 시리즈가 끝나요.",
-    "characters_ko": "핍은 이제 긴 모음 단어를 읽고 마지막엔 노래 전체를 불러요. 번과 헤지, 비즈가 함께하고, 새 친구 요정 이가 별 지팡이로 마법 e 를 붙이고 반짝이 둘을 하나로 합쳐 줘요. 그럼블은 성 창문에서 \"쉿!\" 하다가 벌을 조심하라고 알려 주고, 밧줄을 내려 주고, 차와 토스트를 챙겨 주며, 마지막엔 북을 치며 함께 노래해요."
+    "characters_ko": "핍은 이제 긴 모음 단어를 읽고 마지막엔 노래 전체를 불러요. 번과 헤지, 비즈가 함께하고, 새 친구 요정 이가 별 지팡이로 마법 e 를 붙이고 반짝이 둘을 하나로 합쳐 줘요. 그럼블은 성 창문에서 \"쉿!\" 하다가 벌을 조심하라고 알려 주고, 밧줄을 내려 주고, 차와 토스트를 챙겨 주며, 마지막엔 북을 치며 함께 노래해요. 그럼블은 이미 오래전에 친구가 됐어요. 그래도 \"쉿!\"은 그럼블의 입버릇이라, 이제는 장난스럽게 \"쉿!\" 하면서 몰래 친구들을 도와요."
   }
 }
