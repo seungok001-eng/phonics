@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=Grumble's hats are on the trees. | TYPE=sentence | IPA=ˈɡɹʌmbəlz ˈhæts ɑɹ ɑn ðə ˈtɹiz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Grumble's nightcaps are on the trees to keep them quiet!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1792057679.4635713,
+   "sec": 3.92,
+   "check": {
+    "transcript": "Grumble's nightcaps are on the trees to keep them quiet.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəlz ˈnaɪtˌkæps ɑɹ ɑn ðə ˈtɹiz tu ˈkip ðəm ˈkwaɪət.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble's nightcaps are on the trees to keep them quiet. | TYPE=sentence | IPA=ˈɡɹʌmbəlz ˈnaɪtˌkæps ɑɹ ɑn ðə ˈtɹiz tu ˈkip ðəm ˈkwaɪət. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-14 12:06",
+ "applied": "2026-10-15 18:48",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "sb_u05_2_n",
  "sub": "line",
- "title": "1권 5유닛 스토리북 해설 · 해설: Grumble's hats are on the trees!",
- "text": "Grumble's hats are on the trees!",
+ "title": "1권 5유닛 스토리북 해설 · 해설: Grumble's nightcaps are on the trees to keep them quiet!",
+ "text": "Grumble's nightcaps are on the trees to keep them quiet!",
  "voice": "Kore",
  "who": "narrator",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=Grumble wears all his hats. He looks at the trees. | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈwɛəz ɔːl hɪz ˈhæts hiː lʊks ət ðə ˈtɹiːz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Grumble looks at the trees. He misses the garden he once kept.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1792057676.0852187,
+   "sec": 4.72,
+   "check": {
+    "transcript": "Grumble looks at the trees. He misses the garden he once kept.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl lʊks ət ðə tɹiz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble looks at the trees. He misses the garden he once kept. | TYPE=sentence | IPA=ˈɡɹʌmbəl lʊks ət ðə tɹiz | hi ˈmɪsəz ðə ˈɡɑɹdən hi wʌns kɛpt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-14 12:06",
+ "applied": "2026-10-15 18:48",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "scene_u05_4_n",
  "sub": "line",
- "title": "1권 5유닛 해설 · 해설: Grumble wears all his hats. He looks at the trees.",
- "text": "Grumble wears all his hats. He looks at the trees.",
+ "title": "1권 5유닛 해설 · 해설: Grumble looks at the trees. He misses the garden he once kept.",
+ "text": "Grumble looks at the trees. He misses the garden he once kept.",
  "voice": "Kore",
  "who": "narrator",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -563,7 +563,7 @@
     },
     "vet": {
       "ko": "수의사",
-      "desc": "an owl veterinarian in a white coat with a stethoscope, with big round eyes with black pupils, gently examining a puppy with a bandaged paw on an exam table",
+      "desc": "a friendly cartoon animal doctor (a grown-up woman) in a white coat with a stethoscope, gently examining a puppy with a bandaged paw on an exam table",
       "family": "et"
     },
     "hen": {
@@ -1214,6 +1214,6 @@
   "story_arc": {
     "ko": "글자나무 정원 담장 너머에 단어 연못이 있어요. 건너려면 글자들이 손을 잡고 단어가 되어 징검돌이 돼야 해요. 구슬 애벌레 비즈가 글자 구슬을 꿰어 단어를 만들어 줘요. 핍은 소리를 이어 붙이다 거꾸로 말하지만 5유닛에서 첫 단어 \"캣!\"을 말하고, 다리가 완성되면 노래 조각 둘을 찾아요.",
     "books_ko": "옛날에 노래 나무가 부르던 소리 노래가 네 조각으로 흩어졌어요. 1권 소리 정원, 2권 단어 연못, 3권 짝꿍 숲, 4권 마법 성에서 조각을 하나씩 찾아요. 네 조각을 다 모으면 노래 나무가 다시 노래해요.",
-    "characters_ko": "소리를 되찾은 핍이 이제 단어를 읽으려 해요. 번과 헤지는 여전히 함께하고, 새 친구 비즈가 구슬을 꿰어 단어를 만들어요. 갈대숲의 그럼블은 등불로 길을 비추며 진짜 친구가 돼요."
+    "characters_ko": "소리를 되찾은 핍이 이제 단어를 읽으려 해요. 번과 헤지는 여전히 함께하고, 새 친구 비즈가 구슬을 꿰어 단어를 만들어요. 갈대숲의 그럼블은 등불로 길을 비추며 진짜 친구가 돼요. (그럼블은 옛날 노래 나무를 지키던 정원지기예요. 노래 조각을 다 모으면 노래 나무가 다시 노래하고, 그럼블도 정원지기로 돌아가요.)"
   }
 }

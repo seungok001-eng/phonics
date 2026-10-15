@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791458837.535278,
+ "updated": 1792057621.7477942,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/80f51986-0d8a-4dce-ac89-6388b8333e4e?Expires=1791480415&KeyName=labs-flow-prod-cdn-key&Signature=Bo4AbuqboYbQf482J773bETeQbU",
  "prompt_edited": false,
- "applied": "2026-10-08 20:32",
+ "applied": "2026-10-15 18:49",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,11 @@
  "kind": "word",
  "word": "king",
  "title": "king · 왕",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a small yellow duck king wearing a tiny golden crown and a little red cape.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a jolly cartoon king (a grown-up man) with a golden crown, a red cape and a short beard, smiling.",
  "aspect": "1:1",
  "out": "web/assets/art/word_king.png",
  "book": 3,
- "claimed_at": 1791458810.5991585,
- "asset_no": 2170
+ "regen": 1,
+ "asset_no": 2170,
+ "claimed_at": 1792057594.9609053
 }

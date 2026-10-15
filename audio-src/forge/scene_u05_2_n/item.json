@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=Grumble put his hats on the trees. | TYPE=sentence | IPA=ˈɡɹʌmbəl pʊt hɪz hæts ɑn ðə tɹiz | NOTE=mispronounced trees as treez"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Grumble put his nightcaps on the trees to keep them quiet!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1792057671.6459858,
+   "sec": 4.44,
+   "check": {
+    "transcript": "Grumble put his nightcaps on the trees to keep them quiet.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl pʊt hɪz ˈnaɪtˌkæps ɑn ðə tɹiz tu kip ðəm ˈkwaɪət.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble put his nightcaps on the trees to keep them quiet. | TYPE=sentence | IPA=ˈɡɹʌmbəl pʊt hɪz ˈnaɪtˌkæps ɑn ðə tɹiz tu kip ðəm ˈkwaɪət. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-14 12:05",
+ "applied": "2026-10-15 18:48",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "scene_u05_2_n",
  "sub": "line",
- "title": "1권 5유닛 해설 · 해설: Grumble put his hats on the trees!",
- "text": "Grumble put his hats on the trees!",
+ "title": "1권 5유닛 해설 · 해설: Grumble put his nightcaps on the trees to keep them quiet!",
+ "text": "Grumble put his nightcaps on the trees to keep them quiet!",
  "voice": "Kore",
  "who": "narrator",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

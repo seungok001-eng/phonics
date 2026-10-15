@@ -85,7 +85,7 @@
         "happy",
         "drum"
       ],
-      "role_ko": "시끄러운 걸 싫어하는 너구리 할아버지. 씨앗을 숨기고 \"쉿!\" 하지만, 등불이 밝아지며 친구가 돼요."
+      "role_ko": "옛날 노래 나무를 지키던 정원지기 너구리 할아버지. 노래가 사라진 뒤 소리를 들으면 슬퍼서 씨앗을 숨기고 \"쉿!\" 하지만, 등불 속 노래 불씨가 핍을 노래하게 하며 친구가 돼요."
     }
   },
   "pose_desc": {
@@ -565,7 +565,7 @@
     },
     "queen": {
       "ko": "여왕",
-      "desc": "a kind queen swan with a golden crown and a purple robe"
+      "desc": "a kind smiling cartoon queen (a grown-up woman) with a golden crown and a long purple robe, waving"
     },
     "quilt": {
       "ko": "누비이불",
@@ -621,11 +621,11 @@
     },
     "uncle": {
       "ko": "삼촌",
-      "desc": "a friendly grown-up rabbit uncle with a mustache, a green cap and a watering can, waving"
+      "desc": "a friendly cartoon uncle (a grown-up man) with a mustache and a green cap, holding hands with a small smiling child (his niece)"
     },
     "vet": {
       "ko": "수의사",
-      "desc": "an owl veterinarian in a white coat with a stethoscope, with big round eyes with black pupils, gently examining a puppy with a bandaged paw on an exam table"
+      "desc": "a friendly cartoon animal doctor (a grown-up woman) in a white coat with a stethoscope, gently examining a puppy with a bandaged paw on an exam table"
     },
     "vest": {
       "ko": "조끼",
@@ -1001,8 +1001,8 @@
     "character_sheet": "Full body, standing, facing the viewer, friendly expression, centered on a plain pure white background, no shadow, no props beyond what is described."
   },
   "story_arc": {
-    "ko": "학교 창고 뒤 작은 문 너머에 소리 정원이 있어요. 시끄러운 걸 싫어하는 너구리 그럼블이 글자나무 씨앗을 숨겨서 빈 화분만 스물여섯 개예요. 번과 헤지가 노래를 잃은 아기 새 핍을 위해 소리를 말하면 씨앗이 깨어나 글자나무가 자라요. 스물여섯 그루가 다 자라자 그럼블의 등불이 열리고 핍이 노래를 되찾아요.",
+    "ko": "학교 창고 뒤 작은 문 너머에 소리 정원이 있어요. 너구리 할아버지 그럼블은 옛날에 이 정원의 노래 나무를 지키던 정원지기였어요. 노래가 네 조각으로 흩어져 정원이 조용해진 뒤로, 그럼블은 어떤 소리를 들어도 잃어버린 노래가 생각나 마음이 아팠어요. 그래서 글자나무 씨앗을 숨기고 \"쉿!\" 해요. 그럼블의 등불에는 노래의 마지막 불씨가 남아 있어요. 번과 헤지가 노래를 잃은 아기 새 핍을 위해 소리를 말하면 씨앗이 깨어나 글자나무가 자라요. 스물여섯 그루가 다 자라자 그럼블의 등불이 열리고 핍이 노래를 되찾아요. 그럼블도 다시 웃어요.",
     "books_ko": "옛날에 노래 나무가 부르던 소리 노래가 네 조각으로 흩어졌어요. 1권 소리 정원, 2권 단어 연못, 3권 짝꿍 숲, 4권 마법 성에서 조각을 하나씩 찾아요. 네 조각을 다 모으면 노래 나무가 다시 노래해요.",
-    "characters_ko": "아기 새 핍은 노래를 잃어 소리를 못 내요. 씩씩한 토끼 번과 조심스러운 고슴도치 헤지가 핍 대신 소리를 말해 줘요. 너구리 할아버지 그럼블은 \"쉿!\" 하며 방해하지만 사실은 외로웠어요."
+    "characters_ko": "아기 새 핍은 노래를 잃어 소리를 못 내요. 씩씩한 토끼 번과 조심스러운 고슴도치 헤지가 핍 대신 소리를 말해 줘요. 너구리 할아버지 그럼블은 옛날 노래 나무의 정원지기예요. 노래를 잃은 뒤 소리가 슬퍼서 \"쉿!\" 하며 방해하지만, 사실은 정원이 다시 노래하길 누구보다 바랐어요."
   }
 }

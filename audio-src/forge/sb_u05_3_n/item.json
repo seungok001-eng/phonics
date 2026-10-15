@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=The hats are off, Grumble looks sad. | TYPE=sentence | IPA=ðə hæts ɑɹ ɔf ɡɹʌmbəl lʊks sæd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The hats are off. Grumble misses his old garden.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1792057682.9339528,
+   "sec": 4.48,
+   "check": {
+    "transcript": "The hats are off. Grumble misses his old garden.",
+    "type": "sentence",
+    "ipa": "ðə hæts ɑɹ ɔf. ɡɹʌmbəl mɪsɪz hɪz oʊld ɡɑɹdən.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The hats are off. Grumble misses his old garden. | TYPE=sentence | IPA=ðə hæts ɑɹ ɔf. ɡɹʌmbəl mɪsɪz hɪz oʊld ɡɑɹdən. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-14 12:06",
+ "applied": "2026-10-15 18:48",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "sb_u05_3_n",
  "sub": "line",
- "title": "1권 5유닛 스토리북 해설 · 해설: The hats are off. Grumble looks sad.",
- "text": "The hats are off. Grumble looks sad.",
+ "title": "1권 5유닛 스토리북 해설 · 해설: The hats are off. Grumble misses his old garden.",
+ "text": "The hats are off. Grumble misses his old garden.",
  "voice": "Kore",
  "who": "narrator",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

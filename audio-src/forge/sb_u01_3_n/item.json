@@ -16,19 +16,36 @@
     "raw": "TRANSCRIPT=Three trees grow. A raccoon hides behind them. | TYPE=sentence | IPA=θriː triːz ɡɹoʊ ə ɹækuːn haɪdz bəhaɪnd ðəm | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Three trees grow. Grumble, the old garden keeper, hides behind them.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1792057666.974542,
+   "sec": 5.16,
+   "check": {
+    "transcript": "Three trees grow. Grumble, the old garden keeper, hides behind them.",
+    "type": "sentence",
+    "ipa": "θɹi tɹiz gɹoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Three trees grow. Grumble, the old garden keeper, hides behind them. | TYPE=sentence | IPA=θɹi tɹiz gɹoʊ | gɹʌmbəl ði oʊld gɑɹdən kipɚ haɪdz bəhaɪnd ðɛm | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-13 21:03",
+ "applied": "2026-10-15 18:48",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "sb_u01_3_n",
  "sub": "line",
- "title": "1권 1유닛 스토리북 해설 · 해설: Three trees grow. A raccoon hides behind them.",
- "text": "Three trees grow. A raccoon hides behind them.",
+ "title": "1권 1유닛 스토리북 해설 · 해설: Three trees grow. Grumble, the old garden keeper, hides behind them.",
+ "text": "Three trees grow. Grumble, the old garden keeper, hides behind them.",
  "voice": "Kore",
  "who": "narrator",
  "book": 1,
