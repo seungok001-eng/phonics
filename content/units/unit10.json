@@ -36,6 +36,10 @@
           "title": "Words"
         },
         {
+          "type": "read_play",
+          "title": "Trace and read. Let's play!"
+        },
+        {
           "type": "alphabet_review",
           "title": "The Alphabet A to Z"
         }
@@ -113,7 +117,7 @@
           },
           {
             "who": "bun",
-            "text": "/j/ /j/ yak!",
+            "text": "/y/ /y/ yak!",
             "audio": "u10_l3",
             "pop": "y",
             "ko": "y, y 야크!"
@@ -474,7 +478,7 @@
           },
           {
             "who": "bun",
-            "text": "/j/ /j/ yak! Pop!",
+            "text": "/y/ /y/ yak! Pop!",
             "audio": "sb_u10_1_3",
             "ko": "y, y 야크! 펑!"
           }

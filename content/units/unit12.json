@@ -182,7 +182,7 @@
       "bgm": "song_backing",
       "lines": [
         {
-          "text": "A, a, /æ/, apple!",
+          "text": "A, a, /a/, apple!",
           "audio": "u12_s01"
         },
         {
@@ -214,11 +214,11 @@
           "audio": "u12_s08"
         },
         {
-          "text": "I, i, /ɪ/, ink!",
+          "text": "I, i, /i/, ink!",
           "audio": "u12_s09"
         },
         {
-          "text": "J, j, /dʒ/, jelly!",
+          "text": "J, j, /j/, jelly!",
           "audio": "u12_s10"
         },
         {
@@ -238,7 +238,7 @@
           "audio": "u12_s14"
         },
         {
-          "text": "O, o, /ɑ/, otter!",
+          "text": "O, o, /o/, otter!",
           "audio": "u12_s15"
         },
         {
@@ -262,7 +262,7 @@
           "audio": "u12_s20"
         },
         {
-          "text": "U, u, /ʌ/, umbrella!",
+          "text": "U, u, /u/, umbrella!",
           "audio": "u12_s21"
         },
         {
@@ -278,7 +278,7 @@
           "audio": "u12_s24"
         },
         {
-          "text": "Y, y, /j/, yogurt!",
+          "text": "Y, y, /y/, yogurt!",
           "audio": "u12_s25"
         },
         {

@@ -3,7 +3,7 @@
   {
    "n": 1,
    "file": "cand_1.wav",
-   "text": "Y, y, /j/, yogurt!",
+   "text": "Y, y, /y/, yogurt!",
    "voice": "Kore",
    "how": "tts",
    "created": 1791288758.532029,
@@ -27,9 +27,8 @@
  "letter": null,
  "id": "u12_s25",
  "sub": "line",
- "title": "1권 노래 25: Y, y, /j/, yogurt!",
- "text": "Y, y, /j/, yogurt!",
+ "title": "1권 노래 25: Y, y, /y/, yogurt!",
+ "text": "Y, y, /y/, yogurt!",
  "voice": "Kore",
- "book": 1,
- "busy": 0
+ "book": 1
 }

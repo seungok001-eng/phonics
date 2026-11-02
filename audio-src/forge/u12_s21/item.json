@@ -3,7 +3,7 @@
   {
    "n": 1,
    "file": "cand_1.wav",
-   "text": "U, u, /ʌ/, umbrella!",
+   "text": "U, u, /u/, umbrella!",
    "voice": "Kore",
    "how": "tts",
    "created": 1791288750.9617522,
@@ -27,9 +27,8 @@
  "letter": null,
  "id": "u12_s21",
  "sub": "line",
- "title": "1권 노래 21: U, u, /ʌ/, umbrella!",
- "text": "U, u, /ʌ/, umbrella!",
+ "title": "1권 노래 21: U, u, /u/, umbrella!",
+ "text": "U, u, /u/, umbrella!",
  "voice": "Kore",
- "book": 1,
- "busy": 0
+ "book": 1
 }

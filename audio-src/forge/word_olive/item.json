@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=olive | TYPE=word | IPA=ˈɑlɪv | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "olive",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793618366.9146936,
+   "sec": 1.28,
+   "check": {
+    "transcript": "olive",
+    "type": "word",
+    "ipa": "ˈɑlɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=olive | TYPE=word | IPA=ˈɑlɪv | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 olive · 올리브",
  "text": "olive",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

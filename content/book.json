@@ -72,7 +72,7 @@
       "name": "Grumble",
       "ko": "그럼블",
       "desc": "a grumpy old raccoon standing on two legs, dark eye mask, a striped nightcap, holding a tiny candle lantern in one paw, frowning sleepily, slippers",
-      "personality": "a grumpy old raccoon who hates noise and only wants to sleep; he hid the seeds; he pops out to say Shh!, is secretly lonely, and becomes a friend at the end",
+      "personality": "an old raccoon, once the keeper of the Song Tree garden; since the garden lost its song, sounds make him sad, so he pops out to say Shh! — but secretly he wants the garden to sing again more than anyone, and he becomes a friend at the end",
       "catchphrase": "Shh!",
       "voice": "Charon",
       "color": "#7C8A9E",
@@ -536,7 +536,7 @@
       "desc": "a butterfly net with a wooden handle"
     },
     "nine": {
-      "ko": "9",
+      "ko": "아홉",
       "desc": "nine shiny red balls arranged neatly in three rows of three, with the numeral 9 drawn large next to them (only the numeral, no words)"
     },
     "otter": {
@@ -648,7 +648,7 @@
       "desc": "a pink smiling earthworm"
     },
     "six": {
-      "ko": "6",
+      "ko": "여섯",
       "desc": "two small cartoon hands held up together showing six fingers: five fingers open on one hand and one finger up on the other, plain background, no numbers"
     },
     "box": {
@@ -703,6 +703,14 @@
     },
     "the": {
       "ko": "그",
+      "unit": 2
+    },
+    "on": {
+      "ko": "~위에",
+      "unit": 2
+    },
+    "seed": {
+      "ko": "씨앗 (이야기 단어)",
       "unit": 2
     },
     "is": {

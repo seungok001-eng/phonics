@@ -3,7 +3,7 @@
   {
    "n": 1,
    "file": "cand_1.wav",
-   "text": "J, j, /dʒ/, jelly!",
+   "text": "J, j, /j/, jelly!",
    "voice": "Kore",
    "how": "tts",
    "created": 1791288730.8443844,
@@ -27,9 +27,8 @@
  "letter": null,
  "id": "u12_s10",
  "sub": "line",
- "title": "1권 노래 10: J, j, /dʒ/, jelly!",
- "text": "J, j, /dʒ/, jelly!",
+ "title": "1권 노래 10: J, j, /j/, jelly!",
+ "text": "J, j, /j/, jelly!",
  "voice": "Kore",
- "book": 1,
- "busy": 0
+ "book": 1
 }

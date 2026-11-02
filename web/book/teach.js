@@ -47,7 +47,7 @@ TEACH.trace = {
     // 짝 찾기: 큰 글자 하나 → 작은 글자 보기 4개(1~4). 아이들이 번호를 외치면 선생님이 눌러 확인
     const i = s - ls.length, l = ls[i], others = 'abcdefghijklmnopqrstuvwxyz'.split('').filter((x) => !ls.includes(x));
     const set = shuffle([l, others[(i * 5) % others.length], others[(i * 5 + 7) % others.length], others[(i * 5 + 13) % others.length]], i + ctx.u + 3);
-    const body = `<div class="sl-pair"><div class="sl-pair-target ${letterCls(l)}">${l.toUpperCase()}</div><div class="sl-pair-q">Where is small <b>${l}</b>?</div>
+    const body = `<div class="sl-pair"><div class="sl-pair-target ${letterCls(l)}">${l.toUpperCase()}</div><div class="sl-pair-q">Which one is small <b>${l}</b>?</div>
       <div class="circle-box sl-pair-opts" data-pair="${l}">${set.map((ch, k) => `<span class="ltr" data-ch="${ch}" onclick="circlePick(this)"><i>${k + 1}</i>${ch}</span>`).join('')}</div></div>`;
     return tWrap(ctx, App.book.instructions.look_circle, '큰 글자의 짝(작은 글자)은 몇 번? 아이들이 번호를 외치면(손가락으로 들어도 좋아요) 선생님이 그 칸을 눌러 확인해요', s, n, body);
   },
@@ -69,16 +69,17 @@ async function wordChantLetter(l) {
   await playSeq(items); chantTrackOff();
 }
 // 따라 읽기(단어 3개씩 큰 카드, 번호 1·2·3) + 소리 잡기 팀전(보기에 번호) + 짝 맞추기(번호 카드) — 짝 맞추기는 선생님 슬라이드에만 있다
+// 1권은 Read it! 1·2·3 를 뺀다(아직 단어를 못 읽는 아이들에게는 단어 쪽 반복이라서, 사용자 11-02) — 소리 잡기 + 메모리 2장. 2권부터는 읽기 연습이라 둔다
 TEACH.read_play = {
-  count: (ctx) => Math.ceil(unitWords(ctx.unit).length / 3) + 2,
+  count: (ctx) => (B2() ? Math.ceil(unitWords(ctx.unit).length / 3) : 0) + 2,
   render: (ctx, s) => {
-    const ws = unitWords(ctx.unit), R = Math.ceil(ws.length / 3), n = R + 2;
+    const ws = unitWords(ctx.unit), R = B2() ? Math.ceil(ws.length / 3) : 0, n = R + 2;
     if (s < R) {
       const cards = ws.slice(s * 3, s * 3 + 3).map((w, i) => `<div class="rd-card say" data-say="word_${esc(w)}" data-text="${esc(w)}" data-word="${esc(w)}"><span class="num">${i + 1}</span>${pic('word_' + w, '', w)}<div class="wd">${wordMark(w)}</div></div>`).join('');
       return tWrap(ctx, 'Read it! 1 · 2 · 3', '선생님이 "Number 2!" 하면 아이들이 그 단어를 읽어요. 그림을 누르면 소리로 확인. 다 읽으면 자기 책에 따라 써요', s, n, `<div class="rd-cards">${cards}</div>`);
     }
-    if (s === R) return tWrap(ctx, App.book.instructions.lets_play, B2() ? '🔊 단어가 들리면 아이들이 1·2·3 번호를 외쳐요. 선생님이 그 그림을 누르면 확인. A·B 팀 점수. 자기 책 Listen and circle 에는 같은 순서로 동그라미' : '🔊 소리가 들리면 그 소리로 시작하는 그림 번호(1·2·3)를 아이들이 외쳐요. 선생님이 그 그림을 누르면 확인. A·B 팀 점수. 자기 책 Listen and circle 에는 같은 순서로 동그라미', s, n, gameHtml(ctx, true).replace('class="game"', 'class="game sl-game"'));
-    return tWrap(ctx, 'Memory game', '아이가 번호 두 개를 외치면("3, 7!") 선생님이 그 카드를 눌러 뒤집어요. 뒤집힐 때 단어를 다 같이 말해요. 같은 그림이면 그대로 남아요', s, n, `<div class="sl-tools"><button class="btn orange big main-play" onclick="memStart()">▶ Memory game</button><span class="mem-msg" id="memMsg"></span></div><div class="memory" id="memory">${memCards(ctx, true)}</div>`);
+    if (s === R) return tWrap(ctx, App.book.instructions.lets_play, B2() ? '🔊 단어가 들리면 아이들이 1·2·3 번호를 외쳐요. 선생님이 그 그림을 누르면 확인. A·B 팀 점수. 자기 책 Listen and circle 에는 같은 순서로 동그라미' : '🔊 소리가 들리면 그 소리로 시작하는 그림 번호(1·2·3)를 아이들이 외쳐요. 선생님이 그 그림을 누르면 확인. A·B 팀 점수. 첫 판만 자기 책 Listen and circle 과 같은 순서(동그라미) — 🔁 한 번 더는 화면만', s, n, gameHtml(ctx, true).replace('class="game"', 'class="game sl-game"'));
+    return tWrap(ctx, 'Memory game', '아이가 번호 두 개를 외치면("3, 7!") 선생님이 그 카드를 눌러 뒤집어요. 뒤집힐 때 단어를 다 같이 말해요. 같은 그림이면 그대로 남아요. 시간이 모자라면 건너뛰어도 돼요', s, n, `<div class="sl-tools"><button class="btn orange big main-play" onclick="memStart()">▶ Memory game</button><span class="mem-msg" id="memMsg"></span></div><div class="memory" id="memory">${memCards(ctx, true)}</div>`);
   },
 };
 // 짝 맞추기: 유닛 단어 6개 × 2 = 12장(4×3). 뒤집으면 단어 소리, 짝이면 그대로, 다 맞추면 Great job
@@ -104,16 +105,14 @@ async function memFlip(el) {
   } else { Sound.sfx('no'); await sleep(500); a.classList.remove('open'); b.classList.remove('open'); }
   MEM.lock = false;
 }
-// 듣고 가리키기 한 장 + 플래시카드 속도 라운드 한 장
-// 12쪽(2차시 첫 쪽) — 큰 화면 수업용 4장. 아이들은 멀리 앉아 있으니 화면을 짚지 않고 입으로 답한다(따라 말하기 · 단어 외치기 · 번호 외치기)
+// 2차시 첫 쪽(듣고 말하기) — 큰 화면 수업용 2장 + Mystery words 1장(아래). 아이들은 멀리 앉아 있으니 화면을 짚지 않고 입으로 답한다
+// "Listen and repeat"(1차시 단어 쪽 반복)·"Which one? 1·2·3"(소리 잡기·확인 A 와 같은 활동) 는 뺐다(사용자 11-02). bigCardsHtml·whichHtml 은 남겨 둔다
 TEACH.listen_point = {
-  count: () => 4,
+  count: () => 2,
   render: (ctx, s) => {
-    const n = 4;
-    if (s === 0) return tWrap(ctx, 'Listen and repeat.', '큰 카드 한 장씩: ▶ Auto 는 글자 소리 → 단어 순서로 넘어가요. 아이들은 자기 책을 짚으며 큰 소리로 따라 말해요', 0, n, bigCardsHtml(ctx));
-    if (s === 1) return tWrap(ctx, "What's this?", '그림만 보여요. 아이들이 단어를 외치면 카드를 눌러(또는 Space) 답을 보여 주고 소리를 들려줘요. 순서는 무작위', 1, n, guessHtml(ctx));
-    if (s === 2) return tWrap(ctx, 'Which one? 1, 2, 3!', '🔊 단어가 들리면 아이들이 1·2·3 번호를 외쳐요(손가락으로 들어도 좋아요). 선생님이 그 그림을 누르면 정답 확인. A·B 팀 점수', 2, n, whichHtml(ctx));
-    return tWrap(ctx, 'Speed round!', '30초 동안 카드가 한 장씩 나와요. 글자는 소리를, 단어는 읽어요. 아이가 말하면 ✔, 못 하면 ✖', 3, n,
+    const n = 2;
+    if (s === 0) return tWrap(ctx, "What's this?", '그림만 보여요. 아이들이 단어를 외치면 카드를 눌러(또는 Space) 답을 보여 주고 소리를 들려줘요. 순서는 무작위', 0, n, guessHtml(ctx));
+    return tWrap(ctx, 'Speed round!', '30초 동안 카드가 한 장씩 나와요. 글자는 소리를, 단어는 그림을 보고 말해요(2권부터는 읽기). 아이가 말하면 ✔, 못 하면 ✖. 끝나면 ▶ 로 한 판 더', 1, n,
       `<div class="speed" id="speed"><div class="sp-bar"><button class="btn orange big main-play" onclick="speedStart()">▶ Start</button><span class="timer" id="spTimer">30</span><span class="sp-score" id="spScore">✔ 0 · ✖ 0</span></div>
         <div class="sp-card" id="spCard"><div class="hint">▶ 를 누르면 시작!</div></div>
         <div class="sp-btns"><button class="btn big okb" onclick="speedMark(true)">✔</button><button class="btn big nob" onclick="speedMark(false)">✖</button></div></div>`);
@@ -215,7 +214,7 @@ function speedNext() {
   const c = SP.deck.pop(); SP.cur = c;
   $('spCard').innerHTML = c.l
     ? `<div class="big say ${letterCls(c.l)}" data-say="sound_${c.l}" data-text="${esc(soundText(c.l))}">${c.l.toUpperCase()}<small>${c.l}</small></div><div class="hint">소리를 말해요 · Say the sound</div>`
-    : `<div class="big say" data-say="word_${esc(c.w)}" data-text="${esc(c.w)}">${esc(c.w)}</div><div class="hint">읽어요 · Read the word</div>`;
+    : `<div class="big say sp-word" data-say="word_${esc(c.w)}" data-text="${esc(c.w)}">${pic('word_' + c.w, 'sp-pic', c.w)}<span>${esc(c.w)}</span></div><div class="hint">${B2() ? '읽어요 · Read the word' : '그림 보고 단어를 말해요 · Say the word'}</div>`;   // 1권은 그림을 보고 말하기(아직 못 읽는다)
 }
 function speedMark(ok) {
   if (!SP.cur || SP.t <= 0) return;
@@ -269,7 +268,7 @@ function checkSlides(ctx, c, s) {
   }
   if (s === 0) {
     const lc = c.listen_circle.map((it, i) => `<div class="sl-lc">${lcRow(it, i, true)}</div>`).join('');
-    return tWrap(ctx, 'A. ' + App.book.instructions.listen_circle, '선생님이 🔊 를 누르면 아이들이 맞는 보기 번호(1·2·3)를 외쳐요. 선생님이 그 보기를 누르면 확인(초록 = 정답). 자기 책에는 동그라미', 0, 3, `<div class="sl-check ${c.listen_circle.length > 3 ? 'many' : ''}">${lc}</div>`);
+    return tWrap(ctx, 'A. ' + App.book.instructions.listen_circle, '선생님이 🔊 를 누르면 아이들이 맞는 보기 번호(1·2·3)를 외쳐요. 선생님이 그 보기를 누르면 확인(초록 = 정답). 틀린 번호를 외치면 그 칸을 눌러 빨강을 보여 주고 🔊 다시 들려준 뒤 또 물어요. 자기 책에는 동그라미', 0, 3, `<div class="sl-check ${c.listen_circle.length > 3 ? 'many' : ''}">${lc}</div>`);
   }
   if (s === 1) return tWrap(ctx, 'B. ' + App.book.instructions.match_read, '선생님이 글자를 누르면(소리) 아이들이 그 소리로 시작하는 그림 번호를 외쳐요 → 선생님이 그 그림을 누르면 이어져요 → 다 같이 단어 읽기', 1, 3, matchHtml(c, 'sl-match' + (c.match.length > 3 ? ' n4' : '')));
   return tWrap(ctx, 'C. ' + App.book.instructions.find_circle, '첫소리 글자는? 아이들이 글자를 외치면 선생님이 그 글자를 눌러 확인해요. 아이들은 자기 책에 써요', 2, 3, `<div class="write-row sl-write ${c.find_write.length > 3 ? 'n4' : ''}">${writeItems(ctx, c)}</div>`);
@@ -367,7 +366,16 @@ function homeworkSlide(ctx, wb, s, n) {
   const a = wb[0].no, b = wb[wb.length - 1].no, range = a === b ? `${a}` : `${a}–${b}`;
   return tWrap({ ...ctx, hw: true }, `Lesson ${ctx.page.lesson.n} ✓`, '차시 끝: 숙제 쪽을 알려 주세요. 아이들은 워크북에 표시해요. 워크북의 QR 을 찍으면 집에서도 소리를 들을 수 있어요', s, n,
     `<div class="sl-hw"><div class="hw-big">📚 Homework</div><div class="hw-pages">Workbook p.${range}</div><div class="hw-ko">숙제: 워크북 ${range.replace('–', '~')}쪽</div>
-      <div class="hw-list">${wb.map((x) => `<div><b>p.${x.no}</b>${esc(x.pg.title || '')}</div>`).join('')}</div></div>`, 'hw');
+      <div class="hw-list">${wb.map((x) => `<div><b>p.${x.no}</b>${esc(x.pg.title || '')}</div>`).join('')}</div>${nextPrepHtml(ctx)}</div>`, 'hw');
+}
+// 다음 차시(유닛을 넘어서도)에 빙고·수료증이 있으면 숙제 장에 미리 준비할 것을 한 줄 (수업안 정리 줄과 같은 규칙)
+function nextPrepHtml(ctx) {
+  const ls = ctx.unit.lessons, li = ctx.page.li, nx = ls[li + 1] || (App.units[App.u + 1] || { lessons: [] }).lessons[0];
+  if (!nx) return '';
+  const out = [];
+  if ((nx.pages || []).some((p) => p.type === 'review_bingo')) out.push(`🎯 다음 시간 빙고: 학생책 빙고판에 단어 ${B2() ? 16 : 9}개 미리 써 오기`);
+  if ((nx.pages || []).some((p) => p.type === 'certificate')) out.push('🏅 다음 시간 수료증 — 선생님이 미리 인쇄');
+  return out.length ? `<div class="hw-prep">${out.join('<br>')}</div>` : '';
 }
 function teachCount(ctx) { const t = TEACH[ctx.page.type]; return (t ? t.count(ctx) : 1) + (lessonHomework(ctx) ? 1 : 0); }
 function renderSlide(ctx, s) {
@@ -467,7 +475,7 @@ TEACH.magic_e = {
 // 듣고 가리키기 · 소리 복습 · 알파벳 노래 쪽 슬라이드 끝에 한 장 더 붙는다. 단어는 섞어서 낸다(복습에서 a, b, c 순서로 맞히지 않게).
 const MY = { list: [], i: 0 };
 function mysterySlide(ctx, s, n) {
-  MY.list = shuffle(ctx.unit.mystery, 31 + ctx.u + App.bk * 7); MY.i = 0;
+  MY.list = shuffle(ctx.unit.mystery, 31 + ctx.u + App.bk * 7 + (Date.now() % 97)).slice(0, 13); MY.i = 0;   // 한 판 최대 13개(12유닛 26개는 반씩), 판마다 다르게
   const ls = [...new Set(ctx.unit.mystery.map((m) => m.l))].sort();
   const btns = ls.map((l) => `<button class="my-l ${letterCls(l)}" data-l="${l}" onclick="mysteryPick('${l}')">${l.toUpperCase()}${l}</button>`).join('');
   const endTxt = ctx.unit.mystery.some((m) => m.end) ? '(x 는 끝소리)' : '';

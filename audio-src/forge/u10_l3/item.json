@@ -88,7 +88,7 @@
   {
    "n": 6,
    "file": "cand_6.wav",
-   "text": "/j/ /j/ yak!",
+   "text": "/y/ /y/ yak!",
    "voice": "Sunny",
    "how": "el",
    "created": 1791429626.8016965,
@@ -112,10 +112,9 @@
  "letter": null,
  "id": "u10_l3",
  "sub": "line",
- "title": "1권 10유닛 대사 · 번: /j/ /j/ yak!",
- "text": "/j/ /j/ yak!",
+ "title": "1권 10유닛 대사 · 번: /y/ /y/ yak!",
+ "text": "/y/ /y/ yak!",
  "voice": "Leda",
  "who": "bun",
- "book": 1,
- "busy": 0
+ "book": 1
 }

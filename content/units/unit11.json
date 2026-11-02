@@ -397,7 +397,7 @@
             "who": "grumble",
             "text": "I like the song too!",
             "audio": "u11_l7",
-            "ko": "나도 노래가 좋아!"
+            "ko": "나도 노래가 좋았어!"
           },
           {
             "who": "narrator",
@@ -543,7 +543,7 @@
             "who": "grumble",
             "text": "I like the song too!",
             "audio": "sb_u11_2_2",
-            "ko": "나도 노래가 좋아!"
+            "ko": "나도 노래가 좋았어!"
           },
           {
             "who": "narrator",
@@ -641,7 +641,7 @@
       "l": "w"
     },
     {
-      "w": "wax",
+      "w": "ox",
       "l": "x",
       "end": true
     },

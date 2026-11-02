@@ -140,7 +140,7 @@
       },
       {
         "id": "scene_u06_2",
-        "desc": "A dark pond in the night garden lit by nine twinkling stars in the sky. A brown otter floats on its back tangled in a butterfly net, holding a glowing seed on its tummy. Pip, who tried to help by touching its nose like the friends do, has tumbled head-first into the same net and is stuck upside down with its feet in the air. Hedgie pulls the net handle; Bun giggles. Behind them the new M letter tree with milk-, moon- and monkey-shaped fruits. Hidden in the picture: the net, the otter, nine stars in the sky. Grumble does NOT appear.",
+        "desc": "A dark pond in the night garden lit by nine twinkling stars in the sky. A brown otter floats on its back tangled in a butterfly net, holding a glowing seed on its tummy. Pip, who tried to help by touching its nose, has tumbled head-first into the same net and is stuck upside down with its feet in the air. Hedgie pulls the net handle; Bun giggles. Behind them the new M letter tree with milk-, moon- and monkey-shaped fruits. Hidden in the picture: the net, the otter, nine stars in the sky. Grumble does NOT appear.",
         "hidden": [
           "net",
           "otter",
@@ -579,7 +579,7 @@
       "l": "n"
     },
     {
-      "w": "ox",
+      "w": "olive",
       "l": "o"
     },
     {

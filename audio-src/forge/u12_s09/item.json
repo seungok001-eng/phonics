@@ -3,7 +3,7 @@
   {
    "n": 1,
    "file": "cand_1.wav",
-   "text": "I, i, /ɪ/, ink!",
+   "text": "I, i, /i/, ink!",
    "voice": "Kore",
    "how": "tts",
    "created": 1791288729.724959,
@@ -27,9 +27,8 @@
  "letter": null,
  "id": "u12_s09",
  "sub": "line",
- "title": "1권 노래 9: I, i, /ɪ/, ink!",
- "text": "I, i, /ɪ/, ink!",
+ "title": "1권 노래 9: I, i, /i/, ink!",
+ "text": "I, i, /i/, ink!",
  "voice": "Kore",
- "book": 1,
- "busy": 0
+ "book": 1
 }

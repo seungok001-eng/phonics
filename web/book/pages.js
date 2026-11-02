@@ -62,10 +62,10 @@ function soFarHtml(ctx) {
   const prev = st.so_far_ko ? prevScene(ctx.u) : null;
   return `<div class="sofar print-hide">${st.so_far_ko ? `<div class="sf">${prev ? pic(prev, 'thumb', 'last scene') : ''}<div><b>지난 이야기</b>${esc(st.so_far_ko)}</div></div>` : ''}${st.goal_ko ? `<div class="sf goal"><div><b>이번 이야기</b>${esc(st.goal_ko)}</div></div>` : ''}</div>`;
 }
-// 스토리 한 줄을 playSeq 항목으로 (역할 줄이면 소리 없이 2.5초)
+// 스토리 한 줄을 playSeq 항목으로 (역할 줄이면 소리 없이 4초 — 아이들이 읽을 시간)
 function storyItem(ln, el, pn, idx, k) {
   const mine = ROLE.on && ROLE.has(ln.who);
-  return { id: ln.audio, text: ln.text, el, gap: 550, wait: mine ? 2500 : 0,
+  return { id: ln.audio, text: ln.text, el, gap: 550, wait: mine ? 4000 : 0,
     before: () => { if (k === 0 && pn.video) playVideo(idx, true); panelReading(idx, true); if (!mine) talking(el?.querySelector('img'), true); if (ln.sfx && !mine) Sound.sfx(ln.sfx); },
     after: () => { panelReading(idx, false); talking(el?.querySelector('img'), false); if (ln.pop) { Sound.sfx('pop'); el?.classList.add('playing'); } } };
 }
@@ -419,7 +419,7 @@ PAGES.wb_words = (ctx) => {
     instr('E', 'Color and say.', '색칠하고 말해요') + `<div class="color-grid">${col}</div>`;
 };
 PAGES.wb_read = (ctx) => {
-  const lines = ctx.unit.story.panels.flatMap((p) => p.lines).filter((l) => l.who !== 'pip').slice(0, 4);   // 핍은 "Chirp?" 같은 소리만 내니 읽기 줄에서 뺀다
+  const lines = ctx.unit.story.panels.flatMap((p) => p.lines).filter((l) => l.who !== 'pip' && l.who !== 'narrator').slice(0, 4);   // 핍은 "Chirp?" 같은 소리만, 해설엔 안 배운 단어(tries·jumps)가 있어 읽기 줄에서 뺀다
   const sents = lines.map((ln) => `<div class="sent">${spk(ln.audio, ln.text)}<span>${esc(ln.text)}</span><span class="cnt">${'<span onclick="this.classList.toggle(\'on\');Sound.sfx(\'tap\')"></span>'.repeat(3)}</span></div>`).join('');
   const sort = ctx.unit.workbook_data.sort, pool = shuffle(Object.values(sort).flat(), 5);
   const sortHtml = `<div class="sort"><div class="pool" id="sortPool" style="grid-column:1/-1">${pool.map((w) => `<span class="wd" onclick="sortPick(this)" data-w="${w}">${esc(w)}</span>`).join('')}</div>${Object.keys(sort).map((l) => `<div class="bin" data-l="${l}" onclick="sortDrop(this)"><h4 class="${letterCls(l)}">${l.toUpperCase()}${l}</h4><div class="in"></div></div>`).join('')}</div>`;

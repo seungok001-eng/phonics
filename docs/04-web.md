@@ -148,7 +148,7 @@ pages: L1 `alphabet_song` `alphabet_path` `word_hunt` / wb `wb_review_letters`, 
 - 소리 잡기 게임(`read_play`·슬라이드): 유닛 JSON 의 5라운드가 끝나면 "🔁 한 번 더" — 유닛 글자·단어에서 무작위 5라운드(바로 앞 라운드와 같은 조합은 피함). 팀 점수판: A·B 를 눌러 현재 팀을 고르고 정답이면 그 팀 +1, 🗑 로 점수 지우기.
 - 짝 맞추기 `Memory game` (선생님 슬라이드 `read_play` 3번째 장만, 학생책·인쇄에는 없음): 유닛 단어 6개 × 2 = 12장(4×3). 뒤집으면 단어 소리, 짝이면 그대로 남고 효과음, 다 맞추면 Great job.
 - 역할 읽기 🎭 (`story`·슬라이드): 켜고 말풍선의 친구(번·헤지·그럼블)를 누르면 "아이가 읽는 역할"(👧 표시). ▶ 자동 읽기 때 그 줄은 소리 없이 말풍선만 켜지고 2.5초 멈춘다. 핍·해설·both 는 역할이 안 된다.
-- 속도 라운드 `Speed round!` (선생님 슬라이드 `listen_point` 2번째 장): 30초 타이머, 유닛 글자·단어 카드가 무작위로 한 장씩 크게(글자 = 소리 말하기, 단어 = 읽기, 카드를 누르면 소리). ✔/✖ 로 다음 카드, 끝나면 맞힌 수.
+- 속도 라운드 `Speed round!` (선생님 슬라이드 `listen_point` 2번째 장; 1번째는 What's this?, 3번째는 Mystery words): 30초 타이머, 유닛 글자·단어 카드가 무작위로 한 장씩 크게(글자 = 소리 말하기, 단어 = 읽기, 카드를 누르면 소리). ✔/✖ 로 다음 카드, 끝나면 맞힌 수.
 
 ## 선생님 자료 (`web/teacher/`, 2026-10-14 다시 짬)
 모두 `?bk=N` 으로 권을 고르고, 쪽 목록·단어·가족은 그 권 JSON 에서 읽는다(유닛·쪽을 코드에 박지 않는다 — 내용 쪽이 차시 사이로 옮겨도 따라간다). 인쇄용 A4, 그리기가 끝나면 `window.PRINT_READY = true`.
@@ -171,6 +171,7 @@ pages: L1 `alphabet_song` `alphabet_path` `word_hunt` / wb `wb_review_letters`, 
 - 2권(`bk=2`): 범위 u1~u10·r1·r2·all, 글자 대신 **단어 가족**. Level 1 = 그림 보고 모음 고르기 6 · 빠진 모음 쓰기 6 · 단어 가족 고르기(-at/-an/-ap) 4 · 첫 글자 쓰기 4. Level 2 = 단어 읽고 그림 고르기 6 · 그림 보고 단어 쓰기 6(단어 상자) · 그림–단어 잇기 4 · 마지막 글자 쓰기 4. Level 3 = 문장 읽고 그림 고르기 6(유닛 `sentences`) · 사이트워드 문장 완성 4 · 단어 쓰기 6 · 가족별 분류 4.
 - **최종 평가** = 범위 `all`: 제목 "최종 평가 Final Test (Units 1–10)". 홈페이지 권 카드의 🏁 최종 평가 단추·선생님 자료 칸·진도표 마지막 차시에서 연결.
 - PDF 묶음(`python tools/pdf.py tests`, 묶음마다 맨 앞에 **차례** 한 장 — 시험지 2쪽·말하기 1쪽으로 쪽 번호): `PopPhonics{N}_Tests_Units.pdf`(유닛마다 Level 1(1~4)/2(6~10) A형 + 정답지) · `_Tests_Review.pdf`(r1·r2 × Level 1~3 × A/B + 정답지 + 말하기 2장) · **`_FinalTest.pdf`**(all × Level 1~3 × A/B + 정답지 + 말하기 1장, 차례 장에 수준 고르기·점수 보기 안내). 그림은 `build/art_small/`(360px 축소). `index.json` 은 있던 목록에 합쳐진다.
+- 수업안 시간 규칙(`lesson-plan.html` ACT): 분 = base + per × 슬라이드 수, base 는 수 또는 `(C, pg) => 분`. Mystery words 는 `max(4, round(min(개수, 13) × 0.45))`. 복습 1차시엔 쪽 없는 "플래시카드 경주" 6분 줄(ACT.flash). 정리 줄·숙제 장(teach.js `nextPrepHtml`)은 다음 차시(유닛 넘어서도)에 빙고·수료증이 있으면 미리 준비할 것을 적는다. 시간 안내는 늘 "남으면/모자라면" 한 줄.
 - `python tools/pdf.py teacher`: `PopPhonics{N}_LessonPlans.pdf`(lesson-plan `u=all`) · `PopPhonics{N}_Pronunciation.pdf` · `PopPhonics_HowTo.pdf`(1권 실행 때만, index.json `"book": 0` = 권 공통). 전체 실행에도 포함.
 - 학생책·워크북 유닛 PDF 는 홀수 쪽이면 끝에 빈 쪽을 붙여 짝수로(양면 인쇄 — `pad_even`, `pip install pypdf` 가 있을 때만). index.json 제목은 `Pop! Phonics N · …` 로 권 이름을 붙이고(옛 항목도 다음 실행 때 붙임), 홈페이지는 권 카드 안 "PDF 내려받기"(접는 칸, 교재·스토리북·시험·정답·선생님 자료 묶음)에.
 
@@ -195,7 +196,7 @@ pages: L1 `alphabet_song` `alphabet_path` `word_hunt` / wb `wb_review_letters`, 
 - 아이가 화면을 누르는 전제였던 활동은 → **보기에 큰 번호(1·2·3)** 를 붙여 번호로 답하게, 또는 그림만 보여 주고 단어를 외치면 공개, 또는 선생님이 아이를 불러 답을 듣고 눌러 확인. 번호는 CSS 카운터(`.sl-game .choice`, `.sl-lc .opt`, `.sl-match .col:nth-child(2) .it`, `.sl-fwp .fw-pic`)라 교재 쪽 함수를 그대로 쓴다.
 - 한 화면에 한 가지만 크게: 단어 ≥ 60px(큰 카드는 80~96px), 글자 카드 ≥ 120px. 9개가 한 화면이던 것은 2~3장으로(단어 쪽은 글자마다 한 장, 따라 읽기는 3개씩).
 - 힌트(`tWrap` 의 ko)는 "선생님은 ~눌러요 / 아이들은 ~외쳐요·자기 책에서 ~해요" 식으로 누가 무엇을 하는지 적는다.
-- 슬라이드별: `sounds` 글자마다(그대로, 단어 48px) · `trace` 획순 글자마다 + **짝 찾기 글자마다**(큰 글자 → 작은 글자 보기 4개 번호) · `words` **글자마다 한 장**(큰 글자 + 번호 카드 3장 + 글자별 챈트 `wordChantLetter`) · `read_play` **Read it! 1·2·3**(3개씩) → 소리 잡기(보기 번호, A·B 팀) → 메모리(카드에 번호, 아이가 두 번호를 외치면 선생님이 뒤집기) · `listen_point` 큰 카드 → What's this? → Which one? 1·2·3 → Speed round · `story` 그대로(역할 읽기) · `check`/`review_test` A 보기 번호·B 그림 번호·C 글자 외치기(2권: 읽고 번호·단어→그림 번호·빠진 글자 외치기) · `review_sounds`(글자 130px)·`review_board`(선생님이 굴림, 팀이 외침)·`review_bingo`(아이들은 자기 책 빙고판) · `blend`·`sentences` 그대로 · `family_words` **2장**(가족별 단어 크게+챈트 / Read and find 1~10: 단어 누르면 그림 번호 외치기) · `alphabet_path`·`alphabet_review`·`bridge_path` 다음 글자(가족)를 외치면 선생님이 누름 · `word_hunt` 단어를 외치면 선생님이 단추 · `song`·`recap`·`certificate` 그대로(힌트만).
+- 슬라이드별: `sounds` 글자마다(그대로, 단어 48px) · `trace` 획순 글자마다 + **짝 찾기 글자마다**(큰 글자 → 작은 글자 보기 4개 번호) · `words` **글자마다 한 장**(큰 글자 + 번호 카드 3장 + 글자별 챈트 `wordChantLetter`) · `read_play` ~~Read it! 1·2·3~~(1권은 뺌, 2권부터 3개씩) → 소리 잡기(보기 번호, A·B 팀) → 메모리(카드에 번호, 아이가 두 번호를 외치면 선생님이 뒤집기) · `listen_point` What's this? → Speed round → Mystery words (Listen and repeat·Which one? 은 1차시와 겹쳐 뺌, 11-02) · `story` 그대로(역할 읽기) · `check`/`review_test` A 보기 번호·B 그림 번호·C 글자 외치기(2권: 읽고 번호·단어→그림 번호·빠진 글자 외치기) · `review_sounds`(글자 130px)·`review_board`(선생님이 굴림, 팀이 외침)·`review_bingo`(아이들은 자기 책 빙고판) · `blend`·`sentences` 그대로 · `family_words` **2장**(가족별 단어 크게+챈트 / Read and find 1~10: 단어 누르면 그림 번호 외치기) · `alphabet_path`·`alphabet_review`·`bridge_path` 다음 글자(가족)를 외치면 선생님이 누름 · `word_hunt` 단어를 외치면 선생님이 단추 · `song`·`recap`·`certificate` 그대로(힌트만).
 
 ## 쪽 번호
 학생책은 앞붙이 3쪽 뒤에 0유닛 4쪽, 일반 유닛 8쪽(10유닛도 8쪽), 복습 유닛 6쪽. 워크북은 앞붙이 2쪽, 일반 유닛 4쪽, 복습 2쪽 (`pageNo`). 아직 없는 유닛은 기본 쪽수로 센다. 스토리북은 표지 다음 쪽부터 1.

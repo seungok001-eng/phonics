@@ -105,7 +105,7 @@
   {
    "n": 7,
    "file": "cand_7.wav",
-   "text": "/j/ /j/ yak! Pop!",
+   "text": "/y/ /y/ yak! Pop!",
    "voice": "Sunny",
    "how": "el",
    "created": 1791429633.8243,
@@ -129,10 +129,9 @@
  "letter": null,
  "id": "sb_u10_1_3",
  "sub": "line",
- "title": "10유닛 스토리북 · 번: /j/ /j/ yak! Pop!",
- "text": "/j/ /j/ yak! Pop!",
+ "title": "10유닛 스토리북 · 번: /y/ /y/ yak! Pop!",
+ "text": "/y/ /y/ yak! Pop!",
  "voice": "Leda",
  "who": "bun",
- "book": 1,
- "busy": 0
+ "book": 1
 }

@@ -99,6 +99,7 @@ Now I know my ABC,
 Pop! Phonics, sing with me!
 ```
 글자 이름(에이·비·씨…)만 부르는 노래라 AI 가 불러도 된다. 한 글자씩 또렷하게 나오는지 들어 보고 고른다.
+- 11-02 다시 만듦: 처음 것은 D·F 를 두 번씩 불렀다(제미나이 받아쓰기로 확인). `build/tmp/abc_remake.py` 처럼 후보를 뽑아 제미나이에게 받아 적게 하고 A~Z 가 한 번씩 순서대로 나온 것만 쓴다(스타일에 "sing every letter name exactly once", 금지에 "repeated letters"). 지금 파일(41초)은 마무리 줄을 "Now I know my ABC, have fun, sing with me" 로 불렀다 — 교재에는 가사가 안 실리므로 그대로 둔다.
 
 ## 3~7. 이야기 배경음악 5곡 (가사 없음)
 Suno 에서 **Instrumental 켜기**. 스타일 칸에 아래 문장, 제목은 파일 이름.

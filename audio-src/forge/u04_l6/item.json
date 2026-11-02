@@ -88,7 +88,7 @@
   {
    "n": 6,
    "file": "cand_6.wav",
-   "text": "/dʒ/ /dʒ/ jelly!",
+   "text": "/j/ /j/ jelly!",
    "voice": "Sunny",
    "how": "el",
    "created": 1791967116.0730448,
@@ -112,10 +112,9 @@
  "letter": null,
  "id": "u04_l6",
  "sub": "line",
- "title": "1권 4유닛 대사 · 번: /dʒ/ /dʒ/ jelly!",
- "text": "/dʒ/ /dʒ/ jelly!",
+ "title": "1권 4유닛 대사 · 번: /j/ /j/ jelly!",
+ "text": "/j/ /j/ jelly!",
  "voice": "Leda",
  "who": "bun",
- "book": 1,
- "busy": 0
+ "book": 1
 }

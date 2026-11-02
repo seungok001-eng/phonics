@@ -3,7 +3,7 @@
   {
    "n": 1,
    "file": "cand_1.wav",
-   "text": "A, a, /æ/, apple!",
+   "text": "A, a, /a/, apple!",
    "voice": "Kore",
    "how": "tts",
    "created": 1791288715.0223777,
@@ -27,9 +27,8 @@
  "letter": null,
  "id": "u12_s01",
  "sub": "line",
- "title": "1권 노래 1: A, a, /æ/, apple!",
- "text": "A, a, /æ/, apple!",
+ "title": "1권 노래 1: A, a, /a/, apple!",
+ "text": "A, a, /a/, apple!",
  "voice": "Kore",
- "book": 1,
- "busy": 0
+ "book": 1
 }
