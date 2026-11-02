@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ex!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609122.287048,
+   "sec": 0.65,
+   "check": {
+    "transcript": "X",
+    "type": "letter-name",
+    "ipa": "ɛks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=X | TYPE=letter-name | IPA=ɛks | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ex!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609124.4381227,
+   "sec": 0.7,
+   "check": {
+    "transcript": "X",
+    "type": "letter-name",
+    "ipa": "ɛks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=X | TYPE=letter-name | IPA=ɛks | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:47",
+ "text_edited": true,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "name_x__both",
+ "sub": "line",
+ "title": "1권 9유닛 대사 · 함께: X!",
+ "text": "Ex!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 1,
+ "busy": 0
+}

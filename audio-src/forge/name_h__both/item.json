@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Aitch!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609082.5581703,
+   "sec": 0.7,
+   "check": {
+    "transcript": "H",
+    "type": "letter-name",
+    "ipa": "eɪtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=H | TYPE=letter-name | IPA=eɪtʃ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Aitch!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609085.4674451,
+   "sec": 0.88,
+   "check": {
+    "transcript": "H",
+    "type": "letter-name",
+    "ipa": "eɪʧ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=H | TYPE=letter-name | IPA=eɪʧ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:45",
+ "text_edited": true,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "name_h__both",
+ "sub": "line",
+ "title": "1권 3유닛 대사 · 함께: H!",
+ "text": "Aitch!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 1,
+ "busy": 0
+}

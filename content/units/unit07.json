@@ -206,9 +206,9 @@
             "ko": "r, r 로켓!"
           },
           {
-            "who": "pip",
+            "who": "both",
             "text": "R!",
-            "audio": "name_r__pip",
+            "audio": "name_r__both",
             "sfx": "chime",
             "ko": "알!"
           }

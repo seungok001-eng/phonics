@@ -1,0 +1,70 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ar!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609105.55122,
+   "sec": 0.65,
+   "check": {
+    "transcript": "Hi",
+    "type": "word",
+    "ipa": "haɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hi | TYPE=word | IPA=haɪ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ar!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609107.4630601,
+   "sec": 0.6,
+   "check": {
+    "transcript": "car",
+    "type": "word",
+    "ipa": "kɑːɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=car | TYPE=word | IPA=kɑːɹ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Ar!",
+   "voice": "",
+   "how": "upload",
+   "created": 1793609298.6909602,
+   "sec": 0.64,
+   "check": {
+    "transcript": "R",
+    "type": "letter-name",
+    "ipa": "ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:48",
+ "text_edited": true,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "name_r__both",
+ "sub": "line",
+ "title": "1권 7유닛 대사 · 함께: R!",
+ "text": "Ar!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 1,
+ "busy": 0
+}

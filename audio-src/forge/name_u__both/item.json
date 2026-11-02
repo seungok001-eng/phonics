@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "You!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609113.3789773,
+   "sec": 0.74,
+   "check": {
+    "transcript": "ew",
+    "type": "word",
+    "ipa": "juː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ew | TYPE=word | IPA=juː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "You!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609115.4559572,
+   "sec": 0.65,
+   "check": {
+    "transcript": "You",
+    "type": "word",
+    "ipa": "juː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=You | TYPE=word | IPA=juː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:47",
+ "text_edited": true,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "name_u__both",
+ "sub": "line",
+ "title": "1권 8유닛 대사 · 함께: U!",
+ "text": "You!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 1,
+ "busy": 0
+}

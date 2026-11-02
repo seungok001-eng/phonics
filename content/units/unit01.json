@@ -108,9 +108,9 @@
             "ko": "사과가 보여!"
           },
           {
-            "who": "pip",
+            "who": "both",
             "text": "A!",
-            "audio": "name_a__pip",
+            "audio": "name_a__both",
             "sfx": "chime",
             "ko": "에이!"
           },

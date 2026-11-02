@@ -207,9 +207,9 @@
             "ko": "x, x 상자!"
           },
           {
-            "who": "pip",
+            "who": "both",
             "text": "X!",
-            "audio": "name_x__pip",
+            "audio": "name_x__both",
             "sfx": "chime",
             "ko": "엑스!"
           }

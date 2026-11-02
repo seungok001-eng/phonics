@@ -1,0 +1,70 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Em!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609097.4266357,
+   "sec": 0.65,
+   "check": {
+    "transcript": "hm",
+    "type": "word",
+    "ipa": "hm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hm | TYPE=word | IPA=hm | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Em!",
+   "voice": "Sunny + Adik M",
+   "how": "el",
+   "created": 1793609099.51842,
+   "sec": 0.65,
+   "check": {
+    "transcript": "Um",
+    "type": "word",
+    "ipa": "ʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Um | TYPE=word | IPA=ʌm | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Em!",
+   "voice": "",
+   "how": "upload",
+   "created": 1793609277.2539525,
+   "sec": 0.55,
+   "check": {
+    "transcript": "M",
+    "type": "letter-name",
+    "ipa": "ɛm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=M | TYPE=letter-name | IPA=ɛm | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:48",
+ "text_edited": true,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "name_m__both",
+ "sub": "line",
+ "title": "1권 6유닛 대사 · 함께: M!",
+ "text": "Em!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 1,
+ "busy": 0
+}

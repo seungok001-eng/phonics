@@ -204,9 +204,9 @@
             "ko": "h, h 하마!"
           },
           {
-            "who": "pip",
+            "who": "both",
             "text": "H!",
-            "audio": "name_h__pip",
+            "audio": "name_h__both",
             "sfx": "chime",
             "ko": "에이치!"
           }

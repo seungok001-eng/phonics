@@ -206,9 +206,9 @@
             "ko": "l, l 레몬!"
           },
           {
-            "who": "pip",
+            "who": "both",
             "text": "L!",
-            "audio": "name_l__pip",
+            "audio": "name_l__both",
             "sfx": "chime",
             "ko": "엘!"
           }

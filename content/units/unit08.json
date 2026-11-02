@@ -250,9 +250,9 @@
             "ko": "쉿! 어! 내 등불이!"
           },
           {
-            "who": "pip",
+            "who": "both",
             "text": "U!",
-            "audio": "name_u__pip",
+            "audio": "name_u__both",
             "sfx": "chime",
             "ko": "유!"
           }

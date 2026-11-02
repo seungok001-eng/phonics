@@ -113,9 +113,9 @@
             "ko": "우유! m, m 우유!"
           },
           {
-            "who": "pip",
+            "who": "both",
             "text": "M!",
-            "audio": "name_m__pip",
+            "audio": "name_m__both",
             "sfx": "chime",
             "ko": "엠!"
           }
