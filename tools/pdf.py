@@ -7,6 +7,7 @@
 #       python tools/pdf.py tests      → 시험지 묶음만 (PopPhonics1_Tests_Units.pdf: 유닛마다 시험지+정답지 / _Tests_Review.pdf: 복습 1·2 × 수준 × A/B + 정답지 + 말하기
 #                                         / _FinalTest.pdf: 최종 평가(1~10유닛) 수준 1~3 × A/B + 정답지 + 말하기 체크리스트). 묶음마다 맨 앞에 차례 한 장
 #       python tools/pdf.py teacher    → 선생님 자료만 (..._LessonPlans.pdf: 전 유닛 수업안 / ..._Pronunciation.pdf: 선생님용 소리 안내 / PopPhonics_HowTo.pdf: 수업 화면 사용법, 권 공통)
+#       python tools/pdf.py units      → 학생책·워크북 유닛 PDF 만 + 권 전체 한 파일(PopPhonics1_SB.pdf, _WB.pdf: 앞표지 → 유닛 0~12 → 뒤표지)
 #       python tools/pdf.py --press    → 인쇄소용: 사방 3mm 도련 + 재단선 판형(A4 → 216×303mm, A5 가로 → 216×154mm) 을 web/pdf/press/ 에, 표지 PDF 도 함께
 #       python tools/pdf.py --book 2   → 2권(content/b2/): 파일 이름 PopPhonics2_..., QR 이름 b2_..., 주소에 &bk=2. index.json 항목에 "book": 2
 # 결과: web/pdf/PopPhonics1_SB_Unit01.pdf, ..._WB_Unit01.pdf, ..._Storybook.pdf, ..._Tests_*.pdf, web/pdf/index.json (홈페이지 목록용, 있던 목록에 합친다)
@@ -123,9 +124,17 @@ def print_pdf(exe, url, out, budget=20000):
     # 헤드리스 인쇄. 쪽이 JSON 을 읽어 그리는 데 시간이 걸리니 가상 시간 예산을 넉넉히 준다 (스토리북은 그림 40장이라 더)
     cmd = [exe, '--headless=new', '--disable-gpu', '--no-pdf-header-footer', '--run-all-compositor-stages-before-draw',
            f'--virtual-time-budget={budget}', f'--print-to-pdf={out}', url]
+    # 새 파일에 먼저 뽑고 바꿔 넣는다: 그 PDF 가 보기 프로그램에 열려 있으면 크롬이 조용히 못 써서 옛 파일이 남기 때문
+    tmp = out + '.new'
+    if os.path.exists(tmp): os.remove(tmp)
+    cmd[-2] = f'--print-to-pdf={tmp}'
     r = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=300)   # 크롬 출력에 cp949 로 못 읽는 글자가 있어도 죽지 않게
-    if not os.path.exists(out):
+    if not os.path.exists(tmp):
         raise RuntimeError(f'PDF 실패: {r.stderr[-400:]}')
+    try:
+        os.replace(tmp, out)
+    except PermissionError:
+        raise SystemExit(f'{os.path.basename(out)} 이 다른 프로그램(PDF 보기)에 열려 있어 바꾸지 못했다. 닫고 다시 실행하세요.')
 
 
 def pad_even(out):
@@ -141,6 +150,22 @@ def pad_even(out):
     w.add_blank_page(width=box.width, height=box.height)   # 빈 쪽 (메모용)
     with open(out, 'wb') as f: w.write(f)
     print(f'  홀수 쪽이라 빈 쪽 하나를 붙였다 → {len(r.pages) + 1}쪽')
+
+
+def merge_book(cover, parts, out):
+    """권 전체 한 파일: 앞표지 → 빈 쪽(표지 안쪽) → 유닛 PDF 차례로(각각 짝수 쪽) → 뒤표지. 쪽 수를 돌려준다. pypdf 필요."""
+    from pypdf import PdfReader, PdfWriter
+    w = PdfWriter(); cv = PdfReader(cover)
+    w.add_page(cv.pages[0])
+    box = cv.pages[0].mediabox; w.add_blank_page(width=box.width, height=box.height)
+    for f in parts: w.append(PdfReader(f))
+    if len(w.pages) % 2 == 0: w.add_blank_page(width=box.width, height=box.height)   # 뒤표지가 짝수 쪽(뒷면)에 오게
+    if len(cv.pages) > 1: w.add_page(cv.pages[1])
+    w.compress_identical_objects(remove_identicals=True, remove_orphans=True)   # 유닛마다 같은 글꼴·그림이 겹쳐 들어간 것을 하나로
+    with open(out + '.new', 'wb') as fp: w.write(fp)
+    try: os.replace(out + '.new', out)
+    except PermissionError: raise SystemExit(f'{os.path.basename(out)} 이 다른 프로그램(PDF 보기)에 열려 있어 바꾸지 못했다. 닫고 다시 실행하세요.')
+    return len(w.pages)
 
 
 def book_dir(bk):
@@ -165,7 +190,8 @@ def main():
     guides_only = 'guides' in args
     answers_only = 'answers' in args
     teacher_only = 'teacher' in args
-    special = story_only or tests_only or guides_only or answers_only or teacher_only   # 묶음 하나만 뽑을 때
+    units_only = 'units' in args                          # 학생책·워크북만 (유닛 PDF + 권 전체 한 파일)
+    special = story_only or tests_only or guides_only or answers_only or teacher_only or units_only   # 묶음 하나만 뽑을 때
     out_dir = os.path.join(OUT, 'press') if press else OUT
     cdir = book_dir(bk)                                   # 'b2/' 처럼 권 폴더
     q = ('&press=1' if press else '') + (f'&bk={bk}' if bk > 1 else '')
@@ -186,7 +212,7 @@ def main():
             up = os.path.join(ROOT, 'content', cdir, 'units', f'unit{u:02d}.json')
             if not os.path.exists(up): continue
             unit = json.load(open(up, encoding='utf-8')); units[u] = unit
-            if special or (only is not None and u != only): continue
+            if (special and not units_only) or (only is not None and u != only): continue
             for b, label in (('sb', 'SB'), ('wb', 'WB')):
                 n = page_count(unit, b)
                 if not n: continue
@@ -196,6 +222,18 @@ def main():
                 if not press: pad_even(out)   # 가정용은 양면 인쇄가 어긋나지 않게 짝수 쪽으로 (인쇄소용은 제본소가 맞춘다)
                 index.append(entry(f"{'Student Book' if b == 'sb' else 'Workbook'} Unit {u} — {unit['title']}", out))
                 print(f'{os.path.basename(out)}  ({n}쪽, {os.path.getsize(out) // 1024}KB)')
+        # 권 전체 한 파일: 유닛 PDF 를 이어 붙인다 (유닛 하나만 뽑을 때는 건너뛴다)
+        if only is None and not press and (not special or units_only):
+            for b, label in (('sb', 'SB'), ('wb', 'WB')):
+                out = os.path.join(out_dir, f'{pre}_{label}.pdf')
+                parts = [os.path.join(out_dir, f'{pre}_{label}_Unit{x["n"]:02d}.pdf') for x in book['units']]
+                parts = [f for f in parts if os.path.exists(f)]
+                if not parts: continue
+                cover = os.path.join(ROOT, 'build', f'{pre}_{label}_cover.pdf')
+                print_pdf(exe, f'{base}/cover.html?b={b}{"&bk=%d" % bk if bk > 1 else ""}', cover)
+                n = merge_book(cover, parts, out)
+                index.append(entry(f"{'Student Book' if b == 'sb' else 'Workbook'} — 한 권 전체 ({n}쪽)", out))
+                print(f'{os.path.basename(out)}  ({n}쪽, {os.path.getsize(out) // 1024 // 1024}MB)')
         # 스토리북 (A5 가로): 유닛 하나만 뽑을 때는 건너뛴다
         keys = story_keys(book, units, bk)
         if keys and only is None and (not special or story_only):
@@ -262,7 +300,7 @@ def main():
     # 옛 목록 항목(권 이름이 없는 제목)도 권 이름을 붙여 둔다 — 다음 실행 전에도 홈페이지 목록이 권마다 구분되게
     for e in merged:
         if e.get('book') and not e['title'].startswith('Pop! Phonics'): e['title'] = f"Pop! Phonics {e['book']} · {e['title']}"
-    cat = lambda f: 0 if '_SB_' in f or '_WB_' in f else 1 if 'Storybook' in f else 2 if 'FinalTest' in f else 3 if 'Tests' in f or 'Answers' in f else 4
+    cat = lambda f: -1 if f.endswith(('_SB.pdf', '_WB.pdf')) else 0 if '_SB_' in f or '_WB_' in f else 1 if 'Storybook' in f else 2 if 'FinalTest' in f else 3 if 'Tests' in f or 'Answers' in f else 4
     merged.sort(key=lambda e: (e.get('book', 1), cat(e['file']), e['file']))
     json.dump(merged, open(ip, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 

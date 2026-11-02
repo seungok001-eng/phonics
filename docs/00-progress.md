@@ -7,6 +7,9 @@
 - 점검 도구: `tools/scene_audit.py`(장면 그림 ↔ 해설·대사·말하는 캐릭터), `tools/art_audit.py`(단어 그림·글자나무).
 - 그림은 탑뷰 Nano Banana 2.1(지금까지 약 26 크레딧), 음악 27곡(일레븐랩스).
 - 결정(사용자 11-02): 영어 말풍선 표기는 "/a/ /a/ apple!" 그대로.
+- 11-02: 교재 PDF 권마다 한 파일(사용자 요청) — `web/pdf/PopPhonics{1~4}_SB.pdf`·`_WB.pdf` 8개(앞표지 → 0~12유닛 → 뒤표지, 양면용 짝수 쪽). `python tools/pdf.py --book N units`. 유닛별 PDF 도 그대로 둔다. 홈페이지 권 카드에 "📚 교재 한 권 PDF".
+- 11-02: 번(토끼) 캐릭터 그림 7장(ref·happy·talk·waving·cheering·thinking·blink)에 눈이 없던 것 고침(놀람 그림의 눈을 옮겨 붙임, blink 는 감은 눈 선). 캐스트 시트도 다시 합성. 장면 그림 속 번은 원래 눈이 있다.
+- 11-02: 1권 수업 화면에 Mystery words(교재에 없는 새 단어 첫소리 맞히기) 추가. 1권 중복 활동(Listen and repeat·Which one?·1권 Read it!) 빼기는 사용자 답 기다리는 중.
 - 결정(사용자 11-02): 핍은 10유닛 전까지 소리를 못 내므로 1~9유닛에서 핍이 글자 이름을 또렷이 말하던 7줄("A!" "H!" "L!" "M!" "R!" "U!" "X!")을 번·헤지가 함께 말하게 바꿈(name_<글자>__both).
 
 ### 다음에 사용자가 할 일 (나중에 알려 주기)

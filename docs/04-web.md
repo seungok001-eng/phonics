@@ -7,6 +7,7 @@
 - **book.json 이 아직 없는 권은 건너뛴다**: `app.js loadBook` 이 books.json 의 권마다 `book.json` 을 HEAD 로 확인해 없는 권은 `App.books` 에서 뺀다(권 고르기·없는 bk 주소는 1권으로). 홈페이지·`qa.py`·선생님 자료도 같은 규칙, `pdf.py --book 3` 은 "내용이 아직 없다" 로 멈춘다.
 - 웹 주소에 `bk=2` 가 붙으면 2권(없으면 1권). `app.js loadBook(bk)` 가 books.json 에서 폴더를 잡고 그 권의 book.json 을 읽는다(2권 book.json 에 letters 가 없으면 1권 것을 빌린다). `bkParam()` 이 링크에 `&bk=2` 를 붙이고, `bkKey()` 가 QR 이름 앞에 `b2_` 를 붙인다. 교재·스토리북·인쇄·표지·선생님 자료(수업안·플래시카드·진도표·가정통신문·시험지) 전부 같은 규칙.
 - 홈페이지는 권마다 카드(유닛 카드·학생책/워크북/수업 화면/스토리북 단추·그 권 PDF). 친구들 칸은 1권 4명 + 뒤 권의 새 친구(비즈). 선생님 자료 칸의 진도표·가정통신문·시험지 폼도 권별.
+- **권 전체 한 파일** `PopPhonics{N}_SB.pdf` · `_WB.pdf` (권마다 2개, 4권이면 8개): 앞표지 → 빈 쪽 → 유닛 PDF 차례로(각각 짝수 쪽) → 뒤표지. `python tools/pdf.py --book N units` 가 유닛 PDF 를 다시 뽑고 이어 붙인다(전체 실행에도 포함). 홈페이지 권 카드에 "📚 교재 한 권 PDF" 줄.
 - `python tools/pdf.py --book 2` → `PopPhonics2_SB_Unit01.pdf` …, QR `b2_sb_u01_p1.png`, 주소에 `&bk=2`, `index.json` 항목에 `"book": 2`. `tests --book 2` 도 된다. `tools/build.py` 는 content 전체를 복사하므로 그대로.
 
 ## 원본 하나 → 셋
