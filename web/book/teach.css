@@ -318,3 +318,17 @@
 /* 읽고 그림 찾기: 그림이 몇 줄이든(가족 4개·단어 12개) 남은 높이에 맞춰 줄어든다 */
 .sl-fw .fw-pics { grid-auto-rows: minmax(0, 1fr); }
 .sl-fw .fw-pic { min-height: 0; } .sl-fw .fw-pic .pic { height: auto; flex: 1 1 0; min-height: 0; }
+/* 새 단어 첫소리 맞히기: 왼쪽 큰 물음표 카드(정답이면 단어·그림), 오른쪽 글자 단추 */
+.sl-mystery { display: grid; grid-template-columns: 1.2fr 1fr; gap: 28px; flex: 1; min-height: 0; align-items: center; }
+.sl-mystery .my-card { display: flex; flex-direction: column; align-items: center; gap: 16px; background: #FFF9EE; border: 4px dashed var(--line); border-radius: 28px; padding: 22px; height: 100%; justify-content: center; }
+.sl-mystery .my-q { font: 700 200px/1 'Fredoka'; color: var(--soft); display: flex; flex-direction: column; align-items: center; gap: 8px; min-height: 260px; justify-content: center; }
+.sl-mystery .my-pic { width: 220px; height: 180px; } .sl-mystery .my-pic img { width: 100%; height: 100%; object-fit: contain; } .sl-mystery .my-pic.missing { display: none; }
+.sl-mystery .my-w { font: 700 96px/1.1 'Andika'; color: var(--ink); } .sl-mystery .my-w b { font-weight: 700; }
+.sl-mystery .my-meta { font-size: 22px; color: var(--soft); }
+.sl-mystery .my-tools { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.sl-mystery .my-ls { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px; align-content: center; }
+.sl-mystery .my-l { font: 700 64px/1 'Andika'; padding: 18px 10px; border-radius: 22px; border: 4px solid var(--line); background: #fff; cursor: pointer; }
+.sl-mystery .my-l.ans { border-color: var(--ok); background: #EAF7E6; transform: scale(1.06); }
+.sl-mystery .my-l.no { border-color: var(--bad); animation: shake .3s; }
+.sl-mystery .my-ls:has(.my-l:nth-child(13)) .my-l { font-size: 40px; padding: 10px 6px; }   /* 복습(12~26글자)은 작게 */
+.sl-mystery .my-ls:has(.my-l:nth-child(13)) { grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px; }

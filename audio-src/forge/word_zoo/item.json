@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "zoo",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609721.5015795,
+   "sec": 1.28,
+   "check": {
+    "transcript": "do",
+    "type": "word",
+    "ipa": "du",
+    "note": "ok",
+    "raw": "TRANSCRIPT=do | TYPE=word | IPA=du | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "zoo",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609991.2470474,
+   "sec": 0.92,
+   "check": {
+    "transcript": "zoo",
+    "type": "word",
+    "ipa": "zu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zoo | TYPE=word | IPA=zu | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-02 18:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_zoo",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) zoo",
+ "text": "zoo",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

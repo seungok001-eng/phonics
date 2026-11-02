@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "quiz",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609688.6511142,
+   "sec": 1.08,
+   "check": {
+    "transcript": "quiz",
+    "type": "word",
+    "ipa": "kwɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quiz | TYPE=word | IPA=kwɪz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_quiz",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) quiz",
+ "text": "quiz",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

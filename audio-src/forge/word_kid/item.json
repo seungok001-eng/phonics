@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "kid",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609670.0558145,
+   "sec": 1.0,
+   "check": {
+    "transcript": "kid",
+    "type": "word",
+    "ipa": "kɪd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kid | TYPE=word | IPA=kɪd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_kid",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) kid",
+ "text": "kid",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

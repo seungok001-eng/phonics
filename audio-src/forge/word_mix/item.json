@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "mix",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609673.3103385,
+   "sec": 1.04,
+   "check": {
+    "transcript": "mix",
+    "type": "word",
+    "ipa": "mɪks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mix | TYPE=word | IPA=mɪks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_mix",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) mix",
+ "text": "mix",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

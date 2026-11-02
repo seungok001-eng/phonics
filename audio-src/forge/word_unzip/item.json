@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "unzip",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609696.5491514,
+   "sec": 1.32,
+   "check": {
+    "transcript": "unzip",
+    "type": "word",
+    "ipa": "ʌnˈzɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=unzip | TYPE=word | IPA=ʌnˈzɪp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_unzip",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) unzip",
+ "text": "unzip",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

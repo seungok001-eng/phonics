@@ -460,3 +460,44 @@ TEACH.magic_e = {
       `<div class="sl-me all">${magicHead(ctx.unit, true)}<div class="me-rows n${prs.length}">${prs.map((pr, i) => magicRow(pr, i)).join('')}</div></div>`);
   },
 };
+
+// ---------- 새 단어 첫소리 맞히기 (Mystery words, 1권) ----------
+// 유닛 JSON mystery [{w, l, end?}]: 교재에 없는 쉬운 단어를 소리로만 들려주고, 아이들이 첫소리 글자를 외친다(x 는 끝소리 — end).
+// 선생님이 아이들이 외친 글자를 누르면 맞았는지 알려 주고 단어(그 글자 색)와 그림(있으면)을 보여 준다.
+// 듣고 가리키기 · 소리 복습 · 알파벳 노래 쪽 슬라이드 끝에 한 장 더 붙는다. 단어는 섞어서 낸다(복습에서 a, b, c 순서로 맞히지 않게).
+const MY = { list: [], i: 0 };
+function mysterySlide(ctx, s, n) {
+  MY.list = shuffle(ctx.unit.mystery, 31 + ctx.u + App.bk * 7); MY.i = 0;
+  const ls = [...new Set(ctx.unit.mystery.map((m) => m.l))].sort();
+  const btns = ls.map((l) => `<button class="my-l ${letterCls(l)}" data-l="${l}" onclick="mysteryPick('${l}')">${l.toUpperCase()}${l}</button>`).join('');
+  const endTxt = ctx.unit.mystery.some((m) => m.end) ? '(x 는 끝소리)' : '';
+  return tWrap(ctx, 'Mystery words', `▶ 를 누르면 책에 없는 새 단어가 나와요. 아이들은 첫소리가 무슨 글자인지 외쳐요${endTxt}. 외친 글자를 누르면 맞았는지 보여 줘요`, s, n,
+    `<div class="sl-mystery"><div class="my-card"><div class="my-q" id="myQ">?</div><div class="my-meta" id="myMeta">${mysteryMetaText()}</div>
+      <div class="my-tools"><button class="btn orange big main-play" onclick="mysteryPlay()">▶ Listen</button><button class="btn big" onclick="mysteryShow()">정답 보기</button><button class="btn big" onclick="mysteryNext()">다음 →</button></div></div>
+      <div class="my-ls">${btns}</div></div>`);
+}
+function mysteryMetaText() { const m = MY.list[MY.i]; return m ? `${MY.i + 1} / ${MY.list.length} · ${m.end ? '끝소리를 들어요' : '첫소리를 들어요'}` : ''; }
+async function mysteryPlay() { Sound.unlock(); const m = MY.list[MY.i]; if (m) await Sound.play('word_' + m.w, m.w); }
+function mysteryShow() {
+  const m = MY.list[MY.i]; if (!m) return;
+  const i = m.end ? m.w.lastIndexOf(m.l) : 0;
+  $('myQ').innerHTML = `${pic('word_' + m.w, 'my-pic', m.w)}<div class="my-w">${esc(m.w.slice(0, i))}<b class="${letterCls(m.l)}">${esc(m.w[i])}</b>${esc(m.w.slice(i + 1))}</div>`;
+  document.querySelectorAll('.my-l').forEach((b) => b.classList.toggle('ans', b.dataset.l === m.l));
+  Sound.play('word_' + m.w, m.w);
+}
+function mysteryPick(l) {
+  const m = MY.list[MY.i]; if (!m) return; Sound.unlock();
+  if (l === m.l) { Sound.sfx('ok'); mysteryShow(); return; }
+  const b = document.querySelector(`.my-l[data-l="${l}"]`); Sound.sfx('no'); b?.classList.add('no'); setTimeout(() => b?.classList.remove('no'), 600);
+}
+function mysteryNext() {
+  if (MY.i < MY.list.length - 1) MY.i++; else { MY.i = 0; Sound.sfx('chime'); }
+  $('myQ').textContent = '?'; $('myMeta').textContent = mysteryMetaText();
+  document.querySelectorAll('.my-l').forEach((b) => b.classList.remove('ans', 'no'));
+  mysteryPlay();
+}
+['listen_point', 'review_sounds', 'alphabet_song'].forEach((t) => {
+  const o = TEACH[t]; if (!o) return;
+  const has = (ctx) => !!(ctx.unit.mystery && ctx.unit.mystery.length);
+  TEACH[t] = { ...o, count: (ctx) => o.count(ctx) + (has(ctx) ? 1 : 0), render: (ctx, s) => (has(ctx) && s >= o.count(ctx) ? mysterySlide(ctx, s, o.count(ctx) + 1) : o.render(ctx, s)) };
+});

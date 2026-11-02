@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "call",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609631.7113914,
+   "sec": 1.2,
+   "check": {
+    "transcript": "call",
+    "type": "word",
+    "ipa": "kɔːl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=call | TYPE=word | IPA=kɔːl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_call",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) call",
+ "text": "call",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

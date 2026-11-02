@@ -187,6 +187,10 @@ def build_sounds(book, units, bk=1, ipa=None):
             add(_sound(id=f"sound_{f.lstrip('-')}", sub='fsound', title=f"짝꿍 소리 /{F['sound']}/ ({f.replace('_', '…')})", text=f"/{F['sound']}/", voice=nar, unit=u, ipa=F['sound']))
     for w in book['words']:
         add(_sound(id=f'word_{w}', sub='word', title=f"단어 {w} · {book['words'][w]['ko']}", text=w, voice=nar, unit=word_unit(book, w, units)))
+    # 새 단어 첫소리 맞히기(교재에 없는 단어, 유닛 JSON mystery): 단어 소리만 있으면 된다 (다른 권에 같은 단어가 있으면 그 녹음을 같이 쓴다)
+    for u in units:
+        for m in u.get('mystery') or []:
+            add(_sound(id=f"word_{m['w']}", sub='word', title=f"새 단어(첫소리 맞히기) {m['w']}", text=m['w'], voice=nar, unit=u['unit']))
     # 합치기(2권~): 단어 가족이 있는 단어마다 "/k/ ... /æ/ ... /t/ ... cat" (낱소리 IPA 는 1권 letters + 이 권 vowels)
     ipa = dict(ipa or {})
     for v, V in (book.get('vowels') or {}).items(): ipa[v] = V.get('sound', v)

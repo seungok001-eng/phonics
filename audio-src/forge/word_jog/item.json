@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "jog",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609665.5927992,
+   "sec": 1.0,
+   "check": {
+    "transcript": "jog",
+    "type": "word",
+    "ipa": "dʒɔɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jog | TYPE=word | IPA=dʒɔɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "word_jog",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) jog",
+ "text": "jog",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "ankle",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609623.4918199,
+   "sec": 1.12,
+   "check": {
+    "transcript": "ankle",
+    "type": "word",
+    "ipa": "ˈæŋ.kəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ankle | TYPE=word | IPA=ˈæŋ.kəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "word_ankle",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) ankle",
+ "text": "ankle",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

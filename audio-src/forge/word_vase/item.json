@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "vase",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609700.7557638,
+   "sec": 1.04,
+   "check": {
+    "transcript": "Vase",
+    "type": "word",
+    "ipa": "veɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Vase | TYPE=word | IPA=veɪz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_vase",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) vase",
+ "text": "vase",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "in",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609655.0593011,
+   "sec": 1.0,
+   "check": {
+    "transcript": "in",
+    "type": "word",
+    "ipa": "ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=in | TYPE=word | IPA=ɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "word_in",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) in",
+ "text": "in",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

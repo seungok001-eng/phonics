@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "zap",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609718.9052756,
+   "sec": 1.12,
+   "check": {
+    "transcript": "zap",
+    "type": "word",
+    "ipa": "zæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zap | TYPE=word | IPA=zæp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_zap",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) zap",
+ "text": "zap",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

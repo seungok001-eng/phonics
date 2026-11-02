@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "fix",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609649.3617363,
+   "sec": 1.32,
+   "check": {
+    "transcript": "fix",
+    "type": "word",
+    "ipa": "fɪks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fix | TYPE=word | IPA=fɪks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_fix",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) fix",
+ "text": "fix",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "web",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609706.9607415,
+   "sec": 1.24,
+   "check": {
+    "transcript": "web",
+    "type": "word",
+    "ipa": "wɛb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=web | TYPE=word | IPA=wɛb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_web",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) web",
+ "text": "web",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

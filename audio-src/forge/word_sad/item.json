@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "sad",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609691.6280782,
+   "sec": 0.96,
+   "check": {
+    "transcript": "sad",
+    "type": "word",
+    "ipa": "sæd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sad | TYPE=word | IPA=sæd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "word_sad",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) sad",
+ "text": "sad",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

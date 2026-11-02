@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "yes",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609712.997129,
+   "sec": 1.08,
+   "check": {
+    "transcript": "Yes",
+    "type": "word",
+    "ipa": "jɛs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yes | TYPE=word | IPA=jɛs | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_yes",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) yes",
+ "text": "yes",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

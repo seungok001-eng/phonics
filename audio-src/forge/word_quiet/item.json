@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "quiet",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609685.7656767,
+   "sec": 1.28,
+   "check": {
+    "transcript": "quiet",
+    "type": "word",
+    "ipa": "ˈkwaɪ.ət",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quiet | TYPE=word | IPA=ˈkwaɪ.ət | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "word_quiet",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) quiet",
+ "text": "quiet",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "end",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609646.1198454,
+   "sec": 0.92,
+   "check": {
+    "transcript": "end",
+    "type": "word",
+    "ipa": "ɛnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=end | TYPE=word | IPA=ɛnd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "word_end",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) end",
+ "text": "end",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

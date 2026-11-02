@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "wax",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609703.464404,
+   "sec": 1.36,
+   "check": {
+    "transcript": "wax",
+    "type": "word",
+    "ipa": "wæks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wax | TYPE=word | IPA=wæks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "word_wax",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) wax",
+ "text": "wax",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}

@@ -190,9 +190,12 @@ function lessonHtml(C, li) {
   const rows = pages.map((pg, i) => {
     const A = ACT[pg.type] || { per: 0, base: 4, name: () => esc(pg.title || pg.type), say: () => '', kids: () => '' };
     const s = A.slides ? Math.max(1, A.slides(C, pg)) : ({ sounds: C.letters.length, trace: C.letters.length * 2, words: C.letters.length, listen_point: 4, check: 3, review_test: 3, alphabet_path: 2, alphabet_review: 2, family_words: 2, review_sounds: Math.ceil(C.letters.length / 6) }[pg.type] || 1);
-    const min = Math.max(2, Math.round(A.base + A.per * s));
+    // 새 단어 첫소리 맞히기(Mystery words): 이 쪽 슬라이드 끝에 한 장 (teach.js 와 같은 규칙)
+    const my = ['listen_point', 'review_sounds', 'alphabet_song'].includes(pg.type) && (C.unit.mystery || []).length ? C.unit.mystery : null;
+    const min = Math.max(2, Math.round(A.base + A.per * s)) + (my ? 5 : 0);
+    const myTxt = my ? ` <br>+ <b>Mystery words</b>(마지막 장, 약 5분): ▶ 로 책에 없는 새 단어(${my.slice(0, 3).map((m) => esc(m.w)).join(', ')} … ${my.length}개)를 들려주면 아이들이 ${my.some((m) => m.end) ? '첫소리(x 는 끝소리)' : '첫소리'} 글자를 외쳐요 → 그 글자를 눌러 확인, 단어 공개` : '';
     const p = sb0 + i + 1, link = `../book/?b=sb&u=${n}&p=${p}&t=1${bkq}`;
-    return { min, pg, html: `<td class="t">${min}'</td><td class="a">${A.name(C, pg)}<span class="pg">SB p.${sbNo(p)} · <a href="${link}">수업 화면 ${p}쪽</a> · 슬라이드 ${s}장</span></td><td>${A.say(C, pg)}</td><td class="k">${A.kids(C, pg)}</td>` };
+    return { min, pg, html: `<td class="t">${min}'</td><td class="a">${A.name(C, pg)}<span class="pg">SB p.${sbNo(p)} · <a href="${link}">수업 화면 ${p}쪽</a> · 슬라이드 ${s + (my ? 1 : 0)}장</span></td><td>${A.say(C, pg)}${myTxt}</td><td class="k">${A.kids(C, pg)}${my ? ', 새 단어 첫소리 글자 외치기' : ''}</td>` };
   });
   // 처음(인사·주제가·복습)과 끝(정리·숙제)
   const prev = book.units.find((x) => x.n === n - 1);

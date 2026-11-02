@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "yell",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793609710.781331,
+   "sec": 1.28,
+   "check": {
+    "transcript": "yell",
+    "type": "word",
+    "ipa": "/jɛl/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yell | TYPE=word | IPA=/jɛl/ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-02 17:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "word_yell",
+ "sub": "word",
+ "title": "새 단어(첫소리 맞히기) yell",
+ "text": "yell",
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
+}
