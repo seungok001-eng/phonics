@@ -109,5 +109,10 @@ web/assets/art/ audio/ video/   교재가 읽는 파일 (교재에 넣기)
 ## 목소리 오디션 탭 (2026-11-03)
 - 공방 왼쪽 **목소리 오디션**: 역할(해설 narrator · 지시문 instruction · 단어 word)과 캐릭터(핍·번·헤지·그럼블·비즈·핌과 팜·요정 이)마다 카드. 대사 2줄(고칠 수 있음)을 여러 목소리로 만들어 ▶ 로 듣고 **이 목소리로!** 를 누르면 `content/voices.json` 에 적힌다. 핌과 팜은 1번·2번 자리.
 - **후보 6개 추천**: 내 일레븐랩스 계정 목소리 중 `audition.FILTER` 의 나이·용도 조건에 맞고 다른 캐릭터가 안 쓰는 것. 지금 목소리가 후보에 없으면 비교용으로 함께 만든다. **라이브러리 검색**: 공개 목소리를 찾아 미리듣기(공짜) → "후보로 만들기"(계정에 넣기를 시도; 키에 Voices 쓰기 권한이 없으면 일레븐랩스 사이트에서 직접 넣어야 함).
+- **후보를 많이 듣는 세 길 + 아이처럼 높이기** (11-03 사용자: "최대한 많이 들어보고 고르게"):
+  - ① 카드의 **계정 목소리 전부 후보로**(n=30): 아이 캐릭터는 young + (characters_animation 또는 이름에 kid·cute·tiny·cartoon·PP…), 그럼블은 old/middle 남성(기본 목소리 포함).
+  - ② 위쪽 **라이브러리 둘러보기**: `audition.library()` 가 공개 라이브러리(characters_animation young 전부 + 아이 느낌 검색어 16개)를 훑어 하루 캐시(`_voices/_library.json`, 350개쯤). 미리듣기(preview_url)는 공짜. 캐릭터를 골라 "후보로" 하면 계정에 넣고(`/voices/add`, 키에 Voices 쓰기 권한 있음 확인) 대사 후보를 만든다.
+  - ③ 카드의 **목소리 새로 만들기**(Voice Design, `/v1/text-to-voice/design` → 미리듣기 3개 → "후보로" 하면 `/v1/text-to-voice` 로 계정에 넣음). **설명에 나이("6-year-old"·"child"·"baby")를 쓰면 안전 규칙에 걸려 차단**되므로 "tiny cute cartoon bird character with a very high squeaky-sweet little voice" 식으로 쓴다(`audition.DESIGN` 기본 설명).
+  - 모든 후보는 **원음·살짝(×1.07)·많이(×1.14)** 세 단계로 들을 수 있다(`audio.PITCH`, ffmpeg asetrate 로 만들어 두는 `_p1/_p2` 파일, 비용 0). 고를 때의 단계가 voices.json `pitch` 로 저장되고, 소리 생성(`tts_loop` el · `el_compose`)이 그 배율로 높인다(후보 이름에 ↑1.07 표시).
 - 파일: `audio-src/forge/_voices/<키>/<voice_id>__<줄>.mp3` + `meta.json` (깃 제외). 서버 모듈 `tools/forge/audition.py`, API `/api/audition`, `/api/audition/{lines,sample,suggest,current,remove,pick}`, `/api/audition/search`.
 - **소리 생성은 낱소리·짝꿍 소리만 제미나이, 나머지 전부 일레븐랩스** (`server.el_role`): who 가 있으면 그 캐릭터, 지시문→instruction, 대사/해설→narrator, 단어·사이트워드·글자 이름·합치기→word (없으면 narrator). 합치기 "/k/ ... /æ/ ... /t/ ... cat" 은 el_compose 가 낱소리 mp3 를 이어 붙이고 단어만 일레븐랩스. 소리 카드에 🎙 목소리 이름이 보이면 일레븐랩스. 목소리를 바꾼 뒤 `POST /api/sounds/regen_voices` 로 일괄 재생성.

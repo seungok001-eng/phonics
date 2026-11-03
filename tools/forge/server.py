@@ -639,6 +639,15 @@ def el_role(s):
     return {'instr': 'instruction', 'line': 'narrator'}.get(s['sub'], 'word')   # 단어·사이트워드·글자 이름·합치기 = word
 
 
+def el_pitch(s):
+    """이 소리의 '아이처럼 높이기' 배율 (voices.json 의 pitch, 없으면 1.0). both 는 번 것."""
+    who = el_role(s); V = state.get('voices') or {}
+    if who == 'both': who = (V.get('both', {}).get('mix') or ['bun'])[0]
+    if who == 'word' and not V.get('word'): who = 'narrator'
+    try: return float((V.get(who) or {}).get('pitch') or 1.0)
+    except (TypeError, ValueError): return 1.0
+
+
 def el_voices_for(s):
     """이 소리를 일레븐랩스로 만들 목소리들 [(이름, voice_id)]. 'both' 는 번+헤지 두 목소리를 겹친다. 없으면 [] (제미나이)."""
     who = el_role(s); V = state.get('voices') or {}
@@ -715,8 +724,8 @@ def phoneme_letters(text):
     return parts, out
 
 
-def el_compose(text, voices, tmp):
-    """낱소리 덩어리가 있는 대사: 말 조각 = 일레븐랩스(목소리가 둘이면 겹침), 낱소리 = sound_<글자>.mp3 를 높여서. 결과 wav 경로."""
+def el_compose(text, voices, tmp, pitch=1.0):
+    """낱소리 덩어리가 있는 대사: 말 조각 = 일레븐랩스(목소리가 둘이면 겹침, pitch 만큼 높임), 낱소리 = sound_<글자>.mp3 를 높여서. 결과 wav 경로."""
     import tempfile
     def tmpf(ext):
         fd, p = tempfile.mkstemp(suffix=ext); os.close(fd); tmp.append(p); return p
@@ -756,6 +765,8 @@ def el_compose(text, voices, tmp):
                     w = tmpf('.wav'); audio.norm_wav(m, w); outs.append(w)
                 if len(outs) > 1:
                     w = tmpf('.wav'); audio.mix(outs, w); outs = [w]
+                if pitch > 1.0:
+                    w = tmpf('.wav'); audio.pitch_up(outs[0], w, pitch); outs = [w]
                 segs.append(outs[0])
         else: continue
         gap = tmpf('.wav'); audio.silence(gap, 0.18); segs.append(gap)
@@ -767,7 +778,7 @@ def el_compose(text, voices, tmp):
 def tts_enqueue(s, text, voice):
     ev = el_voices_for(s)
     if ev:   # 캐릭터 대사 = 아이 목소리 (일레븐랩스). 대본은 지시문 없이 대사 그대로
-        state['tts_queue'].append({'kind': 'el', 'id': s['id'], 'text': text, 'voices': ev})
+        state['tts_queue'].append({'kind': 'el', 'id': s['id'], 'text': text, 'voices': ev, 'pitch': el_pitch(s)})
     else:
         state['tts_queue'].append({'kind': 'tts', 'id': s['id'], 'text': tts_script(s, text), 'voice': voice})
     s['busy'] = s.get('busy', 0) + 1
@@ -797,7 +808,7 @@ def tts_loop():
                 tmp = []
                 try:
                     if PHON_RE.search(t['text']) or HUSH_RE.search(t['text']):   # 낱소리 덩어리나 Shh 가 있으면 이어 붙이기
-                        src = el_compose(t['text'], t['voices'], tmp)
+                        src = el_compose(t['text'], t['voices'], tmp, t.get('pitch', 1.0))
                     else:
                         for name, vid in t['voices']:
                             fd, pth = tempfile.mkstemp(suffix='.mp3'); os.close(fd); tmp.append(pth)
@@ -805,8 +816,10 @@ def tts_loop():
                         src = tmp[0]
                         if len(tmp) > 1:
                             fd, src = tempfile.mkstemp(suffix='.wav'); os.close(fd); audio.mix(tmp, src); tmp.append(src)
+                        if t.get('pitch', 1.0) > 1.0:   # 아이처럼 높이기 (voices.json pitch)
+                            fd, pw = tempfile.mkstemp(suffix='.wav'); os.close(fd); audio.pitch_up(src, pw, t['pitch']); tmp.append(pw); src = pw
                     with lock:
-                        add_cand(s, src_path=src, text=t['text'], voice=' + '.join(n for n, _ in t['voices']), how='el')
+                        add_cand(s, src_path=src, text=t['text'], voice=' + '.join(n for n, _ in t['voices']) + (f" ↑{t['pitch']}" if t.get('pitch', 1.0) > 1.0 else ''), how='el')
                         u = state['settings'].setdefault('el_usage', {'count': 0, 'chars': 0})
                         u['count'] = u.get('count', 0) + 1; u['chars'] = u.get('chars', 0) + len(t['text']) * len(t['voices']); save_settings()
                     log(f"{t['id']} 일레븐랩스 후보: \"{t['text']}\" ({' + '.join(n for n, _ in t['voices'])})")
@@ -1023,6 +1036,8 @@ class H(BaseHTTPRequestHandler):
                     return self.send_json({'chars': audition.roster(), 'pool': {'el': audition.el_pool(), 'gemini': [{'voice_id': k, 'name': f'{k} ({d})'} for k, d in presets.VOICES]}, **audition.status()})
                 if p == '/api/audition/search':
                     return self.send_json({'voices': audition.el_search(g('q'), g('age'), g('gender'), g('use_case'), g('language', 'en'))})
+                if p == '/api/audition/library':
+                    return self.send_json({'voices': audition.library(g('refresh') == '1')})
             with lock:
                 if p == '/api/presets': return self.send_json(presets_view())
                 if p == '/api/settings':
@@ -1127,9 +1142,16 @@ class H(BaseHTTPRequestHandler):
                 if a == 'suggest': return self.send_json({'queued': audition.suggest(ch, int(body.get('n') or 6))})
                 if a == 'current': return self.send_json({'queued': audition.ensure_current(ch)})
                 if a == 'remove': audition.remove(ch, body.get('voice_id') or ''); return self.send_json({'ok': True})
+                if a == 'repitch': return self.send_json({'done': audition.repitch(ch or None)})
+                if a == 'design': return self.send_json({'previews': audition.design(ch, body.get('desc') or audition.DESIGN.get(ch, ''), body.get('text'))})
+                if a == 'design_create': return self.send_json({'queued': audition.design_create(ch, body.get('generated_voice_id') or '', body.get('name'))})
+                if a == 'pitch':
+                    pv = audition.set_pitch(ch, body.get('pitch') or 1.0)
+                    with lock: state['voices'] = read_json(os.path.join(presets.CONTENT, 'voices.json')) or {}
+                    return self.send_json({'pitch': pv})
                 if a == 'pick':
                     vid, nm = body.get('voice_id') or '', body.get('name') or ''
-                    changed = audition.pick(ch, vid, nm, body.get('slot'))
+                    changed = audition.pick(ch, vid, nm, body.get('slot'), body.get('pitch'))
                     with lock:
                         state['voices'] = read_json(os.path.join(presets.CONTENT, 'voices.json')) or {}   # 소리 생성이 바로 새 목소리를 쓰게
                         log(f'오디션: {ch} 목소리 → {nm} ({vid})')

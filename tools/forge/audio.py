@@ -146,6 +146,16 @@ def peak_db(path):
     return 0.0
 
 
+PITCH = {'0': 1.0, '1': 1.07, '2': 1.14}   # 아이처럼 높이기 단계: 없음 · 살짝 · 많이 (asetrate 방식, 음높이와 음색을 같이 올린다)
+
+
+def pitch_mp3(src, dst, factor):
+    """일레븐랩스 mp3/wav 를 factor 만큼 높여 mp3 로 (길이는 그대로). factor 1.0 이면 그냥 복사."""
+    if factor <= 1.0:
+        import shutil; shutil.copyfile(src, dst); return
+    run(['-i', src, '-af', f'aresample=24000,asetrate={int(24000 * factor)},aresample=44100,atempo={1 / factor:.4f}', '-ar', '44100', '-ac', '1', '-codec:a', 'libmp3lame', '-q:a', '4', dst])
+
+
 def pitch_up(src, dst, factor=1.18):
     """낱소리(어른 목소리)를 아이 목소리 높이로: 먼저 24kHz 로 맞춘 뒤 음 높이만 올리고 길이는 그대로, 가장 큰 소리를 -3dB 로.
     (주의: 원본이 44.1kHz 라 asetrate 앞에 aresample 이 없으면 소리가 늘어지고 낮아진다 — 2026-10-07)"""
