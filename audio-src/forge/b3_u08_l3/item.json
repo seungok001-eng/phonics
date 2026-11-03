@@ -46,19 +46,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:37",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b3_u08_l3",
  "sub": "line",
- "title": "3권 8유닛 대사 · 그럼블: Sniff, sniff! A snack?",
- "text": "Sniff, sniff! A snack?",
+ "title": "3권 8유닛 대사 · 핍: Ws? Ws? Wsim?",
+ "text": "Ws? Ws? Wsim?",
  "voice": "Aoede",
- "who": "grumble",
- "book": 3,
- "busy": 1
+ "who": "pip",
+ "book": 3
 }

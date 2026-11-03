@@ -12,17 +12,17 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:38",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "b4_u00_l3",
  "sub": "line",
- "title": "4권 0유닛 대사 · 헤지: Wow! A rose!",
- "text": "Wow! A rose!",
+ "title": "4권 0유닛 대사 · 헤지: Can we go in?",
+ "text": "Can we go in?",
  "voice": "Puck",
  "who": "hedgie",
  "book": 4

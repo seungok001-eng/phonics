@@ -18,17 +18,17 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:41",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "b4_u10_l1",
  "sub": "line",
- "title": "4권 10유닛 대사 · 해설: The star room is far up.",
- "text": "The star room is far up.",
+ "title": "4권 10유닛 대사 · 해설: A storm! Boom! Boom!",
+ "text": "A storm! Boom! Boom!",
  "voice": "Kore",
  "who": "narrator",
  "book": 4

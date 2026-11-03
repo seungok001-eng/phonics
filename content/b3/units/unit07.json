@@ -97,6 +97,11 @@
           "title": "Story"
         },
         {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -152,68 +157,199 @@
   "story": {
     "title": "The Crab and the Crib",
     "bgm": "bgm_b3_silly",
-    "v2": true,
     "panels": [
       {
         "id": "scene_b3_u07_1",
-        "desc": "{crab} sits in a tiny wooden crib by the stream, crying; {PIP}, {BUN} and {HED} tiptoe up. A brick path leads to it.",
+        "desc": "Afternoon. A low wall of red bricks crosses the forest path; in the middle of the wall is a small round door made of bricks with the two letters b and r carved on it — the ONLY text allowed in the picture. On top of the wall sits a small red crab with a toy drum hanging around its neck, snapping its big claws at anyone who comes near. Bun jumps back; Hedgie hides behind her; Pip says the two letters in the wrong order; Pim and Pam hover side by side. A pink dress hangs on a washing line between two trees. Hidden in the picture: the bricks, the crab, the drum, the pink dress.",
         "hidden": [
+          "brick",
           "crab",
-          "crib",
-          "brick"
-        ],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "A crab is in the crib.",
-            "audio": "b3_u07_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u07_2",
-        "desc": "{BUN} plays a drum gently; {crab} stops crying and listens. {HED} holds a brush.",
-        "hidden": [
           "drum",
-          "brush"
-        ],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "A drum for the crab.",
-            "audio": "b3_u07_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u07_3",
-        "desc": "{HED} brushes the crab's shell; the crab smiles; there is a crack in the crib's rail.",
-        "hidden": [
-          "crack"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Brush, brush. Oh, a crack!",
-            "audio": "b3_u07_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u07_4",
-        "desc": "{PIP} ties a little dress of leaves around the crib rail to fix the crack; {crab} sleeps; everyone whispers.",
-        "hidden": [
           "dress"
         ],
         "lines": [
           {
+            "who": "bun",
+            "text": "A crab with a drum!",
+            "audio": "b3_u07_l1",
+            "ko": "북을 멘 게야!"
+          },
+          {
+            "who": "narrator",
+            "text": "Snip! Snip! Snip!",
+            "audio": "b3_u07_l2",
+            "ko": "싹둑! 싹둑! 싹둑!"
+          },
+          {
             "who": "pip",
-            "text": "The crab sleeps with the drum.",
-            "audio": "b3_u07_l4"
+            "text": "Rb? Rb? Rbick?",
+            "audio": "b3_u07_l3",
+            "ko": "르브? 르브? 르빅?"
           }
-        ]
+        ],
+        "video": "vid_b3_u07_1",
+        "ko": "빨간 벽돌담이 길을 막았어요. 담 위에서 북을 멘 게가 집게를 싹둑싹둑! 핍은 br 을 거꾸로 \"르브?\"",
+        "ask": [
+          {
+            "en": "What is on the wall?",
+            "ko": "담 위에 뭐가 있어?"
+          },
+          {
+            "en": "What does the crab have?",
+            "ko": "게가 뭘 메고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A crab on a brick wall snaps its claws!",
+          "ko": "벽돌담 위 게가 집게를 싹둑거려요!",
+          "audio": "scene_b3_u07_1_n"
+        }
+      },
+      {
+        "id": "scene_b3_u07_2",
+        "desc": "Pim and Pam say the two sounds together and the bricks of the little door hop apart one by one and stack themselves neatly beside the path, opening a gap in the wall. The crab, startled, plays a quick drumroll. Beads holds up three beads. Through the gap, under a leafy tree, stands a small wooden baby crib with a soft blue blanket, and in it lies a big white egg. Hidden in the picture: the bricks, the drum, the crib. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "hidden": [
+          "brick",
+          "drum",
+          "crib",
+          "crab"
+        ],
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /br/ /br/ brick!",
+            "audio": "b3_u07_l4",
+            "pop": "br",
+            "ko": "함께! br, br 벽돌!"
+          },
+          {
+            "who": "beads",
+            "text": "/br/ /ɪ/ /k/ brick!",
+            "audio": "blend_brick__beads",
+            "pop": "brick",
+            "ko": "br-i-ck 벽돌!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Look! A crib with an egg!",
+            "audio": "b3_u07_l5",
+            "ko": "봐! 알이 든 아기 침대!"
+          }
+        ],
+        "video": "vid_b3_u07_2",
+        "ko": "핌과 팜이 br! 벽돌들이 폴짝폴짝 비켜 문이 열려요. 담 너머 나무 아래, 아기 침대에 커다란 알이 있어요.",
+        "ask": [
+          {
+            "en": "What is in the crib?",
+            "ko": "아기 침대에 뭐가 있어?"
+          },
+          {
+            "en": "What do the bricks do?",
+            "ko": "벽돌들은 어떻게 됐어?"
+          }
+        ],
+        "narr": {
+          "text": "The bricks hop apart. An egg is in a crib!",
+          "ko": "벽돌이 폴짝 비켜요. 아기 침대에 알이 있어요!",
+          "audio": "scene_b3_u07_2_n"
+        }
+      },
+      {
+        "id": "scene_b3_u07_3",
+        "desc": "The friends gather around the crib. A zigzag crack runs across the white egg and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Hedgie holds his paws together; Bun kneels. Hidden in the picture: the crack in the egg, the crib, the brush, the crab.",
+        "hidden": [
+          "crack",
+          "crib",
+          "brush",
+          "crab"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Crack! Crack! Crack!",
+            "audio": "b3_u07_l6",
+            "ko": "쩍! 쩍! 쩍!"
+          },
+          {
+            "who": "pip",
+            "text": "Rc? No! Cr... crack!",
+            "audio": "b3_u07_l7",
+            "ko": "르크? 아니! 크르… 크랙!"
+          },
+          {
+            "who": "bun",
+            "text": "A little chick! Shh...",
+            "audio": "b3_u07_l8",
+            "ko": "아기 새야! 쉿…"
+          }
+        ],
+        "ko": "알에 쩍 금이 가고 작은 노란 부리가 쏙! 게가 솔로 껍데기를 쓸어 줘요. 핍이 두 번째에 \"크랙!\"",
+        "ask": [
+          {
+            "en": "What comes out of the egg?",
+            "ko": "알에서 뭐가 나와?"
+          },
+          {
+            "en": "What does the crab hold?",
+            "ko": "게는 뭘 들고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "The egg cracks! A tiny beak pokes out.",
+          "ko": "알에 금이 가요! 작은 부리가 쏙 나와요.",
+          "audio": "scene_b3_u07_3_n"
+        }
+      },
+      {
+        "id": "scene_b3_u07_4",
+        "desc": "A fluffy little grey baby bird has hatched and sits in the crib under the blue blanket, yawning. The crab lifts its claws to bang its drum in celebration — but Grumble has climbed down the tree and gently puts his paw on the drum, then hangs his glowing lantern on a branch over the crib like a soft night-light. Everyone smiles. Hidden in the picture: the drum, the crib, the pink dress on the washing line, the brush. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "hidden": [
+          "drum",
+          "crib",
+          "dress",
+          "brush"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Drum, drum, drum!",
+            "audio": "b3_u07_l9",
+            "ko": "둥, 둥, 둥!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Not the drum!",
+            "audio": "b3_u07_l10",
+            "ko": "쉿! 북은 안 돼!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A lantern for the crib!",
+            "audio": "b3_u07_l11",
+            "ko": "아기 침대에 등불을!"
+          }
+        ],
+        "ko": "아기 새가 태어났어요! 게가 북을 치려 하자 내려온 그럼블이 \"쉿! 북은 안 돼!\" 그리고 등불을 아기 침대 위에 걸어 줘요.",
+        "ask": [
+          {
+            "en": "Who hatched?",
+            "ko": "누가 태어났어?"
+          },
+          {
+            "en": "What does Grumble hang up?",
+            "ko": "그럼블은 뭘 걸어 줬어?"
+          }
+        ],
+        "narr": {
+          "text": "A baby bird! Grumble hangs his lantern over the crib.",
+          "ko": "아기 새예요! 그럼블이 등불을 침대 위에 걸어요.",
+          "audio": "scene_b3_u07_4_n"
+        }
       }
-    ]
+    ],
+    "synopsis_ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑. 핌과 팜이 br! 벽돌이 비켜나고 아기 침대 속 알에 쩍 금이 가요. 핍은 \"크랙!\"을 두 번째에 바로 말해요. 아기 새가 태어나자 그럼블이 나무에서 내려와 등불을 걸어 줘요.",
+    "so_far_ko": "까만 블록을 치우고 멈춘 시계를 고쳤어요. 그럼블이 몰래 손뼉을 쳤어요.",
+    "goal_ko": "br·cr·dr 을 말해 벽돌문을 열고 아기 새를 지켜 줘요."
   },
   "videos": [
     {
@@ -453,252 +589,6 @@
     ]
   },
   "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b3_u07_1",
-        "desc": "{crab} sits in a tiny wooden crib by the stream, crying; {PIP}, {BUN} and {HED} tiptoe up. A brick path leads to it.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "A crab is in the crib.",
-            "audio": "b3_u07_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u07_2",
-        "desc": "{BUN} plays a drum gently; {crab} stops crying and listens. {HED} holds a brush.",
-        "lines": [
-          {
-            "who": "bun",
-            "text": "A drum for the crab.",
-            "audio": "b3_u07_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u07_3",
-        "desc": "{HED} brushes the crab's shell; the crab smiles; there is a crack in the crib's rail.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Brush, brush. Oh, a crack!",
-            "audio": "b3_u07_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u07_4",
-        "desc": "{PIP} ties a little dress of leaves around the crib rail to fix the crack; {crab} sleeps; everyone whispers.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "The crab sleeps with the drum.",
-            "audio": "b3_u07_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "story_v1": {
-    "title": "The Crab and the Crib",
-    "bgm": "bgm_b3_silly",
-    "panels": [
-      {
-        "id": "scene_b3_u07_1",
-        "desc": "Afternoon. A low wall of red bricks crosses the forest path; in the middle of the wall is a small round door made of bricks with the two letters b and r carved on it — the ONLY text allowed in the picture. On top of the wall sits a small red crab with a toy drum hanging around its neck, snapping its big claws at anyone who comes near. Bun jumps back; Hedgie hides behind her; Pip says the two letters in the wrong order; Pim and Pam hover side by side. A pink dress hangs on a washing line between two trees. Hidden in the picture: the bricks, the crab, the drum, the pink dress.",
-        "hidden": [
-          "brick",
-          "crab",
-          "drum",
-          "dress"
-        ],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "A crab with a drum!",
-            "audio": "b3_u07_l1",
-            "ko": "북을 멘 게야!"
-          },
-          {
-            "who": "narrator",
-            "text": "Snip! Snip! Snip!",
-            "audio": "b3_u07_l2",
-            "ko": "싹둑! 싹둑! 싹둑!"
-          },
-          {
-            "who": "pip",
-            "text": "Rb? Rb? Rbick?",
-            "audio": "b3_u07_l3",
-            "ko": "르브? 르브? 르빅?"
-          }
-        ],
-        "video": "vid_b3_u07_1",
-        "ko": "빨간 벽돌담이 길을 막았어요. 담 위에서 북을 멘 게가 집게를 싹둑싹둑! 핍은 br 을 거꾸로 \"르브?\"",
-        "ask": [
-          {
-            "en": "What is on the wall?",
-            "ko": "담 위에 뭐가 있어?"
-          },
-          {
-            "en": "What does the crab have?",
-            "ko": "게가 뭘 메고 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A crab on a brick wall snaps its claws!",
-          "ko": "벽돌담 위 게가 집게를 싹둑거려요!",
-          "audio": "scene_b3_u07_1_n"
-        }
-      },
-      {
-        "id": "scene_b3_u07_2",
-        "desc": "Pim and Pam say the two sounds together and the bricks of the little door hop apart one by one and stack themselves neatly beside the path, opening a gap in the wall. The crab, startled, plays a quick drumroll. Beads holds up three beads. Through the gap, under a leafy tree, stands a small wooden baby crib with a soft blue blanket, and in it lies a big white egg. Hidden in the picture: the bricks, the drum, the crib. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
-        "hidden": [
-          "brick",
-          "drum",
-          "crib",
-          "crab"
-        ],
-        "lines": [
-          {
-            "who": "twins",
-            "text": "Together! /br/ /br/ brick!",
-            "audio": "b3_u07_l4",
-            "pop": "br",
-            "ko": "함께! br, br 벽돌!"
-          },
-          {
-            "who": "beads",
-            "text": "/br/ /ɪ/ /k/ brick!",
-            "audio": "blend_brick__beads",
-            "pop": "brick",
-            "ko": "br-i-ck 벽돌!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Look! A crib with an egg!",
-            "audio": "b3_u07_l5",
-            "ko": "봐! 알이 든 아기 침대!"
-          }
-        ],
-        "video": "vid_b3_u07_2",
-        "ko": "핌과 팜이 br! 벽돌들이 폴짝폴짝 비켜 문이 열려요. 담 너머 나무 아래, 아기 침대에 커다란 알이 있어요.",
-        "ask": [
-          {
-            "en": "What is in the crib?",
-            "ko": "아기 침대에 뭐가 있어?"
-          },
-          {
-            "en": "What do the bricks do?",
-            "ko": "벽돌들은 어떻게 됐어?"
-          }
-        ],
-        "narr": {
-          "text": "The bricks hop apart. An egg is in a crib!",
-          "ko": "벽돌이 폴짝 비켜요. 아기 침대에 알이 있어요!",
-          "audio": "scene_b3_u07_2_n"
-        }
-      },
-      {
-        "id": "scene_b3_u07_3",
-        "desc": "The friends gather around the crib. A zigzag crack runs across the white egg and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Hedgie holds his paws together; Bun kneels. Hidden in the picture: the crack in the egg, the crib, the brush, the crab.",
-        "hidden": [
-          "crack",
-          "crib",
-          "brush",
-          "crab"
-        ],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Crack! Crack! Crack!",
-            "audio": "b3_u07_l6",
-            "ko": "쩍! 쩍! 쩍!"
-          },
-          {
-            "who": "pip",
-            "text": "Rc? No! Cr... crack!",
-            "audio": "b3_u07_l7",
-            "ko": "르크? 아니! 크르… 크랙!"
-          },
-          {
-            "who": "bun",
-            "text": "A little chick! Shh...",
-            "audio": "b3_u07_l8",
-            "ko": "아기 새야! 쉿…"
-          }
-        ],
-        "ko": "알에 쩍 금이 가고 작은 노란 부리가 쏙! 게가 솔로 껍데기를 쓸어 줘요. 핍이 두 번째에 \"크랙!\"",
-        "ask": [
-          {
-            "en": "What comes out of the egg?",
-            "ko": "알에서 뭐가 나와?"
-          },
-          {
-            "en": "What does the crab hold?",
-            "ko": "게는 뭘 들고 있어?"
-          }
-        ],
-        "narr": {
-          "text": "The egg cracks! A tiny beak pokes out.",
-          "ko": "알에 금이 가요! 작은 부리가 쏙 나와요.",
-          "audio": "scene_b3_u07_3_n"
-        }
-      },
-      {
-        "id": "scene_b3_u07_4",
-        "desc": "A fluffy little grey baby bird has hatched and sits in the crib under the blue blanket, yawning. The crab lifts its claws to bang its drum in celebration — but Grumble has climbed down the tree and gently puts his paw on the drum, then hangs his glowing lantern on a branch over the crib like a soft night-light. Everyone smiles. Hidden in the picture: the drum, the crib, the pink dress on the washing line, the brush. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
-        "hidden": [
-          "drum",
-          "crib",
-          "dress",
-          "brush"
-        ],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Drum, drum, drum!",
-            "audio": "b3_u07_l9",
-            "ko": "둥, 둥, 둥!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! Not the drum!",
-            "audio": "b3_u07_l10",
-            "ko": "쉿! 북은 안 돼!"
-          },
-          {
-            "who": "hedgie",
-            "text": "A lantern for the crib!",
-            "audio": "b3_u07_l11",
-            "ko": "아기 침대에 등불을!"
-          }
-        ],
-        "ko": "아기 새가 태어났어요! 게가 북을 치려 하자 내려온 그럼블이 \"쉿! 북은 안 돼!\" 그리고 등불을 아기 침대 위에 걸어 줘요.",
-        "ask": [
-          {
-            "en": "Who hatched?",
-            "ko": "누가 태어났어?"
-          },
-          {
-            "en": "What does Grumble hang up?",
-            "ko": "그럼블은 뭘 걸어 줬어?"
-          }
-        ],
-        "narr": {
-          "text": "A baby bird! Grumble hangs his lantern over the crib.",
-          "ko": "아기 새예요! 그럼블이 등불을 침대 위에 걸어요.",
-          "audio": "scene_b3_u07_4_n"
-        }
-      }
-    ],
-    "synopsis_ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑. 핌과 팜이 br! 벽돌이 비켜나고 아기 침대 속 알에 쩍 금이 가요. 핍은 \"크랙!\"을 두 번째에 바로 말해요. 아기 새가 태어나자 그럼블이 나무에서 내려와 등불을 걸어 줘요.",
-    "so_far_ko": "까만 블록을 치우고 멈춘 시계를 고쳤어요. 그럼블이 몰래 손뼉을 쳤어요.",
-    "goal_ko": "br·cr·dr 을 말해 벽돌문을 열고 아기 새를 지켜 줘요."
-  },
-  "storybook_v1": {
     "pages": [
       {
         "id": "sb3_u07_1",

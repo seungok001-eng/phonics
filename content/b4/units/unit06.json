@@ -88,6 +88,11 @@
           "title": "Story"
         },
         {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -144,70 +149,199 @@
   "story": {
     "title": "Rain on the Train",
     "bgm": "bgm_b4_silly",
-    "v2": true,
     "panels": [
       {
         "id": "scene_b4_u06_1",
-        "desc": "Rain falls on a small garden train on a track around the castle; {PIP}, {BUN} and {HED} wait with a tray of hay.",
+        "desc": "A big toy room high in the castle. A toy train track runs around the room and a small red toy train with open carriages sits on it. A grey rain cloud has floated in through the window and pours rain right onto the train, and the carriages fill with water. A blue jay bird shelters under a wooden tray; a round bale of hay gets soggy. Bun holds her red cape over her head; Hedgie points at the cloud; Pip reads the word in two pieces, puzzled; Fairy E shakes water off her bubble wings. Hidden in the picture: the rain, the train, the tray, the jay, the hay. Grumble does NOT appear. No letters anywhere.",
         "hidden": [
           "rain",
           "train",
           "tray",
+          "jay",
           "hay"
         ],
         "lines": [
           {
-            "who": "narrator",
-            "text": "Rain on the train.",
-            "audio": "b4_u06_l1"
+            "who": "bun",
+            "text": "Look! Rain! Oh no!",
+            "audio": "b4_u06_l1",
+            "ko": "봐! 비야! 저런!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The train is wet!",
+            "audio": "b4_u06_l2",
+            "ko": "기차가 다 젖었어!"
+          },
+          {
+            "who": "pip",
+            "text": "Ra... in? Ra-in?",
+            "audio": "b4_u06_l3",
+            "ko": "래… 인? 래-인?"
           }
-        ]
+        ],
+        "ko": "장난감 방에 비구름이 들어와 장난감 기차에 비가 쏟아져요. 핍은 두 모음을 따로 \"래-인?\" 하고 읽어요.",
+        "ask": [
+          {
+            "en": "What is on the train?",
+            "ko": "기차 위에 뭐가 내려?"
+          },
+          {
+            "en": "Where is the jay?",
+            "ko": "어치는 어디 숨었어?"
+          }
+        ],
+        "narr": {
+          "text": "A rain cloud pours on the toy train.",
+          "ko": "비구름이 장난감 기차에 비를 쏟아요.",
+          "audio": "scene_b4_u06_1_n"
+        }
       },
       {
         "id": "scene_b4_u06_2",
-        "desc": "{jay} flies down and lands on the train's roof, shaking off water; its tail feathers drip. {HED} holds a nail and a sail.",
+        "desc": "Fairy E touches two little sparkles together with her star wand and they melt into one big bright sparkle near the rain cloud. As the friends read the word, the cloud rains out its last drops and shrinks into a tiny puff with a small rainbow, and sunshine fills the toy room. A toy sailboat with a white sail floats in a puddle; a silver nail lies on the floor. Beads stands on the train engine clicking its beads; Bun and Hedgie cheer. Hidden in the picture: the rain, the sail, the train, the nail. Grumble does NOT appear. No letters anywhere.",
         "hidden": [
-          "jay",
-          "tail",
-          "nail",
-          "sail"
+          "rain",
+          "sail",
+          "train",
+          "nail"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "A jay! Play all day?",
-            "audio": "b4_u06_l2"
+            "who": "fairy",
+            "text": "Eee! Two... one!",
+            "audio": "b4_u06_l4",
+            "ko": "이~! 둘이… 하나로!"
+          },
+          {
+            "who": "beads",
+            "text": "/r/ /eɪ/ /n/ rain!",
+            "audio": "blend_rain__beads",
+            "pop": "rain",
+            "ko": "r-ai-n 비!"
+          },
+          {
+            "who": "narrator",
+            "text": "The rain stops. Sun!",
+            "audio": "b4_u06_l5",
+            "ko": "비가 그쳐요. 해가 나요!"
           }
-        ]
+        ],
+        "video": "vid_b4_u06_1",
+        "ko": "요정 이가 반짝이 두 개를 하나로 합쳐요. 두 글자가 한 소리! \"rain!\" 하고 읽자 비가 그치고 작은 무지개가 떠요.",
+        "ask": [
+          {
+            "en": "What stops?",
+            "ko": "무엇이 그쳤어?"
+          },
+          {
+            "en": "What floats in the puddle?",
+            "ko": "물웅덩이에 뭐가 떠 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Two sparkles become one. The rain cloud shrinks away.",
+          "ko": "반짝이 둘이 하나가 돼요. 비구름이 작아져 사라져요.",
+          "audio": "scene_b4_u06_2_n"
+        }
       },
       {
         "id": "scene_b4_u06_3",
-        "desc": "{BUN} paints the train bright red with a brush; the rain washes the paint into puddles; clay dries on the wheels.",
+        "desc": "The little red toy train has grown big enough to ride: Bun, Hedgie, Pip and Beads sit in its open carriages and it chugs along the track out of the toy room and through a castle hallway, puffing little clouds. Bun waves; Hedgie holds on; Pip leans out, reading; Fairy E rides on the chimney. On the way they pass the blue jay sitting on the bale of hay and a little green lizard with a long curly tail. Hidden in the picture: the train, the jay, the hay, the tail. Grumble does NOT appear. No letters anywhere.",
         "hidden": [
-          "paint",
-          "clay"
+          "train",
+          "jay",
+          "hay",
+          "tail"
         ],
         "lines": [
           {
             "who": "bun",
-            "text": "Paint the train today!",
-            "audio": "b4_u06_l3"
+            "text": "We ride the train!",
+            "audio": "b4_u06_l6",
+            "ko": "우리 기차 탄다!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A jay on the hay!",
+            "audio": "b4_u06_l7",
+            "ko": "건초 위에 어치가 있어!"
+          },
+          {
+            "who": "pip",
+            "text": "Tra... in? Train! Train!",
+            "audio": "b4_u06_l8",
+            "ko": "트래… 인? 트레인! 트레인!"
           }
-        ]
+        ],
+        "video": "vid_b4_u06_2",
+        "ko": "장난감 기차가 커져서 모두 타고 복도를 달려요. 건초 위의 어치, 꼬리 긴 도마뱀이 보여요. 핍이 이번엔 \"트레인!\"",
+        "ask": [
+          {
+            "en": "What do they ride?",
+            "ko": "친구들은 뭘 타?"
+          },
+          {
+            "en": "Who is on the hay?",
+            "ko": "건초 위에 누가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Everyone rides the big train down the hall.",
+          "ko": "모두 커진 기차를 타고 복도를 달려요.",
+          "audio": "scene_b4_u06_3_n"
+        }
       },
       {
         "id": "scene_b4_u06_4",
-        "desc": "The sun comes out; the train chugs around the track carrying {PIP} and {jay}; a rainbow arches behind the castle.",
-        "hidden": [],
+        "desc": "The train stops in a bright play room where Grumble sits at a little table painting his small drum with red paint, with a lump of colorful clay and a tray of paint pots beside him. A last drop from the tiny cloud has splashed his fresh paint and dripped onto his nightcap; he frowns at the friends. Bun and Hedgie giggle; Pip reads proudly from the train; Fairy E hovers. Hidden in the picture: the paint, the clay, the tray, a nail in the table. No letters anywhere.",
+        "hidden": [
+          "paint",
+          "clay",
+          "tray",
+          "nail"
+        ],
         "lines": [
           {
-            "who": "pip",
-            "text": "No rain. We play on the train!",
-            "audio": "b4_u06_l4"
+            "who": "grumble",
+            "text": "Shh! My paint is wet!",
+            "audio": "b4_u06_l9",
+            "ko": "쉿! 내 물감이 젖었잖아!"
+          },
+          {
+            "who": "hedgie",
+            "text": "/eɪ/ /eɪ/ paint!",
+            "audio": "b4_u06_l10",
+            "ko": "ai, ai 물감!"
+          },
+          {
+            "who": "narrator",
+            "text": "A day to play!",
+            "audio": "b4_u06_l11",
+            "ko": "놀기 좋은 날이에요!"
           }
-        ]
+        ],
+        "ko": "놀이방에서 그럼블이 북에 빨간 물감을 칠하고 있었어요. 빗방울이 떨어져 \"쉿! 내 물감!\" 모두 깔깔 웃어요.",
+        "ask": [
+          {
+            "en": "What is Grumble painting?",
+            "ko": "그럼블은 뭘 칠하고 있어?"
+          },
+          {
+            "en": "Why is Grumble cross?",
+            "ko": "그럼블은 왜 찡그렸어?"
+          }
+        ],
+        "narr": {
+          "text": "A raindrop lands on Grumble's wet paint.",
+          "ko": "빗방울이 그럼블이 칠하던 물감에 뚝 떨어져요.",
+          "audio": "scene_b4_u06_4_n"
+        }
       }
-    ]
+    ],
+    "synopsis_ko": "장난감 방에 비구름이 들어와 장난감 기차에 비가 쏟아져요. 핍은 \"래-인?\" 하고 둘로 끊어 읽어요. 요정 이가 반짝이 두 개를 하나로 합치고 \"rain!\" 하자 비가 그쳐요. 기차가 커져서 모두 타고 달려요. 놀이방에서는 그럼블이 북에 물감을 칠하다 빗방울에 \"쉿!\"",
+    "so_far_ko": "핍이 첫 마법 단어 \"케이프!\"를 말해 금빛 문을 열었어요. 그럼블이 등불로 계단을 비춰 줬어요.",
+    "goal_ko": "두 모음이 한 소리를 내는 ai·ay 단어를 읽고 비를 그치게 해요."
   },
   "videos": [
     {
@@ -448,252 +582,6 @@
     ]
   },
   "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b4_u06_1",
-        "desc": "Rain falls on a small garden train on a track around the castle; {PIP}, {BUN} and {HED} wait with a tray of hay.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Rain on the train.",
-            "audio": "b4_u06_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u06_2",
-        "desc": "{jay} flies down and lands on the train's roof, shaking off water; its tail feathers drip. {HED} holds a nail and a sail.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "A jay! Play all day?",
-            "audio": "b4_u06_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u06_3",
-        "desc": "{BUN} paints the train bright red with a brush; the rain washes the paint into puddles; clay dries on the wheels.",
-        "lines": [
-          {
-            "who": "bun",
-            "text": "Paint the train today!",
-            "audio": "b4_u06_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u06_4",
-        "desc": "The sun comes out; the train chugs around the track carrying {PIP} and {jay}; a rainbow arches behind the castle.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "No rain. We play on the train!",
-            "audio": "b4_u06_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "story_v1": {
-    "title": "Rain on the Train",
-    "bgm": "bgm_b4_silly",
-    "panels": [
-      {
-        "id": "scene_b4_u06_1",
-        "desc": "A big toy room high in the castle. A toy train track runs around the room and a small red toy train with open carriages sits on it. A grey rain cloud has floated in through the window and pours rain right onto the train, and the carriages fill with water. A blue jay bird shelters under a wooden tray; a round bale of hay gets soggy. Bun holds her red cape over her head; Hedgie points at the cloud; Pip reads the word in two pieces, puzzled; Fairy E shakes water off her bubble wings. Hidden in the picture: the rain, the train, the tray, the jay, the hay. Grumble does NOT appear. No letters anywhere.",
-        "hidden": [
-          "rain",
-          "train",
-          "tray",
-          "jay",
-          "hay"
-        ],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "Look! Rain! Oh no!",
-            "audio": "b4_u06_l1",
-            "ko": "봐! 비야! 저런!"
-          },
-          {
-            "who": "hedgie",
-            "text": "The train is wet!",
-            "audio": "b4_u06_l2",
-            "ko": "기차가 다 젖었어!"
-          },
-          {
-            "who": "pip",
-            "text": "Ra... in? Ra-in?",
-            "audio": "b4_u06_l3",
-            "ko": "래… 인? 래-인?"
-          }
-        ],
-        "ko": "장난감 방에 비구름이 들어와 장난감 기차에 비가 쏟아져요. 핍은 두 모음을 따로 \"래-인?\" 하고 읽어요.",
-        "ask": [
-          {
-            "en": "What is on the train?",
-            "ko": "기차 위에 뭐가 내려?"
-          },
-          {
-            "en": "Where is the jay?",
-            "ko": "어치는 어디 숨었어?"
-          }
-        ],
-        "narr": {
-          "text": "A rain cloud pours on the toy train.",
-          "ko": "비구름이 장난감 기차에 비를 쏟아요.",
-          "audio": "scene_b4_u06_1_n"
-        }
-      },
-      {
-        "id": "scene_b4_u06_2",
-        "desc": "Fairy E touches two little sparkles together with her star wand and they melt into one big bright sparkle near the rain cloud. As the friends read the word, the cloud rains out its last drops and shrinks into a tiny puff with a small rainbow, and sunshine fills the toy room. A toy sailboat with a white sail floats in a puddle; a silver nail lies on the floor. Beads stands on the train engine clicking its beads; Bun and Hedgie cheer. Hidden in the picture: the rain, the sail, the train, the nail. Grumble does NOT appear. No letters anywhere.",
-        "hidden": [
-          "rain",
-          "sail",
-          "train",
-          "nail"
-        ],
-        "lines": [
-          {
-            "who": "fairy",
-            "text": "Eee! Two... one!",
-            "audio": "b4_u06_l4",
-            "ko": "이~! 둘이… 하나로!"
-          },
-          {
-            "who": "beads",
-            "text": "/r/ /eɪ/ /n/ rain!",
-            "audio": "blend_rain__beads",
-            "pop": "rain",
-            "ko": "r-ai-n 비!"
-          },
-          {
-            "who": "narrator",
-            "text": "The rain stops. Sun!",
-            "audio": "b4_u06_l5",
-            "ko": "비가 그쳐요. 해가 나요!"
-          }
-        ],
-        "video": "vid_b4_u06_1",
-        "ko": "요정 이가 반짝이 두 개를 하나로 합쳐요. 두 글자가 한 소리! \"rain!\" 하고 읽자 비가 그치고 작은 무지개가 떠요.",
-        "ask": [
-          {
-            "en": "What stops?",
-            "ko": "무엇이 그쳤어?"
-          },
-          {
-            "en": "What floats in the puddle?",
-            "ko": "물웅덩이에 뭐가 떠 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Two sparkles become one. The rain cloud shrinks away.",
-          "ko": "반짝이 둘이 하나가 돼요. 비구름이 작아져 사라져요.",
-          "audio": "scene_b4_u06_2_n"
-        }
-      },
-      {
-        "id": "scene_b4_u06_3",
-        "desc": "The little red toy train has grown big enough to ride: Bun, Hedgie, Pip and Beads sit in its open carriages and it chugs along the track out of the toy room and through a castle hallway, puffing little clouds. Bun waves; Hedgie holds on; Pip leans out, reading; Fairy E rides on the chimney. On the way they pass the blue jay sitting on the bale of hay and a little green lizard with a long curly tail. Hidden in the picture: the train, the jay, the hay, the tail. Grumble does NOT appear. No letters anywhere.",
-        "hidden": [
-          "train",
-          "jay",
-          "hay",
-          "tail"
-        ],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "We ride the train!",
-            "audio": "b4_u06_l6",
-            "ko": "우리 기차 탄다!"
-          },
-          {
-            "who": "hedgie",
-            "text": "A jay on the hay!",
-            "audio": "b4_u06_l7",
-            "ko": "건초 위에 어치가 있어!"
-          },
-          {
-            "who": "pip",
-            "text": "Tra... in? Train! Train!",
-            "audio": "b4_u06_l8",
-            "ko": "트래… 인? 트레인! 트레인!"
-          }
-        ],
-        "video": "vid_b4_u06_2",
-        "ko": "장난감 기차가 커져서 모두 타고 복도를 달려요. 건초 위의 어치, 꼬리 긴 도마뱀이 보여요. 핍이 이번엔 \"트레인!\"",
-        "ask": [
-          {
-            "en": "What do they ride?",
-            "ko": "친구들은 뭘 타?"
-          },
-          {
-            "en": "Who is on the hay?",
-            "ko": "건초 위에 누가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Everyone rides the big train down the hall.",
-          "ko": "모두 커진 기차를 타고 복도를 달려요.",
-          "audio": "scene_b4_u06_3_n"
-        }
-      },
-      {
-        "id": "scene_b4_u06_4",
-        "desc": "The train stops in a bright play room where Grumble sits at a little table painting his small drum with red paint, with a lump of colorful clay and a tray of paint pots beside him. A last drop from the tiny cloud has splashed his fresh paint and dripped onto his nightcap; he frowns at the friends. Bun and Hedgie giggle; Pip reads proudly from the train; Fairy E hovers. Hidden in the picture: the paint, the clay, the tray, a nail in the table. No letters anywhere.",
-        "hidden": [
-          "paint",
-          "clay",
-          "tray",
-          "nail"
-        ],
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh! My paint is wet!",
-            "audio": "b4_u06_l9",
-            "ko": "쉿! 내 물감이 젖었잖아!"
-          },
-          {
-            "who": "hedgie",
-            "text": "/eɪ/ /eɪ/ paint!",
-            "audio": "b4_u06_l10",
-            "ko": "ai, ai 물감!"
-          },
-          {
-            "who": "narrator",
-            "text": "A day to play!",
-            "audio": "b4_u06_l11",
-            "ko": "놀기 좋은 날이에요!"
-          }
-        ],
-        "ko": "놀이방에서 그럼블이 북에 빨간 물감을 칠하고 있었어요. 빗방울이 떨어져 \"쉿! 내 물감!\" 모두 깔깔 웃어요.",
-        "ask": [
-          {
-            "en": "What is Grumble painting?",
-            "ko": "그럼블은 뭘 칠하고 있어?"
-          },
-          {
-            "en": "Why is Grumble cross?",
-            "ko": "그럼블은 왜 찡그렸어?"
-          }
-        ],
-        "narr": {
-          "text": "A raindrop lands on Grumble's wet paint.",
-          "ko": "빗방울이 그럼블이 칠하던 물감에 뚝 떨어져요.",
-          "audio": "scene_b4_u06_4_n"
-        }
-      }
-    ],
-    "synopsis_ko": "장난감 방에 비구름이 들어와 장난감 기차에 비가 쏟아져요. 핍은 \"래-인?\" 하고 둘로 끊어 읽어요. 요정 이가 반짝이 두 개를 하나로 합치고 \"rain!\" 하자 비가 그쳐요. 기차가 커져서 모두 타고 달려요. 놀이방에서는 그럼블이 북에 물감을 칠하다 빗방울에 \"쉿!\"",
-    "so_far_ko": "핍이 첫 마법 단어 \"케이프!\"를 말해 금빛 문을 열었어요. 그럼블이 등불로 계단을 비춰 줬어요.",
-    "goal_ko": "두 모음이 한 소리를 내는 ai·ay 단어를 읽고 비를 그치게 해요."
-  },
-  "storybook_v1": {
     "pages": [
       {
         "id": "sb4_u06_1",

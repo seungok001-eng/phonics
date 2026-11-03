@@ -39,134 +39,6 @@
   "story": {
     "title": "The Magic Castle",
     "bgm": "bgm_b4_adventure",
-    "v2": true,
-    "panels": [
-      {
-        "id": "scene_b4_u00_1",
-        "desc": "{PIP}, {BUN} and {HED} walk up a path to a small round castle with a blue roof; the gate stands open.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "A castle!",
-            "audio": "b4_u00_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u00_2",
-        "desc": "{FAIRY}, a palm-sized fairy, peeks out from a flower in the courtyard and giggles; {PIP} flutters closer.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Hi! I am Fairy E.",
-            "audio": "b4_u00_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u00_3",
-        "desc": "{FAIRY} taps a flower with her wand and it turns into a big rose; {BUN} and {HED} gasp.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Wow! A rose!",
-            "audio": "b4_u00_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u00_4",
-        "desc": "{FAIRY} sits on {PIP}'s head like a tiny hat; {PIP} crosses its eyes to look up; {BUN} and {HED} laugh.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "pip",
-            "text": "A fairy on me!",
-            "audio": "b4_u00_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "videos": [
-    {
-      "id": "vid_b4_u00_1",
-      "from": "scene_b4_u00_1",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: the friends step out of the forest and look up at the tall castle on the hill, little flags flutter on the towers, the blue cap on the gate swings gently on its hook, the baby bird chirps one tiny glowing note. Camera slowly tilts up to the castle. Calm, curious, child-friendly. No text."
-    }
-  ],
-  "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b4_u00_1",
-        "desc": "{PIP}, {BUN} and {HED} walk up a path to a small round castle with a blue roof; the gate stands open.",
-        "lines": [
-          {
-            "who": "bun",
-            "text": "A castle!",
-            "audio": "b4_u00_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u00_2",
-        "desc": "{FAIRY}, a palm-sized fairy, peeks out from a flower in the courtyard and giggles; {PIP} flutters closer.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Hi! I am Fairy E.",
-            "audio": "b4_u00_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u00_3",
-        "desc": "{FAIRY} taps a flower with her wand and it turns into a big rose; {BUN} and {HED} gasp.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Wow! A rose!",
-            "audio": "b4_u00_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u00_4",
-        "desc": "{FAIRY} sits on {PIP}'s head like a tiny hat; {PIP} crosses its eyes to look up; {BUN} and {HED} laugh.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "A fairy on me!",
-            "audio": "b4_u00_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "review": {
-    "words": [
-      "ship",
-      "fish",
-      "chin",
-      "bath",
-      "duck",
-      "ring",
-      "clock",
-      "flag",
-      "crab",
-      "drum",
-      "tent",
-      "quilt"
-    ]
-  },
-  "story_v1": {
-    "title": "The Magic Castle",
-    "bgm": "bgm_b4_adventure",
     "panels": [
       {
         "id": "scene_b4_u00_1",
@@ -256,7 +128,15 @@
     "so_far_ko": "3권에서 친구들은 짝꿍 숲을 지나 노래 조각 셋을 찾았어요. 숲 끝에 성이 보이고, 성문의 단어가 눈앞에서 바뀌었어요.",
     "goal_ko": "마법 성에 닿아 새 친구 요정 이를 만나요."
   },
-  "storybook_v1": {
+  "videos": [
+    {
+      "id": "vid_b4_u00_1",
+      "from": "scene_b4_u00_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the friends step out of the forest and look up at the tall castle on the hill, little flags flutter on the towers, the blue cap on the gate swings gently on its hook, the baby bird chirps one tiny glowing note. Camera slowly tilts up to the castle. Calm, curious, child-friendly. No text."
+    }
+  ],
+  "storybook": {
     "pages": [
       {
         "id": "sb4_u00_1",
@@ -322,6 +202,22 @@
           "audio": "sb4_u00_2_n"
         }
       }
+    ]
+  },
+  "review": {
+    "words": [
+      "ship",
+      "fish",
+      "chin",
+      "bath",
+      "duck",
+      "ring",
+      "clock",
+      "flag",
+      "crab",
+      "drum",
+      "tent",
+      "quilt"
     ]
   }
 }

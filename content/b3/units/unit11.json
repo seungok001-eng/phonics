@@ -341,6 +341,11 @@
           "title": "Story"
         },
         {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
           "type": "review_bingo",
           "title": "Bingo"
         },
@@ -358,137 +363,6 @@
     }
   ],
   "story": {
-    "title": "The Forest Party",
-    "bgm": "bgm_b3_finale",
-    "v2": true,
-    "panels": [
-      {
-        "id": "scene_b3_u11_1",
-        "desc": "Lanterns in the forest trees; a long table on the footbridge; {PIP}, {BUN}, {HED} and {TWINS} set out a dish, chips and a drum.",
-        "hidden": [
-          "dish",
-          "chip",
-          "drum"
-        ],
-        "lines": [
-          {
-            "who": "both",
-            "text": "A forest party!",
-            "audio": "b3_u11_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u11_2",
-        "desc": "Guests arrive: {fish} in a bowl carried by {chimp}, {duck} with a crown, {crab}. {HED} waves them in.",
-        "hidden": [
-          "fish",
-          "chimp",
-          "crab"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "They are here!",
-            "audio": "b3_u11_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u11_3",
-        "desc": "{GRUMBLE} arrives on the rope swing, swinging over the table; everyone ducks; a snack flies.",
-        "hidden": [
-          "swing",
-          "snack"
-        ],
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh! I mean... hi!",
-            "audio": "b3_u11_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u11_4",
-        "desc": "Everyone dances on the bridge; {TWINS} sing together; {GRUMBLE} taps the drum with a tiny smile.",
-        "hidden": [
-          "song"
-        ],
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Sing with us, Grumble!",
-            "audio": "b3_u11_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "videos": [
-    {
-      "id": "vid_b3_u11_1",
-      "from": "scene_b3_u11_3",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: the raccoon beats the crab's drum with two sticks and his nightcap bounces, the crab clacks its claws in time, the friends and animals clap and dance in a circle under strings of little flags. Camera still. Festive, child-friendly. No text."
-    },
-    {
-      "id": "vid_b3_u11_2",
-      "from": "scene_b3_u11_4",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation at night: far away on a hill, the glowing letters on a castle gate shimmer and a tiny sparkle appears at their end; the friends at the forest edge lean forward, the raccoon raises his lantern, the twin bluebirds blink wide-eyed. Camera still. Mysterious but friendly, child-friendly. No other text."
-    }
-  ],
-  "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b3_u11_1",
-        "desc": "Lanterns in the forest trees; a long table on the footbridge; {PIP}, {BUN}, {HED} and {TWINS} set out a dish, chips and a drum.",
-        "lines": [
-          {
-            "who": "both",
-            "text": "A forest party!",
-            "audio": "b3_u11_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u11_2",
-        "desc": "Guests arrive: {fish} in a bowl carried by {chimp}, {duck} with a crown, {crab}. {HED} waves them in.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "They are here!",
-            "audio": "b3_u11_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u11_3",
-        "desc": "{GRUMBLE} arrives on the rope swing, swinging over the table; everyone ducks; a snack flies.",
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh! I mean... hi!",
-            "audio": "b3_u11_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u11_4",
-        "desc": "Everyone dances on the bridge; {TWINS} sing together; {GRUMBLE} taps the drum with a tiny smile.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Sing with us, Grumble!",
-            "audio": "b3_u11_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "story_v1": {
     "title": "The Forest Party",
     "bgm": "bgm_b3_finale",
     "panels": [
@@ -688,7 +562,21 @@
     "so_far_ko": "핍이 혼자 마지막 문을 열고 노래 조각 셋을 찾았어요. 그럼블도 따라 흥얼거렸어요.",
     "goal_ko": "파티에서 이어 소리·끝소리·wh·qu 를 복습하고 성문의 수수께끼를 봐요."
   },
-  "storybook_v1": {
+  "videos": [
+    {
+      "id": "vid_b3_u11_1",
+      "from": "scene_b3_u11_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the raccoon beats the crab's drum with two sticks and his nightcap bounces, the crab clacks its claws in time, the friends and animals clap and dance in a circle under strings of little flags. Camera still. Festive, child-friendly. No text."
+    },
+    {
+      "id": "vid_b3_u11_2",
+      "from": "scene_b3_u11_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation at night: far away on a hill, the glowing letters on a castle gate shimmer and a tiny sparkle appears at their end; the friends at the forest edge lean forward, the raccoon raises his lantern, the twin bluebirds blink wide-eyed. Camera still. Mysterious but friendly, child-friendly. No other text."
+    }
+  ],
+  "storybook": {
     "pages": [
       {
         "id": "sb3_u11_1",

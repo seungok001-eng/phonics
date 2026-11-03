@@ -322,6 +322,11 @@
           "title": "Story"
         },
         {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
           "type": "review_bingo",
           "title": "Bingo"
         },
@@ -339,130 +344,6 @@
     }
   ],
   "story": {
-    "title": "Pip's Magic Word",
-    "bgm": "bgm_bright",
-    "v2": true,
-    "panels": [
-      {
-        "id": "scene_b4_u05_1",
-        "desc": "{FAIRY} holds a tiny card for {PIP} in the courtyard; {BUN} and {HED} watch; a cap lies on the table.",
-        "hidden": [
-          "cap"
-        ],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Fairy E has a magic card.",
-            "audio": "b4_u05_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u05_2",
-        "desc": "{FAIRY} taps the cap with her wand; it becomes a cape again; {PIP} watches very closely.",
-        "hidden": [
-          "cape"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Cap... cape!",
-            "audio": "b4_u05_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u05_3",
-        "desc": "{PIP} taps a kit box with its wing; it turns into a kite; {PIP} jumps with joy.",
-        "hidden": [
-          "kite"
-        ],
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Kit... kite! I can make it!",
-            "audio": "b4_u05_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u05_4",
-        "desc": "{snake}, {mule}, {BUN}, {HED} and {FAIRY} cheer around {PIP} who holds the kite.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "both",
-            "text": "Pip can make magic words!",
-            "audio": "b4_u05_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "videos": [
-    {
-      "id": "vid_b4_u05_1",
-      "from": "scene_b4_u05_3",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: the baby bird opens its beak and bursts into golden light, a wave of sparkles flies onto the blue cap which swirls into a red cape by itself, the tall golden door swings open with light pouring out, the tiny fairy and the friends cheer. Camera still. Joyful, child-friendly. No text."
-    },
-    {
-      "id": "vid_b4_u05_2",
-      "from": "scene_b4_u05_4",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: the old raccoon in a blue robe raises his lantern and its warm glow spreads up a spiral stone staircase step by step, the friends wave and start climbing, the tiny fairy sits on his nightcap. Camera slowly tilts up the stairs. Calm, warm, child-friendly. No text."
-    }
-  ],
-  "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b4_u05_1",
-        "desc": "{FAIRY} holds a tiny card for {PIP} in the courtyard; {BUN} and {HED} watch; a cap lies on the table.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Fairy E has a magic card.",
-            "audio": "b4_u05_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u05_2",
-        "desc": "{FAIRY} taps the cap with her wand; it becomes a cape again; {PIP} watches very closely.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Cap... cape!",
-            "audio": "b4_u05_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u05_3",
-        "desc": "{PIP} taps a kit box with its wing; it turns into a kite; {PIP} jumps with joy.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Kit... kite! I can make it!",
-            "audio": "b4_u05_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u05_4",
-        "desc": "{snake}, {mule}, {BUN}, {HED} and {FAIRY} cheer around {PIP} who holds the kite.",
-        "lines": [
-          {
-            "who": "both",
-            "text": "Pip can make magic words!",
-            "audio": "b4_u05_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "story_v1": {
     "title": "Pip's Magic Word",
     "bgm": "bgm_bright",
     "panels": [
@@ -657,7 +538,21 @@
     "so_far_ko": "욕조가 튜브가 되어 모래 언덕 방으로 갔어요. 노새가 플루트를 불고 그럼블이 몰래 북을 쳤어요.",
     "goal_ko": "마법 e 단어를 복습하고 핍의 첫 마법 단어를 들어요."
   },
-  "storybook_v1": {
+  "videos": [
+    {
+      "id": "vid_b4_u05_1",
+      "from": "scene_b4_u05_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the baby bird opens its beak and bursts into golden light, a wave of sparkles flies onto the blue cap which swirls into a red cape by itself, the tall golden door swings open with light pouring out, the tiny fairy and the friends cheer. Camera still. Joyful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b4_u05_2",
+      "from": "scene_b4_u05_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the old raccoon in a blue robe raises his lantern and its warm glow spreads up a spiral stone staircase step by step, the friends wave and start climbing, the tiny fairy sits on his nightcap. Camera slowly tilts up the stairs. Calm, warm, child-friendly. No text."
+    }
+  ],
+  "storybook": {
     "pages": [
       {
         "id": "sb4_u05_1",

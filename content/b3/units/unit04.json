@@ -89,6 +89,11 @@
           "title": "Story"
         },
         {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -145,70 +150,202 @@
   "story": {
     "title": "The Duck King's Ring",
     "bgm": "bgm_bright",
-    "v2": true,
     "panels": [
       {
         "id": "scene_b3_u04_1",
-        "desc": "{duck} wears a small golden crown and looks under a rock for something; {PIP}, {BUN} and {HED} come to help. A sock and a lock lie on the path.",
+        "desc": "A sunny pond in the middle of the Pair Forest. A small yellow duck wearing a tiny golden crown — the Duck King — sits sadly on a big grey rock in the water, holding up one empty wing. On the bank stands a small wooden door with a golden padlock on it; the two letters c and k are carved on the door — the ONLY text allowed in the picture. Bun points at the padlock; Hedgie scratches his head; Pip says the two letters apart; Pim and Pam sit on the door frame. A red-and-white striped sock hangs on a reed. Hidden in the picture: the duck, the rock, the padlock, the striped sock, the little king with his crown. Grumble does NOT appear. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "duck",
           "rock",
+          "lock",
           "sock",
-          "lock"
+          "king"
         ],
         "lines": [
           {
+            "who": "bun",
+            "text": "What is that? A lock!",
+            "audio": "b3_u04_l1",
+            "ko": "저게 뭐지? 자물쇠야!"
+          },
+          {
             "who": "narrator",
-            "text": "What are you doing, King Duck?",
-            "audio": "b3_u04_l1"
+            "text": "The king is sad.",
+            "audio": "b3_u04_l2",
+            "ko": "왕이 슬퍼요."
+          },
+          {
+            "who": "pip",
+            "text": "C... k...? C... k...?",
+            "audio": "b3_u04_l3",
+            "ko": "크… 크…? 크… 크…?"
           }
-        ]
+        ],
+        "video": "vid_b3_u04_1",
+        "ko": "숲속 연못, 작은 왕관을 쓴 오리 왕이 바위 위에서 슬퍼해요. 둑에는 자물쇠 달린 c·k 문. 핍은 \"크… 크…\"",
+        "ask": [
+          {
+            "en": "Who is on the rock?",
+            "ko": "바위 위에 누가 있어?"
+          },
+          {
+            "en": "What is on the door?",
+            "ko": "문에 뭐가 달려 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A sad duck king. The little door has a lock.",
+          "ko": "슬픈 오리 왕이에요. 작은 문엔 자물쇠가 달렸어요.",
+          "audio": "scene_b3_u04_1_n"
+        }
       },
       {
         "id": "scene_b3_u04_2",
-        "desc": "{duck} points at his wing and then at the ground: a ring is missing. {HED} looks closely.",
+        "desc": "Pim and Pam say the sound together with one sharp click, and the golden padlock pops open and falls; the little door swings open. Inside is a tiny round room full of socks hanging on lines, and in the middle hangs one red-and-white striped sock with something glinting inside it. Beads holds up three beads; Bun and Hedgie lean in; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the duck. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
+        "hidden": [
+          "lock",
+          "sock",
+          "duck"
+        ],
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /k/ /k/ lock!",
+            "audio": "b3_u04_l4",
+            "pop": "ck",
+            "ko": "함께! ck, ck 자물쇠!"
+          },
+          {
+            "who": "beads",
+            "text": "/l/ /ɑ/ /k/ lock!",
+            "audio": "blend_lock__beads",
+            "pop": "lock",
+            "ko": "l-o-ck 자물쇠!"
+          },
+          {
+            "who": "narrator",
+            "text": "Click! Socks are in here!",
+            "audio": "b3_u04_l5",
+            "ko": "딸깍! 여기 양말들이 있어요!"
+          }
+        ],
+        "video": "vid_b3_u04_2",
+        "ko": "핌과 팜이 함께 ck! 딸깍, 자물쇠가 열려요. 문 안은 양말이 가득한 작은 방! 줄무늬 양말 하나가 반짝여요.",
+        "ask": [
+          {
+            "en": "What pops open?",
+            "ko": "뭐가 열렸어?"
+          },
+          {
+            "en": "What is in the room?",
+            "ko": "방 안에 뭐가 가득해?"
+          }
+        ],
+        "narr": {
+          "text": "The lock pops open. A room full of socks!",
+          "ko": "자물쇠가 딸깍 열려요. 양말이 가득한 방!",
+          "audio": "scene_b3_u04_2_n"
+        }
+      },
+      {
+        "id": "scene_b3_u04_3",
+        "desc": "Hedgie pulls the striped sock off its line and turns it upside down: a small gold ring with a blue gem drops into his paw, sparkling. Pim and Pam hum the sound together and the ring rings like a tiny bell, little sound waves around it; Pip, beak open, tries and says the two letters apart again; the Duck King claps his wings. Hidden in the picture: the ring, the sock, the little king with his crown, his wings. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
           "ring",
+          "sock",
+          "king",
           "wing"
         ],
         "lines": [
           {
             "who": "hedgie",
-            "text": "A ring? Where is the ring?",
-            "audio": "b3_u04_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u04_3",
-        "desc": "{PIP} sings loudly from a branch; birds sing back from the trees; a crow flies by with something shiny.",
-        "hidden": [
-          "song",
-          "sing"
-        ],
-        "lines": [
+            "text": "Look! A ring in a sock!",
+            "audio": "b3_u04_l6",
+            "ko": "봐! 양말 속에 반지!"
+          },
+          {
+            "who": "twins",
+            "text": "Together! /ŋ/ /ŋ/ ring!",
+            "audio": "b3_u04_l7",
+            "pop": "ng",
+            "ko": "함께! ng, ng 반지!"
+          },
           {
             "who": "pip",
-            "text": "Sing! Sing a song!",
-            "audio": "b3_u04_l3"
+            "text": "N... g...? N... g...?",
+            "audio": "b3_u04_l8",
+            "ko": "느… 그…? 느… 그…?"
           }
-        ]
+        ],
+        "ko": "헤지가 양말을 뒤집자 파란 보석 반지가 툭! 핌과 팜이 함께 ng~ 반지가 종처럼 울려요. 핍은 또 \"느… 그…\"",
+        "ask": [
+          {
+            "en": "What is in the sock?",
+            "ko": "양말 속에 뭐가 있었어?"
+          },
+          {
+            "en": "What does Pip say?",
+            "ko": "핍은 뭐라고 해?"
+          }
+        ],
+        "narr": {
+          "text": "A ring falls out of the sock. It rings!",
+          "ko": "양말에서 반지가 툭 떨어져요. 반지가 울려요!",
+          "audio": "scene_b3_u04_3_n"
+        }
       },
       {
         "id": "scene_b3_u04_4",
-        "desc": "A small bird drops the golden ring onto the duck king's wing; {duck} dances; {BUN} and {HED} clap.",
+        "desc": "The Duck King wears the ring on a ribbon around his neck, stands tall on the rock and spreads both wings wide, singing a happy song with colorful music notes floating up. Bun and Hedgie dance on the bank; Pim and Pam sing along; Beads sways. Up in the tree, Grumble leans over his branch with a paw at his mouth, but his eyes are closed and his foot taps to the song. Hidden in the picture: the duck, the ring, the wings, the song notes, the little king, the rock. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
         "hidden": [
-          "king"
+          "duck",
+          "ring",
+          "wing",
+          "song",
+          "king",
+          "rock"
         ],
         "lines": [
           {
+            "who": "narrator",
+            "text": "The king can sing a song!",
+            "audio": "b3_u04_l9",
+            "ko": "왕이 노래를 불러요!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! ... La, la...",
+            "audio": "b3_u04_l10",
+            "ko": "쉿! …라, 라…"
+          },
+          {
             "who": "both",
-            "text": "The ring is on the wing!",
-            "audio": "b3_u04_l4"
+            "text": "What a song! Quack!",
+            "audio": "b3_u04_l11",
+            "ko": "멋진 노래야! 꽥!"
           }
-        ]
+        ],
+        "ko": "오리 왕이 반지를 목에 걸고 날개를 활짝 펴 노래해요. 나무 위 그럼블은 \"쉿!\" 하면서도 발을 까딱까딱.",
+        "ask": [
+          {
+            "en": "What does the king do?",
+            "ko": "왕은 뭘 해?"
+          },
+          {
+            "en": "Does Grumble like the song?",
+            "ko": "그럼블은 노래가 좋은가 봐?"
+          }
+        ],
+        "narr": {
+          "text": "The Duck King sings. Grumble taps his foot.",
+          "ko": "오리 왕이 노래해요. 그럼블은 발을 까딱까딱.",
+          "audio": "scene_b3_u04_4_n"
+        }
       }
-    ]
+    ],
+    "synopsis_ko": "오리 왕의 반지가 자물쇠 달린 c·k 문 안에 있어요. 핌과 팜이 ck! 자물쇠가 열리고 양말 방에서 반지를 찾아요. ng~ 반지가 종처럼 울리고, 오리 왕이 노래해요. 나무 위 그럼블도 발을 까딱까딱.",
+    "so_far_ko": "가느다란 오솔길의 th 문을 열고, 진흙에 빠진 그럼블에게 거품 목욕을 해 줬어요.",
+    "goal_ko": "ck 와 ng 를 말해 자물쇠를 열고 오리 왕의 반지를 찾아요."
   },
   "videos": [
     {
@@ -447,255 +584,6 @@
     ]
   },
   "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b3_u04_1",
-        "desc": "{duck} wears a small golden crown and looks under a rock for something; {PIP}, {BUN} and {HED} come to help. A sock and a lock lie on the path.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "What are you doing, King Duck?",
-            "audio": "b3_u04_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u04_2",
-        "desc": "{duck} points at his wing and then at the ground: a ring is missing. {HED} looks closely.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "A ring? Where is the ring?",
-            "audio": "b3_u04_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u04_3",
-        "desc": "{PIP} sings loudly from a branch; birds sing back from the trees; a crow flies by with something shiny.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Sing! Sing a song!",
-            "audio": "b3_u04_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u04_4",
-        "desc": "A small bird drops the golden ring onto the duck king's wing; {duck} dances; {BUN} and {HED} clap.",
-        "lines": [
-          {
-            "who": "both",
-            "text": "The ring is on the wing!",
-            "audio": "b3_u04_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "story_v1": {
-    "title": "The Duck King's Ring",
-    "bgm": "bgm_bright",
-    "panels": [
-      {
-        "id": "scene_b3_u04_1",
-        "desc": "A sunny pond in the middle of the Pair Forest. A small yellow duck wearing a tiny golden crown — the Duck King — sits sadly on a big grey rock in the water, holding up one empty wing. On the bank stands a small wooden door with a golden padlock on it; the two letters c and k are carved on the door — the ONLY text allowed in the picture. Bun points at the padlock; Hedgie scratches his head; Pip says the two letters apart; Pim and Pam sit on the door frame. A red-and-white striped sock hangs on a reed. Hidden in the picture: the duck, the rock, the padlock, the striped sock, the little king with his crown. Grumble does NOT appear. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
-        "hidden": [
-          "duck",
-          "rock",
-          "lock",
-          "sock",
-          "king"
-        ],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "What is that? A lock!",
-            "audio": "b3_u04_l1",
-            "ko": "저게 뭐지? 자물쇠야!"
-          },
-          {
-            "who": "narrator",
-            "text": "The king is sad.",
-            "audio": "b3_u04_l2",
-            "ko": "왕이 슬퍼요."
-          },
-          {
-            "who": "pip",
-            "text": "C... k...? C... k...?",
-            "audio": "b3_u04_l3",
-            "ko": "크… 크…? 크… 크…?"
-          }
-        ],
-        "video": "vid_b3_u04_1",
-        "ko": "숲속 연못, 작은 왕관을 쓴 오리 왕이 바위 위에서 슬퍼해요. 둑에는 자물쇠 달린 c·k 문. 핍은 \"크… 크…\"",
-        "ask": [
-          {
-            "en": "Who is on the rock?",
-            "ko": "바위 위에 누가 있어?"
-          },
-          {
-            "en": "What is on the door?",
-            "ko": "문에 뭐가 달려 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A sad duck king. The little door has a lock.",
-          "ko": "슬픈 오리 왕이에요. 작은 문엔 자물쇠가 달렸어요.",
-          "audio": "scene_b3_u04_1_n"
-        }
-      },
-      {
-        "id": "scene_b3_u04_2",
-        "desc": "Pim and Pam say the sound together with one sharp click, and the golden padlock pops open and falls; the little door swings open. Inside is a tiny round room full of socks hanging on lines, and in the middle hangs one red-and-white striped sock with something glinting inside it. Beads holds up three beads; Bun and Hedgie lean in; the Duck King flaps over hopefully. Hidden in the picture: the open padlock, the socks, the duck. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
-        "hidden": [
-          "lock",
-          "sock",
-          "duck"
-        ],
-        "lines": [
-          {
-            "who": "twins",
-            "text": "Together! /k/ /k/ lock!",
-            "audio": "b3_u04_l4",
-            "pop": "ck",
-            "ko": "함께! ck, ck 자물쇠!"
-          },
-          {
-            "who": "beads",
-            "text": "/l/ /ɑ/ /k/ lock!",
-            "audio": "blend_lock__beads",
-            "pop": "lock",
-            "ko": "l-o-ck 자물쇠!"
-          },
-          {
-            "who": "narrator",
-            "text": "Click! Socks are in here!",
-            "audio": "b3_u04_l5",
-            "ko": "딸깍! 여기 양말들이 있어요!"
-          }
-        ],
-        "video": "vid_b3_u04_2",
-        "ko": "핌과 팜이 함께 ck! 딸깍, 자물쇠가 열려요. 문 안은 양말이 가득한 작은 방! 줄무늬 양말 하나가 반짝여요.",
-        "ask": [
-          {
-            "en": "What pops open?",
-            "ko": "뭐가 열렸어?"
-          },
-          {
-            "en": "What is in the room?",
-            "ko": "방 안에 뭐가 가득해?"
-          }
-        ],
-        "narr": {
-          "text": "The lock pops open. A room full of socks!",
-          "ko": "자물쇠가 딸깍 열려요. 양말이 가득한 방!",
-          "audio": "scene_b3_u04_2_n"
-        }
-      },
-      {
-        "id": "scene_b3_u04_3",
-        "desc": "Hedgie pulls the striped sock off its line and turns it upside down: a small gold ring with a blue gem drops into his paw, sparkling. Pim and Pam hum the sound together and the ring rings like a tiny bell, little sound waves around it; Pip, beak open, tries and says the two letters apart again; the Duck King claps his wings. Hidden in the picture: the ring, the sock, the little king with his crown, his wings. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
-        "hidden": [
-          "ring",
-          "sock",
-          "king",
-          "wing"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Look! A ring in a sock!",
-            "audio": "b3_u04_l6",
-            "ko": "봐! 양말 속에 반지!"
-          },
-          {
-            "who": "twins",
-            "text": "Together! /ŋ/ /ŋ/ ring!",
-            "audio": "b3_u04_l7",
-            "pop": "ng",
-            "ko": "함께! ng, ng 반지!"
-          },
-          {
-            "who": "pip",
-            "text": "N... g...? N... g...?",
-            "audio": "b3_u04_l8",
-            "ko": "느… 그…? 느… 그…?"
-          }
-        ],
-        "ko": "헤지가 양말을 뒤집자 파란 보석 반지가 툭! 핌과 팜이 함께 ng~ 반지가 종처럼 울려요. 핍은 또 \"느… 그…\"",
-        "ask": [
-          {
-            "en": "What is in the sock?",
-            "ko": "양말 속에 뭐가 있었어?"
-          },
-          {
-            "en": "What does Pip say?",
-            "ko": "핍은 뭐라고 해?"
-          }
-        ],
-        "narr": {
-          "text": "A ring falls out of the sock. It rings!",
-          "ko": "양말에서 반지가 툭 떨어져요. 반지가 울려요!",
-          "audio": "scene_b3_u04_3_n"
-        }
-      },
-      {
-        "id": "scene_b3_u04_4",
-        "desc": "The Duck King wears the ring on a ribbon around his neck, stands tall on the rock and spreads both wings wide, singing a happy song with colorful music notes floating up. Bun and Hedgie dance on the bank; Pim and Pam sing along; Beads sways. Up in the tree, Grumble leans over his branch with a paw at his mouth, but his eyes are closed and his foot taps to the song. Hidden in the picture: the duck, the ring, the wings, the song notes, the little king, the rock. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
-        "hidden": [
-          "duck",
-          "ring",
-          "wing",
-          "song",
-          "king",
-          "rock"
-        ],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "The king can sing a song!",
-            "audio": "b3_u04_l9",
-            "ko": "왕이 노래를 불러요!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! ... La, la...",
-            "audio": "b3_u04_l10",
-            "ko": "쉿! …라, 라…"
-          },
-          {
-            "who": "both",
-            "text": "What a song! Quack!",
-            "audio": "b3_u04_l11",
-            "ko": "멋진 노래야! 꽥!"
-          }
-        ],
-        "ko": "오리 왕이 반지를 목에 걸고 날개를 활짝 펴 노래해요. 나무 위 그럼블은 \"쉿!\" 하면서도 발을 까딱까딱.",
-        "ask": [
-          {
-            "en": "What does the king do?",
-            "ko": "왕은 뭘 해?"
-          },
-          {
-            "en": "Does Grumble like the song?",
-            "ko": "그럼블은 노래가 좋은가 봐?"
-          }
-        ],
-        "narr": {
-          "text": "The Duck King sings. Grumble taps his foot.",
-          "ko": "오리 왕이 노래해요. 그럼블은 발을 까딱까딱.",
-          "audio": "scene_b3_u04_4_n"
-        }
-      }
-    ],
-    "synopsis_ko": "오리 왕의 반지가 자물쇠 달린 c·k 문 안에 있어요. 핌과 팜이 ck! 자물쇠가 열리고 양말 방에서 반지를 찾아요. ng~ 반지가 종처럼 울리고, 오리 왕이 노래해요. 나무 위 그럼블도 발을 까딱까딱.",
-    "so_far_ko": "가느다란 오솔길의 th 문을 열고, 진흙에 빠진 그럼블에게 거품 목욕을 해 줬어요.",
-    "goal_ko": "ck 와 ng 를 말해 자물쇠를 열고 오리 왕의 반지를 찾아요."
-  },
-  "storybook_v1": {
     "pages": [
       {
         "id": "sb3_u04_1",

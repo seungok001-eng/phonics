@@ -12,18 +12,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:40",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b4_u08_l3",
  "sub": "line",
- "title": "4권 8유닛 대사 · 헤지: Snow! Go to the window!",
- "text": "Snow! Go to the window!",
+ "title": "4권 8유닛 대사 · 핍: Go... at? Go-at?",
+ "text": "Go... at? Go-at?",
  "voice": "Aoede",
- "who": "hedgie",
+ "who": "pip",
  "book": 4
 }

@@ -1,6 +1,6 @@
 {
   "unit": 11,
-  "title": "The Castle Party",
+  "title": "The Song Tree Sings",
   "title_ko": "노래 나무가 노래해요",
   "vowel": null,
   "families": [],
@@ -339,6 +339,11 @@
           "title": "Story"
         },
         {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
           "type": "review_bingo",
           "title": "Bingo"
         },
@@ -356,138 +361,6 @@
     }
   ],
   "story": {
-    "title": "The Castle Party",
-    "bgm": "bgm_b4_finale",
-    "v2": true,
-    "panels": [
-      {
-        "id": "scene_b4_u11_1",
-        "desc": "The castle courtyard lit with lanterns; {PIP}, {BUN}, {HED} and {FAIRY} set a table with a cake, a tray and a bowl.",
-        "hidden": [
-          "cake",
-          "tray",
-          "bowl"
-        ],
-        "lines": [
-          {
-            "who": "both",
-            "text": "A castle party!",
-            "audio": "b4_u11_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u11_2",
-        "desc": "Guests arrive: {snake} in a cape, {mule} with a flute, {goat} in a coat, {mouse} with a boot. {HED} waves.",
-        "hidden": [
-          "cape",
-          "flute",
-          "coat",
-          "boot"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Take a seat, everyone!",
-            "audio": "b4_u11_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u11_3",
-        "desc": "{GRUMBLE} arrives riding the garden train, lantern in paw, half asleep; everyone laughs kindly.",
-        "hidden": [
-          "train"
-        ],
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh... I came by train.",
-            "audio": "b4_u11_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u11_4",
-        "desc": "Everyone dances under the stars; {FAIRY} makes the fountain glow; {GRUMBLE} dozes on the couch with {PIP} on his nose.",
-        "hidden": [
-          "star",
-          "couch"
-        ],
-        "lines": [
-          {
-            "who": "pip",
-            "text": "We like this day!",
-            "audio": "b4_u11_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "videos": [
-    {
-      "id": "vid_b4_u11_1",
-      "from": "scene_b4_u11_3",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: four big golden music notes fly out of the singing baby bird into the giant tree's trunk, the tree lights up, green leaves and colorful flowers burst out across its branches, golden notes swirl, the friends sing and the raccoon beats his drum. Camera slowly pulls back to show the whole tree. Joyful, festive, child-friendly. No text."
-    },
-    {
-      "id": "vid_b4_u11_2",
-      "from": "scene_b4_u11_4",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: night under the glowing tree, golden notes drift like fireflies, the moon and stars twinkle, the old raccoon sleeps hugging his drum with a smile, the rabbit puts a finger to her lips, the baby bird sings softly on a branch. Camera still. Calm, warm, child-friendly. No text."
-    }
-  ],
-  "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b4_u11_1",
-        "desc": "The castle courtyard lit with lanterns; {PIP}, {BUN}, {HED} and {FAIRY} set a table with a cake, a tray and a bowl.",
-        "lines": [
-          {
-            "who": "both",
-            "text": "A castle party!",
-            "audio": "b4_u11_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u11_2",
-        "desc": "Guests arrive: {snake} in a cape, {mule} with a flute, {goat} in a coat, {mouse} with a boot. {HED} waves.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Take a seat, everyone!",
-            "audio": "b4_u11_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u11_3",
-        "desc": "{GRUMBLE} arrives riding the garden train, lantern in paw, half asleep; everyone laughs kindly.",
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh... I came by train.",
-            "audio": "b4_u11_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u11_4",
-        "desc": "Everyone dances under the stars; {FAIRY} makes the fountain glow; {GRUMBLE} dozes on the couch with {PIP} on his nose.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "We like this day!",
-            "audio": "b4_u11_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "story_v1": {
     "title": "The Song Tree Sings",
     "bgm": "bgm_b4_finale",
     "panels": [
@@ -684,7 +557,21 @@
     "so_far_ko": "꼭대기 방에서 노래 조각 넷을 찾았어요. 창밖 멀리 노래 나무가 보였어요.",
     "goal_ko": "모음 짝·ar·or 단어를 복습하고 노래 나무가 다시 노래하는 것을 봐요."
   },
-  "storybook_v1": {
+  "videos": [
+    {
+      "id": "vid_b4_u11_1",
+      "from": "scene_b4_u11_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: four big golden music notes fly out of the singing baby bird into the giant tree's trunk, the tree lights up, green leaves and colorful flowers burst out across its branches, golden notes swirl, the friends sing and the raccoon beats his drum. Camera slowly pulls back to show the whole tree. Joyful, festive, child-friendly. No text."
+    },
+    {
+      "id": "vid_b4_u11_2",
+      "from": "scene_b4_u11_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: night under the glowing tree, golden notes drift like fireflies, the moon and stars twinkle, the old raccoon sleeps hugging his drum with a smile, the rabbit puts a finger to her lips, the baby bird sings softly on a branch. Camera still. Calm, warm, child-friendly. No text."
+    }
+  ],
+  "storybook": {
     "pages": [
       {
         "id": "sb4_u11_1",

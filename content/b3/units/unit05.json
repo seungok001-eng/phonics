@@ -304,6 +304,11 @@
           "title": "Story"
         },
         {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
           "type": "review_bingo",
           "title": "Bingo"
         },
@@ -321,126 +326,6 @@
     }
   ],
   "story": {
-    "title": "Pip's First Pair",
-    "bgm": "bgm_bright",
-    "v2": true,
-    "panels": [
-      {
-        "id": "scene_b3_u05_1",
-        "desc": "{TWINS} sit on a log with {PIP} between them; {BUN} and {HED} watch from the grass.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Pim and Pam sit with Pip.",
-            "audio": "b3_u05_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u05_2",
-        "desc": "{TWINS} open their beaks together, making a quiet hushing shape; {PIP} copies with its wing on its beak.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "both",
-            "text": "Sh... sh... sh...",
-            "audio": "b3_u05_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u05_3",
-        "desc": "{PIP} points at the stream where {fish} jumps and shouts; {duck} with a crown looks over.",
-        "hidden": [
-          "fish"
-        ],
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Fish! Shh, fish!",
-            "audio": "b3_u05_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u05_4",
-        "desc": "{TWINS}, {BUN} and {HED} cheer; {duck} bows to {PIP}; the fish splashes happily.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "both",
-            "text": "Pip can say fish!",
-            "audio": "b3_u05_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "videos": [
-    {
-      "id": "vid_b3_u05_1",
-      "from": "scene_b3_u05_3",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: the old raccoon in the tree gives a big shush, the baby bird copies him and bursts into golden light with sparkles swirling from its beak, the round door flings open with a rush of leaves, the twin bluebirds leap up together and the friends cheer. Camera still. Joyful, child-friendly. No text."
-    },
-    {
-      "id": "vid_b3_u05_2",
-      "from": "scene_b3_u05_4",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation at dusk: the raccoon on a low branch slowly raises his lantern and its warm glow spreads along the path and the open doors; far off, the hands of a big wall clock on a tree trunk twitch and stop. Camera still. Calm, warm, child-friendly. No text."
-    }
-  ],
-  "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b3_u05_1",
-        "desc": "{TWINS} sit on a log with {PIP} between them; {BUN} and {HED} watch from the grass.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Pim and Pam sit with Pip.",
-            "audio": "b3_u05_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u05_2",
-        "desc": "{TWINS} open their beaks together, making a quiet hushing shape; {PIP} copies with its wing on its beak.",
-        "lines": [
-          {
-            "who": "both",
-            "text": "Sh... sh... sh...",
-            "audio": "b3_u05_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u05_3",
-        "desc": "{PIP} points at the stream where {fish} jumps and shouts; {duck} with a crown looks over.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Fish! Shh, fish!",
-            "audio": "b3_u05_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u05_4",
-        "desc": "{TWINS}, {BUN} and {HED} cheer; {duck} bows to {PIP}; the fish splashes happily.",
-        "lines": [
-          {
-            "who": "both",
-            "text": "Pip can say fish!",
-            "audio": "b3_u05_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "story_v1": {
     "title": "Pip's First Pair",
     "bgm": "bgm_bright",
     "panels": [
@@ -635,7 +520,21 @@
     "so_far_ko": "오리 왕의 반지를 양말 속에서 찾아 줬어요. sh·ch·th·ck·ng 짝꿍 다섯을 배웠어요.",
     "goal_ko": "짝꿍 소리를 복습하고 핍의 첫 짝꿍 소리를 들어요."
   },
-  "storybook_v1": {
+  "videos": [
+    {
+      "id": "vid_b3_u05_1",
+      "from": "scene_b3_u05_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the old raccoon in the tree gives a big shush, the baby bird copies him and bursts into golden light with sparkles swirling from its beak, the round door flings open with a rush of leaves, the twin bluebirds leap up together and the friends cheer. Camera still. Joyful, child-friendly. No text."
+    },
+    {
+      "id": "vid_b3_u05_2",
+      "from": "scene_b3_u05_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation at dusk: the raccoon on a low branch slowly raises his lantern and its warm glow spreads along the path and the open doors; far off, the hands of a big wall clock on a tree trunk twitch and stop. Camera still. Calm, warm, child-friendly. No text."
+    }
+  ],
+  "storybook": {
     "pages": [
       {
         "id": "sb3_u05_1",

@@ -46,19 +46,18 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:38",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "b3_u10_l4",
  "sub": "line",
- "title": "3권 10유닛 대사 · 핍: Where? There! A castle!",
- "text": "Where? There! A castle!",
+ "title": "3권 10유닛 대사 · 핌과 팜: Together! /kw/ /kw/ quilt!",
+ "text": "Together! /kw/ /kw/ quilt!",
  "voice": "Laomedeia",
- "who": "pip",
- "book": 3,
- "busy": 1
+ "who": "twins",
+ "book": 3
 }

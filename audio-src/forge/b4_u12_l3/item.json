@@ -29,18 +29,18 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:42",
  "text_edited": false,
  "error": "",
  "unit": 12,
  "letter": null,
  "id": "b4_u12_l3",
  "sub": "line",
- "title": "4권 12유닛 대사 · 그럼블: Oops. Thank you, Fairy.",
- "text": "Oops. Thank you, Fairy.",
+ "title": "4권 12유닛 대사 · 요정 이: Eee! Cape, kite, rope, cube!",
+ "text": "Eee! Cape, kite, rope, cube!",
  "voice": "Autonoe",
- "who": "grumble",
+ "who": "fairy",
  "book": 4
 }

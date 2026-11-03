@@ -87,6 +87,11 @@
           "title": "Story"
         },
         {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -143,71 +148,200 @@
   "story": {
     "title": "A Goat in a Boat",
     "bgm": "bgm_b4_adventure",
-    "v2": true,
     "panels": [
       {
         "id": "scene_b4_u08_1",
-        "desc": "{goat} sits in a small wooden boat on the castle moat wearing a coat; {PIP}, {BUN} and {HED} watch from the road. A bar of soap floats by.",
+        "desc": "A high stone bridge between two castle towers in heavy snow. The middle of the bridge has fallen away, and far below is a wide moat of dark water between the towers; a stone stair leads down to the water's edge. A white goat with small horns and a little beard stands shivering in the snow; a black crow perches on the bridge rail. Bun wraps her red cape around Pip; Hedgie points down at the water; Pip reads in pieces; Fairy E catches snowflakes. Far below, a snowy road winds away. Hidden in the picture: the snow, the goat, the crow, the road. Grumble does NOT appear. No letters anywhere.",
         "hidden": [
+          "snow",
           "goat",
-          "boat",
-          "coat",
-          "road",
-          "soap"
+          "crow",
+          "road"
         ],
         "lines": [
           {
             "who": "narrator",
-            "text": "A goat in a boat.",
-            "audio": "b4_u08_l1"
+            "text": "Snow! Snow! Brr!",
+            "audio": "b4_u08_l1",
+            "ko": "눈! 눈! 으슬으슬!"
+          },
+          {
+            "who": "bun",
+            "text": "A goat in the snow!",
+            "audio": "b4_u08_l2",
+            "ko": "눈 속에 염소가 있어!"
+          },
+          {
+            "who": "pip",
+            "text": "Go... at? Go-at?",
+            "audio": "b4_u08_l3",
+            "ko": "고… 앳? 고-앳?"
           }
-        ]
+        ],
+        "ko": "눈 오는 날, 두 탑 사이 돌다리 가운데가 끊겨 있어요. 아래는 넓은 해자 물. 눈 속에서 염소가 떨어요. 핍은 \"고-앳?\"",
+        "ask": [
+          {
+            "en": "What is falling?",
+            "ko": "하늘에서 뭐가 내려?"
+          },
+          {
+            "en": "Who is in the snow?",
+            "ko": "눈 속에 누가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Snow falls. The bridge is broken. A goat shivers.",
+          "ko": "눈이 내려요. 다리가 끊겼어요. 염소가 떨어요.",
+          "audio": "scene_b4_u08_1_n"
+        }
       },
       {
         "id": "scene_b4_u08_2",
-        "desc": "{crow} lands on the boat's bow with a slice of toast; the goat tries to grab it; the boat rocks.",
+        "desc": "At the bottom of the stone stair, by the dark moat water, Fairy E touches two little sparkles together with her star wand and they melt into one big bright sparkle that drops onto the water. As the friends read the word, a small red rowing boat with two oars rises up out of the water with a splash, shaking off snow. Beads hops in first; Bun and Hedgie cheer; the goat peeks from behind them. Hidden in the picture: the boat, the snow, the goat. Grumble does NOT appear. No letters anywhere.",
         "hidden": [
-          "crow",
-          "bow",
-          "toast"
+          "boat",
+          "snow",
+          "goat"
         ],
         "lines": [
           {
-            "who": "bun",
-            "text": "Go slow, goat!",
-            "audio": "b4_u08_l2"
+            "who": "fairy",
+            "text": "Eee! Look!",
+            "audio": "b4_u08_l4",
+            "ko": "이~! 봐!"
+          },
+          {
+            "who": "beads",
+            "text": "/b/ /oʊ/ /t/ boat!",
+            "audio": "blend_boat__beads",
+            "pop": "boat",
+            "ko": "b-oa-t 배!"
+          },
+          {
+            "who": "narrator",
+            "text": "A boat! Get in!",
+            "audio": "b4_u08_l5",
+            "ko": "배다! 어서 타요!"
           }
-        ]
+        ],
+        "video": "vid_b4_u08_1",
+        "ko": "반짝이 둘이 하나가 되어 물에 퐁! \"boat!\" 하자 빨간 배가 물 위로 솟아올라요.",
+        "ask": [
+          {
+            "en": "What comes out of the water?",
+            "ko": "물에서 뭐가 나왔어?"
+          },
+          {
+            "en": "Who hops in first?",
+            "ko": "누가 먼저 올라타?"
+          }
+        ],
+        "narr": {
+          "text": "Two sparkles become one. A red boat pops up!",
+          "ko": "반짝이 둘이 하나로! 빨간 배가 쑥 솟아요!",
+          "audio": "scene_b4_u08_2_n"
+        }
       },
       {
         "id": "scene_b4_u08_3",
-        "desc": "Snow begins to fall on the moat; the goat shivers in its coat; {HED} holds out a bowl of warm soup from a window.",
+        "desc": "The red rowing boat glides slowly across the moat through falling snow. Bun rows with the two oars; Hedgie sits in the middle; the white goat sits at the front, now wearing a long red winter coat; the black crow rides on the front of the boat with a big red ribbon bow tied around its neck; Pip, on the goat's head, reads. A pink bar of soap bobs in the water. Hidden in the picture: the boat, the goat, the coat, the crow, the ribbon bow, the soap. Grumble does NOT appear. No letters anywhere.",
         "hidden": [
-          "snow",
-          "bowl",
-          "window"
+          "boat",
+          "goat",
+          "coat",
+          "crow",
+          "bow",
+          "soap"
         ],
         "lines": [
           {
             "who": "hedgie",
-            "text": "Snow! Go to the window!",
-            "audio": "b4_u08_l3"
+            "text": "Slow! Go slow!",
+            "audio": "b4_u08_l6",
+            "ko": "천천히! 천천히 가!"
+          },
+          {
+            "who": "bun",
+            "text": "/oʊ/ /oʊ/ coat!",
+            "audio": "b4_u08_l7",
+            "ko": "oa, oa 외투!"
+          },
+          {
+            "who": "pip",
+            "text": "Goat! A goat in a coat!",
+            "audio": "b4_u08_l8",
+            "ko": "염소! 외투 입은 염소!"
           }
-        ]
+        ],
+        "video": "vid_b4_u08_2",
+        "ko": "배가 눈 속을 천천히 건너요. 외투 입은 염소, 리본 맨 까마귀도 함께예요. 핍이 이번엔 \"염소!\" 하고 바로 읽어요.",
+        "ask": [
+          {
+            "en": "Who wears a coat?",
+            "ko": "누가 외투를 입었어?"
+          },
+          {
+            "en": "What is in the water?",
+            "ko": "물에 뭐가 떠 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Bun rows the boat. The goat wears a coat.",
+          "ko": "번이 노를 저어요. 염소는 외투를 입었어요.",
+          "audio": "scene_b4_u08_3_n"
+        }
       },
       {
         "id": "scene_b4_u08_4",
-        "desc": "{goat} and {crow} share the soup in the boat under falling snow; {PIP} rows the boat slowly with a spoon.",
-        "hidden": [],
+        "desc": "The far side of the moat: a warm little stone room with a crackling fire. Grumble, wrapped in a long coat over his robe, waits at the door holding out a yellow bowl piled with golden toast; his small drum sits by the fire with a big red ribbon bow on it. The friends step out of the boat rubbing their paws; the goat and the crow follow. Hidden in the picture: the toast, the bowl, the ribbon bow, the coat, the boat. No letters anywhere. Also clearly visible in the picture (each character only once): Pip the little yellow bird, fluttering close to the others.",
+        "hidden": [
+          "toast",
+          "bowl",
+          "bow",
+          "coat",
+          "boat"
+        ],
         "lines": [
           {
+            "who": "grumble",
+            "text": "Shh... Toast? Eat, eat.",
+            "audio": "b4_u08_l9",
+            "ko": "쉿… 토스트 먹을래? 먹어, 먹어."
+          },
+          {
+            "who": "narrator",
+            "text": "Toast in a bowl? Ha!",
+            "audio": "b4_u08_l10",
+            "ko": "그릇에 토스트? 하하!"
+          },
+          {
             "who": "pip",
-            "text": "Row slow. Go, go, go!",
-            "audio": "b4_u08_l4"
+            "text": "Toast! Snow! Boat! Goat!",
+            "audio": "b4_u08_l11",
+            "ko": "토스트! 눈! 배! 염소!"
           }
-        ]
+        ],
+        "ko": "건너편 따뜻한 방에서 그럼블이 그릇에 토스트를 담아 기다려요. 그릇에 토스트라니! 모두 웃어요.",
+        "ask": [
+          {
+            "en": "What does Grumble give?",
+            "ko": "그럼블이 뭘 줘?"
+          },
+          {
+            "en": "What is on the drum?",
+            "ko": "북에 뭐가 달려 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A warm fire! Grumble has a bowl of toast.",
+          "ko": "따뜻한 불! 그럼블이 토스트 한 그릇을 들고 있어요.",
+          "audio": "scene_b4_u08_4_n"
+        }
       }
-    ]
+    ],
+    "synopsis_ko": "눈 오는 날, 두 탑 사이 돌다리가 끊겨 있어요. 아래는 넓은 해자 물. 핍은 \"고-앳?\" 요정 이가 반짝이 둘을 하나로 합치고 \"boat!\" 하자 빨간 배가 떠올라요. 외투 입은 염소, 리본 맨 까마귀와 함께 천천히 건너요. 건너편에서 그럼블이 토스트를 그릇에 담아 기다려요.",
+    "so_far_ko": "잎 없는 나무를 깨웠어요. 그럼블이 차를 가져와 함께 마셨어요.",
+    "goal_ko": "두 모음이 한 소리를 내는 oa·ow 단어를 읽고 배로 해자를 건너요."
   },
   "videos": [
     {
@@ -448,253 +582,6 @@
     ]
   },
   "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b4_u08_1",
-        "desc": "{goat} sits in a small wooden boat on the castle moat wearing a coat; {PIP}, {BUN} and {HED} watch from the road. A bar of soap floats by.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "A goat in a boat.",
-            "audio": "b4_u08_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u08_2",
-        "desc": "{crow} lands on the boat's bow with a slice of toast; the goat tries to grab it; the boat rocks.",
-        "lines": [
-          {
-            "who": "bun",
-            "text": "Go slow, goat!",
-            "audio": "b4_u08_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u08_3",
-        "desc": "Snow begins to fall on the moat; the goat shivers in its coat; {HED} holds out a bowl of warm soup from a window.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Snow! Go to the window!",
-            "audio": "b4_u08_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u08_4",
-        "desc": "{goat} and {crow} share the soup in the boat under falling snow; {PIP} rows the boat slowly with a spoon.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Row slow. Go, go, go!",
-            "audio": "b4_u08_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "story_v1": {
-    "title": "A Goat in a Boat",
-    "bgm": "bgm_b4_adventure",
-    "panels": [
-      {
-        "id": "scene_b4_u08_1",
-        "desc": "A high stone bridge between two castle towers in heavy snow. The middle of the bridge has fallen away, and far below is a wide moat of dark water between the towers; a stone stair leads down to the water's edge. A white goat with small horns and a little beard stands shivering in the snow; a black crow perches on the bridge rail. Bun wraps her red cape around Pip; Hedgie points down at the water; Pip reads in pieces; Fairy E catches snowflakes. Far below, a snowy road winds away. Hidden in the picture: the snow, the goat, the crow, the road. Grumble does NOT appear. No letters anywhere.",
-        "hidden": [
-          "snow",
-          "goat",
-          "crow",
-          "road"
-        ],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Snow! Snow! Brr!",
-            "audio": "b4_u08_l1",
-            "ko": "눈! 눈! 으슬으슬!"
-          },
-          {
-            "who": "bun",
-            "text": "A goat in the snow!",
-            "audio": "b4_u08_l2",
-            "ko": "눈 속에 염소가 있어!"
-          },
-          {
-            "who": "pip",
-            "text": "Go... at? Go-at?",
-            "audio": "b4_u08_l3",
-            "ko": "고… 앳? 고-앳?"
-          }
-        ],
-        "ko": "눈 오는 날, 두 탑 사이 돌다리 가운데가 끊겨 있어요. 아래는 넓은 해자 물. 눈 속에서 염소가 떨어요. 핍은 \"고-앳?\"",
-        "ask": [
-          {
-            "en": "What is falling?",
-            "ko": "하늘에서 뭐가 내려?"
-          },
-          {
-            "en": "Who is in the snow?",
-            "ko": "눈 속에 누가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Snow falls. The bridge is broken. A goat shivers.",
-          "ko": "눈이 내려요. 다리가 끊겼어요. 염소가 떨어요.",
-          "audio": "scene_b4_u08_1_n"
-        }
-      },
-      {
-        "id": "scene_b4_u08_2",
-        "desc": "At the bottom of the stone stair, by the dark moat water, Fairy E touches two little sparkles together with her star wand and they melt into one big bright sparkle that drops onto the water. As the friends read the word, a small red rowing boat with two oars rises up out of the water with a splash, shaking off snow. Beads hops in first; Bun and Hedgie cheer; the goat peeks from behind them. Hidden in the picture: the boat, the snow, the goat. Grumble does NOT appear. No letters anywhere.",
-        "hidden": [
-          "boat",
-          "snow",
-          "goat"
-        ],
-        "lines": [
-          {
-            "who": "fairy",
-            "text": "Eee! Look!",
-            "audio": "b4_u08_l4",
-            "ko": "이~! 봐!"
-          },
-          {
-            "who": "beads",
-            "text": "/b/ /oʊ/ /t/ boat!",
-            "audio": "blend_boat__beads",
-            "pop": "boat",
-            "ko": "b-oa-t 배!"
-          },
-          {
-            "who": "narrator",
-            "text": "A boat! Get in!",
-            "audio": "b4_u08_l5",
-            "ko": "배다! 어서 타요!"
-          }
-        ],
-        "video": "vid_b4_u08_1",
-        "ko": "반짝이 둘이 하나가 되어 물에 퐁! \"boat!\" 하자 빨간 배가 물 위로 솟아올라요.",
-        "ask": [
-          {
-            "en": "What comes out of the water?",
-            "ko": "물에서 뭐가 나왔어?"
-          },
-          {
-            "en": "Who hops in first?",
-            "ko": "누가 먼저 올라타?"
-          }
-        ],
-        "narr": {
-          "text": "Two sparkles become one. A red boat pops up!",
-          "ko": "반짝이 둘이 하나로! 빨간 배가 쑥 솟아요!",
-          "audio": "scene_b4_u08_2_n"
-        }
-      },
-      {
-        "id": "scene_b4_u08_3",
-        "desc": "The red rowing boat glides slowly across the moat through falling snow. Bun rows with the two oars; Hedgie sits in the middle; the white goat sits at the front, now wearing a long red winter coat; the black crow rides on the front of the boat with a big red ribbon bow tied around its neck; Pip, on the goat's head, reads. A pink bar of soap bobs in the water. Hidden in the picture: the boat, the goat, the coat, the crow, the ribbon bow, the soap. Grumble does NOT appear. No letters anywhere.",
-        "hidden": [
-          "boat",
-          "goat",
-          "coat",
-          "crow",
-          "bow",
-          "soap"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Slow! Go slow!",
-            "audio": "b4_u08_l6",
-            "ko": "천천히! 천천히 가!"
-          },
-          {
-            "who": "bun",
-            "text": "/oʊ/ /oʊ/ coat!",
-            "audio": "b4_u08_l7",
-            "ko": "oa, oa 외투!"
-          },
-          {
-            "who": "pip",
-            "text": "Goat! A goat in a coat!",
-            "audio": "b4_u08_l8",
-            "ko": "염소! 외투 입은 염소!"
-          }
-        ],
-        "video": "vid_b4_u08_2",
-        "ko": "배가 눈 속을 천천히 건너요. 외투 입은 염소, 리본 맨 까마귀도 함께예요. 핍이 이번엔 \"염소!\" 하고 바로 읽어요.",
-        "ask": [
-          {
-            "en": "Who wears a coat?",
-            "ko": "누가 외투를 입었어?"
-          },
-          {
-            "en": "What is in the water?",
-            "ko": "물에 뭐가 떠 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Bun rows the boat. The goat wears a coat.",
-          "ko": "번이 노를 저어요. 염소는 외투를 입었어요.",
-          "audio": "scene_b4_u08_3_n"
-        }
-      },
-      {
-        "id": "scene_b4_u08_4",
-        "desc": "The far side of the moat: a warm little stone room with a crackling fire. Grumble, wrapped in a long coat over his robe, waits at the door holding out a yellow bowl piled with golden toast; his small drum sits by the fire with a big red ribbon bow on it. The friends step out of the boat rubbing their paws; the goat and the crow follow. Hidden in the picture: the toast, the bowl, the ribbon bow, the coat, the boat. No letters anywhere. Also clearly visible in the picture (each character only once): Pip the little yellow bird, fluttering close to the others.",
-        "hidden": [
-          "toast",
-          "bowl",
-          "bow",
-          "coat",
-          "boat"
-        ],
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh... Toast? Eat, eat.",
-            "audio": "b4_u08_l9",
-            "ko": "쉿… 토스트 먹을래? 먹어, 먹어."
-          },
-          {
-            "who": "narrator",
-            "text": "Toast in a bowl? Ha!",
-            "audio": "b4_u08_l10",
-            "ko": "그릇에 토스트? 하하!"
-          },
-          {
-            "who": "pip",
-            "text": "Toast! Snow! Boat! Goat!",
-            "audio": "b4_u08_l11",
-            "ko": "토스트! 눈! 배! 염소!"
-          }
-        ],
-        "ko": "건너편 따뜻한 방에서 그럼블이 그릇에 토스트를 담아 기다려요. 그릇에 토스트라니! 모두 웃어요.",
-        "ask": [
-          {
-            "en": "What does Grumble give?",
-            "ko": "그럼블이 뭘 줘?"
-          },
-          {
-            "en": "What is on the drum?",
-            "ko": "북에 뭐가 달려 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A warm fire! Grumble has a bowl of toast.",
-          "ko": "따뜻한 불! 그럼블이 토스트 한 그릇을 들고 있어요.",
-          "audio": "scene_b4_u08_4_n"
-        }
-      }
-    ],
-    "synopsis_ko": "눈 오는 날, 두 탑 사이 돌다리가 끊겨 있어요. 아래는 넓은 해자 물. 핍은 \"고-앳?\" 요정 이가 반짝이 둘을 하나로 합치고 \"boat!\" 하자 빨간 배가 떠올라요. 외투 입은 염소, 리본 맨 까마귀와 함께 천천히 건너요. 건너편에서 그럼블이 토스트를 그릇에 담아 기다려요.",
-    "so_far_ko": "잎 없는 나무를 깨웠어요. 그럼블이 차를 가져와 함께 마셨어요.",
-    "goal_ko": "두 모음이 한 소리를 내는 oa·ow 단어를 읽고 배로 해자를 건너요."
-  },
-  "storybook_v1": {
     "pages": [
       {
         "id": "sb4_u08_1",

@@ -46,19 +46,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:37",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b3_u09_l3",
  "sub": "line",
- "title": "3권 9유닛 대사 · 번: What do ants do? They eat!",
- "text": "What do ants do? They eat!",
+ "title": "3권 9유닛 대사 · 핍: Tn? Tn? Tnet?",
+ "text": "Tn? Tn? Tnet?",
  "voice": "Aoede",
- "who": "bun",
- "book": 3,
- "busy": 1
+ "who": "pip",
+ "book": 3
 }

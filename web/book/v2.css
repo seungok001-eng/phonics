@@ -293,3 +293,8 @@ body:not(.teacher) .kohelp, body:not(.teacher) .nk { display: none !important; }
 .t-check .body, .t-review_test .body { gap: 10px; } .t-check .opt .pic { height: 58px; } .t-check .match .it .pic { height: 40px; } .t-check .lc-row { gap: 10px; } .t-check .check-sec { gap: 6px; }
 .t-review_test .write-it .pic { height: 48px; } .t-review_test .write-it .box { height: 32px; } .t-review_test .check-sec { gap: 4px 12px; } .t-review_test .opt .pic { height: 50px; }
 .path26 .lt { font-size: 26px; aspect-ratio: 1.12; } .sort.rv .bin { min-height: 134px; }
+/* 2권 QA 보정 */
+.t-review_test .match.m2 .it .pic { height: 40px; } .t-review_test .match.m2 .it { padding: 1px; font-size: 20px; } .t-review_test .match { gap: 8px; }
+.write-row.w2 .write-it.w2 .pic, .write-row.w2.g4 .write-it.w2 .pic, .t-check .write-row.w2.g4 .write-it.w2 .pic, .t-review_test .write-row.w2.g4 .write-it.w2 .pic { height: 60px; }
+.write-it.w2 { padding: 6px; gap: 4px; } .boxes span { height: 38px; } .boxes.n4 span, .boxes.n5 span { height: 36px; }
+.sort.rv .bin { min-height: 108px; } .sort.rv .wd { font-size: 19px; padding: 2px 10px; }

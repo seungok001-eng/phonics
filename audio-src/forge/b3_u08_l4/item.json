@@ -52,19 +52,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:37",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b3_u08_l4",
  "sub": "line",
- "title": "3권 8유닛 대사 · 핍: Grumble can swim for one snack!",
- "text": "Grumble can swim for one snack!",
+ "title": "3권 8유닛 대사 · 핌과 팜: Together! /sw/ /sw/ swing!",
+ "text": "Together! /sw/ /sw/ swing!",
  "voice": "Laomedeia",
- "who": "pip",
- "book": 3,
- "busy": 1
+ "who": "twins",
+ "book": 3
 }

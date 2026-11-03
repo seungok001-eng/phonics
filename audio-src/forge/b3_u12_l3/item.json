@@ -29,19 +29,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:38",
  "text_edited": false,
  "error": "",
  "unit": 12,
  "letter": null,
  "id": "b3_u12_l3",
  "sub": "line",
- "title": "3권 12유닛 대사 · 그럼블: They are stuck!",
- "text": "They are stuck!",
+ "title": "3권 12유닛 대사 · 함께: We can read! Hooray!",
+ "text": "We can read! Hooray!",
  "voice": "Kore",
- "who": "grumble",
- "book": 3,
- "busy": 1
+ "who": "both",
+ "book": 3
 }

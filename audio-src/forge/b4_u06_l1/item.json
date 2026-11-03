@@ -12,18 +12,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:40",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b4_u06_l1",
  "sub": "line",
- "title": "4권 6유닛 대사 · 해설: Rain on the train.",
- "text": "Rain on the train.",
+ "title": "4권 6유닛 대사 · 번: Look! Rain! Oh no!",
+ "text": "Look! Rain! Oh no!",
  "voice": "Leda",
- "who": "narrator",
+ "who": "bun",
  "book": 4
 }

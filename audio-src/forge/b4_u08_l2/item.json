@@ -12,17 +12,17 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:40",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b4_u08_l2",
  "sub": "line",
- "title": "4권 8유닛 대사 · 번: Go slow, goat!",
- "text": "Go slow, goat!",
+ "title": "4권 8유닛 대사 · 번: A goat in the snow!",
+ "text": "A goat in the snow!",
  "voice": "Leda",
  "who": "bun",
  "book": 4

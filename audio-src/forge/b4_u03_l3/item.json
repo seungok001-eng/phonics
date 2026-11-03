@@ -29,18 +29,18 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:39",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "b4_u03_l3",
  "sub": "line",
- "title": "4권 3유닛 대사 · 번: A dog in a robe!",
- "text": "A dog in a robe!",
+ "title": "4권 3유닛 대사 · 핍: Not-e? Not-e!",
+ "text": "Not-e? Not-e!",
  "voice": "Aoede",
- "who": "bun",
+ "who": "pip",
  "book": 4
 }

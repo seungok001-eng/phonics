@@ -18,17 +18,17 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:39",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "b4_u05_l1",
  "sub": "line",
- "title": "4권 5유닛 대사 · 해설: Fairy E has a magic card.",
- "text": "Fairy E has a magic card.",
+ "title": "4권 5유닛 대사 · 해설: Cape, cane, tape, cake, gate!",
+ "text": "Cape, cane, tape, cake, gate!",
  "voice": "Kore",
  "who": "narrator",
  "book": 4

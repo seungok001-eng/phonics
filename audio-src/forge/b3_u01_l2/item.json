@@ -35,19 +35,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:35",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "b3_u01_l2",
  "sub": "line",
- "title": "3권 1유닛 대사 · 번: The fish can push the ship!",
- "text": "The fish can push the ship!",
+ "title": "3권 1유닛 대사 · 핍: S... h...? S... h...?",
+ "text": "S... h...? S... h...?",
  "voice": "Aoede",
- "who": "bun",
- "book": 3,
- "busy": 1
+ "who": "pip",
+ "book": 3
 }

@@ -18,17 +18,17 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:40",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b4_u08_l1",
  "sub": "line",
- "title": "4권 8유닛 대사 · 해설: A goat in a boat.",
- "text": "A goat in a boat.",
+ "title": "4권 8유닛 대사 · 해설: Snow! Snow! Brr!",
+ "text": "Snow! Snow! Brr!",
  "voice": "Kore",
  "who": "narrator",
  "book": 4

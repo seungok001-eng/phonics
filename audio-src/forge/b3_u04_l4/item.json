@@ -52,19 +52,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:36",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b3_u04_l4",
  "sub": "line",
- "title": "3권 4유닛 대사 · 함께: The ring is on the wing!",
- "text": "The ring is on the wing!",
+ "title": "3권 4유닛 대사 · 핌과 팜: Together! /k/ /k/ lock!",
+ "text": "Together! /k/ /k/ lock!",
  "voice": "Laomedeia",
- "who": "both",
- "book": 3,
- "busy": 1
+ "who": "twins",
+ "book": 3
 }

@@ -88,6 +88,11 @@
           "title": "Story"
         },
         {
+          "type": "story",
+          "title": "Story",
+          "half": 2
+        },
+        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -143,71 +148,198 @@
   "story": {
     "title": "The Moon and the Mouse",
     "bgm": "bgm_b4_night",
-    "v2": true,
     "panels": [
       {
         "id": "scene_b4_u09_1",
-        "desc": "Night at the castle; a full moon; {mouse} sits on the roof looking at the moon; {PIP}, {BUN} and {HED} look up from the courtyard. A broom leans on the wall.",
+        "desc": "Night on a flat castle rooftop garden high among the towers. A big dark cloud hides the moon, so everything is dim and the next tower's door can't be seen. A small grey mouse peeks out of a tiny wooden house by the chimney on the red tiled roof. Bun holds up her paw to see; Hedgie looks up at the cloud; Pip reads in pieces; Fairy E glows softly like a little lamp. Hidden in the picture: the cloud, the moon behind it, the tiny house, the roof. Grumble does NOT appear. No letters anywhere.",
         "hidden": [
+          "cloud",
           "moon",
-          "mouse",
-          "roof",
-          "broom"
+          "house",
+          "roof"
         ],
         "lines": [
           {
             "who": "narrator",
-            "text": "Look at the moon and the mouse.",
-            "audio": "b4_u09_l1"
+            "text": "Look up! No moon!",
+            "audio": "b4_u09_l1",
+            "ko": "위를 봐요! 달이 없어요!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A cloud is on the moon.",
+            "audio": "b4_u09_l2",
+            "ko": "구름이 달을 가렸어."
+          },
+          {
+            "who": "pip",
+            "text": "Clo... ud? Clo-ud?",
+            "audio": "b4_u09_l3",
+            "ko": "클로… 우드? 클로-우드?"
           }
-        ]
+        ],
+        "ko": "밤, 성 옥상 정원이에요. 커다란 구름이 달을 가려 깜깜해요. 굴뚝 옆 작은 집에서 생쥐가 내다봐요. 핍은 \"클로-우드?\"",
+        "ask": [
+          {
+            "en": "What hides the moon?",
+            "ko": "무엇이 달을 가렸어?"
+          },
+          {
+            "en": "Who is in the tiny house?",
+            "ko": "작은 집에 누가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Night on the roof. A cloud hides the moon.",
+          "ko": "밤의 옥상이에요. 구름이 달을 가려요.",
+          "audio": "scene_b4_u09_1_n"
+        }
       },
       {
         "id": "scene_b4_u09_2",
-        "desc": "{mouse} opens its mouth wide in a yawn showing one tooth; a boot sits on the roof next to it.",
+        "desc": "Fairy E flies up toward the dark cloud and touches two little sparkles together with her star wand; they melt into one big bright sparkle. As the friends read the word, the cloud puffs apart into little wisps and drifts away, and a big round glowing moon comes out, lighting the rooftop silver. Beads stands on the chimney clicking its beads; Bun and Hedgie cheer. A straw broom leans on the chimney. Hidden in the picture: the cloud, the moon, the broom. Grumble does NOT appear. No letters anywhere.",
         "hidden": [
+          "cloud",
+          "moon",
+          "broom"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/kl/ /aʊ/ /d/ cloud!",
+            "audio": "blend_cloud__beads",
+            "pop": "cloud",
+            "ko": "cl-ou-d 구름!"
+          },
+          {
+            "who": "fairy",
+            "text": "Eee! Out, cloud, out!",
+            "audio": "b4_u09_l4",
+            "ko": "이~! 구름아, 비켜, 비켜!"
+          },
+          {
+            "who": "narrator",
+            "text": "The moon is out!",
+            "audio": "b4_u09_l5",
+            "ko": "달이 나왔어요!"
+          }
+        ],
+        "video": "vid_b4_u09_1",
+        "ko": "반짝이 둘이 하나로! \"cloud!\" 하자 구름이 흩어지고 커다란 달이 나와 옥상이 은빛으로 환해져요.",
+        "ask": [
+          {
+            "en": "Where does the cloud go?",
+            "ko": "구름은 어디로 갔어?"
+          },
+          {
+            "en": "What comes out?",
+            "ko": "무엇이 나왔어?"
+          }
+        ],
+        "narr": {
+          "text": "The cloud drifts away. The big moon comes out.",
+          "ko": "구름이 흩어져요. 커다란 달이 나와요.",
+          "audio": "scene_b4_u09_2_n"
+        }
+      },
+      {
+        "id": "scene_b4_u09_3",
+        "desc": "In the moonlight the little grey mouse comes out of its tiny house holding its cheek; it opens its mouth wide to show one wobbly front tooth. Hedgie kneels to look; Bun holds out a yellow rain boot for the mouse to sit in; Pip reads proudly. The straw broom sweeps the rooftop all by itself. Hidden in the picture: the mouse, the house, the mouth, the tooth, the boot. Grumble does NOT appear. No letters anywhere.",
+        "hidden": [
+          "mouse",
+          "house",
           "mouth",
           "tooth",
           "boot"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "Out comes a yawn!",
-            "audio": "b4_u09_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u09_3",
-        "desc": "A cloud covers the moon; {mouse} scurries into a tiny house on the roof; {BUN} points.",
-        "hidden": [
-          "cloud",
-          "house"
-        ],
-        "lines": [
-          {
             "who": "bun",
-            "text": "Look out! A cloud!",
-            "audio": "b4_u09_l3"
+            "text": "/aʊ/ /aʊ/ mouse!",
+            "audio": "b4_u09_l6",
+            "ko": "ou, ou 생쥐!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A mouse in a house!",
+            "audio": "b4_u09_l7",
+            "ko": "집 안에 생쥐가!"
+          },
+          {
+            "who": "pip",
+            "text": "Mouse! Mouth! Tooth!",
+            "audio": "b4_u09_l8",
+            "ko": "생쥐! 입! 이!"
           }
-        ]
+        ],
+        "ko": "달빛 아래 생쥐가 나와 입을 크게 벌려요. 앞니가 흔들흔들! 빗자루가 혼자 옥상을 쓸어요. 핍은 이번엔 술술 읽어요.",
+        "ask": [
+          {
+            "en": "What is wrong with the mouse?",
+            "ko": "생쥐는 어디가 아파?"
+          },
+          {
+            "en": "What sweeps the roof?",
+            "ko": "무엇이 옥상을 쓸어?"
+          }
+        ],
+        "narr": {
+          "text": "A mouse shows a wobbly tooth. The broom sweeps alone.",
+          "ko": "생쥐가 흔들리는 이를 보여 줘요. 빗자루가 혼자 쓸어요.",
+          "audio": "scene_b4_u09_3_n"
+        }
       },
       {
         "id": "scene_b4_u09_4",
-        "desc": "{GRUMBLE} on a couch in the courtyard snores under the moon; {mouse} sleeps on his belly; {PIP} covers them with a leaf.",
+        "desc": "Under the big moon, Grumble lies on a soft red couch on the rooftop with his lantern and drum beside him, gazing up at the moon with a peaceful face; he pats the couch for the friends to sit. Bun and Hedgie climb onto the couch; the mouse sits in the yellow boot; Pip snuggles on Grumble's shoulder; the broom leans against the couch. Hidden in the picture: the couch, the moon, the broom, the boot. No letters anywhere.",
         "hidden": [
-          "couch"
+          "couch",
+          "moon",
+          "broom",
+          "boot"
         ],
         "lines": [
           {
             "who": "grumble",
-            "text": "Shh... out, cloud. Moon, come.",
-            "audio": "b4_u09_l4"
+            "text": "Shh... Sit. Look at the moon.",
+            "audio": "b4_u09_l9",
+            "ko": "쉿… 앉아. 달 좀 봐."
+          },
+          {
+            "who": "hedgie",
+            "text": "The moon is so big!",
+            "audio": "b4_u09_l10",
+            "ko": "달이 엄청 커!"
+          },
+          {
+            "who": "narrator",
+            "text": "Grumble is a pal!",
+            "audio": "b4_u09_l11",
+            "ko": "그럼블은 이제 친구예요!"
           }
-        ]
+        ],
+        "video": "vid_b4_u09_2",
+        "ko": "옥상 소파에 누운 그럼블이 소파를 톡톡 두드려 친구들을 불러요. 모두 나란히 앉아 달을 봐요.",
+        "ask": [
+          {
+            "en": "Where is Grumble?",
+            "ko": "그럼블은 어디에 누워 있어?"
+          },
+          {
+            "en": "What do they look at?",
+            "ko": "모두 무엇을 봐?"
+          }
+        ],
+        "narr": {
+          "text": "Grumble pats the couch. All sit and see the moon.",
+          "ko": "그럼블이 소파를 톡톡 두드려요. 모두 앉아 달을 봐요.",
+          "audio": "scene_b4_u09_4_n"
+        }
       }
-    ]
+    ],
+    "synopsis_ko": "밤, 성 옥상 정원. 커다란 구름이 달을 가려 깜깜해요. 핍은 \"클로-우드?\" 요정 이가 반짝이 둘을 하나로 합치고 \"cloud!\" 하자 구름이 흩어지고 달이 나와요. 작은 집에서 나온 생쥐는 이가 흔들려요. 그럼블이 옥상 소파에 누워 \"쉿… 달 좀 봐.\" 하며 친구들을 불러요.",
+    "so_far_ko": "배를 타고 해자를 건넜어요. 그럼블이 토스트를 그릇에 담아 줬어요.",
+    "goal_ko": "두 모음이 한 소리를 내는 oo·ou 단어를 읽고 달이 나오게 해요."
   },
   "videos": [
     {
@@ -448,251 +580,6 @@
     ]
   },
   "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b4_u09_1",
-        "desc": "Night at the castle; a full moon; {mouse} sits on the roof looking at the moon; {PIP}, {BUN} and {HED} look up from the courtyard. A broom leans on the wall.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Look at the moon and the mouse.",
-            "audio": "b4_u09_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u09_2",
-        "desc": "{mouse} opens its mouth wide in a yawn showing one tooth; a boot sits on the roof next to it.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Out comes a yawn!",
-            "audio": "b4_u09_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u09_3",
-        "desc": "A cloud covers the moon; {mouse} scurries into a tiny house on the roof; {BUN} points.",
-        "lines": [
-          {
-            "who": "bun",
-            "text": "Look out! A cloud!",
-            "audio": "b4_u09_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b4_u09_4",
-        "desc": "{GRUMBLE} on a couch in the courtyard snores under the moon; {mouse} sleeps on his belly; {PIP} covers them with a leaf.",
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh... out, cloud. Moon, come.",
-            "audio": "b4_u09_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "story_v1": {
-    "title": "The Moon and the Mouse",
-    "bgm": "bgm_b4_night",
-    "panels": [
-      {
-        "id": "scene_b4_u09_1",
-        "desc": "Night on a flat castle rooftop garden high among the towers. A big dark cloud hides the moon, so everything is dim and the next tower's door can't be seen. A small grey mouse peeks out of a tiny wooden house by the chimney on the red tiled roof. Bun holds up her paw to see; Hedgie looks up at the cloud; Pip reads in pieces; Fairy E glows softly like a little lamp. Hidden in the picture: the cloud, the moon behind it, the tiny house, the roof. Grumble does NOT appear. No letters anywhere.",
-        "hidden": [
-          "cloud",
-          "moon",
-          "house",
-          "roof"
-        ],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Look up! No moon!",
-            "audio": "b4_u09_l1",
-            "ko": "위를 봐요! 달이 없어요!"
-          },
-          {
-            "who": "hedgie",
-            "text": "A cloud is on the moon.",
-            "audio": "b4_u09_l2",
-            "ko": "구름이 달을 가렸어."
-          },
-          {
-            "who": "pip",
-            "text": "Clo... ud? Clo-ud?",
-            "audio": "b4_u09_l3",
-            "ko": "클로… 우드? 클로-우드?"
-          }
-        ],
-        "ko": "밤, 성 옥상 정원이에요. 커다란 구름이 달을 가려 깜깜해요. 굴뚝 옆 작은 집에서 생쥐가 내다봐요. 핍은 \"클로-우드?\"",
-        "ask": [
-          {
-            "en": "What hides the moon?",
-            "ko": "무엇이 달을 가렸어?"
-          },
-          {
-            "en": "Who is in the tiny house?",
-            "ko": "작은 집에 누가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Night on the roof. A cloud hides the moon.",
-          "ko": "밤의 옥상이에요. 구름이 달을 가려요.",
-          "audio": "scene_b4_u09_1_n"
-        }
-      },
-      {
-        "id": "scene_b4_u09_2",
-        "desc": "Fairy E flies up toward the dark cloud and touches two little sparkles together with her star wand; they melt into one big bright sparkle. As the friends read the word, the cloud puffs apart into little wisps and drifts away, and a big round glowing moon comes out, lighting the rooftop silver. Beads stands on the chimney clicking its beads; Bun and Hedgie cheer. A straw broom leans on the chimney. Hidden in the picture: the cloud, the moon, the broom. Grumble does NOT appear. No letters anywhere.",
-        "hidden": [
-          "cloud",
-          "moon",
-          "broom"
-        ],
-        "lines": [
-          {
-            "who": "beads",
-            "text": "/kl/ /aʊ/ /d/ cloud!",
-            "audio": "blend_cloud__beads",
-            "pop": "cloud",
-            "ko": "cl-ou-d 구름!"
-          },
-          {
-            "who": "fairy",
-            "text": "Eee! Out, cloud, out!",
-            "audio": "b4_u09_l4",
-            "ko": "이~! 구름아, 비켜, 비켜!"
-          },
-          {
-            "who": "narrator",
-            "text": "The moon is out!",
-            "audio": "b4_u09_l5",
-            "ko": "달이 나왔어요!"
-          }
-        ],
-        "video": "vid_b4_u09_1",
-        "ko": "반짝이 둘이 하나로! \"cloud!\" 하자 구름이 흩어지고 커다란 달이 나와 옥상이 은빛으로 환해져요.",
-        "ask": [
-          {
-            "en": "Where does the cloud go?",
-            "ko": "구름은 어디로 갔어?"
-          },
-          {
-            "en": "What comes out?",
-            "ko": "무엇이 나왔어?"
-          }
-        ],
-        "narr": {
-          "text": "The cloud drifts away. The big moon comes out.",
-          "ko": "구름이 흩어져요. 커다란 달이 나와요.",
-          "audio": "scene_b4_u09_2_n"
-        }
-      },
-      {
-        "id": "scene_b4_u09_3",
-        "desc": "In the moonlight the little grey mouse comes out of its tiny house holding its cheek; it opens its mouth wide to show one wobbly front tooth. Hedgie kneels to look; Bun holds out a yellow rain boot for the mouse to sit in; Pip reads proudly. The straw broom sweeps the rooftop all by itself. Hidden in the picture: the mouse, the house, the mouth, the tooth, the boot. Grumble does NOT appear. No letters anywhere.",
-        "hidden": [
-          "mouse",
-          "house",
-          "mouth",
-          "tooth",
-          "boot"
-        ],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "/aʊ/ /aʊ/ mouse!",
-            "audio": "b4_u09_l6",
-            "ko": "ou, ou 생쥐!"
-          },
-          {
-            "who": "hedgie",
-            "text": "A mouse in a house!",
-            "audio": "b4_u09_l7",
-            "ko": "집 안에 생쥐가!"
-          },
-          {
-            "who": "pip",
-            "text": "Mouse! Mouth! Tooth!",
-            "audio": "b4_u09_l8",
-            "ko": "생쥐! 입! 이!"
-          }
-        ],
-        "ko": "달빛 아래 생쥐가 나와 입을 크게 벌려요. 앞니가 흔들흔들! 빗자루가 혼자 옥상을 쓸어요. 핍은 이번엔 술술 읽어요.",
-        "ask": [
-          {
-            "en": "What is wrong with the mouse?",
-            "ko": "생쥐는 어디가 아파?"
-          },
-          {
-            "en": "What sweeps the roof?",
-            "ko": "무엇이 옥상을 쓸어?"
-          }
-        ],
-        "narr": {
-          "text": "A mouse shows a wobbly tooth. The broom sweeps alone.",
-          "ko": "생쥐가 흔들리는 이를 보여 줘요. 빗자루가 혼자 쓸어요.",
-          "audio": "scene_b4_u09_3_n"
-        }
-      },
-      {
-        "id": "scene_b4_u09_4",
-        "desc": "Under the big moon, Grumble lies on a soft red couch on the rooftop with his lantern and drum beside him, gazing up at the moon with a peaceful face; he pats the couch for the friends to sit. Bun and Hedgie climb onto the couch; the mouse sits in the yellow boot; Pip snuggles on Grumble's shoulder; the broom leans against the couch. Hidden in the picture: the couch, the moon, the broom, the boot. No letters anywhere.",
-        "hidden": [
-          "couch",
-          "moon",
-          "broom",
-          "boot"
-        ],
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh... Sit. Look at the moon.",
-            "audio": "b4_u09_l9",
-            "ko": "쉿… 앉아. 달 좀 봐."
-          },
-          {
-            "who": "hedgie",
-            "text": "The moon is so big!",
-            "audio": "b4_u09_l10",
-            "ko": "달이 엄청 커!"
-          },
-          {
-            "who": "narrator",
-            "text": "Grumble is a pal!",
-            "audio": "b4_u09_l11",
-            "ko": "그럼블은 이제 친구예요!"
-          }
-        ],
-        "video": "vid_b4_u09_2",
-        "ko": "옥상 소파에 누운 그럼블이 소파를 톡톡 두드려 친구들을 불러요. 모두 나란히 앉아 달을 봐요.",
-        "ask": [
-          {
-            "en": "Where is Grumble?",
-            "ko": "그럼블은 어디에 누워 있어?"
-          },
-          {
-            "en": "What do they look at?",
-            "ko": "모두 무엇을 봐?"
-          }
-        ],
-        "narr": {
-          "text": "Grumble pats the couch. All sit and see the moon.",
-          "ko": "그럼블이 소파를 톡톡 두드려요. 모두 앉아 달을 봐요.",
-          "audio": "scene_b4_u09_4_n"
-        }
-      }
-    ],
-    "synopsis_ko": "밤, 성 옥상 정원. 커다란 구름이 달을 가려 깜깜해요. 핍은 \"클로-우드?\" 요정 이가 반짝이 둘을 하나로 합치고 \"cloud!\" 하자 구름이 흩어지고 달이 나와요. 작은 집에서 나온 생쥐는 이가 흔들려요. 그럼블이 옥상 소파에 누워 \"쉿… 달 좀 봐.\" 하며 친구들을 불러요.",
-    "so_far_ko": "배를 타고 해자를 건넜어요. 그럼블이 토스트를 그릇에 담아 줬어요.",
-    "goal_ko": "두 모음이 한 소리를 내는 oo·ou 단어를 읽고 달이 나오게 해요."
-  },
-  "storybook_v1": {
     "pages": [
       {
         "id": "sb4_u09_1",

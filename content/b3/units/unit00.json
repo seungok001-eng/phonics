@@ -39,134 +39,6 @@
   "story": {
     "title": "The Pair Forest",
     "bgm": "bgm_b3_adventure",
-    "v2": true,
-    "panels": [
-      {
-        "id": "scene_b3_u00_1",
-        "desc": "{PIP}, {BUN} and {HED} step out of the garden onto a forest path; tall trees arch overhead.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "A forest!",
-            "audio": "b3_u00_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u00_2",
-        "desc": "Two tiny bluebirds, {TWINS}, sit side by side on one branch above the path, both opening their beaks at the same time.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Hi! We are Pim and Pam.",
-            "audio": "b3_u00_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u00_3",
-        "desc": "{TWINS} fly a loop together in perfect sync; {PIP} tries to follow and tumbles in the air; {BUN} and {HED} laugh.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Together!",
-            "audio": "b3_u00_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u00_4",
-        "desc": "{TWINS} land one on each of Pip's shoulders; the three birds grin; {BUN} and {HED} wave.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "both",
-            "text": "Three birds!",
-            "audio": "b3_u00_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "videos": [
-    {
-      "id": "vid_b3_u00_1",
-      "from": "scene_b3_u00_1",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: the friends step off the last stepping stone into the pine forest, two tiny wisps of pale light pulse twice beside the big round door in the giant tree, leaves sway, the baby bird tilts its head listening. Camera still. Calm, curious, child-friendly. No text."
-    }
-  ],
-  "storybook": {
-    "v2": true,
-    "pages": [
-      {
-        "id": "scene_b3_u00_1",
-        "desc": "{PIP}, {BUN} and {HED} step out of the garden onto a forest path; tall trees arch overhead.",
-        "lines": [
-          {
-            "who": "bun",
-            "text": "A forest!",
-            "audio": "b3_u00_l1"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u00_2",
-        "desc": "Two tiny bluebirds, {TWINS}, sit side by side on one branch above the path, both opening their beaks at the same time.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Hi! We are Pim and Pam.",
-            "audio": "b3_u00_l2"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u00_3",
-        "desc": "{TWINS} fly a loop together in perfect sync; {PIP} tries to follow and tumbles in the air; {BUN} and {HED} laugh.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Together!",
-            "audio": "b3_u00_l3"
-          }
-        ]
-      },
-      {
-        "id": "scene_b3_u00_4",
-        "desc": "{TWINS} land one on each of Pip's shoulders; the three birds grin; {BUN} and {HED} wave.",
-        "lines": [
-          {
-            "who": "both",
-            "text": "Three birds!",
-            "audio": "b3_u00_l4"
-          }
-        ]
-      }
-    ]
-  },
-  "review": {
-    "words": [
-      "cat",
-      "map",
-      "net",
-      "bed",
-      "pig",
-      "zip",
-      "dog",
-      "fox",
-      "bug",
-      "sun",
-      "cup",
-      "hen"
-    ]
-  },
-  "story_v1": {
-    "title": "The Pair Forest",
-    "bgm": "bgm_b3_adventure",
     "panels": [
       {
         "id": "scene_b3_u00_1",
@@ -256,7 +128,15 @@
     "so_far_ko": "2권에서 친구들은 글자를 합쳐 징검다리를 놓고 연못을 건너 노래 조각 둘을 찾았어요. 숲에서 똑같은 소리가 두 번 들렸어요.",
     "goal_ko": "짝꿍 숲에 들어가 새 친구 핌과 팜을 만나요."
   },
-  "storybook_v1": {
+  "videos": [
+    {
+      "id": "vid_b3_u00_1",
+      "from": "scene_b3_u00_1",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: the friends step off the last stepping stone into the pine forest, two tiny wisps of pale light pulse twice beside the big round door in the giant tree, leaves sway, the baby bird tilts its head listening. Camera still. Calm, curious, child-friendly. No text."
+    }
+  ],
+  "storybook": {
     "pages": [
       {
         "id": "sb3_u00_1",
@@ -322,6 +202,22 @@
           "audio": "sb3_u00_2_n"
         }
       }
+    ]
+  },
+  "review": {
+    "words": [
+      "cat",
+      "map",
+      "net",
+      "bed",
+      "pig",
+      "zip",
+      "dog",
+      "fox",
+      "bug",
+      "sun",
+      "cup",
+      "hen"
     ]
   }
 }

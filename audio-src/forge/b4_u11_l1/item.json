@@ -18,18 +18,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:41",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "b4_u11_l1",
  "sub": "line",
- "title": "4권 11유닛 대사 · 함께: A castle party!",
- "text": "A castle party!",
+ "title": "4권 11유닛 대사 · 해설: Choo, choo! Ride the train!",
+ "text": "Choo, choo! Ride the train!",
  "voice": "Kore",
- "who": "both",
+ "who": "narrator",
  "book": 4
 }

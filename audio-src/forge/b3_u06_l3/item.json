@@ -52,19 +52,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:36",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b3_u06_l3",
  "sub": "line",
- "title": "3권 6유닛 대사 · 번: The clam has the block!",
- "text": "The clam has the block!",
+ "title": "3권 6유닛 대사 · 핍: Lb? Lb? Lbock?",
+ "text": "Lb? Lb? Lbock?",
  "voice": "Aoede",
- "who": "bun",
- "book": 3,
- "busy": 1
+ "who": "pip",
+ "book": 3
 }

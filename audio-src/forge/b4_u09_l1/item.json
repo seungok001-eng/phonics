@@ -18,17 +18,17 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:41",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b4_u09_l1",
  "sub": "line",
- "title": "4권 9유닛 대사 · 해설: Look at the moon and the mouse.",
- "text": "Look at the moon and the mouse.",
+ "title": "4권 9유닛 대사 · 해설: Look up! No moon!",
+ "text": "Look up! No moon!",
  "voice": "Kore",
  "who": "narrator",
  "book": 4

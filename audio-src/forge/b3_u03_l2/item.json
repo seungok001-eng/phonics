@@ -35,19 +35,18 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:35",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "b3_u03_l2",
  "sub": "line",
- "title": "3권 3유닛 대사 · 번: Push with that thumb!",
- "text": "Push with that thumb!",
+ "title": "3권 3유닛 대사 · 헤지: Look! That is a moth.",
+ "text": "Look! That is a moth.",
  "voice": "Puck",
- "who": "bun",
- "book": 3,
- "busy": 1
+ "who": "hedgie",
+ "book": 3
 }

@@ -35,19 +35,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:38",
  "text_edited": false,
  "error": "",
  "unit": 12,
  "letter": null,
  "id": "b3_u12_l1",
  "sub": "line",
- "title": "3권 12유닛 대사 · 핍: The forest show!",
- "text": "The forest show!",
+ "title": "3권 12유닛 대사 · 해설: Look! The Forest Show!",
+ "text": "Look! The Forest Show!",
  "voice": "Kore",
- "who": "pip",
- "book": 3,
- "busy": 1
+ "who": "narrator",
+ "book": 3
 }

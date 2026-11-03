@@ -52,19 +52,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:37",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b3_u07_l4",
  "sub": "line",
- "title": "3권 7유닛 대사 · 핍: The crab sleeps with the drum.",
- "text": "The crab sleeps with the drum.",
+ "title": "3권 7유닛 대사 · 핌과 팜: Together! /br/ /br/ brick!",
+ "text": "Together! /br/ /br/ brick!",
  "voice": "Laomedeia",
- "who": "pip",
- "book": 3,
- "busy": 1
+ "who": "twins",
+ "book": 3
 }

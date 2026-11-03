@@ -29,18 +29,18 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:41",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "b4_u10_l4",
  "sub": "line",
- "title": "4권 10유닛 대사 · 핍: One star is far, far better.",
- "text": "One star is far, far better.",
+ "title": "4권 10유닛 대사 · 번: Look! A harp and a jar!",
+ "text": "Look! A harp and a jar!",
  "voice": "Leda",
- "who": "pip",
+ "who": "bun",
  "book": 4
 }

@@ -29,18 +29,18 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:41",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "b4_u11_l3",
  "sub": "line",
- "title": "4권 11유닛 대사 · 그럼블: Shh... I came by train.",
- "text": "Shh... I came by train.",
+ "title": "4권 11유닛 대사 · 핍: Train, road, goat, seal!",
+ "text": "Train, road, goat, seal!",
  "voice": "Aoede",
- "who": "grumble",
+ "who": "pip",
  "book": 4
 }

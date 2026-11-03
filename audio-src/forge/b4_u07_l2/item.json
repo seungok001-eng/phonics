@@ -12,17 +12,17 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:40",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b4_u07_l2",
  "sub": "line",
- "title": "4권 7유닛 대사 · 헤지: See the sheep's feet!",
- "text": "See the sheep's feet!",
+ "title": "4권 7유닛 대사 · 헤지: The tree has no leaf.",
+ "text": "The tree has no leaf.",
  "voice": "Puck",
  "who": "hedgie",
  "book": 4

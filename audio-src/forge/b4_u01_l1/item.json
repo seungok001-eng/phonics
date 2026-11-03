@@ -12,18 +12,18 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:38",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "b4_u01_l1",
  "sub": "line",
- "title": "4권 1유닛 대사 · 해설: Bun has a cap.",
- "text": "Bun has a cap.",
+ "title": "4권 1유닛 대사 · 번: Look! A cap on the gate!",
+ "text": "Look! A cap on the gate!",
  "voice": "Leda",
- "who": "narrator",
+ "who": "bun",
  "book": 4
 }
