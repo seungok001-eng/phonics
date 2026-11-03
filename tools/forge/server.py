@@ -648,6 +648,16 @@ def el_pitch(s):
     except (TypeError, ValueError): return 1.0
 
 
+EL_DEFAULT = {'speed': 0.9, 'stability': 0.55, 'style': 0.25}
+def el_settings(s):
+    """역할(voices.json)에 적힌 speed·stability·style. 없으면 기본값. 'both' 는 번 것."""
+    who = el_role(s); V = state.get('voices') or {}
+    if who == 'both': who = (V.get('both', {}).get('mix') or ['bun'])[0]
+    if who == 'word' and not V.get('word'): who = 'narrator'
+    v = V.get(who) or {}
+    return {k: float(v.get(k, d)) for k, d in EL_DEFAULT.items()}
+
+
 def el_voices_for(s):
     """이 소리를 일레븐랩스로 만들 목소리들 [(이름, voice_id)]. 'both' 는 번+헤지 두 목소리를 겹친다. 없으면 [] (제미나이)."""
     who = el_role(s); V = state.get('voices') or {}
@@ -741,7 +751,8 @@ def letters_compose(text, tmp, pitch=1.0):
     out = tmpf('.wav'); audio.concat(segs[:-1], out); return out
 
 
-def el_compose(text, voices, tmp, pitch=1.0):
+def el_compose(text, voices, tmp, pitch=1.0, vs=None):
+    vs = vs or EL_DEFAULT
     """낱소리 덩어리가 있는 대사: 말 조각 = 일레븐랩스(목소리가 둘이면 겹침, pitch 만큼 높임), 낱소리 = sound_<글자>.mp3 를 높여서. 결과 wav 경로."""
     import tempfile
     def tmpf(ext):
@@ -778,7 +789,7 @@ def el_compose(text, voices, tmp, pitch=1.0):
             if re.search(r'[A-Za-z]', rest):
                 outs = []
                 for name, vid in voices:
-                    m = tmpf('.mp3'); open(m, 'wb').write(audio.el_tts(rest, vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2')))
+                    m = tmpf('.mp3'); open(m, 'wb').write(audio.el_tts(rest, vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2'), vs['style'], vs['stability'], vs['speed']))
                     w = tmpf('.wav'); audio.norm_wav(m, w); outs.append(w)
                 if len(outs) > 1:
                     w = tmpf('.wav'); audio.mix(outs, w); outs = [w]
@@ -795,7 +806,7 @@ def el_compose(text, voices, tmp, pitch=1.0):
 def tts_enqueue(s, text, voice):
     ev = el_voices_for(s)
     if ev:   # 캐릭터 대사 = 아이 목소리 (일레븐랩스). 대본은 지시문 없이 대사 그대로
-        state['tts_queue'].append({'kind': 'el', 'id': s['id'], 'text': text, 'voices': ev, 'pitch': el_pitch(s)})
+        state['tts_queue'].append({'kind': 'el', 'id': s['id'], 'text': text, 'voices': ev, 'pitch': el_pitch(s), 'vs': el_settings(s)})
     else:
         state['tts_queue'].append({'kind': 'tts', 'id': s['id'], 'text': tts_script(s, text), 'voice': voice})
     s['busy'] = s.get('busy', 0) + 1
@@ -825,11 +836,11 @@ def tts_loop():
                 tmp = []
                 try:
                     if PHON_RE.search(t['text']) or HUSH_RE.search(t['text']):   # 낱소리 덩어리나 Shh 가 있으면 이어 붙이기
-                        src = el_compose(t['text'], t['voices'], tmp, t.get('pitch', 1.0))
+                        src = el_compose(t['text'], t['voices'], tmp, t.get('pitch', 1.0), t.get('vs') or EL_DEFAULT)
                     else:
                         for name, vid in t['voices']:
                             fd, pth = tempfile.mkstemp(suffix='.mp3'); os.close(fd); tmp.append(pth)
-                            open(pth, 'wb').write(audio.el_tts(t['text'], vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2')))
+                            vs = t.get('vs') or EL_DEFAULT; open(pth, 'wb').write(audio.el_tts(t['text'], vid, el_key(), state['settings'].get('el_model', 'eleven_multilingual_v2'), vs['style'], vs['stability'], vs['speed']))
                         src = tmp[0]
                         if len(tmp) > 1:
                             fd, src = tempfile.mkstemp(suffix='.wav'); os.close(fd); audio.mix(tmp, src); tmp.append(src)

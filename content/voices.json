@@ -3,45 +3,69 @@
   "narrator": {
     "engine": "elevenlabs",
     "voice_id": "hpp4J3VqNfWAUOO0d1Us",
-    "name": "Bella"
+    "name": "Bella",
+    "speed": 0.9,
+    "stability": 0.65,
+    "style": 0.2
   },
   "instruction": {
     "engine": "elevenlabs",
     "voice_id": "hpp4J3VqNfWAUOO0d1Us",
-    "name": "Bella"
+    "name": "Bella",
+    "speed": 0.9,
+    "stability": 0.65,
+    "style": 0.2
   },
   "word": {
     "engine": "elevenlabs",
-    "voice_id": "hpp4J3VqNfWAUOO0d1Us",
-    "name": "Bella"
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "name": "Sarah",
+    "speed": 0.85,
+    "stability": 0.75,
+    "style": 0.1
   },
   "pip": {
     "engine": "elevenlabs",
     "voice_id": "ocZQ262SsZb9RIxcQBOj",
     "name": "Lulu Lolipop",
-    "pitch": 1.0
+    "pitch": 1.0,
+    "speed": 0.9,
+    "stability": 0.5,
+    "style": 0.3
   },
   "bun": {
     "engine": "elevenlabs",
     "voice_id": "XJ2fW4ybq7HouelYYGcL",
     "name": "Cherry Twinkle",
-    "pitch": 1.0
+    "pitch": 1.0,
+    "speed": 0.9,
+    "stability": 0.5,
+    "style": 0.3
   },
   "hedgie": {
     "engine": "elevenlabs",
     "voice_id": "pt0Iailp6NXMdRw1n3c5",
-    "name": "Adik M"
+    "name": "Adik M",
+    "speed": 0.9,
+    "stability": 0.5,
+    "style": 0.3
   },
   "grumble": {
     "engine": "elevenlabs",
     "voice_id": "GFj5Qf6cNQ3Lgp8VKBwc",
     "name": "Olivier D - Old man for cartoon & animation",
-    "pitch": 1.0
+    "pitch": 1.0,
+    "speed": 0.9,
+    "stability": 0.5,
+    "style": 0.3
   },
   "beads": {
     "engine": "elevenlabs",
     "voice_id": "XjGYkUkzth8BPs29fmcV",
-    "name": "Teddy Twinkle"
+    "name": "Teddy Twinkle",
+    "speed": 0.9,
+    "stability": 0.5,
+    "style": 0.3
   },
   "both": {
     "mix": [
@@ -61,11 +85,17 @@
         "voice_id": "BlgEcC0TfWpBak7FmvHW"
       }
     ],
-    "pitch": 1.0
+    "pitch": 1.0,
+    "speed": 0.9,
+    "stability": 0.5,
+    "style": 0.3
   },
   "fairy": {
     "engine": "elevenlabs",
     "name": "Yuna",
-    "voice_id": "aHC3XZOMg3HZuXVYK6hy"
+    "voice_id": "aHC3XZOMg3HZuXVYK6hy",
+    "speed": 0.9,
+    "stability": 0.5,
+    "style": 0.3
   }
 }

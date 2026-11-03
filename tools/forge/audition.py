@@ -236,10 +236,11 @@ def _make_one(ch, voice, lines):
         dst = os.path.join(DIR, ch, f'{vid}__{i}.mp3')
         fd, tmp = tempfile.mkstemp(suffix='.mp3'); os.close(fd)
         try:
-            try: data = audio.el_tts(text, vid, _el_key())
+            vs = _voices_json().get(ch) or {}; kw = dict(style=float(vs.get('style', 0.25)), stability=float(vs.get('stability', 0.55)), speed=float(vs.get('speed', 0.9)))
+            try: data = audio.el_tts(text, vid, _el_key(), **kw)
             except RuntimeError as e:
                 if ('voice_not_found' in str(e) or 'HTTP 404' in str(e) or 'HTTP 400' in str(e)) and voice.get('owner'):   # 라이브러리 목소리: 계정에 넣고 다시
-                    _el_add(voice['owner'], vid, voice.get('name') or vid); data = audio.el_tts(text, vid, _el_key())
+                    _el_add(voice['owner'], vid, voice.get('name') or vid); data = audio.el_tts(text, vid, _el_key(), **kw)
                 else: raise
             open(tmp, 'wb').write(data)
             audio.finalize(tmp, dst); _variants(ch, vid, i); files.append(os.path.basename(dst))

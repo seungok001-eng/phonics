@@ -300,3 +300,6 @@ body:not(.teacher) .kohelp, body:not(.teacher) .nk { display: none !important; }
 .sort.rv .bin { min-height: 108px; } .sort.rv .wd { font-size: 19px; padding: 2px 10px; }
 
 .char .role { display: none; } body.teacher .char .role { display: block; }   /* 친구 소개의 우리말 역할 설명은 선생님만 (학생 책 한글 0) */
+
+:root, .slide, .sl-embed { --u: #F7A072; --u-light: #FDE3D5; --u-pale: #FEF1EA; --u-dark: #8A5A3C; }   /* 쪽 밖(선생님 슬라이드)에서도 단추·배지 색이 나오게 */
+.slide .btn, .sl-embed .btn { color: #fff; }

@@ -106,18 +106,19 @@ def finalize(src, dst):
     """승인한 후보 → 앞뒤 무음 제거, 음량 맞춤(loudnorm I=-16 TP=-1.5), mp3 (libmp3lame q4)."""
     af = ('silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,'
           'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,'
-          'apad=pad_dur=0.08,loudnorm=I=-16:TP=-1.5:LRA=11')
+          'apad=pad_dur=0.08,loudnorm=I=-15:TP=-1.0:LRA=9')   # 조금 더 크게·고르게 (11-03 사용자: 목소리가 작고 힘없음)
     run(['-i', src, '-af', af, '-ar', '44100', '-codec:a', 'libmp3lame', '-q:a', '0', dst])   # q0 = 최고 품질 VBR (~245kbps)
 
 # ---------- 일레븐랩스 (캐릭터 대사 = 아이 목소리) ----------
 EL_URL = 'https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_44100_192'   # 최고 음질 (pcm 은 Pro 요금제부터라 192kbps mp3, 2026-11-03)
 
 
-def el_tts(text, voice_id, key, model='eleven_multilingual_v2', style=0.35):
+def el_tts(text, voice_id, key, model='eleven_multilingual_v2', style=0.25, stability=0.55, speed=0.9):
     """일레븐랩스 TTS 한 번. 결과 mp3 bytes. 키는 TTS 권한만 있으면 된다(2026-10-06 두 번째 키)."""
     if not key: raise RuntimeError('일레븐랩스 API 키가 없다 (art-src/forge/secrets.json elevenlabs_key)')
     # language_code=en: 짧은 대사("A! B! C!")를 스페인어처럼("ah, beh, seh") 읽는 목소리가 있어 영어로 못 박는다 (2026-11-03 Lulu Lolipop)
-    body = {'text': text, 'model_id': model, 'language_code': 'en', 'voice_settings': {'stability': 0.4, 'similarity_boost': 0.8, 'style': style, 'use_speaker_boost': True}}
+    # 아이들이 듣는 소리: 안정성(또렷함)을 올리고 조금 느리게 (speed 0.7~1.2, 2026-11-03 사용자: 또렷하고 느리게)
+    body = {'text': text, 'model_id': model, 'language_code': 'en', 'voice_settings': {'stability': stability, 'similarity_boost': 0.85, 'style': style, 'use_speaker_boost': True, 'speed': speed}}
     req = urllib.request.Request(EL_URL.format(voice=voice_id), data=json.dumps(body).encode(), method='POST',
                                  headers={'Content-Type': 'application/json', 'xi-api-key': key, 'Accept': 'audio/mpeg'})
     for attempt in range(5):   # 요금제의 동시 요청 한도(3개)에 걸리면(429) 잠깐 쉬고 다시
