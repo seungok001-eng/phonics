@@ -268,3 +268,14 @@ body:not(.teacher) .kohelp, body:not(.teacher) .nk { display: none !important; }
 .trace-sent { border-bottom-color: #E0523E; }
 .path.bridge .lt { background: var(--u-pale); border: 0; box-shadow: inset 0 0 0 3px var(--u-light); font-family: 'Fredoka'; }
 .song-line .lt.famt { font-family: 'Fredoka'; }
+
+/* ---------- QA 넘침 보정 (11-03 1권 자동 QA) ---------- */
+.page { padding-bottom: 50px; }
+.path.paper { gap: 7px 8px; padding: 10px 12px 8px; } .path.paper .lt { font-size: 30px; aspect-ratio: 1.18; }
+.t-alphabet_path .body { gap: 10px; }
+.t-read_play .read-card .pic { height: 86px; } .game-paper .opt .pic { height: 58px; } .game-paper .lc-row { gap: 10px; }
+.game .choice .pic { height: 136px; }
+.lp-row .cell .pic { height: 96px; } .lp-pp .pic { height: 66px; } .lp-pp { padding: 20px 6px 6px; } .t-listen_point .body { gap: 12px; }
+.page.wb .trace-line { height: 62px; } .page.wb .trace-line span { font-size: 50px; line-height: 62px; } .page.wb .trace-row .anim { width: 70px; height: 70px; }
+.color-it .pic { height: 104px; }
+.circle-box { padding: 10px 14px; gap: 8px; } .circle-box .ltr { width: 56px; height: 56px; font-size: 36px; }
