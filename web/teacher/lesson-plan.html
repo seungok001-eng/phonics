@@ -205,7 +205,7 @@ function lessonHtml(C, li) {
     return { min, pg, html: `<td class="t">${min}'</td><td class="a">${A.name(C, pg)}<span class="pg">SB p.${sbNo(p)} · <a href="${link}">수업 화면 ${p}쪽</a> · 슬라이드 ${s + (my ? 1 : 0)}장</span></td><td>${A.say(C, pg)}${myTxt}</td><td class="k">${A.kids(C, pg)}${my ? ', 새 단어 첫소리 글자 외치기' : ''}</td>` };
   });
   // 2권부터: 활동 합이 46분에 못 미치면 모자란 만큼(최대 6분)을 한 활동에 더 준다 — 단어 읽기(챈트 한 번 더·종이책 단어 쓰기) → 단어 사냥 → 빙고 → 문장 읽기 차례. 합치기 가족이 둘뿐인 유닛의 1차시가 41분으로 나와서
-  if (C.B2) {
+  {   // 모든 권 (v2 스토리가 한 쪽 4컷이 되어 1권도 2차시가 짧아짐 — 2026-11-03)
     let sum = 7 + rows.reduce((a, r) => a + r.min, 0) + (unit.review && n > 0 && !L2 && !unit.show ? 6 : 0);
     const tgt = ['family_words', 'word_hunt', 'review_bingo', 'review_board', 'sentences', 'story', 'blend'].map((t) => rows.find((r) => r.pg.type === t)).find(Boolean);
     if (tgt && sum < 46) {
