@@ -800,30 +800,33 @@
     },
     {
       "n": 1,
-      "title": "Pop! Pop! Pop!",
+      "title": "The Bus",
       "letters": [
         "a",
         "b",
         "c"
-      ]
+      ],
+      "title_ko": "버스"
     },
     {
       "n": 2,
-      "title": "The Duck Pond",
+      "title": "The Egg",
       "letters": [
         "d",
         "e",
         "f"
-      ]
+      ],
+      "title_ko": "알"
     },
     {
       "n": 3,
-      "title": "The Goat Ate It!",
+      "title": "The Gift",
       "letters": [
         "g",
         "h",
         "i"
-      ]
+      ],
+      "title_ko": "선물"
     },
     {
       "n": 4,
@@ -847,21 +850,23 @@
     },
     {
       "n": 6,
-      "title": "The Night Garden",
+      "title": "The Moon",
       "letters": [
         "m",
         "n",
         "o"
-      ]
+      ],
+      "title_ko": "달"
     },
     {
       "n": 7,
-      "title": "The Queen's Quilt",
+      "title": "Quack!",
       "letters": [
         "p",
         "q",
         "r"
-      ]
+      ],
+      "title_ko": "꽥!"
     },
     {
       "n": 8,
@@ -874,21 +879,23 @@
     },
     {
       "n": 9,
-      "title": "The Volcano",
+      "title": "The Box Volcano",
       "letters": [
         "v",
         "w",
         "x"
-      ]
+      ],
+      "title_ko": "상자 화산"
     },
     {
       "n": 10,
-      "title": "Pip Sings!",
+      "title": "The Yo-yo",
       "letters": [
         "y",
         "z"
       ],
-      "alphabet_review": true
+      "alphabet_review": true,
+      "title_ko": "요요"
     },
     {
       "n": 11,
