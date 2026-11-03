@@ -279,3 +279,10 @@ body:not(.teacher) .kohelp, body:not(.teacher) .nk { display: none !important; }
 .page.wb .trace-line { height: 62px; } .page.wb .trace-line span { font-size: 50px; line-height: 62px; } .page.wb .trace-row .anim { width: 70px; height: 70px; }
 .color-it .pic { height: 104px; }
 .circle-box { padding: 10px 14px; gap: 8px; } .circle-box .ltr { width: 56px; height: 56px; font-size: 36px; }
+.page { padding-bottom: 44px; }
+.write-it { padding: 10px 8px 8px; } .write-row { gap: 8px; }
+.circle-box { padding: 8px 12px; }
+.sort.rv .bin { min-height: 150px; }
+.path26 { gap: 8px; } .path26 .lt { font-size: 30px; }
+.game-paper .opt .pic { height: 54px; }
+.slide .circle-box .ltr, .sl-embed .circle-box .ltr { width: auto; min-width: 56px; padding: 0 12px; border-radius: 30px; }   /* 슬라이드의 번호 붙은 글자가 칸보다 넓지 않게 */

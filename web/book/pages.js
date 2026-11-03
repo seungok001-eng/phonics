@@ -301,8 +301,7 @@ PAGES.listen_point = (ctx) => {
   const check = ctx.print ? `<div class="lp-check">${ws.map((w) => `<span>☐ ${esc(w)}</span>`).join('')}<b>I can say ____ / ${n}</b></div>` : '';
   return instr(1, App.book.instructions.listen_point, '▶ 듣고 글자·그림을 손가락으로 짚으며 따라 말해요') +
     lpTools(ctx) + `<div class="lp-table">${rows}</div>` +
-    instr(2, 'Listen and point.', '🔀 Point! — 들리는 단어의 그림을 눌러요', '선생님이 부르는 단어의 그림을 짚고 번호에 동그라미') + paper +
-    instr(3, App.book.instructions.say_check, `혼자 말할 수 있는 단어에 ✓ — I can say __ / ${n}`, '혼자 말할 수 있는 단어의 ☐ 에 ✓ 하고 개수를 써요') + check;
+    instr(2, 'Listen and point.', '🔀 Point! — 들리는 단어의 그림을 눌러요', '선생님이 부르는 단어의 그림을 짚고 번호에 동그라미') + paper;   // v2: 쪽당 활동 2개 (Say and check 는 뺌, 15-design 2)
 };
 // 🔀 Point! 놀이: 단어를 무작위로 하나 들려주고, 맞는 그림을 누르면 ✓ (다 하면 끝)
 const LP = { on: false, left: [], cur: '' };
