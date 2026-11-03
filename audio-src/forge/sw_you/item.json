@@ -35,9 +35,9 @@
    "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:32",
+ "applied": "2026-11-03 19:04",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -47,6 +47,5 @@
  "title": "사이트워드 you · 너",
  "text": "you",
  "voice": "Kore",
- "book": 1,
- "busy": 1
+ "book": 1
 }

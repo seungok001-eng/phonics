@@ -35,9 +35,9 @@
    "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:59",
+ "applied": "2026-11-03 19:02",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -47,6 +47,5 @@
  "title": "단어 worm · 지렁이",
  "text": "worm",
  "voice": "Kore",
- "book": 1,
- "busy": 1
+ "book": 1
 }

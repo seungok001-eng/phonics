@@ -23,11 +23,11 @@
  "tts_usage": {
   "count": 2356,
   "tokens": 161189,
-  "checks": 3770
+  "checks": 4065
  },
  "el_usage": {
-  "count": 1356,
-  "chars": 25389
+  "count": 1368,
+  "chars": 25575
  },
  "topview_usage": {
   "count": 307,

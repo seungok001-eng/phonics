@@ -37,17 +37,16 @@
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 16:35",
+ "applied": "2026-11-03 19:04",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "b2_u01_l1",
  "sub": "line",
- "title": "2권 1유닛 대사 · 번: The cat is on the mat.",
+ "title": "2권 1유닛 대사 · 해설: The cat is on the mat.",
  "text": "The cat is on the mat.",
  "voice": "Leda",
- "who": "bun",
- "book": 2,
- "busy": 0
+ "who": "narrator",
+ "book": 2
 }

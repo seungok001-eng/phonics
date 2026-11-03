@@ -52,8 +52,8 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
+ "approved": 3,
+ "final": "final.mp3",
  "applied": "",
  "text_edited": false,
  "error": "",
@@ -66,5 +66,5 @@
  "voice": "Leda",
  "who": "hedgie",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

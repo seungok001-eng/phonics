@@ -12,7 +12,7 @@
 ## 순서와 상태
 - [x] 1권 대본표 (16-script-b1.md)
 - [x] **1유닛 파일럿** (11-03): 3D 단어 9장·장면 4컷(`art-src/forge/pilot/`), `web/book/v2.css` + pages.js(instr 아이콘·frameHtml·sounds 알약·story v2 4컷·예시 답), unit01.json 스토리 교체, 소리 생성·승인, PDF 확인(7쪽). 나머지 쪽 유형도 v2.css 로 덮음(블롭·연한 바탕).
-- [~] 1권 나머지 유닛(0, 2~12): 대본 JSON 적용 완료(`content/v2/b1_scripts.json`, `build/tmp/v2_apply.py`), 그림 `build/tmp/v2_gen.py` 돌리는 중(단어 전부 + 장면 48), 소리 `build/tmp/v2_sounds.py` 돌리는 중(134개). 남은 것: 결과 검수, PDF·QA, 권 끝 스토리북 대본·그림
+- [x] 1권 나머지 유닛(0, 2~12) (11-03): 대본 적용, 3D 단어 78·장면 48 생성·검수(장면 전부 캐릭터 일치), 소리 134개 생성·승인(겹침·쉿 줄 4개와 hippo·yak·soup 은 다시 들어 승인), PDF 100쪽, 스토리북 v2(4컷 재사용) 뷰어 확인, 수업안 50/46분. 남은 것: 자동 QA 결과 반영, 표지
 - [~] 2~4권: 대본 `content/v2/b2~b4_scripts.json` 작성·유닛 JSON 적용 완료. 그림은 1권 뒤에 자동 이어 돌림(`v2_gen_chain.sh` → v2_gen_b2/3/4.log). 남은 것: 소리(`v2_sounds.py --rebuild <ids>`), 쪽 유형(blend·family_words·sentences·digraph·magic_e·vowels) v2 손질, 검수, PDF·QA
 - [ ] 권 끝 스토리북(유닛 JSON storybook, 권당 35쪽 + 표지): 아직 옛 줄거리·평면 그림. 새 스토리북 대본("핍의 하루" 식) → 그림 → 소리. 유닛 쪽의 📙 링크는 v2 CSS 로 숨김.
 - [ ] 자동 QA 규칙 추가(쪽당 활동 ≤2, 학생 층 한글 0, 지시문 한 줄), PDF 전부, 선생님 자료 갱신
