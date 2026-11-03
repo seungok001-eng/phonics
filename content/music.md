@@ -130,3 +130,6 @@ Suno 에서 **Instrumental 켜기**. 스타일 칸에 아래 문장, 제목은 �
 - 12유닛 쇼의 노래. 전에는 해설 TTS 29줄을 `song_backing` 반주 위에 얹었다(노래가 아님) → 일레븐랩스 작곡(`build/tmp/pip_song.py`): 가사는 교재 줄 "A, a, /a/, apple!" 을 가수용으로 "A, a, a-a-apple!"(낱소리 = 첫 글자 더듬기; c·k 는 k, q 는 qu, x 는 ks) 로 바꿔 보냄. 100 BPM, 한 줄 = 한 마디(2.4초), Verse 1~4(A~G·H~N·O~U·V~Z) + Outro 3줄, 72초.
 - 검사: 제미나이 받아쓰기로 글자 26개 순서·단어 26개 일치 + "7세가 따라 부를 수 있나". 후보 `garden`(우쿨렐레·실로폰) 1번이 통과, `clap`(박수 팝)은 lemon 을 milk 로 불러 탈락.
 - 줄 시작 시각(`show.song.times`): 글자 줄은 2.4초 간격(제미나이 시각 재기는 ±2초라 못 믿음. 짧은 조각으로 A·E·T·Y 확인), 마무리 3줄 64.0·66.3·68.5.
+
+## 알파벳 노래 교체 (2026-11-03)
+- 사용자 선택: `build/abc/abc_kpop_bounce.mp3`(K-pop 풍 신나는, 128 BPM, A~Z 두 번, "Hey! Pop! Phonics! A to Z, sing with me!") → `abc_song.mp3`(68초). 후보 만들기는 `build/tmp/abc_variants.py`.
