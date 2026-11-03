@@ -18,7 +18,7 @@ from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, unquote, parse_qs
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import presets, plan, imgproc, audio
+import presets, plan, imgproc, audio, audition
 
 ROOT = presets.ROOT
 DATA = presets.ART_DATA
@@ -631,10 +631,19 @@ def apply_check(s, c, res):
 def el_key(): return (state['secrets'].get('elevenlabs_key') or '').strip()
 
 
+def el_role(s):
+    """이 소리의 목소리 역할(content/voices.json 의 키). 낱소리·짝꿍 소리는 제미나이라 None. (2026-11-03 사용자: 낱소리 빼고 전부 일레븐랩스)"""
+    if s['sub'] in ('sound', 'fsound', 'name'): return None
+    if len(str(s.get('text', '')).strip()) <= 1: return None   # 한 글자(사이트워드 a·I)도 일레븐랩스는 "uh" 로 읽어 제미나이 유지 (11-03 시험)
+    if s.get('who'): return s['who']
+    return {'instr': 'instruction', 'line': 'narrator'}.get(s['sub'], 'word')   # 단어·사이트워드·글자 이름·합치기 = word
+
+
 def el_voices_for(s):
-    """이 소리를 일레븐랩스로 만들 목소리들 [(이름, voice_id)] — 캐릭터 대사만. 'both' 는 번+헤지 두 목소리를 겹친다. 없으면 [] (제미나이)."""
-    who = s.get('who'); V = state.get('voices') or {}
-    if not who or who == 'narrator' or not el_key(): return []
+    """이 소리를 일레븐랩스로 만들 목소리들 [(이름, voice_id)]. 'both' 는 번+헤지 두 목소리를 겹친다. 없으면 [] (제미나이)."""
+    who = el_role(s); V = state.get('voices') or {}
+    if not who or not el_key(): return []
+    if who == 'word' and not V.get('word'): who = 'narrator'   # 단어 목소리를 따로 안 정했으면 해설 목소리로
     ids = V.get('both', {}).get('mix', ['bun', 'hedgie']) if who == 'both' else [who]
     out = []
     for w in ids:
@@ -899,6 +908,7 @@ def apply_sound(s):
 
 def sound_view(s):
     d = dict(s); d['busy'] = s.get('busy', 0); d['variants'] = sound_variants_for(s); d['script'] = tts_script(s, s['text'])
+    d['el'] = ' + '.join(n for n, _ in el_voices_for(s))   # 일레븐랩스로 만들 때의 목소리 이름 (비면 제미나이)
     d['final_url'] = f"/audio/{s['id']}/{s['final']}?v={int(time.time())}" if s.get('final') else ''
     return d
 
@@ -1006,6 +1016,13 @@ class H(BaseHTTPRequestHandler):
             if p.startswith('/files/'): return self.send_file(DATA, p[7:])
             if p.startswith('/audio/'): return self.send_file(ADATA, p[7:])
             parts = p.split('/')
+            # ---- 목소리 오디션 (네트워크를 쓰므로 lock 밖) ----
+            if p.startswith('/api/audition'):
+                audition.setup(state['secrets']); g = lambda k, d='': (q.get(k) or [d])[0]
+                if p == '/api/audition':
+                    return self.send_json({'chars': audition.roster(), 'pool': {'el': audition.el_pool(), 'gemini': [{'voice_id': k, 'name': f'{k} ({d})'} for k, d in presets.VOICES]}, **audition.status()})
+                if p == '/api/audition/search':
+                    return self.send_json({'voices': audition.el_search(g('q'), g('age'), g('gender'), g('use_case'), g('language', 'en'))})
             with lock:
                 if p == '/api/presets': return self.send_json(presets_view())
                 if p == '/api/settings':
@@ -1102,6 +1119,21 @@ class H(BaseHTTPRequestHandler):
                     return self.send_json({'ok': True, 'url': '/audio/_test.wav?v=%d' % int(time.time()), 'tokens': tokens, 'sec': round(audio.duration(tp), 2)})
                 except Exception as e:
                     return self.send_json({'error': str(e)}, 400)
+            # ---- 목소리 오디션 ----
+            if p.startswith('/api/audition/'):
+                audition.setup(state['secrets']); body = self.body_json(); ch = body.get('char') or ''; a = parts[3]
+                if a == 'lines': return self.send_json({'lines': audition.set_lines(ch, body.get('lines') or [])})
+                if a == 'sample': return self.send_json({'queued': audition.sample(ch, body.get('voices') or [], body.get('lines'))})
+                if a == 'suggest': return self.send_json({'queued': audition.suggest(ch, int(body.get('n') or 6))})
+                if a == 'current': return self.send_json({'queued': audition.ensure_current(ch)})
+                if a == 'remove': audition.remove(ch, body.get('voice_id') or ''); return self.send_json({'ok': True})
+                if a == 'pick':
+                    vid, nm = body.get('voice_id') or '', body.get('name') or ''
+                    changed = audition.pick(ch, vid, nm, body.get('slot'))
+                    with lock:
+                        state['voices'] = read_json(os.path.join(presets.CONTENT, 'voices.json')) or {}   # 소리 생성이 바로 새 목소리를 쓰게
+                        log(f'오디션: {ch} 목소리 → {nm} ({vid})')
+                    return self.send_json({'ok': True, 'changed': changed})
             with lock:
                 if p == '/api/rebuild':
                     rebuild(); return self.send_json({'items': len(state['items']), 'sounds': len(state['sounds'])})

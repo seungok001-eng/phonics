@@ -31,6 +31,7 @@ function renderNav() {
   const cnt = (c) => (c ? `${c.approved}/${c.total}` : '');
   const rows = Object.entries(P.kinds).map(([key, name]) => ({ key, name, cnt: cnt(k[key]) }));
   rows.push({ key: 'sound', name: '소리', cnt: ST ? `${ST.sounds.approved}/${ST.sounds.total}` : '' });
+  rows.push({ key: 'audition', name: '목소리 오디션', cnt: '' });
   rows.push({ key: 'progress', name: '진행·설정', cnt: '' });
   $('nav').innerHTML = rows.map((r) => `<div class="item ${view === r.key ? 'on' : ''}" onclick="setView('${r.key}')"><span>${r.name}</span><span class="cnt">${r.cnt}</span></div>`).join('');
 }
@@ -50,8 +51,9 @@ function renderTop() {
 async function saveGen(v) { try { await api('/api/settings', jsonOpt('PUT', { generator: v })); toast('기본 생성기: ' + (v === 'gemini' ? '제미나이' : '플로우')); } catch (e) { toast(e.message, true); } }
 async function saveUnattended(on) { try { await api('/api/settings', jsonOpt('PUT', { auto_approve_ref: on })); toast(on ? '무인 모드: 기준 그림을 나오는 대로 자동 승인합니다' : '무인 모드 끔'); } catch (e) { toast(e.message, true); } }
 async function autoAll(on) {
-  const kind = ['sound', 'progress'].includes(view) ? '' : view;
+  const kind = ['sound', 'progress', 'audition'].includes(view) ? '' : view;
   if (view === 'sound') return generateAllSounds();
+  if (view === 'audition') return toast('오디션 탭에서는 캐릭터 카드의 "후보 6개 추천"을 쓰세요');
   if (on && !confirm(`${kind ? P.kinds[kind] : '전체'}${unit !== 'all' ? ` · ${unit}유닛` : ''}의 아직 그림 없는 항목을 전부 자동 대기열에 넣을까요? (생성 비용이 듭니다)`)) return;
   try { const r = await api('/api/auto_all', jsonOpt('POST', { on, kind, unit })); toast(`${r.count}개 항목을 ${on ? '자동 대기열에 넣었습니다' : '대기열에서 뺐습니다'}`); refresh(true); }
   catch (e) { toast(e.message, true); }
@@ -65,6 +67,7 @@ async function openLog() { const st = await api('/api/status'); $('logBody').tex
 // ---------- 그림 항목 ----------
 async function renderView() {
   if (view === 'sound') return renderSounds();
+  if (view === 'audition') return renderAudition();
   if (view === 'progress') return renderProgress();
   const items = await api(`/api/items?kind=${view}${unitQ()}`);
   const c = { total: items.length, approved: items.filter((i) => i.status === 'approved').length, review: items.filter((i) => i.status === 'review').length,
@@ -174,7 +177,8 @@ async function renderSounds() {
     <div class="grid">${sounds.map(soundCard).join('') || '<p class="hint">항목이 없습니다.</p>'}</div>`;
 }
 function soundCard(s) {
-  const voiceSel = `<select onchange="saveSound('${s.id}', {voice: this.value})" title="기본 목소리">${P.voices.map((v) => `<option value="${v.key}" ${v.key === s.voice ? 'selected' : ''}>${v.key} (${v.name})</option>`).join('')}</select>`;
+  const voiceSel = s.el ? `<span class="chip approved" title="일레븐랩스 목소리 (목소리 오디션 탭에서 바꿈)">🎙 ${esc(s.el)}</span>`
+    : `<select onchange="saveSound('${s.id}', {voice: this.value})" title="기본 목소리 (제미나이)">${P.voices.map((v) => `<option value="${v.key}" ${v.key === s.voice ? 'selected' : ''}>${v.key} (${v.name})</option>`).join('')}</select>`;
   const cands = s.cands.map((c) => `<div class="cand ${s.approved === c.n ? 'ap' : ''}">
       <audio controls preload="none" src="/audio/${s.id}/${c.file}?v=${Math.round(c.created)}"></audio>
       <span><b>${c.n}</b> ${esc(c.text)}${c.voice ? ' · ' + esc(c.voice) : ''}${c.how === 'cut' ? ' · 잘라냄' : c.how === 'upload' ? ' · 직접' : ''} <span class="hint">${c.sec}s</span></span>
@@ -340,3 +344,83 @@ async function refresh(force) {
   $('unitSel').innerHTML = '<option value="all">전체</option>' + P.units.map((u) => `<option value="${u.n}">${u.n}유닛 ${esc(u.title)}${u.has_json ? '' : ' (JSON 없음)'}</option>`).join('');
   await refresh(true); setInterval(() => refresh(false), 3000);
 })();
+
+// ---------- 목소리 오디션 (서버 audition.py) ----------
+let AUD = null;          // 마지막 /api/audition
+let audSearch = {};      // 캐릭터 → {open, q, age, gender, results}
+let audTimer = null, audAudio = null;
+const audChip = (t, cls = '') => `<span class="chip ${cls}">${esc(t)}</span>`;
+const audLab = (L) => ['language', 'gender', 'age', 'use_case', 'descriptive'].map((k) => (L || {})[k]).filter(Boolean).map((x) => audChip(x)).join(' ');
+async function renderAudition(force) {
+  clearTimeout(audTimer);
+  const ae = document.activeElement;   // 대사를 고치는 중이면 다시 그리지 않는다 (입력이 날아가지 않게)
+  if (!force && ae && ['TEXTAREA', 'INPUT'].includes(ae.tagName) && $('view').contains(ae)) { audTimer = setTimeout(() => view === 'audition' && renderAudition(), 3000); return; }
+  AUD = await api('/api/audition');
+  $('view').innerHTML = `
+    <div class="notice">캐릭터마다 <b>같은 대사 2줄</b>을 여러 목소리로 만들어 들어 보고 <b>이 목소리로!</b>를 누르면 <code>content/voices.json</code>에 적힙니다 (해설·지시문은 제미나이 목소리라 book.json 에도 적힙니다).
+      <b>후보 6개 추천</b>은 내 일레븐랩스 계정의 목소리(${AUD.pool.el.length}개) 중 나이·용도가 맞고 다른 캐릭터가 안 쓰는 것을 고릅니다. <b>라이브러리 검색</b>은 공개 목소리를 찾아 공짜 미리듣기 뒤 후보로 만듭니다(계정에 자동으로 넣어 봅니다).
+      후보 만들기는 글자 수만큼 일레븐랩스 요금이 듭니다. 스토리를 다시 쓴 뒤 대사 전체는 여기서 고른 목소리로 다시 만듭니다.</div>
+    ${AUD.errors.length ? `<div class="err">마지막 오류: ${esc(AUD.errors[AUD.errors.length - 1])}</div>` : ''}
+    <div class="toolbar"><span class="hint">만드는 중 ${AUD.busy}</span><button onclick="audSuggestAll()">후보 없는 캐릭터 전부 6개씩 추천</button></div>
+    <div class="grid" style="grid-template-columns:repeat(auto-fill, minmax(480px,1fr))">${AUD.chars.map(audCard).join('')}</div>`;
+  if (AUD.busy) audTimer = setTimeout(() => view === 'audition' && renderAudition(), 3000);
+}
+function audCard(c) {
+  const cur = Array.isArray(c.current) ? c.current : [c.current];
+  const curIds = cur.map((x) => x.voice_id);
+  const curTxt = cur.filter((x) => x.voice_id).map((x) => x.name || x.voice_id).join(' + ') || '아직 없음';
+  const cands = c.cands.map((k, i) => {
+    const isCur = curIds.includes(k.voice_id);
+    const plays = k.files.map((f, j) => `<button class="small" title="${esc(k.texts[j] || '')}" onclick="audPlay('/audio/_voices/${c.key}/${f}?v=${k.created}')">▶ ${j + 1}</button>`).join(' ');
+    const pick = c.slots ? [0, 1].map((s) => `<button class="small ${curIds[s] === k.voice_id ? '' : 'ok'}" onclick="audPick('${c.key}', ${i}, ${s})">${curIds[s] === k.voice_id ? `${s + 1}번 고름` : `${s + 1}번으로`}</button>`).join(' ')
+      : (isCur ? '<span class="chip approved">고름</span>' : `<button class="small ok" onclick="audPick('${c.key}', ${i})">이 목소리로!</button>`);
+    return `<div class="cand ${isCur ? 'ap' : ''}"><b>${esc(k.name)}</b> ${audLab(k.labels)} ${plays} ${pick} <button class="small" onclick="audRemove('${c.key}', ${i})">지우기</button>${k.error ? `<span class="err">${esc(k.error)}</span>` : ''}</div>`;
+  }).join('');
+  const s = audSearch[c.key] || {};
+  const search = c.engine === 'elevenlabs' ? `<details ${s.open ? 'open' : ''}><summary>라이브러리 검색… (공개 목소리, 미리듣기 공짜)</summary><div class="row" style="margin:6px 0">
+      <input id="aq_${c.key}" placeholder="예: cute kid, grumpy old man" value="${esc(s.q || '')}" style="width:220px" onkeydown="if(event.key==='Enter')audSearchRun('${c.key}')">
+      <select id="aa_${c.key}"><option value="">나이</option>${['young', 'middle_aged', 'old'].map((a) => `<option ${s.age === a ? 'selected' : ''}>${a}</option>`).join('')}</select>
+      <select id="ag_${c.key}"><option value="">성별</option>${['female', 'male', 'neutral'].map((a) => `<option ${s.gender === a ? 'selected' : ''}>${a}</option>`).join('')}</select>
+      <button class="small" onclick="audSearchRun('${c.key}')">검색</button></div>
+      ${(s.results || []).map((v, i) => `<div class="cand"><b>${esc(v.name)}</b> ${audLab(v.labels)} ${v.mine ? audChip('내 계정', 'approved') : ''} ${v.preview_url ? `<button class="small" onclick="audPlay('${v.preview_url}')">▶ 미리듣기</button>` : ''} <button class="small ok" onclick="audSample('${c.key}', ${i})">후보로 만들기</button></div>`).join('')}</details>` : '';
+  return `<div class="card"><h3>${esc(c.name)} <span class="hint">${esc(c.ko)}${c.book ? ` · ${c.book}권부터` : ''}</span> ${audChip(c.engine === 'gemini' ? '제미나이' : '일레븐랩스')} ${c.busy ? audChip(`만드는 중 ${c.busy}`, 'generating') : ''}</h3>
+    <div class="hint" style="margin-bottom:6px">${esc(c.role)}${c.catch ? ` · 말버릇 "${esc(c.catch)}"` : ''}</div>
+    <div style="margin-bottom:4px">지금 목소리: <b>${esc(curTxt)}</b></div>
+    <label>오디션 대사 (한 줄에 하나, 새 후보부터 적용)</label><textarea id="al_${c.key}" style="min-height:44px">${esc(c.lines.join('\n'))}</textarea>
+    <div class="row" style="margin:6px 0"><button class="small" onclick="audLines('${c.key}')">대사 저장</button><button class="small primary" onclick="audSuggest('${c.key}')">후보 6개 추천</button></div>
+    ${search}
+    ${cands || '<p class="hint">후보가 없습니다. "후보 6개 추천"을 누르거나 라이브러리에서 찾아 넣으세요.</p>'}</div>`;
+}
+function audPlay(src) { if (audAudio) audAudio.pause(); audAudio = new Audio(src); audAudio.play().catch((e) => toast('재생 실패: ' + e.message, true)); }
+async function audLines(ch, quiet) {
+  const el = $('al_' + ch); if (!el) return;
+  const lines = el.value.split('\n').map((x) => x.trim()).filter(Boolean);
+  await api('/api/audition/lines', jsonOpt('POST', { char: ch, lines })); if (!quiet) toast('대사를 저장했습니다');
+}
+async function audSuggest(ch) {
+  try { await audLines(ch, true); const r = await api('/api/audition/suggest', jsonOpt('POST', { char: ch, n: 6 })); toast(r.queued ? `${r.queued}개 목소리로 후보를 만듭니다 (1분쯤)` : '조건에 맞는 새 목소리가 없습니다 — 라이브러리 검색을 써 보세요', !r.queued); renderAudition(true); }
+  catch (e) { toast(e.message, true); }
+}
+async function audSuggestAll() {
+  try { let n = 0; for (const c of AUD.chars) if (!c.cands.length && !c.busy) n += (await api('/api/audition/suggest', jsonOpt('POST', { char: c.key, n: 6 }))).queued; toast(`${n}개 후보를 만듭니다`); renderAudition(true); }
+  catch (e) { toast(e.message, true); }
+}
+async function audSearchRun(ch) {
+  const s = audSearch[ch] = { open: true, q: $('aq_' + ch).value.trim(), age: $('aa_' + ch).value, gender: $('ag_' + ch).value };
+  try { const r = await api(`/api/audition/search?q=${encodeURIComponent(s.q)}&age=${s.age}&gender=${s.gender}&use_case=${s.q ? '' : 'characters_animation'}`); s.results = r.voices; if (!r.voices.length) toast('검색 결과가 없습니다', true); renderAudition(true); }
+  catch (e) { toast(e.message, true); }
+}
+async function audSample(ch, i) {
+  const v = audSearch[ch].results[i];
+  try { await audLines(ch, true); await api('/api/audition/sample', jsonOpt('POST', { char: ch, voices: [{ ...v, engine: 'elevenlabs' }] })); toast(`${v.name} 후보를 만듭니다`); renderAudition(true); }
+  catch (e) { toast(e.message, true); }
+}
+async function audPick(ch, i, slot) {
+  const c = AUD.chars.find((x) => x.key === ch); const k = c.cands[i];
+  try { await api('/api/audition/pick', jsonOpt('POST', { char: ch, voice_id: k.voice_id, name: k.name, engine: k.engine, slot })); toast(`${c.name}: ${k.name} 로 정했습니다`); renderAudition(true); }
+  catch (e) { toast(e.message, true); }
+}
+async function audRemove(ch, i) {
+  const k = AUD.chars.find((x) => x.key === ch).cands[i];
+  try { await api('/api/audition/remove', jsonOpt('POST', { char: ch, voice_id: k.voice_id })); renderAudition(true); } catch (e) { toast(e.message, true); }
+}

@@ -1,5 +1,5 @@
 # 교재 공방 — 소리: 제미나이 TTS 호출, WAV 머리 붙이기, ffmpeg 로 자르기·무음 제거·음량 맞춤·mp3.
-import base64, json, os, struct, subprocess, urllib.request, urllib.error
+import base64, json, os, struct, subprocess, time, urllib.request, urllib.error
 
 TTS_URL = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
 
@@ -119,11 +119,14 @@ def el_tts(text, voice_id, key, model='eleven_multilingual_v2', style=0.35):
     body = {'text': text, 'model_id': model, 'voice_settings': {'stability': 0.4, 'similarity_boost': 0.8, 'style': style, 'use_speaker_boost': True}}
     req = urllib.request.Request(EL_URL.format(voice=voice_id), data=json.dumps(body).encode(), method='POST',
                                  headers={'Content-Type': 'application/json', 'xi-api-key': key, 'Accept': 'audio/mpeg'})
-    try:
-        with urllib.request.urlopen(req, timeout=120) as f:
-            return f.read()
-    except urllib.error.HTTPError as e:
-        raise RuntimeError(f'일레븐랩스 HTTP {e.code}: {e.read().decode("utf-8", "replace")[:300]}')
+    for attempt in range(5):   # 요금제의 동시 요청 한도(3개)에 걸리면(429) 잠깐 쉬고 다시
+        try:
+            with urllib.request.urlopen(req, timeout=120) as f:
+                return f.read()
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode('utf-8', 'replace')[:300]
+            if e.code == 429 and attempt < 4: time.sleep(2 + 2 * attempt); continue
+            raise RuntimeError(f'일레븐랩스 HTTP {e.code}: {msg}')
 
 
 def mix(srcs, dst):

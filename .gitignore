@@ -24,3 +24,6 @@ web/pdf/press/
 
 # 목소리 후보 샘플 (로컬 전용)
 audio-src/forge/_voices/
+
+art-src/forge/trial3d/*
+!art-src/forge/trial3d/sheet.png

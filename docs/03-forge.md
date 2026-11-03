@@ -105,3 +105,9 @@ web/assets/art/ audio/ video/   교재가 읽는 파일 (교재에 넣기)
 ## 2026-11-03 그럼블 "Shh!"
 - 일레븐랩스는 "Shh!" 를 단어처럼("sheet·shut") 읽는다 → `server.py` `HUSH_RE`: 대사 속 Shh 를 `/shh/` 덩어리로 바꿔 `el_compose` 가 `audio-src/shh.wav`(제미나이 Charon "Shh!" 후보에서 잘라 0.6초로 늘인 쉿 소리)를 그 자리에 끼운다. 그럼블 대사를 다시 만들 때 자동. 받아쓰기 검사에 "clean whispered hush" 로 나오면 된 것.
 - 2~4권 그럼블 대사 77개는 아직 옛 녹음 — `build/tmp/regen_shh.py <id …>` 로 다시 만들어 승인·넣기.
+
+## 목소리 오디션 탭 (2026-11-03)
+- 공방 왼쪽 **목소리 오디션**: 역할(해설 narrator · 지시문 instruction · 단어 word)과 캐릭터(핍·번·헤지·그럼블·비즈·핌과 팜·요정 이)마다 카드. 대사 2줄(고칠 수 있음)을 여러 목소리로 만들어 ▶ 로 듣고 **이 목소리로!** 를 누르면 `content/voices.json` 에 적힌다. 핌과 팜은 1번·2번 자리.
+- **후보 6개 추천**: 내 일레븐랩스 계정 목소리 중 `audition.FILTER` 의 나이·용도 조건에 맞고 다른 캐릭터가 안 쓰는 것. 지금 목소리가 후보에 없으면 비교용으로 함께 만든다. **라이브러리 검색**: 공개 목소리를 찾아 미리듣기(공짜) → "후보로 만들기"(계정에 넣기를 시도; 키에 Voices 쓰기 권한이 없으면 일레븐랩스 사이트에서 직접 넣어야 함).
+- 파일: `audio-src/forge/_voices/<키>/<voice_id>__<줄>.mp3` + `meta.json` (깃 제외). 서버 모듈 `tools/forge/audition.py`, API `/api/audition`, `/api/audition/{lines,sample,suggest,current,remove,pick}`, `/api/audition/search`.
+- **소리 생성은 낱소리·짝꿍 소리만 제미나이, 나머지 전부 일레븐랩스** (`server.el_role`): who 가 있으면 그 캐릭터, 지시문→instruction, 대사/해설→narrator, 단어·사이트워드·글자 이름·합치기→word (없으면 narrator). 합치기 "/k/ ... /æ/ ... /t/ ... cat" 은 el_compose 가 낱소리 mp3 를 이어 붙이고 단어만 일레븐랩스. 소리 카드에 🎙 목소리 이름이 보이면 일레븐랩스. 목소리를 바꾼 뒤 `POST /api/sounds/regen_voices` 로 일괄 재생성.
