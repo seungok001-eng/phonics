@@ -50,6 +50,23 @@
     "raw": "TRANSCRIPT=cat | TYPE=word | IPA=k æ t | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "/k/ ... /æ/ ... /t/ ... cat",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793689479.60173,
+   "sec": 2.65,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=kæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 3,
@@ -65,5 +82,5 @@
  "text": "/k/ ... /æ/ ... /t/ ... cat",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

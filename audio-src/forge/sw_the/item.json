@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=the | TYPE=word | IPA=ðə | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "the",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793689474.783308,
+   "sec": 0.6,
+   "check": {
+    "transcript": "the",
+    "type": "word",
+    "ipa": "ðə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the | TYPE=word | IPA=ðə | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "사이트워드 the · 그",
  "text": "the",
  "voice": "Kore",
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

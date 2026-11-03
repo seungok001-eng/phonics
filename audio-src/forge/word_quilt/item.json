@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=quilt | TYPE=word | IPA=kwɪlt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "quilt",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793689461.798006,
+   "sec": 0.79,
+   "check": {
+    "transcript": "quilt",
+    "type": "word",
+    "ipa": "kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quilt | TYPE=word | IPA=kwɪlt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 quilt · 누비이불",
  "text": "quilt",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

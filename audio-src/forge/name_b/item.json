@@ -29,5 +29,6 @@
  "sub": "name",
  "title": "글자 이름 B",
  "text": "B",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

@@ -67,6 +67,23 @@
     "raw": "TRANSCRIPT=Bun and Hedgy find a little door. | TYPE=sentence | IPA=bʌn ənd hɛdʒi faɪnd ə lɪtəl dɔɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Bun and Hedgie find a little door.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793689482.9150865,
+   "sec": 2.18,
+   "check": {
+    "transcript": "Bun and Hegy find a little door",
+    "type": "sentence",
+    "ipa": "bʌn ənd hɛgi faɪnd ə lɪtəl dɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun and Hegy find a little door | TYPE=sentence | IPA=bʌn ənd hɛgi faɪnd ə lɪtəl dɔɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 4,
@@ -81,6 +98,7 @@
  "title": "1권 0유닛 대사 · 해설: Bun and Hedgie find a little door.",
  "text": "Bun and Hedgie find a little door.",
  "voice": "Kore",
+ "who": "narrator",
  "book": 1,
- "busy": 0
+ "busy": 1
 }

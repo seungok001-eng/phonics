@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Bun finds a little round door behind the shed. | TYPE=sentence | IPA=bʌn faɪndz ə lɪtəl raʊnd dɔːr bəhaɪnd ðə ʃɛd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Bun finds a little round door behind the shed.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793689490.9463842,
+   "sec": 2.55,
+   "check": {
+    "transcript": "Bun finds a little round door behind the shed.",
+    "type": "sentence",
+    "ipa": "bʌn fʌndz ə lɪtəl raʊnd dɔr bɪhaɪnd ðə ʃɛd.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun finds a little round door behind the shed. | TYPE=sentence | IPA=bʌn fʌndz ə lɪtəl raʊnd dɔr bɪhaɪnd ðə ʃɛd. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -32,5 +49,5 @@
  "voice": "Kore",
  "who": "narrator",
  "book": 1,
- "busy": 0
+ "busy": 1
 }

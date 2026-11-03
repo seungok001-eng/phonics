@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæpəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "apple",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793689457.760896,
+   "sec": 0.7,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæpəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæpəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 2,
@@ -46,5 +63,7 @@
  "sub": "word",
  "title": "단어 apple · 사과",
  "text": "apple",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }
