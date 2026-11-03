@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=snack | TYPE=word | IPA=snæk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "snack",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701360.6918702,
+   "sec": 0.79,
+   "check": {
+    "transcript": "snack",
+    "type": "word",
+    "ipa": "snæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=snack | TYPE=word | IPA=snæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "snack",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

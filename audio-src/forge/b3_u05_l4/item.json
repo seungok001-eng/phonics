@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=su su su su | TYPE=word | IPA=/su/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pip can say fish!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793701083.2113018,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Fish can say fish.",
+    "type": "sentence",
+    "ipa": "fɪʃ kæn seɪ fɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Fish can say fish. | TYPE=sentence | IPA=fɪʃ kæn seɪ fɪʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Pip can say fish!",
  "voice": "Aoede",
  "who": "both",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

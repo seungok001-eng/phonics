@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=bench | TYPE=word | IPA=bɛntʃ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "bench",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701241.5863843,
+   "sec": 0.79,
+   "check": {
+    "transcript": "bench",
+    "type": "word",
+    "ipa": "bɛntʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bench | TYPE=word | IPA=bɛntʃ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 bench · 벤치",
  "text": "bench",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=who | TYPE=word | IPA=huː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "who",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701526.9209096,
+   "sec": 0.6,
+   "check": {
+    "transcript": "who",
+    "type": "word",
+    "ipa": "huː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=who | TYPE=word | IPA=huː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "who",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=quick | TYPE=word | IPA=kwɪk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "quick",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701457.002701,
+   "sec": 0.74,
+   "check": {
+    "transcript": "quick",
+    "type": "word",
+    "ipa": "kwɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quick | TYPE=word | IPA=kwɪk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-07 21:16",
  "text_edited": false,
  "error": "",
- "unit": 10,
+ "unit": 7,
  "letter": null,
  "id": "word_quick",
  "sub": "word",
- "title": "단어 quick · 빠른",
+ "title": "새 단어(첫소리 맞히기) quick",
  "text": "quick",
  "voice": "Kore",
- "book": 3,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

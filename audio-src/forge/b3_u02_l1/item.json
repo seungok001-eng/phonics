@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=My lunch. Oh no! | TYPE=sentence | IPA=maɪ lʌntʃ oʊ noʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "They have lunch on the bench.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701022.7324774,
+   "sec": 1.49,
+   "check": {
+    "transcript": "They have lunch on the bench.",
+    "type": "sentence",
+    "ipa": "ðeɪ hæv lʌntʃ ɒn ðə bɛntʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=They have lunch on the bench. | TYPE=sentence | IPA=ðeɪ hæv lʌntʃ ɒn ðə bɛntʃ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "They have lunch on the bench.",
  "voice": "Leda",
  "who": "narrator",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=t h tish | TYPE=word | IPA=tiː ˈtɪʃ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A bath! And a moth!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793701045.6417558,
+   "sec": 2.04,
+   "check": {
+    "transcript": "A bat and a moth",
+    "type": "sentence",
+    "ipa": "ə ˈbæt ənd ə ˈmɔθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A bat and a moth | TYPE=sentence | IPA=ə ˈbæt ənd ə ˈmɔθ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "A bath! And a moth!",
  "voice": "Aoede",
  "who": "hedgie",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

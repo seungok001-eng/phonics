@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=fun | TYPE=word | IPA=fʌn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "van.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701304.7916703,
+   "sec": 0.7,
+   "check": {
+    "transcript": "fun",
+    "type": "word",
+    "ipa": "fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fun | TYPE=word | IPA=fʌn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,

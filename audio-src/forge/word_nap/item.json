@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=nappy | TYPE=word | IPA=/ˈnæ.pi/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "nap.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701330.682194,
+   "sec": 0.65,
+   "check": {
+    "transcript": "nap",
+    "type": "word",
+    "ipa": "næp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nap | TYPE=word | IPA=næp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 23:43",
+ "applied": "2026-11-03 19:22",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -48,5 +65,5 @@
  "text": "nap",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

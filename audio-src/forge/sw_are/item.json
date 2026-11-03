@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=R | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "are",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701487.8495972,
+   "sec": 0.51,
+   "check": {
+    "transcript": "r",
+    "type": "letter-name",
+    "ipa": "ɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=r | TYPE=letter-name | IPA=ɑɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
@@ -48,5 +65,5 @@
  "text": "are",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

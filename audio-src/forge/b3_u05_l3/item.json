@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Click, clack, duck, sock, rock, lock. | TYPE=sentence | IPA=klɪk klæk dʌk sɒk rɒk lɒk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Fish! Shh, fish!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793701079.8110795,
+   "sec": 2.93,
+   "check": {
+    "transcript": "fish",
+    "type": "word",
+    "ipa": "fɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fish | TYPE=word | IPA=fɪʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Fish! Shh, fish!",
  "voice": "Zephyr",
  "who": "pip",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

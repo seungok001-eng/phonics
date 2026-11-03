@@ -10,6 +10,23 @@
    "sec": 1.86,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Fish! Chimp! Duck!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793701189.3596919,
+   "sec": 2.18,
+   "check": {
+    "transcript": "fish, chimp, duck",
+    "type": "sentence",
+    "ipa": "fɪʃ, ʧɪmp, dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fish, chimp, duck | TYPE=sentence | IPA=fɪʃ, ʧɪmp, dʌk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -25,5 +42,6 @@
  "text": "Fish! Chimp! Duck!",
  "voice": "Laomedeia",
  "who": "both",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

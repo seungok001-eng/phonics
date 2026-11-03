@@ -52,9 +52,9 @@
    "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:37",
+ "applied": "2026-11-03 19:23",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -64,6 +64,5 @@
  "title": "단어 fin · 지느러미",
  "text": "fin",
  "voice": "Kore",
- "book": 2,
- "busy": 1
+ "book": 2
 }

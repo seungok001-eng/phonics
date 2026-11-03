@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=chop | TYPE=word | IPA=tʃɒp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "chop",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701233.6540172,
+   "sec": 0.74,
+   "check": {
+    "transcript": "chop",
+    "type": "word",
+    "ipa": "tʃɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chop | TYPE=word | IPA=tʃɒp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 chop · 장작 패기",
  "text": "chop",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

@@ -35,9 +35,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:19",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -48,6 +48,5 @@
  "text": "Click-clack! Click-clack!",
  "voice": "Kore",
  "who": "pip",
- "book": 2,
- "busy": 1
+ "book": 2
 }

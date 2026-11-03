@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=This is Pim and Pam. | TYPE=sentence | IPA=ðɪs ɪz pɪm ənd pæm | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Three birds!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793701003.1521275,
+   "sec": 1.21,
+   "check": {
+    "transcript": "three birds",
+    "type": "sentence",
+    "ipa": "θriː bɜːrdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=three birds | TYPE=sentence | IPA=θriː bɜːrdz | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Three birds!",
  "voice": "Kore",
  "who": "both",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

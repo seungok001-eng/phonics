@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=sip | TYPE=word | IPA=sɪp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "zip.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701401.659269,
+   "sec": 0.56,
+   "check": {
+    "transcript": "zip",
+    "type": "word",
+    "ipa": "zɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zip | TYPE=word | IPA=zɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 23:45",
+ "applied": "2026-11-03 19:23",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -48,5 +65,5 @@
  "text": "zip",
  "voice": "Kore",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

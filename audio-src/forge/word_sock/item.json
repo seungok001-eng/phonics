@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=sock | TYPE=word | IPA=sɑk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "sock",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701272.8089008,
+   "sec": 0.7,
+   "check": {
+    "transcript": "sock",
+    "type": "word",
+    "ipa": "sɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sock | TYPE=word | IPA=sɑk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,12 +40,13 @@
  "applied": "2026-10-07 21:13",
  "text_edited": false,
  "error": "",
- "unit": 4,
+ "unit": 8,
  "letter": null,
  "id": "word_sock",
  "sub": "word",
- "title": "단어 sock · 양말",
+ "title": "새 단어(첫소리 맞히기) sock",
  "text": "sock",
  "voice": "Kore",
- "book": 3
+ "book": 1,
+ "busy": 1
 }

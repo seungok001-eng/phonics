@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=chin, chip, chop, chess | TYPE=sentence | IPA=tʃɪn tʃɪp tʃɒp tʃɛs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Sh... sh... sh...",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793701075.185934,
+   "sec": 2.18,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Sh... sh... sh...",
  "voice": "Leda",
  "who": "both",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

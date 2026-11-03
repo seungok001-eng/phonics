@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Is it Grumble? | TYPE=sentence | IPA=ɪz ɪt ˈɡɹʌmbəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793700998.7399786,
+   "sec": 1.16,
+   "check": {
+    "transcript": "Together!",
+    "type": "word",
+    "ipa": "təˈɡɛðɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Together! | TYPE=word | IPA=təˈɡɛðɚ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Together!",
  "voice": "Puck",
  "who": "pip",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

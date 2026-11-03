@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=sand | TYPE=word | IPA=sænd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "sand",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701397.7267735,
+   "sec": 0.79,
+   "check": {
+    "transcript": "sand",
+    "type": "word",
+    "ipa": "sænd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sand | TYPE=word | IPA=sænd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "sand",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

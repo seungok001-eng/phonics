@@ -27,6 +27,23 @@
     "raw": "TRANSCRIPT=my lantern oh no | TYPE=sentence | IPA=maɪ ˈlæntərn oʊ noʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The chimp said, \"Camp here!\"",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701135.8034089,
+   "sec": 1.95,
+   "check": {
+    "transcript": "camp here",
+    "type": "sentence",
+    "ipa": "kæmp hɪɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=camp here | TYPE=sentence | IPA=kæmp hɪɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -42,5 +59,6 @@
  "text": "The chimp said, \"Camp here!\"",
  "voice": "Charon",
  "who": "narrator",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

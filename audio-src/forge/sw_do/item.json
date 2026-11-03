@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=T | TYPE=letter-name | IPA=tiː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "do",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701517.8499832,
+   "sec": 0.7,
+   "check": {
+    "transcript": "toe",
+    "type": "word",
+    "ipa": "/toʊ/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=toe | TYPE=word | IPA=/toʊ/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "do",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

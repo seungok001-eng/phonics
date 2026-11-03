@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=What is that? A lock. | TYPE=sentence | IPA=wʌt ɪz ðæt ə lɒk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "What are you doing, King Duck?",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701053.6226172,
+   "sec": 1.72,
+   "check": {
+    "transcript": "What are you doing, King Duck?",
+    "type": "sentence",
+    "ipa": "wʌt ɑɹ ju duɪŋ kɪŋ dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=What are you doing, King Duck? | TYPE=sentence | IPA=wʌt ɑɹ ju duɪŋ kɪŋ dʌk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "What are you doing, King Duck?",
  "voice": "Leda",
  "who": "narrator",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

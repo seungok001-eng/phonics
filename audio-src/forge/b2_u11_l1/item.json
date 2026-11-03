@@ -52,9 +52,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:21",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -65,6 +65,5 @@
  "text": "A pond party!",
  "voice": "Kore",
  "who": "both",
- "book": 2,
- "busy": 1
+ "book": 2
 }

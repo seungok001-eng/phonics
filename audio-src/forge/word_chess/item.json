@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=chess | TYPE=word | IPA=tʃɛs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "chess",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701237.7010715,
+   "sec": 0.79,
+   "check": {
+    "transcript": "chess",
+    "type": "word",
+    "ipa": "tʃɛs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=chess | TYPE=word | IPA=tʃɛs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 chess · 체스",
  "text": "chess",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

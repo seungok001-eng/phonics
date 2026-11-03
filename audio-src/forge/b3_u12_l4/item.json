@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Together! Hooray!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793701197.307461,
+   "sec": 1.63,
+   "check": {
+    "transcript": "Together, hooray!",
+    "type": "sentence",
+    "ipa": "təˈɡɛðəɹ huˈɹeɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Together, hooray! | TYPE=sentence | IPA=təˈɡɛðəɹ huˈɹeɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b3_u12_l4",
+ "sub": "line",
+ "title": "3권 12유닛 대사 · 함께: Together! Hooray!",
+ "text": "Together! Hooray!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 3,
+ "busy": 1
+}

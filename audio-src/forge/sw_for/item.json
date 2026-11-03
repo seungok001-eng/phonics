@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=four | TYPE=word | IPA=fɔːr | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "for",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701501.8947637,
+   "sec": 0.56,
+   "check": {
+    "transcript": "",
+    "type": "silence",
+    "ipa": "",
+    "note": "ok",
+    "raw": "TRANSCRIPT= | TYPE=silence | IPA= | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:22",
+ "applied": "2026-11-03 19:24",
  "text_edited": false,
  "error": "",
  "unit": 4,

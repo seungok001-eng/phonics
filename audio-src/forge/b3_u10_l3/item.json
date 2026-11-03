@@ -27,6 +27,23 @@
     "raw": "TRANSCRIPT=ok, ok, ok, yeah | TYPE=sentence | IPA=oʊˈkeɪ, oʊˈkeɪ, oʊˈkeɪ, jɛ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Quick! Look!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793701160.2446442,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Quick look!",
+    "type": "sentence",
+    "ipa": "kwɪk lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Quick look! | TYPE=sentence | IPA=kwɪk lʊk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -42,5 +59,6 @@
  "text": "Quick! Look!",
  "voice": "Aoede",
  "who": "both",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

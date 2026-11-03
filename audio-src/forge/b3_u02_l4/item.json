@@ -50,6 +50,23 @@
     "raw": "TRANSCRIPT=Together chip | TYPE=sentence | IPA=təˈɡɛðər tʃɪp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "They play chess. Munch, munch!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793701036.031462,
+   "sec": 2.69,
+   "check": {
+    "transcript": "They play chess. Munch, munch!",
+    "type": "sentence",
+    "ipa": "ðeɪ pleɪ tʃɛs mʌntʃ mʌntʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=They play chess. Munch, munch! | TYPE=sentence | IPA=ðeɪ pleɪ tʃɛs mʌntʃ mʌntʃ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -65,5 +82,6 @@
  "text": "They play chess. Munch, munch!",
  "voice": "Laomedeia",
  "who": "pip",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

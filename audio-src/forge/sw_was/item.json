@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=was | TYPE=word | IPA=wʌz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "was",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701472.9824228,
+   "sec": 0.7,
+   "check": {
+    "transcript": "was",
+    "type": "word",
+    "ipa": "wʌz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=was | TYPE=word | IPA=wʌz | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "was",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=fish | TYPE=word | IPA=fɪʃ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "fish",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701217.7845151,
+   "sec": 0.7,
+   "check": {
+    "transcript": "fish",
+    "type": "word",
+    "ipa": "fɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fish | TYPE=word | IPA=fɪʃ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,12 +40,13 @@
  "applied": "2026-10-07 21:12",
  "text_edited": false,
  "error": "",
- "unit": 1,
+ "unit": 2,
  "letter": null,
  "id": "word_fish",
  "sub": "word",
- "title": "단어 fish · 물고기",
+ "title": "새 단어(첫소리 맞히기) fish",
  "text": "fish",
  "voice": "Kore",
- "book": 3
+ "book": 1,
+ "busy": 1
 }

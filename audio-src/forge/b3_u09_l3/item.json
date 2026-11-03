@@ -27,6 +27,23 @@
     "raw": "TRANSCRIPT=Internet | TYPE=word | IPA=/ˈɪntərˌnɛt/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "What do ants do? They eat!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793701143.7062778,
+   "sec": 2.04,
+   "check": {
+    "transcript": "What do ants do? They eat.",
+    "type": "sentence",
+    "ipa": "wʌt duː ænts duː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=What do ants do? They eat. | TYPE=sentence | IPA=wʌt duː ænts duː | ðeɪ iːt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -42,5 +59,6 @@
  "text": "What do ants do? They eat!",
  "voice": "Aoede",
  "who": "bun",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

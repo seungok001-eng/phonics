@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=brick | TYPE=word | IPA=bɹɪk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "brick",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701331.8145022,
+   "sec": 0.74,
+   "check": {
+    "transcript": "brick",
+    "type": "word",
+    "ipa": "brɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=brick | TYPE=word | IPA=brɪk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "brick",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

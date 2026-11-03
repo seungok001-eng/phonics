@@ -10,6 +10,23 @@
    "sec": 1.39,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! I mean... hi!",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793701177.2819183,
+   "sec": 2.0,
+   "check": {
+    "transcript": "hush I mean hi",
+    "type": "sentence",
+    "ipa": "hʌʃ aɪ miːn haɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hush I mean hi | TYPE=sentence | IPA=hʌʃ aɪ miːn haɪ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -25,5 +42,6 @@
  "text": "Shh! I mean... hi!",
  "voice": "Leda",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

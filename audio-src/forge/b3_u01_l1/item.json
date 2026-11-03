@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Look, the door is shut. | TYPE=sentence | IPA=lʊk, ðə dɔɹ ɪz ʃʌt. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "She has a dish. He has a ship.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701006.7483385,
+   "sec": 2.04,
+   "check": {
+    "transcript": "She has a dish. He has a ship.",
+    "type": "sentence",
+    "ipa": "ʃi hɛz ə dɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=She has a dish. He has a ship. | TYPE=sentence | IPA=ʃi hɛz ə dɪʃ | hi hɛz ə ʃɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "She has a dish. He has a ship.",
  "voice": "Leda",
  "who": "narrator",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

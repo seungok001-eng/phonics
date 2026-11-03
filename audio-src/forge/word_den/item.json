@@ -35,9 +35,9 @@
    "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 23:44",
+ "applied": "2026-11-03 19:22",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,6 +47,5 @@
  "title": "단어 den · 굴",
  "text": "den",
  "voice": "Kore",
- "book": 2,
- "busy": 1
+ "book": 2
 }

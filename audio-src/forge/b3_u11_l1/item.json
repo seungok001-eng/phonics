@@ -10,6 +10,23 @@
    "sec": 2.0,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A forest party!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793701169.011234,
+   "sec": 1.53,
+   "check": {
+    "transcript": "forty",
+    "type": "word",
+    "ipa": "ˈfɔːti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=forty | TYPE=word | IPA=ˈfɔːti | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -25,5 +42,6 @@
  "text": "A forest party!",
  "voice": "Kore",
  "who": "both",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

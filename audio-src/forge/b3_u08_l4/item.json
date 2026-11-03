@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=together swing | TYPE=sentence | IPA=təˈɡɛðɚ swɪŋ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Grumble can swim for one snack!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793701131.7196558,
+   "sec": 2.23,
+   "check": {
+    "transcript": "Grumble can swim for one snack!",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl kæn swɪm fɔɹ wʌn snæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble can swim for one snack! | TYPE=sentence | IPA=ˈɡɹʌmbəl kæn swɪm fɔɹ wʌn snæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -48,5 +65,6 @@
  "text": "Grumble can swim for one snack!",
  "voice": "Laomedeia",
  "who": "pip",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

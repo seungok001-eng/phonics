@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=said | TYPE=word | IPA=sɛd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "said",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701513.9481392,
+   "sec": 0.6,
+   "check": {
+    "transcript": "said",
+    "type": "word",
+    "ipa": "sɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=said | TYPE=word | IPA=sɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "said",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

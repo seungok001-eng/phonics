@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=ship, shop, shell, fish, dish | TYPE=sentence | IPA=ʃɪp ʃɑp ʃɛl fɪʃ dɪʃ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pim and Pam sit with Pip.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701070.7213843,
+   "sec": 1.81,
+   "check": {
+    "transcript": "Pim and Pam sit with Pip.",
+    "type": "sentence",
+    "ipa": "pˈɪm ənd pˈæm sˈɪt wˈɪð pˈɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pim and Pam sit with Pip. | TYPE=sentence | IPA=pˈɪm ənd pˈæm sˈɪt wˈɪð pˈɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Pim and Pam sit with Pip.",
  "voice": "Kore",
  "who": "narrator",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

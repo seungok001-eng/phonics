@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=thumb | TYPE=word | IPA=θʌm | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "thumb",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701254.7863026,
+   "sec": 0.65,
+   "check": {
+    "transcript": "thumb",
+    "type": "word",
+    "ipa": "θʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=thumb | TYPE=word | IPA=θʌm | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 thumb · 엄지",
  "text": "thumb",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

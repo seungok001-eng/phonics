@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Look, a big door! | TYPE=sentence | IPA=lʊk ə bɪɡ dɔː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Hi! We are Pim and Pam.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793700994.7456596,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Hi, we are Pimen Pam.",
+    "type": "sentence",
+    "ipa": "haɪ wi ˈɑːr ˈpɪmən ˈpæm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hi, we are Pimen Pam. | TYPE=sentence | IPA=haɪ wi ˈɑːr ˈpɪmən ˈpæm | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Hi! We are Pim and Pam.",
  "voice": "Leda",
  "who": "narrator",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

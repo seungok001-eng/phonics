@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=CKCK | TYPE=word | IPA=siː keɪ siː keɪ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Sing! Sing a song!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793701061.7771497,
+   "sec": 1.95,
+   "check": {
+    "transcript": "Sing, sing a song.",
+    "type": "sentence",
+    "ipa": "sɪŋ ˈsɪŋ ə ˈsɔŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Sing, sing a song. | TYPE=sentence | IPA=sɪŋ ˈsɪŋ ə ˈsɔŋ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Sing! Sing a song!",
  "voice": "Aoede",
  "who": "pip",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

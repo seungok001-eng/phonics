@@ -10,6 +10,23 @@
    "sec": 1.95,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "They are here!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793701172.80601,
+   "sec": 1.21,
+   "check": {
+    "transcript": "They are here.",
+    "type": "sentence",
+    "ipa": "ðeɪ ɑɹ hɪɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=They are here. | TYPE=sentence | IPA=ðeɪ ɑɹ hɪɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -25,5 +42,6 @@
  "text": "They are here!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

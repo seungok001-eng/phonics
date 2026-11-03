@@ -10,6 +10,23 @@
    "sec": 1.53,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Who is at the door?",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701151.6103625,
+   "sec": 1.25,
+   "check": {
+    "transcript": "Who is at the door?",
+    "type": "sentence",
+    "ipa": "hu ɪz ət ðə dɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Who is at the door? | TYPE=sentence | IPA=hu ɪz ət ðə dɔɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -25,5 +42,6 @@
  "text": "Who is at the door?",
  "voice": "Leda",
  "who": "narrator",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

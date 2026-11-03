@@ -52,9 +52,9 @@
    "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:37",
+ "applied": "2026-11-03 19:13",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -65,5 +65,5 @@
  "text": "cot",
  "voice": "Kore",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

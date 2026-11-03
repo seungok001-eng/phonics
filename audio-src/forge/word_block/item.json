@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=block | TYPE=word | IPA=blɒk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "block",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701299.663574,
+   "sec": 0.74,
+   "check": {
+    "transcript": "block",
+    "type": "word",
+    "ipa": "blɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=block | TYPE=word | IPA=blɒk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 block · 블록",
  "text": "block",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

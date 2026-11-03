@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Whisk | TYPE=word | IPA=wɪsk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "whisk",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701440.894842,
+   "sec": 0.84,
+   "check": {
+    "transcript": "whisk",
+    "type": "word",
+    "ipa": "wɪsk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=whisk | TYPE=word | IPA=wɪsk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "whisk",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

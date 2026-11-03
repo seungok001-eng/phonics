@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Look, a big black block. | TYPE=sentence | IPA=lʊk ə bɪɡ blæk blɒk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Here is a black block.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701086.5463593,
+   "sec": 1.44,
+   "check": {
+    "transcript": "Here is a black block.",
+    "type": "sentence",
+    "ipa": "hir ɪz ə blæk blɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Here is a black block. | TYPE=sentence | IPA=hir ɪz ə blæk blɑk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Here is a black block.",
  "voice": "Leda",
  "who": "narrator",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

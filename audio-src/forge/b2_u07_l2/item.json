@@ -52,9 +52,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:06",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -66,5 +66,5 @@
  "voice": "Kore",
  "who": "hedgie",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

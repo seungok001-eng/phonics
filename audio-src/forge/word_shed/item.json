@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=shed | TYPE=word | IPA=ʃɛd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "shed",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701213.7729225,
+   "sec": 0.74,
+   "check": {
+    "transcript": "shed",
+    "type": "word",
+    "ipa": "ʃɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shed | TYPE=word | IPA=ʃɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 shed · 헛간",
  "text": "shed",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

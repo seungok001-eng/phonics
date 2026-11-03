@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=so uh so uh | TYPE=sentence | IPA=so ʌ so ʌ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The fish can push the ship!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793701010.7575521,
+   "sec": 1.72,
+   "check": {
+    "transcript": "The fish can push the ship!",
+    "type": "sentence",
+    "ipa": "ðə fɪʃ kən pʊʃ ðə ʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The fish can push the ship! | TYPE=sentence | IPA=ðə fɪʃ kən pʊʃ ðə ʃɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "The fish can push the ship!",
  "voice": "Aoede",
  "who": "bun",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

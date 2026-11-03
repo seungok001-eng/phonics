@@ -35,9 +35,9 @@
    "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-11-03 18:55",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,

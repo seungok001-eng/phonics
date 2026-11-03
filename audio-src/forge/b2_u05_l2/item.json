@@ -35,9 +35,9 @@
    "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:20",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -48,6 +48,5 @@
  "text": "C... a... t...",
  "voice": "Kore",
  "who": "both",
- "book": 2,
- "busy": 1
+ "book": 2
 }

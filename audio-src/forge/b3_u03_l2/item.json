@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Look, that is a moth. | TYPE=sentence | IPA=lʊk ˈðæt ɪz ə ˈmɒθ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Push with that thumb!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793701041.7137458,
+   "sec": 1.49,
+   "check": {
+    "transcript": "Gosh, with that thumb,",
+    "type": "sentence",
+    "ipa": "ˈɡɑːʃ wɪð ðæt ˈθʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Gosh, with that thumb, | TYPE=sentence | IPA=ˈɡɑːʃ wɪð ðæt ˈθʌm | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Push with that thumb!",
  "voice": "Puck",
  "who": "bun",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

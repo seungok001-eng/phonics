@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=hand | TYPE=word | IPA=hænd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "hand",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701393.8444269,
+   "sec": 0.84,
+   "check": {
+    "transcript": "hand",
+    "type": "word",
+    "ipa": "hænd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hand | TYPE=word | IPA=hænd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "hand",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

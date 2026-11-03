@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=shell | TYPE=word | IPA=ʃɛl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "shell",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701209.6342242,
+   "sec": 0.74,
+   "check": {
+    "transcript": "shell",
+    "type": "word",
+    "ipa": "ʃɛl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shell | TYPE=word | IPA=ʃɛl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 shell · 조개껍데기",
  "text": "shell",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

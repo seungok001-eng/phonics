@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=lunch | TYPE=word | IPA=lʌntʃ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "lunch",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701245.6588442,
+   "sec": 0.74,
+   "check": {
+    "transcript": "lunch",
+    "type": "word",
+    "ipa": "lʌntʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lunch | TYPE=word | IPA=lʌntʃ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 lunch · 점심",
  "text": "lunch",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

@@ -86,9 +86,9 @@
    "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 5,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:05",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -100,5 +100,5 @@
  "voice": "Aoede",
  "who": "bun",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

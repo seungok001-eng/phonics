@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=she | TYPE=word | IPA=ʃi | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "she",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701460.842019,
+   "sec": 0.6,
+   "check": {
+    "transcript": "she",
+    "type": "word",
+    "ipa": "ʃiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=she | TYPE=word | IPA=ʃiː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "she",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

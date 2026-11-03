@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Where? | TYPE=word | IPA=wɛɚ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "where",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701522.9976103,
+   "sec": 0.7,
+   "check": {
+    "transcript": "where",
+    "type": "word",
+    "ipa": "wɛər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=where | TYPE=word | IPA=wɛər | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "where",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

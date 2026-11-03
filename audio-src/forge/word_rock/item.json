@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=rock | TYPE=word | IPA=ˈɹɑk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "rock",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701276.6176076,
+   "sec": 0.74,
+   "check": {
+    "transcript": "rock",
+    "type": "word",
+    "ipa": "ɹɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rock | TYPE=word | IPA=ɹɑk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 rock · 바위",
  "text": "rock",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

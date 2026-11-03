@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=There | TYPE=word | IPA=ðɛɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "there",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701493.8463693,
+   "sec": 0.7,
+   "check": {
+    "transcript": "there",
+    "type": "word",
+    "ipa": "ðɛɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=there | TYPE=word | IPA=ðɛɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "there",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

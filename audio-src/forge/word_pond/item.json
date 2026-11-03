@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=pond | TYPE=word | IPA=pɒnd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "pond",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701401.7319,
+   "sec": 0.74,
+   "check": {
+    "transcript": "pond",
+    "type": "word",
+    "ipa": "pɑnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pond | TYPE=word | IPA=pɑnd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "pond",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

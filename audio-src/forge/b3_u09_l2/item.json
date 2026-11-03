@@ -10,6 +10,23 @@
    "sec": 1.53,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Ants in the tent!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793701139.8352685,
+   "sec": 1.21,
+   "check": {
+    "transcript": "Ants in the dent",
+    "type": "sentence",
+    "ipa": "ˈænts ɪn ðə ˈdɛnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ants in the dent | TYPE=sentence | IPA=ˈænts ɪn ðə ˈdɛnt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -25,5 +42,6 @@
  "text": "Ants in the tent!",
  "voice": "Leda",
  "who": "hedgie",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

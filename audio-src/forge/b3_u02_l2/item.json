@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=It was on the bench. | TYPE=sentence | IPA=ɪt wʌz ɒn ðə bɛnʧ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A chimp! It was my chip!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793701026.5831487,
+   "sec": 1.9,
+   "check": {
+    "transcript": "A chip, it was my chip.",
+    "type": "sentence",
+    "ipa": "ə ˈtʃɪp ɪt wʌz maɪ ˈtʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A chip, it was my chip. | TYPE=sentence | IPA=ə ˈtʃɪp ɪt wʌz maɪ ˈtʃɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "A chimp! It was my chip!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

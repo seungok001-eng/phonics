@@ -37,17 +37,16 @@
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 16:40",
+ "applied": "2026-11-03 19:06",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b2_u07_l4",
  "sub": "line",
- "title": "2권 7유닛 대사 · 헤지: Zip! It is up!",
+ "title": "2권 7유닛 대사 · 함께: Zip! It is up!",
  "text": "Zip! It is up!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 2,
- "busy": 0
+ "who": "both",
+ "book": 2
 }

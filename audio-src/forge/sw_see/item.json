@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=C | TYPE=letter-name | IPA=siː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "see",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701569.8993967,
+   "sec": 0.56,
+   "check": {
+    "transcript": "C",
+    "type": "letter-name",
+    "ipa": "siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=C | TYPE=letter-name | IPA=siː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:25",
+ "applied": "2026-11-03 19:24",
  "text_edited": false,
  "error": "",
  "unit": 1,

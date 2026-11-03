@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=ab arb arbik | TYPE=word | IPA=ab arb arbɪk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Brush, brush. Oh, a crack!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793701110.6720524,
+   "sec": 2.14,
+   "check": {
+    "transcript": "brush brush Oh a crack",
+    "type": "sentence",
+    "ipa": "bɹʌʃ bɹʌʃ oʊ ə kɹæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=brush brush Oh a crack | TYPE=sentence | IPA=bɹʌʃ bɹʌʃ oʊ ə kɹæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -48,5 +65,6 @@
  "text": "Brush, brush. Oh, a crack!",
  "voice": "Aoede",
  "who": "hedgie",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

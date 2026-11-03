@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=that | TYPE=word | IPA=ðæt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "that",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701478.8473458,
+   "sec": 0.6,
+   "check": {
+    "transcript": "that",
+    "type": "word",
+    "ipa": "ðæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=that | TYPE=word | IPA=ðæt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "that",
  "voice": "Kore",
  "book": 3,
- "busy": 0
+ "busy": 1
 }

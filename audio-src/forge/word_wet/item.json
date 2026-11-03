@@ -52,9 +52,9 @@
    "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:26",
+ "applied": "2026-11-03 19:10",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -65,5 +65,5 @@
  "text": "wet",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

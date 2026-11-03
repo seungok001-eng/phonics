@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=ring | TYPE=word | IPA=ɹɪŋ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "ring",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701282.671758,
+   "sec": 0.65,
+   "check": {
+    "transcript": "ring",
+    "type": "word",
+    "ipa": "ɹɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ring | TYPE=word | IPA=ɹɪŋ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "단어 ring · 반지",
  "text": "ring",
  "voice": "Kore",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

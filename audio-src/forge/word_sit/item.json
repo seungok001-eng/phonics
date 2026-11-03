@@ -52,9 +52,9 @@
    "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 00:26",
+ "applied": "2026-11-03 19:23",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -64,6 +64,5 @@
  "title": "새 단어(첫소리 맞히기) sit",
  "text": "sit",
  "voice": "Kore",
- "book": 1,
- "busy": 1
+ "book": 1
 }

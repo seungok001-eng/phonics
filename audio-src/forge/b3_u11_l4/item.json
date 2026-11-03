@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Here is grumble. | TYPE=sentence | IPA=ˈhɪər ɪz ˈɡrʌmbəl. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Sing with us, Grumble!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793701180.6879227,
+   "sec": 1.49,
+   "check": {
+    "transcript": "Silly Williams grumble.",
+    "type": "sentence",
+    "ipa": "ˈsɪli ˈwɪliəmz ˈɡrʌmbəl.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Silly Williams grumble. | TYPE=sentence | IPA=ˈsɪli ˈwɪliəmz ˈɡrʌmbəl. | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Sing with us, Grumble!",
  "voice": "Kore",
  "who": "pip",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

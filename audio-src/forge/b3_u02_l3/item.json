@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=c | TYPE=letter-name | IPA=siː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Chips for chess?",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793701031.5730531,
+   "sec": 1.21,
+   "check": {
+    "transcript": "Chips for chess.",
+    "type": "sentence",
+    "ipa": "t͡ʃɪps fɔɹ t͡ʃɛs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Chips for chess. | TYPE=sentence | IPA=t͡ʃɪps fɔɹ t͡ʃɛs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "Chips for chess?",
  "voice": "Aoede",
  "who": "bun",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=A crab with a drum. | TYPE=sentence | IPA=ə kræb wɪð ə drʌm | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A crab is in the crib.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793701102.5513377,
+   "sec": 1.39,
+   "check": {
+    "transcript": "A crab is in the crib.",
+    "type": "sentence",
+    "ipa": "əˈkræbɪzɪnðəˈkɹɪb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A crab is in the crib. | TYPE=sentence | IPA=əˈkræbɪzɪnðəˈkɹɪb | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": null,
@@ -31,5 +48,6 @@
  "text": "A crab is in the crib.",
  "voice": "Leda",
  "who": "narrator",
- "book": 3
+ "book": 3,
+ "busy": 1
 }
