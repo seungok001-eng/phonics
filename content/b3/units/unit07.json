@@ -453,102 +453,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb3_u07_1",
-        "desc": "Afternoon. A low wall of red bricks crosses the path, with a small round brick door in the middle carved with the two letters b and r — the ONLY text allowed in the picture. On top sits a small red crab with a toy drum around its neck, snapping its claws; Bun jumps back and Hedgie hides behind her; Pip says the letters in the wrong order; Pim and Pam hover. A pink dress hangs on a washing line. Hidden in the picture: the bricks, the crab, the drum, the dress.",
+        "id": "scene_b3_u07_1",
+        "desc": "{crab} sits in a tiny wooden crib by the stream, crying; {PIP}, {BUN} and {HED} tiptoe up. A brick path leads to it.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "A crab is in the crib.",
+            "audio": "b3_u07_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u07_2",
+        "desc": "{BUN} plays a drum gently; {crab} stops crying and listens. {HED} holds a brush.",
         "lines": [
           {
             "who": "bun",
-            "text": "A crab with a drum!",
-            "audio": "sb3_u07_1_1",
-            "ko": "북을 멘 게야!"
-          },
-          {
-            "who": "narrator",
-            "text": "Snip! Snip! Snip!",
-            "audio": "sb3_u07_1_2",
-            "ko": "싹둑! 싹둑! 싹둑!"
-          },
-          {
-            "who": "pip",
-            "text": "Rb? Rb? Rbick?",
-            "audio": "sb3_u07_1_3",
-            "ko": "르브? 르브? 르빅?"
+            "text": "A drum for the crab.",
+            "audio": "b3_u07_l2"
           }
-        ],
-        "task": "Find the br words!",
-        "task_ko": "br 단어를 찾아요",
-        "ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑! 핍은 br 을 거꾸로 \"르브?\"",
-        "narr": {
-          "text": "A crab on a brick wall snaps its claws!",
-          "ko": "벽돌담 위 게가 집게를 싹둑거려요!",
-          "audio": "sb3_u07_1_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u07_2",
-        "desc": "The bricks of the little door have hopped apart and stacked themselves beside the path. Through the gap, under a leafy tree, a big white egg lies in a small wooden baby crib with a blue blanket; a zigzag crack runs across it and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Bun kneels. Hidden in the picture: the bricks, the crib, the crack, the brush, the crab. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face; Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
+        "id": "scene_b3_u07_3",
+        "desc": "{HED} brushes the crab's shell; the crab smiles; there is a crack in the crib's rail.",
         "lines": [
           {
-            "who": "twins",
-            "text": "Together! /br/ /br/ brick!",
-            "audio": "sb3_u07_2_1",
-            "ko": "함께! br, br 벽돌!"
-          },
-          {
             "who": "hedgie",
-            "text": "Look! A crib with an egg!",
-            "audio": "sb3_u07_2_2",
-            "ko": "봐! 알이 든 아기 침대!"
-          },
-          {
-            "who": "pip",
-            "text": "Rc? No! Cr... crack!",
-            "audio": "sb3_u07_2_3",
-            "ko": "르크? 아니! 크르… 크랙!"
+            "text": "Brush, brush. Oh, a crack!",
+            "audio": "b3_u07_l3"
           }
-        ],
-        "task": "Find the cr words!",
-        "task_ko": "cr 단어를 찾아요",
-        "ko": "핌과 팜이 br! 벽돌이 비켜나요. 아기 침대 속 알에 쩍 금이! 핍이 \"크랙!\"",
-        "narr": {
-          "text": "The bricks hop apart. The egg in the crib cracks!",
-          "ko": "벽돌이 비켜요. 침대 속 알에 금이 가요!",
-          "audio": "sb3_u07_2_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u07_3",
-        "desc": "A fluffy little grey baby bird has hatched and yawns in the crib under the blue blanket; Grumble, who has climbed down the tree, gently holds the crab's drum still with one paw and hangs his glowing lantern over the crib like a night-light; everyone smiles. Nearby on a tree stump, a tall stack of colorful pancakes is steaming. Hidden in the picture: the drum, the crib, the dress on the line, the brush. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "id": "scene_b3_u07_4",
+        "desc": "{PIP} ties a little dress of leaves around the crib rail to fix the crack; {crab} sleeps; everyone whispers.",
         "lines": [
           {
-            "who": "grumble",
-            "text": "Shh! Not the drum!",
-            "audio": "sb3_u07_3_1",
-            "ko": "쉿! 북은 안 돼!"
-          },
-          {
-            "who": "hedgie",
-            "text": "A lantern for the crib!",
-            "audio": "sb3_u07_3_2",
-            "ko": "아기 침대에 등불을!"
-          },
-          {
-            "who": "narrator",
-            "text": "Sniff, sniff! Yum!",
-            "audio": "sb3_u07_3_3",
-            "ko": "킁킁! 맛있겠다!"
+            "who": "pip",
+            "text": "The crab sleeps with the drum.",
+            "audio": "b3_u07_l4"
           }
-        ],
-        "task": "Find the dr words!",
-        "task_ko": "dr 단어를 찾아요",
-        "ko": "아기 새가 태어났어요. 그럼블이 \"쉿! 북은 안 돼!\" 하며 등불을 걸어 줘요. — 킁킁! 어디서 맛있는 냄새가?",
-        "narr": {
-          "text": "A baby bird is born. What smells so good?",
-          "ko": "아기 새가 태어났어요. 무슨 냄새가 이렇게 좋을까요?",
-          "audio": "sb3_u07_3_n"
-        }
+        ]
       }
     ]
   },
@@ -748,5 +697,105 @@
     "synopsis_ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑. 핌과 팜이 br! 벽돌이 비켜나고 아기 침대 속 알에 쩍 금이 가요. 핍은 \"크랙!\"을 두 번째에 바로 말해요. 아기 새가 태어나자 그럼블이 나무에서 내려와 등불을 걸어 줘요.",
     "so_far_ko": "까만 블록을 치우고 멈춘 시계를 고쳤어요. 그럼블이 몰래 손뼉을 쳤어요.",
     "goal_ko": "br·cr·dr 을 말해 벽돌문을 열고 아기 새를 지켜 줘요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb3_u07_1",
+        "desc": "Afternoon. A low wall of red bricks crosses the path, with a small round brick door in the middle carved with the two letters b and r — the ONLY text allowed in the picture. On top sits a small red crab with a toy drum around its neck, snapping its claws; Bun jumps back and Hedgie hides behind her; Pip says the letters in the wrong order; Pim and Pam hover. A pink dress hangs on a washing line. Hidden in the picture: the bricks, the crab, the drum, the dress.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "A crab with a drum!",
+            "audio": "sb3_u07_1_1",
+            "ko": "북을 멘 게야!"
+          },
+          {
+            "who": "narrator",
+            "text": "Snip! Snip! Snip!",
+            "audio": "sb3_u07_1_2",
+            "ko": "싹둑! 싹둑! 싹둑!"
+          },
+          {
+            "who": "pip",
+            "text": "Rb? Rb? Rbick?",
+            "audio": "sb3_u07_1_3",
+            "ko": "르브? 르브? 르빅?"
+          }
+        ],
+        "task": "Find the br words!",
+        "task_ko": "br 단어를 찾아요",
+        "ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑! 핍은 br 을 거꾸로 \"르브?\"",
+        "narr": {
+          "text": "A crab on a brick wall snaps its claws!",
+          "ko": "벽돌담 위 게가 집게를 싹둑거려요!",
+          "audio": "sb3_u07_1_n"
+        }
+      },
+      {
+        "id": "sb3_u07_2",
+        "desc": "The bricks of the little door have hopped apart and stacked themselves beside the path. Through the gap, under a leafy tree, a big white egg lies in a small wooden baby crib with a blue blanket; a zigzag crack runs across it and a tiny yellow beak pokes out; the crab, now gentle, sweeps bits of shell away with a little brush; Pip leans in with its beak open; Bun kneels. Hidden in the picture: the bricks, the crib, the crack, the brush, the crab. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face; Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /br/ /br/ brick!",
+            "audio": "sb3_u07_2_1",
+            "ko": "함께! br, br 벽돌!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Look! A crib with an egg!",
+            "audio": "sb3_u07_2_2",
+            "ko": "봐! 알이 든 아기 침대!"
+          },
+          {
+            "who": "pip",
+            "text": "Rc? No! Cr... crack!",
+            "audio": "sb3_u07_2_3",
+            "ko": "르크? 아니! 크르… 크랙!"
+          }
+        ],
+        "task": "Find the cr words!",
+        "task_ko": "cr 단어를 찾아요",
+        "ko": "핌과 팜이 br! 벽돌이 비켜나요. 아기 침대 속 알에 쩍 금이! 핍이 \"크랙!\"",
+        "narr": {
+          "text": "The bricks hop apart. The egg in the crib cracks!",
+          "ko": "벽돌이 비켜요. 침대 속 알에 금이 가요!",
+          "audio": "sb3_u07_2_n"
+        }
+      },
+      {
+        "id": "sb3_u07_3",
+        "desc": "A fluffy little grey baby bird has hatched and yawns in the crib under the blue blanket; Grumble, who has climbed down the tree, gently holds the crab's drum still with one paw and hangs his glowing lantern over the crib like a night-light; everyone smiles. Nearby on a tree stump, a tall stack of colorful pancakes is steaming. Hidden in the picture: the drum, the crib, the dress on the line, the brush. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh! Not the drum!",
+            "audio": "sb3_u07_3_1",
+            "ko": "쉿! 북은 안 돼!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A lantern for the crib!",
+            "audio": "sb3_u07_3_2",
+            "ko": "아기 침대에 등불을!"
+          },
+          {
+            "who": "narrator",
+            "text": "Sniff, sniff! Yum!",
+            "audio": "sb3_u07_3_3",
+            "ko": "킁킁! 맛있겠다!"
+          }
+        ],
+        "task": "Find the dr words!",
+        "task_ko": "dr 단어를 찾아요",
+        "ko": "아기 새가 태어났어요. 그럼블이 \"쉿! 북은 안 돼!\" 하며 등불을 걸어 줘요. — 킁킁! 어디서 맛있는 냄새가?",
+        "narr": {
+          "text": "A baby bird is born. What smells so good?",
+          "ko": "아기 새가 태어났어요. 무슨 냄새가 이렇게 좋을까요?",
+          "audio": "sb3_u07_3_n"
+        }
+      }
+    ]
   }
 }

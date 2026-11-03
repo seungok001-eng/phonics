@@ -424,102 +424,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb3_u02_1",
-        "desc": "Lunch time in a sunny clearing. A little striped chipmunk runs off with the friends' red lunch box from a green bench toward a round door in a hollow log, which has the two letters c and h carved on it — the ONLY text allowed in the picture; the door snaps shut behind its tail. Bun reaches out in shock; Pip says the two letters apart; Pim and Pam sit on the bench back. Hidden in the picture: the bench, a chess board on a stump, a small axe in a chopped log. Grumble does NOT appear. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "id": "scene_b3_u02_1",
+        "desc": "{PIP}, {BUN} and {HED} sit on a wooden bench in the forest with a lunch box of chips; a chess board sits beside them.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "They have lunch on the bench.",
+            "audio": "b3_u02_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u02_2",
+        "desc": "{chimp} swings down from a branch and grabs a chip, chomping it; {HED} covers the box.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A chimp! It was my chip!",
+            "audio": "b3_u02_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u02_3",
+        "desc": "{chimp} rubs its chin thinking, then offers {HED} a shiny chess piece in return. {BUN} smiles.",
         "lines": [
           {
             "who": "bun",
-            "text": "My lunch! Oh no!",
-            "audio": "sb3_u02_1_1",
-            "ko": "내 점심! 안 돼!"
-          },
-          {
-            "who": "hedgie",
-            "text": "It was on the bench!",
-            "audio": "sb3_u02_1_2",
-            "ko": "벤치 위에 있었는데!"
-          },
+            "text": "Chips for chess?",
+            "audio": "b3_u02_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u02_4",
+        "desc": "{chimp} and {HED} play chess on the bench; {PIP} and {BUN} share the chips; everyone is happy.",
+        "lines": [
           {
             "who": "pip",
-            "text": "C... h...? C... h...?",
-            "audio": "sb3_u02_1_3",
-            "ko": "크… 흐…? 크… 흐…?"
+            "text": "They play chess. Munch, munch!",
+            "audio": "b3_u02_l4"
           }
-        ],
-        "task": "Find the ch words!",
-        "task_ko": "ch 단어를 찾아요",
-        "ko": "다람쥐가 벤치 위 점심을 들고 c·h 통나무 문 안으로 쏙! 핍은 \"크… 흐…\"",
-        "narr": {
-          "text": "A chipmunk runs off with the lunch box!",
-          "ko": "다람쥐가 도시락을 들고 달아나요!",
-          "audio": "sb3_u02_1_n"
-        }
-      },
-      {
-        "id": "sb3_u02_2",
-        "desc": "Pim and Pam say the sound together, puffing like a tiny train, and the log door pops open with sparkles; inside, the chipmunk crunches golden potato chips from the red lunch box, a chip stuck on its chin, and two baby chipmunks pop up beside it hugging chips; Beads clicks three beads; Bun and Hedgie peek in and laugh. Hidden in the picture: the chips, the chin, the lunch box.",
-        "lines": [
-          {
-            "who": "twins",
-            "text": "Together! /tʃ/ /tʃ/ chip!",
-            "audio": "sb3_u02_2_1",
-            "ko": "함께! ch, ch 감자칩!"
-          },
-          {
-            "who": "beads",
-            "text": "/tʃ/ /ɪ/ /p/ chip!",
-            "audio": "sb3_u02_2_2",
-            "ko": "ch-i-p 감자칩!"
-          },
-          {
-            "who": "narrator",
-            "text": "A chip on his chin!",
-            "audio": "sb3_u02_2_3",
-            "ko": "턱에 감자칩이 붙었어요!"
-          }
-        ],
-        "task": "Find the chip and the chin!",
-        "task_ko": "감자칩과 턱을 찾아요",
-        "ko": "핌과 팜이 함께 ch! 문이 열리자 다람쥐들이 감자칩을 와작와작. 턱에 칩이 붙었어요.",
-        "narr": {
-          "text": "The door opens. Three chipmunks eat chips!",
-          "ko": "문이 열려요. 다람쥐 셋이 감자칩을 먹어요!",
-          "audio": "sb3_u02_2_n"
-        }
-      },
-      {
-        "id": "sb3_u02_3",
-        "desc": "Everyone shares lunch on the long green bench with the three chipmunks; a chess game waits on a stump. Above, Grumble lets down a little basket on a string from his branch, peeking over with a hopeful face, and Bun drops a chip into it. As evening comes, a soft brown moth flutters toward Grumble's glowing lantern. Hidden in the picture: the bench, the chess board, the chopped log, the lunch box.",
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh... A chip? My chip?",
-            "audio": "sb3_u02_3_1",
-            "ko": "쉿… 감자칩? 내 거?"
-          },
-          {
-            "who": "narrator",
-            "text": "Lunch on the bench! Yum!",
-            "audio": "sb3_u02_3_2",
-            "ko": "벤치에서 점심! 냠냠!"
-          },
-          {
-            "who": "narrator",
-            "text": "Flap, flap, flap... Oh no!",
-            "audio": "sb3_u02_3_3",
-            "ko": "팔랑, 팔랑, 팔랑… 저런!"
-          }
-        ],
-        "task": "Find the bench and the chess!",
-        "task_ko": "벤치와 체스를 찾아요",
-        "ko": "모두 벤치에서 점심을 나눠요. 그럼블도 바구니를 내려 감자칩을 받아요. — 팔랑팔랑, 등불에 누가 날아와요?",
-        "narr": {
-          "text": "Everyone shares lunch. A moth flies to the lantern.",
-          "ko": "모두 점심을 나눠요. 나방이 등불로 날아가요.",
-          "audio": "sb3_u02_3_n"
-        }
+        ]
       }
     ]
   },
@@ -717,5 +666,105 @@
     "synopsis_ko": "다람쥐가 점심 도시락을 들고 c·h 통나무 문 안으로 숨었어요. 핌과 팜이 함께 ch! 문이 열리자 다람쥐들이 감자칩을 먹고 있어요. 모두 벤치에서 점심을 나누고, 나무 위 그럼블도 바구니를 내려 감자칩을 받아요.",
     "so_far_ko": "그럼블의 \"쉿!\"이 바로 sh 소리라서 첫 번째 문이 열렸어요.",
     "goal_ko": "ch 를 말해 통나무 문을 열고 점심을 되찾아요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb3_u02_1",
+        "desc": "Lunch time in a sunny clearing. A little striped chipmunk runs off with the friends' red lunch box from a green bench toward a round door in a hollow log, which has the two letters c and h carved on it — the ONLY text allowed in the picture; the door snaps shut behind its tail. Bun reaches out in shock; Pip says the two letters apart; Pim and Pam sit on the bench back. Hidden in the picture: the bench, a chess board on a stump, a small axe in a chopped log. Grumble does NOT appear. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "My lunch! Oh no!",
+            "audio": "sb3_u02_1_1",
+            "ko": "내 점심! 안 돼!"
+          },
+          {
+            "who": "hedgie",
+            "text": "It was on the bench!",
+            "audio": "sb3_u02_1_2",
+            "ko": "벤치 위에 있었는데!"
+          },
+          {
+            "who": "pip",
+            "text": "C... h...? C... h...?",
+            "audio": "sb3_u02_1_3",
+            "ko": "크… 흐…? 크… 흐…?"
+          }
+        ],
+        "task": "Find the ch words!",
+        "task_ko": "ch 단어를 찾아요",
+        "ko": "다람쥐가 벤치 위 점심을 들고 c·h 통나무 문 안으로 쏙! 핍은 \"크… 흐…\"",
+        "narr": {
+          "text": "A chipmunk runs off with the lunch box!",
+          "ko": "다람쥐가 도시락을 들고 달아나요!",
+          "audio": "sb3_u02_1_n"
+        }
+      },
+      {
+        "id": "sb3_u02_2",
+        "desc": "Pim and Pam say the sound together, puffing like a tiny train, and the log door pops open with sparkles; inside, the chipmunk crunches golden potato chips from the red lunch box, a chip stuck on its chin, and two baby chipmunks pop up beside it hugging chips; Beads clicks three beads; Bun and Hedgie peek in and laugh. Hidden in the picture: the chips, the chin, the lunch box.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /tʃ/ /tʃ/ chip!",
+            "audio": "sb3_u02_2_1",
+            "ko": "함께! ch, ch 감자칩!"
+          },
+          {
+            "who": "beads",
+            "text": "/tʃ/ /ɪ/ /p/ chip!",
+            "audio": "sb3_u02_2_2",
+            "ko": "ch-i-p 감자칩!"
+          },
+          {
+            "who": "narrator",
+            "text": "A chip on his chin!",
+            "audio": "sb3_u02_2_3",
+            "ko": "턱에 감자칩이 붙었어요!"
+          }
+        ],
+        "task": "Find the chip and the chin!",
+        "task_ko": "감자칩과 턱을 찾아요",
+        "ko": "핌과 팜이 함께 ch! 문이 열리자 다람쥐들이 감자칩을 와작와작. 턱에 칩이 붙었어요.",
+        "narr": {
+          "text": "The door opens. Three chipmunks eat chips!",
+          "ko": "문이 열려요. 다람쥐 셋이 감자칩을 먹어요!",
+          "audio": "sb3_u02_2_n"
+        }
+      },
+      {
+        "id": "sb3_u02_3",
+        "desc": "Everyone shares lunch on the long green bench with the three chipmunks; a chess game waits on a stump. Above, Grumble lets down a little basket on a string from his branch, peeking over with a hopeful face, and Bun drops a chip into it. As evening comes, a soft brown moth flutters toward Grumble's glowing lantern. Hidden in the picture: the bench, the chess board, the chopped log, the lunch box.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh... A chip? My chip?",
+            "audio": "sb3_u02_3_1",
+            "ko": "쉿… 감자칩? 내 거?"
+          },
+          {
+            "who": "narrator",
+            "text": "Lunch on the bench! Yum!",
+            "audio": "sb3_u02_3_2",
+            "ko": "벤치에서 점심! 냠냠!"
+          },
+          {
+            "who": "narrator",
+            "text": "Flap, flap, flap... Oh no!",
+            "audio": "sb3_u02_3_3",
+            "ko": "팔랑, 팔랑, 팔랑… 저런!"
+          }
+        ],
+        "task": "Find the bench and the chess!",
+        "task_ko": "벤치와 체스를 찾아요",
+        "ko": "모두 벤치에서 점심을 나눠요. 그럼블도 바구니를 내려 감자칩을 받아요. — 팔랑팔랑, 등불에 누가 날아와요?",
+        "narr": {
+          "text": "Everyone shares lunch. A moth flies to the lantern.",
+          "ko": "모두 점심을 나눠요. 나방이 등불로 날아가요.",
+          "audio": "sb3_u02_3_n"
+        }
+      }
+    ]
   }
 }

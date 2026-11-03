@@ -414,102 +414,51 @@
     }
   ],
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb4_u05_1",
-        "desc": "A round riddle room with a high domed ceiling; gold frames all around the walls show a red cape, a red kite, a coiled rope, a red toy cube, a pink cake, a pine tree, a bone and a silver flute. Bun points and reads; Hedgie counts on his paw with Beads on his flower; Pip hops behind; Fairy E makes each frame twinkle. Grumble does NOT appear. No letters anywhere.",
+        "id": "scene_b4_u05_1",
+        "desc": "{FAIRY} holds a tiny card for {PIP} in the courtyard; {BUN} and {HED} watch; a cap lies on the table.",
         "lines": [
           {
             "who": "narrator",
-            "text": "Cape, cane, tape, cake, gate!",
-            "audio": "sb4_u05_1_1",
-            "ko": "망토, 지팡이, 테이프, 케이크, 대문!"
-          },
+            "text": "Fairy E has a magic card.",
+            "audio": "b4_u05_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u05_2",
+        "desc": "{FAIRY} taps the cap with her wand; it becomes a cape again; {PIP} watches very closely.",
+        "lines": [
           {
             "who": "hedgie",
-            "text": "Kite, pine, bike, five, hive!",
-            "audio": "sb4_u05_1_2",
-            "ko": "연, 소나무, 자전거, 다섯, 벌집!"
-          },
-          {
-            "who": "bun",
-            "text": "Rope, bone, rose! Cube, tube!",
-            "audio": "sb4_u05_1_3",
-            "ko": "밧줄, 뼈, 장미! 블록, 튜브!"
+            "text": "Cap... cape!",
+            "audio": "b4_u05_l2"
           }
-        ],
-        "task": "Find the magic e words!",
-        "task_ko": "마법 e 단어를 찾아요",
-        "ko": "수수께끼 방 벽에 그동안 바꾼 그림들이 걸려 있어요. 모두 하나씩 읽어 봐요.",
-        "narr": {
-          "text": "The friends read every picture on the wall.",
-          "ko": "친구들이 벽의 그림을 모두 읽어요.",
-          "audio": "sb4_u05_1_n"
-        }
+        ]
       },
       {
-        "id": "sb4_u05_2",
-        "desc": "A tall golden door with a wooden sign carved with three letters c, a, p — the ONLY text allowed in the picture — and a blue baseball cap hanging below it. Fairy E's wand only fizzles and she yawns, tired. Pip stands alone in front of the cap with its eyes squeezed shut and feathers trembling, beak open, trying with all its might; Bun and Hedgie hold their breath; Beads holds up three beads one at a time. Grumble does NOT appear.",
+        "id": "scene_b4_u05_3",
+        "desc": "{PIP} taps a kit box with its wing; it turns into a kite; {PIP} jumps with joy.",
         "lines": [
           {
             "who": "pip",
-            "text": "Cap... e... cap... e...",
-            "audio": "sb4_u05_2_1",
-            "ko": "캡… 이… 캡… 이…"
-          },
-          {
-            "who": "beads",
-            "text": "Click-clack! You can, Pip!",
-            "audio": "sb4_u05_2_2",
-            "ko": "딸깍딸깍! 넌 할 수 있어, 핍!"
-          },
+            "text": "Kit... kite! I can make it!",
+            "audio": "b4_u05_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u05_4",
+        "desc": "{snake}, {mule}, {BUN}, {HED} and {FAIRY} cheer around {PIP} who holds the kite.",
+        "lines": [
           {
             "who": "both",
-            "text": "Go, Pip, go!",
-            "audio": "sb4_u05_2_3",
-            "ko": "힘내, 핍, 힘내!"
+            "text": "Pip can make magic words!",
+            "audio": "b4_u05_l4"
           }
-        ],
-        "task": "Find the cap!",
-        "task_ko": "모자를 찾아요",
-        "ko": "마지막 문에 또 파란 모자. 요정 이의 지팡이가 지쳤어요. 핍이 눈을 꼭 감고 애써요.",
-        "narr": {
-          "text": "Fairy E's wand is tired. Pip tries alone.",
-          "ko": "요정 이의 지팡이가 지쳤어요. 핍이 혼자 애써요.",
-          "audio": "sb4_u05_2_n"
-        }
-      },
-      {
-        "id": "sb4_u05_3",
-        "desc": "Pip glows bright gold with its beak wide open; a sparkling letter e appears by itself at the end of the sign on the golden door, so it reads c a p e — the ONLY text allowed in the picture — and the cap turns into a red cape; the golden door swings open; everyone cheers. In the doorway, Grumble in his blue robe raises his lantern so its glow lights a spiral stone staircase, and whispers the word with a tiny smile.",
-        "lines": [
-          {
-            "who": "pip",
-            "text": "Cape! Cape! CAPE!",
-            "audio": "sb4_u05_3_1",
-            "ko": "케이프! 케이프! 케이프! (망토!)"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... Cape.",
-            "audio": "sb4_u05_3_2",
-            "ko": "쉿… 케이프."
-          },
-          {
-            "who": "narrator",
-            "text": "Drip, drop! Drip, drop! Oh no!",
-            "audio": "sb4_u05_3_3",
-            "ko": "똑, 똑! 똑, 똑! 저런!"
-          }
-        ],
-        "task": "Find Grumble's lantern!",
-        "task_ko": "그럼블의 등불을 찾아요",
-        "ko": "'케이프!' 핍의 첫 마법 단어예요. 그럼블이 등불로 계단을 비추며 '쉿… 케이프.' — 똑똑! 똑똑! 저런!",
-        "narr": {
-          "text": "Pip's word opens the door! Grumble lights the way.",
-          "ko": "핍의 말이 문을 열어요! 그럼블이 길을 비춰 줘요.",
-          "audio": "sb4_u05_3_n"
-        }
+        ]
       }
     ]
   },
@@ -707,5 +656,105 @@
     "synopsis_ko": "성 안 수수께끼 방 벽에 그동안 바꾼 그림들이 걸려 있어요. 마지막 금빛 문에 다시 파란 모자가 걸려 있는데 요정 이의 지팡이가 지쳐 반짝이지 않아요. 핍이 온 힘을 다해 \"케이프!\" 하고 첫 마법 단어를 말하자 모자가 저절로 망토로 바뀌고 문이 열려요! 그럼블이 내려와 등불로 계단을 비춰 줘요.",
     "so_far_ko": "욕조가 튜브가 되어 모래 언덕 방으로 갔어요. 노새가 플루트를 불고 그럼블이 몰래 북을 쳤어요.",
     "goal_ko": "마법 e 단어를 복습하고 핍의 첫 마법 단어를 들어요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb4_u05_1",
+        "desc": "A round riddle room with a high domed ceiling; gold frames all around the walls show a red cape, a red kite, a coiled rope, a red toy cube, a pink cake, a pine tree, a bone and a silver flute. Bun points and reads; Hedgie counts on his paw with Beads on his flower; Pip hops behind; Fairy E makes each frame twinkle. Grumble does NOT appear. No letters anywhere.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Cape, cane, tape, cake, gate!",
+            "audio": "sb4_u05_1_1",
+            "ko": "망토, 지팡이, 테이프, 케이크, 대문!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Kite, pine, bike, five, hive!",
+            "audio": "sb4_u05_1_2",
+            "ko": "연, 소나무, 자전거, 다섯, 벌집!"
+          },
+          {
+            "who": "bun",
+            "text": "Rope, bone, rose! Cube, tube!",
+            "audio": "sb4_u05_1_3",
+            "ko": "밧줄, 뼈, 장미! 블록, 튜브!"
+          }
+        ],
+        "task": "Find the magic e words!",
+        "task_ko": "마법 e 단어를 찾아요",
+        "ko": "수수께끼 방 벽에 그동안 바꾼 그림들이 걸려 있어요. 모두 하나씩 읽어 봐요.",
+        "narr": {
+          "text": "The friends read every picture on the wall.",
+          "ko": "친구들이 벽의 그림을 모두 읽어요.",
+          "audio": "sb4_u05_1_n"
+        }
+      },
+      {
+        "id": "sb4_u05_2",
+        "desc": "A tall golden door with a wooden sign carved with three letters c, a, p — the ONLY text allowed in the picture — and a blue baseball cap hanging below it. Fairy E's wand only fizzles and she yawns, tired. Pip stands alone in front of the cap with its eyes squeezed shut and feathers trembling, beak open, trying with all its might; Bun and Hedgie hold their breath; Beads holds up three beads one at a time. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Cap... e... cap... e...",
+            "audio": "sb4_u05_2_1",
+            "ko": "캡… 이… 캡… 이…"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! You can, Pip!",
+            "audio": "sb4_u05_2_2",
+            "ko": "딸깍딸깍! 넌 할 수 있어, 핍!"
+          },
+          {
+            "who": "both",
+            "text": "Go, Pip, go!",
+            "audio": "sb4_u05_2_3",
+            "ko": "힘내, 핍, 힘내!"
+          }
+        ],
+        "task": "Find the cap!",
+        "task_ko": "모자를 찾아요",
+        "ko": "마지막 문에 또 파란 모자. 요정 이의 지팡이가 지쳤어요. 핍이 눈을 꼭 감고 애써요.",
+        "narr": {
+          "text": "Fairy E's wand is tired. Pip tries alone.",
+          "ko": "요정 이의 지팡이가 지쳤어요. 핍이 혼자 애써요.",
+          "audio": "sb4_u05_2_n"
+        }
+      },
+      {
+        "id": "sb4_u05_3",
+        "desc": "Pip glows bright gold with its beak wide open; a sparkling letter e appears by itself at the end of the sign on the golden door, so it reads c a p e — the ONLY text allowed in the picture — and the cap turns into a red cape; the golden door swings open; everyone cheers. In the doorway, Grumble in his blue robe raises his lantern so its glow lights a spiral stone staircase, and whispers the word with a tiny smile.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Cape! Cape! CAPE!",
+            "audio": "sb4_u05_3_1",
+            "ko": "케이프! 케이프! 케이프! (망토!)"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Cape.",
+            "audio": "sb4_u05_3_2",
+            "ko": "쉿… 케이프."
+          },
+          {
+            "who": "narrator",
+            "text": "Drip, drop! Drip, drop! Oh no!",
+            "audio": "sb4_u05_3_3",
+            "ko": "똑, 똑! 똑, 똑! 저런!"
+          }
+        ],
+        "task": "Find Grumble's lantern!",
+        "task_ko": "그럼블의 등불을 찾아요",
+        "ko": "'케이프!' 핍의 첫 마법 단어예요. 그럼블이 등불로 계단을 비추며 '쉿… 케이프.' — 똑똑! 똑똑! 저런!",
+        "narr": {
+          "text": "Pip's word opens the door! Grumble lights the way.",
+          "ko": "핍의 말이 문을 열어요! 그럼블이 길을 비춰 줘요.",
+          "audio": "sb4_u05_3_n"
+        }
+      }
+    ]
   }
 }

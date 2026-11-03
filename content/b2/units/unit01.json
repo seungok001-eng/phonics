@@ -440,102 +440,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb2_u01_1",
-        "desc": "The sandy bank. An orange cat sits on a round green mat at the water's edge. Three big wooden beads lie apart on the sand with one letter on each — c, a, t — the ONLY text allowed in the picture. Pip has hopped onto them in the wrong order, t-a-c, and looks puzzled; Beads shakes its head with a smile from a lily pad; Bun points at the cat; Hedgie scratches his head. Hidden in the picture: the cat, the mat, a small grey rat in a tiny red hat in the grass. Grumble does NOT appear.",
+        "id": "scene_b2_u01_1",
+        "desc": "{cat} sleeps on a striped mat by the pond. {PIP}, {BUN} and {HED} tiptoe past with a paper fan.",
         "lines": [
-          {
-            "who": "bun",
-            "text": "The cat is on the mat.",
-            "audio": "sb2_u01_1_1",
-            "ko": "고양이가 매트 위에 있어."
-          },
-          {
-            "who": "pip",
-            "text": "Tac! Tac?",
-            "audio": "sb2_u01_1_2",
-            "ko": "탁! 탁?"
-          },
-          {
-            "who": "beads",
-            "text": "Click-clack! No, Pip. No!",
-            "audio": "sb2_u01_1_3",
-            "ko": "딸깍딸깍! 아니야, 핍. 아니야!"
-          }
-        ],
-        "task": "Find the -at words!",
-        "task_ko": "-at 단어를 찾아요",
-        "ko": "매트 위에 고양이, 따로 놓인 구슬 c·a·t. 핍이 거꾸로 밟고 '탁!' 하자 비즈가 고개를 저어요.",
-        "narr": {
-          "text": "A cat on a mat. Pip hops the wrong way.",
-          "ko": "매트 위의 고양이. 핍이 거꾸로 밟아요.",
-          "audio": "sb2_u01_1_n"
-        }
-      },
-      {
-        "id": "sb2_u01_2",
-        "desc": "Beads has threaded c-a-t onto its string and the beads have sunk and risen as one round stepping stone just under the water; the cat hops onto it proudly; Bun and Hedgie cheer; Pip flutters above, amazed. Hidden in the picture: the rat in its red hat on the mat, a wooden baseball bat on the sand. Grumble does NOT appear.",
-        "lines": [
-          {
-            "who": "beads",
-            "text": "/k/ /æ/ /t/ cat!",
-            "audio": "sb2_u01_2_1",
-            "ko": "c-a-t 고양이!"
-          },
           {
             "who": "narrator",
-            "text": "Click-clack! A stone!",
-            "audio": "sb2_u01_2_2",
-            "ko": "딸깍딸깍! 돌이다!"
-          },
-          {
-            "who": "bun",
-            "text": "A rat in a hat!",
-            "audio": "sb2_u01_2_3",
-            "ko": "모자 쓴 쥐!"
+            "text": "The cat is on the mat.",
+            "audio": "b2_u01_l1"
           }
-        ],
-        "task": "Find the -at words!",
-        "task_ko": "-at 단어를 찾아요",
-        "ko": "비즈가 구슬을 꿰자 첫 징검돌이 솟고 고양이가 건너요. 모자 쓴 쥐와 방망이도 있어요.",
-        "narr": {
-          "text": "The first stone pops up. The cat hops on!",
-          "ko": "첫 징검돌이 솟아요. 고양이가 올라타요!",
-          "audio": "sb2_u01_2_n"
-        }
+        ]
       },
       {
-        "id": "sb2_u01_3",
-        "desc": "A blue van with a light-blue fan on its roof is parked on the bank; a frying pan hangs from its mirror and a tin can rolls on the sand. Two short rows of stepping stones now lead into the pond; Bun and Hedgie stand on the first stones; Pip on Bun's head; the cat and the rat on the far stone. In the reeds, Grumble's frowning masked face peeks out with his lantern glowing softly, one paw at his mouth. Hidden in the picture: the can, the pan, the van, the fan.",
+        "id": "scene_b2_u01_2",
+        "desc": "{rat} in a tiny hat creeps up and sits down on the sleeping cat's back; {PIP} covers its beak.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "A rat on the cat!",
+            "audio": "b2_u01_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u01_3",
+        "desc": "{cat} opens one eye; {rat} freezes; {BUN} and {HED} hold their breath. A toy van and a pan sit by the pond.",
         "lines": [
           {
             "who": "hedgie",
-            "text": "A can and a pan!",
-            "audio": "sb2_u01_3_1",
-            "ko": "깡통하고 프라이팬!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! My pond!",
-            "audio": "sb2_u01_3_2",
-            "ko": "쉿! 내 연못이야!"
-          },
-          {
-            "who": "narrator",
-            "text": "Splash! Oh no! Look!",
-            "audio": "sb2_u01_3_3",
-            "ko": "풍덩! 어떡해! 봐!"
+            "text": "No, rat, no!",
+            "audio": "b2_u01_l3"
           }
-        ],
-        "task": "Find the -an words!",
-        "task_ko": "-an 단어를 찾아요",
-        "ko": "밴, 선풍기, 프라이팬, 깡통이 있어요. 돌이 두 줄 생겼어요. 갈대 속 그럼블이 '쉿! 내 연못!' — 풍덩! 저런, 봐요!",
-        "narr": {
-          "text": "Two rows of stones. Grumble peeks out. Then... splash!",
-          "ko": "징검돌이 두 줄. 그럼블이 내다봐요. 그런데… 풍덩!",
-          "audio": "sb2_u01_3_n"
-        }
+        ]
+      },
+      {
+        "id": "scene_b2_u01_4",
+        "desc": "{cat} yawns and goes back to sleep; {rat} sleeps too, on the cat, on the mat. {PIP}, {BUN} and {HED} giggle. A bat hangs from the willow.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "The rat is on the cat on the mat!",
+            "audio": "b2_u01_l4"
+          }
+        ]
       }
     ]
   },
@@ -734,5 +683,105 @@
     "synopsis_ko": "고양이가 매트 위에서 연못을 건너고 싶어 해요. 구슬 c·a·t 가 따로 놓여 있어요. 핍은 거꾸로 밟고 \"탁!\" 비즈가 구슬을 꿰어 \"캣!\" 하자 징검돌이 솟았어요. 갈대 속 그럼블이 \"쉿! 내 연못!\"",
     "so_far_ko": "친구들이 단어 연못에 닿아 비즈를 만났어요. 돌이 없어서 건널 수 없었어요.",
     "goal_ko": "소리를 이어 -at·-an 단어를 읽고 징검돌 두 줄을 만들어요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb2_u01_1",
+        "desc": "The sandy bank. An orange cat sits on a round green mat at the water's edge. Three big wooden beads lie apart on the sand with one letter on each — c, a, t — the ONLY text allowed in the picture. Pip has hopped onto them in the wrong order, t-a-c, and looks puzzled; Beads shakes its head with a smile from a lily pad; Bun points at the cat; Hedgie scratches his head. Hidden in the picture: the cat, the mat, a small grey rat in a tiny red hat in the grass. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The cat is on the mat.",
+            "audio": "sb2_u01_1_1",
+            "ko": "고양이가 매트 위에 있어."
+          },
+          {
+            "who": "pip",
+            "text": "Tac! Tac?",
+            "audio": "sb2_u01_1_2",
+            "ko": "탁! 탁?"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! No, Pip. No!",
+            "audio": "sb2_u01_1_3",
+            "ko": "딸깍딸깍! 아니야, 핍. 아니야!"
+          }
+        ],
+        "task": "Find the -at words!",
+        "task_ko": "-at 단어를 찾아요",
+        "ko": "매트 위에 고양이, 따로 놓인 구슬 c·a·t. 핍이 거꾸로 밟고 '탁!' 하자 비즈가 고개를 저어요.",
+        "narr": {
+          "text": "A cat on a mat. Pip hops the wrong way.",
+          "ko": "매트 위의 고양이. 핍이 거꾸로 밟아요.",
+          "audio": "sb2_u01_1_n"
+        }
+      },
+      {
+        "id": "sb2_u01_2",
+        "desc": "Beads has threaded c-a-t onto its string and the beads have sunk and risen as one round stepping stone just under the water; the cat hops onto it proudly; Bun and Hedgie cheer; Pip flutters above, amazed. Hidden in the picture: the rat in its red hat on the mat, a wooden baseball bat on the sand. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /æ/ /t/ cat!",
+            "audio": "sb2_u01_2_1",
+            "ko": "c-a-t 고양이!"
+          },
+          {
+            "who": "narrator",
+            "text": "Click-clack! A stone!",
+            "audio": "sb2_u01_2_2",
+            "ko": "딸깍딸깍! 돌이다!"
+          },
+          {
+            "who": "bun",
+            "text": "A rat in a hat!",
+            "audio": "sb2_u01_2_3",
+            "ko": "모자 쓴 쥐!"
+          }
+        ],
+        "task": "Find the -at words!",
+        "task_ko": "-at 단어를 찾아요",
+        "ko": "비즈가 구슬을 꿰자 첫 징검돌이 솟고 고양이가 건너요. 모자 쓴 쥐와 방망이도 있어요.",
+        "narr": {
+          "text": "The first stone pops up. The cat hops on!",
+          "ko": "첫 징검돌이 솟아요. 고양이가 올라타요!",
+          "audio": "sb2_u01_2_n"
+        }
+      },
+      {
+        "id": "sb2_u01_3",
+        "desc": "A blue van with a light-blue fan on its roof is parked on the bank; a frying pan hangs from its mirror and a tin can rolls on the sand. Two short rows of stepping stones now lead into the pond; Bun and Hedgie stand on the first stones; Pip on Bun's head; the cat and the rat on the far stone. In the reeds, Grumble's frowning masked face peeks out with his lantern glowing softly, one paw at his mouth. Hidden in the picture: the can, the pan, the van, the fan.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A can and a pan!",
+            "audio": "sb2_u01_3_1",
+            "ko": "깡통하고 프라이팬!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! My pond!",
+            "audio": "sb2_u01_3_2",
+            "ko": "쉿! 내 연못이야!"
+          },
+          {
+            "who": "narrator",
+            "text": "Splash! Oh no! Look!",
+            "audio": "sb2_u01_3_3",
+            "ko": "풍덩! 어떡해! 봐!"
+          }
+        ],
+        "task": "Find the -an words!",
+        "task_ko": "-an 단어를 찾아요",
+        "ko": "밴, 선풍기, 프라이팬, 깡통이 있어요. 돌이 두 줄 생겼어요. 갈대 속 그럼블이 '쉿! 내 연못!' — 풍덩! 저런, 봐요!",
+        "narr": {
+          "text": "Two rows of stones. Grumble peeks out. Then... splash!",
+          "ko": "징검돌이 두 줄. 그럼블이 내다봐요. 그런데… 풍덩!",
+          "audio": "sb2_u01_3_n"
+        }
+      }
+    ]
   }
 }

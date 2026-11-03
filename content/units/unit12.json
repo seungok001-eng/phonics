@@ -664,7 +664,53 @@
   },
   "videos": [],
   "storybook": {
-    "pages": []
+    "v2": true,
+    "pages": [
+      {
+        "id": "scene_u12_1",
+        "desc": "A small garden stage with a red curtain. {PIP} wears a tiny top hat and stands at the front like a host. {BUN} and {HED} hold the curtain ropes.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "The alphabet show!",
+            "audio": "u12_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_u12_2",
+        "desc": "On the stage, {BUN}, {HED}, {duck}, {panda}, {fox}, {zebra} and {goat} stand in a line each holding up a blank white card; {PIP} points at them. The cards are plain white with no writing.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "A, B, C...",
+            "audio": "u12_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_u12_3",
+        "desc": "At the end of the line, {GRUMBLE} holds a blank white card but has fallen asleep standing up, eyes closed, mouth open, a little snore bubble. The others look at him.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Z... z... z...",
+            "audio": "u12_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_u12_4",
+        "desc": "All the friends pretend to sleep, eyes closed, copying {GRUMBLE}. {PIP} stands in front with a finger on its beak looking straight at the sleeping {GRUMBLE}.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Shh!",
+            "audio": "u12_l4"
+          }
+        ]
+      }
+    ]
   },
   "mystery": [
     {
@@ -822,5 +868,8 @@
     "synopsis_ko": "꽃 무대에서 알파벳 쇼가 열려요. 핍이 노래하고 그럼블이 북을 치고 번과 헤지가 춤춰요. 스물여섯 글자나무가 빛나요.",
     "so_far_ko": "정원 파티에서 그럼블이 친구가 되었고, 씨앗 하나가 담장 너머로 날아갔어요.",
     "goal_ko": "스물여섯 소리를 노래하고, 이야기를 되짚고, 수료증을 받아요."
+  },
+  "storybook_v1": {
+    "pages": []
   }
 }

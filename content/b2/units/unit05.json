@@ -409,102 +409,51 @@
     }
   ],
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb2_u05_1",
-        "desc": "A bright morning. Eight rows of round stepping stones reach the middle of the pond, each stone faintly marked with a little picture of its word. Bun counts the stones on her paw; Hedgie follows with his red backpack and Beads on his flower; the cat, the hen and the puppy follow in a line; Pip hops from stone to stone. Hidden in the picture: the cat, the red hat on a stone, a tin can, the fan, Bun's cap, the map. Grumble does NOT appear.",
+        "id": "scene_b2_u05_1",
+        "desc": "{BEADS} lines up three big letter beads on the jetty; {PIP} looks at them. {cat} sleeps nearby.",
         "lines": [
           {
             "who": "narrator",
-            "text": "Cat, hat, bat, mat, rat!",
-            "audio": "sb2_u05_1_1",
-            "ko": "고양이, 모자, 방망이, 매트, 쥐!"
-          },
-          {
-            "who": "beads",
-            "text": "Click-clack! Can, fan, pan, van!",
-            "audio": "sb2_u05_1_2",
-            "ko": "딸깍딸깍! 깡통, 선풍기, 프라이팬, 밴!"
-          },
-          {
-            "who": "hedgie",
-            "text": "The cat and the hen!",
-            "audio": "sb2_u05_1_3",
-            "ko": "고양이하고 암탉!"
+            "text": "Beads has c, a, t.",
+            "audio": "b2_u05_l1"
           }
-        ],
-        "task": "Find the a words!",
-        "task_ko": "a 단어를 찾아요",
-        "ko": "돌 여덟 줄을 세며 산책해요. 고양이, 암탉, 강아지가 줄지어 따라와요.",
-        "narr": {
-          "text": "A morning walk. Bun counts the stones.",
-          "ko": "아침 산책이에요. 번이 돌을 세요.",
-          "audio": "sb2_u05_1_n"
-        }
+        ]
       },
       {
-        "id": "sb2_u05_2",
-        "desc": "Pip stands alone on the cat stone in the middle of the pond with eyes squeezed shut and feathers trembling, beak open, trying with all its might; Beads holds up three beads one at a time; Bun and Hedgie hold their breath with paws over their mouths; the cat watches from the bank. Hidden in the picture: the net, the hen, a pen, the little red bed on the bank, a peg on the line. Grumble does NOT appear.",
+        "id": "scene_b2_u05_2",
+        "desc": "{BEADS} clicks the beads together one by one; {PIP} listens with its beak open; {BUN} and {HED} watch.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "C... a... t...",
+            "audio": "b2_u05_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u05_3",
+        "desc": "{PIP} jumps up pointing at {cat} and shouts; the cat wakes up surprised.",
         "lines": [
           {
             "who": "pip",
-            "text": "Tac... tac...",
-            "audio": "sb2_u05_2_1",
-            "ko": "탁… 탁…"
-          },
-          {
-            "who": "beads",
-            "text": "/k/... /æ/... /t/...",
-            "audio": "sb2_u05_2_2",
-            "ko": "c… a… t… (캣의 소리를 하나씩)"
-          },
-          {
-            "who": "narrator",
-            "text": "Pip tries. Pip tries.",
-            "audio": "sb2_u05_2_3",
-            "ko": "핍이 해 봐요. 또 해 봐요."
+            "text": "Cat!",
+            "audio": "b2_u05_l3"
           }
-        ],
-        "task": "Find the e words!",
-        "task_ko": "e 단어를 찾아요",
-        "ko": "고양이 돌 위에서 핍이 눈을 꼭 감고 애써요. 비즈가 구슬을 하나씩 들어요. 모두 숨을 참아요.",
-        "narr": {
-          "text": "Pip shuts its eyes. Beads holds up the beads.",
-          "ko": "핍이 눈을 꼭 감아요. 비즈가 구슬을 들어 올려요.",
-          "audio": "sb2_u05_2_n"
-        }
+        ]
       },
       {
-        "id": "sb2_u05_3",
-        "desc": "Pip has said its first word: it stands tall on the cat stone, beak wide open, glowing bright gold with sparkles bursting over the water; the cat leaps with joy; Bun and Hedgie jump and cheer; Beads clicks all its beads in a happy arc. At the edge of the reeds, Grumble raises his lantern and its warm glow stretches across the water to the stones; he whispers the word too, with a tiny smile.",
+        "id": "scene_b2_u05_4",
+        "desc": "{BUN}, {HED} and {BEADS} cheer and lift {PIP} up; {hen} and {dog} join the cheering.",
         "lines": [
           {
-            "who": "pip",
-            "text": "Cat! Cat! CAT!",
-            "audio": "sb2_u05_3_1",
-            "ko": "캣! 캣! 캣! (고양이!)"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... Cat.",
-            "audio": "sb2_u05_3_2",
-            "ko": "쉿… 캣."
-          },
-          {
-            "who": "narrator",
-            "text": "Oink! Oink! Big, big, big!",
-            "audio": "sb2_u05_3_3",
-            "ko": "꿀꿀! 꿀꿀! 커다란, 커다란…!"
+            "who": "both",
+            "text": "Pip can say cat!",
+            "audio": "b2_u05_l4"
           }
-        ],
-        "task": "Find Grumble's lantern!",
-        "task_ko": "그럼블의 등불을 찾아요",
-        "ko": "'캣!' 핍의 첫 단어예요. 금빛으로 빛나요. 갈대에서 그럼블이 등불을 들고 '쉿… 캣.' — 꿀꿀! 커다란, 커다란…?",
-        "narr": {
-          "text": "Pip reads its first word! Grumble lifts his lantern.",
-          "ko": "핍이 첫 단어를 읽었어요! 그럼블이 등불을 들어요.",
-          "audio": "sb2_u05_3_n"
-        }
+        ]
       }
     ]
   },
@@ -700,5 +649,105 @@
     "synopsis_ko": "친구들이 징검돌 여덟 줄을 세며 걸어요. 핍이 고양이 돌 위에서 온 힘을 다해 \"캣!\" 하고 첫 단어를 말했어요! 해질녘 그럼블이 등불로 돌을 비춰 주고 \"캣\" 하고 속삭여요.",
     "so_far_ko": "다친 그럼블을 침대에 눕혀 돌봐 줬어요. a·e 단어 가족 여덟 개를 배웠어요.",
     "goal_ko": "a·e 단어를 복습하고 핍의 첫 단어를 들어요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb2_u05_1",
+        "desc": "A bright morning. Eight rows of round stepping stones reach the middle of the pond, each stone faintly marked with a little picture of its word. Bun counts the stones on her paw; Hedgie follows with his red backpack and Beads on his flower; the cat, the hen and the puppy follow in a line; Pip hops from stone to stone. Hidden in the picture: the cat, the red hat on a stone, a tin can, the fan, Bun's cap, the map. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Cat, hat, bat, mat, rat!",
+            "audio": "sb2_u05_1_1",
+            "ko": "고양이, 모자, 방망이, 매트, 쥐!"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Can, fan, pan, van!",
+            "audio": "sb2_u05_1_2",
+            "ko": "딸깍딸깍! 깡통, 선풍기, 프라이팬, 밴!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The cat and the hen!",
+            "audio": "sb2_u05_1_3",
+            "ko": "고양이하고 암탉!"
+          }
+        ],
+        "task": "Find the a words!",
+        "task_ko": "a 단어를 찾아요",
+        "ko": "돌 여덟 줄을 세며 산책해요. 고양이, 암탉, 강아지가 줄지어 따라와요.",
+        "narr": {
+          "text": "A morning walk. Bun counts the stones.",
+          "ko": "아침 산책이에요. 번이 돌을 세요.",
+          "audio": "sb2_u05_1_n"
+        }
+      },
+      {
+        "id": "sb2_u05_2",
+        "desc": "Pip stands alone on the cat stone in the middle of the pond with eyes squeezed shut and feathers trembling, beak open, trying with all its might; Beads holds up three beads one at a time; Bun and Hedgie hold their breath with paws over their mouths; the cat watches from the bank. Hidden in the picture: the net, the hen, a pen, the little red bed on the bank, a peg on the line. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Tac... tac...",
+            "audio": "sb2_u05_2_1",
+            "ko": "탁… 탁…"
+          },
+          {
+            "who": "beads",
+            "text": "/k/... /æ/... /t/...",
+            "audio": "sb2_u05_2_2",
+            "ko": "c… a… t… (캣의 소리를 하나씩)"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Pip tries.",
+            "audio": "sb2_u05_2_3",
+            "ko": "핍이 해 봐요. 또 해 봐요."
+          }
+        ],
+        "task": "Find the e words!",
+        "task_ko": "e 단어를 찾아요",
+        "ko": "고양이 돌 위에서 핍이 눈을 꼭 감고 애써요. 비즈가 구슬을 하나씩 들어요. 모두 숨을 참아요.",
+        "narr": {
+          "text": "Pip shuts its eyes. Beads holds up the beads.",
+          "ko": "핍이 눈을 꼭 감아요. 비즈가 구슬을 들어 올려요.",
+          "audio": "sb2_u05_2_n"
+        }
+      },
+      {
+        "id": "sb2_u05_3",
+        "desc": "Pip has said its first word: it stands tall on the cat stone, beak wide open, glowing bright gold with sparkles bursting over the water; the cat leaps with joy; Bun and Hedgie jump and cheer; Beads clicks all its beads in a happy arc. At the edge of the reeds, Grumble raises his lantern and its warm glow stretches across the water to the stones; he whispers the word too, with a tiny smile.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Cat! Cat! CAT!",
+            "audio": "sb2_u05_3_1",
+            "ko": "캣! 캣! 캣! (고양이!)"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Cat.",
+            "audio": "sb2_u05_3_2",
+            "ko": "쉿… 캣."
+          },
+          {
+            "who": "narrator",
+            "text": "Oink! Oink! Big, big, big!",
+            "audio": "sb2_u05_3_3",
+            "ko": "꿀꿀! 꿀꿀! 커다란, 커다란…!"
+          }
+        ],
+        "task": "Find Grumble's lantern!",
+        "task_ko": "그럼블의 등불을 찾아요",
+        "ko": "'캣!' 핍의 첫 단어예요. 금빛으로 빛나요. 갈대에서 그럼블이 등불을 들고 '쉿… 캣.' — 꿀꿀! 커다란, 커다란…?",
+        "narr": {
+          "text": "Pip reads its first word! Grumble lifts his lantern.",
+          "ko": "핍이 첫 단어를 읽었어요! 그럼블이 등불을 들어요.",
+          "audio": "sb2_u05_3_n"
+        }
+      }
+    ]
   }
 }

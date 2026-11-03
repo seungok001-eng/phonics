@@ -447,102 +447,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb4_u07_1",
-        "desc": "A round tower room with a tall window over a bright blue sea; a bare little tree with no leaves stands in a big pot and a small sad bee buzzes around it. Bun points at the bee; Hedgie touches a bare twig; Pip reads in pieces, puzzled; Fairy E sits on a branch; a white sheep grazes on a cliff outside. Grumble does NOT appear. No letters anywhere.",
+        "id": "scene_b4_u07_1",
+        "desc": "A big tree in the castle garden; {bee} buzzes around a flower; {PIP}, {BUN} and {HED} have tea under the tree. A leaf and a seed lie on the grass.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "A bee in the tree.",
+            "audio": "b4_u07_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u07_2",
+        "desc": "{sheep} wanders in and eats the leaf; {HED} points at its feet, which are muddy.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "See the sheep's feet!",
+            "audio": "b4_u07_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u07_3",
+        "desc": "{seal} slides in from the sea pool with a peach on its nose and offers it to {BUN}.",
         "lines": [
           {
             "who": "bun",
-            "text": "Look! A bee!",
-            "audio": "sb4_u07_1_1",
-            "ko": "봐! 벌이야!"
-          },
-          {
-            "who": "hedgie",
-            "text": "The tree has no leaf.",
-            "audio": "sb4_u07_1_2",
-            "ko": "나무에 잎이 하나도 없어."
-          },
+            "text": "Eat a peach? Thank you, seal!",
+            "audio": "b4_u07_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u07_4",
+        "desc": "Everyone shares the peach under the tree; {bee} sits on {PIP}'s head; {PIP} stays very still.",
+        "lines": [
           {
             "who": "pip",
-            "text": "Tre... e? Tre-e?",
-            "audio": "sb4_u07_1_3",
-            "ko": "트레… 에? 트레-에?"
+            "text": "A bee on me! I see it!",
+            "audio": "b4_u07_l4"
           }
-        ],
-        "task": "Find the ee words!",
-        "task_ko": "ee 단어를 찾아요",
-        "ko": "바다가 보이는 탑 방, 잎 없는 나무 둘레를 벌이 슬프게 날아요. 핍은 \"트레-에?\"",
-        "narr": {
-          "text": "A bare tree and a sad bee by the sea.",
-          "ko": "바닷가 탑에 잎 없는 나무와 슬픈 벌이 있어요.",
-          "audio": "sb4_u07_1_n"
-        }
-      },
-      {
-        "id": "sb4_u07_2",
-        "desc": "Fairy E touches two little sparkles together with her star wand and they melt into one big bright sparkle that drifts into the bare tree; the tree bursts into green leaves, pink blossoms and round peaches; the happy bee loops in the air; Bun and Hedgie cheer; a tiny seed falls into Pip's wing. Grumble does NOT appear. No letters anywhere. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
-        "lines": [
-          {
-            "who": "fairy",
-            "text": "Eee! Eee!",
-            "audio": "sb4_u07_2_1",
-            "ko": "이~! 이~!"
-          },
-          {
-            "who": "beads",
-            "text": "/l/ /iː/ /f/ leaf!",
-            "audio": "sb4_u07_2_2",
-            "ko": "l-ea-f 잎!"
-          },
-          {
-            "who": "narrator",
-            "text": "Pop! Pop! Leaf, leaf, leaf!",
-            "audio": "sb4_u07_2_3",
-            "ko": "펑! 펑! 잎, 잎, 잎!"
-          }
-        ],
-        "task": "Find the leaf and the peach!",
-        "task_ko": "잎과 복숭아를 찾아요",
-        "ko": "반짝이 둘이 하나로! 나무에 잎이 펑펑, 꽃과 복숭아가 열려요.",
-        "narr": {
-          "text": "Whoosh! The tree is full of leaves and peaches.",
-          "ko": "휘익! 나무에 잎과 복숭아가 가득해요.",
-          "audio": "sb4_u07_2_n"
-        }
-      },
-      {
-        "id": "sb4_u07_3",
-        "desc": "Snack time under the leafy tree: Grumble in his blue robe offers a tray of tea with a shy face; a grey seal pops up at the window from the sea; the happy bee lands on Hedgie's bare feet and tickles them, and Hedgie laughs; Pip plants the tiny seed in a pot. No letters anywhere.",
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh... Tea? I like tea.",
-            "audio": "sb4_u07_3_1",
-            "ko": "쉿… 차 마실래? 난 차가 좋아."
-          },
-          {
-            "who": "hedgie",
-            "text": "Hee, hee! The bee!",
-            "audio": "sb4_u07_3_2",
-            "ko": "히히! 벌이 간지러워!"
-          },
-          {
-            "who": "narrator",
-            "text": "Brr! Brr! Oh no!",
-            "audio": "sb4_u07_3_3",
-            "ko": "으슬으슬! 덜덜! 저런!"
-          }
-        ],
-        "task": "Find the ea words!",
-        "task_ko": "ea 단어를 찾아요",
-        "ko": "그럼블이 차를 가져와요. 물개가 창밖에서 인사하고 벌이 헤지 발을 간질여요. — 으슬으슬! 저런!",
-        "narr": {
-          "text": "Tea with Grumble. The bee tickles Hedgie's feet!",
-          "ko": "그럼블과 차를 마셔요. 벌이 헤지 발을 간질여요!",
-          "audio": "sb4_u07_3_n"
-        }
+        ]
       }
     ]
   },
@@ -742,5 +691,105 @@
     "synopsis_ko": "바다가 보이는 탑 방에 잎이 하나도 없는 나무가 있고, 벌이 슬프게 날아요. 핍은 \"트레-에?\" 요정 이가 반짝이 두 개를 하나로 합치고 \"tree!\" 하자 나무에 잎과 꽃과 복숭아가 펑펑! 그럼블이 차를 들고 내려와요. 창밖 물개가 고개를 내밀고, 벌이 헤지 발에 앉아 간질간질.",
     "so_far_ko": "비구름을 그치게 하고 기차를 타고 달렸어요. 그럼블은 북에 물감을 칠했어요.",
     "goal_ko": "두 모음이 한 소리를 내는 ee·ea 단어를 읽고 나무를 깨워요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb4_u07_1",
+        "desc": "A round tower room with a tall window over a bright blue sea; a bare little tree with no leaves stands in a big pot and a small sad bee buzzes around it. Bun points at the bee; Hedgie touches a bare twig; Pip reads in pieces, puzzled; Fairy E sits on a branch; a white sheep grazes on a cliff outside. Grumble does NOT appear. No letters anywhere.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! A bee!",
+            "audio": "sb4_u07_1_1",
+            "ko": "봐! 벌이야!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The tree has no leaf.",
+            "audio": "sb4_u07_1_2",
+            "ko": "나무에 잎이 하나도 없어."
+          },
+          {
+            "who": "pip",
+            "text": "Tre... e? Tre-e?",
+            "audio": "sb4_u07_1_3",
+            "ko": "트레… 에? 트레-에?"
+          }
+        ],
+        "task": "Find the ee words!",
+        "task_ko": "ee 단어를 찾아요",
+        "ko": "바다가 보이는 탑 방, 잎 없는 나무 둘레를 벌이 슬프게 날아요. 핍은 \"트레-에?\"",
+        "narr": {
+          "text": "A bare tree and a sad bee by the sea.",
+          "ko": "바닷가 탑에 잎 없는 나무와 슬픈 벌이 있어요.",
+          "audio": "sb4_u07_1_n"
+        }
+      },
+      {
+        "id": "sb4_u07_2",
+        "desc": "Fairy E touches two little sparkles together with her star wand and they melt into one big bright sparkle that drifts into the bare tree; the tree bursts into green leaves, pink blossoms and round peaches; the happy bee loops in the air; Bun and Hedgie cheer; a tiny seed falls into Pip's wing. Grumble does NOT appear. No letters anywhere. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
+        "lines": [
+          {
+            "who": "fairy",
+            "text": "Eee! Eee!",
+            "audio": "sb4_u07_2_1",
+            "ko": "이~! 이~!"
+          },
+          {
+            "who": "beads",
+            "text": "/l/ /iː/ /f/ leaf!",
+            "audio": "sb4_u07_2_2",
+            "ko": "l-ea-f 잎!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pop! Pop! Leaf, leaf, leaf!",
+            "audio": "sb4_u07_2_3",
+            "ko": "펑! 펑! 잎, 잎, 잎!"
+          }
+        ],
+        "task": "Find the leaf and the peach!",
+        "task_ko": "잎과 복숭아를 찾아요",
+        "ko": "반짝이 둘이 하나로! 나무에 잎이 펑펑, 꽃과 복숭아가 열려요.",
+        "narr": {
+          "text": "Whoosh! The tree is full of leaves and peaches.",
+          "ko": "휘익! 나무에 잎과 복숭아가 가득해요.",
+          "audio": "sb4_u07_2_n"
+        }
+      },
+      {
+        "id": "sb4_u07_3",
+        "desc": "Snack time under the leafy tree: Grumble in his blue robe offers a tray of tea with a shy face; a grey seal pops up at the window from the sea; the happy bee lands on Hedgie's bare feet and tickles them, and Hedgie laughs; Pip plants the tiny seed in a pot. No letters anywhere.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh... Tea? I like tea.",
+            "audio": "sb4_u07_3_1",
+            "ko": "쉿… 차 마실래? 난 차가 좋아."
+          },
+          {
+            "who": "hedgie",
+            "text": "Hee, hee! The bee!",
+            "audio": "sb4_u07_3_2",
+            "ko": "히히! 벌이 간지러워!"
+          },
+          {
+            "who": "narrator",
+            "text": "Brr! Brr! Oh no!",
+            "audio": "sb4_u07_3_3",
+            "ko": "으슬으슬! 덜덜! 저런!"
+          }
+        ],
+        "task": "Find the ea words!",
+        "task_ko": "ea 단어를 찾아요",
+        "ko": "그럼블이 차를 가져와요. 물개가 창밖에서 인사하고 벌이 헤지 발을 간질여요. — 으슬으슬! 저런!",
+        "narr": {
+          "text": "Tea with Grumble. The bee tickles Hedgie's feet!",
+          "ko": "그럼블과 차를 마셔요. 벌이 헤지 발을 간질여요!",
+          "audio": "sb4_u07_3_n"
+        }
+      }
+    ]
   }
 }

@@ -465,102 +465,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb3_u08_1",
-        "desc": "A sunny stream. On a wide stump sits a tall wobbly stack of colorful pancakes with a little brown stick beside it; across the wide water stands a round door in a mossy bank carved with the two letters s and w — the ONLY text allowed in the picture. Bun counts the pancakes; Hedgie sniffs the air; Pip says the letters in the wrong order; Pim and Pam sit on the stick; up in the tree Grumble's nose pokes out of the leaves, sniffing. Hidden in the picture: the snack, the stack, the stick, Grumble sniffing.",
+        "id": "scene_b3_u08_1",
+        "desc": "A rope swing hangs from a big tree; {HED} sits on it holding a snack bag; {PIP} and {BUN} push.",
         "lines": [
           {
-            "who": "bun",
-            "text": "One snack, two snacks!",
-            "audio": "sb3_u08_1_1",
-            "ko": "간식 하나, 간식 둘!"
-          },
+            "who": "narrator",
+            "text": "One snack on one swing.",
+            "audio": "b3_u08_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u08_2",
+        "desc": "{BUN} pushes hard; the swing flies high; the snack bag spills; a stick and a stack of crackers fly out.",
+        "lines": [
           {
             "who": "hedgie",
-            "text": "Sniff, sniff... Is it Grumble?",
-            "audio": "sb3_u08_1_2",
-            "ko": "킁킁… 그럼블이야?"
-          },
-          {
-            "who": "pip",
-            "text": "Ws? Ws? Wsim?",
-            "audio": "sb3_u08_1_3",
-            "ko": "우스? 우스? 우심?"
+            "text": "Two... two... stop!",
+            "audio": "b3_u08_l2"
           }
-        ],
-        "task": "Find the sn and st words!",
-        "task_ko": "sn·st 단어를 찾아요",
-        "ko": "그루터기 위에 팬케이크 간식이 쌓였어요. 건너편 s·w 문까지 물이 넓어요. 나무 위에서 킁킁.",
-        "narr": {
-          "text": "A stack of pancakes! The stream is too wide.",
-          "ko": "팬케이크가 쌓였어요! 시냇물이 너무 넓어요.",
-          "audio": "sb3_u08_1_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u08_2",
-        "desc": "A big wooden swing on two long ropes has swooped down from the high branches; Bun swings over the stream holding the plate of pancakes, a fish swims below, and Hedgie, swinging next with a cup of cocoa, tips it — cocoa splashes down and leaves one big round brown spot on Bun's white tummy fur; Pip swings beside Hedgie. Hidden in the picture: the swing, the swimming fish, the spill, the spot. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
-        "lines": [
-          {
-            "who": "twins",
-            "text": "Together! /sw/ /sw/ swing!",
-            "audio": "sb3_u08_2_1",
-            "ko": "함께! sw, sw 그네!"
-          },
-          {
-            "who": "bun",
-            "text": "Whoosh! Swing, swing!",
-            "audio": "sb3_u08_2_2",
-            "ko": "슝! 그네, 그네!"
-          },
-          {
-            "who": "pip",
-            "text": "Ps? No! Sp... spot!",
-            "audio": "sb3_u08_2_3",
-            "ko": "프스? 아니! 스프… 스팟!"
-          }
-        ],
-        "task": "Find the sw and sp words!",
-        "task_ko": "sw·sp 단어를 찾아요",
-        "ko": "핌과 팜이 sw! 그네를 타고 슝~ 헤지가 코코아를 쏟아 번에게 얼룩이! 핍이 \"스팟!\"",
-        "narr": {
-          "text": "Bun swings over the stream. Hedgie spills his cocoa!",
-          "ko": "번이 시냇물 위로 슝! 헤지가 코코아를 쏟아요!",
-          "audio": "sb3_u08_2_n"
-        }
-      },
-      {
-        "id": "sb3_u08_3",
-        "desc": "Everyone sits across the stream around the stump with the pancakes; Grumble has come down sniffing and holds two pancakes, surprised and pleased, while Pim and Pam sit on his plate's edge. On a branch just above, a mischievous little chimp in a blue knitted vest hangs by one arm, eyeing Grumble's glowing lantern. Hidden in the picture: the stack, the snack, the stick, the spot on Bun.",
+        "id": "scene_b3_u08_3",
+        "desc": "Crackers rain down into the stream; {GRUMBLE} below sniffs the air; a spot of jam lands on his nose.",
         "lines": [
           {
             "who": "grumble",
-            "text": "Shh... Snack? One snack?",
-            "audio": "sb3_u08_3_1",
-            "ko": "쉿… 간식? 하나만?"
-          },
-          {
-            "who": "twins",
-            "text": "Two for Grumble! Together!",
-            "audio": "sb3_u08_3_2",
-            "ko": "그럼블은 두 개! 함께!"
-          },
-          {
-            "who": "narrator",
-            "text": "Ooh-ooh! Aah-aah! Oh no!",
-            "audio": "sb3_u08_3_3",
-            "ko": "우우! 아아! 저런!"
+            "text": "Sniff, sniff! A snack?",
+            "audio": "b3_u08_l3"
           }
-        ],
-        "task": "Find the stack!",
-        "task_ko": "팬케이크 더미를 찾아요",
-        "ko": "킁킁 내려온 그럼블도 팬케이크 두 개! — 우우, 아아! 나뭇가지 위에서 누가 등불을 노려요?",
-        "narr": {
-          "text": "Grumble gets two pancakes. Who is up in the tree?",
-          "ko": "그럼블이 팬케이크 두 개! 나무 위엔 누가 있을까요?",
-          "audio": "sb3_u08_3_n"
-        }
+        ]
+      },
+      {
+        "id": "scene_b3_u08_4",
+        "desc": "{GRUMBLE} swims in the stream catching crackers; {PIP}, {BUN} and {HED} laugh from the swing.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Grumble can swim for one snack!",
+            "audio": "b3_u08_l4"
+          }
+        ]
       }
     ]
   },
@@ -761,5 +710,105 @@
     "synopsis_ko": "시냇가 그루터기 위에 팬케이크 간식이 쌓였어요. 건너편 s·w 문까지 물이 넓어요. 핌과 팜이 sw! 커다란 그네가 내려와 모두 슝~ 헤지가 코코아를 쏟아 번에게 얼룩이! 킁킁 내려온 그럼블도 팬케이크 두 개를 받아요.",
     "so_far_ko": "벽돌문을 열고 아기 침대 속 알에서 아기 새가 태어났어요. 그럼블이 등불을 걸어 줬어요.",
     "goal_ko": "sn·st·sp·sw 를 말해 그네를 타고 시내를 건너요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb3_u08_1",
+        "desc": "A sunny stream. On a wide stump sits a tall wobbly stack of colorful pancakes with a little brown stick beside it; across the wide water stands a round door in a mossy bank carved with the two letters s and w — the ONLY text allowed in the picture. Bun counts the pancakes; Hedgie sniffs the air; Pip says the letters in the wrong order; Pim and Pam sit on the stick; up in the tree Grumble's nose pokes out of the leaves, sniffing. Hidden in the picture: the snack, the stack, the stick, Grumble sniffing.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "One snack, two snacks!",
+            "audio": "sb3_u08_1_1",
+            "ko": "간식 하나, 간식 둘!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Sniff, sniff... Is it Grumble?",
+            "audio": "sb3_u08_1_2",
+            "ko": "킁킁… 그럼블이야?"
+          },
+          {
+            "who": "pip",
+            "text": "Ws? Ws? Wsim?",
+            "audio": "sb3_u08_1_3",
+            "ko": "우스? 우스? 우심?"
+          }
+        ],
+        "task": "Find the sn and st words!",
+        "task_ko": "sn·st 단어를 찾아요",
+        "ko": "그루터기 위에 팬케이크 간식이 쌓였어요. 건너편 s·w 문까지 물이 넓어요. 나무 위에서 킁킁.",
+        "narr": {
+          "text": "A stack of pancakes! The stream is too wide.",
+          "ko": "팬케이크가 쌓였어요! 시냇물이 너무 넓어요.",
+          "audio": "sb3_u08_1_n"
+        }
+      },
+      {
+        "id": "sb3_u08_2",
+        "desc": "A big wooden swing on two long ropes has swooped down from the high branches; Bun swings over the stream holding the plate of pancakes, a fish swims below, and Hedgie, swinging next with a cup of cocoa, tips it — cocoa splashes down and leaves one big round brown spot on Bun's white tummy fur; Pip swings beside Hedgie. Hidden in the picture: the swing, the swimming fish, the spill, the spot. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /sw/ /sw/ swing!",
+            "audio": "sb3_u08_2_1",
+            "ko": "함께! sw, sw 그네!"
+          },
+          {
+            "who": "bun",
+            "text": "Whoosh! Swing, swing!",
+            "audio": "sb3_u08_2_2",
+            "ko": "슝! 그네, 그네!"
+          },
+          {
+            "who": "pip",
+            "text": "Ps? No! Sp... spot!",
+            "audio": "sb3_u08_2_3",
+            "ko": "프스? 아니! 스프… 스팟!"
+          }
+        ],
+        "task": "Find the sw and sp words!",
+        "task_ko": "sw·sp 단어를 찾아요",
+        "ko": "핌과 팜이 sw! 그네를 타고 슝~ 헤지가 코코아를 쏟아 번에게 얼룩이! 핍이 \"스팟!\"",
+        "narr": {
+          "text": "Bun swings over the stream. Hedgie spills his cocoa!",
+          "ko": "번이 시냇물 위로 슝! 헤지가 코코아를 쏟아요!",
+          "audio": "sb3_u08_2_n"
+        }
+      },
+      {
+        "id": "sb3_u08_3",
+        "desc": "Everyone sits across the stream around the stump with the pancakes; Grumble has come down sniffing and holds two pancakes, surprised and pleased, while Pim and Pam sit on his plate's edge. On a branch just above, a mischievous little chimp in a blue knitted vest hangs by one arm, eyeing Grumble's glowing lantern. Hidden in the picture: the stack, the snack, the stick, the spot on Bun.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh... Snack? One snack?",
+            "audio": "sb3_u08_3_1",
+            "ko": "쉿… 간식? 하나만?"
+          },
+          {
+            "who": "twins",
+            "text": "Two for Grumble! Together!",
+            "audio": "sb3_u08_3_2",
+            "ko": "그럼블은 두 개! 함께!"
+          },
+          {
+            "who": "narrator",
+            "text": "Ooh-ooh! Aah-aah! Oh no!",
+            "audio": "sb3_u08_3_3",
+            "ko": "우우! 아아! 저런!"
+          }
+        ],
+        "task": "Find the stack!",
+        "task_ko": "팬케이크 더미를 찾아요",
+        "ko": "킁킁 내려온 그럼블도 팬케이크 두 개! — 우우, 아아! 나뭇가지 위에서 누가 등불을 노려요?",
+        "narr": {
+          "text": "Grumble gets two pancakes. Who is up in the tree?",
+          "ko": "그럼블이 팬케이크 두 개! 나무 위엔 누가 있을까요?",
+          "audio": "sb3_u08_3_n"
+        }
+      }
+    ]
   }
 }

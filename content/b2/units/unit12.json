@@ -727,7 +727,53 @@
   },
   "videos": [],
   "storybook": {
-    "pages": []
+    "v2": true,
+    "pages": [
+      {
+        "id": "scene_b2_u12_1",
+        "desc": "A small stage on the jetty; {BEADS} hangs a string of big letter beads across it like a banner (plain colored beads, no writing). {PIP} wears a top hat.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "The word show!",
+            "audio": "b2_u12_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u12_2",
+        "desc": "{cat}, {pig} and {fox} each hold a blank white card; {BUN} and {HED} point at them from the side.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "Cat! Pig! Fox!",
+            "audio": "b2_u12_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u12_3",
+        "desc": "{GRUMBLE} on stage holds a card upside down, frowning, confused; the audience giggles.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Hmm? Not this one.",
+            "audio": "b2_u12_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u12_4",
+        "desc": "{PIP} flips Grumble's card the right way up; Grumble smiles for the first time; everyone cheers.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "Grumble can do it!",
+            "audio": "b2_u12_l4"
+          }
+        ]
+      }
+    ]
   },
   "story_v1": {
     "title": "The Word Show",
@@ -778,5 +824,8 @@
     "synopsis_ko": "연잎 무대에서 단어 쇼가 열려요. 핍이 단어 노래를 부르고 그럼블이 냄비 북을 쳐요. 비즈가 구슬 줄로 지휘해요. 징검돌이 모두 빛나요.",
     "so_far_ko": "연못 파티에서 그럼블이 북을 쳤고, 숲에서 같은 소리가 두 번 들렸어요.",
     "goal_ko": "단어 노래를 부르고, 이야기를 되짚고, 수료증을 받아요."
+  },
+  "storybook_v1": {
+    "pages": []
   }
 }

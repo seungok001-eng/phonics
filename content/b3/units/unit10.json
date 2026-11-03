@@ -431,102 +431,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb3_u10_1",
-        "desc": "A windy evening at the very end of the forest. Between two tall trees hangs a huge patchwork quilt like a curtain, flapping in the wind, with the two letters q and u stitched on it — the ONLY text allowed in the picture. Leaves whirl; Bun holds her ear down; Hedgie hugs a tree; Pip says the letters in the wrong order; Pim and Pam cling together; a duck's head pokes out under the quilt, quacking. Hidden in the picture: the quilt, the quacking duck.",
+        "id": "scene_b3_u10_1",
+        "desc": "At the end of the forest path stands a tall wooden door; {PIP}, {BUN}, {HED} and {TWINS} look up at it. A whisk and a quilt lie on a bench.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Who is at the door?",
+            "audio": "b3_u10_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u10_2",
+        "desc": "{duck} with a crown pops out from behind the door with a loud quack; everyone jumps.",
         "lines": [
           {
             "who": "bun",
-            "text": "Where is the last door?",
-            "audio": "sb3_u10_1_1",
-            "ko": "마지막 문은 어디 있지?"
-          },
-          {
-            "who": "hedgie",
-            "text": "Quack? Who is that?",
-            "audio": "sb3_u10_1_2",
-            "ko": "꽥? 누구지?"
-          },
-          {
-            "who": "pip",
-            "text": "Uq? Uq? Uqilt?",
-            "audio": "sb3_u10_1_3",
-            "ko": "우크? 우크? 우킬트?"
+            "text": "Quack! Where did you come from?",
+            "audio": "b3_u10_l2"
           }
-        ],
-        "task": "Find the qu words!",
-        "task_ko": "qu 단어를 찾아요",
-        "ko": "숲의 맨 끝, q·u 가 수놓인 누비이불이 바람에 펄럭여요. 이불 밑에서 \"꽥!\"",
-        "narr": {
-          "text": "A big quilt flaps in the wind. A duck quacks!",
-          "ko": "커다란 이불이 바람에 펄럭여요. 오리가 꽥!",
-          "audio": "sb3_u10_1_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u10_2",
-        "desc": "The quilt has lifted like a stage curtain: ducks quack in a row, and there stands the last door of the forest, a tall round wooden door in a wall of roots carved with the two letters w and h (with q and u on the quilt, the ONLY text allowed), its knocker a big silver whisk, a little rope whip on a hook beside it. Pip flies up alone and knocks with the whisk, saying the sound on the first try, and the door bursts open with golden light; the friends cheer behind. Hidden in the picture: the quilt, the ducks quacking, the whisk, the whip. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
+        "id": "scene_b3_u10_3",
+        "desc": "{duck} opens the door quickly; behind it is a castle on a hill, far away. {TWINS} gasp together.",
         "lines": [
           {
-            "who": "twins",
-            "text": "Together! /kw/ /kw/ quilt!",
-            "audio": "sb3_u10_2_1",
-            "ko": "함께! qu, qu 누비이불!"
-          },
-          {
-            "who": "narrator",
-            "text": "Quack, quack! The last door!",
-            "audio": "sb3_u10_2_2",
-            "ko": "꽥꽥! 마지막 문이에요!"
-          },
-          {
-            "who": "pip",
-            "text": "/w/ /w/ whisk!",
-            "audio": "sb3_u10_2_3",
-            "ko": "wh, wh 거품기!"
+            "who": "both",
+            "text": "Quick! Look!",
+            "audio": "b3_u10_l3"
           }
-        ],
-        "task": "Find the wh words!",
-        "task_ko": "wh 단어를 찾아요",
-        "ko": "핌과 팜이 qu! 이불이 올라가고 마지막 문이 나타나요. 핍이 혼자 \"wh, wh whisk!\" 문이 활짝 열려요.",
-        "narr": {
-          "text": "The quilt lifts. Pip knocks and the last door opens!",
-          "ko": "이불이 올라가요. 핍이 두드리자 마지막 문이 열려요!",
-          "audio": "sb3_u10_2_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u10_3",
-        "desc": "Behind the last door, in a quiet round glade, a big glowing golden music note rises from the grass and floats into Pip, who sings on a stump with its beak wide open and golden notes streaming out; Grumble stands with the friends, eyes closed, paw on his heart, humming along; Pim and Pam sing beside Pip; ducks quack along and a feather quill drifts down. Strings of little flags are being hung between the trees for a party. Hidden in the picture: the golden note, the ducks, the quill, the quilt.",
+        "id": "scene_b3_u10_4",
+        "desc": "Everyone walks through the door toward the castle; {PIP} waves goodbye to the forest; a quill feather floats down.",
         "lines": [
           {
             "who": "pip",
-            "text": "Ship! Chip! Ring! Swing! Song!",
-            "audio": "sb3_u10_3_1",
-            "ko": "배! 감자칩! 반지! 그네! 노래!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... La, la, la!",
-            "audio": "sb3_u10_3_2",
-            "ko": "쉿… 라, 라, 라!"
-          },
-          {
-            "who": "narrator",
-            "text": "Pip can sing! A party!",
-            "audio": "sb3_u10_3_3",
-            "ko": "핍이 노래해요! 파티다!"
+            "text": "Where? There! A castle!",
+            "audio": "b3_u10_l4"
           }
-        ],
-        "task": "Find the golden note!",
-        "task_ko": "금빛 음표를 찾아요",
-        "ko": "금빛 음표가 핍에게 들어가요. 노래 조각 셋! 핍이 노래하고 그럼블도 흥얼거려요. 파티 준비가 시작돼요.",
-        "narr": {
-          "text": "Pip sings with a golden note. A party is coming!",
-          "ko": "핍이 금빛 음표와 함께 노래해요. 파티가 시작돼요!",
-          "audio": "sb3_u10_3_n"
-        }
+        ]
       }
     ]
   },
@@ -725,5 +674,105 @@
     "synopsis_ko": "숲의 맨 끝, 커다란 누비이불이 바람에 펄럭여요. 핌과 팜이 qu! 이불이 올라가자 꽥꽥 오리들과 마지막 문이 나타나요. 핍이 혼자 \"wh, wh whisk!\" — 마지막 문이 열리고 노래 조각 셋이 핍에게 들어가요. 그럼블도 눈을 감고 따라 흥얼거려요.",
     "so_far_ko": "침팬지에게 램프를 주고 그럼블의 등불을 되찾았어요.",
     "goal_ko": "wh·qu 를 말해 숲의 마지막 문을 열고 노래 조각 셋을 찾아요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb3_u10_1",
+        "desc": "A windy evening at the very end of the forest. Between two tall trees hangs a huge patchwork quilt like a curtain, flapping in the wind, with the two letters q and u stitched on it — the ONLY text allowed in the picture. Leaves whirl; Bun holds her ear down; Hedgie hugs a tree; Pip says the letters in the wrong order; Pim and Pam cling together; a duck's head pokes out under the quilt, quacking. Hidden in the picture: the quilt, the quacking duck.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Where is the last door?",
+            "audio": "sb3_u10_1_1",
+            "ko": "마지막 문은 어디 있지?"
+          },
+          {
+            "who": "hedgie",
+            "text": "Quack? Who is that?",
+            "audio": "sb3_u10_1_2",
+            "ko": "꽥? 누구지?"
+          },
+          {
+            "who": "pip",
+            "text": "Uq? Uq? Uqilt?",
+            "audio": "sb3_u10_1_3",
+            "ko": "우크? 우크? 우킬트?"
+          }
+        ],
+        "task": "Find the qu words!",
+        "task_ko": "qu 단어를 찾아요",
+        "ko": "숲의 맨 끝, q·u 가 수놓인 누비이불이 바람에 펄럭여요. 이불 밑에서 \"꽥!\"",
+        "narr": {
+          "text": "A big quilt flaps in the wind. A duck quacks!",
+          "ko": "커다란 이불이 바람에 펄럭여요. 오리가 꽥!",
+          "audio": "sb3_u10_1_n"
+        }
+      },
+      {
+        "id": "sb3_u10_2",
+        "desc": "The quilt has lifted like a stage curtain: ducks quack in a row, and there stands the last door of the forest, a tall round wooden door in a wall of roots carved with the two letters w and h (with q and u on the quilt, the ONLY text allowed), its knocker a big silver whisk, a little rope whip on a hook beside it. Pip flies up alone and knocks with the whisk, saying the sound on the first try, and the door bursts open with golden light; the friends cheer behind. Hidden in the picture: the quilt, the ducks quacking, the whisk, the whip. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /kw/ /kw/ quilt!",
+            "audio": "sb3_u10_2_1",
+            "ko": "함께! qu, qu 누비이불!"
+          },
+          {
+            "who": "narrator",
+            "text": "Quack, quack! The last door!",
+            "audio": "sb3_u10_2_2",
+            "ko": "꽥꽥! 마지막 문이에요!"
+          },
+          {
+            "who": "pip",
+            "text": "/w/ /w/ whisk!",
+            "audio": "sb3_u10_2_3",
+            "ko": "wh, wh 거품기!"
+          }
+        ],
+        "task": "Find the wh words!",
+        "task_ko": "wh 단어를 찾아요",
+        "ko": "핌과 팜이 qu! 이불이 올라가고 마지막 문이 나타나요. 핍이 혼자 \"wh, wh whisk!\" 문이 활짝 열려요.",
+        "narr": {
+          "text": "The quilt lifts. Pip knocks and the last door opens!",
+          "ko": "이불이 올라가요. 핍이 두드리자 마지막 문이 열려요!",
+          "audio": "sb3_u10_2_n"
+        }
+      },
+      {
+        "id": "sb3_u10_3",
+        "desc": "Behind the last door, in a quiet round glade, a big glowing golden music note rises from the grass and floats into Pip, who sings on a stump with its beak wide open and golden notes streaming out; Grumble stands with the friends, eyes closed, paw on his heart, humming along; Pim and Pam sing beside Pip; ducks quack along and a feather quill drifts down. Strings of little flags are being hung between the trees for a party. Hidden in the picture: the golden note, the ducks, the quill, the quilt.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Ship! Chip! Ring! Swing! Song!",
+            "audio": "sb3_u10_3_1",
+            "ko": "배! 감자칩! 반지! 그네! 노래!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... La, la, la!",
+            "audio": "sb3_u10_3_2",
+            "ko": "쉿… 라, 라, 라!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip can sing! A party!",
+            "audio": "sb3_u10_3_3",
+            "ko": "핍이 노래해요! 파티다!"
+          }
+        ],
+        "task": "Find the golden note!",
+        "task_ko": "금빛 음표를 찾아요",
+        "ko": "금빛 음표가 핍에게 들어가요. 노래 조각 셋! 핍이 노래하고 그럼블도 흥얼거려요. 파티 준비가 시작돼요.",
+        "narr": {
+          "text": "Pip sings with a golden note. A party is coming!",
+          "ko": "핍이 금빛 음표와 함께 노래해요. 파티가 시작돼요!",
+          "audio": "sb3_u10_3_n"
+        }
+      }
+    ]
   }
 }

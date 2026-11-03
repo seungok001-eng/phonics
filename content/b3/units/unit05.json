@@ -392,102 +392,51 @@
     }
   ],
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb3_u05_1",
-        "desc": "A bright morning. The friends walk back along the mossy path past the four doors they have opened, each standing open and glowing softly; the letter pairs carved on the doors (s h, c h, t h, c k) are the ONLY text allowed in the picture. Bun counts the doors on her paw; Hedgie carries the toy ship with Beads on his flower; the chipmunks, the Duck King and the moth follow in a line; Pim and Pam fly side by side; Pip hops behind. Hidden in the picture: the ship, a shell, the bench, the duck, the chess board. Grumble does NOT appear. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
+        "id": "scene_b3_u05_1",
+        "desc": "{TWINS} sit on a log with {PIP} between them; {BUN} and {HED} watch from the grass.",
         "lines": [
           {
             "who": "narrator",
-            "text": "Ship, shop, shell, fish, dish!",
-            "audio": "sb3_u05_1_1",
-            "ko": "배, 가게, 조개껍데기, 물고기, 접시!"
-          },
-          {
-            "who": "bun",
-            "text": "Chin, chip, chop, chess!",
-            "audio": "sb3_u05_1_2",
-            "ko": "턱, 감자칩, 장작 패기, 체스!"
-          },
-          {
-            "who": "beads",
-            "text": "Click-clack! Duck, sock, rock, lock!",
-            "audio": "sb3_u05_1_3",
-            "ko": "딸깍딸깍! 오리, 양말, 바위, 자물쇠!"
+            "text": "Pim and Pam sit with Pip.",
+            "audio": "b3_u05_l1"
           }
-        ],
-        "task": "Find the sh and ch words!",
-        "task_ko": "sh·ch 단어를 찾아요",
-        "ko": "지금까지 연 문 넷을 세며 산책해요. 다람쥐들, 오리 왕, 나방이 줄지어 따라와요.",
-        "narr": {
-          "text": "The friends walk past four open doors.",
-          "ko": "친구들이 열린 문 넷을 지나 걸어요.",
-          "audio": "sb3_u05_1_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u05_2",
-        "desc": "Pip stands alone on a mossy stump in front of the first door with its eyes squeezed shut and feathers trembling, beak open, trying with all its might; two separate little puffs come out. Pim and Pam sit in front of Pip side by side, showing how; Bun and Hedgie hold their breath with paws over their mouths. Hidden in the picture: the thin path, the bathtub, the moth, a striped sock. Grumble does NOT appear.",
+        "id": "scene_b3_u05_2",
+        "desc": "{TWINS} open their beaks together, making a quiet hushing shape; {PIP} copies with its wing on its beak.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "Sh... sh... sh...",
+            "audio": "b3_u05_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u05_3",
+        "desc": "{PIP} points at the stream where {fish} jumps and shouts; {duck} with a crown looks over.",
         "lines": [
           {
             "who": "pip",
-            "text": "S... h...? S... h...?",
-            "audio": "sb3_u05_2_1",
-            "ko": "스… 흐…? 스… 흐…?"
-          },
-          {
-            "who": "twins",
-            "text": "/ʃ/... Together, Pip!",
-            "audio": "sb3_u05_2_2",
-            "ko": "sh… 같이 해, 핍!"
-          },
-          {
-            "who": "narrator",
-            "text": "Pip tries. Pip tries.",
-            "audio": "sb3_u05_2_3",
-            "ko": "핍이 해 봐요. 또 해 봐요."
+            "text": "Fish! Shh, fish!",
+            "audio": "b3_u05_l3"
           }
-        ],
-        "task": "Find the th words!",
-        "task_ko": "th 단어를 찾아요",
-        "ko": "핍이 그루터기 위에서 눈을 꼭 감고 애써요. 핌과 팜이 \"같이 해!\" 모두 숨을 참아요.",
-        "narr": {
-          "text": "Pip stands on a stump. Everyone holds their breath.",
-          "ko": "핍이 그루터기 위에 섰어요. 모두 숨을 참아요.",
-          "audio": "sb3_u05_2_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u05_3",
-        "desc": "From high in the giant tree, Grumble gives his biggest Shh! and Pip, copying him, says the sound in one smooth breath for the first time: Pip glows bright gold with sparkles bursting from its beak, the first door flings open with a rush of leaves, and everyone jumps and cheers. Grumble, still up in the giant tree, holds his lantern high and smiles a small proud smile. Far off in the trees, a big round wall clock with no numbers hangs on a trunk, its hands stopped. Hidden in the picture: the fish, the shop, the ring on the Duck King, the song notes. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
+        "id": "scene_b3_u05_4",
+        "desc": "{TWINS}, {BUN} and {HED} cheer; {duck} bows to {PIP}; the fish splashes happily.",
         "lines": [
           {
-            "who": "pip",
-            "text": "Sh! Sh! SH!",
-            "audio": "sb3_u05_3_1",
-            "ko": "쉬! 쉬! 쉬이! (sh!)"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... Sh. Ha, ha!",
-            "audio": "sb3_u05_3_2",
-            "ko": "쉿… 쉬. 하하!"
-          },
-          {
-            "who": "narrator",
-            "text": "Tick... tock... Oh no!",
-            "audio": "sb3_u05_3_3",
-            "ko": "똑… 딱… 저런!"
+            "who": "both",
+            "text": "Pip can say fish!",
+            "audio": "b3_u05_l4"
           }
-        ],
-        "task": "Find Grumble's lantern!",
-        "task_ko": "그럼블의 등불을 찾아요",
-        "ko": "그럼블의 \"쉬잇!\"을 따라 하자 처음으로 \"sh!\" 핍의 첫 짝꿍 소리예요. 그럼블이 껄껄 웃어요. — 똑… 딱… 멀리 시계가 멈췄어요.",
-        "narr": {
-          "text": "Pip does it! But what stopped the clock?",
-          "ko": "핍이 해냈어요! 그런데 시계는 왜 멈췄을까요?",
-          "audio": "sb3_u05_3_n"
-        }
+        ]
       }
     ]
   },
@@ -685,5 +634,105 @@
     "synopsis_ko": "친구들이 지금까지 연 문 넷을 세며 산책해요. 핍이 온 힘을 다해도 \"스… 흐…\" 따로따로. 그때 그럼블의 \"쉬잇!\"을 따라 하자 처음으로 \"sh!\" — 핍의 첫 짝꿍 소리예요! 해질녘 그럼블이 등불로 길을 비추며 껄껄 웃어요.",
     "so_far_ko": "오리 왕의 반지를 양말 속에서 찾아 줬어요. sh·ch·th·ck·ng 짝꿍 다섯을 배웠어요.",
     "goal_ko": "짝꿍 소리를 복습하고 핍의 첫 짝꿍 소리를 들어요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb3_u05_1",
+        "desc": "A bright morning. The friends walk back along the mossy path past the four doors they have opened, each standing open and glowing softly; the letter pairs carved on the doors (s h, c h, t h, c k) are the ONLY text allowed in the picture. Bun counts the doors on her paw; Hedgie carries the toy ship with Beads on his flower; the chipmunks, the Duck King and the moth follow in a line; Pim and Pam fly side by side; Pip hops behind. Hidden in the picture: the ship, a shell, the bench, the duck, the chess board. Grumble does NOT appear. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Ship, shop, shell, fish, dish!",
+            "audio": "sb3_u05_1_1",
+            "ko": "배, 가게, 조개껍데기, 물고기, 접시!"
+          },
+          {
+            "who": "bun",
+            "text": "Chin, chip, chop, chess!",
+            "audio": "sb3_u05_1_2",
+            "ko": "턱, 감자칩, 장작 패기, 체스!"
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Duck, sock, rock, lock!",
+            "audio": "sb3_u05_1_3",
+            "ko": "딸깍딸깍! 오리, 양말, 바위, 자물쇠!"
+          }
+        ],
+        "task": "Find the sh and ch words!",
+        "task_ko": "sh·ch 단어를 찾아요",
+        "ko": "지금까지 연 문 넷을 세며 산책해요. 다람쥐들, 오리 왕, 나방이 줄지어 따라와요.",
+        "narr": {
+          "text": "The friends walk past four open doors.",
+          "ko": "친구들이 열린 문 넷을 지나 걸어요.",
+          "audio": "sb3_u05_1_n"
+        }
+      },
+      {
+        "id": "sb3_u05_2",
+        "desc": "Pip stands alone on a mossy stump in front of the first door with its eyes squeezed shut and feathers trembling, beak open, trying with all its might; two separate little puffs come out. Pim and Pam sit in front of Pip side by side, showing how; Bun and Hedgie hold their breath with paws over their mouths. Hidden in the picture: the thin path, the bathtub, the moth, a striped sock. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "S... h...? S... h...?",
+            "audio": "sb3_u05_2_1",
+            "ko": "스… 흐…? 스… 흐…?"
+          },
+          {
+            "who": "twins",
+            "text": "/ʃ/... Together, Pip!",
+            "audio": "sb3_u05_2_2",
+            "ko": "sh… 같이 해, 핍!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Pip tries.",
+            "audio": "sb3_u05_2_3",
+            "ko": "핍이 해 봐요. 또 해 봐요."
+          }
+        ],
+        "task": "Find the th words!",
+        "task_ko": "th 단어를 찾아요",
+        "ko": "핍이 그루터기 위에서 눈을 꼭 감고 애써요. 핌과 팜이 \"같이 해!\" 모두 숨을 참아요.",
+        "narr": {
+          "text": "Pip stands on a stump. Everyone holds their breath.",
+          "ko": "핍이 그루터기 위에 섰어요. 모두 숨을 참아요.",
+          "audio": "sb3_u05_2_n"
+        }
+      },
+      {
+        "id": "sb3_u05_3",
+        "desc": "From high in the giant tree, Grumble gives his biggest Shh! and Pip, copying him, says the sound in one smooth breath for the first time: Pip glows bright gold with sparkles bursting from its beak, the first door flings open with a rush of leaves, and everyone jumps and cheers. Grumble, still up in the giant tree, holds his lantern high and smiles a small proud smile. Far off in the trees, a big round wall clock with no numbers hangs on a trunk, its hands stopped. Hidden in the picture: the fish, the shop, the ring on the Duck King, the song notes. (The little king is the Duck King: a small yellow duck with a tiny golden crown — an animal, not a human.)",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Sh! Sh! SH!",
+            "audio": "sb3_u05_3_1",
+            "ko": "쉬! 쉬! 쉬이! (sh!)"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Sh. Ha, ha!",
+            "audio": "sb3_u05_3_2",
+            "ko": "쉿… 쉬. 하하!"
+          },
+          {
+            "who": "narrator",
+            "text": "Tick... tock... Oh no!",
+            "audio": "sb3_u05_3_3",
+            "ko": "똑… 딱… 저런!"
+          }
+        ],
+        "task": "Find Grumble's lantern!",
+        "task_ko": "그럼블의 등불을 찾아요",
+        "ko": "그럼블의 \"쉬잇!\"을 따라 하자 처음으로 \"sh!\" 핍의 첫 짝꿍 소리예요. 그럼블이 껄껄 웃어요. — 똑… 딱… 멀리 시계가 멈췄어요.",
+        "narr": {
+          "text": "Pip does it! But what stopped the clock?",
+          "ko": "핍이 해냈어요! 그런데 시계는 왜 멈췄을까요?",
+          "audio": "sb3_u05_3_n"
+        }
+      }
+    ]
   }
 }

@@ -424,102 +424,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb3_u03_1",
-        "desc": "Evening. A very thin path runs along a stream between mossy banks; the friends walk in a line, Bun first wobbling with her arms out; at the end stands a small round door in a rock wall with the two letters t and h carved on it — the ONLY text allowed in the picture. Pip says the two letters apart; Pim and Pam fly side by side. High in the trees Grumble's lantern glows with a soft brown moth fluttering around it. Hidden in the picture: the thin path, the moth. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "id": "scene_b3_u03_1",
+        "desc": "A very thin forest path between two big rocks; {HED} is too round to fit; {PIP} and {BUN} are through already.",
         "lines": [
-          {
-            "who": "bun",
-            "text": "This path is thin!",
-            "audio": "sb3_u03_1_1",
-            "ko": "이 길은 너무 가늘어!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Look! That is a moth.",
-            "audio": "sb3_u03_1_2",
-            "ko": "봐! 저건 나방이야."
-          },
-          {
-            "who": "pip",
-            "text": "T... h...? T... h...?",
-            "audio": "sb3_u03_1_3",
-            "ko": "트… 흐…? 트… 흐…?"
-          }
-        ],
-        "task": "Find the th words!",
-        "task_ko": "th 단어를 찾아요",
-        "ko": "아주 가느다란 오솔길을 한 줄로 걸어요. 끝에 t·h 문. 등불 둘레에 나방이 팔랑팔랑.",
-        "narr": {
-          "text": "The friends walk in a line on a thin path.",
-          "ko": "친구들이 가느다란 길을 한 줄로 걸어요.",
-          "audio": "sb3_u03_1_n"
-        }
-      },
-      {
-        "id": "sb3_u03_2",
-        "desc": "Pim and Pam say the sound together and the little round door in the rock swings open with a soft glow; Beads holds up three beads. The moth zooms down past Grumble's lantern, and Grumble, swatting at it from his branch, topples with his slippers flying up. Hidden in the picture: the thin path, the moth.",
-        "lines": [
-          {
-            "who": "twins",
-            "text": "Together! /θ/ /θ/ thin!",
-            "audio": "sb3_u03_2_1",
-            "ko": "함께! th, th 가늘다!"
-          },
-          {
-            "who": "beads",
-            "text": "/θ/ /ɪ/ /n/ thin!",
-            "audio": "sb3_u03_2_2",
-            "ko": "th-i-n 가는!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! Go, moth! Oh no!",
-            "audio": "sb3_u03_2_3",
-            "ko": "쉿! 저리 가, 나방아! 어어!"
-          }
-        ],
-        "task": "Find the moth!",
-        "task_ko": "나방을 찾아요",
-        "ko": "핌과 팜이 th! 바위 문이 열려요. 나방을 쫓던 그럼블이 미끄러져요!",
-        "narr": {
-          "text": "The door opens. Grumble swats the moth and falls!",
-          "ko": "문이 열려요. 그럼블이 나방을 쫓다가 떨어져요!",
-          "audio": "sb3_u03_2_n"
-        }
-      },
-      {
-        "id": "sb3_u03_3",
-        "desc": "Night by the stream. Muddy Grumble now sits in a big round wooden bathtub full of warm foamy bubbles, eyes half closed with a tiny happy smile; the moth rests on his lantern on a branch above; Hedgie pours warm water; Bun gives a big thumbs-up with her paw; Pim and Pam sit on the rim. Across the stream, a little yellow duck wearing a tiny golden crown sits sadly on a rock, quacking. Hidden in the picture: the bath, the thumbs-up, the moth, the path.",
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh... This bath is hot.",
-            "audio": "sb3_u03_3_1",
-            "ko": "쉿… 이 목욕물 따뜻하네."
-          },
-          {
-            "who": "bun",
-            "text": "Thumbs up, Grumble!",
-            "audio": "sb3_u03_3_2",
-            "ko": "최고야, 그럼블!"
-          },
           {
             "who": "narrator",
-            "text": "Quack! Quack! Quack!",
-            "audio": "sb3_u03_3_3",
-            "ko": "꽥! 꽥! 꽥!"
+            "text": "This path is thin.",
+            "audio": "b3_u03_l1"
           }
-        ],
-        "task": "Find the bath!",
-        "task_ko": "목욕통을 찾아요",
-        "ko": "진흙투성이 그럼블에게 거품 목욕! \"따뜻하네.\" 번이 엄지 척! — 꽥꽥꽥, 시내 건너에서 누가 울어요?",
-        "narr": {
-          "text": "Grumble takes a bath. Why is the duck sad?",
-          "ko": "그럼블이 목욕을 해요. 오리는 왜 슬플까요?",
-          "audio": "sb3_u03_3_n"
-        }
+        ]
+      },
+      {
+        "id": "scene_b3_u03_2",
+        "desc": "{HED} pushes with his thumb against the rock; {BUN} pulls his paw; {PIP} pushes from behind.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Push with that thumb!",
+            "audio": "b3_u03_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u03_3",
+        "desc": "{HED} pops through and rolls into a shallow mud bath puddle with a splash; {moth} flutters up.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A bath! And a moth!",
+            "audio": "b3_u03_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u03_4",
+        "desc": "{HED} sits muddy and grinning; {moth} rests on his nose; {PIP} and {BUN} laugh.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "This moth likes that bath!",
+            "audio": "b3_u03_l4"
+          }
+        ]
       }
     ]
   },
@@ -714,5 +663,105 @@
     "synopsis_ko": "해질녘, 아주 가느다란 오솔길 끝에 t·h 문이 있어요. 핌과 팜이 함께 th! 문이 열려요. 그런데 나방을 쫓던 그럼블이 진흙에 철퍼덕! 친구들이 따뜻한 거품 목욕을 만들어 주자 그럼블이 살짝 웃어요.",
     "so_far_ko": "다람쥐가 가져간 점심을 ch 소리로 되찾고, 그럼블에게도 감자칩을 나눠 줬어요.",
     "goal_ko": "th 를 말해 바위 문을 열고 그럼블을 도와줘요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb3_u03_1",
+        "desc": "Evening. A very thin path runs along a stream between mossy banks; the friends walk in a line, Bun first wobbling with her arms out; at the end stands a small round door in a rock wall with the two letters t and h carved on it — the ONLY text allowed in the picture. Pip says the two letters apart; Pim and Pam fly side by side. High in the trees Grumble's lantern glows with a soft brown moth fluttering around it. Hidden in the picture: the thin path, the moth. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "This path is thin!",
+            "audio": "sb3_u03_1_1",
+            "ko": "이 길은 너무 가늘어!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Look! That is a moth.",
+            "audio": "sb3_u03_1_2",
+            "ko": "봐! 저건 나방이야."
+          },
+          {
+            "who": "pip",
+            "text": "T... h...? T... h...?",
+            "audio": "sb3_u03_1_3",
+            "ko": "트… 흐…? 트… 흐…?"
+          }
+        ],
+        "task": "Find the th words!",
+        "task_ko": "th 단어를 찾아요",
+        "ko": "아주 가느다란 오솔길을 한 줄로 걸어요. 끝에 t·h 문. 등불 둘레에 나방이 팔랑팔랑.",
+        "narr": {
+          "text": "The friends walk in a line on a thin path.",
+          "ko": "친구들이 가느다란 길을 한 줄로 걸어요.",
+          "audio": "sb3_u03_1_n"
+        }
+      },
+      {
+        "id": "sb3_u03_2",
+        "desc": "Pim and Pam say the sound together and the little round door in the rock swings open with a soft glow; Beads holds up three beads. The moth zooms down past Grumble's lantern, and Grumble, swatting at it from his branch, topples with his slippers flying up. Hidden in the picture: the thin path, the moth.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /θ/ /θ/ thin!",
+            "audio": "sb3_u03_2_1",
+            "ko": "함께! th, th 가늘다!"
+          },
+          {
+            "who": "beads",
+            "text": "/θ/ /ɪ/ /n/ thin!",
+            "audio": "sb3_u03_2_2",
+            "ko": "th-i-n 가는!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Go, moth! Oh no!",
+            "audio": "sb3_u03_2_3",
+            "ko": "쉿! 저리 가, 나방아! 어어!"
+          }
+        ],
+        "task": "Find the moth!",
+        "task_ko": "나방을 찾아요",
+        "ko": "핌과 팜이 th! 바위 문이 열려요. 나방을 쫓던 그럼블이 미끄러져요!",
+        "narr": {
+          "text": "The door opens. Grumble swats the moth and falls!",
+          "ko": "문이 열려요. 그럼블이 나방을 쫓다가 떨어져요!",
+          "audio": "sb3_u03_2_n"
+        }
+      },
+      {
+        "id": "sb3_u03_3",
+        "desc": "Night by the stream. Muddy Grumble now sits in a big round wooden bathtub full of warm foamy bubbles, eyes half closed with a tiny happy smile; the moth rests on his lantern on a branch above; Hedgie pours warm water; Bun gives a big thumbs-up with her paw; Pim and Pam sit on the rim. Across the stream, a little yellow duck wearing a tiny golden crown sits sadly on a rock, quacking. Hidden in the picture: the bath, the thumbs-up, the moth, the path.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh... This bath is hot.",
+            "audio": "sb3_u03_3_1",
+            "ko": "쉿… 이 목욕물 따뜻하네."
+          },
+          {
+            "who": "bun",
+            "text": "Thumbs up, Grumble!",
+            "audio": "sb3_u03_3_2",
+            "ko": "최고야, 그럼블!"
+          },
+          {
+            "who": "narrator",
+            "text": "Quack! Quack! Quack!",
+            "audio": "sb3_u03_3_3",
+            "ko": "꽥! 꽥! 꽥!"
+          }
+        ],
+        "task": "Find the bath!",
+        "task_ko": "목욕통을 찾아요",
+        "ko": "진흙투성이 그럼블에게 거품 목욕! \"따뜻하네.\" 번이 엄지 척! — 꽥꽥꽥, 시내 건너에서 누가 울어요?",
+        "narr": {
+          "text": "Grumble takes a bath. Why is the duck sad?",
+          "ko": "그럼블이 목욕을 해요. 오리는 왜 슬플까요?",
+          "audio": "sb3_u03_3_n"
+        }
+      }
+    ]
   }
 }

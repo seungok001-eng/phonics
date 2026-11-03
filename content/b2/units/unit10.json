@@ -456,102 +456,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb2_u10_1",
-        "desc": "A sunny picnic on the wide stones near the far bank: a striped rug on the biggest stone with a small green spotted bug in the middle; Hedgie peers into his big mug and finds a second bug swimming in it, pulling a face; Bun points; Pip says the word backwards; Beads sunbathes on a lily pad. Hidden in the picture: the bug, the rug, the mug. Grumble does NOT appear.",
+        "id": "scene_b2_u10_1",
+        "desc": "A hot sunny day at the pond; {PIP}, {BUN} and {HED} lie on a rug in the sun with a mug of juice.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Fun in the sun.",
+            "audio": "b2_u10_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u10_2",
+        "desc": "{bug} lands on {HED}'s nose; {HED} goes cross-eyed; {BUN} points.",
         "lines": [
           {
             "who": "bun",
-            "text": "Look! A bug on the rug!",
-            "audio": "sb2_u10_1_1",
-            "ko": "봐! 깔개 위에 벌레!"
-          },
+            "text": "Look! A bug!",
+            "audio": "b2_u10_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u10_3",
+        "desc": "{pup} runs up and gives {HED} a big hug, knocking him over; the bug flies away. A bun and a cup are on the rug.",
+        "lines": [
           {
             "who": "hedgie",
-            "text": "A bug in my mug!",
-            "audio": "sb2_u10_1_2",
-            "ko": "내 머그컵에 벌레가!"
-          },
-          {
-            "who": "pip",
-            "text": "Gub! Gub?",
-            "audio": "sb2_u10_1_3",
-            "ko": "겁! 겁?"
+            "text": "A pup! A big hug!",
+            "audio": "b2_u10_l3"
           }
-        ],
-        "task": "Find the -ug words!",
-        "task_ko": "-ug 단어를 찾아요",
-        "ko": "햇살 소풍이에요. 깔개 위에 벌레, 머그컵 속에도 벌레. 핍은 '겁!'",
-        "narr": {
-          "text": "A picnic in the sun. Two little bugs!",
-          "ko": "햇살 아래 소풍이에요. 작은 벌레 두 마리!",
-          "audio": "sb2_u10_1_n"
-        }
+        ]
       },
       {
-        "id": "sb2_u10_2",
-        "desc": "Beads threads b-u-g and a new stone pops up; a tiny fluffy white pup races along the stones chasing the bug; the smiling sun shines; Bun sits on the rug biting a round sesame bun; Hedgie wears a pointy party hat and laughs. Hidden in the picture: the bug, the pup, the sun, the bun, the party hat. Grumble does NOT appear.",
+        "id": "scene_b2_u10_4",
+        "desc": "Everyone piles on in a group hug on the rug, {PIP} on top; the pup licks Pip.",
         "lines": [
-          {
-            "who": "beads",
-            "text": "/b/ /ʌ/ /g/ bug!",
-            "audio": "sb2_u10_2_1",
-            "ko": "b-u-g 벌레!"
-          },
-          {
-            "who": "narrator",
-            "text": "Bun has a bun!",
-            "audio": "sb2_u10_2_2",
-            "ko": "번이 빵을 먹어요!"
-          },
-          {
-            "who": "bun",
-            "text": "Run, pup, run! Fun!",
-            "audio": "sb2_u10_2_3",
-            "ko": "달려, 강아지야! 신난다!"
-          }
-        ],
-        "task": "Find the -un words!",
-        "task_ko": "-un 단어를 찾아요",
-        "ko": "비즈가 b-u-g 를 꿰고 강아지가 달려요. 번이 빵을 먹어요. 파티 모자도 보여요.",
-        "narr": {
-          "text": "A pup chases the bug. Bun bites a bun.",
-          "ko": "강아지가 벌레를 쫓아요. 번이 빵을 한 입 먹어요.",
-          "audio": "sb2_u10_2_n"
-        }
-      },
-      {
-        "id": "sb2_u10_3",
-        "desc": "The last gap of water: a blue star cup floats in it. Beads threads c-u-p and the last stepping stone rises under the cup, completing the bridge across the pond; Pip shoots straight up into the sunset sky, and a big glowing golden music note rises out of the water and floats into it — Pip sings with golden notes streaming out. Grumble has crossed the bridge with his lantern shining like a small sun and Bun hugs him while he blinks in surprise. Hidden in the picture: the cup, Pip going up, the hug, the sun.",
-        "lines": [
-          {
-            "who": "beads",
-            "text": "/k/ /ʌ/ /p/ cup!",
-            "audio": "sb2_u10_3_1",
-            "ko": "c-u-p 컵!"
-          },
           {
             "who": "pip",
-            "text": "Cat! Bug! Cup! Fun!",
-            "audio": "sb2_u10_3_2",
-            "ko": "고양이! 벌레! 컵! 신나!"
-          },
-          {
-            "who": "narrator",
-            "text": "Pip can sing! A party!",
-            "audio": "sb2_u10_3_3",
-            "ko": "핍이 노래해요! 파티예요!"
+            "text": "You can hug! Up, up!",
+            "audio": "b2_u10_l4"
           }
-        ],
-        "task": "Find the -up words!",
-        "task_ko": "-up 단어를 찾아요",
-        "ko": "마지막 틈에 컵이 떠 있어요. c-u-p 으로 마지막 돌, 다리 완성! 노래 조각이 핍에게 들어가 핍이 노래해요. 번이 그럼블을 안아요.",
-        "narr": {
-          "text": "The bridge is done! Pip sings. Bun hugs Grumble.",
-          "ko": "다리가 완성됐어요! 핍이 노래해요. 번이 그럼블을 안아요.",
-          "audio": "sb2_u10_3_n"
-        }
+        ]
       }
     ]
   },
@@ -748,5 +697,105 @@
     "synopsis_ko": "햇살 소풍에 깔개 위 벌레, 머그컵 속 벌레! 강아지가 달리고 번은 빵을 먹어요. 마지막 틈에 c-u-p 으로 돌이 솟아 다리가 완성됐어요! 연못에서 노래 조각이 나와 핍이 노래해요. 번이 그럼블을 꼭 안아 줘요.",
     "so_far_ko": "여우에게서 상자를 되찾고 그럼블이 처음 웃었어요.",
     "goal_ko": "마지막 돌을 놓아 다리를 완성하고 -ug·-un·-up 단어를 읽어요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb2_u10_1",
+        "desc": "A sunny picnic on the wide stones near the far bank: a striped rug on the biggest stone with a small green spotted bug in the middle; Hedgie peers into his big mug and finds a second bug swimming in it, pulling a face; Bun points; Pip says the word backwards; Beads sunbathes on a lily pad. Hidden in the picture: the bug, the rug, the mug. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! A bug on the rug!",
+            "audio": "sb2_u10_1_1",
+            "ko": "봐! 깔개 위에 벌레!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A bug in my mug!",
+            "audio": "sb2_u10_1_2",
+            "ko": "내 머그컵에 벌레가!"
+          },
+          {
+            "who": "pip",
+            "text": "Gub! Gub?",
+            "audio": "sb2_u10_1_3",
+            "ko": "겁! 겁?"
+          }
+        ],
+        "task": "Find the -ug words!",
+        "task_ko": "-ug 단어를 찾아요",
+        "ko": "햇살 소풍이에요. 깔개 위에 벌레, 머그컵 속에도 벌레. 핍은 '겁!'",
+        "narr": {
+          "text": "A picnic in the sun. Two little bugs!",
+          "ko": "햇살 아래 소풍이에요. 작은 벌레 두 마리!",
+          "audio": "sb2_u10_1_n"
+        }
+      },
+      {
+        "id": "sb2_u10_2",
+        "desc": "Beads threads b-u-g and a new stone pops up; a tiny fluffy white pup races along the stones chasing the bug; the smiling sun shines; Bun sits on the rug biting a round sesame bun; Hedgie wears a pointy party hat and laughs. Hidden in the picture: the bug, the pup, the sun, the bun, the party hat. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/b/ /ʌ/ /g/ bug!",
+            "audio": "sb2_u10_2_1",
+            "ko": "b-u-g 벌레!"
+          },
+          {
+            "who": "narrator",
+            "text": "Bun has a bun!",
+            "audio": "sb2_u10_2_2",
+            "ko": "번이 빵을 먹어요!"
+          },
+          {
+            "who": "bun",
+            "text": "Run, pup, run! Fun!",
+            "audio": "sb2_u10_2_3",
+            "ko": "달려, 강아지야! 신난다!"
+          }
+        ],
+        "task": "Find the -un words!",
+        "task_ko": "-un 단어를 찾아요",
+        "ko": "비즈가 b-u-g 를 꿰고 강아지가 달려요. 번이 빵을 먹어요. 파티 모자도 보여요.",
+        "narr": {
+          "text": "A pup chases the bug. Bun bites a bun.",
+          "ko": "강아지가 벌레를 쫓아요. 번이 빵을 한 입 먹어요.",
+          "audio": "sb2_u10_2_n"
+        }
+      },
+      {
+        "id": "sb2_u10_3",
+        "desc": "The last gap of water: a blue star cup floats in it. Beads threads c-u-p and the last stepping stone rises under the cup, completing the bridge across the pond; Pip shoots straight up into the sunset sky, and a big glowing golden music note rises out of the water and floats into it — Pip sings with golden notes streaming out. Grumble has crossed the bridge with his lantern shining like a small sun and Bun hugs him while he blinks in surprise. Hidden in the picture: the cup, Pip going up, the hug, the sun.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /ʌ/ /p/ cup!",
+            "audio": "sb2_u10_3_1",
+            "ko": "c-u-p 컵!"
+          },
+          {
+            "who": "pip",
+            "text": "Cat! Bug! Cup! Fun!",
+            "audio": "sb2_u10_3_2",
+            "ko": "고양이! 벌레! 컵! 신나!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip can sing! A party!",
+            "audio": "sb2_u10_3_3",
+            "ko": "핍이 노래해요! 파티예요!"
+          }
+        ],
+        "task": "Find the -up words!",
+        "task_ko": "-up 단어를 찾아요",
+        "ko": "마지막 틈에 컵이 떠 있어요. c-u-p 으로 마지막 돌, 다리 완성! 노래 조각이 핍에게 들어가 핍이 노래해요. 번이 그럼블을 안아요.",
+        "narr": {
+          "text": "The bridge is done! Pip sings. Bun hugs Grumble.",
+          "ko": "다리가 완성됐어요! 핍이 노래해요. 번이 그럼블을 안아요.",
+          "audio": "sb2_u10_3_n"
+        }
+      }
+    ]
   }
 }

@@ -440,102 +440,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb2_u03_1",
-        "desc": "The bank is full of ten flapping brown hens running everywhere with feathers flying. A butterfly net lies on the sand; a white jet plane draws a trail across the sky. Bun points at the net; Pip has shouted the word backwards and stares at all the hens that came running; Hedgie covers his head; Beads peeks from a lily pad. Hidden in the picture: the net, a hen, exactly ten (10) hens — count them, ten hens, no more and no fewer —, the jet. Grumble does NOT appear.",
+        "id": "scene_b2_u03_1",
+        "desc": "{hen} stands in a pen by the pond with nine more white hens: exactly ten hens. {PIP}, {BUN} and {HED} count them.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Ten hens in a pen.",
+            "audio": "b2_u03_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u03_2",
+        "desc": "{BUN} holds a big fishing net; one hen hops out of the pen and gets tangled in the net. {HED} gasps.",
         "lines": [
           {
             "who": "bun",
-            "text": "I see a net.",
-            "audio": "sb2_u03_1_1",
-            "ko": "그물이 보여."
-          },
+            "text": "A hen in the net!",
+            "audio": "b2_u03_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u03_3",
+        "desc": "{HED} pulls the hen out of the wet net gently; the hen is dripping. A toy jet lies on the bank; a vet bag sits nearby.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The hen is wet.",
+            "audio": "b2_u03_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u03_4",
+        "desc": "All ten hens sit in a row on the jetty drying in the sun; {PIP} sits at the end as the eleventh, pretending to be a hen. {BUN} and {HED} laugh.",
+        "lines": [
           {
             "who": "pip",
-            "text": "Ten! Ten?",
-            "audio": "sb2_u03_1_2",
-            "ko": "텐! 텐?"
-          },
-          {
-            "who": "narrator",
-            "text": "Ten hens! Oh no!",
-            "audio": "sb2_u03_1_3",
-            "ko": "암탉 열 마리! 어떡해!"
+            "text": "Ten hens and Pip!",
+            "audio": "b2_u03_l4"
           }
-        ],
-        "task": "Find the -et words!",
-        "task_ko": "-et 단어를 찾아요",
-        "ko": "암탉 열 마리가 푸드덕! 그물과 하늘의 제트기. 핍이 '텐!' 하자 암탉이 더 몰려와요.",
-        "narr": {
-          "text": "Ten hens run! A net on the sand.",
-          "ko": "암탉 열 마리가 뛰어요! 모래 위에 그물.",
-          "audio": "sb2_u03_1_n"
-        }
-      },
-      {
-        "id": "sb2_u03_2",
-        "desc": "Beads threads n-e-t and the net sinks and rises as a wide net-patterned stepping stone; the exactly ten (10) hens — count them, ten hens, no more and no fewer — crowd onto it clucking. On the bank an orange goldfish swims in a round bowl, and a dripping wet puppy shakes off water drops, splashing Hedgie; Bun laughs; Pip glows. Hidden in the picture: the net stone, the goldfish bowl, the wet puppy, the exactly ten (10) hens — count them, ten hens, no more and no fewer —. Grumble does NOT appear.",
-        "lines": [
-          {
-            "who": "beads",
-            "text": "/n/ /e/ /t/ net!",
-            "audio": "sb2_u03_2_1",
-            "ko": "n-e-t 그물!"
-          },
-          {
-            "who": "hedgie",
-            "text": "The net has ten hens!",
-            "audio": "sb2_u03_2_2",
-            "ko": "그물에 암탉 열 마리!"
-          },
-          {
-            "who": "bun",
-            "text": "The pet is wet!",
-            "audio": "sb2_u03_2_3",
-            "ko": "애완동물이 젖었어!"
-          }
-        ],
-        "task": "Find the -et words!",
-        "task_ko": "-et 단어를 찾아요",
-        "ko": "그물이 넓은 징검돌이 되고 암탉들이 올라타요. 어항 속 금붕어, 젖은 강아지도 있어요.",
-        "narr": {
-          "text": "The net is a big stone. The hens hop on.",
-          "ko": "그물이 큰 돌이 됐어요. 암탉들이 올라타요.",
-          "audio": "sb2_u03_2_n"
-        }
-      },
-      {
-        "id": "sb2_u03_3",
-        "desc": "A hen on a stepping stone holds a blue pen in her beak and scribbles on a lily pad; Hedgie giggles. At the reeds a cozy den under a tree root: Grumble's masked face peeks out with his lantern glowing inside, frowning at the noise. Beyond, the exactly ten (10) hens — count them, ten hens, no more and no fewer — walk in a line toward the kind owl vet waiting on a big stone with a stethoscope and a toy jet. Hidden in the picture: the hen, the pen, the den, the vet, the jet. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "The hen has a pen!",
-            "audio": "sb2_u03_3_1",
-            "ko": "암탉이 펜을 물었어!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! It is my den!",
-            "audio": "sb2_u03_3_2",
-            "ko": "쉿! 내 굴이야!"
-          },
-          {
-            "who": "narrator",
-            "text": "Ouch! Oh no, Grumble!",
-            "audio": "sb2_u03_3_3",
-            "ko": "아야! 어떡해, 그럼블!"
-          }
-        ],
-        "task": "Find the -en words!",
-        "task_ko": "-en 단어를 찾아요",
-        "ko": "펜을 문 암탉, 굴 속 그럼블 '쉿! 내 굴!', 올빼미 수의사. 아야! 저런, 그럼블!",
-        "narr": {
-          "text": "A hen with a pen. Grumble peeks out. Ouch!",
-          "ko": "펜을 문 암탉. 그럼블이 내다봐요. 아야!",
-          "audio": "sb2_u03_3_n"
-        }
+        ]
       }
     ]
   },
@@ -734,5 +683,105 @@
     "synopsis_ko": "암탉 열 마리가 푸드덕! 핍이 \"넷\" 대신 \"텐\"이라고 하자 암탉이 더 몰려왔어요. 그물이 넓은 징검돌이 되고, 펜 문 암탉과 굴 속 그럼블을 만나요. 올빼미 수의사가 암탉을 돌봐요.",
     "so_far_ko": "떠내려간 모자와 가방을 되찾았어요. 그럼블은 번의 모자를 쓰고 있어요.",
     "goal_ko": "-et·-en 단어를 읽어 암탉 열 마리를 건너게 해요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb2_u03_1",
+        "desc": "The bank is full of ten flapping brown hens running everywhere with feathers flying. A butterfly net lies on the sand; a white jet plane draws a trail across the sky. Bun points at the net; Pip has shouted the word backwards and stares at all the hens that came running; Hedgie covers his head; Beads peeks from a lily pad. Hidden in the picture: the net, a hen, exactly ten (10) hens — count them, ten hens, no more and no fewer —, the jet. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I see a net.",
+            "audio": "sb2_u03_1_1",
+            "ko": "그물이 보여."
+          },
+          {
+            "who": "pip",
+            "text": "Ten! Ten?",
+            "audio": "sb2_u03_1_2",
+            "ko": "텐! 텐?"
+          },
+          {
+            "who": "narrator",
+            "text": "Ten hens! Oh no!",
+            "audio": "sb2_u03_1_3",
+            "ko": "암탉 열 마리! 어떡해!"
+          }
+        ],
+        "task": "Find the -et words!",
+        "task_ko": "-et 단어를 찾아요",
+        "ko": "암탉 열 마리가 푸드덕! 그물과 하늘의 제트기. 핍이 '텐!' 하자 암탉이 더 몰려와요.",
+        "narr": {
+          "text": "Ten hens run! A net on the sand.",
+          "ko": "암탉 열 마리가 뛰어요! 모래 위에 그물.",
+          "audio": "sb2_u03_1_n"
+        }
+      },
+      {
+        "id": "sb2_u03_2",
+        "desc": "Beads threads n-e-t and the net sinks and rises as a wide net-patterned stepping stone; the exactly ten (10) hens — count them, ten hens, no more and no fewer — crowd onto it clucking. On the bank an orange goldfish swims in a round bowl, and a dripping wet puppy shakes off water drops, splashing Hedgie; Bun laughs; Pip glows. Hidden in the picture: the net stone, the goldfish bowl, the wet puppy, the exactly ten (10) hens — count them, ten hens, no more and no fewer —. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/n/ /e/ /t/ net!",
+            "audio": "sb2_u03_2_1",
+            "ko": "n-e-t 그물!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The net has ten hens!",
+            "audio": "sb2_u03_2_2",
+            "ko": "그물에 암탉 열 마리!"
+          },
+          {
+            "who": "bun",
+            "text": "The pet is wet!",
+            "audio": "sb2_u03_2_3",
+            "ko": "애완동물이 젖었어!"
+          }
+        ],
+        "task": "Find the -et words!",
+        "task_ko": "-et 단어를 찾아요",
+        "ko": "그물이 넓은 징검돌이 되고 암탉들이 올라타요. 어항 속 금붕어, 젖은 강아지도 있어요.",
+        "narr": {
+          "text": "The net is a big stone. The hens hop on.",
+          "ko": "그물이 큰 돌이 됐어요. 암탉들이 올라타요.",
+          "audio": "sb2_u03_2_n"
+        }
+      },
+      {
+        "id": "sb2_u03_3",
+        "desc": "A hen on a stepping stone holds a blue pen in her beak and scribbles on a lily pad; Hedgie giggles. At the reeds a cozy den under a tree root: Grumble's masked face peeks out with his lantern glowing inside, frowning at the noise. Beyond, the exactly ten (10) hens — count them, ten hens, no more and no fewer — walk in a line toward the kind owl vet waiting on a big stone with a stethoscope and a toy jet. Hidden in the picture: the hen, the pen, the den, the vet, the jet. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The hen has a pen!",
+            "audio": "sb2_u03_3_1",
+            "ko": "암탉이 펜을 물었어!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my den!",
+            "audio": "sb2_u03_3_2",
+            "ko": "쉿! 내 굴이야!"
+          },
+          {
+            "who": "narrator",
+            "text": "Ouch! Oh no, Grumble!",
+            "audio": "sb2_u03_3_3",
+            "ko": "아야! 어떡해, 그럼블!"
+          }
+        ],
+        "task": "Find the -en words!",
+        "task_ko": "-en 단어를 찾아요",
+        "ko": "펜을 문 암탉, 굴 속 그럼블 '쉿! 내 굴!', 올빼미 수의사. 아야! 저런, 그럼블!",
+        "narr": {
+          "text": "A hen with a pen. Grumble peeks out. Ouch!",
+          "ko": "펜을 문 암탉. 그럼블이 내다봐요. 아야!",
+          "audio": "sb2_u03_3_n"
+        }
+      }
+    ]
   }
 }

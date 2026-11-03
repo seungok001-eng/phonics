@@ -495,102 +495,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb3_u09_1",
-        "desc": "Dusk at a sandy pond. A mischievous little chimp in a blue knitted vest swings down and snatches Grumble's glowing lantern out of his hand, then scampers toward a green tent on the sand; Grumble reaches after it, nightcap flying; Bun points; Pip says the two letters in the wrong order; Pim and Pam flutter in alarm. Hidden in the picture: the chimp, the vest, the tent, Grumble's empty hand, the sand, the pond.",
+        "id": "scene_b3_u09_1",
+        "desc": "{chimp} has set up a camp tent by the pond in the forest; a lamp glows; {PIP}, {BUN} and {HED} arrive with a plant.",
         "lines": [
           {
-            "who": "grumble",
-            "text": "Shh! My lantern! Oh no!",
-            "audio": "sb3_u09_1_1",
-            "ko": "쉿! 내 등불! 안 돼!"
-          },
-          {
-            "who": "bun",
-            "text": "A chimp in a vest!",
-            "audio": "sb3_u09_1_2",
-            "ko": "조끼 입은 침팬지야!"
-          },
-          {
-            "who": "pip",
-            "text": "Tn? Tn? Tnet?",
-            "audio": "sb3_u09_1_3",
-            "ko": "트느? 트느? 트넷?"
+            "who": "narrator",
+            "text": "The chimp said, \"Camp here!\"",
+            "audio": "b3_u09_l1"
           }
-        ],
-        "task": "Find the -nd words!",
-        "task_ko": "-nd 단어를 찾아요",
-        "ko": "조끼 입은 침팬지가 그럼블의 등불을 낚아채 텐트로 달아나요. 핍은 \"트느?\"",
-        "narr": {
-          "text": "A chimp grabs Grumble's lantern and runs!",
-          "ko": "침팬지가 그럼블의 등불을 낚아채 달아나요!",
-          "audio": "sb3_u09_1_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u09_2",
-        "desc": "The green tent's flap, stitched with the two letters n and t (the ONLY text allowed in the picture), has popped open. Inside, the chimp sits on a wooden treasure chest hugging the lantern; Hedgie has opened the chest and holds up a small yellow lamp and a postage stamp; Pip points at the lamp and the chimp's eyes light up; tiny ants march past a potted plant. Hidden in the picture: the tent, the ants, the plant, the chest, the lamp, the stamp. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
+        "id": "scene_b3_u09_2",
+        "desc": "{ant} carries a stamp into the tent; a line of ants follows across the sand; {HED} points.",
         "lines": [
-          {
-            "who": "twins",
-            "text": "Together! /nt/ /nt/ tent!",
-            "audio": "sb3_u09_2_1",
-            "ko": "함께! nt, nt 텐트!"
-          },
           {
             "who": "hedgie",
-            "text": "Look! A lamp in the chest!",
-            "audio": "sb3_u09_2_2",
-            "ko": "봐! 상자 안에 램프!"
-          },
-          {
-            "who": "pip",
-            "text": "Pm? No! Lamp! Lamp!",
-            "audio": "sb3_u09_2_3",
-            "ko": "프므? 아니! 램프! 램프!"
+            "text": "Ants in the tent!",
+            "audio": "b3_u09_l2"
           }
-        ],
-        "task": "Find the -nt and -st words!",
-        "task_ko": "-nt·-st 단어를 찾아요",
-        "ko": "핌과 팜이 nt! 텐트가 열려요. 보물 상자 속 램프를 보고 핍이 \"램프!\" 침팬지 눈이 반짝!",
-        "narr": {
-          "text": "The tent opens. Hedgie finds a lamp in the chest.",
-          "ko": "텐트가 열려요. 헤지가 상자에서 램프를 찾아요.",
-          "audio": "sb3_u09_2_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u09_3",
-        "desc": "Night. The chimp sits happily in a round nest high in a tree with its own little yellow lamp glowing, handing the lantern back down to Grumble, who pats its hand with a small smile; Bun and Hedgie laugh. Then a strong wind begins to blow, leaves whirling through the trees toward a huge patchwork quilt flapping between two tall trees far away. Hidden in the picture: the nest, the lamp, the hand, the plant, the ants.",
+        "id": "scene_b3_u09_3",
+        "desc": "{chimp} hands the ants a chest of crumbs; the ants nest in a vest on the ground; {BUN} laughs.",
         "lines": [
           {
-            "who": "narrator",
-            "text": "The chimp has a lamp!",
-            "audio": "sb3_u09_3_1",
-            "ko": "침팬지도 램프가 생겼어요!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! I said shh! Ha, ha!",
-            "audio": "sb3_u09_3_2",
-            "ko": "쉿! \"쉿\" 하랬지! 하하!"
-          },
-          {
-            "who": "narrator",
-            "text": "Whoosh! Whoosh! Oh no!",
-            "audio": "sb3_u09_3_3",
-            "ko": "휘잉! 휘잉! 저런!"
+            "who": "bun",
+            "text": "What do ants do? They eat!",
+            "audio": "b3_u09_l3"
           }
-        ],
-        "task": "Find the -mp words!",
-        "task_ko": "-mp 단어를 찾아요",
-        "ko": "침팬지가 램프를 받고 등불을 돌려줘요. 그럼블이 \"쉿 하랬지!\" 하며 웃어요. — 휘잉휘잉! 바람이 불기 시작해요.",
-        "narr": {
-          "text": "The chimp gives the lantern back. The wind blows!",
-          "ko": "침팬지가 등불을 돌려줘요. 바람이 불기 시작해요!",
-          "audio": "sb3_u09_3_n"
-        }
+        ]
+      },
+      {
+        "id": "scene_b3_u09_4",
+        "desc": "Night: everyone sleeps in the tent by the lamp; the ants sleep in the vest; {PIP} sleeps on the chimp's head.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "The camp is the best.",
+            "audio": "b3_u09_l4"
+          }
+        ]
       }
     ]
   },
@@ -794,5 +743,105 @@
     "synopsis_ko": "모래 연못가에서 조끼 입은 침팬지가 그럼블의 등불을 낚아채 텐트로 달아났어요. 핌과 팜이 nt! 텐트가 열리고, 보물 상자 속 램프를 침팬지에게 주자 등불을 돌려줘요. 그럼블이 \"쉿 하랬지!\" 하며 웃어요.",
     "so_far_ko": "그네를 타고 시내를 건넜어요. 그럼블도 내려와 팬케이크 간식을 함께 먹었어요.",
     "goal_ko": "단어 끝의 -nd·-nt·-st·-mp 를 말해 텐트를 열고 등불을 되찾아요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb3_u09_1",
+        "desc": "Dusk at a sandy pond. A mischievous little chimp in a blue knitted vest swings down and snatches Grumble's glowing lantern out of his hand, then scampers toward a green tent on the sand; Grumble reaches after it, nightcap flying; Bun points; Pip says the two letters in the wrong order; Pim and Pam flutter in alarm. Hidden in the picture: the chimp, the vest, the tent, Grumble's empty hand, the sand, the pond.",
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh! My lantern! Oh no!",
+            "audio": "sb3_u09_1_1",
+            "ko": "쉿! 내 등불! 안 돼!"
+          },
+          {
+            "who": "bun",
+            "text": "A chimp in a vest!",
+            "audio": "sb3_u09_1_2",
+            "ko": "조끼 입은 침팬지야!"
+          },
+          {
+            "who": "pip",
+            "text": "Tn? Tn? Tnet?",
+            "audio": "sb3_u09_1_3",
+            "ko": "트느? 트느? 트넷?"
+          }
+        ],
+        "task": "Find the -nd words!",
+        "task_ko": "-nd 단어를 찾아요",
+        "ko": "조끼 입은 침팬지가 그럼블의 등불을 낚아채 텐트로 달아나요. 핍은 \"트느?\"",
+        "narr": {
+          "text": "A chimp grabs Grumble's lantern and runs!",
+          "ko": "침팬지가 그럼블의 등불을 낚아채 달아나요!",
+          "audio": "sb3_u09_1_n"
+        }
+      },
+      {
+        "id": "sb3_u09_2",
+        "desc": "The green tent's flap, stitched with the two letters n and t (the ONLY text allowed in the picture), has popped open. Inside, the chimp sits on a wooden treasure chest hugging the lantern; Hedgie has opened the chest and holds up a small yellow lamp and a postage stamp; Pip points at the lamp and the chimp's eyes light up; tiny ants march past a potted plant. Hidden in the picture: the tent, the ants, the plant, the chest, the lamp, the stamp. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /nt/ /nt/ tent!",
+            "audio": "sb3_u09_2_1",
+            "ko": "함께! nt, nt 텐트!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Look! A lamp in the chest!",
+            "audio": "sb3_u09_2_2",
+            "ko": "봐! 상자 안에 램프!"
+          },
+          {
+            "who": "pip",
+            "text": "Pm? No! Lamp! Lamp!",
+            "audio": "sb3_u09_2_3",
+            "ko": "프므? 아니! 램프! 램프!"
+          }
+        ],
+        "task": "Find the -nt and -st words!",
+        "task_ko": "-nt·-st 단어를 찾아요",
+        "ko": "핌과 팜이 nt! 텐트가 열려요. 보물 상자 속 램프를 보고 핍이 \"램프!\" 침팬지 눈이 반짝!",
+        "narr": {
+          "text": "The tent opens. Hedgie finds a lamp in the chest.",
+          "ko": "텐트가 열려요. 헤지가 상자에서 램프를 찾아요.",
+          "audio": "sb3_u09_2_n"
+        }
+      },
+      {
+        "id": "sb3_u09_3",
+        "desc": "Night. The chimp sits happily in a round nest high in a tree with its own little yellow lamp glowing, handing the lantern back down to Grumble, who pats its hand with a small smile; Bun and Hedgie laugh. Then a strong wind begins to blow, leaves whirling through the trees toward a huge patchwork quilt flapping between two tall trees far away. Hidden in the picture: the nest, the lamp, the hand, the plant, the ants.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The chimp has a lamp!",
+            "audio": "sb3_u09_3_1",
+            "ko": "침팬지도 램프가 생겼어요!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! I said shh! Ha, ha!",
+            "audio": "sb3_u09_3_2",
+            "ko": "쉿! \"쉿\" 하랬지! 하하!"
+          },
+          {
+            "who": "narrator",
+            "text": "Whoosh! Whoosh! Oh no!",
+            "audio": "sb3_u09_3_3",
+            "ko": "휘잉! 휘잉! 저런!"
+          }
+        ],
+        "task": "Find the -mp words!",
+        "task_ko": "-mp 단어를 찾아요",
+        "ko": "침팬지가 램프를 받고 등불을 돌려줘요. 그럼블이 \"쉿 하랬지!\" 하며 웃어요. — 휘잉휘잉! 바람이 불기 시작해요.",
+        "narr": {
+          "text": "The chimp gives the lantern back. The wind blows!",
+          "ko": "침팬지가 등불을 돌려줘요. 바람이 불기 시작해요!",
+          "audio": "sb3_u09_3_n"
+        }
+      }
+    ]
   }
 }

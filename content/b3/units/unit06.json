@@ -455,102 +455,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb3_u06_1",
-        "desc": "Morning. A giant black wooden block, taller than Bun, blocks the forest path, with the two letters b and l carved on its front — the ONLY text allowed in the picture; a small red-and-yellow flag sticks up from its top. Behind it, a big round wall clock with dots instead of numbers hangs on a tree trunk, its hands stopped. Bun pushes the block with all her might; Pip says the two letters in the wrong order, puzzled; Pim and Pam sit on top. Hidden in the picture: the black block, the clock, the flag. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "id": "scene_b3_u06_1",
+        "desc": "{BUN} stacks colored wooden blocks on a tree stump; the top one is a black block; a clock hangs on the tree. A flag flutters on a stick.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Here is a black block.",
+            "audio": "b3_u06_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u06_2",
+        "desc": "{HED} claps; the stack wobbles; {PIP} flaps to hold it.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Clap! Oh no, it flips!",
+            "audio": "b3_u06_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u06_3",
+        "desc": "The black block falls into the stream and lands on {clam}, which snaps its shell shut on it.",
         "lines": [
           {
             "who": "bun",
-            "text": "Look! A big black block!",
-            "audio": "sb3_u06_1_1",
-            "ko": "봐! 커다란 까만 블록!"
-          },
-          {
-            "who": "hedgie",
-            "text": "The clock can not tick!",
-            "audio": "sb3_u06_1_2",
-            "ko": "시계가 째깍거리지 않아!"
-          },
-          {
-            "who": "pip",
-            "text": "Lb? Lb? Lbock?",
-            "audio": "sb3_u06_1_3",
-            "ko": "르브? 르브? 르복?"
+            "text": "The clam has the block!",
+            "audio": "b3_u06_l3"
           }
-        ],
-        "task": "Find the bl words!",
-        "task_ko": "bl 단어를 찾아요",
-        "ko": "까만 블록이 길을 막고, 그 뒤 시계가 멈췄어요. 핍은 bl 을 거꾸로 \"르브?\"",
-        "narr": {
-          "text": "A huge block is in the way. The clock stops.",
-          "ko": "커다란 블록이 길을 막아요. 시계가 멈췄어요.",
-          "audio": "sb3_u06_1_n"
-        }
+        ]
       },
       {
-        "id": "sb3_u06_2",
-        "desc": "The black block has slid aside as a little stair step and Bun has tumbled onto the grass. At the clock, above its face, a little round door with the two letters c and l carved on it (the ONLY text allowed) pops open as Pip, standing on the block step, says the word with a golden sparkle; the clock's hands move again; Bun and Hedgie clap, and a clam on a mossy rock opens and shuts its shell as if clapping; a paper clip holds a leaf to the clock. Hidden in the picture: the block, the clock, the clam, the clip, clapping paws. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
+        "id": "scene_b3_u06_4",
+        "desc": "{clam} opens with the black block inside like a pearl; {PIP}, {BUN} and {HED} peer in, delighted.",
         "lines": [
-          {
-            "who": "twins",
-            "text": "Together! /bl/ /bl/ block!",
-            "audio": "sb3_u06_2_1",
-            "ko": "함께! bl, bl 블록!"
-          },
           {
             "who": "pip",
-            "text": "Lc? No! Cl... clock!",
-            "audio": "sb3_u06_2_2",
-            "ko": "르크? 아니! 클… 클록!"
-          },
-          {
-            "who": "narrator",
-            "text": "Tick, tock! Tick, tock!",
-            "audio": "sb3_u06_2_3",
-            "ko": "똑딱! 똑딱!"
+            "text": "There it is!",
+            "audio": "b3_u06_l4"
           }
-        ],
-        "task": "Find the cl words!",
-        "task_ko": "cl 단어를 찾아요",
-        "ko": "핌과 팜이 bl! 블록이 비켜나요. 핍이 \"르크? 아니! 클록!\" 시계가 다시 째깍째깍!",
-        "narr": {
-          "text": "The block slides away. The clock ticks again!",
-          "ko": "블록이 비켜나요. 시계가 다시 째깍거려요!",
-          "audio": "sb3_u06_2_n"
-        }
-      },
-      {
-        "id": "sb3_u06_3",
-        "desc": "The clock ticks happily. The friends rest on the block step under the waving red-and-yellow flag; Hedgie flips a little pancake high from a frying pan; up in the tree Grumble softly claps his paws twice, then hides them behind his back. Far ahead along the path, a low wall of red bricks crosses the way, and a small red crab peeks over it, claws open. Hidden in the picture: the flag, the flipping pancake, the black block.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Flip! Look, I can flip!",
-            "audio": "sb3_u06_3_1",
-            "ko": "휙! 봐, 나 뒤집을 수 있어!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! ...Clap, clap.",
-            "audio": "sb3_u06_3_2",
-            "ko": "쉿! …짝, 짝."
-          },
-          {
-            "who": "narrator",
-            "text": "Snip! Snip! Oh no!",
-            "audio": "sb3_u06_3_3",
-            "ko": "싹둑! 싹둑! 저런!"
-          }
-        ],
-        "task": "Find the fl words!",
-        "task_ko": "fl 단어를 찾아요",
-        "ko": "헤지가 팬케이크를 휙! 그럼블이 몰래 손뼉을 짝짝. — 싹둑싹둑! 저 앞 벽돌담에 누가 있어요?",
-        "narr": {
-          "text": "Hedgie flips a pancake. Who is on the brick wall?",
-          "ko": "헤지가 팬케이크를 뒤집어요. 벽돌담 위엔 누가 있을까요?",
-          "audio": "sb3_u06_3_n"
-        }
+        ]
       }
     ]
   },
@@ -750,5 +699,105 @@
     "synopsis_ko": "커다란 까만 블록이 길을 막고 그 뒤 시계가 멈췄어요. 핌과 팜이 두 소리를 빠르게 이어 bl! 블록이 비켜나요. 핍은 처음엔 거꾸로 \"르크?\" 하다가 \"클록!\" 시계가 다시 째깍째깍, 그럼블도 몰래 손뼉을 쳐요.",
     "so_far_ko": "핍이 그럼블의 \"쉿!\"을 따라 처음으로 \"sh!\"를 말했어요. 멀리 시계가 멈췄어요.",
     "goal_ko": "두 소리를 빠르게 잇는 bl·cl·fl 을 말해 블록을 치우고 시계를 고쳐요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb3_u06_1",
+        "desc": "Morning. A giant black wooden block, taller than Bun, blocks the forest path, with the two letters b and l carved on its front — the ONLY text allowed in the picture; a small red-and-yellow flag sticks up from its top. Behind it, a big round wall clock with dots instead of numbers hangs on a tree trunk, its hands stopped. Bun pushes the block with all her might; Pip says the two letters in the wrong order, puzzled; Pim and Pam sit on top. Hidden in the picture: the black block, the clock, the flag. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! A big black block!",
+            "audio": "sb3_u06_1_1",
+            "ko": "봐! 커다란 까만 블록!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The clock can not tick!",
+            "audio": "sb3_u06_1_2",
+            "ko": "시계가 째깍거리지 않아!"
+          },
+          {
+            "who": "pip",
+            "text": "Lb? Lb? Lbock?",
+            "audio": "sb3_u06_1_3",
+            "ko": "르브? 르브? 르복?"
+          }
+        ],
+        "task": "Find the bl words!",
+        "task_ko": "bl 단어를 찾아요",
+        "ko": "까만 블록이 길을 막고, 그 뒤 시계가 멈췄어요. 핍은 bl 을 거꾸로 \"르브?\"",
+        "narr": {
+          "text": "A huge block is in the way. The clock stops.",
+          "ko": "커다란 블록이 길을 막아요. 시계가 멈췄어요.",
+          "audio": "sb3_u06_1_n"
+        }
+      },
+      {
+        "id": "sb3_u06_2",
+        "desc": "The black block has slid aside as a little stair step and Bun has tumbled onto the grass. At the clock, above its face, a little round door with the two letters c and l carved on it (the ONLY text allowed) pops open as Pip, standing on the block step, says the word with a golden sparkle; the clock's hands move again; Bun and Hedgie clap, and a clam on a mossy rock opens and shuts its shell as if clapping; a paper clip holds a leaf to the clock. Hidden in the picture: the block, the clock, the clam, the clip, clapping paws. Also clearly visible in the picture (each character only once): Pim and Pam, the two tiny twin bluebirds side by side, chirping together.",
+        "lines": [
+          {
+            "who": "twins",
+            "text": "Together! /bl/ /bl/ block!",
+            "audio": "sb3_u06_2_1",
+            "ko": "함께! bl, bl 블록!"
+          },
+          {
+            "who": "pip",
+            "text": "Lc? No! Cl... clock!",
+            "audio": "sb3_u06_2_2",
+            "ko": "르크? 아니! 클… 클록!"
+          },
+          {
+            "who": "narrator",
+            "text": "Tick, tock! Tick, tock!",
+            "audio": "sb3_u06_2_3",
+            "ko": "똑딱! 똑딱!"
+          }
+        ],
+        "task": "Find the cl words!",
+        "task_ko": "cl 단어를 찾아요",
+        "ko": "핌과 팜이 bl! 블록이 비켜나요. 핍이 \"르크? 아니! 클록!\" 시계가 다시 째깍째깍!",
+        "narr": {
+          "text": "The block slides away. The clock ticks again!",
+          "ko": "블록이 비켜나요. 시계가 다시 째깍거려요!",
+          "audio": "sb3_u06_2_n"
+        }
+      },
+      {
+        "id": "sb3_u06_3",
+        "desc": "The clock ticks happily. The friends rest on the block step under the waving red-and-yellow flag; Hedgie flips a little pancake high from a frying pan; up in the tree Grumble softly claps his paws twice, then hides them behind his back. Far ahead along the path, a low wall of red bricks crosses the way, and a small red crab peeks over it, claws open. Hidden in the picture: the flag, the flipping pancake, the black block.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Flip! Look, I can flip!",
+            "audio": "sb3_u06_3_1",
+            "ko": "휙! 봐, 나 뒤집을 수 있어!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! ...Clap, clap.",
+            "audio": "sb3_u06_3_2",
+            "ko": "쉿! …짝, 짝."
+          },
+          {
+            "who": "narrator",
+            "text": "Snip! Snip! Oh no!",
+            "audio": "sb3_u06_3_3",
+            "ko": "싹둑! 싹둑! 저런!"
+          }
+        ],
+        "task": "Find the fl words!",
+        "task_ko": "fl 단어를 찾아요",
+        "ko": "헤지가 팬케이크를 휙! 그럼블이 몰래 손뼉을 짝짝. — 싹둑싹둑! 저 앞 벽돌담에 누가 있어요?",
+        "narr": {
+          "text": "Hedgie flips a pancake. Who is on the brick wall?",
+          "ko": "헤지가 팬케이크를 뒤집어요. 벽돌담 위엔 누가 있을까요?",
+          "audio": "sb3_u06_3_n"
+        }
+      }
+    ]
   }
 }

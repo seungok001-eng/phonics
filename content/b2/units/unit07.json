@@ -435,102 +435,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb2_u07_1",
-        "desc": "A cold windy morning on the stones. Hedgie's red jacket zipper is stuck halfway; he tugs and — rip! — a jagged tear opens in the sleeve. Bun shivers with her ears wrapped around her; Pip says the word backwards with ruffled feathers; Beads huddles into a bead-ball. Hidden in the picture: the zipper, the rip. Grumble does NOT appear.",
+        "id": "scene_b2_u07_1",
+        "desc": "{HED} tries to zip a bulging bag with a huge zipper; {PIP} and {BUN} push the bag closed.",
         "lines": [
-          {
-            "who": "hedgie",
-            "text": "Zip it up!",
-            "audio": "sb2_u07_1_1",
-            "ko": "지퍼 올려!"
-          },
-          {
-            "who": "narrator",
-            "text": "Rip! Oh no!",
-            "audio": "sb2_u07_1_2",
-            "ko": "쭉! 어떡해!"
-          },
-          {
-            "who": "pip",
-            "text": "Piz! Piz?",
-            "audio": "sb2_u07_1_3",
-            "ko": "피즈! 피즈?"
-          }
-        ],
-        "task": "Find the -ip words!",
-        "task_ko": "-ip 단어를 찾아요",
-        "ko": "추운 바람이 불어요. 헤지 재킷 지퍼가 걸리고 쭉 찢어져요. 핍은 '피즈!'",
-        "narr": {
-          "text": "A cold day. Hedgie's jacket rips.",
-          "ko": "추운 날이에요. 헤지 재킷이 찢어져요.",
-          "audio": "sb2_u07_1_n"
-        }
-      },
-      {
-        "id": "sb2_u07_2",
-        "desc": "Beads threads z-i-p: the zipper zips itself up with a zing and a new stone rises. Picnic on a big stone: Bun dips a chip into a bowl of dip and has a blob of dip on her lip; the orange cat sits on an open first-aid kit; Bun's bat and a peach pit lie ready; Hedgie pats his zipped jacket. Hidden in the picture: the zipper, the dip, Bun's lip, the sitting cat, the kit, the pit. Grumble does NOT appear.",
-        "lines": [
-          {
-            "who": "beads",
-            "text": "/z/ /ɪ/ /p/ zip!",
-            "audio": "sb2_u07_2_1",
-            "ko": "z-i-p 지퍼 올리기!"
-          },
           {
             "who": "bun",
-            "text": "Dip is on my lip!",
-            "audio": "sb2_u07_2_2",
-            "ko": "내 입술에 소스가 묻었어!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Hit the pit! Hit it!",
-            "audio": "sb2_u07_2_3",
-            "ko": "씨를 쳐! 쳐 봐!"
+            "text": "Zip it up, Hedgie!",
+            "audio": "b2_u07_l1"
           }
-        ],
-        "task": "Find the -ip words!",
-        "task_ko": "-ip 단어를 찾아요",
-        "ko": "비즈가 z-i-p 을 꿰자 지퍼가 저절로 올라가요. 소풍이에요. 번 입술에 소스, 구급상자 위 고양이, 방망이로 복숭아씨를 쳐요.",
-        "narr": {
-          "text": "The zipper is up! A picnic on a big stone.",
-          "ko": "지퍼가 올라갔어요! 큰 돌 위에서 소풍이에요.",
-          "audio": "sb2_u07_2_n"
-        }
+        ]
       },
       {
-        "id": "sb2_u07_3",
-        "desc": "Everyone sits in a row on the new stones with feet in the water: Bun, Hedgie with the kit on his lap, the cat, Beads and Pip. At the end of the row Grumble has come out of the reeds and sits down shyly on the last stone with his lantern beside him — the first time he sits with the friends. A faint white mist is creeping over the far water. Hidden in the picture: the kit, the sitting cat, the bat that hit the pit.",
+        "id": "scene_b2_u07_2",
+        "desc": "The zipper rips open and a toy kit spills out: a ball, a kite and a cup. {HED} sits down on it.",
         "lines": [
           {
-            "who": "narrator",
-            "text": "Sit, sit, sit!",
-            "audio": "sb2_u07_3_1",
-            "ko": "앉아요, 앉아요, 앉아요!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... Can I sit?",
-            "audio": "sb2_u07_3_2",
-            "ko": "쉿… 나도 앉아도 돼?"
-          },
-          {
-            "who": "narrator",
-            "text": "Look... We can not see!",
-            "audio": "sb2_u07_3_3",
-            "ko": "저기… 안 보여!"
+            "who": "hedgie",
+            "text": "It is a rip!",
+            "audio": "b2_u07_l2"
           }
-        ],
-        "task": "Find the -it words!",
-        "task_ko": "-it 단어를 찾아요",
-        "ko": "모두 나란히 앉아요. 그럼블이 처음으로 끝자리에 앉아요. '쉿… 앉아도 돼?' 저 멀리 안개가 와요.",
-        "narr": {
-          "text": "Grumble sits with the friends. Mist comes over the water.",
-          "ko": "그럼블이 친구들과 함께 앉아요. 물 위로 안개가 와요.",
-          "audio": "sb2_u07_3_n"
-        }
+        ]
+      },
+      {
+        "id": "scene_b2_u07_3",
+        "desc": "{PIP} dips the bag's corner in the pond to clean it; a fish bites Pip's lip gently; Pip jumps.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Dip it... hit!",
+            "audio": "b2_u07_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u07_4",
+        "desc": "The bag is zipped at last, with {PIP} sitting on top of it like a hat. {BUN} and {HED} give a thumbs up. A pit of sand is beside them.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "Zip! It is up!",
+            "audio": "b2_u07_l4"
+          }
+        ]
       }
     ]
   },
@@ -726,5 +675,105 @@
     "synopsis_ko": "추운 바람에 헤지 재킷 지퍼가 걸리고 쭉 찢어졌어요. 비즈가 z-i-p 을 꿰자 지퍼가 저절로! 소풍에서 번 입술에 소스가 묻고, 고양이는 구급상자에 앉고, 복숭아씨를 쳐요. 그럼블이 처음으로 친구들 옆에 앉아요.",
     "so_far_ko": "커다란 돼지를 건너게 했어요. 돼지가 트로피를 받았어요.",
     "goal_ko": "-ip·-it 단어를 읽고 그럼블과 나란히 앉아요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb2_u07_1",
+        "desc": "A cold windy morning on the stones. Hedgie's red jacket zipper is stuck halfway; he tugs and — rip! — a jagged tear opens in the sleeve. Bun shivers with her ears wrapped around her; Pip says the word backwards with ruffled feathers; Beads huddles into a bead-ball. Hidden in the picture: the zipper, the rip. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Zip it up!",
+            "audio": "sb2_u07_1_1",
+            "ko": "지퍼 올려!"
+          },
+          {
+            "who": "narrator",
+            "text": "Rip! Oh no!",
+            "audio": "sb2_u07_1_2",
+            "ko": "쭉! 어떡해!"
+          },
+          {
+            "who": "pip",
+            "text": "Piz! Piz?",
+            "audio": "sb2_u07_1_3",
+            "ko": "피즈! 피즈?"
+          }
+        ],
+        "task": "Find the -ip words!",
+        "task_ko": "-ip 단어를 찾아요",
+        "ko": "추운 바람이 불어요. 헤지 재킷 지퍼가 걸리고 쭉 찢어져요. 핍은 '피즈!'",
+        "narr": {
+          "text": "A cold day. Hedgie's jacket rips.",
+          "ko": "추운 날이에요. 헤지 재킷이 찢어져요.",
+          "audio": "sb2_u07_1_n"
+        }
+      },
+      {
+        "id": "sb2_u07_2",
+        "desc": "Beads threads z-i-p: the zipper zips itself up with a zing and a new stone rises. Picnic on a big stone: Bun dips a chip into a bowl of dip and has a blob of dip on her lip; the orange cat sits on an open first-aid kit; Bun's bat and a peach pit lie ready; Hedgie pats his zipped jacket. Hidden in the picture: the zipper, the dip, Bun's lip, the sitting cat, the kit, the pit. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/z/ /ɪ/ /p/ zip!",
+            "audio": "sb2_u07_2_1",
+            "ko": "z-i-p 지퍼 올리기!"
+          },
+          {
+            "who": "bun",
+            "text": "Dip is on my lip!",
+            "audio": "sb2_u07_2_2",
+            "ko": "내 입술에 소스가 묻었어!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Hit the pit! Hit it!",
+            "audio": "sb2_u07_2_3",
+            "ko": "씨를 쳐! 쳐 봐!"
+          }
+        ],
+        "task": "Find the -ip words!",
+        "task_ko": "-ip 단어를 찾아요",
+        "ko": "비즈가 z-i-p 을 꿰자 지퍼가 저절로 올라가요. 소풍이에요. 번 입술에 소스, 구급상자 위 고양이, 방망이로 복숭아씨를 쳐요.",
+        "narr": {
+          "text": "The zipper is up! A picnic on a big stone.",
+          "ko": "지퍼가 올라갔어요! 큰 돌 위에서 소풍이에요.",
+          "audio": "sb2_u07_2_n"
+        }
+      },
+      {
+        "id": "sb2_u07_3",
+        "desc": "Everyone sits in a row on the new stones with feet in the water: Bun, Hedgie with the kit on his lap, the cat, Beads and Pip. At the end of the row Grumble has come out of the reeds and sits down shyly on the last stone with his lantern beside him — the first time he sits with the friends. A faint white mist is creeping over the far water. Hidden in the picture: the kit, the sitting cat, the bat that hit the pit.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Sit, sit, sit!",
+            "audio": "sb2_u07_3_1",
+            "ko": "앉아요, 앉아요, 앉아요!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Can I sit?",
+            "audio": "sb2_u07_3_2",
+            "ko": "쉿… 나도 앉아도 돼?"
+          },
+          {
+            "who": "narrator",
+            "text": "Look... We can not see!",
+            "audio": "sb2_u07_3_3",
+            "ko": "저기… 안 보여!"
+          }
+        ],
+        "task": "Find the -it words!",
+        "task_ko": "-it 단어를 찾아요",
+        "ko": "모두 나란히 앉아요. 그럼블이 처음으로 끝자리에 앉아요. '쉿… 앉아도 돼?' 저 멀리 안개가 와요.",
+        "narr": {
+          "text": "Grumble sits with the friends. Mist comes over the water.",
+          "ko": "그럼블이 친구들과 함께 앉아요. 물 위로 안개가 와요.",
+          "audio": "sb2_u07_3_n"
+        }
+      }
+    ]
   }
 }

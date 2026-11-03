@@ -100,70 +100,51 @@
     }
   ],
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb2_u00_1",
-        "desc": "Bun, Hedgie and Pip step through a gap in the wooden fence of the Sound Garden (blossoming letter trees behind them) onto the sandy bank of a wide blue pond with lily pads and tall reeds; a dark pine forest stands across the water. The glowing golden seed with its tiny leaf floats down onto the sand, where big round wooden beads lie scattered. Pip has its beak open with one tiny golden note. Grumble does NOT appear.",
+        "id": "scene_b2_u00_1",
+        "desc": "{PIP}, {BUN} and {HED} walk through a gap in the garden hedge and see a big round pond for the first time, eyes wide.",
         "lines": [
-          {
-            "who": "narrator",
-            "text": "This is the Word Pond.",
-            "audio": "sb2_u00_1_1",
-            "ko": "여기는 단어 연못이에요."
-          },
           {
             "who": "bun",
-            "text": "Look! No stones!",
-            "audio": "sb2_u00_1_2",
-            "ko": "봐! 돌이 없어!"
-          },
-          {
-            "who": "hedgie",
-            "text": "How can we go in?",
-            "audio": "sb2_u00_1_3",
-            "ko": "어떻게 들어가지?"
+            "text": "A pond!",
+            "audio": "b2_u00_l1"
           }
-        ],
-        "task": "Find the seed!",
-        "task_ko": "씨앗을 찾아요",
-        "ko": "담장 틈으로 나온 셋이 넓은 연못에 닿았어요. 씨앗이 내려앉고 구슬이 흩어져 있어요. 돌이 없어요!",
-        "narr": {
-          "text": "The friends come to a big blue pond.",
-          "ko": "친구들이 넓고 파란 연못에 닿았어요.",
-          "audio": "sb2_u00_1_n"
-        }
+        ]
       },
       {
-        "id": "sb2_u00_2",
-        "desc": "Beads, a small caterpillar made of five rainbow beads, pops up from a lily pad holding a string with three loose wooden beads and clicks two together; Pip hops up to Beads, delighted; Bun and Hedgie lean in. Among the reeds on the left, the tip of Grumble's striped nightcap and the warm glow of his lantern peek out.",
+        "id": "scene_b2_u00_2",
+        "desc": "On a lily pad sits {BEADS}, a caterpillar made of five colored beads, waving a tiny hand. {PIP}, {BUN} and {HED} wave back from the bank.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Hi! I am Hedgie.",
+            "audio": "b2_u00_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u00_3",
+        "desc": "{BEADS} clicks three of its beads together with a happy face; {PIP}, {BUN} and {HED} lean in to listen.",
         "lines": [
           {
             "who": "narrator",
-            "text": "This is Beads.",
-            "audio": "sb2_u00_2_1",
-            "ko": "얘는 비즈예요."
-          },
-          {
-            "who": "beads",
-            "text": "Click-clack! Hi, Pip!",
-            "audio": "sb2_u00_2_2",
-            "ko": "딸깍딸깍! 안녕, 핍!"
-          },
-          {
-            "who": "narrator",
-            "text": "Shh... Who is in the reeds?",
-            "audio": "sb2_u00_2_3",
-            "ko": "쉿… 갈대 속에 누가 있을까요?"
+            "text": "Click-clack! I am Beads.",
+            "audio": "b2_u00_l3"
           }
-        ],
-        "task": "Find Beads!",
-        "task_ko": "비즈를 찾아요",
-        "ko": "구슬 애벌레 비즈가 나타나 '딸깍딸깍!' 해요. 갈대 속에 그럼블의 모자와 불빛이 보여요.",
-        "narr": {
-          "text": "A bead caterpillar pops up. Something glows in the reeds.",
-          "ko": "구슬 애벌레가 나타나요. 갈대 속에서 무언가 빛나요.",
-          "audio": "sb2_u00_2_n"
-        }
+        ]
+      },
+      {
+        "id": "scene_b2_u00_4",
+        "desc": "{PIP} tries to copy, clicking its beak; {BEADS} laughs; {BUN} and {HED} clap.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "Click-clack! Click-clack!",
+            "audio": "b2_u00_l4"
+          }
+        ]
       }
     ]
   },
@@ -274,5 +255,73 @@
     "synopsis_ko": "담장 너머에 넓은 단어 연못이 있어요. 건너갈 돌이 없어요! 구슬 애벌레 비즈를 만났어요. 갈대 속에서 그럼블의 등불이 보여요.",
     "so_far_ko": "1권에서 친구들은 스물여섯 글자나무를 키우고 핍은 소리를 되찾았어요. 씨앗 하나가 담장 너머로 날아갔어요.",
     "goal_ko": "단어 연못에 닿아 새 친구 비즈를 만나요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb2_u00_1",
+        "desc": "Bun, Hedgie and Pip step through a gap in the wooden fence of the Sound Garden (blossoming letter trees behind them) onto the sandy bank of a wide blue pond with lily pads and tall reeds; a dark pine forest stands across the water. The glowing golden seed with its tiny leaf floats down onto the sand, where big round wooden beads lie scattered. Pip has its beak open with one tiny golden note. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is the Word Pond.",
+            "audio": "sb2_u00_1_1",
+            "ko": "여기는 단어 연못이에요."
+          },
+          {
+            "who": "bun",
+            "text": "Look! No stones!",
+            "audio": "sb2_u00_1_2",
+            "ko": "봐! 돌이 없어!"
+          },
+          {
+            "who": "hedgie",
+            "text": "How can we go in?",
+            "audio": "sb2_u00_1_3",
+            "ko": "어떻게 들어가지?"
+          }
+        ],
+        "task": "Find the seed!",
+        "task_ko": "씨앗을 찾아요",
+        "ko": "담장 틈으로 나온 셋이 넓은 연못에 닿았어요. 씨앗이 내려앉고 구슬이 흩어져 있어요. 돌이 없어요!",
+        "narr": {
+          "text": "The friends come to a big blue pond.",
+          "ko": "친구들이 넓고 파란 연못에 닿았어요.",
+          "audio": "sb2_u00_1_n"
+        }
+      },
+      {
+        "id": "sb2_u00_2",
+        "desc": "Beads, a small caterpillar made of five rainbow beads, pops up from a lily pad holding a string with three loose wooden beads and clicks two together; Pip hops up to Beads, delighted; Bun and Hedgie lean in. Among the reeds on the left, the tip of Grumble's striped nightcap and the warm glow of his lantern peek out.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is Beads.",
+            "audio": "sb2_u00_2_1",
+            "ko": "얘는 비즈예요."
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Hi, Pip!",
+            "audio": "sb2_u00_2_2",
+            "ko": "딸깍딸깍! 안녕, 핍!"
+          },
+          {
+            "who": "narrator",
+            "text": "Shh... Who is in the reeds?",
+            "audio": "sb2_u00_2_3",
+            "ko": "쉿… 갈대 속에 누가 있을까요?"
+          }
+        ],
+        "task": "Find Beads!",
+        "task_ko": "비즈를 찾아요",
+        "ko": "구슬 애벌레 비즈가 나타나 '딸깍딸깍!' 해요. 갈대 속에 그럼블의 모자와 불빛이 보여요.",
+        "narr": {
+          "text": "A bead caterpillar pops up. Something glows in the reeds.",
+          "ko": "구슬 애벌레가 나타나요. 갈대 속에서 무언가 빛나요.",
+          "audio": "sb2_u00_2_n"
+        }
+      }
+    ]
   }
 }

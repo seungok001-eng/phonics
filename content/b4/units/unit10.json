@@ -447,102 +447,51 @@
     ]
   },
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb4_u10_1",
-        "desc": "The dark top room of the tallest tower with a storm raging outside the round windows; an unlit wooden torch on the wall; dim shapes of a toy car, a little toy farm and a golden horn. Bun holds Pip close; Hedgie's spikes stand up; Pip reads in pieces; Fairy E glows faintly. Grumble does NOT appear. No letters anywhere.",
+        "id": "scene_b4_u10_1",
+        "desc": "A round room in the castle tower with a window full of stars; {PIP}, {BUN} and {HED} peek in; a jar of stars sits on a shelf; a harp stands in the corner.",
         "lines": [
           {
             "who": "narrator",
-            "text": "A storm! Boom! Boom!",
-            "audio": "sb4_u10_1_1",
-            "ko": "폭풍이에요! 쾅! 쾅!"
-          },
+            "text": "The star room is far up.",
+            "audio": "b4_u10_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u10_2",
+        "desc": "{BUN} plucks the harp; {HED} blows a horn; a storm of little stars swirls out of the jar.",
+        "lines": [
           {
             "who": "hedgie",
-            "text": "I can not see!",
-            "audio": "sb4_u10_1_2",
-            "ko": "하나도 안 보여!"
-          },
-          {
-            "who": "pip",
-            "text": "Tor... ch? Torch?",
-            "audio": "sb4_u10_1_3",
-            "ko": "토어… 치? 토치?"
+            "text": "More stars! More!",
+            "audio": "b4_u10_l2"
           }
-        ],
-        "task": "Find the or words!",
-        "task_ko": "or 단어를 찾아요",
-        "ko": "폭풍 치는 밤, 꼭대기 방은 깜깜해요. 벽에 꺼진 횃불이 있어요.",
-        "narr": {
-          "text": "Boom! A storm. It is dark in the top room.",
-          "ko": "쿵! 폭풍이에요. 꼭대기 방이 깜깜해요.",
-          "audio": "sb4_u10_1_n"
-        }
+        ]
       },
       {
-        "id": "sb4_u10_2",
-        "desc": "The torch blazes with a warm flame and lights the room: a big golden harp in the middle and a glass jar with a tiny twinkling star. The star flies out and touches the harp strings; a big glowing golden music note rises from the harp into Pip, who sings on top of the harp with golden notes streaming out. Grumble does NOT appear. No letters anywhere. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
-        "lines": [
-          {
-            "who": "beads",
-            "text": "/h/ /ɑr/ /p/ harp!",
-            "audio": "sb4_u10_2_1",
-            "ko": "h-ar-p 하프!"
-          },
-          {
-            "who": "narrator",
-            "text": "Pip can sing more!",
-            "audio": "sb4_u10_2_2",
-            "ko": "핍이 더 많이 노래할 수 있어요!"
-          },
-          {
-            "who": "pip",
-            "text": "La, la! Star, car, farm!",
-            "audio": "sb4_u10_2_3",
-            "ko": "라, 라! 별, 자동차, 농장!"
-          }
-        ],
-        "task": "Find the ar words!",
-        "task_ko": "ar 단어를 찾아요",
-        "ko": "횃불이 켜지고 하프와 별이 보여요. 하프에서 노래 조각 넷이 나와 핍에게 들어가요.",
-        "narr": {
-          "text": "The torch lights up. A star plays the harp.",
-          "ko": "횃불이 켜져요. 별이 하프를 울려요.",
-          "audio": "sb4_u10_2_n"
-        }
-      },
-      {
-        "id": "sb4_u10_3",
-        "desc": "After the storm, a golden sunset through the big round window shows the whole land below and, far away in the middle, the glowing Song Tree. Grumble stands with the friends at the window beating his drum once, grinning for the first time; Fairy E sits on Pip's head; Bun points far away. No letters anywhere.",
+        "id": "scene_b4_u10_3",
+        "desc": "Stars land on a toy car and a fork on the table; a cob of corn glows; {PIP} chases a star.",
         "lines": [
           {
             "who": "bun",
-            "text": "Look! The Song Tree!",
-            "audio": "sb4_u10_3_1",
-            "ko": "봐! 노래 나무야!"
-          },
-          {
-            "who": "grumble",
-            "text": "Boom! Not shh! Boom!",
-            "audio": "sb4_u10_3_2",
-            "ko": "쿵! 쉿 아니야! 쿵!"
-          },
-          {
-            "who": "narrator",
-            "text": "Choo, choo! Let's go!",
-            "audio": "sb4_u10_3_3",
-            "ko": "칙칙폭폭! 가자!"
+            "text": "A star on the car!",
+            "audio": "b4_u10_l3"
           }
-        ],
-        "task": "Find the Song Tree!",
-        "task_ko": "노래 나무를 찾아요",
-        "ko": "창밖 멀리 노래 나무가 보여요. 그럼블이 북을 쿵! — 칙칙폭폭! 가자!",
-        "narr": {
-          "text": "The Song Tree glows far away. Grumble beats his drum!",
-          "ko": "저 멀리 노래 나무가 빛나요. 그럼블이 북을 쳐요!",
-          "audio": "sb4_u10_3_n"
-        }
+        ]
+      },
+      {
+        "id": "scene_b4_u10_4",
+        "desc": "{FAIRY} waves her wand; the stars fly back into the jar; one star stays on {PIP}'s head like a crown; a torch lights the farm scene painted on the wall.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "One star is far, far better.",
+            "audio": "b4_u10_l4"
+          }
+        ]
       }
     ]
   },
@@ -743,5 +692,105 @@
     "synopsis_ko": "가장 높은 탑 꼭대기 방. 밖은 폭풍이라 깜깜해요. 핍은 \"토어… 치?\" 요정 이가 반짝이 둘을 하나로 합치고 \"torch!\" 하자 횃불이 켜져요. 하프와 별이 든 병이 보여요. 별이 하프 줄에 닿자 금빛 음표(노래 조각 넷)가 나와 핍에게 들어가요. 폭풍이 그치고 창밖 멀리 노래 나무가 보여요. 그럼블이 처음으로 북을 \"쿵!\" 쳐요.",
     "so_far_ko": "구름을 걷어 달이 나왔어요. 그럼블이 옥상 소파에서 함께 달을 봤어요.",
     "goal_ko": "모음 뒤에 r 이 오는 ar·or 단어를 읽고 꼭대기 방에서 노래 조각 넷을 찾아요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb4_u10_1",
+        "desc": "The dark top room of the tallest tower with a storm raging outside the round windows; an unlit wooden torch on the wall; dim shapes of a toy car, a little toy farm and a golden horn. Bun holds Pip close; Hedgie's spikes stand up; Pip reads in pieces; Fairy E glows faintly. Grumble does NOT appear. No letters anywhere.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "A storm! Boom! Boom!",
+            "audio": "sb4_u10_1_1",
+            "ko": "폭풍이에요! 쾅! 쾅!"
+          },
+          {
+            "who": "hedgie",
+            "text": "I can not see!",
+            "audio": "sb4_u10_1_2",
+            "ko": "하나도 안 보여!"
+          },
+          {
+            "who": "pip",
+            "text": "Tor... ch? Torch?",
+            "audio": "sb4_u10_1_3",
+            "ko": "토어… 치? 토치?"
+          }
+        ],
+        "task": "Find the or words!",
+        "task_ko": "or 단어를 찾아요",
+        "ko": "폭풍 치는 밤, 꼭대기 방은 깜깜해요. 벽에 꺼진 횃불이 있어요.",
+        "narr": {
+          "text": "Boom! A storm. It is dark in the top room.",
+          "ko": "쿵! 폭풍이에요. 꼭대기 방이 깜깜해요.",
+          "audio": "sb4_u10_1_n"
+        }
+      },
+      {
+        "id": "sb4_u10_2",
+        "desc": "The torch blazes with a warm flame and lights the room: a big golden harp in the middle and a glass jar with a tiny twinkling star. The star flies out and touches the harp strings; a big glowing golden music note rises from the harp into Pip, who sings on top of the harp with golden notes streaming out. Grumble does NOT appear. No letters anywhere. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/h/ /ɑr/ /p/ harp!",
+            "audio": "sb4_u10_2_1",
+            "ko": "h-ar-p 하프!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip can sing more!",
+            "audio": "sb4_u10_2_2",
+            "ko": "핍이 더 많이 노래할 수 있어요!"
+          },
+          {
+            "who": "pip",
+            "text": "La, la! Star, car, farm!",
+            "audio": "sb4_u10_2_3",
+            "ko": "라, 라! 별, 자동차, 농장!"
+          }
+        ],
+        "task": "Find the ar words!",
+        "task_ko": "ar 단어를 찾아요",
+        "ko": "횃불이 켜지고 하프와 별이 보여요. 하프에서 노래 조각 넷이 나와 핍에게 들어가요.",
+        "narr": {
+          "text": "The torch lights up. A star plays the harp.",
+          "ko": "횃불이 켜져요. 별이 하프를 울려요.",
+          "audio": "sb4_u10_2_n"
+        }
+      },
+      {
+        "id": "sb4_u10_3",
+        "desc": "After the storm, a golden sunset through the big round window shows the whole land below and, far away in the middle, the glowing Song Tree. Grumble stands with the friends at the window beating his drum once, grinning for the first time; Fairy E sits on Pip's head; Bun points far away. No letters anywhere.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! The Song Tree!",
+            "audio": "sb4_u10_3_1",
+            "ko": "봐! 노래 나무야!"
+          },
+          {
+            "who": "grumble",
+            "text": "Boom! Not shh! Boom!",
+            "audio": "sb4_u10_3_2",
+            "ko": "쿵! 쉿 아니야! 쿵!"
+          },
+          {
+            "who": "narrator",
+            "text": "Choo, choo! Let's go!",
+            "audio": "sb4_u10_3_3",
+            "ko": "칙칙폭폭! 가자!"
+          }
+        ],
+        "task": "Find the Song Tree!",
+        "task_ko": "노래 나무를 찾아요",
+        "ko": "창밖 멀리 노래 나무가 보여요. 그럼블이 북을 쿵! — 칙칙폭폭! 가자!",
+        "narr": {
+          "text": "The Song Tree glows far away. Grumble beats his drum!",
+          "ko": "저 멀리 노래 나무가 빛나요. 그럼블이 북을 쳐요!",
+          "audio": "sb4_u10_3_n"
+        }
+      }
+    ]
   }
 }

@@ -100,70 +100,51 @@
     }
   ],
   "storybook": {
+    "v2": true,
     "pages": [
       {
-        "id": "sb4_u00_1",
-        "desc": "Bun, Hedgie and Pip, with Beads on Hedgie's flower, come out of the forest at the foot of a green hill. On top stands a tall friendly pastel castle with round towers and pointed blue roofs; its big round wooden gate is shut tight. Above the gate hangs a wooden sign carved with three letters c, a, p — the ONLY text allowed in the picture — with a tiny golden twinkle after the last letter, and a small blue baseball cap hangs on a golden hook below the sign. Pip, on Bun's head, chirps a tiny golden note. Grumble does NOT appear.",
+        "id": "scene_b4_u00_1",
+        "desc": "{PIP}, {BUN} and {HED} walk up a path to a small round castle with a blue roof; the gate stands open.",
         "lines": [
-          {
-            "who": "narrator",
-            "text": "This is the Magic Castle.",
-            "audio": "sb4_u00_1_1",
-            "ko": "여기는 마법 성이에요."
-          },
           {
             "who": "bun",
-            "text": "Look! It is big!",
-            "audio": "sb4_u00_1_2",
-            "ko": "봐! 엄청 커!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Can we go in?",
-            "audio": "sb4_u00_1_3",
-            "ko": "들어갈 수 있을까?"
+            "text": "A castle!",
+            "audio": "b4_u00_l1"
           }
-        ],
-        "task": "Find the cap!",
-        "task_ko": "모자를 찾아요",
-        "ko": "숲길 끝 언덕 위에 커다란 성이 있어요. 대문은 꼭 닫혀 있고 파란 모자가 걸려 있어요.",
-        "narr": {
-          "text": "A big castle! A cap hangs on the shut gate.",
-          "ko": "커다란 성! 닫힌 대문에 모자가 걸려 있어요.",
-          "audio": "sb4_u00_1_n"
-        }
+        ]
       },
       {
-        "id": "sb4_u00_2",
-        "desc": "Fairy E, a tiny palm-sized glowing fairy with bubble wings and a star-tipped wand, bursts out of a swirl of golden sparkles at the end of the wooden sign above the gate (carved with c, a, p — the ONLY text allowed in the picture) and circles Pip, giggling; Pip stares, amazed; Bun and Hedgie lean in; Beads's antennae stand up. High in a round tower window, the tip of Grumble's striped nightcap and his frowning face peek out, one paw at his mouth.",
+        "id": "scene_b4_u00_2",
+        "desc": "{FAIRY}, a palm-sized fairy, peeks out from a flower in the courtyard and giggles; {PIP} flutters closer.",
         "lines": [
           {
             "who": "narrator",
-            "text": "This is Fairy E.",
-            "audio": "sb4_u00_2_1",
-            "ko": "얘는 요정 이예요."
-          },
-          {
-            "who": "fairy",
-            "text": "Eee! Hi, Pip!",
-            "audio": "sb4_u00_2_2",
-            "ko": "이~! 안녕, 핍!"
-          },
-          {
-            "who": "narrator",
-            "text": "Shh... Who is up there?",
-            "audio": "sb4_u00_2_3",
-            "ko": "쉿… 저 위에 누가 있을까요?"
+            "text": "Hi! I am Fairy E.",
+            "audio": "b4_u00_l2"
           }
-        ],
-        "task": "Find Fairy E!",
-        "task_ko": "요정 이를 찾아요",
-        "ko": "성문 글자 끝에서 반짝이던 요정 이가 나타나 '이~! 안녕, 핍!' 해요. 탑 창문에서 누군가 내다봐요.",
-        "narr": {
-          "text": "A tiny fairy flies out. Who is in the tower?",
-          "ko": "작은 요정이 날아 나와요. 탑에는 누가 있을까요?",
-          "audio": "sb4_u00_2_n"
-        }
+        ]
+      },
+      {
+        "id": "scene_b4_u00_3",
+        "desc": "{FAIRY} taps a flower with her wand and it turns into a big rose; {BUN} and {HED} gasp.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Wow! A rose!",
+            "audio": "b4_u00_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u00_4",
+        "desc": "{FAIRY} sits on {PIP}'s head like a tiny hat; {PIP} crosses its eyes to look up; {BUN} and {HED} laugh.",
+        "lines": [
+          {
+            "who": "pip",
+            "text": "A fairy on me!",
+            "audio": "b4_u00_l4"
+          }
+        ]
       }
     ]
   },
@@ -274,5 +255,73 @@
     "synopsis_ko": "숲길 끝 언덕 위에 커다란 마법 성이 있어요. 대문은 꼭 닫혀 있고 파란 모자가 걸려 있어요. 반짝이는 요정 이가 날아와 핍에게 인사해요. 탑 창문에서 그럼블이 \"쉿!\" 해요.",
     "so_far_ko": "3권에서 친구들은 짝꿍 숲을 지나 노래 조각 셋을 찾았어요. 숲 끝에 성이 보이고, 성문의 단어가 눈앞에서 바뀌었어요.",
     "goal_ko": "마법 성에 닿아 새 친구 요정 이를 만나요."
+  },
+  "storybook_v1": {
+    "pages": [
+      {
+        "id": "sb4_u00_1",
+        "desc": "Bun, Hedgie and Pip, with Beads on Hedgie's flower, come out of the forest at the foot of a green hill. On top stands a tall friendly pastel castle with round towers and pointed blue roofs; its big round wooden gate is shut tight. Above the gate hangs a wooden sign carved with three letters c, a, p — the ONLY text allowed in the picture — with a tiny golden twinkle after the last letter, and a small blue baseball cap hangs on a golden hook below the sign. Pip, on Bun's head, chirps a tiny golden note. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is the Magic Castle.",
+            "audio": "sb4_u00_1_1",
+            "ko": "여기는 마법 성이에요."
+          },
+          {
+            "who": "bun",
+            "text": "Look! It is big!",
+            "audio": "sb4_u00_1_2",
+            "ko": "봐! 엄청 커!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Can we go in?",
+            "audio": "sb4_u00_1_3",
+            "ko": "들어갈 수 있을까?"
+          }
+        ],
+        "task": "Find the cap!",
+        "task_ko": "모자를 찾아요",
+        "ko": "숲길 끝 언덕 위에 커다란 성이 있어요. 대문은 꼭 닫혀 있고 파란 모자가 걸려 있어요.",
+        "narr": {
+          "text": "A big castle! A cap hangs on the shut gate.",
+          "ko": "커다란 성! 닫힌 대문에 모자가 걸려 있어요.",
+          "audio": "sb4_u00_1_n"
+        }
+      },
+      {
+        "id": "sb4_u00_2",
+        "desc": "Fairy E, a tiny palm-sized glowing fairy with bubble wings and a star-tipped wand, bursts out of a swirl of golden sparkles at the end of the wooden sign above the gate (carved with c, a, p — the ONLY text allowed in the picture) and circles Pip, giggling; Pip stares, amazed; Bun and Hedgie lean in; Beads's antennae stand up. High in a round tower window, the tip of Grumble's striped nightcap and his frowning face peek out, one paw at his mouth.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is Fairy E.",
+            "audio": "sb4_u00_2_1",
+            "ko": "얘는 요정 이예요."
+          },
+          {
+            "who": "fairy",
+            "text": "Eee! Hi, Pip!",
+            "audio": "sb4_u00_2_2",
+            "ko": "이~! 안녕, 핍!"
+          },
+          {
+            "who": "narrator",
+            "text": "Shh... Who is up there?",
+            "audio": "sb4_u00_2_3",
+            "ko": "쉿… 저 위에 누가 있을까요?"
+          }
+        ],
+        "task": "Find Fairy E!",
+        "task_ko": "요정 이를 찾아요",
+        "ko": "성문 글자 끝에서 반짝이던 요정 이가 나타나 '이~! 안녕, 핍!' 해요. 탑 창문에서 누군가 내다봐요.",
+        "narr": {
+          "text": "A tiny fairy flies out. Who is in the tower?",
+          "ko": "작은 요정이 날아 나와요. 탑에는 누가 있을까요?",
+          "audio": "sb4_u00_2_n"
+        }
+      }
+    ]
   }
 }
