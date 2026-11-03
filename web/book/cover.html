@@ -78,7 +78,7 @@ function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@pa
   const back = `<article class="page cv back ${b} ${a5 ? 'a5' : ''}"><div class="inner">
       <h2>${esc(bk.title)} · ${kind}</h2>
       <p>${a5 ? 'The stories from the Student Book, in one picture book. Scan the QR code on each page to hear it read aloud.' : 'A four-book English phonics course for ages 7–9: letter sounds, word families, sound pairs and long vowels. Every unit has a short four-panel story, and every page has a QR code that plays its sounds.'}</p>
-      <ul><li>🔊 Tap any word to hear it on the web edition</li><li>📖 Four-panel stories you can read without words</li><li>${b === 'wb' ? '✏️ Today's page is today's homework' : '🎮 Games, self-checking and a teacher screen'}</li></ul>
+      <ul><li>🔊 Tap any word to hear it on the web edition</li><li>📖 Four-panel stories you can read without words</li><li>${b === 'wb' ? '✏️ Today’s page is today’s homework' : '🎮 Games, self-checking and a teacher screen'}</li></ul>
       ${cast('small')}
       <div class="bottom"><div class="site"><img src="../assets/qr/site.png" onerror="this.style.display='none'" alt="QR"><span>${esc(site)}<br>${esc(bk.series)}</span></div><div class="isbn">ISBN</div></div>
     </div></article>`;
