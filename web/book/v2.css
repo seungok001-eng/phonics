@@ -290,3 +290,5 @@ body:not(.teacher) .kohelp, body:not(.teacher) .nk { display: none !important; }
 .write-it .pic { height: 54px; } .write-it .box { height: 34px; font-size: 26px; } .write-it .lts { margin: 2px 0; }
 .circle-box .ltr { width: 50px; height: 50px; font-size: 32px; } .circle-grid { gap: 12px; }
 .path26 { gap: 6px; } .path26 .lt { font-size: 28px; }
+.t-check .body, .t-review_test .body { gap: 10px; } .t-check .opt .pic { height: 58px; } .t-check .match .it .pic { height: 40px; } .t-check .lc-row { gap: 10px; } .t-check .check-sec { gap: 6px; }
+.t-review_test .write-it .pic { height: 48px; } .t-review_test .write-it .box { height: 32px; } .t-review_test .check-sec { gap: 4px 12px; } .t-review_test .opt .pic { height: 50px; }
