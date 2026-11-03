@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Everyone sits with Grumble and looks at the moon.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677281.750822,
+   "sec": 3.52,
+   "check": {
+    "transcript": "Everyone sits with Grumble and looks at the moon.",
+    "type": "sentence",
+    "ipa": "ˈɛvriˌwʌn sɪts wɪð ˈɡrʌmbəl ənd lʊks ət ðə mun.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Everyone sits with Grumble and looks at the moon. | TYPE=sentence | IPA=ˈɛvriˌwʌn sɪts wɪð ˈɡrʌmbəl ənd lʊks ət ðə mun. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb4_u09_3_n",
+ "sub": "line",
+ "title": "4권 9유닛 스토리북 해설 · 해설: Everyone sits with Grumble and looks at the moon.",
+ "text": "Everyone sits with Grumble and looks at the moon.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

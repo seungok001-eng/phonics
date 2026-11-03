@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The friends walk in a line on a thin path.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677373.3116453,
+   "sec": 3.32,
+   "check": {
+    "transcript": "The friends walk in a line on a thin path.",
+    "type": "sentence",
+    "ipa": "ðə fɹɛndz wɑk ɪn ə laɪn ɑn ə θɪn pæθ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The friends walk in a line on a thin path. | TYPE=sentence | IPA=ðə fɹɛndz wɑk ɪn ə laɪn ɑn ə θɪn pæθ. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b3_u03_1_n",
+ "sub": "line",
+ "title": "3권 3유닛 해설 · 해설: The friends walk in a line on a thin path.",
+ "text": "The friends walk in a line on a thin path.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

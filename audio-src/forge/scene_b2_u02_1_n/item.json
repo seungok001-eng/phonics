@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A big wind! The cap and the bag float away.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676873.7148824,
+   "sec": 5.24,
+   "check": {
+    "transcript": "A big wind, the cap and the bag float away.",
+    "type": "sentence",
+    "ipa": "ə bɪg wɪnd ðə kæp ənd ðə bæɡ floʊt əweɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A big wind, the cap and the bag float away. | TYPE=sentence | IPA=ə bɪg wɪnd ðə kæp ənd ðə bæɡ floʊt əweɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_b2_u02_1_n",
+ "sub": "line",
+ "title": "2권 2유닛 해설 · 해설: A big wind! The cap and the bag float away.",
+ "text": "A big wind! The cap and the bag float away.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

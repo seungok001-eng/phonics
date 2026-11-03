@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two sparkles become one. A red boat pops up!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677209.8338377,
+   "sec": 3.96,
+   "check": {
+    "transcript": "Two sparkles become one. A red boat pops up.",
+    "type": "sentence",
+    "ipa": "tu spɑrkəlz bɪkʌm wʌn ə rɛd boʊt pɑps ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Two sparkles become one. A red boat pops up. | TYPE=sentence | IPA=tu spɑrkəlz bɪkʌm wʌn ə rɛd boʊt pɑps ʌp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_b4_u08_2_n",
+ "sub": "line",
+ "title": "4권 8유닛 해설 · 해설: Two sparkles become one. A red boat pops up!",
+ "text": "Two sparkles become one. A red boat pops up!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

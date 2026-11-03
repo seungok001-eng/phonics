@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A stone lifts the cap. The cat naps on the mat.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676877.8213334,
+   "sec": 5.4,
+   "check": {
+    "transcript": "A stone lifts the cap. The cat naps on the mat.",
+    "type": "sentence",
+    "ipa": "ə stoʊn lɪfts ðə kæp ðə kæt næps ɒn ðə mæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A stone lifts the cap. The cat naps on the mat. | TYPE=sentence | IPA=ə stoʊn lɪfts ðə kæp ðə kæt næps ɒn ðə mæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_b2_u02_2_n",
+ "sub": "line",
+ "title": "2권 2유닛 해설 · 해설: A stone lifts the cap. The cat naps on the mat.",
+ "text": "A stone lifts the cap. The cat naps on the mat.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

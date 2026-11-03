@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun swings across on the rope. Grumble smiles a bit.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677042.885765,
+   "sec": 4.64,
+   "check": {
+    "transcript": "Bun swings across on the rope. Grumble smiles a bit.",
+    "type": "sentence",
+    "ipa": "bʌn swɪŋz əˈkrɔs ˈɒn ðə roʊp ˈɡrʌmbəl ˈsmaɪəlz ə ˈbɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun swings across on the rope. Grumble smiles a bit. | TYPE=sentence | IPA=bʌn swɪŋz əˈkrɔs ˈɒn ðə roʊp ˈɡrʌmbəl ˈsmaɪəlz ə ˈbɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_3_n",
+ "sub": "line",
+ "title": "4권 3유닛 스토리북 해설 · 해설: Bun swings across on the rope. Grumble smiles a bit.",
+ "text": "Bun swings across on the rope. Grumble smiles a bit.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

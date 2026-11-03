@@ -27,11 +27,28 @@
     "raw": "TRANSCRIPT=Sit. Look at the moon. | TYPE=sentence | IPA=sɪt lʊk æt ðə mun | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... Sit. Look at the moon.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677623.021082,
+   "sec": 2.52,
+   "check": {
+    "transcript": "Shh. Sit. Look at the moon.",
+    "type": "sentence",
+    "ipa": "ʃː sɪt lʊk æt ðə mun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. Sit. Look at the moon. | TYPE=sentence | IPA=ʃː sɪt lʊk æt ðə mun | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-08 00:42",
+ "applied": "2026-11-03 12:47",
  "text_edited": false,
  "error": "",
  "unit": 9,

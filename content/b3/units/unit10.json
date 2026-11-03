@@ -185,7 +185,12 @@
             "en": "What do they hear?",
             "ko": "무슨 소리가 들려?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A big quilt flaps in the wind. A duck quacks!",
+          "ko": "커다란 이불이 바람에 펄럭여요. 오리가 꽥!",
+          "audio": "scene_b3_u10_1_n"
+        }
       },
       {
         "id": "scene_b3_u10_2",
@@ -229,7 +234,12 @@
             "en": "What is the door knocker?",
             "ko": "문고리는 뭐야?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The quilt lifts up. The last door is here!",
+          "ko": "이불이 올라가요. 마지막 문이 여기 있어요!",
+          "audio": "scene_b3_u10_2_n"
+        }
       },
       {
         "id": "scene_b3_u10_3",
@@ -271,7 +281,12 @@
             "en": "What pours out?",
             "ko": "문에서 뭐가 쏟아져?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Pip knocks with the whisk. The door opens wide!",
+          "ko": "핍이 거품기로 문을 두드려요. 문이 활짝 열려요!",
+          "audio": "scene_b3_u10_3_n"
+        }
       },
       {
         "id": "scene_b3_u10_4",
@@ -313,7 +328,12 @@
             "en": "What does Grumble do?",
             "ko": "그럼블은 뭘 해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A golden note floats into Pip. Pip sings!",
+          "ko": "금빛 음표가 핍에게 들어가요. 핍이 노래해요!",
+          "audio": "scene_b3_u10_4_n"
+        }
       }
     ],
     "synopsis_ko": "숲의 맨 끝, 커다란 누비이불이 바람에 펄럭여요. 핌과 팜이 qu! 이불이 올라가자 꽥꽥 오리들과 마지막 문이 나타나요. 핍이 혼자 \"wh, wh whisk!\" — 마지막 문이 열리고 노래 조각 셋이 핍에게 들어가요. 그럼블도 눈을 감고 따라 흥얼거려요.",
@@ -573,7 +593,12 @@
         ],
         "task": "Find the qu words!",
         "task_ko": "qu 단어를 찾아요",
-        "ko": "숲의 맨 끝, q·u 가 수놓인 누비이불이 바람에 펄럭여요. 이불 밑에서 \"꽥!\""
+        "ko": "숲의 맨 끝, q·u 가 수놓인 누비이불이 바람에 펄럭여요. 이불 밑에서 \"꽥!\"",
+        "narr": {
+          "text": "A big quilt flaps in the wind. A duck quacks!",
+          "ko": "커다란 이불이 바람에 펄럭여요. 오리가 꽥!",
+          "audio": "sb3_u10_1_n"
+        }
       },
       {
         "id": "sb3_u10_2",
@@ -600,7 +625,12 @@
         ],
         "task": "Find the wh words!",
         "task_ko": "wh 단어를 찾아요",
-        "ko": "핌과 팜이 qu! 이불이 올라가고 마지막 문이 나타나요. 핍이 혼자 \"wh, wh whisk!\" 문이 활짝 열려요."
+        "ko": "핌과 팜이 qu! 이불이 올라가고 마지막 문이 나타나요. 핍이 혼자 \"wh, wh whisk!\" 문이 활짝 열려요.",
+        "narr": {
+          "text": "The quilt lifts. Pip knocks and the last door opens!",
+          "ko": "이불이 올라가요. 핍이 두드리자 마지막 문이 열려요!",
+          "audio": "sb3_u10_2_n"
+        }
       },
       {
         "id": "sb3_u10_3",
@@ -627,7 +657,12 @@
         ],
         "task": "Find the golden note!",
         "task_ko": "금빛 음표를 찾아요",
-        "ko": "금빛 음표가 핍에게 들어가요. 노래 조각 셋! 핍이 노래하고 그럼블도 흥얼거려요. 파티 준비가 시작돼요."
+        "ko": "금빛 음표가 핍에게 들어가요. 노래 조각 셋! 핍이 노래하고 그럼블도 흥얼거려요. 파티 준비가 시작돼요.",
+        "narr": {
+          "text": "Pip sings with a golden note. A party is coming!",
+          "ko": "핍이 금빛 음표와 함께 노래해요. 파티가 시작돼요!",
+          "audio": "sb3_u10_3_n"
+        }
       }
     ]
   }

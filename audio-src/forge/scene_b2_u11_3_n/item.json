@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble drums on the pot. Everyone hops and dances!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677237.7225344,
+   "sec": 4.04,
+   "check": {
+    "transcript": "Grumbled drums on the pot, everyone hops and dances.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəld ˈdɹʌmz ˈɑn ðə ˈpɑt, ˈɛvɹiˌwʌn ˈhɑps ˈænd ˈdænsɪz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumbled drums on the pot, everyone hops and dances. | TYPE=sentence | IPA=ˈɡɹʌmbəld ˈdɹʌmz ˈɑn ðə ˈpɑt, ˈɛvɹiˌwʌn ˈhɑps ˈænd ˈdænsɪz. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b2_u11_3_n",
+ "sub": "line",
+ "title": "2권 11유닛 해설 · 해설: Grumble drums on the pot. Everyone hops and dances!",
+ "text": "Grumble drums on the pot. Everyone hops and dances!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Sure, it is my cap. | TYPE=sentence | IPA=ʃʊɹ ɪt ɪz maɪ kæp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! It is my cap!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676423.7609773,
+   "sec": 1.91,
+   "check": {
+    "transcript": "It is my cap.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ kæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my cap. | TYPE=sentence | IPA=ɪt ɪz maɪ kæp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:36",
+ "applied": "2026-11-03 12:27",
  "text_edited": false,
  "error": "",
  "unit": 2,

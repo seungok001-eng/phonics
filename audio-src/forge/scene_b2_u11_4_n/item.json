@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Night. Two little lights in the forest. Who is it?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677241.7342231,
+   "sec": 4.4,
+   "check": {
+    "transcript": "Night. Two little lights in the forest. Who is it?",
+    "type": "sentence",
+    "ipa": "naɪt tuː ˈlɪtəl laɪts ɪn ðə ˈfɔːrɪst huː ɪz ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Night. Two little lights in the forest. Who is it? | TYPE=sentence | IPA=naɪt tuː ˈlɪtəl laɪts ɪn ðə ˈfɔːrɪst huː ɪz ɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b2_u11_4_n",
+ "sub": "line",
+ "title": "2권 11유닛 해설 · 해설: Night. Two little lights in the forest. Who is it?",
+ "text": "Night. Two little lights in the forest. Who is it?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble says shh! The door bursts open!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677324.5380402,
+   "sec": 3.84,
+   "check": {
+    "transcript": "Grumble says shh, the door bursts open.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl sɛz ʃ, ðə dɔɹ bɝsts ˈoʊpən.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble says shh, the door bursts open. | TYPE=sentence | IPA=ˈɡɹʌmbəl sɛz ʃ, ðə dɔɹ bɝsts ˈoʊpən. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb3_u01_2_n",
+ "sub": "line",
+ "title": "3권 1유닛 스토리북 해설 · 해설: Grumble says shh! The door bursts open!",
+ "text": "Grumble says shh! The door bursts open!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tap! The tub turns into a long green tube.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677052.8119245,
+   "sec": 5.28,
+   "check": {
+    "transcript": "tap The tub turns into a long green tube.",
+    "type": "sentence",
+    "ipa": "tæp ðə tʌb tɜnz ɪntuː ə lɒŋ griːn tjuːb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tap The tub turns into a long green tube. | TYPE=sentence | IPA=tæp ðə tʌb tɜnz ɪntuː ə lɒŋ griːn tjuːb | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_b4_u04_2_n",
+ "sub": "line",
+ "title": "4권 4유닛 해설 · 해설: Tap! The tub turns into a long green tube.",
+ "text": "Tap! The tub turns into a long green tube.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

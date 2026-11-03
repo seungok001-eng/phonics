@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791617342.0686839,
+ "updated": 1793678073.0146303,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/74325091-b53c-442d-8912-f5c1b72e24d9?Expires=1791638911&KeyName=labs-flow-prod-cdn-key&Signature=XDkiH5I96mGHdG3kCcwjaLZmsrA",
  "prompt_edited": false,
- "applied": "2026-10-10 16:38",
+ "applied": "2026-11-03 13:24",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,11 @@
  "kind": "word",
  "word": "gate",
  "title": "gate · 대문",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a wooden garden gate with a rounded top, closed, set in a low stone wall.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a wooden garden gate standing open in a white picket fence, with fence on both sides, no house.",
  "aspect": "1:1",
  "out": "web/assets/art/word_gate.png",
  "book": 4,
- "claimed_at": 1791617305.8925924,
- "asset_no": 2216
+ "asset_no": 2216,
+ "claimed_at": 1793678041.6152458,
+ "regen": 1
 }

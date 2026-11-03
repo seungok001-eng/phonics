@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Morning! The leg is little. Grumble hugs the pillow.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676961.8633444,
+   "sec": 5.12,
+   "check": {
+    "transcript": "Morning. The leg is little. Grumble hugs the pillow.",
+    "type": "sentence",
+    "ipa": "ˈmɔːnɪŋ ðiː lɛɡ ɪz ˈlɪtəl ˈɡrʌmbəl ˈhʌɡz ðə ˈpɪləʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Morning. The leg is little. Grumble hugs the pillow. | TYPE=sentence | IPA=ˈmɔːnɪŋ ðiː lɛɡ ɪz ˈlɪtəl ˈɡrʌmbəl ˈhʌɡz ðə ˈpɪləʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_b2_u04_4_n",
+ "sub": "line",
+ "title": "2권 4유닛 해설 · 해설: Morning! The leg is little. Grumble hugs the pillow.",
+ "text": "Morning! The leg is little. Grumble hugs the pillow.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

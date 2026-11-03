@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Everyone hops. Bun pops a red balloon.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677175.5342448,
+   "sec": 4.16,
+   "check": {
+    "transcript": "Everyone hops. Fun pops a red balloon.",
+    "type": "sentence",
+    "ipa": "ˈɛvriwʌn hɑps fʌn pɑps ə rɛd bəˈlun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Everyone hops. Fun pops a red balloon. | TYPE=sentence | IPA=ˈɛvriwʌn hɑps fʌn pɑps ə rɛd bəˈlun | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb2_u09_2_n",
+ "sub": "line",
+ "title": "2권 9유닛 스토리북 해설 · 해설: Everyone hops. Bun pops a red balloon.",
+ "text": "Everyone hops. Bun pops a red balloon.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

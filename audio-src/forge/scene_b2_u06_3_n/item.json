@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A fish pushes the stone. Hedgie pins Grumble's hat.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677039.8425517,
+   "sec": 4.88,
+   "check": {
+    "transcript": "A fish pushes the stone. Heggie pin's grumbles hat.",
+    "type": "sentence",
+    "ipa": "ə fɪʃ pʊʃɪz ðə stoʊn hɛgi pɪnz ˈɡrʌmbəlz hæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A fish pushes the stone. Heggie pin's grumbles hat. | TYPE=sentence | IPA=ə fɪʃ pʊʃɪz ðə stoʊn hɛgi pɪnz ˈɡrʌmbəlz hæt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b2_u06_3_n",
+ "sub": "line",
+ "title": "2권 6유닛 해설 · 해설: A fish pushes the stone. Hedgie pins Grumble's hat.",
+ "text": "A fish pushes the stone. Hedgie pins Grumble's hat.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

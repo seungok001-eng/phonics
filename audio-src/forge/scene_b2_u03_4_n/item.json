@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The hens go to the vet. Pip gets the word right!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676921.5435092,
+   "sec": 4.24,
+   "check": {
+    "transcript": "The hens go to the vet. Pip gets the word bright.",
+    "type": "sentence",
+    "ipa": "ðə hɛnz ɡoʊ tuː ðə vɛt pɪp ɡɛts ðə wɜːd braɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The hens go to the vet. Pip gets the word bright. | TYPE=sentence | IPA=ðə hɛnz ɡoʊ tuː ðə vɛt pɪp ɡɛts ðə wɜːd braɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b2_u03_4_n",
+ "sub": "line",
+ "title": "2권 3유닛 해설 · 해설: The hens go to the vet. Pip gets the word right!",
+ "text": "The hens go to the vet. Pip gets the word right!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

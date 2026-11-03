@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The mule plays a tune. What a huge hug!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677063.6548238,
+   "sec": 4.28,
+   "check": {
+    "transcript": "The mule plays a tune. What a huge hug!",
+    "type": "sentence",
+    "ipa": "ðə mjul pleɪz ə tun",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The mule plays a tune. What a huge hug! | TYPE=sentence | IPA=ðə mjul pleɪz ə tun | wʌt ə hjudʒ hʌɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_b4_u04_4_n",
+ "sub": "line",
+ "title": "4권 4유닛 해설 · 해설: The mule plays a tune. What a huge hug!",
+ "text": "The mule plays a tune. What a huge hug!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

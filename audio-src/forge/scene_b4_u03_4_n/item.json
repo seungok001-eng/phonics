@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun swings over the gap on the rope. Whee!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677024.7848132,
+   "sec": 4.52,
+   "check": {
+    "transcript": "Bun swings over the gap on the rope. Whee!",
+    "type": "sentence",
+    "ipa": "bʌn swɪŋz ˈoʊvər ðə ɡæp ɑn ðə roʊp wiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun swings over the gap on the rope. Whee! | TYPE=sentence | IPA=bʌn swɪŋz ˈoʊvər ðə ɡæp ɑn ðə roʊp wiː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b4_u03_4_n",
+ "sub": "line",
+ "title": "4권 3유닛 해설 · 해설: Bun swings over the gap on the rope. Whee!",
+ "text": "Bun swings over the gap on the rope. Whee!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

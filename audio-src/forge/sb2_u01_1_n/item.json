@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cat on a mat. Pip hops the wrong way.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676860.0145023,
+   "sec": 4.96,
+   "check": {
+    "transcript": "A cat on a mat. Pip hops the wrong way.",
+    "type": "sentence",
+    "ipa": "ə kæt ɒn ə mæt pɪp hɒps ðə rɒŋ weɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A cat on a mat. Pip hops the wrong way. | TYPE=sentence | IPA=ə kæt ɒn ə mæt pɪp hɒps ðə rɒŋ weɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb2_u01_1_n",
+ "sub": "line",
+ "title": "2권 1유닛 스토리북 해설 · 해설: A cat on a mat. Pip hops the wrong way.",
+ "text": "A cat on a mat. Pip hops the wrong way.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The big show! Pip sings and Grumble drums.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677612.7130027,
+   "sec": 4.44,
+   "check": {
+    "transcript": "The Bear show: Pip Sings and Grumble Drums.",
+    "type": "sentence",
+    "ipa": "ðə bɛɹ ʃoʊ pɪp sɪŋz ænd gɹʌmbəl dɹʌmz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The Bear show: Pip Sings and Grumble Drums. | TYPE=sentence | IPA=ðə bɛɹ ʃoʊ pɪp sɪŋz ænd gɹʌmbəl dɹʌmz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "scene_b3_u12_1_n",
+ "sub": "line",
+ "title": "3권 12유닛 해설 · 해설: The big show! Pip sings and Grumble drums.",
+ "text": "The big show! Pip sings and Grumble drums.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

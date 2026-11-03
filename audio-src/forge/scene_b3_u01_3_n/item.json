@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A little shell shop by the stream. A fish jumps!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677308.8734639,
+   "sec": 4.32,
+   "check": {
+    "transcript": "A little shell shop by the stream. A fish jumps.",
+    "type": "sentence",
+    "ipa": "ə lɪtəl ʃɛl ʃɑp baɪ ðə striːm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A little shell shop by the stream. A fish jumps. | TYPE=sentence | IPA=ə lɪtəl ʃɛl ʃɑp baɪ ðə striːm | ə fɪʃ ʤʌmps | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_b3_u01_3_n",
+ "sub": "line",
+ "title": "3권 1유닛 해설 · 해설: A little shell shop by the stream. A fish jumps!",
+ "text": "A little shell shop by the stream. A fish jumps!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

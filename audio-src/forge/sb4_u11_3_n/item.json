@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Night. Grumble sleeps under the singing tree. Shh.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677361.1440828,
+   "sec": 4.6,
+   "check": {
+    "transcript": "Night, grumble sleeps under the singing tree.",
+    "type": "sentence",
+    "ipa": "naɪt ˈɡrʌmbəl sliːps ˈʌndər ðə ˈsɪŋɪŋ triː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Night, grumble sleeps under the singing tree. | TYPE=sentence | IPA=naɪt ˈɡrʌmbəl sliːps ˈʌndər ðə ˈsɪŋɪŋ triː | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb4_u11_3_n",
+ "sub": "line",
+ "title": "4권 11유닛 스토리북 해설 · 해설: Night. Grumble sleeps under the singing tree. Shh.",
+ "text": "Night. Grumble sleeps under the singing tree. Shh.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

@@ -408,7 +408,12 @@
             "en": "What is on the table?",
             "ko": "상 위에 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A pond party! Lots of food. Grumble is not here.",
+          "ko": "연못 파티예요! 먹을 게 가득. 그럼블은 아직 없어요.",
+          "audio": "scene_b2_u11_1_n"
+        }
       },
       {
         "id": "scene_b2_u11_2",
@@ -449,7 +454,12 @@
             "en": "Who won the race?",
             "ko": "달리기에서 누가 이겼어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The pig wins a trophy. Grumble walks over the bridge.",
+          "ko": "돼지가 트로피를 받아요. 그럼블이 다리를 건너와요.",
+          "audio": "scene_b2_u11_2_n"
+        }
       },
       {
         "id": "scene_b2_u11_3",
@@ -492,7 +502,12 @@
             "en": "What does Pip read?",
             "ko": "핍이 뭘 읽어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble drums on the pot. Everyone hops and dances!",
+          "ko": "그럼블이 냄비를 북처럼 쳐요. 모두 깡충 뛰며 춤춰요!",
+          "audio": "scene_b2_u11_3_n"
+        }
       },
       {
         "id": "scene_b2_u11_4",
@@ -534,7 +549,12 @@
             "en": "Was it Grumble?",
             "ko": "그럼블이었을까?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Night. Two little lights in the forest. Who is it?",
+          "ko": "밤이에요. 숲속에 작은 불빛 둘. 누구일까요?",
+          "audio": "scene_b2_u11_4_n"
+        }
       }
     ],
     "synopsis_ko": "건너편 둑에서 연못 파티! 돼지, 여우, 황소, 암탉들이 손님이에요. 그럼블이 다리를 건너와 냄비를 북처럼 쳐요. \"쉿 아니고 쿵쿵!\" 밤이 되자 숲에서 똑같은 소리가 두 번 들렸어요. 누굴까요?",
@@ -582,7 +602,12 @@
         ],
         "task": "Find mug, bun, fig!",
         "task_ko": "머그컵·빵·무화과를 찾아요",
-        "ko": "건너편 둑의 파티예요. 머그컵, 빵, 무화과, 냄비. 손님 동물들이 왔어요. 그럼블은 아직 멀리 있어요."
+        "ko": "건너편 둑의 파티예요. 머그컵, 빵, 무화과, 냄비. 손님 동물들이 왔어요. 그럼블은 아직 멀리 있어요.",
+        "narr": {
+          "text": "A party on the bank. All the pets come.",
+          "ko": "둑에서 파티예요. 동물 친구들이 다 왔어요.",
+          "audio": "sb2_u11_1_n"
+        }
       },
       {
         "id": "sb2_u11_2",
@@ -609,7 +634,12 @@
         ],
         "task": "Find pig, zip, log, box, bug!",
         "task_ko": "돼지·지퍼·통나무·상자·벌레를 찾아요",
-        "ko": "그럼블이 다리를 건너와 냄비를 북처럼 쳐요. '쉿 아니고 쿵쿵!' 핍이 돌의 단어를 읽어요."
+        "ko": "그럼블이 다리를 건너와 냄비를 북처럼 쳐요. '쉿 아니고 쿵쿵!' 핍이 돌의 단어를 읽어요.",
+        "narr": {
+          "text": "Grumble comes to the party and drums on the pot!",
+          "ko": "그럼블이 파티에 와서 냄비 북을 쳐요!",
+          "audio": "sb2_u11_2_n"
+        }
       },
       {
         "id": "sb2_u11_3",
@@ -636,7 +666,12 @@
         ],
         "task": "Find the lantern!",
         "task_ko": "등불을 찾아요",
-        "ko": "밤이에요. 숲에서 똑같은 소리가 두 번 '쉬… 쉬…' 그럼블은 '나 아니야! 쉿!' 모두 귀를 쫑긋 세워요."
+        "ko": "밤이에요. 숲에서 똑같은 소리가 두 번 '쉬… 쉬…' 그럼블은 '나 아니야! 쉿!' 모두 귀를 쫑긋 세워요.",
+        "narr": {
+          "text": "Night. Two lights in the dark trees. Who is there?",
+          "ko": "밤이에요. 어두운 숲에 불빛 둘. 누가 있을까요?",
+          "audio": "sb2_u11_3_n"
+        }
       }
     ]
   }

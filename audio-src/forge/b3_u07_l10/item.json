@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Shh, not the drum. | TYPE=sentence | IPA=ʃ, nɑt ðə drəm. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! Not the drum!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676732.7904232,
+   "sec": 1.91,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:26",
+ "applied": "2026-11-03 12:32",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -31,5 +48,6 @@
  "text": "Shh! Not the drum!",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

@@ -10,11 +10,28 @@
    "sec": 2.32,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Toast? Eat, eat.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793678153.3985815,
+   "sec": 2.19,
+   "check": {
+    "transcript": "shh toast eat eat",
+    "type": "sentence",
+    "ipa": "ʃ tɔst iːt iːt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh toast eat eat | TYPE=sentence | IPA=ʃ tɔst iːt iːt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:41",
+ "applied": "2026-11-03 12:56",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -25,5 +42,6 @@
  "text": "Shh... Toast? Eat, eat.",
  "voice": "Charon",
  "who": "grumble",
- "book": 4
+ "book": 4,
+ "busy": 0
 }

@@ -405,7 +405,12 @@
             "en": "Who waves?",
             "ko": "길가에서 누가 손을 흔들어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The big train rolls down the hill. Friends wave!",
+          "ko": "커다란 기차가 언덕을 내려가요. 친구들이 손을 흔들어요!",
+          "audio": "scene_b4_u11_1_n"
+        }
       },
       {
         "id": "scene_b4_u11_2",
@@ -446,7 +451,12 @@
             "en": "Who will sing?",
             "ko": "누가 노래할까?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The train stops at the Song Tree. It is quiet.",
+          "ko": "기차가 노래 나무 앞에 멈춰요. 나무는 조용해요.",
+          "audio": "scene_b4_u11_2_n"
+        }
       },
       {
         "id": "scene_b4_u11_3",
@@ -488,7 +498,12 @@
             "en": "Who plays the drum?",
             "ko": "누가 북을 쳐?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Pip sings! Golden notes fly into the tree. It sings!",
+          "ko": "핍이 노래해요! 금빛 음표들이 나무로 날아들어요. 나무가 노래해요!",
+          "audio": "scene_b4_u11_3_n"
+        }
       },
       {
         "id": "scene_b4_u11_4",
@@ -530,7 +545,12 @@
             "en": "Who says Shh now?",
             "ko": "이번엔 누가 \"쉿!\" 해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Night. Grumble sleeps by the tree. Shh.",
+          "ko": "밤이에요. 그럼블이 나무 옆에서 잠들어요. 쉿.",
+          "audio": "scene_b4_u11_4_n"
+        }
       }
     ],
     "synopsis_ko": "모두 커다래진 장난감 기차를 타고 성에서 내려와 소리 나라 한가운데로 달려요. 해 질 무렵 노래 나무에 닿았어요. 핍이 노래하자 금빛 음표 넷이 나무로 날아들고 노래 나무가 다시 노래해요! 모두 함께 주제가를 부르고 그럼블은 신나게 북을 쳐요. 밤에는 \"쉿!\" — 이번엔 친구들이 잠든 그럼블에게 해 줘요.",
@@ -578,7 +598,12 @@
         ],
         "task": "Find train, road, goat, seal!",
         "task_ko": "기차·길·염소·물개를 찾아요",
-        "ko": "모두 기차를 타고 노래 나무로 가요. 길가의 친구들이 손을 흔들어요."
+        "ko": "모두 기차를 타고 노래 나무로 가요. 길가의 친구들이 손을 흔들어요.",
+        "narr": {
+          "text": "The train rolls to the Song Tree. All wave!",
+          "ko": "기차가 노래 나무로 달려가요. 모두 손을 흔들어요!",
+          "audio": "sb4_u11_1_n"
+        }
       },
       {
         "id": "sb4_u11_2",
@@ -605,7 +630,12 @@
         ],
         "task": "Find the leaf and the bee!",
         "task_ko": "잎과 벌을 찾아요",
-        "ko": "핍의 노래로 음표 넷이 나무에 들어가요. 노래 나무가 다시 노래하고 모두 함께 불러요."
+        "ko": "핍의 노래로 음표 넷이 나무에 들어가요. 노래 나무가 다시 노래하고 모두 함께 불러요.",
+        "narr": {
+          "text": "Pip sings and the Song Tree blooms and sings too!",
+          "ko": "핍이 노래하자 노래 나무에 꽃이 피고 함께 노래해요!",
+          "audio": "sb4_u11_2_n"
+        }
       },
       {
         "id": "sb4_u11_3",
@@ -632,7 +662,12 @@
         ],
         "task": "Find the moon and the stars!",
         "task_ko": "달과 별을 찾아요",
-        "ko": "밤, 노래 나무 아래에서 그럼블이 북을 안고 잠들었어요. 이번엔 번이 \"쉿!\""
+        "ko": "밤, 노래 나무 아래에서 그럼블이 북을 안고 잠들었어요. 이번엔 번이 \"쉿!\"",
+        "narr": {
+          "text": "Night. Grumble sleeps under the singing tree. Shh.",
+          "ko": "밤이에요. 그럼블이 노래하는 나무 아래 잠들어요. 쉿.",
+          "audio": "sb4_u11_3_n"
+        }
       }
     ]
   }

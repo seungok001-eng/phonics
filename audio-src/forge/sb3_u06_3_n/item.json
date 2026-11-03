@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie flips a pancake. Who is on the brick wall?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677499.7547312,
+   "sec": 3.76,
+   "check": {
+    "transcript": "Hedgy flips a pancake, who is on the brick wall?",
+    "type": "sentence",
+    "ipa": "ˈhɛʤi flɪps ə ˈpænˌkeɪk, hu ɪz ɑn ðə brɪk wɔl?",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hedgy flips a pancake, who is on the brick wall? | TYPE=sentence | IPA=ˈhɛʤi flɪps ə ˈpænˌkeɪk, hu ɪz ɑn ðə brɪk wɔl? | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb3_u06_3_n",
+ "sub": "line",
+ "title": "3권 6유닛 스토리북 해설 · 해설: Hedgie flips a pancake. Who is on the brick wall?",
+ "text": "Hedgie flips a pancake. Who is on the brick wall?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A kit hangs on the door. Pip reads in pieces.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676987.0805995,
+   "sec": 5.04,
+   "check": {
+    "transcript": "A kit hangs on the door. Pip reads in pieces.",
+    "type": "sentence",
+    "ipa": "ə kɪt hæŋz ɒn ðə dɔː pɪp riːdz ɪn ˈpiːsɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A kit hangs on the door. Pip reads in pieces. | TYPE=sentence | IPA=ə kɪt hæŋz ɒn ðə dɔː pɪp riːdz ɪn ˈpiːsɪz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_1_n",
+ "sub": "line",
+ "title": "4권 2유닛 스토리북 해설 · 해설: A kit hangs on the door. Pip reads in pieces.",
+ "text": "A kit hangs on the door. Pip reads in pieces.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

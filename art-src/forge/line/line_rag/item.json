@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791364057.4296849,
+ "updated": 1793677128.7658038,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/43e07381-7a18-454b-ba6b-2285b4f7c8f5?Expires=1791385636&KeyName=labs-flow-prod-cdn-key&Signature=9v-lg34OWsLAAp7_WvrBAHm2jP4",
  "prompt_edited": false,
- "applied": "2026-10-07 18:07",
+ "applied": "2026-11-03 12:38",
  "gen": "",
  "job_type": "image",
  "reference": "word_rag",
@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_rag.png",
  "book": 2,
- "claimed_at": 1791364018.3785386
+ "regen": 1,
+ "claimed_at": 1793677101.271882
 }

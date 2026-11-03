@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble slips. Oh no, his leg is big!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676967.4616241,
+   "sec": 4.44,
+   "check": {
+    "transcript": "Grumble slips. Oh no, his leg is big!",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl slɪps ˈoʊ ˈnoʊ hɪz ˈlɛɡ ɪz ˈbɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble slips. Oh no, his leg is big! | TYPE=sentence | IPA=ˈɡɹʌmbəl slɪps ˈoʊ ˈnoʊ hɪz ˈlɛɡ ɪz ˈbɪɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_1_n",
+ "sub": "line",
+ "title": "2권 4유닛 스토리북 해설 · 해설: Grumble slips. Oh no, his leg is big!",
+ "text": "Grumble slips. Oh no, his leg is big!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

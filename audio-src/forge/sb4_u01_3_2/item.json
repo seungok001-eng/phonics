@@ -27,11 +27,28 @@
     "raw": "TRANSCRIPT=shh my can, a cane | TYPE=sentence | IPA=ʃ maɪ kæn ə keɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! My can... a cane?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793678049.3853543,
+   "sec": 2.65,
+   "check": {
+    "transcript": "shh my can a cane",
+    "type": "sentence",
+    "ipa": "ʃ mɑɪ kæn ə keɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh my can a cane | TYPE=sentence | IPA=ʃ mɑɪ kæn ə keɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-08 00:10",
+ "applied": "2026-11-03 12:54",
  "text_edited": false,
  "error": "",
  "unit": 1,

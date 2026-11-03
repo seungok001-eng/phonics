@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tap! The kit is now a red kite. It flies!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676968.4616163,
+   "sec": 5.04,
+   "check": {
+    "transcript": "Tap. The kit is now a red kite. It flies.",
+    "type": "sentence",
+    "ipa": "tæp ði kɪt ɪz naʊ ə rɛd kaɪt ɪt flaɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Tap. The kit is now a red kite. It flies. | TYPE=sentence | IPA=tæp ði kɪt ɪz naʊ ə rɛd kaɪt ɪt flaɪz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_b4_u02_2_n",
+ "sub": "line",
+ "title": "4권 2유닛 해설 · 해설: Tap! The kit is now a red kite. It flies!",
+ "text": "Tap! The kit is now a red kite. It flies!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

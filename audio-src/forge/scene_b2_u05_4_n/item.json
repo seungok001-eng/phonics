@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble lights the way home with his lantern.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677002.8253536,
+   "sec": 2.84,
+   "check": {
+    "transcript": "Grumble lights the way home with his lantern.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl laɪts ðə weɪ hoʊm wɪð hɪz ˈlæntɚn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble lights the way home with his lantern. | TYPE=sentence | IPA=ˈɡɹʌmbəl laɪts ðə weɪ hoʊm wɪð hɪz ˈlæntɚn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_b2_u05_4_n",
+ "sub": "line",
+ "title": "2권 5유닛 해설 · 해설: Grumble lights the way home with his lantern.",
+ "text": "Grumble lights the way home with his lantern.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

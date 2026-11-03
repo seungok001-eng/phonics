@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The chimp gives the lantern back to Grumble.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677556.832458,
+   "sec": 2.6,
+   "check": {
+    "transcript": "The chimp gives the lantern back to Grumble.",
+    "type": "sentence",
+    "ipa": "ðə tʃɪmp gɪvz ðə læntɚn bæk tu gɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The chimp gives the lantern back to Grumble. | TYPE=sentence | IPA=ðə tʃɪmp gɪvz ðə læntɚn bæk tu gɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b3_u09_4_n",
+ "sub": "line",
+ "title": "3권 9유닛 해설 · 해설: The chimp gives the lantern back to Grumble.",
+ "text": "The chimp gives the lantern back to Grumble.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

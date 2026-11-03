@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A sad duck king. The little door has a lock.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677429.230413,
+   "sec": 4.28,
+   "check": {
+    "transcript": "a sad duckling The little door has a lock",
+    "type": "sentence",
+    "ipa": "ə sæd ˈdʌklɪŋ ðə ˈlɪtəl dɔːr hæz ə lɑːk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a sad duckling The little door has a lock | TYPE=sentence | IPA=ə sæd ˈdʌklɪŋ ðə ˈlɪtəl dɔːr hæz ə lɑːk | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb3_u04_1_n",
+ "sub": "line",
+ "title": "3권 4유닛 스토리북 해설 · 해설: A sad duck king. The little door has a lock.",
+ "text": "A sad duck king. The little door has a lock.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

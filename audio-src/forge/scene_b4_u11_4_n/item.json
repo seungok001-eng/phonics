@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Night. Grumble sleeps by the tree. Shh.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677344.2580342,
+   "sec": 3.88,
+   "check": {
+    "transcript": "night Grumble sleeps by the tree Shh",
+    "type": "sentence",
+    "ipa": "naɪt ˈɡɹʌmbəl slips baɪ ðə tɹi ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=night Grumble sleeps by the tree Shh | TYPE=sentence | IPA=naɪt ˈɡɹʌmbəl slips baɪ ðə tɹi ʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b4_u11_4_n",
+ "sub": "line",
+ "title": "4권 11유닛 해설 · 해설: Night. Grumble sleeps by the tree. Shh.",
+ "text": "Night. Grumble sleeps by the tree. Shh.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

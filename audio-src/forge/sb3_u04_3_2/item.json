@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=la la | TYPE=word | IPA=lɑː lɑː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! ... La, la...",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677934.2359962,
+   "sec": 2.14,
+   "check": {
+    "transcript": "la la",
+    "type": "word",
+    "ipa": "lɑː lɑː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=la la | TYPE=word | IPA=lɑː lɑː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:17",
+ "applied": "2026-11-03 12:52",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -31,5 +48,6 @@
  "text": "Shh! ... La, la...",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pig wins! Grumble cheers from the reeds.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677046.6554859,
+   "sec": 4.48,
+   "check": {
+    "transcript": "The pig wins. Grumbled cheers from the reeds.",
+    "type": "sentence",
+    "ipa": "ðə pɪg wɪnz ˈɡrʌmbəld tʃɪəz frʌm ðə riːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig wins. Grumbled cheers from the reeds. | TYPE=sentence | IPA=ðə pɪg wɪnz ˈɡrʌmbəld tʃɪəz frʌm ðə riːdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b2_u06_4_n",
+ "sub": "line",
+ "title": "2권 6유닛 해설 · 해설: The pig wins! Grumble cheers from the reeds.",
+ "text": "The pig wins! Grumble cheers from the reeds.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

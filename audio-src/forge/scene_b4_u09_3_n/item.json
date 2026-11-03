@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A mouse shows a wobbly tooth. The broom sweeps alone.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677255.5853379,
+   "sec": 4.96,
+   "check": {
+    "transcript": "A mouse shows a wobbly tooth. The broom sweeps alone.",
+    "type": "sentence",
+    "ipa": "ə maʊs ʃoʊz ə wɑbli tuθ ðə brum swips əloʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A mouse shows a wobbly tooth. The broom sweeps alone. | TYPE=sentence | IPA=ə maʊs ʃoʊz ə wɑbli tuθ ðə brum swips əloʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b4_u09_3_n",
+ "sub": "line",
+ "title": "4권 9유닛 해설 · 해설: A mouse shows a wobbly tooth. The broom sweeps alone.",
+ "text": "A mouse shows a wobbly tooth. The broom sweeps alone.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

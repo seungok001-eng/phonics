@@ -10,11 +10,28 @@
    "sec": 2.0,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... tap, tap, tap.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676894.2565532,
+   "sec": 2.19,
+   "check": {
+    "transcript": "tap tap tap",
+    "type": "word",
+    "ipa": "tæp tæp tæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tap tap tap | TYPE=word | IPA=tæp tæp tæp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:23",
+ "applied": "2026-11-03 12:35",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -25,5 +42,6 @@
  "text": "Shh... tap, tap, tap.",
  "voice": "Charon",
  "who": "grumble",
- "book": 4
+ "book": 4,
+ "busy": 0
 }

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble beats the drum. Everyone claps and dances!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677597.8840623,
+   "sec": 3.72,
+   "check": {
+    "transcript": "Grumble beats the drum. Everyone claps and dances.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl bits ðə dɹʌm ˈɛvɹiˌwʌn klæps ənd ˈdænsəz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble beats the drum. Everyone claps and dances. | TYPE=sentence | IPA=ˈɡɹʌmbəl bits ðə dɹʌm ˈɛvɹiˌwʌn klæps ənd ˈdænsəz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b3_u11_3_n",
+ "sub": "line",
+ "title": "3권 11유닛 해설 · 해설: Grumble beats the drum. Everyone claps and dances!",
+ "text": "Grumble beats the drum. Everyone claps and dances!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

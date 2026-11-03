@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Fairy E is tired. Pip tries all by itself.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677094.317474,
+   "sec": 5.24,
+   "check": {
+    "transcript": "Fairy E is tired. Pip tries all by itself.",
+    "type": "sentence",
+    "ipa": "ˈfɛri i ɪz ˈtaɪərd. pɪp traɪz ɔl baɪ ɪtˈsɛlf.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Fairy E is tired. Pip tries all by itself. | TYPE=sentence | IPA=ˈfɛri i ɪz ˈtaɪərd. pɪp traɪz ɔl baɪ ɪtˈsɛlf. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_b4_u05_2_n",
+ "sub": "line",
+ "title": "4권 5유닛 해설 · 해설: Fairy E is tired. Pip tries all by itself.",
+ "text": "Fairy E is tired. Pip tries all by itself.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

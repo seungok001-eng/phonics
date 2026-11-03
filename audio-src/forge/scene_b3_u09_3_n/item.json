@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie opens the chest. A lamp is inside!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677556.7824073,
+   "sec": 4.4,
+   "check": {
+    "transcript": "Heggy opens the chest, a lamp is inside.",
+    "type": "sentence",
+    "ipa": "ˈhɛgi ˈoʊpənz ðə ʧɛst, ə læmp ɪz ˈɪnsaɪd.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Heggy opens the chest, a lamp is inside. | TYPE=sentence | IPA=ˈhɛgi ˈoʊpənz ðə ʧɛst, ə læmp ɪz ˈɪnsaɪd. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b3_u09_3_n",
+ "sub": "line",
+ "title": "3권 9유닛 해설 · 해설: Hedgie opens the chest. A lamp is inside!",
+ "text": "Hedgie opens the chest. A lamp is inside!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

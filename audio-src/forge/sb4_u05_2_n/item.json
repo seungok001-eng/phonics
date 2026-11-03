@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Fairy E's wand is tired. Pip tries alone.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677118.297614,
+   "sec": 4.8,
+   "check": {
+    "transcript": "Fairy Eeswand is tired. Pip tries alone.",
+    "type": "sentence",
+    "ipa": "ˈfɛri ˈiːzwɔnd ɪz ˈtaɪərd ˈpɪp ˈtraɪz əˈloʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Fairy Eeswand is tired. Pip tries alone. | TYPE=sentence | IPA=ˈfɛri ˈiːzwɔnd ɪz ˈtaɪərd ˈpɪp ˈtraɪz əˈloʊn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_2_n",
+ "sub": "line",
+ "title": "4권 5유닛 스토리북 해설 · 해설: Fairy E's wand is tired. Pip tries alone.",
+ "text": "Fairy E's wand is tired. Pip tries alone.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

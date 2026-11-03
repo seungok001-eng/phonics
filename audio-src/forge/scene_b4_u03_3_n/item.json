@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble lowers a rope. A puppy chews a bone.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677017.5993078,
+   "sec": 4.16,
+   "check": {
+    "transcript": "A puppy chews a bone.",
+    "type": "sentence",
+    "ipa": "ə ˈpʌpi ʧuz ə boʊn.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A puppy chews a bone. | TYPE=sentence | IPA=ə ˈpʌpi ʧuz ə boʊn. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b4_u03_3_n",
+ "sub": "line",
+ "title": "4권 3유닛 해설 · 해설: Grumble lowers a rope. A puppy chews a bone.",
+ "text": "Grumble lowers a rope. A puppy chews a bone.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

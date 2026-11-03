@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=shh shh haha | TYPE=sentence | IPA=ʃ ʃ hɑ hɑ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Sh. Ha, ha!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676695.7828915,
+   "sec": 2.19,
+   "check": {
+    "transcript": "sh sh ha ha",
+    "type": "sentence",
+    "ipa": "ʃ ʃ hɑ hɑ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sh sh ha ha | TYPE=sentence | IPA=ʃ ʃ hɑ hɑ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:19",
+ "applied": "2026-11-03 12:31",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -31,5 +48,6 @@
  "text": "Shh... Sh. Ha, ha!",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

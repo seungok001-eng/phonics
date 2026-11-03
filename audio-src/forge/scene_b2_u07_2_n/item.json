@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The zipper zips up! Picnic time. Dip on Bun's lip.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677074.6688092,
+   "sec": 5.76,
+   "check": {
+    "transcript": "The zipper zips up. Picnic time! Dip on buns' lip.",
+    "type": "sentence",
+    "ipa": "ðə ˈzɪpər ˈzɪps ˈʌp ˈpɪknɪk ˈtaɪm ˈdɪp ˈɑn ˈbʌnz ˈlɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The zipper zips up. Picnic time! Dip on buns' lip. | TYPE=sentence | IPA=ðə ˈzɪpər ˈzɪps ˈʌp ˈpɪknɪk ˈtaɪm ˈdɪp ˈɑn ˈbʌnz ˈlɪp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_b2_u07_2_n",
+ "sub": "line",
+ "title": "2권 7유닛 해설 · 해설: The zipper zips up! Picnic time. Dip on Bun's lip.",
+ "text": "The zipper zips up! Picnic time. Dip on Bun's lip.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

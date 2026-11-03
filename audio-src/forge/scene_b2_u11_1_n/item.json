@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A pond party! Lots of food. Grumble is not here.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677226.288692,
+   "sec": 5.36,
+   "check": {
+    "transcript": "A pond party, lots of food. Grumble is not here.",
+    "type": "sentence",
+    "ipa": "ə pɑnd pɑɹti, lɑts ʌv fud. gɹʌmbəl ɪz nɑt hɪɹ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A pond party, lots of food. Grumble is not here. | TYPE=sentence | IPA=ə pɑnd pɑɹti, lɑts ʌv fud. gɹʌmbəl ɪz nɑt hɪɹ. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b2_u11_1_n",
+ "sub": "line",
+ "title": "2권 11유닛 해설 · 해설: A pond party! Lots of food. Grumble is not here.",
+ "text": "A pond party! Lots of food. Grumble is not here.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Everyone eats on the bench. Grumble lets down a basket.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677351.6368737,
+   "sec": 4.48,
+   "check": {
+    "transcript": "Everyone eats on the bench. Grumble lets down a basket.",
+    "type": "sentence",
+    "ipa": "ˈɛvriˌwʌn its ˈɑn ðə ˈbɛnʧ ˈɡrʌmbəl ˈlɛts ˈdaʊn ə ˈbæskət",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Everyone eats on the bench. Grumble lets down a basket. | TYPE=sentence | IPA=ˈɛvriˌwʌn its ˈɑn ðə ˈbɛnʧ ˈɡrʌmbəl ˈlɛts ˈdaʊn ə ˈbæskət | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_b3_u02_4_n",
+ "sub": "line",
+ "title": "3권 2유닛 해설 · 해설: Everyone eats on the bench. Grumble lets down a basket.",
+ "text": "Everyone eats on the bench. Grumble lets down a basket.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -408,7 +408,12 @@
             "en": "What is on the table?",
             "ko": "식탁에 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A party under the flags! All the friends come.",
+          "ko": "깃발 아래 파티! 친구들이 모두 왔어요.",
+          "audio": "scene_b3_u11_1_n"
+        }
       },
       {
         "id": "scene_b3_u11_2",
@@ -450,7 +455,12 @@
             "en": "What does Grumble ask?",
             "ko": "그럼블이 뭘 물어봐?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble walks into the party. Everyone waves!",
+          "ko": "그럼블이 파티에 걸어와요. 모두 손을 흔들어요!",
+          "audio": "scene_b3_u11_2_n"
+        }
       },
       {
         "id": "scene_b3_u11_3",
@@ -493,7 +503,12 @@
             "en": "What does Pip read?",
             "ko": "핍은 뭘 읽어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble beats the drum. Everyone claps and dances!",
+          "ko": "그럼블이 북을 쳐요. 모두 손뼉 치며 춤춰요!",
+          "audio": "scene_b3_u11_3_n"
+        }
       },
       {
         "id": "scene_b3_u11_4",
@@ -535,7 +550,12 @@
             "en": "What happens to the word?",
             "ko": "성문의 단어가 어떻게 됐어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Night. A castle gate glows far away.",
+          "ko": "밤이에요. 멀리 성문이 빛나요.",
+          "audio": "scene_b3_u11_4_n"
+        }
       }
     ],
     "synopsis_ko": "마지막 문 너머 풀밭에서 숲 파티가 열려요. 그럼블이 나무에서 내려와 게의 북을 둥둥, \"쉿 아니고 sh, ch, th!\" 밤이 되자 숲 끝 저 멀리 성이 보여요. 성문의 단어 cap 끝에 e 가 반짝 붙어 단어가 바뀌어요!",
@@ -583,7 +603,12 @@
         ],
         "task": "Find the flags and the blocks!",
         "task_ko": "깃발과 블록을 찾아요",
-        "ko": "마지막 문 너머 풀밭에서 숲 파티! 숲 친구들이 모두 손님이에요. 그럼블은 아직 숲 가장자리에."
+        "ko": "마지막 문 너머 풀밭에서 숲 파티! 숲 친구들이 모두 손님이에요. 그럼블은 아직 숲 가장자리에.",
+        "narr": {
+          "text": "A party under the flags! All the friends come.",
+          "ko": "깃발 아래 파티! 친구들이 모두 왔어요.",
+          "audio": "sb3_u11_1_n"
+        }
       },
       {
         "id": "sb3_u11_2",
@@ -610,7 +635,12 @@
         ],
         "task": "Find the drum and the swing!",
         "task_ko": "북과 그네를 찾아요",
-        "ko": "그럼블이 땅으로 걸어와 게의 북을 둥둥! \"쉿 아니고 sh, ch, th!\" 핍이 짝꿍 단어를 읽어요."
+        "ko": "그럼블이 땅으로 걸어와 게의 북을 둥둥! \"쉿 아니고 sh, ch, th!\" 핍이 짝꿍 단어를 읽어요.",
+        "narr": {
+          "text": "Grumble beats the drum! Pip reads the words.",
+          "ko": "그럼블이 북을 쳐요! 핍이 단어를 읽어요.",
+          "audio": "sb3_u11_2_n"
+        }
       },
       {
         "id": "sb3_u11_3",
@@ -637,7 +667,12 @@
         ],
         "task": "Find the gate!",
         "task_ko": "성문을 찾아요",
-        "ko": "밤, 숲 끝에서 멀리 성이 보여요. 성문의 cap 끝에 반짝 e 가 붙어 단어가 바뀌어요! 마법일까요?"
+        "ko": "밤, 숲 끝에서 멀리 성이 보여요. 성문의 cap 끝에 반짝 e 가 붙어 단어가 바뀌어요! 마법일까요?",
+        "narr": {
+          "text": "A castle glows far away. What is on the gate?",
+          "ko": "멀리 성이 빛나요. 성문엔 뭐라고 쓰여 있을까요?",
+          "audio": "sb3_u11_3_n"
+        }
       }
     ]
   }

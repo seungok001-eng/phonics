@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip sings and the Song Tree blooms and sings too!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677354.5136995,
+   "sec": 3.88,
+   "check": {
+    "transcript": "Pip sings and the song tree blooms and sings too.",
+    "type": "sentence",
+    "ipa": "pɪp sɪŋz ænd ðə sɔŋ tri blumz ænd sɪŋz tu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip sings and the song tree blooms and sings too. | TYPE=sentence | IPA=pɪp sɪŋz ænd ðə sɔŋ tri blumz ænd sɪŋz tu | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb4_u11_2_n",
+ "sub": "line",
+ "title": "4권 11유닛 스토리북 해설 · 해설: Pip sings and the Song Tree blooms and sings too!",
+ "text": "Pip sings and the Song Tree blooms and sings too!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

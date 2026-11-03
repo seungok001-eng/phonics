@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun swings over the stream. Hedgie spills his cocoa!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677545.3023107,
+   "sec": 3.96,
+   "check": {
+    "transcript": "Bun swings over the stream. Hedgie spills his cocoa.",
+    "type": "sentence",
+    "ipa": "bʌn swɪŋz ˈoʊvər ðə striːm ˈhɛʤi spɪlz ɪz ˈkoʊkoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun swings over the stream. Hedgie spills his cocoa. | TYPE=sentence | IPA=bʌn swɪŋz ˈoʊvər ðə striːm ˈhɛʤi spɪlz ɪz ˈkoʊkoʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_2_n",
+ "sub": "line",
+ "title": "3권 8유닛 스토리북 해설 · 해설: Bun swings over the stream. Hedgie spills his cocoa!",
+ "text": "Bun swings over the stream. Hedgie spills his cocoa!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

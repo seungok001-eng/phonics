@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two rows of stones! Grumble peeks from the reeds.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676856.2316399,
+   "sec": 4.08,
+   "check": {
+    "transcript": "Two rows of stones, grumble peaks from the reeds.",
+    "type": "sentence",
+    "ipa": "tu ɹoz əv stonz ˈɡɹʌmbəl piks fɹʌm ðə ɹidz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Two rows of stones, grumble peaks from the reeds. | TYPE=sentence | IPA=tu ɹoz əv stonz ˈɡɹʌmbəl piks fɹʌm ðə ɹidz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_b2_u01_4_n",
+ "sub": "line",
+ "title": "2권 1유닛 해설 · 해설: Two rows of stones! Grumble peeks from the reeds.",
+ "text": "Two rows of stones! Grumble peeks from the reeds.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

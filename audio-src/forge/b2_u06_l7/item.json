@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Shh, not my hat. | TYPE=sentence | IPA=ʃ nɑt maɪ hæt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! Not my hat!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676527.0294828,
+   "sec": 1.82,
+   "check": {
+    "transcript": "shh not my hat",
+    "type": "sentence",
+    "ipa": "ʃ nɑt maɪ hæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh not my hat | TYPE=sentence | IPA=ʃ nɑt maɪ hæt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:39",
+ "applied": "2026-11-03 12:28",
  "text_edited": false,
  "error": "",
  "unit": 6,

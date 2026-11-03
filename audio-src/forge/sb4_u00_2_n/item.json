@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A tiny fairy flies out. Who is in the tower?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676917.0274646,
+   "sec": 3.88,
+   "check": {
+    "transcript": "A tiny fairy flies out, who is in the tower?",
+    "type": "sentence",
+    "ipa": "ə ˈtaɪ.ni ˈfɛ.ɹi flaɪz aʊt hu ɪz ɪn ðə ˈtaʊ.ɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A tiny fairy flies out, who is in the tower? | TYPE=sentence | IPA=ə ˈtaɪ.ni ˈfɛ.ɹi flaɪz aʊt hu ɪz ɪn ðə ˈtaʊ.ɚ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb4_u00_2_n",
+ "sub": "line",
+ "title": "4권 0유닛 스토리북 해설 · 해설: A tiny fairy flies out. Who is in the tower?",
+ "text": "A tiny fairy flies out. Who is in the tower?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

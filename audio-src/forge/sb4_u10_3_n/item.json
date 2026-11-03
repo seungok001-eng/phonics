@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The Song Tree glows far away. Grumble beats his drum!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677321.018694,
+   "sec": 5.88,
+   "check": {
+    "transcript": "This song tree glows far away. Grumble beats his drum.",
+    "type": "sentence",
+    "ipa": "ðɪs sɑŋ tri ɡloʊz fɑɹ əwɛɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This song tree glows far away. Grumble beats his drum. | TYPE=sentence | IPA=ðɪs sɑŋ tri ɡloʊz fɑɹ əwɛɪ | ɡɹʌmbəl bits hɪz dɹʌm | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_3_n",
+ "sub": "line",
+ "title": "4권 10유닛 스토리북 해설 · 해설: The Song Tree glows far away. Grumble beats his drum!",
+ "text": "The Song Tree glows far away. Grumble beats his drum!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

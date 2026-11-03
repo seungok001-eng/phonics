@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The fox bumps into an ox. Grumble jumps out!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677158.8823638,
+   "sec": 4.4,
+   "check": {
+    "transcript": "The fox bumps into an ox, Grumble jumps out.",
+    "type": "sentence",
+    "ipa": "ðə ˈfɑks bʌmps ˈɪntuː ən ˈɑks, ˈɡrʌmbəl ˈdʒʌmps ˈaʊt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The fox bumps into an ox, Grumble jumps out. | TYPE=sentence | IPA=ðə ˈfɑks bʌmps ˈɪntuː ən ˈɑks, ˈɡrʌmbəl ˈdʒʌmps ˈaʊt. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b2_u09_3_n",
+ "sub": "line",
+ "title": "2권 9유닛 해설 · 해설: The fox bumps into an ox. Grumble jumps out!",
+ "text": "The fox bumps into an ox. Grumble jumps out!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

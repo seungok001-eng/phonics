@@ -180,7 +180,12 @@
             "en": "Where was the lunch?",
             "ko": "점심은 어디 있었어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A chipmunk runs off with the lunch box!",
+          "ko": "다람쥐가 도시락을 들고 달아나요!",
+          "audio": "scene_b3_u02_1_n"
+        }
       },
       {
         "id": "scene_b3_u02_2",
@@ -223,7 +228,12 @@
             "en": "What is on its chin?",
             "ko": "턱에 뭐가 붙었어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The log door opens. The chipmunk eats chips!",
+          "ko": "통나무 문이 열려요. 다람쥐가 감자칩을 먹어요!",
+          "audio": "scene_b3_u02_2_n"
+        }
       },
       {
         "id": "scene_b3_u02_3",
@@ -263,7 +273,12 @@
             "en": "What do they like?",
             "ko": "다람쥐들은 뭘 좋아해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Two baby chipmunks pop up. Hedgie gives a chip.",
+          "ko": "아기 다람쥐 둘이 더 나와요. 헤지가 칩을 줘요.",
+          "audio": "scene_b3_u02_3_n"
+        }
       },
       {
         "id": "scene_b3_u02_4",
@@ -304,7 +319,12 @@
             "en": "What does Grumble get?",
             "ko": "그럼블은 뭘 받았어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Everyone eats on the bench. Grumble lets down a basket.",
+          "ko": "모두 벤치에서 점심을 먹어요. 그럼블이 바구니를 내려요.",
+          "audio": "scene_b3_u02_4_n"
+        }
       }
     ],
     "synopsis_ko": "다람쥐가 점심 도시락을 들고 c·h 통나무 문 안으로 숨었어요. 핌과 팜이 함께 ch! 문이 열리자 다람쥐들이 감자칩을 먹고 있어요. 모두 벤치에서 점심을 나누고, 나무 위 그럼블도 바구니를 내려 감자칩을 받아요.",
@@ -566,7 +586,12 @@
         ],
         "task": "Find the ch words!",
         "task_ko": "ch 단어를 찾아요",
-        "ko": "다람쥐가 벤치 위 점심을 들고 c·h 통나무 문 안으로 쏙! 핍은 \"크… 흐…\""
+        "ko": "다람쥐가 벤치 위 점심을 들고 c·h 통나무 문 안으로 쏙! 핍은 \"크… 흐…\"",
+        "narr": {
+          "text": "A chipmunk runs off with the lunch box!",
+          "ko": "다람쥐가 도시락을 들고 달아나요!",
+          "audio": "sb3_u02_1_n"
+        }
       },
       {
         "id": "sb3_u02_2",
@@ -593,7 +618,12 @@
         ],
         "task": "Find the chip and the chin!",
         "task_ko": "감자칩과 턱을 찾아요",
-        "ko": "핌과 팜이 함께 ch! 문이 열리자 다람쥐들이 감자칩을 와작와작. 턱에 칩이 붙었어요."
+        "ko": "핌과 팜이 함께 ch! 문이 열리자 다람쥐들이 감자칩을 와작와작. 턱에 칩이 붙었어요.",
+        "narr": {
+          "text": "The door opens. Three chipmunks eat chips!",
+          "ko": "문이 열려요. 다람쥐 셋이 감자칩을 먹어요!",
+          "audio": "sb3_u02_2_n"
+        }
       },
       {
         "id": "sb3_u02_3",
@@ -620,7 +650,12 @@
         ],
         "task": "Find the bench and the chess!",
         "task_ko": "벤치와 체스를 찾아요",
-        "ko": "모두 벤치에서 점심을 나눠요. 그럼블도 바구니를 내려 감자칩을 받아요. — 팔랑팔랑, 등불에 누가 날아와요?"
+        "ko": "모두 벤치에서 점심을 나눠요. 그럼블도 바구니를 내려 감자칩을 받아요. — 팔랑팔랑, 등불에 누가 날아와요?",
+        "narr": {
+          "text": "Everyone shares lunch. A moth flies to the lantern.",
+          "ko": "모두 점심을 나눠요. 나방이 등불로 날아가요.",
+          "audio": "sb3_u02_3_n"
+        }
       }
     ]
   }

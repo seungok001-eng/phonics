@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A warm fire! Grumble has a bowl of toast.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677220.949926,
+   "sec": 4.36,
+   "check": {
+    "transcript": "A warm fire. Grumble has a bowl of toast.",
+    "type": "sentence",
+    "ipa": "ə wɔɹm ˈfaɪ.ɚ ˈɡɹʌm.bəl hæz ə boʊl ʌv toʊst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A warm fire. Grumble has a bowl of toast. | TYPE=sentence | IPA=ə wɔɹm ˈfaɪ.ɚ ˈɡɹʌm.bəl hæz ə boʊl ʌv toʊst | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_b4_u08_4_n",
+ "sub": "line",
+ "title": "4권 8유닛 해설 · 해설: A warm fire! Grumble has a bowl of toast.",
+ "text": "A warm fire! Grumble has a bowl of toast.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

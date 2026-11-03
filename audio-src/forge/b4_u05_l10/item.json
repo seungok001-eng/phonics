@@ -10,11 +10,28 @@
    "sec": 1.3,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Cape.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676918.0539963,
+   "sec": 1.63,
+   "check": {
+    "transcript": "cape",
+    "type": "word",
+    "ipa": "keɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cape | TYPE=word | IPA=keɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:31",
+ "applied": "2026-11-03 12:35",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -25,5 +42,6 @@
  "text": "Shh... Cape.",
  "voice": "Charon",
  "who": "grumble",
- "book": 4
+ "book": 4,
+ "busy": 0
 }

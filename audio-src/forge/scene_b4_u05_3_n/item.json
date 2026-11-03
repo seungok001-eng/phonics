@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip says the magic word! The door opens!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677098.7534108,
+   "sec": 4.28,
+   "check": {
+    "transcript": "Pip says the magic word. The door opens.",
+    "type": "sentence",
+    "ipa": "pɪp sɛz ðə mæʤɪk wɜːd ðiː dɔːr ˈəʊpənz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip says the magic word. The door opens. | TYPE=sentence | IPA=pɪp sɛz ðə mæʤɪk wɜːd ðiː dɔːr ˈəʊpənz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_b4_u05_3_n",
+ "sub": "line",
+ "title": "4권 5유닛 해설 · 해설: Pip says the magic word! The door opens!",
+ "text": "Pip says the magic word! The door opens!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

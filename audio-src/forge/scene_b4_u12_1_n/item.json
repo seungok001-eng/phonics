@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The Song Tree Show! All the friends sing and dance.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677366.4247441,
+   "sec": 3.84,
+   "check": {
+    "transcript": "The Song Tree Show. All the friends sing and dance.",
+    "type": "sentence",
+    "ipa": "ðə sɔŋ tri ʃoʊ ɔl ðə frɛndz sɪŋ ænd dæns",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The Song Tree Show. All the friends sing and dance. | TYPE=sentence | IPA=ðə sɔŋ tri ʃoʊ ɔl ðə frɛndz sɪŋ ænd dæns | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "scene_b4_u12_1_n",
+ "sub": "line",
+ "title": "4권 12유닛 해설 · 해설: The Song Tree Show! All the friends sing and dance.",
+ "text": "The Song Tree Show! All the friends sing and dance.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

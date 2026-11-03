@@ -75,7 +75,12 @@
             "en": "Can they cross the pond?",
             "ko": "연못을 건널 수 있을까?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A big pond! The seed lands on the sand.",
+          "ko": "넓은 연못이에요! 씨앗이 모래 위에 내려앉아요.",
+          "audio": "scene_b2_u00_1_n"
+        }
       },
       {
         "id": "scene_b2_u00_2",
@@ -111,7 +116,12 @@
             "en": "What is in the reeds?",
             "ko": "갈대 속에 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Beads pops up. Someone hides in the reeds.",
+          "ko": "비즈가 나타나요. 갈대 속에 누가 숨어 있어요.",
+          "audio": "scene_b2_u00_2_n"
+        }
       }
     ],
     "synopsis_ko": "담장 너머에 넓은 단어 연못이 있어요. 건너갈 돌이 없어요! 구슬 애벌레 비즈를 만났어요. 갈대 속에서 그럼블의 등불이 보여요.",
@@ -153,7 +163,12 @@
         ],
         "task": "Find the seed!",
         "task_ko": "씨앗을 찾아요",
-        "ko": "담장 틈으로 나온 셋이 넓은 연못에 닿았어요. 씨앗이 내려앉고 구슬이 흩어져 있어요. 돌이 없어요!"
+        "ko": "담장 틈으로 나온 셋이 넓은 연못에 닿았어요. 씨앗이 내려앉고 구슬이 흩어져 있어요. 돌이 없어요!",
+        "narr": {
+          "text": "The friends come to a big blue pond.",
+          "ko": "친구들이 넓고 파란 연못에 닿았어요.",
+          "audio": "sb2_u00_1_n"
+        }
       },
       {
         "id": "sb2_u00_2",
@@ -180,7 +195,12 @@
         ],
         "task": "Find Beads!",
         "task_ko": "비즈를 찾아요",
-        "ko": "구슬 애벌레 비즈가 나타나 '딸깍딸깍!' 해요. 갈대 속에 그럼블의 모자와 불빛이 보여요."
+        "ko": "구슬 애벌레 비즈가 나타나 '딸깍딸깍!' 해요. 갈대 속에 그럼블의 모자와 불빛이 보여요.",
+        "narr": {
+          "text": "A bead caterpillar pops up. Something glows in the reeds.",
+          "ko": "구슬 애벌레가 나타나요. 갈대 속에서 무언가 빛나요.",
+          "audio": "sb2_u00_2_n"
+        }
       }
     ]
   },

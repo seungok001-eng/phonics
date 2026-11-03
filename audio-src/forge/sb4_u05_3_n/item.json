@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip's word opens the door! Grumble lights the way.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677120.8868306,
+   "sec": 4.2,
+   "check": {
+    "transcript": "Pip's word opens the door. Grumble lights the way.",
+    "type": "sentence",
+    "ipa": "pɪps wɜːd ˈəʊpənz ðə dɔː ˈɡrʌmbəl laɪts ðə weɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip's word opens the door. Grumble lights the way. | TYPE=sentence | IPA=pɪps wɜːd ˈəʊpənz ðə dɔː ˈɡrʌmbəl laɪts ðə weɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb4_u05_3_n",
+ "sub": "line",
+ "title": "4권 5유닛 스토리북 해설 · 해설: Pip's word opens the door! Grumble lights the way.",
+ "text": "Pip's word opens the door! Grumble lights the way.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

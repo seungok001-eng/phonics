@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=win pig | TYPE=word | IPA=wɪn pɪg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh! ... Win, pig!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676510.6640203,
+   "sec": 2.1,
+   "check": {
+    "transcript": "shh",
+    "type": "isolated-sound",
+    "ipa": "ʃː",
+    "note": "clean",
+    "raw": "TRANSCRIPT=shh | TYPE=isolated-sound | IPA=ʃː | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:40",
+ "applied": "2026-11-03 12:28",
  "text_edited": false,
  "error": "",
  "unit": 6,

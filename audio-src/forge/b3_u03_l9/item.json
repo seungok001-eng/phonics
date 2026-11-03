@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Shh, the bath is hot. | TYPE=sentence | IPA=ʃː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... This bath is hot.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676670.9085684,
+   "sec": 2.28,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:11",
+ "applied": "2026-11-03 12:31",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -31,5 +48,6 @@
  "text": "Shh... This bath is hot.",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

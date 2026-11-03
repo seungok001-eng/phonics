@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip sings! Bun gives Grumble a big hug.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677203.6231399,
+   "sec": 4.36,
+   "check": {
+    "transcript": "Pip sings. Bun gives Grumble a big hug.",
+    "type": "sentence",
+    "ipa": "pɪp sɪŋz bʌn ɡɪvz ɡɹʌmbəl ə bɪɡ hʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip sings. Bun gives Grumble a big hug. | TYPE=sentence | IPA=pɪp sɪŋz bʌn ɡɪvz ɡɹʌmbəl ə bɪɡ hʌɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "scene_b2_u10_4_n",
+ "sub": "line",
+ "title": "2권 10유닛 해설 · 해설: Pip sings! Bun gives Grumble a big hug.",
+ "text": "Pip sings! Bun gives Grumble a big hug.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

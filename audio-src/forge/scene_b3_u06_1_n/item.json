@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A huge block is in the way. The clock stops.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677477.961917,
+   "sec": 4.72,
+   "check": {
+    "transcript": "A huge block is in the way. The clock stops.",
+    "type": "sentence",
+    "ipa": "ə hjudʒ blɑk ɪz ɪn ðə weɪ ðə klɑk stɑps",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A huge block is in the way. The clock stops. | TYPE=sentence | IPA=ə hjudʒ blɑk ɪz ɪn ðə weɪ ðə klɑk stɑps | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b3_u06_1_n",
+ "sub": "line",
+ "title": "3권 6유닛 해설 · 해설: A huge block is in the way. The clock stops.",
+ "text": "A huge block is in the way. The clock stops.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pig gets a trophy. Grumble cheers. Then... brr!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677064.1130729,
+   "sec": 5.2,
+   "check": {
+    "transcript": "The pig gets a trophy, grumble cheers, then brr!",
+    "type": "sentence",
+    "ipa": "ðə pɪg gɛts ə troʊfi ˈgrʌmbəl tʃɪrz ðɛn bɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig gets a trophy, grumble cheers, then brr! | TYPE=sentence | IPA=ðə pɪg gɛts ə troʊfi ˈgrʌmbəl tʃɪrz ðɛn bɚ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_3_n",
+ "sub": "line",
+ "title": "2권 6유닛 스토리북 해설 · 해설: The pig gets a trophy. Grumble cheers. Then... brr!",
+ "text": "The pig gets a trophy. Grumble cheers. Then... brr!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

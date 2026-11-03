@@ -197,7 +197,12 @@
             "en": "What is on the floor?",
             "ko": "바닥에 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A bear cub splashes in a tub. Water is everywhere!",
+          "ko": "아기 곰이 욕조에서 첨벙첨벙. 물이 사방에 넘쳐요!",
+          "audio": "scene_b4_u04_1_n"
+        }
       },
       {
         "id": "scene_b4_u04_2",
@@ -239,7 +244,12 @@
             "en": "Who goes in first?",
             "ko": "누가 먼저 들어가?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Tap! The tub turns into a long green tube.",
+          "ko": "톡! 욕조가 기다란 초록 튜브로 바뀌어요.",
+          "audio": "scene_b4_u04_2_n"
+        }
       },
       {
         "id": "scene_b4_u04_3",
@@ -281,7 +291,12 @@
             "en": "What does the mule have?",
             "ko": "노새는 뭘 들고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "They land on sand. A mule holds a flute.",
+          "ko": "모래 위에 내려앉아요. 노새가 플루트를 들고 있어요.",
+          "audio": "scene_b4_u04_3_n"
+        }
       },
       {
         "id": "scene_b4_u04_4",
@@ -289,7 +304,6 @@
         "hidden": [
           "flute",
           "tune",
-          "plume",
           "mule"
         ],
         "lines": [
@@ -323,7 +337,12 @@
             "en": "What does Grumble tap?",
             "ko": "그럼블은 뭘 톡톡 쳐?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The mule plays a tune. What a huge hug!",
+          "ko": "노새가 노래를 연주해요. 엄청 큰 포옹이에요!",
+          "audio": "scene_b4_u04_4_n"
+        }
       }
     ],
     "synopsis_ko": "성 욕실에서 아기 곰이 거품 목욕을 하다 물이 넘쳐요. 핍은 \"텁-이!\" 요정 이가 욕조(tub)를 톡! 하자 긴 튜브(tube)가 되어 다 함께 미끄러져 내려가요. 모래 언덕 방에서 귀여운 노새가 플루트를 불어요. 창문의 그럼블이 몰래 북을 톡톡 쳐요.",
@@ -595,7 +614,12 @@
         ],
         "task": "Find the long u words!",
         "task_ko": "긴 u 단어를 찾아요",
-        "ko": "아기 곰의 거품 목욕으로 욕실이 물바다예요. 핍은 \"텁-이!\""
+        "ko": "아기 곰의 거품 목욕으로 욕실이 물바다예요. 핍은 \"텁-이!\"",
+        "narr": {
+          "text": "A bear cub splashes in the tub. The floor floods!",
+          "ko": "아기 곰이 욕조에서 첨벙첨벙. 바닥이 물바다예요!",
+          "audio": "sb4_u04_1_n"
+        }
       },
       {
         "id": "sb4_u04_2",
@@ -622,7 +646,12 @@
         ],
         "task": "Find the tube and the mule!",
         "task_ko": "튜브와 노새를 찾아요",
-        "ko": "욕조가 튜브 미끄럼틀이 됐어요. 쭉 미끄러져 내려가니 모래 언덕 위에 귀여운 노새가 있어요."
+        "ko": "욕조가 튜브 미끄럼틀이 됐어요. 쭉 미끄러져 내려가니 모래 언덕 위에 귀여운 노새가 있어요.",
+        "narr": {
+          "text": "Down the tube they slide, onto a sand dune.",
+          "ko": "튜브를 타고 쭉 미끄러져 모래 언덕에 내려요.",
+          "audio": "sb4_u04_2_n"
+        }
       },
       {
         "id": "sb4_u04_3",
@@ -649,7 +678,12 @@
         ],
         "task": "Find the flute and the drum!",
         "task_ko": "플루트와 북을 찾아요",
-        "ko": "노새의 플루트 노래, 엄청 큰 포옹. 그럼블이 몰래 북을 톡톡. — 딸깍! 딸깍! 여기 안에 뭐가 있지?"
+        "ko": "노새의 플루트 노래, 엄청 큰 포옹. 그럼블이 몰래 북을 톡톡. — 딸깍! 딸깍! 여기 안에 뭐가 있지?",
+        "narr": {
+          "text": "The cub hugs everyone. Grumble taps his drum.",
+          "ko": "아기 곰이 모두를 꼭 안아요. 그럼블이 북을 톡톡 쳐요.",
+          "audio": "sb4_u04_3_n"
+        }
       }
     ]
   }

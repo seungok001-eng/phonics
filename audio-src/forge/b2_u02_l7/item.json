@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=sh a bag | TYPE=sentence | IPA=ʃ ə bæg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! A bag!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676410.7792542,
+   "sec": 1.73,
+   "check": {
+    "transcript": "a bag",
+    "type": "sentence",
+    "ipa": "ə bæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a bag | TYPE=sentence | IPA=ə bæɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:36",
+ "applied": "2026-11-03 12:26",
  "text_edited": false,
  "error": "",
  "unit": 2,

@@ -198,7 +198,12 @@
             "en": "Why does Hedgie stop Bun?",
             "ko": "헤지는 왜 번을 말려?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A big gap in the stairs! Bun wants to hop.",
+          "ko": "계단에 커다란 틈이 있어요! 번이 뛰어넘고 싶어 해요.",
+          "audio": "scene_b4_u03_1_n"
+        }
       },
       {
         "id": "scene_b4_u03_2",
@@ -240,7 +245,12 @@
             "en": "What is in the note?",
             "ko": "쪽지에 뭐가 그려져 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Tap! A note falls out. It shows a rope.",
+          "ko": "톡! 쪽지가 떨어져요. 밧줄 그림이 있어요.",
+          "audio": "scene_b4_u03_2_n"
+        }
       },
       {
         "id": "scene_b4_u03_3",
@@ -282,7 +292,12 @@
             "en": "What does Grumble wear?",
             "ko": "그럼블은 뭘 입었어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble lowers a rope. A puppy chews a bone.",
+          "ko": "그럼블이 밧줄을 내려 줘요. 강아지가 뼈다귀를 물고 있어요.",
+          "audio": "scene_b4_u03_3_n"
+        }
       },
       {
         "id": "scene_b4_u03_4",
@@ -325,7 +340,12 @@
             "en": "Is Grumble happy?",
             "ko": "그럼블은 기분이 어때 보여?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Bun swings over the gap on the rope. Whee!",
+          "ko": "번이 밧줄을 타고 틈을 휙 건너요. 야호!",
+          "audio": "scene_b4_u03_4_n"
+        }
       }
     ],
     "synopsis_ko": "돌계단 한가운데 깊은 틈이 있어요. 번이 뛰어넘으려 하자 헤지가 말려요. 핍은 \"낫-이!\" 요정 이가 '안 돼' 표지를 톡! 하자 쪽지(note)가 되고, 쪽지에는 밧줄 그림이 있어요. 목욕 가운을 입은 그럼블이 창문에서 밧줄을 내려 줘요. 처음으로 친구들을 도와줬어요!",
@@ -597,7 +617,12 @@
         ],
         "task": "Find the long o words!",
         "task_ko": "긴 o 단어를 찾아요",
-        "ko": "돌계단에 깊은 틈. 번이 뛰어넘으려 하자 헤지가 말려요. 핍은 \"낫-이!\""
+        "ko": "돌계단에 깊은 틈. 번이 뛰어넘으려 하자 헤지가 말려요. 핍은 \"낫-이!\"",
+        "narr": {
+          "text": "A big gap in the stairs! Hedgie stops Bun.",
+          "ko": "계단에 커다란 틈! 헤지가 번을 말려요.",
+          "audio": "sb4_u03_1_n"
+        }
       },
       {
         "id": "sb4_u03_2",
@@ -624,7 +649,12 @@
         ],
         "task": "Find the note and the rope!",
         "task_ko": "쪽지와 밧줄을 찾아요",
-        "ko": "표지가 쪽지로 바뀌었어요. 쪽지에는 밧줄 그림! 가운 입은 그럼블이 창문에서 밧줄을 내려 줘요."
+        "ko": "표지가 쪽지로 바뀌었어요. 쪽지에는 밧줄 그림! 가운 입은 그럼블이 창문에서 밧줄을 내려 줘요.",
+        "narr": {
+          "text": "The note shows a rope. Grumble lowers one down.",
+          "ko": "쪽지에 밧줄 그림이 있어요. 그럼블이 밧줄을 내려 줘요.",
+          "audio": "sb4_u03_2_n"
+        }
       },
       {
         "id": "sb4_u03_3",
@@ -651,7 +681,12 @@
         ],
         "task": "Find the robe and the cone!",
         "task_ko": "가운과 아이스크림콘을 찾아요",
-        "ko": "번이 밧줄을 타고 틈을 건너요. 그럼블이 몰래 웃어요. — 첨벙! 찰방! 저런!"
+        "ko": "번이 밧줄을 타고 틈을 건너요. 그럼블이 몰래 웃어요. — 첨벙! 찰방! 저런!",
+        "narr": {
+          "text": "Bun swings across on the rope. Grumble smiles a bit.",
+          "ko": "번이 밧줄로 건너가요. 그럼블이 살짝 웃어요.",
+          "audio": "sb4_u03_3_n"
+        }
       }
     ]
   }

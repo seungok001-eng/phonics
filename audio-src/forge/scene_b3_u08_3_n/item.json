@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie spills his cocoa. A spot on Bun!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677535.8995233,
+   "sec": 4.2,
+   "check": {
+    "transcript": "Hedgey spills his cocoa, a spot on Bun.",
+    "type": "sentence",
+    "ipa": "ˈhɛʤi spɪlz ɪz ˈkoʊkoʊ ə ˈspɑt ɑn bʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hedgey spills his cocoa, a spot on Bun. | TYPE=sentence | IPA=ˈhɛʤi spɪlz ɪz ˈkoʊkoʊ ə ˈspɑt ɑn bʌn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_b3_u08_3_n",
+ "sub": "line",
+ "title": "3권 8유닛 해설 · 해설: Hedgie spills his cocoa. A spot on Bun!",
+ "text": "Hedgie spills his cocoa. A spot on Bun!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

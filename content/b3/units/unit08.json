@@ -206,7 +206,12 @@
             "en": "Who is sniffing?",
             "ko": "누가 킁킁 냄새를 맡아?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A stack of pancakes! The stream is too wide.",
+          "ko": "팬케이크가 쌓였어요! 시냇물이 너무 넓어요.",
+          "audio": "scene_b3_u08_1_n"
+        }
       },
       {
         "id": "scene_b3_u08_2",
@@ -250,7 +255,12 @@
             "en": "What swims in the stream?",
             "ko": "시냇물에서 뭐가 헤엄쳐?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A big swing comes down. Bun swings over the stream!",
+          "ko": "커다란 그네가 내려와요. 번이 시냇물 위로 슝!",
+          "audio": "scene_b3_u08_2_n"
+        }
       },
       {
         "id": "scene_b3_u08_3",
@@ -291,7 +301,12 @@
             "en": "Where is the spot?",
             "ko": "얼룩은 어디 생겼어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Hedgie spills his cocoa. A spot on Bun!",
+          "ko": "헤지가 코코아를 쏟아요. 번에게 얼룩이 생겼어요!",
+          "audio": "scene_b3_u08_3_n"
+        }
       },
       {
         "id": "scene_b3_u08_4",
@@ -333,7 +348,12 @@
             "en": "Where do they sit?",
             "ko": "어디에 둘러앉았어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Snack time! Grumble gets two pancakes.",
+          "ko": "간식 시간! 그럼블이 팬케이크를 두 개 받아요.",
+          "audio": "scene_b3_u08_4_n"
+        }
       }
     ],
     "synopsis_ko": "시냇가 그루터기 위에 팬케이크 간식이 쌓였어요. 건너편 s·w 문까지 물이 넓어요. 핌과 팜이 sw! 커다란 그네가 내려와 모두 슝~ 헤지가 코코아를 쏟아 번에게 얼룩이! 킁킁 내려온 그럼블도 팬케이크 두 개를 받아요.",
@@ -607,7 +627,12 @@
         ],
         "task": "Find the sn and st words!",
         "task_ko": "sn·st 단어를 찾아요",
-        "ko": "그루터기 위에 팬케이크 간식이 쌓였어요. 건너편 s·w 문까지 물이 넓어요. 나무 위에서 킁킁."
+        "ko": "그루터기 위에 팬케이크 간식이 쌓였어요. 건너편 s·w 문까지 물이 넓어요. 나무 위에서 킁킁.",
+        "narr": {
+          "text": "A stack of pancakes! The stream is too wide.",
+          "ko": "팬케이크가 쌓였어요! 시냇물이 너무 넓어요.",
+          "audio": "sb3_u08_1_n"
+        }
       },
       {
         "id": "sb3_u08_2",
@@ -634,7 +659,12 @@
         ],
         "task": "Find the sw and sp words!",
         "task_ko": "sw·sp 단어를 찾아요",
-        "ko": "핌과 팜이 sw! 그네를 타고 슝~ 헤지가 코코아를 쏟아 번에게 얼룩이! 핍이 \"스팟!\""
+        "ko": "핌과 팜이 sw! 그네를 타고 슝~ 헤지가 코코아를 쏟아 번에게 얼룩이! 핍이 \"스팟!\"",
+        "narr": {
+          "text": "Bun swings over the stream. Hedgie spills his cocoa!",
+          "ko": "번이 시냇물 위로 슝! 헤지가 코코아를 쏟아요!",
+          "audio": "sb3_u08_2_n"
+        }
       },
       {
         "id": "sb3_u08_3",
@@ -661,7 +691,12 @@
         ],
         "task": "Find the stack!",
         "task_ko": "팬케이크 더미를 찾아요",
-        "ko": "킁킁 내려온 그럼블도 팬케이크 두 개! — 우우, 아아! 나뭇가지 위에서 누가 등불을 노려요?"
+        "ko": "킁킁 내려온 그럼블도 팬케이크 두 개! — 우우, 아아! 나뭇가지 위에서 누가 등불을 노려요?",
+        "narr": {
+          "text": "Grumble gets two pancakes. Who is up in the tree?",
+          "ko": "그럼블이 팬케이크 두 개! 나무 위엔 누가 있을까요?",
+          "audio": "sb3_u08_3_n"
+        }
       }
     ]
   }

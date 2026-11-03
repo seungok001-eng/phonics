@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie has his box. Grumble spins the top and smiles.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677165.6604936,
+   "sec": 4.84,
+   "check": {
+    "transcript": "Hedgie has his box; Grumble spins the top and smiles.",
+    "type": "sentence",
+    "ipa": "ˈhɛʤi hæz ɪz bɑks grʌmbəl spɪnz ðə tɑp ænd smaɪlz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hedgie has his box; Grumble spins the top and smiles. | TYPE=sentence | IPA=ˈhɛʤi hæz ɪz bɑks grʌmbəl spɪnz ðə tɑp ænd smaɪlz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b2_u09_4_n",
+ "sub": "line",
+ "title": "2권 9유닛 해설 · 해설: Hedgie has his box. Grumble spins the top and smiles.",
+ "text": "Hedgie has his box. Grumble spins the top and smiles.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

@@ -199,7 +199,12 @@
             "en": "What does Hedgie hold?",
             "ko": "헤지는 뭘 잡고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Hedgie has a bike. A kit hangs on the door.",
+          "ko": "헤지가 자전거를 들고 있어요. 문에 구급상자가 걸려 있어요.",
+          "audio": "scene_b4_u02_1_n"
+        }
       },
       {
         "id": "scene_b4_u02_2",
@@ -241,7 +246,12 @@
             "en": "Who holds the kite?",
             "ko": "누가 연줄을 잡았어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Tap! The kit is now a red kite. It flies!",
+          "ko": "톡! 구급상자가 빨간 연이 됐어요. 연이 날아요!",
+          "audio": "scene_b4_u02_2_n"
+        }
       },
       {
         "id": "scene_b4_u02_3",
@@ -284,7 +294,12 @@
             "en": "What does Bun climb?",
             "ko": "번은 뭘 타고 올라가?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The kite is stuck in a pine. Bun climbs up.",
+          "ko": "연이 소나무에 걸렸어요. 번이 올라가요.",
+          "audio": "scene_b4_u02_3_n"
+        }
       },
       {
         "id": "scene_b4_u02_4",
@@ -327,7 +342,12 @@
             "en": "Who says hide?",
             "ko": "누가 \"숨어!\" 했어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Bees fly out of the hive! Grumble says to hide.",
+          "ko": "벌집에서 벌이 날아와요! 그럼블이 숨으라고 해요.",
+          "audio": "scene_b4_u02_4_n"
+        }
       }
     ],
     "synopsis_ko": "울타리 문에 구급상자(kit)가 걸려 있어요. 핍은 \"킷-이!\" 요정 이가 톡! 하자 연(kite)이 되어 날아올라요. 바람에 연이 소나무 꼭대기에 걸려 번이 미끄럼틀로 올라가 되찾아요. 벌집에서 벌이 나오자 창문의 그럼블이 \"숨어!\" 하고 처음으로 알려 줘요.",
@@ -599,7 +619,12 @@
         ],
         "task": "Find the long i words!",
         "task_ko": "긴 i 단어를 찾아요",
-        "ko": "울타리 문에 구급상자가 걸려 있어요. 핍은 \"킷-이!\" 하고 끊어 읽어요."
+        "ko": "울타리 문에 구급상자가 걸려 있어요. 핍은 \"킷-이!\" 하고 끊어 읽어요.",
+        "narr": {
+          "text": "A kit hangs on the door. Pip reads in pieces.",
+          "ko": "문에 구급상자가 걸려 있어요. 핍이 끊어 읽어요.",
+          "audio": "sb4_u02_1_n"
+        }
       },
       {
         "id": "sb4_u02_2",
@@ -626,7 +651,12 @@
         ],
         "task": "Find the kite and the pine!",
         "task_ko": "연과 소나무를 찾아요",
-        "ko": "구급상자가 연이 되어 날아올랐다가 소나무 꼭대기에 걸렸어요. 번이 미끄럼틀로 올라가요."
+        "ko": "구급상자가 연이 되어 날아올랐다가 소나무 꼭대기에 걸렸어요. 번이 미끄럼틀로 올라가요.",
+        "narr": {
+          "text": "The kit is a kite now, stuck in a pine!",
+          "ko": "구급상자가 연이 되었는데 소나무에 걸렸어요!",
+          "audio": "sb4_u02_2_n"
+        }
       },
       {
         "id": "sb4_u02_3",
@@ -653,7 +683,12 @@
         ],
         "task": "Find the slide and the hive!",
         "task_ko": "미끄럼틀과 벌집을 찾아요",
-        "ko": "벌이 윙윙! 그럼블이 창문에서 \"숨어!\" 하고 알려 줘요. — 봐요! 커다란 틈! 저런!"
+        "ko": "벌이 윙윙! 그럼블이 창문에서 \"숨어!\" 하고 알려 줘요. — 봐요! 커다란 틈! 저런!",
+        "narr": {
+          "text": "Bees buzz out of the hive. Everyone hides!",
+          "ko": "벌집에서 벌이 윙윙 날아와요. 모두 숨어요!",
+          "audio": "sb4_u02_3_n"
+        }
       }
     ]
   }

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Night on the roof. A cloud hides the moon.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677245.6439161,
+   "sec": 3.84,
+   "check": {
+    "transcript": "Night on the roof. A cloud hides the moon.",
+    "type": "sentence",
+    "ipa": "naɪt ɑn ðə ruf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Night on the roof. A cloud hides the moon. | TYPE=sentence | IPA=naɪt ɑn ðə ruf | ə klaʊd haɪdz ðə mun | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b4_u09_1_n",
+ "sub": "line",
+ "title": "4권 9유닛 해설 · 해설: Night on the roof. A cloud hides the moon.",
+ "text": "Night on the roof. A cloud hides the moon.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

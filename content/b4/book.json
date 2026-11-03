@@ -547,7 +547,7 @@
     },
     "vane": {
       "ko": "풍향계",
-      "desc": "a black metal weather vane with a little rooster on top of an arrow, on a short pole, no letters",
+      "desc": "a metal weather vane on a rooftop: a big arrow spinning in the wind with wind lines, no rooster, no letters",
       "family": "a_e",
       "chunks": [
         "v",
@@ -577,7 +577,7 @@
     },
     "gate": {
       "ko": "대문",
-      "desc": "a wooden garden gate with a rounded top, closed, set in a low stone wall",
+      "desc": "a wooden garden gate standing open in a white picket fence, with fence on both sides, no house",
       "family": "a_e",
       "chunks": [
         "g",
@@ -723,7 +723,7 @@
     },
     "pine": {
       "ko": "소나무",
-      "desc": "a tall green pine tree with a few brown pine cones",
+      "desc": "a tall green pine tree with brown pine cones hanging on it, standing alone",
       "family": "i_e",
       "chunks": [
         "p",
@@ -795,7 +795,8 @@
         "f",
         "aɪ",
         "v"
-      ]
+      ],
+      "pic_hard": true
     },
     "hide": {
       "ko": "숨기",
@@ -815,7 +816,7 @@
     },
     "nine": {
       "ko": "9",
-      "desc": "nine shiny red balls arranged neatly in three rows of three, with the numeral 9 drawn large next to them (only the numeral, no words)",
+      "desc": "nine red apples in a neat row, no numbers, no text",
       "family": "i_e",
       "chunks": [
         "n",
@@ -935,7 +936,7 @@
     },
     "note": {
       "ko": "쪽지",
-      "desc": "a small folded paper note tied with a red ribbon, nothing written on it",
+      "desc": "a small folded paper note with a short scribbled line, stuck on a fridge door with a magnet",
       "family": "o_e",
       "chunks": [
         "n",
@@ -1051,7 +1052,8 @@
         "st",
         "oʊ",
         "n"
-      ]
+      ],
+      "pic_hard": true
     },
     "cone": {
       "ko": "아이스크림콘",
@@ -1066,7 +1068,8 @@
         "k",
         "oʊ",
         "n"
-      ]
+      ],
+      "pic_hard": true
     },
     "hop": {
       "ko": "깡충",
@@ -1125,7 +1128,8 @@
         "gl",
         "ɑ",
         "b"
-      ]
+      ],
+      "pic_hard": true
     },
     "cube": {
       "ko": "블록(정육면체)",
@@ -1144,7 +1148,7 @@
     },
     "tube": {
       "ko": "튜브(관)",
-      "desc": "a long bendy green play tube curving like a giant drinking straw",
+      "desc": "a toothpaste tube with the cap off and a squeeze of paste coming out, nothing else",
       "family": "u_e",
       "chunks": [
         "t",
@@ -1202,7 +1206,8 @@
         "m",
         "juː",
         "l"
-      ]
+      ],
+      "pic_hard": true
     },
     "flute": {
       "ko": "플루트",
@@ -1232,7 +1237,8 @@
         "d",
         "uː",
         "n"
-      ]
+      ],
+      "pic_hard": true
     },
     "tune": {
       "ko": "곡조(가락)",
@@ -1262,7 +1268,8 @@
         "k",
         "ʌ",
         "b"
-      ]
+      ],
+      "pic_hard": true
     },
     "tub": {
       "ko": "욕조",
@@ -1339,7 +1346,7 @@
     },
     "tail": {
       "ko": "꼬리",
-      "desc": "a little green lizard with a long curly tail",
+      "desc": "a cartoon fox seen from behind with a big fluffy tail, and a small hand pointing at the tail",
       "family": "ai",
       "chunks": [
         "t",
@@ -1354,7 +1361,7 @@
     },
     "sail": {
       "ko": "돛",
-      "desc": "a white sail on a small wooden sailboat",
+      "desc": "a sailboat whose big white sail fills the picture; the sail is the main thing, the boat small",
       "family": "ai",
       "chunks": [
         "s",
@@ -1447,7 +1454,8 @@
       "ipa": [
         "dʒ",
         "eɪ"
-      ]
+      ],
+      "pic_hard": true
     },
     "tree": {
       "ko": "나무",
@@ -1477,7 +1485,7 @@
     },
     "feet": {
       "ko": "발",
-      "desc": "a pair of bare feet with wiggly toes, seen from the front, nothing above the ankles",
+      "desc": "two bare cartoon feet side by side seen from above, exactly five toes on each foot, nothing else",
       "family": "ee",
       "chunks": [
         "f",
@@ -1550,7 +1558,7 @@
     },
     "tea": {
       "ko": "차",
-      "desc": "a white teapot pouring tea into a teacup",
+      "desc": "a cup of hot tea with a tea-bag string hanging over the rim and steam, no teapot",
       "family": "ea",
       "chunks": [
         "t",
@@ -1767,7 +1775,7 @@
     },
     "roof": {
       "ko": "지붕",
-      "desc": "a red tiled rooftop with a chimney and a cat sitting on it",
+      "desc": "a small house whose red tiled roof is the biggest part of the picture, nothing on the roof",
       "family": "oo",
       "chunks": [
         "r",

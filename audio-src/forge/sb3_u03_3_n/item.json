@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble takes a bath. Why is the duck sad?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677394.8752024,
+   "sec": 4.16,
+   "check": {
+    "transcript": "Grumble takes a bath. Why is the duck sad?",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ˈteɪks ə ˈbæθ ˈwaɪ ɪz ðə ˈdʌk ˈsæd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble takes a bath. Why is the duck sad? | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈteɪks ə ˈbæθ ˈwaɪ ɪz ðə ˈdʌk ˈsæd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_3_n",
+ "sub": "line",
+ "title": "3권 3유닛 스토리북 해설 · 해설: Grumble takes a bath. Why is the duck sad?",
+ "text": "Grumble takes a bath. Why is the duck sad?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two sparkles become one. The rain cloud shrinks away.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677133.4630167,
+   "sec": 4.4,
+   "check": {
+    "transcript": "Two sparkles become one. The rain cloud shrinks away.",
+    "type": "sentence",
+    "ipa": "tuw ˈspɑːrkəlz bɪˈkʌm wʌn ðiː reɪn klaʊd ʃrɪŋks əˈweɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Two sparkles become one. The rain cloud shrinks away. | TYPE=sentence | IPA=tuw ˈspɑːrkəlz bɪˈkʌm wʌn ðiː reɪn klaʊd ʃrɪŋks əˈweɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b4_u06_2_n",
+ "sub": "line",
+ "title": "4권 6유닛 해설 · 해설: Two sparkles become one. The rain cloud shrinks away.",
+ "text": "Two sparkles become one. The rain cloud shrinks away.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

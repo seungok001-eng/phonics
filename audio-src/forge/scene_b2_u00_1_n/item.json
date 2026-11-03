@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A big pond! The seed lands on the sand.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676826.964563,
+   "sec": 3.56,
+   "check": {
+    "transcript": "A big pond. The seed lands on the sand.",
+    "type": "sentence",
+    "ipa": "ə bɪg pɑnd ðə sid lænz ɑn ðə sænd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A big pond. The seed lands on the sand. | TYPE=sentence | IPA=ə bɪg pɑnd ðə sid lænz ɑn ðə sænd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "scene_b2_u00_1_n",
+ "sub": "line",
+ "title": "2권 0유닛 해설 · 해설: A big pond! The seed lands on the sand.",
+ "text": "A big pond! The seed lands on the sand.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

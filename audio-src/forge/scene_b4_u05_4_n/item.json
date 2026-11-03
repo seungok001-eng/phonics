@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble comes down and lights the steps.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677103.7639856,
+   "sec": 3.36,
+   "check": {
+    "transcript": "Grumble comes down and lights the steps.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ˈkʌmz ˈdaʊn ənd ˈlaɪts ðə ˈstɛps.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble comes down and lights the steps. | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈkʌmz ˈdaʊn ənd ˈlaɪts ðə ˈstɛps. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_b4_u05_4_n",
+ "sub": "line",
+ "title": "4권 5유닛 해설 · 해설: Grumble comes down and lights the steps.",
+ "text": "Grumble comes down and lights the steps.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

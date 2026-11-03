@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Night. Two lights in the dark trees. Who is there?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677261.064798,
+   "sec": 5.24,
+   "check": {
+    "transcript": "Night. Two lights in the dark trees. Who is there?",
+    "type": "sentence",
+    "ipa": "naɪt tuː laɪts ɪn ðə dɑːrk triːz huː ɪz ðɛər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Night. Two lights in the dark trees. Who is there? | TYPE=sentence | IPA=naɪt tuː laɪts ɪn ðə dɑːrk triːz huː ɪz ðɛər | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_3_n",
+ "sub": "line",
+ "title": "2권 11유닛 스토리북 해설 · 해설: Night. Two lights in the dark trees. Who is there?",
+ "text": "Night. Two lights in the dark trees. Who is there?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

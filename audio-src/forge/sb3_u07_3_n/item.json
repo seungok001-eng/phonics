@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A baby bird is born. What smells so good?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677526.6068408,
+   "sec": 5.36,
+   "check": {
+    "transcript": "A baby bird is born. What smells so good?",
+    "type": "sentence",
+    "ipa": "ə ˈbeɪbi bɜːd ɪz bɔːn ˈwɒt smɛlz səʊ ɡʊd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A baby bird is born. What smells so good? | TYPE=sentence | IPA=ə ˈbeɪbi bɜːd ɪz bɔːn ˈwɒt smɛlz səʊ ɡʊd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_3_n",
+ "sub": "line",
+ "title": "3권 7유닛 스토리북 해설 · 해설: A baby bird is born. What smells so good?",
+ "text": "A baby bird is born. What smells so good?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

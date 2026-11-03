@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The snake takes the cake. Grumble gets a cane.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676958.5097997,
+   "sec": 4.16,
+   "check": {
+    "transcript": "The snake takes the cake. Grumble gets a cane.",
+    "type": "sentence",
+    "ipa": "ðə sneɪk teɪks ðə keɪk ˈɡrʌmbəl ɡɛts ə keɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The snake takes the cake. Grumble gets a cane. | TYPE=sentence | IPA=ðə sneɪk teɪks ðə keɪk ˈɡrʌmbəl ɡɛts ə keɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_3_n",
+ "sub": "line",
+ "title": "4권 1유닛 스토리북 해설 · 해설: The snake takes the cake. Grumble gets a cane.",
+ "text": "The snake takes the cake. Grumble gets a cane.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

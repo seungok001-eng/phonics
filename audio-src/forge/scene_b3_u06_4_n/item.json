@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie flips a pancake. Grumble softly claps.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677488.3186827,
+   "sec": 4.0,
+   "check": {
+    "transcript": "Hedgie flips a pancake. Grumble softly claps.",
+    "type": "sentence",
+    "ipa": "ˈhɛʤi flɪps ə ˈpænˌkeɪk ˈɡrʌmbəl ˈsɔftli klæps",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hedgie flips a pancake. Grumble softly claps. | TYPE=sentence | IPA=ˈhɛʤi flɪps ə ˈpænˌkeɪk ˈɡrʌmbəl ˈsɔftli klæps | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b3_u06_4_n",
+ "sub": "line",
+ "title": "3권 6유닛 해설 · 해설: Hedgie flips a pancake. Grumble softly claps.",
+ "text": "Hedgie flips a pancake. Grumble softly claps.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Down the tube they slide, onto a sand dune.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677077.2017088,
+   "sec": 3.96,
+   "check": {
+    "transcript": "Down the tube they slide onto a sand dune.",
+    "type": "sentence",
+    "ipa": "ˈdaʊn ðə ˈtub ðeɪ ˈslaɪd ˈɑntu ə ˈsænd ˈdun.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Down the tube they slide onto a sand dune. | TYPE=sentence | IPA=ˈdaʊn ðə ˈtub ðeɪ ˈslaɪd ˈɑntu ə ˈsænd ˈdun. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb4_u04_2_n",
+ "sub": "line",
+ "title": "4권 4유닛 스토리북 해설 · 해설: Down the tube they slide, onto a sand dune.",
+ "text": "Down the tube they slide, onto a sand dune.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

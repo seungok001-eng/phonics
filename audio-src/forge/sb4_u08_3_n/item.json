@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble gives toast by the fire. What squeaks?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677242.236923,
+   "sec": 5.28,
+   "check": {
+    "transcript": "grumble gives toast by the fire what's squeaks",
+    "type": "sentence",
+    "ipa": "ˈɡrʌmbəl ˈɡɪvz ˈtoʊst baɪ ðə ˈfaɪər ˈwʌts ˈskwiːks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=grumble gives toast by the fire what's squeaks | TYPE=sentence | IPA=ˈɡrʌmbəl ˈɡɪvz ˈtoʊst baɪ ðə ˈfaɪər ˈwʌts ˈskwiːks | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb4_u08_3_n",
+ "sub": "line",
+ "title": "4권 8유닛 스토리북 해설 · 해설: Grumble gives toast by the fire. What squeaks?",
+ "text": "Grumble gives toast by the fire. What squeaks?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

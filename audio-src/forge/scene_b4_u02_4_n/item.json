@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bees fly out of the hive! Grumble says to hide.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676980.9684064,
+   "sec": 4.6,
+   "check": {
+    "transcript": "Bees fly out of the hive, grumble, says Te Hyde.",
+    "type": "sentence",
+    "ipa": "biz flaɪ aʊt ʌv ðə haɪv, ˈɡɹʌmbəl, sɛz ti haɪd.",
+    "note": "mispronounced",
+    "raw": "TRANSCRIPT=Bees fly out of the hive, grumble, says Te Hyde. | TYPE=sentence | IPA=biz flaɪ aʊt ʌv ðə haɪv, ˈɡɹʌmbəl, sɛz ti haɪd. | NOTE=mispronounced"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_b4_u02_4_n",
+ "sub": "line",
+ "title": "4권 2유닛 해설 · 해설: Bees fly out of the hive! Grumble says to hide.",
+ "text": "Bees fly out of the hive! Grumble says to hide.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

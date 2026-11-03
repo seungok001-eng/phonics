@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A dog pushes the bag. Grumble lifts it out.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676881.1638215,
+   "sec": 3.72,
+   "check": {
+    "transcript": "A dog pushed the bag. Grumble lifts it out.",
+    "type": "sentence",
+    "ipa": "ə dˈɑːɡ pˈʊʃt ðə bˈæɡ ɡɹˈʌmbəl lˈɪfts ˈɪt ˈaʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A dog pushed the bag. Grumble lifts it out. | TYPE=sentence | IPA=ə dˈɑːɡ pˈʊʃt ðə bˈæɡ ɡɹˈʌmbəl lˈɪfts ˈɪt ˈaʊt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_b2_u02_3_n",
+ "sub": "line",
+ "title": "2권 2유닛 해설 · 해설: A dog pushes the bag. Grumble lifts it out.",
+ "text": "A dog pushes the bag. Grumble lifts it out.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The fog clears. Grumble gives hot soup.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677124.914437,
+   "sec": 3.72,
+   "check": {
+    "transcript": "The fog clears. Grumble gives hot soup.",
+    "type": "sentence",
+    "ipa": "ðə fɑg klɪɹz . gɹʌmbəl gɪvz hɑt sup .",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The fog clears. Grumble gives hot soup. | TYPE=sentence | IPA=ðə fɑg klɪɹz . gɹʌmbəl gɪvz hɑt sup . | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_b2_u08_4_n",
+ "sub": "line",
+ "title": "2권 8유닛 해설 · 해설: The fog clears. Grumble gives hot soup.",
+ "text": "The fog clears. Grumble gives hot soup.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

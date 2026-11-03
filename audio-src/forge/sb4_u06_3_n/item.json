@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A drop lands on Grumble's paint. What is that buzz?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677160.6606884,
+   "sec": 4.36,
+   "check": {
+    "transcript": "A drop lands on Grumble's paint. What is that buzz?",
+    "type": "sentence",
+    "ipa": "ə drɑp lænz ɑn ˈɡɹʌmbəlz peɪnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A drop lands on Grumble's paint. What is that buzz? | TYPE=sentence | IPA=ə drɑp lænz ɑn ˈɡɹʌmbəlz peɪnt | wɑt ɪz ðæt bʌz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb4_u06_3_n",
+ "sub": "line",
+ "title": "4권 6유닛 스토리북 해설 · 해설: A drop lands on Grumble's paint. What is that buzz?",
+ "text": "A drop lands on Grumble's paint. What is that buzz?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

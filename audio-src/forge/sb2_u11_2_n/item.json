@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble comes to the party and drums on the pot!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677252.3414207,
+   "sec": 3.48,
+   "check": {
+    "transcript": "Crumble comes to the party and drums on the pot.",
+    "type": "sentence",
+    "ipa": "ˈkrʌmbəl ˈkʌmz tə ðə ˈpɑrti ænd ˈdrʌmz ɑn ðə ˈpɑt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Crumble comes to the party and drums on the pot. | TYPE=sentence | IPA=ˈkrʌmbəl ˈkʌmz tə ðə ˈpɑrti ænd ˈdrʌmz ɑn ðə ˈpɑt. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_2_n",
+ "sub": "line",
+ "title": "2권 11유닛 스토리북 해설 · 해설: Grumble comes to the party and drums on the pot!",
+ "text": "Grumble comes to the party and drums on the pot!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

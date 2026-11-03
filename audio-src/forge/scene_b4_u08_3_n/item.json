@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun rows the boat. The goat wears a coat.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677217.5134451,
+   "sec": 4.8,
+   "check": {
+    "transcript": "Pun rows the boat. The goat wears a coat.",
+    "type": "sentence",
+    "ipa": "pʌn roʊz ðə boʊt. ðə goʊt wɛrz ə koʊt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pun rows the boat. The goat wears a coat. | TYPE=sentence | IPA=pʌn roʊz ðə boʊt. ðə goʊt wɛrz ə koʊt. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_b4_u08_3_n",
+ "sub": "line",
+ "title": "4권 8유닛 해설 · 해설: Bun rows the boat. The goat wears a coat.",
+ "text": "Bun rows the boat. The goat wears a coat.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

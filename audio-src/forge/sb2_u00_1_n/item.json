@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The friends come to a big blue pond.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676837.586223,
+   "sec": 3.44,
+   "check": {
+    "transcript": "The friends come to a big blue pond.",
+    "type": "sentence",
+    "ipa": "ðə fɹɛndz kʌm tuː ə bɪɡ bluː pɑnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The friends come to a big blue pond. | TYPE=sentence | IPA=ðə fɹɛndz kʌm tuː ə bɪɡ bluː pɑnd | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_u00_1_n",
+ "sub": "line",
+ "title": "2권 0유닛 스토리북 해설 · 해설: The friends come to a big blue pond.",
+ "text": "The friends come to a big blue pond.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The note shows a rope. Grumble lowers one down.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677035.9404328,
+   "sec": 4.68,
+   "check": {
+    "transcript": "The note shows a rope. Grumble lowers one down.",
+    "type": "sentence",
+    "ipa": "ðə noʊt ʃoʊz ə roʊp ˈɡrʌmbəl ˈloʊərz wʌn daʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The note shows a rope. Grumble lowers one down. | TYPE=sentence | IPA=ðə noʊt ʃoʊz ə roʊp ˈɡrʌmbəl ˈloʊərz wʌn daʊn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_2_n",
+ "sub": "line",
+ "title": "4권 3유닛 스토리북 해설 · 해설: The note shows a rope. Grumble lowers one down.",
+ "text": "The note shows a rope. Grumble lowers one down.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

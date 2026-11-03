@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The train rolls down to the Song Tree. Friends wave!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677348.5595052,
+   "sec": 5.12,
+   "check": {
+    "transcript": "The train rolls down to the song tree. Friends, wave.",
+    "type": "sentence",
+    "ipa": "ðə tɹeɪn ɹoʊlz daʊn tuː ðə sɔːŋ tɹiː fɹɛndz weɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The train rolls down to the song tree. Friends, wave. | TYPE=sentence | IPA=ðə tɹeɪn ɹoʊlz daʊn tuː ðə sɔːŋ tɹiː fɹɛndz weɪv | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The train rolls to the Song Tree. All wave!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793680779.5160515,
+   "sec": 3.64,
+   "check": {
+    "transcript": "The train rolls to the song tree on wave.",
+    "type": "sentence",
+    "ipa": "ðə tɹeɪn ɹoʊlz tuː ðə sɑŋ tɹiː ɑn weɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The train rolls to the song tree on wave. | TYPE=sentence | IPA=ðə tɹeɪn ɹoʊlz tuː ðə sɑŋ tɹiː ɑn weɪv | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb4_u11_1_n",
+ "sub": "line",
+ "title": "4권 11유닛 스토리북 해설 · 해설: The train rolls to the Song Tree. All wave!",
+ "text": "The train rolls to the Song Tree. All wave!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

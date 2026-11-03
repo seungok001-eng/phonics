@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=shh go moth oh no | TYPE=sentence | IPA=ʃ goʊ mɔθ oʊ noʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! Go, moth! Oh no!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676658.7672412,
+   "sec": 2.47,
+   "check": {
+    "transcript": "shh go moth oh no",
+    "type": "sentence",
+    "ipa": "ʃ goʊ mɔθ oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh go moth oh no | TYPE=sentence | IPA=ʃ goʊ mɔθ oʊ noʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:10",
+ "applied": "2026-11-03 12:31",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -31,5 +48,6 @@
  "text": "Shh! Go, moth! Oh no!",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

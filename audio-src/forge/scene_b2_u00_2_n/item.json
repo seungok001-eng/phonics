@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Beads pops up. Someone hides in the reeds.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676831.061995,
+   "sec": 4.12,
+   "check": {
+    "transcript": "beads pops up, someone hides in the reeds",
+    "type": "sentence",
+    "ipa": "biːdz pɑps ʌp, ˈsʌmwʌn haɪdz ɪn ðiː ridz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=beads pops up, someone hides in the reeds | TYPE=sentence | IPA=biːdz pɑps ʌp, ˈsʌmwʌn haɪdz ɪn ðiː ridz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "scene_b2_u00_2_n",
+ "sub": "line",
+ "title": "2권 0유닛 해설 · 해설: Beads pops up. Someone hides in the reeds.",
+ "text": "Beads pops up. Someone hides in the reeds.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

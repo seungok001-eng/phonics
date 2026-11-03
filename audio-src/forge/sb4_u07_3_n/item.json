@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tea with Grumble. The bee tickles Hedgie's feet!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677199.8370342,
+   "sec": 4.6,
+   "check": {
+    "transcript": "T with grumble The B tickles hegy's feet.",
+    "type": "sentence",
+    "ipa": "ti wɪð ˈgrʌmbəl ði bi ˈtɪkəlz ˈhɛdʒiz fit",
+    "note": "ok",
+    "raw": "TRANSCRIPT=T with grumble The B tickles hegy's feet. | TYPE=sentence | IPA=ti wɪð ˈgrʌmbəl ði bi ˈtɪkəlz ˈhɛdʒiz fit | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb4_u07_3_n",
+ "sub": "line",
+ "title": "4권 7유닛 스토리북 해설 · 해설: Tea with Grumble. The bee tickles Hedgie's feet!",
+ "text": "Tea with Grumble. The bee tickles Hedgie's feet!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

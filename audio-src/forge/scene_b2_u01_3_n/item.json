@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A van with a fan! Someone hides in the reeds.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676852.9712553,
+   "sec": 3.96,
+   "check": {
+    "transcript": "A van with a fan, someone hides in the reeds.",
+    "type": "sentence",
+    "ipa": "ə væn wɪð ə fæn ˈsʌmwʌn haɪdz ɪn ðə ridz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A van with a fan, someone hides in the reeds. | TYPE=sentence | IPA=ə væn wɪð ə fæn ˈsʌmwʌn haɪdz ɪn ðə ridz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_b2_u01_3_n",
+ "sub": "line",
+ "title": "2권 1유닛 해설 · 해설: A van with a fan! Someone hides in the reeds.",
+ "text": "A van with a fan! Someone hides in the reeds.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

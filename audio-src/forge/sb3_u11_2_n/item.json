@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble beats the drum! Pip reads the words.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677606.9658322,
+   "sec": 4.72,
+   "check": {
+    "transcript": "Grumble beats the drum. Pip reads the words.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl bits ðə dɹʌm. pɪp ɹidz ðə wɜɹdz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble beats the drum. Pip reads the words. | TYPE=sentence | IPA=ˈɡɹʌmbəl bits ðə dɹʌm. pɪp ɹidz ðə wɜɹdz. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_2_n",
+ "sub": "line",
+ "title": "3권 11유닛 스토리북 해설 · 해설: Grumble beats the drum! Pip reads the words.",
+ "text": "Grumble beats the drum! Pip reads the words.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

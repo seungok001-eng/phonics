@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Schlafglas | TYPE=word | IPA=ˈʃlaːfˌɡlaːs | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! ... La, la...",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676683.8270996,
+   "sec": 2.05,
+   "check": {
+    "transcript": "shh",
+    "type": "word",
+    "ipa": "ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh | TYPE=word | IPA=ʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:16",
+ "applied": "2026-11-03 12:31",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -31,5 +48,6 @@
  "text": "Shh! ... La, la...",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

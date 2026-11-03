@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A big stone for the pig! A fish pushes it.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677056.3469899,
+   "sec": 4.24,
+   "check": {
+    "transcript": "a big stone for the pig a fish pushes it",
+    "type": "sentence",
+    "ipa": "ə bɪg stoʊn fɔɹ ðə pɪg ə fɪʃ pʊʃɪz ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a big stone for the pig a fish pushes it | TYPE=sentence | IPA=ə bɪg stoʊn fɔɹ ðə pɪg ə fɪʃ pʊʃɪz ɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_2_n",
+ "sub": "line",
+ "title": "2권 6유닛 스토리북 해설 · 해설: A big stone for the pig! A fish pushes it.",
+ "text": "A big stone for the pig! A fish pushes it.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

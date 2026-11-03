@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A stack of pancakes! The stream is too wide.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677543.022017,
+   "sec": 4.28,
+   "check": {
+    "transcript": "a stack of pancakes",
+    "type": "sentence",
+    "ipa": "ə stæk əv pæŋ.keɪks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a stack of pancakes | TYPE=sentence | IPA=ə stæk əv pæŋ.keɪks | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb3_u08_1_n",
+ "sub": "line",
+ "title": "3권 8유닛 스토리북 해설 · 해설: A stack of pancakes! The stream is too wide.",
+ "text": "A stack of pancakes! The stream is too wide.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

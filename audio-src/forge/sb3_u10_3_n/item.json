@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip sings with a golden note. A party is coming!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677587.8845177,
+   "sec": 4.0,
+   "check": {
+    "transcript": "Pip sings with a golden note, \"A party is coming.\"",
+    "type": "sentence",
+    "ipa": "pɪp sɪŋz wɪð ə ˈɡoʊldən noʊt ə ˈpɑrti ɪz ˈkʌmɪŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip sings with a golden note, \"A party is coming.\" | TYPE=sentence | IPA=pɪp sɪŋz wɪð ə ˈɡoʊldən noʊt ə ˈpɑrti ɪz ˈkʌmɪŋ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb3_u10_3_n",
+ "sub": "line",
+ "title": "3권 10유닛 스토리북 해설 · 해설: Pip sings with a golden note. A party is coming!",
+ "text": "Pip sings with a golden note. A party is coming!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

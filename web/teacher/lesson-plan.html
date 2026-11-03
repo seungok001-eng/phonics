@@ -118,7 +118,7 @@ const ACT = {
     say: (C) => { const l = C.letters[0], w = ((C.book.letters[l] || {}).words || [])[0] || ''; return `글자마다 한 장(단어 카드 3장, 번호). 그림을 누르면 단어 — 첫소리를 살려 <span class="en">"${snd(C, l)} — ${esc(w)}"</span>. "몇 번이 ${esc(w)}?" 하고 번호로 묻기. ♪ Word chant 로 다 같이`; },
     kids: () => '단어 따라 말하기, 번호 외치기, 자기 책 단어 짚기' },
   // 1권은 Read it! 1·2·3 없음(소리 잡기 + 메모리). 2권부터 읽기 연습으로 들어간다
-  read_play: { slides: (C) => (C.B2 ? Math.ceil(C.words.length / 3) : 0) + 2, per: 1.5, base: 8, name: (C) => C.B2 ? '읽기 · 단어 잡기 · 메모리' : '소리 잡기 · 메모리',
+  read_play: { slides: (C) => (C.B2 ? Math.ceil(C.words.length / 3) : 0) + 2, per: 1.5, base: (C) => (C.B2 ? 7 : 8), name: (C) => C.B2 ? '읽기 · 단어 잡기 · 메모리' : '소리 잡기 · 메모리',
     say: (C) => `${C.B2 ? '① Read it! 1·2·3 — "Number 2!" 하면 그 단어를 읽게, 그림을 눌러 확인. ② ' : '① '}${esc((C.unit.game || {}).title || (C.B2 ? 'Read and catch!' : 'Catch the sound!'))} — 🔊 ${C.B2 ? '단어' : '소리'}를 듣고 그림 번호, A·B 팀 점수(끝나면 🔁 한 번 더). ${C.B2 ? '③' : '②'} Memory game — 아이가 번호 두 개를 외치면 선생님이 뒤집기(시간이 모자라면 건너뛰기, −5분). 소리 잡기 첫 판만 책 Listen and circle 과 같은 순서예요 — 🔁 한 번 더는 화면만`,
     kids: (C) => `${C.B2 ? '번호 단어 읽기, ' : ''}그림 번호 외치기(팀), 카드 번호 두 개 외치기` },
   alphabet_review: { per: 5, base: 0, name: () => '알파벳 26 소리',
@@ -127,7 +127,7 @@ const ACT = {
   listen_point: { per: 3, base: 0, name: () => '듣고 말하기 복습',
     say: (C) => `2장: ① What's this?(그림만 → 아이들이 외치면 Space 로 공개, 소리) ② Speed round(30초, 글자는 소리·단어는 읽기, ✔/✖). 1차시 단어 ${C.words.length}개 되살리기`,
     kids: () => '단어 외치기 → 빨리 말하기' },
-  blend: { slides: (C, pg) => Math.ceil(blendFams(C, pg).flatMap(C.famWords).length / 5), per: 4, base: 1, name: (C, pg) => `합치기 ${blendFams(C, pg).map((f) => lab(C, f)).join(' · ')}`,
+  blend: { slides: (C, pg) => Math.ceil(blendFams(C, pg).flatMap(C.famWords).length / 5), per: 3.5, base: 1, name: (C, pg) => `합치기 ${blendFams(C, pg).map((f) => lab(C, f)).join(' · ')}`,
     say: (C, pg) => { const f = blendFams(C, pg)[0], w = C.famWords(f)[0] || ''; return `▶ 를 누르면 소리 타일이 하나씩 붙어 단어가 돼요. 타일을 짚으며 <span class="en">"${esc(tiles(C, w))} … ${esc(w)}!"</span> → 손뼉 한 번에 통째로. ${esc(famLab(C.book, f))}: ${pairTalk(C, f)}`; },
     kids: () => '소리 따라 하기 → 손뼉에 단어 외치기, 자기 책 글자 짚기' },
   digraph: { slides: (C, pg) => (pg.family ? 1 : Math.min(4, C.fams.length)), per: 3, base: 1, name: (C, pg) => `${famKindOf(C.book, pg.family || C.fams[0]) === 'team' ? '모음 짝' : /blend|final/.test(famKindOf(C.book, pg.family || C.fams[0])) ? '이어 소리' : '짝꿍 소리'} ${(pg.family ? [pg.family] : C.fams).map((f) => lab(C, f)).join(' · ')}`,
@@ -139,7 +139,7 @@ const ACT = {
   family_words: { per: 3, base: 2, name: () => '단어 읽기 · 그림 찾기',
     say: (C) => `① 가족별 단어 크게 + ♪ 챈트(박자에 맞춰 가족별로) ② Read and find 1~10 — 선생님이 단어를 누르면(소리) 아이들이 그림 번호를 외치고, 그 그림을 눌러 확인. 종이책은 그림 아래 단어 쓰기(남으면 숙제로). 가족: ${C.fams.map((f) => lab(C, f)).join(' · ')}`,
     kids: () => '챈트 따라 읽기, 그림 번호 외치기' },
-  sentences: { slides: (C) => (C.unit.sentences || []).length, per: 2.5, base: 2, name: () => '문장 읽기',
+  sentences: { slides: (C) => (C.unit.sentences || []).length, per: 2, base: 2, name: () => '문장 읽기',
     say: (C) => `문장마다 한 장: 아이들이 먼저 읽기(노란 사이트워드 ${(C.unit.sight_words || []).map((w) => `<b>${esc(w)}</b>`).join(', ')} 는 통째로) → 단어를 눌러 확인 → 🔊 문장. 예: <span class="en">"${esc(((C.unit.sentences || [])[0] || {}).text || '')}"</span> "그림에서 가리켜 볼까요?"`,
     kids: () => '문장 읽기(한 명씩·다 같이), 그림 가리키기' },
   story: { slides: (C, pg) => (pg.half === 2 ? C.st.panels.length - 2 : Math.min(2, C.st.panels.length) + (glance(C.st) ? 1 : 0)), per: 3.5, base: (C, pg) => (pg.half === 2 ? 0 : 2), name: (C, pg) => `스토리 ${pg.half === 2 ? '(뒤 칸)' : '(앞 칸)'}`,
@@ -165,7 +165,7 @@ const ACT = {
     say: (C) => `아이들이 자기 책에 먼저 풀고, 슬라이드 A·B·C 로 함께 확인(${C.B2 ? '읽고 그림 번호 · 단어–그림 · 빠진 글자' : '🔊 듣고 번호 · 글자–그림 · 첫소리 글자'}). 점수가 낮은 아이는 시험지 생성기 B형으로 다시`,
     kids: () => '책에 풀기 → 번호·글자 외치며 확인' },
   alphabet_song: { per: 0, base: 8, name: (C) => `♪ ${esc(((C.unit.show || {}).song || {}).title || '노래')}`,
-    say: () => '▶ Sing! — 반주 음악 위에 줄마다 소리. 아이들은 자기 책 가사를 보며 다 같이. 줄을 누르면 그 줄만(어려운 줄은 두 번)',
+    say: (C) => `▶ Sing! — ${((C.unit.show || {}).song || {}).track ? '진짜 노래가 나오고 가사 줄이 따라 비쳐요(📜 Lyrics 로 가사 창)' : '반주 음악 위에 줄마다 소리'}. 아이들은 자기 책 가사를 보며 다 같이. 줄을 누르면 그 줄만(어려운 줄은 두 번)`,
     kids: () => '가사 보며 다 같이 부르기' },
   bridge_path: { per: 0, base: 6, name: () => '징검다리 건너기',
     say: (C) => { const o = ((C.unit.show || {}).bridge || {}).families || Object.keys(C.book.families || {}); return `배운 순서대로 연못을 건너요: 아이들이 다음 돌(${o.slice(0, 4).map((f) => esc(famLab(C.book, f))).join(' → ')} …)을 외치면 선생님이 그 돌을 눌러요. 틀리면 소리가 나요`; },
@@ -204,7 +204,24 @@ function lessonHtml(C, li) {
     const p = sb0 + i + 1, link = `../book/?b=sb&u=${n}&p=${p}&t=1${bkq}`;
     return { min, pg, html: `<td class="t">${min}'</td><td class="a">${A.name(C, pg)}<span class="pg">SB p.${sbNo(p)} · <a href="${link}">수업 화면 ${p}쪽</a> · 슬라이드 ${s + (my ? 1 : 0)}장</span></td><td>${A.say(C, pg)}${myTxt}</td><td class="k">${A.kids(C, pg)}${my ? ', 새 단어 첫소리 글자 외치기' : ''}</td>` };
   });
-  if (unit.review && !L2 && !unit.show) rows.push({ min: 6, pg: { type: 'flash' }, html: `<td class="t">6'</td><td class="a">플래시카드 경주<span class="pg"><a href="flashcards.html?u=${n}${bkq}">인쇄 플래시카드</a> (슬라이드 없음)</span></td><td>복습 글자 카드를 섞어 들고 A·B 팀이 번갈아 소리(또는 단어)를 외쳐요. 3초 안에 못 하면 상대 팀 기회. 카드를 다 쓰면 끝</td><td class="k">카드 보고 소리·단어 외치기(팀)</td>` });
+  // 2권부터: 활동 합이 46분에 못 미치면 모자란 만큼(최대 6분)을 한 활동에 더 준다 — 단어 읽기(챈트 한 번 더·종이책 단어 쓰기) → 단어 사냥 → 빙고 → 문장 읽기 차례. 합치기 가족이 둘뿐인 유닛의 1차시가 41분으로 나와서
+  if (C.B2) {
+    let sum = 7 + rows.reduce((a, r) => a + r.min, 0) + (unit.review && n > 0 && !L2 && !unit.show ? 6 : 0);
+    const tgt = ['family_words', 'word_hunt', 'review_bingo', 'review_board', 'sentences', 'story', 'blend'].map((t) => rows.find((r) => r.pg.type === t)).find(Boolean);
+    if (tgt && sum < 46) {
+      const add = Math.min(9, 46 - sum), how = { family_words: '챈트 한 번 더 · 종이책 그림 아래 단어 쓰기', word_hunt: '라운드마다 한 번 더', review_bingo: '한 판 더', review_board: '한 판 더', sentences: '한 명씩 돌아가며 읽기', story: '🎭 역할 바꿔 한 번 더', blend: '타일 한 번 더 · 단어 더 읽기' }[tgt.pg.type];
+      tgt.min += add; tgt.html = tgt.html.replace(/^<td class="t">\d+'<\/td>/, `<td class="t">${tgt.min}'</td>`).replace('</td><td class="k">', ` <b>+${add}분</b>: ${how}</td><td class="k">`);
+    }
+    // 50분을 넘으면 정해진 순서로 줄인다: 메모리 게임 생략(−5) → 짝꿍 소리 타일 한 번만(−1씩) → 챈트 한 번만(−2) → 문장 다 같이 한 번씩(−2) → 이야기 한눈에 생략(−3) → 정리 C 는 숙제로(−2)
+    const cuts = [['read_play', 5, '메모리 게임 생략'], ['digraph', 1, '타일 한 번만'], ['family_words', 2, '챈트 한 번만'], ['sentences', 2, '문장은 다 같이 한 번씩'], ['story', 3, '이야기 한눈에 생략'], ['check', 2, 'C 는 숙제로']];
+    for (const [t, d, how] of cuts) {
+      for (const r of rows.filter((x) => x.pg.type === t && !(t === 'story' && x.pg.half === 2))) {
+        if (sum <= 50 || r.min - d < 3) continue;
+        r.min -= d; sum -= d; r.html = r.html.replace(/^<td class="t">\d+'<\/td>/, `<td class="t">${r.min}'</td>`).replace('</td><td class="k">', ` <b>−${d}분</b>: ${how}</td><td class="k">`);
+      }
+    }
+  }
+  if (unit.review && n > 0 && !L2 && !unit.show) rows.push({ min: 6, pg: { type: 'flash' }, html: `<td class="t">6'</td><td class="a">플래시카드 경주<span class="pg"><a href="flashcards.html?u=${n}${bkq}">인쇄 플래시카드</a> (슬라이드 없음)</span></td><td>복습 글자 카드를 섞어 들고 A·B 팀이 번갈아 소리(또는 단어)를 외쳐요. 3초 안에 못 하면 상대 팀 기회. 카드를 다 쓰면 끝</td><td class="k">카드 보고 소리·단어 외치기(팀)</td>` });
   // 처음(인사·주제가·복습)과 끝(정리·숙제)
   const prev = book.units.find((x) => x.n === n - 1);
   const prevTxt = L2 ? `1차시에 배운 ${C.B2 ? '단어' : '소리·단어'}를 플래시카드로 빠르게` : n === 0 ? '오늘부터 새 책! 표지와 친구들 그림으로 이야기 나누기' : prev && prev.n === 0 ? `0유닛 ${C.B2 ? '모음 카드' : '알파벳 노래 한 소절'}` : `지난 유닛 ${prev && (prev.letters || []).length ? prev.letters.map((l) => l.toUpperCase() + l).join(' ') : prev && (prev.families || []).length ? prev.families.map((f) => famLab(book, f)).join(' ') : '복습'} 카드를 빠르게`;

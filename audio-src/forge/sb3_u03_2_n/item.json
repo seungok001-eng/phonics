@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The door opens. Grumble swats the moth and falls!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677395.6298494,
+   "sec": 5.36,
+   "check": {
+    "transcript": "The door opens, grumbles, swats the moth, and falls.",
+    "type": "sentence",
+    "ipa": "ðə dɔɹ oʊpənz ɡɹʌmbəlz swɑts ðə mɔθ ənd fɔlz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The door opens, grumbles, swats the moth, and falls. | TYPE=sentence | IPA=ðə dɔɹ oʊpənz ɡɹʌmbəlz swɑts ðə mɔθ ənd fɔlz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb3_u03_2_n",
+ "sub": "line",
+ "title": "3권 3유닛 스토리북 해설 · 해설: The door opens. Grumble swats the moth and falls!",
+ "text": "The door opens. Grumble swats the moth and falls!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

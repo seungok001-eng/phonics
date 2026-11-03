@@ -10,11 +10,22 @@
    "sec": 0.79,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676818.411941,
+   "sec": 0.62,
+   "check": null,
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:55",
+ "applied": "2026-11-03 12:33",
  "text_edited": false,
  "error": "",
  "unit": 0,

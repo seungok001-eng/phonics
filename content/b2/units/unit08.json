@@ -182,7 +182,12 @@
             "en": "What floats?",
             "ko": "뭐가 떠가?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Fog! The stones are gone. A dog barks.",
+          "ko": "안개예요! 돌이 안 보여요. 개가 짖어요.",
+          "audio": "scene_b2_u08_1_n"
+        }
       },
       {
         "id": "scene_b2_u08_2",
@@ -222,7 +227,12 @@
             "en": "Where is Pip?",
             "ko": "핍은 어디 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The log is a stone. The dog leads the way.",
+          "ko": "통나무가 돌이 됐어요. 개가 앞장서요.",
+          "audio": "scene_b2_u08_2_n"
+        }
       },
       {
         "id": "scene_b2_u08_3",
@@ -265,7 +275,12 @@
             "en": "What is on the fire?",
             "ko": "불 위에 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A dot of light in the fog. It is Grumble!",
+          "ko": "안개 속에 불빛 한 점. 그럼블이에요!",
+          "audio": "scene_b2_u08_3_n"
+        }
       },
       {
         "id": "scene_b2_u08_4",
@@ -305,7 +320,12 @@
             "en": "Is the pot hot?",
             "ko": "냄비가 뜨거워?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The fog clears. Grumble gives hot soup.",
+          "ko": "안개가 걷혀요. 그럼블이 뜨거운 수프를 나눠 줘요.",
+          "audio": "scene_b2_u08_4_n"
+        }
       }
     ],
     "synopsis_ko": "짙은 안개로 돌이 안 보여요. 비즈가 l-o-g 를 꿰자 통나무 돌이 생기고 개가 앞장서요. 안개 속 주황 점은 그럼블의 등불! 등불을 따라가니 뜨거운 냄비가 있는 야영지예요. 그럼블이 수프를 나눠 줘요.",
@@ -574,7 +594,12 @@
         ],
         "task": "Find the -og words!",
         "task_ko": "-og 단어를 찾아요",
-        "ko": "짙은 안개로 징검돌이 사라졌어요. 강아지가 짖고 통나무가 떠가요. 핍은 '고프!'"
+        "ko": "짙은 안개로 징검돌이 사라졌어요. 강아지가 짖고 통나무가 떠가요. 핍은 '고프!'",
+        "narr": {
+          "text": "Thick fog. The friends can not see the stones.",
+          "ko": "짙은 안개. 친구들은 돌이 안 보여요.",
+          "audio": "sb2_u08_1_n"
+        }
       },
       {
         "id": "sb2_u08_2",
@@ -601,7 +626,12 @@
         ],
         "task": "Find the dog and the log!",
         "task_ko": "개와 통나무를 찾아요",
-        "ko": "비즈가 l-o-g 를 꿰자 통나무가 긴 돌이 돼요. 안개 속에 주황 점 하나 — 등불이에요!"
+        "ko": "비즈가 l-o-g 를 꿰자 통나무가 긴 돌이 돼요. 안개 속에 주황 점 하나 — 등불이에요!",
+        "narr": {
+          "text": "The dog trots on the log. A light glows ahead.",
+          "ko": "개가 통나무 위를 걸어가요. 앞에서 불빛이 빛나요.",
+          "audio": "sb2_u08_2_n"
+        }
       },
       {
         "id": "sb2_u08_3",
@@ -628,7 +658,12 @@
         ],
         "task": "Find the -ot words!",
         "task_ko": "-ot 단어를 찾아요",
-        "ko": "점은 등불을 높이 든 그럼블이에요. 야영지의 간이침대와 뜨거운 냄비. 안개가 걷히고 수프를 나눠요. 캥캥! 저런, 봐요!"
+        "ko": "점은 등불을 높이 든 그럼블이에요. 야영지의 간이침대와 뜨거운 냄비. 안개가 걷히고 수프를 나눠요. 캥캥! 저런, 봐요!",
+        "narr": {
+          "text": "Grumble's lantern! Hot soup for all. Then... yip!",
+          "ko": "그럼블의 등불! 모두에게 뜨거운 수프. 그런데… 캥!",
+          "audio": "sb2_u08_3_n"
+        }
       }
     ]
   }

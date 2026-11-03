@@ -188,7 +188,12 @@
             "en": "Who is in the snow?",
             "ko": "눈 속에 누가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Snow falls. The bridge is broken. A goat shivers.",
+          "ko": "눈이 내려요. 다리가 끊겼어요. 염소가 떨어요.",
+          "audio": "scene_b4_u08_1_n"
+        }
       },
       {
         "id": "scene_b4_u08_2",
@@ -230,7 +235,12 @@
             "en": "Who hops in first?",
             "ko": "누가 먼저 올라타?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Two sparkles become one. A red boat pops up!",
+          "ko": "반짝이 둘이 하나로! 빨간 배가 쑥 솟아요!",
+          "audio": "scene_b4_u08_2_n"
+        }
       },
       {
         "id": "scene_b4_u08_3",
@@ -274,7 +284,12 @@
             "en": "What is in the water?",
             "ko": "물에 뭐가 떠 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Bun rows the boat. The goat wears a coat.",
+          "ko": "번이 노를 저어요. 염소는 외투를 입었어요.",
+          "audio": "scene_b4_u08_3_n"
+        }
       },
       {
         "id": "scene_b4_u08_4",
@@ -316,7 +331,12 @@
             "en": "What is on the drum?",
             "ko": "북에 뭐가 달려 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A warm fire! Grumble has a bowl of toast.",
+          "ko": "따뜻한 불! 그럼블이 토스트 한 그릇을 들고 있어요.",
+          "audio": "scene_b4_u08_4_n"
+        }
       }
     ],
     "synopsis_ko": "눈 오는 날, 두 탑 사이 돌다리가 끊겨 있어요. 아래는 넓은 해자 물. 핍은 \"고-앳?\" 요정 이가 반짝이 둘을 하나로 합치고 \"boat!\" 하자 빨간 배가 떠올라요. 외투 입은 염소, 리본 맨 까마귀와 함께 천천히 건너요. 건너편에서 그럼블이 토스트를 그릇에 담아 기다려요.",
@@ -588,7 +608,12 @@
         ],
         "task": "Find the oa words!",
         "task_ko": "oa 단어를 찾아요",
-        "ko": "눈 오는 날 다리가 끊겼어요. 눈 속에서 염소가 떨어요. 핍은 \"고-앳?\""
+        "ko": "눈 오는 날 다리가 끊겼어요. 눈 속에서 염소가 떨어요. 핍은 \"고-앳?\"",
+        "narr": {
+          "text": "Snow! The bridge is broken. A goat shivers.",
+          "ko": "눈! 다리가 끊겼어요. 염소가 떨어요.",
+          "audio": "sb4_u08_1_n"
+        }
       },
       {
         "id": "sb4_u08_2",
@@ -615,7 +640,12 @@
         ],
         "task": "Find the boat and the crow!",
         "task_ko": "배와 까마귀를 찾아요",
-        "ko": "물에서 빨간 배가 솟아올라요. 외투 입은 염소와 리본 맨 까마귀와 함께 천천히 건너요."
+        "ko": "물에서 빨간 배가 솟아올라요. 외투 입은 염소와 리본 맨 까마귀와 함께 천천히 건너요.",
+        "narr": {
+          "text": "A boat pops up. Bun rows across the moat.",
+          "ko": "배가 솟아올라요. 번이 노를 저어 해자를 건너요.",
+          "audio": "sb4_u08_2_n"
+        }
       },
       {
         "id": "sb4_u08_3",
@@ -642,7 +672,12 @@
         ],
         "task": "Find the ow words!",
         "task_ko": "ow 단어를 찾아요",
-        "ko": "그럼블이 그릇에 토스트를 담아 줘요. 모두 웃어요. — 찍! 찍! 봐요!"
+        "ko": "그럼블이 그릇에 토스트를 담아 줘요. 모두 웃어요. — 찍! 찍! 봐요!",
+        "narr": {
+          "text": "Grumble gives toast by the fire. What squeaks?",
+          "ko": "그럼블이 불가에서 토스트를 줘요. 찍찍 소리는 뭘까요?",
+          "audio": "sb4_u08_3_n"
+        }
       }
     ]
   }

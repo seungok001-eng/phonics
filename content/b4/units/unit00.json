@@ -75,7 +75,12 @@
             "en": "What is on the gate?",
             "ko": "대문에 뭐가 걸려 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The friends see a big castle. The gate is shut.",
+          "ko": "친구들이 커다란 성을 봐요. 대문은 꼭 닫혀 있어요.",
+          "audio": "scene_b4_u00_1_n"
+        }
       },
       {
         "id": "scene_b4_u00_2",
@@ -111,7 +116,12 @@
             "en": "Who is in the window?",
             "ko": "창문에 누가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A tiny fairy pops out. Grumble peeks from a window.",
+          "ko": "작은 요정이 톡 튀어나와요. 그럼블이 창문에서 내다봐요.",
+          "audio": "scene_b4_u00_2_n"
+        }
       }
     ],
     "synopsis_ko": "숲길 끝 언덕 위에 커다란 마법 성이 있어요. 대문은 꼭 닫혀 있고 파란 모자가 걸려 있어요. 반짝이는 요정 이가 날아와 핍에게 인사해요. 탑 창문에서 그럼블이 \"쉿!\" 해요.",
@@ -153,7 +163,12 @@
         ],
         "task": "Find the cap!",
         "task_ko": "모자를 찾아요",
-        "ko": "숲길 끝 언덕 위에 커다란 성이 있어요. 대문은 꼭 닫혀 있고 파란 모자가 걸려 있어요."
+        "ko": "숲길 끝 언덕 위에 커다란 성이 있어요. 대문은 꼭 닫혀 있고 파란 모자가 걸려 있어요.",
+        "narr": {
+          "text": "A big castle! A cap hangs on the shut gate.",
+          "ko": "커다란 성! 닫힌 대문에 모자가 걸려 있어요.",
+          "audio": "sb4_u00_1_n"
+        }
       },
       {
         "id": "sb4_u00_2",
@@ -180,7 +195,12 @@
         ],
         "task": "Find Fairy E!",
         "task_ko": "요정 이를 찾아요",
-        "ko": "성문 글자 끝에서 반짝이던 요정 이가 나타나 '이~! 안녕, 핍!' 해요. 탑 창문에서 누군가 내다봐요."
+        "ko": "성문 글자 끝에서 반짝이던 요정 이가 나타나 '이~! 안녕, 핍!' 해요. 탑 창문에서 누군가 내다봐요.",
+        "narr": {
+          "text": "A tiny fairy flies out. Who is in the tower?",
+          "ko": "작은 요정이 날아 나와요. 탑에는 누가 있을까요?",
+          "audio": "sb4_u00_2_n"
+        }
       }
     ]
   },

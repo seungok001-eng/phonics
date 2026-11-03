@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie has a bike. A kit hangs on the door.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676961.8076274,
+   "sec": 3.72,
+   "check": {
+    "transcript": "Heggie has a bike. A kit hangs on the door.",
+    "type": "sentence",
+    "ipa": "ˈhɛgi həz ə ˈbaɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Heggie has a bike. A kit hangs on the door. | TYPE=sentence | IPA=ˈhɛgi həz ə ˈbaɪk | ə ˈkɪt ˈhæŋz ɑn ðə ˈdɔr | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_b4_u02_1_n",
+ "sub": "line",
+ "title": "4권 2유닛 해설 · 해설: Hedgie has a bike. A kit hangs on the door.",
+ "text": "Hedgie has a bike. A kit hangs on the door.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

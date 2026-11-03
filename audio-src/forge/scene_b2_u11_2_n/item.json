@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pig wins a trophy. Grumble walks over the bridge.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677230.6233768,
+   "sec": 4.76,
+   "check": {
+    "transcript": "The pig wins a trophy. Grumble walks over the bridge.",
+    "type": "sentence",
+    "ipa": "ðə pɪg wɪnz ə troʊfi. ɡrʌmbəl wɑks oʊvər ðə brɪdʒ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig wins a trophy. Grumble walks over the bridge. | TYPE=sentence | IPA=ðə pɪg wɪnz ə troʊfi. ɡrʌmbəl wɑks oʊvər ðə brɪdʒ. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b2_u11_2_n",
+ "sub": "line",
+ "title": "2권 11유닛 해설 · 해설: The pig wins a trophy. Grumble walks over the bridge.",
+ "text": "The pig wins a trophy. Grumble walks over the bridge.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble pats the couch. All sit and see the moon.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677262.614898,
+   "sec": 4.24,
+   "check": {
+    "transcript": "Grumble pats the couch. All sit and see the moon.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ˈpæts ðə ˈkaʊtʃ ˈɔːl ˈsɪt ənd ˈsiː ðə ˈmuːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble pats the couch. All sit and see the moon. | TYPE=sentence | IPA=ˈɡɹʌmbəl ˈpæts ðə ˈkaʊtʃ ˈɔːl ˈsɪt ənd ˈsiː ðə ˈmuːn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b4_u09_4_n",
+ "sub": "line",
+ "title": "4권 9유닛 해설 · 해설: Grumble pats the couch. All sit and see the moon.",
+ "text": "Grumble pats the couch. All sit and see the moon.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

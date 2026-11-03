@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791458304.852153,
+ "updated": 1793677412.1375813,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/5229c53c-5799-4553-877c-1fd17891fe00?Expires=1791479880&KeyName=labs-flow-prod-cdn-key&Signature=RZwqp0lWzYPHVw7wU0kM-dfV6g4",
  "prompt_edited": false,
- "applied": "2026-10-08 20:23",
+ "applied": "2026-11-03 13:24",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,10 +17,11 @@
  "kind": "word",
  "word": "fish",
  "title": "fish · 물고기",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a plump orange fish with white stripes, swimming.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a bright blue cartoon fish, whole body with the tail fin clearly attached, swimming.",
  "aspect": "1:1",
  "out": "web/assets/art/word_fish.png",
  "book": 3,
- "claimed_at": 1791458275.613326,
- "asset_no": 2154
+ "asset_no": 2154,
+ "claimed_at": 1793677385.3587997,
+ "regen": 1
 }

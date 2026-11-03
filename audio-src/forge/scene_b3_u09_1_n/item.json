@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A chimp grabs Grumble's lantern and runs!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677548.7124782,
+   "sec": 3.64,
+   "check": {
+    "transcript": "A chimp grabs Grumble's lantern and runs.",
+    "type": "sentence",
+    "ipa": "ə tʃɪmp ɡræbz ɡɹʌmbəlz læntɚn ænd ɹʌnz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A chimp grabs Grumble's lantern and runs. | TYPE=sentence | IPA=ə tʃɪmp ɡræbz ɡɹʌmbəlz læntɚn ænd ɹʌnz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b3_u09_1_n",
+ "sub": "line",
+ "title": "3권 9유닛 해설 · 해설: A chimp grabs Grumble's lantern and runs!",
+ "text": "A chimp grabs Grumble's lantern and runs!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

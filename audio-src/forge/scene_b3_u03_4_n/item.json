@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble takes a warm bubble bath. He is happy.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677384.7058358,
+   "sec": 4.36,
+   "check": {
+    "transcript": "Grumble takes a warm bubble bath. He is happy.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl teɪks ə wɔɹm ˈbʌbəl bæθ hi ɪz ˈhæpi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble takes a warm bubble bath. He is happy. | TYPE=sentence | IPA=ˈɡɹʌmbəl teɪks ə wɔɹm ˈbʌbəl bæθ hi ɪz ˈhæpi | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b3_u03_4_n",
+ "sub": "line",
+ "title": "3권 3유닛 해설 · 해설: Grumble takes a warm bubble bath. He is happy.",
+ "text": "Grumble takes a warm bubble bath. He is happy.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

@@ -386,7 +386,12 @@
             "en": "Can you read the pictures?",
             "ko": "그림을 읽어 볼 수 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The friends read all the pictures on the wall.",
+          "ko": "친구들이 벽에 걸린 그림을 하나씩 읽어요.",
+          "audio": "scene_b4_u05_1_n"
+        }
       },
       {
         "id": "scene_b4_u05_2",
@@ -427,7 +432,12 @@
             "en": "Why is Fairy E sad?",
             "ko": "요정 이는 왜 힘이 없어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Fairy E is tired. Pip tries all by itself.",
+          "ko": "요정 이가 지쳤어요. 핍이 혼자서 애써요.",
+          "audio": "scene_b4_u05_2_n"
+        }
       },
       {
         "id": "scene_b4_u05_3",
@@ -469,7 +479,12 @@
             "en": "What opens?",
             "ko": "무엇이 열렸어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Pip says the magic word! The door opens!",
+          "ko": "핍이 마법 단어를 말해요! 문이 열려요!",
+          "audio": "scene_b4_u05_3_n"
+        }
       },
       {
         "id": "scene_b4_u05_4",
@@ -511,7 +526,12 @@
             "en": "What does Grumble whisper?",
             "ko": "그럼블이 뭐라고 속삭여?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble comes down and lights the steps.",
+          "ko": "그럼블이 내려와 등불로 계단을 비춰 줘요.",
+          "audio": "scene_b4_u05_4_n"
+        }
       }
     ],
     "synopsis_ko": "성 안 수수께끼 방 벽에 그동안 바꾼 그림들이 걸려 있어요. 마지막 금빛 문에 다시 파란 모자가 걸려 있는데 요정 이의 지팡이가 지쳐 반짝이지 않아요. 핍이 온 힘을 다해 \"케이프!\" 하고 첫 마법 단어를 말하자 모자가 저절로 망토로 바뀌고 문이 열려요! 그럼블이 내려와 등불로 계단을 비춰 줘요.",
@@ -559,7 +579,12 @@
         ],
         "task": "Find the magic e words!",
         "task_ko": "마법 e 단어를 찾아요",
-        "ko": "수수께끼 방 벽에 그동안 바꾼 그림들이 걸려 있어요. 모두 하나씩 읽어 봐요."
+        "ko": "수수께끼 방 벽에 그동안 바꾼 그림들이 걸려 있어요. 모두 하나씩 읽어 봐요.",
+        "narr": {
+          "text": "The friends read every picture on the wall.",
+          "ko": "친구들이 벽의 그림을 모두 읽어요.",
+          "audio": "sb4_u05_1_n"
+        }
       },
       {
         "id": "sb4_u05_2",
@@ -586,7 +611,12 @@
         ],
         "task": "Find the cap!",
         "task_ko": "모자를 찾아요",
-        "ko": "마지막 문에 또 파란 모자. 요정 이의 지팡이가 지쳤어요. 핍이 눈을 꼭 감고 애써요."
+        "ko": "마지막 문에 또 파란 모자. 요정 이의 지팡이가 지쳤어요. 핍이 눈을 꼭 감고 애써요.",
+        "narr": {
+          "text": "Fairy E's wand is tired. Pip tries alone.",
+          "ko": "요정 이의 지팡이가 지쳤어요. 핍이 혼자 애써요.",
+          "audio": "sb4_u05_2_n"
+        }
       },
       {
         "id": "sb4_u05_3",
@@ -613,7 +643,12 @@
         ],
         "task": "Find Grumble's lantern!",
         "task_ko": "그럼블의 등불을 찾아요",
-        "ko": "'케이프!' 핍의 첫 마법 단어예요. 그럼블이 등불로 계단을 비추며 '쉿… 케이프.' — 똑똑! 똑똑! 저런!"
+        "ko": "'케이프!' 핍의 첫 마법 단어예요. 그럼블이 등불로 계단을 비추며 '쉿… 케이프.' — 똑똑! 똑똑! 저런!",
+        "narr": {
+          "text": "Pip's word opens the door! Grumble lights the way.",
+          "ko": "핍의 말이 문을 열어요! 그럼블이 길을 비춰 줘요.",
+          "audio": "sb4_u05_3_n"
+        }
       }
     ]
   }

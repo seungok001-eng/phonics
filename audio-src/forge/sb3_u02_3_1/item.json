@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=a chip, my chip | TYPE=sentence | IPA=ə tʃɪp maɪ tʃɪp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... A chip? My chip?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677888.3599827,
+   "sec": 2.47,
+   "check": {
+    "transcript": "a chip, my chip",
+    "type": "sentence",
+    "ipa": "ə tʃɪp maɪ tʃɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a chip, my chip | TYPE=sentence | IPA=ə tʃɪp maɪ tʃɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:10",
+ "applied": "2026-11-03 12:51",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -31,5 +48,6 @@
  "text": "Shh... A chip? My chip?",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

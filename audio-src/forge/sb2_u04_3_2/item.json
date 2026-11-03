@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Shh. It is my bed. | TYPE=sentence | IPA=ʃː ˈɪt ɪz maɪ ˈbɛd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... It is my bed?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677785.2515366,
+   "sec": 2.0,
+   "check": {
+    "transcript": "It is my bed.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my bed. | TYPE=sentence | IPA=ɪt ɪz maɪ bɛd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:38",
+ "applied": "2026-11-03 12:49",
  "text_edited": false,
  "error": "",
  "unit": 4,

@@ -183,7 +183,12 @@
             "en": "Is it windy?",
             "ko": "바람이 불어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A big wind! The cap and the bag float away.",
+          "ko": "바람이 쌩! 모자와 가방이 떠내려가요.",
+          "audio": "scene_b2_u02_1_n"
+        }
       },
       {
         "id": "scene_b2_u02_2",
@@ -225,7 +230,12 @@
             "en": "What drips?",
             "ko": "뭐가 똑똑 떨어져?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A stone lifts the cap. The cat naps on the mat.",
+          "ko": "돌이 모자를 들어 올려요. 고양이는 매트에서 낮잠을 자요.",
+          "audio": "scene_b2_u02_2_n"
+        }
       },
       {
         "id": "scene_b2_u02_3",
@@ -268,7 +278,12 @@
             "en": "Who lifts the bag?",
             "ko": "누가 가방을 들어 올려?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A dog pushes the bag. Grumble lifts it out.",
+          "ko": "개가 가방을 밀어요. 그럼블이 가방을 건져 올려요.",
+          "audio": "scene_b2_u02_3_n"
+        }
       },
       {
         "id": "scene_b2_u02_4",
@@ -307,7 +322,12 @@
             "en": "Is Hedgie happy?",
             "ko": "헤지는 기뻐?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Hedgie hugs his bag. Grumble has Bun's cap!",
+          "ko": "헤지가 가방을 안아요. 그럼블이 번의 모자를 썼어요!",
+          "audio": "scene_b2_u02_4_n"
+        }
       }
     ],
     "synopsis_ko": "바람에 번의 모자와 헤지의 가방이 연못에 떠내려가요. 비즈가 c-a-p, b-a-g 를 꿰자 돌이 솟아 모자를 건졌어요. 개가 가방을 밀고 그럼블이 건져 줬어요. 그런데 그럼블이 모자를 쓰고 있네요!",
@@ -577,7 +597,12 @@
         ],
         "task": "Find the -ap words!",
         "task_ko": "-ap 단어를 찾아요",
-        "ko": "바람에 번의 모자와 헤지의 가방이 연못으로 떠내려가요. 지도도 흘러나와요. 핍은 '팍!'"
+        "ko": "바람에 번의 모자와 헤지의 가방이 연못으로 떠내려가요. 지도도 흘러나와요. 핍은 '팍!'",
+        "narr": {
+          "text": "The wind blows the cap and the bag away.",
+          "ko": "바람이 모자와 가방을 날려 보내요.",
+          "audio": "sb2_u02_1_n"
+        }
       },
       {
         "id": "sb2_u02_2",
@@ -604,7 +629,12 @@
         ],
         "task": "Find the -ap words!",
         "task_ko": "-ap 단어를 찾아요",
-        "ko": "비즈가 c-a-p 를 꿰자 모자 밑에서 돌이 솟아요. 고양이는 낮잠, 수도꼭지, 지도가 있어요."
+        "ko": "비즈가 c-a-p 를 꿰자 모자 밑에서 돌이 솟아요. 고양이는 낮잠, 수도꼭지, 지도가 있어요.",
+        "narr": {
+          "text": "Bun gets her cap. A cat, a tap and a map.",
+          "ko": "번이 모자를 되찾아요. 고양이, 수도꼭지, 지도도 있어요.",
+          "audio": "sb2_u02_2_n"
+        }
       },
       {
         "id": "sb2_u02_3",
@@ -631,7 +661,12 @@
         ],
         "task": "Find the -ag words!",
         "task_ko": "-ag 단어를 찾아요",
-        "ko": "개가 가방을 밀고 그럼블이 등불 막대로 건져 줘요. 그런데 그럼블이 모자를 쓰고 있어요! 꼬꼬꼬! 저런!"
+        "ko": "개가 가방을 밀고 그럼블이 등불 막대로 건져 줘요. 그런데 그럼블이 모자를 쓰고 있어요! 꼬꼬꼬! 저런!",
+        "narr": {
+          "text": "Grumble saves the bag and wears the cap!",
+          "ko": "그럼블이 가방을 건지고 모자까지 썼어요!",
+          "audio": "sb2_u02_3_n"
+        }
       }
     ]
   }

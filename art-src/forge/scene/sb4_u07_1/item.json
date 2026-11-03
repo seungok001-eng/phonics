@@ -4,11 +4,11 @@
  "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791640694.3625762,
+ "updated": 1793678793.2687101,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "2026-10-10 23:00",
+ "applied": "2026-11-03 13:18",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b4",
@@ -20,5 +20,6 @@
  "aspect": "4:3",
  "out": "web/assets/art/sb4_u07_1.jpg",
  "book": 4,
- "claimed_at": 1791640682.902479
+ "regen": 1,
+ "claimed_at": 1793678761.8533568
 }

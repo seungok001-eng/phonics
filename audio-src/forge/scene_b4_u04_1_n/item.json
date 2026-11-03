@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A bear cub splashes in a tub. Water is everywhere!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677046.2841034,
+   "sec": 4.6,
+   "check": {
+    "transcript": "A bear cub splashes in a tub. Water is everywhere.",
+    "type": "sentence",
+    "ipa": "ə bɛɹ kʌb spˈlæʃəz ɪn ə tʌb. wɔtɚ ɪz ɛvɹiˌwɛɹ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A bear cub splashes in a tub. Water is everywhere. | TYPE=sentence | IPA=ə bɛɹ kʌb spˈlæʃəz ɪn ə tʌb. wɔtɚ ɪz ɛvɹiˌwɛɹ. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_b4_u04_1_n",
+ "sub": "line",
+ "title": "4권 4유닛 해설 · 해설: A bear cub splashes in a tub. Water is everywhere!",
+ "text": "A bear cub splashes in a tub. Water is everywhere!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

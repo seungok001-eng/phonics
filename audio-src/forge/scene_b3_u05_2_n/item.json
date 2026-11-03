@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip stands on a stump. Everyone holds their breath.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677451.8379834,
+   "sec": 4.96,
+   "check": {
+    "transcript": "Pip stands on a stump. Everyone holds their breath.",
+    "type": "sentence",
+    "ipa": "pɪp stændz ɒn ə stʌmp ˈɛvriwʌn hoʊldz ðɛr brɛθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip stands on a stump. Everyone holds their breath. | TYPE=sentence | IPA=pɪp stændz ɒn ə stʌmp ˈɛvriwʌn hoʊldz ðɛr brɛθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_b3_u05_2_n",
+ "sub": "line",
+ "title": "3권 5유닛 해설 · 해설: Pip stands on a stump. Everyone holds their breath.",
+ "text": "Pip stands on a stump. Everyone holds their breath.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

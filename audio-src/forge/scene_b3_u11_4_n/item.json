@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Night. A castle gate glows far away.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677601.0708115,
+   "sec": 3.92,
+   "check": {
+    "transcript": "night",
+    "type": "word",
+    "ipa": "naɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=night | TYPE=word | IPA=naɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b3_u11_4_n",
+ "sub": "line",
+ "title": "3권 11유닛 해설 · 해설: Night. A castle gate glows far away.",
+ "text": "Night. A castle gate glows far away.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

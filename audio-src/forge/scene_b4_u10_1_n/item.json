@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A storm rages. The top room is dark.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677287.4827917,
+   "sec": 4.28,
+   "check": {
+    "transcript": "A storm rages, the top room is dark.",
+    "type": "sentence",
+    "ipa": "ə stɔɹm ɹeɪdʒɪz ðə tɑp ɹum ɪz dɑɹk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A storm rages, the top room is dark. | TYPE=sentence | IPA=ə stɔɹm ɹeɪdʒɪz ðə tɑp ɹum ɪz dɑɹk | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "scene_b4_u10_1_n",
+ "sub": "line",
+ "title": "4권 10유닛 해설 · 해설: A storm rages. The top room is dark.",
+ "text": "A storm rages. The top room is dark.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

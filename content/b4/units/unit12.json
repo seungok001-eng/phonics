@@ -721,7 +721,12 @@
             "en": "What does Grumble play?",
             "ko": "그럼블은 뭘 연주해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The Song Tree Show! All the friends sing and dance.",
+          "ko": "노래 나무 쇼! 친구들 모두 노래하고 춤춰요.",
+          "audio": "scene_b4_u12_1_n"
+        }
       }
     ],
     "synopsis_ko": "노래 나무 아래에서 시리즈 마지막 공연이 열려요. 핍이 노래하고 그럼블이 북을 치고, 요정 이가 반짝이를 뿌려요. 1~4권에서 만난 동물 친구들이 모두 모여 함께 노래해요.",

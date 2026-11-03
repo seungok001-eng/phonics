@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cap hangs on the gate. Pip reads in pieces.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676946.078258,
+   "sec": 3.92,
+   "check": {
+    "transcript": "A cap hangs on the gate. Pete reads in pieces.",
+    "type": "sentence",
+    "ipa": "əˈkæpˈhæŋzɑnðəˈgeɪtˈpiːtˈriːdzɪnˈpiːsɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A cap hangs on the gate. Pete reads in pieces. | TYPE=sentence | IPA=əˈkæpˈhæŋzɑnðəˈgeɪtˈpiːtˈriːdzɪnˈpiːsɪz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_1_n",
+ "sub": "line",
+ "title": "4권 1유닛 스토리북 해설 · 해설: A cap hangs on the gate. Pip reads in pieces.",
+ "text": "A cap hangs on the gate. Pip reads in pieces.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

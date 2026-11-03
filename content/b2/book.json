@@ -470,13 +470,14 @@
     },
     "mat": {
       "ko": "매트",
-      "desc": "a rectangular brown bristly doormat lying flat in front of a green front door, plain with no letters or pattern",
+      "desc": "a rectangular brown woven doormat lying flat on the floor, seen from slightly above, nothing else around it",
       "family": "at"
     },
     "rat": {
       "ko": "쥐",
       "desc": "a small grey rat with round ears and a long pink tail, sitting up",
-      "family": "at"
+      "family": "at",
+      "pic_hard": true
     },
     "can": {
       "ko": "깡통",
@@ -531,8 +532,9 @@
     },
     "rag": {
       "ko": "걸레",
-      "desc": "a crumpled old cleaning rag with a patch, hanging over a bucket edge",
-      "family": "ag"
+      "desc": "one crumpled old grey cleaning rag with a red patch, lying alone on the floor, nothing else",
+      "family": "ag",
+      "pic_hard": true
     },
     "wag": {
       "ko": "꼬리 흔들기",
@@ -548,7 +550,8 @@
     "pet": {
       "ko": "애완동물",
       "desc": "an orange goldfish swimming in a round glass bowl",
-      "family": "et"
+      "family": "et",
+      "pic_hard": true
     },
     "wet": {
       "ko": "젖은",
@@ -579,12 +582,14 @@
     "ten": {
       "ko": "10",
       "desc": "ten yellow rubber ducks in two neat rows",
-      "family": "en"
+      "family": "en",
+      "pic_hard": true
     },
     "den": {
       "ko": "굴",
       "desc": "a cozy fox den: a round hole under a tree root with a fox face peeking out",
-      "family": "en"
+      "family": "en",
+      "pic_hard": true
     },
     "bed": {
       "ko": "침대",
@@ -610,7 +615,7 @@
     },
     "peg": {
       "ko": "빨래집게",
-      "desc": "a wooden clothes peg clipping a striped sock onto a washing line",
+      "desc": "one big wooden clothes peg (clothespin) standing alone, drawn large and clear, nothing clipped in it",
       "family": "eg"
     },
     "beg": {
@@ -654,7 +659,8 @@
     "fin": {
       "ko": "지느러미",
       "desc": "a bright blue fish with one big orange fin",
-      "family": "in"
+      "family": "in",
+      "pic_hard": true
     },
     "bin": {
       "ko": "쓰레기통",
@@ -669,13 +675,15 @@
     },
     "tin": {
       "ko": "양철통",
-      "desc": "a round silver cookie tin with its lid half off, cookies inside",
-      "family": "in"
+      "desc": "a round silver metal tin with its lid closed, a small plain label on the front, nothing else",
+      "family": "in",
+      "pic_hard": true
     },
     "zip": {
       "ko": "지퍼 올리기",
       "desc": "a red jacket with a zipper being pulled up, a small hand-shaped tab on the zipper, no person",
-      "family": "ip"
+      "family": "ip",
+      "pic_hard": true
     },
     "lip": {
       "ko": "입술",
@@ -714,7 +722,8 @@
     "pit": {
       "ko": "씨",
       "desc": "a peach cut open showing the big pit in the middle",
-      "family": "it"
+      "family": "it",
+      "pic_hard": true
     },
     "dog": {
       "ko": "개",
@@ -728,8 +737,9 @@
     },
     "fog": {
       "ko": "안개",
-      "desc": "a misty grey fog over a pond with a tree half hidden in it",
-      "family": "og"
+      "desc": "thick grey fog on a road: a faint street lamp and a faint car shape half hidden in the fog, everything soft and misty",
+      "family": "og",
+      "pic_hard": true
     },
     "pot": {
       "ko": "냄비",
@@ -745,7 +755,8 @@
     "dot": {
       "ko": "점",
       "desc": "one big red polka dot on a white card",
-      "family": "ot"
+      "family": "ot",
+      "pic_hard": true
     },
     "cot": {
       "ko": "간이침대",

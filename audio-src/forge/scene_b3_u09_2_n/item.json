@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The tent opens. The chimp sits on a chest.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677553.3678367,
+   "sec": 3.64,
+   "check": {
+    "transcript": "The tent opens. The chimp sits on a chest.",
+    "type": "sentence",
+    "ipa": "ðə tɛnt ˈoʊpənz ˈðə tʃɪmp sɪts ɑn ə tʃɛst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The tent opens. The chimp sits on a chest. | TYPE=sentence | IPA=ðə tɛnt ˈoʊpənz ˈðə tʃɪmp sɪts ɑn ə tʃɛst | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b3_u09_2_n",
+ "sub": "line",
+ "title": "3권 9유닛 해설 · 해설: The tent opens. The chimp sits on a chest.",
+ "text": "The tent opens. The chimp sits on a chest.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

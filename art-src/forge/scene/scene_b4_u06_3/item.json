@@ -4,11 +4,11 @@
  "cut": "cut.jpg",
  "attempts": 0,
  "error": "",
- "updated": 1791640620.6245003,
+ "updated": 1793678700.4325085,
  "auto_approved": false,
  "flow_url": "",
  "prompt_edited": false,
- "applied": "2026-10-10 23:00",
+ "applied": "2026-11-03 13:21",
  "gen": "",
  "job_type": "image",
  "reference": "cast_sheet_b4",
@@ -20,5 +20,6 @@
  "aspect": "4:3",
  "out": "web/assets/art/scene_b4_u06_3.jpg",
  "book": 4,
- "claimed_at": 1791640606.847735
+ "claimed_at": 1793678673.8239212,
+ "regen": 1
 }

@@ -192,7 +192,12 @@
             "en": "What is Hedgie holding?",
             "ko": "헤지가 뭘 들고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A sunny picnic. Bugs are everywhere!",
+          "ko": "햇살 좋은 소풍이에요. 벌레가 여기저기!",
+          "audio": "scene_b2_u10_1_n"
+        }
       },
       {
         "id": "scene_b2_u10_2",
@@ -234,7 +239,12 @@
             "en": "What is Bun eating?",
             "ko": "번이 뭘 먹어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A pup runs after the bug. Bun eats a bun.",
+          "ko": "강아지가 벌레를 쫓아 달려요. 번이 빵을 먹어요.",
+          "audio": "scene_b2_u10_2_n"
+        }
       },
       {
         "id": "scene_b2_u10_3",
@@ -275,7 +285,12 @@
             "en": "Where does Pip go?",
             "ko": "핍은 어디로 가?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The last stone! Pip flies up high.",
+          "ko": "마지막 돌이에요! 핍이 높이 날아올라요.",
+          "audio": "scene_b2_u10_3_n"
+        }
       },
       {
         "id": "scene_b2_u10_4",
@@ -317,7 +332,12 @@
             "en": "Who hugs Grumble?",
             "ko": "누가 그럼블을 안아?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Pip sings! Bun gives Grumble a big hug.",
+          "ko": "핍이 노래해요! 번이 그럼블을 꼭 안아 줘요.",
+          "audio": "scene_b2_u10_4_n"
+        }
       }
     ],
     "synopsis_ko": "햇살 소풍에 깔개 위 벌레, 머그컵 속 벌레! 강아지가 달리고 번은 빵을 먹어요. 마지막 틈에 c-u-p 으로 돌이 솟아 다리가 완성됐어요! 연못에서 노래 조각이 나와 핍이 노래해요. 번이 그럼블을 꼭 안아 줘요.",
@@ -592,7 +612,12 @@
         ],
         "task": "Find the -ug words!",
         "task_ko": "-ug 단어를 찾아요",
-        "ko": "햇살 소풍이에요. 깔개 위에 벌레, 머그컵 속에도 벌레. 핍은 '겁!'"
+        "ko": "햇살 소풍이에요. 깔개 위에 벌레, 머그컵 속에도 벌레. 핍은 '겁!'",
+        "narr": {
+          "text": "A picnic in the sun. Two little bugs!",
+          "ko": "햇살 아래 소풍이에요. 작은 벌레 두 마리!",
+          "audio": "sb2_u10_1_n"
+        }
       },
       {
         "id": "sb2_u10_2",
@@ -619,7 +644,12 @@
         ],
         "task": "Find the -un words!",
         "task_ko": "-un 단어를 찾아요",
-        "ko": "비즈가 b-u-g 를 꿰고 강아지가 달려요. 번이 빵을 먹어요. 파티 모자도 보여요."
+        "ko": "비즈가 b-u-g 를 꿰고 강아지가 달려요. 번이 빵을 먹어요. 파티 모자도 보여요.",
+        "narr": {
+          "text": "A pup chases the bug. Bun bites a bun.",
+          "ko": "강아지가 벌레를 쫓아요. 번이 빵을 한 입 먹어요.",
+          "audio": "sb2_u10_2_n"
+        }
       },
       {
         "id": "sb2_u10_3",
@@ -646,7 +676,12 @@
         ],
         "task": "Find the -up words!",
         "task_ko": "-up 단어를 찾아요",
-        "ko": "마지막 틈에 컵이 떠 있어요. c-u-p 으로 마지막 돌, 다리 완성! 노래 조각이 핍에게 들어가 핍이 노래해요. 번이 그럼블을 안아요."
+        "ko": "마지막 틈에 컵이 떠 있어요. c-u-p 으로 마지막 돌, 다리 완성! 노래 조각이 핍에게 들어가 핍이 노래해요. 번이 그럼블을 안아요.",
+        "narr": {
+          "text": "The bridge is done! Pip sings. Bun hugs Grumble.",
+          "ko": "다리가 완성됐어요! 핍이 노래해요. 번이 그럼블을 안아요.",
+          "audio": "sb2_u10_3_n"
+        }
       }
     ]
   }

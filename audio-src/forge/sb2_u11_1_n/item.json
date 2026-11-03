@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A party on the bank. All the pets come.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677249.0093257,
+   "sec": 3.44,
+   "check": {
+    "transcript": "A party on the bank. All the pets come.",
+    "type": "sentence",
+    "ipa": "ə pɑɹt͡si ɑn ðə bæŋk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A party on the bank. All the pets come. | TYPE=sentence | IPA=ə pɑɹt͡si ɑn ðə bæŋk | ɔl ðə pɛts kʌm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb2_u11_1_n",
+ "sub": "line",
+ "title": "2권 11유닛 스토리북 해설 · 해설: A party on the bank. All the pets come.",
+ "text": "A party on the bank. All the pets come.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

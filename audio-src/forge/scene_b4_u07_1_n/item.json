@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A bare tree with no leaves. A sad bee buzzes.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677166.7406805,
+   "sec": 4.88,
+   "check": {
+    "transcript": "a bare tree with no leaves a sad bee buzzes",
+    "type": "sentence",
+    "ipa": "ə bɛɹ tɹi wɪð noʊ livz ə sæd bi bʌzɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a bare tree with no leaves a sad bee buzzes | TYPE=sentence | IPA=ə bɛɹ tɹi wɪð noʊ livz ə sæd bi bʌzɪz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_b4_u07_1_n",
+ "sub": "line",
+ "title": "4권 7유닛 해설 · 해설: A bare tree with no leaves. A sad bee buzzes.",
+ "text": "A bare tree with no leaves. A sad bee buzzes.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

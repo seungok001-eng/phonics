@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "They land on sand. A mule holds a flute.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677057.5329378,
+   "sec": 4.12,
+   "check": {
+    "transcript": "A mule holds a flute.",
+    "type": "sentence",
+    "ipa": "ə mjul hoʊldz ə flut",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A mule holds a flute. | TYPE=sentence | IPA=ə mjul hoʊldz ə flut | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_b4_u04_3_n",
+ "sub": "line",
+ "title": "4권 4유닛 해설 · 해설: They land on sand. A mule holds a flute.",
+ "text": "They land on sand. A mule holds a flute.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

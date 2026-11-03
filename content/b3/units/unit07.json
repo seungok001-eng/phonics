@@ -198,7 +198,12 @@
             "en": "What does the crab have?",
             "ko": "게가 뭘 메고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A crab on a brick wall snaps its claws!",
+          "ko": "벽돌담 위 게가 집게를 싹둑거려요!",
+          "audio": "scene_b3_u07_1_n"
+        }
       },
       {
         "id": "scene_b3_u07_2",
@@ -242,7 +247,12 @@
             "en": "What do the bricks do?",
             "ko": "벽돌들은 어떻게 됐어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The bricks hop apart. An egg is in a crib!",
+          "ko": "벽돌이 폴짝 비켜요. 아기 침대에 알이 있어요!",
+          "audio": "scene_b3_u07_2_n"
+        }
       },
       {
         "id": "scene_b3_u07_3",
@@ -283,7 +293,12 @@
             "en": "What does the crab hold?",
             "ko": "게는 뭘 들고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The egg cracks! A tiny beak pokes out.",
+          "ko": "알에 금이 가요! 작은 부리가 쏙 나와요.",
+          "audio": "scene_b3_u07_3_n"
+        }
       },
       {
         "id": "scene_b3_u07_4",
@@ -324,7 +339,12 @@
             "en": "What does Grumble hang up?",
             "ko": "그럼블은 뭘 걸어 줬어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A baby bird! Grumble hangs his lantern over the crib.",
+          "ko": "아기 새예요! 그럼블이 등불을 침대 위에 걸어요.",
+          "audio": "scene_b3_u07_4_n"
+        }
       }
     ],
     "synopsis_ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑. 핌과 팜이 br! 벽돌이 비켜나고 아기 침대 속 알에 쩍 금이 가요. 핍은 \"크랙!\"을 두 번째에 바로 말해요. 아기 새가 태어나자 그럼블이 나무에서 내려와 등불을 걸어 줘요.",
@@ -595,7 +615,12 @@
         ],
         "task": "Find the br words!",
         "task_ko": "br 단어를 찾아요",
-        "ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑! 핍은 br 을 거꾸로 \"르브?\""
+        "ko": "벽돌담 위에서 북을 멘 게가 집게를 싹둑싹둑! 핍은 br 을 거꾸로 \"르브?\"",
+        "narr": {
+          "text": "A crab on a brick wall snaps its claws!",
+          "ko": "벽돌담 위 게가 집게를 싹둑거려요!",
+          "audio": "sb3_u07_1_n"
+        }
       },
       {
         "id": "sb3_u07_2",
@@ -622,7 +647,12 @@
         ],
         "task": "Find the cr words!",
         "task_ko": "cr 단어를 찾아요",
-        "ko": "핌과 팜이 br! 벽돌이 비켜나요. 아기 침대 속 알에 쩍 금이! 핍이 \"크랙!\""
+        "ko": "핌과 팜이 br! 벽돌이 비켜나요. 아기 침대 속 알에 쩍 금이! 핍이 \"크랙!\"",
+        "narr": {
+          "text": "The bricks hop apart. The egg in the crib cracks!",
+          "ko": "벽돌이 비켜요. 침대 속 알에 금이 가요!",
+          "audio": "sb3_u07_2_n"
+        }
       },
       {
         "id": "sb3_u07_3",
@@ -649,7 +679,12 @@
         ],
         "task": "Find the dr words!",
         "task_ko": "dr 단어를 찾아요",
-        "ko": "아기 새가 태어났어요. 그럼블이 \"쉿! 북은 안 돼!\" 하며 등불을 걸어 줘요. — 킁킁! 어디서 맛있는 냄새가?"
+        "ko": "아기 새가 태어났어요. 그럼블이 \"쉿! 북은 안 돼!\" 하며 등불을 걸어 줘요. — 킁킁! 어디서 맛있는 냄새가?",
+        "narr": {
+          "text": "A baby bird is born. What smells so good?",
+          "ko": "아기 새가 태어났어요. 무슨 냄새가 이렇게 좋을까요?",
+          "audio": "sb3_u07_3_n"
+        }
       }
     ]
   }

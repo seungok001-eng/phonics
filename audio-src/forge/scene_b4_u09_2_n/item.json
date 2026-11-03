@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The cloud drifts away. The big moon comes out.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677251.01634,
+   "sec": 4.04,
+   "check": {
+    "transcript": "The cloud drifts away. The big moon comes out.",
+    "type": "sentence",
+    "ipa": "ðə klæʊd drɪfts əˈweɪ ði bɪg mun kʌmz aʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cloud drifts away. The big moon comes out. | TYPE=sentence | IPA=ðə klæʊd drɪfts əˈweɪ ði bɪg mun kʌmz aʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b4_u09_2_n",
+ "sub": "line",
+ "title": "4권 9유닛 해설 · 해설: The cloud drifts away. The big moon comes out.",
+ "text": "The cloud drifts away. The big moon comes out.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

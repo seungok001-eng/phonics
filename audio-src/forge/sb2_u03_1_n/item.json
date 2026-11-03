@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ten hens run! A net on the sand.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676928.5093172,
+   "sec": 3.84,
+   "check": {
+    "transcript": "Ten hens run agnat on the sand.",
+    "type": "sentence",
+    "ipa": "tɛn hɛnz rʌn æɡnæt ɒn ðə sænd.",
+    "note": "agnat mispronounced",
+    "raw": "TRANSCRIPT=Ten hens run agnat on the sand. | TYPE=sentence | IPA=tɛn hɛnz rʌn æɡnæt ɒn ðə sænd. | NOTE=agnat mispronounced"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb2_u03_1_n",
+ "sub": "line",
+ "title": "2권 3유닛 스토리북 해설 · 해설: Ten hens run! A net on the sand.",
+ "text": "Ten hens run! A net on the sand.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

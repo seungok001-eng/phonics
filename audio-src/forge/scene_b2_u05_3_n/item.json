@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip says its first word! Everyone cheers.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676996.8380895,
+   "sec": 4.12,
+   "check": {
+    "transcript": "Pip says it's first word. Everyone cheers.",
+    "type": "sentence",
+    "ipa": "pɪp sɛz ɪts fɜːst wɜːd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip says it's first word. Everyone cheers. | TYPE=sentence | IPA=pɪp sɛz ɪts fɜːst wɜːd | ɛvɹiˌwʌn tʃɪəz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_b2_u05_3_n",
+ "sub": "line",
+ "title": "2권 5유닛 해설 · 해설: Pip says its first word! Everyone cheers.",
+ "text": "Pip says its first word! Everyone cheers.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

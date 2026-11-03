@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=Shh. Go to the dot. | TYPE=sentence | IPA=ʃː ˈɡoʊ tuː ðə ˈdɑt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Shh... Go to the dot.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677847.2283633,
+   "sec": 2.0,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 17:03",
+ "applied": "2026-11-03 12:50",
  "text_edited": false,
  "error": "",
  "unit": 8,

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Everyone shares lunch. A moth flies to the lantern.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677370.2243578,
+   "sec": 4.56,
+   "check": {
+    "transcript": "Everyone shares lunch. A moth flies to the lantern.",
+    "type": "sentence",
+    "ipa": "ˈɛvriwʌn ʃɛrz lʌntʃ. ə mɔθ flaɪz tuː ðə ˈlæntərn.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Everyone shares lunch. A moth flies to the lantern. | TYPE=sentence | IPA=ˈɛvriwʌn ʃɛrz lʌntʃ. ə mɔθ flaɪz tuː ðə ˈlæntərn. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb3_u02_3_n",
+ "sub": "line",
+ "title": "3권 2유닛 스토리북 해설 · 해설: Everyone shares lunch. A moth flies to the lantern.",
+ "text": "Everyone shares lunch. A moth flies to the lantern.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

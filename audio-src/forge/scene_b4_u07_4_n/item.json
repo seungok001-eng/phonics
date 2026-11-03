@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The bee tickles Hedgie's feet. Pip plants a seed.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677181.9756012,
+   "sec": 5.0,
+   "check": {
+    "transcript": "The bee tickles hedgie's feet. Pip plants a seed.",
+    "type": "sentence",
+    "ipa": "ðə biː tɪkəlz hɛʤiz fiːt. pɪp plænts ə siːd.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The bee tickles hedgie's feet. Pip plants a seed. | TYPE=sentence | IPA=ðə biː tɪkəlz hɛʤiz fiːt. pɪp plænts ə siːd. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_b4_u07_4_n",
+ "sub": "line",
+ "title": "4권 7유닛 해설 · 해설: The bee tickles Hedgie's feet. Pip plants a seed.",
+ "text": "The bee tickles Hedgie's feet. Pip plants a seed.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

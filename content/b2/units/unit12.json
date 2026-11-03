@@ -708,7 +708,12 @@
             "en": "What does Beads hold?",
             "ko": "비즈가 뭘 들고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A show on the pond! Pip sings, Grumble drums.",
+          "ko": "연못 위의 공연이에요! 핍이 노래하고 그럼블이 북을 쳐요.",
+          "audio": "scene_b2_u12_1_n"
+        }
       }
     ],
     "synopsis_ko": "연잎 무대에서 단어 쇼가 열려요. 핍이 단어 노래를 부르고 그럼블이 냄비 북을 쳐요. 비즈가 구슬 줄로 지휘해요. 징검돌이 모두 빛나요.",

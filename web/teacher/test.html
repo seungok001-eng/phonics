@@ -320,7 +320,7 @@ function buildTest2(scope, level, set) {
   const usedText = [];   // 이 장에 나온 문장 — 그림 보고 단어 쓰기의 답이 문장 속에 보이면 안 된다
   const inText = (w) => usedText.some((t) => new RegExp('\\b' + w + '\\b', 'i').test(t));
   const takeFresh = (n, ok = () => true) => { const out = []; for (let g = 0; out.length < n && g < pool.length * 2; g++) { const w = pool[cur % pool.length]; cur++; if (!inText(w) && !out.includes(w) && ok(w)) out.push(w); } return out.length < n ? out.concat(take(n - out.length)) : out; };
-  const concrete = (w) => !((BOOK.words || {})[w] || {}).abstract;   // 동사·형용사(abstract: true)는 그림만 보고 쓰는 문항에서 뺀다 (강아지 그림을 보고 fed 를 떠올릴 수 없다)
+  const concrete = (w) => { const W = (BOOK.words || {})[w] || {}; return !W.abstract && !W.pic_hard; };   // 동사·형용사(abstract)와 그림만으론 다른 단어로 보이는 것(pic_hard: pet→fish, rat→mouse)은 그림만 보고 답하는 문항에서 뺀다
   const takeFams = (n) => { const out = []; for (let i = 0; i < n; i++) out.push(order[i % order.length]); return out; };
   const otherFams = (f, n, sd) => { let o = shuffle(fams.filter((x) => x !== f), sd).slice(0, n); if (o.length < n) { const rest = shuffle(Object.keys(BOOK.families).filter((x) => x !== f && !o.includes(x)), sd); rest.sort((a, b) => (famKind(a) === famKind(f) ? 0 : 1) - (famKind(b) === famKind(f) ? 0 : 1)); o = o.concat(rest.slice(0, n - o.length)); } return o; };   // 범위에 가족이 모자라면 같은 종류(마법 e 끼리 등)부터
   const otherWords = (w, n, sd, sameFam) => shuffle(words.filter((x) => x !== w && (sameFam ? famOf(x) === famOf(w) : famOf(x) !== famOf(w))), sd).slice(0, n);
@@ -332,15 +332,15 @@ function buildTest2(scope, level, set) {
   const boxes = (w, miss, on, keepSil) => `<div class="boxes wbx">${tilesOf(w).map((t) => { const c = (t.t.length > 1 ? ' w2' : '') + (t.sil ? ' sil' : ''); return t.k === miss && !(keepSil && t.sil) ? `<span class="blank${c} ${on ? 'ans' : ''}">${on ? esc(t.t) : ''}</span>` : `<span class="${c}">${esc(t.t)}</span>`; }).join('')}</div>`;
   const parts = [];
   // 그림 보고 모음 고르기 (3지선다)
-  const pickVowel = (n) => { const P = posGen(n, 3, nx()); return take(n).map((w) => { const v = famV(famOf(w)); const os = shuffle(vowels.filter((x) => x !== v), nx()).slice(0, 2); while (os.length < 2) os.push(shuffle(allV.filter((x) => x !== v && !os.includes(x)), nx())[0]); const opts = put(v, os, P());
+  const pickVowel = (n) => { const P = posGen(n, 3, nx()); return takeFresh(n, concrete).map((w) => { const v = famV(famOf(w)); const os = shuffle(vowels.filter((x) => x !== v), nx()).slice(0, 2); while (os.length < 2) os.push(shuffle(allV.filter((x) => x !== v && !os.includes(x)), nx())[0]); const opts = put(v, os, P());
     const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="opts">${opts.map((o) => `<span class="vowel ${on && o === v ? 'on' : ''}">${o}</span>`).join('')}</div></div>`; return item(base(false), base(true), [famOf(w)]); }); };
   // 빠진 모음 쓰기 (c_t)
-  const missVowel = (n) => take(n).map((w) => { const base = (on) => `<div class="it bx"><span class="no">${no + 1}</span>${pb(w)}${boxes(w, vowelIdx(w), on)}</div>`; return item(base(false), base(true), [famOf(w)]); });
+  const missVowel = (n) => takeFresh(n, concrete).map((w) => { const base = (on) => `<div class="it bx"><span class="no">${no + 1}</span>${pb(w)}${boxes(w, vowelIdx(w), on)}</div>`; return item(base(false), base(true), [famOf(w)]); });
   // 그림 보고 단어 가족 고르기 (-at / -an / -ap)
-  const pickFam = (n) => { const P = posGen(n, 3, nx()); return take(n).map((w) => { const f = famOf(w), opts = put(f, otherFams(f, 2, nx()), P());
+  const pickFam = (n) => { const P = posGen(n, 3, nx()); return takeFresh(n, concrete).map((w) => { const f = famOf(w), opts = put(f, otherFams(f, 2, nx()), P());
     const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="opts fam">${opts.map((o) => `<span class="${on && o === f ? 'on' : ''}">${famHtml(o)}</span>`).join('')}</div></div>`; return item(base(false), base(true), [f]); }); };
   // 빠진 첫 글자(자음) 쓰기
-  const missFirst = (n) => take(n).map((w) => { const base = (on) => `<div class="it bx"><span class="no">${no + 1}</span>${pb(w)}${boxes(w, 0, on)}</div>`; return item(base(false), base(true), [KIND() && (((BOOK.words || {})[w] || {}).chunks || [])[0] === String(famOf(w)).replace(/^-/, '') ? famOf(w) : '@first']); });   // 첫 덩어리가 그 가족(sh·bl)이면 가족 칸, 아니면 "첫소리" 칸
+  const missFirst = (n) => takeFresh(n, concrete).map((w) => { const base = (on) => `<div class="it bx"><span class="no">${no + 1}</span>${pb(w)}${boxes(w, 0, on)}</div>`; return item(base(false), base(true), [KIND() && (((BOOK.words || {})[w] || {}).chunks || [])[0] === String(famOf(w)).replace(/^-/, '') ? famOf(w) : '@first']); });   // 첫 덩어리가 그 가족(sh·bl)이면 가족 칸, 아니면 "첫소리" 칸
   // 단어 읽고 그림 고르기 (hard = 같은 가족 단어가 보기에 섞인다)
   const readPick = (n, hard) => { const P = posGen(n, 3, nx()); return take(n).map((w) => { const ds = hard ? [otherWords(w, 1, nx(), true)[0], otherWords(w, 1, nx())[0]].filter(Boolean) : otherWords(w, 2, nx()); while (ds.length < 2) ds.push(otherWords(w, 3, nx() + 1)[ds.length] || words.find((x) => x !== w && !ds.includes(x)));
     const opts = put(w, shuffle(ds, nx()), P());

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A little red bed for Grumble.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676974.7260432,
+   "sec": 2.64,
+   "check": {
+    "transcript": "A little red bed for Grumble.",
+    "type": "sentence",
+    "ipa": "ə lɪtəl rɛd bɛd fɔːr ɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A little red bed for Grumble. | TYPE=sentence | IPA=ə lɪtəl rɛd bɛd fɔːr ɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_2_n",
+ "sub": "line",
+ "title": "2권 4유닛 스토리북 해설 · 해설: A little red bed for Grumble.",
+ "text": "A little red bed for Grumble.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

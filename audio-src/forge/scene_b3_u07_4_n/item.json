@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A baby bird! Grumble hangs his lantern over the crib.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677515.9877117,
+   "sec": 5.48,
+   "check": {
+    "transcript": "a baby bird",
+    "type": "sentence",
+    "ipa": "ə beɪbi bɝd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a baby bird | TYPE=sentence | IPA=ə beɪbi bɝd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_b3_u07_4_n",
+ "sub": "line",
+ "title": "3권 7유닛 해설 · 해설: A baby bird! Grumble hangs his lantern over the crib.",
+ "text": "A baby bird! Grumble hangs his lantern over the crib.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

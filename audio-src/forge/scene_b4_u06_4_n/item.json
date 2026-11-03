@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A raindrop lands on Grumble's wet paint.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677143.7003074,
+   "sec": 3.48,
+   "check": {
+    "transcript": "A raindrop lands on Grumble's wet paint.",
+    "type": "sentence",
+    "ipa": "ə ˈɹeɪnˌdɹɑp lænz ɑn ˈɡɹʌmbəlz wɛt peɪnt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A raindrop lands on Grumble's wet paint. | TYPE=sentence | IPA=ə ˈɹeɪnˌdɹɑp lænz ɑn ˈɡɹʌmbəlz wɛt peɪnt. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b4_u06_4_n",
+ "sub": "line",
+ "title": "4권 6유닛 해설 · 해설: A raindrop lands on Grumble's wet paint.",
+ "text": "A raindrop lands on Grumble's wet paint.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

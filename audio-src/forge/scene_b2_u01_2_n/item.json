@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Beads threads the beads. The first stone pops up!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676849.0246215,
+   "sec": 2.92,
+   "check": {
+    "transcript": "Beads threads the beads, the first stone pops up.",
+    "type": "sentence",
+    "ipa": "bidz θɹɛdz ðə bidz, ðə fɜɹst stoʊn pɑps ʌp.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Beads threads the beads, the first stone pops up. | TYPE=sentence | IPA=bidz θɹɛdz ðə bidz, ðə fɜɹst stoʊn pɑps ʌp. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_b2_u01_2_n",
+ "sub": "line",
+ "title": "2권 1유닛 해설 · 해설: Beads threads the beads. The first stone pops up!",
+ "text": "Beads threads the beads. The first stone pops up!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

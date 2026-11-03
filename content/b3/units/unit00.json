@@ -75,7 +75,12 @@
             "en": "What do they hear?",
             "ko": "무슨 소리가 들려?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The friends find a round door in a big tree.",
+          "ko": "친구들이 커다란 나무에서 둥근 문을 찾아요.",
+          "audio": "scene_b3_u00_1_n"
+        }
       },
       {
         "id": "scene_b3_u00_2",
@@ -111,7 +116,12 @@
             "en": "What is up in the tree?",
             "ko": "나무 위에 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Two tiny twin birds pop out of the door!",
+          "ko": "작은 쌍둥이 새 둘이 문에서 쏙 나와요!",
+          "audio": "scene_b3_u00_2_n"
+        }
       }
     ],
     "synopsis_ko": "징검다리를 건너 숲에 들어서니 커다란 나무에 둥근 문이 있어요. \"쉬… 쉬…\" 소리의 주인은 늘 붙어 다니는 쌍둥이 파랑새 핌과 팜! 나무 위에서 그럼블의 등불이 반짝여요.",
@@ -153,7 +163,12 @@
         ],
         "task": "Find the door!",
         "task_ko": "문을 찾아요",
-        "ko": "연못을 건너 숲에 들어섰어요. 커다란 나무에 둥근 문, 그 옆에 똑같은 불빛 둘. 쉬… 쉬…"
+        "ko": "연못을 건너 숲에 들어섰어요. 커다란 나무에 둥근 문, 그 옆에 똑같은 불빛 둘. 쉬… 쉬…",
+        "narr": {
+          "text": "The friends find a round door in a big tree.",
+          "ko": "친구들이 커다란 나무에서 둥근 문을 찾아요.",
+          "audio": "sb3_u00_1_n"
+        }
       },
       {
         "id": "sb3_u00_2",
@@ -180,7 +195,12 @@
         ],
         "task": "Find Pim and Pam!",
         "task_ko": "핌과 팜을 찾아요",
-        "ko": "쌍둥이 파랑새 핌과 팜이 문 구멍에서 쏙! 둘이 함께 \"안녕!\" 나무 위에 그럼블의 등불이 보여요."
+        "ko": "쌍둥이 파랑새 핌과 팜이 문 구멍에서 쏙! 둘이 함께 \"안녕!\" 나무 위에 그럼블의 등불이 보여요.",
+        "narr": {
+          "text": "Two twin birds pop out. A lantern glows up high.",
+          "ko": "쌍둥이 새가 쏙! 나무 위에 등불이 빛나요.",
+          "audio": "sb3_u00_2_n"
+        }
       }
     ]
   },

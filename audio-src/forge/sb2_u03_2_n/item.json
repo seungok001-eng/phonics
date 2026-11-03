@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The net is a big stone. The hens hop on.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676935.622558,
+   "sec": 4.4,
+   "check": {
+    "transcript": "The gnat is a big stone. The hens hop on.",
+    "type": "sentence",
+    "ipa": "ðə næt ɪz ə bɪg stoʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The gnat is a big stone. The hens hop on. | TYPE=sentence | IPA=ðə næt ɪz ə bɪg stoʊn | ðə hɛnz hɑp ɑn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb2_u03_2_n",
+ "sub": "line",
+ "title": "2권 3유닛 스토리북 해설 · 해설: The net is a big stone. The hens hop on.",
+ "text": "The net is a big stone. The hens hop on.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

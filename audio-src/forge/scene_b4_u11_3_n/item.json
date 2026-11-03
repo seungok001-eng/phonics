@@ -1,0 +1,53 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip sings! Four notes fly into the tree. It sings!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677339.7263162,
+   "sec": 5.8,
+   "check": {
+    "transcript": "Pip sings. Four notes fly into the tree. It sings.",
+    "type": "sentence",
+    "ipa": "pɪp sɪŋz fɔɹ noʊts flaɪ ɪntuː ðə tɹiː ɪt sɪŋz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip sings. Four notes fly into the tree. It sings. | TYPE=sentence | IPA=pɪp sɪŋz fɔɹ noʊts flaɪ ɪntuː ðə tɹiː ɪt sɪŋz | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Pip sings! Golden notes fly into the tree. It sings!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793680382.8754246,
+   "sec": 5.72,
+   "check": {
+    "transcript": "Pip sings, golden notes fly into the tree, it sings.",
+    "type": "sentence",
+    "ipa": "pɪp sɪŋz, ˈɡoʊldən noʊts flaɪ ˈɪntuː ðə triː, ɪt sɪŋz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip sings, golden notes fly into the tree, it sings. | TYPE=sentence | IPA=pɪp sɪŋz, ˈɡoʊldən noʊts flaɪ ˈɪntuː ðə triː, ɪt sɪŋz. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:33",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b4_u11_3_n",
+ "sub": "line",
+ "title": "4권 11유닛 해설 · 해설: Pip sings! Golden notes fly into the tree. It sings!",
+ "text": "Pip sings! Golden notes fly into the tree. It sings!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

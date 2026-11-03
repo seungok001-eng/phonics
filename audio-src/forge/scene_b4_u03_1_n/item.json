@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A big gap in the stairs! Bun wants to hop.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677006.3168542,
+   "sec": 3.84,
+   "check": {
+    "transcript": "A big gap in the stairs. Bun wants to hop.",
+    "type": "sentence",
+    "ipa": "ə bɪɡ ɡæp ɪn ðə stɛrz bʌn wɑnts tə hɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A big gap in the stairs. Bun wants to hop. | TYPE=sentence | IPA=ə bɪɡ ɡæp ɪn ðə stɛrz bʌn wɑnts tə hɑp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b4_u03_1_n",
+ "sub": "line",
+ "title": "4권 3유닛 해설 · 해설: A big gap in the stairs! Bun wants to hop.",
+ "text": "A big gap in the stairs! Bun wants to hop.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

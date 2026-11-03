@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Rain falls on the toy train. Everyone gets wet!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677150.6813543,
+   "sec": 4.68,
+   "check": {
+    "transcript": "Rain falls on the toy train. Everyone gets wet.",
+    "type": "sentence",
+    "ipa": "ˈreɪn fɔlz ˈɑn ðə ˈtɔɪ ˈtreɪn. ˈɛvriˌwʌn ˈgɛts ˈwɛt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Rain falls on the toy train. Everyone gets wet. | TYPE=sentence | IPA=ˈreɪn fɔlz ˈɑn ðə ˈtɔɪ ˈtreɪn. ˈɛvriˌwʌn ˈgɛts ˈwɛt. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb4_u06_1_n",
+ "sub": "line",
+ "title": "4권 6유닛 스토리북 해설 · 해설: Rain falls on the toy train. Everyone gets wet!",
+ "text": "Rain falls on the toy train. Everyone gets wet!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

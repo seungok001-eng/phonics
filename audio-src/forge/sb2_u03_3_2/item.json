@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Shh, it is my den. | TYPE=sentence | IPA=ʃ i t ɪ z m aɪ d ɛ n | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh! It is my den!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677756.2304149,
+   "sec": 2.0,
+   "check": {
+    "transcript": "It is my den",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ dɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my den | TYPE=sentence | IPA=ɪt ɪz maɪ dɛn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:37",
+ "applied": "2026-11-03 12:49",
  "text_edited": false,
  "error": "",
  "unit": 3,

@@ -180,7 +180,12 @@
             "en": "Can Bun push the door?",
             "ko": "번이 문을 밀 수 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The big door will not open. Bun pushes.",
+          "ko": "큰 문이 열리지 않아요. 번이 밀어요.",
+          "audio": "scene_b3_u01_1_n"
+        }
       },
       {
         "id": "scene_b3_u01_2",
@@ -222,7 +227,12 @@
             "en": "What does the door do?",
             "ko": "문이 어떻게 됐어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble says shh! The wind opens the door!",
+          "ko": "그럼블이 쉿! 하자 바람이 문을 열어요!",
+          "audio": "scene_b3_u01_2_n"
+        }
       },
       {
         "id": "scene_b3_u01_3",
@@ -265,7 +275,12 @@
             "en": "Where is Pip?",
             "ko": "핍은 어디 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A little shell shop by the stream. A fish jumps!",
+          "ko": "시냇가에 작은 조개 가게가 있어요. 물고기가 뛰어올라요!",
+          "audio": "scene_b3_u01_3_n"
+        }
       },
       {
         "id": "scene_b3_u01_4",
@@ -304,7 +319,12 @@
             "en": "How does Grumble feel?",
             "ko": "그럼블은 기분이 어때?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Everyone looks up at Grumble. Pip tries again.",
+          "ko": "모두 그럼블을 올려다봐요. 핍이 다시 해 봐요.",
+          "audio": "scene_b3_u01_4_n"
+        }
       }
     ],
     "synopsis_ko": "s 와 h 가 새겨진 첫 번째 문이 꼭 닫혀 있어요. 핍은 \"스… 흐…\" 따로따로, 핌과 팜의 소리는 너무 작아요. 그때 나무 위 그럼블이 \"쉿!!\" — 그 소리가 바로 sh! 문이 열리고 조개껍데기 가게가 나타나요.",
@@ -562,7 +582,12 @@
         ],
         "task": "Find the sh words!",
         "task_ko": "sh 단어를 찾아요",
-        "ko": "s·h 가 새겨진 문이 꼭 닫혀 있어요. 핍은 \"스… 흐…\" 따로따로 말해요. 핌과 팜이 \"함께!\""
+        "ko": "s·h 가 새겨진 문이 꼭 닫혀 있어요. 핍은 \"스… 흐…\" 따로따로 말해요. 핌과 팜이 \"함께!\"",
+        "narr": {
+          "text": "The big door will not open. Bun pushes.",
+          "ko": "큰 문이 열리지 않아요. 번이 밀어요.",
+          "audio": "sb3_u01_1_n"
+        }
       },
       {
         "id": "sb3_u01_2",
@@ -589,7 +614,12 @@
         ],
         "task": "Find Grumble!",
         "task_ko": "그럼블을 찾아요",
-        "ko": "핌과 팜의 소리는 너무 작아요. 나무 위 그럼블이 \"쉬잇!\" — 그 바람에 문이 펑 열려요!"
+        "ko": "핌과 팜의 소리는 너무 작아요. 나무 위 그럼블이 \"쉬잇!\" — 그 바람에 문이 펑 열려요!",
+        "narr": {
+          "text": "Grumble says shh! The door bursts open!",
+          "ko": "그럼블이 쉿! 하자 문이 펑 열려요!",
+          "audio": "sb3_u01_2_n"
+        }
       },
       {
         "id": "sb3_u01_3",
@@ -616,7 +646,12 @@
         ],
         "task": "Find the ship and the shop!",
         "task_ko": "배와 가게를 찾아요",
-        "ko": "문 너머엔 조개껍데기 가게! 그럼블의 \"쉿!\"이 바로 sh 소리였어요. 그럼블은 깜짝 놀라요. — 와작와작! 저런, 누가 점심을?"
+        "ko": "문 너머엔 조개껍데기 가게! 그럼블의 \"쉿!\"이 바로 sh 소리였어요. 그럼블은 깜짝 놀라요. — 와작와작! 저런, 누가 점심을?",
+        "narr": {
+          "text": "A shell shop! But who is eating the lunch?",
+          "ko": "조개 가게예요! 그런데 누가 점심을 먹고 있을까요?",
+          "audio": "sb3_u01_3_n"
+        }
       }
     ]
   }

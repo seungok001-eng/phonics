@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A big gap in the stairs! Hedgie stops Bun.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677028.4857485,
+   "sec": 4.04,
+   "check": {
+    "transcript": "A big gap in the stairs Hegy stops bun.",
+    "type": "sentence",
+    "ipa": "ə bɪɡ ɡæp ɪn ðə stɛrz hɛɡi stɑps bən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A big gap in the stairs Hegy stops bun. | TYPE=sentence | IPA=ə bɪɡ ɡæp ɪn ðə stɛrz hɛɡi stɑps bən | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb4_u03_1_n",
+ "sub": "line",
+ "title": "4권 3유닛 스토리북 해설 · 해설: A big gap in the stairs! Hedgie stops Bun.",
+ "text": "A big gap in the stairs! Hedgie stops Bun.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

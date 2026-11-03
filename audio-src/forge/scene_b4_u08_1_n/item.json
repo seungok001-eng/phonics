@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Snow falls. The bridge is broken. A goat shivers.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677203.1827645,
+   "sec": 5.2,
+   "check": {
+    "transcript": "Snowfalls. The bridge is broken. A goat shivers.",
+    "type": "sentence",
+    "ipa": "ˈsnəʊ.fɔːlz ˈðə brɪdʒ ɪz ˈbrəʊ.kən ə ɡəʊt ˈʃɪ.vəz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Snowfalls. The bridge is broken. A goat shivers. | TYPE=sentence | IPA=ˈsnəʊ.fɔːlz ˈðə brɪdʒ ɪz ˈbrəʊ.kən ə ɡəʊt ˈʃɪ.vəz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_b4_u08_1_n",
+ "sub": "line",
+ "title": "4권 8유닛 해설 · 해설: Snow falls. The bridge is broken. A goat shivers.",
+ "text": "Snow falls. The bridge is broken. A goat shivers.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

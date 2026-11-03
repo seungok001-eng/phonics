@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The friends see a big castle. The gate is shut.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676901.4079504,
+   "sec": 3.96,
+   "check": {
+    "transcript": "The friends see a big castle. The gate is shut.",
+    "type": "sentence",
+    "ipa": "ðə fɹɛnz siː ə bɪg ˈkæsəl ðə geɪt ɪz ʃʌt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The friends see a big castle. The gate is shut. | TYPE=sentence | IPA=ðə fɹɛnz siː ə bɪg ˈkæsəl ðə geɪt ɪz ʃʌt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "scene_b4_u00_1_n",
+ "sub": "line",
+ "title": "4권 0유닛 해설 · 해설: The friends see a big castle. The gate is shut.",
+ "text": "The friends see a big castle. The gate is shut.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

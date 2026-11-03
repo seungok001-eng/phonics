@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A big stone! The pig wears a wig.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677032.3006058,
+   "sec": 4.4,
+   "check": {
+    "transcript": "A big stone. The pig wears a wig.",
+    "type": "sentence",
+    "ipa": "ə bɪɡ stoʊn ðə pɪɡ wɛrz ə wɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A big stone. The pig wears a wig. | TYPE=sentence | IPA=ə bɪɡ stoʊn ðə pɪɡ wɛrz ə wɪɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b2_u06_2_n",
+ "sub": "line",
+ "title": "2권 6유닛 해설 · 해설: A big stone! The pig wears a wig.",
+ "text": "A big stone! The pig wears a wig.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

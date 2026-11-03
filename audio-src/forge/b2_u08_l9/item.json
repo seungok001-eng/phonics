@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Sh, it is hot. | TYPE=sentence | IPA=ʃ ɪt ɪz hɒt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! It is hot!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676571.7617524,
+   "sec": 1.77,
+   "check": {
+    "transcript": "It is hot.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz hɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is hot. | TYPE=sentence | IPA=ɪt ɪz hɑt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:41",
+ "applied": "2026-11-03 12:29",
  "text_edited": false,
  "error": "",
  "unit": 8,

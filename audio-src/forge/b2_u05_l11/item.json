@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Shh cat | TYPE=sentence | IPA=ʃ kæt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... Cat.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676497.745093,
+   "sec": 1.68,
+   "check": {
+    "transcript": "shh",
+    "type": "word",
+    "ipa": "ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh | TYPE=word | IPA=ʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:39",
+ "applied": "2026-11-03 12:28",
  "text_edited": false,
  "error": "",
  "unit": 5,

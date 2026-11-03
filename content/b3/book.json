@@ -596,7 +596,7 @@
     },
     "fish": {
       "ko": "물고기",
-      "desc": "a plump orange fish with white stripes, swimming",
+      "desc": "a bright blue cartoon fish, whole body with the tail fin clearly attached, swimming",
       "family": "sh",
       "chunks": [
         "f",
@@ -611,7 +611,7 @@
     },
     "dish": {
       "ko": "접시",
-      "desc": "a round light-blue dish seen from the side and a little from above, with a yellow inside and a few red strawberries in it",
+      "desc": "a round empty white ceramic dish (shallow plate) seen from slightly above, nothing on it",
       "family": "sh",
       "chunks": [
         "d",
@@ -626,7 +626,7 @@
     },
     "chin": {
       "ko": "턱",
-      "desc": "the lower half of a smiling cartoon face showing a round chin with a little sparkle on it",
+      "desc": "close-up of a smiling cartoon child face with one finger pointing at the chin; the chin is the clear focus",
       "family": "ch",
       "chunks": [
         "ch",
@@ -793,7 +793,8 @@
         "m",
         "ɑ",
         "θ"
-      ]
+      ],
+      "pic_hard": true
     },
     "duck": {
       "ko": "오리",
@@ -913,7 +914,8 @@
         "s",
         "ɑ",
         "ŋ"
-      ]
+      ],
+      "pic_hard": true
     },
     "block": {
       "ko": "블록",
@@ -962,7 +964,7 @@
     },
     "clap": {
       "ko": "손뼉 치기",
-      "desc": "two cartoon hands clapping with little motion lines",
+      "desc": "two cartoon hands of ONE person clapping together with motion lines and small sound marks, nothing else",
       "family": "cl",
       "chunks": [
         "cl",
@@ -989,7 +991,8 @@
         "kl",
         "æ",
         "m"
-      ]
+      ],
+      "pic_hard": true
     },
     "clip": {
       "ko": "클립",
@@ -1206,7 +1209,7 @@
     },
     "spot": {
       "ko": "얼룩",
-      "desc": "a white T-shirt with one big round brown spot on the front",
+      "desc": "one big round black spot on the back of a small plain white dog; the single spot is huge and obvious",
       "family": "sp",
       "chunks": [
         "sp",
@@ -1283,7 +1286,7 @@
     },
     "sand": {
       "ko": "모래",
-      "desc": "a pile of golden sand with a little red bucket and spade",
+      "desc": "a pile of yellow sand on a beach with a small sand castle, no bucket, no shovel",
       "family": "-nd",
       "chunks": [
         "s",
@@ -1416,7 +1419,7 @@
     },
     "stamp": {
       "ko": "우표",
-      "desc": "a postage stamp with a wavy edge showing a small red flower, no numbers or text",
+      "desc": "a single postage stamp with perforated edges and a simple picture of a bird on it, drawn big",
       "family": "-mp",
       "chunks": [
         "st",
@@ -1442,7 +1445,8 @@
         "tʃ",
         "ɪ",
         "mp"
-      ]
+      ],
+      "pic_hard": true
     },
     "whisk": {
       "ko": "거품기",
@@ -1474,7 +1478,8 @@
         "w",
         "ɪ",
         "p"
-      ]
+      ],
+      "pic_hard": true
     },
     "quilt": {
       "ko": "누비이불",
@@ -1506,7 +1511,8 @@
         "kw",
         "æ",
         "k"
-      ]
+      ],
+      "pic_hard": true
     },
     "quill": {
       "ko": "깃펜",

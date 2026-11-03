@@ -180,7 +180,12 @@
             "en": "Is it morning or evening?",
             "ko": "지금은 아침이야, 저녁이야?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble slips on a stone. His leg is big!",
+          "ko": "그럼블이 돌에서 미끄러졌어요. 다리가 퉁퉁 부었어요!",
+          "audio": "scene_b2_u04_1_n"
+        }
       },
       {
         "id": "scene_b2_u04_2",
@@ -220,7 +225,12 @@
             "en": "Who is in the bed?",
             "ko": "침대에 누가 누웠어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The friends make a bed. Grumble gets in.",
+          "ko": "친구들이 침대를 만들어요. 그럼블을 눕혀요.",
+          "audio": "scene_b2_u04_2_n"
+        }
       },
       {
         "id": "scene_b2_u04_3",
@@ -262,7 +272,12 @@
             "en": "What is the puppy doing?",
             "ko": "강아지는 뭘 해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Night. Hedgie feeds Grumble. A puppy begs.",
+          "ko": "밤이에요. 헤지가 그럼블에게 먹여 줘요. 강아지가 졸라요.",
+          "audio": "scene_b2_u04_3_n"
+        }
       },
       {
         "id": "scene_b2_u04_4",
@@ -302,7 +317,12 @@
             "en": "What does Grumble hug?",
             "ko": "그럼블이 뭘 안고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Morning! The leg is little. Grumble hugs the pillow.",
+          "ko": "아침이에요! 다리가 다 나았어요. 그럼블이 베개를 안아요.",
+          "audio": "scene_b2_u04_4_n"
+        }
       }
     ],
     "synopsis_ko": "그럼블이 몰래 돌을 건너다 미끄러져 다리를 다쳤어요. 친구들이 빨간 침대를 만들어 눕히고 수프를 먹여 줬어요. 아침에 다리가 나은 그럼블이 \"이거 내 침대야?\" 하고 물어요.",
@@ -570,7 +590,12 @@
         ],
         "task": "Find the big leg!",
         "task_ko": "큰 다리를 찾아요",
-        "ko": "해질녘 그럼블이 돌에서 미끄러져 다리가 퉁퉁 부었어요. 핍은 '뎁!'"
+        "ko": "해질녘 그럼블이 돌에서 미끄러져 다리가 퉁퉁 부었어요. 핍은 '뎁!'",
+        "narr": {
+          "text": "Grumble slips. Oh no, his leg is big!",
+          "ko": "그럼블이 미끄러져요. 어떡해, 다리가 퉁퉁 부었어요!",
+          "audio": "sb2_u04_1_n"
+        }
       },
       {
         "id": "sb2_u04_2",
@@ -597,7 +622,12 @@
         ],
         "task": "Find the -ed words!",
         "task_ko": "-ed 단어를 찾아요",
-        "ko": "갈대로 만든 빨간 침대예요. 비즈가 b-e-d 를 꿰고 그럼블을 눕혀요."
+        "ko": "갈대로 만든 빨간 침대예요. 비즈가 b-e-d 를 꿰고 그럼블을 눕혀요.",
+        "narr": {
+          "text": "A little red bed for Grumble.",
+          "ko": "그럼블을 위한 작은 빨간 침대예요.",
+          "audio": "sb2_u04_2_n"
+        }
       },
       {
         "id": "sb2_u04_3",
@@ -624,7 +654,12 @@
         ],
         "task": "Find the -eg words!",
         "task_ko": "-eg 단어를 찾아요",
-        "ko": "헤지가 수프를 먹여 주고 강아지는 앞발을 들어요. 그럼블은 '내 침대야?' 핍이 고양이를 보며 '크… 애… 트…?'"
+        "ko": "헤지가 수프를 먹여 주고 강아지는 앞발을 들어요. 그럼블은 '내 침대야?' 핍이 고양이를 보며 '크… 애… 트…?'",
+        "narr": {
+          "text": "Hedgie feeds Grumble. Pip looks at the cat.",
+          "ko": "헤지가 그럼블에게 먹여 줘요. 핍이 고양이를 봐요.",
+          "audio": "sb2_u04_3_n"
+        }
       }
     ]
   }

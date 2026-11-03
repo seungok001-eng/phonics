@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The friends find a round door in a big tree.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677274.8912647,
+   "sec": 4.12,
+   "check": {
+    "transcript": "The friends find a round door in a big tree.",
+    "type": "sentence",
+    "ipa": "ðə fɹɛndz faɪnd ə ɹaʊnd dɔɹ ɪn ə bɪg tɹiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The friends find a round door in a big tree. | TYPE=sentence | IPA=ðə fɹɛndz faɪnd ə ɹaʊnd dɔɹ ɪn ə bɪg tɹiː | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "scene_b3_u00_1_n",
+ "sub": "line",
+ "title": "3권 0유닛 해설 · 해설: The friends find a round door in a big tree.",
+ "text": "The friends find a round door in a big tree.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

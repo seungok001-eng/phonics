@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A big castle! A cap hangs on the shut gate.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676911.636266,
+   "sec": 4.4,
+   "check": {
+    "transcript": "a big castle A cap hangs on the shut gate",
+    "type": "sentence",
+    "ipa": "ə bɪg ˈkæsəl eɪ kæp hæŋz ɑn ðə ʃʌt geɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a big castle A cap hangs on the shut gate | TYPE=sentence | IPA=ə bɪg ˈkæsəl eɪ kæp hæŋz ɑn ðə ʃʌt geɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb4_u00_1_n",
+ "sub": "line",
+ "title": "4권 0유닛 스토리북 해설 · 해설: A big castle! A cap hangs on the shut gate.",
+ "text": "A big castle! A cap hangs on the shut gate.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

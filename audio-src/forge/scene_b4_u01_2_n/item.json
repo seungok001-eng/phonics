@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tap! A red cape for Bun. The gate opens!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676931.4197283,
+   "sec": 3.92,
+   "check": {
+    "transcript": "tap, a red cape for bun, the gate opens",
+    "type": "sentence",
+    "ipa": "tæp ə rɛd keɪp fɔːr bʌn ðə geɪt ˈoʊpənz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tap, a red cape for bun, the gate opens | TYPE=sentence | IPA=tæp ə rɛd keɪp fɔːr bʌn ðə geɪt ˈoʊpənz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_b4_u01_2_n",
+ "sub": "line",
+ "title": "4권 1유닛 해설 · 해설: Tap! A red cape for Bun. The gate opens!",
+ "text": "Tap! A red cape for Bun. The gate opens!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

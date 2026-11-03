@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "New stones pop up. Everyone hops after the fox.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677153.7056441,
+   "sec": 4.0,
+   "check": {
+    "transcript": "New stones pop up, everyone hops after the fox.",
+    "type": "sentence",
+    "ipa": "nu stoʊnz pɑp ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=New stones pop up, everyone hops after the fox. | TYPE=sentence | IPA=nu stoʊnz pɑp ʌp | ˈɛvriwʌn hɑps ˈæftər ðə fɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b2_u09_2_n",
+ "sub": "line",
+ "title": "2권 9유닛 해설 · 해설: New stones pop up. Everyone hops after the fox.",
+ "text": "New stones pop up. Everyone hops after the fox.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

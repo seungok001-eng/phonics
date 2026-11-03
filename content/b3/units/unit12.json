@@ -711,7 +711,12 @@
             "en": "What is far away?",
             "ko": "저 멀리 뭐가 보여?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The big show! Pip sings and Grumble drums.",
+          "ko": "큰 공연이에요! 핍이 노래하고 그럼블이 북을 쳐요.",
+          "audio": "scene_b3_u12_1_n"
+        }
       }
     ],
     "synopsis_ko": "마지막 문 너머 풀밭의 블록 무대에서 숲 공연이 열려요. 핍과 핌·팜이 짝꿍 노래를 부르고 그럼블이 북을 쳐요. 숲 친구들이 모두 손뼉을 쳐요. 저 멀리 성문이 빛나요.",

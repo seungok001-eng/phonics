@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two sparkles become one. Leaves and peaches pop out!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677172.2182553,
+   "sec": 4.56,
+   "check": {
+    "transcript": "Two sparkles become one, leaves and peaches pop out.",
+    "type": "sentence",
+    "ipa": "tu spɑɹkl̩z bɪkʌm wʌn livz ənd pitʃɪz pɑp aʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Two sparkles become one, leaves and peaches pop out. | TYPE=sentence | IPA=tu spɑɹkl̩z bɪkʌm wʌn livz ənd pitʃɪz pɑp aʊt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_b4_u07_2_n",
+ "sub": "line",
+ "title": "4권 7유닛 해설 · 해설: Two sparkles become one. Leaves and peaches pop out!",
+ "text": "Two sparkles become one. Leaves and peaches pop out!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

@@ -10,11 +10,28 @@
    "sec": 2.04,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! I said shh! Ha, ha!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676762.5951962,
+   "sec": 3.68,
+   "check": {
+    "transcript": "shh I said shh ha ha",
+    "type": "sentence",
+    "ipa": "ʃ aɪ sɛd ʃ hɑ hɑ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh I said shh ha ha | TYPE=sentence | IPA=ʃ aɪ sɛd ʃ hɑ hɑ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:41",
+ "applied": "2026-11-03 12:32",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -25,5 +42,6 @@
  "text": "Shh! I said shh! Ha, ha!",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

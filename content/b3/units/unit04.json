@@ -192,7 +192,12 @@
             "en": "What is on the door?",
             "ko": "문에 뭐가 달려 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A sad duck king. The little door has a lock.",
+          "ko": "슬픈 오리 왕이에요. 작은 문엔 자물쇠가 달렸어요.",
+          "audio": "scene_b3_u04_1_n"
+        }
       },
       {
         "id": "scene_b3_u04_2",
@@ -235,7 +240,12 @@
             "en": "What is in the room?",
             "ko": "방 안에 뭐가 가득해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The lock pops open. A room full of socks!",
+          "ko": "자물쇠가 딸깍 열려요. 양말이 가득한 방!",
+          "audio": "scene_b3_u04_2_n"
+        }
       },
       {
         "id": "scene_b3_u04_3",
@@ -277,7 +287,12 @@
             "en": "What does Pip say?",
             "ko": "핍은 뭐라고 해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A ring falls out of the sock. It rings!",
+          "ko": "양말에서 반지가 툭 떨어져요. 반지가 울려요!",
+          "audio": "scene_b3_u04_3_n"
+        }
       },
       {
         "id": "scene_b3_u04_4",
@@ -320,7 +335,12 @@
             "en": "Does Grumble like the song?",
             "ko": "그럼블은 노래가 좋은가 봐?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The Duck King sings. Grumble taps his foot.",
+          "ko": "오리 왕이 노래해요. 그럼블은 발을 까딱까딱.",
+          "audio": "scene_b3_u04_4_n"
+        }
       }
     ],
     "synopsis_ko": "오리 왕의 반지가 자물쇠 달린 c·k 문 안에 있어요. 핌과 팜이 ck! 자물쇠가 열리고 양말 방에서 반지를 찾아요. ng~ 반지가 종처럼 울리고, 오리 왕이 노래해요. 나무 위 그럼블도 발을 까딱까딱.",
@@ -590,7 +610,12 @@
         ],
         "task": "Find the ck words!",
         "task_ko": "ck 단어를 찾아요",
-        "ko": "오리 왕이 바위 위에서 슬퍼해요. 둑에는 자물쇠 달린 c·k 문. 핍은 \"크… 크…\""
+        "ko": "오리 왕이 바위 위에서 슬퍼해요. 둑에는 자물쇠 달린 c·k 문. 핍은 \"크… 크…\"",
+        "narr": {
+          "text": "A sad duck king. The little door has a lock.",
+          "ko": "슬픈 오리 왕이에요. 작은 문엔 자물쇠가 달렸어요.",
+          "audio": "sb3_u04_1_n"
+        }
       },
       {
         "id": "sb3_u04_2",
@@ -617,7 +642,12 @@
         ],
         "task": "Find the ring!",
         "task_ko": "반지를 찾아요",
-        "ko": "딸깍! 자물쇠가 열리고 양말 방이 나와요. 줄무늬 양말 속에 반지가 있었어요!"
+        "ko": "딸깍! 자물쇠가 열리고 양말 방이 나와요. 줄무늬 양말 속에 반지가 있었어요!",
+        "narr": {
+          "text": "The lock opens. A ring is in the sock!",
+          "ko": "자물쇠가 열려요. 양말 속에 반지가 있어요!",
+          "audio": "sb3_u04_2_n"
+        }
       },
       {
         "id": "sb3_u04_3",
@@ -644,7 +674,12 @@
         ],
         "task": "Find the ng words!",
         "task_ko": "ng 단어를 찾아요",
-        "ko": "오리 왕이 날개를 펴고 노래해요. 그럼블도 발을 까딱까딱. 핍은 혼자 \"스… 흐…\" 애써요."
+        "ko": "오리 왕이 날개를 펴고 노래해요. 그럼블도 발을 까딱까딱. 핍은 혼자 \"스… 흐…\" 애써요.",
+        "narr": {
+          "text": "The king sings. Pip tries all alone.",
+          "ko": "왕이 노래해요. 핍은 혼자 애써요.",
+          "audio": "sb3_u04_3_n"
+        }
       }
     ]
   }

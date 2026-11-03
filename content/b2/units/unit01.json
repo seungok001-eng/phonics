@@ -187,7 +187,12 @@
             "en": "What is Pip doing?",
             "ko": "핍은 뭘 하고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A cat sits on a mat. Pip hops the wrong way.",
+          "ko": "고양이가 매트 위에 앉아 있어요. 핍이 구슬을 거꾸로 밟아요.",
+          "audio": "scene_b2_u01_1_n"
+        }
       },
       {
         "id": "scene_b2_u01_2",
@@ -229,7 +234,12 @@
             "en": "Who wears a hat?",
             "ko": "누가 모자를 썼어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Beads threads the beads. The first stone pops up!",
+          "ko": "비즈가 구슬을 꿰어요. 첫 징검돌이 솟아요!",
+          "audio": "scene_b2_u01_2_n"
+        }
       },
       {
         "id": "scene_b2_u01_3",
@@ -271,7 +281,12 @@
             "en": "Who says Shh?",
             "ko": "누가 \"쉿!\" 했어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A van with a fan! Someone hides in the reeds.",
+          "ko": "선풍기를 실은 밴이에요! 갈대 속에 누가 숨었어요.",
+          "audio": "scene_b2_u01_3_n"
+        }
       },
       {
         "id": "scene_b2_u01_4",
@@ -311,7 +326,12 @@
             "en": "Where is Grumble?",
             "ko": "그럼블은 어디 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Two rows of stones! Grumble peeks from the reeds.",
+          "ko": "징검돌이 두 줄! 그럼블이 갈대에서 내다봐요.",
+          "audio": "scene_b2_u01_4_n"
+        }
       }
     ],
     "synopsis_ko": "고양이가 매트 위에서 연못을 건너고 싶어 해요. 구슬 c·a·t 가 따로 놓여 있어요. 핍은 거꾸로 밟고 \"탁!\" 비즈가 구슬을 꿰어 \"캣!\" 하자 징검돌이 솟았어요. 갈대 속 그럼블이 \"쉿! 내 연못!\"",
@@ -582,7 +602,12 @@
         ],
         "task": "Find the -at words!",
         "task_ko": "-at 단어를 찾아요",
-        "ko": "매트 위에 고양이, 따로 놓인 구슬 c·a·t. 핍이 거꾸로 밟고 '탁!' 하자 비즈가 고개를 저어요."
+        "ko": "매트 위에 고양이, 따로 놓인 구슬 c·a·t. 핍이 거꾸로 밟고 '탁!' 하자 비즈가 고개를 저어요.",
+        "narr": {
+          "text": "A cat on a mat. Pip hops the wrong way.",
+          "ko": "매트 위의 고양이. 핍이 거꾸로 밟아요.",
+          "audio": "sb2_u01_1_n"
+        }
       },
       {
         "id": "sb2_u01_2",
@@ -609,7 +634,12 @@
         ],
         "task": "Find the -at words!",
         "task_ko": "-at 단어를 찾아요",
-        "ko": "비즈가 구슬을 꿰자 첫 징검돌이 솟고 고양이가 건너요. 모자 쓴 쥐와 방망이도 있어요."
+        "ko": "비즈가 구슬을 꿰자 첫 징검돌이 솟고 고양이가 건너요. 모자 쓴 쥐와 방망이도 있어요.",
+        "narr": {
+          "text": "The first stone pops up. The cat hops on!",
+          "ko": "첫 징검돌이 솟아요. 고양이가 올라타요!",
+          "audio": "sb2_u01_2_n"
+        }
       },
       {
         "id": "sb2_u01_3",
@@ -636,7 +666,12 @@
         ],
         "task": "Find the -an words!",
         "task_ko": "-an 단어를 찾아요",
-        "ko": "밴, 선풍기, 프라이팬, 깡통이 있어요. 돌이 두 줄 생겼어요. 갈대 속 그럼블이 '쉿! 내 연못!' — 풍덩! 저런, 봐요!"
+        "ko": "밴, 선풍기, 프라이팬, 깡통이 있어요. 돌이 두 줄 생겼어요. 갈대 속 그럼블이 '쉿! 내 연못!' — 풍덩! 저런, 봐요!",
+        "narr": {
+          "text": "Two rows of stones. Grumble peeks out. Then... splash!",
+          "ko": "징검돌이 두 줄. 그럼블이 내다봐요. 그런데… 풍덩!",
+          "audio": "sb2_u01_3_n"
+        }
       }
     ]
   }

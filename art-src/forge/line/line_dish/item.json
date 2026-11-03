@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791460537.650033,
+ "updated": 1793679821.3874018,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/edeae614-e762-40fe-8378-b4a9cba77710?Expires=1791482114&KeyName=labs-flow-prod-cdn-key&Signature=ewP-AcF2R2rks6ZndWR99yA2m0k",
  "prompt_edited": false,
- "applied": "2026-10-08 20:56",
+ "applied": "2026-11-03 13:33",
  "gen": "",
  "job_type": "image",
  "reference": "word_dish",
@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_dish.png",
  "book": 3,
- "claimed_at": 1791460498.1003299
+ "regen": 1,
+ "claimed_at": 1793679786.8729875
 }

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The pig is too big for the stones.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677050.7482448,
+   "sec": 3.16,
+   "check": {
+    "transcript": "The pig is too big for the stones.",
+    "type": "sentence",
+    "ipa": "ðə pɪg ɪz tuː bɪg fɔː(ɹ) ðə stəʊnz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig is too big for the stones. | TYPE=sentence | IPA=ðə pɪg ɪz tuː bɪg fɔː(ɹ) ðə stəʊnz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "sb2_u06_1_n",
+ "sub": "line",
+ "title": "2권 6유닛 스토리북 해설 · 해설: The pig is too big for the stones.",
+ "text": "The pig is too big for the stones.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

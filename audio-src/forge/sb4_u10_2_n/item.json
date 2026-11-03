@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The torch lights up. A star plays the harp.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677315.3823392,
+   "sec": 3.52,
+   "check": {
+    "transcript": "The torch lights up. A star plays the harp.",
+    "type": "sentence",
+    "ipa": "ðə tɔɹtʃ laɪts ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The torch lights up. A star plays the harp. | TYPE=sentence | IPA=ðə tɔɹtʃ laɪts ʌp | ɐ stɑɹ pleɪz ðə hɑɹp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_2_n",
+ "sub": "line",
+ "title": "4권 10유닛 스토리북 해설 · 해설: The torch lights up. A star plays the harp.",
+ "text": "The torch lights up. A star plays the harp.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

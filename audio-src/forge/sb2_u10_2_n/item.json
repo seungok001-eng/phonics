@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A pup chases the bug. Bun bites a bun.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677213.7792315,
+   "sec": 4.32,
+   "check": {
+    "transcript": "A pup chases the bug. Bun bites a bun.",
+    "type": "sentence",
+    "ipa": "ə pʌp ˈʧeɪsɪz ðə bʌg. bʌn baɪts ə bʌn.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A pup chases the bug. Bun bites a bun. | TYPE=sentence | IPA=ə pʌp ˈʧeɪsɪz ðə bʌg. bʌn baɪts ə bʌn. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb2_u10_2_n",
+ "sub": "line",
+ "title": "2권 10유닛 스토리북 해설 · 해설: A pup chases the bug. Bun bites a bun.",
+ "text": "A pup chases the bug. Bun bites a bun.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

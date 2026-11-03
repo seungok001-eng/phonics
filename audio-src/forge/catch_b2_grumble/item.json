@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=ch | TYPE=isolated-sound | IPA=tʃ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677693.3908699,
+   "sec": 0.62,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-10 23:25",
+ "applied": "2026-11-03 12:48",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -31,5 +48,6 @@
  "text": "Shh!",
  "voice": "Charon",
  "who": "grumble",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

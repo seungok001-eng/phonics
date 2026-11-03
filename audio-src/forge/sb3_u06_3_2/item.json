@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Shh. Clap, clap. | TYPE=sentence | IPA=ʃ. klæp, klæp. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! ...Clap, clap.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677959.2914805,
+   "sec": 2.14,
+   "check": {
+    "transcript": "clap clap",
+    "type": "word",
+    "ipa": "klæp klæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=clap clap | TYPE=word | IPA=klæp klæp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:23",
+ "applied": "2026-11-03 12:52",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -31,5 +48,6 @@
  "text": "Shh! ...Clap, clap.",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip opens the clock door. The clock ticks again!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677485.8177564,
+   "sec": 3.96,
+   "check": {
+    "transcript": "Pip opens the clock door. The clock ticks again.",
+    "type": "sentence",
+    "ipa": "pɪp ˈoʊpənz ðə klɑk dɔːr ðə klɑk tɪks əˈɡɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip opens the clock door. The clock ticks again. | TYPE=sentence | IPA=pɪp ˈoʊpənz ðə klɑk dɔːr ðə klɑk tɪks əˈɡɛn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b3_u06_3_n",
+ "sub": "line",
+ "title": "3권 6유닛 해설 · 해설: Pip opens the clock door. The clock ticks again!",
+ "text": "Pip opens the clock door. The clock ticks again!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

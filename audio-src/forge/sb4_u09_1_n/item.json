@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cloud hides the moon. A mouse peeks out.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677268.1842735,
+   "sec": 4.28,
+   "check": {
+    "transcript": "A cloud hides the moon, a mouse peeks out.",
+    "type": "sentence",
+    "ipa": "ə klɑʊd haɪdz ðə mun, ə maʊs piks aʊt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A cloud hides the moon, a mouse peeks out. | TYPE=sentence | IPA=ə klɑʊd haɪdz ðə mun, ə maʊs piks aʊt. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb4_u09_1_n",
+ "sub": "line",
+ "title": "4권 9유닛 스토리북 해설 · 해설: A cloud hides the moon. A mouse peeks out.",
+ "text": "A cloud hides the moon. A mouse peeks out.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

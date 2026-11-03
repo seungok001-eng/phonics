@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble walks into the party. Everyone waves!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677594.7988045,
+   "sec": 3.32,
+   "check": {
+    "transcript": "Grumble walks into the party, everyone waves.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl wɑks ˈɪntu ðə ˈpɑɹti, ˈɛvɹiˌwʌn wɪvz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble walks into the party, everyone waves. | TYPE=sentence | IPA=ˈɡɹʌmbəl wɑks ˈɪntu ðə ˈpɑɹti, ˈɛvɹiˌwʌn wɪvz. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b3_u11_2_n",
+ "sub": "line",
+ "title": "3권 11유닛 해설 · 해설: Grumble walks into the party. Everyone waves!",
+ "text": "Grumble walks into the party. Everyone waves!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

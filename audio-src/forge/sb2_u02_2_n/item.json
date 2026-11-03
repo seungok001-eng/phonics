@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bun gets her cap. A cat, a tap and a map.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676894.6045325,
+   "sec": 4.36,
+   "check": {
+    "transcript": "Bun gets her cap, a cat, a tap, and a map.",
+    "type": "sentence",
+    "ipa": "bʌn gɛts hɜr kæp, ə kæt, ə tæp, ənd ə mæp.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bun gets her cap, a cat, a tap, and a map. | TYPE=sentence | IPA=bʌn gɛts hɜr kæp, ə kæt, ə tæp, ənd ə mæp. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_2_n",
+ "sub": "line",
+ "title": "2권 2유닛 스토리북 해설 · 해설: Bun gets her cap. A cat, a tap and a map.",
+ "text": "Bun gets her cap. A cat, a tap and a map.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Snack time! Grumble brings tea. A seal peeks in.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677174.7649477,
+   "sec": 4.48,
+   "check": {
+    "transcript": "Snack time, Grumble brings tea. A seal peeks in.",
+    "type": "sentence",
+    "ipa": "snæk taɪm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Snack time, Grumble brings tea. A seal peeks in. | TYPE=sentence | IPA=snæk taɪm | ˈɡrʌmbəl brɪŋz tiː | ə siːl piːks ɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_b4_u07_3_n",
+ "sub": "line",
+ "title": "4권 7유닛 해설 · 해설: Snack time! Grumble brings tea. A seal peeks in.",
+ "text": "Snack time! Grumble brings tea. A seal peeks in.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

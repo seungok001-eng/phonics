@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A rain cloud pours on the toy train.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677126.4852517,
+   "sec": 3.4,
+   "check": {
+    "transcript": "A rain cloud pours on the toy train.",
+    "type": "sentence",
+    "ipa": "ə reɪn klaʊd pɔrz ɒn ðə tɔɪ treɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A rain cloud pours on the toy train. | TYPE=sentence | IPA=ə reɪn klaʊd pɔrz ɒn ðə tɔɪ treɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b4_u06_1_n",
+ "sub": "line",
+ "title": "4권 6유닛 해설 · 해설: A rain cloud pours on the toy train.",
+ "text": "A rain cloud pours on the toy train.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

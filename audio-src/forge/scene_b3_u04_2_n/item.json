@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The lock pops open. A room full of socks!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677409.6505718,
+   "sec": 4.64,
+   "check": {
+    "transcript": "The lock pops open, a room full of socks.",
+    "type": "sentence",
+    "ipa": "ðə ˈlɑk ˈpɑps ˈoʊpən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The lock pops open, a room full of socks. | TYPE=sentence | IPA=ðə ˈlɑk ˈpɑps ˈoʊpən |ə ˈrum ˈfʊl ʌv ˈsɑks | | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_b3_u04_2_n",
+ "sub": "line",
+ "title": "3권 4유닛 해설 · 해설: The lock pops open. A room full of socks!",
+ "text": "The lock pops open. A room full of socks!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

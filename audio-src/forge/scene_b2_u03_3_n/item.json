@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A hen draws with a pen. Grumble hides in a den.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676915.0224268,
+   "sec": 4.76,
+   "check": {
+    "transcript": "A hen draws with a pen, grumble hides in a den.",
+    "type": "sentence",
+    "ipa": "ə hɛn drɔːz wɪð ə pɛn, ˈɡrʌmbəl haɪdz ɪn ə dɛn.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A hen draws with a pen, grumble hides in a den. | TYPE=sentence | IPA=ə hɛn drɔːz wɪð ə pɛn, ˈɡrʌmbəl haɪdz ɪn ə dɛn. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b2_u03_3_n",
+ "sub": "line",
+ "title": "2권 3유닛 해설 · 해설: A hen draws with a pen. Grumble hides in a den.",
+ "text": "A hen draws with a pen. Grumble hides in a den.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

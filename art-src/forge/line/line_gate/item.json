@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791621661.902841,
+ "updated": 1793679929.9213445,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/ed5d907a-51a6-4918-9cc0-af0760a41a3d?Expires=1791643242&KeyName=labs-flow-prod-cdn-key&Signature=8iWGFHYWkJqEjwUzcQ9luaY8UyM",
  "prompt_edited": false,
- "applied": "2026-10-10 17:41",
+ "applied": "2026-11-03 13:33",
  "gen": "",
  "job_type": "image",
  "reference": "word_gate",
@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_gate.png",
  "book": 4,
- "claimed_at": 1791621625.8970704
+ "regen": 1,
+ "claimed_at": 1793679904.9159372
 }

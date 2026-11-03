@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Boom! A storm. It is dark in the top room.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677308.645557,
+   "sec": 4.84,
+   "check": {
+    "transcript": "boom a storm it is dark in the top room",
+    "type": "sentence",
+    "ipa": "b u m  ə  s t ɔɹ m  ɪ t  ɪ z  d ɑɹ k  ɪ n  ð ə  t ɑ p  ɹ u m",
+    "note": "ok",
+    "raw": "TRANSCRIPT=boom a storm it is dark in the top room | TYPE=sentence | IPA=b u m  ə  s t ɔɹ m  ɪ t  ɪ z  d ɑɹ k  ɪ n  ð ə  t ɑ p  ɹ u m | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb4_u10_1_n",
+ "sub": "line",
+ "title": "4권 10유닛 스토리북 해설 · 해설: Boom! A storm. It is dark in the top room.",
+ "text": "Boom! A storm. It is dark in the top room.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

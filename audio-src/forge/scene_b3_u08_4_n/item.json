@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Snack time! Grumble gets two pancakes.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677539.2449572,
+   "sec": 3.72,
+   "check": {
+    "transcript": "Snack time, Grumble gets two pancakes.",
+    "type": "sentence",
+    "ipa": "snæk taɪm, ˈɡɹʌmbəl ɡɛts tu ˈpæŋ.keɪks.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Snack time, Grumble gets two pancakes. | TYPE=sentence | IPA=snæk taɪm, ˈɡɹʌmbəl ɡɛts tu ˈpæŋ.keɪks. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:59",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_b3_u08_4_n",
+ "sub": "line",
+ "title": "3권 8유닛 해설 · 해설: Snack time! Grumble gets two pancakes.",
+ "text": "Snack time! Grumble gets two pancakes.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

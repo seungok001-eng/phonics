@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A big quilt flaps in the wind. A duck quacks!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677580.200672,
+   "sec": 4.0,
+   "check": {
+    "transcript": "A big quilt flaps in the wind. A duck quacks.",
+    "type": "sentence",
+    "ipa": "ə bɪɡ kwɪlt flæps ɪn ðə wɪnd ə dʌk kwæks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A big quilt flaps in the wind. A duck quacks. | TYPE=sentence | IPA=ə bɪɡ kwɪlt flæps ɪn ðə wɪnd ə dʌk kwæks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb3_u10_1_n",
+ "sub": "line",
+ "title": "3권 10유닛 스토리북 해설 · 해설: A big quilt flaps in the wind. A duck quacks!",
+ "text": "A big quilt flaps in the wind. A duck quacks!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

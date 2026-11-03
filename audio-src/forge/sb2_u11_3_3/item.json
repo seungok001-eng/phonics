@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Not me. Shh. | TYPE=sentence | IPA=nɑt miː ʃ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Not me! Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677859.1283429,
+   "sec": 1.68,
+   "check": {
+    "transcript": "Not me.",
+    "type": "sentence",
+    "ipa": "nɑt mi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Not me. | TYPE=sentence | IPA=nɑt mi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:45",
+ "applied": "2026-11-03 12:51",
  "text_edited": false,
  "error": "",
  "unit": 11,

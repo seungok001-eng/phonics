@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The train stops at the Song Tree. It is quiet.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677333.8741844,
+   "sec": 3.88,
+   "check": {
+    "transcript": "The train stops at the song tree, it is quiet.",
+    "type": "sentence",
+    "ipa": "ðə tɹeɪn stɑps æt ðə sɔŋ tɹi, ɪt ɪz kwaɪət.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The train stops at the song tree, it is quiet. | TYPE=sentence | IPA=ðə tɹeɪn stɑps æt ðə sɔŋ tɹi, ɪt ɪz kwaɪət. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b4_u11_2_n",
+ "sub": "line",
+ "title": "4권 11유닛 해설 · 해설: The train stops at the Song Tree. It is quiet.",
+ "text": "The train stops at the Song Tree. It is quiet.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

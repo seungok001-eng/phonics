@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie hugs his bag. Grumble has Bun's cap!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676887.9105124,
+   "sec": 4.4,
+   "check": {
+    "transcript": "Heggie hugs his bag. Grumble has Bun's cap.",
+    "type": "sentence",
+    "ipa": "ˈhɛgi hʌgz ˈhɪz ˈbæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Heggie hugs his bag. Grumble has Bun's cap. | TYPE=sentence | IPA=ˈhɛgi hʌgz ˈhɪz ˈbæg | ˈɡrʌmbəl ˈhæz ˈbʌnz ˈkæp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_b2_u02_4_n",
+ "sub": "line",
+ "title": "2권 2유닛 해설 · 해설: Hedgie hugs his bag. Grumble has Bun's cap!",
+ "text": "Hedgie hugs his bag. Grumble has Bun's cap!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

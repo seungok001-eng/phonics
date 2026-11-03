@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The wind blows the cap and the bag away.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676888.3033724,
+   "sec": 3.4,
+   "check": {
+    "transcript": "The wind blows the cap and the bag away.",
+    "type": "sentence",
+    "ipa": "ðə wɪnd bloʊz ðə kæp ænd ðə bæg əˈweɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The wind blows the cap and the bag away. | TYPE=sentence | IPA=ðə wɪnd bloʊz ðə kæp ænd ðə bæg əˈweɪ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_1_n",
+ "sub": "line",
+ "title": "2권 2유닛 스토리북 해설 · 해설: The wind blows the cap and the bag away.",
+ "text": "The wind blows the cap and the bag away.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

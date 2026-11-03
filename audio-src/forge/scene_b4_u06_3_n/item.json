@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Everyone rides the big train down the hall.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677137.6533809,
+   "sec": 3.32,
+   "check": {
+    "transcript": "Everyone rides the big train down the hall.",
+    "type": "sentence",
+    "ipa": "ˈɛvriwʌn raɪdz ðə bɪg treɪn daʊn ðə hɔl.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Everyone rides the big train down the hall. | TYPE=sentence | IPA=ˈɛvriwʌn raɪdz ðə bɪg treɪn daʊn ðə hɔl. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:44",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b4_u06_3_n",
+ "sub": "line",
+ "title": "4권 6유닛 해설 · 해설: Everyone rides the big train down the hall.",
+ "text": "Everyone rides the big train down the hall.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

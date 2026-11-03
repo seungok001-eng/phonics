@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The net is a stone now. A wet pet splashes Hedgie.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676911.5851467,
+   "sec": 4.52,
+   "check": {
+    "transcript": "The net is a stone now. A wet pet splashes hedgie.",
+    "type": "sentence",
+    "ipa": "ðə nɛt ɪz ə stoʊn naʊ ə wɛt pɛt splæʃəz hɛdʒi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The net is a stone now. A wet pet splashes hedgie. | TYPE=sentence | IPA=ðə nɛt ɪz ə stoʊn naʊ ə wɛt pɛt splæʃəz hɛdʒi | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b2_u03_2_n",
+ "sub": "line",
+ "title": "2권 3유닛 해설 · 해설: The net is a stone now. A wet pet splashes Hedgie.",
+ "text": "The net is a stone now. A wet pet splashes Hedgie.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

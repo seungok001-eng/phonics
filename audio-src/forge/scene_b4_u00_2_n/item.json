@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A tiny fairy pops out. Grumble peeks from a window.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676907.8648372,
+   "sec": 4.16,
+   "check": {
+    "transcript": "A tiny fairy pops out. Grumble peeks from a window.",
+    "type": "sentence",
+    "ipa": "ə ˈtaɪ.ni ˈfɛ.ri ˈpɑps aʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A tiny fairy pops out. Grumble peeks from a window. | TYPE=sentence | IPA=ə ˈtaɪ.ni ˈfɛ.ri ˈpɑps aʊt | ˈɡrʌm.bəl piksi frʌm ə ˈwɪn.doʊ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "scene_b4_u00_2_n",
+ "sub": "line",
+ "title": "4권 0유닛 해설 · 해설: A tiny fairy pops out. Grumble peeks from a window.",
+ "text": "A tiny fairy pops out. Grumble peeks from a window.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

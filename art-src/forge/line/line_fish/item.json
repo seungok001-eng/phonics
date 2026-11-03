@@ -2,13 +2,13 @@
  "status": "approved",
  "raw": "raw.png",
  "cut": "cut.png",
- "attempts": 1,
+ "attempts": 0,
  "error": "",
- "updated": 1791460497.9199324,
+ "updated": 1793679874.1296844,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/936fe9f6-57f7-4ca7-868e-0bcfe8706c62?Expires=1791482076&KeyName=labs-flow-prod-cdn-key&Signature=aJd1ckDjTL7bTvI7vAsEo7iZCTM",
  "prompt_edited": false,
- "applied": "2026-10-08 20:55",
+ "applied": "2026-11-03 13:33",
  "gen": "",
  "job_type": "image",
  "reference": "word_fish",
@@ -21,5 +21,6 @@
  "aspect": "1:1",
  "out": "web/assets/art/line_fish.png",
  "book": 3,
- "claimed_at": 1791460460.6158264
+ "regen": 1,
+ "claimed_at": 1793679848.8922002
 }

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The quilt lifts up. The last door is here!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677569.0371847,
+   "sec": 4.24,
+   "check": {
+    "transcript": "The quilt lifts up. The last door is here.",
+    "type": "sentence",
+    "ipa": "ðə kwɪlt lɪfts ʌp ðə læst dɔɹ ɪz hɪɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The quilt lifts up. The last door is here. | TYPE=sentence | IPA=ðə kwɪlt lɪfts ʌp ðə læst dɔɹ ɪz hɪɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:00",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "scene_b3_u10_2_n",
+ "sub": "line",
+ "title": "3권 10유닛 해설 · 해설: The quilt lifts up. The last door is here!",
+ "text": "The quilt lifts up. The last door is here!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

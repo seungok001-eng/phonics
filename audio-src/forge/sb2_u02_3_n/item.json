@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble saves the bag and wears the cap!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676897.7342556,
+   "sec": 3.56,
+   "check": {
+    "transcript": "Grumble saves the bag and wears the cap.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl seɪvz ðə bæɡ ənd wɛɹz ðə kæp.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble saves the bag and wears the cap. | TYPE=sentence | IPA=ˈɡɹʌmbəl seɪvz ðə bæɡ ənd wɛɹz ðə kæp. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb2_u02_3_n",
+ "sub": "line",
+ "title": "2권 2유닛 스토리북 해설 · 해설: Grumble saves the bag and wears the cap!",
+ "text": "Grumble saves the bag and wears the cap!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

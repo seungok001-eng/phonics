@@ -10,11 +10,28 @@
    "sec": 1.9,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! My lantern! Oh no!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676778.0840194,
+   "sec": 2.52,
+   "check": {
+    "transcript": "my lantern oh no",
+    "type": "sentence",
+    "ipa": "maɪ ˈlæntərn oʊ noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=my lantern oh no | TYPE=sentence | IPA=maɪ ˈlæntərn oʊ noʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:39",
+ "applied": "2026-11-03 12:33",
  "text_edited": false,
  "error": "",
  "unit": 9,

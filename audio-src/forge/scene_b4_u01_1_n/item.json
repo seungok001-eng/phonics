@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip reads the sign in pieces. Fairy E giggles.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676922.072004,
+   "sec": 4.4,
+   "check": {
+    "transcript": "Pip reads the sign in pieces. Fairy giggles.",
+    "type": "sentence",
+    "ipa": "pɪp riːdz ðə saɪn ɪn ˈpiːsɪz. ˈfɛri ˈɡɪɡəlz.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip reads the sign in pieces. Fairy giggles. | TYPE=sentence | IPA=pɪp riːdz ðə saɪn ɪn ˈpiːsɪz. ˈfɛri ˈɡɪɡəlz. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:40",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_b4_u01_1_n",
+ "sub": "line",
+ "title": "4권 1유닛 해설 · 해설: Pip reads the sign in pieces. Fairy E giggles.",
+ "text": "Pip reads the sign in pieces. Fairy E giggles.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

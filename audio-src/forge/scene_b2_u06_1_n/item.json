@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A big pig! The stones are too little.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677025.5937834,
+   "sec": 3.8,
+   "check": {
+    "transcript": "A big pig. The stones are too little.",
+    "type": "sentence",
+    "ipa": "ə bɪɡ pɪɡ ðə stoʊnz ɑɹ tu lɪtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A big pig. The stones are too little. | TYPE=sentence | IPA=ə bɪɡ pɪɡ ðə stoʊnz ɑɹ tu lɪtəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 6,
+ "letter": null,
+ "id": "scene_b2_u06_1_n",
+ "sub": "line",
+ "title": "2권 6유닛 해설 · 해설: A big pig! The stones are too little.",
+ "text": "A big pig! The stones are too little.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

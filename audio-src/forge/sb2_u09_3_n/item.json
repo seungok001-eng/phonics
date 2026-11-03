@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "An ox stops the fox. Grumble smiles at last. Then... bzzz!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677182.3096602,
+   "sec": 6.56,
+   "check": {
+    "transcript": "An ox stops the fox. Crumble smiles at last. Then, pss.",
+    "type": "sentence",
+    "ipa": "æn ˈɑks ˈstɑps ðə ˈfɑks ˈkrʌmbəl ˈsmaɪəlz æt ˈlæst ˈðɛn pz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=An ox stops the fox. Crumble smiles at last. Then, pss. | TYPE=sentence | IPA=æn ˈɑks ˈstɑps ðə ˈfɑks ˈkrʌmbəl ˈsmaɪəlz æt ˈlæst ˈðɛn pz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb2_u09_3_n",
+ "sub": "line",
+ "title": "2권 9유닛 스토리북 해설 · 해설: An ox stops the fox. Grumble smiles at last. Then... bzzz!",
+ "text": "An ox stops the fox. Grumble smiles at last. Then... bzzz!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

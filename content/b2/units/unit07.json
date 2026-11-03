@@ -179,7 +179,12 @@
             "en": "Is it warm or cold?",
             "ko": "따뜻해, 추워?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A cold wind. Hedgie's zipper is stuck. His jacket rips!",
+          "ko": "찬 바람이 불어요. 헤지 지퍼가 걸렸어요. 재킷이 찢어져요!",
+          "audio": "scene_b2_u07_1_n"
+        }
       },
       {
         "id": "scene_b2_u07_2",
@@ -220,7 +225,12 @@
             "en": "Is the zipper up now?",
             "ko": "지퍼가 올라갔어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The zipper zips up! Picnic time. Dip on Bun's lip.",
+          "ko": "지퍼가 올라가요! 소풍 시간. 번 입술에 소스가 묻었어요.",
+          "audio": "scene_b2_u07_2_n"
+        }
       },
       {
         "id": "scene_b2_u07_3",
@@ -263,7 +273,12 @@
             "en": "What does Bun hit?",
             "ko": "번이 뭘 쳤어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The cat sits on a kit. Bun hits a pit. Splash!",
+          "ko": "고양이가 구급상자 위에 앉아요. 번이 씨를 쳐요. 풍덩!",
+          "audio": "scene_b2_u07_3_n"
+        }
       },
       {
         "id": "scene_b2_u07_4",
@@ -303,7 +318,12 @@
             "en": "How many friends sit?",
             "ko": "몇 명이 앉았어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Everyone sits in a row. Grumble sits too!",
+          "ko": "모두 나란히 앉아요. 그럼블도 앉아요!",
+          "audio": "scene_b2_u07_4_n"
+        }
       }
     ],
     "synopsis_ko": "추운 바람에 헤지 재킷 지퍼가 걸리고 쭉 찢어졌어요. 비즈가 z-i-p 을 꿰자 지퍼가 저절로! 소풍에서 번 입술에 소스가 묻고, 고양이는 구급상자에 앉고, 복숭아씨를 쳐요. 그럼블이 처음으로 친구들 옆에 앉아요.",
@@ -573,7 +593,12 @@
         ],
         "task": "Find the -ip words!",
         "task_ko": "-ip 단어를 찾아요",
-        "ko": "추운 바람이 불어요. 헤지 재킷 지퍼가 걸리고 쭉 찢어져요. 핍은 '피즈!'"
+        "ko": "추운 바람이 불어요. 헤지 재킷 지퍼가 걸리고 쭉 찢어져요. 핍은 '피즈!'",
+        "narr": {
+          "text": "A cold day. Hedgie's jacket rips.",
+          "ko": "추운 날이에요. 헤지 재킷이 찢어져요.",
+          "audio": "sb2_u07_1_n"
+        }
       },
       {
         "id": "sb2_u07_2",
@@ -600,7 +625,12 @@
         ],
         "task": "Find the -ip words!",
         "task_ko": "-ip 단어를 찾아요",
-        "ko": "비즈가 z-i-p 을 꿰자 지퍼가 저절로 올라가요. 소풍이에요. 번 입술에 소스, 구급상자 위 고양이, 방망이로 복숭아씨를 쳐요."
+        "ko": "비즈가 z-i-p 을 꿰자 지퍼가 저절로 올라가요. 소풍이에요. 번 입술에 소스, 구급상자 위 고양이, 방망이로 복숭아씨를 쳐요.",
+        "narr": {
+          "text": "The zipper is up! A picnic on a big stone.",
+          "ko": "지퍼가 올라갔어요! 큰 돌 위에서 소풍이에요.",
+          "audio": "sb2_u07_2_n"
+        }
       },
       {
         "id": "sb2_u07_3",
@@ -627,7 +657,12 @@
         ],
         "task": "Find the -it words!",
         "task_ko": "-it 단어를 찾아요",
-        "ko": "모두 나란히 앉아요. 그럼블이 처음으로 끝자리에 앉아요. '쉿… 앉아도 돼?' 저 멀리 안개가 와요."
+        "ko": "모두 나란히 앉아요. 그럼블이 처음으로 끝자리에 앉아요. '쉿… 앉아도 돼?' 저 멀리 안개가 와요.",
+        "narr": {
+          "text": "Grumble sits with the friends. Mist comes over the water.",
+          "ko": "그럼블이 친구들과 함께 앉아요. 물 위로 안개가 와요.",
+          "audio": "sb2_u07_3_n"
+        }
       }
     ]
   }

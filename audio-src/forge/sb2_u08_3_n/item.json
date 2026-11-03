@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble's lantern! Hot soup for all. Then... yip!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677141.8645244,
+   "sec": 5.2,
+   "check": {
+    "transcript": "Crumb B's lantern, hot soup for all. Then yep.",
+    "type": "sentence",
+    "ipa": "ˈkrʌmbiz ˈlæntɚn ˈhɑt ˈsup fɚ ˈɔl ðɛn jɛp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Crumb B's lantern, hot soup for all. Then yep. | TYPE=sentence | IPA=ˈkrʌmbiz ˈlæntɚn ˈhɑt ˈsup fɚ ˈɔl ðɛn jɛp | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb2_u08_3_n",
+ "sub": "line",
+ "title": "2권 8유닛 스토리북 해설 · 해설: Grumble's lantern! Hot soup for all. Then... yip!",
+ "text": "Grumble's lantern! Hot soup for all. Then... yip!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

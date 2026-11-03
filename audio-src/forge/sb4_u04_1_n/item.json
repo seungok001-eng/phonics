@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A bear cub splashes in the tub. The floor floods!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677071.2154505,
+   "sec": 4.84,
+   "check": {
+    "transcript": "A bear cub splashes in the tub. The floor floods.",
+    "type": "sentence",
+    "ipa": "ə bɛɹ kʌb splæʃɪz ɪn ðə tʌb ðə flɔɹ flʌdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A bear cub splashes in the tub. The floor floods. | TYPE=sentence | IPA=ə bɛɹ kʌb splæʃɪz ɪn ðə tʌb ðə flɔɹ flʌdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:43",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb4_u04_1_n",
+ "sub": "line",
+ "title": "4권 4유닛 스토리북 해설 · 해설: A bear cub splashes in the tub. The floor floods!",
+ "text": "A bear cub splashes in the tub. The floor floods!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

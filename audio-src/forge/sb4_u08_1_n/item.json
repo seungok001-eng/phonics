@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Snow! The bridge is broken. A goat shivers.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677227.0200129,
+   "sec": 5.2,
+   "check": {
+    "transcript": "Snow. The bridge is broken. A goat shivers.",
+    "type": "sentence",
+    "ipa": "snəʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Snow. The bridge is broken. A goat shivers. | TYPE=sentence | IPA=snəʊ | ðə bɹɪdʒ ɪz bɹəʊkən ə ɡəʊt ʃɪvəz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:56",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "sb4_u08_1_n",
+ "sub": "line",
+ "title": "4권 8유닛 스토리북 해설 · 해설: Snow! The bridge is broken. A goat shivers.",
+ "text": "Snow! The bridge is broken. A goat shivers.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

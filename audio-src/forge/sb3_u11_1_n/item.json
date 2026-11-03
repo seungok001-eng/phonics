@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A party under the flags! All the friends come.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677603.9175155,
+   "sec": 3.48,
+   "check": {
+    "transcript": "a party under the flags, all the friends come",
+    "type": "sentence",
+    "ipa": "ə ˈpɑɹti ˈʌndɚ ðə ˈflæɡz ɔɫ ðə fɹɛnz kʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a party under the flags, all the friends come | TYPE=sentence | IPA=ə ˈpɑɹti ˈʌndɚ ðə ˈflæɡz ɔɫ ðə fɹɛnz kʌm | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_1_n",
+ "sub": "line",
+ "title": "3권 11유닛 스토리북 해설 · 해설: A party under the flags! All the friends come.",
+ "text": "A party under the flags! All the friends come.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

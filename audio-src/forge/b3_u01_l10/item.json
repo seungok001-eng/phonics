@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sh hmmm sh | TYPE=sentence | IPA=ʃ həm ʃ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "My shh? Hmm... Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676630.5657206,
+   "sec": 3.68,
+   "check": {
+    "transcript": "my",
+    "type": "word",
+    "ipa": "maɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=my | TYPE=word | IPA=maɪ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:04",
+ "applied": "2026-11-03 12:30",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -31,5 +48,6 @@
  "text": "My shh? Hmm... Shh!",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

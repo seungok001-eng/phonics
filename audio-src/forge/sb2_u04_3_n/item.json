@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Hedgie feeds Grumble. Pip looks at the cat.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676979.7855203,
+   "sec": 3.64,
+   "check": {
+    "transcript": "Hedgy feeds grumble. Pip looks at the cat.",
+    "type": "sentence",
+    "ipa": "ˈhɛʤi fidz ˈgrʌmbəl. pɪp lʊks ət ðə kæt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hedgy feeds grumble. Pip looks at the cat. | TYPE=sentence | IPA=ˈhɛʤi fidz ˈgrʌmbəl. pɪp lʊks ət ðə kæt. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "sb2_u04_3_n",
+ "sub": "line",
+ "title": "2권 4유닛 스토리북 해설 · 해설: Hedgie feeds Grumble. Pip looks at the cat.",
+ "text": "Hedgie feeds Grumble. Pip looks at the cat.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

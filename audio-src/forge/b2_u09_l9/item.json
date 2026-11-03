@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=sh I like it | TYPE=sentence | IPA=ʃ aɪ laɪk ɪt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... I like it.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676584.9363892,
+   "sec": 1.82,
+   "check": {
+    "transcript": "Shh. I like it.",
+    "type": "sentence",
+    "ipa": "ʃ ˈaɪ ˈlaɪk ˈɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. I like it. | TYPE=sentence | IPA=ʃ ˈaɪ ˈlaɪk ˈɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:42",
+ "applied": "2026-11-03 12:29",
  "text_edited": false,
  "error": "",
  "unit": 9,

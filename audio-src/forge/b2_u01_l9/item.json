@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=shh my pond | TYPE=sentence | IPA=ʃ mɑɪ pɑnd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! My pond!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676395.0269659,
+   "sec": 1.82,
+   "check": {
+    "transcript": "my pond",
+    "type": "sentence",
+    "ipa": "maɪ pɑnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=my pond | TYPE=sentence | IPA=maɪ pɑnd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:35",
+ "applied": "2026-11-03 12:26",
  "text_edited": false,
  "error": "",
  "unit": 1,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=shh Can I sit? | TYPE=sentence | IPA=ʃː kæn ɑɪ sɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... Can I sit?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676542.7275672,
+   "sec": 1.87,
+   "check": {
+    "transcript": "shh can I sit",
+    "type": "sentence",
+    "ipa": "ʃː kæn aɪ sɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh can I sit | TYPE=sentence | IPA=ʃː kæn aɪ sɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:40",
+ "applied": "2026-11-03 12:29",
  "text_edited": false,
  "error": "",
  "unit": 7,

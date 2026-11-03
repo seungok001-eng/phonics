@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cold wind. Hedgie's zipper is stuck. His jacket rips!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677068.1349232,
+   "sec": 5.84,
+   "check": {
+    "transcript": "A cold wind, Hedji's zipper is stuck. His jacket rips.",
+    "type": "sentence",
+    "ipa": "ə kəʊld wɪnd ˈhɛʤɪz ˈzɪpər ɪz stʌk hɪz ˈʤækɪt rɪps",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A cold wind, Hedji's zipper is stuck. His jacket rips. | TYPE=sentence | IPA=ə kəʊld wɪnd ˈhɛʤɪz ˈzɪpər ɪz stʌk hɪz ˈʤækɪt rɪps | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_b2_u07_1_n",
+ "sub": "line",
+ "title": "2권 7유닛 해설 · 해설: A cold wind. Hedgie's zipper is stuck. His jacket rips!",
+ "text": "A cold wind. Hedgie's zipper is stuck. His jacket rips!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

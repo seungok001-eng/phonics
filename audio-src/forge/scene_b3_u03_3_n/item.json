@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble lands in a big mud puddle!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677381.0330904,
+   "sec": 3.4,
+   "check": {
+    "transcript": "grumble lands in a big mud puddle",
+    "type": "sentence",
+    "ipa": "ˈɡrʌmbəl lænz ɪn ə bɪɡ mʌd ˈpʌdəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=grumble lands in a big mud puddle | TYPE=sentence | IPA=ˈɡrʌmbəl lænz ɪn ə bɪɡ mʌd ˈpʌdəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b3_u03_3_n",
+ "sub": "line",
+ "title": "3권 3유닛 해설 · 해설: Grumble lands in a big mud puddle!",
+ "text": "Grumble lands in a big mud puddle!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

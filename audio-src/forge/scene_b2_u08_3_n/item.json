@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A dot of light in the fog. It is Grumble!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677120.6916597,
+   "sec": 3.72,
+   "check": {
+    "transcript": "A dot of light in the fog. It is grumble.",
+    "type": "sentence",
+    "ipa": "ə dɑt ʌv laɪt ɪn ðə fɑɡ ɪt ɪz ɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A dot of light in the fog. It is grumble. | TYPE=sentence | IPA=ə dɑt ʌv laɪt ɪn ðə fɑɡ ɪt ɪz ɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 8,
+ "letter": null,
+ "id": "scene_b2_u08_3_n",
+ "sub": "line",
+ "title": "2권 8유닛 해설 · 해설: A dot of light in the fog. It is Grumble!",
+ "text": "A dot of light in the fog. It is Grumble!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

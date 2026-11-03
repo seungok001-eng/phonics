@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip reads its first word! Grumble lifts his lantern.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677021.2451198,
+   "sec": 4.72,
+   "check": {
+    "transcript": "Pip reads its first word, grumble lifts his lantern.",
+    "type": "sentence",
+    "ipa": "pɪp ridz ɪts fɝst wɝd, ɡɹʌmbəl lɪfts hɪz læntɚn.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip reads its first word, grumble lifts his lantern. | TYPE=sentence | IPA=pɪp ridz ɪts fɝst wɝd, ɡɹʌmbəl lɪfts hɪz læntɚn. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:49",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "sb2_u05_3_n",
+ "sub": "line",
+ "title": "2권 5유닛 스토리북 해설 · 해설: Pip reads its first word! Grumble lifts his lantern.",
+ "text": "Pip reads its first word! Grumble lifts his lantern.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

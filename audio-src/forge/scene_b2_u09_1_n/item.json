@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A fox takes Hedgie's box and hops away!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677150.0741603,
+   "sec": 3.64,
+   "check": {
+    "transcript": "A fox takes Hedgy's box and hops away.",
+    "type": "sentence",
+    "ipa": "ə fɑks teɪks hɛdʒiz bɑks ənd hɑps əwɛɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A fox takes Hedgy's box and hops away. | TYPE=sentence | IPA=ə fɑks teɪks hɛdʒiz bɑks ənd hɑps əwɛɪ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "scene_b2_u09_1_n",
+ "sub": "line",
+ "title": "2권 9유닛 해설 · 해설: A fox takes Hedgie's box and hops away!",
+ "text": "A fox takes Hedgie's box and hops away!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

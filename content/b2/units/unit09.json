@@ -181,7 +181,12 @@
             "en": "What falls out?",
             "ko": "뭐가 떨어졌어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A fox takes Hedgie's box and hops away!",
+          "ko": "여우가 헤지의 상자를 들고 깡충 달아나요!",
+          "audio": "scene_b2_u09_1_n"
+        }
       },
       {
         "id": "scene_b2_u09_2",
@@ -222,7 +227,12 @@
             "en": "Who is hopping?",
             "ko": "누가 깡충 뛰어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "New stones pop up. Everyone hops after the fox.",
+          "ko": "새 돌이 솟아요. 모두 여우를 쫓아 깡충 뛰어요.",
+          "audio": "scene_b2_u09_2_n"
+        }
       },
       {
         "id": "scene_b2_u09_3",
@@ -264,7 +274,12 @@
             "en": "Who jumps out of the reeds?",
             "ko": "갈대에서 누가 튀어나왔어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The fox bumps into an ox. Grumble jumps out!",
+          "ko": "여우가 황소에 부딪혀요. 그럼블이 튀어나와요!",
+          "audio": "scene_b2_u09_3_n"
+        }
       },
       {
         "id": "scene_b2_u09_4",
@@ -304,7 +319,12 @@
             "en": "Is Grumble smiling?",
             "ko": "그럼블이 웃고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Hedgie has his box. Grumble spins the top and smiles.",
+          "ko": "헤지가 상자를 되찾았어요. 그럼블이 팽이를 돌리며 웃어요.",
+          "audio": "scene_b2_u09_4_n"
+        }
       }
     ],
     "synopsis_ko": "여우가 헤지의 상자를 들고 깡충깡충 달아나요. 비즈가 h-o-p 을 꿰고 모두 쫓아가요. 여우가 황소에 부딪히고 그럼블이 갈대에서 \"쉿!!\" 상자를 되찾고 그럼블이 팽이를 돌리며 처음 웃어요.",
@@ -573,7 +593,12 @@
         ],
         "task": "Find the -ox words!",
         "task_ko": "-ox 단어를 찾아요",
-        "ko": "여우가 헤지의 상자를 들고 깡충깡충 달아나요. 팽이가 떨어져요. 핍은 '팟!'"
+        "ko": "여우가 헤지의 상자를 들고 깡충깡충 달아나요. 팽이가 떨어져요. 핍은 '팟!'",
+        "narr": {
+          "text": "A fox hops away with the box!",
+          "ko": "여우가 상자를 들고 깡충 달아나요!",
+          "audio": "sb2_u09_1_n"
+        }
       },
       {
         "id": "sb2_u09_2",
@@ -600,7 +625,12 @@
         ],
         "task": "Find the -op words!",
         "task_ko": "-op 단어를 찾아요",
-        "ko": "비즈가 h-o-p 을 꿰고 모두 깡충깡충 쫓아가요. 번이 풍선을 펑! 여우가 깜짝 놀라요."
+        "ko": "비즈가 h-o-p 을 꿰고 모두 깡충깡충 쫓아가요. 번이 풍선을 펑! 여우가 깜짝 놀라요.",
+        "narr": {
+          "text": "Everyone hops. Bun pops a red balloon.",
+          "ko": "모두 깡충 뛰어요. 번이 빨간 풍선을 터뜨려요.",
+          "audio": "sb2_u09_2_n"
+        }
       },
       {
         "id": "sb2_u09_3",
@@ -627,7 +657,12 @@
         ],
         "task": "Find the box and the top!",
         "task_ko": "상자와 팽이를 찾아요",
-        "ko": "여우가 황소에 부딪히고 그럼블이 갈대에서 '쉿!!' 상자를 되찾고 그럼블이 팽이를 돌리며 처음 웃어요. 붕… 붕… 저런!"
+        "ko": "여우가 황소에 부딪히고 그럼블이 갈대에서 '쉿!!' 상자를 되찾고 그럼블이 팽이를 돌리며 처음 웃어요. 붕… 붕… 저런!",
+        "narr": {
+          "text": "An ox stops the fox. Grumble smiles at last. Then... bzzz!",
+          "ko": "황소가 여우를 막아요. 그럼블이 드디어 웃어요. 그런데… 붕!",
+          "audio": "sb2_u09_3_n"
+        }
       }
     ]
   }

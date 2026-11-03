@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A crab on a brick wall snaps its claws!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677518.5701525,
+   "sec": 3.8,
+   "check": {
+    "transcript": "A crab on a brick wall snaps its claws.",
+    "type": "sentence",
+    "ipa": "ə kræb ɒn ə brɪk wɔːl snæps ɪts klɔːz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A crab on a brick wall snaps its claws. | TYPE=sentence | IPA=ə kræb ɒn ə brɪk wɔːl snæps ɪts klɔːz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb3_u07_1_n",
+ "sub": "line",
+ "title": "3권 7유닛 스토리북 해설 · 해설: A crab on a brick wall snaps its claws!",
+ "text": "A crab on a brick wall snaps its claws!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

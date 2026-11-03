@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble slips on a stone. His leg is big!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676946.5004914,
+   "sec": 4.24,
+   "check": {
+    "transcript": "Grumble slips on a stone. His leg is big.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl slɪps ɒn ə stoʊn hɪz lɛɡ ɪz bɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble slips on a stone. His leg is big. | TYPE=sentence | IPA=ˈɡɹʌmbəl slɪps ɒn ə stoʊn hɪz lɛɡ ɪz bɪɡ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_b2_u04_1_n",
+ "sub": "line",
+ "title": "2권 4유닛 해설 · 해설: Grumble slips on a stone. His leg is big!",
+ "text": "Grumble slips on a stone. His leg is big!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

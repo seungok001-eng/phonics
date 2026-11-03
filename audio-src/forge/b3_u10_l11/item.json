@@ -10,11 +10,45 @@
    "sec": 1.86,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... La, la, la!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676791.11107,
+   "sec": 1.87,
+   "check": {
+    "transcript": "shh la la lauds",
+    "type": "sentence",
+    "ipa": "ʃ lɑ lɑ lɔdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh la la lauds | TYPE=sentence | IPA=ʃ lɑ lɑ lɔdz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... La, la, la!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793678336.3742685,
+   "sec": 2.24,
+   "check": {
+    "transcript": "la la la",
+    "type": "word",
+    "ipa": "lɑ lɑ lɑ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=la la la | TYPE=word | IPA=lɑ lɑ lɑ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 22:44",
+ "applied": "2026-11-03 12:59",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -25,5 +59,6 @@
  "text": "Shh... La, la, la!",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A castle glows far away. What is on the gate?",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677610.4029636,
+   "sec": 4.24,
+   "check": {
+    "transcript": "A castle glows far away. What is on the gate?",
+    "type": "sentence",
+    "ipa": "ə kæsəl gloʊz fɑr əweɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A castle glows far away. What is on the gate? | TYPE=sentence | IPA=ə kæsəl gloʊz fɑr əweɪ | wɑt ɪz ɑn ðə geɪt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:01",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "sb3_u11_3_n",
+ "sub": "line",
+ "title": "3권 11유닛 스토리북 해설 · 해설: A castle glows far away. What is on the gate?",
+ "text": "A castle glows far away. What is on the gate?",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

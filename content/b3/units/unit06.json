@@ -199,7 +199,12 @@
             "en": "Can the clock tick?",
             "ko": "시계가 째깍거려?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A huge block is in the way. The clock stops.",
+          "ko": "커다란 블록이 길을 막아요. 시계가 멈췄어요.",
+          "audio": "scene_b3_u06_1_n"
+        }
       },
       {
         "id": "scene_b3_u06_2",
@@ -243,7 +248,12 @@
             "en": "Who falls?",
             "ko": "누가 넘어졌어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The block slides away. Bun falls on the grass!",
+          "ko": "블록이 비켜나요. 번이 풀밭에 꽈당!",
+          "audio": "scene_b3_u06_2_n"
+        }
       },
       {
         "id": "scene_b3_u06_3",
@@ -284,7 +294,12 @@
             "en": "What claps with the friends?",
             "ko": "누가 같이 손뼉을 쳐?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Pip opens the clock door. The clock ticks again!",
+          "ko": "핍이 시계 문을 열어요. 시계가 다시 째깍거려요!",
+          "audio": "scene_b3_u06_3_n"
+        }
       },
       {
         "id": "scene_b3_u06_4",
@@ -325,7 +340,12 @@
             "en": "What does Grumble do?",
             "ko": "그럼블은 뭘 했어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Hedgie flips a pancake. Grumble softly claps.",
+          "ko": "헤지가 팬케이크를 뒤집어요. 그럼블이 살짝 손뼉을 쳐요.",
+          "audio": "scene_b3_u06_4_n"
+        }
       }
     ],
     "synopsis_ko": "커다란 까만 블록이 길을 막고 그 뒤 시계가 멈췄어요. 핌과 팜이 두 소리를 빠르게 이어 bl! 블록이 비켜나요. 핍은 처음엔 거꾸로 \"르크?\" 하다가 \"클록!\" 시계가 다시 째깍째깍, 그럼블도 몰래 손뼉을 쳐요.",
@@ -597,7 +617,12 @@
         ],
         "task": "Find the bl words!",
         "task_ko": "bl 단어를 찾아요",
-        "ko": "까만 블록이 길을 막고, 그 뒤 시계가 멈췄어요. 핍은 bl 을 거꾸로 \"르브?\""
+        "ko": "까만 블록이 길을 막고, 그 뒤 시계가 멈췄어요. 핍은 bl 을 거꾸로 \"르브?\"",
+        "narr": {
+          "text": "A huge block is in the way. The clock stops.",
+          "ko": "커다란 블록이 길을 막아요. 시계가 멈췄어요.",
+          "audio": "sb3_u06_1_n"
+        }
       },
       {
         "id": "sb3_u06_2",
@@ -624,7 +649,12 @@
         ],
         "task": "Find the cl words!",
         "task_ko": "cl 단어를 찾아요",
-        "ko": "핌과 팜이 bl! 블록이 비켜나요. 핍이 \"르크? 아니! 클록!\" 시계가 다시 째깍째깍!"
+        "ko": "핌과 팜이 bl! 블록이 비켜나요. 핍이 \"르크? 아니! 클록!\" 시계가 다시 째깍째깍!",
+        "narr": {
+          "text": "The block slides away. The clock ticks again!",
+          "ko": "블록이 비켜나요. 시계가 다시 째깍거려요!",
+          "audio": "sb3_u06_2_n"
+        }
       },
       {
         "id": "sb3_u06_3",
@@ -651,7 +681,12 @@
         ],
         "task": "Find the fl words!",
         "task_ko": "fl 단어를 찾아요",
-        "ko": "헤지가 팬케이크를 휙! 그럼블이 몰래 손뼉을 짝짝. — 싹둑싹둑! 저 앞 벽돌담에 누가 있어요?"
+        "ko": "헤지가 팬케이크를 휙! 그럼블이 몰래 손뼉을 짝짝. — 싹둑싹둑! 저 앞 벽돌담에 누가 있어요?",
+        "narr": {
+          "text": "Hedgie flips a pancake. Who is on the brick wall?",
+          "ko": "헤지가 팬케이크를 뒤집어요. 벽돌담 위엔 누가 있을까요?",
+          "audio": "sb3_u06_3_n"
+        }
       }
     ]
   }

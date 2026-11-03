@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two rows of stones. Grumble peeks out. Then... splash!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676870.0753632,
+   "sec": 5.08,
+   "check": {
+    "transcript": "Two rows of stones Grumble peaks out then splash",
+    "type": "sentence",
+    "ipa": "tu roʊz ʌv stoʊnz ˈɡrʌmbəl piks aʊt ðɛn splæʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Two rows of stones Grumble peaks out then splash | TYPE=sentence | IPA=tu roʊz ʌv stoʊnz ˈɡrʌmbəl piks aʊt ðɛn splæʃ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb2_u01_3_n",
+ "sub": "line",
+ "title": "2권 1유닛 스토리북 해설 · 해설: Two rows of stones. Grumble peeks out. Then... splash!",
+ "text": "Two rows of stones. Grumble peeks out. Then... splash!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

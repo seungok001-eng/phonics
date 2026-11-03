@@ -178,14 +178,18 @@
             "en": "What flies at the lantern?",
             "ko": "등불 둘레에 뭐가 날아?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The friends walk in a line on a thin path.",
+          "ko": "친구들이 가느다란 길을 한 줄로 걸어요.",
+          "audio": "scene_b3_u03_1_n"
+        }
       },
       {
         "id": "scene_b3_u03_2",
         "desc": "Pim and Pam land at the end of the thin path and say the sound together, and the little round door in the rock swings open with a soft glow. Beads holds up a string of three beads. But the moth, drawn by the glow, zooms down past Grumble's lantern, and Grumble, swatting at it from his branch, loses his balance — his slippers fly up as he topples. Hidden in the picture: the thin path, the moth.",
         "hidden": [
           "path",
-          "thin",
           "moth"
         ],
         "lines": [
@@ -221,7 +225,12 @@
             "en": "What happens to Grumble?",
             "ko": "그럼블은 어떻게 됐어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The door opens. Grumble swats the moth and falls!",
+          "ko": "문이 열려요. 그럼블이 나방을 쫓다가 떨어져요!",
+          "audio": "scene_b3_u03_2_n"
+        }
       },
       {
         "id": "scene_b3_u03_3",
@@ -260,7 +269,12 @@
             "en": "What does Grumble need?",
             "ko": "그럼블에게 뭐가 필요해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble lands in a big mud puddle!",
+          "ko": "그럼블이 커다란 진흙 웅덩이에 풍덩 빠졌어요!",
+          "audio": "scene_b3_u03_3_n"
+        }
       },
       {
         "id": "scene_b3_u03_4",
@@ -301,7 +315,12 @@
             "en": "Is the bath hot?",
             "ko": "목욕물은 따뜻해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Grumble takes a warm bubble bath. He is happy.",
+          "ko": "그럼블이 따뜻한 거품 목욕을 해요. 기분이 좋아요.",
+          "audio": "scene_b3_u03_4_n"
+        }
       }
     ],
     "synopsis_ko": "해질녘, 아주 가느다란 오솔길 끝에 t·h 문이 있어요. 핌과 팜이 함께 th! 문이 열려요. 그런데 나방을 쫓던 그럼블이 진흙에 철퍼덕! 친구들이 따뜻한 거품 목욕을 만들어 주자 그럼블이 살짝 웃어요.",
@@ -565,7 +584,12 @@
         ],
         "task": "Find the th words!",
         "task_ko": "th 단어를 찾아요",
-        "ko": "아주 가느다란 오솔길을 한 줄로 걸어요. 끝에 t·h 문. 등불 둘레에 나방이 팔랑팔랑."
+        "ko": "아주 가느다란 오솔길을 한 줄로 걸어요. 끝에 t·h 문. 등불 둘레에 나방이 팔랑팔랑.",
+        "narr": {
+          "text": "The friends walk in a line on a thin path.",
+          "ko": "친구들이 가느다란 길을 한 줄로 걸어요.",
+          "audio": "sb3_u03_1_n"
+        }
       },
       {
         "id": "sb3_u03_2",
@@ -592,7 +616,12 @@
         ],
         "task": "Find the moth!",
         "task_ko": "나방을 찾아요",
-        "ko": "핌과 팜이 th! 바위 문이 열려요. 나방을 쫓던 그럼블이 미끄러져요!"
+        "ko": "핌과 팜이 th! 바위 문이 열려요. 나방을 쫓던 그럼블이 미끄러져요!",
+        "narr": {
+          "text": "The door opens. Grumble swats the moth and falls!",
+          "ko": "문이 열려요. 그럼블이 나방을 쫓다가 떨어져요!",
+          "audio": "sb3_u03_2_n"
+        }
       },
       {
         "id": "sb3_u03_3",
@@ -619,7 +648,12 @@
         ],
         "task": "Find the bath!",
         "task_ko": "목욕통을 찾아요",
-        "ko": "진흙투성이 그럼블에게 거품 목욕! \"따뜻하네.\" 번이 엄지 척! — 꽥꽥꽥, 시내 건너에서 누가 울어요?"
+        "ko": "진흙투성이 그럼블에게 거품 목욕! \"따뜻하네.\" 번이 엄지 척! — 꽥꽥꽥, 시내 건너에서 누가 울어요?",
+        "narr": {
+          "text": "Grumble takes a bath. Why is the duck sad?",
+          "ko": "그럼블이 목욕을 해요. 오리는 왜 슬플까요?",
+          "audio": "sb3_u03_3_n"
+        }
       }
     ]
   }

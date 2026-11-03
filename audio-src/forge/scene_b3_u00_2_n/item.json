@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two tiny twin birds pop out of the door!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677278.40209,
+   "sec": 3.64,
+   "check": {
+    "transcript": "Two tiny twin birds pop out of the door.",
+    "type": "sentence",
+    "ipa": "tuː ˈtaɪni twɪn bɜːrdz pɒp aʊt əv ðə dɔːr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Two tiny twin birds pop out of the door. | TYPE=sentence | IPA=tuː ˈtaɪni twɪn bɜːrdz pɒp aʊt əv ðə dɔːr | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "scene_b3_u00_2_n",
+ "sub": "line",
+ "title": "3권 0유닛 해설 · 해설: Two tiny twin birds pop out of the door!",
+ "text": "Two tiny twin birds pop out of the door!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

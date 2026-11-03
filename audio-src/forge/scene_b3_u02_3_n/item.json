@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Two baby chipmunks pop up. Hedgie gives a chip.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677348.305815,
+   "sec": 3.56,
+   "check": {
+    "transcript": "Two baby chipmunks pop up. Hedgie gives a chip.",
+    "type": "sentence",
+    "ipa": "tu beɪbi ˈʧɪpmʌŋks pɑp ʌp. ˈhɛʤi ɡɪvz ə ʧɪp.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Two baby chipmunks pop up. Hedgie gives a chip. | TYPE=sentence | IPA=tu beɪbi ˈʧɪpmʌŋks pɑp ʌp. ˈhɛʤi ɡɪvz ə ʧɪp. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "scene_b3_u02_3_n",
+ "sub": "line",
+ "title": "3권 2유닛 해설 · 해설: Two baby chipmunks pop up. Hedgie gives a chip.",
+ "text": "Two baby chipmunks pop up. Hedgie gives a chip.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

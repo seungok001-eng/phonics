@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble lights the path. Far away, a clock stops.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677461.5075395,
+   "sec": 5.68,
+   "check": {
+    "transcript": "Grumble lights the path. Far away, a clock stops.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl laɪts ðə pæθ. fɑɹ əˈweɪ, ə klɑk stɑps.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble lights the path. Far away, a clock stops. | TYPE=sentence | IPA=ˈɡɹʌmbəl laɪts ðə pæθ. fɑɹ əˈweɪ, ə klɑk stɑps. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_b3_u05_4_n",
+ "sub": "line",
+ "title": "3권 5유닛 해설 · 해설: Grumble lights the path. Far away, a clock stops.",
+ "text": "Grumble lights the path. Far away, a clock stops.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

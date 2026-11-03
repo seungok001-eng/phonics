@@ -187,7 +187,12 @@
             "en": "What is on the wall?",
             "ko": "벽에 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A storm rages. The top room is dark.",
+          "ko": "폭풍이 몰아쳐요. 꼭대기 방이 깜깜해요.",
+          "audio": "scene_b4_u10_1_n"
+        }
       },
       {
         "id": "scene_b4_u10_2",
@@ -230,7 +235,12 @@
             "en": "What is in the middle?",
             "ko": "방 한가운데 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The torch lights up. A harp and a tiny star!",
+          "ko": "횃불이 켜져요. 하프와 작은 별이 보여요!",
+          "audio": "scene_b4_u10_2_n"
+        }
       },
       {
         "id": "scene_b4_u10_3",
@@ -273,7 +283,12 @@
             "en": "What does Pip do?",
             "ko": "핍은 뭘 해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The star plays the harp. Pip sings a new song.",
+          "ko": "별이 하프를 울려요. 핍이 새 노래를 불러요.",
+          "audio": "scene_b4_u10_3_n"
+        }
       },
       {
         "id": "scene_b4_u10_4",
@@ -315,7 +330,12 @@
             "en": "What does Grumble do?",
             "ko": "그럼블은 뭘 해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The storm is gone. Far away, the Song Tree glows.",
+          "ko": "폭풍이 그쳤어요. 저 멀리 노래 나무가 빛나요.",
+          "audio": "scene_b4_u10_4_n"
+        }
       }
     ],
     "synopsis_ko": "가장 높은 탑 꼭대기 방. 밖은 폭풍이라 깜깜해요. 핍은 \"토어… 치?\" 요정 이가 반짝이 둘을 하나로 합치고 \"torch!\" 하자 횃불이 켜져요. 하프와 별이 든 병이 보여요. 별이 하프 줄에 닿자 금빛 음표(노래 조각 넷)가 나와 핍에게 들어가요. 폭풍이 그치고 창밖 멀리 노래 나무가 보여요. 그럼블이 처음으로 북을 \"쿵!\" 쳐요.",
@@ -587,7 +607,12 @@
         ],
         "task": "Find the or words!",
         "task_ko": "or 단어를 찾아요",
-        "ko": "폭풍 치는 밤, 꼭대기 방은 깜깜해요. 벽에 꺼진 횃불이 있어요."
+        "ko": "폭풍 치는 밤, 꼭대기 방은 깜깜해요. 벽에 꺼진 횃불이 있어요.",
+        "narr": {
+          "text": "Boom! A storm. It is dark in the top room.",
+          "ko": "쿵! 폭풍이에요. 꼭대기 방이 깜깜해요.",
+          "audio": "sb4_u10_1_n"
+        }
       },
       {
         "id": "sb4_u10_2",
@@ -614,7 +639,12 @@
         ],
         "task": "Find the ar words!",
         "task_ko": "ar 단어를 찾아요",
-        "ko": "횃불이 켜지고 하프와 별이 보여요. 하프에서 노래 조각 넷이 나와 핍에게 들어가요."
+        "ko": "횃불이 켜지고 하프와 별이 보여요. 하프에서 노래 조각 넷이 나와 핍에게 들어가요.",
+        "narr": {
+          "text": "The torch lights up. A star plays the harp.",
+          "ko": "횃불이 켜져요. 별이 하프를 울려요.",
+          "audio": "sb4_u10_2_n"
+        }
       },
       {
         "id": "sb4_u10_3",
@@ -641,7 +671,12 @@
         ],
         "task": "Find the Song Tree!",
         "task_ko": "노래 나무를 찾아요",
-        "ko": "창밖 멀리 노래 나무가 보여요. 그럼블이 북을 쿵! — 칙칙폭폭! 가자!"
+        "ko": "창밖 멀리 노래 나무가 보여요. 그럼블이 북을 쿵! — 칙칙폭폭! 가자!",
+        "narr": {
+          "text": "The Song Tree glows far away. Grumble beats his drum!",
+          "ko": "저 멀리 노래 나무가 빛나요. 그럼블이 북을 쳐요!",
+          "audio": "sb4_u10_3_n"
+        }
       }
     ]
   }

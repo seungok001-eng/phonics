@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A bare tree and a sad bee by the sea.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677187.6399016,
+   "sec": 3.6,
+   "check": {
+    "transcript": "A bare tree and a sad bee by the sea.",
+    "type": "sentence",
+    "ipa": "ə bɛɹ tɹi ənd ə sæd bi baɪ ðə si",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A bare tree and a sad bee by the sea. | TYPE=sentence | IPA=ə bɛɹ tɹi ənd ə sæd bi baɪ ðə si | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:55",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb4_u07_1_n",
+ "sub": "line",
+ "title": "4권 7유닛 스토리북 해설 · 해설: A bare tree and a sad bee by the sea.",
+ "text": "A bare tree and a sad bee by the sea.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

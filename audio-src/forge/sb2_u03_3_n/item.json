@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A hen with a pen. Grumble peeks out. Ouch!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676942.2658887,
+   "sec": 4.48,
+   "check": {
+    "transcript": "A hen with a pen? Grumble peaks out. Ouch!",
+    "type": "sentence",
+    "ipa": "ə hɛn wɪð ə pɛn ˈɡɹʌmbəl pikz aʊt aʊʧ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A hen with a pen? Grumble peaks out. Ouch! | TYPE=sentence | IPA=ə hɛn wɪð ə pɛn ˈɡɹʌmbəl pikz aʊt aʊʧ | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "sb2_u03_3_n",
+ "sub": "line",
+ "title": "2권 3유닛 스토리북 해설 · 해설: A hen with a pen. Grumble peeks out. Ouch!",
+ "text": "A hen with a pen. Grumble peeks out. Ouch!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

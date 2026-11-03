@@ -10,11 +10,28 @@
    "sec": 2.04,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Snack? One snack?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676745.9489734,
+   "sec": 2.7,
+   "check": {
+    "transcript": "shh snack one snack",
+    "type": "sentence",
+    "ipa": "ʃ snæk wʌn snæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh snack one snack | TYPE=sentence | IPA=ʃ snæk wʌn snæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:34",
+ "applied": "2026-11-03 12:32",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -25,5 +42,6 @@
  "text": "Shh... Snack? One snack?",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Everyone sits in a row. Grumble sits too!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677087.619018,
+   "sec": 3.76,
+   "check": {
+    "transcript": "Everyone sits in a row. Grumble sits too.",
+    "type": "sentence",
+    "ipa": "ˈɛvriwʌn sɪts ɪn ə ˈroʊ. ˈɡrʌmbəl sɪts tu.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Everyone sits in a row. Grumble sits too. | TYPE=sentence | IPA=ˈɛvriwʌn sɪts ɪn ə ˈroʊ. ˈɡrʌmbəl sɪts tu. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_b2_u07_4_n",
+ "sub": "line",
+ "title": "2권 7유닛 해설 · 해설: Everyone sits in a row. Grumble sits too!",
+ "text": "Everyone sits in a row. Grumble sits too!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Ouch, my leg. | TYPE=sentence | IPA=aʊtʃ maɪ lɛɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... Ouch! My leg!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677773.150272,
+   "sec": 2.19,
+   "check": {
+    "transcript": "Ouch, my leg.",
+    "type": "sentence",
+    "ipa": "aʊtʃ maɪ lɛg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ouch, my leg. | TYPE=sentence | IPA=aʊtʃ maɪ lɛg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:38",
+ "applied": "2026-11-03 12:49",
  "text_edited": false,
  "error": "",
  "unit": 4,

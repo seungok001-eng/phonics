@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A cold day. Hedgie's jacket rips.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677092.7944167,
+   "sec": 3.84,
+   "check": {
+    "transcript": "a cold day. Hedgie's jacket rips.",
+    "type": "sentence",
+    "ipa": "ə kʰoʊld deɪ ˈhɛdʒiz ˈdʒækɪt ɹɪps",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a cold day. Hedgie's jacket rips. | TYPE=sentence | IPA=ə kʰoʊld deɪ ˈhɛdʒiz ˈdʒækɪt ɹɪps | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "sb2_u07_1_n",
+ "sub": "line",
+ "title": "2권 7유닛 스토리북 해설 · 해설: A cold day. Hedgie's jacket rips.",
+ "text": "A cold day. Hedgie's jacket rips.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

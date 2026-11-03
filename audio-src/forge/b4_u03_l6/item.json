@@ -10,11 +10,28 @@
    "sec": 1.44,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... Take the rope.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793676874.1958814,
+   "sec": 2.0,
+   "check": {
+    "transcript": "Take the rope.",
+    "type": "sentence",
+    "ipa": "teɪk ðə roʊp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Take the rope. | TYPE=sentence | IPA=teɪk ðə roʊp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:18",
+ "applied": "2026-11-03 12:34",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -25,5 +42,6 @@
  "text": "Shh... Take the rope.",
  "voice": "Charon",
  "who": "grumble",
- "book": 4
+ "book": 4,
+ "busy": 0
 }

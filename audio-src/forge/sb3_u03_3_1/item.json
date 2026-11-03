@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=This bat is hot. | TYPE=sentence | IPA=ðɪs bæt ɪz hɑt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh... This bath is hot.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677917.3558137,
+   "sec": 2.24,
+   "check": {
+    "transcript": "This battery is hot.",
+    "type": "sentence",
+    "ipa": "ðɪs bætəɹi ɪz hɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=This battery is hot. | TYPE=sentence | IPA=ðɪs bætəɹi ɪz hɑt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 22:13",
+ "applied": "2026-11-03 12:52",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -31,5 +48,6 @@
  "text": "Shh... This bath is hot.",
  "voice": "Charon",
  "who": "grumble",
- "book": 3
+ "book": 3,
+ "busy": 0
 }

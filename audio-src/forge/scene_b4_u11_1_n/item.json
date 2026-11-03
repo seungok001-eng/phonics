@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The big train rolls down the hill. Friends wave!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677326.345293,
+   "sec": 4.4,
+   "check": {
+    "transcript": "The big train rolls down the hill. Friends wave.",
+    "type": "sentence",
+    "ipa": "ðə bɪɡ tɹeɪn ɹoʊlz daʊn ðə hɪl fɹɛndz weɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The big train rolls down the hill. Friends wave. | TYPE=sentence | IPA=ðə bɪɡ tɹeɪn ɹoʊlz daʊn ðə hɪl fɹɛndz weɪv | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:58",
+ "text_edited": false,
+ "error": "",
+ "unit": 11,
+ "letter": null,
+ "id": "scene_b4_u11_1_n",
+ "sub": "line",
+ "title": "4권 11유닛 해설 · 해설: The big train rolls down the hill. Friends wave!",
+ "text": "The big train rolls down the hill. Friends wave!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A sunny walk on the stones. The pets come too.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676986.7232354,
+   "sec": 3.56,
+   "check": {
+    "transcript": "A sunny walk on the stones. The pets come too.",
+    "type": "sentence",
+    "ipa": "ə ˈsʌni ˈwɔk ɑn ðə ˈstoʊnz ðə ˈpɛts ˈkʌm tu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A sunny walk on the stones. The pets come too. | TYPE=sentence | IPA=ə ˈsʌni ˈwɔk ɑn ðə ˈstoʊnz ðə ˈpɛts ˈkʌm tu | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:48",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_b2_u05_1_n",
+ "sub": "line",
+ "title": "2권 5유닛 해설 · 해설: A sunny walk on the stones. The pets come too.",
+ "text": "A sunny walk on the stones. The pets come too.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

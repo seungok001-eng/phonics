@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A fox hops away with the box!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677169.7684324,
+   "sec": 3.16,
+   "check": {
+    "transcript": "A fox hops away with the box.",
+    "type": "sentence",
+    "ipa": "ə fɑks hɑps əˈweɪ wɪθ ðə bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A fox hops away with the box. | TYPE=sentence | IPA=ə fɑks hɑps əˈweɪ wɪθ ðə bɑks | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:51",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb2_u09_1_n",
+ "sub": "line",
+ "title": "2권 9유닛 스토리북 해설 · 해설: A fox hops away with the box!",
+ "text": "A fox hops away with the box!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

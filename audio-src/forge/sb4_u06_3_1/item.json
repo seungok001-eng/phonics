@@ -10,11 +10,28 @@
    "sec": 1.72,
    "check": null,
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh! My paint is wet!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793678124.34846,
+   "sec": 2.19,
+   "check": {
+    "transcript": "My paint is wet.",
+    "type": "sentence",
+    "ipa": "maɪ peɪnt ɪz wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=My paint is wet. | TYPE=sentence | IPA=maɪ peɪnt ɪz wɛt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-08 00:35",
+ "applied": "2026-11-03 12:55",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -25,5 +42,6 @@
  "text": "Shh! My paint is wet!",
  "voice": "Charon",
  "who": "grumble",
- "book": 4
+ "book": 4,
+ "busy": 0
 }

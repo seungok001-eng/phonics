@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The friends make a bed. Grumble gets in.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676951.7951705,
+   "sec": 3.28,
+   "check": {
+    "transcript": "The friends make a bed. Grumble gets in.",
+    "type": "sentence",
+    "ipa": "ðə frɛnz meɪk ə bɛd ˈɡrʌmbəl ɡɛts ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The friends make a bed. Grumble gets in. | TYPE=sentence | IPA=ðə frɛnz meɪk ə bɛd ˈɡrʌmbəl ɡɛts ɪn | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:47",
+ "text_edited": false,
+ "error": "",
+ "unit": 4,
+ "letter": null,
+ "id": "scene_b2_u04_2_n",
+ "sub": "line",
+ "title": "2권 4유닛 해설 · 해설: The friends make a bed. Grumble gets in.",
+ "text": "The friends make a bed. Grumble gets in.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

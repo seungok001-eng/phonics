@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tap! Bun twirls in a red cape. The gate opens!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676952.9560044,
+   "sec": 4.48,
+   "check": {
+    "transcript": "Tap Bun twirls in a red cape, the gate opens.",
+    "type": "sentence",
+    "ipa": "tæp bʌn twɜrlz ɪn ə rɛd keɪp ði geɪt oʊpənz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Tap Bun twirls in a red cape, the gate opens. | TYPE=sentence | IPA=tæp bʌn twɜrlz ɪn ə rɛd keɪp ði geɪt oʊpənz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "sb4_u01_2_n",
+ "sub": "line",
+ "title": "4권 1유닛 스토리북 해설 · 해설: Tap! Bun twirls in a red cape. The gate opens!",
+ "text": "Tap! Bun twirls in a red cape. The gate opens!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

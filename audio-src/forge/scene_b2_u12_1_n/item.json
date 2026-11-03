@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A show on the pond! Pip sings, Grumble drums.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677269.101491,
+   "sec": 4.64,
+   "check": {
+    "transcript": "A show on the pond. Pip Sings grumbled drums.",
+    "type": "sentence",
+    "ipa": "ə ʃoʊ ɑn ðə pɑnd pɪp sɪŋz ɡrʌmbəld drʌmz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A show on the pond. Pip Sings grumbled drums. | TYPE=sentence | IPA=ə ʃoʊ ɑn ðə pɑnd pɪp sɪŋz ɡrʌmbəld drʌmz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:53",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "scene_b2_u12_1_n",
+ "sub": "line",
+ "title": "2권 12유닛 해설 · 해설: A show on the pond! Pip sings, Grumble drums.",
+ "text": "A show on the pond! Pip sings, Grumble drums.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

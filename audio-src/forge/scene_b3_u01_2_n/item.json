@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble says shh! The wind opens the door!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677304.710233,
+   "sec": 3.2,
+   "check": {
+    "transcript": "Grumble says shh, the wind opens the door.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl sɛz ʃː, ðə wɪnd ˈoʊpənz ðə dɔɹ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble says shh, the wind opens the door. | TYPE=sentence | IPA=ˈɡɹʌmbəl sɛz ʃː, ðə wɪnd ˈoʊpənz ðə dɔɹ. | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:54",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_b3_u01_2_n",
+ "sub": "line",
+ "title": "3권 1유닛 해설 · 해설: Grumble says shh! The wind opens the door!",
+ "text": "Grumble says shh! The wind opens the door!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

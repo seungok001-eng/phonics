@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A bead caterpillar pops up. Something glows in the reeds.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676840.3980184,
+   "sec": 4.92,
+   "check": {
+    "transcript": "A beaded caterpillar pops up. Something glows in the reeds.",
+    "type": "sentence",
+    "ipa": "ə ˈbiːdɪd ˈkætəpɪlər ˈpɑːps ˈʌp ˈsʌmθɪŋ ˈɡloʊz ɪn ðə ˈriːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A beaded caterpillar pops up. Something glows in the reeds. | TYPE=sentence | IPA=ə ˈbiːdɪd ˈkætəpɪlər ˈpɑːps ˈʌp ˈsʌmθɪŋ ˈɡloʊz ɪn ðə ˈriːdz | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:45",
+ "text_edited": false,
+ "error": "",
+ "unit": 0,
+ "letter": null,
+ "id": "sb2_u00_2_n",
+ "sub": "line",
+ "title": "2권 0유닛 스토리북 해설 · 해설: A bead caterpillar pops up. Something glows in the reeds.",
+ "text": "A bead caterpillar pops up. Something glows in the reeds.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

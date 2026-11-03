@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The snake takes the cake. Grumble's can is a cane!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676943.0559366,
+   "sec": 4.84,
+   "check": {
+    "transcript": "The snake takes the cake. Grumbles Cain is a cain.",
+    "type": "sentence",
+    "ipa": "ðə sneɪk teɪks ðə keɪk ˈɡrʌmbəlz keɪn ɪz ə keɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The snake takes the cake. Grumbles Cain is a cain. | TYPE=sentence | IPA=ðə sneɪk teɪks ðə keɪk ˈɡrʌmbəlz keɪn ɪz ə keɪn | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:41",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "scene_b4_u01_4_n",
+ "sub": "line",
+ "title": "4권 1유닛 해설 · 해설: The snake takes the cake. Grumble's can is a cane!",
+ "text": "The snake takes the cake. Grumble's can is a cane!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "A picnic in the sun. Two little bugs!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677207.10453,
+   "sec": 3.32,
+   "check": {
+    "transcript": "A picnic in the sun, two little bugs.",
+    "type": "sentence",
+    "ipa": "ə ˈpɪk.nɪk ɪn ðə ˈsʌn tuː ˈlɪt.əl bʌɡz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A picnic in the sun, two little bugs. | TYPE=sentence | IPA=ə ˈpɪk.nɪk ɪn ðə ˈsʌn tuː ˈlɪt.əl bʌɡz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb2_u10_1_n",
+ "sub": "line",
+ "title": "2권 10유닛 스토리북 해설 · 해설: A picnic in the sun. Two little bugs!",
+ "text": "A picnic in the sun. Two little bugs!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

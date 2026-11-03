@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The bridge is done! Pip sings. Bun hugs Grumble.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677222.2305145,
+   "sec": 4.88,
+   "check": {
+    "transcript": "The bridge is done, Pip sings. Bun hugs Grumble.",
+    "type": "sentence",
+    "ipa": "ðə bɹɪdʒ ɪz dʌn pɪp sɪŋz bʌn hʌɡz ɡɹʌmbəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The bridge is done, Pip sings. Bun hugs Grumble. | TYPE=sentence | IPA=ðə bɹɪdʒ ɪz dʌn pɪp sɪŋz bʌn hʌɡz ɡɹʌmbəl | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:52",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "sb2_u10_3_n",
+ "sub": "line",
+ "title": "2권 10유닛 스토리북 해설 · 해설: The bridge is done! Pip sings. Bun hugs Grumble.",
+ "text": "The bridge is done! Pip sings. Bun hugs Grumble.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2,
+ "busy": 0
+}

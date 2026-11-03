@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The cat sits on a kit. Bun hits a pit. Splash!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677081.7122636,
+   "sec": 5.6,
+   "check": {
+    "transcript": "The cat sits on a kit. Bun hits a pit. Splash.",
+    "type": "sentence",
+    "ipa": "ðə kæt sɪts ɒn ə kɪt bʌn hɪts ə pɪt splæʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cat sits on a kit. Bun hits a pit. Splash. | TYPE=sentence | IPA=ðə kæt sɪts ɒn ə kɪt bʌn hɪts ə pɪt splæʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:50",
+ "text_edited": false,
+ "error": "",
+ "unit": 7,
+ "letter": null,
+ "id": "scene_b2_u07_3_n",
+ "sub": "line",
+ "title": "2권 7유닛 해설 · 해설: The cat sits on a kit. Bun hits a pit. Splash!",
+ "text": "The cat sits on a kit. Bun hits a pit. Splash!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

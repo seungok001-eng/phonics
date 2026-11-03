@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=Shh. Win big. | TYPE=sentence | IPA=ʃ wɪn bɪɡ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Shh! ... Win, pig!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793677818.2660632,
+   "sec": 2.24,
+   "check": {
+    "transcript": "win big",
+    "type": "sentence",
+    "ipa": "wɪn bɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=win big | TYPE=sentence | IPA=wɪn bɪɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:49",
+ "applied": "2026-11-03 12:50",
  "text_edited": false,
  "error": "",
  "unit": 6,

@@ -185,7 +185,12 @@
             "en": "What is Hedgie doing?",
             "ko": "헤지는 뭘 하고 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A big pig! The stones are too little.",
+          "ko": "커다란 돼지예요! 징검돌이 너무 작아요.",
+          "audio": "scene_b2_u06_1_n"
+        }
       },
       {
         "id": "scene_b2_u06_2",
@@ -227,7 +232,12 @@
             "en": "What is in its mouth?",
             "ko": "입에는 뭐가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A big stone! The pig wears a wig.",
+          "ko": "커다란 돌이에요! 돼지가 가발을 썼어요.",
+          "audio": "scene_b2_u06_2_n"
+        }
       },
       {
         "id": "scene_b2_u06_3",
@@ -269,7 +279,12 @@
             "en": "What does Hedgie use?",
             "ko": "헤지가 뭘 썼어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A fish pushes the stone. Hedgie pins Grumble's hat.",
+          "ko": "물고기가 돌을 밀어요. 헤지가 그럼블 모자를 핀으로 꽂아 줘요.",
+          "audio": "scene_b2_u06_3_n"
+        }
       },
       {
         "id": "scene_b2_u06_4",
@@ -309,7 +324,12 @@
             "en": "What does Pip say now?",
             "ko": "핍이 이제 뭐라고 해?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "The pig wins! Grumble cheers from the reeds.",
+          "ko": "돼지가 이겼어요! 그럼블이 갈대에서 응원해요.",
+          "audio": "scene_b2_u06_4_n"
+        }
       }
     ],
     "synopsis_ko": "커다란 돼지한테 징검돌이 너무 작아요. 비즈가 p-i-g 를 꿰자 커다란 돌이 솟았어요. 돼지는 가발을 쓰고, 물고기가 돌을 밀고, 그럼블의 찢어진 모자는 핀으로 꽂았어요. 돼지가 끝까지 가서 이겼어요!",
@@ -581,7 +601,12 @@
         ],
         "task": "Find the -ig words!",
         "task_ko": "-ig 단어를 찾아요",
-        "ko": "커다란 돼지, 너무 작은 징검돌. 헤지가 갈대로 재 봐요. 핍은 '깁!'"
+        "ko": "커다란 돼지, 너무 작은 징검돌. 헤지가 갈대로 재 봐요. 핍은 '깁!'",
+        "narr": {
+          "text": "The pig is too big for the stones.",
+          "ko": "돼지가 돌에 비해 너무 커요.",
+          "audio": "sb2_u06_1_n"
+        }
       },
       {
         "id": "sb2_u06_2",
@@ -608,11 +633,16 @@
         ],
         "task": "Find the -ig words!",
         "task_ko": "-ig 단어를 찾아요",
-        "ko": "비즈가 p-i-g 를 꿰자 커다란 돌이 솟아요! 가발 쓴 돼지, 무화과, 지느러미 큰 물고기가 돌을 밀어요."
+        "ko": "비즈가 p-i-g 를 꿰자 커다란 돌이 솟아요! 가발 쓴 돼지, 무화과, 지느러미 큰 물고기가 돌을 밀어요.",
+        "narr": {
+          "text": "A big stone for the pig! A fish pushes it.",
+          "ko": "돼지를 위한 큰 돌! 물고기가 돌을 밀어요.",
+          "audio": "sb2_u06_2_n"
+        }
       },
       {
         "id": "sb2_u06_3",
-        "desc": "The pig stands at the far end of the new stones beside a golden trophy; a cookie tin and a green bin stand on the last stone. In the reeds Grumble's torn nightcap is pinned together with a red-headed pin; he holds his lantern, which glows a little brighter, and whispers a cheer with a small smile; Pip says the word right at last and glows. Hidden in the picture: the pin, the tin, the bin, the trophy. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
+        "desc": "A small pink farm PIG (round snout, floppy ears, curly tail — a pig, not a bird) stands at the far end of the new stones beside a golden trophy; Pip the little yellow bird hovers in the air near Hedgie, glowing; a cookie tin and a green bin stand on the last stone. In the reeds Grumble's torn nightcap is pinned together with a red-headed pin; he holds his lantern, which glows a little brighter, and whispers a cheer with a small smile; Pip says the word right at last and glows. Hidden in the picture: the pin, the tin, the bin, the trophy. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
         "lines": [
           {
             "who": "beads",
@@ -635,7 +665,12 @@
         ],
         "task": "Find the -in words!",
         "task_ko": "-in 단어를 찾아요",
-        "ko": "돼지가 끝까지 가서 트로피를 받아요. 그럼블의 찢어진 모자를 핀으로 꽂았어요. '쉿… 이겨라, 돼지!' — 으슬으슬! 저런!"
+        "ko": "돼지가 끝까지 가서 트로피를 받아요. 그럼블의 찢어진 모자를 핀으로 꽂았어요. '쉿… 이겨라, 돼지!' — 으슬으슬! 저런!",
+        "narr": {
+          "text": "The pig gets a trophy. Grumble cheers. Then... brr!",
+          "ko": "돼지가 트로피를 받아요. 그럼블이 응원해요. 그런데… 으슬으슬!",
+          "audio": "sb2_u06_3_n"
+        }
       }
     ]
   }

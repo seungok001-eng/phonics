@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Tap! A note falls out. It shows a rope.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677010.8443844,
+   "sec": 4.36,
+   "check": {
+    "transcript": "Tap, a note falls out. It shows a rope.",
+    "type": "sentence",
+    "ipa": "tæp ə noʊt fɔlz aʊt ɪt ʃoʊz ə roʊp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Tap, a note falls out. It shows a rope. | TYPE=sentence | IPA=tæp ə noʊt fɔlz aʊt ɪt ʃoʊz ə roʊp | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b4_u03_2_n",
+ "sub": "line",
+ "title": "4권 3유닛 해설 · 해설: Tap! A note falls out. It shows a rope.",
+ "text": "Tap! A note falls out. It shows a rope.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}

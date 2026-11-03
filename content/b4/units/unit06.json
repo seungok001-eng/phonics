@@ -190,7 +190,12 @@
             "en": "Where is the jay?",
             "ko": "어치는 어디 숨었어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A rain cloud pours on the toy train.",
+          "ko": "비구름이 장난감 기차에 비를 쏟아요.",
+          "audio": "scene_b4_u06_1_n"
+        }
       },
       {
         "id": "scene_b4_u06_2",
@@ -233,7 +238,12 @@
             "en": "What floats in the puddle?",
             "ko": "물웅덩이에 뭐가 떠 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Two sparkles become one. The rain cloud shrinks away.",
+          "ko": "반짝이 둘이 하나가 돼요. 비구름이 작아져 사라져요.",
+          "audio": "scene_b4_u06_2_n"
+        }
       },
       {
         "id": "scene_b4_u06_3",
@@ -275,7 +285,12 @@
             "en": "Who is on the hay?",
             "ko": "건초 위에 누가 있어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "Everyone rides the big train down the hall.",
+          "ko": "모두 커진 기차를 타고 복도를 달려요.",
+          "audio": "scene_b4_u06_3_n"
+        }
       },
       {
         "id": "scene_b4_u06_4",
@@ -316,7 +331,12 @@
             "en": "Why is Grumble cross?",
             "ko": "그럼블은 왜 찡그렸어?"
           }
-        ]
+        ],
+        "narr": {
+          "text": "A raindrop lands on Grumble's wet paint.",
+          "ko": "빗방울이 그럼블이 칠하던 물감에 뚝 떨어져요.",
+          "audio": "scene_b4_u06_4_n"
+        }
       }
     ],
     "synopsis_ko": "장난감 방에 비구름이 들어와 장난감 기차에 비가 쏟아져요. 핍은 \"래-인?\" 하고 둘로 끊어 읽어요. 요정 이가 반짝이 두 개를 하나로 합치고 \"rain!\" 하자 비가 그쳐요. 기차가 커져서 모두 타고 달려요. 놀이방에서는 그럼블이 북에 물감을 칠하다 빗방울에 \"쉿!\"",
@@ -588,7 +608,12 @@
         ],
         "task": "Find the ai words!",
         "task_ko": "ai 단어를 찾아요",
-        "ko": "장난감 방에 비가 쏟아져요. 기차가 다 젖었어요. 핍은 \"래-인?\""
+        "ko": "장난감 방에 비가 쏟아져요. 기차가 다 젖었어요. 핍은 \"래-인?\"",
+        "narr": {
+          "text": "Rain falls on the toy train. Everyone gets wet!",
+          "ko": "장난감 기차에 비가 내려요. 모두 젖어요!",
+          "audio": "sb4_u06_1_n"
+        }
       },
       {
         "id": "sb4_u06_2",
@@ -615,7 +640,12 @@
         ],
         "task": "Find the train and the jay!",
         "task_ko": "기차와 어치를 찾아요",
-        "ko": "반짝이 둘이 하나로! 비가 그치고 무지개가 떠요. 커다래진 기차를 타고 달려요."
+        "ko": "반짝이 둘이 하나로! 비가 그치고 무지개가 떠요. 커다래진 기차를 타고 달려요.",
+        "narr": {
+          "text": "The rain stops. The train grows big and chugs away!",
+          "ko": "비가 그쳐요. 기차가 커져서 칙칙폭폭 달려요!",
+          "audio": "sb4_u06_2_n"
+        }
       },
       {
         "id": "sb4_u06_3",
@@ -642,7 +672,12 @@
         ],
         "task": "Find the ay words!",
         "task_ko": "ay 단어를 찾아요",
-        "ko": "그럼블이 북에 칠한 물감이 젖었어요. \"쉿!\" — 붕! 붕! 저런!"
+        "ko": "그럼블이 북에 칠한 물감이 젖었어요. \"쉿!\" — 붕! 붕! 저런!",
+        "narr": {
+          "text": "A drop lands on Grumble's paint. What is that buzz?",
+          "ko": "그럼블의 물감에 빗방울이 뚝! 저 붕붕 소리는 뭘까요?",
+          "audio": "sb4_u06_3_n"
+        }
       }
     ]
   }

@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The moon comes out. The mouse has a wobbly tooth.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677274.9978056,
+   "sec": 4.52,
+   "check": {
+    "transcript": "The moon comes out. The mouse has a wobbly tooth.",
+    "type": "sentence",
+    "ipa": "ðə mun kʌmz aʊt ðə maʊs hæz ə wɑbəli tuθ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The moon comes out. The mouse has a wobbly tooth. | TYPE=sentence | IPA=ðə mun kʌmz aʊt ðə maʊs hæz ə wɑbəli tuθ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 9,
+ "letter": null,
+ "id": "sb4_u09_2_n",
+ "sub": "line",
+ "title": "4권 9유닛 스토리북 해설 · 해설: The moon comes out. The mouse has a wobbly tooth.",
+ "text": "The moon comes out. The mouse has a wobbly tooth.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

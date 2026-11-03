@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Ten hens run everywhere! A net is on the sand.",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793676905.1588082,
+   "sec": 4.28,
+   "check": {
+    "transcript": "Ten hens run everywhere. Annette is on the sand.",
+    "type": "sentence",
+    "ipa": "tɛn hɛnz rʌn ɛvriwɛr. ənɛt ɪz ɑn ðə sænd.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Ten hens run everywhere. Annette is on the sand. | TYPE=sentence | IPA=tɛn hɛnz rʌn ɛvriwɛr. ənɛt ɪz ɑn ðə sænd. | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:46",
+ "text_edited": false,
+ "error": "",
+ "unit": 3,
+ "letter": null,
+ "id": "scene_b2_u03_1_n",
+ "sub": "line",
+ "title": "2권 3유닛 해설 · 해설: Ten hens run everywhere! A net is on the sand.",
+ "text": "Ten hens run everywhere! A net is on the sand.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 2
+}

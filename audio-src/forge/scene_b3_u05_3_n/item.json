@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Pip says the sound! Pip glows bright gold!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677456.6358905,
+   "sec": 5.0,
+   "check": {
+    "transcript": "Pip says the sound.",
+    "type": "sentence",
+    "ipa": "pɪp sɛz ðə saʊnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pip says the sound. | TYPE=sentence | IPA=pɪp sɛz ðə saʊnd | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 13:02",
+ "text_edited": false,
+ "error": "",
+ "unit": 5,
+ "letter": null,
+ "id": "scene_b3_u05_3_n",
+ "sub": "line",
+ "title": "3권 5유닛 해설 · 해설: Pip says the sound! Pip glows bright gold!",
+ "text": "Pip says the sound! Pip glows bright gold!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 3,
+ "busy": 0
+}

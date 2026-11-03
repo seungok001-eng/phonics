@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "The torch lights up. A harp and a tiny star!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677294.3927248,
+   "sec": 4.08,
+   "check": {
+    "transcript": "The torch lights up, a harp, and a tiny star.",
+    "type": "sentence",
+    "ipa": "ðə tɔɹt͡ʃ lɑɪt͡s ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The torch lights up, a harp, and a tiny star. | TYPE=sentence | IPA=ðə tɔɹt͡ʃ lɑɪt͡s ʌp | ə hɑɹp ænd ə tɑɪni stɑɹ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 10,
+ "letter": null,
+ "id": "scene_b4_u10_2_n",
+ "sub": "line",
+ "title": "4권 10유닛 해설 · 해설: The torch lights up. A harp and a tiny star!",
+ "text": "The torch lights up. A harp and a tiny star!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4,
+ "busy": 0
+}

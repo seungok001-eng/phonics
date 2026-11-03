@@ -1,0 +1,35 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Bees buzz out of the hive. Everyone hides!",
+   "voice": "Kore",
+   "how": "tts",
+   "created": 1793677000.0126796,
+   "sec": 4.04,
+   "check": {
+    "transcript": "Bees buzz out of the hive. Everyone hides.",
+    "type": "sentence",
+    "ipa": "biz bʌz aʊt ʌv ðə haɪv ˈɛvriˌwʌn haɪdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Bees buzz out of the hive. Everyone hides. | TYPE=sentence | IPA=biz bʌz aʊt ʌv ðə haɪv ˈɛvriˌwʌn haɪdz | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 12:42",
+ "text_edited": false,
+ "error": "",
+ "unit": 2,
+ "letter": null,
+ "id": "sb4_u02_3_n",
+ "sub": "line",
+ "title": "4권 2유닛 스토리북 해설 · 해설: Bees buzz out of the hive. Everyone hides!",
+ "text": "Bees buzz out of the hive. Everyone hides!",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 4
+}
