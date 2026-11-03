@@ -1,6 +1,6 @@
 {
   "unit": 6,
-  "title": "The Night Garden",
+  "title": "The Moon",
   "title_ko": "밤의 정원",
   "letters": [
     "m",
@@ -65,11 +65,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -87,12 +82,13 @@
     }
   ],
   "story": {
-    "title": "The Night Garden",
+    "title": "The Moon",
     "bgm": "bgm_night",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u06_1",
-        "desc": "The second garden at night under a deep blue sky with a big smiling crescent moon. A brown monkey sits in a tree holding a glowing golden seed tightly, pouting. Bun holds up a white milk carton toward the monkey; Hedgie points at the moon; Pip glows like a little lamp beside them. Hidden in the picture: the moon, the monkey, the milk carton. In the foreground, a big clay flower pot with only the tip of Grumble's striped nightcap sticking out of the top; a warm lantern glow shines from inside the pot and lights the ground around it.",
+        "desc": "Night garden under a big full moon. {PIP}, {BUN} and {HED} sit on the pond bank looking up; the moon is reflected in the still water. {monkey} sits on a branch holding a glass of milk.",
         "hidden": [
           "moon",
           "monkey",
@@ -100,185 +96,58 @@
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "We like the moon!",
-            "audio": "u06_l1",
-            "ko": "우린 달이 좋아!"
-          },
-          {
-            "who": "bun",
-            "text": "Milk! /m/ /m/ milk!",
-            "audio": "u06_l2",
-            "pop": "m",
-            "ko": "우유! m, m 우유!"
-          },
-          {
             "who": "both",
-            "text": "M!",
-            "audio": "name_m__both",
-            "sfx": "chime",
-            "ko": "엠!"
+            "text": "We like the moon.",
+            "audio": "u06_l1"
           }
-        ],
-        "video": "vid_u06_1",
-        "ko": "달이 웃고 있어요. 원숭이가 씨앗을 꼭 쥐고 있어서 번이 우유를 줘요. 큰 화분 속에 그럼블이 숨었어요.",
-        "ask": [
-          {
-            "en": "What is in the sky?",
-            "ko": "하늘에 뭐가 있어?"
-          },
-          {
-            "en": "What is poking out of the pot?",
-            "ko": "화분에서 뭐가 삐죽 나왔어?"
-          }
-        ],
-        "narr": {
-          "text": "Night in the garden. A monkey holds a seed.",
-          "ko": "밤의 정원이에요. 원숭이가 씨앗을 꼭 쥐고 있어요.",
-          "audio": "scene_u06_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u06_2",
-        "desc": "A dark pond in the night garden lit by nine twinkling stars in the sky. A brown otter floats on its back tangled in a butterfly net, holding a glowing seed on its tummy. Pip, who tried to help by touching its nose, has tumbled head-first into the same net and is stuck upside down with its feet in the air. Hedgie pulls the net handle; Bun giggles. Behind them the new M letter tree with milk-, moon- and monkey-shaped fruits. Hidden in the picture: the net, the otter, nine stars in the sky. Grumble does NOT appear.",
+        "desc": "{otter} arrives carrying a fishing net on a pole and leans over the pond toward the moon's reflection. {PIP}, {BUN} and {HED} watch curiously. A plate with nine olives sits on the bank.",
         "hidden": [
-          "net",
           "otter",
+          "net",
+          "olive",
           "nine"
         ],
         "lines": [
           {
             "who": "hedgie",
-            "text": "An otter! And Pip!",
-            "audio": "u06_l3",
-            "ko": "수달! 그리고 핍!"
-          },
-          {
-            "who": "narrator",
-            "text": "Pip is in the net!",
-            "audio": "u06_l4",
-            "ko": "핍이 그물에 걸렸어요!"
-          },
-          {
-            "who": "bun",
-            "text": "/n/ /n/ net!",
-            "audio": "u06_l5",
-            "pop": "n",
-            "ko": "n, n 그물!"
+            "text": "An otter and a net.",
+            "audio": "u06_l2"
           }
-        ],
-        "ko": "수달이 그물에 걸렸어요. 핍도 같이 걸려 거꾸로 매달렸어요! 별 아홉 개가 반짝여요.",
-        "ask": [
-          {
-            "en": "Who is in the net?",
-            "ko": "그물에 누가 걸렸어?"
-          },
-          {
-            "en": "How many stars?",
-            "ko": "별이 몇 개야?"
-          }
-        ],
-        "narr": {
-          "text": "An otter and Pip are stuck in a net!",
-          "ko": "수달과 핍이 그물에 걸렸어요!",
-          "audio": "scene_u06_2_n"
-        }
+        ]
       },
       {
         "id": "scene_u06_3",
-        "desc": "The pond edge at night. A friendly purple octopus rises from the water with a glowing seed on its head and squirts a big spray of black ink: Hedgie's nose is covered with a round ink blob and he crosses his eyes to look at it; Bun ducks behind a bowl of green olives on the bank; Pip glows. Hidden in the picture: the octopus, the olives, Hedgie's ink-covered nose. Grumble's big clay flower pot has been knocked over by the splash and lies on its side: Grumble's two slippered feet and his lantern stick out of the opening, the lantern glowing a clear warm orange.",
+        "desc": "{otter} swings the net into the pond; water splashes; something round is caught in the net under the moonlight. {PIP}, {BUN} and {HED} lean forward with open mouths. {GRUMBLE} peeks from his hole with a bandage on his nose.",
         "hidden": [
-          "octopus",
-          "olive",
           "nose"
         ],
         "lines": [
           {
             "who": "bun",
-            "text": "An octopus!",
-            "audio": "u06_l6",
-            "ko": "문어다!"
-          },
-          {
-            "who": "hedgie",
-            "text": "It is on my nose!",
-            "audio": "u06_l7",
-            "ko": "내 코에 묻었어!"
-          },
-          {
-            "who": "bun",
-            "text": "/o/ /o/ octopus!",
-            "audio": "u06_l8",
-            "pop": "o",
-            "ko": "o, o 문어!"
+            "text": "The moon is in the net!",
+            "audio": "u06_l3"
           }
-        ],
-        "video": "vid_u06_2",
-        "ko": "문어가 잉크를 뿜어서 헤지 코가 까매졌어요. 화분이 넘어져 그럼블 슬리퍼가 삐죽!",
-        "ask": [
-          {
-            "en": "What is on Hedgie's nose?",
-            "ko": "헤지 코에 뭐가 묻었어?"
-          },
-          {
-            "en": "What fell over?",
-            "ko": "뭐가 넘어졌어?"
-          }
-        ],
-        "narr": {
-          "text": "The octopus squirts ink on Hedgie's nose!",
-          "ko": "문어가 헤지 코에 먹물을 뿜었어요!",
-          "audio": "scene_u06_3_n"
-        }
+        ]
       },
       {
         "id": "scene_u06_4",
-        "desc": "The night garden path lit by nine bright stars overhead. Three new letter trees (M with milk, moon and monkey fruits; N with nose, net and nine-balloon fruits; O with otter, octopus and olive fruits) glow softly in the starlight. Bun and Hedgie dance with arms up; Pip glows brightly on top of the M tree. Grumble climbs out of the tipped-over flower pot covered in dirt, nightcap crooked, holding up his lantern which now shines clearly brighter than before and lights his grumpy, surprised face. Hidden in the picture: nine stars, the smiling moon.",
+        "desc": "The net is lifted: inside is {octopus} with its eight arms dangling out, blinking. {otter} looks embarrassed. {PIP}, {BUN} and {HED} laugh. The moon still shines above.",
         "hidden": [
-          "nine",
-          "moon"
+          "octopus"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "Nine stars!",
-            "audio": "u06_l9",
-            "ko": "별 아홉 개!"
-          },
-          {
-            "who": "both",
-            "text": "We like the moon!",
-            "audio": "u06_l10",
-            "ko": "우린 달이 좋아!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! It is my pot!",
-            "audio": "u06_l11",
-            "ko": "쉿! 내 화분이야!"
+            "who": "pip",
+            "text": "No! An octopus!",
+            "audio": "u06_l4"
           }
-        ],
-        "ko": "M·N·O 나무가 별빛 아래 빛나요. 그럼블이 흙투성이로 화분에서 나왔어요. 등불이 확실히 밝아졌어요.",
-        "ask": [
-          {
-            "en": "How many new trees?",
-            "ko": "새 나무가 몇 그루야?"
-          },
-          {
-            "en": "Is Grumble clean or dirty?",
-            "ko": "그럼블은 깨끗해, 더러워?"
-          }
-        ],
-        "narr": {
-          "text": "Three new trees glow. Grumble climbs out of a pot.",
-          "ko": "새 나무 세 그루가 빛나요. 그럼블이 화분에서 나와요.",
-          "audio": "scene_u06_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "둘째 정원은 밤이에요. 원숭이에게 우유를 주고, 그물에 걸린 수달(과 핍!)을 꺼내고, 문어가 잉크를 뿜어요. 화분에 숨은 그럼블은 데굴 굴러 나왔어요. 별 아홉 개가 길을 비춰요.",
-    "so_far_ko": "첫 정원 산책에서 열두 나무를 복습했어요. 그럼블의 모자 작전은 실패했어요.",
-    "goal_ko": "밤 정원에서 씨앗 세 개를 찾아 M·N·O 나무를 키워요."
+    ]
   },
   "videos": [
     {
@@ -606,5 +475,199 @@
       "w": "odd",
       "l": "o"
     }
-  ]
+  ],
+  "story_v1": {
+    "title": "The Night Garden",
+    "bgm": "bgm_night",
+    "panels": [
+      {
+        "id": "scene_u06_1",
+        "desc": "The second garden at night under a deep blue sky with a big smiling crescent moon. A brown monkey sits in a tree holding a glowing golden seed tightly, pouting. Bun holds up a white milk carton toward the monkey; Hedgie points at the moon; Pip glows like a little lamp beside them. Hidden in the picture: the moon, the monkey, the milk carton. In the foreground, a big clay flower pot with only the tip of Grumble's striped nightcap sticking out of the top; a warm lantern glow shines from inside the pot and lights the ground around it.",
+        "hidden": [
+          "moon",
+          "monkey",
+          "milk"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "We like the moon!",
+            "audio": "u06_l1",
+            "ko": "우린 달이 좋아!"
+          },
+          {
+            "who": "bun",
+            "text": "Milk! /m/ /m/ milk!",
+            "audio": "u06_l2",
+            "pop": "m",
+            "ko": "우유! m, m 우유!"
+          },
+          {
+            "who": "both",
+            "text": "M!",
+            "audio": "name_m__both",
+            "sfx": "chime",
+            "ko": "엠!"
+          }
+        ],
+        "video": "vid_u06_1",
+        "ko": "달이 웃고 있어요. 원숭이가 씨앗을 꼭 쥐고 있어서 번이 우유를 줘요. 큰 화분 속에 그럼블이 숨었어요.",
+        "ask": [
+          {
+            "en": "What is in the sky?",
+            "ko": "하늘에 뭐가 있어?"
+          },
+          {
+            "en": "What is poking out of the pot?",
+            "ko": "화분에서 뭐가 삐죽 나왔어?"
+          }
+        ],
+        "narr": {
+          "text": "Night in the garden. A monkey holds a seed.",
+          "ko": "밤의 정원이에요. 원숭이가 씨앗을 꼭 쥐고 있어요.",
+          "audio": "scene_u06_1_n"
+        }
+      },
+      {
+        "id": "scene_u06_2",
+        "desc": "A dark pond in the night garden lit by nine twinkling stars in the sky. A brown otter floats on its back tangled in a butterfly net, holding a glowing seed on its tummy. Pip, who tried to help by touching its nose, has tumbled head-first into the same net and is stuck upside down with its feet in the air. Hedgie pulls the net handle; Bun giggles. Behind them the new M letter tree with milk-, moon- and monkey-shaped fruits. Hidden in the picture: the net, the otter, nine stars in the sky. Grumble does NOT appear.",
+        "hidden": [
+          "net",
+          "otter",
+          "nine"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "An otter! And Pip!",
+            "audio": "u06_l3",
+            "ko": "수달! 그리고 핍!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip is in the net!",
+            "audio": "u06_l4",
+            "ko": "핍이 그물에 걸렸어요!"
+          },
+          {
+            "who": "bun",
+            "text": "/n/ /n/ net!",
+            "audio": "u06_l5",
+            "pop": "n",
+            "ko": "n, n 그물!"
+          }
+        ],
+        "ko": "수달이 그물에 걸렸어요. 핍도 같이 걸려 거꾸로 매달렸어요! 별 아홉 개가 반짝여요.",
+        "ask": [
+          {
+            "en": "Who is in the net?",
+            "ko": "그물에 누가 걸렸어?"
+          },
+          {
+            "en": "How many stars?",
+            "ko": "별이 몇 개야?"
+          }
+        ],
+        "narr": {
+          "text": "An otter and Pip are stuck in a net!",
+          "ko": "수달과 핍이 그물에 걸렸어요!",
+          "audio": "scene_u06_2_n"
+        }
+      },
+      {
+        "id": "scene_u06_3",
+        "desc": "The pond edge at night. A friendly purple octopus rises from the water with a glowing seed on its head and squirts a big spray of black ink: Hedgie's nose is covered with a round ink blob and he crosses his eyes to look at it; Bun ducks behind a bowl of green olives on the bank; Pip glows. Hidden in the picture: the octopus, the olives, Hedgie's ink-covered nose. Grumble's big clay flower pot has been knocked over by the splash and lies on its side: Grumble's two slippered feet and his lantern stick out of the opening, the lantern glowing a clear warm orange.",
+        "hidden": [
+          "octopus",
+          "olive",
+          "nose"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "An octopus!",
+            "audio": "u06_l6",
+            "ko": "문어다!"
+          },
+          {
+            "who": "hedgie",
+            "text": "It is on my nose!",
+            "audio": "u06_l7",
+            "ko": "내 코에 묻었어!"
+          },
+          {
+            "who": "bun",
+            "text": "/o/ /o/ octopus!",
+            "audio": "u06_l8",
+            "pop": "o",
+            "ko": "o, o 문어!"
+          }
+        ],
+        "video": "vid_u06_2",
+        "ko": "문어가 잉크를 뿜어서 헤지 코가 까매졌어요. 화분이 넘어져 그럼블 슬리퍼가 삐죽!",
+        "ask": [
+          {
+            "en": "What is on Hedgie's nose?",
+            "ko": "헤지 코에 뭐가 묻었어?"
+          },
+          {
+            "en": "What fell over?",
+            "ko": "뭐가 넘어졌어?"
+          }
+        ],
+        "narr": {
+          "text": "The octopus squirts ink on Hedgie's nose!",
+          "ko": "문어가 헤지 코에 먹물을 뿜었어요!",
+          "audio": "scene_u06_3_n"
+        }
+      },
+      {
+        "id": "scene_u06_4",
+        "desc": "The night garden path lit by nine bright stars overhead. Three new letter trees (M with milk, moon and monkey fruits; N with nose, net and nine-balloon fruits; O with otter, octopus and olive fruits) glow softly in the starlight. Bun and Hedgie dance with arms up; Pip glows brightly on top of the M tree. Grumble climbs out of the tipped-over flower pot covered in dirt, nightcap crooked, holding up his lantern which now shines clearly brighter than before and lights his grumpy, surprised face. Hidden in the picture: nine stars, the smiling moon.",
+        "hidden": [
+          "nine",
+          "moon"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Nine stars!",
+            "audio": "u06_l9",
+            "ko": "별 아홉 개!"
+          },
+          {
+            "who": "both",
+            "text": "We like the moon!",
+            "audio": "u06_l10",
+            "ko": "우린 달이 좋아!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my pot!",
+            "audio": "u06_l11",
+            "ko": "쉿! 내 화분이야!"
+          }
+        ],
+        "ko": "M·N·O 나무가 별빛 아래 빛나요. 그럼블이 흙투성이로 화분에서 나왔어요. 등불이 확실히 밝아졌어요.",
+        "ask": [
+          {
+            "en": "How many new trees?",
+            "ko": "새 나무가 몇 그루야?"
+          },
+          {
+            "en": "Is Grumble clean or dirty?",
+            "ko": "그럼블은 깨끗해, 더러워?"
+          }
+        ],
+        "narr": {
+          "text": "Three new trees glow. Grumble climbs out of a pot.",
+          "ko": "새 나무 세 그루가 빛나요. 그럼블이 화분에서 나와요.",
+          "audio": "scene_u06_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "둘째 정원은 밤이에요. 원숭이에게 우유를 주고, 그물에 걸린 수달(과 핍!)을 꺼내고, 문어가 잉크를 뿜어요. 화분에 숨은 그럼블은 데굴 굴러 나왔어요. 별 아홉 개가 길을 비춰요.",
+    "so_far_ko": "첫 정원 산책에서 열두 나무를 복습했어요. 그럼블의 모자 작전은 실패했어요.",
+    "goal_ko": "밤 정원에서 씨앗 세 개를 찾아 M·N·O 나무를 키워요."
+  }
 }

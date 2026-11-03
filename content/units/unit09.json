@@ -1,6 +1,6 @@
 {
   "unit": 9,
-  "title": "The Volcano",
+  "title": "The Box Volcano",
   "title_ko": "화산",
   "letters": [
     "v",
@@ -65,11 +65,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -87,199 +82,72 @@
     }
   ],
   "story": {
-    "title": "The Volcano",
+    "title": "The Box Volcano",
     "bgm": "bgm_silly",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u09_1",
-        "desc": "A cozy little village corner inside the garden: a small house wall with a window with blue curtains and a flower pot on the sill, a stone water fountain, and a small orange fox with a bushy white-tipped tail sitting on the lane beside the fountain. In the middle of the lane a small volcano mound rumbles with little puffs of smoke, and a glowing golden seed sits on its rim. Hedgie points at the volcano nervously; Bun leans in curiously; Pip is trying to say a sound but its whole body buzzes like a bee, feathers vibrating with little motion lines. Hidden in the picture: the volcano, a blue knitted vest hanging on a washing line, the fox. Grumble sits on a stack of boxes nearby with a pinecone stuck in each ear, arms crossed, eyes shut; his lantern beside him shines very bright, like a small star.",
+        "desc": "{fox} wearing a small blue vest stacks six cardboard boxes into a tall pointed mountain on the lawn. {PIP}, {BUN} and {HED} watch. A sign with a red cross hangs on the shed (a vet sign, no letters).",
         "hidden": [
-          "volcano",
+          "fox",
+          "box",
+          "six",
           "vest",
-          "fox"
+          "vet"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "Look at the volcano!",
-            "audio": "u09_l1",
-            "ko": "화산을 봐!"
-          },
-          {
-            "who": "narrator",
-            "text": "Pip tries. Bzzz!",
-            "audio": "u09_l2",
-            "ko": "핍이 해 봐요. 붕!"
-          },
-          {
             "who": "bun",
-            "text": "/v/ /v/ volcano!",
-            "audio": "u09_l3",
-            "pop": "v",
-            "ko": "v, v 화산!"
+            "text": "Look at the fox.",
+            "audio": "u09_l1"
           }
-        ],
-        "video": "vid_u09_1",
-        "ko": "창문, 분수, 작은 여우가 있는 마을 구석이에요. 작은 화산이 우르릉! 그럼블은 귀에 솔방울을 꽂았어요. 핍은 v 대신 붕붕 떨려요.",
-        "ask": [
-          {
-            "en": "What is on Grumble's ears?",
-            "ko": "그럼블 귀에 뭐가 있어?"
-          },
-          {
-            "en": "What is rumbling?",
-            "ko": "뭐가 우르릉거려?"
-          }
-        ],
-        "narr": {
-          "text": "A little volcano rumbles in the town.",
-          "ko": "마을의 작은 화산이 우르릉거려요.",
-          "audio": "scene_u09_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u09_2",
-        "desc": "BOOM — the little volcano pops with a puff of orange lava sparks and everyone jumps into the air: Bun with her boots flying, Hedgie rolled into a ball, Pip upside down. The water fountain sprays a tall splash of clear water, and a pink earthworm has been tossed out of the ground and lands on the lane looking dizzy with a tiny bump on its head. Behind them the new V letter tree with vet-, vest- and volcano-shaped fruits. Hidden in the picture: the fountain water, the worm, the window with blue curtains. Grumble has fallen backwards off his boxes with both pinecones shooting out of his ears; his lantern rolls on the ground still shining very bright. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
+        "desc": "The stacked boxes look like a volcano with a hole at the top. {HED} gasps and points; {PIP} and {BUN} stare up at it.",
         "hidden": [
-          "water",
-          "worm",
-          "window"
+          "volcano"
         ],
         "lines": [
           {
-            "who": "both",
-            "text": "Look at the water!",
-            "audio": "u09_l4",
-            "ko": "물을 봐!"
-          },
-          {
             "who": "hedgie",
-            "text": "A worm! Oh no!",
-            "audio": "u09_l5",
-            "ko": "지렁이! 어떡해!"
-          },
-          {
-            "who": "bun",
-            "text": "/w/ /w/ worm!",
-            "audio": "u09_l6",
-            "pop": "w",
-            "ko": "w, w 지렁이!"
+            "text": "A volcano!",
+            "audio": "u09_l2"
           }
-        ],
-        "video": "vid_u09_2",
-        "ko": "뻥! 화산이 터져 모두 공중으로! 분수가 솟고 지렁이가 튀어나와요. 그럼블 귀에서 솔방울이 발사!",
-        "ask": [
-          {
-            "en": "What happened?",
-            "ko": "무슨 일이 일어났어?"
-          },
-          {
-            "en": "Where is the worm?",
-            "ko": "지렁이는 어디 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Boom! Water shoots up, and a worm pops out!",
-          "ko": "뻥! 물이 솟고 지렁이가 튀어나와요!",
-          "audio": "scene_u09_2_n"
-        }
+        ]
       },
       {
         "id": "scene_u09_3",
-        "desc": "A kind owl veterinarian in a white coat and round glasses kneels on the lane and gently wraps a tiny bandage around the pink worm, which lies on top of a brown cardboard box; six brown boxes are stacked beside the fountain. A glowing golden seed sits on the top box. Hedgie watches with his paws clasped; Bun holds up six fingers; Pip glows. Hidden in the picture: the vet, six red strawberries in a row on a box lid, the open box. Grumble does NOT appear. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
+        "desc": "{fox} leans out of the shed window pouring a bucket of water onto the top of the box volcano; water bubbles and foams out of the top. {PIP}, {BUN} and {HED} step back.",
         "hidden": [
-          "vet",
-          "six",
-          "box"
+          "window",
+          "water"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "Look at the vet.",
-            "audio": "u09_l7",
-            "ko": "수의사 선생님을 봐."
-          },
-          {
-            "who": "bun",
-            "text": "/ks/ /ks/ box!",
-            "audio": "u09_l8",
-            "pop": "x",
-            "ko": "x, x 상자!"
-          },
-          {
-            "who": "both",
-            "text": "X!",
-            "audio": "name_x__both",
-            "sfx": "chime",
-            "ko": "엑스!"
+            "who": "pip",
+            "text": "Water!",
+            "audio": "u09_l3"
           }
-        ],
-        "ko": "올빼미 수의사가 지렁이에게 붕대를 감아 줘요. 상자가 여섯 개 쌓여 있어요.",
-        "ask": [
-          {
-            "en": "Who helps the worm?",
-            "ko": "누가 지렁이를 도와줘?"
-          },
-          {
-            "en": "How many boxes?",
-            "ko": "상자가 몇 개야?"
-          }
-        ],
-        "narr": {
-          "text": "An owl vet helps the worm. Six boxes are nearby.",
-          "ko": "올빼미 수의사가 지렁이를 치료해요. 옆에 상자 여섯 개가 있어요.",
-          "audio": "scene_u09_3_n"
-        }
+        ]
       },
       {
         "id": "scene_u09_4",
-        "desc": "The village lane with three new letter trees (V with vet, vest and volcano fruits; W with window, water and worm fruits; X with six-strawberries, box and fox fruits). The bandaged worm waves happily from the fountain edge, and a small orange fox with a bushy white-tipped tail sits on the fountain edge next to the worm, waving. Bun and Hedgie point at the trees; Pip glows in the air above the fountain. Grumble stands in the middle of the lane without his pinecones, holding his lantern up with both paws and staring at it with wide eyes: it blazes bright like a little star and lights the whole lane. Hidden in the picture: the fox, the worm. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
+        "desc": "Six pink worms wriggle out of the top and sides of the wet box volcano. {PIP}, {BUN}, {HED} and {fox} all jump back in surprise.",
         "hidden": [
-          "fox",
           "worm"
         ],
         "lines": [
           {
             "who": "both",
-            "text": "V! W! X!",
-            "audio": "u09_l9",
-            "sfx": "chime",
-            "ko": "브이! 더블유! 엑스!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! Look at my lantern!",
-            "audio": "u09_l10",
-            "ko": "쉿! 내 등불 좀 봐!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Wow! Look at it!",
-            "audio": "u09_l11",
-            "ko": "우와! 저것 봐!"
+            "text": "Look! Six worms!",
+            "audio": "u09_l4"
           }
-        ],
-        "ko": "V·W·X 나무가 섰어요. 그럼블이 별처럼 빛나는 등불을 두 손으로 들고 놀라서 봐요.",
-        "ask": [
-          {
-            "en": "What is Grumble looking at?",
-            "ko": "그럼블은 뭘 보고 있어?"
-          },
-          {
-            "en": "Is the lantern bright?",
-            "ko": "등불이 밝아?"
-          }
-        ],
-        "narr": {
-          "text": "Three new trees! Grumble's lantern shines like a star.",
-          "ko": "새 나무 세 그루! 그럼블의 등불이 별처럼 빛나요.",
-          "audio": "scene_u09_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "마을 구석에서 작은 화산이 뻥 터졌어요! 분수가 솟고 지렁이가 튀어나와 올빼미 수의사가 치료해 줬어요. 그럼블은 귀에 솔방울을 꽂았지만 뻥 소리에 발사됐어요. 등불이 별처럼 빛나요.",
-    "so_far_ko": "우산을 타고 날아간 핍을 쫓다 토끼 삼촌을 만났어요. S·T·U 나무를 키웠어요.",
-    "goal_ko": "마을 구석에서 씨앗 세 개를 찾아 V·W·X 나무를 키워요."
+    ]
   },
   "videos": [
     {
@@ -610,5 +478,200 @@
       "l": "x",
       "end": true
     }
-  ]
+  ],
+  "story_v1": {
+    "title": "The Volcano",
+    "bgm": "bgm_silly",
+    "panels": [
+      {
+        "id": "scene_u09_1",
+        "desc": "A cozy little village corner inside the garden: a small house wall with a window with blue curtains and a flower pot on the sill, a stone water fountain, and a small orange fox with a bushy white-tipped tail sitting on the lane beside the fountain. In the middle of the lane a small volcano mound rumbles with little puffs of smoke, and a glowing golden seed sits on its rim. Hedgie points at the volcano nervously; Bun leans in curiously; Pip is trying to say a sound but its whole body buzzes like a bee, feathers vibrating with little motion lines. Hidden in the picture: the volcano, a blue knitted vest hanging on a washing line, the fox. Grumble sits on a stack of boxes nearby with a pinecone stuck in each ear, arms crossed, eyes shut; his lantern beside him shines very bright, like a small star.",
+        "hidden": [
+          "volcano",
+          "vest",
+          "fox"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Look at the volcano!",
+            "audio": "u09_l1",
+            "ko": "화산을 봐!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Bzzz!",
+            "audio": "u09_l2",
+            "ko": "핍이 해 봐요. 붕!"
+          },
+          {
+            "who": "bun",
+            "text": "/v/ /v/ volcano!",
+            "audio": "u09_l3",
+            "pop": "v",
+            "ko": "v, v 화산!"
+          }
+        ],
+        "video": "vid_u09_1",
+        "ko": "창문, 분수, 작은 여우가 있는 마을 구석이에요. 작은 화산이 우르릉! 그럼블은 귀에 솔방울을 꽂았어요. 핍은 v 대신 붕붕 떨려요.",
+        "ask": [
+          {
+            "en": "What is on Grumble's ears?",
+            "ko": "그럼블 귀에 뭐가 있어?"
+          },
+          {
+            "en": "What is rumbling?",
+            "ko": "뭐가 우르릉거려?"
+          }
+        ],
+        "narr": {
+          "text": "A little volcano rumbles in the town.",
+          "ko": "마을의 작은 화산이 우르릉거려요.",
+          "audio": "scene_u09_1_n"
+        }
+      },
+      {
+        "id": "scene_u09_2",
+        "desc": "BOOM — the little volcano pops with a puff of orange lava sparks and everyone jumps into the air: Bun with her boots flying, Hedgie rolled into a ball, Pip upside down. The water fountain sprays a tall splash of clear water, and a pink earthworm has been tossed out of the ground and lands on the lane looking dizzy with a tiny bump on its head. Behind them the new V letter tree with vet-, vest- and volcano-shaped fruits. Hidden in the picture: the fountain water, the worm, the window with blue curtains. Grumble has fallen backwards off his boxes with both pinecones shooting out of his ears; his lantern rolls on the ground still shining very bright. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
+        "hidden": [
+          "water",
+          "worm",
+          "window"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "Look at the water!",
+            "audio": "u09_l4",
+            "ko": "물을 봐!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A worm! Oh no!",
+            "audio": "u09_l5",
+            "ko": "지렁이! 어떡해!"
+          },
+          {
+            "who": "bun",
+            "text": "/w/ /w/ worm!",
+            "audio": "u09_l6",
+            "pop": "w",
+            "ko": "w, w 지렁이!"
+          }
+        ],
+        "video": "vid_u09_2",
+        "ko": "뻥! 화산이 터져 모두 공중으로! 분수가 솟고 지렁이가 튀어나와요. 그럼블 귀에서 솔방울이 발사!",
+        "ask": [
+          {
+            "en": "What happened?",
+            "ko": "무슨 일이 일어났어?"
+          },
+          {
+            "en": "Where is the worm?",
+            "ko": "지렁이는 어디 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Boom! Water shoots up, and a worm pops out!",
+          "ko": "뻥! 물이 솟고 지렁이가 튀어나와요!",
+          "audio": "scene_u09_2_n"
+        }
+      },
+      {
+        "id": "scene_u09_3",
+        "desc": "A kind owl veterinarian in a white coat and round glasses kneels on the lane and gently wraps a tiny bandage around the pink worm, which lies on top of a brown cardboard box; six brown boxes are stacked beside the fountain. A glowing golden seed sits on the top box. Hedgie watches with his paws clasped; Bun holds up six fingers; Pip glows. Hidden in the picture: the vet, six red strawberries in a row on a box lid, the open box. Grumble does NOT appear. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
+        "hidden": [
+          "vet",
+          "six",
+          "box"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Look at the vet.",
+            "audio": "u09_l7",
+            "ko": "수의사 선생님을 봐."
+          },
+          {
+            "who": "bun",
+            "text": "/ks/ /ks/ box!",
+            "audio": "u09_l8",
+            "pop": "x",
+            "ko": "x, x 상자!"
+          },
+          {
+            "who": "both",
+            "text": "X!",
+            "audio": "name_x__both",
+            "sfx": "chime",
+            "ko": "엑스!"
+          }
+        ],
+        "ko": "올빼미 수의사가 지렁이에게 붕대를 감아 줘요. 상자가 여섯 개 쌓여 있어요.",
+        "ask": [
+          {
+            "en": "Who helps the worm?",
+            "ko": "누가 지렁이를 도와줘?"
+          },
+          {
+            "en": "How many boxes?",
+            "ko": "상자가 몇 개야?"
+          }
+        ],
+        "narr": {
+          "text": "An owl vet helps the worm. Six boxes are nearby.",
+          "ko": "올빼미 수의사가 지렁이를 치료해요. 옆에 상자 여섯 개가 있어요.",
+          "audio": "scene_u09_3_n"
+        }
+      },
+      {
+        "id": "scene_u09_4",
+        "desc": "The village lane with three new letter trees (V with vet, vest and volcano fruits; W with window, water and worm fruits; X with six-strawberries, box and fox fruits). The bandaged worm waves happily from the fountain edge, and a small orange fox with a bushy white-tipped tail sits on the fountain edge next to the worm, waving. Bun and Hedgie point at the trees; Pip glows in the air above the fountain. Grumble stands in the middle of the lane without his pinecones, holding his lantern up with both paws and staring at it with wide eyes: it blazes bright like a little star and lights the whole lane. Hidden in the picture: the fox, the worm. (The vet is a kind owl in a white coat and round glasses — an animal, not a human.)",
+        "hidden": [
+          "fox",
+          "worm"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "V! W! X!",
+            "audio": "u09_l9",
+            "sfx": "chime",
+            "ko": "브이! 더블유! 엑스!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Look at my lantern!",
+            "audio": "u09_l10",
+            "ko": "쉿! 내 등불 좀 봐!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Wow! Look at it!",
+            "audio": "u09_l11",
+            "ko": "우와! 저것 봐!"
+          }
+        ],
+        "ko": "V·W·X 나무가 섰어요. 그럼블이 별처럼 빛나는 등불을 두 손으로 들고 놀라서 봐요.",
+        "ask": [
+          {
+            "en": "What is Grumble looking at?",
+            "ko": "그럼블은 뭘 보고 있어?"
+          },
+          {
+            "en": "Is the lantern bright?",
+            "ko": "등불이 밝아?"
+          }
+        ],
+        "narr": {
+          "text": "Three new trees! Grumble's lantern shines like a star.",
+          "ko": "새 나무 세 그루! 그럼블의 등불이 별처럼 빛나요.",
+          "audio": "scene_u09_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "마을 구석에서 작은 화산이 뻥 터졌어요! 분수가 솟고 지렁이가 튀어나와 올빼미 수의사가 치료해 줬어요. 그럼블은 귀에 솔방울을 꽂았지만 뻥 소리에 발사됐어요. 등불이 별처럼 빛나요.",
+    "so_far_ko": "우산을 타고 날아간 핍을 쫓다 토끼 삼촌을 만났어요. S·T·U 나무를 키웠어요.",
+    "goal_ko": "마을 구석에서 씨앗 세 개를 찾아 V·W·X 나무를 키워요."
+  }
 }

@@ -65,11 +65,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -89,195 +84,70 @@
   "story": {
     "title": "Up, Up, Up!",
     "bgm": "bgm_adventure",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u08_1",
-        "desc": "Sunrise over the second garden: a big smiling yellow sun rises above the wall and the sky turns orange and gold. On the garden path a grey seal balancing a glowing golden seed on its nose races a green turtle with a patterned shell; Bun waves a leaf like a flag at the finish line, Hedgie cheers, Pip flutters above the racers. Hidden in the picture: the sun, the seal, the turtle. On his small hill in the background, Grumble puffs his cheeks and blows out his candle lantern — a little curl of smoke rises from it and the lantern is dark.",
+        "desc": "A bright sunny day with a big round sun. {turtle} walks slowly along the garden path holding a striped umbrella over its head. {PIP}, {BUN} and {HED} watch from the lawn.",
         "hidden": [
           "sun",
-          "seal",
-          "turtle"
+          "turtle",
+          "umbrella"
         ],
         "lines": [
           {
-            "who": "bun",
-            "text": "The sun is up!",
-            "audio": "u08_l1",
-            "ko": "해가 떴어!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Go, seal! Go, turtle!",
-            "audio": "u08_l2",
-            "ko": "달려, 물개! 달려, 거북이!"
-          },
-          {
-            "who": "bun",
-            "text": "/s/ /s/ seal!",
-            "audio": "u08_l3",
-            "pop": "s",
-            "ko": "s, s 물개!"
+            "who": "narrator",
+            "text": "A turtle and an umbrella.",
+            "audio": "u08_l1"
           }
-        ],
-        "video": "vid_u08_1",
-        "ko": "해가 떠요. 물개가 코에 씨앗을 얹고 거북이와 달리기해요. 언덕 위 그럼블이 등불을 훅 불어 꺼요.",
-        "ask": [
-          {
-            "en": "Who is racing?",
-            "ko": "누가 달리기를 해?"
-          },
-          {
-            "en": "What does Grumble do with the lantern?",
-            "ko": "그럼블이 등불을 어떻게 했어?"
-          }
-        ],
-        "narr": {
-          "text": "The sun is up. A seal races a turtle.",
-          "ko": "해가 떴어요. 물개가 거북이와 달리기를 해요.",
-          "audio": "scene_u08_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u08_2",
-        "desc": "A little campfire by the path with a red cooking pot of tomato soup bubbling on it; a plump red tomato sits on a plate and a glowing golden seed shines inside the tomato. Hedgie stirs the soup with a spoon and sniffs happily. Pip is trying to do the sound action by tapping a tooth — but a bird has no teeth, so it taps its beak with a wing and looks puzzled. Bun grins and taps her own front tooth. Behind them the new S letter tree with sun-, seal- and soup-shaped fruits. Hidden in the picture: the tomato, the bowl of soup, a big white tooth-shaped cookie on the plate. In the dim corner of the garden, Grumble stumbles over a tree stump in the dark holding his unlit lantern, nightcap over his eyes.",
+        "desc": "A gust of wind: the umbrella lifts {turtle} off the ground; {turtle} dangles from the umbrella handle, surprised. {PIP}, {BUN} and {HED} point up with open mouths.",
         "hidden": [
-          "tomato",
-          "soup",
-          "tooth"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "I see a tomato.",
-            "audio": "u08_l4",
-            "ko": "토마토가 보여."
-          },
-          {
-            "who": "narrator",
-            "text": "Pip taps. No tooth!",
-            "audio": "u08_l5",
-            "ko": "핍이 톡톡. 이가 없어요!"
-          },
-          {
-            "who": "bun",
-            "text": "/t/ /t/ tomato!",
-            "audio": "u08_l6",
-            "pop": "t",
-            "ko": "t, t 토마토!"
-          }
-        ],
-        "ko": "토마토 속에 씨앗이 있어요. 핍은 이를 톡톡 치려는데 이가 없어요! 어두워진 그럼블은 그루터기에 걸려 넘어져요.",
-        "ask": [
-          {
-            "en": "Where is the seed?",
-            "ko": "씨앗은 어디 있어?"
-          },
-          {
-            "en": "Does Pip have a tooth?",
-            "ko": "핍은 이가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A seed is in the tomato. Grumble trips in the dark.",
-          "ko": "토마토 속에 씨앗이 있어요. 그럼블은 어둠 속에서 넘어져요.",
-          "audio": "scene_u08_2_n"
-        }
-      },
-      {
-        "id": "scene_u08_3",
-        "desc": "A gust of wind blows through the garden. An open red umbrella with a glowing golden seed on its top is flying up into the sky, and Pip hangs on to the umbrella handle with both feet, going up, up, up with wide excited eyes. Bun jumps with her arms stretched up; Hedgie runs after it with his flower bouncing. Hidden in the picture: the umbrella, Pip going up with a big upward arrow of wind leaves beside it. Grumble does NOT appear.",
-        "hidden": [
-          "umbrella",
           "up"
         ],
         "lines": [
           {
             "who": "bun",
             "text": "Up, up, up!",
-            "audio": "u08_l7",
-            "ko": "위로, 위로, 위로!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Go to the umbrella!",
-            "audio": "u08_l8",
-            "ko": "우산한테 가!"
-          },
-          {
-            "who": "bun",
-            "text": "/u/ /u/ up!",
-            "audio": "u08_l9",
-            "pop": "u",
-            "ko": "u, u 위!"
+            "audio": "u08_l2"
           }
-        ],
-        "video": "vid_u08_2",
-        "ko": "바람이 불어 우산이 날아가요. 핍이 우산 손잡이를 잡고 위로, 위로!",
-        "ask": [
-          {
-            "en": "What is flying?",
-            "ko": "뭐가 날아가?"
-          },
-          {
-            "en": "Who is holding the umbrella?",
-            "ko": "누가 우산을 잡고 있어?"
-          }
-        ],
-        "narr": {
-          "text": "The wind lifts the umbrella. Pip goes up, up, up!",
-          "ko": "바람에 우산이 날아요. 핍도 위로, 위로!",
-          "audio": "scene_u08_3_n"
-        }
+        ]
       },
       {
-        "id": "scene_u08_4",
-        "desc": "The umbrella has landed softly by the round garden door in the wall. A friendly grown-up rabbit with a mustache, a green cap and a watering can — Uncle, Bun's uncle and the garden's gardener — holds the little door open and winks as if he has always known the secret. Bun and Hedgie look up at him with open mouths; Pip sits on the umbrella, glowing. Three new letter trees (S with sun, seal and soup fruits; T with turtle, tomato and tooth fruits; U with umbrella, up-balloon and uncle fruits) stand by the door. Grumble has run up beside the trees and stares at his lantern: it has lit itself again all on its own and now shines brighter than ever, and he holds it away from his face in surprise. Hidden in the picture: the uncle with the watering can, the red umbrella. (Uncle is a grown-up rabbit — an animal, not a human.)",
+        "id": "scene_u08_3",
+        "desc": "{turtle} floats high in the blue sky under the umbrella. Below, {PIP}, {BUN} and {HED} run across the garden chasing it. An old raccoon uncle with a hat sits on a bench watching.",
         "hidden": [
-          "uncle",
-          "umbrella"
+          "uncle"
         ],
         "lines": [
           {
-            "who": "both",
-            "text": "Uncle! Can we go in?",
-            "audio": "u08_l10",
-            "ko": "삼촌! 들어가도 돼요?"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! Oh! My lantern!",
-            "audio": "u08_l11",
-            "ko": "쉿! 어! 내 등불이!"
-          },
-          {
-            "who": "both",
-            "text": "U!",
-            "audio": "name_u__both",
-            "sfx": "chime",
-            "ko": "유!"
+            "who": "hedgie",
+            "text": "Go to the turtle!",
+            "audio": "u08_l3"
           }
+        ]
+      },
+      {
+        "id": "scene_u08_4",
+        "desc": "{turtle} has landed with a splash inside a huge bowl of tomato soup on a picnic table; {seal} holds a spoon, astonished. A tomato sits beside the bowl. {PIP}, {BUN} and {HED} arrive laughing.",
+        "hidden": [
+          "soup",
+          "seal",
+          "tomato",
+          "tooth"
         ],
-        "ko": "우산이 문 앞에 내려앉았어요. 토끼 삼촌이 문을 열어 주며 윙크해요. 그럼블의 등불이 저절로 더 밝게 켜졌어요.",
-        "ask": [
+        "lines": [
           {
-            "en": "Who opens the door?",
-            "ko": "누가 문을 열어 줘?"
-          },
-          {
-            "en": "Is the lantern on or off?",
-            "ko": "등불이 켜졌어, 꺼졌어?"
+            "who": "pip",
+            "text": "The turtle is in the soup!",
+            "audio": "u08_l4"
           }
-        ],
-        "narr": {
-          "text": "Uncle Rabbit opens the door. Grumble's lantern shines.",
-          "ko": "토끼 삼촌이 문을 열어 줘요. 그럼블의 등불이 빛나요.",
-          "audio": "scene_u08_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "해가 떴어요. 물개와 거북이가 달리기를 해요. 핍은 이가 없어서 부리를 톡톡. 우산이 핍을 매달고 날아가요! 그럼블이 등불을 껐는데 저절로 더 밝게 켜졌어요. 토끼 삼촌이 문을 열어 줘요.",
-    "so_far_ko": "여왕의 이불 밑에서 그럼블을 찾고 P·Q·R 나무를 키웠어요.",
-    "goal_ko": "해돋이 정원에서 씨앗 세 개를 찾아 S·T·U 나무를 키워요."
+    ]
   },
   "videos": [
     {
@@ -605,5 +475,198 @@
       "w": "unzip",
       "l": "u"
     }
-  ]
+  ],
+  "story_v1": {
+    "title": "Up, Up, Up!",
+    "bgm": "bgm_adventure",
+    "panels": [
+      {
+        "id": "scene_u08_1",
+        "desc": "Sunrise over the second garden: a big smiling yellow sun rises above the wall and the sky turns orange and gold. On the garden path a grey seal balancing a glowing golden seed on its nose races a green turtle with a patterned shell; Bun waves a leaf like a flag at the finish line, Hedgie cheers, Pip flutters above the racers. Hidden in the picture: the sun, the seal, the turtle. On his small hill in the background, Grumble puffs his cheeks and blows out his candle lantern — a little curl of smoke rises from it and the lantern is dark.",
+        "hidden": [
+          "sun",
+          "seal",
+          "turtle"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The sun is up!",
+            "audio": "u08_l1",
+            "ko": "해가 떴어!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Go, seal! Go, turtle!",
+            "audio": "u08_l2",
+            "ko": "달려, 물개! 달려, 거북이!"
+          },
+          {
+            "who": "bun",
+            "text": "/s/ /s/ seal!",
+            "audio": "u08_l3",
+            "pop": "s",
+            "ko": "s, s 물개!"
+          }
+        ],
+        "video": "vid_u08_1",
+        "ko": "해가 떠요. 물개가 코에 씨앗을 얹고 거북이와 달리기해요. 언덕 위 그럼블이 등불을 훅 불어 꺼요.",
+        "ask": [
+          {
+            "en": "Who is racing?",
+            "ko": "누가 달리기를 해?"
+          },
+          {
+            "en": "What does Grumble do with the lantern?",
+            "ko": "그럼블이 등불을 어떻게 했어?"
+          }
+        ],
+        "narr": {
+          "text": "The sun is up. A seal races a turtle.",
+          "ko": "해가 떴어요. 물개가 거북이와 달리기를 해요.",
+          "audio": "scene_u08_1_n"
+        }
+      },
+      {
+        "id": "scene_u08_2",
+        "desc": "A little campfire by the path with a red cooking pot of tomato soup bubbling on it; a plump red tomato sits on a plate and a glowing golden seed shines inside the tomato. Hedgie stirs the soup with a spoon and sniffs happily. Pip is trying to do the sound action by tapping a tooth — but a bird has no teeth, so it taps its beak with a wing and looks puzzled. Bun grins and taps her own front tooth. Behind them the new S letter tree with sun-, seal- and soup-shaped fruits. Hidden in the picture: the tomato, the bowl of soup, a big white tooth-shaped cookie on the plate. In the dim corner of the garden, Grumble stumbles over a tree stump in the dark holding his unlit lantern, nightcap over his eyes.",
+        "hidden": [
+          "tomato",
+          "soup",
+          "tooth"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "I see a tomato.",
+            "audio": "u08_l4",
+            "ko": "토마토가 보여."
+          },
+          {
+            "who": "narrator",
+            "text": "Pip taps. No tooth!",
+            "audio": "u08_l5",
+            "ko": "핍이 톡톡. 이가 없어요!"
+          },
+          {
+            "who": "bun",
+            "text": "/t/ /t/ tomato!",
+            "audio": "u08_l6",
+            "pop": "t",
+            "ko": "t, t 토마토!"
+          }
+        ],
+        "ko": "토마토 속에 씨앗이 있어요. 핍은 이를 톡톡 치려는데 이가 없어요! 어두워진 그럼블은 그루터기에 걸려 넘어져요.",
+        "ask": [
+          {
+            "en": "Where is the seed?",
+            "ko": "씨앗은 어디 있어?"
+          },
+          {
+            "en": "Does Pip have a tooth?",
+            "ko": "핍은 이가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A seed is in the tomato. Grumble trips in the dark.",
+          "ko": "토마토 속에 씨앗이 있어요. 그럼블은 어둠 속에서 넘어져요.",
+          "audio": "scene_u08_2_n"
+        }
+      },
+      {
+        "id": "scene_u08_3",
+        "desc": "A gust of wind blows through the garden. An open red umbrella with a glowing golden seed on its top is flying up into the sky, and Pip hangs on to the umbrella handle with both feet, going up, up, up with wide excited eyes. Bun jumps with her arms stretched up; Hedgie runs after it with his flower bouncing. Hidden in the picture: the umbrella, Pip going up with a big upward arrow of wind leaves beside it. Grumble does NOT appear.",
+        "hidden": [
+          "umbrella",
+          "up"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Up, up, up!",
+            "audio": "u08_l7",
+            "ko": "위로, 위로, 위로!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Go to the umbrella!",
+            "audio": "u08_l8",
+            "ko": "우산한테 가!"
+          },
+          {
+            "who": "bun",
+            "text": "/u/ /u/ up!",
+            "audio": "u08_l9",
+            "pop": "u",
+            "ko": "u, u 위!"
+          }
+        ],
+        "video": "vid_u08_2",
+        "ko": "바람이 불어 우산이 날아가요. 핍이 우산 손잡이를 잡고 위로, 위로!",
+        "ask": [
+          {
+            "en": "What is flying?",
+            "ko": "뭐가 날아가?"
+          },
+          {
+            "en": "Who is holding the umbrella?",
+            "ko": "누가 우산을 잡고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "The wind lifts the umbrella. Pip goes up, up, up!",
+          "ko": "바람에 우산이 날아요. 핍도 위로, 위로!",
+          "audio": "scene_u08_3_n"
+        }
+      },
+      {
+        "id": "scene_u08_4",
+        "desc": "The umbrella has landed softly by the round garden door in the wall. A friendly grown-up rabbit with a mustache, a green cap and a watering can — Uncle, Bun's uncle and the garden's gardener — holds the little door open and winks as if he has always known the secret. Bun and Hedgie look up at him with open mouths; Pip sits on the umbrella, glowing. Three new letter trees (S with sun, seal and soup fruits; T with turtle, tomato and tooth fruits; U with umbrella, up-balloon and uncle fruits) stand by the door. Grumble has run up beside the trees and stares at his lantern: it has lit itself again all on its own and now shines brighter than ever, and he holds it away from his face in surprise. Hidden in the picture: the uncle with the watering can, the red umbrella. (Uncle is a grown-up rabbit — an animal, not a human.)",
+        "hidden": [
+          "uncle",
+          "umbrella"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "Uncle! Can we go in?",
+            "audio": "u08_l10",
+            "ko": "삼촌! 들어가도 돼요?"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Oh! My lantern!",
+            "audio": "u08_l11",
+            "ko": "쉿! 어! 내 등불이!"
+          },
+          {
+            "who": "both",
+            "text": "U!",
+            "audio": "name_u__both",
+            "sfx": "chime",
+            "ko": "유!"
+          }
+        ],
+        "ko": "우산이 문 앞에 내려앉았어요. 토끼 삼촌이 문을 열어 주며 윙크해요. 그럼블의 등불이 저절로 더 밝게 켜졌어요.",
+        "ask": [
+          {
+            "en": "Who opens the door?",
+            "ko": "누가 문을 열어 줘?"
+          },
+          {
+            "en": "Is the lantern on or off?",
+            "ko": "등불이 켜졌어, 꺼졌어?"
+          }
+        ],
+        "narr": {
+          "text": "Uncle Rabbit opens the door. Grumble's lantern shines.",
+          "ko": "토끼 삼촌이 문을 열어 줘요. 그럼블의 등불이 빛나요.",
+          "audio": "scene_u08_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "해가 떴어요. 물개와 거북이가 달리기를 해요. 핍은 이가 없어서 부리를 톡톡. 우산이 핍을 매달고 날아가요! 그럼블이 등불을 껐는데 저절로 더 밝게 켜졌어요. 토끼 삼촌이 문을 열어 줘요.",
+    "so_far_ko": "여왕의 이불 밑에서 그럼블을 찾고 P·Q·R 나무를 키웠어요.",
+    "goal_ko": "해돋이 정원에서 씨앗 세 개를 찾아 S·T·U 나무를 키워요."
+  }
 }

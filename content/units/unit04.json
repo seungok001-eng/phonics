@@ -65,11 +65,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -89,196 +84,70 @@
   "story": {
     "title": "The Key",
     "bgm": "bgm_adventure",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u04_1",
-        "desc": "A big lemon tree in the Sound Garden. A grey koala hugs a branch and holds an old-fashioned golden key in its paw, smiling sleepily. A red diamond kite with a tail of bows is stuck in the branches, and a glowing golden seed sits on the kite. Bun and Hedgie stand under the tree looking up; Pip hovers near the kite, glowing. Hidden in the picture: the key in the koala's paw, the kite, the koala. On a small hill in the background, Grumble holds up a wooden sign painted with a big finger-over-lips pictogram (no letters), frowning; his lantern on the ground beside him glows softly.",
+        "desc": "A small wooden door in the garden wall has a big brass padlock on it. {PIP}, {BUN} and {HED} stand in front of it, puzzled. A kite flies high in the sky.",
         "hidden": [
-          "koala",
-          "key",
+          "lock",
           "kite"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "A koala and a key!",
-            "audio": "u04_l1",
-            "ko": "코알라하고 열쇠!"
-          },
-          {
             "who": "bun",
-            "text": "The seed is in the kite.",
-            "audio": "u04_l2",
-            "ko": "씨앗이 연에 있어."
-          },
-          {
-            "who": "bun",
-            "text": "/k/ /k/ kite!",
-            "audio": "u04_l3",
-            "pop": "k",
-            "ko": "k, k 연!"
+            "text": "A lock!",
+            "audio": "u04_l1"
           }
-        ],
-        "video": "vid_u04_1",
-        "ko": "레몬나무의 코알라가 황금 열쇠를 들고 있어요. 연에 씨앗이 걸렸어요. 그럼블은 \"조용!\" 그림 팻말을 들었어요.",
-        "ask": [
-          {
-            "en": "What does the koala hold?",
-            "ko": "코알라가 뭘 들고 있어?"
-          },
-          {
-            "en": "What is on Grumble's sign?",
-            "ko": "그럼블 팻말에 뭐가 그려져 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A koala holds a gold key. A seed is in the kite.",
-          "ko": "코알라가 황금 열쇠를 들고 있어요. 연에 씨앗이 걸려 있어요.",
-          "audio": "scene_u04_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u04_2",
-        "desc": "A picnic table in the garden. A big glass jar of wobbly red jelly stands on the table and a glowing golden seed is sunk inside the jelly; a glass of orange juice with a straw stands beside it. Hedgie peers into the jar with his nose on the glass. Pip is trying to say a sound but instead just jumps: it is caught mid-air high above the table with its feathers flying, little motion lines under its feet. Bun laughs and claps. Behind them one of the new round leafy fruit trees with round green crowns (NOT shaped like letters, no letters anywhere on them), hung with key-, kite- and koala-shaped fruits. Hidden in the picture: the jelly, the juice, Pip jumping. Grumble does NOT appear.",
+        "desc": "On a garden table: a glass bowl of wobbly red jelly, and inside the jelly a brass key is visible. {HED} points at it excitedly; {PIP} and {BUN} look. A glass of juice and a lemon sit on the table.",
         "hidden": [
           "jelly",
+          "key",
           "juice",
+          "lemon"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A key in the jelly!",
+            "audio": "u04_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_u04_3",
+        "desc": "{BUN} and {HED} jump high in the air beside the table, pulling the sticky key out of the jelly; jelly wobbles everywhere. {PIP} cheers from the table edge.",
+        "hidden": [
           "jump"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "The seed is in the jelly!",
-            "audio": "u04_l4",
-            "ko": "씨앗이 젤리 속에 있어!"
-          },
-          {
-            "who": "narrator",
-            "text": "Pip jumps and jumps!",
-            "audio": "u04_l5",
-            "ko": "핍이 펄쩍펄쩍 뛰어요!"
-          },
-          {
-            "who": "bun",
-            "text": "/j/ /j/ jelly!",
-            "audio": "u04_l6",
-            "pop": "j",
-            "ko": "j, j 젤리!"
+            "who": "pip",
+            "text": "Jump, Bun and Hedgie!",
+            "audio": "u04_l3"
           }
-        ],
-        "ko": "젤리 병 속에 씨앗이 있어요. 핍은 j 소리 대신 펄쩍펄쩍 뛰기만 해요.",
-        "ask": [
-          {
-            "en": "Where is the seed?",
-            "ko": "씨앗은 어디 있어?"
-          },
-          {
-            "en": "What is Pip doing?",
-            "ko": "핍은 뭘 하고 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A seed is in the jelly jar. Pip jumps instead of talking.",
-          "ko": "젤리 병 속에 씨앗이 있어요. 핍은 말 대신 펄쩍펄쩍 뛰어요.",
-          "audio": "scene_u04_2_n"
-        }
-      },
-      {
-        "id": "scene_u04_3",
-        "desc": "Under the lemon tree again. A bright yellow lemon with a leaf has just dropped from the branch and split open, and a glowing golden seed shines inside it. Bun catches the lemon in her paws; Hedgie licks his lips and puckers at the sour smell; Pip glows above. Hidden in the picture: a scarecrow by the tree with one striped-sock leg kicked out, a golden padlock hanging on a small round wooden door in the garden wall behind the tree. In the far corner, Grumble peeks from behind the lemon tree trunk still holding his finger-over-lips sign, but he is leaning in to listen; his lantern glows a little brighter.",
-        "hidden": [
-          "lemon",
-          "leg",
-          "lock"
-        ],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "I see a lemon!",
-            "audio": "u04_l7",
-            "ko": "레몬이 보여!"
-          },
-          {
-            "who": "hedgie",
-            "text": "/l/ /l/ lemon!",
-            "audio": "u04_l8",
-            "pop": "l",
-            "ko": "l, l 레몬!"
-          },
-          {
-            "who": "both",
-            "text": "L!",
-            "audio": "name_l__both",
-            "sfx": "chime",
-            "ko": "엘!"
-          }
-        ],
-        "video": "vid_u04_2",
-        "ko": "레몬이 뚝 떨어져 갈라지자 안에 씨앗이! 헤지는 신 냄새에 얼굴을 찡그려요. 담장에 자물쇠 달린 문이 보여요.",
-        "ask": [
-          {
-            "en": "What fell from the tree?",
-            "ko": "나무에서 뭐가 떨어졌어?"
-          },
-          {
-            "en": "What is on the little door?",
-            "ko": "작은 문에 뭐가 달려 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A lemon falls and splits. A seed is inside!",
-          "ko": "레몬이 떨어져 갈라지니 안에 씨앗이 있어요!",
-          "audio": "scene_u04_3_n"
-        }
+        ]
       },
       {
         "id": "scene_u04_4",
-        "desc": "The garden wall with a small round wooden door. Hedgie turns the golden key in the golden padlock and the door swings open, showing a dark blue starry night garden on the other side. Bun is already jumping through the doorway with one boot in the air; Pip flutters after her. Three new letter trees (J with jelly, juice and jump fruits; K with key, kite and koala fruits; L with lemon, leg and lock fruits) stand behind them. Grumble pops out of a dirt hole right beside the door; his finger-over-lips sign lies flat on the ground like a doormat and he is staring at the open door with his mouth open; his lantern glows warm and bright. Hidden in the picture: the padlock, the golden key in Hedgie's paw.",
+        "desc": "The little door is open. Inside, {koala} is fast asleep curled up with one sock on its leg. {GRUMBLE} stands beside the door with a finger on his lips; {PIP}, {BUN} and {HED} tiptoe quietly.",
         "hidden": [
-          "lock",
-          "key"
+          "koala",
+          "leg"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "The key and the lock!",
-            "audio": "u04_l9",
-            "ko": "열쇠하고 자물쇠!"
-          },
-          {
-            "who": "bun",
-            "text": "Jump in!",
-            "audio": "u04_l10",
-            "ko": "뛰어 들어가자!"
-          },
-          {
             "who": "grumble",
-            "text": "Shh! A door?",
-            "audio": "u04_l11",
-            "ko": "쉿! 문이라고?"
+            "text": "Shh! A koala.",
+            "audio": "u04_l4"
           }
-        ],
-        "ko": "열쇠로 자물쇠를 열자 문이 열려요. 문 너머는 깜깜한 밤 정원! 그럼블의 팻말은 바닥에 떨어졌고, 등불은 더 밝아졌어요.",
-        "ask": [
-          {
-            "en": "What opens the door?",
-            "ko": "문을 무엇으로 열었어?"
-          },
-          {
-            "en": "What is behind the door?",
-            "ko": "문 뒤에는 뭐가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "The key opens the door. Behind it is a night garden.",
-          "ko": "열쇠로 문을 열자 깜깜한 밤의 정원이 나와요.",
-          "audio": "scene_u04_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "코알라가 열쇠를 쥐고 있어요. 연과 젤리 병, 레몬에서 씨앗을 찾았어요. 열쇠로 자물쇠를 열자 두 번째 정원 문이 열렸어요! 그럼블의 \"조용\" 팻말은 발닦개가 됐어요.",
-    "so_far_ko": "염소가 삼킨 씨앗을 되찾고 G·H·I 나무를 키웠어요.",
-    "goal_ko": "씨앗 세 개와 열쇠를 찾아 둘째 정원의 문을 열어요."
+    ]
   },
   "videos": [
     {
@@ -606,5 +475,199 @@
       "w": "lamp",
       "l": "l"
     }
-  ]
+  ],
+  "story_v1": {
+    "title": "The Key",
+    "bgm": "bgm_adventure",
+    "panels": [
+      {
+        "id": "scene_u04_1",
+        "desc": "A big lemon tree in the Sound Garden. A grey koala hugs a branch and holds an old-fashioned golden key in its paw, smiling sleepily. A red diamond kite with a tail of bows is stuck in the branches, and a glowing golden seed sits on the kite. Bun and Hedgie stand under the tree looking up; Pip hovers near the kite, glowing. Hidden in the picture: the key in the koala's paw, the kite, the koala. On a small hill in the background, Grumble holds up a wooden sign painted with a big finger-over-lips pictogram (no letters), frowning; his lantern on the ground beside him glows softly.",
+        "hidden": [
+          "koala",
+          "key",
+          "kite"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A koala and a key!",
+            "audio": "u04_l1",
+            "ko": "코알라하고 열쇠!"
+          },
+          {
+            "who": "bun",
+            "text": "The seed is in the kite.",
+            "audio": "u04_l2",
+            "ko": "씨앗이 연에 있어."
+          },
+          {
+            "who": "bun",
+            "text": "/k/ /k/ kite!",
+            "audio": "u04_l3",
+            "pop": "k",
+            "ko": "k, k 연!"
+          }
+        ],
+        "video": "vid_u04_1",
+        "ko": "레몬나무의 코알라가 황금 열쇠를 들고 있어요. 연에 씨앗이 걸렸어요. 그럼블은 \"조용!\" 그림 팻말을 들었어요.",
+        "ask": [
+          {
+            "en": "What does the koala hold?",
+            "ko": "코알라가 뭘 들고 있어?"
+          },
+          {
+            "en": "What is on Grumble's sign?",
+            "ko": "그럼블 팻말에 뭐가 그려져 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A koala holds a gold key. A seed is in the kite.",
+          "ko": "코알라가 황금 열쇠를 들고 있어요. 연에 씨앗이 걸려 있어요.",
+          "audio": "scene_u04_1_n"
+        }
+      },
+      {
+        "id": "scene_u04_2",
+        "desc": "A picnic table in the garden. A big glass jar of wobbly red jelly stands on the table and a glowing golden seed is sunk inside the jelly; a glass of orange juice with a straw stands beside it. Hedgie peers into the jar with his nose on the glass. Pip is trying to say a sound but instead just jumps: it is caught mid-air high above the table with its feathers flying, little motion lines under its feet. Bun laughs and claps. Behind them one of the new round leafy fruit trees with round green crowns (NOT shaped like letters, no letters anywhere on them), hung with key-, kite- and koala-shaped fruits. Hidden in the picture: the jelly, the juice, Pip jumping. Grumble does NOT appear.",
+        "hidden": [
+          "jelly",
+          "juice",
+          "jump"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The seed is in the jelly!",
+            "audio": "u04_l4",
+            "ko": "씨앗이 젤리 속에 있어!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip jumps and jumps!",
+            "audio": "u04_l5",
+            "ko": "핍이 펄쩍펄쩍 뛰어요!"
+          },
+          {
+            "who": "bun",
+            "text": "/j/ /j/ jelly!",
+            "audio": "u04_l6",
+            "pop": "j",
+            "ko": "j, j 젤리!"
+          }
+        ],
+        "ko": "젤리 병 속에 씨앗이 있어요. 핍은 j 소리 대신 펄쩍펄쩍 뛰기만 해요.",
+        "ask": [
+          {
+            "en": "Where is the seed?",
+            "ko": "씨앗은 어디 있어?"
+          },
+          {
+            "en": "What is Pip doing?",
+            "ko": "핍은 뭘 하고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A seed is in the jelly jar. Pip jumps instead of talking.",
+          "ko": "젤리 병 속에 씨앗이 있어요. 핍은 말 대신 펄쩍펄쩍 뛰어요.",
+          "audio": "scene_u04_2_n"
+        }
+      },
+      {
+        "id": "scene_u04_3",
+        "desc": "Under the lemon tree again. A bright yellow lemon with a leaf has just dropped from the branch and split open, and a glowing golden seed shines inside it. Bun catches the lemon in her paws; Hedgie licks his lips and puckers at the sour smell; Pip glows above. Hidden in the picture: a scarecrow by the tree with one striped-sock leg kicked out, a golden padlock hanging on a small round wooden door in the garden wall behind the tree. In the far corner, Grumble peeks from behind the lemon tree trunk still holding his finger-over-lips sign, but he is leaning in to listen; his lantern glows a little brighter.",
+        "hidden": [
+          "lemon",
+          "leg",
+          "lock"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I see a lemon!",
+            "audio": "u04_l7",
+            "ko": "레몬이 보여!"
+          },
+          {
+            "who": "hedgie",
+            "text": "/l/ /l/ lemon!",
+            "audio": "u04_l8",
+            "pop": "l",
+            "ko": "l, l 레몬!"
+          },
+          {
+            "who": "both",
+            "text": "L!",
+            "audio": "name_l__both",
+            "sfx": "chime",
+            "ko": "엘!"
+          }
+        ],
+        "video": "vid_u04_2",
+        "ko": "레몬이 뚝 떨어져 갈라지자 안에 씨앗이! 헤지는 신 냄새에 얼굴을 찡그려요. 담장에 자물쇠 달린 문이 보여요.",
+        "ask": [
+          {
+            "en": "What fell from the tree?",
+            "ko": "나무에서 뭐가 떨어졌어?"
+          },
+          {
+            "en": "What is on the little door?",
+            "ko": "작은 문에 뭐가 달려 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A lemon falls and splits. A seed is inside!",
+          "ko": "레몬이 떨어져 갈라지니 안에 씨앗이 있어요!",
+          "audio": "scene_u04_3_n"
+        }
+      },
+      {
+        "id": "scene_u04_4",
+        "desc": "The garden wall with a small round wooden door. Hedgie turns the golden key in the golden padlock and the door swings open, showing a dark blue starry night garden on the other side. Bun is already jumping through the doorway with one boot in the air; Pip flutters after her. Three new letter trees (J with jelly, juice and jump fruits; K with key, kite and koala fruits; L with lemon, leg and lock fruits) stand behind them. Grumble pops out of a dirt hole right beside the door; his finger-over-lips sign lies flat on the ground like a doormat and he is staring at the open door with his mouth open; his lantern glows warm and bright. Hidden in the picture: the padlock, the golden key in Hedgie's paw.",
+        "hidden": [
+          "lock",
+          "key"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The key and the lock!",
+            "audio": "u04_l9",
+            "ko": "열쇠하고 자물쇠!"
+          },
+          {
+            "who": "bun",
+            "text": "Jump in!",
+            "audio": "u04_l10",
+            "ko": "뛰어 들어가자!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! A door?",
+            "audio": "u04_l11",
+            "ko": "쉿! 문이라고?"
+          }
+        ],
+        "ko": "열쇠로 자물쇠를 열자 문이 열려요. 문 너머는 깜깜한 밤 정원! 그럼블의 팻말은 바닥에 떨어졌고, 등불은 더 밝아졌어요.",
+        "ask": [
+          {
+            "en": "What opens the door?",
+            "ko": "문을 무엇으로 열었어?"
+          },
+          {
+            "en": "What is behind the door?",
+            "ko": "문 뒤에는 뭐가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "The key opens the door. Behind it is a night garden.",
+          "ko": "열쇠로 문을 열자 깜깜한 밤의 정원이 나와요.",
+          "audio": "scene_u04_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "코알라가 열쇠를 쥐고 있어요. 연과 젤리 병, 레몬에서 씨앗을 찾았어요. 열쇠로 자물쇠를 열자 두 번째 정원 문이 열렸어요! 그럼블의 \"조용\" 팻말은 발닦개가 됐어요.",
+    "so_far_ko": "염소가 삼킨 씨앗을 되찾고 G·H·I 나무를 키웠어요.",
+    "goal_ko": "씨앗 세 개와 열쇠를 찾아 둘째 정원의 문을 열어요."
+  }
 }

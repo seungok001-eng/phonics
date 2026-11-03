@@ -264,11 +264,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "review_bingo",
           "title": "Bingo"
         },
@@ -286,6 +281,244 @@
     }
   ],
   "story": {
+    "title": "Pip's Garden Walk",
+    "bgm": "bgm_bright",
+    "v2": true,
+    "panels": [
+      {
+        "id": "scene_u05_1",
+        "desc": "{PIP} walks alone along a garden path under an apple tree with red apples, looking up happily. A yellow bus toy and a bag sit by the path.",
+        "hidden": [
+          "apple",
+          "bus",
+          "bag"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "I see an apple.",
+            "audio": "u05_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_u05_2",
+        "desc": "{PIP} stands at the pond edge watching {duck} and {frog} sitting together on a lily pad. An egg and a paper fan lie on the bank.",
+        "hidden": [
+          "duck",
+          "frog",
+          "egg",
+          "fan"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "I see a duck and a frog.",
+            "audio": "u05_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_u05_3",
+        "desc": "{goat} runs across the lawn flying a big red kite on a string; {PIP} watches amazed. A gift box, a guitar and a hen are around the lawn.",
+        "hidden": [
+          "goat",
+          "kite",
+          "gift",
+          "guitar",
+          "hen"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "A goat and a kite!",
+            "audio": "u05_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_u05_4",
+        "desc": "{PIP} has grabbed the kite string and is lifted into the sky, flapping; {BUN} and {HED} run below jumping to catch it. A key, a lock and a lemon lie on the grass.",
+        "hidden": [
+          "key",
+          "lock",
+          "lemon"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Jump, Pip!",
+            "audio": "u05_l4"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_u05_1",
+      "from": "scene_u05_1",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: the baby bird under the apple tree scrunches up, then sneezes with a tiny puff and a few apple leaves flutter down; the rabbit and the hedgehog giggle; the letter trees sway in the breeze. Camera still. Soft, child-friendly. No text."
+    },
+    {
+      "id": "vid_u05_2",
+      "from": "scene_u05_3",
+      "seconds": 8,
+      "prompt": "Gentle comic picture-book animation: striped nightcaps pop off the letter trees one after another with little puffs and float down like leaves, the raccoon on the ground gets one on his head and pushes it up, the hedgehog opens his backpack and the golden key inside glints, the baby bird glows. Camera still. Playful, child-friendly. No text."
+    }
+  ],
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb_u05_1",
+        "desc": "A bright morning walk along the first garden path past the first six letter trees (apple; bus, bag, bed; cat, cup, candy; dog, duck, doll; egg, elf, exit sign; fan, frog, fork). Pip under the apple tree is scrunched up for a huge sneeze. Bun counts on her paw; Hedgie carries his red backpack. Hidden in the picture: an apple on the ground, a toy bus, a brown puppy, a green frog on a stone. Grumble does NOT appear.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Pip tries. Achoo!",
+            "audio": "sb_u05_1_1",
+            "ko": "핍이 해 봐요. 에취!"
+          },
+          {
+            "who": "bun",
+            "text": "A, B, C, D, E, F!",
+            "audio": "sb_u05_1_2",
+            "ko": "에이, 비, 시, 디, 이, 에프!"
+          },
+          {
+            "who": "hedgie",
+            "text": "I see the egg tree!",
+            "audio": "sb_u05_1_3",
+            "ko": "달걀나무가 보여!"
+          }
+        ],
+        "task": "Find a, b, c, d, e, f!",
+        "task_ko": "a~f 나무를 찾아요",
+        "ko": "아침 산책이에요. A~F 나무를 지나요. 핍은 사과나무 아래서 에취!",
+        "narr": {
+          "text": "A morning walk. Pip sneezes under the apple tree.",
+          "ko": "아침 산책이에요. 핍이 사과나무 아래서 에취!",
+          "audio": "sb_u05_1_n"
+        }
+      },
+      {
+        "id": "sb_u05_2",
+        "desc": "Further along: the next six letter trees (goat, gift, guitar; hen, hippo, hammer; ink, igloo, insect; jelly, juice, jump; key, kite, koala; lemon, leg, lock), each wearing one of Grumble's big striped nightcaps pulled over its crown. Grumble on a wobbly ladder ties the last nightcap onto the lemon tree, tongue out; his lantern hangs on the ladder glowing softly. The white goat walks with the friends wearing a yellow ribbon; the brown hen follows. Hedgie opens his backpack and shows the golden key; Bun points up at the hats laughing; Pip glows on Hedgie's head. Hidden in the picture: the goat, the hen, a jar of jelly on a bench, a red kite in a tree.",
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The key is in my bag.",
+            "audio": "sb_u05_2_1",
+            "ko": "열쇠는 내 가방에 있어."
+          },
+          {
+            "who": "bun",
+            "text": "G, H, I, J, K, L!",
+            "audio": "sb_u05_2_2",
+            "ko": "지, 에이치, 아이, 제이, 케이, 엘!"
+          },
+          {
+            "who": "both",
+            "text": "It is my garden!",
+            "audio": "sb_u05_2_3",
+            "ko": "내 정원이야!"
+          }
+        ],
+        "task": "Find g, h, i, j, k, l!",
+        "task_ko": "g~l 나무를 찾아요",
+        "ko": "G~L 나무마다 그럼블의 줄무늬 잠옷 모자가 씌워져 있어요. 그럼블은 사다리 위에 있고, 헤지 가방엔 열쇠가 있어요.",
+        "narr": {
+          "text": "Grumble's nightcaps are on the trees to keep them quiet!",
+          "ko": "나무들이 조용하라고 그럼블이 잠옷 모자를 씌웠어요!",
+          "audio": "sb_u05_2_n"
+        }
+      },
+      {
+        "id": "sb_u05_3",
+        "desc": "Grumble's burrow at the foot of the hill. The nightcaps have all popped off the trees and Grumble sits in the mouth of his dirt hole wearing them stacked in a tall wobbly tower on his head, chin on his paws, looking at the twelve letter trees with a wistful, envious face; his lantern beside him glows soft and steady. Pip has hopped right up to the burrow and waves a wing; Bun and Hedgie wave from the path. Twelve letter trees fill the background like a little orchard.",
+        "lines": [
+          {
+            "who": "both",
+            "text": "It is my garden!",
+            "audio": "sb_u05_3_1",
+            "ko": "내 정원이야!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... My garden.",
+            "audio": "sb_u05_3_2",
+            "ko": "쉿… 내 정원."
+          },
+          {
+            "who": "narrator",
+            "text": "Is Grumble sad?",
+            "audio": "sb_u05_3_3",
+            "ko": "그럼블은 슬픈 걸까요?"
+          }
+        ],
+        "task": "Find Grumble's lantern!",
+        "task_ko": "그럼블의 등불을 찾아요",
+        "ko": "모자가 다 벗겨졌어요. 굴 앞에서 모자를 탑처럼 쌓아 쓴 그럼블이 나무들을 바라봐요. 예전에 자기가 가꾸던 정원이 그립지만 쑥스러워서 다가가지 못해요. 핍이 손을 흔들어요.",
+        "narr": {
+          "text": "The hats are off. Grumble misses his old garden.",
+          "ko": "모자가 다 벗겨졌어요. 그럼블은 예전에 가꾸던 정원이 그리워요.",
+          "audio": "sb_u05_3_n"
+        }
+      }
+    ]
+  },
+  "mystery": [
+    {
+      "w": "ax",
+      "l": "a"
+    },
+    {
+      "w": "bell",
+      "l": "b"
+    },
+    {
+      "w": "cap",
+      "l": "c"
+    },
+    {
+      "w": "desk",
+      "l": "d"
+    },
+    {
+      "w": "end",
+      "l": "e"
+    },
+    {
+      "w": "fox",
+      "l": "f"
+    },
+    {
+      "w": "game",
+      "l": "g"
+    },
+    {
+      "w": "hug",
+      "l": "h"
+    },
+    {
+      "w": "it",
+      "l": "i"
+    },
+    {
+      "w": "jet",
+      "l": "j"
+    },
+    {
+      "w": "kick",
+      "l": "k"
+    },
+    {
+      "w": "log",
+      "l": "l"
+    }
+  ],
+  "story_v1": {
     "title": "Pip's Garden Walk",
     "bgm": "bgm_bright",
     "panels": [
@@ -477,169 +710,5 @@
     "synopsis_ko": "친구들이 첫 번째 정원을 산책하며 나무 열두 그루를 세요. 그럼블은 나무들이 조용하라고 잠옷 모자를 씌웠지만, 글자 이름을 말하자 모자가 펑펑 벗겨졌어요. 그럼블은 예전에 가꾸던 정원이 그리워 나무들을 바라봐요.",
     "so_far_ko": "열쇠로 둘째 정원 문을 열었어요. 이제 A부터 L까지 나무 열두 그루가 있어요.",
     "goal_ko": "A~L 나무를 다시 보며 소리와 단어를 복습해요."
-  },
-  "videos": [
-    {
-      "id": "vid_u05_1",
-      "from": "scene_u05_1",
-      "seconds": 8,
-      "prompt": "Gentle comic picture-book animation: the baby bird under the apple tree scrunches up, then sneezes with a tiny puff and a few apple leaves flutter down; the rabbit and the hedgehog giggle; the letter trees sway in the breeze. Camera still. Soft, child-friendly. No text."
-    },
-    {
-      "id": "vid_u05_2",
-      "from": "scene_u05_3",
-      "seconds": 8,
-      "prompt": "Gentle comic picture-book animation: striped nightcaps pop off the letter trees one after another with little puffs and float down like leaves, the raccoon on the ground gets one on his head and pushes it up, the hedgehog opens his backpack and the golden key inside glints, the baby bird glows. Camera still. Playful, child-friendly. No text."
-    }
-  ],
-  "storybook": {
-    "pages": [
-      {
-        "id": "sb_u05_1",
-        "desc": "A bright morning walk along the first garden path past the first six letter trees (apple; bus, bag, bed; cat, cup, candy; dog, duck, doll; egg, elf, exit sign; fan, frog, fork). Pip under the apple tree is scrunched up for a huge sneeze. Bun counts on her paw; Hedgie carries his red backpack. Hidden in the picture: an apple on the ground, a toy bus, a brown puppy, a green frog on a stone. Grumble does NOT appear.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Pip tries. Achoo!",
-            "audio": "sb_u05_1_1",
-            "ko": "핍이 해 봐요. 에취!"
-          },
-          {
-            "who": "bun",
-            "text": "A, B, C, D, E, F!",
-            "audio": "sb_u05_1_2",
-            "ko": "에이, 비, 시, 디, 이, 에프!"
-          },
-          {
-            "who": "hedgie",
-            "text": "I see the egg tree!",
-            "audio": "sb_u05_1_3",
-            "ko": "달걀나무가 보여!"
-          }
-        ],
-        "task": "Find a, b, c, d, e, f!",
-        "task_ko": "a~f 나무를 찾아요",
-        "ko": "아침 산책이에요. A~F 나무를 지나요. 핍은 사과나무 아래서 에취!",
-        "narr": {
-          "text": "A morning walk. Pip sneezes under the apple tree.",
-          "ko": "아침 산책이에요. 핍이 사과나무 아래서 에취!",
-          "audio": "sb_u05_1_n"
-        }
-      },
-      {
-        "id": "sb_u05_2",
-        "desc": "Further along: the next six letter trees (goat, gift, guitar; hen, hippo, hammer; ink, igloo, insect; jelly, juice, jump; key, kite, koala; lemon, leg, lock), each wearing one of Grumble's big striped nightcaps pulled over its crown. Grumble on a wobbly ladder ties the last nightcap onto the lemon tree, tongue out; his lantern hangs on the ladder glowing softly. The white goat walks with the friends wearing a yellow ribbon; the brown hen follows. Hedgie opens his backpack and shows the golden key; Bun points up at the hats laughing; Pip glows on Hedgie's head. Hidden in the picture: the goat, the hen, a jar of jelly on a bench, a red kite in a tree.",
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "The key is in my bag.",
-            "audio": "sb_u05_2_1",
-            "ko": "열쇠는 내 가방에 있어."
-          },
-          {
-            "who": "bun",
-            "text": "G, H, I, J, K, L!",
-            "audio": "sb_u05_2_2",
-            "ko": "지, 에이치, 아이, 제이, 케이, 엘!"
-          },
-          {
-            "who": "both",
-            "text": "It is my garden!",
-            "audio": "sb_u05_2_3",
-            "ko": "내 정원이야!"
-          }
-        ],
-        "task": "Find g, h, i, j, k, l!",
-        "task_ko": "g~l 나무를 찾아요",
-        "ko": "G~L 나무마다 그럼블의 줄무늬 잠옷 모자가 씌워져 있어요. 그럼블은 사다리 위에 있고, 헤지 가방엔 열쇠가 있어요.",
-        "narr": {
-          "text": "Grumble's nightcaps are on the trees to keep them quiet!",
-          "ko": "나무들이 조용하라고 그럼블이 잠옷 모자를 씌웠어요!",
-          "audio": "sb_u05_2_n"
-        }
-      },
-      {
-        "id": "sb_u05_3",
-        "desc": "Grumble's burrow at the foot of the hill. The nightcaps have all popped off the trees and Grumble sits in the mouth of his dirt hole wearing them stacked in a tall wobbly tower on his head, chin on his paws, looking at the twelve letter trees with a wistful, envious face; his lantern beside him glows soft and steady. Pip has hopped right up to the burrow and waves a wing; Bun and Hedgie wave from the path. Twelve letter trees fill the background like a little orchard.",
-        "lines": [
-          {
-            "who": "both",
-            "text": "It is my garden!",
-            "audio": "sb_u05_3_1",
-            "ko": "내 정원이야!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... My garden.",
-            "audio": "sb_u05_3_2",
-            "ko": "쉿… 내 정원."
-          },
-          {
-            "who": "narrator",
-            "text": "Is Grumble sad?",
-            "audio": "sb_u05_3_3",
-            "ko": "그럼블은 슬픈 걸까요?"
-          }
-        ],
-        "task": "Find Grumble's lantern!",
-        "task_ko": "그럼블의 등불을 찾아요",
-        "ko": "모자가 다 벗겨졌어요. 굴 앞에서 모자를 탑처럼 쌓아 쓴 그럼블이 나무들을 바라봐요. 예전에 자기가 가꾸던 정원이 그립지만 쑥스러워서 다가가지 못해요. 핍이 손을 흔들어요.",
-        "narr": {
-          "text": "The hats are off. Grumble misses his old garden.",
-          "ko": "모자가 다 벗겨졌어요. 그럼블은 예전에 가꾸던 정원이 그리워요.",
-          "audio": "sb_u05_3_n"
-        }
-      }
-    ]
-  },
-  "mystery": [
-    {
-      "w": "ax",
-      "l": "a"
-    },
-    {
-      "w": "bell",
-      "l": "b"
-    },
-    {
-      "w": "cap",
-      "l": "c"
-    },
-    {
-      "w": "desk",
-      "l": "d"
-    },
-    {
-      "w": "end",
-      "l": "e"
-    },
-    {
-      "w": "fox",
-      "l": "f"
-    },
-    {
-      "w": "game",
-      "l": "g"
-    },
-    {
-      "w": "hug",
-      "l": "h"
-    },
-    {
-      "w": "it",
-      "l": "i"
-    },
-    {
-      "w": "jet",
-      "l": "j"
-    },
-    {
-      "w": "kick",
-      "l": "k"
-    },
-    {
-      "w": "log",
-      "l": "l"
-    }
-  ]
+  }
 }

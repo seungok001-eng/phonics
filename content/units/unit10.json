@@ -1,6 +1,6 @@
 {
   "unit": 10,
-  "title": "Pip Sings!",
+  "title": "The Yo-yo",
   "title_ko": "핍이 노래해요!",
   "letters": [
     "y",
@@ -69,11 +69,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -91,192 +86,69 @@
     }
   ],
   "story": {
-    "title": "Pip Sings!",
+    "title": "The Yo-yo",
     "bgm": "bgm_finale",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u10_1",
-        "desc": "A sunny meadow corner of the second garden. A shaggy brown yak with long horns licks strawberry yogurt out of a big cup, and a glowing golden seed is stuck on the yak's pink yogurt-covered nose. Bun points at the yak laughing; Hedgie holds the yogurt cup; Pip plays with a red yo-yo, the string wrapped around its wing. Hidden in the picture: the yak, the yogurt cup, the yo-yo. Far away on the hill path, Grumble is walking away from the garden alone with a little bundle on a stick over his shoulder, looking back over his shoulder with a sad frown; his lantern in his other paw shines very bright, like a star.",
+        "desc": "{zebra} proudly shows a red yo-yo on a string to {PIP}, {BUN} and {HED} in the garden.",
         "hidden": [
-          "yak",
-          "yogurt",
+          "zebra",
           "yo-yo"
         ],
         "lines": [
           {
-            "who": "bun",
-            "text": "This is a yak!",
-            "audio": "u10_l1",
-            "ko": "이건 야크야!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Here is the yogurt!",
-            "audio": "u10_l2",
-            "ko": "여기 요거트가 있어!"
-          },
-          {
-            "who": "bun",
-            "text": "/y/ /y/ yak!",
-            "audio": "u10_l3",
-            "pop": "y",
-            "ko": "y, y 야크!"
+            "who": "narrator",
+            "text": "This is a yo-yo.",
+            "audio": "u10_l1"
           }
-        ],
-        "video": "vid_u10_1",
-        "ko": "야크가 요거트를 핥아요. 코에 씨앗이 붙었어요. 핍은 요요 놀이. 그럼블은 보따리를 메고 혼자 멀리 떠나요.",
-        "ask": [
-          {
-            "en": "What is the yak eating?",
-            "ko": "야크가 뭘 먹어?"
-          },
-          {
-            "en": "Where is Grumble going?",
-            "ko": "그럼블은 어디로 가?"
-          }
-        ],
-        "narr": {
-          "text": "A yak licks yogurt. Grumble walks away alone.",
-          "ko": "야크가 요거트를 핥아요. 그럼블은 이제 정원에 자기가 필요 없다고 생각해서 혼자 떠나요.",
-          "audio": "scene_u10_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u10_2",
-        "desc": "A black-and-white striped zebra stands on the path wearing a blue jacket with a metal zipper half open; a glowing golden seed peeks out of the jacket pocket. Hedgie tugs the zipper tab with both paws. Pip was trying to say a sound but has yawned and fallen fast asleep on the zebra's back with a tiny snore bubble. Bun giggles with a finger to her lips. Behind them the new Y letter tree with yogurt-, yak- and yo-yo-shaped fruits. Hidden in the picture: the zebra, the zipper. Grumble does NOT appear.",
+        "desc": "The yo-yo flies off the string in a zigzag path across the lawn (shown as a zigzag motion line); {zebra} reaches after it; {PIP}, {BUN} and {HED} duck.",
         "hidden": [
-          "zebra",
+          "zigzag"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Zigzag! Zigzag!",
+            "audio": "u10_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_u10_3",
+        "desc": "The yo-yo splashes into a big cup of yogurt that {yak} was holding; yogurt splatters all over {yak}'s face. {PIP}, {BUN} and {HED} wince.",
+        "hidden": [
+          "yak",
+          "yogurt"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Yogurt!",
+            "audio": "u10_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_u10_4",
+        "desc": "{PIP} pulls a small towel out of a bag with a big zipper and hands it up to {yak}, whose face is covered in yogurt; {yak} licks its lips happily. {zebra}, {BUN} and {HED} smile.",
+        "hidden": [
           "zipper"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "This is a zebra.",
-            "audio": "u10_l4",
-            "ko": "이건 얼룩말이야."
-          },
-          {
-            "who": "narrator",
-            "text": "Pip tries. Zzz...",
-            "audio": "u10_l5",
-            "ko": "핍이 해 봐요. 쿨쿨…"
-          },
-          {
-            "who": "bun",
-            "text": "The seed is in the zipper!",
-            "audio": "u10_l6",
-            "ko": "씨앗이 지퍼 속에 있어!"
-          }
-        ],
-        "ko": "얼룩말 재킷 지퍼 속에 씨앗이 있어요. 핍은 z 소리를 내려다 하품하고 쿨쿨 잠들었어요.",
-        "ask": [
-          {
-            "en": "What is Pip doing?",
-            "ko": "핍은 뭘 하고 있어?"
-          },
-          {
-            "en": "Where is the seed?",
-            "ko": "씨앗은 어디 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A seed is in the zebra's zipper. Pip falls asleep.",
-          "ko": "얼룩말 지퍼 속에 씨앗이 있어요. 핍은 쿨쿨 잠들어요.",
-          "audio": "scene_u10_2_n"
-        }
-      },
-      {
-        "id": "scene_u10_3",
-        "desc": "A bold yellow zigzag path leads across the lawn to the very last empty clay pot at the end of the garden. Bun runs along the zigzag with the glowing seed held high; Hedgie follows; Pip, awake again, flies ahead. Twenty-five letter trees fill the background in neat rows like an orchard. Hidden in the picture: the zigzag path, the red yo-yo in Hedgie's paw. Grumble has come running back down the hill and stands right behind the friends panting, bundle dropped; his lantern shakes in his paw and glows so bright that its little door is rattling open.",
-        "hidden": [
-          "zigzag",
-          "yo-yo"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "Here is the zigzag!",
-            "audio": "u10_l7",
-            "ko": "여기 지그재그 길이야!"
-          },
-          {
-            "who": "both",
-            "text": "This is it!",
-            "audio": "u10_l8",
-            "ko": "바로 이거야!"
-          },
-          {
-            "who": "bun",
-            "text": "/z/ /z/ zigzag!",
-            "audio": "u10_l9",
-            "pop": "z",
-            "ko": "z, z 지그재그!"
-          }
-        ],
-        "video": "vid_u10_2",
-        "ko": "노란 지그재그 길 끝에 마지막 화분이 있어요. 번이 씨앗을 들고 달려요. 그럼블이 되돌아왔고 등불이 덜컹덜컹 열리려 해요.",
-        "ask": [
-          {
-            "en": "What color is the path?",
-            "ko": "길은 무슨 색이야?"
-          },
-          {
-            "en": "Who came back?",
-            "ko": "누가 돌아왔어?"
-          }
-        ],
-        "narr": {
-          "text": "Bun runs to the last pot. Grumble comes back!",
-          "ko": "번이 마지막 화분으로 달려요. 그럼블이 돌아왔어요!",
-          "audio": "scene_u10_3_n"
-        }
-      },
-      {
-        "id": "scene_u10_4",
-        "desc": "The whole Sound Garden bursts into bloom: twenty-six letter trees covered in pink and white blossoms, petals drifting everywhere. Grumble's lantern has swung wide open and a single big glowing golden music note floats out of it and into Pip. Pip stands on the last pot with its beak wide open, singing for the first time, with little golden notes and sparkles streaming out. Bun and Hedgie hug each other with tears of joy. Grumble sits on the ground holding the open, now dazzlingly bright lantern in his lap, big tears rolling down his cheeks, but a tiny smile under them. Hidden in the picture: the glowing music note.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "This is it! Pip sings!",
-            "audio": "u10_l10",
-            "ko": "바로 이거예요! 핍이 노래해요!"
-          },
-          {
             "who": "pip",
-            "text": "A! B! C!",
-            "audio": "u10_l11",
-            "sfx": "chime",
-            "ko": "에이! 비! 시!"
-          },
-          {
-            "who": "grumble",
-            "text": "Sniff... Shh. Sniff.",
-            "audio": "u10_l12",
-            "ko": "훌쩍… 쉿. 훌쩍."
+            "text": "Here, yak.",
+            "audio": "u10_l4"
           }
-        ],
-        "ko": "스물여섯 그루가 꽃을 피웠어요! 그럼블의 등불이 열리고, 오래 지켜 온 노래의 마지막 불씨가 금빛 음표가 되어 핍에게 들어가요. 핍이 처음 노래해요. 옛날 정원지기 그럼블은 눈물을 흘리며 살짝 웃어요.",
-        "ask": [
-          {
-            "en": "What comes out of the lantern?",
-            "ko": "등불에서 뭐가 나왔어?"
-          },
-          {
-            "en": "What is Pip doing now?",
-            "ko": "핍은 이제 뭘 해?"
-          }
-        ],
-        "narr": {
-          "text": "All twenty-six trees bloom. Pip sings at last!",
-          "ko": "스물여섯 그루가 꽃을 피워요. 등불 속 노래 불씨가 핍에게! 드디어 핍이 노래하고, 그럼블도 다시 웃어요.",
-          "audio": "scene_u10_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "야크 코에 씨앗이, 얼룩말 지퍼 속에 씨앗이 있어요. 지그재그 길 끝 마지막 화분에 심자 스물여섯 그루가 꽃을 피웠어요! 그럼블의 등불이 열리며 오래 지켜 온 노래 불씨가 핍에게 들어가 핍이 처음으로 노래했어요. 옛날 정원지기 그럼블은 울며 웃었어요.",
-    "so_far_ko": "화산이 터진 마을 구석에서 V·W·X 나무를 키웠어요. 그럼블의 등불이 별처럼 밝아졌어요.",
-    "goal_ko": "마지막 씨앗 둘을 찾아 Y·Z 나무를 키우고 스물여섯 그루를 완성해요."
+    ]
   },
   "videos": [
     {
@@ -584,5 +456,193 @@
       "w": "zap",
       "l": "z"
     }
-  ]
+  ],
+  "story_v1": {
+    "title": "Pip Sings!",
+    "bgm": "bgm_finale",
+    "panels": [
+      {
+        "id": "scene_u10_1",
+        "desc": "A sunny meadow corner of the second garden. A shaggy brown yak with long horns licks strawberry yogurt out of a big cup, and a glowing golden seed is stuck on the yak's pink yogurt-covered nose. Bun points at the yak laughing; Hedgie holds the yogurt cup; Pip plays with a red yo-yo, the string wrapped around its wing. Hidden in the picture: the yak, the yogurt cup, the yo-yo. Far away on the hill path, Grumble is walking away from the garden alone with a little bundle on a stick over his shoulder, looking back over his shoulder with a sad frown; his lantern in his other paw shines very bright, like a star.",
+        "hidden": [
+          "yak",
+          "yogurt",
+          "yo-yo"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "This is a yak!",
+            "audio": "u10_l1",
+            "ko": "이건 야크야!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Here is the yogurt!",
+            "audio": "u10_l2",
+            "ko": "여기 요거트가 있어!"
+          },
+          {
+            "who": "bun",
+            "text": "/y/ /y/ yak!",
+            "audio": "u10_l3",
+            "pop": "y",
+            "ko": "y, y 야크!"
+          }
+        ],
+        "video": "vid_u10_1",
+        "ko": "야크가 요거트를 핥아요. 코에 씨앗이 붙었어요. 핍은 요요 놀이. 그럼블은 보따리를 메고 혼자 멀리 떠나요.",
+        "ask": [
+          {
+            "en": "What is the yak eating?",
+            "ko": "야크가 뭘 먹어?"
+          },
+          {
+            "en": "Where is Grumble going?",
+            "ko": "그럼블은 어디로 가?"
+          }
+        ],
+        "narr": {
+          "text": "A yak licks yogurt. Grumble walks away alone.",
+          "ko": "야크가 요거트를 핥아요. 그럼블은 이제 정원에 자기가 필요 없다고 생각해서 혼자 떠나요.",
+          "audio": "scene_u10_1_n"
+        }
+      },
+      {
+        "id": "scene_u10_2",
+        "desc": "A black-and-white striped zebra stands on the path wearing a blue jacket with a metal zipper half open; a glowing golden seed peeks out of the jacket pocket. Hedgie tugs the zipper tab with both paws. Pip was trying to say a sound but has yawned and fallen fast asleep on the zebra's back with a tiny snore bubble. Bun giggles with a finger to her lips. Behind them the new Y letter tree with yogurt-, yak- and yo-yo-shaped fruits. Hidden in the picture: the zebra, the zipper. Grumble does NOT appear.",
+        "hidden": [
+          "zebra",
+          "zipper"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "This is a zebra.",
+            "audio": "u10_l4",
+            "ko": "이건 얼룩말이야."
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Zzz...",
+            "audio": "u10_l5",
+            "ko": "핍이 해 봐요. 쿨쿨…"
+          },
+          {
+            "who": "bun",
+            "text": "The seed is in the zipper!",
+            "audio": "u10_l6",
+            "ko": "씨앗이 지퍼 속에 있어!"
+          }
+        ],
+        "ko": "얼룩말 재킷 지퍼 속에 씨앗이 있어요. 핍은 z 소리를 내려다 하품하고 쿨쿨 잠들었어요.",
+        "ask": [
+          {
+            "en": "What is Pip doing?",
+            "ko": "핍은 뭘 하고 있어?"
+          },
+          {
+            "en": "Where is the seed?",
+            "ko": "씨앗은 어디 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A seed is in the zebra's zipper. Pip falls asleep.",
+          "ko": "얼룩말 지퍼 속에 씨앗이 있어요. 핍은 쿨쿨 잠들어요.",
+          "audio": "scene_u10_2_n"
+        }
+      },
+      {
+        "id": "scene_u10_3",
+        "desc": "A bold yellow zigzag path leads across the lawn to the very last empty clay pot at the end of the garden. Bun runs along the zigzag with the glowing seed held high; Hedgie follows; Pip, awake again, flies ahead. Twenty-five letter trees fill the background in neat rows like an orchard. Hidden in the picture: the zigzag path, the red yo-yo in Hedgie's paw. Grumble has come running back down the hill and stands right behind the friends panting, bundle dropped; his lantern shakes in his paw and glows so bright that its little door is rattling open.",
+        "hidden": [
+          "zigzag",
+          "yo-yo"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Here is the zigzag!",
+            "audio": "u10_l7",
+            "ko": "여기 지그재그 길이야!"
+          },
+          {
+            "who": "both",
+            "text": "This is it!",
+            "audio": "u10_l8",
+            "ko": "바로 이거야!"
+          },
+          {
+            "who": "bun",
+            "text": "/z/ /z/ zigzag!",
+            "audio": "u10_l9",
+            "pop": "z",
+            "ko": "z, z 지그재그!"
+          }
+        ],
+        "video": "vid_u10_2",
+        "ko": "노란 지그재그 길 끝에 마지막 화분이 있어요. 번이 씨앗을 들고 달려요. 그럼블이 되돌아왔고 등불이 덜컹덜컹 열리려 해요.",
+        "ask": [
+          {
+            "en": "What color is the path?",
+            "ko": "길은 무슨 색이야?"
+          },
+          {
+            "en": "Who came back?",
+            "ko": "누가 돌아왔어?"
+          }
+        ],
+        "narr": {
+          "text": "Bun runs to the last pot. Grumble comes back!",
+          "ko": "번이 마지막 화분으로 달려요. 그럼블이 돌아왔어요!",
+          "audio": "scene_u10_3_n"
+        }
+      },
+      {
+        "id": "scene_u10_4",
+        "desc": "The whole Sound Garden bursts into bloom: twenty-six letter trees covered in pink and white blossoms, petals drifting everywhere. Grumble's lantern has swung wide open and a single big glowing golden music note floats out of it and into Pip. Pip stands on the last pot with its beak wide open, singing for the first time, with little golden notes and sparkles streaming out. Bun and Hedgie hug each other with tears of joy. Grumble sits on the ground holding the open, now dazzlingly bright lantern in his lap, big tears rolling down his cheeks, but a tiny smile under them. Hidden in the picture: the glowing music note.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is it! Pip sings!",
+            "audio": "u10_l10",
+            "ko": "바로 이거예요! 핍이 노래해요!"
+          },
+          {
+            "who": "pip",
+            "text": "A! B! C!",
+            "audio": "u10_l11",
+            "sfx": "chime",
+            "ko": "에이! 비! 시!"
+          },
+          {
+            "who": "grumble",
+            "text": "Sniff... Shh. Sniff.",
+            "audio": "u10_l12",
+            "ko": "훌쩍… 쉿. 훌쩍."
+          }
+        ],
+        "ko": "스물여섯 그루가 꽃을 피웠어요! 그럼블의 등불이 열리고, 오래 지켜 온 노래의 마지막 불씨가 금빛 음표가 되어 핍에게 들어가요. 핍이 처음 노래해요. 옛날 정원지기 그럼블은 눈물을 흘리며 살짝 웃어요.",
+        "ask": [
+          {
+            "en": "What comes out of the lantern?",
+            "ko": "등불에서 뭐가 나왔어?"
+          },
+          {
+            "en": "What is Pip doing now?",
+            "ko": "핍은 이제 뭘 해?"
+          }
+        ],
+        "narr": {
+          "text": "All twenty-six trees bloom. Pip sings at last!",
+          "ko": "스물여섯 그루가 꽃을 피워요. 등불 속 노래 불씨가 핍에게! 드디어 핍이 노래하고, 그럼블도 다시 웃어요.",
+          "audio": "scene_u10_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "야크 코에 씨앗이, 얼룩말 지퍼 속에 씨앗이 있어요. 지그재그 길 끝 마지막 화분에 심자 스물여섯 그루가 꽃을 피웠어요! 그럼블의 등불이 열리며 오래 지켜 온 노래 불씨가 핍에게 들어가 핍이 처음으로 노래했어요. 옛날 정원지기 그럼블은 울며 웃었어요.",
+    "so_far_ko": "화산이 터진 마을 구석에서 V·W·X 나무를 키웠어요. 그럼블의 등불이 별처럼 밝아졌어요.",
+    "goal_ko": "마지막 씨앗 둘을 찾아 Y·Z 나무를 키우고 스물여섯 그루를 완성해요."
+  }
 }

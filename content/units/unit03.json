@@ -1,6 +1,6 @@
 {
   "unit": 3,
-  "title": "The Goat Ate It!",
+  "title": "The Gift",
   "title_ko": "염소가 먹었어!",
   "letters": [
     "g",
@@ -65,11 +65,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -87,198 +82,70 @@
     }
   ],
   "story": {
-    "title": "The Goat Ate It!",
+    "title": "The Gift",
     "bgm": "bgm_silly",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u03_1",
-        "desc": "Close, centered view of a grassy corner of the Sound Garden with a wooden fence. In the center foreground a big white goat with small horns and a little beard has its mouth open, and a LARGE glowing golden seed (as big as a plum) is half inside its mouth — gulp! — the seed is the brightest thing in the picture. Bun gasps with both paws on her cheeks, Hedgie points at the goat's mouth in shock, Pip flutters above them with its beak open in surprise. Hidden in the picture: a brown acoustic guitar leaning against the fence, a wooden-handled hammer lying on a tool bench. Far away on a small hill in the background, Grumble sits small with two acorn caps pressed over his ears like earmuffs, eyes squeezed shut; his tiny candle lantern beside him is almost dark.",
+        "desc": "{HED} proudly hugs a big gift box tied with a red ribbon in the garden. {PIP} and {BUN} admire it. A hen pecks by the fence; a hammer leans on the shed wall.",
         "hidden": [
-          "goat",
-          "guitar",
+          "hen",
           "hammer"
         ],
         "lines": [
           {
-            "who": "bun",
-            "text": "I see a goat!",
-            "audio": "u03_l1",
-            "ko": "염소가 보여!"
-          },
-          {
             "who": "hedgie",
-            "text": "The goat ate it!",
-            "audio": "u03_l2",
-            "ko": "염소가 먹어 버렸어!"
-          },
-          {
-            "who": "pip",
-            "text": "Chirp?",
-            "audio": "u03_l3",
-            "ko": "짹?"
+            "text": "My gift!",
+            "audio": "u03_l1"
           }
-        ],
-        "video": "vid_u03_1",
-        "ko": "염소가 씨앗을 꿀꺽! 모두 깜짝 놀라요. 언덕 위 그럼블은 도토리 껍질을 귀마개처럼 꼈어요.",
-        "ask": [
-          {
-            "en": "What did the goat eat?",
-            "ko": "염소가 뭘 먹었어?"
-          },
-          {
-            "en": "What is on Grumble's ears?",
-            "ko": "그럼블 귀에 뭐가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Oh no! The goat ate the seed!",
-          "ko": "앗! 염소가 씨앗을 삼켜 버렸어요!",
-          "audio": "scene_u03_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u03_2",
-        "desc": "Same garden corner. Hedgie kneels and holds out a gift box wrapped in red paper with a yellow ribbon toward the goat; the goat's eyes go wide with delight and a LARGE glowing golden seed (as big as a plum) shoots out of its mouth into the air in the center of the picture with a big burst of sparkles — the seed is the brightest thing in the picture. Beside them Pip tries to say a sound but only hiccups. Pip is HICCUPPING, clearly not happy or smiling: Pip's body jerks up off the ground in a sudden jolt, its eyes are wide open in surprise, its cheeks are puffed out, one wing is pressed over its beak, there are short zig-zag jolt lines around its body and three small round bubbles popping up from its beak. Bun laughs and cups her paws to shout. Hidden in the picture: a brown hen pecking by the fence, a tiny ladybug-like insect on Bun's green boot. Grumble does NOT appear.",
-        "hidden": [
-          "gift",
-          "hen",
-          "insect"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "It is my gift.",
-            "audio": "u03_l4",
-            "ko": "내 선물이야."
-          },
-          {
-            "who": "narrator",
-            "text": "Pip tries. Hic! Hic!",
-            "audio": "u03_l5",
-            "ko": "핍이 해 봐요. 딸꾹! 딸꾹!"
-          },
-          {
-            "who": "bun",
-            "text": "/g/ /g/ goat!",
-            "audio": "u03_l6",
-            "pop": "g",
-            "ko": "g, g 염소!"
-          }
-        ],
-        "ko": "헤지가 선물을 주자 염소가 씨앗을 퉤! 뱉어요. 핍은 g 소리를 내려다 딸꾹질만 해요.",
-        "ask": [
-          {
-            "en": "What does Hedgie give?",
-            "ko": "헤지가 뭘 줬어?"
-          },
-          {
-            "en": "What is Pip doing?",
-            "ko": "핍은 뭘 하고 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Hedgie gives a gift. The goat spits out the seed!",
-          "ko": "헤지가 선물을 주자 염소가 씨앗을 퉤! 뱉어요.",
-          "audio": "scene_u03_2_n"
-        }
-      },
-      {
-        "id": "scene_u03_3",
-        "desc": "A muddy puddle at the edge of the garden. A chubby purple-grey hippo lies happily in the mud with a glowing golden seed resting on top of its head. Bun stands on a stepping stone pointing at the hippo; Hedgie holds his nose; Pip hovers over the hippo, glowing. Behind them a new letter tree with goat-, gift- and guitar-shaped fruits has just sprouted. Hidden in the picture: a glass bottle of blue ink with a feather quill on a garden bench. In the back corner, Grumble has crept closer behind a bush: one acorn cap has fallen off his ear, and his lantern now shows a small steady flame.",
+        "desc": "{goat} walks up and sniffs the gift box in {HED}'s arms. {HED} looks worried, {BUN} points, {PIP} hides behind {BUN}. A hippo peeks over the pond edge; a small ink bottle sits on a garden table.",
         "hidden": [
           "hippo",
           "ink"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "I see a hippo!",
-            "audio": "u03_l7",
-            "ko": "하마가 보여!"
-          },
-          {
             "who": "bun",
-            "text": "/h/ /h/ hippo!",
-            "audio": "u03_l8",
-            "pop": "h",
-            "ko": "h, h 하마!"
-          },
-          {
-            "who": "both",
-            "text": "H!",
-            "audio": "name_h__both",
-            "sfx": "chime",
-            "ko": "에이치!"
+            "text": "A goat!",
+            "audio": "u03_l2"
           }
-        ],
-        "video": "vid_u03_2",
-        "ko": "하마가 진흙탕에 누워 있어요. 머리 위에 씨앗이! 그럼블의 귀마개 하나가 떨어졌어요.",
-        "ask": [
-          {
-            "en": "Where is the hippo?",
-            "ko": "하마는 어디 있어?"
-          },
-          {
-            "en": "Where is the seed?",
-            "ko": "씨앗은 어디 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Another seed is on the hippo's head.",
-          "ko": "하마 머리 위에도 씨앗이 있어요.",
-          "audio": "scene_u03_3_n"
-        }
+        ]
       },
       {
-        "id": "scene_u03_4",
-        "desc": "An icy corner of the garden with frost and a few snowflakes: a white igloo made of snow blocks, a glowing golden seed sitting on top of it. Bun and Hedgie stand before the igloo with arms raised in triumph; three new round leafy fruit trees with round green crowns (NOT shaped like letters, no letters anywhere on them) hung with small goat, gift, hen, hippo, ink and igloo shaped fruits stand behind them. Pip glows brightly. Right next to the igloo, Grumble has popped out of a dirt hole: both acorn caps have fallen to the ground, he presses one paw to his mouth, and his lantern now glows with a small warm light, noticeably brighter than before. Hidden in the picture: a tiny ladybug-like insect sitting on the top of the igloo, an ink bottle on the icy shelf.",
+        "id": "scene_u03_3",
+        "desc": "{goat} is chewing the ribbon and wrapping paper of the gift box, scraps everywhere. {HED} throws up his paws in dismay. {PIP} and {BUN} gasp. A tiny insect sits on a flower; a small white igloo-shaped dog house stands in the corner.",
         "hidden": [
-          "igloo",
           "insect",
-          "ink"
+          "igloo"
         ],
         "lines": [
           {
             "who": "hedgie",
-            "text": "It is an igloo!",
-            "audio": "u03_l9",
-            "ko": "이글루야!"
-          },
-          {
-            "who": "bun",
-            "text": "/i/ /i/ igloo!",
-            "audio": "u03_l10",
-            "pop": "i",
-            "ko": "i, i 이글루!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! My ears!",
-            "audio": "u03_l11",
-            "ko": "쉿! 내 귀!"
+            "text": "It is my gift!",
+            "audio": "u03_l3"
           }
+        ]
+      },
+      {
+        "id": "scene_u03_4",
+        "desc": "The wrapping is gone and a shiny acoustic guitar has appeared. {goat} holds the guitar and strums it happily; {PIP}, {BUN} and {HED} dance around it with big smiles.",
+        "hidden": [
+          "guitar"
         ],
-        "ko": "얼음 구석 이글루 위에 씨앗이 있어요. G·H·I 나무가 자랐어요. 그럼블의 귀마개가 다 떨어지고 등불이 조금 밝아졌어요.",
-        "ask": [
+        "lines": [
           {
-            "en": "What is the white house?",
-            "ko": "하얀 집은 뭐야?"
-          },
-          {
-            "en": "Is the lantern brighter?",
-            "ko": "등불이 더 밝아졌어?"
+            "who": "both",
+            "text": "A guitar!",
+            "audio": "u03_l4"
           }
-        ],
-        "narr": {
-          "text": "The last seed is on the igloo. Three new trees!",
-          "ko": "이글루 위의 씨앗까지 찾았어요. 새 나무가 세 그루!",
-          "audio": "scene_u03_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "염소가 씨앗을 꿀꺽 삼켰어요! 헤지가 선물을 주자 염소가 씨앗을 뱉었어요. 하마 진흙탕과 이글루에서도 씨앗을 찾았어요. 그럼블은 도토리 귀마개를 꼈지만 소용없었어요.",
-    "so_far_ko": "연못에서 D·E·F 나무를 키우고, 물에 빠진 그럼블을 건져 주었어요.",
-    "goal_ko": "염소가 삼킨 씨앗을 되찾고 G·H·I 나무를 키워요."
+    ]
   },
   "videos": [
     {
@@ -606,5 +473,199 @@
       "w": "itch",
       "l": "i"
     }
-  ]
+  ],
+  "story_v1": {
+    "title": "The Goat Ate It!",
+    "bgm": "bgm_silly",
+    "panels": [
+      {
+        "id": "scene_u03_1",
+        "desc": "Close, centered view of a grassy corner of the Sound Garden with a wooden fence. In the center foreground a big white goat with small horns and a little beard has its mouth open, and a LARGE glowing golden seed (as big as a plum) is half inside its mouth — gulp! — the seed is the brightest thing in the picture. Bun gasps with both paws on her cheeks, Hedgie points at the goat's mouth in shock, Pip flutters above them with its beak open in surprise. Hidden in the picture: a brown acoustic guitar leaning against the fence, a wooden-handled hammer lying on a tool bench. Far away on a small hill in the background, Grumble sits small with two acorn caps pressed over his ears like earmuffs, eyes squeezed shut; his tiny candle lantern beside him is almost dark.",
+        "hidden": [
+          "goat",
+          "guitar",
+          "hammer"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I see a goat!",
+            "audio": "u03_l1",
+            "ko": "염소가 보여!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The goat ate it!",
+            "audio": "u03_l2",
+            "ko": "염소가 먹어 버렸어!"
+          },
+          {
+            "who": "pip",
+            "text": "Chirp?",
+            "audio": "u03_l3",
+            "ko": "짹?"
+          }
+        ],
+        "video": "vid_u03_1",
+        "ko": "염소가 씨앗을 꿀꺽! 모두 깜짝 놀라요. 언덕 위 그럼블은 도토리 껍질을 귀마개처럼 꼈어요.",
+        "ask": [
+          {
+            "en": "What did the goat eat?",
+            "ko": "염소가 뭘 먹었어?"
+          },
+          {
+            "en": "What is on Grumble's ears?",
+            "ko": "그럼블 귀에 뭐가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Oh no! The goat ate the seed!",
+          "ko": "앗! 염소가 씨앗을 삼켜 버렸어요!",
+          "audio": "scene_u03_1_n"
+        }
+      },
+      {
+        "id": "scene_u03_2",
+        "desc": "Same garden corner. Hedgie kneels and holds out a gift box wrapped in red paper with a yellow ribbon toward the goat; the goat's eyes go wide with delight and a LARGE glowing golden seed (as big as a plum) shoots out of its mouth into the air in the center of the picture with a big burst of sparkles — the seed is the brightest thing in the picture. Beside them Pip tries to say a sound but only hiccups. Pip is HICCUPPING, clearly not happy or smiling: Pip's body jerks up off the ground in a sudden jolt, its eyes are wide open in surprise, its cheeks are puffed out, one wing is pressed over its beak, there are short zig-zag jolt lines around its body and three small round bubbles popping up from its beak. Bun laughs and cups her paws to shout. Hidden in the picture: a brown hen pecking by the fence, a tiny ladybug-like insect on Bun's green boot. Grumble does NOT appear.",
+        "hidden": [
+          "gift",
+          "hen",
+          "insect"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "It is my gift.",
+            "audio": "u03_l4",
+            "ko": "내 선물이야."
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Hic! Hic!",
+            "audio": "u03_l5",
+            "ko": "핍이 해 봐요. 딸꾹! 딸꾹!"
+          },
+          {
+            "who": "bun",
+            "text": "/g/ /g/ goat!",
+            "audio": "u03_l6",
+            "pop": "g",
+            "ko": "g, g 염소!"
+          }
+        ],
+        "ko": "헤지가 선물을 주자 염소가 씨앗을 퉤! 뱉어요. 핍은 g 소리를 내려다 딸꾹질만 해요.",
+        "ask": [
+          {
+            "en": "What does Hedgie give?",
+            "ko": "헤지가 뭘 줬어?"
+          },
+          {
+            "en": "What is Pip doing?",
+            "ko": "핍은 뭘 하고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Hedgie gives a gift. The goat spits out the seed!",
+          "ko": "헤지가 선물을 주자 염소가 씨앗을 퉤! 뱉어요.",
+          "audio": "scene_u03_2_n"
+        }
+      },
+      {
+        "id": "scene_u03_3",
+        "desc": "A muddy puddle at the edge of the garden. A chubby purple-grey hippo lies happily in the mud with a glowing golden seed resting on top of its head. Bun stands on a stepping stone pointing at the hippo; Hedgie holds his nose; Pip hovers over the hippo, glowing. Behind them a new letter tree with goat-, gift- and guitar-shaped fruits has just sprouted. Hidden in the picture: a glass bottle of blue ink with a feather quill on a garden bench. In the back corner, Grumble has crept closer behind a bush: one acorn cap has fallen off his ear, and his lantern now shows a small steady flame.",
+        "hidden": [
+          "hippo",
+          "ink"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "I see a hippo!",
+            "audio": "u03_l7",
+            "ko": "하마가 보여!"
+          },
+          {
+            "who": "bun",
+            "text": "/h/ /h/ hippo!",
+            "audio": "u03_l8",
+            "pop": "h",
+            "ko": "h, h 하마!"
+          },
+          {
+            "who": "both",
+            "text": "H!",
+            "audio": "name_h__both",
+            "sfx": "chime",
+            "ko": "에이치!"
+          }
+        ],
+        "video": "vid_u03_2",
+        "ko": "하마가 진흙탕에 누워 있어요. 머리 위에 씨앗이! 그럼블의 귀마개 하나가 떨어졌어요.",
+        "ask": [
+          {
+            "en": "Where is the hippo?",
+            "ko": "하마는 어디 있어?"
+          },
+          {
+            "en": "Where is the seed?",
+            "ko": "씨앗은 어디 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Another seed is on the hippo's head.",
+          "ko": "하마 머리 위에도 씨앗이 있어요.",
+          "audio": "scene_u03_3_n"
+        }
+      },
+      {
+        "id": "scene_u03_4",
+        "desc": "An icy corner of the garden with frost and a few snowflakes: a white igloo made of snow blocks, a glowing golden seed sitting on top of it. Bun and Hedgie stand before the igloo with arms raised in triumph; three new round leafy fruit trees with round green crowns (NOT shaped like letters, no letters anywhere on them) hung with small goat, gift, hen, hippo, ink and igloo shaped fruits stand behind them. Pip glows brightly. Right next to the igloo, Grumble has popped out of a dirt hole: both acorn caps have fallen to the ground, he presses one paw to his mouth, and his lantern now glows with a small warm light, noticeably brighter than before. Hidden in the picture: a tiny ladybug-like insect sitting on the top of the igloo, an ink bottle on the icy shelf.",
+        "hidden": [
+          "igloo",
+          "insect",
+          "ink"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "It is an igloo!",
+            "audio": "u03_l9",
+            "ko": "이글루야!"
+          },
+          {
+            "who": "bun",
+            "text": "/i/ /i/ igloo!",
+            "audio": "u03_l10",
+            "pop": "i",
+            "ko": "i, i 이글루!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! My ears!",
+            "audio": "u03_l11",
+            "ko": "쉿! 내 귀!"
+          }
+        ],
+        "ko": "얼음 구석 이글루 위에 씨앗이 있어요. G·H·I 나무가 자랐어요. 그럼블의 귀마개가 다 떨어지고 등불이 조금 밝아졌어요.",
+        "ask": [
+          {
+            "en": "What is the white house?",
+            "ko": "하얀 집은 뭐야?"
+          },
+          {
+            "en": "Is the lantern brighter?",
+            "ko": "등불이 더 밝아졌어?"
+          }
+        ],
+        "narr": {
+          "text": "The last seed is on the igloo. Three new trees!",
+          "ko": "이글루 위의 씨앗까지 찾았어요. 새 나무가 세 그루!",
+          "audio": "scene_u03_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "염소가 씨앗을 꿀꺽 삼켰어요! 헤지가 선물을 주자 염소가 씨앗을 뱉었어요. 하마 진흙탕과 이글루에서도 씨앗을 찾았어요. 그럼블은 도토리 귀마개를 꼈지만 소용없었어요.",
+    "so_far_ko": "연못에서 D·E·F 나무를 키우고, 물에 빠진 그럼블을 건져 주었어요.",
+    "goal_ko": "염소가 삼킨 씨앗을 되찾고 G·H·I 나무를 키워요."
+  }
 }

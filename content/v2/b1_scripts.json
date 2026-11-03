@@ -1,0 +1,83 @@
+{
+  "_note": "1권 새 대본(docs/16-script-b1.md)의 그림 프롬프트·대사. build/tmp/v2_gen.py 가 읽어 장면을 만들고 유닛 JSON 에 넣는다. {PIP} {BUN} {HED} {GRUMBLE} 는 캐릭터 설명으로, {cat} 처럼 소문자는 그 단어 그림(참조 시트)과 같은 동물로 바뀐다. who: narrator·bun·hedgie·pip·grumble·both(번+헤지 함께)",
+  "units": {
+    "0": {"title": "The Little Door", "guests": [], "grumble": true, "panels": [
+      {"desc": "{BUN} and {HED} crouch by a low stone garden wall, discovering a small round wooden door at its base; warm sunlight spills through the gap under the door.", "hidden": [], "who": "bun", "text": "A little door!"},
+      {"desc": "The little round door stands open. Inside is a sunny garden with clay flower pots; on one pot sits {PIP}, very small. {BUN} and {HED} peek in through the doorway with delighted faces.", "hidden": [], "who": "hedgie", "text": "Hi, Pip!"},
+      {"desc": "{PIP}, {BUN} and {HED} stand in a circle in the garden waving at each other happily. In the bottom corner, two round eyes peek out of a dark hole in the ground.", "hidden": [], "who": "pip", "text": "Hi, Bun! Hi, Hedgie!"},
+      {"desc": "{GRUMBLE} has climbed out of the hole holding a small lantern, one finger pressed to his lips. {BUN} and {HED} cover their mouths with their paws. Tiny {PIP} stands on the pot with its beak wide open, singing loudly.", "hidden": [], "who": "grumble", "text": "Shh!"}
+    ]},
+    "2": {"title": "The Egg", "guests": ["duck", "frog"], "grumble": true, "panels": [
+      {"desc": "A small garden pond. {duck} sits on a nest at the water's edge on top of one big white egg. {PIP}, {BUN} and {HED} tiptoe closer, watching carefully. A small dog drinks at the far side of the pond; a doll lies in the grass.", "hidden": ["dog", "doll"], "who": "narrator", "text": "The duck is on the egg."},
+      {"desc": "{frog} has hopped up to the nest and pokes the big white egg with one finger. {duck} looks cross. {PIP}, {BUN} and {HED} gasp. A fork and a small bowl sit on a picnic cloth nearby; {GRUMBLE} watches from his hole holding a paper fan.", "hidden": ["fork", "fan"], "who": "bun", "text": "A frog!"},
+      {"desc": "Close view of the nest: the big white egg is wobbling with a crack across it. {duck}, {frog}, {PIP}, {BUN} and {HED} all lean in holding their breath, eyes wide. A tiny elf hat hangs on a bush.", "hidden": ["elf"], "who": "hedgie", "text": "The egg..."},
+      {"desc": "The egg has hatched: a fluffy yellow duckling sits on top of {frog}'s back, hugging it. {frog} looks startled. {duck} smiles. {PIP}, {BUN} and {HED} laugh. A small garden shed door is open in the background.", "hidden": ["exit"], "who": "pip", "text": "The duck is on the frog!"}
+    ]},
+    "3": {"title": "The Gift", "guests": ["goat"], "grumble": false, "panels": [
+      {"desc": "{HED} proudly hugs a big gift box tied with a red ribbon in the garden. {PIP} and {BUN} admire it. A hen pecks by the fence; a hammer leans on the shed wall.", "hidden": ["hen", "hammer"], "who": "hedgie", "text": "My gift!"},
+      {"desc": "{goat} walks up and sniffs the gift box in {HED}'s arms. {HED} looks worried, {BUN} points, {PIP} hides behind {BUN}. A hippo peeks over the pond edge; a small ink bottle sits on a garden table.", "hidden": ["hippo", "ink"], "who": "bun", "text": "A goat!"},
+      {"desc": "{goat} is chewing the ribbon and wrapping paper of the gift box, scraps everywhere. {HED} throws up his paws in dismay. {PIP} and {BUN} gasp. A tiny insect sits on a flower; a small white igloo-shaped dog house stands in the corner.", "hidden": ["insect", "igloo"], "who": "hedgie", "text": "It is my gift!"},
+      {"desc": "The wrapping is gone and a shiny acoustic guitar has appeared. {goat} holds the guitar and strums it happily; {PIP}, {BUN} and {HED} dance around it with big smiles.", "hidden": ["guitar"], "who": "both", "text": "A guitar!"}
+    ]},
+    "4": {"title": "The Key", "guests": ["koala"], "grumble": true, "panels": [
+      {"desc": "A small wooden door in the garden wall has a big brass padlock on it. {PIP}, {BUN} and {HED} stand in front of it, puzzled. A kite flies high in the sky.", "hidden": ["lock", "kite"], "who": "bun", "text": "A lock!"},
+      {"desc": "On a garden table: a glass bowl of wobbly red jelly, and inside the jelly a brass key is visible. {HED} points at it excitedly; {PIP} and {BUN} look. A glass of juice and a lemon sit on the table.", "hidden": ["jelly", "key", "juice", "lemon"], "who": "hedgie", "text": "A key in the jelly!"},
+      {"desc": "{BUN} and {HED} jump high in the air beside the table, pulling the sticky key out of the jelly; jelly wobbles everywhere. {PIP} cheers from the table edge.", "hidden": ["jump"], "who": "pip", "text": "Jump, Bun and Hedgie!"},
+      {"desc": "The little door is open. Inside, {koala} is fast asleep curled up with one sock on its leg. {GRUMBLE} stands beside the door with a finger on his lips; {PIP}, {BUN} and {HED} tiptoe quietly.", "hidden": ["koala", "leg"], "who": "grumble", "text": "Shh! A koala."}
+    ]},
+    "5": {"title": "Pip's Garden Walk", "guests": ["duck", "frog", "goat"], "grumble": false, "panels": [
+      {"desc": "{PIP} walks alone along a garden path under an apple tree with red apples, looking up happily. A yellow bus toy and a bag sit by the path.", "hidden": ["apple", "bus", "bag"], "who": "pip", "text": "I see an apple."},
+      {"desc": "{PIP} stands at the pond edge watching {duck} and {frog} sitting together on a lily pad. An egg and a paper fan lie on the bank.", "hidden": ["duck", "frog", "egg", "fan"], "who": "pip", "text": "I see a duck and a frog."},
+      {"desc": "{goat} runs across the lawn flying a big red kite on a string; {PIP} watches amazed. A gift box, a guitar and a hen are around the lawn.", "hidden": ["goat", "kite", "gift", "guitar", "hen"], "who": "pip", "text": "A goat and a kite!"},
+      {"desc": "{PIP} has grabbed the kite string and is lifted into the sky, flapping; {BUN} and {HED} run below jumping to catch it. A key, a lock and a lemon lie on the grass.", "hidden": ["key", "lock", "lemon"], "who": "bun", "text": "Jump, Pip!"}
+    ]},
+    "6": {"title": "The Moon", "guests": ["otter", "octopus", "monkey"], "grumble": true, "panels": [
+      {"desc": "Night garden under a big full moon. {PIP}, {BUN} and {HED} sit on the pond bank looking up; the moon is reflected in the still water. {monkey} sits on a branch holding a glass of milk.", "hidden": ["moon", "monkey", "milk"], "who": "both", "text": "We like the moon."},
+      {"desc": "{otter} arrives carrying a fishing net on a pole and leans over the pond toward the moon's reflection. {PIP}, {BUN} and {HED} watch curiously. A plate with nine olives sits on the bank.", "hidden": ["otter", "net", "olive", "nine"], "who": "hedgie", "text": "An otter and a net."},
+      {"desc": "{otter} swings the net into the pond; water splashes; something round is caught in the net under the moonlight. {PIP}, {BUN} and {HED} lean forward with open mouths. {GRUMBLE} peeks from his hole with a bandage on his nose.", "hidden": ["nose"], "who": "bun", "text": "The moon is in the net!"},
+      {"desc": "The net is lifted: inside is {octopus} with its eight arms dangling out, blinking. {otter} looks embarrassed. {PIP}, {BUN} and {HED} laugh. The moon still shines above.", "hidden": ["octopus"], "who": "pip", "text": "No! An octopus!"}
+    ]},
+    "7": {"title": "Quack!", "guests": ["duck", "panda"], "grumble": false, "panels": [
+      {"desc": "Rain falls on the garden. {duck} wearing a small golden crown stands dripping wet and sad under the rain. {PIP}, {BUN} and {HED} watch from under a big leaf. A pencil lies on the windowsill of the shed.", "hidden": ["rain", "queen", "pencil"], "who": "hedgie", "text": "Rain on the queen!"},
+      {"desc": "{panda} arrives carrying a big patchwork quilt and wraps it around {duck} who wears the crown. {PIP}, {BUN} and {HED} smile. A flower pot and a bowl of rice sit by the shed.", "hidden": ["panda", "quilt", "pot", "rice"], "who": "narrator", "text": "The queen is in a quilt."},
+      {"desc": "{duck} with the crown, wrapped in the quilt, looks up at {panda} and opens her beak as if asking; {panda} scratches his head shyly. {PIP}, {BUN} and {HED} wait. A toy rocket stands in the grass far away.", "hidden": ["rocket"], "who": "narrator", "text": "Can you quack?"},
+      {"desc": "{panda} opens his mouth wide, quacking; a line of five ducks waddles behind {panda} following him. {duck} with the crown laughs; {PIP}, {BUN} and {HED} cheer. The rain has stopped.", "hidden": ["quack"], "who": "both", "text": "You can quack!"}
+    ]},
+    "8": {"title": "Up, Up, Up!", "guests": ["turtle", "seal"], "grumble": false, "panels": [
+      {"desc": "A bright sunny day with a big round sun. {turtle} walks slowly along the garden path holding a striped umbrella over its head. {PIP}, {BUN} and {HED} watch from the lawn.", "hidden": ["sun", "turtle", "umbrella"], "who": "narrator", "text": "A turtle and an umbrella."},
+      {"desc": "A gust of wind: the umbrella lifts {turtle} off the ground; {turtle} dangles from the umbrella handle, surprised. {PIP}, {BUN} and {HED} point up with open mouths.", "hidden": ["up"], "who": "bun", "text": "Up, up, up!"},
+      {"desc": "{turtle} floats high in the blue sky under the umbrella. Below, {PIP}, {BUN} and {HED} run across the garden chasing it. An old raccoon uncle with a hat sits on a bench watching.", "hidden": ["uncle"], "who": "hedgie", "text": "Go to the turtle!"},
+      {"desc": "{turtle} has landed with a splash inside a huge bowl of tomato soup on a picnic table; {seal} holds a spoon, astonished. A tomato sits beside the bowl. {PIP}, {BUN} and {HED} arrive laughing.", "hidden": ["soup", "seal", "tomato", "tooth"], "who": "pip", "text": "The turtle is in the soup!"}
+    ]},
+    "9": {"title": "The Box Volcano", "guests": ["fox"], "grumble": false, "panels": [
+      {"desc": "{fox} wearing a small blue vest stacks six cardboard boxes into a tall pointed mountain on the lawn. {PIP}, {BUN} and {HED} watch. A sign with a red cross hangs on the shed (a vet sign, no letters).", "hidden": ["fox", "box", "six", "vest", "vet"], "who": "bun", "text": "Look at the fox."},
+      {"desc": "The stacked boxes look like a volcano with a hole at the top. {HED} gasps and points; {PIP} and {BUN} stare up at it.", "hidden": ["volcano"], "who": "hedgie", "text": "A volcano!"},
+      {"desc": "{fox} leans out of the shed window pouring a bucket of water onto the top of the box volcano; water bubbles and foams out of the top. {PIP}, {BUN} and {HED} step back.", "hidden": ["window", "water"], "who": "pip", "text": "Water!"},
+      {"desc": "Six pink worms wriggle out of the top and sides of the wet box volcano. {PIP}, {BUN}, {HED} and {fox} all jump back in surprise.", "hidden": ["worm"], "who": "both", "text": "Look! Six worms!"}
+    ]},
+    "10": {"title": "The Yo-yo", "guests": ["zebra", "yak"], "grumble": false, "panels": [
+      {"desc": "{zebra} proudly shows a red yo-yo on a string to {PIP}, {BUN} and {HED} in the garden.", "hidden": ["zebra", "yo-yo"], "who": "narrator", "text": "This is a yo-yo."},
+      {"desc": "The yo-yo flies off the string in a zigzag path across the lawn (shown as a zigzag motion line); {zebra} reaches after it; {PIP}, {BUN} and {HED} duck.", "hidden": ["zigzag"], "who": "bun", "text": "Zigzag! Zigzag!"},
+      {"desc": "The yo-yo splashes into a big cup of yogurt that {yak} was holding; yogurt splatters all over {yak}'s face. {PIP}, {BUN} and {HED} wince.", "hidden": ["yak", "yogurt"], "who": "hedgie", "text": "Yogurt!"},
+      {"desc": "{PIP} pulls a small towel out of a bag with a big zipper and hands it up to {yak}, whose face is covered in yogurt; {yak} licks its lips happily. {zebra}, {BUN} and {HED} smile.", "hidden": ["zipper"], "who": "pip", "text": "Here, yak."}
+    ]},
+    "11": {"title": "The Garden Party", "guests": ["duck", "panda", "turtle", "fox", "zebra"], "grumble": true, "panels": [
+      {"desc": "The garden decorated with balloons and a long table. {PIP}, {BUN} and {HED} hang a garland. A moon lamp, a net and a glass of milk are on the table.", "hidden": ["moon", "net", "milk"], "who": "both", "text": "We like a party!"},
+      {"desc": "Guests arrive through the little door: {duck} wearing a golden crown, {panda} with a quilt, {turtle}, {fox} and {zebra}. {HED} points at the crowned duck. A toy rocket and a bowl of rice are on the table.", "hidden": ["queen", "quilt", "rocket", "rice"], "who": "hedgie", "text": "Look at the queen!"},
+      {"desc": "Evening, the garden dim. {GRUMBLE} holds up his lantern with a finger on his lips; all the guests go quiet. A dark cake with unlit candles sits on the table under a big umbrella; a sun-shaped lamp is off.", "hidden": ["sun", "umbrella"], "who": "grumble", "text": "Shh! Look here."},
+      {"desc": "{GRUMBLE} lights the candles on the cake with his lantern; everyone cheers with raised arms. A plate of striped candy, a bowl of soup, a box, a yo-yo and a cup of yogurt are on the table.", "hidden": ["candy", "soup", "box", "yo-yo", "yogurt"], "who": "both", "text": "Candy! We like candy!"}
+    ]},
+    "12": {"title": "The Alphabet Show", "guests": ["duck", "panda", "fox", "zebra", "goat"], "grumble": true, "panels": [
+      {"desc": "A small garden stage with a red curtain. {PIP} wears a tiny top hat and stands at the front like a host. {BUN} and {HED} hold the curtain ropes.", "hidden": [], "who": "pip", "text": "The alphabet show!"},
+      {"desc": "On the stage, {BUN}, {HED}, {duck}, {panda}, {fox}, {zebra} and {goat} stand in a line each holding up a blank white card; {PIP} points at them. The cards are plain white with no writing.", "hidden": [], "who": "both", "text": "A, B, C..."},
+      {"desc": "At the end of the line, {GRUMBLE} holds a blank white card but has fallen asleep standing up, eyes closed, mouth open, a little snore bubble. The others look at him.", "hidden": [], "who": "grumble", "text": "Z... z... z..."},
+      {"desc": "All the friends pretend to sleep, eyes closed, copying {GRUMBLE}. {PIP} stands in front with a finger on its beak looking straight at the sleeping {GRUMBLE}.", "hidden": [], "who": "pip", "text": "Shh!"}
+    ]}
+  },
+  "guest_desc": {
+    "duck": "the same white duck as in the reference sheet", "frog": "the same green frog as in the reference sheet", "goat": "the same white goat as in the reference sheet",
+    "koala": "the same grey koala as in the reference sheet", "otter": "the same brown otter as in the reference sheet", "octopus": "the same purple octopus as in the reference sheet",
+    "monkey": "the same brown monkey as in the reference sheet", "panda": "the same black-and-white panda as in the reference sheet", "turtle": "the same green turtle as in the reference sheet",
+    "seal": "the same grey seal as in the reference sheet", "fox": "the same orange fox as in the reference sheet", "zebra": "the same striped zebra as in the reference sheet", "yak": "the same shaggy yak as in the reference sheet"
+  }
+}

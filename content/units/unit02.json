@@ -1,6 +1,6 @@
 {
   "unit": 2,
-  "title": "The Duck Pond",
+  "title": "The Egg",
   "title_ko": "오리 연못",
   "letters": [
     "d",
@@ -10,8 +10,7 @@
   "sight_words": [
     "the",
     "is",
-    "on",
-    "seed"
+    "on"
   ],
   "objectives_ko": [
     "글자 D·E·F의 이름과 소리를 알고 말한다",
@@ -67,11 +66,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -89,176 +83,69 @@
     }
   ],
   "story": {
-    "title": "The Duck Pond",
+    "title": "The Egg",
     "bgm": "bgm_bright",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u02_1",
-        "desc": "A sunny garden pond with lily pads. A big yellow duck floats in the center foreground with a glowing golden seed resting on its back. Bun and Hedgie crouch at the edge of the pond pointing at the duck; Pip flutters above the water, glowing. Hidden in the picture: a small brown puppy sitting on the bank, a rag doll leaning against a watering can. The glowing golden seed is LARGE (about as big as an apple), very bright, and is the clear focal point of the picture.",
+        "desc": "A small garden pond. {duck} sits on a nest at the water's edge on top of one big white egg. {PIP}, {BUN} and {HED} tiptoe closer, watching carefully. A small dog drinks at the far side of the pond; a doll lies in the grass.",
         "hidden": [
-          "duck",
           "dog",
           "doll"
         ],
         "lines": [
           {
-            "who": "bun",
-            "text": "I see the duck!",
-            "audio": "u02_l1",
-            "ko": "오리가 보여!"
-          },
-          {
-            "who": "hedgie",
-            "text": "The seed is on the duck.",
-            "audio": "u02_l2",
-            "ko": "씨앗이 오리 등에 있어."
-          },
-          {
-            "who": "bun",
-            "text": "/d/ /d/ duck!",
-            "audio": "u02_l3",
-            "pop": "d",
-            "ko": "d, d 오리!"
+            "who": "narrator",
+            "text": "The duck is on the egg.",
+            "audio": "u02_l1"
           }
-        ],
-        "video": "vid_u02_1",
-        "ko": "오리가 연못에 떠 있어요. 등에 씨앗이 반짝여요. 번과 헤지가 가리켜요.",
-        "ask": [
-          {
-            "en": "Where is the seed?",
-            "ko": "씨앗은 어디 있어?"
-          },
-          {
-            "en": "What is on the pond?",
-            "ko": "연못에 뭐가 떠 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A seed is on the duck's back.",
-          "ko": "오리 등에 씨앗이 있어요.",
-          "audio": "scene_u02_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u02_2",
-        "desc": "Beside the pond, a hen's nest in the grass holds three white eggs, one of them glowing gold like a seed. Hedgie kneels and gently points at the glowing egg; Bun holds a finger to her lips. Behind them a new letter tree with duck-, dog- and doll-shaped fruits has sprouted. Hidden in the picture: a tiny elf peeking from behind a flower pot, a small green exit-style sign with a running figure on the garden shed door.",
+        "desc": "{frog} has hopped up to the nest and pokes the big white egg with one finger. {duck} looks cross. {PIP}, {BUN} and {HED} gasp. A fork and a small bowl sit on a picnic cloth nearby; {GRUMBLE} watches from his hole holding a paper fan.",
         "hidden": [
-          "egg",
-          "elf",
+          "fork",
+          "fan"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "A frog!",
+            "audio": "u02_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_u02_3",
+        "desc": "Close view of the nest: the big white egg is wobbling with a crack across it. {duck}, {frog}, {PIP}, {BUN} and {HED} all lean in holding their breath, eyes wide. A tiny elf hat hangs on a bush.",
+        "hidden": [
+          "elf"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The egg...",
+            "audio": "u02_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_u02_4",
+        "desc": "The egg has hatched: a fluffy yellow duckling sits on top of {frog}'s back, hugging it. {frog} looks startled. {duck} smiles. {PIP}, {BUN} and {HED} laugh. A small garden shed door is open in the background.",
+        "hidden": [
           "exit"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "The egg is a seed!",
-            "audio": "u02_l4",
-            "ko": "달걀이 씨앗이야!"
-          },
-          {
-            "who": "bun",
-            "text": "/e/ /e/ egg!",
-            "audio": "u02_l5",
-            "pop": "e",
-            "ko": "e, e 달걀!"
+            "who": "pip",
+            "text": "The duck is on the frog!",
+            "audio": "u02_l4"
           }
-        ],
-        "ko": "둥지 속 알 하나가 금빛으로 빛나요. 그 알이 씨앗이에요!",
-        "ask": [
-          {
-            "en": "How many eggs?",
-            "ko": "알이 몇 개야?"
-          },
-          {
-            "en": "Which egg is the seed?",
-            "ko": "어느 알이 씨앗이야?"
-          }
-        ],
-        "narr": {
-          "text": "One egg in the nest is gold. It is a seed!",
-          "ko": "둥지 속 알 하나가 금빛이에요. 그게 씨앗이에요!",
-          "audio": "scene_u02_2_n"
-        }
-      },
-      {
-        "id": "scene_u02_3",
-        "desc": "A green frog sits on a lily pad with a glowing seed on its head. Grumble the raccoon has tiptoed to the very edge of the pond with his lantern and is wobbling, about to fall into the water, arms flailing; Bun and Hedgie reach out to grab him; Pip looks alarmed. Hidden in the picture: a small blue electric fan on a garden table, a silver fork stuck in a picnic basket.",
-        "hidden": [
-          "frog",
-          "fan",
-          "fork"
-        ],
-        "lines": [
-          {
-            "who": "grumble",
-            "text": "Shh! Oh no!",
-            "audio": "u02_l6",
-            "ko": "쉿! 어어!"
-          },
-          {
-            "who": "both",
-            "text": "The frog! /f/ /f/ frog!",
-            "audio": "u02_l7",
-            "pop": "f",
-            "ko": "개구리! f, f 개구리!"
-          }
-        ],
-        "video": "vid_u02_2",
-        "ko": "개구리 머리에 씨앗이 있어요. 그럼블이 살금살금 오다가 연못가에서 휘청! 친구들이 붙잡아요.",
-        "ask": [
-          {
-            "en": "Who is wobbling?",
-            "ko": "누가 휘청거려?"
-          },
-          {
-            "en": "What is on the frog's head?",
-            "ko": "개구리 머리에 뭐가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Grumble sneaks up... and slips into the pond!",
-          "ko": "그럼블이 살금살금 다가오다가… 연못에 미끄러져요!",
-          "audio": "scene_u02_3_n"
-        }
-      },
-      {
-        "id": "scene_u02_4",
-        "desc": "Bun and Hedgie have pulled Grumble out of the pond; he is dripping wet, wrapped in a towel, looking embarrassed but secretly pleased. Pip offers him a leaf as an umbrella. Three new round leafy fruit trees with round green crowns (NOT shaped like letters, no letters anywhere on them) hung with duck-, egg- and frog-shaped fruits stand by the pond behind them.",
-        "hidden": [],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "The raccoon is wet!",
-            "audio": "u02_l8",
-            "ko": "너구리가 흠뻑 젖었어!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... Thank you.",
-            "audio": "u02_l9",
-            "ko": "쉿… 고마워."
-          }
-        ],
-        "ko": "친구들이 흠뻑 젖은 그럼블을 건져 주었어요. 그럼블이 작게 \"고마워\" 해요. 핍이 나뭇잎 우산을 줘요.",
-        "ask": [
-          {
-            "en": "Is Grumble wet or dry?",
-            "ko": "그럼블은 젖었어, 말랐어?"
-          },
-          {
-            "en": "What does Pip give him?",
-            "ko": "핍이 뭘 줬어?"
-          }
-        ],
-        "narr": {
-          "text": "The friends pull wet Grumble out of the pond.",
-          "ko": "친구들이 흠뻑 젖은 그럼블을 건져 줘요.",
-          "audio": "scene_u02_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "오리 연못에 씨앗이 있어요. 오리 등, 둥지 속 알, 개구리 머리 위에요. 그럼블이 몰래 다가오다 연못에 풍덩! 친구들이 건져 주었어요.",
-    "so_far_ko": "친구들이 A·B·C 나무를 키웠어요. 너구리 그럼블이 \"쉿!\" 하고 나타났어요.",
-    "goal_ko": "연못에서 씨앗 세 개를 찾아 D·E·F 나무를 키워요."
+    ]
   },
   "videos": [
     {
@@ -586,5 +473,177 @@
       "w": "fun",
       "l": "f"
     }
-  ]
+  ],
+  "story_v1": {
+    "title": "The Duck Pond",
+    "bgm": "bgm_bright",
+    "panels": [
+      {
+        "id": "scene_u02_1",
+        "desc": "A sunny garden pond with lily pads. A big yellow duck floats in the center foreground with a glowing golden seed resting on its back. Bun and Hedgie crouch at the edge of the pond pointing at the duck; Pip flutters above the water, glowing. Hidden in the picture: a small brown puppy sitting on the bank, a rag doll leaning against a watering can. The glowing golden seed is LARGE (about as big as an apple), very bright, and is the clear focal point of the picture.",
+        "hidden": [
+          "duck",
+          "dog",
+          "doll"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I see the duck!",
+            "audio": "u02_l1",
+            "ko": "오리가 보여!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The seed is on the duck.",
+            "audio": "u02_l2",
+            "ko": "씨앗이 오리 등에 있어."
+          },
+          {
+            "who": "bun",
+            "text": "/d/ /d/ duck!",
+            "audio": "u02_l3",
+            "pop": "d",
+            "ko": "d, d 오리!"
+          }
+        ],
+        "video": "vid_u02_1",
+        "ko": "오리가 연못에 떠 있어요. 등에 씨앗이 반짝여요. 번과 헤지가 가리켜요.",
+        "ask": [
+          {
+            "en": "Where is the seed?",
+            "ko": "씨앗은 어디 있어?"
+          },
+          {
+            "en": "What is on the pond?",
+            "ko": "연못에 뭐가 떠 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A seed is on the duck's back.",
+          "ko": "오리 등에 씨앗이 있어요.",
+          "audio": "scene_u02_1_n"
+        }
+      },
+      {
+        "id": "scene_u02_2",
+        "desc": "Beside the pond, a hen's nest in the grass holds three white eggs, one of them glowing gold like a seed. Hedgie kneels and gently points at the glowing egg; Bun holds a finger to her lips. Behind them a new letter tree with duck-, dog- and doll-shaped fruits has sprouted. Hidden in the picture: a tiny elf peeking from behind a flower pot, a small green exit-style sign with a running figure on the garden shed door.",
+        "hidden": [
+          "egg",
+          "elf",
+          "exit"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The egg is a seed!",
+            "audio": "u02_l4",
+            "ko": "달걀이 씨앗이야!"
+          },
+          {
+            "who": "bun",
+            "text": "/e/ /e/ egg!",
+            "audio": "u02_l5",
+            "pop": "e",
+            "ko": "e, e 달걀!"
+          }
+        ],
+        "ko": "둥지 속 알 하나가 금빛으로 빛나요. 그 알이 씨앗이에요!",
+        "ask": [
+          {
+            "en": "How many eggs?",
+            "ko": "알이 몇 개야?"
+          },
+          {
+            "en": "Which egg is the seed?",
+            "ko": "어느 알이 씨앗이야?"
+          }
+        ],
+        "narr": {
+          "text": "One egg in the nest is gold. It is a seed!",
+          "ko": "둥지 속 알 하나가 금빛이에요. 그게 씨앗이에요!",
+          "audio": "scene_u02_2_n"
+        }
+      },
+      {
+        "id": "scene_u02_3",
+        "desc": "A green frog sits on a lily pad with a glowing seed on its head. Grumble the raccoon has tiptoed to the very edge of the pond with his lantern and is wobbling, about to fall into the water, arms flailing; Bun and Hedgie reach out to grab him; Pip looks alarmed. Hidden in the picture: a small blue electric fan on a garden table, a silver fork stuck in a picnic basket.",
+        "hidden": [
+          "frog",
+          "fan",
+          "fork"
+        ],
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh! Oh no!",
+            "audio": "u02_l6",
+            "ko": "쉿! 어어!"
+          },
+          {
+            "who": "both",
+            "text": "The frog! /f/ /f/ frog!",
+            "audio": "u02_l7",
+            "pop": "f",
+            "ko": "개구리! f, f 개구리!"
+          }
+        ],
+        "video": "vid_u02_2",
+        "ko": "개구리 머리에 씨앗이 있어요. 그럼블이 살금살금 오다가 연못가에서 휘청! 친구들이 붙잡아요.",
+        "ask": [
+          {
+            "en": "Who is wobbling?",
+            "ko": "누가 휘청거려?"
+          },
+          {
+            "en": "What is on the frog's head?",
+            "ko": "개구리 머리에 뭐가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Grumble sneaks up... and slips into the pond!",
+          "ko": "그럼블이 살금살금 다가오다가… 연못에 미끄러져요!",
+          "audio": "scene_u02_3_n"
+        }
+      },
+      {
+        "id": "scene_u02_4",
+        "desc": "Bun and Hedgie have pulled Grumble out of the pond; he is dripping wet, wrapped in a towel, looking embarrassed but secretly pleased. Pip offers him a leaf as an umbrella. Three new round leafy fruit trees with round green crowns (NOT shaped like letters, no letters anywhere on them) hung with duck-, egg- and frog-shaped fruits stand by the pond behind them.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The raccoon is wet!",
+            "audio": "u02_l8",
+            "ko": "너구리가 흠뻑 젖었어!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Thank you.",
+            "audio": "u02_l9",
+            "ko": "쉿… 고마워."
+          }
+        ],
+        "ko": "친구들이 흠뻑 젖은 그럼블을 건져 주었어요. 그럼블이 작게 \"고마워\" 해요. 핍이 나뭇잎 우산을 줘요.",
+        "ask": [
+          {
+            "en": "Is Grumble wet or dry?",
+            "ko": "그럼블은 젖었어, 말랐어?"
+          },
+          {
+            "en": "What does Pip give him?",
+            "ko": "핍이 뭘 줬어?"
+          }
+        ],
+        "narr": {
+          "text": "The friends pull wet Grumble out of the pond.",
+          "ko": "친구들이 흠뻑 젖은 그럼블을 건져 줘요.",
+          "audio": "scene_u02_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "오리 연못에 씨앗이 있어요. 오리 등, 둥지 속 알, 개구리 머리 위에요. 그럼블이 몰래 다가오다 연못에 풍덩! 친구들이 건져 주었어요.",
+    "so_far_ko": "친구들이 A·B·C 나무를 키웠어요. 너구리 그럼블이 \"쉿!\" 하고 나타났어요.",
+    "goal_ko": "연못에서 씨앗 세 개를 찾아 D·E·F 나무를 키워요."
+  }
 }

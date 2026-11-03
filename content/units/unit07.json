@@ -1,6 +1,6 @@
 {
   "unit": 7,
-  "title": "The Queen's Quilt",
+  "title": "Quack!",
   "title_ko": "여왕의 이불",
   "letters": [
     "p",
@@ -65,11 +65,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -87,199 +82,72 @@
     }
   ],
   "story": {
-    "title": "The Queen's Quilt",
+    "title": "Quack!",
     "bgm": "bgm_silly",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u07_1",
-        "desc": "A cozy corner of the night garden at dawn, pale pink sky. On a garden bed lies a big lump covered by a colorful patchwork quilt — the friends think the garden queen is sleeping there. Beside it, a black-and-white panda sits drawing with a yellow pencil, and a red cooking pot full of pencils stands next to it with a glowing golden seed inside. Hedgie whispers and points at the panda; Pip is trying to say a sound, but a single round soap bubble floats out of its open beak and it stares at it cross-eyed. Bun covers her mouth laughing. Hidden in the picture: the pencil, the panda, the pot. The lump under the quilt is really Grumble: only his two slippers poke out from under the quilt edge, and a bright warm lantern glow shines through the fabric from inside. (The queen is a white swan with a small golden crown — an animal, not a human.)",
+        "desc": "Rain falls on the garden. {duck} wearing a small golden crown stands dripping wet and sad under the rain. {PIP}, {BUN} and {HED} watch from under a big leaf. A pencil lies on the windowsill of the shed.",
         "hidden": [
-          "pencil",
-          "panda",
-          "pot"
+          "rain",
+          "queen",
+          "pencil"
         ],
         "lines": [
           {
             "who": "hedgie",
-            "text": "Can you see the panda?",
-            "audio": "u07_l1",
-            "ko": "판다 보여?"
-          },
-          {
-            "who": "narrator",
-            "text": "Pip tries. Pop! A bubble!",
-            "audio": "u07_l2",
-            "ko": "핍이 해 봐요. 퐁! 비눗방울!"
-          },
-          {
-            "who": "bun",
-            "text": "/p/ /p/ panda!",
-            "audio": "u07_l3",
-            "pop": "p",
-            "ko": "p, p 판다!"
+            "text": "Rain on the queen!",
+            "audio": "u07_l1"
           }
-        ],
-        "video": "vid_u07_1",
-        "ko": "이불 덮인 덩어리가 자고 있어요(사실은 그럼블!). 판다가 연필로 그림을 그려요. 핍은 p 대신 비눗방울을 불어요.",
-        "ask": [
-          {
-            "en": "What is the panda doing?",
-            "ko": "판다는 뭘 하고 있어?"
-          },
-          {
-            "en": "What comes out of Pip's beak?",
-            "ko": "핍 부리에서 뭐가 나왔어?"
-          }
-        ],
-        "narr": {
-          "text": "Someone sleeps under a quilt. A panda draws.",
-          "ko": "이불 속에서 누가 자고 있어요. 판다는 그림을 그려요.",
-          "audio": "scene_u07_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u07_2",
-        "desc": "Bun has lifted the patchwork quilt by one corner — and underneath is not the queen but Grumble, curled up with his lantern, blinking in surprise with his nightcap over one eye; his lantern glows bright. A yellow duck beside the bed quacks loudly at him with its beak wide open. Across the lawn, the real garden queen — a kind queen swan with a golden crown and a purple robe — sits awake on a throne of flowers holding a glowing golden seed and giggling. Hedgie gasps; Pip glows. Behind them the new P letter tree with pencil-, panda- and pot-shaped fruits. Hidden in the picture: the queen, the quilt, the quacking duck. (The queen is a white swan with a small golden crown — an animal, not a human.)",
+        "desc": "{panda} arrives carrying a big patchwork quilt and wraps it around {duck} who wears the crown. {PIP}, {BUN} and {HED} smile. A flower pot and a bowl of rice sit by the shed.",
         "hidden": [
-          "queen",
+          "panda",
           "quilt",
-          "quack"
-        ],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "Can you see the queen?",
-            "audio": "u07_l4",
-            "ko": "여왕님 보여?"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! It is my quilt!",
-            "audio": "u07_l5",
-            "ko": "쉿! 내 이불이야!"
-          },
-          {
-            "who": "hedgie",
-            "text": "/kw/ /kw/ quilt!",
-            "audio": "u07_l6",
-            "pop": "q",
-            "ko": "q, q 누비이불!"
-          }
-        ],
-        "ko": "이불을 들추니 그럼블! 오리가 꽥 소리쳐요. 진짜 여왕 백조는 꽃 왕좌에서 깔깔 웃어요.",
-        "ask": [
-          {
-            "en": "Who is under the quilt?",
-            "ko": "이불 밑에 누가 있어?"
-          },
-          {
-            "en": "Where is the queen?",
-            "ko": "여왕님은 어디 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Under the quilt is Grumble! The swan queen laughs.",
-          "ko": "이불 속은 그럼블이었어요! 백조 여왕이 깔깔 웃어요.",
-          "audio": "scene_u07_2_n"
-        }
-      },
-      {
-        "id": "scene_u07_3",
-        "desc": "Rain begins to fall from a grey cloud over the garden. A red-and-white toy rocket stands on a little launch pad with a glowing golden seed on its tip; blue raindrops bounce off it. Bun holds a big leaf over her head; Hedgie points at the rocket; Pip glows under Bun's leaf. Hidden in the picture: the rocket, the rain cloud, a bowl of steaming white rice on the picnic table under a lid. Grumble sits under the picnic table with the quilt wrapped around him like a cape, holding his lantern, which glows bright and steady in the rain.",
-        "hidden": [
-          "rocket",
-          "rain",
+          "pot",
           "rice"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "Rain! Can you see the rocket?",
-            "audio": "u07_l7",
-            "ko": "비다! 로켓 보여?"
-          },
-          {
-            "who": "bun",
-            "text": "/r/ /r/ rocket!",
-            "audio": "u07_l8",
-            "pop": "r",
-            "ko": "r, r 로켓!"
-          },
-          {
-            "who": "both",
-            "text": "R!",
-            "audio": "name_r__both",
-            "sfx": "chime",
-            "ko": "알!"
+            "who": "narrator",
+            "text": "The queen is in a quilt.",
+            "audio": "u07_l2"
           }
-        ],
-        "video": "vid_u07_2",
-        "ko": "비가 와요. 로켓 꼭대기에 씨앗이 있어요. 그럼블은 탁자 밑에서 이불을 망토처럼 두르고 있어요.",
-        "ask": [
-          {
-            "en": "What is the weather?",
-            "ko": "날씨가 어때?"
-          },
-          {
-            "en": "Where is Grumble?",
-            "ko": "그럼블은 어디 있어?"
-          }
-        ],
-        "narr": {
-          "text": "It rains. A seed is on top of the rocket.",
-          "ko": "비가 와요. 로켓 꼭대기에 씨앗이 있어요.",
-          "audio": "scene_u07_3_n"
-        }
+        ]
       },
       {
-        "id": "scene_u07_4",
-        "desc": "The rocket blasts up through the rain cloud with a trail of flames and the cloud breaks apart, letting pale morning light through. Three new letter trees (P with pencil, panda and pot fruits; Q with queen, quilt and quack fruits; R with rocket, rain and rice fruits) stand in a row. The queen waves from her flower throne. Bun and Hedgie cheer; Pip glows brightly. Grumble stands beside the trees still wearing the quilt as a cape, hugging it, with a shy hopeful look; his lantern glows bright. Hidden in the picture: the quilt cape, the rocket in the sky. (The queen is a white swan with a small golden crown — an animal, not a human.)",
+        "id": "scene_u07_3",
+        "desc": "{duck} with the crown, wrapped in the quilt, looks up at {panda} and opens her beak as if asking; {panda} scratches his head shyly. {PIP}, {BUN} and {HED} wait. A toy rocket stands in the grass far away.",
         "hidden": [
-          "quilt",
           "rocket"
         ],
         "lines": [
           {
+            "who": "narrator",
+            "text": "Can you quack?",
+            "audio": "u07_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_u07_4",
+        "desc": "{panda} opens his mouth wide, quacking; a line of five ducks waddles behind {panda} following him. {duck} with the crown laughs; {PIP}, {BUN} and {HED} cheer. The rain has stopped.",
+        "hidden": [
+          "quack"
+        ],
+        "lines": [
+          {
             "who": "both",
-            "text": "P! Q! R!",
-            "audio": "u07_l9",
-            "sfx": "chime",
-            "ko": "피! 큐! 알!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... Can I keep it?",
-            "audio": "u07_l10",
-            "ko": "쉿… 이거 가져도 돼?"
-          },
-          {
-            "who": "hedgie",
-            "text": "You can!",
-            "audio": "u07_l11",
-            "ko": "그래, 가져!"
+            "text": "You can quack!",
+            "audio": "u07_l4"
           }
-        ],
-        "ko": "로켓이 구름을 뚫고 날아가요. P·Q·R 나무가 섰어요. 그럼블이 \"이불 가져도 돼?\" 하고 물어요.",
-        "ask": [
-          {
-            "en": "Where does the rocket go?",
-            "ko": "로켓은 어디로 가?"
-          },
-          {
-            "en": "What does Grumble want?",
-            "ko": "그럼블은 뭘 갖고 싶어 해?"
-          }
-        ],
-        "narr": {
-          "text": "The rocket flies up. Grumble wants to keep the quilt.",
-          "ko": "로켓이 날아올라요. 그럼블은 이불을 갖고 싶어 해요.",
-          "audio": "scene_u07_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "이불 덩어리가 여왕님인 줄 알았는데 그럼블이었어요! 진짜 여왕님은 백조예요. 판다가 연필로 그림을 그리고, 빗속에 로켓이 날아요. 그럼블은 이불을 망토처럼 둘렀어요.",
-    "so_far_ko": "밤 정원에서 M·N·O 나무를 키웠어요. 그럼블은 화분에 숨었다가 들켰어요.",
-    "goal_ko": "여왕의 이불과 로켓에서 씨앗을 찾아 P·Q·R 나무를 키워요."
+    ]
   },
   "videos": [
     {
@@ -607,5 +475,200 @@
       "w": "rat",
       "l": "r"
     }
-  ]
+  ],
+  "story_v1": {
+    "title": "The Queen's Quilt",
+    "bgm": "bgm_silly",
+    "panels": [
+      {
+        "id": "scene_u07_1",
+        "desc": "A cozy corner of the night garden at dawn, pale pink sky. On a garden bed lies a big lump covered by a colorful patchwork quilt — the friends think the garden queen is sleeping there. Beside it, a black-and-white panda sits drawing with a yellow pencil, and a red cooking pot full of pencils stands next to it with a glowing golden seed inside. Hedgie whispers and points at the panda; Pip is trying to say a sound, but a single round soap bubble floats out of its open beak and it stares at it cross-eyed. Bun covers her mouth laughing. Hidden in the picture: the pencil, the panda, the pot. The lump under the quilt is really Grumble: only his two slippers poke out from under the quilt edge, and a bright warm lantern glow shines through the fabric from inside. (The queen is a white swan with a small golden crown — an animal, not a human.)",
+        "hidden": [
+          "pencil",
+          "panda",
+          "pot"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Can you see the panda?",
+            "audio": "u07_l1",
+            "ko": "판다 보여?"
+          },
+          {
+            "who": "narrator",
+            "text": "Pip tries. Pop! A bubble!",
+            "audio": "u07_l2",
+            "ko": "핍이 해 봐요. 퐁! 비눗방울!"
+          },
+          {
+            "who": "bun",
+            "text": "/p/ /p/ panda!",
+            "audio": "u07_l3",
+            "pop": "p",
+            "ko": "p, p 판다!"
+          }
+        ],
+        "video": "vid_u07_1",
+        "ko": "이불 덮인 덩어리가 자고 있어요(사실은 그럼블!). 판다가 연필로 그림을 그려요. 핍은 p 대신 비눗방울을 불어요.",
+        "ask": [
+          {
+            "en": "What is the panda doing?",
+            "ko": "판다는 뭘 하고 있어?"
+          },
+          {
+            "en": "What comes out of Pip's beak?",
+            "ko": "핍 부리에서 뭐가 나왔어?"
+          }
+        ],
+        "narr": {
+          "text": "Someone sleeps under a quilt. A panda draws.",
+          "ko": "이불 속에서 누가 자고 있어요. 판다는 그림을 그려요.",
+          "audio": "scene_u07_1_n"
+        }
+      },
+      {
+        "id": "scene_u07_2",
+        "desc": "Bun has lifted the patchwork quilt by one corner — and underneath is not the queen but Grumble, curled up with his lantern, blinking in surprise with his nightcap over one eye; his lantern glows bright. A yellow duck beside the bed quacks loudly at him with its beak wide open. Across the lawn, the real garden queen — a kind queen swan with a golden crown and a purple robe — sits awake on a throne of flowers holding a glowing golden seed and giggling. Hedgie gasps; Pip glows. Behind them the new P letter tree with pencil-, panda- and pot-shaped fruits. Hidden in the picture: the queen, the quilt, the quacking duck. (The queen is a white swan with a small golden crown — an animal, not a human.)",
+        "hidden": [
+          "queen",
+          "quilt",
+          "quack"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Can you see the queen?",
+            "audio": "u07_l4",
+            "ko": "여왕님 보여?"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my quilt!",
+            "audio": "u07_l5",
+            "ko": "쉿! 내 이불이야!"
+          },
+          {
+            "who": "hedgie",
+            "text": "/kw/ /kw/ quilt!",
+            "audio": "u07_l6",
+            "pop": "q",
+            "ko": "q, q 누비이불!"
+          }
+        ],
+        "ko": "이불을 들추니 그럼블! 오리가 꽥 소리쳐요. 진짜 여왕 백조는 꽃 왕좌에서 깔깔 웃어요.",
+        "ask": [
+          {
+            "en": "Who is under the quilt?",
+            "ko": "이불 밑에 누가 있어?"
+          },
+          {
+            "en": "Where is the queen?",
+            "ko": "여왕님은 어디 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Under the quilt is Grumble! The swan queen laughs.",
+          "ko": "이불 속은 그럼블이었어요! 백조 여왕이 깔깔 웃어요.",
+          "audio": "scene_u07_2_n"
+        }
+      },
+      {
+        "id": "scene_u07_3",
+        "desc": "Rain begins to fall from a grey cloud over the garden. A red-and-white toy rocket stands on a little launch pad with a glowing golden seed on its tip; blue raindrops bounce off it. Bun holds a big leaf over her head; Hedgie points at the rocket; Pip glows under Bun's leaf. Hidden in the picture: the rocket, the rain cloud, a bowl of steaming white rice on the picnic table under a lid. Grumble sits under the picnic table with the quilt wrapped around him like a cape, holding his lantern, which glows bright and steady in the rain.",
+        "hidden": [
+          "rocket",
+          "rain",
+          "rice"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Rain! Can you see the rocket?",
+            "audio": "u07_l7",
+            "ko": "비다! 로켓 보여?"
+          },
+          {
+            "who": "bun",
+            "text": "/r/ /r/ rocket!",
+            "audio": "u07_l8",
+            "pop": "r",
+            "ko": "r, r 로켓!"
+          },
+          {
+            "who": "both",
+            "text": "R!",
+            "audio": "name_r__both",
+            "sfx": "chime",
+            "ko": "알!"
+          }
+        ],
+        "video": "vid_u07_2",
+        "ko": "비가 와요. 로켓 꼭대기에 씨앗이 있어요. 그럼블은 탁자 밑에서 이불을 망토처럼 두르고 있어요.",
+        "ask": [
+          {
+            "en": "What is the weather?",
+            "ko": "날씨가 어때?"
+          },
+          {
+            "en": "Where is Grumble?",
+            "ko": "그럼블은 어디 있어?"
+          }
+        ],
+        "narr": {
+          "text": "It rains. A seed is on top of the rocket.",
+          "ko": "비가 와요. 로켓 꼭대기에 씨앗이 있어요.",
+          "audio": "scene_u07_3_n"
+        }
+      },
+      {
+        "id": "scene_u07_4",
+        "desc": "The rocket blasts up through the rain cloud with a trail of flames and the cloud breaks apart, letting pale morning light through. Three new letter trees (P with pencil, panda and pot fruits; Q with queen, quilt and quack fruits; R with rocket, rain and rice fruits) stand in a row. The queen waves from her flower throne. Bun and Hedgie cheer; Pip glows brightly. Grumble stands beside the trees still wearing the quilt as a cape, hugging it, with a shy hopeful look; his lantern glows bright. Hidden in the picture: the quilt cape, the rocket in the sky. (The queen is a white swan with a small golden crown — an animal, not a human.)",
+        "hidden": [
+          "quilt",
+          "rocket"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "P! Q! R!",
+            "audio": "u07_l9",
+            "sfx": "chime",
+            "ko": "피! 큐! 알!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Can I keep it?",
+            "audio": "u07_l10",
+            "ko": "쉿… 이거 가져도 돼?"
+          },
+          {
+            "who": "hedgie",
+            "text": "You can!",
+            "audio": "u07_l11",
+            "ko": "그래, 가져!"
+          }
+        ],
+        "ko": "로켓이 구름을 뚫고 날아가요. P·Q·R 나무가 섰어요. 그럼블이 \"이불 가져도 돼?\" 하고 물어요.",
+        "ask": [
+          {
+            "en": "Where does the rocket go?",
+            "ko": "로켓은 어디로 가?"
+          },
+          {
+            "en": "What does Grumble want?",
+            "ko": "그럼블은 뭘 갖고 싶어 해?"
+          }
+        ],
+        "narr": {
+          "text": "The rocket flies up. Grumble wants to keep the quilt.",
+          "ko": "로켓이 날아올라요. 그럼블은 이불을 갖고 싶어 해요.",
+          "audio": "scene_u07_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "이불 덩어리가 여왕님인 줄 알았는데 그럼블이었어요! 진짜 여왕님은 백조예요. 판다가 연필로 그림을 그리고, 빗속에 로켓이 날아요. 그럼블은 이불을 망토처럼 둘렀어요.",
+    "so_far_ko": "밤 정원에서 M·N·O 나무를 키웠어요. 그럼블은 화분에 숨었다가 들켰어요.",
+    "goal_ko": "여왕의 이불과 로켓에서 씨앗을 찾아 P·Q·R 나무를 키워요."
+  }
 }

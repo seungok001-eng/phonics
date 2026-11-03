@@ -33,82 +33,57 @@
   "story": {
     "title": "The Little Door",
     "bgm": "bgm_adventure",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u00_1",
-        "desc": "Behind an old wooden school garden shed, a brave little white rabbit in green rain boots and a careful little hedgehog crouch in the grass, discovering a tiny round wooden door at the base of the shed wall, half hidden by ivy. Afternoon light, butterflies.",
+        "desc": "{BUN} and {HED} crouch by a low stone garden wall, discovering a small round wooden door at its base; warm sunlight spills through the gap under the door.",
         "hidden": [],
         "lines": [
           {
-            "who": "narrator",
-            "text": "Bun and Hedgie find a little door.",
-            "audio": "u00_l1",
-            "ko": "번과 헤지가 작은 문을 찾았어요."
+            "who": "bun",
+            "text": "A little door!",
+            "audio": "u00_l1"
           }
-        ],
-        "video": "vid_u00_1",
-        "ko": "번이 담쟁이를 걷자 창고 벽 아래 작은 둥근 문이 나왔어요. 헤지는 조심조심 들여다봐요.",
-        "ask": [
-          {
-            "en": "Who is this?",
-            "ko": "이건 누구야?"
-          },
-          {
-            "en": "What do they find?",
-            "ko": "무엇을 찾았어?"
-          }
-        ],
-        "narr": {
-          "text": "Bun finds a little round door behind the shed.",
-          "ko": "번이 창고 뒤에서 작은 둥근 문을 찾았어요.",
-          "audio": "scene_u00_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u00_2",
-        "desc": "Through the open little door: a magical sunny garden with a long winding row of twenty-six empty clay flower pots and a tiny round yellow baby bird with a green leaf scarf sitting sadly on a pot with its beak closed and a single tear. The rabbit and the hedgehog peek in from the doorway, amazed.",
+        "desc": "The little round door stands open. Inside is a sunny garden with clay flower pots; on one pot sits {PIP}, very small. {BUN} and {HED} peek in through the doorway with delighted faces.",
         "hidden": [],
         "lines": [
           {
-            "who": "narrator",
-            "text": "This is the Sound Garden.",
-            "audio": "u00_l2",
-            "ko": "여기는 소리 정원이에요."
-          },
-          {
-            "who": "narrator",
-            "text": "This is Pip. Pip cannot sing.",
-            "audio": "u00_l3",
-            "ko": "얘는 핍이에요. 핍은 노래를 못 해요."
-          },
-          {
-            "who": "narrator",
-            "text": "Let's help Pip!",
-            "audio": "u00_l4",
-            "ko": "핍을 도와줘요!"
+            "who": "hedgie",
+            "text": "Hi, Pip!",
+            "audio": "u00_l2"
           }
-        ],
-        "ko": "문 너머에 빈 화분이 줄지어 있어요. 첫 화분 위에서 핍이 눈물을 흘려요. 핍은 노래를 못 해요.",
-        "ask": [
+        ]
+      },
+      {
+        "id": "scene_u00_3",
+        "desc": "{PIP}, {BUN} and {HED} stand in a circle in the garden waving at each other happily. In the bottom corner, two round eyes peek out of a dark hole in the ground.",
+        "hidden": [],
+        "lines": [
           {
-            "en": "Where is Pip?",
-            "ko": "핍은 어디 있어?"
-          },
-          {
-            "en": "Is Pip happy or sad?",
-            "ko": "핍은 기쁠까, 슬플까?"
+            "who": "pip",
+            "text": "Hi, Bun! Hi, Hedgie!",
+            "audio": "u00_l3"
           }
-        ],
-        "narr": {
-          "text": "Inside is a garden of empty pots. Pip is sad.",
-          "ko": "문 안은 빈 화분뿐인 정원이에요. 노래를 잃은 핍이 울고 있어요.",
-          "audio": "scene_u00_2_n"
-        }
+        ]
+      },
+      {
+        "id": "scene_u00_4",
+        "desc": "{GRUMBLE} has climbed out of the hole holding a small lantern, one finger pressed to his lips. {BUN} and {HED} cover their mouths with their paws. Tiny {PIP} stands on the pot with its beak wide open, singing loudly.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh!",
+            "audio": "u00_l4"
+          }
+        ]
       }
-    ],
-    "synopsis_ko": "번과 헤지가 학교 창고 뒤에서 작은 문을 찾았어요. 문 너머는 소리 정원! 빈 화분 스물여섯 개와 노래를 잃은 아기 새 핍이 있었어요.",
-    "so_far_ko": "이야기의 시작이에요.",
-    "goal_ko": "소리 정원에 들어가 핍을 만나요."
+    ]
   },
   "videos": [
     {
@@ -185,5 +160,85 @@
         }
       }
     ]
+  },
+  "story_v1": {
+    "title": "The Little Door",
+    "bgm": "bgm_adventure",
+    "panels": [
+      {
+        "id": "scene_u00_1",
+        "desc": "Behind an old wooden school garden shed, a brave little white rabbit in green rain boots and a careful little hedgehog crouch in the grass, discovering a tiny round wooden door at the base of the shed wall, half hidden by ivy. Afternoon light, butterflies.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Bun and Hedgie find a little door.",
+            "audio": "u00_l1",
+            "ko": "번과 헤지가 작은 문을 찾았어요."
+          }
+        ],
+        "video": "vid_u00_1",
+        "ko": "번이 담쟁이를 걷자 창고 벽 아래 작은 둥근 문이 나왔어요. 헤지는 조심조심 들여다봐요.",
+        "ask": [
+          {
+            "en": "Who is this?",
+            "ko": "이건 누구야?"
+          },
+          {
+            "en": "What do they find?",
+            "ko": "무엇을 찾았어?"
+          }
+        ],
+        "narr": {
+          "text": "Bun finds a little round door behind the shed.",
+          "ko": "번이 창고 뒤에서 작은 둥근 문을 찾았어요.",
+          "audio": "scene_u00_1_n"
+        }
+      },
+      {
+        "id": "scene_u00_2",
+        "desc": "Through the open little door: a magical sunny garden with a long winding row of twenty-six empty clay flower pots and a tiny round yellow baby bird with a green leaf scarf sitting sadly on a pot with its beak closed and a single tear. The rabbit and the hedgehog peek in from the doorway, amazed.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is the Sound Garden.",
+            "audio": "u00_l2",
+            "ko": "여기는 소리 정원이에요."
+          },
+          {
+            "who": "narrator",
+            "text": "This is Pip. Pip cannot sing.",
+            "audio": "u00_l3",
+            "ko": "얘는 핍이에요. 핍은 노래를 못 해요."
+          },
+          {
+            "who": "narrator",
+            "text": "Let's help Pip!",
+            "audio": "u00_l4",
+            "ko": "핍을 도와줘요!"
+          }
+        ],
+        "ko": "문 너머에 빈 화분이 줄지어 있어요. 첫 화분 위에서 핍이 눈물을 흘려요. 핍은 노래를 못 해요.",
+        "ask": [
+          {
+            "en": "Where is Pip?",
+            "ko": "핍은 어디 있어?"
+          },
+          {
+            "en": "Is Pip happy or sad?",
+            "ko": "핍은 기쁠까, 슬플까?"
+          }
+        ],
+        "narr": {
+          "text": "Inside is a garden of empty pots. Pip is sad.",
+          "ko": "문 안은 빈 화분뿐인 정원이에요. 노래를 잃은 핍이 울고 있어요.",
+          "audio": "scene_u00_2_n"
+        }
+      }
+    ],
+    "synopsis_ko": "번과 헤지가 학교 창고 뒤에서 작은 문을 찾았어요. 문 너머는 소리 정원! 빈 화분 스물여섯 개와 노래를 잃은 아기 새 핍이 있었어요.",
+    "so_far_ko": "이야기의 시작이에요.",
+    "goal_ko": "소리 정원에 들어가 핍을 만나요."
   }
 }
