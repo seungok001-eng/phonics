@@ -17,13 +17,15 @@
   },
   "pip": {
     "engine": "elevenlabs",
-    "voice_id": "EeQEodFZVtBkjtgK3HBc",
-    "name": "Piku"
+    "voice_id": "ocZQ262SsZb9RIxcQBOj",
+    "name": "Lulu Lolipop",
+    "pitch": 1.0
   },
   "bun": {
     "engine": "elevenlabs",
-    "voice_id": "FgiNpTIapnCbaD6xiqIo",
-    "name": "Sunny"
+    "voice_id": "XJ2fW4ybq7HouelYYGcL",
+    "name": "Cherry Twinkle",
+    "pitch": 1.0
   },
   "hedgie": {
     "engine": "elevenlabs",
@@ -32,8 +34,9 @@
   },
   "grumble": {
     "engine": "elevenlabs",
-    "voice_id": "s2wvuS7SwITYg8dqsJdn",
-    "name": "Antonio"
+    "voice_id": "GFj5Qf6cNQ3Lgp8VKBwc",
+    "name": "Olivier D - Old man for cartoon & animation",
+    "pitch": 1.0
   },
   "beads": {
     "engine": "elevenlabs",
@@ -50,14 +53,15 @@
     "engine": "elevenlabs",
     "voices": [
       {
-        "name": "Chutki",
-        "voice_id": "Jr72SE8p9OcJmr8hyX0D"
+        "name": "PP Candy - Young and Sweet",
+        "voice_id": "Nggzl2QAXh3OijoXD116"
       },
       {
-        "name": "Candy",
-        "voice_id": "Nggzl2QAXh3OijoXD116"
+        "name": "Fena",
+        "voice_id": "BlgEcC0TfWpBak7FmvHW"
       }
-    ]
+    ],
+    "pitch": 1.0
   },
   "fairy": {
     "engine": "elevenlabs",
