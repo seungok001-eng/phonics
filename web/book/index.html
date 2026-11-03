@@ -20,7 +20,7 @@
   <button class="primary" onclick="mainPlay()" title="스페이스">🔊 Play</button>
   <span class="teacher-only" id="zoomBox"><button onclick="zoomBy(-0.15)" title="교재 작게 (단축키 -)">🔍−</button><button onclick="zoomSet(1)" title="화면 높이에 맞춤 (단축키 0)" id="zoomLabel">맞춤</button><button onclick="zoomBy(0.15)" title="교재 크게 (단축키 +)">🔍+</button><span class="split"><button onclick="setSplit('full')" data-split="full" title="교재만 (필기판 숨김)">교재만</button><button onclick="setSplit(0.7)" data-split="0.7" title="교재 크게">7:3</button><button onclick="setSplit(0.5)" data-split="0.5" title="반반">5:5</button><button onclick="setSplit(0.3)" data-split="0.3" title="필기판 크게">3:7</button><button onclick="toggleSide()" id="btnSide" title="필기판 옆/아래">◨</button></span><button onclick="toggleCover()" id="btnCover" title="교재 가리개 (단축키 C)">🙈</button><button onclick="toggleSlides()" title="수업 슬라이드(16:9) ↔ 교재 쪽 그대로">📐</button></span>
   <button onclick="toggleTeacher()" id="btnTeacher" title="선생님 모드: 글자·단추가 커지고 전체화면">👩‍🏫</button>
-  <button class="teacher-only" onclick="Sound.unlock();stopSeq();Sound.music('theme')" title="주제가 (Pop! Phonics theme)">♪ 주제가</button>
+  <button class="teacher-only" onclick="Sound.unlock();stopSeq();Sound.music('theme');lyricsShow('theme')" title="주제가 (Pop! Phonics theme) — 가사 창도 함께 뜹니다">♪ 주제가</button>
   <button onclick="toggleFull()" title="전체화면">⛶</button>
   <a class="btn" id="lnkPrint" href="#" target="_blank" title="인쇄용">🖨</a>
 </div>

@@ -275,6 +275,7 @@ def main():
             jobs = [('LessonPlans', f'{tb}/lesson-plan.html?{bq}u=all', '수업안 — 전 유닛 (0~12유닛, 차시마다 흐름·시간·숙제)', bk),
                     ('Pronunciation', f'{tb}/pronunciation.html?bk={bk}', '선생님용 소리 안내 — 우리말 비슷한 소리·입 모양·흔한 실수', bk)]
             if bk == 1: jobs.append(('HowTo', f'{tb}/how-to.html', '수업 화면 사용법 · 학급 운영 (1~4권 공통)', 0))
+            if bk == 1: jobs.append(('Lyrics', f'{tb}/lyrics.html', "노래 가사 — 주제가 · 알파벳 노래 · Pip's Song (영어 + 우리말)", 0))
             for name, url, label, b in jobs:
                 out = os.path.join(out_dir, f'{pre}_{name}.pdf' if b else f'PopPhonics_{name}.pdf')
                 print_pdf(exe, url, out, budget=60000)

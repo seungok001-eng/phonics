@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pop! Phonics — 노래 가사</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+  /* 노래 가사 쪽: 주제가·알파벳 노래·Pip's Song (content/songs.json). 화면에서 ▶ 로 듣고, 인쇄하면 아이들 나눠 주는 가사지 */
+  :root { --ink:#3B2F2F; --soft:#8C7B6B; --line:#E8DCC6; --orange:#F28C38; --cream:#FFF9EE; --blue:#4DA3E0; }
+  body { font-family: 'Andika', sans-serif; color: var(--ink); background: var(--cream); margin: 0; padding: 24px; }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  h1 { font-family: 'Fredoka'; color: var(--orange); margin: 0 0 4px; }
+  .sub { color: var(--soft); margin-bottom: 18px; }
+  .song { background: #fff; border: 2px solid var(--line); border-radius: 18px; padding: 18px 24px; margin: 0 0 18px; break-inside: avoid; }
+  .song h2 { font-family: 'Fredoka'; margin: 0; font-size: 26px; display: flex; align-items: center; gap: 10px; }
+  .song h2 .ko { font-size: 15px; color: var(--soft); font-weight: 400; }
+  .where { color: var(--soft); font-size: 14px; margin: 2px 0 10px; }
+  .sec { margin: 8px 0 12px; }
+  .name { font-family: 'Fredoka'; color: var(--orange); font-size: 14px; }
+  .line { font-size: 22px; line-height: 1.35; }
+  .line .ko { font-size: 13px; color: var(--soft); margin-left: 10px; }
+  button { background: var(--blue); color: #fff; border: 0; border-radius: 12px; padding: 6px 14px; font-family: 'Fredoka'; font-size: 16px; cursor: pointer; }
+  .tools { margin-bottom: 14px; display: flex; gap: 8px; align-items: center; }
+  .tools label { font-size: 14px; color: var(--soft); }
+  @media print { body { background: #fff; padding: 0; } .print-hide { display: none; } .song { border-color: #ccc; } }
+  body:not(.ko) .line .ko { display: none; }
+</style>
+</head>
+<body class="ko">
+<div class="wrap">
+  <h1>♪ 노래 가사 · Song Lyrics</h1>
+  <div class="sub">주제가 · 알파벳 노래 · Pip's Song — 수업 화면에서는 각 노래 단추 옆 📜 Lyrics 로 같은 가사가 뜹니다. 인쇄해서 아이들에게 나눠 주세요.</div>
+  <div class="tools print-hide"><label><input type="checkbox" id="koChk" checked onchange="document.body.classList.toggle('ko', this.checked)"> 우리말 뜻 보이기</label><button onclick="window.print()">🖨 인쇄</button><button id="stop" onclick="stopAll()">⏹</button></div>
+  <div id="out">불러오는 중…</div>
+</div>
+<script>
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+let cur = null;
+function stopAll() { if (cur) { cur.pause(); cur = null; } }
+function play(file) { stopAll(); cur = new Audio('../assets/music/' + file + '.mp3'); cur.play().catch(() => {}); }
+(async () => {
+  let songs = null;
+  for (const b of ['../content/', '../../content/']) { try { const r = await fetch(b + 'songs.json', { cache: 'no-store' }); if (r.ok) { songs = await r.json(); break; } } catch (e) { /* 다음 후보 */ } }
+  if (!songs) { document.getElementById('out').textContent = 'songs.json 을 읽지 못했어요'; return; }
+  document.getElementById('out').innerHTML = Object.values(songs).map((sg) => `<div class="song"><h2>♪ ${esc(sg.title)} <span class="ko">${esc(sg.title_ko)}</span> <button class="print-hide" onclick="play('${esc(sg.file)}')">▶ 듣기</button></h2><div class="where">${esc(sg.where_ko)}</div>${sg.sections.map((s) => `<div class="sec"><div class="name">${esc(s.name)}</div>${s.lines.map((l) => `<div class="line">${esc(l.en)}${l.ko ? `<span class="ko">${esc(l.ko)}</span>` : ''}</div>`).join('')}</div>`).join('')}</div>`).join('');
+})();
+</script>
+</body>
+</html>

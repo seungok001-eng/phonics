@@ -133,3 +133,5 @@ Suno 에서 **Instrumental 켜기**. 스타일 칸에 아래 문장, 제목은 �
 
 ## 알파벳 노래 교체 (2026-11-03)
 - 사용자 선택: `build/abc/abc_kpop_bounce.mp3`(K-pop 풍 신나는, 128 BPM, A~Z 두 번, "Hey! Pop! Phonics! A to Z, sing with me!") → `abc_song.mp3`(68초). 후보 만들기는 `build/tmp/abc_variants.py`.
+- Pip's Song 도 사용자 선택으로 **K-pop 풍**(`build/pip/pip_kpop.mp3`, 2번째 뽑기가 검사 통과, 71.5초) → `pip_song.mp3`. 줄 시각 글자 줄 2.4초 간격, 마무리 63.6·66.0·68.3. 로큰롤·펑키는 줄 빠짐/단어 틀림, 팝+박수는 파일 깨짐.
+- **가사**: `content/songs.json`(주제가·알파벳 노래·Pip's Song, 영어 + 우리말). 수업 화면에서 노래 단추 옆 📜 Lyrics(pages.js `lyricsShow`, ♪ 주제가 단추는 가사 창이 같이 뜸), 선생님 자료 `web/teacher/lyrics.html`(듣기·인쇄) → `PopPhonics_Lyrics.pdf`.

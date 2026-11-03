@@ -467,7 +467,7 @@ PAGES.characters = (ctx) => {
 PAGES.intro_story = (ctx) => PAGES.story({ ...ctx, page: { ...ctx.page, half: 1 } });
 PAGES.alphabet = (ctx) => {
   const lts = Object.keys(App.book.letters).map((l) => `<div class="lt say ${letterCls(l)}" data-say="name_${l}" data-text="${l.toUpperCase()}" data-l="${l}">${l.toUpperCase()}<small>${l}</small></div>`).join('');
-  return instr('', 'The Alphabet Song', '알파벳 노래를 듣고 따라 불러요') + `<div class="print-hide" style="display:flex;gap:10px"><button class="btn orange main-play" onclick="abcSong()">♪ ABC Song</button><button class="btn" onclick="abcSong(true)">A–Z names</button></div><div class="abc">${lts}</div>`;
+  return instr('', 'The Alphabet Song', '알파벳 노래를 듣고 따라 불러요') + `<div class="print-hide" style="display:flex;gap:10px"><button class="btn orange main-play" onclick="abcSong()">♪ ABC Song</button><button class="btn blue" onclick="lyricsShow('abc_song')">📜 Lyrics</button><button class="btn" onclick="abcSong(true)">A–Z names</button></div><div class="abc">${lts}</div>`;
 };
 async function abcSong(namesOnly) {
   Sound.unlock();
@@ -709,7 +709,7 @@ function songLines(unit, big) {
 PAGES.alphabet_song = (ctx) => {
   const sg = ctx.unit.show.song;
   return instr(1, `♪ ${sg.title}`, '글자 카드와 가사를 보며 노래해요. 줄을 누르면 그 줄만 나와요', '글자 카드와 가사를 보며 노래해요') +
-    `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="songPlay()">▶ Sing!</button><button class="btn small" onclick="stopSeq();chantTrackOff()">⏹</button></div>` +
+    `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="songPlay()">▶ Sing!</button><button class="btn small" onclick="stopSeq();chantTrackOff()">⏹</button>${sg.track ? `<button class="btn blue small" onclick="lyricsShow('${esc(sg.track)}')">📜 Lyrics</button>` : ''}</div>` +
     `<div class="song ${B2() ? 'words' : 'abc'}">${songLines(ctx.unit)}</div>`;   // abc = 알파벳 노래(26줄 뒤 마무리 줄은 가운데)
 };
 // 전체 부르기: 진짜 노래 파일(track + 줄 시각 times)이 있으면 그것(12유닛 Pip's Song). 없으면 반주(music/<bgm>.mp3, 없으면 song_backing) 위에 줄마다 소리, 그것도 없으면 1.2초 박자로 이어 붙인다. 줄과 글자 카드에 차례로 불
@@ -1152,3 +1152,14 @@ async function magicTap(row) {
   return playSeq([{ id: 'word_' + to, text: to, el: row.querySelector('.me-pic.to'), gap: 300 }]);
 }
 async function magicAll() { const rows = [...document.querySelectorAll('.me-row')]; rows.forEach((r) => r.classList.remove('magic')); for (const r of rows) { if (!(await magicTap(r))) return; await sleep(500); } }
+
+// ---------- 노래 가사 창 (content/songs.json: 주제가·알파벳 노래·Pip's Song — 음악 파일로 된 노래. 아이들·선생님이 가사를 보며 부르게) ----------
+let SONGS = null;
+async function lyricsShow(id) {
+  if (!SONGS) SONGS = (await loadJSON('songs.json', true)) || {};
+  const sg = SONGS[id]; if (!sg) { toast('가사가 없어요'); return; }
+  lyricsHide();
+  const secs = sg.sections.map((s) => `<div class="ly-sec"><div class="ly-name">${esc(s.name)}</div>${s.lines.map((l) => `<div class="ly-line">${esc(l.en)}${l.ko ? `<small class="ko">${esc(l.ko)}</small>` : ''}</div>`).join('')}</div>`).join('');
+  document.body.insertAdjacentHTML('beforeend', `<div class="lyrics print-hide" id="lyrics"><div class="ly-card"><div class="ly-head"><b>♪ ${esc(sg.title)}</b><span class="ko">${esc(sg.title_ko)}</span><button class="btn small" onclick="Sound.unlock();stopSeq();Sound.music('${esc(sg.file)}')">▶</button><button class="btn small" onclick="stopSeq()">⏹</button><button class="btn small" onclick="koToggle()">우리말</button><button class="btn small ly-x" onclick="lyricsHide()">✕</button></div><div class="ly-body">${secs}</div></div></div>`);
+}
+function lyricsHide() { document.getElementById('lyrics')?.remove(); }

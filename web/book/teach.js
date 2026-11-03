@@ -339,7 +339,7 @@ TEACH.alphabet = {
   render: (ctx) => {
     const lts = Object.keys(App.book.letters).map((l) => `<div class="lt say ${letterCls(l)}" data-say="name_${l}" data-text="${l.toUpperCase()}" data-l="${l}">${l.toUpperCase()}<small>${l}</small></div>`).join('');
     return tWrap(ctx, 'The Alphabet Song', '선생님이 ♪ ABC Song 을 누르면 다 같이 노래해요. A–Z names 는 글자에 불이 들어오며 이름을 차례로. 글자를 누르면 그 글자 이름', 0, 1,
-      `<div class="sl-tools"><button class="btn orange big main-play" onclick="abcSong()">♪ ABC Song</button><button class="btn big" onclick="abcSong(true)">A–Z names</button></div><div class="abc sl-abc">${lts}</div>`);
+      `<div class="sl-tools"><button class="btn orange big main-play" onclick="abcSong()">♪ ABC Song</button><button class="btn big" onclick="abcSong(true)">A–Z names</button><button class="btn big blue" onclick="lyricsShow('abc_song')">📜 Lyrics</button></div><div class="abc sl-abc">${lts}</div>`);
   },
 };
 // 친구들 소개: 한 장
@@ -416,7 +416,7 @@ function setupPinch(pw) {
 TEACH.alphabet_song = {
   count: () => 1,
   render: (ctx) => tWrap(ctx, `♪ ${ctx.unit.show.song.title}`, '선생님이 ▶ 를 누르면 처음부터 끝까지, 줄을 누르면 그 줄만. 아이들은 자기 책 가사를 보며 다 같이 불러요', 0, 1,
-    `<div class="sl-tools"><button class="btn orange big main-play" onclick="songPlay()">▶ Sing!</button><button class="btn big" onclick="stopSeq();chantTrackOff()">⏹</button></div><div class="song sl-song ${B2() ? 'words' : 'abc'}">${songLines(ctx.unit, true)}</div>`),
+    `<div class="sl-tools"><button class="btn orange big main-play" onclick="songPlay()">▶ Sing!</button><button class="btn big" onclick="stopSeq();chantTrackOff()">⏹</button>${ctx.unit.show.song.track ? `<button class="btn big blue" onclick="lyricsShow('${esc(ctx.unit.show.song.track)}')">📜 Lyrics</button>` : ''}</div><div class="song sl-song ${B2() ? 'words' : 'abc'}">${songLines(ctx.unit, true)}</div>`),
 };
 TEACH.word_hunt = {
   count: (ctx) => ctx.unit.show.hunt.rounds.length,

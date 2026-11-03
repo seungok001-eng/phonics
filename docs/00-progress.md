@@ -12,6 +12,7 @@
   - 애매한 단어 그림 8장 다시(vet·quack·up·leg·nose·insect·water·uncle, 선 그림도): 제미나이 그림 점검에서 vet·up·insect·water·nose·leg 는 통과. quack(오리)·uncle(아빠)은 그림만으로는 안 되는 단어라 `book.json` `pic_hard: true` → 시험지(test.html)의 그림만 보고 답하는 문항(첫소리 고르기·첫 글자 쓰기·단어 완성·단어 쓰기)에서 뺀다. 잇기·읽고 고르기엔 나온다.
   - 단어 카드 사람 vs 이야기 동물: **사람 카드 유지**(단어 뜻을 배우는 카드. 이야기의 백조 여왕·토끼 삼촌·올빼미 수의사는 캐릭터).
   - 소리 잡기: 모음 있는 유닛(2·3·6·8)은 4번째 라운드를 모음으로 → 모음 2라운드. 정리 A 1번 정답 자리 유닛마다 다르게(c·d·h·l·m·q·u·x·z), 10유닛은 보기 x·y·z.
+  - 노래 가사(사용자: 아이들·선생님이 보게): `content/songs.json` + 수업 화면 📜 Lyrics 창(주제가 단추에도) + `teacher/lyrics.html`·PDF. Pip's Song 은 사용자가 K-pop 풍을 골라 교체(11-03).
   - 12유닛 Pip's Song: 일레븐랩스로 진짜 노래(`music/pip_song.mp3`, 72초, 100 BPM, 가사 "A, a, a-a-apple!" 식 29줄, 제미나이 받아쓰기로 글자 26개·단어 확인). `show.song.track`·`times`(줄 시작 초) → ▶ Sing! 은 노래를 틀며 줄을 비춤, 줄 누르기는 전처럼 TTS. 후보 비교 `build/pip/compare.html`.
   - 재녹음 판단: 6유닛 "Who is under the quilt?"·5유닛 "Say the letter names" 는 **그대로**(모든 유닛 스토리북 끝 줄이 다음 유닛 예고 — 7유닛 첫 장면이 이불 밑 덩어리; 5유닛은 복습이라 글자 이름 "I! J! K! L!" 로 모자가 벗겨지는 설정).
   - **그럼블 "Shh!"**(사용자: "샤으쓰"처럼 들림): 일레븐랩스가 Shh 를 단어처럼 읽는다 → 공방이 대사 속 Shh 를 깨끗한 쉿 소리(`audio-src/shh.wav`, 제미나이 Charon "Shh!" 에서 잘라 0.6초)로 끼워 붙이게 고치고(server.py `HUSH_RE`), 1권 그럼블 대사 25개 다시 만들어 넣음. 2~4권 77개는 2~4권 작업 때 같이.

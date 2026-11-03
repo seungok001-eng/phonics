@@ -1,0 +1,336 @@
+{
+ "theme": {
+  "title": "Pop! Phonics Song",
+  "title_ko": "주제가",
+  "file": "theme",
+  "where_ko": "수업 시작·끝, 수업 화면 위 막대 ♪ 주제가",
+  "sections": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     {
+      "en": "Open the little door, come and see,",
+      "ko": "작은 문을 열고 와서 봐요,"
+     },
+     {
+      "en": "A garden of sounds for you and me!",
+      "ko": "너와 나를 위한 소리의 정원!"
+     },
+     {
+      "en": "Pip lost a song and cannot sing,",
+      "ko": "핍은 노래를 잃어 부를 수 없어요,"
+     },
+     {
+      "en": "Let's find the sounds in everything!",
+      "ko": "모든 것에서 소리를 찾아요!"
+     }
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     {
+      "en": "Pop! Pop! Phonics! Say it loud!",
+      "ko": "팝! 팝! 파닉스! 크게 말해요!"
+     },
+     {
+      "en": "Letters make sounds, so sing it proud!",
+      "ko": "글자는 소리를 내요, 자신 있게 불러요!"
+     },
+     {
+      "en": "Pop! Pop! Phonics! One, two, three,",
+      "ko": "팝! 팝! 파닉스! 하나, 둘, 셋,"
+     },
+     {
+      "en": "Read with Pip and Bun and me!",
+      "ko": "핍이랑 번이랑 나랑 같이 읽어요!"
+     }
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     {
+      "en": "Bun says \"Let's try!\" and Hedgie says \"Wow!\"",
+      "ko": "번은 \"해 보자!\", 헤지는 \"우와!\""
+     },
+     {
+      "en": "Grumble says \"Shh!\" but he's smiling now!",
+      "ko": "그럼블은 \"쉿!\" 하지만 이제 웃고 있어요!"
+     },
+     {
+      "en": "Seeds go pop and the trees grow tall,",
+      "ko": "씨앗이 펑 터지고 나무가 쑥쑥 자라요,"
+     },
+     {
+      "en": "Sounds and words for one and all!",
+      "ko": "모두를 위한 소리와 단어!"
+     }
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     {
+      "en": "Pop! Pop! Phonics! Say it loud!",
+      "ko": "팝! 팝! 파닉스! 크게 말해요!"
+     },
+     {
+      "en": "Letters make sounds, so sing it proud!",
+      "ko": "글자는 소리를 내요, 자신 있게 불러요!"
+     },
+     {
+      "en": "Pop! Pop! Phonics! One, two, three,",
+      "ko": "팝! 팝! 파닉스! 하나, 둘, 셋,"
+     },
+     {
+      "en": "Read with Pip and Bun and me!",
+      "ko": "핍이랑 번이랑 나랑 같이 읽어요!"
+     }
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     {
+      "en": "Pop! Pop! Phonics! Pop!",
+      "ko": "팝! 팝! 파닉스! 팝!"
+     }
+    ]
+   }
+  ]
+ },
+ "abc_song": {
+  "title": "ABC Song",
+  "title_ko": "알파벳 노래",
+  "file": "abc_song",
+  "where_ko": "0유닛 The Alphabet Song 쪽 (♪ ABC Song)",
+  "sections": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     {
+      "en": "A, B, C, D, E, F, G,",
+      "ko": ""
+     },
+     {
+      "en": "H, I, J, K, L, M, N, O, P,",
+      "ko": ""
+     },
+     {
+      "en": "Q, R, S, T, U, V,",
+      "ko": ""
+     },
+     {
+      "en": "W, X, Y and Z!",
+      "ko": ""
+     }
+    ]
+   },
+   {
+    "name": "Chorus",
+    "lines": [
+     {
+      "en": "Hey! Pop! Phonics!",
+      "ko": "헤이! 팝! 파닉스!"
+     },
+     {
+      "en": "A to Z, sing with me!",
+      "ko": "A부터 Z까지, 나랑 같이 불러요!"
+     },
+     {
+      "en": "Hey! Pop! Phonics!",
+      "ko": "헤이! 팝! 파닉스!"
+     },
+     {
+      "en": "Now I know my ABC!",
+      "ko": "이제 나는 ABC를 알아요!"
+     }
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     {
+      "en": "A, B, C, D, E, F, G,",
+      "ko": ""
+     },
+     {
+      "en": "H, I, J, K, L, M, N, O, P,",
+      "ko": ""
+     },
+     {
+      "en": "Q, R, S, T, U, V,",
+      "ko": ""
+     },
+     {
+      "en": "W, X, Y and Z!",
+      "ko": ""
+     }
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     {
+      "en": "Hey! Pop! Phonics!",
+      "ko": "헤이! 팝! 파닉스!"
+     },
+     {
+      "en": "Now I know my ABC!",
+      "ko": "이제 나는 ABC를 알아요!"
+     }
+    ]
+   }
+  ]
+ },
+ "pip_song": {
+  "title": "Pip's Song",
+  "title_ko": "핍의 노래 (12유닛 쇼)",
+  "file": "pip_song",
+  "where_ko": "12유닛 Pip's Song 쪽 (▶ Sing!). 교재의 /a/ 는 노래에서 a-a-apple 로 불러요",
+  "sections": [
+   {
+    "name": "Verse 1",
+    "lines": [
+     {
+      "en": "A, a, a-a-apple!",
+      "ko": "A, a, a-a-사과"
+     },
+     {
+      "en": "B, b, b-b-bus!",
+      "ko": "B, b, b-b-버스"
+     },
+     {
+      "en": "C, c, k-k-cat!",
+      "ko": "C, c, k-k-고양이"
+     },
+     {
+      "en": "D, d, d-d-dog!",
+      "ko": "D, d, d-d-개"
+     },
+     {
+      "en": "E, e, e-e-egg!",
+      "ko": "E, e, e-e-달걀"
+     },
+     {
+      "en": "F, f, f-f-fan!",
+      "ko": "F, f, f-f-선풍기"
+     },
+     {
+      "en": "G, g, g-g-goat!",
+      "ko": "G, g, g-g-염소"
+     }
+    ]
+   },
+   {
+    "name": "Verse 2",
+    "lines": [
+     {
+      "en": "H, h, h-h-hen!",
+      "ko": "H, h, h-h-암탉"
+     },
+     {
+      "en": "I, i, i-i-ink!",
+      "ko": "I, i, i-i-잉크"
+     },
+     {
+      "en": "J, j, j-j-jelly!",
+      "ko": "J, j, j-j-젤리"
+     },
+     {
+      "en": "K, k, k-k-key!",
+      "ko": "K, k, k-k-열쇠"
+     },
+     {
+      "en": "L, l, l-l-lemon!",
+      "ko": "L, l, l-l-레몬"
+     },
+     {
+      "en": "M, m, m-m-milk!",
+      "ko": "M, m, m-m-우유"
+     },
+     {
+      "en": "N, n, n-n-nose!",
+      "ko": "N, n, n-n-코"
+     }
+    ]
+   },
+   {
+    "name": "Verse 3",
+    "lines": [
+     {
+      "en": "O, o, o-o-otter!",
+      "ko": "O, o, o-o-수달"
+     },
+     {
+      "en": "P, p, p-p-pencil!",
+      "ko": "P, p, p-p-연필"
+     },
+     {
+      "en": "Q, q, qu-qu-queen!",
+      "ko": "Q, q, qu-qu-여왕"
+     },
+     {
+      "en": "R, r, r-r-rocket!",
+      "ko": "R, r, r-r-로켓"
+     },
+     {
+      "en": "S, s, s-s-sun!",
+      "ko": "S, s, s-s-해"
+     },
+     {
+      "en": "T, t, t-t-turtle!",
+      "ko": "T, t, t-t-거북이"
+     },
+     {
+      "en": "U, u, u-u-umbrella!",
+      "ko": "U, u, u-u-우산"
+     }
+    ]
+   },
+   {
+    "name": "Verse 4",
+    "lines": [
+     {
+      "en": "V, v, v-v-vet!",
+      "ko": "V, v, v-v-수의사"
+     },
+     {
+      "en": "W, w, w-w-window!",
+      "ko": "W, w, w-w-창문"
+     },
+     {
+      "en": "X, x, ks-ks-six!",
+      "ko": "X, x, ks-ks-여섯"
+     },
+     {
+      "en": "Y, y, y-y-yogurt!",
+      "ko": "Y, y, y-y-요거트"
+     },
+     {
+      "en": "Z, z, z-z-zebra!",
+      "ko": "Z, z, z-z-얼룩말"
+     }
+    ]
+   },
+   {
+    "name": "Outro",
+    "lines": [
+     {
+      "en": "A to Z, we can sing!",
+      "ko": "A부터 Z까지, 우린 부를 수 있어요!"
+     },
+     {
+      "en": "Pip can sing! La la la!",
+      "ko": "핍이 노래해요! 라라라!"
+     },
+     {
+      "en": "La la la! Pip's song!",
+      "ko": "라라라! 핍의 노래!"
+     }
+    ]
+   }
+  ]
+ }
+}
