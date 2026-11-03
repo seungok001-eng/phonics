@@ -5,6 +5,7 @@
 <title>Pop! Phonics — 웹 교재</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="v2.css">
 <link rel="stylesheet" href="teach.css">
 </head>
 <body>
@@ -78,8 +79,7 @@ async function route() {
 }
 function renderPage(ctx) {
   const fn = PAGES[ctx.page.type] || (() => `<p>모르는 쪽 종류: ${ctx.page.type}</p>`);
-  const no = pageNo(ctx.b, ctx.u, ctx.p);
-  return `<article class="page ${ctx.b} t-${ctx.page.type}"><div class="ph-head"><span class="unit">Unit ${ctx.u}</span><h2>${esc(ctx.unit.title)}</h2>${lettersBadge(ctx.unit)}</div><div class="body">${fn(ctx)}</div><div class="ph-foot"><span>${ctx.b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${ctx.page.lesson.n} · ${esc(ctx.page.title)}</span><span class="pno">${no}</span></div></article>`;
+  return frameHtml(ctx, fn(ctx), pageNo(ctx.b, ctx.u, ctx.p));
 }
 function pageDims() { return App.teacher && View.slides ? [SLIDE_W, slideH()] : [794, 1123]; }
 function go(d) {

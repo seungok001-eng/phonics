@@ -5,7 +5,38 @@ const PAGES = {};
 // 지시문: ko = 화면 안내, paper = 종이(인쇄·정답지)에서 보일 안내 (없으면 ko). 종이에는 누르는 기호(▶ 🔊 🔀)를 빼고 보인다
 function instr(n, text, ko, paper) {
   if (PRINT) ko = String(paper ?? ko ?? '').replace(/[▶🔊🔀]️?\s*/gu, '');
-  return `<div class="instr">${n ? `<span class="n">${n}</span>` : ''}<span>${esc(text)}</span>${ko ? `<span class="ko">${esc(ko)}</span>` : ''}</div>`;
+  return `<div class="instr"><span class="ico">${ICONS[instrIcon(text)]}</span>${n ? `<span class="n">${n}</span>` : ''}<span>${esc(text)}</span>${ko ? `<span class="ko">${esc(ko)}</span>` : ''}</div>`;
+}
+// v2 디자인(docs/15-design.md): 지시문 아이콘, 유닛 색, 쪽 틀(유닛 탭·배경 블롭·쪽 번호 동그라미)
+const ICONS = {
+  listen: '<svg viewBox="0 0 24 24"><path d="M6 11a6 6 0 0 1 12 0c0 3-2 4-3 6-.6 1.2-1.2 3-3 3"/><path d="M9.5 11a2.5 2.5 0 0 1 5 0"/></svg>',
+  say: '<svg viewBox="0 0 24 24"><path d="M4 5h16v10H10l-5 4v-4H4z"/><path d="M8 10h8"/></svg>',
+  write: '<svg viewBox="0 0 24 24"><path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M13 7l3 3"/></svg>',
+  look: '<svg viewBox="0 0 24 24"><path d="M2 12s4-6 10-6 10 6 10 6-4 6-10 6S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>',
+  circle: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" stroke-dasharray="4 3"/></svg>',
+  match: '<svg viewBox="0 0 24 24"><circle cx="5" cy="7" r="2"/><circle cx="19" cy="17" r="2"/><path d="M7 7c6 0 4 10 10 10"/></svg>',
+  find: '<svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="M15 15l6 6"/></svg>',
+  point: '<svg viewBox="0 0 24 24"><path d="M9 11V4a2 2 0 0 1 4 0v7"/><path d="M13 10a2 2 0 0 1 4 0v2a2 2 0 0 1 4 0v3a7 7 0 0 1-7 7h-1a6 6 0 0 1-6-6v-5a2 2 0 0 1 4 0"/></svg>',
+  play: '<svg viewBox="0 0 24 24"><path d="M7 5l12 7-12 7z"/></svg>',
+};
+function instrIcon(text) { const t = String(text).toLowerCase(); if (/listen/.test(t)) return 'listen'; if (/trace|write/.test(t)) return 'write'; if (/circle/.test(t)) return 'circle'; if (/match/.test(t)) return 'match'; if (/find/.test(t)) return 'find'; if (/point/.test(t)) return 'point'; if (/look|count|read/.test(t)) return 'look'; if (/play|roll/.test(t)) return 'play'; return 'say'; }
+const UCOL = { 0: '#7FB5C9', 1: '#F7A072', 2: '#6FB8E6', 3: '#8CCB7A', 4: '#B99BE3', 5: '#F6C85F', 6: '#5E7CC6', 7: '#F48FB1', 8: '#F09B4D', 9: '#E07A5F', 10: '#59B38A', 11: '#A86CC8', 12: '#E9B949' };
+function unitColor(u) { return UCOL[u % 13] || '#F7A072'; }
+const LCOLOR = { vowel: '#E0523E', 'conso k0': '#2F6BC9', 'conso k1': '#2E9E64', 'conso k2': '#8A55C9' };
+function letterColor(l) { return LCOLOR[letterCls(l)] || '#2F6BC9'; }
+function decoHtml(p) {
+  const k = p % 4;
+  const blobs = [
+    '<svg viewBox="0 0 400 400" style="width:420px;height:420px;right:-150px;top:-170px"><path fill="var(--u-light)" d="M200 20c90 0 180 60 180 160s-70 200-170 200S20 300 20 200 110 20 200 20z"/></svg>',
+    '<svg viewBox="0 0 400 400" style="width:380px;height:380px;left:-160px;top:-120px"><path fill="var(--u-light)" d="M210 30c100 10 170 80 160 170s-90 180-190 170S10 290 20 190 110 20 210 30z"/></svg>',
+    '<svg viewBox="0 0 400 400" style="width:360px;height:360px;right:-140px;bottom:-150px"><path fill="var(--u-light)" d="M190 20c110-10 200 70 190 170s-100 190-200 180S0 280 10 180 80 30 190 20z"/></svg>',
+    '<svg viewBox="0 0 400 400" style="width:400px;height:400px;left:-170px;bottom:-160px"><path fill="var(--u-light)" d="M200 10c100 0 190 80 190 180s-80 200-190 200S10 300 10 190 100 10 200 10z"/></svg>'];
+  const small = `<svg viewBox="0 0 100 100" style="width:70px;height:70px;${k % 2 ? 'left:30px;bottom:120px' : 'right:40px;top:150px'}"><path fill="var(--u-pale)" d="M50 5c25 0 45 20 45 45S75 95 50 95 5 75 5 50 25 5 50 5z"/></svg>`;
+  return `<div class="deco">${blobs[k]}${small}</div>`;
+}
+function frameHtml(ctx, inner, no, qrs = '') {
+  const un = String(ctx.u).padStart(2, '0');
+  return `<article class="page ${ctx.b} t-${ctx.page.type} ${no % 2 ? 'odd' : 'even'}" style="--u:${unitColor(ctx.u)}" data-p="${ctx.p}">${decoHtml(ctx.p)}<div class="ph-head"><span class="unit"><small>UNIT</small>${un}</span>${lettersBadge(ctx.unit)}${qrs}</div><div class="body">${inner}</div><div class="ph-foot"><span class="pno">${no}</span></div></article>`;
 }
 function spk(id, text, big) { return `<button class="spk ${big ? 'big' : ''} print-hide" data-say="${esc(id)}" data-text="${esc(text)}" title="듣기">🔊</button>`; }
 // 머리띠 글자: 일반 유닛은 글자 전부, 복습 유닛은 앞 4개 + "…", 0유닛은 없음
@@ -79,17 +110,16 @@ function wordCard(w, l, extra = '') {
 // ---------- 학생책 Lesson 1 ----------
 // 소리: 글자 3개, 글자나무, 이름·소리·챈트
 PAGES.sounds = (ctx) => {
+  // v2: 글자 알약(이름) + 겹치는 대표 그림(단어) + 소리 칩 + 단어 칩. 글자나무는 뺐다
   const cards = ctx.unit.letters.map((l) => {
-    const d = L(l), cls = letterCls(l);
-    return `<div class="sound-card" data-letter="${l}">
-      <div class="glyph say ${cls}" data-say="name_${l}" data-text="${l.toUpperCase()}">${l.toUpperCase()}<small>${l}</small></div>
-      <div class="tree say" data-say="sound_${l}" data-text="${esc(soundText(l))}">${pic('tree_' + l, '', l + ' tree')}</div>
+    const d = L(l), cls = letterCls(l), hero = d.words[0];
+    return `<div class="sound-card" data-letter="${l}" style="--lc:${letterColor(l)}">
+      <div class="pillrow"><div class="glyph say ${cls}" data-say="name_${l}" data-text="${l.toUpperCase()}">${l.toUpperCase()}<small>${l}</small></div><div class="hero say" data-say="word_${esc(hero)}" data-text="${esc(hero)}">${pic('word_' + hero, '', hero)}</div></div>
       <div class="ctrl">
-        <div class="row">${spk('name_' + l, l.toUpperCase())} Name <b>${l.toUpperCase()}</b></div>
-        <div class="row">${spk('sound_' + l, soundText(l))} Sound <b class="ipa ${cls}">${esc(soundLabel(l))}</b></div>
-        <div class="row print-hide"><button class="btn orange" onclick="chant('${l}')">♪ Chant</button></div>
-        <div class="words">${d.words.map((w) => `<span class="w say" data-say="word_${esc(w)}" data-text="${esc(w)}">${wordHtml(w, l)}</span>`).join('')}</div>
+        <div class="row say" data-say="sound_${l}" data-text="${esc(soundText(l))}">${spk('sound_' + l, soundText(l))} <b class="ipa ${cls}">${esc(soundLabel(l))}</b></div>
+        <div class="row print-hide"><button class="btn small" onclick="chant('${l}')">♪ Chant</button></div>
       </div>
+      <div class="words">${d.words.map((w) => `<span class="w say" data-say="word_${esc(w)}" data-text="${esc(w)}">${wordHtml(w, l)}</span>`).join('')}</div>
     </div>`;
   }).join('');
   return instr(1, App.book.instructions.listen_repeat, '글자 이름과 소리를 듣고 따라 말해요. m·n 처럼 끌 수 있는 소리는 길게 내다가 바로 단어로 이어요 (mmm→moon)') +
@@ -98,7 +128,7 @@ PAGES.sounds = (ctx) => {
 };
 async function chant(l) {
   const d = L(l), card = document.querySelector(`.sound-card[data-letter="${l}"]`);
-  const s = { id: 'sound_' + l, text: soundText(l), el: card?.querySelector('.tree'), gap: 150 };
+  const s = { id: 'sound_' + l, text: soundText(l), el: card?.querySelector('.tree, .hero'), gap: 150 };
   // 끌 수 있는 소리(m n s f v z l r h)는 셋째 소리를 끊지 않고 바로 첫 단어로 잇는다(mmm→moon): 한국 아이들은 /m/ 을 받침 '음'으로만 느껴 monkey 의 첫소리와 못 잇는다 (2026-11-03 사용자)
   const slide = CONTINUANT.includes(l);
   Sound.unlock();
@@ -160,7 +190,7 @@ PAGES.trace = (ctx) => {
   const boxes = ctx.unit.letters.map((l, i) => {
     const o1 = others[(i * 3) % others.length], o2 = others[(i * 3 + 1) % others.length];
     const set = shuffle([l.toUpperCase(), l, o1, o2.toUpperCase()], i + ctx.u);
-    return `<div class="circle-box" data-pair="${l}">${set.map((ch) => `<span class="ltr" data-ch="${ch}" onclick="circlePick(this)">${ch}</span>`).join('')}</div>`;
+    return `<div class="circle-box" data-pair="${l}">${set.map((ch) => `<span class="ltr${i === 0 && ch.toLowerCase() === l ? ' ex' : ''}" data-ch="${ch}" onclick="circlePick(this)">${ch}</span>`).join('')}</div>`;   // 첫 상자는 예시 답
   }).join('');
   return instr(1, App.book.instructions.trace_write, '획순을 보고 따라 써요 (번호 순서대로)') + `<div class="trace-rows">${rows}</div>` +
     instr(2, App.book.instructions.look_circle, '큰 글자와 작은 글자 짝을 찾아 동그라미') + `<div class="circle-grid">${boxes}</div>`;
@@ -200,7 +230,7 @@ PAGES.read_play = (ctx) => {
 function gamePaperHtml(ctx) {
   const rs = ctx.unit.game?.rounds || [];
   return instr(2, App.book.instructions.listen_circle || 'Listen and circle.', '', B2() ? '선생님이 부르는 단어를 듣고 맞는 그림에 동그라미' : '선생님이 부르는 소리를 듣고 그 소리로 시작하는 그림에 동그라미') +
-    `<div class="check-sec game-paper">${rs.map((r, i) => `<div class="lc-row" data-say="${esc(r.audio)}" data-ans="${esc(r.answer)}"><span class="n">${i + 1}</span><div class="opts">${r.pictures.map((w) => `<div class="opt" data-w="${esc(w)}">${pic('word_' + w, '', w)}</div>`).join('')}</div></div>`).join('')}</div>`;   // data-*: 정답지(answers.html)용
+    `<div class="check-sec game-paper">${rs.map((r, i) => `<div class="lc-row" data-say="${esc(r.audio)}" data-ans="${esc(r.answer)}"><span class="n">${i + 1}</span><div class="opts">${r.pictures.map((w) => `<div class="opt${i === 0 && w === r.answer ? ' ex' : ''}" data-w="${esc(w)}">${pic('word_' + w, '', w)}</div>`).join('')}</div></div>`).join('')}</div>`;   // data-*: 정답지(answers.html)용 · 1번은 예시 답
 }
 // 소리 잡기 게임 판: 교재 쪽과 선생님 슬라이드가 같이 쓴다. 팀 A·B 점수판(현재 팀을 눌러 고르고, 정답이면 그 팀 +1)
 function gameHtml(ctx, big) {
@@ -306,8 +336,23 @@ async function listenPointAll() {
   await playSeq(items);
 }
 
-// 스토리: 한 쪽에 그림 2칸 (half 1 = 1·2칸, half 2 = 3·4칸)
+// 스토리 v2 (story.v2 = true): 한 쪽에 4컷, 컷마다 한 문장(목표 단어 굵게), 위에 사이트워드 알약, 아래 Sight Words 따라 쓰기 칸. 해설·번역·찾기 띠 없음
 PAGES.story = (ctx) => {
+  const st = ctx.unit.story;
+  if (!st.v2) return storyV1(ctx);
+  const sws = ctx.unit.sight_words || [], targets = new Set(unitWords(ctx.unit));
+  const mark = (t) => esc(t).replace(/[A-Za-z-]+/g, (w) => (targets.has(w.toLowerCase()) ? `<b>${w}</b>` : w));
+  const sw = sws.length ? `<div class="sw"><b>Listen and say.</b>${sws.map(swChip).join('')}</div>` : '';
+  const html = st.panels.map((pn, idx) => {
+    const ln = pn.lines[0];
+    const bubble = ln ? `<div class="bubble say" data-say="${esc(ln.audio)}" data-text="${esc(ln.text)}" data-panel="${idx}" data-line="0">${avatar(ln.who)}<span>${mark(ln.text)}${lineKo(ln, ctx)}</span></div>` : '';
+    return `<div class="pwrap"><div class="panel" data-panel="${idx}"><div class="scene">${pic(pn.id, '', 'scene')}</div><span class="no">${idx + 1}</span>${ctx.print ? '' : movieBtn(idx, pn.video)}<div class="bubbles">${bubble}</div></div></div>`;
+  }).join('');
+  const swBox = sws.length ? `<div class="sw-box"><b>Sight Words</b>${sws.map((w) => `<div class="cell"><span class="solid">${esc(w)}</span><span>${esc(w)}</span></div>`).join('')}</div>` : '';
+  return `<div class="story-top"><span class="badge">Story</span><h3 style="margin:0">${esc(st.title)}</h3><button class="btn main-play print-hide" onclick="storyPlay(0)">▶ ${esc(App.book.instructions.listen_story)}</button>${roleBtn()}${ctx.print ? '' : koBtn(false, st)}${sw}</div><div class="panels">${html}</div>${swBox}`;
+};
+// 스토리 v1: 한 쪽에 그림 2칸 (half 1 = 1·2칸, half 2 = 3·4칸) — 아직 안 바꾼 유닛
+function storyV1(ctx) {
   const half = ctx.page.half || 1, st = ctx.unit.story, sws = ctx.unit.sight_words || [];
   const panels = st.panels.slice((half - 1) * 2, half * 2);
   const sw = half === 1 && sws.length ? `<div class="sw"><b>${esc(App.book.instructions.sight_words)}</b>${sws.map(swChip).join('')}</div>` : '';
@@ -321,13 +366,13 @@ PAGES.story = (ctx) => {
     return `<div class="pwrap">${narrHtml(pn, idx)}<div class="panel" data-panel="${idx}"><div class="scene">${pic(pn.id, '', 'scene')}</div><span class="no">${idx + 1}</span>${movie}<div class="bubbles">${bubbles}</div></div>${find}${koBox(pn, ctx)}</div>`;
   }).join('');
   return `<div class="story-top"><h3 style="margin:0;font-size:24px">📖 ${esc(st.title)}</h3><button class="btn orange main-play print-hide" onclick="storyPlay(${half})">▶ ${esc(App.book.instructions.listen_story)}</button>${sw}${roleBtn()}${ctx.print ? '' : koBtn(false, st)}${sbLink}</div>${half === 1 ? soFarHtml(ctx) : ''}<div class="panels">${html}</div>`;
-};
-async function storyPlay(half) {
+}
+async function storyPlay(half) {   // half 0 = 한 쪽 4컷 전부 (v2)
   Sound.unlock();
-  const st = App.units[App.u].story, items = half === 1 ? themeIntro(st) : [];
+  const st = App.units[App.u].story, items = half <= 1 ? themeIntro(st) : [];
   if (!items.length) Sound.bgm(st.bgm);
-  st.panels.slice((half - 1) * 2, half * 2).forEach((pn, i) => {
-    const idx = (half - 1) * 2 + i;
+  (half ? st.panels.slice((half - 1) * 2, half * 2) : st.panels).forEach((pn, i) => {
+    const idx = half ? (half - 1) * 2 + i : i;
     items.push(...narrItem(pn, idx));
     pn.lines.forEach((ln, k) => items.push(storyItem(ln, document.querySelector(`.bubble[data-panel="${idx}"][data-line="${k}"]`), pn, idx, k)));
   });
@@ -389,7 +434,7 @@ async function playVideo(idx, quiet) {
 PAGES.check = (ctx) => (ctx.unit.check.read_circle ? checkBody2 : checkBody)(ctx, ctx.unit.check);
 PAGES.review_test = (ctx) => (ctx.unit.review.test.read_circle ? checkBody2 : checkBody)(ctx, ctx.unit.review.test);
 // 듣고 동그라미 한 줄 / 잇기 / 찾아 쓰기 조각 — 교재 쪽과 선생님 슬라이드가 같이 쓴다
-function lcRow(it, i, big) { return `<span class="n">${i + 1}</span>${spk(it.audio, it.audio.startsWith('sound_') ? soundText(it.audio.slice(6)) : it.audio.replace(/^word_/, ''), big)}<div class="opts">${it.options.map((o) => o.length === 1 ? `<div class="opt ${letterCls(o)}" onclick="checkPick(this,'${o}','${it.answer}')">${o.toUpperCase()}${o}</div>` : `<div class="opt" onclick="checkPick(this,'${o}','${it.answer}')">${pic('word_' + o, '', o)}<div class="lab">${esc(o)}</div></div>`).join('')}</div>`; }
+function lcRow(it, i, big, ex) { const x = (o) => (ex && o === it.answer ? ' ex' : ''); return `<span class="n">${i + 1}</span>${spk(it.audio, it.audio.startsWith('sound_') ? soundText(it.audio.slice(6)) : it.audio.replace(/^word_/, ''), big)}<div class="opts">${it.options.map((o) => o.length === 1 ? `<div class="opt ${letterCls(o)}${x(o)}" onclick="checkPick(this,'${o}','${it.answer}')">${o.toUpperCase()}${o}</div>` : `<div class="opt${x(o)}" onclick="checkPick(this,'${o}','${it.answer}')">${pic('word_' + o, '', o)}<div class="lab">${esc(o)}</div></div>`).join('')}</div>`; }   // ex: 1번 문항은 답을 미리 보여 준다 (15-design 11)
 function matchHtml(c, cls = '') {
   const letters = c.match.map((m) => m.letter), words = shuffle(c.match.map((m) => m.word), 7);
   return `<div class="match ${cls}" id="match"><div class="col">${letters.map((l) => `<div class="it ${letterCls(l)}" data-l="${l}" onclick="matchPick(this)">${l.toUpperCase()}${l}</div>`).join('')}</div><div class="col">${words.map((w) => `<div class="it" data-w="${w}" onclick="matchPick(this)">${pic('word_' + w, '', w)}</div>`).join('')}</div><div class="col">${words.map((w) => `<div class="it wd" data-w="${w}" onclick="matchPick(this)">${esc(w)}</div>`).join('')}</div></div>`;
@@ -405,7 +450,7 @@ function writeItems(ctx, c) {
   }).join('');
 }
 function checkBody(ctx, c) {
-  const lc = c.listen_circle.map((it, i) => `<div class="lc-row">${lcRow(it, i)}</div>`).join('');
+  const lc = c.listen_circle.map((it, i) => `<div class="lc-row">${lcRow(it, i, false, i === 0)}</div>`).join('');
   return instr('A', App.book.instructions.listen_circle, '듣고 맞는 것에 동그라미') + `<div class="check-sec">${lc}</div>` +
     instr('B', App.book.instructions.match_read, '글자 → 그림 → 단어 순서로 눌러 이어요', '글자 → 그림 → 단어를 ● 에서 ● 로 선을 그어 이어요') + matchHtml(c) +
     instr('C', App.book.instructions.find_circle, '첫소리 글자를 찾아 누르고 써요', '첫소리 글자를 찾아 동그라미 하고 빈 줄에 써요') + `<div class="write-row">${writeItems(ctx, c)}</div>`;

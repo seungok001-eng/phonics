@@ -67,11 +67,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -89,188 +84,76 @@
     }
   ],
   "story": {
-    "title": "Pop! Pop! Pop!",
+    "title": "The Bus",
     "bgm": "bgm_bright",
+    "v2": true,
     "panels": [
       {
         "id": "scene_u01_1",
-        "desc": "Bun and Hedgie have just stepped through a small round wooden door into a sunny magical garden with a long row of empty clay flower pots. Pip hops excitedly beside a wicker basket of red apples, pointing at a single glowing golden seed inside the basket. Hidden in the picture: a toy astronaut sitting on a garden shelf, a weathervane shaped like an arrow on the shed roof. The glowing golden seed is LARGE (about as big as an apple), very bright, and is the clear focal point of the picture.",
+        "desc": "Garden bus stop: Pip, Bun and Hedgie stand together holding one big blue bag; a yellow bus arrives from the right. Hidden: arrow sign, cup on the bench.",
         "hidden": [
-          "apple",
-          "astronaut",
+          "bus",
+          "bag",
+          "cup",
           "arrow"
         ],
         "lines": [
           {
             "who": "bun",
-            "text": "I see an apple!",
+            "text": "I see a bus!",
             "audio": "u01_l1",
-            "ko": "사과가 보여!"
-          },
-          {
-            "who": "both",
-            "text": "A!",
-            "audio": "name_a__both",
-            "sfx": "chime",
-            "ko": "에이!"
-          },
-          {
-            "who": "hedgie",
-            "text": "/a/ /a/ apple!",
-            "audio": "u01_l3",
-            "pop": "a",
-            "ko": "a, a 사과!"
+            "ko": "버스가 보여!"
           }
-        ],
-        "video": "vid_u01_1",
-        "ko": "사과 바구니 속에 반짝이는 씨앗이 있어요. 번이 사과를 보고, 헤지가 a 소리를 말해요.",
-        "ask": [
-          {
-            "en": "What is in the basket?",
-            "ko": "바구니 안에 뭐가 있어?"
-          },
-          {
-            "en": "What color is the apple?",
-            "ko": "사과는 무슨 색이야?"
-          }
-        ],
-        "narr": {
-          "text": "A magic seed is in the apple basket!",
-          "ko": "사과 바구니 속에 마법 씨앗이 있어요!",
-          "audio": "scene_u01_1_n"
-        }
+        ]
       },
       {
         "id": "scene_u01_2",
-        "desc": "In the same garden, a brand-new cheerful letter tree with red apples has just sprouted behind them. Bun points at a yellow toy school bus parked on the garden path with a glowing seed on its roof; Hedgie kneels beside it, amazed. Hidden in the picture: Hedgie's red school bag on the ground, a tiny doll bed among the flowers.",
+        "desc": "The bus door opens; an orange cat steps off carrying a small red bag. The three friends watch with wide eyes.",
         "hidden": [
-          "bus",
-          "bag",
-          "bed"
+          "cat",
+          "bag"
         ],
         "lines": [
           {
-            "who": "bun",
-            "text": "I see a bus!",
-            "audio": "u01_l4",
-            "ko": "버스가 보여!"
-          },
-          {
             "who": "hedgie",
-            "text": "/b/ /b/ bus!",
-            "audio": "u01_l5",
-            "pop": "b",
-            "ko": "b, b 버스!"
+            "text": "I see a cat!",
+            "audio": "u01_l2",
+            "ko": "고양이가 보여!"
           }
-        ],
-        "video": "vid_u01_2",
-        "ko": "사과나무가 펑 하고 자랐어요! 이번엔 버스 지붕에 씨앗이 있어요. b, b 버스!",
-        "ask": [
-          {
-            "en": "Where is the seed?",
-            "ko": "씨앗은 어디 있어?"
-          },
-          {
-            "en": "What is new in the garden?",
-            "ko": "정원에 새로 생긴 건 뭐야?"
-          }
-        ],
-        "narr": {
-          "text": "Pop! An apple tree grows. The next seed is on the bus.",
-          "ko": "펑! 사과나무가 자랐어요. 다음 씨앗은 버스 위에 있어요.",
-          "audio": "scene_u01_2_n"
-        }
+        ]
       },
       {
         "id": "scene_u01_3",
-        "desc": "An orange tabby cat is curled up asleep inside a giant blue cup-shaped flower pot, with a glowing seed resting on its back. Hedgie tiptoes toward it with a finger on his lips; Bun holds Pip, who is glowing. Hidden in the picture: a striped candy in Hedgie's other hand.",
+        "desc": "The cat opens the bag: one shiny red apple inside. The friends lean in with wide eyes.",
         "hidden": [
-          "cat",
-          "cup",
-          "candy"
+          "apple"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "I see a cat.",
-            "audio": "u01_l6",
-            "ko": "고양이가 보여."
-          },
-          {
-            "who": "bun",
-            "text": "/k/ /k/ cat!",
-            "audio": "u01_l7",
-            "pop": "c",
-            "ko": "c, c 고양이!"
+            "who": "pip",
+            "text": "An apple!",
+            "audio": "u01_l3",
+            "ko": "사과다!"
           }
-        ],
-        "ko": "컵 모양 화분 속에서 고양이가 자고 있어요. 등에 씨앗이 있어요. 헤지가 살금살금 다가가요.",
-        "ask": [
-          {
-            "en": "What is the cat doing?",
-            "ko": "고양이는 뭘 하고 있어?"
-          },
-          {
-            "en": "Who is tiptoeing?",
-            "ko": "누가 살금살금 걸어?"
-          }
-        ],
-        "narr": {
-          "text": "A seed is on the sleeping cat.",
-          "ko": "잠자는 고양이 등에 씨앗이 있어요.",
-          "audio": "scene_u01_3_n"
-        }
+        ]
       },
       {
         "id": "scene_u01_4",
-        "desc": "Three new cheerful letter trees stand in a row in the garden, each with a wooden sign on its trunk showing one big letter: the first tree's sign reads 'A' with a red apple, a toy astronaut and a toy arrow hanging from its branches; the second tree's sign reads 'B' with a yellow toy bus, a red backpack and a tiny doll bed hanging; the third tree's sign reads 'C' with an orange cat, a blue cup and a striped candy hanging. Bun and Hedgie stand in front of the trees, proudly pointing at them one after another; Pip flutters between them glowing with joy. In the foreground corner, Grumble, a grumpy old raccoon in a striped nightcap holding a tiny candle lantern, has just peeked out from behind a tree trunk with one paw at his mouth, and the friends glance at him in surprise. The three letters A, B and C on the signs are the ONLY text allowed in the picture.",
+        "desc": "The cat sits full and happy beside an apple core. Pip holds a single green leaf. Bun and Hedgie are surprised.",
         "hidden": [
-          "apple",
-          "bus",
-          "cat"
+          "apple"
         ],
         "lines": [
           {
-            "who": "both",
-            "text": "A! B! C!",
-            "audio": "u01_l10",
-            "sfx": "chime",
-            "ko": "에이! 비! 시!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh!",
-            "audio": "u01_l8",
-            "ko": "쉿!"
-          },
-          {
-            "who": "both",
-            "text": "A raccoon!",
-            "audio": "u01_l9",
-            "ko": "너구리다!"
+            "who": "pip",
+            "text": "I see... a leaf.",
+            "audio": "u01_l4",
+            "ko": "보이는 건… 잎사귀."
           }
-        ],
-        "ko": "A, B, C 나무 세 그루가 섰어요. 나무 뒤에서 너구리 할아버지 그럼블이 \"쉿!\" 해요. 그럼블은 옛날에 노래 나무를 지키던 정원지기예요. 노래가 조각나 사라진 뒤로, 소리만 들으면 잃어버린 노래가 생각나 마음이 아파서 씨앗을 숨겼어요. 등불 속에는 노래의 마지막 불씨가 아주 작게 남아 있어요.",
-        "ask": [
-          {
-            "en": "How many trees?",
-            "ko": "나무가 몇 그루야?"
-          },
-          {
-            "en": "Who says Shh?",
-            "ko": "누가 \"쉿!\" 했어?"
-          }
-        ],
-        "narr": {
-          "text": "Three trees! Grumble, the old garden keeper, says \"Shh!\"",
-          "ko": "나무 세 그루가 자랐어요! 옛날 정원지기 그럼블이 \"쉿!\" 해요. 노래가 사라진 뒤로 소리를 들으면 슬퍼지거든요.",
-          "audio": "scene_u01_4_n"
-        }
+        ]
       }
     ],
-    "synopsis_ko": "사과 바구니, 장난감 버스, 고양이 등에서 씨앗 세 개를 찾았어요. 친구들이 a·b·c 소리를 말하자 펑! 글자나무가 자랐어요. 그런데 나무 뒤에서 옛날 정원지기 그럼블이 \"쉿!\" 했어요. 노래가 사라진 뒤로 소리를 들으면 슬퍼져서 씨앗을 숨겼던 거예요.",
-    "so_far_ko": "번과 헤지가 소리 정원에서 노래를 잃은 핍을 만났어요.",
-    "goal_ko": "씨앗 세 개를 찾아 소리를 말하고 A·B·C 나무를 키워요."
+    "ko": "셋이 가방을 들고 버스를 기다려요. 버스에서 고양이가 내리고, 고양이 가방엔 사과 하나. 고양이가 혼자 다 먹고 핍 손엔 잎사귀만 남아요."
   },
   "videos": [
     {
@@ -598,5 +481,189 @@
       "w": "car",
       "l": "c"
     }
-  ]
+  ],
+  "story_v1": {
+    "title": "Pop! Pop! Pop!",
+    "bgm": "bgm_bright",
+    "panels": [
+      {
+        "id": "scene_u01_1",
+        "desc": "Bun and Hedgie have just stepped through a small round wooden door into a sunny magical garden with a long row of empty clay flower pots. Pip hops excitedly beside a wicker basket of red apples, pointing at a single glowing golden seed inside the basket. Hidden in the picture: a toy astronaut sitting on a garden shelf, a weathervane shaped like an arrow on the shed roof. The glowing golden seed is LARGE (about as big as an apple), very bright, and is the clear focal point of the picture.",
+        "hidden": [
+          "apple",
+          "astronaut",
+          "arrow"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I see an apple!",
+            "audio": "u01_l1",
+            "ko": "사과가 보여!"
+          },
+          {
+            "who": "both",
+            "text": "A!",
+            "audio": "name_a__both",
+            "sfx": "chime",
+            "ko": "에이!"
+          },
+          {
+            "who": "hedgie",
+            "text": "/a/ /a/ apple!",
+            "audio": "u01_l3",
+            "pop": "a",
+            "ko": "a, a 사과!"
+          }
+        ],
+        "video": "vid_u01_1",
+        "ko": "사과 바구니 속에 반짝이는 씨앗이 있어요. 번이 사과를 보고, 헤지가 a 소리를 말해요.",
+        "ask": [
+          {
+            "en": "What is in the basket?",
+            "ko": "바구니 안에 뭐가 있어?"
+          },
+          {
+            "en": "What color is the apple?",
+            "ko": "사과는 무슨 색이야?"
+          }
+        ],
+        "narr": {
+          "text": "A magic seed is in the apple basket!",
+          "ko": "사과 바구니 속에 마법 씨앗이 있어요!",
+          "audio": "scene_u01_1_n"
+        }
+      },
+      {
+        "id": "scene_u01_2",
+        "desc": "In the same garden, a brand-new cheerful letter tree with red apples has just sprouted behind them. Bun points at a yellow toy school bus parked on the garden path with a glowing seed on its roof; Hedgie kneels beside it, amazed. Hidden in the picture: Hedgie's red school bag on the ground, a tiny doll bed among the flowers.",
+        "hidden": [
+          "bus",
+          "bag",
+          "bed"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "I see a bus!",
+            "audio": "u01_l4",
+            "ko": "버스가 보여!"
+          },
+          {
+            "who": "hedgie",
+            "text": "/b/ /b/ bus!",
+            "audio": "u01_l5",
+            "pop": "b",
+            "ko": "b, b 버스!"
+          }
+        ],
+        "video": "vid_u01_2",
+        "ko": "사과나무가 펑 하고 자랐어요! 이번엔 버스 지붕에 씨앗이 있어요. b, b 버스!",
+        "ask": [
+          {
+            "en": "Where is the seed?",
+            "ko": "씨앗은 어디 있어?"
+          },
+          {
+            "en": "What is new in the garden?",
+            "ko": "정원에 새로 생긴 건 뭐야?"
+          }
+        ],
+        "narr": {
+          "text": "Pop! An apple tree grows. The next seed is on the bus.",
+          "ko": "펑! 사과나무가 자랐어요. 다음 씨앗은 버스 위에 있어요.",
+          "audio": "scene_u01_2_n"
+        }
+      },
+      {
+        "id": "scene_u01_3",
+        "desc": "An orange tabby cat is curled up asleep inside a giant blue cup-shaped flower pot, with a glowing seed resting on its back. Hedgie tiptoes toward it with a finger on his lips; Bun holds Pip, who is glowing. Hidden in the picture: a striped candy in Hedgie's other hand.",
+        "hidden": [
+          "cat",
+          "cup",
+          "candy"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "I see a cat.",
+            "audio": "u01_l6",
+            "ko": "고양이가 보여."
+          },
+          {
+            "who": "bun",
+            "text": "/k/ /k/ cat!",
+            "audio": "u01_l7",
+            "pop": "c",
+            "ko": "c, c 고양이!"
+          }
+        ],
+        "ko": "컵 모양 화분 속에서 고양이가 자고 있어요. 등에 씨앗이 있어요. 헤지가 살금살금 다가가요.",
+        "ask": [
+          {
+            "en": "What is the cat doing?",
+            "ko": "고양이는 뭘 하고 있어?"
+          },
+          {
+            "en": "Who is tiptoeing?",
+            "ko": "누가 살금살금 걸어?"
+          }
+        ],
+        "narr": {
+          "text": "A seed is on the sleeping cat.",
+          "ko": "잠자는 고양이 등에 씨앗이 있어요.",
+          "audio": "scene_u01_3_n"
+        }
+      },
+      {
+        "id": "scene_u01_4",
+        "desc": "Three new cheerful letter trees stand in a row in the garden, each with a wooden sign on its trunk showing one big letter: the first tree's sign reads 'A' with a red apple, a toy astronaut and a toy arrow hanging from its branches; the second tree's sign reads 'B' with a yellow toy bus, a red backpack and a tiny doll bed hanging; the third tree's sign reads 'C' with an orange cat, a blue cup and a striped candy hanging. Bun and Hedgie stand in front of the trees, proudly pointing at them one after another; Pip flutters between them glowing with joy. In the foreground corner, Grumble, a grumpy old raccoon in a striped nightcap holding a tiny candle lantern, has just peeked out from behind a tree trunk with one paw at his mouth, and the friends glance at him in surprise. The three letters A, B and C on the signs are the ONLY text allowed in the picture.",
+        "hidden": [
+          "apple",
+          "bus",
+          "cat"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "A! B! C!",
+            "audio": "u01_l10",
+            "sfx": "chime",
+            "ko": "에이! 비! 시!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh!",
+            "audio": "u01_l8",
+            "ko": "쉿!"
+          },
+          {
+            "who": "both",
+            "text": "A raccoon!",
+            "audio": "u01_l9",
+            "ko": "너구리다!"
+          }
+        ],
+        "ko": "A, B, C 나무 세 그루가 섰어요. 나무 뒤에서 너구리 할아버지 그럼블이 \"쉿!\" 해요. 그럼블은 옛날에 노래 나무를 지키던 정원지기예요. 노래가 조각나 사라진 뒤로, 소리만 들으면 잃어버린 노래가 생각나 마음이 아파서 씨앗을 숨겼어요. 등불 속에는 노래의 마지막 불씨가 아주 작게 남아 있어요.",
+        "ask": [
+          {
+            "en": "How many trees?",
+            "ko": "나무가 몇 그루야?"
+          },
+          {
+            "en": "Who says Shh?",
+            "ko": "누가 \"쉿!\" 했어?"
+          }
+        ],
+        "narr": {
+          "text": "Three trees! Grumble, the old garden keeper, says \"Shh!\"",
+          "ko": "나무 세 그루가 자랐어요! 옛날 정원지기 그럼블이 \"쉿!\" 해요. 노래가 사라진 뒤로 소리를 들으면 슬퍼지거든요.",
+          "audio": "scene_u01_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "사과 바구니, 장난감 버스, 고양이 등에서 씨앗 세 개를 찾았어요. 친구들이 a·b·c 소리를 말하자 펑! 글자나무가 자랐어요. 그런데 나무 뒤에서 옛날 정원지기 그럼블이 \"쉿!\" 했어요. 노래가 사라진 뒤로 소리를 들으면 슬퍼져서 씨앗을 숨겼던 거예요.",
+    "so_far_ko": "번과 헤지가 소리 정원에서 노래를 잃은 핍을 만났어요.",
+    "goal_ko": "씨앗 세 개를 찾아 소리를 말하고 A·B·C 나무를 키워요."
+  }
 }

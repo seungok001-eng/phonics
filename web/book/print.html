@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Pop! Phonics — 인쇄</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="v2.css">
 <style>
   /* 인쇄 쪽에서는 단추를 숨기고 QR·쪽 번호를 보인다 */
   body.print #pages { display: flex; flex-direction: column; align-items: center; gap: 0; }
@@ -37,7 +38,8 @@ function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@pa
     const fn = PAGES[pg.type] || (() => '');
     // QR(15mm) + "🎧 듣기" — 긴 주소 글자는 찍지 않는다 (QR 이 없으면 둘 다 숨김)
     const qr = `<img class="qr" src="../assets/qr/${bkKey()}${b}_u${String(u).padStart(2, '0')}_p${p}.png" onerror="this.parentElement.style.visibility='hidden'" alt="QR">`;
-    return `<article class="page ${b} t-${pg.type}"><div class="ph-head"><span class="unit">Unit ${u}</span><h2>${esc(unit.title)}</h2>${lettersBadge(unit)}</div>${fn(ctx)}<div class="ph-foot"><span class="qrbox">${qr}<b>🎧 듣기</b></span><span>${b === 'sb' ? 'Student Book' : 'Workbook'} · Lesson ${pg.lesson.n}</span><span class="pno">${no}</span></div></article>`;
+    const qrs = p === 1 ? `<span class="qrs"><span>${qr}<small>Listen</small></span></span>` : '';   // QR 은 유닛 첫 쪽에만 (15-design 13)
+    return frameHtml(ctx, fn(ctx), no, qrs);
   }).join('');
   document.title = `${bookLabel()} — ${b === 'sb' ? 'Student Book' : 'Workbook'} Unit ${u}`;
   window.PRINT_READY = true;
