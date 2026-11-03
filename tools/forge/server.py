@@ -1156,6 +1156,7 @@ class H(BaseHTTPRequestHandler):
                 if a == 'current': return self.send_json({'queued': audition.ensure_current(ch)})
                 if a == 'remove': audition.remove(ch, body.get('voice_id') or ''); return self.send_json({'ok': True})
                 if a == 'repitch': return self.send_json({'done': audition.repitch(ch or None)})
+                if a == 'rescan': return self.send_json({'found': audition.rescan(ch)})
                 if a == 'design': return self.send_json({'previews': audition.design(ch, body.get('desc') or audition.DESIGN.get(ch, ''), body.get('text'))})
                 if a == 'design_create': return self.send_json({'queued': audition.design_create(ch, body.get('generated_voice_id') or '', body.get('name'))})
                 if a == 'pitch':

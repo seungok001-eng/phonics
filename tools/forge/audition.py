@@ -26,7 +26,7 @@ FALLBACK_LINES = {'narrator': ['A cat is on the bus.', 'The cat eats the apple. 
                   'word': ['apple', 'bus', 'cat']}
 # Voice Design 설명 (나이·"child" 같은 말을 쓰면 안전 규칙에 걸려 차단된다 — 2026-11-03 시험)
 DESIGN = {
-    'pip': 'A tiny cute cartoon baby bird character with a very high, bright, squeaky-sweet little voice, playful and innocent, speaking clear English.',
+    'pip': 'A tiny cute cartoon bird character with a very high, bright, squeaky-sweet little voice, playful and innocent, speaking clear English.',
     'bun': 'A small brave cartoon rabbit character with a bright, bouncy, high, energetic little voice, cheerful and confident, speaking clear English.',
     'hedgie': 'A small shy cartoon hedgehog character with a soft, gentle, high little voice, curious and careful, speaking clear English.',
     'grumble': 'A grumpy sleepy old raccoon grandpa character with a low, gravelly, grumbling voice, slow and cranky but secretly kind, speaking clear English.',
@@ -189,8 +189,33 @@ def roster():
     return sorted(chars.values(), key=lambda c: (order.index(c['key']) if c['key'] in order else 99, c['key']))
 
 
+def _update_meta(ch, **fields):
+    """meta 의 일부만 바꾼다 — 읽고 바로 저장(lock 안)해서 뒤에서 후보를 더하는 작업과 엇갈려 덮어쓰지 않게."""
+    with _lock:
+        m = _meta(ch); m.update(fields); _save_meta(ch, m); return m
+
+
 def set_lines(ch, lines):
-    m = _meta(ch); m['lines'] = [str(x).strip() for x in lines if str(x).strip()][:4]; _save_meta(ch, m); return m['lines']
+    return _update_meta(ch, lines=[str(x).strip() for x in lines if str(x).strip()][:4])['lines']
+
+
+def rescan(ch):
+    """폴더에 있는데 meta 에 없는 후보 파일(<voice_id>__0.mp3)을 meta 에 되살린다 (이름·라벨은 계정 목소리 표에서)."""
+    pool = {v['voice_id']: v for v in el_pool()}; n = 0
+    with _lock:
+        m = _meta(ch); have = {c['voice_id'] for c in m.get('cands', [])}; lines = m.get('lines') or []
+        d = os.path.join(DIR, ch)
+        for f in sorted(os.listdir(d)) if os.path.isdir(d) else []:
+            mm = re.match(r'^([A-Za-z0-9]{10,})__0\.mp3$', f)
+            if not mm or mm.group(1) in have: continue
+            vid = mm.group(1); files = [x for i in range(len(lines)) for x in [f'{vid}__{i}.mp3'] if os.path.exists(os.path.join(d, x))]
+            if not files: continue
+            v = pool.get(vid) or {}
+            m.setdefault('cands', []).append({'voice_id': vid, 'name': v.get('name') or vid, 'engine': 'elevenlabs', 'labels': v.get('labels') or {}, 'owner': '', 'files': files, 'texts': lines[:len(files)], 'created': int(os.path.getmtime(os.path.join(d, f))), 'error': '', 'pitched': False})
+            have.add(vid); n += 1
+        _save_meta(ch, m)
+    if n: repitch(ch)
+    return n
 
 
 # ---------- 후보 만들기 ----------
@@ -312,7 +337,7 @@ def remove(ch, voice_id):
 # ---------- Voice Design: 글로 설명해 새 목소리 ----------
 def design(ch, desc, text=None):
     """미리듣기 3개를 만들어 _voices/<ch>/design_<id>.mp3 로 저장 (아직 계정엔 안 들어감)."""
-    m = _meta(ch); m['design_desc'] = desc
+    m = _update_meta(ch, design_desc=desc)
     lines = m.get('lines') or _default_lines(ch, _books())
     text = (text or '').strip() or (' '.join(lines) + " Let's try it again, friends! I see an apple and a bus. The cat is on the bed. Can you say it with me? A, B, C!")
     r = _el('/text-to-voice/design', {'voice_description': desc, 'text': text[:1000], 'model_id': 'eleven_ttv_v3', 'output_format': 'mp3_44100_128'})
@@ -321,8 +346,10 @@ def design(ch, desc, text=None):
         gid = p['generated_voice_id']; f = f'design_{gid}.mp3'
         open(os.path.join(DIR, ch, f), 'wb').write(base64.b64decode(p['audio_base_64']))
         out.append({'generated_voice_id': gid, 'file': f, 'desc': desc, 'created': int(time.time())})
-    m['designs'] = (out + [d for d in m.get('designs', []) if d['generated_voice_id'] not in {o['generated_voice_id'] for o in out}])[:9]
-    _save_meta(ch, m); return out
+    with _lock:   # 저장 직전에 다시 읽는다 (그 사이 후보가 더해졌을 수 있다)
+        m = _meta(ch); m['designs'] = (out + [d for d in m.get('designs', []) if d['generated_voice_id'] not in {o['generated_voice_id'] for o in out}])[:9]
+        _save_meta(ch, m)
+    return out
 
 
 def design_create(ch, gid, name=None):
