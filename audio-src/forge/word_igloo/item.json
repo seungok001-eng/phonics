@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=igloo | TYPE=word | IPA=ˈɪɡluː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "igloo",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707774.4448996,
+   "sec": 0.88,
+   "check": {
+    "transcript": "igloo",
+    "type": "word",
+    "ipa": "ˈɪɡluː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=igloo | TYPE=word | IPA=ˈɪɡluː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:58",
+ "applied": "2026-11-03 21:43",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,5 +64,6 @@
  "title": "단어 igloo · 이글루",
  "text": "igloo",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

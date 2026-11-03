@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=hug | TYPE=word | IPA=hʌɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "hug",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708206.7311294,
+   "sec": 0.84,
+   "check": {
+    "transcript": "hug",
+    "type": "word",
+    "ipa": "hʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hug | TYPE=word | IPA=hʌɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:13",
+ "applied": "2026-11-03 21:53",
  "text_edited": false,
  "error": "",
  "unit": 3,

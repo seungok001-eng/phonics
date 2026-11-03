@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=A turtle and an umbrella | TYPE=sentence | IPA=ə ˈtɝ.təl ənd ən ʌmˈbrɛ.lə | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A turtle and an umbrella.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793708452.9121425,
+   "sec": 1.81,
+   "check": {
+    "transcript": "a turtle and an umbrella",
+    "type": "sentence",
+    "ipa": "ə tɜːtəl ənd ən ʌmˈbrɛlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a turtle and an umbrella | TYPE=sentence | IPA=ə tɜːtəl ənd ən ʌmˈbrɛlə | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:56",
+ "applied": "2026-11-03 21:59",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -65,5 +82,6 @@
  "text": "A turtle and an umbrella.",
  "voice": "Leda",
  "who": "narrator",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=a pin | TYPE=sentence | IPA=ə pɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "A pin!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708869.2805476,
+   "sec": 0.98,
+   "check": {
+    "transcript": "a bin",
+    "type": "sentence",
+    "ipa": "ə bɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a bin | TYPE=sentence | IPA=ə bɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-11-03 19:06",
+ "applied": "2026-11-03 22:08",
  "text_edited": false,
  "error": "",
  "unit": 6,

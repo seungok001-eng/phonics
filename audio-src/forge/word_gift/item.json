@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=gift | TYPE=word | IPA=ɡɪft | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "gift",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707750.4866638,
+   "sec": 0.84,
+   "check": {
+    "transcript": "gift",
+    "type": "word",
+    "ipa": "ɡɪft",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gift | TYPE=word | IPA=ɡɪft | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:58",
+ "applied": "2026-11-03 21:42",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,5 +64,6 @@
  "title": "단어 gift · 선물",
  "text": "gift",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

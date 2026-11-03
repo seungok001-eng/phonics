@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=rain | TYPE=word | IPA=ˈɹeɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "rain",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707885.5608337,
+   "sec": 0.93,
+   "check": {
+    "transcript": "rain",
+    "type": "word",
+    "ipa": "ɹeɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rain | TYPE=word | IPA=ɹeɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:00",
+ "applied": "2026-11-03 21:45",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -47,5 +64,6 @@
  "title": "단어 rain · 비",
  "text": "rain",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

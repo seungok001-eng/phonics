@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=ten | TYPE=word | IPA=tɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "den",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708630.1154957,
+   "sec": 0.84,
+   "check": {
+    "transcript": "den",
+    "type": "word",
+    "ipa": "dɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=den | TYPE=word | IPA=dɛn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:22",
+ "applied": "2026-11-03 22:03",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,5 +64,6 @@
  "title": "단어 den · 굴",
  "text": "den",
  "voice": "Kore",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

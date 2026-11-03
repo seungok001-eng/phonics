@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=buen | TYPE=word | IPA=bwen | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "bun",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708729.0270224,
+   "sec": 1.02,
+   "check": {
+    "transcript": "bon",
+    "type": "word",
+    "ipa": "bɔn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bon | TYPE=word | IPA=bɔn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "bun",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793711613.348864,
+   "sec": 1.07,
+   "check": {
+    "transcript": "bone",
+    "type": "word",
+    "ipa": "boʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bone | TYPE=word | IPA=boʊn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:23",
+ "applied": "2026-11-03 22:13",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -47,5 +81,6 @@
  "title": "단어 bun · 빵",
  "text": "bun",
  "voice": "Kore",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

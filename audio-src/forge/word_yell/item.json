@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=yell | TYPE=word | IPA=/jɛl/ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "yell",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707433.6089628,
+   "sec": 0.65,
+   "check": {
+    "transcript": "yell",
+    "type": "word",
+    "ipa": "jɛɫ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yell | TYPE=word | IPA=jɛɫ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "yell",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708530.9637675,
+   "sec": 0.88,
+   "check": {
+    "transcript": "yell",
+    "type": "word",
+    "ipa": "jɛɫ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yell | TYPE=word | IPA=jɛɫ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:59",
+ "applied": "2026-11-03 22:01",
  "text_edited": false,
  "error": "",
  "unit": 10,

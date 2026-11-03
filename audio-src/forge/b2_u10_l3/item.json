@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=A pup, a big hug. | TYPE=sentence | IPA=ə pʌp, ə bɪg hʌg. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A pup! A big hug!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708938.3679771,
+   "sec": 1.95,
+   "check": {
+    "transcript": "a pop, a big hug",
+    "type": "sentence",
+    "ipa": "ə pɑp, ə bɪɡ hʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a pop, a big hug | TYPE=sentence | IPA=ə pɑp, ə bɪɡ hʌɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:07",
+ "applied": "2026-11-03 22:09",
  "text_edited": false,
  "error": "",
  "unit": 10,

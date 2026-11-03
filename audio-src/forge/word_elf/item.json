@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=elf | TYPE=word | IPA=ɛlf | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "elf",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707725.451395,
+   "sec": 0.74,
+   "check": {
+    "transcript": "elf",
+    "type": "word",
+    "ipa": "ɛlf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=elf | TYPE=word | IPA=ɛlf | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:58",
+ "applied": "2026-11-03 21:41",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -47,5 +64,6 @@
  "title": "단어 elf · 요정",
  "text": "elf",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

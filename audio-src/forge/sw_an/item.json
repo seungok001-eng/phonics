@@ -101,11 +101,45 @@
     "raw": "TRANSCRIPT=N | TYPE=letter-name | IPA=ɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "an",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707996.6973603,
+   "sec": 0.6,
+   "check": {
+    "transcript": "N",
+    "type": "letter-name",
+    "ipa": "ˈɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=N | TYPE=letter-name | IPA=ˈɛn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 8,
+   "file": "cand_8.wav",
+   "text": "an",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793711487.59527,
+   "sec": 0.56,
+   "check": {
+    "transcript": "in",
+    "type": "word",
+    "ipa": "ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=in | TYPE=word | IPA=ɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 8,
  "final": "final.mp3",
- "applied": "2026-11-03 19:24",
+ "applied": "2026-11-03 22:11",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -116,5 +150,5 @@
  "text": "an",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

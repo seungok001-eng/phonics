@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=zap | TYPE=word | IPA=zæp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "zap",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707445.4532747,
+   "sec": 0.74,
+   "check": {
+    "transcript": "zap",
+    "type": "word",
+    "ipa": "zæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zap | TYPE=word | IPA=zæp | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "zap",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708543.8792357,
+   "sec": 0.88,
+   "check": {
+    "transcript": "zap",
+    "type": "word",
+    "ipa": "zæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zap | TYPE=word | IPA=zæp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:59",
+ "applied": "2026-11-03 22:01",
  "text_edited": false,
  "error": "",
  "unit": 10,

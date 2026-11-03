@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=little | TYPE=word | IPA=ˈlɪtəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "little",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708749.1267798,
+   "sec": 0.74,
+   "check": {
+    "transcript": "little",
+    "type": "word",
+    "ipa": "ˈlɪtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=little | TYPE=word | IPA=ˈlɪtəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:15",
+ "applied": "2026-11-03 22:05",
  "text_edited": false,
  "error": "",
  "unit": 4,

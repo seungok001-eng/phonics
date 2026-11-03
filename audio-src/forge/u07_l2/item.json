@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=The queen is in a quilt. | TYPE=sentence | IPA=ðə ˈkwin ɪz ɪn ə ˈkwɪlt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The queen is in a quilt.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793708403.9173555,
+   "sec": 1.44,
+   "check": {
+    "transcript": "The queen is in a quilt.",
+    "type": "sentence",
+    "ipa": "ðə kwin ɪz ɪn ə kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The queen is in a quilt. | TYPE=sentence | IPA=ðə kwin ɪz ɪn ə kwɪlt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:56",
+ "applied": "2026-11-03 21:58",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -48,5 +65,6 @@
  "text": "The queen is in a quilt.",
  "voice": "Kore",
  "who": "narrator",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

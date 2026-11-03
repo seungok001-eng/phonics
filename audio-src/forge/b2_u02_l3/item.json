@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=a dog, woof, woof | TYPE=sentence | IPA=ə dɔɡ wʊf wʊf | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A dog! Wag, wag!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708807.3764913,
+   "sec": 2.23,
+   "check": {
+    "transcript": "hot dog woof woof",
+    "type": "sentence",
+    "ipa": "hɑt dɔɡ wʊf wʊf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hot dog woof woof | TYPE=sentence | IPA=hɑt dɔɡ wʊf wʊf | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:20",
+ "applied": "2026-11-03 22:14",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -65,5 +82,6 @@
  "text": "A dog! Wag, wag!",
  "voice": "Aoede",
  "who": "bun",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

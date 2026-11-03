@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=yuck | TYPE=word | IPA=jʌk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Here, yak.",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708560.0041728,
+   "sec": 1.35,
+   "check": {
+    "transcript": "yuck",
+    "type": "word",
+    "ipa": "/jʌk/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yuck | TYPE=word | IPA=/jʌk/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:00",
+ "applied": "2026-11-03 22:12",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -82,5 +99,6 @@
  "text": "Here, yak.",
  "voice": "Puck",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=kite | TYPE=word | IPA=kaɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "kite",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707799.5848827,
+   "sec": 1.11,
+   "check": {
+    "transcript": "Caido",
+    "type": "word",
+    "ipa": "ˈkaɪ.doʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Caido | TYPE=word | IPA=ˈkaɪ.doʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 18:59",
+ "applied": "2026-11-03 21:43",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -47,5 +64,6 @@
  "title": "단어 kite · 연",
  "text": "kite",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

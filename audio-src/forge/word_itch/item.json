@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=itch | TYPE=word | IPA=ɪtʃ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "itch",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707336.5273302,
+   "sec": 0.74,
+   "check": {
+    "transcript": "itch",
+    "type": "word",
+    "ipa": "ɪtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=itch | TYPE=word | IPA=ɪtʃ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "itch",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708222.7211764,
+   "sec": 0.74,
+   "check": {
+    "transcript": "itch",
+    "type": "word",
+    "ipa": "ɪtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=itch | TYPE=word | IPA=ɪtʃ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:57",
+ "applied": "2026-11-03 21:53",
  "text_edited": false,
  "error": "",
  "unit": 3,

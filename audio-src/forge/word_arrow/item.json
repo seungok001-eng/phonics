@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=arrow | TYPE=word | IPA=ˈæɹ.oʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "arrow",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707680.5830324,
+   "sec": 0.84,
+   "check": {
+    "transcript": "arrow",
+    "type": "word",
+    "ipa": "ˈæɹoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=arrow | TYPE=word | IPA=ˈæɹoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:23",
+ "applied": "2026-11-03 21:40",
  "text_edited": false,
  "error": "",
  "unit": 1,

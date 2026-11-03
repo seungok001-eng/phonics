@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=The rat is on the cat on the mat! | TYPE=sentence | IPA=ðə ræt ɪz ɒn ðə kæt ɒn ðə mæt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The rat is on the cat on the mat!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708795.3497138,
+   "sec": 2.51,
+   "check": {
+    "transcript": "The rat is on the cat on the mat!",
+    "type": "sentence",
+    "ipa": "ðə ræt ɪz ɒn ðə kæt ɒn ðə mæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The rat is on the cat on the mat! | TYPE=sentence | IPA=ðə ræt ɪz ɒn ðə kæt ɒn ðə mæt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:04",
+ "applied": "2026-11-03 22:06",
  "text_edited": false,
  "error": "",
  "unit": 1,

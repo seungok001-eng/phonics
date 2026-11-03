@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=umbrella | TYPE=word | IPA=ʌmˈbrɛlə | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "umbrella",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707918.740396,
+   "sec": 1.02,
+   "check": {
+    "transcript": "umbrella",
+    "type": "word",
+    "ipa": "ʌmˈbrɛlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=umbrella | TYPE=word | IPA=ʌmˈbrɛlə | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:01",
+ "applied": "2026-11-03 21:46",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -47,5 +64,6 @@
  "title": "단어 umbrella · 우산",
  "text": "umbrella",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

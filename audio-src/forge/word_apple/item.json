@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæpəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "apple",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707612.4187617,
+   "sec": 0.74,
+   "check": {
+    "transcript": "Apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "apple",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707672.569817,
+   "sec": 0.74,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:23",
+ "applied": "2026-11-03 21:40",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -64,5 +98,6 @@
  "title": "단어 apple · 사과",
  "text": "apple",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

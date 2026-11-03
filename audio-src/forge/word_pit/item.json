@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=pit | TYPE=word | IPA=pɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "pit",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708691.9577813,
+   "sec": 0.84,
+   "check": {
+    "transcript": "pet",
+    "type": "word",
+    "ipa": "pɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pet | TYPE=word | IPA=pɛt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 19:12",
+ "applied": "2026-11-03 22:04",
  "text_edited": false,
  "error": "",
  "unit": 7,

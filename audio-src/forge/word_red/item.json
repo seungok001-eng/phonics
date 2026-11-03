@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=red | TYPE=word | IPA=rɛd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "red",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708370.784387,
+   "sec": 0.84,
+   "check": {
+    "transcript": "red",
+    "type": "word",
+    "ipa": "ɹɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=red | TYPE=word | IPA=ɹɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:10",
+ "applied": "2026-11-03 21:57",
  "text_edited": false,
  "error": "",
  "unit": 7,

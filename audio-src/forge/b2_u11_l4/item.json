@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Who like the potty? | TYPE=sentence | IPA=hu lʌk ðə pɑdi | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "We like the party. Shh!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708959.6508193,
+   "sec": 2.38,
+   "check": {
+    "transcript": "we like the potty",
+    "type": "sentence",
+    "ipa": "wi laɪk ðə pɑti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=we like the potty | TYPE=sentence | IPA=wi laɪk ðə pɑti | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:21",
+ "applied": "2026-11-03 22:15",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -65,5 +82,6 @@
  "text": "We like the party. Shh!",
  "voice": "Kore",
  "who": "pip",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

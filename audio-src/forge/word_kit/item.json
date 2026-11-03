@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=kit | TYPE=word | IPA=kɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "kit",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708687.9638927,
+   "sec": 0.79,
+   "check": {
+    "transcript": "kit",
+    "type": "word",
+    "ipa": "kɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kit | TYPE=word | IPA=kɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:12",
+ "applied": "2026-11-03 22:04",
  "text_edited": false,
  "error": "",
  "unit": 7,

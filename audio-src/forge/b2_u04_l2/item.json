@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=A big red bed | TYPE=sentence | IPA=ə bɪɡ ɹɛd bɛd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A big red bed!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708836.29392,
+   "sec": 1.58,
+   "check": {
+    "transcript": "A big red bed!",
+    "type": "sentence",
+    "ipa": "ə bɪɡ ɹɛd bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A big red bed! | TYPE=sentence | IPA=ə bɪɡ ɹɛd bɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:05",
+ "applied": "2026-11-03 22:07",
  "text_edited": false,
  "error": "",
  "unit": 4,

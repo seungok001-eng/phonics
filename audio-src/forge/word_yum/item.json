@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=yum | TYPE=word | IPA=jʌm | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "yum",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707441.4586382,
+   "sec": 0.65,
+   "check": {
+    "transcript": "um",
+    "type": "word",
+    "ipa": "ʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=um | TYPE=word | IPA=ʌm | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "yum",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708539.891437,
+   "sec": 0.84,
+   "check": {
+    "transcript": "yum",
+    "type": "word",
+    "ipa": "jʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yum | TYPE=word | IPA=jʌm | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:59",
+ "applied": "2026-11-03 22:01",
  "text_edited": false,
  "error": "",
  "unit": 10,

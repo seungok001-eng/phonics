@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=ten hens and pip | TYPE=sentence | IPA=tɛn hɛnz ænd pɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Ten hens and Pip!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708827.3601136,
+   "sec": 1.58,
+   "check": {
+    "transcript": "ten hens and pig",
+    "type": "sentence",
+    "ipa": "tɛn hɛnz ænd pɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ten hens and pig | TYPE=sentence | IPA=tɛn hɛnz ænd pɪg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:05",
+ "applied": "2026-11-03 22:07",
  "text_edited": false,
  "error": "",
  "unit": 3,

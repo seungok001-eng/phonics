@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=wag | TYPE=word | IPA=wæg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "wag",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708621.9480014,
+   "sec": 0.98,
+   "check": {
+    "transcript": "وَغْد",
+    "type": "word",
+    "ipa": "waɣd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=وَغْد | TYPE=word | IPA=waɣd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 19:09",
+ "applied": "2026-11-03 22:02",
  "text_edited": false,
  "error": "",
  "unit": 2,

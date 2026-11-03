@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=look six 6 0 worms | TYPE=sentence | IPA=lʊk sɪks sɪks zɪroʊ wɜːmz | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Look! Six worms!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708519.6033947,
+   "sec": 1.95,
+   "check": {
+    "transcript": "look six six worms",
+    "type": "sentence",
+    "ipa": "lʊk sɪks sɪks wɝmz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=look six six worms | TYPE=sentence | IPA=lʊk sɪks sɪks wɝmz | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:56",
+ "applied": "2026-11-03 22:00",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -82,5 +99,6 @@
  "text": "Look! Six worms!",
  "voice": "Kore",
  "who": "both",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

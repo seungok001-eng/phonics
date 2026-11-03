@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=jam | TYPE=word | IPA=dʒæm | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "jam",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707340.6716192,
+   "sec": 0.65,
+   "check": {
+    "transcript": "jump",
+    "type": "word",
+    "ipa": "dʒʌmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jump | TYPE=word | IPA=dʒʌmp | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "jam",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708242.742513,
+   "sec": 1.02,
+   "check": {
+    "transcript": "gum",
+    "type": "word",
+    "ipa": "ɡʌm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gum | TYPE=word | IPA=ɡʌm | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:57",
+ "applied": "2026-11-03 22:11",
  "text_edited": false,
  "error": "",
  "unit": 4,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=here | TYPE=word | IPA=hɪɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "here",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708066.7773197,
+   "sec": 0.84,
+   "check": {
+    "transcript": "here",
+    "type": "word",
+    "ipa": "hɪɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=here | TYPE=word | IPA=hɪɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:16",
+ "applied": "2026-11-03 21:49",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -47,5 +64,6 @@
  "title": "사이트워드 here · 여기",
  "text": "here",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

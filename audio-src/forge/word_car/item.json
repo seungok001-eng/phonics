@@ -16,20 +16,54 @@
     "raw": "TRANSCRIPT=car | TYPE=word | IPA=kɑɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "car",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707285.4226718,
+   "sec": 0.7,
+   "check": {
+    "transcript": "car",
+    "type": "word",
+    "ipa": "kɑːɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=car | TYPE=word | IPA=kɑːɹ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "car",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708119.848582,
+   "sec": 0.98,
+   "check": {
+    "transcript": "car",
+    "type": "word",
+    "ipa": "kɑːr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=car | TYPE=word | IPA=kɑːr | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 23:29",
+ "applied": "2026-11-03 21:51",
  "text_edited": false,
  "error": "",
- "unit": 10,
+ "unit": 1,
  "letter": null,
  "id": "word_car",
  "sub": "word",
- "title": "단어 car · 자동차",
+ "title": "새 단어(첫소리 맞히기) car",
  "text": "car",
  "voice": "Kore",
- "book": 4,
+ "book": 1,
  "busy": 0
 }

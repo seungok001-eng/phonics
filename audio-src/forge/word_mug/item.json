@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=mug | TYPE=word | IPA=mʌɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "mug",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708720.9190054,
+   "sec": 0.84,
+   "check": {
+    "transcript": "mug",
+    "type": "word",
+    "ipa": "mʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mug | TYPE=word | IPA=mʌɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:14",
+ "applied": "2026-11-03 22:05",
  "text_edited": false,
  "error": "",
  "unit": 10,

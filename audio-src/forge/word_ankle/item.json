@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=ankle | TYPE=word | IPA=ˈæŋ.kəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "ankle",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707262.6094398,
+   "sec": 0.79,
+   "check": {
+    "transcript": "ankle",
+    "type": "word",
+    "ipa": "ˈæŋkəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ankle | TYPE=word | IPA=ˈæŋkəl | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "ankle",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708111.6215053,
+   "sec": 0.88,
+   "check": {
+    "transcript": "ankle",
+    "type": "word",
+    "ipa": "ˈæŋkəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ankle | TYPE=word | IPA=ˈæŋkəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:55",
+ "applied": "2026-11-03 21:50",
  "text_edited": false,
  "error": "",
  "unit": 1,

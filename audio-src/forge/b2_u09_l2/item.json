@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Hop on top. | TYPE=sentence | IPA=hɒp ɒn tɒp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Hop on top!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708918.2025893,
+   "sec": 1.3,
+   "check": {
+    "transcript": "Hop on top!",
+    "type": "sentence",
+    "ipa": "hɒp ɒn tɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hop on top! | TYPE=sentence | IPA=hɒp ɒn tɒp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:07",
+ "applied": "2026-11-03 22:09",
  "text_edited": false,
  "error": "",
  "unit": 9,

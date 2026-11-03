@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=pen | TYPE=word | IPA=pɛn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "pen",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708374.9521997,
+   "sec": 0.88,
+   "check": {
+    "transcript": "pen",
+    "type": "word",
+    "ipa": "pɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pen | TYPE=word | IPA=pɛn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:10",
+ "applied": "2026-11-03 21:57",
  "text_edited": false,
  "error": "",
  "unit": 7,

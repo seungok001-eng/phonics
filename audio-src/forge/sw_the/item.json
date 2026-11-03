@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=the | TYPE=word | IPA=ðə | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "the",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708000.6986227,
+   "sec": 0.79,
+   "check": {
+    "transcript": "the",
+    "type": "word",
+    "ipa": "ðiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the | TYPE=word | IPA=ðiː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:14",
+ "applied": "2026-11-03 21:48",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -47,5 +64,6 @@
  "title": "사이트워드 the · 그",
  "text": "the",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

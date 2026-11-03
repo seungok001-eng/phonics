@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Zip. It is up. | TYPE=sentence | IPA=zɪp ˈɪt ɪz ˈʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Zip! It is up!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708893.6932082,
+   "sec": 1.67,
+   "check": {
+    "transcript": "It is up",
+    "type": "sentence",
+    "ipa": "ɪt ɪz ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is up | TYPE=sentence | IPA=ɪt ɪz ʌp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:06",
+ "applied": "2026-11-03 22:08",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -48,5 +65,6 @@
  "text": "Zip! It is up!",
  "voice": "Puck",
  "who": "both",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

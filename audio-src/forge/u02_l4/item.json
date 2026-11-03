@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=The duck is on the frog! | TYPE=sentence | IPA=ðə dʌk ɪz ɒn ðə fɹɒɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The duck is on the frog!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708185.8634305,
+   "sec": 1.86,
+   "check": {
+    "transcript": "The duck is on the frog.",
+    "type": "sentence",
+    "ipa": "ðə dʌk ɪz ɒn ðə frɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The duck is on the frog. | TYPE=sentence | IPA=ðə dʌk ɪz ɒn ðə frɒɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:54",
+ "applied": "2026-11-03 21:52",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -65,5 +82,6 @@
  "text": "The duck is on the frog!",
  "voice": "Puck",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

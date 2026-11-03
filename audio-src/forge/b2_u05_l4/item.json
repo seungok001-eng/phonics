@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=pipkin said gut | TYPE=sentence | IPA=ˈpɪpkɪn ˈsɛd ˈɡʌt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Pip can say cat!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708860.8997123,
+   "sec": 1.76,
+   "check": {
+    "transcript": "The cat said cat.",
+    "type": "sentence",
+    "ipa": "ðə kæt sɛd kæt.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cat said cat. | TYPE=sentence | IPA=ðə kæt sɛd kæt. | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:20",
+ "applied": "2026-11-03 22:14",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -82,5 +99,6 @@
  "text": "Pip can say cat!",
  "voice": "Aoede",
  "who": "both",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

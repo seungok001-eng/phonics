@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=beg | TYPE=word | IPA=bɛɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "beg",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708642.9873192,
+   "sec": 0.88,
+   "check": {
+    "transcript": "bag",
+    "type": "word",
+    "ipa": "bæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bag | TYPE=word | IPA=bæɡ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 19:10",
+ "applied": "2026-11-03 22:03",
  "text_edited": false,
  "error": "",
  "unit": 4,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=pop | TYPE=word | IPA=pɒp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "pup",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708733.0928595,
+   "sec": 0.79,
+   "check": {
+    "transcript": "pup",
+    "type": "word",
+    "ipa": "pʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pup | TYPE=word | IPA=pʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:24",
+ "applied": "2026-11-03 22:05",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -47,5 +64,6 @@
  "title": "단어 pup · 강아지",
  "text": "pup",
  "voice": "Kore",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=A hen in the net! | TYPE=sentence | IPA=ə hɛn ɪn ðə nɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "A hen in the net!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708819.3359635,
+   "sec": 1.53,
+   "check": {
+    "transcript": "a hand in the net",
+    "type": "sentence",
+    "ipa": "ə hænd ɪn ðə nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a hand in the net | TYPE=sentence | IPA=ə hænd ɪn ðə nɛt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-11-03 19:05",
+ "applied": "2026-11-03 22:07",
  "text_edited": false,
  "error": "",
  "unit": 3,

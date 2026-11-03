@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=has | TYPE=word | IPA=hæz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "has",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708740.9605622,
+   "sec": 0.84,
+   "check": {
+    "transcript": "has",
+    "type": "word",
+    "ipa": "hæz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=has | TYPE=word | IPA=hæz | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:15",
+ "applied": "2026-11-03 22:05",
  "text_edited": false,
  "error": "",
  "unit": 3,

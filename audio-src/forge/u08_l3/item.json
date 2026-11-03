@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=Go to the doodle. | TYPE=sentence | IPA=goʊ tuː ðə duːdəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "Go to the turtle!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708460.9084103,
+   "sec": 1.35,
+   "check": {
+    "transcript": "Go to the turtle.",
+    "type": "sentence",
+    "ipa": "goʊ tuː ðə ˈtɜːrtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go to the turtle. | TYPE=sentence | IPA=goʊ tuː ðə ˈtɜːrtəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-11-03 18:56",
+ "applied": "2026-11-03 21:59",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -116,5 +133,6 @@
  "text": "Go to the turtle!",
  "voice": "Leda",
  "who": "hedgie",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

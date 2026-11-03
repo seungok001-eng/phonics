@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=My cap is in the pond. | TYPE=sentence | IPA=maɪ kæp ɪz ɪn ðə pɑnd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "My cap is in the pond!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708803.1592734,
+   "sec": 1.72,
+   "check": {
+    "transcript": "My cab is in the pond.",
+    "type": "sentence",
+    "ipa": "maɪ kæb ɪz ɪn ðə pɑnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=My cab is in the pond. | TYPE=sentence | IPA=maɪ kæb ɪz ɪn ðə pɑnd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:04",
+ "applied": "2026-11-03 22:06",
  "text_edited": false,
  "error": "",
  "unit": 2,

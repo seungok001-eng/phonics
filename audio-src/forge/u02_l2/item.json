@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=a frog | TYPE=sentence | IPA=ə fɹɑɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A frog!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708177.7923677,
+   "sec": 1.21,
+   "check": {
+    "transcript": "a frog",
+    "type": "sentence",
+    "ipa": "ə fɹɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a frog | TYPE=sentence | IPA=ə fɹɒɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:54",
+ "applied": "2026-11-03 21:52",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -65,5 +82,6 @@
  "text": "A frog!",
  "voice": "Puck",
  "who": "bun",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

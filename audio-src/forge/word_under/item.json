@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=under | TYPE=word | IPA=ˈʌndɚ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "under",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707404.3642259,
+   "sec": 0.65,
+   "check": {
+    "transcript": "under",
+    "type": "word",
+    "ipa": "ˈʌndɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=under | TYPE=word | IPA=ˈʌndɚ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "under",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708423.8484004,
+   "sec": 0.84,
+   "check": {
+    "transcript": "under",
+    "type": "word",
+    "ipa": "ˈʌndər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=under | TYPE=word | IPA=ˈʌndər | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:58",
+ "applied": "2026-11-03 21:58",
  "text_edited": false,
  "error": "",
  "unit": 8,

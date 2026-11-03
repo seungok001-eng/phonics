@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=fan | TYPE=word | IPA=fæn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "fan",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707733.5152433,
+   "sec": 0.88,
+   "check": {
+    "transcript": "fan",
+    "type": "word",
+    "ipa": "fæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fan | TYPE=word | IPA=fæn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:09",
+ "applied": "2026-11-03 21:42",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -64,5 +81,6 @@
  "title": "단어 fan · 선풍기",
  "text": "fan",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

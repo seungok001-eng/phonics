@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh! Grumble is in bed.",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708844.5024135,
+   "sec": 2.28,
+   "check": {
+    "transcript": "Grumble is in bed.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl ɪz ɪn ˈbɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble is in bed. | TYPE=sentence | IPA=ˈɡɹʌmbəl ɪz ɪn ˈbɛd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:20",
+ "applied": "2026-11-03 22:07",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -65,5 +82,6 @@
  "text": "Shh! Grumble is in bed.",
  "voice": "Leda",
  "who": "pip",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

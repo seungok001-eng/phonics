@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=z | TYPE=isolated-sound | IPA=z | NOTE=clean"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Z... z... z...",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793708589.0460672,
+   "sec": 1.9,
+   "check": {
+    "transcript": "Z",
+    "type": "letter-name",
+    "ipa": "ziː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Z | TYPE=letter-name | IPA=ziː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:59",
+ "applied": "2026-11-03 22:12",
  "text_edited": false,
  "error": "",
  "unit": 12,
@@ -82,5 +99,6 @@
  "text": "Z... z... z...",
  "voice": "Charon",
  "who": "grumble",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

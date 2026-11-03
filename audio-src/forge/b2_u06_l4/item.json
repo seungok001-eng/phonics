@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=The pig cannot dig. The pig can win. | TYPE=sentence | IPA=ðə pɪg kænɑt dɪg ðə pɪg kæn wɪn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The pig can not dig. The pig can win!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708877.4933228,
+   "sec": 3.62,
+   "check": {
+    "transcript": "The pig cannot dig. The pig can win.",
+    "type": "sentence",
+    "ipa": "ðə pɪg kænɑt dɪg. ðə pɪg kæn wɪn.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig cannot dig. The pig can win. | TYPE=sentence | IPA=ðə pɪg kænɑt dɪg. ðə pɪg kæn wɪn. | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:06",
+ "applied": "2026-11-03 22:08",
  "text_edited": false,
  "error": "",
  "unit": 6,

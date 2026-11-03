@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=shh | TYPE=word | IPA=ʃ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708592.837883,
+   "sec": 0.62,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 22:02",
  "text_edited": false,
  "error": "",
  "unit": 12,
@@ -48,5 +65,6 @@
  "text": "Shh!",
  "voice": "Kore",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

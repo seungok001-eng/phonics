@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=oh hop | TYPE=sentence | IPA=oʊ hɑp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "hop",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708707.9803445,
+   "sec": 0.74,
+   "check": {
+    "transcript": "hop",
+    "type": "word",
+    "ipa": "hɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hop | TYPE=word | IPA=hɒp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:13",
+ "applied": "2026-11-03 22:04",
  "text_edited": false,
  "error": "",
  "unit": 9,

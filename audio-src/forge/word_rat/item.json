@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=rat | TYPE=word | IPA=ɹæt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "rat",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708395.8254006,
+   "sec": 0.84,
+   "check": {
+    "transcript": "rat",
+    "type": "word",
+    "ipa": "ɹæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rat | TYPE=word | IPA=ɹæt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:09",
+ "applied": "2026-11-03 21:57",
  "text_edited": false,
  "error": "",
  "unit": 7,

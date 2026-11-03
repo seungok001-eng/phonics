@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=a pool party | TYPE=sentence | IPA=ə pul pɑɾi | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A pond party!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708947.9492385,
+   "sec": 1.49,
+   "check": {
+    "transcript": "a pamper party",
+    "type": "sentence",
+    "ipa": "ə pæmpər pɑːrti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a pamper party | TYPE=sentence | IPA=ə pæmpər pɑːrti | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:21",
+ "applied": "2026-11-03 22:15",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -65,5 +82,6 @@
  "text": "A pond party!",
  "voice": "Kore",
  "who": "both",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

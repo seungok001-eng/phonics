@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=peg | TYPE=word | IPA=pɛg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "peg",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708638.086406,
+   "sec": 0.84,
+   "check": {
+    "transcript": "peg",
+    "type": "word",
+    "ipa": "pɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=peg | TYPE=word | IPA=pɛɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:10",
+ "applied": "2026-11-03 22:03",
  "text_edited": false,
  "error": "",
  "unit": 4,

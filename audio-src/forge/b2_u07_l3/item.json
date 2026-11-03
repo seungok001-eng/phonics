@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=dip it hit | TYPE=sentence | IPA=ˈdɪp ɪt hɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Dip it... hit!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708889.1852179,
+   "sec": 1.67,
+   "check": {
+    "transcript": "dipped hit",
+    "type": "sentence",
+    "ipa": "dɪpt hɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dipped hit | TYPE=sentence | IPA=dɪpt hɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:06",
+ "applied": "2026-11-03 22:08",
  "text_edited": false,
  "error": "",
  "unit": 7,

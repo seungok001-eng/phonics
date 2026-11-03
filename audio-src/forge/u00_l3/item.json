@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=Hi bun. Hi Hedgie! | TYPE=sentence | IPA=ˈhaɪ ˈbʌn. ˈhaɪ ˈhɛdʒi | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "Hi, Bun! Hi, Hedgie!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708078.7389092,
+   "sec": 2.14,
+   "check": {
+    "transcript": "Hi Bon! Hi Henji!",
+    "type": "sentence",
+    "ipa": "ˈhaɪ bɑn ˈhaɪ ˈhɛnʤi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hi Bon! Hi Henji! | TYPE=sentence | IPA=ˈhaɪ bɑn ˈhaɪ ˈhɛnʤi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 6,
  "final": "final.mp3",
- "applied": "2026-11-03 18:54",
+ "applied": "2026-11-03 21:50",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -116,5 +133,6 @@
  "text": "Hi, Bun! Hi, Hedgie!",
  "voice": "Kore",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

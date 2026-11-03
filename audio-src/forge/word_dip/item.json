@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=dip | TYPE=word | IPA=dɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "dip",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708675.0721939,
+   "sec": 0.84,
+   "check": {
+    "transcript": "dip",
+    "type": "word",
+    "ipa": "dɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dip | TYPE=word | IPA=dɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:11",
+ "applied": "2026-11-03 22:04",
  "text_edited": false,
  "error": "",
  "unit": 7,

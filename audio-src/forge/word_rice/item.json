@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=rice | TYPE=word | IPA=raɪs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "rice",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707889.4929156,
+   "sec": 0.93,
+   "check": {
+    "transcript": "rice",
+    "type": "word",
+    "ipa": "raɪs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rice | TYPE=word | IPA=raɪs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:00",
+ "applied": "2026-11-03 21:45",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -47,5 +64,6 @@
  "title": "단어 rice · 밥",
  "text": "rice",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=vine | TYPE=word | IPA=vaɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "vine",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707425.5593185,
+   "sec": 0.74,
+   "check": {
+    "transcript": "Biene",
+    "type": "word",
+    "ipa": "/ˈbiːnə/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Biene | TYPE=word | IPA=/ˈbiːnə/ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "vine",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708493.8649616,
+   "sec": 1.02,
+   "check": {
+    "transcript": "Venus",
+    "type": "word",
+    "ipa": "ˈvinəs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Venus | TYPE=word | IPA=ˈvinəs | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:59",
+ "applied": "2026-11-03 22:12",
  "text_edited": false,
  "error": "",
  "unit": 9,

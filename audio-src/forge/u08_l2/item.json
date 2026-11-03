@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=up up up | TYPE=sentence | IPA=ʌp ʌp ʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Up, up, up!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708456.8987818,
+   "sec": 1.25,
+   "check": {
+    "transcript": "Up up up",
+    "type": "sentence",
+    "ipa": "ʌp ʌp ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Up up up | TYPE=sentence | IPA=ʌp ʌp ʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:56",
+ "applied": "2026-11-03 21:59",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -65,5 +82,6 @@
  "text": "Up, up, up!",
  "voice": "Puck",
  "who": "bun",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

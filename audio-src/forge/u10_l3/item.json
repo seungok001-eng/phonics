@@ -118,11 +118,28 @@
     "raw": "TRANSCRIPT=yogurt | TYPE=word | IPA=ˈjoʊɡərt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 8,
+   "file": "cand_8.wav",
+   "text": "Yogurt!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708555.932284,
+   "sec": 0.98,
+   "check": {
+    "transcript": "yogurt",
+    "type": "word",
+    "ipa": "ˈjoʊɡərt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yogurt | TYPE=word | IPA=ˈjoʊɡərt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 7,
+ "approved": 8,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 22:01",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -133,5 +150,6 @@
  "text": "Yogurt!",
  "voice": "Leda",
  "who": "hedgie",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

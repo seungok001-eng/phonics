@@ -16,20 +16,54 @@
     "raw": "TRANSCRIPT=gate | TYPE=word | IPA=ɡeɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "gate",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707320.3344536,
+   "sec": 0.7,
+   "check": {
+    "transcript": "gate",
+    "type": "word",
+    "ipa": "ɡeɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gate | TYPE=word | IPA=ɡeɪt | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "gate",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708214.7304528,
+   "sec": 0.88,
+   "check": {
+    "transcript": "gatey",
+    "type": "word",
+    "ipa": "ˈɡeɪti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=gatey | TYPE=word | IPA=ˈɡeɪti | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 23:22",
+ "applied": "2026-11-03 21:53",
  "text_edited": false,
  "error": "",
- "unit": 1,
+ "unit": 3,
  "letter": null,
  "id": "word_gate",
  "sub": "word",
- "title": "단어 gate · 대문",
+ "title": "새 단어(첫소리 맞히기) gate",
  "text": "gate",
  "voice": "Kore",
- "book": 4,
+ "book": 1,
  "busy": 0
 }

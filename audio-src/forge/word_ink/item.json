@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=ink | TYPE=word | IPA=ɪŋk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "ink",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707770.4841325,
+   "sec": 0.79,
+   "check": {
+    "transcript": "ink",
+    "type": "word",
+    "ipa": "ɪŋk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ink | TYPE=word | IPA=ɪŋk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:58",
+ "applied": "2026-11-03 21:42",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -47,5 +64,6 @@
  "title": "단어 ink · 잉크",
  "text": "ink",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

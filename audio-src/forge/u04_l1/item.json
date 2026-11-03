@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Look | TYPE=word | IPA=lʊk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A lock!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708280.874364,
+   "sec": 0.93,
+   "check": {
+    "transcript": "A look",
+    "type": "word",
+    "ipa": "ə lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A look | TYPE=word | IPA=ə lʊk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:58",
+ "applied": "2026-11-03 21:55",
  "text_edited": false,
  "error": "",
  "unit": 4,

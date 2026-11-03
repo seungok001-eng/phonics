@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=hat | TYPE=word | IPA=hæt | NOTE=missing h"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "hat",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708193.857272,
+   "sec": 1.02,
+   "check": {
+    "transcript": "hatte",
+    "type": "word",
+    "ipa": "ˈhatə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hatte | TYPE=word | IPA=ˈhatə | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 19:08",
+ "applied": "2026-11-03 21:52",
  "text_edited": false,
  "error": "",
  "unit": 3,

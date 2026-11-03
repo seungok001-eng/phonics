@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=bag | TYPE=word | IPA=bæɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "bag",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707688.465344,
+   "sec": 0.88,
+   "check": {
+    "transcript": "bag",
+    "type": "word",
+    "ipa": "bæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bag | TYPE=word | IPA=bæg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:09",
+ "applied": "2026-11-03 21:40",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -64,5 +81,6 @@
  "title": "단어 bag · 가방",
  "text": "bag",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

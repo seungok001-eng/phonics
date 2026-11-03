@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=quick | TYPE=word | IPA=kwɪk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "quick",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708378.7508485,
+   "sec": 0.84,
+   "check": {
+    "transcript": "quick",
+    "type": "word",
+    "ipa": "kwɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quick | TYPE=word | IPA=kwɪk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 21:16",
+ "applied": "2026-11-03 21:57",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -48,5 +65,5 @@
  "text": "quick",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

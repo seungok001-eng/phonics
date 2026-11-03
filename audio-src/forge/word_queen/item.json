@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=queen | TYPE=word | IPA=kwiːn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "queen",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707869.5348346,
+   "sec": 0.84,
+   "check": {
+    "transcript": "queen",
+    "type": "word",
+    "ipa": "kwiːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=queen | TYPE=word | IPA=kwiːn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:00",
+ "applied": "2026-11-03 21:45",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -47,5 +64,6 @@
  "title": "단어 queen · 여왕",
  "text": "queen",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

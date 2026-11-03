@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=web | TYPE=word | IPA=wɛb | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "web",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707429.5857687,
+   "sec": 0.65,
+   "check": {
+    "transcript": "web eats",
+    "type": "word",
+    "ipa": "ˈwɛb ˈiːts",
+    "note": "ok",
+    "raw": "TRANSCRIPT=web eats | TYPE=word | IPA=ˈwɛb ˈiːts | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "web",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708473.8739824,
+   "sec": 0.79,
+   "check": {
+    "transcript": "web",
+    "type": "word",
+    "ipa": "wɛb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=web | TYPE=word | IPA=wɛb | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:59",
+ "applied": "2026-11-03 21:59",
  "text_edited": false,
  "error": "",
  "unit": 9,

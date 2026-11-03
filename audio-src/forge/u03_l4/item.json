@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=guitar | TYPE=word | IPA=ɡɪˈtɑɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A guitar!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708239.3808038,
+   "sec": 1.21,
+   "check": {
+    "transcript": "A guitar",
+    "type": "word",
+    "ipa": "ə ɡɪˈtɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A guitar | TYPE=word | IPA=ə ɡɪˈtɑɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:59",
+ "applied": "2026-11-03 21:54",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -82,5 +99,6 @@
  "text": "A guitar!",
  "voice": "Puck",
  "who": "both",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

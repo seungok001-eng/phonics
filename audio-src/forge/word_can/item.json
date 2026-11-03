@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=can | TYPE=word | IPA=kæn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "can",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708600.9692817,
+   "sec": 0.74,
+   "check": {
+    "transcript": "can",
+    "type": "word",
+    "ipa": "kæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=can | TYPE=word | IPA=kæn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:09",
+ "applied": "2026-11-03 22:02",
  "text_edited": false,
  "error": "",
  "unit": 1,

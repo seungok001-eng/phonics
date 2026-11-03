@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=I see a duck and a frog. | TYPE=sentence | IPA=aɪ siː ə dʌk ænd ə fɹɒɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "I see a duck and a frog.",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708300.9285803,
+   "sec": 1.86,
+   "check": {
+    "transcript": "I see a duck and a frog.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə dʌk ænd ə fɹɑːɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a duck and a frog. | TYPE=sentence | IPA=aɪ siː ə dʌk ænd ə fɹɑːɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:55",
+ "applied": "2026-11-03 21:55",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -48,5 +65,6 @@
  "text": "I see a duck and a frog.",
  "voice": "Kore",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

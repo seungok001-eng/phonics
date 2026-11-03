@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=goat | TYPE=word | IPA=ɡoʊt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "goat",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707746.4576576,
+   "sec": 0.65,
+   "check": {
+    "transcript": "goat",
+    "type": "word",
+    "ipa": "ɡoʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=goat | TYPE=word | IPA=ɡoʊt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:58",
+ "applied": "2026-11-03 21:42",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -64,5 +81,6 @@
  "title": "단어 goat · 염소",
  "text": "goat",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

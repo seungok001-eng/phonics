@@ -118,11 +118,28 @@
     "raw": "TRANSCRIPT=the egg | TYPE=sentence | IPA=ðiː ˈɛɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 8,
+   "file": "cand_8.wav",
+   "text": "The egg...",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708181.9312649,
+   "sec": 1.07,
+   "check": {
+    "transcript": "the egg",
+    "type": "word",
+    "ipa": "ði ɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the egg | TYPE=word | IPA=ði ɛɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 7,
+ "approved": 8,
  "final": "final.mp3",
- "applied": "2026-11-03 18:54",
+ "applied": "2026-11-03 21:52",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -133,5 +150,6 @@
  "text": "The egg...",
  "voice": "Leda",
  "who": "hedgie",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Grumble has no bed | TYPE=sentence | IPA=ˈɡɹʌmbəl hæz noʊ bɛd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Grumble has no bed.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793708832.1499712,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Grumble has no bed.",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl hæz noʊ bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble has no bed. | TYPE=sentence | IPA=ˈɡɹʌmbəl hæz noʊ bɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:05",
+ "applied": "2026-11-03 22:07",
  "text_edited": false,
  "error": "",
  "unit": 4,

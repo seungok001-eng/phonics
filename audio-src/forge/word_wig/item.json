@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=wig | TYPE=word | IPA=wɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "wig",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708485.899726,
+   "sec": 0.79,
+   "check": {
+    "transcript": "wig",
+    "type": "word",
+    "ipa": "wɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wig | TYPE=word | IPA=wɪg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:23",
+ "applied": "2026-11-03 22:00",
  "text_edited": false,
  "error": "",
  "unit": 9,

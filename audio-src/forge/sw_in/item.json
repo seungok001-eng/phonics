@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=in | TYPE=word | IPA=ɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "in",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708025.6497037,
+   "sec": 0.7,
+   "check": {
+    "transcript": "in",
+    "type": "word",
+    "ipa": "ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=in | TYPE=word | IPA=ɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:14",
+ "applied": "2026-11-03 21:48",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -47,5 +64,6 @@
  "title": "사이트워드 in · ~안에",
  "text": "in",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

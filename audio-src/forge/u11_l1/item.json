@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=We like a party. | TYPE=sentence | IPA=wi lə kɑɹti | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "We like a party!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708564.445521,
+   "sec": 1.67,
+   "check": {
+    "transcript": "We like a party.",
+    "type": "sentence",
+    "ipa": "wi laɪk ə ˈpɑɹti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like a party. | TYPE=sentence | IPA=wi laɪk ə ˈpɑɹti | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 22:01",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -65,5 +82,6 @@
  "text": "We like a party!",
  "voice": "Kore",
  "who": "both",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=dig | TYPE=word | IPA=dɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "dig",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708161.7260714,
+   "sec": 0.84,
+   "check": {
+    "transcript": "dig",
+    "type": "word",
+    "ipa": "dɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dig | TYPE=word | IPA=dɪg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:11",
+ "applied": "2026-11-03 21:52",
  "text_edited": false,
  "error": "",
  "unit": 2,

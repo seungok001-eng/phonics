@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT= | TYPE=silence | IPA= | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "for",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708753.0279446,
+   "sec": 0.79,
+   "check": {
+    "transcript": "four",
+    "type": "word",
+    "ipa": "fɔːr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=four | TYPE=word | IPA=fɔːr | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:24",
+ "applied": "2026-11-03 22:13",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -65,5 +82,5 @@
  "text": "for",
  "voice": "Kore",
  "book": 2,
- "busy": 1
+ "busy": 0
 }

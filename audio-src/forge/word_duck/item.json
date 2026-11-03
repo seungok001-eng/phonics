@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "duck",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707713.582874,
+   "sec": 0.65,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 21:41",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -64,5 +81,6 @@
  "title": "단어 duck · 오리",
  "text": "duck",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

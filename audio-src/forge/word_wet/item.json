@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=wet | TYPE=word | IPA=wɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "wet",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708498.8535664,
+   "sec": 0.79,
+   "check": {
+    "transcript": "wet",
+    "type": "word",
+    "ipa": "wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wet | TYPE=word | IPA=wɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:10",
+ "applied": "2026-11-03 22:00",
  "text_edited": false,
  "error": "",
  "unit": 9,

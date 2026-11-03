@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=On the Word Show! | TYPE=sentence | IPA=ɑn ðə wɝd ʃoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The word show!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708963.3831728,
+   "sec": 1.63,
+   "check": {
+    "transcript": "the word chew",
+    "type": "sentence",
+    "ipa": "ðə wɜːd tʃuː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the word chew | TYPE=sentence | IPA=ðə wɜːd tʃuː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 19:08",
+ "applied": "2026-11-03 22:10",
  "text_edited": false,
  "error": "",
  "unit": 12,

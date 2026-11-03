@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=The hen is wet. | TYPE=sentence | IPA=ðə hɛn ɪz wɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The hen is wet.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708823.1227324,
+   "sec": 1.53,
+   "check": {
+    "transcript": "The hen is wet.",
+    "type": "sentence",
+    "ipa": "ðə hɛn ɪz wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The hen is wet. | TYPE=sentence | IPA=ðə hɛn ɪz wɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:05",
+ "applied": "2026-11-03 22:07",
  "text_edited": false,
  "error": "",
  "unit": 3,

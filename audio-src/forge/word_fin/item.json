@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=feign | TYPE=word | IPA=feɪn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "fin",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708655.1492832,
+   "sec": 0.79,
+   "check": {
+    "transcript": "fun",
+    "type": "word",
+    "ipa": "fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fun | TYPE=word | IPA=fʌn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:23",
+ "applied": "2026-11-03 22:13",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -64,5 +81,6 @@
  "title": "단어 fin · 지느러미",
  "text": "fin",
  "voice": "Kore",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

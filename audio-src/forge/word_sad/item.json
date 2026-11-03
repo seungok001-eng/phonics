@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=sad | TYPE=word | IPA=sæd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "sad",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707394.5067437,
+   "sec": 0.65,
+   "check": {
+    "transcript": "sad",
+    "type": "word",
+    "ipa": "sæd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sad | TYPE=word | IPA=sæd | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "sad",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708428.8498256,
+   "sec": 1.02,
+   "check": {
+    "transcript": "said",
+    "type": "word",
+    "ipa": "sɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=said | TYPE=word | IPA=sɛd | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-02 17:58",
+ "applied": "2026-11-03 21:58",
  "text_edited": false,
  "error": "",
  "unit": 8,

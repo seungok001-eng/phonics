@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Shh I like a nap. | TYPE=sentence | IPA=ʃaɪlaɪkənæp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh... I like a nap.",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793708955.618239,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Shh. I like a nap.",
+    "type": "sentence",
+    "ipa": "ʃ i l aɪk ə næp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh. I like a nap. | TYPE=sentence | IPA=ʃ i l aɪk ə næp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:08",
+ "applied": "2026-11-03 22:10",
  "text_edited": false,
  "error": "",
  "unit": 11,

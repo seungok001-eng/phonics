@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=lock | TYPE=word | IPA=lɒk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "lock",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707815.6645033,
+   "sec": 0.88,
+   "check": {
+    "transcript": "block",
+    "type": "word",
+    "ipa": "blɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=block | TYPE=word | IPA=blɒk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 18:59",
+ "applied": "2026-11-03 21:44",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -47,5 +64,6 @@
  "title": "단어 lock · 자물쇠",
  "text": "lock",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

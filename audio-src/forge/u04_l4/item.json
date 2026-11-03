@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=koala | TYPE=word | IPA=koʊˈɑːlə | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Shh! A koala.",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793708293.2782383,
+   "sec": 1.96,
+   "check": {
+    "transcript": "koala",
+    "type": "word",
+    "ipa": "koʊˈɑlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=koala | TYPE=word | IPA=koʊˈɑlə | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:59",
+ "applied": "2026-11-03 22:12",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -82,5 +99,6 @@
  "text": "Shh! A koala.",
  "voice": "Puck",
  "who": "grumble",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

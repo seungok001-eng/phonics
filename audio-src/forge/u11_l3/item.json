@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Look here. | TYPE=sentence | IPA=ˈlʊk ˈhɪr | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh! Look here.",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793708573.6015859,
+   "sec": 1.82,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
  "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 22:02",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -65,5 +82,6 @@
  "text": "Shh! Look here.",
  "voice": "Leda",
  "who": "grumble",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

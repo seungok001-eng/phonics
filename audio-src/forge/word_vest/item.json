@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=vest | TYPE=word | IPA=/vɛst/ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "vest",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707934.6929479,
+   "sec": 0.93,
+   "check": {
+    "transcript": "vest",
+    "type": "word",
+    "ipa": "vɛst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vest | TYPE=word | IPA=vɛst | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:01",
+ "applied": "2026-11-03 21:47",
  "text_edited": false,
  "error": "",
  "unit": 9,

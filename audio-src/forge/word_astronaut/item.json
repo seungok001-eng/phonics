@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=astronaut | TYPE=word | IPA=ˈæstrəˌnɔt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "astronaut",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707676.609033,
+   "sec": 1.16,
+   "check": {
+    "transcript": "astronaut",
+    "type": "word",
+    "ipa": "ˈæstrəˌnɔt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=astronaut | TYPE=word | IPA=ˈæstrəˌnɔt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:23",
+ "applied": "2026-11-03 21:40",
  "text_edited": false,
  "error": "",
  "unit": 1,

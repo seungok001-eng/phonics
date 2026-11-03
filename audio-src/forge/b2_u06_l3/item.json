@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=A wig? The pig is big. | TYPE=sentence | IPA=ə ˈwɪɡ ði ˈpɪɡ ɪz ˈbɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A wig! The pig is big.",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708873.3899138,
+   "sec": 2.55,
+   "check": {
+    "transcript": "A wig, the pig is big!",
+    "type": "sentence",
+    "ipa": "ə wɪɡ ðə pɪɡ ɪz bɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A wig, the pig is big! | TYPE=sentence | IPA=ə wɪɡ ðə pɪɡ ɪz bɪɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:06",
+ "applied": "2026-11-03 22:08",
  "text_edited": false,
  "error": "",
  "unit": 6,

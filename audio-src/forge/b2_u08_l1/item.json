@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=fog on the pond | TYPE=sentence | IPA=fɑg ɑn ðə pɑnd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Fog on the pond.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793708897.1921892,
+   "sec": 1.53,
+   "check": {
+    "transcript": "fog on the pond",
+    "type": "sentence",
+    "ipa": "fɑg ɑn ðə pɑnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fog on the pond | TYPE=sentence | IPA=fɑg ɑn ðə pɑnd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:06",
+ "applied": "2026-11-03 22:08",
  "text_edited": false,
  "error": "",
  "unit": 8,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=leg | TYPE=word | IPA=lɛɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "leg",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707811.5206528,
+   "sec": 0.84,
+   "check": {
+    "transcript": "leg",
+    "type": "word",
+    "ipa": "lɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=leg | TYPE=word | IPA=lɛɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:10",
+ "applied": "2026-11-03 21:43",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -47,5 +64,6 @@
  "title": "단어 leg · 다리",
  "text": "leg",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

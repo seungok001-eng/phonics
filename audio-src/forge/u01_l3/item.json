@@ -152,11 +152,28 @@
     "raw": "TRANSCRIPT=a, a, apple | TYPE=word | IPA=æ, æ, ˈæpəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 10,
+   "file": "cand_10.wav",
+   "text": "/æ/ /æ/ apple!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708132.8979073,
+   "sec": 2.03,
+   "check": {
+    "transcript": "apple",
+    "type": "word",
+    "ipa": "ˈæ.pəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=apple | TYPE=word | IPA=ˈæ.pəl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 9,
+ "approved": 10,
  "final": "final.mp3",
- "applied": "2026-11-03 18:23",
+ "applied": "2026-11-03 21:51",
  "text_edited": true,
  "error": "",
  "unit": 1,
@@ -167,5 +184,6 @@
  "text": "/æ/ /æ/ apple!",
  "voice": "Puck",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

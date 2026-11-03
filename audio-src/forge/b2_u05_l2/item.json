@@ -33,11 +33,62 @@
     "raw": "TRANSCRIPT=PRD | TYPE=word | IPA=piː ɑɹ diː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "C... a... t...",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708852.9127662,
+   "sec": 2.23,
+   "check": {
+    "transcript": "C R D",
+    "type": "letter-name",
+    "ipa": "siː ɑːɹ diː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=C R D | TYPE=letter-name | IPA=siː ɑːɹ diː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "C... a... t...",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793711895.8260746,
+   "sec": 1.9,
+   "check": {
+    "transcript": "c r t",
+    "type": "word",
+    "ipa": "siː ɑɹ tiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=c r t | TYPE=word | IPA=siː ɑɹ tiː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "C... a... t...",
+   "voice": "낱소리 녹음 이어 붙임 ↑",
+   "how": "el",
+   "created": 1793711896.4184,
+   "sec": 2.01,
+   "check": {
+    "transcript": "cat",
+    "type": "word",
+    "ipa": "k æ t",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat | TYPE=word | IPA=k æ t | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:20",
+ "applied": "2026-11-03 22:18",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -48,5 +99,6 @@
  "text": "C... a... t...",
  "voice": "Kore",
  "who": "both",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

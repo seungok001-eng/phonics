@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=yogurt | TYPE=word | IPA=ˈjoʊɡəɹt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "yogurt",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707967.6629348,
+   "sec": 0.84,
+   "check": {
+    "transcript": "yogurt",
+    "type": "word",
+    "ipa": "ˈjoʊɡɚt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yogurt | TYPE=word | IPA=ˈjoʊɡɚt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:02",
+ "applied": "2026-11-03 21:47",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -47,5 +64,6 @@
  "title": "단어 yogurt · 요거트",
  "text": "yogurt",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

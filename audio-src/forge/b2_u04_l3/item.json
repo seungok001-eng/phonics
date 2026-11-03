@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=A leg, the bed is little. | TYPE=sentence | IPA=ə lɛg, ðə bɛd ɪz lɪtəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A leg! The bed is little.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708840.2409372,
+   "sec": 1.76,
+   "check": {
+    "transcript": "a leg, the bed is little",
+    "type": "sentence",
+    "ipa": "ə lˈɛɡ, ðə bˈɛd ɪz lˈɪtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a leg, the bed is little | TYPE=sentence | IPA=ə lˈɛɡ, ðə bˈɛd ɪz lˈɪtəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:05",
+ "applied": "2026-11-03 22:07",
  "text_edited": false,
  "error": "",
  "unit": 4,

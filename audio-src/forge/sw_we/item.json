@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=we | TYPE=word | IPA=wi | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "we",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708029.7377343,
+   "sec": 0.65,
+   "check": {
+    "transcript": "We",
+    "type": "word",
+    "ipa": "wi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We | TYPE=word | IPA=wi | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:15",
+ "applied": "2026-11-03 21:49",
  "text_edited": false,
  "error": "",
  "unit": 6,

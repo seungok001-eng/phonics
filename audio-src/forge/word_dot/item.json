@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=dot | TYPE=word | IPA=dɑt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "dot",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708700.0839286,
+   "sec": 0.79,
+   "check": {
+    "transcript": "dot",
+    "type": "word",
+    "ipa": "dɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dot | TYPE=word | IPA=dɑt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:12",
+ "applied": "2026-11-03 22:04",
  "text_edited": false,
  "error": "",
  "unit": 8,

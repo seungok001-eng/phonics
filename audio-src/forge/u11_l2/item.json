@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Look at the queen. | TYPE=sentence | IPA=lʊk æt ðə kwiːn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Look at the queen!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708568.0591888,
+   "sec": 1.39,
+   "check": {
+    "transcript": "Look at the queen.",
+    "type": "sentence",
+    "ipa": "lʊk æt ðə kwiːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at the queen. | TYPE=sentence | IPA=lʊk æt ðə kwiːn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 22:01",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -65,5 +82,6 @@
  "text": "Look at the queen!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

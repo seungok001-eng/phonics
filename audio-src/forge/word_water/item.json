@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=water | TYPE=word | IPA=ˈwɔtər | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "water",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707947.7399328,
+   "sec": 0.88,
+   "check": {
+    "transcript": "water",
+    "type": "word",
+    "ipa": "ˈwɔː.tər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=water | TYPE=word | IPA=ˈwɔː.tər | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:01",
+ "applied": "2026-11-03 21:47",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -47,5 +64,6 @@
  "title": "단어 water · 물",
  "text": "water",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

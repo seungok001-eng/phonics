@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=a dog a hot pot | TYPE=sentence | IPA=ə dɔːg ə hɑːt pɑːt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A dog! A hot pot!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708905.348797,
+   "sec": 2.32,
+   "check": {
+    "transcript": "A dog, a hot dog!",
+    "type": "sentence",
+    "ipa": "ə dɔɡ, ə hɑt dɔɡ!",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A dog, a hot dog! | TYPE=sentence | IPA=ə dɔɡ, ə hɑt dɔɡ! | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 19:06",
+ "applied": "2026-11-03 22:08",
  "text_edited": false,
  "error": "",
  "unit": 8,

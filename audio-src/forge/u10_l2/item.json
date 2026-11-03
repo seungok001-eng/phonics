@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=Zigzag, zigzag. | TYPE=sentence | IPA=ˈzɪɡˌzæɡ, ˈzɪɡˌzæɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Zigzag! Zigzag!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708552.1653082,
+   "sec": 2.37,
+   "check": {
+    "transcript": "zigzag zigzag",
+    "type": "sentence",
+    "ipa": "ˈzɪɡˌzæɡ ˈzɪɡˌzæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zigzag zigzag | TYPE=sentence | IPA=ˈzɪɡˌzæɡ ˈzɪɡˌzæɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 22:01",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -82,5 +99,6 @@
  "text": "Zigzag! Zigzag!",
  "voice": "Puck",
  "who": "bun",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

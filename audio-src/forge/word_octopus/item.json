@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=octopus | TYPE=word | IPA=ˈɑːktəpʊs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "octopus",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707848.5147693,
+   "sec": 1.02,
+   "check": {
+    "transcript": "octopus",
+    "type": "word",
+    "ipa": "ˈɑktəpəs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=octopus | TYPE=word | IPA=ˈɑktəpəs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:00",
+ "applied": "2026-11-03 21:44",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -47,5 +64,6 @@
  "title": "단어 octopus · 문어",
  "text": "octopus",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

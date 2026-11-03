@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=fun | TYPE=word | IPA=fʌn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "fun",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708169.7441256,
+   "sec": 0.79,
+   "check": {
+    "transcript": "fun",
+    "type": "word",
+    "ipa": "fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fun | TYPE=word | IPA=fʌn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:14",
+ "applied": "2026-11-03 21:52",
  "text_edited": false,
  "error": "",
  "unit": 2,

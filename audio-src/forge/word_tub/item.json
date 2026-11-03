@@ -16,20 +16,54 @@
     "raw": "TRANSCRIPT=tub | TYPE=word | IPA=tʌb | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "tub",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707400.6899302,
+   "sec": 0.79,
+   "check": {
+    "transcript": "tub",
+    "type": "word",
+    "ipa": "tʌb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tub | TYPE=word | IPA=tʌb | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "tub",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708444.8844025,
+   "sec": 0.88,
+   "check": {
+    "transcript": "tub",
+    "type": "word",
+    "ipa": "tʌb",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tub | TYPE=word | IPA=tʌb | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 23:25",
+ "applied": "2026-11-03 21:59",
  "text_edited": false,
  "error": "",
- "unit": null,
+ "unit": 8,
  "letter": null,
  "id": "word_tub",
  "sub": "word",
- "title": "단어 tub · 욕조",
+ "title": "새 단어(첫소리 맞히기) tub",
  "text": "tub",
  "voice": "Kore",
- "book": 4,
+ "book": 1,
  "busy": 0
 }

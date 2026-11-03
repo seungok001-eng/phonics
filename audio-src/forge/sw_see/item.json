@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=C | TYPE=letter-name | IPA=siː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "see",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707992.7920785,
+   "sec": 1.02,
+   "check": {
+    "transcript": "C",
+    "type": "letter-name",
+    "ipa": "siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=C | TYPE=letter-name | IPA=siː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-11-03 19:24",
+ "applied": "2026-11-03 22:11",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -99,5 +116,5 @@
  "text": "see",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

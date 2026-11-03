@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=zoo | TYPE=word | IPA=zu | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "zoo",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707453.590848,
+   "sec": 0.65,
+   "check": {
+    "transcript": "zoo",
+    "type": "word",
+    "ipa": "zu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zoo | TYPE=word | IPA=zu | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "zoo",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708526.8720725,
+   "sec": 0.84,
+   "check": {
+    "transcript": "zoe",
+    "type": "word",
+    "ipa": "ˈzoʊi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zoe | TYPE=word | IPA=ˈzoʊi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 18:01",
+ "applied": "2026-11-03 22:01",
  "text_edited": false,
  "error": "",
  "unit": 10,

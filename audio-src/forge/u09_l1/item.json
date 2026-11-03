@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Look at the fox. | TYPE=sentence | IPA=lʊk ət ðə fɑks | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Look at the fox.",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708506.9799943,
+   "sec": 1.3,
+   "check": {
+    "transcript": "Look at the fox.",
+    "type": "sentence",
+    "ipa": "lʊk ət ðə fɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at the fox. | TYPE=sentence | IPA=lʊk ət ðə fɑks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:58",
+ "applied": "2026-11-03 22:00",
  "text_edited": false,
  "error": "",
  "unit": 9,

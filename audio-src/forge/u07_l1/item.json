@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Rain on the Queen. | TYPE=sentence | IPA=ˈreɪn ˈɑn ðə ˈkwin. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Rain on the queen!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708399.9223967,
+   "sec": 1.58,
+   "check": {
+    "transcript": "rain on the queen",
+    "type": "sentence",
+    "ipa": "ˈreɪn ˈɒn ðə ˈkwiːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rain on the queen | TYPE=sentence | IPA=ˈreɪn ˈɒn ðə ˈkwiːn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:56",
+ "applied": "2026-11-03 21:57",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -65,5 +82,6 @@
  "text": "Rain on the queen!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

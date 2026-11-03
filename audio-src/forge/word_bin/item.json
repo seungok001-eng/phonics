@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=bin | TYPE=word | IPA=bɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "bin",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708659.0619502,
+   "sec": 0.84,
+   "check": {
+    "transcript": "bin",
+    "type": "word",
+    "ipa": "bɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bin | TYPE=word | IPA=bɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:11",
+ "applied": "2026-11-03 22:03",
  "text_edited": false,
  "error": "",
  "unit": 6,

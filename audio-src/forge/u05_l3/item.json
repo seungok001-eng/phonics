@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=a goat and a kite | TYPE=sentence | IPA=ə ɡoʊt ənd ə kaɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A goat and a kite!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708305.0508473,
+   "sec": 1.76,
+   "check": {
+    "transcript": "a goat and a kite",
+    "type": "sentence",
+    "ipa": "ə goʊt ənd ə kaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a goat and a kite | TYPE=sentence | IPA=ə goʊt ənd ə kaɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:55",
+ "applied": "2026-11-03 21:55",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -82,5 +99,6 @@
  "text": "A goat and a kite!",
  "voice": "Kore",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

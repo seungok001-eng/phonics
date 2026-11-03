@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=rocket | TYPE=word | IPA=ˈɹɑkɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "rocket",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707881.6028736,
+   "sec": 0.93,
+   "check": {
+    "transcript": "rocket",
+    "type": "word",
+    "ipa": "ˈɹɑkɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rocket | TYPE=word | IPA=ˈɹɑkɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:00",
+ "applied": "2026-11-03 21:45",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -47,5 +64,6 @@
  "title": "단어 rocket · 로켓",
  "text": "rocket",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Heggie has a cap and a bag. | TYPE=sentence | IPA=ˈhɛgiː hæz ə ˈkæp ænd ə ˈbæg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Hedgie has a cap and a bag.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793708799.3514388,
+   "sec": 1.86,
+   "check": {
+    "transcript": "Heggie has a cap and a bag.",
+    "type": "sentence",
+    "ipa": "ˈhɛgi hɛz ə kæp ənd ə ˈbæg.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Heggie has a cap and a bag. | TYPE=sentence | IPA=ˈhɛgi hɛz ə kæp ənd ə ˈbæg. | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:04",
+ "applied": "2026-11-03 22:06",
  "text_edited": false,
  "error": "",
  "unit": 2,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=fish | TYPE=word | IPA=fɪʃ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "fish",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708148.746689,
+   "sec": 0.88,
+   "check": {
+    "transcript": "fish",
+    "type": "word",
+    "ipa": "fɪʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fish | TYPE=word | IPA=fɪʃ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 21:12",
+ "applied": "2026-11-03 21:51",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -48,5 +65,5 @@
  "text": "fish",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

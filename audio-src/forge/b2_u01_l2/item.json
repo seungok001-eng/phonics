@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=A rat on the cat. | TYPE=sentence | IPA=ə ræt ɒn ðə kæt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A rat on the cat!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708786.136653,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Oh god, I'm the cat.",
+    "type": "sentence",
+    "ipa": "oʊ ˈɡɑd aɪm ðə ˈkæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh god, I'm the cat. | TYPE=sentence | IPA=oʊ ˈɡɑd aɪm ðə ˈkæt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:04",
+ "applied": "2026-11-03 22:06",
  "text_edited": false,
  "error": "",
  "unit": 1,

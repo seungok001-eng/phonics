@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=in the alphabet show | TYPE=sentence | IPA=ɪn ði ˈælfəˌbɛt ʃoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The alphabet show!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708581.1805294,
+   "sec": 1.81,
+   "check": {
+    "transcript": "the alphabet show",
+    "type": "sentence",
+    "ipa": "ðiː ˈælfəbɛt ʃoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the alphabet show | TYPE=sentence | IPA=ðiː ˈælfəbɛt ʃoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 22:02",
  "text_edited": false,
  "error": "",
  "unit": 12,
@@ -48,5 +65,6 @@
  "text": "The alphabet show!",
  "voice": "Kore",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

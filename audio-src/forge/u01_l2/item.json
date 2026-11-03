@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=I see a cat! | TYPE=sentence | IPA=aɪ siː ə kæt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see a cat!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708128.9117956,
+   "sec": 1.25,
+   "check": {
+    "transcript": "I see a cat.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a cat. | TYPE=sentence | IPA=aɪ siː ə kæt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 18:23",
+ "applied": "2026-11-03 21:51",
  "text_edited": false,
  "error": "",
  "unit": 1,

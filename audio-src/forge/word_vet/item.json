@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=vet | TYPE=word | IPA=vɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "vet",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707930.7549405,
+   "sec": 1.07,
+   "check": {
+    "transcript": "Wert",
+    "type": "word",
+    "ipa": "vɛʁt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Wert | TYPE=word | IPA=vɛʁt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:10",
+ "applied": "2026-11-03 21:46",
  "text_edited": false,
  "error": "",
  "unit": 9,

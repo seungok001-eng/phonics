@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=fun in the sun | TYPE=sentence | IPA=fʌn ɪn ðə sʌn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Fun in the sun.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793708930.3231282,
+   "sec": 1.3,
+   "check": {
+    "transcript": "fun in the sun",
+    "type": "sentence",
+    "ipa": "fʌn ɪn ðə sʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fun in the sun | TYPE=sentence | IPA=fʌn ɪn ðə sʌn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:07",
+ "applied": "2026-11-03 22:09",
  "text_edited": false,
  "error": "",
  "unit": 10,

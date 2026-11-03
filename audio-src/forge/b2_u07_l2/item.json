@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=It is a rip. | TYPE=sentence | IPA=ɪt ɪz ə ɹɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "It is a rip!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708885.3166883,
+   "sec": 1.21,
+   "check": {
+    "transcript": "It is a rip.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz ə rɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is a rip. | TYPE=sentence | IPA=ɪt ɪz ə rɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:06",
+ "applied": "2026-11-03 22:08",
  "text_edited": false,
  "error": "",
  "unit": 7,

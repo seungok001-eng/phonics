@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=lip | TYPE=word | IPA=lɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "lip",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708251.7704322,
+   "sec": 0.79,
+   "check": {
+    "transcript": "lip",
+    "type": "word",
+    "ipa": "lɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lip | TYPE=word | IPA=lɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:11",
+ "applied": "2026-11-03 21:54",
  "text_edited": false,
  "error": "",
  "unit": 4,

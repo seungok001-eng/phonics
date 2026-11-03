@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=you | TYPE=word | IPA=juː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "you",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708041.6860013,
+   "sec": 0.7,
+   "check": {
+    "transcript": "U",
+    "type": "letter-name",
+    "ipa": "juː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=U | TYPE=letter-name | IPA=juː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 19:15",
+ "applied": "2026-11-03 21:49",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -47,5 +64,6 @@
  "title": "사이트워드 you · 너",
  "text": "you",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

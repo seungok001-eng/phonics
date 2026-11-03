@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=zip | TYPE=word | IPA=zɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "zip",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708670.9665477,
+   "sec": 0.79,
+   "check": {
+    "transcript": "zip",
+    "type": "word",
+    "ipa": "zɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zip | TYPE=word | IPA=zɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:23",
+ "applied": "2026-11-03 22:04",
  "text_edited": false,
  "error": "",
  "unit": 7,

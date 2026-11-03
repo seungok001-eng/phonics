@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=The moon is in the net! | TYPE=sentence | IPA=ðə mun ɪz ɪn ðə nɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "The moon is in the net!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708354.9373338,
+   "sec": 1.81,
+   "check": {
+    "transcript": "The moon is in the net!",
+    "type": "sentence",
+    "ipa": "ðə mun ɪz ɪn ðə nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The moon is in the net! | TYPE=sentence | IPA=ðə mun ɪz ɪn ðə nɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:55",
+ "applied": "2026-11-03 21:56",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -82,5 +99,6 @@
  "text": "The moon is in the net!",
  "voice": "Puck",
  "who": "bun",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

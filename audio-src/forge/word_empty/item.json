@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=empty | TYPE=word | IPA=ˈɛmpti | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "empty",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707301.3785958,
+   "sec": 0.74,
+   "check": {
+    "transcript": "empty",
+    "type": "word",
+    "ipa": "ˈɛmpti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=empty | TYPE=word | IPA=ˈɛmpti | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "empty",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708165.6980224,
+   "sec": 0.84,
+   "check": {
+    "transcript": "empty",
+    "type": "word",
+    "ipa": "ˈɛmpti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=empty | TYPE=word | IPA=ˈɛmpti | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:56",
+ "applied": "2026-11-03 21:52",
  "text_edited": false,
  "error": "",
  "unit": 2,

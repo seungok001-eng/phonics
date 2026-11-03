@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=jump pip | TYPE=word | IPA=ˈdʒʌmp pɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Jump, Pip!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708308.8820245,
+   "sec": 1.25,
+   "check": {
+    "transcript": "jump",
+    "type": "word",
+    "ipa": "dʒʌmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jump | TYPE=word | IPA=dʒʌmp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-11-03 18:55",
+ "applied": "2026-11-03 21:55",
  "text_edited": false,
  "error": "",
  "unit": 5,
@@ -99,5 +116,6 @@
  "text": "Jump, Pip!",
  "voice": "Puck",
  "who": "bun",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

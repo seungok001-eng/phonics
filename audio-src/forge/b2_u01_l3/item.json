@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=No, Rad, no. | TYPE=sentence | IPA=noʊ ræd noʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "No, rat, no!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708790.248373,
+   "sec": 1.21,
+   "check": {
+    "transcript": "No rat. No.",
+    "type": "sentence",
+    "ipa": "noʊ ræt noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=No rat. No. | TYPE=sentence | IPA=noʊ ræt noʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:20",
+ "applied": "2026-11-03 22:06",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -48,5 +65,6 @@
  "text": "No, rat, no!",
  "voice": "Kore",
  "who": "hedgie",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

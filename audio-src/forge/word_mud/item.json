@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=mud | TYPE=word | IPA=mʌd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "mud",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707365.5156226,
+   "sec": 0.7,
+   "check": {
+    "transcript": "mud",
+    "type": "word",
+    "ipa": "mʌd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mud | TYPE=word | IPA=mʌd | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "mud",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708333.7640011,
+   "sec": 0.74,
+   "check": {
+    "transcript": "mud",
+    "type": "word",
+    "ipa": "mʌd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mud | TYPE=word | IPA=mʌd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:57",
+ "applied": "2026-11-03 21:56",
  "text_edited": false,
  "error": "",
  "unit": 6,

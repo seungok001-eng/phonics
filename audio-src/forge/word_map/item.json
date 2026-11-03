@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=map | TYPE=word | IPA=mæp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "map",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708312.87121,
+   "sec": 0.79,
+   "check": {
+    "transcript": "map",
+    "type": "word",
+    "ipa": "mæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=map | TYPE=word | IPA=mæp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:09",
+ "applied": "2026-11-03 21:55",
  "text_edited": false,
  "error": "",
  "unit": 6,

@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=yuck | TYPE=word | IPA=jʌk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "yak",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707972.7696326,
+   "sec": 0.74,
+   "check": {
+    "transcript": "yuck",
+    "type": "word",
+    "ipa": "jʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yuck | TYPE=word | IPA=jʌk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:00",
+ "applied": "2026-11-03 22:11",
  "text_edited": false,
  "error": "",
  "unit": 10,

@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=shh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
    },
    "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Shh!",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793708082.5597997,
+   "sec": 0.62,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
  "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:54",
+ "applied": "2026-11-03 21:50",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -99,5 +116,6 @@
  "text": "Shh!",
  "voice": "Kore",
  "who": "grumble",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

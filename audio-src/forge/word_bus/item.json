@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=bus | TYPE=word | IPA=bʌs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "bus",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707684.461558,
+   "sec": 0.84,
+   "check": {
+    "transcript": "bus",
+    "type": "word",
+    "ipa": "bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bus | TYPE=word | IPA=bʌs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:23",
+ "applied": "2026-11-03 21:40",
  "text_edited": false,
  "error": "",
  "unit": 1,

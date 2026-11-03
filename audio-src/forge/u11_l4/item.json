@@ -84,11 +84,28 @@
     "raw": "TRANSCRIPT=candy | TYPE=word | IPA=ˈkændi | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Candy! We like candy!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708577.5163426,
+   "sec": 2.23,
+   "check": {
+    "transcript": "Candy. We like candy.",
+    "type": "sentence",
+    "ipa": "ˈkændi. wi laɪk ˈkændi.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Candy. We like candy. | TYPE=sentence | IPA=ˈkændi. wi laɪk ˈkændi. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-11-03 18:59",
+ "applied": "2026-11-03 22:02",
  "text_edited": false,
  "error": "",
  "unit": 11,
@@ -99,5 +116,6 @@
  "text": "Candy! We like candy!",
  "voice": "Puck",
  "who": "both",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

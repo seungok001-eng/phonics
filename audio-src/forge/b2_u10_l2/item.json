@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Look, a bug! | TYPE=sentence | IPA=lʊk ə bʌɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Look! A bug!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708934.3839011,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Look, a bug!",
+    "type": "sentence",
+    "ipa": "lʊk, ə bʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a bug! | TYPE=sentence | IPA=lʊk, ə bʌɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:07",
+ "applied": "2026-11-03 22:09",
  "text_edited": false,
  "error": "",
  "unit": 10,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=tin | TYPE=word | IPA=tɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "tin",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708666.96801,
+   "sec": 0.84,
+   "check": {
+    "transcript": "tin",
+    "type": "word",
+    "ipa": "tɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tin | TYPE=word | IPA=tɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:11",
+ "applied": "2026-11-03 22:03",
  "text_edited": false,
  "error": "",
  "unit": 6,

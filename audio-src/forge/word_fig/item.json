@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=fig | TYPE=word | IPA=fɪg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "fig",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708650.995201,
+   "sec": 0.84,
+   "check": {
+    "transcript": "fig",
+    "type": "word",
+    "ipa": "fɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fig | TYPE=word | IPA=fɪg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:11",
+ "applied": "2026-11-03 22:03",
  "text_edited": false,
  "error": "",
  "unit": 6,

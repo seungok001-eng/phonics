@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=10 | TYPE=word | IPA=tɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "ten",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708432.899102,
+   "sec": 0.98,
+   "check": {
+    "transcript": "10",
+    "type": "word",
+    "ipa": "tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=10 | TYPE=word | IPA=tɛn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:22",
+ "applied": "2026-11-03 22:12",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -47,5 +64,6 @@
  "title": "새 단어(첫소리 맞히기) ten",
  "text": "ten",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

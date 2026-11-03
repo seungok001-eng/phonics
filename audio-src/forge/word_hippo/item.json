@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=people | TYPE=word | IPA=ˈpipəl | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "hippo",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707762.4387834,
+   "sec": 1.02,
+   "check": {
+    "transcript": "hipo",
+    "type": "word",
+    "ipa": "ˈhi.po",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hipo | TYPE=word | IPA=ˈhi.po | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:59",
+ "applied": "2026-11-03 22:11",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -64,5 +81,6 @@
  "title": "단어 hippo · 하마",
  "text": "hippo",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

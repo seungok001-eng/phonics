@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=ant | TYPE=word | IPA=ænt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "ant",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708087.6580622,
+   "sec": 0.79,
+   "check": {
+    "transcript": "ents",
+    "type": "word",
+    "ipa": "ɛnts",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ents | TYPE=word | IPA=ɛnts | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 21:15",
+ "applied": "2026-11-03 21:50",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -48,5 +65,5 @@
  "text": "ant",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

@@ -67,11 +67,45 @@
     "raw": "TRANSCRIPT=A, B, C | TYPE=letter-name | IPA=eɪ, biː, siː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A, B, C...",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708585.4607267,
+   "sec": 1.49,
+   "check": {
+    "transcript": "A B C",
+    "type": "sentence",
+    "ipa": "eɪ biː siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A B C | TYPE=sentence | IPA=eɪ biː siː | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "A, B, C...",
+   "voice": "글자 이름 녹음 이어 붙임 ↑",
+   "how": "el",
+   "created": 1793708586.1330962,
+   "sec": 1.88,
+   "check": {
+    "transcript": "a",
+    "type": "letter-name",
+    "ipa": "eɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a | TYPE=letter-name | IPA=eɪ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 22:02",
  "text_edited": false,
  "error": "",
  "unit": 12,
@@ -82,5 +116,6 @@
  "text": "A, B, C...",
  "voice": "Kore",
  "who": "both",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

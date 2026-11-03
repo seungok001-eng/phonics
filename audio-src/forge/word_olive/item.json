@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=olive | TYPE=word | IPA=ˈɑlɪv | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "olive",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707852.5359094,
+   "sec": 0.74,
+   "check": {
+    "transcript": "olive",
+    "type": "word",
+    "ipa": "ˈɑlɪv",
+    "note": "ok",
+    "raw": "TRANSCRIPT=olive | TYPE=word | IPA=ˈɑlɪv | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:00",
+ "applied": "2026-11-03 21:44",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -64,5 +81,6 @@
  "title": "단어 olive · 올리브",
  "text": "olive",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

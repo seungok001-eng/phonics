@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=a volcano | TYPE=sentence | IPA=ə vɒlˈkeɪnəʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A volcano!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708511.0076292,
+   "sec": 1.25,
+   "check": {
+    "transcript": "un volcán",
+    "type": "sentence",
+    "ipa": "un bolˈkan",
+    "note": "ok",
+    "raw": "TRANSCRIPT=un volcán | TYPE=sentence | IPA=un bolˈkan | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:56",
+ "applied": "2026-11-03 22:00",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -65,5 +82,6 @@
  "text": "A volcano!",
  "voice": "Kore",
  "who": "hedgie",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

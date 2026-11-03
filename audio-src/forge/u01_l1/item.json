@@ -84,11 +84,45 @@
     "raw": "TRANSCRIPT=I see a bus! | TYPE=sentence | IPA=aɪ siː ə bʌs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "I see a bus!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793707628.0527236,
+   "sec": 1.16,
+   "check": {
+    "transcript": "I see a buzz!",
+    "type": "sentence",
+    "ipa": "aɪ siː ə bʌz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a buzz! | TYPE=sentence | IPA=aɪ siː ə bʌz | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "I see a bus!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708124.9446757,
+   "sec": 1.11,
+   "check": {
+    "transcript": "I see a bus!",
+    "type": "sentence",
+    "ipa": "aɪ siː ə bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a bus! | TYPE=sentence | IPA=aɪ siː ə bʌs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 5,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-11-03 18:23",
+ "applied": "2026-11-03 21:51",
  "text_edited": false,
  "error": "",
  "unit": 1,

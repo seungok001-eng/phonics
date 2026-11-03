@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "milk",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707819.4988954,
+   "sec": 0.93,
+   "check": {
+    "transcript": "milk",
+    "type": "word",
+    "ipa": "mɪlk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=milk | TYPE=word | IPA=mɪlk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:59",
+ "applied": "2026-11-03 21:44",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -47,5 +64,6 @@
  "title": "단어 milk · 우유",
  "text": "milk",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

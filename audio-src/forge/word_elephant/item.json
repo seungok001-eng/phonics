@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=elephant | TYPE=word | IPA=ˈɛlɪfənt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "elephant",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707297.3841326,
+   "sec": 0.84,
+   "check": {
+    "transcript": "elephant",
+    "type": "word",
+    "ipa": "ˈɛləfənt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=elephant | TYPE=word | IPA=ˈɛləfənt | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "elephant",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708144.8176281,
+   "sec": 0.93,
+   "check": {
+    "transcript": "elephant",
+    "type": "word",
+    "ipa": "ˈɛləfənt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=elephant | TYPE=word | IPA=ˈɛləfənt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:56",
+ "applied": "2026-11-03 21:51",
  "text_edited": false,
  "error": "",
  "unit": 2,

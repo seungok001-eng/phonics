@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=cot | TYPE=word | IPA=kɑt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "cot",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708704.0979598,
+   "sec": 0.79,
+   "check": {
+    "transcript": "caught",
+    "type": "word",
+    "ipa": "kɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=caught | TYPE=word | IPA=kɑt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:13",
+ "applied": "2026-11-03 22:04",
  "text_edited": false,
  "error": "",
  "unit": 8,

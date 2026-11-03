@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=cup | TYPE=word | IPA=kʌp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "cap",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708107.6763833,
+   "sec": 0.88,
+   "check": {
+    "transcript": "cap",
+    "type": "word",
+    "ipa": "kæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cap | TYPE=word | IPA=kæp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:22",
+ "applied": "2026-11-03 21:50",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -47,5 +64,6 @@
  "title": "새 단어(첫소리 맞히기) cap",
  "text": "cap",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

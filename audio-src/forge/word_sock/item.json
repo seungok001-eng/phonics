@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=sock | TYPE=word | IPA=sɑk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "sock",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708415.8232336,
+   "sec": 0.84,
+   "check": {
+    "transcript": "sock",
+    "type": "word",
+    "ipa": "sɑk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sock | TYPE=word | IPA=sɑk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 21:13",
+ "applied": "2026-11-03 21:58",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -48,5 +65,5 @@
  "text": "sock",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

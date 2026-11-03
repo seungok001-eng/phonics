@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=mop | TYPE=word | IPA=mɑp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "mop",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708321.7668118,
+   "sec": 0.84,
+   "check": {
+    "transcript": "mop",
+    "type": "word",
+    "ipa": "mɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mop | TYPE=word | IPA=mɑp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:13",
+ "applied": "2026-11-03 21:55",
  "text_edited": false,
  "error": "",
  "unit": 6,

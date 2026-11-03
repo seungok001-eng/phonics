@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=The turtle is in the soup! | TYPE=sentence | IPA=ðə tɜɹtəl ɪz ɪn ðə sup | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The turtle is in the soup!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708465.9813917,
+   "sec": 1.95,
+   "check": {
+    "transcript": "Oh, the turtle is in the soup!",
+    "type": "sentence",
+    "ipa": "oʊ ðə ˈtɜːtəl ɪz ɪn ðə suːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh, the turtle is in the soup! | TYPE=sentence | IPA=oʊ ðə ˈtɜːtəl ɪz ɪn ðə suːp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:56",
+ "applied": "2026-11-03 21:59",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -65,5 +82,6 @@
  "text": "The turtle is in the soup!",
  "voice": "Puck",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

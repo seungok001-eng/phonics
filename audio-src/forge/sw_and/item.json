@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=and | TYPE=word | IPA=ænd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "and",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708021.5990355,
+   "sec": 0.74,
+   "check": {
+    "transcript": "and",
+    "type": "word",
+    "ipa": "ænd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=and | TYPE=word | IPA=ænd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:15",
+ "applied": "2026-11-03 21:48",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -47,5 +64,6 @@
  "title": "사이트워드 and · 그리고",
  "text": "and",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

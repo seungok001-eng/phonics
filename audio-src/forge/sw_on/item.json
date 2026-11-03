@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=on | TYPE=word | IPA=ɒn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "on",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708004.5543694,
+   "sec": 0.7,
+   "check": {
+    "transcript": "on",
+    "type": "word",
+    "ipa": "ɒn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=on | TYPE=word | IPA=ɒn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:14",
+ "applied": "2026-11-03 21:48",
  "text_edited": false,
  "error": "",
  "unit": 2,

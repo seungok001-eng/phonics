@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɒlˈkeɪnəʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "volcano",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707939.7348845,
+   "sec": 1.21,
+   "check": {
+    "transcript": "volcano",
+    "type": "word",
+    "ipa": "vɑlˈkeɪnoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɑlˈkeɪnoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:01",
+ "applied": "2026-11-03 21:47",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -47,5 +64,6 @@
  "title": "단어 volcano · 화산",
  "text": "volcano",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

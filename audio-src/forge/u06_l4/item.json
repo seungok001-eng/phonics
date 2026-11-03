@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=No, an octopus. | TYPE=sentence | IPA=noʊ ən ˈɑktəpəs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "No! An octopus!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708358.8762956,
+   "sec": 1.86,
+   "check": {
+    "transcript": "No, an octopus!",
+    "type": "sentence",
+    "ipa": "noʊ ən ˈɑktəpʊs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=No, an octopus! | TYPE=sentence | IPA=noʊ ən ˈɑktəpʊs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:56",
+ "applied": "2026-11-03 21:56",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -48,5 +65,6 @@
  "text": "No! An octopus!",
  "voice": "Kore",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

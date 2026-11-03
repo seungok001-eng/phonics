@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=ox | TYPE=word | IPA=/ɒks/ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "ox",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708489.7909706,
+   "sec": 0.74,
+   "check": {
+    "transcript": "box",
+    "type": "word",
+    "ipa": "bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=box | TYPE=word | IPA=bɑks | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 19:13",
+ "applied": "2026-11-03 22:00",
  "text_edited": false,
  "error": "",
  "unit": 9,

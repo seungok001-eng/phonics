@@ -84,11 +84,62 @@
     "raw": "TRANSCRIPT=soup | TYPE=word | IPA=sup | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "soup",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707902.6909802,
+   "sec": 1.11,
+   "check": {
+    "transcript": "soupy",
+    "type": "word",
+    "ipa": "ˈsuːpi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=soupy | TYPE=word | IPA=ˈsuːpi | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "soup",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793712234.385765,
+   "sec": 1.16,
+   "check": {
+    "transcript": "soupy",
+    "type": "word",
+    "ipa": "ˈsuːpi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=soupy | TYPE=word | IPA=ˈsuːpi | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 8,
+   "file": "cand_8.wav",
+   "text": "soup",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793712234.4764497,
+   "sec": 1.02,
+   "check": {
+    "transcript": "soup",
+    "type": "word",
+    "ipa": "sup",
+    "note": "ok",
+    "raw": "TRANSCRIPT=soup | TYPE=word | IPA=sup | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 8,
  "final": "final.mp3",
- "applied": "2026-11-03 19:01",
+ "applied": "2026-11-03 22:24",
  "text_edited": false,
  "error": "",
  "unit": 8,

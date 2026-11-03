@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=Kermit can do it. | TYPE=sentence | IPA=ˈkɜrmɪt kæn du ɪt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Grumble can do it!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708975.6636753,
+   "sec": 1.67,
+   "check": {
+    "transcript": "Nobody can do it.",
+    "type": "sentence",
+    "ipa": "ˈnoʊbədi kən du ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Nobody can do it. | TYPE=sentence | IPA=ˈnoʊbədi kən du ɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-03 19:08",
+ "applied": "2026-11-03 22:10",
  "text_edited": false,
  "error": "",
  "unit": 12,

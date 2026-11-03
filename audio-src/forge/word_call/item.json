@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=call | TYPE=word | IPA=kɔːl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "call",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707281.3647888,
+   "sec": 0.74,
+   "check": {
+    "transcript": "call",
+    "type": "word",
+    "ipa": "kɔl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=call | TYPE=word | IPA=kɔl | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "call",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708095.8439784,
+   "sec": 0.74,
+   "check": {
+    "transcript": "call",
+    "type": "word",
+    "ipa": "kɔl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=call | TYPE=word | IPA=kɔl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:56",
+ "applied": "2026-11-03 21:50",
  "text_edited": false,
  "error": "",
  "unit": 1,

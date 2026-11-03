@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=this | TYPE=word | IPA=ðɪs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "this",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708062.825258,
+   "sec": 0.79,
+   "check": {
+    "transcript": "this",
+    "type": "word",
+    "ipa": "ðɪs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=this | TYPE=word | IPA=ðɪs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:16",
+ "applied": "2026-11-03 21:49",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -47,5 +64,6 @@
  "title": "사이트워드 this · 이것",
  "text": "this",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=cat pig fox | TYPE=sentence | IPA=kæt pɪg fɑks | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Cat! Pig! Fox!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793708967.841445,
+   "sec": 1.86,
+   "check": {
+    "transcript": "Cat, pig, fox",
+    "type": "sentence",
+    "ipa": "kæt pɪg fɒks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Cat, pig, fox | TYPE=sentence | IPA=kæt pɪg fɒks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:08",
+ "applied": "2026-11-03 22:10",
  "text_edited": false,
  "error": "",
  "unit": 12,

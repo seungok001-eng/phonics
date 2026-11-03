@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=rip | TYPE=word | IPA=rɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "rip",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708679.0536249,
+   "sec": 0.84,
+   "check": {
+    "transcript": "rip",
+    "type": "word",
+    "ipa": "ɹɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rip | TYPE=word | IPA=ɹɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:12",
+ "applied": "2026-11-03 22:04",
  "text_edited": false,
  "error": "",
  "unit": 7,

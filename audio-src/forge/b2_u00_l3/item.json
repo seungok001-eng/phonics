@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=click clack iron beads | TYPE=sentence | IPA=klɪk klæk ˈaɪɚn bidz | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Click-clack! I am Beads.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793708774.155324,
+   "sec": 2.04,
+   "check": {
+    "transcript": "Click-clack iron beads.",
+    "type": "sentence",
+    "ipa": "klɪk klæk ˈaɪərn biːdz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click-clack iron beads. | TYPE=sentence | IPA=klɪk klæk ˈaɪərn biːdz | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:19",
+ "applied": "2026-11-03 22:14",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -65,5 +82,6 @@
  "text": "Click-clack! I am Beads.",
  "voice": "Puck",
  "who": "narrator",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

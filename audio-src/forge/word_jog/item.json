@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=jog | TYPE=word | IPA=dʒɔɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "jog",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707344.4024208,
+   "sec": 0.74,
+   "check": {
+    "transcript": "jog",
+    "type": "word",
+    "ipa": "dʒɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jog | TYPE=word | IPA=dʒɒɡ | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "jog",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708267.7689989,
+   "sec": 1.02,
+   "check": {
+    "transcript": "jog",
+    "type": "word",
+    "ipa": "ʤɑɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jog | TYPE=word | IPA=ʤɑɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:57",
+ "applied": "2026-11-03 21:54",
  "text_edited": false,
  "error": "",
  "unit": 4,

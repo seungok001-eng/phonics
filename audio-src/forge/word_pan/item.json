@@ -50,11 +50,96 @@
     "raw": "TRANSCRIPT=happen | TYPE=word | IPA=ˈhæpən | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "pan",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708605.9651845,
+   "sec": 0.88,
+   "check": {
+    "transcript": "pun",
+    "type": "word",
+    "ipa": "pʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pun | TYPE=word | IPA=pʌn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "pan",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793711585.4269214,
+   "sec": 1.11,
+   "check": {
+    "transcript": "pan",
+    "type": "word",
+    "ipa": "pæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pan | TYPE=word | IPA=pæn | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "pan",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793711773.4423757,
+   "sec": 0.93,
+   "check": {
+    "transcript": "pun",
+    "type": "word",
+    "ipa": "pʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pun | TYPE=word | IPA=pʌn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "pan",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793711773.529241,
+   "sec": 1.02,
+   "check": {
+    "transcript": "Pan",
+    "type": "word",
+    "ipa": "pæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Pan | TYPE=word | IPA=pæn | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 8,
+   "file": "cand_8.wav",
+   "text": "pan",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793711774.44769,
+   "sec": 1.07,
+   "check": {
+    "transcript": "pan",
+    "type": "word",
+    "ipa": "pæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pan | TYPE=word | IPA=pæn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-11-03 19:21",
+ "applied": "2026-11-03 22:17",
  "text_edited": false,
  "error": "",
  "unit": 1,

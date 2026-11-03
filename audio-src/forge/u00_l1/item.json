@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=a little door | TYPE=sentence | IPA=ə lɪɾəl dɔɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "A little door!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708070.8601885,
+   "sec": 1.53,
+   "check": {
+    "transcript": "A little door!",
+    "type": "sentence",
+    "ipa": "ə lɪtəl dɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A little door! | TYPE=sentence | IPA=ə lɪtəl dɔɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-11-03 18:54",
+ "applied": "2026-11-03 21:50",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -116,5 +133,6 @@
  "text": "A little door!",
  "voice": "Kore",
  "who": "bun",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

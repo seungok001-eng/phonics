@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "bed",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707692.5646408,
+   "sec": 0.79,
+   "check": {
+    "transcript": "bed",
+    "type": "word",
+    "ipa": "bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=bed | TYPE=word | IPA=bɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:10",
+ "applied": "2026-11-03 21:41",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -64,5 +81,6 @@
  "title": "단어 bed · 침대",
  "text": "bed",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

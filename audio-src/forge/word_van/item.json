@@ -50,11 +50,45 @@
     "raw": "TRANSCRIPT=fun | TYPE=word | IPA=fʌn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "van",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707416.4907503,
+   "sec": 0.7,
+   "check": {
+    "transcript": "fun",
+    "type": "word",
+    "ipa": "fʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fun | TYPE=word | IPA=fʌn | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "van",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708470.030141,
+   "sec": 1.02,
+   "check": {
+    "transcript": "phone",
+    "type": "word",
+    "ipa": "fəʊn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=phone | TYPE=word | IPA=fəʊn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-06 23:42",
+ "applied": "2026-11-03 22:12",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -65,5 +99,5 @@
  "text": "van",
  "voice": "Kore",
  "book": 1,
- "busy": 1
+ "busy": 0
 }

@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=Vase | TYPE=word | IPA=veɪz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "vase",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707420.560626,
+   "sec": 0.74,
+   "check": {
+    "transcript": "Vase",
+    "type": "word",
+    "ipa": "veɪs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Vase | TYPE=word | IPA=veɪs | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "vase",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708481.9305995,
+   "sec": 0.93,
+   "check": {
+    "transcript": "vásé",
+    "type": "word",
+    "ipa": "vɑːseɪ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vásé | TYPE=word | IPA=vɑːseɪ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-11-02 17:58",
+ "applied": "2026-11-03 21:59",
  "text_edited": false,
  "error": "",
  "unit": 9,

@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=The pig can dig. | TYPE=sentence | IPA=ðə pɪg kæn dɪg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The pig can dig.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793708864.182917,
+   "sec": 1.49,
+   "check": {
+    "transcript": "The pig can dig.",
+    "type": "sentence",
+    "ipa": "ðə pɪɡ kæn dɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig can dig. | TYPE=sentence | IPA=ðə pɪɡ kæn dɪɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:05",
+ "applied": "2026-11-03 22:07",
  "text_edited": false,
  "error": "",
  "unit": 6,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=The cap is on the dog. | TYPE=sentence | IPA=ðə ˈkæp ɪz ɑn ðə ˈdɔg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The cap is on the dog!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708811.3187501,
+   "sec": 1.72,
+   "check": {
+    "transcript": "The cat is on the dog.",
+    "type": "sentence",
+    "ipa": "ðə kæt ɪz ɑn ðə dɑg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cat is on the dog. | TYPE=sentence | IPA=ðə kæt ɪz ɑn ðə dɑg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:05",
+ "applied": "2026-11-03 22:06",
  "text_edited": false,
  "error": "",
  "unit": 2,

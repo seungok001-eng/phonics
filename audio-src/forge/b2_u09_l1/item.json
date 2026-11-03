@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=The fox has a box. | TYPE=sentence | IPA=ðə fɑks hæz ə bɑks | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The fox has a box.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793708914.343074,
+   "sec": 1.67,
+   "check": {
+    "transcript": "The fox has a box.",
+    "type": "sentence",
+    "ipa": "ðə fɑks həz ə bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The fox has a box. | TYPE=sentence | IPA=ðə fɑks həz ə bɑks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 19:59",
+ "applied": "2026-11-03 22:09",
  "text_edited": false,
  "error": "",
  "unit": 9,

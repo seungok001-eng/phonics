@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=quiz | TYPE=word | IPA=kwɪz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "quiz",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707390.5382812,
+   "sec": 0.74,
+   "check": {
+    "transcript": "quiz",
+    "type": "word",
+    "ipa": "kwɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quiz | TYPE=word | IPA=kwɪz | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "quiz",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708366.7927353,
+   "sec": 0.74,
+   "check": {
+    "transcript": "quiz",
+    "type": "word",
+    "ipa": "kwɪz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quiz | TYPE=word | IPA=kwɪz | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:58",
+ "applied": "2026-11-03 21:57",
  "text_edited": false,
  "error": "",
  "unit": 7,

@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=doll | TYPE=word | IPA=dɔl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "doll",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707717.5971935,
+   "sec": 0.88,
+   "check": {
+    "transcript": "doll",
+    "type": "word",
+    "ipa": "dɑl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=doll | TYPE=word | IPA=dɑl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 18:57",
+ "applied": "2026-11-03 21:41",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -47,5 +64,6 @@
  "title": "단어 doll · 인형",
  "text": "doll",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

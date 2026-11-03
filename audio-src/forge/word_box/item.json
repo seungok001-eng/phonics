@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=box | TYPE=word | IPA=bɒks | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "box",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793707959.5323322,
+   "sec": 0.93,
+   "check": {
+    "transcript": "box",
+    "type": "word",
+    "ipa": "bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=box | TYPE=word | IPA=bɑks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-03 19:13",
+ "applied": "2026-11-03 21:47",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -47,5 +64,6 @@
  "title": "단어 box · 상자",
  "text": "box",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

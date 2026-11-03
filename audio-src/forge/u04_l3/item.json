@@ -101,11 +101,28 @@
     "raw": "TRANSCRIPT=Jump Man and Hedgie | TYPE=sentence | IPA=ʤʌmp mæn ænd hɛʤi | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "Jump, Bun and Hedgie!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793708288.9044685,
+   "sec": 1.81,
+   "check": {
+    "transcript": "Jump, Bun, and Hedgy!",
+    "type": "sentence",
+    "ipa": "ˈdʒʌmp ˈbʌn ænd ˈhɛdʒi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Jump, Bun, and Hedgy! | TYPE=sentence | IPA=ˈdʒʌmp ˈbʌn ænd ˈhɛdʒi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-11-03 18:55",
+ "applied": "2026-11-03 21:55",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -116,5 +133,6 @@
  "text": "Jump, Bun and Hedgie!",
  "voice": "Leda",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

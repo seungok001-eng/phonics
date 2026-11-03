@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=game | TYPE=word | IPA=ɡeɪm | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "game",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793707316.4300117,
+   "sec": 0.74,
+   "check": {
+    "transcript": "game",
+    "type": "word",
+    "ipa": "ˈɡeɪm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=game | TYPE=word | IPA=ˈɡeɪm | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "game",
+   "voice": "Sarah",
+   "how": "el",
+   "created": 1793708201.7264838,
+   "sec": 0.79,
+   "check": {
+    "transcript": "game",
+    "type": "word",
+    "ipa": "ˈɡeɪm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=game | TYPE=word | IPA=ˈɡeɪm | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-11-02 17:56",
+ "applied": "2026-11-03 21:53",
  "text_edited": false,
  "error": "",
  "unit": 3,

@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Hi Pip | TYPE=sentence | IPA=ˈhaɪ ˈpɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Hi, Pip!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793708074.727227,
+   "sec": 0.93,
+   "check": {
+    "transcript": "Hi Pip.",
+    "type": "sentence",
+    "ipa": "haɪ pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hi Pip. | TYPE=sentence | IPA=haɪ pɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:54",
+ "applied": "2026-11-03 21:50",
  "text_edited": false,
  "error": "",
  "unit": 0,
@@ -65,5 +82,6 @@
  "text": "Hi, Pip!",
  "voice": "Kore",
  "who": "hedgie",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

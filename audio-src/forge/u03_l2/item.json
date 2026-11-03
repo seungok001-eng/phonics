@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=a goat | TYPE=sentence | IPA=ə goʊt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A goat!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793708230.87301,
+   "sec": 1.3,
+   "check": {
+    "transcript": "A goat",
+    "type": "sentence",
+    "ipa": "ə goʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A goat | TYPE=sentence | IPA=ə goʊt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-11-03 18:55",
+ "applied": "2026-11-03 21:53",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -65,5 +82,6 @@
  "text": "A goat!",
  "voice": "Puck",
  "who": "bun",
- "book": 1
+ "book": 1,
+ "busy": 0
 }
