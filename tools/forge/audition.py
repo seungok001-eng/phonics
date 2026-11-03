@@ -363,3 +363,42 @@ def set_pitch(ch, pitch):
 
 def status():
     return {'busy': sum(_busy.values()), 'errors': list(_errors)}
+
+
+# ---------- 계정 확인 (키를 바꿨을 때) ----------
+def _picked():
+    """voices.json 에 골라 둔 목소리 전부 [(who, voice_id, name)]."""
+    out = []
+    for k, v in _voices_json().items():
+        if not isinstance(v, dict): continue
+        if v.get('voice_id'): out.append((k, v['voice_id'], v.get('name') or ''))
+        for x in v.get('voices') or []:
+            if x.get('voice_id'): out.append((k, x['voice_id'], x.get('name') or ''))
+    return out
+
+
+def check_account():
+    """계정 목소리 수 · 이번 달 글자 사용량(키에 User 읽기 권한이 있을 때만) · 골라 둔 목소리 중 이 계정에 없는 것."""
+    pool = {v['voice_id'] for v in el_pool(force=True)}
+    quota = None
+    try:
+        s = _el('/user/subscription'); used, lim = int(s.get('character_count') or 0), int(s.get('character_limit') or 0)
+        quota = {'used': used, 'limit': lim, 'left': max(0, lim - used)}
+    except RuntimeError: pass
+    missing = [{'who': w, 'voice_id': vid, 'name': nm} for w, vid, nm in _picked() if vid not in pool]
+    return {'voices': len(pool), 'quota': quota, 'missing': missing}
+
+
+def restore_missing():
+    """계정에 없는 골라 둔 목소리를 공개 라이브러리에서 같은 voice_id 로 찾아 계정에 넣는다."""
+    added, failed = [], []
+    for m in check_account()['missing']:
+        q = m['name'].split(' - ')[0].strip() or m['voice_id']
+        hit = next((v for v in el_search(q, n=30, language='') if v['voice_id'] == m['voice_id']), None)
+        if not hit: hit = next((v for v in el_search(m['name'], n=30, language='') if v['voice_id'] == m['voice_id']), None) if m['name'] else None
+        try:
+            if not hit or not hit.get('owner'): raise RuntimeError('라이브러리에서 못 찾음')
+            _el_add(hit['owner'], m['voice_id'], m['name'] or hit['name']); added.append(m['name'] or m['voice_id'])
+        except Exception as e:
+            failed.append(f"{m['who']} {m['name']}: {str(e)[:60]}")
+    return {'added': added, 'failed': failed}

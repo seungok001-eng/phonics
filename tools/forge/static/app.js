@@ -276,6 +276,11 @@ async function renderProgress() {
       <div class="row"><input id="sKey" type="password" placeholder="API 키 (비우면 그대로)" style="flex:1"><span class="hint">${s.gemini_key_set ? '저장됨 ' + (s.gemini_key_hint || '') : '없음'}</span>
         <button class="small" onclick="testGemini()">그림 연결 시험 (512px 한 장)</button><button class="small" onclick="testTts()">TTS 시험 ("apple")</button></div>
       <div id="sTestOut" class="hint" style="margin:4px 0"></div>
+      <h4>일레븐랩스 API (캐릭터 대사·해설·단어 목소리)</h4>
+      <p class="hint">elevenlabs.io → 프로필 → API Keys 에서 만든 키. 권한은 Text to Speech · Voices 읽기/쓰기 · User 읽기. 역시 <code>secrets.json</code> 에만 저장됩니다. 다른 계정의 키로 바꾸면 골라 둔 목소리가 그 계정에 없을 수 있어 "연결 시험"이 빠진 목소리를 알려 줍니다.</p>
+      <div class="row"><input id="sElKey" type="password" placeholder="일레븐랩스 API 키 (비우면 그대로)" style="flex:1"><span class="hint">${s.el_key_set ? '저장됨 ' + (s.el_key_hint || '') : '없음'}</span>
+        <button class="small" onclick="testEl()">연결 시험 (남은 글자·목소리 확인)</button></div>
+      <div id="sElOut" class="hint" style="margin:4px 0"></div>
       <div class="row">
         <div><label>그림 모델</label><select id="sGModel" onchange="$('sGPrice').textContent = '한 장당: ' + priceOf(this.value)">${P.gemini_models.map((m) => `<option value="${m.key}" ${m.key === s.gemini_model ? 'selected' : ''}>${esc(m.name)}</option>`).join('')}</select></div>
         <div><label>그림 크기</label><select id="sGSize"><option ${s.gemini_size === '512px' ? 'selected' : ''}>512px</option><option ${s.gemini_size === '1K' ? 'selected' : ''}>1K</option><option ${s.gemini_size === '2K' ? 'selected' : ''}>2K</option></select></div>
@@ -302,9 +307,22 @@ async function saveSettings() {
     $('sVariants').value.split('\n').forEach((line) => { const m = line.match(/^\s*([a-z])\s*:\s*(.+)$/i); if (m) variants[m[1].toLowerCase()] = m[2].split(',').map((x) => x.trim()).filter(Boolean); });
     await api('/api/settings', jsonOpt('PUT', { generator: $('sGen').value, max_inflight: +$('sInflight').value, auto_approve_ref: $('sAuto').checked, gemini_model: $('sGModel').value, gemini_size: $('sGSize').value,
       gemini_workers: +$('sGWorkers').value, tts_model: $('sTModel').value.trim(), check_model: $('sCModel').value.trim(), say_prefix: $('sPrefix').value, cut_ms: { plosive: +$('sCutP').value, other: +$('sCutO').value },
-      sound_variants: variants, gemini_key: $('sKey').value.trim() }));
+      sound_variants: variants, gemini_key: $('sKey').value.trim(), elevenlabs_key: $('sElKey').value.trim() }));
     toast('저장했습니다'); refresh(true);
   } catch (e) { toast(e.message, true); }
+}
+async function testEl() {
+  try {
+    if ($('sElKey').value.trim()) { await api('/api/settings', jsonOpt('PUT', { elevenlabs_key: $('sElKey').value.trim() })); $('sElKey').value = ''; }
+    $('sElOut').textContent = '일레븐랩스에 물어보는 중…';
+    const r = await api('/api/el/test', { method: 'POST' });
+    $('sElOut').innerHTML = `계정 목소리 ${r.voices}개 · ${r.quota ? `이번 달 ${r.quota.used.toLocaleString()} / ${r.quota.limit.toLocaleString()}자 씀 (남은 ${r.quota.left.toLocaleString()}자)` : '남은 글자 수는 키에 User 읽기 권한이 없어 못 봄'}`
+      + (r.missing.length ? `<br><span style="color:var(--bad)">이 계정에 없는 골라 둔 목소리: ${r.missing.map((m) => esc(m.who + ' ' + m.name)).join(', ')}</span> — <button class="small" onclick="elRestore()">라이브러리에서 찾아 넣기</button>` : '<br>골라 둔 목소리 전부 이 계정에 있습니다.');
+  } catch (e) { $('sElOut').textContent = '실패: ' + e.message; }
+}
+async function elRestore() {
+  try { const r = await api('/api/el/restore', { method: 'POST' }); toast(`넣음 ${r.added.length}개${r.failed.length ? ` · 못 찾음 ${r.failed.join(', ')}` : ''}`, !!r.failed.length); testEl(); }
+  catch (e) { toast(e.message, true); }
 }
 async function testGemini() {
   try {

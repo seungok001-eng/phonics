@@ -1043,6 +1043,7 @@ class H(BaseHTTPRequestHandler):
                 if p == '/api/settings':
                     d = dict(state['settings']); k = gemini_key()
                     d['gemini_key_set'] = bool(k); d['gemini_key_hint'] = (k[:6] + '…' + k[-4:]) if len(k) > 12 else ''
+                    e = el_key(); d['el_key_set'] = bool(e); d['el_key_hint'] = (e[:5] + '…' + e[-4:]) if len(e) > 12 else ''
                     return self.send_json(d)
                 if p == '/api/status': return self.send_json(status_view())
                 if p == '/api/items':
@@ -1072,7 +1073,10 @@ class H(BaseHTTPRequestHandler):
                         if k in body: state['settings'][k] = body[k]
                     if body.get('gemini_key'): state['secrets']['gemini_key'] = str(body['gemini_key']).strip(); save_secrets()
                     elif body.get('clear_key'): state['secrets']['gemini_key'] = ''; save_secrets()
-                    save_settings(); d = dict(state['settings']); d['gemini_key_set'] = bool(gemini_key()); return self.send_json(d)
+                    if body.get('elevenlabs_key'):   # 일레븐랩스 키 (화면에서 붙여넣기) — secrets.json 에만
+                        state['secrets']['elevenlabs_key'] = str(body['elevenlabs_key']).strip(); save_secrets()
+                        audition.setup(state['secrets']); audition._el_pool['t'] = 0; log('일레븐랩스 키 바꿈')
+                    save_settings(); d = dict(state['settings']); d['gemini_key_set'] = bool(gemini_key()); d['el_key_set'] = bool(el_key()); return self.send_json(d)
                 if len(parts) == 4 and parts[2] == 'items':
                     it = state['items'].get(parts[3])
                     if not it: return self.send_json({'error': '없는 항목'}, 404)
@@ -1134,6 +1138,15 @@ class H(BaseHTTPRequestHandler):
                     return self.send_json({'ok': True, 'url': '/audio/_test.wav?v=%d' % int(time.time()), 'tokens': tokens, 'sec': round(audio.duration(tp), 2)})
                 except Exception as e:
                     return self.send_json({'error': str(e)}, 400)
+            # ---- 일레븐랩스 계정 확인 (키를 바꿨을 때) ----
+            if p == '/api/el/test':
+                audition.setup(state['secrets']); self.body()
+                try: return self.send_json(audition.check_account())
+                except Exception as e: return self.send_json({'error': str(e)}, 400)
+            if p == '/api/el/restore':
+                audition.setup(state['secrets']); self.body()
+                try: return self.send_json(audition.restore_missing())
+                except Exception as e: return self.send_json({'error': str(e)}, 400)
             # ---- 목소리 오디션 ----
             if p.startswith('/api/audition/'):
                 audition.setup(state['secrets']); body = self.body_json(); ch = body.get('char') or ''; a = parts[3]
