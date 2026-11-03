@@ -1,0 +1,86 @@
+{
+  "_note": "3권(짝꿍 숲) 새 대본. 유닛 = 독립 4컷, 컷당 한 문장(그 유닛 짝꿍 소리 단어 + 사이트워드). 핌과 팜(twins)은 늘 붙어 다니는 쌍둥이 파랑새 친구로만. {TWINS} {BEADS} 사용 가능.",
+  "setting": "A frame from a 3D animated film set in a friendly storybook forest: tall rounded trees, a mossy path, a wooden footbridge over a stream, mushrooms and ferns, dappled soft light, limited palette of forest green, moss, warm brown and sky blue.",
+  "units": {
+    "0": {"title": "The Pair Forest", "guests": [], "twins": true, "panels": [
+      {"desc": "{PIP}, {BUN} and {HED} step out of the garden onto a forest path; tall trees arch overhead.", "hidden": [], "who": "bun", "text": "A forest!"},
+      {"desc": "Two tiny bluebirds, {TWINS}, sit side by side on one branch above the path, both opening their beaks at the same time.", "hidden": [], "who": "narrator", "text": "Hi! We are Pim and Pam."},
+      {"desc": "{TWINS} fly a loop together in perfect sync; {PIP} tries to follow and tumbles in the air; {BUN} and {HED} laugh.", "hidden": [], "who": "pip", "text": "Together!"},
+      {"desc": "{TWINS} land one on each of Pip's shoulders; the three birds grin; {BUN} and {HED} wave.", "hidden": [], "who": "both", "text": "Three birds!"}
+    ]},
+    "1": {"title": "Shh! The Fish", "guests": ["fish"], "grumble": true, "panels": [
+      {"desc": "By the forest stream, {HED} holds a white dish and {BUN} a toy ship; {fish} swims in the shallow water. A small shed stands behind them.", "hidden": ["dish", "ship", "shed"], "who": "narrator", "text": "She has a dish. He has a ship."},
+      {"desc": "{BUN} floats the ship on the stream; {fish} pushes the ship along with its nose; {PIP} rides on the ship.", "hidden": [], "who": "bun", "text": "The fish can push the ship!"},
+      {"desc": "The ship bumps the dish; a big splash; {HED} is soaked; a shell lands on his head.", "hidden": ["shell", "shop"], "who": "hedgie", "text": "Splash! A shell!"},
+      {"desc": "{GRUMBLE} pokes his head out of a hollow log with a finger on his lips; {fish} hides in the dish. {PIP}, {BUN} and {HED} freeze.", "hidden": [], "who": "grumble", "text": "Shh! The fish is in the dish."}
+    ]},
+    "2": {"title": "Lunch on the Bench", "guests": ["chimp"], "panels": [
+      {"desc": "{PIP}, {BUN} and {HED} sit on a wooden bench in the forest with a lunch box of chips; a chess board sits beside them.", "hidden": ["bench", "lunch", "chip", "chess"], "who": "narrator", "text": "They have lunch on the bench."},
+      {"desc": "{chimp} swings down from a branch and grabs a chip, chomping it; {HED} covers the box.", "hidden": ["chop"], "who": "hedgie", "text": "A chimp! It was my chip!"},
+      {"desc": "{chimp} rubs its chin thinking, then offers {HED} a shiny chess piece in return. {BUN} smiles.", "hidden": ["chin"], "who": "bun", "text": "Chips for chess?"},
+      {"desc": "{chimp} and {HED} play chess on the bench; {PIP} and {BUN} share the chips; everyone is happy.", "hidden": [], "who": "pip", "text": "They play chess. Munch, munch!"}
+    ]},
+    "3": {"title": "The Thin Path", "guests": ["moth"], "panels": [
+      {"desc": "A very thin forest path between two big rocks; {HED} is too round to fit; {PIP} and {BUN} are through already.", "hidden": ["thin", "path"], "who": "narrator", "text": "This path is thin."},
+      {"desc": "{HED} pushes with his thumb against the rock; {BUN} pulls his paw; {PIP} pushes from behind.", "hidden": ["thumb"], "who": "bun", "text": "Push with that thumb!"},
+      {"desc": "{HED} pops through and rolls into a shallow mud bath puddle with a splash; {moth} flutters up.", "hidden": ["bath", "moth"], "who": "hedgie", "text": "A bath! And a moth!"},
+      {"desc": "{HED} sits muddy and grinning; {moth} rests on his nose; {PIP} and {BUN} laugh.", "hidden": [], "who": "pip", "text": "This moth likes that bath!"}
+    ]},
+    "4": {"title": "The Duck King's Ring", "guests": ["duck"], "panels": [
+      {"desc": "{duck} wears a small golden crown and looks under a rock for something; {PIP}, {BUN} and {HED} come to help. A sock and a lock lie on the path.", "hidden": ["duck", "rock", "sock", "lock"], "who": "narrator", "text": "What are you doing, King Duck?"},
+      {"desc": "{duck} points at his wing and then at the ground: a ring is missing. {HED} looks closely.", "hidden": ["ring", "wing"], "who": "hedgie", "text": "A ring? Where is the ring?"},
+      {"desc": "{PIP} sings loudly from a branch; birds sing back from the trees; a crow flies by with something shiny.", "hidden": ["song", "sing"], "who": "pip", "text": "Sing! Sing a song!"},
+      {"desc": "A small bird drops the golden ring onto the duck king's wing; {duck} dances; {BUN} and {HED} clap.", "hidden": ["king"], "who": "both", "text": "The ring is on the wing!"}
+    ]},
+    "5": {"title": "Pip's First Pair", "guests": ["fish", "duck"], "twins": true, "panels": [
+      {"desc": "{TWINS} sit on a log with {PIP} between them; {BUN} and {HED} watch from the grass.", "hidden": [], "who": "narrator", "text": "Pim and Pam sit with Pip."},
+      {"desc": "{TWINS} open their beaks together, making a quiet hushing shape; {PIP} copies with its wing on its beak.", "hidden": [], "who": "both", "text": "Sh... sh... sh..."},
+      {"desc": "{PIP} points at the stream where {fish} jumps and shouts; {duck} with a crown looks over.", "hidden": ["fish"], "who": "pip", "text": "Fish! Shh, fish!"},
+      {"desc": "{TWINS}, {BUN} and {HED} cheer; {duck} bows to {PIP}; the fish splashes happily.", "hidden": [], "who": "both", "text": "Pip can say fish!"}
+    ]},
+    "6": {"title": "The Black Block", "guests": ["clam"], "panels": [
+      {"desc": "{BUN} stacks colored wooden blocks on a tree stump; the top one is a black block; a clock hangs on the tree. A flag flutters on a stick.", "hidden": ["block", "black", "clock", "flag"], "who": "narrator", "text": "Here is a black block."},
+      {"desc": "{HED} claps; the stack wobbles; {PIP} flaps to hold it.", "hidden": ["clap", "flip"], "who": "hedgie", "text": "Clap! Oh no, it flips!"},
+      {"desc": "The black block falls into the stream and lands on {clam}, which snaps its shell shut on it.", "hidden": ["clam", "clip"], "who": "bun", "text": "The clam has the block!"},
+      {"desc": "{clam} opens with the black block inside like a pearl; {PIP}, {BUN} and {HED} peer in, delighted.", "hidden": [], "who": "pip", "text": "There it is!"}
+    ]},
+    "7": {"title": "The Crab and the Crib", "guests": ["crab"], "panels": [
+      {"desc": "{crab} sits in a tiny wooden crib by the stream, crying; {PIP}, {BUN} and {HED} tiptoe up. A brick path leads to it.", "hidden": ["crab", "crib", "brick"], "who": "narrator", "text": "A crab is in the crib."},
+      {"desc": "{BUN} plays a drum gently; {crab} stops crying and listens. {HED} holds a brush.", "hidden": ["drum", "brush"], "who": "bun", "text": "A drum for the crab."},
+      {"desc": "{HED} brushes the crab's shell; the crab smiles; there is a crack in the crib's rail.", "hidden": ["crack"], "who": "hedgie", "text": "Brush, brush. Oh, a crack!"},
+      {"desc": "{PIP} ties a little dress of leaves around the crib rail to fix the crack; {crab} sleeps; everyone whispers.", "hidden": ["dress"], "who": "pip", "text": "The crab sleeps with the drum."}
+    ]},
+    "8": {"title": "Snack on the Swing", "guests": [], "grumble": true, "panels": [
+      {"desc": "A rope swing hangs from a big tree; {HED} sits on it holding a snack bag; {PIP} and {BUN} push.", "hidden": ["swing", "snack"], "who": "narrator", "text": "One snack on one swing."},
+      {"desc": "{BUN} pushes hard; the swing flies high; the snack bag spills; a stick and a stack of crackers fly out.", "hidden": ["stick", "stack"], "who": "hedgie", "text": "Two... two... stop!"},
+      {"desc": "Crackers rain down into the stream; {GRUMBLE} below sniffs the air; a spot of jam lands on his nose.", "hidden": ["sniff", "spot", "spill"], "who": "grumble", "text": "Sniff, sniff! A snack?"},
+      {"desc": "{GRUMBLE} swims in the stream catching crackers; {PIP}, {BUN} and {HED} laugh from the swing.", "hidden": ["swim"], "who": "pip", "text": "Grumble can swim for one snack!"}
+    ]},
+    "9": {"title": "The Chimp's Camp", "guests": ["chimp", "ant"], "panels": [
+      {"desc": "{chimp} has set up a camp tent by the pond in the forest; a lamp glows; {PIP}, {BUN} and {HED} arrive with a plant.", "hidden": ["tent", "lamp", "pond", "plant", "chimp"], "who": "narrator", "text": "The chimp said, \"Camp here!\""},
+      {"desc": "{ant} carries a stamp into the tent; a line of ants follows across the sand; {HED} points.", "hidden": ["ant", "stamp", "sand"], "who": "hedgie", "text": "Ants in the tent!"},
+      {"desc": "{chimp} hands the ants a chest of crumbs; the ants nest in a vest on the ground; {BUN} laughs.", "hidden": ["chest", "nest", "vest", "hand"], "who": "bun", "text": "What do ants do? They eat!"},
+      {"desc": "Night: everyone sleeps in the tent by the lamp; the ants sleep in the vest; {PIP} sleeps on the chimp's head.", "hidden": [], "who": "pip", "text": "The camp is the best."}
+    ]},
+    "10": {"title": "The Last Door", "guests": ["duck"], "twins": true, "panels": [
+      {"desc": "At the end of the forest path stands a tall wooden door; {PIP}, {BUN}, {HED} and {TWINS} look up at it. A whisk and a quilt lie on a bench.", "hidden": ["whisk", "quilt"], "who": "narrator", "text": "Who is at the door?"},
+      {"desc": "{duck} with a crown pops out from behind the door with a loud quack; everyone jumps.", "hidden": ["quack"], "who": "bun", "text": "Quack! Where did you come from?"},
+      {"desc": "{duck} opens the door quickly; behind it is a castle on a hill, far away. {TWINS} gasp together.", "hidden": ["quick"], "who": "both", "text": "Quick! Look!"},
+      {"desc": "Everyone walks through the door toward the castle; {PIP} waves goodbye to the forest; a quill feather floats down.", "hidden": ["quill", "whip"], "who": "pip", "text": "Where? There! A castle!"}
+    ]},
+    "11": {"title": "The Forest Party", "guests": ["fish", "chimp", "duck", "crab"], "twins": true, "grumble": true, "panels": [
+      {"desc": "Lanterns in the forest trees; a long table on the footbridge; {PIP}, {BUN}, {HED} and {TWINS} set out a dish, chips and a drum.", "hidden": ["dish", "chip", "drum"], "who": "both", "text": "A forest party!"},
+      {"desc": "Guests arrive: {fish} in a bowl carried by {chimp}, {duck} with a crown, {crab}. {HED} waves them in.", "hidden": ["fish", "chimp", "crab"], "who": "hedgie", "text": "They are here!"},
+      {"desc": "{GRUMBLE} arrives on the rope swing, swinging over the table; everyone ducks; a snack flies.", "hidden": ["swing", "snack"], "who": "grumble", "text": "Shh! I mean... hi!"},
+      {"desc": "Everyone dances on the bridge; {TWINS} sing together; {GRUMBLE} taps the drum with a tiny smile.", "hidden": ["song"], "who": "pip", "text": "Sing with us, Grumble!"}
+    ]},
+    "12": {"title": "The Forest Show", "guests": ["fish", "chimp", "duck"], "twins": true, "grumble": true, "panels": [
+      {"desc": "A stage between two trees with a leaf curtain; {PIP} wears a top hat; {TWINS} hold the curtain.", "hidden": [], "who": "pip", "text": "The forest show!"},
+      {"desc": "{fish} in a bowl, {chimp} and {duck} each hold a blank white card; {BUN} and {HED} present them.", "hidden": [], "who": "both", "text": "Fish! Chimp! Duck!"},
+      {"desc": "{GRUMBLE} holds two cards stuck together and tries to pull them apart; the audience giggles.", "hidden": [], "who": "grumble", "text": "They are stuck!"},
+      {"desc": "{TWINS} pull the two cards apart together; {GRUMBLE} laughs out loud for the first time; everyone cheers.", "hidden": [], "who": "both", "text": "Together! Hooray!"}
+    ]}
+  },
+  "guest_desc": {"fish": "the same blue fish as in the reference sheet", "chimp": "the same brown chimp as in the reference sheet", "moth": "the same soft brown moth as in the reference sheet", "duck": "the same white duck as in the reference sheet",
+    "clam": "the same clam as in the reference sheet", "crab": "the same red crab as in the reference sheet", "ant": "the same black ant as in the reference sheet"}
+}

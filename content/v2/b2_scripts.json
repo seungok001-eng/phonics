@@ -1,0 +1,86 @@
+{
+  "_note": "2권(단어 연못) 새 대본. 유닛 = 독립 4컷, 컷당 한 문장(그 유닛 단어 가족 + 사이트워드). 비즈(Beads)는 구슬 애벌레 친구로만. {BEADS} 사용 가능.",
+  "setting": "A frame from a 3D animated film set at a sunny storybook pond in a garden: a round pond with lily pads, reeds, a wooden jetty, a few large rounded bushes and one willow tree, calm plain sky, soft lighting, limited palette of mint green, sky blue and sand.",
+  "units": {
+    "0": {"title": "The Word Pond", "guests": [], "beads": true, "panels": [
+      {"desc": "{PIP}, {BUN} and {HED} walk through a gap in the garden hedge and see a big round pond for the first time, eyes wide.", "hidden": [], "who": "bun", "text": "A pond!"},
+      {"desc": "On a lily pad sits {BEADS}, a caterpillar made of five colored beads, waving a tiny hand. {PIP}, {BUN} and {HED} wave back from the bank.", "hidden": [], "who": "hedgie", "text": "Hi! I am Hedgie."},
+      {"desc": "{BEADS} clicks three of its beads together with a happy face; {PIP}, {BUN} and {HED} lean in to listen.", "hidden": [], "who": "narrator", "text": "Click-clack! I am Beads."},
+      {"desc": "{PIP} tries to copy, clicking its beak; {BEADS} laughs; {BUN} and {HED} clap.", "hidden": [], "who": "pip", "text": "Click-clack! Click-clack!"}
+    ]},
+    "1": {"title": "The Cat on the Mat", "guests": ["cat", "rat"], "panels": [
+      {"desc": "{cat} sleeps on a striped mat by the pond. {PIP}, {BUN} and {HED} tiptoe past with a paper fan.", "hidden": ["mat", "fan"], "who": "narrator", "text": "The cat is on the mat."},
+      {"desc": "{rat} in a tiny hat creeps up and sits down on the sleeping cat's back; {PIP} covers its beak.", "hidden": ["hat"], "who": "bun", "text": "A rat on the cat!"},
+      {"desc": "{cat} opens one eye; {rat} freezes; {BUN} and {HED} hold their breath. A toy van and a pan sit by the pond.", "hidden": ["van", "pan"], "who": "hedgie", "text": "No, rat, no!"},
+      {"desc": "{cat} yawns and goes back to sleep; {rat} sleeps too, on the cat, on the mat. {PIP}, {BUN} and {HED} giggle. A bat hangs from the willow.", "hidden": ["bat"], "who": "pip", "text": "The rat is on the cat on the mat!"}
+    ]},
+    "2": {"title": "The Cap and the Bag", "guests": ["dog"], "panels": [
+      {"desc": "{HED} wears a red cap and carries a big bag with a paper tag. {PIP} and {BUN} walk beside him on the jetty.", "hidden": ["cap", "bag", "tag"], "who": "narrator", "text": "Hedgie has a cap and a bag."},
+      {"desc": "Wind blows the cap off Hedgie's head into the pond; it floats like a boat. A map falls out of the bag.", "hidden": ["map"], "who": "hedgie", "text": "My cap is in the pond!"},
+      {"desc": "{dog} splashes into the pond, grabs the cap in its mouth and swims back, tail wagging. {PIP}, {BUN} and {HED} cheer.", "hidden": ["wag"], "who": "bun", "text": "A dog! Wag, wag!"},
+      {"desc": "{dog} sits with the wet cap on its own head, proud; {HED} laughs and taps the dog. {PIP} naps in the bag.", "hidden": ["nap", "tap"], "who": "pip", "text": "The cap is on the dog!"}
+    ]},
+    "3": {"title": "Ten Hens in a Net", "guests": ["hen"], "panels": [
+      {"desc": "{hen} stands in a pen by the pond with nine more white hens: exactly ten hens. {PIP}, {BUN} and {HED} count them.", "hidden": ["pen"], "who": "narrator", "text": "Ten hens in a pen."},
+      {"desc": "{BUN} holds a big fishing net; one hen hops out of the pen and gets tangled in the net. {HED} gasps.", "hidden": ["net"], "who": "bun", "text": "A hen in the net!"},
+      {"desc": "{HED} pulls the hen out of the wet net gently; the hen is dripping. A toy jet lies on the bank; a vet bag sits nearby.", "hidden": ["wet", "jet", "vet"], "who": "hedgie", "text": "The hen is wet."},
+      {"desc": "All ten hens sit in a row on the jetty drying in the sun; {PIP} sits at the end as the eleventh, pretending to be a hen. {BUN} and {HED} laugh.", "hidden": ["ten"], "who": "pip", "text": "Ten hens and Pip!"}
+    ]},
+    "4": {"title": "A Bed for Grumble", "guests": [], "grumble": true, "panels": [
+      {"desc": "{GRUMBLE} yawns on the pond bank with a pillow; there is no bed. {PIP}, {BUN} and {HED} look worried.", "hidden": [], "who": "narrator", "text": "Grumble has no bed."},
+      {"desc": "{BUN} and {HED} build a little bed from a red crate and a peg-board; {PIP} brings a leaf blanket.", "hidden": ["bed", "red", "peg"], "who": "bun", "text": "A big red bed!"},
+      {"desc": "{GRUMBLE} lies down; one leg hangs off the end of the too-small bed; {HED} looks at the leg.", "hidden": ["leg"], "who": "hedgie", "text": "A leg! The bed is little."},
+      {"desc": "{GRUMBLE} sleeps happily anyway, snoring, with his leg in the pond; a frog sits on his foot. {PIP}, {BUN} and {HED} tiptoe away.", "hidden": ["fed"], "who": "pip", "text": "Shh! Grumble is in bed."}
+    ]},
+    "5": {"title": "Pip's First Word", "guests": ["cat", "hen", "dog"], "beads": true, "panels": [
+      {"desc": "{BEADS} lines up three big letter beads on the jetty; {PIP} looks at them. {cat} sleeps nearby.", "hidden": ["cat"], "who": "narrator", "text": "Beads has c, a, t."},
+      {"desc": "{BEADS} clicks the beads together one by one; {PIP} listens with its beak open; {BUN} and {HED} watch.", "hidden": [], "who": "both", "text": "C... a... t..."},
+      {"desc": "{PIP} jumps up pointing at {cat} and shouts; the cat wakes up surprised.", "hidden": [], "who": "pip", "text": "Cat!"},
+      {"desc": "{BUN}, {HED} and {BEADS} cheer and lift {PIP} up; {hen} and {dog} join the cheering.", "hidden": ["hen", "dog"], "who": "both", "text": "Pip can say cat!"}
+    ]},
+    "6": {"title": "The Pig and the Pin", "guests": ["pig"], "panels": [
+      {"desc": "{pig} digs a hole in the mud by the pond with its snout; {PIP}, {BUN} and {HED} watch. A fig lies on a plate.", "hidden": ["dig", "fig"], "who": "narrator", "text": "The pig can dig."},
+      {"desc": "{pig} lifts a shiny pin out of the mud on its snout; {HED} points.", "hidden": ["pin"], "who": "hedgie", "text": "A pin!"},
+      {"desc": "{pig} digs again and pulls out a curly yellow wig; {BUN} laughs. A tin can sits beside the hole.", "hidden": ["wig", "tin"], "who": "bun", "text": "A wig! The pig is big."},
+      {"desc": "{pig} wears the wig with the pin in it, posing; {PIP}, {BUN} and {HED} clap. A fish fin pokes out of the pond.", "hidden": ["fin", "win"], "who": "pip", "text": "The pig can not dig. The pig can win!"}
+    ]},
+    "7": {"title": "Zip It Up!", "guests": [], "panels": [
+      {"desc": "{HED} tries to zip a bulging bag with a huge zipper; {PIP} and {BUN} push the bag closed.", "hidden": ["zip"], "who": "bun", "text": "Zip it up, Hedgie!"},
+      {"desc": "The zipper rips open and a toy kit spills out: a ball, a kite and a cup. {HED} sits down on it.", "hidden": ["rip", "kit", "sit"], "who": "hedgie", "text": "It is a rip!"},
+      {"desc": "{PIP} dips the bag's corner in the pond to clean it; a fish bites Pip's lip gently; Pip jumps.", "hidden": ["dip", "lip"], "who": "pip", "text": "Dip it... hit!"},
+      {"desc": "The bag is zipped at last, with {PIP} sitting on top of it like a hat. {BUN} and {HED} give a thumbs up. A pit of sand is beside them.", "hidden": ["pit"], "who": "both", "text": "Zip! It is up!"}
+    ]},
+    "8": {"title": "Fog on the Pond", "guests": ["dog"], "panels": [
+      {"desc": "Thick fog covers the pond; {PIP}, {BUN} and {HED} can only see shapes. A log floats on the water.", "hidden": ["fog", "log"], "who": "narrator", "text": "Fog on the pond."},
+      {"desc": "A dark shape moves in the fog; {HED} hides behind {BUN}; {PIP} peeks.", "hidden": [], "who": "hedgie", "text": "Go! Go! Go!"},
+      {"desc": "The shape comes closer: it is {dog} carrying a hot pot with steam. {BUN} relaxes. A cot stands on the jetty.", "hidden": ["dog", "pot", "hot", "cot"], "who": "bun", "text": "A dog! A hot pot!"},
+      {"desc": "The fog clears; everyone sits on the log around the pot eating; a dot of soup is on Pip's beak.", "hidden": ["dot"], "who": "pip", "text": "We go to the pot!"}
+    ]},
+    "9": {"title": "The Fox and the Box", "guests": ["fox", "ox"], "panels": [
+      {"desc": "{fox} drags a big box with a pop-up lid to the pond; {PIP}, {BUN} and {HED} watch curiously.", "hidden": ["fox", "box"], "who": "narrator", "text": "The fox has a box."},
+      {"desc": "{fox} hops on top of the box; a mop and a spinning top fall out of it.", "hidden": ["hop", "top", "mop"], "who": "bun", "text": "Hop on top!"},
+      {"desc": "The lid pops open with a puff; {HED} jumps back; {PIP} flutters.", "hidden": ["pop"], "who": "hedgie", "text": "Pop!"},
+      {"desc": "Out of the box climbs {ox}, a huge ox, far too big for it; {fox} looks amazed. {PIP}, {BUN} and {HED} laugh.", "hidden": ["ox"], "who": "pip", "text": "We like the ox in the box!"}
+    ]},
+    "10": {"title": "Fun in the Sun", "guests": ["bug", "pup"], "panels": [
+      {"desc": "A hot sunny day at the pond; {PIP}, {BUN} and {HED} lie on a rug in the sun with a mug of juice.", "hidden": ["sun", "rug", "mug"], "who": "narrator", "text": "Fun in the sun."},
+      {"desc": "{bug} lands on {HED}'s nose; {HED} goes cross-eyed; {BUN} points.", "hidden": ["bug"], "who": "bun", "text": "Look! A bug!"},
+      {"desc": "{pup} runs up and gives {HED} a big hug, knocking him over; the bug flies away. A bun and a cup are on the rug.", "hidden": ["pup", "hug", "run", "bun", "cup"], "who": "hedgie", "text": "A pup! A big hug!"},
+      {"desc": "Everyone piles on in a group hug on the rug, {PIP} on top; the pup licks Pip.", "hidden": ["up"], "who": "pip", "text": "You can hug! Up, up!"}
+    ]},
+    "11": {"title": "The Pond Party", "guests": ["cat", "hen", "pig", "fox", "dog"], "beads": true, "grumble": true, "panels": [
+      {"desc": "Lanterns hang over the pond; {PIP}, {BUN}, {HED} and {BEADS} set a table on the jetty with a pot, a mug and a bun.", "hidden": ["pot", "mug", "bun"], "who": "both", "text": "A pond party!"},
+      {"desc": "Guests arrive: {cat} on a mat, {hen}, {pig} in a wig, {fox} on a box, {dog} with a cap. {HED} waves.", "hidden": ["mat", "wig", "box", "cap"], "who": "hedgie", "text": "The cat, the hen, the pig!"},
+      {"desc": "{GRUMBLE} arrives carrying his little red bed on his back, yawning. Everyone laughs kindly.", "hidden": ["bed"], "who": "grumble", "text": "Shh... I like a nap."},
+      {"desc": "{GRUMBLE} sleeps in his bed in the middle of the party; everyone dances quietly around him in the sun; {PIP} sits on the bed.", "hidden": ["sun", "nap"], "who": "pip", "text": "We like the party. Shh!"}
+    ]},
+    "12": {"title": "The Word Show", "guests": ["cat", "pig", "fox"], "beads": true, "grumble": true, "panels": [
+      {"desc": "A small stage on the jetty; {BEADS} hangs a string of big letter beads across it like a banner (plain colored beads, no writing). {PIP} wears a top hat.", "hidden": [], "who": "pip", "text": "The word show!"},
+      {"desc": "{cat}, {pig} and {fox} each hold a blank white card; {BUN} and {HED} point at them from the side.", "hidden": [], "who": "both", "text": "Cat! Pig! Fox!"},
+      {"desc": "{GRUMBLE} on stage holds a card upside down, frowning, confused; the audience giggles.", "hidden": [], "who": "grumble", "text": "Hmm? Not this one."},
+      {"desc": "{PIP} flips Grumble's card the right way up; Grumble smiles for the first time; everyone cheers.", "hidden": [], "who": "both", "text": "Grumble can do it!"}
+    ]}
+  },
+  "guest_desc": {"cat": "the same orange tabby cat as in the reference sheet", "rat": "the same small grey rat as in the reference sheet", "dog": "the same brown dog as in the reference sheet", "hen": "the same white hen as in the reference sheet",
+    "pig": "the same pink pig as in the reference sheet", "fox": "the same orange fox as in the reference sheet", "ox": "the same big brown ox as in the reference sheet", "bug": "the same little red bug as in the reference sheet", "pup": "the same small puppy as in the reference sheet"}
+}

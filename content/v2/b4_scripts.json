@@ -1,0 +1,87 @@
+{
+  "_note": "4권(마법 성) 새 대본. 유닛 = 독립 4컷, 컷당 한 문장(긴 모음 단어 + 사이트워드). 요정 이(Fairy E)는 손바닥만 한 요정 친구로만. {FAIRY} {BEADS} 사용 가능.",
+  "setting": "A frame from a 3D animated film set in a friendly storybook castle garden: a small round stone castle with a blue roof, a courtyard with a fountain, flower beds and a low wall, calm plain sky, soft lighting, limited palette of lavender, gold, mint and sky blue.",
+  "units": {
+    "0": {"title": "The Magic Castle", "guests": [], "fairy": true, "panels": [
+      {"desc": "{PIP}, {BUN} and {HED} walk up a path to a small round castle with a blue roof; the gate stands open.", "hidden": [], "who": "bun", "text": "A castle!"},
+      {"desc": "{FAIRY}, a palm-sized fairy, peeks out from a flower in the courtyard and giggles; {PIP} flutters closer.", "hidden": [], "who": "narrator", "text": "Hi! I am Fairy E."},
+      {"desc": "{FAIRY} taps a flower with her wand and it turns into a big rose; {BUN} and {HED} gasp.", "hidden": [], "who": "hedgie", "text": "Wow! A rose!"},
+      {"desc": "{FAIRY} sits on {PIP}'s head like a tiny hat; {PIP} crosses its eyes to look up; {BUN} and {HED} laugh.", "hidden": [], "who": "pip", "text": "A fairy on me!"}
+    ]},
+    "1": {"title": "The Cap and the Cape", "guests": ["snake"], "fairy": true, "panels": [
+      {"desc": "In the courtyard {BUN} wears a small cap; {FAIRY} hovers with her wand; a cake sits on a table by the gate.", "hidden": ["cap", "cake", "gate"], "who": "narrator", "text": "Bun has a cap."},
+      {"desc": "{FAIRY} taps the cap with her wand; it turns into a long red cape on Bun's back; {HED} claps.", "hidden": ["cape"], "who": "hedgie", "text": "Make a cape!"},
+      {"desc": "{snake} slides up wearing the cape it has taken; {BUN} chases it around the fountain; a weather vane spins.", "hidden": ["snake", "vane"], "who": "bun", "text": "Take the cape, snake?"},
+      {"desc": "{snake} and {BUN} share the cape, both wrapped in it; {PIP} laughs; a wave splashes in the fountain. A cane leans on the wall.", "hidden": ["wave", "cane"], "who": "pip", "text": "A cape for a snake and Bun!"}
+    ]},
+    "2": {"title": "A Kite in the Pine", "guests": [], "fairy": true, "panels": [
+      {"desc": "{HED} flies a kite in the castle garden; the kite's string tangles in a tall pine tree; {PIP} and {BUN} point up.", "hidden": ["kite", "pine"], "who": "narrator", "text": "The kite is in the pine."},
+      {"desc": "{BUN} rides a bike round the pine, trying to pull the string; a beehive hangs on a branch; {HED} worries.", "hidden": ["bike", "hive"], "who": "bun", "text": "I like to ride! Pull!"},
+      {"desc": "{FAIRY} taps the pine; the kite slides down the trunk by itself; five ripe pine cones fall.", "hidden": ["slide", "five", "ripe"], "who": "hedgie", "text": "Slide down, kite!"},
+      {"desc": "The kite lands on {PIP}'s head; {PIP} hides under it; {BUN} and {HED} dive to catch it; nine cones roll around.", "hidden": ["hide", "dive", "nine"], "who": "pip", "text": "Ride the kite? Hide!"}
+    ]},
+    "3": {"title": "A Note and a Rope", "guests": ["dog"], "panels": [
+      {"desc": "A folded note hangs from a rope that goes up to the castle tower; {PIP}, {BUN} and {HED} look up. A stone and a cone sit by the wall.", "hidden": ["note", "rope", "stone", "cone"], "who": "narrator", "text": "A note on a rope!"},
+      {"desc": "{HED} pulls the rope; a bone slides down it; {dog} appears at the top wagging. {BUN} laughs.", "hidden": ["bone", "dog"], "who": "hedgie", "text": "I hope... a bone?"},
+      {"desc": "{dog} in a little robe slides down the rope to the garden, holding a rose in its mouth; a globe sits on the wall.", "hidden": ["robe", "rose", "globe"], "who": "bun", "text": "A dog in a robe!"},
+      {"desc": "{PIP} reads the blank note (no writing) and points home; the dog follows them with the rose on its nose.", "hidden": ["nose", "home"], "who": "pip", "text": "So we go home!"}
+    ]},
+    "4": {"title": "A Cute Mule", "guests": ["mule"], "fairy": true, "panels": [
+      {"desc": "{mule} stands in the courtyard looking sad, with a huge load of cubes on its back; {PIP}, {BUN} and {HED} look.", "hidden": ["mule", "cube", "huge"], "who": "narrator", "text": "The mule has a huge load."},
+      {"desc": "{BUN} plays a flute; {mule} starts to tap its hoof; the cubes bounce; a tube rolls off.", "hidden": ["flute", "tune", "tube"], "who": "bun", "text": "Use a tune!"},
+      {"desc": "{FAIRY} taps the cubes; they fly off like bubbles over the sand dune; {mule} kicks up its heels.", "hidden": ["dune"], "who": "hedgie", "text": "Cute! The mule is cute!"},
+      {"desc": "{mule} dances with a plume feather on its head; {PIP} plays the flute badly; everyone laughs.", "hidden": ["plume"], "who": "pip", "text": "In June, we use the flute!"}
+    ]},
+    "5": {"title": "Pip's Magic Word", "guests": ["snake", "mule"], "fairy": true, "panels": [
+      {"desc": "{FAIRY} holds a tiny card for {PIP} in the courtyard; {BUN} and {HED} watch; a cap lies on the table.", "hidden": ["cap"], "who": "narrator", "text": "Fairy E has a magic card."},
+      {"desc": "{FAIRY} taps the cap with her wand; it becomes a cape again; {PIP} watches very closely.", "hidden": ["cape"], "who": "hedgie", "text": "Cap... cape!"},
+      {"desc": "{PIP} taps a kit box with its wing; it turns into a kite; {PIP} jumps with joy.", "hidden": ["kite"], "who": "pip", "text": "Kit... kite! I can make it!"},
+      {"desc": "{snake}, {mule}, {BUN}, {HED} and {FAIRY} cheer around {PIP} who holds the kite.", "hidden": [], "who": "both", "text": "Pip can make magic words!"}
+    ]},
+    "6": {"title": "Rain on the Train", "guests": ["jay"], "panels": [
+      {"desc": "Rain falls on a small garden train on a track around the castle; {PIP}, {BUN} and {HED} wait with a tray of hay.", "hidden": ["rain", "train", "tray", "hay"], "who": "narrator", "text": "Rain on the train."},
+      {"desc": "{jay} flies down and lands on the train's roof, shaking off water; its tail feathers drip. {HED} holds a nail and a sail.", "hidden": ["jay", "tail", "nail", "sail"], "who": "hedgie", "text": "A jay! Play all day?"},
+      {"desc": "{BUN} paints the train bright red with a brush; the rain washes the paint into puddles; clay dries on the wheels.", "hidden": ["paint", "clay"], "who": "bun", "text": "Paint the train today!"},
+      {"desc": "The sun comes out; the train chugs around the track carrying {PIP} and {jay}; a rainbow arches behind the castle.", "hidden": [], "who": "pip", "text": "No rain. We play on the train!"}
+    ]},
+    "7": {"title": "A Bee in the Tree", "guests": ["bee", "sheep", "seal"], "panels": [
+      {"desc": "A big tree in the castle garden; {bee} buzzes around a flower; {PIP}, {BUN} and {HED} have tea under the tree. A leaf and a seed lie on the grass.", "hidden": ["bee", "tree", "tea", "leaf", "seed"], "who": "narrator", "text": "A bee in the tree."},
+      {"desc": "{sheep} wanders in and eats the leaf; {HED} points at its feet, which are muddy.", "hidden": ["sheep", "feet"], "who": "hedgie", "text": "See the sheep's feet!"},
+      {"desc": "{seal} slides in from the sea pool with a peach on its nose and offers it to {BUN}.", "hidden": ["seal", "sea", "peach"], "who": "bun", "text": "Eat a peach? Thank you, seal!"},
+      {"desc": "Everyone shares the peach under the tree; {bee} sits on {PIP}'s head; {PIP} stays very still.", "hidden": [], "who": "pip", "text": "A bee on me! I see it!"}
+    ]},
+    "8": {"title": "A Goat in a Boat", "guests": ["goat", "crow"], "panels": [
+      {"desc": "{goat} sits in a small wooden boat on the castle moat wearing a coat; {PIP}, {BUN} and {HED} watch from the road. A bar of soap floats by.", "hidden": ["goat", "boat", "coat", "road", "soap"], "who": "narrator", "text": "A goat in a boat."},
+      {"desc": "{crow} lands on the boat's bow with a slice of toast; the goat tries to grab it; the boat rocks.", "hidden": ["crow", "bow", "toast"], "who": "bun", "text": "Go slow, goat!"},
+      {"desc": "Snow begins to fall on the moat; the goat shivers in its coat; {HED} holds out a bowl of warm soup from a window.", "hidden": ["snow", "bowl", "window"], "who": "hedgie", "text": "Snow! Go to the window!"},
+      {"desc": "{goat} and {crow} share the soup in the boat under falling snow; {PIP} rows the boat slowly with a spoon.", "hidden": [], "who": "pip", "text": "Row slow. Go, go, go!"}
+    ]},
+    "9": {"title": "The Moon and the Mouse", "guests": ["mouse"], "grumble": true, "panels": [
+      {"desc": "Night at the castle; a full moon; {mouse} sits on the roof looking at the moon; {PIP}, {BUN} and {HED} look up from the courtyard. A broom leans on the wall.", "hidden": ["moon", "mouse", "roof", "broom"], "who": "narrator", "text": "Look at the moon and the mouse."},
+      {"desc": "{mouse} opens its mouth wide in a yawn showing one tooth; a boot sits on the roof next to it.", "hidden": ["mouth", "tooth", "boot"], "who": "hedgie", "text": "Out comes a yawn!"},
+      {"desc": "A cloud covers the moon; {mouse} scurries into a tiny house on the roof; {BUN} points.", "hidden": ["cloud", "house"], "who": "bun", "text": "Look out! A cloud!"},
+      {"desc": "{GRUMBLE} on a couch in the courtyard snores under the moon; {mouse} sleeps on his belly; {PIP} covers them with a leaf.", "hidden": ["couch"], "who": "grumble", "text": "Shh... out, cloud. Moon, come."}
+    ]},
+    "10": {"title": "The Star Room", "guests": [], "fairy": true, "panels": [
+      {"desc": "A round room in the castle tower with a window full of stars; {PIP}, {BUN} and {HED} peek in; a jar of stars sits on a shelf; a harp stands in the corner.", "hidden": ["star", "jar", "harp"], "who": "narrator", "text": "The star room is far up."},
+      {"desc": "{BUN} plucks the harp; {HED} blows a horn; a storm of little stars swirls out of the jar.", "hidden": ["horn", "storm"], "who": "hedgie", "text": "More stars! More!"},
+      {"desc": "Stars land on a toy car and a fork on the table; a cob of corn glows; {PIP} chases a star.", "hidden": ["car", "fork", "corn"], "who": "bun", "text": "A star on the car!"},
+      {"desc": "{FAIRY} waves her wand; the stars fly back into the jar; one star stays on {PIP}'s head like a crown; a torch lights the farm scene painted on the wall.", "hidden": ["torch", "farm"], "who": "pip", "text": "One star is far, far better."}
+    ]},
+    "11": {"title": "The Castle Party", "guests": ["snake", "mule", "goat", "mouse"], "fairy": true, "grumble": true, "panels": [
+      {"desc": "The castle courtyard lit with lanterns; {PIP}, {BUN}, {HED} and {FAIRY} set a table with a cake, a tray and a bowl.", "hidden": ["cake", "tray", "bowl"], "who": "both", "text": "A castle party!"},
+      {"desc": "Guests arrive: {snake} in a cape, {mule} with a flute, {goat} in a coat, {mouse} with a boot. {HED} waves.", "hidden": ["cape", "flute", "coat", "boot"], "who": "hedgie", "text": "Take a seat, everyone!"},
+      {"desc": "{GRUMBLE} arrives riding the garden train, lantern in paw, half asleep; everyone laughs kindly.", "hidden": ["train"], "who": "grumble", "text": "Shh... I came by train."},
+      {"desc": "Everyone dances under the stars; {FAIRY} makes the fountain glow; {GRUMBLE} dozes on the couch with {PIP} on his nose.", "hidden": ["star", "couch"], "who": "pip", "text": "We like this day!"}
+    ]},
+    "12": {"title": "The Castle Show", "guests": ["snake", "goat", "mouse"], "fairy": true, "grumble": true, "panels": [
+      {"desc": "A stage in the castle courtyard with a velvet curtain; {PIP} wears a top hat; {FAIRY} sits on the hat.", "hidden": [], "who": "pip", "text": "The castle show!"},
+      {"desc": "{snake}, {goat} and {mouse} each hold a blank white card; {BUN} and {HED} present them with a bow.", "hidden": [], "who": "both", "text": "Snake! Goat! Mouse!"},
+      {"desc": "{GRUMBLE} on stage holds a card and yawns so wide the card falls; {FAIRY} catches it with her wand.", "hidden": [], "who": "grumble", "text": "Oops. Thank you, Fairy."},
+      {"desc": "Everyone on stage takes a bow together; confetti falls; {GRUMBLE} smiles widely and waves.", "hidden": [], "who": "both", "text": "The end! Thank you!"}
+    ]}
+  },
+  "guest_desc": {"snake": "the same green snake as in the reference sheet", "dog": "the same brown dog as in the reference sheet", "mule": "the same grey mule as in the reference sheet", "jay": "the same blue jay bird as in the reference sheet",
+    "bee": "the same striped bee as in the reference sheet", "sheep": "the same white sheep as in the reference sheet", "seal": "the same grey seal as in the reference sheet", "goat": "the same white goat as in the reference sheet",
+    "crow": "the same black crow as in the reference sheet", "mouse": "the same small grey mouse as in the reference sheet"}
+}
