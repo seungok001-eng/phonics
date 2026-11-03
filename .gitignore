@@ -27,3 +27,6 @@ audio-src/forge/_voices/
 
 art-src/forge/trial3d/*
 !art-src/forge/trial3d/sheet.png
+
+# 권 전체 학생책 PDF 는 3D 그림 때문에 100MB 에 가까워 깃에 올리지 않는다 (python tools/pdf.py --book N units 로 다시 만든다, 2026-11-03)
+web/pdf/PopPhonics*_SB.pdf
