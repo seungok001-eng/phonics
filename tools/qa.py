@@ -175,6 +175,7 @@ OVERFLOW_JS = r"""(() => {
         if (ch === foot || n > 6) continue;
         const s = getComputedStyle(ch);
         if (s.display === 'none' || s.visibility === 'hidden' || s.position === 'fixed') continue;
+        if (ch.classList && ch.classList.contains('deco')) continue;   // v2 배경 블롭은 일부러 쪽 밖으로 나간다
         const svg = ch instanceof SVGElement && ch.tagName.toLowerCase() !== 'svg';   // 획순 그림 안의 번호 글자 등은 그림의 일부
         if (svg) continue;
         const e = ch.getBoundingClientRect();
@@ -193,7 +194,7 @@ OVERFLOW_JS = r"""(() => {
     c.querySelectorAll('*').forEach((el) => {
       if (m > 4 || el.closest('.sl-embed') && !c.classList.contains('page')) return;
       const s = getComputedStyle(el); if (!/(hidden|clip)/.test(s.overflowX + s.overflowY) || /ellipsis/.test(s.textOverflow)) return;
-      if (el.matches('.pic, .scene, .panel, .stage-pic, .hunt-scene, .hp-scene, .art, .mcard, .frame, .av, .thumb, .trace-line, svg, img, video') || el === c) return;
+      if (el.matches('.deco, .pic, .scene, .panel, .stage-pic, .hunt-scene, .hp-scene, .art, .mcard, .frame, .av, .thumb, .trace-line, svg, img, video') || el.closest('.deco') || el === c) return;
       if (el.offsetParent === null || el.clientHeight < 8) return;
       const dh = el.scrollHeight - el.clientHeight, dw = el.scrollWidth - el.clientWidth;
       if (dh <= 6 && dw <= 6) return;
