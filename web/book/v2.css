@@ -176,3 +176,95 @@ body:not(.teacher) .kohelp, body:not(.teacher) .nk { display: none !important; }
 .spk { background: var(--u); color: #fff; box-shadow: none; width: 34px; height: 34px; font-size: 17px; }
 .btn.orange, .btn { background: var(--u); color: #fff; box-shadow: 0 3px 0 var(--u-dark); }
 .btn.blue { background: var(--blue); }
+
+/* ---------- 나머지 쪽 유형(0유닛·알파벳·복습·12유닛·워크북): 테두리 상자 → 블롭·연한 바탕, 글자는 Fredoka ---------- */
+.char { border: 0; background: var(--u-light); border-radius: 46% 54% 42% 58% / 52% 44% 56% 48%; padding: 14px 12px; }
+.char:nth-child(2) { border-radius: 58% 42% 55% 45% / 45% 58% 42% 55%; } .char:nth-child(3) { border-radius: 42% 58% 48% 52% / 58% 42% 56% 44%; }
+.char h3 { font-family: 'Fredoka'; color: var(--u-dark); }
+.char .say-line { background: #fff; border-radius: 16px; font-family: 'Andika'; }
+.char .ko { display: none; } body.teacher .char .ko { display: block; }
+.abc .lt, .path .lt { border: 0; background: var(--u-pale); border-radius: 18px; font-family: 'Fredoka'; }
+.abc .lt.hl { background: var(--u-light); }
+.path .lt { border-radius: 50%; background: #fff; box-shadow: inset 0 0 0 3px var(--u-light); }
+.path .lt.done { background: #EAF7E6; box-shadow: inset 0 0 0 3px var(--ok); }
+.abc26 .lt i { font-family: 'Andika'; }
+.rv-card { border: 0; background: var(--u-light); border-radius: 26px; }
+.rv-card .glyph { font-family: 'Fredoka'; }
+.rv-card .rv-word b { color: var(--u-dark); }
+.pill { background: var(--u-pale); box-shadow: none; font-family: 'Fredoka'; }
+.board { border: 0; background: var(--u-pale); border-radius: 28px; }
+.bd-cell { border: 0; box-shadow: 0 3px 0 var(--u-light); border-radius: 18px; }
+.bd-cell.letter { background: #fff; font-family: 'Fredoka'; } .bd-cell .big { font-family: 'Fredoka'; }
+.bd-cell.special { background: var(--u-light); } .bd-cell.special.back { background: #FBE9E9; }
+.bd-cell.hl { box-shadow: 0 0 0 4px var(--u); }
+.bd-bar .dice { border-color: var(--u-dark); }
+.bg-cell { border: 0; background: var(--u-pale); border-radius: 18px; }
+.bg-cell.on { background: #EAF7E6; box-shadow: 0 0 0 3px var(--ok); } .bg-cell.line { background: #FFF3E6; box-shadow: 0 0 0 3px var(--u); }
+.bingo.blank .bg-cell { background: #fff; box-shadow: inset 0 0 0 3px var(--u-light); }
+.bg-bank span, .bg-bar .called span { border: 0; background: var(--u-light); border-radius: 14px; }
+.song-line .lt { border: 0; background: var(--u-pale); font-family: 'Fredoka'; border-radius: 12px; }
+.song-line.hl, .song-line.playing { border-color: var(--u); background: var(--u-pale); }
+.hunt-scene, .stage-pic { border: 5px solid #fff; box-shadow: 0 6px 16px rgba(60,40,20,.14); border-radius: 22px; }
+.hunt-w { border: 0; background: var(--u-pale); box-shadow: 0 3px 0 var(--u-light); font-family: 'Fredoka'; }
+.hp { border: 0; background: var(--u-pale); border-radius: 18px; }
+.rc-cell { border: 0; background: var(--u-pale); border-radius: 14px; } .rc-cell.on, .rc-cell.hl { background: var(--u-light); }
+.rc-cell .u { background: var(--u); }
+.stage-title { color: var(--u-dark); }
+.cert { border: 8px solid var(--u-light); background: #fff; border-radius: 30px; } .cert h1 { color: var(--u-dark); } .cert-ko { display: none; } body.teacher .cert-ko { display: block; }
+.pair .it { border: 0; background: var(--u-pale); border-radius: 16px; font-family: 'Fredoka'; }
+.pair .it.sel { box-shadow: 0 0 0 3px var(--u); } .pair .it.done { box-shadow: 0 0 0 3px var(--ok); background: #EAF7E6; }
+.missing .bx { border: 0; background: var(--u-pale); border-radius: 12px; font-family: 'Fredoka'; } .missing .bx.blank { background: #fff; box-shadow: inset 0 0 0 2px var(--u); }
+.sort .bin { border: 0; background: var(--u-pale); border-radius: 22px; } .sort .bin h4 { font-family: 'Fredoka'; color: var(--u-dark); }
+.sort .wd { border: 0; box-shadow: 0 2px 0 var(--u-light); border-radius: 14px; }
+.color-it { border: 0; background: var(--u-pale); border-radius: 22px; }
+.wb-circle .tgt { background: var(--u); color: #fff; border-radius: 50%; font-family: 'Fredoka'; width: 72px; height: 72px; display: inline-flex; align-items: center; justify-content: center; margin: auto; }
+.wb-circle .lts span { font-family: 'Fredoka'; } .wb-circle .lts span.ok { box-shadow: 0 0 0 3px var(--ok); border-color: transparent; }
+.sent { border-bottom: 2px solid var(--u-light); }
+.sent .cnt span { border-color: var(--u-light); }
+.fill .choices span { border: 0; background: var(--u-pale); border-radius: 14px; }
+.fill .blank { border-bottom-color: #E0523E; }
+.write-it.fl .box { background: #fff; }
+.t-review_test .write-it { border-radius: 24px; }
+
+/* ---------- 2~4권: 합치기·단어 가족·문장·모음·짝꿍·마법 e ---------- */
+.ph-head .letters.fams span { font-family: 'Fredoka'; }
+.blend-head .fam-big { font-family: 'Fredoka'; background: var(--fam); color: #fff; border-radius: 40px; padding: 4px 26px; }
+.blend-head .fam-say { font-family: 'Fredoka'; }
+.blend-row { border: 0; background: var(--u-pale); border-radius: 22px; padding: 6px 14px; }
+.blend-row:nth-child(even) { background: var(--u-light); }
+.blend-row .tile { border: 0; background: #fff; box-shadow: 0 3px 0 var(--u-light); border-radius: 14px; font-family: 'Fredoka'; }
+.blend-row .tile.hl { background: #FFF3E6; box-shadow: 0 0 0 3px var(--u); }
+.blend-row.joined .tile { box-shadow: none; }
+.blend-row .joined { font-family: 'Fredoka'; }
+.fw { border: 0; background: var(--u-pale); box-shadow: 0 3px 0 var(--u-light); font-family: 'Fredoka'; border-radius: 18px; }
+.fw.sel { box-shadow: 0 0 0 3px var(--u); background: #fff; } .fw.done { background: #EAF7E6; box-shadow: 0 0 0 3px var(--ok); }
+.fw-pic { border: 0; background: var(--u-light); border-radius: 46% 54% 42% 58% / 52% 44% 56% 48%; padding: 12px 8px 8px; }
+.fw-pic:nth-child(even) { border-radius: 58% 42% 55% 45% / 45% 58% 42% 55%; }
+.fw-pic .line { border-bottom-color: #E0523E; font-size: 26px; }
+.fw-pic.ok { box-shadow: 0 0 0 3px var(--ok); }
+.sent-row { border: 0; background: var(--u-pale); border-radius: 26px; padding: 8px 16px; }
+.sent-row:nth-child(even) { background: var(--u-light); }
+.sent-row .sw { background: #fff; border-radius: 10px; color: var(--pink); font-weight: 700; }
+.sent-row .tw { border-bottom-color: var(--u); } .sent-row .tw .rime { color: var(--u-dark); }
+.sent-row.hl, .sent-row.playing { background: #FFF3E6; box-shadow: 0 0 0 3px var(--u); }
+.sw-list span { background: #fff; border: 2px solid var(--u); border-radius: 14px; color: var(--pink); font-weight: 700; }
+.vw-card { border: 0; background: var(--u-light); border-radius: 26px; }
+.vw-card .glyph { font-family: 'Fredoka'; } .vw-card.hl, .vw-card.playing { background: #FFF3E6; box-shadow: 0 0 0 3px var(--u); }
+.vw-card .hint { display: none; } body.teacher .vw-card .hint { display: block; }
+.dg-card { border: 0; background: var(--u-pale); border-radius: 26px; }
+.dg-tile { border: 0; background: #fff; box-shadow: 0 3px 0 var(--u-light); border-radius: 16px; font-family: 'Fredoka'; }
+.dg-ipa { font-family: 'Fredoka'; }
+.dg-w { border: 0; background: #fff; border-radius: 18px; }
+.dg-w.hl, .dg-w.playing { box-shadow: 0 0 0 3px var(--u); background: #FFF3E6; }
+.me-row { border: 0; background: var(--u-pale); border-radius: 26px; padding: 8px 14px; }
+.me-row:nth-child(even) { background: var(--u-light); }
+.me-letters { font-family: 'Fredoka'; } .me-to { font-family: 'Fredoka'; }
+.me-pic .num { background: var(--u); }
+.boxes span { border: 0; background: #fff; box-shadow: inset 0 0 0 2px var(--u-light); border-radius: 10px; font-family: 'Fredoka'; }
+.boxes span.blank { box-shadow: inset 0 0 0 2px var(--u); }
+.check-sec.rc .lc-row .rc-word { font-family: 'Fredoka'; }
+.w4 { border-color: #cfcfcf; } .w4::after { border-top-color: #E0523E; }
+.wbs { border: 0; background: var(--u-pale); border-radius: 20px; }
+.trace-sent { border-bottom-color: #E0523E; }
+.path.bridge .lt { background: var(--u-pale); border: 0; box-shadow: inset 0 0 0 3px var(--u-light); font-family: 'Fredoka'; }
+.song-line .lt.famt { font-family: 'Fredoka'; }
