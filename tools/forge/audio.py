@@ -107,10 +107,10 @@ def finalize(src, dst):
     af = ('silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,'
           'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,'
           'apad=pad_dur=0.08,loudnorm=I=-16:TP=-1.5:LRA=11')
-    run(['-i', src, '-af', af, '-ar', '44100', '-codec:a', 'libmp3lame', '-q:a', '4', dst])
+    run(['-i', src, '-af', af, '-ar', '44100', '-codec:a', 'libmp3lame', '-q:a', '0', dst])   # q0 = 최고 품질 VBR (~245kbps)
 
 # ---------- 일레븐랩스 (캐릭터 대사 = 아이 목소리) ----------
-EL_URL = 'https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_44100_128'
+EL_URL = 'https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_44100_192'   # 최고 음질 (pcm 은 Pro 요금제부터라 192kbps mp3, 2026-11-03)
 
 
 def el_tts(text, voice_id, key, model='eleven_multilingual_v2', style=0.35):
@@ -154,14 +154,15 @@ def pitch_mp3(src, dst, factor):
     """일레븐랩스 mp3/wav 를 factor 만큼 높여 mp3 로 (길이는 그대로). factor 1.0 이면 그냥 복사."""
     if factor <= 1.0:
         import shutil; shutil.copyfile(src, dst); return
-    run(['-i', src, '-af', f'aresample=24000,asetrate={int(24000 * factor)},aresample=44100,atempo={1 / factor:.4f}', '-ar', '44100', '-ac', '1', '-codec:a', 'libmp3lame', '-q:a', '4', dst])
+    run(['-i', src, '-af', f'rubberband=pitch={factor:.3f}:pitchq=quality:transients=crisp', '-ar', '44100', '-ac', '1', '-codec:a', 'libmp3lame', '-q:a', '0', dst])
 
 
 def pitch_up(src, dst, factor=1.18):
     """낱소리(어른 목소리)를 아이 목소리 높이로: 먼저 24kHz 로 맞춘 뒤 음 높이만 올리고 길이는 그대로, 가장 큰 소리를 -3dB 로.
     (주의: 원본이 44.1kHz 라 asetrate 앞에 aresample 이 없으면 소리가 늘어지고 낮아진다 — 2026-10-07)"""
     tmp = dst + '.tmp.wav'
-    run(['-i', src, '-af', f'aresample=24000,asetrate={int(24000 * factor)},aresample=24000,atempo={1 / factor:.4f}', '-ar', '24000', '-ac', '1', tmp])
+    # rubberband: asetrate 방식보다 기계음(윙윙·버즈)이 훨씬 적다 (2026-11-03 제미나이 비교 5:3, 사용자 "기계음 나면 안 돼")
+    run(['-i', src, '-af', f'rubberband=pitch={factor:.3f}:pitchq=quality:transients=crisp', '-ar', '24000', '-ac', '1', tmp])
     run(['-i', tmp, '-af', f'volume={-3 - peak_db(tmp):.2f}dB', '-ar', '24000', '-ac', '1', dst])
     try: os.remove(tmp)
     except OSError: pass
