@@ -240,7 +240,7 @@ async function glancePlay() {
   await playSeq(st.panels.map((pn, i) => pn.narr && { id: pn.narr.audio, text: pn.narr.text, el: document.querySelector(`.gl-card[data-gl="${i}"]`), gap: 700 }).filter(Boolean));
 }
 TEACH.story = {
-  count: (ctx) => ctx.page.half === 2 ? ctx.unit.story.panels.length - 2 : Math.min(2, ctx.unit.story.panels.length) + (hasGlance(ctx.unit.story) ? 1 : 0),
+  count: (ctx) => ctx.unit.story.v2 ? ctx.unit.story.panels.length : ctx.page.half === 2 ? ctx.unit.story.panels.length - 2 : Math.min(2, ctx.unit.story.panels.length) + (hasGlance(ctx.unit.story) ? 1 : 0),   // v2: 한 쪽 4컷 = 슬라이드 4장
   render: (ctx, s0) => {
     const st = ctx.unit.story, glance = ctx.page.half !== 2 && hasGlance(st), n = TEACH.story.count(ctx);
     if (glance && s0 === 0) return glanceSlide(ctx, s0, n);
