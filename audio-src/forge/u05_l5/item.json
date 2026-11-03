@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=hats on | TYPE=sentence | IPA=ˈhæts ˈɑːn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! Hats on. Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674492.0445912,
+   "sec": 2.57,
+   "check": {
+    "transcript": "Haftung",
+    "type": "word",
+    "ipa": "ˈhaftʊŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Haftung | TYPE=word | IPA=ˈhaftʊŋ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:26",
+ "applied": "2026-11-03 11:55",
  "text_edited": false,
  "error": "",
  "unit": 5,

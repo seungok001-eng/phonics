@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Sure, it is my pot. | TYPE=sentence | IPA=ʃʊɹ ɪt ɪz maɪ pɑt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! It is my pot!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674508.0817916,
+   "sec": 2.0,
+   "check": {
+    "transcript": "It is my pot.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ pɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my pot. | TYPE=sentence | IPA=ɪt ɪz maɪ pɑt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:28",
+ "applied": "2026-11-03 11:55",
  "text_edited": false,
  "error": "",
  "unit": 6,

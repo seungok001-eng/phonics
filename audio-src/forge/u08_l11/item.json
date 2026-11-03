@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Show, oh, my lantern. | TYPE=sentence | IPA=ˈʃoʊ oʊ maɪ ˈlæntərn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! Oh! My lantern!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674545.9937723,
+   "sec": 2.38,
+   "check": {
+    "transcript": "Oh, my lantern.",
+    "type": "sentence",
+    "ipa": "oʊ maɪ læntɹən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Oh, my lantern. | TYPE=sentence | IPA=oʊ maɪ læntɹən | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:30",
+ "applied": "2026-11-03 11:55",
  "text_edited": false,
  "error": "",
  "unit": 8,

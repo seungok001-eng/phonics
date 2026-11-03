@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791974581.1933527,
+ "updated": 1793674175.3820796,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/b9977643-011f-423d-b733-ccb1e1f54739?Expires=1791380983&KeyName=labs-flow-prod-cdn-key&Signature=VG0U3145G8gA-xpCT22KpqDoIdg",
  "prompt_edited": false,
- "applied": "2026-10-14 19:47",
+ "applied": "2026-11-03 11:51",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,11 +17,11 @@
  "kind": "word",
  "word": "nose",
  "title": "nose · 코",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a friendly cartoon child's face with normal open eyes with black pupils, smiling, and one finger touching the tip of the nose; a small soft glow only around the nose.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: close-up of a friendly cartoon child face with a big round nose in natural skin tone (slightly rosy, NOT a red clown nose), one finger touching the tip of the nose; normal open eyes with black pupils; the nose is the biggest, clearest feature.",
  "aspect": "1:1",
  "out": "web/assets/art/word_nose.png",
  "book": 1,
- "regen": 3,
+ "regen": 5,
  "asset_no": 2039,
- "claimed_at": 1791974554.4312842
+ "claimed_at": 1793674143.8125317
 }

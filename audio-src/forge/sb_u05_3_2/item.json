@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=shh my garden | TYPE=sentence | IPA=ʃ maɪ gɑːrdən | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh... My garden.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674335.7759736,
+   "sec": 1.82,
+   "check": {
+    "transcript": "My garden.",
+    "type": "sentence",
+    "ipa": "maɪ ˈgɑːrdən",
+    "note": "ok",
+    "raw": "TRANSCRIPT=My garden. | TYPE=sentence | IPA=maɪ ˈgɑːrdən | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-11-03 11:52",
  "text_edited": false,
  "error": "",
  "unit": 5,

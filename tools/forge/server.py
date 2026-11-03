@@ -648,7 +648,10 @@ def el_voices_for(s):
 
 
 PHON_RE = re.compile(r'/([^/\s]+)/')
-IPA_LETTER = {'æ': 'a', 'ɪ': 'i', 'ɑ': 'o', 'ʌ': 'u', 'e': 'e', 'dʒ': 'j', 'j': 'y', 'kw': 'q', 'ks': 'x', 'ə': 'a'}
+# 그럼블의 "Shh!" 는 일레븐랩스가 단어처럼("쉬트·샤으쓰") 읽는다 → 대사 속 Shh 를 /shh/ 덩어리로 바꿔 깨끗한 쉿 소리(audio-src/shh.wav)를 끼워 붙인다 (2026-11-03 사용자 지적)
+HUSH_RE = re.compile(r'\bShh+\b[.!…]*', re.I)
+HUSH_WAV = os.path.join(ROOT, 'audio-src', 'shh.wav')
+IPA_LETTER ={'æ': 'a', 'ɪ': 'i', 'ɑ': 'o', 'ʌ': 'u', 'e': 'e', 'dʒ': 'j', 'j': 'y', 'kw': 'q', 'ks': 'x', 'ə': 'a'}
 
 
 def family_by_ipa(ph):
@@ -708,10 +711,13 @@ def el_compose(text, voices, tmp):
     import tempfile
     def tmpf(ext):
         fd, p = tempfile.mkstemp(suffix=ext); os.close(fd); tmp.append(p); return p
+    text = HUSH_RE.sub('/shh/', text)   # "Shh! Oh no!" → "/shh/ Oh no!"
     parts, letters = phoneme_letters(text)
     segs = []
     for idx, piece in enumerate(parts):
-        if idx % 2 == 1:   # 낱소리
+        if idx % 2 == 1 and piece == 'shh':   # 쉿 소리 (그대로, 음높이 안 올림)
+            w = tmpf('.wav'); audio.norm_wav(HUSH_WAV, w); segs.append(w)
+        elif idx % 2 == 1:   # 낱소리
             src = os.path.join(presets.WEB, 'assets', 'audio', f'sound_{letters[idx]}.mp3')
             if os.path.exists(src):
                 w = tmpf('.wav'); audio.pitch_up(src, w); segs.append(w)
@@ -726,7 +732,7 @@ def el_compose(text, voices, tmp):
         elif re.search(r'[A-Za-z]', piece):   # 말
             rest = piece.strip()
             # 낱소리 바로 뒤의 목표 단어(/æ/ /æ/ apple! 의 apple)는 발음이 정확해야 한다 → 승인된 단어 녹음(word_<단어>)을 아이 음높이로 (2026-10-07 사용자: 캐릭터 목소리보다 정확한 발음)
-            if idx > 1:
+            if idx > 1 and parts[idx - 1] != 'shh':
                 m_ = re.match(r"\s*([A-Za-z]+)([!?.,]*)\s*(.*)$", piece, re.S)
                 wsrc = m_ and os.path.join(presets.WEB, 'assets', 'audio', f'word_{m_.group(1).lower()}.mp3')
                 if m_ and os.path.exists(wsrc):
@@ -781,7 +787,7 @@ def tts_loop():
                 import tempfile
                 tmp = []
                 try:
-                    if PHON_RE.search(t['text']):   # 낱소리 덩어리가 있으면 이어 붙이기
+                    if PHON_RE.search(t['text']) or HUSH_RE.search(t['text']):   # 낱소리 덩어리나 Shh 가 있으면 이어 붙이기
                         src = el_compose(t['text'], t['voices'], tmp)
                     else:
                         for name, vid in t['voices']:

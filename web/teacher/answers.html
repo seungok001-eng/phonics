@@ -61,7 +61,7 @@
 // 교재 인쇄(print.html)와 같은 쪽 함수로 그린 뒤(섞는 순서가 씨앗 고정이라 배치가 똑같다), 정답을 표시한다.
 // 정답은 대부분 교재 쪽의 누르기 함수 안에 이미 들어 있다: checkPick(this,'보기','정답') · this.textContent='글자' 등.
 const q = new URLSearchParams(location.search);
-const KEY_TYPES = ['check', 'review_test'];   // 학생책에서 정답이 있는 쪽
+const KEY_TYPES = ['check', 'review_test', 'read_play'];   // 학생책에서 정답이 있는 쪽 (read_play = 소리 잡기 종이판)
 
 // onclick="fn(this,'a','b')" 의 두 인자
 function clickArgs(el) { const m = (el.getAttribute('onclick') || '').match(/\(this\s*,\s*'([^']*)'\s*,\s*'([^']*)'\s*\)/); return m ? [m[1], m[2]] : null; }
@@ -101,6 +101,12 @@ function markKey(root) {
     const sp = row.querySelector('.spk'); if (!sp) return;
     const id = sp.dataset.say || '', say = id.startsWith('sound_') ? soundLabel(id.slice(6)) : (sp.dataset.text || id.replace(/^word_/, ''));
     row.querySelector('.n')?.insertAdjacentHTML('afterend', `<span class="k-say">🔊 ${esc(say)}</span>`);
+  });
+  // ⑦ 소리 잡기 종이판(학생책 놀이 쪽): 선생님이 부를 소리와 정답 그림 (1권 글자 소리 → 그 글자로 시작하는 그림, 2권 단어)
+  root.querySelectorAll('.game-paper .lc-row[data-ans]').forEach((row) => {
+    const id = row.dataset.say || '', ans = row.dataset.ans, say = id.startsWith('sound_') ? soundLabel(id.slice(6)) : id.replace(/^word_/, '');
+    row.querySelector('.n')?.insertAdjacentHTML('afterend', `<span class="k-say">🔊 ${esc(say)}</span>`);
+    row.querySelectorAll('.opt[data-w]').forEach((o) => { const w = o.dataset.w; if (w === ans || (!B2() && letterOf(w) === ans)) o.classList.add('k-ans'); });
   });
 }
 

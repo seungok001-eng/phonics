@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Shh, thank you. | TYPE=sentence | IPA=ʃ, θæŋk ju | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh... Thank you.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674293.712395,
+   "sec": 1.77,
+   "check": {
+    "transcript": "Thank you.",
+    "type": "sentence",
+    "ipa": "ˈθæŋk ˌjuː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Thank you. | TYPE=sentence | IPA=ˈθæŋk ˌjuː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:45",
+ "applied": "2026-11-03 11:51",
  "text_edited": false,
  "error": "",
  "unit": 2,

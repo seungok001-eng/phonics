@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Look at my lantern. | TYPE=sentence | IPA=lʊk ət maɪ læntərn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! Look at my lantern!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674396.8705807,
+   "sec": 2.42,
+   "check": {
+    "transcript": "Look at my lantern.",
+    "type": "sentence",
+    "ipa": "lʊk æt maɪ læntərn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at my lantern. | TYPE=sentence | IPA=lʊk æt maɪ læntərn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:31",
+ "applied": "2026-11-03 11:53",
  "text_edited": false,
  "error": "",
  "unit": 9,

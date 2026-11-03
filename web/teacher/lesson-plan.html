@@ -90,7 +90,7 @@ const blendFams = (C, pg) => (pg.families && pg.families.length ? pg.families : 
 // ---------- 쪽 종류 사전 ----------
 // slides: 슬라이드 수(teach.js 와 같은 규칙) · per/base: 시간(분) = base + per × 슬라이드 · name: 활동 · say: 선생님이 하는 일·말 · kids: 아이들 답
 // 우리말 근사음(비원어민 선생님용, letter.html 의 KO 표를 줄인 것) — 대사의 /æ/ 옆에 (애) 처럼
-const KO1 = { a: '애', b: '브', c: '크', d: '드', e: '에', f: '프(윗니로 아랫입술)', g: '그', h: '흐(숨소리)', i: '이', j: '쥐', k: '크', l: '을', m: '음', n: '은', o: '아', p: '프', q: '크워', r: '르(혀를 말고)', s: '스', t: '트', u: '어', v: '브(윗니로 아랫입술)', w: '워', x: '크스', y: '이', z: '즈' };
+const KO1 = { a: '애', b: '브', c: '크', d: '드', e: '에', f: '프(윗니로 아랫입술)', g: '그', h: '흐(숨소리)', i: '이', j: '쥐', k: '크', l: '을~→ㄹ', m: '음~→ㅁ(입 다문 채, 바로 단어로)', n: '은~→ㄴ', o: '아', p: '프', q: '크워', r: '르(혀를 말고)', s: '스', t: '트', u: '어', v: '브(윗니로 아랫입술)', w: '워', x: '크스', y: '이', z: '즈' };
 const snd = (C, l) => `/${esc(C.sndOf(l))}/${KO1[l] ? `(${KO1[l]})` : ''}`;
 const ACT = {
   characters: { per: 0, base: 6, name: () => '친구들 만나기',
@@ -109,7 +109,7 @@ const ACT = {
     say: (C) => `모음 카드를 하나씩 누르면 소리가 나요(▶ Listen to all 은 차례로). ${Object.entries(C.book.vowels || {}).map(([v, d]) => `<b>${v}</b> /${esc(d.sound)}/`).join(' · ')}. 단어 속 빨간 글자가 모음 — "선생님용 소리 안내" 참고`,
     kids: () => '모음 소리 따라 말하기, 선생님이 짚는 모음 소리 외치기' },
   sounds: { per: 3, base: 0, name: (C) => `소리 ${C.letters.map(ltr).join(' · ')}`,
-    say: (C) => { const l = C.letters[0]; return `글자마다 한 장: 🔊 Name → 🔊 Sound(세 번) → ♪ Chant(반주가 저절로). 아래 단어 그림을 눌러 단어도. <span class="en">"This is ${l.toUpperCase()}. ${l.toUpperCase()} says ${snd(C, l)}. Say it with me!"</span>${C.letters.includes('k') && C.book.letters.c ? ' · <b>k 는 1유닛 c 와 같은 소리</b> — "cup — kite, same sound!" 하고 나란히 보여 주기' : ''}`; },
+    say: (C) => { const l = C.letters[0]; return `글자마다 한 장: 🔊 Name → 🔊 Sound(세 번) → ♪ Chant(반주가 저절로). 아래 단어 그림을 눌러 단어도. <span class="en">"This is ${l.toUpperCase()}. ${l.toUpperCase()} says ${snd(C, l)}. Say it with me!"</span>${C.letters.includes('k') && C.book.letters.c ? ' · <b>k 는 1유닛 c 와 같은 소리</b> — "cup — kite, same sound!" 하고 나란히 보여 주기' : ''}${C.letters.some((x) => 'mnlsfvzr'.includes(x)) ? ` · <b>끌 수 있는 소리(${C.letters.filter((x) => 'mnlsfvzr'.includes(x)).join('·')})는 끊지 말고 단어로 잇기</b>: "mmm→moon" 처럼 길게 내다가 바로 단어. 아이들은 /m/ 을 받침 '음'으로만 들어서 끊으면 첫소리와 못 이어요 (챈트 셋째 소리가 저절로 이어짐)` : ''}`; },
     kids: (C) => { const l = C.letters[0]; return `"${l.toUpperCase()}! /${esc(C.sndOf(l))}/ /${esc(C.sndOf(l))}/!" 따라 말하기, 챈트는 박자에 맞춰`; } },
   trace: { per: 2, base: 0, name: () => '따라 쓰기 · 짝 찾기',
     say: (C) => `글자마다 획순 한 장 + 짝 찾기 한 장. 획순 그림을 누르면 순서대로 그려져요 → 허공에 크게 따라 쓰게 한 뒤 책에. 짝 찾기: <span class="en">"Which one is small ${C.letters[0]}? Number…?"</span> 번호를 듣고 눌러 확인`,

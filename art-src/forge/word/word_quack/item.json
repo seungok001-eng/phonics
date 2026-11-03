@@ -4,11 +4,11 @@
  "cut": "cut.png",
  "attempts": 0,
  "error": "",
- "updated": 1791974364.0562694,
+ "updated": 1793673379.0533724,
  "auto_approved": false,
  "flow_url": "https://flow-content.google/image/e44952a3-97e3-4a7b-90ef-ba86c8d293e6?Expires=1791381181&KeyName=labs-flow-prod-cdn-key&Signature=7kfhDlQMqnjaVH9LL2GPU9JFWbI",
  "prompt_edited": false,
- "applied": "2026-10-14 19:41",
+ "applied": "2026-11-03 11:40",
  "gen": "",
  "job_type": "image",
  "reference": null,
@@ -17,11 +17,11 @@
  "kind": "word",
  "word": "quack",
  "title": "quack · 꽥",
- "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a white duck with its beak wide open quacking loudly, with a big empty speech bubble and sound lines coming out of its beak.",
+ "prompt": "Flat vector illustration in the style of a modern children's English textbook: simple geometric shapes, bold flat solid colors, at most one flat darker shadow tone per object, clean smooth edges with no outlines or only very thin dark outlines, rounded friendly forms, no texture, no gradients, no watercolor, no paper grain, no photo-realism, no 3D render. Bright cheerful palette (red, orange, yellow, green, blue, sky blue). Absolutely no text, letters, numbers, logos or watermarks anywhere in the image. A single object only, centered, filling most of the frame, on a plain pure white background, no ground shadow, nothing else in the picture. Draw exactly what is described and nothing more: animals look natural with no clothes, hats, bags, tools or accessories unless the description says so; no extra props. The object: a white duck standing with its orange beak wide open, quacking very loudly: big curved sound lines and three small musical notes burst out of the beak, eyes squeezed shut with effort; the loud quacking must be the main thing, not just a duck.",
  "aspect": "1:1",
  "out": "web/assets/art/word_quack.png",
  "book": 1,
+ "regen": 2,
  "asset_no": 2050,
- "claimed_at": 1791974342.329603,
- "regen": 1
+ "claimed_at": 1793673347.661579
 }

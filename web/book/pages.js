@@ -92,24 +92,27 @@ PAGES.sounds = (ctx) => {
       </div>
     </div>`;
   }).join('');
-  return instr(1, App.book.instructions.listen_repeat, '글자 이름과 소리를 듣고 따라 말해요') +
+  return instr(1, App.book.instructions.listen_repeat, '글자 이름과 소리를 듣고 따라 말해요. m·n 처럼 끌 수 있는 소리는 길게 내다가 바로 단어로 이어요 (mmm→moon)') +
     `<div class="print-hide" style="display:flex;gap:10px;align-items:center">${spk('', '', true).replace('data-say=""', 'onclick="playSoundsPage()" class="spk big main-play"')}<span>Listen to all</span></div>` +
     `<div class="sound-cards">${cards}</div>`;
 };
 async function chant(l) {
   const d = L(l), card = document.querySelector(`.sound-card[data-letter="${l}"]`);
   const s = { id: 'sound_' + l, text: soundText(l), el: card?.querySelector('.tree'), gap: 150 };
+  // 끌 수 있는 소리(m n s f v z l r h)는 셋째 소리를 끊지 않고 바로 첫 단어로 잇는다(mmm→moon): 한국 아이들은 /m/ 을 받침 '음'으로만 느껴 monkey 의 첫소리와 못 잇는다 (2026-11-03 사용자)
+  const slide = CONTINUANT.includes(l);
   Sound.unlock();
   const beat = await chantTrack('chant_beat');
   const ok = await playSeq([
-    { id: 'name_' + l, text: l.toUpperCase(), el: card?.querySelector('.glyph') }, s, s, { ...s, gap: 400 },
-    ...d.words.map((w) => ({ id: 'word_' + w, text: w, el: card?.querySelector(`.w[data-word="${w}"], .w[data-say="word_${w}"]`), gap: 300, before: () => Sound.sfx('pop') })),
-  ].map((it) => ({ ...it, beat })));
+    { id: 'name_' + l, text: l.toUpperCase(), el: card?.querySelector('.glyph') }, s, s, { ...s, gap: slide ? 0 : 400, beat: 0 },
+    ...d.words.map((w, i) => ({ id: 'word_' + w, text: w, el: card?.querySelector(`.w[data-word="${w}"], .w[data-say="word_${w}"]`), gap: 300, before: slide && i === 0 ? null : () => Sound.sfx('pop') })),
+  ].map((it) => ({ ...it, beat: it.beat ?? beat })));   // beat: 0 (이어 말하기)는 그대로
   chantTrackOff(); return ok;
 }
 async function playSoundsPage() { for (const l of App.units[App.u].letters) { if (!(await chant(l) ?? true)) return; await sleep(500); } }
 // 챈트 반주: web/assets/music/chant_beat.mp3 (소리 챈트·단어 챈트 공용, 100 BPM) 가 있으면 틀고 박자(1.2초)를 돌려준다. 없으면 0 (지금처럼 소리 길이대로)
 const CHANT_BEAT = 1200;
+const CONTINUANT = ['m', 'n', 's', 'f', 'v', 'z', 'l', 'r', 'h'];   // 끌 수 있는 소리: 챈트에서 셋째 소리를 첫 단어로 바로 잇는다 (mmm→moon)
 let chantEl = null;
 function chantTrack(id) {
   return new Promise((res) => {
@@ -121,7 +124,29 @@ function chantTrack(id) {
     setTimeout(() => res(0), 2500);   // 파일이 늦으면 반주 없이 시작
   });
 }
-function chantTrackOff() { if (chantEl) { const a = chantEl; chantEl = null; rampVolume(a, 0, 400); setTimeout(() => a.pause(), 450); } }
+function chantTrackOff() { songTrackOff(); if (chantEl) { const a = chantEl; chantEl = null; rampVolume(a, 0, 400); setTimeout(() => a.pause(), 450); } }
+// 진짜 노래 파일(music/<track>.mp3)을 틀고 줄 시작 시각(times, 초)에 맞춰 가사 줄을 비춘다. 쪽을 넘기면(줄이 사라지면) 멈춘다
+let songEl = null;
+function songTrackPlay(sg) {
+  return new Promise((res) => {
+    songTrackOff();
+    const a = new Audio(ASSETS + 'music/' + sg.track + '.mp3'); songEl = a;
+    const lines = sg.lines.map((_, i) => document.querySelector(`.song-line[data-i="${i}"]`));
+    let cur = -1;
+    const off = () => { lines[cur]?.classList.remove('playing', 'hl'); cur = -1; };
+    const tick = () => {
+      if (songEl !== a) return;
+      if (lines[0] && !document.body.contains(lines[0])) { songTrackOff(); return; }
+      let k = -1; for (let i = 0; i < sg.times.length; i++) if (sg.times[i] != null && a.currentTime >= sg.times[i]) k = i;
+      if (k !== cur) { off(); cur = k; const el = lines[k]; if (el) { el.classList.add('playing', 'hl'); el.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); } }
+      requestAnimationFrame(tick);
+    };
+    a.onended = () => { off(); if (songEl === a) songEl = null; res(true); };
+    a.onerror = () => { if (songEl === a) songEl = null; res(false); };
+    a.play().then(tick).catch(() => res(false));
+  });
+}
+function songTrackOff() { if (songEl) { const a = songEl; songEl = null; a.pause(); document.querySelectorAll('.song-line.playing').forEach((el) => el.classList.remove('playing', 'hl')); } }
 
 // 쓰기: 획순 + 따라 쓰기 줄 + 큰·작은 글자 짝 찾기
 PAGES.trace = (ctx) => {
@@ -175,7 +200,7 @@ PAGES.read_play = (ctx) => {
 function gamePaperHtml(ctx) {
   const rs = ctx.unit.game?.rounds || [];
   return instr(2, App.book.instructions.listen_circle || 'Listen and circle.', '', B2() ? '선생님이 부르는 단어를 듣고 맞는 그림에 동그라미' : '선생님이 부르는 소리를 듣고 그 소리로 시작하는 그림에 동그라미') +
-    `<div class="check-sec game-paper">${rs.map((r, i) => `<div class="lc-row"><span class="n">${i + 1}</span><div class="opts">${r.pictures.map((w) => `<div class="opt">${pic('word_' + w, '', w)}</div>`).join('')}</div></div>`).join('')}</div>`;
+    `<div class="check-sec game-paper">${rs.map((r, i) => `<div class="lc-row" data-say="${esc(r.audio)}" data-ans="${esc(r.answer)}"><span class="n">${i + 1}</span><div class="opts">${r.pictures.map((w) => `<div class="opt" data-w="${esc(w)}">${pic('word_' + w, '', w)}</div>`).join('')}</div></div>`).join('')}</div>`;   // data-*: 정답지(answers.html)용
 }
 // 소리 잡기 게임 판: 교재 쪽과 선생님 슬라이드가 같이 쓴다. 팀 A·B 점수판(현재 팀을 눌러 고르고, 정답이면 그 팀 +1)
 function gameHtml(ctx, big) {
@@ -687,10 +712,12 @@ PAGES.alphabet_song = (ctx) => {
     `<div class="print-hide" style="display:flex;gap:10px;align-items:center"><button class="btn orange main-play" onclick="songPlay()">▶ Sing!</button><button class="btn small" onclick="stopSeq();chantTrackOff()">⏹</button></div>` +
     `<div class="song ${B2() ? 'words' : 'abc'}">${songLines(ctx.unit)}</div>`;   // abc = 알파벳 노래(26줄 뒤 마무리 줄은 가운데)
 };
-// 전체 부르기: 반주(music/<bgm>.mp3, 없으면 song_backing)가 있으면 그 위에 줄마다 소리, 없으면 1.2초 박자로 이어 붙인다. 줄과 글자 카드에 차례로 불
+// 전체 부르기: 진짜 노래 파일(track + 줄 시각 times)이 있으면 그것(12유닛 Pip's Song). 없으면 반주(music/<bgm>.mp3, 없으면 song_backing) 위에 줄마다 소리, 그것도 없으면 1.2초 박자로 이어 붙인다. 줄과 글자 카드에 차례로 불
 async function songPlay() {
   Sound.unlock(); stopSeq();
-  const sg = App.units[App.u].show.song, beat = await chantTrack(sg.bgm || 'song_backing');
+  const sg = App.units[App.u].show.song;
+  if (sg.track && sg.times && await musicExists(sg.track)) return songTrackPlay(sg);
+  const beat = await chantTrack(sg.bgm || 'song_backing');
   const items = sg.lines.map((ln, i) => { const el = document.querySelector(`.song-line[data-i="${i}"]`); return { id: ln.audio, text: ln.text, el, gap: 300, beat: beat ? 0 : CHANT_BEAT, bar: beat ? 2400 : 0, before: () => el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }) }; });
   await playSeq(items); chantTrackOff();
 }

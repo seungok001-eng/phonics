@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=shut a door | TYPE=sentence | IPA=ʃʌt ə dɔɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! A door?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674462.8753242,
+   "sec": 1.68,
+   "check": {
+    "transcript": "adore",
+    "type": "word",
+    "ipa": "əˈdɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=adore | TYPE=word | IPA=əˈdɔɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:26",
+ "applied": "2026-11-03 11:54",
  "text_edited": false,
  "error": "",
  "unit": 4,

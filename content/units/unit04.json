@@ -297,13 +297,13 @@
   "check": {
     "listen_circle": [
       {
-        "audio": "sound_j",
+        "audio": "sound_l",
         "options": [
           "j",
           "k",
           "l"
         ],
-        "answer": "j"
+        "answer": "l"
       },
       {
         "audio": "word_kite",

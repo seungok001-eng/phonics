@@ -277,13 +277,13 @@
   "check": {
     "listen_circle": [
       {
-        "audio": "sound_e",
+        "audio": "sound_d",
         "options": [
           "d",
           "e",
           "f"
         ],
-        "answer": "e"
+        "answer": "d"
       },
       {
         "audio": "word_fork",
@@ -365,8 +365,8 @@
         ]
       },
       {
-        "audio": "sound_d",
-        "answer": "d",
+        "audio": "sound_e",
+        "answer": "e",
         "pictures": [
           "egg",
           "fan",

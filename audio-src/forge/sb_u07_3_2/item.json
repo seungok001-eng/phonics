@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Shh. Can I keep it? | TYPE=sentence | IPA=ʃ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... Can I keep it?",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674372.8551333,
+   "sec": 1.91,
+   "check": {
+    "transcript": "Can I keep it?",
+    "type": "sentence",
+    "ipa": "kæn aɪ kiːp ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Can I keep it? | TYPE=sentence | IPA=kæn aɪ kiːp ɪt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:29",
+ "applied": "2026-11-03 11:52",
  "text_edited": false,
  "error": "",
  "unit": 7,

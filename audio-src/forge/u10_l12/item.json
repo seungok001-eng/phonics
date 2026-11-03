@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=sniff shoe sniff | TYPE=sentence | IPA=snɪf ʃuː snɪf | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Sniff... Shh. Sniff.",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674579.6699862,
+   "sec": 2.97,
+   "check": {
+    "transcript": "sniff",
+    "type": "word",
+    "ipa": "snɪf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sniff | TYPE=word | IPA=snɪf | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:32",
+ "applied": "2026-11-03 11:56",
  "text_edited": false,
  "error": "",
  "unit": 10,

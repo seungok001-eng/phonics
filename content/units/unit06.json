@@ -297,13 +297,13 @@
   "check": {
     "listen_circle": [
       {
-        "audio": "sound_n",
+        "audio": "sound_m",
         "options": [
           "m",
           "n",
           "o"
         ],
-        "answer": "n"
+        "answer": "m"
       },
       {
         "audio": "word_otter",
@@ -385,8 +385,8 @@
         ]
       },
       {
-        "audio": "sound_m",
-        "answer": "m",
+        "audio": "sound_o",
+        "answer": "o",
         "pictures": [
           "nine",
           "monkey",

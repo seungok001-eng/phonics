@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Shh. My ears. | TYPE=sentence | IPA=ʃ mɑɪ ɪəɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! My ears!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674306.9549642,
+   "sec": 1.91,
+   "check": {
+    "transcript": "shh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=shh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:25",
+ "applied": "2026-11-03 11:51",
  "text_edited": false,
  "error": "",
  "unit": 3,

@@ -289,13 +289,13 @@
   "check": {
     "listen_circle": [
       {
-        "audio": "sound_b",
+        "audio": "sound_c",
         "options": [
           "a",
           "b",
           "c"
         ],
-        "answer": "b"
+        "answer": "c"
       },
       {
         "audio": "word_cup",

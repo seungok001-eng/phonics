@@ -151,7 +151,7 @@
 | Uu | /ʌ/ | umbrella | up | uncle | 짧은 u로 시작하는 단어가 거의 없음 |
 | Vv | /v/ | vet | vest | volcano | |
 | Ww | /w/ | window | water | worm | |
-| Xx | /ks/ 끝소리 | six | box | taxi | x로 시작하는 단어는 없음 |
+| Xx | /ks/ 끝소리 | six | box | fox | x로 시작하는 단어는 없음. 셋 다 x 가 끝소리 (taxi 는 가운데라 뺌) |
 | Yy | /j/ | yogurt | yak | yo-yo | |
 | Zz | /z/ | zebra | zipper | zigzag | |
 

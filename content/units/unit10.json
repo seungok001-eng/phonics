@@ -297,6 +297,7 @@
       {
         "audio": "sound_z",
         "options": [
+          "x",
           "y",
           "z"
         ],

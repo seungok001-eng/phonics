@@ -212,8 +212,11 @@ function buildTest(scope, level, set) {
   const item = (html, keyHtml, ls) => ({ html, keyHtml, letters: ls, no: ++no });
   const parts = [];
 
+  // 그림만으로 그 단어를 떠올리기 어려운 단어(book.json pic_hard: quack→duck, uncle→dad)는 그림만 보고 답하는 문항에서 뺀다 (단어가 보이는 잇기·읽고 고르기에는 나온다)
+  const picHard = (w) => !!((BOOK.words || {})[w] || {}).pic_hard;
+  const takeP = (n) => { const out = []; let g = 0; while (out.length < n && g++ < pool.length * 3) { const w = pool[cur % pool.length]; cur++; if (!picHard(w)) out.push(w); } while (out.length < n) out.push(take(1)[0]); return out; };
   // 그림 보고 첫소리 글자 고르기 (3지선다)
-  const pickFirst = (n) => { const P = posGen(n, 3, nx()); return take(n).map((w) => { const l = letterOf(w), opts = put(l, others(l, 2, nx()), P());
+  const pickFirst = (n) => { const P = posGen(n, 3, nx()); return takeP(n).map((w) => { const l = letterOf(w), opts = put(l, others(l, 2, nx()), P());
     const op = (on) => `<div class="opts">${opts.map((o) => `<span class="${on && o === l ? 'on' : ''} ${lcls(o)}">${o}</span>`).join('')}</div>`;
     const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}${op(on)}</div>`;
     return item(base(false), base(true), [l]); }); };
@@ -235,7 +238,7 @@ function buildTest(scope, level, set) {
     const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(L[l].words[0])}${bx(on)}</div>`;
     return item(base(false), base(true), [l]); });
   // 그림 보고 첫 글자 쓰기 (4선)
-  const writeFirst = (n) => take(n).map((w) => { const l = letterOf(w), i = L[l].final ? w.lastIndexOf(l) : 0;
+  const writeFirst = (n) => takeP(n).map((w) => { const l = letterOf(w), i = L[l].final ? w.lastIndexOf(l) : 0;
     const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="wd">${on ? keyWord(w, i) : blankWord(w, i)}</div><div class="w4">${on ? `<span class="ans">${l}</span>` : ''}</div></div>`;
     return item(base(false), base(true), [l]); });
   // 그림–단어 잇기
@@ -251,14 +254,14 @@ function buildTest(scope, level, set) {
     const base = (on) => `<div class="it rp"><span class="no">${no + 1}</span><div class="wd big">${esc(w)}</div><div class="opts pics">${opts.map((o, j) => `<span class="o ${on && o === w ? 'on' : ''}">${pb(o, 'sm')}<b>${'abc'[j]}</b></span>`).join('')}</div></div>`;
     return item(base(false), base(true), [l]); }); };
   // 그림 보고 단어 완성 (c_t): 첫 글자 말고 범위 글자가 있으면 그 자리를, 없으면 두 번째 글자를 비운다
-  const completeWord = (n) => take(n).map((w) => { const l = letterOf(w); let i = -1;
+  const completeWord = (n) => takeP(n).map((w) => { const l = letterOf(w); let i = -1;
     for (let j = 1; j < w.length; j++) if (letters.includes(w[j]) && w[j] !== '-') { i = j; break; }
     if (i < 0) i = Math.min(1, w.length - 1);
     const base = (on) => `<div class="it cw"><span class="no">${no + 1}</span>${pb(w)}<div class="boxes wbx">${w.split('').map((ch, j) => j === i ? `<span class="blank ${on ? 'ans' : ''}">${on ? ch : ''}</span>` : `<span>${ch}</span>`).join('')}</div></div>`;
     return item(base(false), base(true), [letters.includes(w[i]) ? w[i] : l]); });
   // 그림 보고 단어 쓰기 (단어 보기 상자 + 4선)
   const writeWord = (n) => { const avoid = level === 3 ? pickLines(4).map((x) => x.text).join(' ').toLowerCase() : '', ws = [];
-    for (let g = 0; ws.length < n && g < pool.length * 2; g++) { const w = pool[cur % pool.length]; cur++; if (!new RegExp('\\b' + w + '\\b').test(avoid) && !ws.includes(w)) ws.push(w); }
+    for (let g = 0; ws.length < n && g < pool.length * 2; g++) { const w = pool[cur % pool.length]; cur++; if (!picHard(w) && !new RegExp('\\b' + w + '\\b').test(avoid) && !ws.includes(w)) ws.push(w); }
     while (ws.length < n) ws.push(take(1)[0]);
     return ws.map((w) => { const base = (on) => `<div class="it"><span class="no">${no + 1}</span>${pb(w)}<div class="w4">${on ? `<span class="ans">${esc(w)}</span>` : ''}</div></div>`; return item(base(false), base(true), [letterOf(w)]); }); };
   // 사이트워드 문장 완성: 범위 유닛 이야기 줄에서 사이트워드가 든 문장, 그림은 문장 속 단어

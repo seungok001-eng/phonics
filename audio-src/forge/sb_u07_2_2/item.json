@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Shh, it is my quilt. | TYPE=sentence | IPA=ʃ i t ɪ z m aɪ kwɪlt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! It is my quilt!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674359.8424833,
+   "sec": 1.96,
+   "check": {
+    "transcript": "It is my quilt.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ kwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my quilt. | TYPE=sentence | IPA=ɪt ɪz maɪ kwɪlt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:29",
+ "applied": "2026-11-03 11:52",
  "text_edited": false,
  "error": "",
  "unit": 7,

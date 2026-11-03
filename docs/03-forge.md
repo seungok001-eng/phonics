@@ -100,3 +100,8 @@ web/assets/art/ audio/ video/   교재가 읽는 파일 (교재에 넣기)
 - 쓰는 법: 설정 `generator: gemini`, `gemini_model: "topview:Nano Banana 2.1"`, `gemini_size: "1K"`. 모델 이름이 `topview:` 로 시작하면 `gemini_generate` 가 `topview_generate` 로 넘긴다(server.py).
   - 참조 그림(캐스트 시트 등)이 있으면 `/v1/upload/credential` → PUT → `/v1/upload/check` 로 올리고(같은 그림은 한 번만), `/v1/common_task/image_edit/task/submit` 에 `inputImageFileIds`. 없으면 `text2image`. 4초마다 `.../task/query` 로 확인(최대 6분).
   - 쓴 크레딧은 설정 `topview_usage {count, credits}`.
+
+
+## 2026-11-03 그럼블 "Shh!"
+- 일레븐랩스는 "Shh!" 를 단어처럼("sheet·shut") 읽는다 → `server.py` `HUSH_RE`: 대사 속 Shh 를 `/shh/` 덩어리로 바꿔 `el_compose` 가 `audio-src/shh.wav`(제미나이 Charon "Shh!" 후보에서 잘라 0.6초로 늘인 쉿 소리)를 그 자리에 끼운다. 그럼블 대사를 다시 만들 때 자동. 받아쓰기 검사에 "clean whispered hush" 로 나오면 된 것.
+- 2~4권 그럼블 대사 77개는 아직 옛 녹음 — `build/tmp/regen_shh.py <id …>` 로 다시 만들어 승인·넣기.

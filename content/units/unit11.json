@@ -144,13 +144,13 @@
           "answer": "quilt"
         },
         {
-          "audio": "word_taxi",
+          "audio": "word_fox",
           "options": [
             "six",
             "box",
-            "taxi"
+            "fox"
           ],
-          "answer": "taxi"
+          "answer": "fox"
         },
         {
           "audio": "word_turtle",

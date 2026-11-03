@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Ouch | TYPE=word | IPA=aʊtʃ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... Ouch!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674384.8158906,
+   "sec": 1.54,
+   "check": {
+    "transcript": "shh ouch",
+    "type": "sentence",
+    "ipa": "ʃaʊtʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh ouch | TYPE=sentence | IPA=ʃaʊtʃ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:30",
+ "applied": "2026-11-03 11:53",
  "text_edited": false,
  "error": "",
  "unit": 8,

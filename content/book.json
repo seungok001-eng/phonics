@@ -346,7 +346,7 @@
       "words": [
         "six",
         "box",
-        "taxi"
+        "fox"
       ]
     },
     "y": {
@@ -477,7 +477,7 @@
     },
     "insect": {
       "ko": "곤충",
-      "desc": "a magnifying glass over a small group of different insects: an ant, a bee, a ladybug and a grasshopper, all clearly six-legged"
+      "desc": "three different cute cartoon insects side by side on a green leaf — a beetle, a ladybug and a grasshopper — each clearly with six legs and two antennae; no magnifying glass"
     },
     "jelly": {
       "ko": "젤리",
@@ -509,7 +509,7 @@
     },
     "leg": {
       "ko": "다리",
-      "desc": "one cartoon child's leg from the knee down, bare skin with a plain white short sock and a red sneaker, shown from the side, nothing else"
+      "desc": "one cartoon child leg with a bare foot, from the knee down to the toes, seen from the side with the knee slightly bent, simple flat cartoon style with bold clean outlines, drawn big; no body, no shoes, no socks, nothing else"
     },
     "lock": {
       "ko": "자물쇠",
@@ -529,7 +529,7 @@
     },
     "nose": {
       "ko": "코",
-      "desc": "a friendly cartoon child's face with normal open eyes with black pupils, smiling, and one finger touching the tip of the nose; a small soft glow only around the nose"
+      "desc": "close-up of a friendly cartoon child face with a big round nose in natural skin tone (slightly rosy, NOT a red clown nose), one finger touching the tip of the nose; normal open eyes with black pupils; the nose is the biggest, clearest feature"
     },
     "net": {
       "ko": "그물",
@@ -573,7 +573,8 @@
     },
     "quack": {
       "ko": "꽥",
-      "desc": "a white duck with its beak wide open quacking loudly, with a big empty speech bubble and sound lines coming out of its beak"
+      "desc": "a white duck standing with its orange beak wide open, quacking very loudly: big curved sound lines and three small musical notes burst out of the beak, eyes squeezed shut with effort; the loud quacking must be the main thing, not just a duck",
+      "pic_hard": true
     },
     "rocket": {
       "ko": "로켓",
@@ -616,16 +617,17 @@
       "desc": "an open red umbrella"
     },
     "up": {
-      "ko": "위",
-      "desc": "one cartoon hand with the index finger pointing straight up toward a small sun in the sky, plain background, no arrow"
+      "ko": "위로",
+      "desc": "a smiling cartoon child jumping high UP into the air with both arms raised straight up, and a big thick red arrow pointing straight up right next to the child; clear upward motion lines; the upward direction is the whole point"
     },
     "uncle": {
       "ko": "삼촌",
-      "desc": "a friendly cartoon uncle (a grown-up man) with a mustache and a green cap, holding hands with a small smiling child (his niece)"
+      "desc": "a friendly cartoon young grown-up man with a mustache and a green cap, waving with a big smile, with a small child hugging his leg and looking up at him happily",
+      "pic_hard": true
     },
     "vet": {
       "ko": "수의사",
-      "desc": "a friendly cartoon animal doctor (a grown-up woman) in a white coat with a stethoscope, gently examining a puppy with a bandaged paw on an exam table"
+      "desc": "a friendly cartoon animal doctor (a grown-up woman) in a white coat with a stethoscope around her neck, holding a happy puppy in one arm and a kitten in the other; a small paw-print sign hangs on the wall behind her; it must look like an ANIMAL doctor, not a people doctor"
     },
     "vest": {
       "ko": "조끼",
@@ -641,7 +643,7 @@
     },
     "water": {
       "ko": "물",
-      "desc": "a clear glass of water with a splash"
+      "desc": "clear blue water pouring from a silver tap and splashing into a puddle with big round water drops flying; the water itself is the main thing; no cup, no glass"
     },
     "worm": {
       "ko": "지렁이",
@@ -655,9 +657,9 @@
       "ko": "상자",
       "desc": "a brown cardboard box with the flaps open"
     },
-    "taxi": {
-      "ko": "택시",
-      "desc": "a yellow taxi cab seen from the side"
+    "fox": {
+      "ko": "여우",
+      "desc": "an orange fox with a bushy white-tipped tail, sitting and smiling"
     },
     "yogurt": {
       "ko": "요거트",

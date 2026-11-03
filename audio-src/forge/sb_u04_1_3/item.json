@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=shi shi shi | TYPE=word | IPA=ʃi ʃi ʃi | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! Shh! Shh!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674322.4835625,
+   "sec": 2.21,
+   "check": {
+    "transcript": "shh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=shh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:26",
+ "applied": "2026-11-03 11:52",
  "text_edited": false,
  "error": "",
  "unit": 4,

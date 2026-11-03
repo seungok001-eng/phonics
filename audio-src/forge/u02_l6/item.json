@@ -33,11 +33,45 @@
     "raw": "TRANSCRIPT=Oh no. | TYPE=sentence | IPA=oʊ ˈnoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! Oh no!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674182.5604162,
+   "sec": 1.82,
+   "check": {
+    "transcript": "Shh",
+    "type": "word",
+    "ipa": "ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh | TYPE=word | IPA=ʃ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh! Oh no!",
+   "voice": "Antonio",
+   "how": "el",
+   "created": 1793674421.8340633,
+   "sec": 1.68,
+   "check": {
+    "transcript": "Shh",
+    "type": "word",
+    "ipa": "ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh | TYPE=word | IPA=ʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:23",
+ "applied": "2026-11-03 11:53",
  "text_edited": false,
  "error": "",
  "unit": 2,
