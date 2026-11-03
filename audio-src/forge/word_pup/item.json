@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=pup | TYPE=word | IPA=pʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "pup",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699947.0754302,
+   "sec": 0.7,
+   "check": {
+    "transcript": "pop",
+    "type": "word",
+    "ipa": "pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop | TYPE=word | IPA=pɒp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "pup",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

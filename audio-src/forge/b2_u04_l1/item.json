@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=Grumble has a big leg. | TYPE=sentence | IPA=ˈɡɹʌmbəl hæz ə bɪɡ lɛɡ. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Grumble has no bed.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699534.900985,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Grumble has no bed",
+    "type": "sentence",
+    "ipa": "ˈɡɹʌmbəl hæz noʊ bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Grumble has no bed | TYPE=sentence | IPA=ˈɡɹʌmbəl hæz noʊ bɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-06 23:54",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b2_u04_l1",
  "sub": "line",
- "title": "2권 4유닛 대사 · 해설: Grumble has a big leg!",
- "text": "Grumble has a big leg!",
+ "title": "2권 4유닛 대사 · 해설: Grumble has no bed.",
+ "text": "Grumble has no bed.",
  "voice": "Kore",
+ "who": "narrator",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

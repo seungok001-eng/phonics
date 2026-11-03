@@ -50,21 +50,38 @@
     "raw": "TRANSCRIPT=Golfe | TYPE=word | IPA=ɡolf | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A dog! A hot pot!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699603.920521,
+   "sec": 1.67,
+   "check": {
+    "transcript": "a dog a hot pot",
+    "type": "sentence",
+    "ipa": "ə dɔːg ə hɑːt pɑːt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a dog a hot pot | TYPE=sentence | IPA=ə dɔːg ə hɑːt pɑːt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-07 16:41",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b2_u08_l3",
  "sub": "line",
- "title": "2권 8유닛 대사 · 핍: Gof! Gof?",
- "text": "Gof! Gof?",
+ "title": "2권 8유닛 대사 · 번: A dog! A hot pot!",
+ "text": "A dog! A hot pot!",
  "voice": "Aoede",
- "who": "pip",
+ "who": "bun",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=go | TYPE=word | IPA=ɡoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "go",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698452.3676069,
+   "sec": 0.65,
+   "check": {
+    "transcript": "go",
+    "type": "word",
+    "ipa": "ɡoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=go | TYPE=word | IPA=ɡoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "sw",
  "title": "사이트워드 go · 가다",
  "text": "go",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

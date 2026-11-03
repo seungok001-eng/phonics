@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=I see the duck! | TYPE=sentence | IPA=aɪ siː ðə dʌk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The duck is on the egg.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793697955.0177221,
+   "sec": 1.49,
+   "check": {
+    "transcript": "The duck is on the egg.",
+    "type": "sentence",
+    "ipa": "ðə ˈdʌk ɪz ˈɑn ði ˈɛɡ.",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The duck is on the egg. | TYPE=sentence | IPA=ðə ˈdʌk ɪz ˈɑn ði ˈɛɡ. | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:23",
+ "applied": "2026-11-03 18:54",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "u02_l1",
  "sub": "line",
- "title": "1권 2유닛 대사 · 번: I see the duck!",
- "text": "I see the duck!",
+ "title": "1권 2유닛 대사 · 해설: The duck is on the egg.",
+ "text": "The duck is on the egg.",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "narrator",
+ "book": 1
 }

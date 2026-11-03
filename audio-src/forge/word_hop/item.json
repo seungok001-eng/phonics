@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=hop | TYPE=word | IPA=h ɑ p | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "hop",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699893.0782611,
+   "sec": 0.7,
+   "check": {
+    "transcript": "oh hop",
+    "type": "sentence",
+    "ipa": "oʊ hɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=oh hop | TYPE=sentence | IPA=oʊ hɑp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "hop",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

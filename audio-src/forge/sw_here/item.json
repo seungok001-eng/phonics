@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=here | TYPE=word | IPA=hɪɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "here",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698472.2316315,
+   "sec": 0.65,
+   "check": {
+    "transcript": "here",
+    "type": "word",
+    "ipa": "hɪɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=here | TYPE=word | IPA=hɪɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "sw",
  "title": "사이트워드 here · 여기",
  "text": "here",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=fog | TYPE=word | IPA=fɔɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "fog",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699871.1241727,
+   "sec": 0.79,
+   "check": {
+    "transcript": "fog",
+    "type": "word",
+    "ipa": "fɔg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fog | TYPE=word | IPA=fɔg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "fog",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

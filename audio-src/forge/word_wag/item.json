@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=wag | TYPE=word | IPA=wæg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "wag",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699735.9749866,
+   "sec": 0.74,
+   "check": {
+    "transcript": "wag",
+    "type": "word",
+    "ipa": "wæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=wag | TYPE=word | IPA=wæg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "wag",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

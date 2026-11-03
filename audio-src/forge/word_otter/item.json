@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=otter | TYPE=word | IPA=ˈɑtɚ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "otter",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698263.111524,
+   "sec": 0.65,
+   "check": {
+    "transcript": "otter",
+    "type": "word",
+    "ipa": "ˈɑtɚ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=otter | TYPE=word | IPA=ˈɑtɚ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:56",
+ "applied": "2026-11-03 19:00",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 otter · 수달",
  "text": "otter",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

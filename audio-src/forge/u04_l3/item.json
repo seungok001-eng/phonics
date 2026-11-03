@@ -84,21 +84,37 @@
     "raw": "TRANSCRIPT=kite | TYPE=word | IPA=kaɪt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Jump, Bun and Hedgie!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793697993.9739597,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Jump Man and Hedgie",
+    "type": "sentence",
+    "ipa": "ʤʌmp mæn ænd hɛʤi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Jump Man and Hedgie | TYPE=sentence | IPA=ʤʌmp mæn ænd hɛʤi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-08 12:27",
+ "applied": "2026-11-03 18:55",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "u04_l3",
  "sub": "line",
- "title": "1권 4유닛 대사 · 번: /k/ /k/ kite!",
- "text": "/k/ /k/ kite!",
+ "title": "1권 4유닛 대사 · 핍: Jump, Bun and Hedgie!",
+ "text": "Jump, Bun and Hedgie!",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "pip",
+ "book": 1
 }

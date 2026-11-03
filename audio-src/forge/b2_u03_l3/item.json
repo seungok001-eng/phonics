@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=Ten hens, oh no. | TYPE=sentence | IPA=tɛn hɛnz, oʊ noʊ. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The hen is wet.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699525.8167639,
+   "sec": 1.39,
+   "check": {
+    "transcript": "The hen is wet.",
+    "type": "sentence",
+    "ipa": "ðə hɛn ɪz wɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The hen is wet. | TYPE=sentence | IPA=ðə hɛn ɪz wɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-06 23:53",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "b2_u03_l3",
  "sub": "line",
- "title": "2권 3유닛 대사 · 해설: Ten hens! Oh no!",
- "text": "Ten hens! Oh no!",
+ "title": "2권 3유닛 대사 · 헤지: The hen is wet.",
+ "text": "The hen is wet.",
  "voice": "Kore",
+ "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

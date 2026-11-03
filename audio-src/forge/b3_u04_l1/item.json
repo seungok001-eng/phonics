@@ -18,18 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:13",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b3_u04_l1",
  "sub": "line",
- "title": "3권 4유닛 대사 · 번: What is that? A lock!",
- "text": "What is that? A lock!",
+ "title": "3권 4유닛 대사 · 해설: What are you doing, King Duck?",
+ "text": "What are you doing, King Duck?",
  "voice": "Leda",
- "who": "bun",
+ "who": "narrator",
  "book": 3
 }

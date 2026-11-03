@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=This is the party. | TYPE=sentence | IPA=ðɪs ɪz ðə pɑːɹt̮i | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "We like a party!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793698095.5131543,
+   "sec": 1.39,
+   "check": {
+    "transcript": "We like a party.",
+    "type": "sentence",
+    "ipa": "wi lə kɑɹti",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like a party. | TYPE=sentence | IPA=wi lə kɑɹti | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:33",
+ "applied": "2026-11-03 18:57",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "u11_l1",
  "sub": "line",
- "title": "1권 11유닛 대사 · 함께: This is the party!",
- "text": "This is the party!",
+ "title": "1권 11유닛 대사 · 함께: We like a party!",
+ "text": "We like a party!",
  "voice": "Kore",
  "who": "both",
- "book": 1,
- "busy": 0
+ "book": 1
 }

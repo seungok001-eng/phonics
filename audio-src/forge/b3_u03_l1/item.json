@@ -18,18 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:10",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "b3_u03_l1",
  "sub": "line",
- "title": "3권 3유닛 대사 · 번: This path is thin!",
- "text": "This path is thin!",
+ "title": "3권 3유닛 대사 · 해설: This path is thin.",
+ "text": "This path is thin.",
  "voice": "Leda",
- "who": "bun",
+ "who": "narrator",
  "book": 3
 }

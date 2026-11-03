@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=it | TYPE=word | IPA=ɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "it",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698419.399254,
+   "sec": 0.7,
+   "check": {
+    "transcript": "it",
+    "type": "word",
+    "ipa": "ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=it | TYPE=word | IPA=ɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "sw",
  "title": "사이트워드 it · 그것",
  "text": "it",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

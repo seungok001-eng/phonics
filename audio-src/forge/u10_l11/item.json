@@ -33,6 +33,74 @@
     "raw": "TRANSCRIPT=A B C | TYPE=sentence | IPA=eɪ biː siː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A! B! C!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793694448.4882357,
+   "sec": 1.76,
+   "check": {
+    "transcript": "Abecedario",
+    "type": "word",
+    "ipa": "abeseˈdaɾjo",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Abecedario | TYPE=word | IPA=abeseˈdaɾjo | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A! B! C!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793694615.6921308,
+   "sec": 1.44,
+   "check": {
+    "transcript": "A, B, C",
+    "type": "sentence",
+    "ipa": "eɪ, biː, siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A, B, C | TYPE=sentence | IPA=eɪ, biː, siː | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A! B! C!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793694690.8802414,
+   "sec": 1.67,
+   "check": {
+    "transcript": "a, b, c",
+    "type": "sentence",
+    "ipa": "eɪ biː siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a, b, c | TYPE=sentence | IPA=eɪ biː siː | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "A! B! C!",
+   "voice": "글자 이름 녹음 이어 붙임 ↑",
+   "how": "el",
+   "created": 1793694691.509741,
+   "sec": 1.81,
+   "check": {
+    "transcript": "A, B, C",
+    "type": "letter-name",
+    "ipa": "eɪ ˈbiː ˈsiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A, B, C | TYPE=letter-name | IPA=eɪ ˈbiː ˈsiː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 2,
@@ -49,5 +117,5 @@
  "voice": "Kore",
  "who": "pip",
  "book": 1,
- "busy": 0
+ "busy": 1
 }

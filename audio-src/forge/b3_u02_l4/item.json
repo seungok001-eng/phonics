@@ -52,19 +52,18 @@
    "warn": true
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-08 13:00",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "b3_u02_l4",
  "sub": "line",
- "title": "3권 2유닛 대사 · 핌과 팜: Together! /tʃ/ /tʃ/ chip!",
- "text": "Together! /tʃ/ /tʃ/ chip!",
+ "title": "3권 2유닛 대사 · 핍: They play chess. Munch, munch!",
+ "text": "They play chess. Munch, munch!",
  "voice": "Laomedeia",
- "who": "twins",
- "book": 3,
- "busy": 0
+ "who": "pip",
+ "book": 3
 }

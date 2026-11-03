@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=lip | TYPE=word | IPA=lɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "lip",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699835.957244,
+   "sec": 0.65,
+   "check": {
+    "transcript": "lip",
+    "type": "word",
+    "ipa": "lɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=lip | TYPE=word | IPA=lɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:45",
  "text_edited": false,
  "error": "",
- "unit": 7,
+ "unit": 4,
  "letter": null,
  "id": "word_lip",
  "sub": "word",
- "title": "단어 lip · 입술",
+ "title": "새 단어(첫소리 맞히기) lip",
  "text": "lip",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

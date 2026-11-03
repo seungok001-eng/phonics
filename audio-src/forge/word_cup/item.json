@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=cup | TYPE=word | IPA=kʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "cup",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793697743.7889736,
+   "sec": 0.7,
+   "check": {
+    "transcript": "cup",
+    "type": "word",
+    "ipa": "kʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cup | TYPE=word | IPA=kʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-11-03 18:24",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -46,5 +63,7 @@
  "sub": "word",
  "title": "단어 cup · 컵",
  "text": "cup",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
 }

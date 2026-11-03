@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wɝm | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "worm",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698368.1805677,
+   "sec": 0.84,
+   "check": {
+    "transcript": "worm",
+    "type": "word",
+    "ipa": "wɝm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wɝm | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 worm · 지렁이",
  "text": "worm",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

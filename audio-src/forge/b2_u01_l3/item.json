@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=Click clack, a stone. | TYPE=sentence | IPA=klɪk klæk ə stoʊn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "No, rat, no!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699493.9997134,
+   "sec": 1.11,
+   "check": {
+    "transcript": "No, Rad, no.",
+    "type": "sentence",
+    "ipa": "noʊ ræd noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=No, Rad, no. | TYPE=sentence | IPA=noʊ ræd noʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-06 23:49",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "b2_u01_l3",
  "sub": "line",
- "title": "2권 1유닛 대사 · 해설: Click-clack! A stone!",
- "text": "Click-clack! A stone!",
+ "title": "2권 1유닛 대사 · 헤지: No, rat, no!",
+ "text": "No, rat, no!",
  "voice": "Kore",
+ "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

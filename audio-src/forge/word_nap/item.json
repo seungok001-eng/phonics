@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=nap | TYPE=word | IPA=næp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "nap",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699716.9654288,
+   "sec": 0.7,
+   "check": {
+    "transcript": "nappy",
+    "type": "word",
+    "ipa": "/ˈnæ.pi/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nappy | TYPE=word | IPA=/ˈnæ.pi/ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:43",
  "text_edited": false,
  "error": "",
- "unit": 2,
+ "unit": 6,
  "letter": null,
  "id": "word_nap",
  "sub": "word",
- "title": "단어 nap · 낮잠",
+ "title": "새 단어(첫소리 맞히기) nap",
  "text": "nap",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=zip | TYPE=word | IPA=zɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "zip",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699832.015193,
+   "sec": 0.65,
+   "check": {
+    "transcript": "sip",
+    "type": "word",
+    "ipa": "sɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sip | TYPE=word | IPA=sɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "zip",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

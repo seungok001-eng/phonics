@@ -1,0 +1,52 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Shh!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793698123.889693,
+   "sec": 0.62,
+   "check": {
+    "transcript": "sh",
+    "type": "isolated-sound",
+    "ipa": "ʃ",
+    "note": "clean",
+    "raw": "TRANSCRIPT=sh | TYPE=isolated-sound | IPA=ʃ | NOTE=clean"
+   },
+   "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Shh!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699421.65324,
+   "sec": 0.62,
+   "check": {
+    "transcript": "shh",
+    "type": "word",
+    "ipa": "ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=shh | TYPE=word | IPA=ʃ | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 2,
+ "final": "final.mp3",
+ "applied": "2026-11-03 18:57",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "u12_l4",
+ "sub": "line",
+ "title": "1권 12유닛 대사 · 핍: Shh!",
+ "text": "Shh!",
+ "voice": "Kore",
+ "who": "pip",
+ "book": 1
+}

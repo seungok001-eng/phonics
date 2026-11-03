@@ -50,21 +50,38 @@
     "raw": "TRANSCRIPT=clik-clack, cat, pig, bug | TYPE=sentence | IPA=klɪk klæk, kæt, pɪg, bʌg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Hmm? Not this one.",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793699667.988918,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Hmm not this one.",
+    "type": "sentence",
+    "ipa": "ˈhəm ˈnɑt ðɪs wʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hmm not this one. | TYPE=sentence | IPA=ˈhəm ˈnɑt ðɪs wʌn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-07 16:49",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 12,
  "letter": null,
  "id": "b2_u12_l3",
  "sub": "line",
- "title": "2권 12유닛 대사 · 비즈: Click-clack! Cat, pig, bug!",
- "text": "Click-clack! Cat, pig, bug!",
+ "title": "2권 12유닛 대사 · 그럼블: Hmm? Not this one.",
+ "text": "Hmm? Not this one.",
  "voice": "Zephyr",
- "who": "beads",
+ "who": "grumble",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

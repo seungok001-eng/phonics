@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=sun | TYPE=word | IPA=sʌn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "sun",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698310.1316946,
+   "sec": 0.7,
+   "check": {
+    "transcript": "sun",
+    "type": "word",
+    "ipa": "sʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=sun | TYPE=word | IPA=sʌn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:58",
+ "applied": "2026-11-03 19:00",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 sun · 해",
  "text": "sun",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

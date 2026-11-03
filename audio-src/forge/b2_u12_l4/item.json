@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "Grumble can do it!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793699672.4573584,
+   "sec": 1.49,
+   "check": {
+    "transcript": "Kermit can do it.",
+    "type": "sentence",
+    "ipa": "ˈkɜrmɪt kæn du ɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Kermit can do it. | TYPE=sentence | IPA=ˈkɜrmɪt kæn du ɪt | NOTE=ok"
+   },
+   "warn": true
+  }
+ ],
+ "approved": null,
+ "final": "",
+ "applied": "",
+ "text_edited": false,
+ "error": "",
+ "unit": 12,
+ "letter": null,
+ "id": "b2_u12_l4",
+ "sub": "line",
+ "title": "2권 12유닛 대사 · 함께: Grumble can do it!",
+ "text": "Grumble can do it!",
+ "voice": "Kore",
+ "who": "both",
+ "book": 2,
+ "busy": 1
+}

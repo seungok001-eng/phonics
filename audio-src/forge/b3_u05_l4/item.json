@@ -18,18 +18,18 @@
    "warn": true
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:18",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "b3_u05_l4",
  "sub": "line",
- "title": "3권 5유닛 대사 · 핍: S... h...? S... h...?",
- "text": "S... h...? S... h...?",
+ "title": "3권 5유닛 대사 · 함께: Pip can say fish!",
+ "text": "Pip can say fish!",
  "voice": "Aoede",
- "who": "pip",
+ "who": "both",
  "book": 3
 }

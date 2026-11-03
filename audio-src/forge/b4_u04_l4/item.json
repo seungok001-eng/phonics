@@ -18,19 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 23:42",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b4_u04_l4",
  "sub": "line",
- "title": "4권 4유닛 대사 · 해설: The tub is a tube!",
- "text": "The tub is a tube!",
+ "title": "4권 4유닛 대사 · 핍: In June, we use the flute!",
+ "text": "In June, we use the flute!",
  "voice": "Kore",
- "who": "narrator",
- "book": 4,
- "busy": 0
+ "who": "pip",
+ "book": 4
 }

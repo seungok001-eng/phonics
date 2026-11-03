@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=pot pot | TYPE=word | IPA=p ɒ t, p ɒ t | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Pop!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699618.8514657,
+   "sec": 0.7,
+   "check": {
+    "transcript": "pop",
+    "type": "word",
+    "ipa": "pɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pop | TYPE=word | IPA=pɒp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:42",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b2_u09_l3",
  "sub": "line",
- "title": "2권 9유닛 대사 · 핍: Pot! Pot?",
- "text": "Pot! Pot?",
+ "title": "2권 9유닛 대사 · 헤지: Pop!",
+ "text": "Pop!",
  "voice": "Aoede",
- "who": "pip",
+ "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

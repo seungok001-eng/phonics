@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=and rice and yogurt | TYPE=sentence | IPA=ənd raɪs ən ˈjoʊɡərt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! Look here.",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793698103.4464579,
+   "sec": 1.68,
+   "check": {
+    "transcript": "Look here.",
+    "type": "sentence",
+    "ipa": "ˈlʊk ˈhɪr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look here. | TYPE=sentence | IPA=ˈlʊk ˈhɪr | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:33",
+ "applied": "2026-11-03 18:57",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "u11_l3",
  "sub": "line",
- "title": "1권 11유닛 대사 · 번: And rice and yogurt!",
- "text": "And rice and yogurt!",
+ "title": "1권 11유닛 대사 · 그럼블: Shh! Look here.",
+ "text": "Shh! Look here.",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "grumble",
+ "book": 1
 }

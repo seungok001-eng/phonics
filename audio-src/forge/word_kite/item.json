@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=kite | TYPE=word | IPA=kaɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "kite",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698218.208912,
+   "sec": 0.74,
+   "check": {
+    "transcript": "kite",
+    "type": "word",
+    "ipa": "kaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kite | TYPE=word | IPA=kaɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:55",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 kite · 연",
  "text": "kite",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

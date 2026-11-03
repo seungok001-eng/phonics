@@ -29,19 +29,18 @@
    "warn": true
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-08 00:48",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "b4_u10_l2",
  "sub": "line",
- "title": "4권 10유닛 대사 · 헤지: I can not see!",
- "text": "I can not see!",
+ "title": "4권 10유닛 대사 · 헤지: More stars! More!",
+ "text": "More stars! More!",
  "voice": "Puck",
  "who": "hedgie",
- "book": 4,
- "busy": 0
+ "book": 4
 }

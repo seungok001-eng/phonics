@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=my bag | TYPE=sentence | IPA=maɪ bæg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Hedgie has a cap and a bag.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699501.8839695,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Heggie has a cap and a bag.",
+    "type": "sentence",
+    "ipa": "ˈhɛgiː hæz ə ˈkæp ænd ə ˈbæg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Heggie has a cap and a bag. | TYPE=sentence | IPA=ˈhɛgiː hæz ə ˈkæp ænd ə ˈbæg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:36",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "b2_u02_l1",
  "sub": "line",
- "title": "2권 2유닛 대사 · 헤지: My bag!",
- "text": "My bag!",
+ "title": "2권 2유닛 대사 · 해설: Hedgie has a cap and a bag.",
+ "text": "Hedgie has a cap and a bag.",
  "voice": "Puck",
- "who": "hedgie",
+ "who": "narrator",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

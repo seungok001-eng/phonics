@@ -18,19 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 21:28",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b3_u07_l2",
  "sub": "line",
- "title": "3권 7유닛 대사 · 해설: Snip! Snip! Snip!",
- "text": "Snip! Snip! Snip!",
+ "title": "3권 7유닛 대사 · 번: A drum for the crab.",
+ "text": "A drum for the crab.",
  "voice": "Kore",
- "who": "narrator",
- "book": 3,
- "busy": 0
+ "who": "bun",
+ "book": 3
 }

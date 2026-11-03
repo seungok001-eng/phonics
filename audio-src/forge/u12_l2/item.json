@@ -33,21 +33,54 @@
     "raw": "TRANSCRIPT=We can sing A to Z. | TYPE=sentence | IPA=wi kən sɪŋ eɪ tuː ziː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A, B, C...",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793698115.776131,
+   "sec": 1.25,
+   "check": {
+    "transcript": "a b c",
+    "type": "sentence",
+    "ipa": "eɪ biː siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a b c | TYPE=sentence | IPA=eɪ biː siː | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A, B, C...",
+   "voice": "글자 이름 녹음 이어 붙임 ↑",
+   "how": "el",
+   "created": 1793698116.3166103,
+   "sec": 1.88,
+   "check": {
+    "transcript": "A, B, C",
+    "type": "letter-name",
+    "ipa": "eɪ, biː, siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A, B, C | TYPE=letter-name | IPA=eɪ, biː, siː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:34",
+ "applied": "2026-11-03 18:57",
  "text_edited": false,
  "error": "",
  "unit": 12,
  "letter": null,
  "id": "u12_l2",
  "sub": "line",
- "title": "1권 12유닛 대사 · 함께: We can sing A to Z!",
- "text": "We can sing A to Z!",
+ "title": "1권 12유닛 대사 · 함께: A, B, C...",
+ "text": "A, B, C...",
  "voice": "Kore",
  "who": "both",
- "book": 1,
- "busy": 0
+ "book": 1
 }

@@ -18,18 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:05",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "b3_u02_l1",
  "sub": "line",
- "title": "3권 2유닛 대사 · 번: My lunch! Oh no!",
- "text": "My lunch! Oh no!",
+ "title": "3권 2유닛 대사 · 해설: They have lunch on the bench.",
+ "text": "They have lunch on the bench.",
  "voice": "Leda",
- "who": "bun",
+ "who": "narrator",
  "book": 3
 }

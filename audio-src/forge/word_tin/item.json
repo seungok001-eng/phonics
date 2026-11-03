@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=tin | TYPE=word | IPA=tɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "tin",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699828.1117241,
+   "sec": 0.7,
+   "check": {
+    "transcript": "tin",
+    "type": "word",
+    "ipa": "tɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tin | TYPE=word | IPA=tɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "tin",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

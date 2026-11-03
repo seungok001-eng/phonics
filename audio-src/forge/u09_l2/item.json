@@ -16,19 +16,54 @@
     "raw": "TRANSCRIPT=pip tries bz | TYPE=sentence | IPA=pɪp traɪz bz | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A volcano!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793698068.1721866,
+   "sec": 1.21,
+   "check": {
+    "transcript": "un volcán",
+    "type": "word",
+    "ipa": "un bolˈkaŋ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=un volcán | TYPE=word | IPA=un bolˈkaŋ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A volcano!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699380.781247,
+   "sec": 1.25,
+   "check": {
+    "transcript": "a volcano",
+    "type": "sentence",
+    "ipa": "ə vɒlˈkeɪnəʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a volcano | TYPE=sentence | IPA=ə vɒlˈkeɪnəʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:39",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "u09_l2",
  "sub": "line",
- "title": "1권 9유닛 대사 · 해설: Pip tries. Bzzz!",
- "text": "Pip tries. Bzzz!",
+ "title": "1권 9유닛 대사 · 헤지: A volcano!",
+ "text": "A volcano!",
  "voice": "Kore",
+ "who": "hedgie",
  "book": 1
 }

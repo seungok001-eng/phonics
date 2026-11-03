@@ -35,19 +35,18 @@
    "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:42",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b2_u09_l1",
  "sub": "line",
- "title": "2권 9유닛 대사 · 헤지: The fox has my box!",
- "text": "The fox has my box!",
+ "title": "2권 9유닛 대사 · 해설: The fox has a box.",
+ "text": "The fox has a box.",
  "voice": "Puck",
- "who": "hedgie",
- "book": 2,
- "busy": 0
+ "who": "narrator",
+ "book": 2
 }

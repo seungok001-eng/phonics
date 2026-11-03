@@ -33,21 +33,54 @@
     "raw": "TRANSCRIPT=A B C D | TYPE=sentence | IPA=eɪ biː ˈsiː ˈdiː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A goat and a kite!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793698010.0527387,
+   "sec": 1.76,
+   "check": {
+    "transcript": "A golden kite.",
+    "type": "sentence",
+    "ipa": "ə ˈɡoʊldən ˈkaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A golden kite. | TYPE=sentence | IPA=ə ˈɡoʊldən ˈkaɪt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A goat and a kite!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699345.944885,
+   "sec": 1.72,
+   "check": {
+    "transcript": "a goat and a kite",
+    "type": "sentence",
+    "ipa": "ə ɡoʊt ənd ə kaɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a goat and a kite | TYPE=sentence | IPA=ə ɡoʊt ənd ə kaɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:26",
+ "applied": "2026-11-03 18:55",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "u05_l3",
  "sub": "line",
- "title": "1권 5유닛 대사 · 함께: A! B! C! D!",
- "text": "A! B! C! D!",
+ "title": "1권 5유닛 대사 · 핍: A goat and a kite!",
+ "text": "A goat and a kite!",
  "voice": "Kore",
- "who": "both",
- "book": 1,
- "busy": 0
+ "who": "pip",
+ "book": 1
 }

@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=sit | TYPE=word | IPA=sɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "sit",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699848.1335127,
+   "sec": 0.7,
+   "check": {
+    "transcript": "cent",
+    "type": "word",
+    "ipa": "sɛnt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cent | TYPE=word | IPA=sɛnt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
@@ -40,13 +57,13 @@
  "applied": "2026-10-07 00:26",
  "text_edited": false,
  "error": "",
- "unit": 7,
+ "unit": 8,
  "letter": null,
  "id": "word_sit",
  "sub": "word",
- "title": "단어 sit · 앉다",
+ "title": "새 단어(첫소리 맞히기) sit",
  "text": "sit",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

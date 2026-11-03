@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "net",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698255.2760108,
+   "sec": 0.7,
+   "check": {
+    "transcript": "net",
+    "type": "word",
+    "ipa": "nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=net | TYPE=word | IPA=nɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:56",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 net · 그물",
  "text": "net",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

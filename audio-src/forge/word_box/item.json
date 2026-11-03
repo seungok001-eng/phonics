@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=box | TYPE=word | IPA=bɑks | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "box",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698376.198102,
+   "sec": 0.79,
+   "check": {
+    "transcript": "box",
+    "type": "word",
+    "ipa": "bɒks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=box | TYPE=word | IPA=bɒks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 box · 상자",
  "text": "box",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

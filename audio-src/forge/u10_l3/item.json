@@ -101,20 +101,37 @@
     "raw": "TRANSCRIPT=yak | TYPE=word | IPA=jæk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "Yogurt!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793698087.0548494,
+   "sec": 0.93,
+   "check": {
+    "transcript": "yogurt",
+    "type": "word",
+    "ipa": "ˈjoʊɡərt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yogurt | TYPE=word | IPA=ˈjoʊɡərt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 6,
+ "approved": 7,
  "final": "final.mp3",
- "applied": "2026-10-08 12:35",
+ "applied": "2026-11-03 18:57",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "u10_l3",
  "sub": "line",
- "title": "1권 10유닛 대사 · 번: /y/ /y/ yak!",
- "text": "/y/ /y/ yak!",
+ "title": "1권 10유닛 대사 · 헤지: Yogurt!",
+ "text": "Yogurt!",
  "voice": "Leda",
- "who": "bun",
+ "who": "hedgie",
  "book": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=hug | TYPE=word | IPA=hʌɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "hug",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699917.9943576,
+   "sec": 0.74,
+   "check": {
+    "transcript": "hug",
+    "type": "word",
+    "ipa": "hʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hug | TYPE=word | IPA=hʌɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:47",
  "text_edited": false,
  "error": "",
- "unit": 10,
+ "unit": 3,
  "letter": null,
  "id": "word_hug",
  "sub": "word",
- "title": "단어 hug · 포옹",
+ "title": "새 단어(첫소리 맞히기) hug",
  "text": "hug",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

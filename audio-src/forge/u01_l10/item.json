@@ -84,6 +84,40 @@
     "raw": "TRANSCRIPT=ABC | TYPE=word | IPA=ˈeɪ ˈbiː ˈsiː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "A! B! C!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793694444.7424603,
+   "sec": 1.67,
+   "check": {
+    "transcript": "A B C",
+    "type": "sentence",
+    "ipa": "eɪ biː siː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A B C | TYPE=sentence | IPA=eɪ biː siː | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 7,
+   "file": "cand_7.wav",
+   "text": "A! B! C!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793694620.0950575,
+   "sec": 1.49,
+   "check": {
+    "transcript": "A B C",
+    "type": "sentence",
+    "ipa": "eɪ bi si",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A B C | TYPE=sentence | IPA=eɪ bi si | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 5,
@@ -100,5 +134,5 @@
  "voice": "Kore",
  "who": "both",
  "book": 1,
- "busy": 0
+ "busy": 1
 }

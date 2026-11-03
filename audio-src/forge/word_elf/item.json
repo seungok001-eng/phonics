@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=elf | TYPE=word | IPA=ɛlf | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "elf",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698144.1424296,
+   "sec": 0.65,
+   "check": {
+    "transcript": "elf",
+    "type": "word",
+    "ipa": "ɛlf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=elf | TYPE=word | IPA=ɛlf | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-11-03 18:58",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,5 +47,5 @@
  "title": "단어 elf · 요정",
  "text": "elf",
  "voice": "Kore",
- "busy": 0
+ "book": 1
 }

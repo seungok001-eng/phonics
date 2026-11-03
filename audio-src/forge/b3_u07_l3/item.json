@@ -35,19 +35,18 @@
    "warn": true
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:25",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b3_u07_l3",
  "sub": "line",
- "title": "3권 7유닛 대사 · 핍: Rb? Rb? Rbick?",
- "text": "Rb? Rb? Rbick?",
+ "title": "3권 7유닛 대사 · 헤지: Brush, brush. Oh, a crack!",
+ "text": "Brush, brush. Oh, a crack!",
  "voice": "Aoede",
- "who": "pip",
- "book": 3,
- "busy": 0
+ "who": "hedgie",
+ "book": 3
 }

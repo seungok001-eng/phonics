@@ -35,19 +35,18 @@
    "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-08 12:43",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "b3_u01_l3",
  "sub": "line",
- "title": "3권 1유닛 대사 · 핌과 팜: Together! /ʃ/ /ʃ/!",
- "text": "Together! /ʃ/ /ʃ/!",
+ "title": "3권 1유닛 대사 · 헤지: Splash! A shell!",
+ "text": "Splash! A shell!",
  "voice": "Laomedeia",
- "who": "twins",
- "book": 3,
- "busy": 0
+ "who": "hedgie",
+ "book": 3
 }

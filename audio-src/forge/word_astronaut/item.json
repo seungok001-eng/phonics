@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=astronaut | TYPE=word | IPA=ˈæstɹənɔt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "astronaut",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793697719.7898495,
+   "sec": 0.93,
+   "check": {
+    "transcript": "astronaut",
+    "type": "word",
+    "ipa": "ˈæstrəˌnɔt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=astronaut | TYPE=word | IPA=ˈæstrəˌnɔt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-11-03 18:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -46,5 +63,7 @@
  "sub": "word",
  "title": "단어 astronaut · 우주비행사",
  "text": "astronaut",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
 }

@@ -16,6 +16,40 @@
     "raw": "TRANSCRIPT=vest | TYPE=word | IPA=vɛst | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "vest",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698351.1799212,
+   "sec": 0.84,
+   "check": {
+    "transcript": "vast",
+    "type": "word",
+    "ipa": "væst",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vast | TYPE=word | IPA=væst | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "vest",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699550.778302,
+   "sec": 0.84,
+   "check": {
+    "transcript": "vest",
+    "type": "word",
+    "ipa": "/vɛst/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vest | TYPE=word | IPA=/vɛst/ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +63,7 @@
  "sub": "word",
  "title": "단어 vest · 조끼",
  "text": "vest",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

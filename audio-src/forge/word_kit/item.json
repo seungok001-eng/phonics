@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=kit | TYPE=word | IPA=kɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "kit",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699856.9765623,
+   "sec": 0.7,
+   "check": {
+    "transcript": "kit",
+    "type": "word",
+    "ipa": "kɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=kit | TYPE=word | IPA=kɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 2,
@@ -48,5 +65,5 @@
  "text": "kit",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

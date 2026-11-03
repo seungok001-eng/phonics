@@ -67,21 +67,38 @@
     "raw": "TRANSCRIPT=The pig cannot go. | TYPE=sentence | IPA=ðə pɪɡ kænɑt ɡoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A pin!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699571.8864338,
+   "sec": 1.02,
+   "check": {
+    "transcript": "a pin",
+    "type": "sentence",
+    "ipa": "ə pɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a pin | TYPE=sentence | IPA=ə pɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
- "final": "final.mp3",
- "applied": "2026-10-07 16:48",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b2_u06_l2",
  "sub": "line",
- "title": "2권 6유닛 대사 · 번: The pig can not go.",
- "text": "The pig can not go.",
+ "title": "2권 6유닛 대사 · 헤지: A pin!",
+ "text": "A pin!",
  "voice": "Leda",
- "who": "bun",
+ "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

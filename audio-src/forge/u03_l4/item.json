@@ -33,21 +33,54 @@
     "raw": "TRANSCRIPT=It is my gift. | TYPE=sentence | IPA=ɪt ɪz maɪ gɪft | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A guitar!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793697984.4023826,
+   "sec": 1.02,
+   "check": {
+    "transcript": "electric guitar",
+    "type": "word",
+    "ipa": "ɪˈlɛktrɪk ɡɪˈtɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=electric guitar | TYPE=word | IPA=ɪˈlɛktrɪk ɡɪˈtɑɹ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A guitar!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793699327.5665479,
+   "sec": 1.11,
+   "check": {
+    "transcript": "guitar",
+    "type": "word",
+    "ipa": "ɡɪˈtɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=guitar | TYPE=word | IPA=ɡɪˈtɑɹ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:24",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "u03_l4",
  "sub": "line",
- "title": "1권 3유닛 대사 · 헤지: It is my gift.",
- "text": "It is my gift.",
+ "title": "1권 3유닛 대사 · 함께: A guitar!",
+ "text": "A guitar!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "both",
+ "book": 1
 }

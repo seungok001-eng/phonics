@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=yogurt | TYPE=word | IPA=ˈjoʊɡəɹt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "yogurt",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698384.1429155,
+   "sec": 0.98,
+   "check": {
+    "transcript": "yogurt",
+    "type": "word",
+    "ipa": "ˈjoʊɡəɹt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yogurt | TYPE=word | IPA=ˈjoʊɡəɹt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 yogurt · 요거트",
  "text": "yogurt",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

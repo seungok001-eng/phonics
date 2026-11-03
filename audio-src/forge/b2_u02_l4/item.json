@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=click clack the cap | TYPE=sentence | IPA=klɪk klæk ðə kæp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The cap is on the dog!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699513.946664,
+   "sec": 1.63,
+   "check": {
+    "transcript": "The cap is on the dog.",
+    "type": "sentence",
+    "ipa": "ðə ˈkæp ɪz ɑn ðə ˈdɔg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The cap is on the dog. | TYPE=sentence | IPA=ðə ˈkæp ɪz ɑn ðə ˈdɔg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-06 23:51",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "b2_u02_l4",
  "sub": "line",
- "title": "2권 2유닛 대사 · 해설: Click-clack! The cap!",
- "text": "Click-clack! The cap!",
+ "title": "2권 2유닛 대사 · 핍: The cap is on the dog!",
+ "text": "The cap is on the dog!",
  "voice": "Kore",
+ "who": "pip",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=mug | TYPE=word | IPA=mʌg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "mug",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699922.082695,
+   "sec": 0.84,
+   "check": {
+    "transcript": "mug",
+    "type": "word",
+    "ipa": "mʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=mug | TYPE=word | IPA=mʌɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "mug",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

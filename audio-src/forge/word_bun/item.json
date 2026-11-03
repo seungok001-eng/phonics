@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=bun | TYPE=word | IPA=bʌn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "bun",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699936.0799782,
+   "sec": 0.65,
+   "check": {
+    "transcript": "buen",
+    "type": "word",
+    "ipa": "bwen",
+    "note": "ok",
+    "raw": "TRANSCRIPT=buen | TYPE=word | IPA=bwen | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "bun",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

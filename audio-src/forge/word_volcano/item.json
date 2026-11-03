@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɑlˈkeɪnoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "volcano",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698355.196661,
+   "sec": 0.88,
+   "check": {
+    "transcript": "volcano",
+    "type": "word",
+    "ipa": "vɒlˈkeɪnəʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɒlˈkeɪnəʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 volcano · 화산",
  "text": "volcano",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

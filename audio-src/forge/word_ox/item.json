@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=ox | TYPE=word | IPA=ɑks | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "ox",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699910.0606587,
+   "sec": 0.65,
+   "check": {
+    "transcript": "ox",
+    "type": "word",
+    "ipa": "/ɒks/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ox | TYPE=word | IPA=/ɒks/ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -27,9 +44,9 @@
  "letter": null,
  "id": "word_ox",
  "sub": "word",
- "title": "단어 ox · 황소",
+ "title": "새 단어(첫소리 맞히기) ox",
  "text": "ox",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

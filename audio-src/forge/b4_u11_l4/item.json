@@ -18,19 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 23:49",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "b4_u11_l4",
  "sub": "line",
- "title": "4권 11유닛 대사 · 해설: This is the Song Tree.",
- "text": "This is the Song Tree.",
+ "title": "4권 11유닛 대사 · 핍: We like this day!",
+ "text": "We like this day!",
  "voice": "Kore",
- "who": "narrator",
- "book": 4,
- "busy": 0
+ "who": "pip",
+ "book": 4
 }

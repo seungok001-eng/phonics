@@ -16,19 +16,37 @@
     "raw": "TRANSCRIPT=Pip tries a chew. | TYPE=sentence | IPA=pɪp traɪz ə tʃuː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "I see a duck and a frog.",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793698006.1893747,
+   "sec": 1.72,
+   "check": {
+    "transcript": "I see a duck and a frog.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə dʌk ænd ə fɹɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a duck and a frog. | TYPE=sentence | IPA=aɪ siː ə dʌk ænd ə fɹɒɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:35",
+ "applied": "2026-11-03 18:55",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "u05_l2",
  "sub": "line",
- "title": "1권 5유닛 대사 · 해설: Pip tries. Achoo!",
- "text": "Pip tries. Achoo!",
+ "title": "1권 5유닛 대사 · 핍: I see a duck and a frog.",
+ "text": "I see a duck and a frog.",
  "voice": "Kore",
+ "who": "pip",
  "book": 1
 }

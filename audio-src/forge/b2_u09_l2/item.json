@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=Hop, hop! The fox can hop. | TYPE=sentence | IPA=hɑp hɑp ðə fɑks kæn hɑp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Hop on top!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699614.9216917,
+   "sec": 1.21,
+   "check": {
+    "transcript": "Hop on top.",
+    "type": "sentence",
+    "ipa": "hɒp ɒn tɒp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hop on top. | TYPE=sentence | IPA=hɒp ɒn tɒp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:42",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b2_u09_l2",
  "sub": "line",
- "title": "2권 9유닛 대사 · 번: Hop, hop! The fox can hop!",
- "text": "Hop, hop! The fox can hop!",
+ "title": "2권 9유닛 대사 · 번: Hop on top!",
+ "text": "Hop on top!",
  "voice": "Leda",
  "who": "bun",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

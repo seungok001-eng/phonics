@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=yo-yo | TYPE=word | IPA=ˈjoʊˌjoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "yo-yo",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698392.2134948,
+   "sec": 0.74,
+   "check": {
+    "transcript": "yoyo",
+    "type": "word",
+    "ipa": "ˈjoʊˌjoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yoyo | TYPE=word | IPA=ˈjoʊˌjoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 yo-yo · 요요",
  "text": "yo-yo",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=top | TYPE=word | IPA=tɑp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "top",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699889.1925745,
+   "sec": 0.74,
+   "check": {
+    "transcript": "top",
+    "type": "word",
+    "ipa": "tɑp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=top | TYPE=word | IPA=tɑp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:46",
  "text_edited": false,
  "error": "",
- "unit": 9,
+ "unit": 8,
  "letter": null,
  "id": "word_top",
  "sub": "word",
- "title": "단어 top · 팽이",
+ "title": "새 단어(첫소리 맞히기) top",
  "text": "top",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

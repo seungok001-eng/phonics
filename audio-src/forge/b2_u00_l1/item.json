@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=This is the word pond. | TYPE=sentence | IPA=ðɪs ɪz ðə wɜːd pɒnd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "A pond!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699470.8499806,
+   "sec": 0.88,
+   "check": {
+    "transcript": "a pond",
+    "type": "word",
+    "ipa": "ə pɑnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a pond | TYPE=word | IPA=ə pɑnd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-06 23:48",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "b2_u00_l1",
  "sub": "line",
- "title": "2권 0유닛 대사 · 해설: This is the Word Pond.",
- "text": "This is the Word Pond.",
+ "title": "2권 0유닛 대사 · 번: A pond!",
+ "text": "A pond!",
  "voice": "Kore",
+ "who": "bun",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=tomato | TYPE=word | IPA=təˈmɑːtoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "tomato",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698327.3125234,
+   "sec": 0.79,
+   "check": {
+    "transcript": "tomato",
+    "type": "word",
+    "ipa": "təˈmɑːtoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tomato | TYPE=word | IPA=təˈmɑːtoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:58",
+ "applied": "2026-11-03 19:01",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 tomato · 토마토",
  "text": "tomato",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

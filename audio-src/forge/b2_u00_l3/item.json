@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=How can we go in? | TYPE=sentence | IPA=haʊ kæn wi ˈgoʊ ɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Click-clack! I am Beads.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699478.858116,
+   "sec": 1.76,
+   "check": {
+    "transcript": "click clack iron beads",
+    "type": "sentence",
+    "ipa": "klɪk klæk ˈaɪɚn bidz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click clack iron beads | TYPE=sentence | IPA=klɪk klæk ˈaɪɚn bidz | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:34",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "b2_u00_l3",
  "sub": "line",
- "title": "2권 0유닛 대사 · 헤지: How can we go in?",
- "text": "How can we go in?",
+ "title": "2권 0유닛 대사 · 해설: Click-clack! I am Beads.",
+ "text": "Click-clack! I am Beads.",
  "voice": "Puck",
- "who": "hedgie",
+ "who": "narrator",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

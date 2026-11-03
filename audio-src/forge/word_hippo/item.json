@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=hippo | TYPE=word | IPA=ˈhɪpoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "hippo",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698181.173381,
+   "sec": 0.74,
+   "check": {
+    "transcript": "hepu",
+    "type": "word",
+    "ipa": "ˈhepu",
+    "note": "mispronounced",
+    "raw": "TRANSCRIPT=hepu | TYPE=word | IPA=ˈhepu | NOTE=mispronounced"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "hippo",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699458.8533757,
+   "sec": 0.84,
+   "check": {
+    "transcript": "people",
+    "type": "word",
+    "ipa": "ˈpipəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=people | TYPE=word | IPA=ˈpipəl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 20:54",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -29,5 +63,6 @@
  "sub": "word",
  "title": "단어 hippo · 하마",
  "text": "hippo",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

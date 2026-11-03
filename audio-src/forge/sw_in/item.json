@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=in | TYPE=word | IPA=ɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "in",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698431.12771,
+   "sec": 0.6,
+   "check": {
+    "transcript": "in",
+    "type": "word",
+    "ipa": "ɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=in | TYPE=word | IPA=ɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "sw",
  "title": "사이트워드 in · ~안에",
  "text": "in",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

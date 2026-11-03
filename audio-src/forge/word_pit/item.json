@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=pit | TYPE=word | IPA=pɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "pit",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699860.9637854,
+   "sec": 0.74,
+   "check": {
+    "transcript": "pit",
+    "type": "word",
+    "ipa": "pɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pit | TYPE=word | IPA=pɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "pit",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

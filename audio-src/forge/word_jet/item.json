@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=jet | TYPE=word | IPA=ʤɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "jet",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699749.9715502,
+   "sec": 0.65,
+   "check": {
+    "transcript": "jet",
+    "type": "word",
+    "ipa": "dʒɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jet | TYPE=word | IPA=dʒɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:43",
  "text_edited": false,
  "error": "",
- "unit": 3,
+ "unit": 4,
  "letter": null,
  "id": "word_jet",
  "sub": "word",
- "title": "단어 jet · 제트기",
+ "title": "새 단어(첫소리 맞히기) jet",
  "text": "jet",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

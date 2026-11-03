@@ -50,21 +50,38 @@
     "raw": "TRANSCRIPT=piece piece | TYPE=word | IPA=piːs piːs | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Dip it... hit!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699589.9528723,
+   "sec": 1.49,
+   "check": {
+    "transcript": "dip it hit",
+    "type": "sentence",
+    "ipa": "ˈdɪp ɪt hɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dip it hit | TYPE=sentence | IPA=ˈdɪp ɪt hɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-07 16:40",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b2_u07_l3",
  "sub": "line",
- "title": "2권 7유닛 대사 · 핍: Piz! Piz?",
- "text": "Piz! Piz?",
+ "title": "2권 7유닛 대사 · 핍: Dip it... hit!",
+ "text": "Dip it... hit!",
  "voice": "Aoede",
  "who": "pip",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

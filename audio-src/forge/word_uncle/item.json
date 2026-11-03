@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=uncle | TYPE=word | IPA=ˈʌŋ.kəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "uncle",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698343.21727,
+   "sec": 0.7,
+   "check": {
+    "transcript": "uncle",
+    "type": "word",
+    "ipa": "ˈʌŋ.kəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=uncle | TYPE=word | IPA=ˈʌŋ.kəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 uncle · 삼촌",
  "text": "uncle",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=jump | TYPE=word | IPA=dʒʌmp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "jump",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698210.18394,
+   "sec": 0.65,
+   "check": {
+    "transcript": "jump",
+    "type": "word",
+    "ipa": "dʒʌmp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jump | TYPE=word | IPA=dʒʌmp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:55",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 jump · 점프",
  "text": "jump",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

@@ -67,21 +67,38 @@
     "raw": "TRANSCRIPT=We cannot see. | TYPE=sentence | IPA=wi ˈkæn.nɑt ˈsi | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Go! Go! Go!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699599.940759,
+   "sec": 1.16,
+   "check": {
+    "transcript": "Go, go, go.",
+    "type": "sentence",
+    "ipa": "ɡoʊ ɡoʊ ɡoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go, go, go. | TYPE=sentence | IPA=ɡoʊ ɡoʊ ɡoʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
- "final": "final.mp3",
- "applied": "2026-10-07 16:49",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b2_u08_l2",
  "sub": "line",
- "title": "2권 8유닛 대사 · 번: We can not see!",
- "text": "We can not see!",
+ "title": "2권 8유닛 대사 · 헤지: Go! Go! Go!",
+ "text": "Go! Go! Go!",
  "voice": "Leda",
- "who": "bun",
+ "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

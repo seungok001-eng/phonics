@@ -67,6 +67,23 @@
     "raw": "TRANSCRIPT=Shh | TYPE=word | IPA=ʃ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Shh! Oh no!",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793694464.6361392,
+   "sec": 1.59,
+   "check": {
+    "transcript": "Shh",
+    "type": "word",
+    "ipa": "ʃ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh | TYPE=word | IPA=ʃ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 4,
@@ -83,5 +100,5 @@
  "voice": "Charon",
  "who": "grumble",
  "book": 1,
- "busy": 0
+ "busy": 1
 }

@@ -67,19 +67,36 @@
     "raw": "TRANSCRIPT=I see an apple. | TYPE=sentence | IPA=aɪ siː ən ˈæpəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "I see a bus!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793697705.3097682,
+   "sec": 0.98,
+   "check": {
+    "transcript": "I see a bus!",
+    "type": "sentence",
+    "ipa": "aɪ siː ə bʌs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a bus! | TYPE=sentence | IPA=aɪ siː ə bʌs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:22",
+ "applied": "2026-11-03 18:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "u01_l1",
  "sub": "line",
- "title": "1권 1유닛 대사 · 번: I see an apple!",
- "text": "I see an apple!",
+ "title": "1권 1유닛 대사 · 번: I see a bus!",
+ "text": "I see a bus!",
  "voice": "Leda",
  "who": "bun",
  "book": 1,

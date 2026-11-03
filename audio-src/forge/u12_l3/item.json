@@ -33,21 +33,54 @@
     "raw": "TRANSCRIPT=Boom, boom. I like it. | TYPE=sentence | IPA=ˈbum ˈbum ˈaɪ ˈlaɪk ˈɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Z... z... z...",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793698120.1066766,
+   "sec": 1.58,
+   "check": {
+    "transcript": "z",
+    "type": "letter-name",
+    "ipa": "ziː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=z | TYPE=letter-name | IPA=ziː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Z... z... z...",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793699416.8650153,
+   "sec": 2.41,
+   "check": {
+    "transcript": "z",
+    "type": "isolated-sound",
+    "ipa": "z",
+    "note": "clean",
+    "raw": "TRANSCRIPT=z | TYPE=isolated-sound | IPA=z | NOTE=clean"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:34",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 12,
  "letter": null,
  "id": "u12_l3",
  "sub": "line",
- "title": "1권 12유닛 대사 · 그럼블: Boom! Boom! I like it!",
- "text": "Boom! Boom! I like it!",
+ "title": "1권 12유닛 대사 · 그럼블: Z... z... z...",
+ "text": "Z... z... z...",
  "voice": "Charon",
  "who": "grumble",
- "book": 1,
- "busy": 0
+ "book": 1
 }

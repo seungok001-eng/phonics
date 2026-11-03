@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=hit | TYPE=word | IPA=hɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "hit",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699852.1599324,
+   "sec": 0.65,
+   "check": {
+    "transcript": "hit",
+    "type": "word",
+    "ipa": "hɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hit | TYPE=word | IPA=hɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "hit",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

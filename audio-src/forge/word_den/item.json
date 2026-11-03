@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=Den | TYPE=word | IPA=dɛn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "den",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699765.936491,
+   "sec": 0.7,
+   "check": {
+    "transcript": "ten",
+    "type": "word",
+    "ipa": "tɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ten | TYPE=word | IPA=tɛn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "den",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

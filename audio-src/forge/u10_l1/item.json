@@ -37,17 +37,16 @@
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 16:32",
+ "applied": "2026-11-03 18:57",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "u10_l1",
  "sub": "line",
- "title": "1권 10유닛 대사 · 번: This is a yak!",
- "text": "This is a yak!",
+ "title": "1권 10유닛 대사 · 해설: This is a yo-yo.",
+ "text": "This is a yo-yo.",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "narrator",
+ "book": 1
 }

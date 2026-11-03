@@ -84,20 +84,37 @@
     "raw": "TRANSCRIPT=This is Pip. Pip cannot sing. | TYPE=sentence | IPA=ðɪs ɪz pɪp. pɪp ˈkænɑt sɪŋ. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Hi, Bun! Hi, Hedgie!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793697947.016684,
+   "sec": 2.09,
+   "check": {
+    "transcript": "Hi bun. Hi Hedgie!",
+    "type": "sentence",
+    "ipa": "ˈhaɪ ˈbʌn. ˈhaɪ ˈhɛdʒi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hi bun. Hi Hedgie! | TYPE=sentence | IPA=ˈhaɪ ˈbʌn. ˈhaɪ ˈhɛdʒi | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 15:39",
+ "applied": "2026-11-03 18:54",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "u00_l3",
  "sub": "line",
- "title": "1권 0유닛 대사 · 해설: This is Pip. Pip cannot sing.",
- "text": "This is Pip. Pip cannot sing.",
+ "title": "1권 0유닛 대사 · 핍: Hi, Bun! Hi, Hedgie!",
+ "text": "Hi, Bun! Hi, Hedgie!",
  "voice": "Kore",
- "book": 1,
- "busy": 0
+ "who": "pip",
+ "book": 1
 }

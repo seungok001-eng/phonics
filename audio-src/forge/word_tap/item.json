@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=tap | TYPE=word | IPA=tæp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "tap",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699720.9543004,
+   "sec": 0.7,
+   "check": {
+    "transcript": "tap",
+    "type": "word",
+    "ipa": "tæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=tap | TYPE=word | IPA=tæp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "tap",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

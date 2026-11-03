@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=Finn | TYPE=word | IPA=fɪn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "fin",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699814.9867997,
+   "sec": 0.6,
+   "check": {
+    "transcript": "feign",
+    "type": "word",
+    "ipa": "feɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=feign | TYPE=word | IPA=feɪn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -48,5 +65,5 @@
  "text": "fin",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

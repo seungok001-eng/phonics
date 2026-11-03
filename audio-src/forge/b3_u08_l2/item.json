@@ -12,17 +12,17 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:28",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b3_u08_l2",
  "sub": "line",
- "title": "3권 8유닛 대사 · 헤지: Sniff, sniff... Is it Grumble?",
- "text": "Sniff, sniff... Is it Grumble?",
+ "title": "3권 8유닛 대사 · 헤지: Two... two... stop!",
+ "text": "Two... two... stop!",
  "voice": "Puck",
  "who": "hedgie",
  "book": 3

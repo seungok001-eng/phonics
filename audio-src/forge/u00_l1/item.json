@@ -84,21 +84,37 @@
     "raw": "TRANSCRIPT=Bun and Hegy find a little door | TYPE=sentence | IPA=bʌn ənd hɛgi faɪnd ə lɪtəl dɔɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "A little door!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793697937.9279835,
+   "sec": 1.35,
+   "check": {
+    "transcript": "a little door",
+    "type": "sentence",
+    "ipa": "ə lɪɾəl dɔɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a little door | TYPE=sentence | IPA=ə lɪɾəl dɔɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-07 15:39",
+ "applied": "2026-11-03 18:54",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "u00_l1",
  "sub": "line",
- "title": "1권 0유닛 대사 · 해설: Bun and Hedgie find a little door.",
- "text": "Bun and Hedgie find a little door.",
+ "title": "1권 0유닛 대사 · 번: A little door!",
+ "text": "A little door!",
  "voice": "Kore",
- "who": "narrator",
- "book": 1,
- "busy": 1
+ "who": "bun",
+ "book": 1
 }

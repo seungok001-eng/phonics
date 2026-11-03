@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=cat hat bat mat rat | TYPE=sentence | IPA=kæt hæt bæt mæt ræt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "C... a... t...",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793699555.6732385,
+   "sec": 2.18,
+   "check": {
+    "transcript": "PRD",
+    "type": "word",
+    "ipa": "piː ɑɹ diː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=PRD | TYPE=word | IPA=piː ɑɹ diː | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-06 23:56",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "b2_u05_l2",
  "sub": "line",
- "title": "2권 5유닛 대사 · 해설: Cat, hat, bat, mat, rat!",
- "text": "Cat, hat, bat, mat, rat!",
+ "title": "2권 5유닛 대사 · 함께: C... a... t...",
+ "text": "C... a... t...",
  "voice": "Kore",
+ "who": "both",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

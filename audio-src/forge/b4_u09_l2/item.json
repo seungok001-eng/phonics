@@ -12,17 +12,17 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-08 00:41",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b4_u09_l2",
  "sub": "line",
- "title": "4권 9유닛 대사 · 헤지: A cloud is on the moon.",
- "text": "A cloud is on the moon.",
+ "title": "4권 9유닛 대사 · 헤지: Out comes a yawn!",
+ "text": "Out comes a yawn!",
  "voice": "Puck",
  "who": "hedgie",
  "book": 4

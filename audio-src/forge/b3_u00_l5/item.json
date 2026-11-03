@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=together, hi Pip | TYPE=sentence | IPA=təˈɡɛðə, ˈhaɪ ˈpɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Together! Hi, Pip!",
+   "voice": "PP Candy - Young and Sweet + Fena",
+   "how": "el",
+   "created": 1793694455.2450745,
+   "sec": 1.72,
+   "check": {
+    "transcript": "Together, hi Pip",
+    "type": "sentence",
+    "ipa": "təˈɡɛðɚ, haɪ pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Together, hi Pip | TYPE=sentence | IPA=təˈɡɛðɚ, haɪ pɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,6 @@
  "text": "Together! Hi, Pip!",
  "voice": "Laomedeia",
  "who": "twins",
- "book": 3
+ "book": 3,
+ "busy": 1
 }

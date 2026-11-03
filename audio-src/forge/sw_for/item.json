@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=four | TYPE=word | IPA=fɔːɹ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "for",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699979.0806692,
+   "sec": 0.7,
+   "check": {
+    "transcript": "four",
+    "type": "word",
+    "ipa": "fɔːr",
+    "note": "ok",
+    "raw": "TRANSCRIPT=four | TYPE=word | IPA=fɔːr | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-07 21:22",
  "text_edited": false,
  "error": "",
- "unit": 7,
+ "unit": 4,
  "letter": null,
  "id": "sw_for",
  "sub": "sw",
  "title": "사이트워드 for · ~을 위해",
  "text": "for",
  "voice": "Kore",
- "book": 3,
- "busy": 0
+ "book": 2,
+ "busy": 1
 }

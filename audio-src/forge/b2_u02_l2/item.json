@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=The cap is on the bag. | TYPE=sentence | IPA=ðə ˈkæp ɪz ɒn ðə ˈbæg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "My cap is in the pond!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699506.0137606,
+   "sec": 1.39,
+   "check": {
+    "transcript": "My cap is in the pond.",
+    "type": "sentence",
+    "ipa": "maɪ kæp ɪz ɪn ðə pɑnd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=My cap is in the pond. | TYPE=sentence | IPA=maɪ kæp ɪz ɪn ðə pɑnd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:36",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "b2_u02_l2",
  "sub": "line",
- "title": "2권 2유닛 대사 · 번: The cap is on the bag.",
- "text": "The cap is on the bag.",
+ "title": "2권 2유닛 대사 · 헤지: My cap is in the pond!",
+ "text": "My cap is in the pond!",
  "voice": "Leda",
- "who": "bun",
+ "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

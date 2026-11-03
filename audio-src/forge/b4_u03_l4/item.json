@@ -18,19 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 23:41",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "b4_u03_l4",
  "sub": "line",
- "title": "4권 3유닛 대사 · 해설: Look! A note!",
- "text": "Look! A note!",
+ "title": "4권 3유닛 대사 · 핍: So we go home!",
+ "text": "So we go home!",
  "voice": "Kore",
- "who": "narrator",
- "book": 4,
- "busy": 0
+ "who": "pip",
+ "book": 4
 }

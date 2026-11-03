@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=Can you see the queen? | TYPE=sentence | IPA=kæn juː siː ðə kwiːn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "You can quack!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793698046.420682,
+   "sec": 1.44,
+   "check": {
+    "transcript": "You can quack.",
+    "type": "sentence",
+    "ipa": "juː kæn kwæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=You can quack. | TYPE=sentence | IPA=juː kæn kwæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:28",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "u07_l4",
  "sub": "line",
- "title": "1권 7유닛 대사 · 번: Can you see the queen?",
- "text": "Can you see the queen?",
+ "title": "1권 7유닛 대사 · 함께: You can quack!",
+ "text": "You can quack!",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "both",
+ "book": 1
 }

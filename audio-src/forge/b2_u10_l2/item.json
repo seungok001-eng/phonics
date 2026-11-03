@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=A bug in my mug. | TYPE=sentence | IPA=ə bʌg ɪn maɪ mʌg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Look! A bug!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699630.9208243,
+   "sec": 1.35,
+   "check": {
+    "transcript": "Look, a bug!",
+    "type": "sentence",
+    "ipa": "lʊk ə bʌɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look, a bug! | TYPE=sentence | IPA=lʊk ə bʌɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:43",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "b2_u10_l2",
  "sub": "line",
- "title": "2권 10유닛 대사 · 헤지: A bug in my mug!",
- "text": "A bug in my mug!",
+ "title": "2권 10유닛 대사 · 번: Look! A bug!",
+ "text": "Look! A bug!",
  "voice": "Puck",
- "who": "hedgie",
+ "who": "bun",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

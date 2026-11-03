@@ -18,19 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 21:27",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "b3_u05_l1",
  "sub": "line",
- "title": "3권 5유닛 대사 · 해설: Ship, shop, shell, fish, dish!",
- "text": "Ship, shop, shell, fish, dish!",
+ "title": "3권 5유닛 대사 · 해설: Pim and Pam sit with Pip.",
+ "text": "Pim and Pam sit with Pip.",
  "voice": "Kore",
  "who": "narrator",
- "book": 3,
- "busy": 0
+ "book": 3
 }

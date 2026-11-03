@@ -18,18 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:20",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b3_u06_l1",
  "sub": "line",
- "title": "3권 6유닛 대사 · 번: Look! A big black block!",
- "text": "Look! A big black block!",
+ "title": "3권 6유닛 대사 · 해설: Here is a black block.",
+ "text": "Here is a black block.",
  "voice": "Leda",
- "who": "bun",
+ "who": "narrator",
  "book": 3
 }

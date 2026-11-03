@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=chirp | TYPE=word | IPA=tʃɜːrp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "It is my gift!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793697979.9134269,
+   "sec": 1.11,
+   "check": {
+    "transcript": "It is my gift.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz maɪ ɡɪft",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is my gift. | TYPE=sentence | IPA=ɪt ɪz maɪ ɡɪft | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:24",
+ "applied": "2026-11-03 18:55",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "u03_l3",
  "sub": "line",
- "title": "1권 3유닛 대사 · 핍: Chirp?",
- "text": "Chirp?",
+ "title": "1권 3유닛 대사 · 헤지: It is my gift!",
+ "text": "It is my gift!",
  "voice": "Kore",
- "who": "pip",
- "book": 1,
- "busy": 0
+ "who": "hedgie",
+ "book": 1
 }

@@ -35,18 +35,18 @@
    "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-08 12:48",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b3_u06_l4",
  "sub": "line",
- "title": "3권 6유닛 대사 · 핌과 팜: Together! /bl/ /bl/ block!",
- "text": "Together! /bl/ /bl/ block!",
+ "title": "3권 6유닛 대사 · 핍: There it is!",
+ "text": "There it is!",
  "voice": "Laomedeia",
- "who": "twins",
+ "who": "pip",
  "book": 3
 }

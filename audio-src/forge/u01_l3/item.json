@@ -156,17 +156,16 @@
  ],
  "approved": 9,
  "final": "final.mp3",
- "applied": "2026-10-08 12:24",
+ "applied": "2026-11-03 18:23",
  "text_edited": true,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "u01_l3",
  "sub": "line",
- "title": "1권 1유닛 대사 · 헤지: /a/ /a/ apple!",
+ "title": "1권 1유닛 대사 · 핍: An apple!",
  "text": "/æ/ /æ/ apple!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "pip",
+ "book": 1
 }

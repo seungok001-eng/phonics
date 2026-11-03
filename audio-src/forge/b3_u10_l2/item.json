@@ -12,18 +12,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:43",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "b3_u10_l2",
  "sub": "line",
- "title": "3권 10유닛 대사 · 헤지: Quack? Who is that?",
- "text": "Quack? Who is that?",
+ "title": "3권 10유닛 대사 · 번: Quack! Where did you come from?",
+ "text": "Quack! Where did you come from?",
  "voice": "Puck",
- "who": "hedgie",
+ "who": "bun",
  "book": 3
 }

@@ -29,18 +29,18 @@
    "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-11-03 12:33",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b3_u09_l1",
  "sub": "line",
- "title": "3권 9유닛 대사 · 그럼블: Shh! My lantern! Oh no!",
- "text": "Shh! My lantern! Oh no!",
+ "title": "3권 9유닛 대사 · 해설: The chimp said, \"Camp here!\"",
+ "text": "The chimp said, \"Camp here!\"",
  "voice": "Charon",
- "who": "grumble",
+ "who": "narrator",
  "book": 3
 }

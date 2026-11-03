@@ -12,18 +12,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-08 00:20",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b4_u04_l1",
  "sub": "line",
- "title": "4권 4유닛 대사 · 헤지: A cub in a tub!",
- "text": "A cub in a tub!",
+ "title": "4권 4유닛 대사 · 해설: The mule has a huge load.",
+ "text": "The mule has a huge load.",
  "voice": "Puck",
- "who": "hedgie",
+ "who": "narrator",
  "book": 4
 }

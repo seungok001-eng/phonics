@@ -50,21 +50,38 @@
     "raw": "TRANSCRIPT=Ouch, my leg. | TYPE=sentence | IPA=aʊtʃ maɪ lɛg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A big red bed!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699539.0370655,
+   "sec": 1.49,
+   "check": {
+    "transcript": "A big red bed",
+    "type": "sentence",
+    "ipa": "ə bɪɡ ɹɛd bɛd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A big red bed | TYPE=sentence | IPA=ə bɪɡ ɹɛd bɛd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-11-03 12:27",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b2_u04_l2",
  "sub": "line",
- "title": "2권 4유닛 대사 · 그럼블: Shh... Ouch! My leg!",
- "text": "Shh... Ouch! My leg!",
+ "title": "2권 4유닛 대사 · 번: A big red bed!",
+ "text": "A big red bed!",
  "voice": "Charon",
- "who": "grumble",
+ "who": "bun",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

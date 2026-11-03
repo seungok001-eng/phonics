@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=guitar | TYPE=word | IPA=gɪˈtɑɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "guitar",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698173.1898355,
+   "sec": 0.79,
+   "check": {
+    "transcript": "guitar",
+    "type": "word",
+    "ipa": "ɡɪˈtɑɹ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=guitar | TYPE=word | IPA=ɡɪˈtɑɹ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:54",
+ "applied": "2026-11-03 18:58",
  "text_edited": false,
  "error": "",
  "unit": 3,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 guitar · 기타",
  "text": "guitar",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

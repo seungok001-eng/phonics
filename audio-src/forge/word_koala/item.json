@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=koala | TYPE=word | IPA=koʊˈɑlə | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "koala",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698222.2580826,
+   "sec": 0.88,
+   "check": {
+    "transcript": "koala",
+    "type": "word",
+    "ipa": "koʊˈɑlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=koala | TYPE=word | IPA=koʊˈɑlə | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:55",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 koala · 코알라",
  "text": "koala",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

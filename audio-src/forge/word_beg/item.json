@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=beg | TYPE=word | IPA=bɛg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "beg",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699786.986481,
+   "sec": 0.65,
+   "check": {
+    "transcript": "beg",
+    "type": "word",
+    "ipa": "bɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=beg | TYPE=word | IPA=bɛɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "beg",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

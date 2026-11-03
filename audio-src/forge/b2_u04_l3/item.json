@@ -50,21 +50,38 @@
     "raw": "TRANSCRIPT=debdeb | TYPE=word | IPA=ˈdɛbˌdɛb | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A leg! The bed is little.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699542.911297,
+   "sec": 1.86,
+   "check": {
+    "transcript": "A leg, the bed is little.",
+    "type": "sentence",
+    "ipa": "ə lɛg, ðə bɛd ɪz lɪtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A leg, the bed is little. | TYPE=sentence | IPA=ə lɛg, ðə bɛd ɪz lɪtəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-07 16:37",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b2_u04_l3",
  "sub": "line",
- "title": "2권 4유닛 대사 · 핍: Deb! Deb?",
- "text": "Deb! Deb?",
+ "title": "2권 4유닛 대사 · 헤지: A leg! The bed is little.",
+ "text": "A leg! The bed is little.",
  "voice": "Aoede",
- "who": "pip",
+ "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

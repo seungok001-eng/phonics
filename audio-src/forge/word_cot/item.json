@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=caught | TYPE=word | IPA=kɔt | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "cot",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699885.0473568,
+   "sec": 0.7,
+   "check": {
+    "transcript": "cot",
+    "type": "word",
+    "ipa": "kɑt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cot | TYPE=word | IPA=kɑt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -48,5 +65,5 @@
  "text": "cot",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=water | TYPE=word | IPA=ˈwɔtər | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "water",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698364.1956697,
+   "sec": 0.74,
+   "check": {
+    "transcript": "water",
+    "type": "word",
+    "ipa": "ˈwɔtər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=water | TYPE=word | IPA=ˈwɔtər | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 water · 물",
  "text": "water",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

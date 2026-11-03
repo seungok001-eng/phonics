@@ -50,21 +50,38 @@
     "raw": "TRANSCRIPT=The net has ten hens. | TYPE=sentence | IPA=ðə nɛt hæz tɛn hɛnz. | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Ten hens and Pip!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699530.9173963,
+   "sec": 1.49,
+   "check": {
+    "transcript": "ten hens and pip",
+    "type": "sentence",
+    "ipa": "tɛn hɛnz ænd pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ten hens and pip | TYPE=sentence | IPA=tɛn hɛnz ænd pɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-07 16:48",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "b2_u03_l4",
  "sub": "line",
- "title": "2권 3유닛 대사 · 헤지: The net has ten hens!",
- "text": "The net has ten hens!",
+ "title": "2권 3유닛 대사 · 핍: Ten hens and Pip!",
+ "text": "Ten hens and Pip!",
  "voice": "Puck",
- "who": "hedgie",
+ "who": "pip",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

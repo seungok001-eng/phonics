@@ -12,17 +12,17 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-08 00:20",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b4_u04_l2",
  "sub": "line",
- "title": "4권 4유닛 대사 · 번: Splash! Oh no!",
- "text": "Splash! Oh no!",
+ "title": "4권 4유닛 대사 · 번: Use a tune!",
+ "text": "Use a tune!",
  "voice": "Leda",
  "who": "bun",
  "book": 4

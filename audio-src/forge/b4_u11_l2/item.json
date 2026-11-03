@@ -12,17 +12,17 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-08 00:54",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "b4_u11_l2",
  "sub": "line",
- "title": "4권 11유닛 대사 · 헤지: Look! The goat and the seal!",
- "text": "Look! The goat and the seal!",
+ "title": "4권 11유닛 대사 · 헤지: Take a seat, everyone!",
+ "text": "Take a seat, everyone!",
  "voice": "Puck",
  "who": "hedgie",
  "book": 4

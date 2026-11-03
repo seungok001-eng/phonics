@@ -84,21 +84,37 @@
     "raw": "TRANSCRIPT=volcano | TYPE=word | IPA=vɑlˈkeɪnoʊ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Water!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793698072.1705258,
+   "sec": 0.98,
+   "check": {
+    "transcript": "water",
+    "type": "word",
+    "ipa": "ˈwɔː.tər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=water | TYPE=word | IPA=ˈwɔː.tər | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-08 12:33",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "u09_l3",
  "sub": "line",
- "title": "1권 9유닛 대사 · 번: /v/ /v/ volcano!",
- "text": "/v/ /v/ volcano!",
+ "title": "1권 9유닛 대사 · 핍: Water!",
+ "text": "Water!",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "pip",
+ "book": 1
 }

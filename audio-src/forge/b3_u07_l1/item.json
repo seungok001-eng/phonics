@@ -18,18 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:23",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b3_u07_l1",
  "sub": "line",
- "title": "3권 7유닛 대사 · 번: A crab with a drum!",
- "text": "A crab with a drum!",
+ "title": "3권 7유닛 대사 · 해설: A crab is in the crib.",
+ "text": "A crab is in the crib.",
  "voice": "Leda",
- "who": "bun",
+ "who": "narrator",
  "book": 3
 }

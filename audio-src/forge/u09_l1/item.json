@@ -37,17 +37,16 @@
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 16:30",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "u09_l1",
  "sub": "line",
- "title": "1권 9유닛 대사 · 헤지: Look at the volcano!",
- "text": "Look at the volcano!",
+ "title": "1권 9유닛 대사 · 번: Look at the fox.",
+ "text": "Look at the fox.",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "bun",
+ "book": 1
 }

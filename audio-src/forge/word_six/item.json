@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=six | TYPE=word | IPA=sɪks | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "six",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698372.184443,
+   "sec": 0.74,
+   "check": {
+    "transcript": "six",
+    "type": "word",
+    "ipa": "sɪks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=six | TYPE=word | IPA=sɪks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -27,7 +44,9 @@
  "letter": null,
  "id": "word_six",
  "sub": "word",
- "title": "단어 six · 6",
+ "title": "단어 six · 여섯",
  "text": "six",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

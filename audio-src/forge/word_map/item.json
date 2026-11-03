@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=map | TYPE=word | IPA=mæp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "map",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699712.9557996,
+   "sec": 0.65,
+   "check": {
+    "transcript": "map",
+    "type": "word",
+    "ipa": "mæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=map | TYPE=word | IPA=mæp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:43",
  "text_edited": false,
  "error": "",
- "unit": 2,
+ "unit": 6,
  "letter": null,
  "id": "word_map",
  "sub": "word",
- "title": "단어 map · 지도",
+ "title": "새 단어(첫소리 맞히기) map",
  "text": "map",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=exit | TYPE=word | IPA=ˈɛɡzɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "exit",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698148.0747013,
+   "sec": 0.7,
+   "check": {
+    "transcript": "exit",
+    "type": "word",
+    "ipa": "ˈɛɡzɪt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=exit | TYPE=word | IPA=ˈɛɡzɪt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-11-03 18:58",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,5 +47,5 @@
  "title": "단어 exit · 출구",
  "text": "exit",
  "voice": "Kore",
- "busy": 0
+ "book": 1
 }

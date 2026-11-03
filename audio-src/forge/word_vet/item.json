@@ -16,6 +16,40 @@
     "raw": "TRANSCRIPT=vet | TYPE=word | IPA=vɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "vet",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698347.3139372,
+   "sec": 0.74,
+   "check": {
+    "transcript": "ved",
+    "type": "word",
+    "ipa": "vɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ved | TYPE=word | IPA=vɛt | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "vet",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699546.9852679,
+   "sec": 0.7,
+   "check": {
+    "transcript": "vet",
+    "type": "word",
+    "ipa": "vɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=vet | TYPE=word | IPA=vɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +63,7 @@
  "sub": "word",
  "title": "단어 vet · 수의사",
  "text": "vet",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

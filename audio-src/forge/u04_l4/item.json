@@ -33,21 +33,54 @@
     "raw": "TRANSCRIPT=The seed is in the jelly. | TYPE=sentence | IPA=ðə siːd ɪz ɪn ðə ˈdʒɛli | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh! A koala.",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793697998.3538933,
+   "sec": 1.87,
+   "check": {
+    "transcript": "coala",
+    "type": "word",
+    "ipa": "k oʊ ˈɑː l ə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=coala | TYPE=word | IPA=k oʊ ˈɑː l ə | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Shh! A koala.",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793699338.1449454,
+   "sec": 1.91,
+   "check": {
+    "transcript": "koala",
+    "type": "word",
+    "ipa": "koʊˈɑːlə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=koala | TYPE=word | IPA=koʊˈɑːlə | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:25",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "u04_l4",
  "sub": "line",
- "title": "1권 4유닛 대사 · 헤지: The seed is in the jelly!",
- "text": "The seed is in the jelly!",
+ "title": "1권 4유닛 대사 · 그럼블: Shh! A koala.",
+ "text": "Shh! A koala.",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "grumble",
+ "book": 1
 }

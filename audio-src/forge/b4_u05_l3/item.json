@@ -12,18 +12,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-08 00:27",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "b4_u05_l3",
  "sub": "line",
- "title": "4권 5유닛 대사 · 번: Rope, bone, rose! Cube, tube!",
- "text": "Rope, bone, rose! Cube, tube!",
+ "title": "4권 5유닛 대사 · 핍: Kit... kite! I can make it!",
+ "text": "Kit... kite! I can make it!",
  "voice": "Leda",
- "who": "bun",
+ "who": "pip",
  "book": 4
 }

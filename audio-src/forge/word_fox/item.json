@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=fox | TYPE=word | IPA=fɑks | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "fox",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698380.1985958,
+   "sec": 0.79,
+   "check": {
+    "transcript": "fox",
+    "type": "word",
+    "ipa": "fɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fox | TYPE=word | IPA=fɑks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,6 +47,6 @@
  "title": "단어 fox · 여우",
  "text": "fox",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

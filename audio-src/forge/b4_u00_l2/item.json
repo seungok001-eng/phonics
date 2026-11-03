@@ -12,18 +12,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 23:55",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "b4_u00_l2",
  "sub": "line",
- "title": "4권 0유닛 대사 · 번: Look! It is big!",
- "text": "Look! It is big!",
+ "title": "4권 0유닛 대사 · 해설: Hi! I am Fairy E.",
+ "text": "Hi! I am Fairy E.",
  "voice": "Leda",
- "who": "bun",
+ "who": "narrator",
  "book": 4
 }

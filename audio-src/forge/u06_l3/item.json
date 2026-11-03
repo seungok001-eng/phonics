@@ -50,21 +50,37 @@
     "raw": "TRANSCRIPT=an otter and pip | TYPE=sentence | IPA=æn ˈɑtɚ ənd pɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "The moon is in the net!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793698025.0417972,
+   "sec": 1.53,
+   "check": {
+    "transcript": "The moon is in the net!",
+    "type": "sentence",
+    "ipa": "ðə mun ɪz ɪn ðə nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The moon is in the net! | TYPE=sentence | IPA=ðə mun ɪz ɪn ðə nɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-11-03 18:55",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "u06_l3",
  "sub": "line",
- "title": "1권 6유닛 대사 · 헤지: An otter! And Pip!",
- "text": "An otter! And Pip!",
+ "title": "1권 6유닛 대사 · 번: The moon is in the net!",
+ "text": "The moon is in the net!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "bun",
+ "book": 1
 }

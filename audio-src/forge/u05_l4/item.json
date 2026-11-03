@@ -50,21 +50,54 @@
     "raw": "TRANSCRIPT=A hat is on the tree. | TYPE=sentence | IPA=ə hæt ɪz ɒn ðə tɹiː | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Jump, Pip!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793698015.0529723,
+   "sec": 1.21,
+   "check": {
+    "transcript": "dumpling",
+    "type": "word",
+    "ipa": "ˈdʌm.pəl.ɪŋ",
+    "note": "missing 'l' and 'g' sound",
+    "raw": "TRANSCRIPT=dumpling | TYPE=word | IPA=ˈdʌm.pəl.ɪŋ | NOTE=missing 'l' and 'g' sound"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Jump, Pip!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699349.9055378,
+   "sec": 1.11,
+   "check": {
+    "transcript": "jump pip",
+    "type": "word",
+    "ipa": "ˈdʒʌmp pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=jump pip | TYPE=word | IPA=ˈdʒʌmp pɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:46",
+ "applied": "2026-11-03 18:55",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "u05_l4",
  "sub": "line",
- "title": "1권 5유닛 대사 · 헤지: A hat is on the tree!",
- "text": "A hat is on the tree!",
+ "title": "1권 5유닛 대사 · 번: Jump, Pip!",
+ "text": "Jump, Pip!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "bun",
+ "book": 1
 }

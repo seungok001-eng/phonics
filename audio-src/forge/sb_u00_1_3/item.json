@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=Wow! A little door! | TYPE=sentence | IPA=waʊ ə lɪtɫ̩ doʊɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Wow! A little door!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793694442.7513306,
+   "sec": 1.81,
+   "check": {
+    "transcript": "Wow, a little dog!",
+    "type": "sentence",
+    "ipa": "waʊ ə lɪtəl dɔg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Wow, a little dog! | TYPE=sentence | IPA=waʊ ə lɪtəl dɔg | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
@@ -49,5 +66,5 @@
  "voice": "Puck",
  "who": "hedgie",
  "book": 1,
- "busy": 0
+ "busy": 1
 }

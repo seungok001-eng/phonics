@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=quack | TYPE=word | IPA=kwæk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "quack",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698294.2619243,
+   "sec": 0.74,
+   "check": {
+    "transcript": "quack",
+    "type": "word",
+    "ipa": "kwæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=quack | TYPE=word | IPA=kwæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:57",
+ "applied": "2026-11-03 19:00",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 quack · 꽥",
  "text": "quack",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

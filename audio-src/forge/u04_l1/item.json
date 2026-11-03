@@ -37,17 +37,16 @@
  ],
  "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-07 16:25",
+ "applied": "2026-11-03 18:55",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "u04_l1",
  "sub": "line",
- "title": "1권 4유닛 대사 · 헤지: A koala and a key!",
- "text": "A koala and a key!",
+ "title": "1권 4유닛 대사 · 번: A lock!",
+ "text": "A lock!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "bun",
+ "book": 1
 }

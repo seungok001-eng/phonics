@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=zipper | TYPE=word | IPA=ˈzɪpər | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "zipper",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698400.34724,
+   "sec": 0.79,
+   "check": {
+    "transcript": "zipper",
+    "type": "word",
+    "ipa": "ˈzɪpər",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zipper | TYPE=word | IPA=ˈzɪpər | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 zipper · 지퍼",
  "text": "zipper",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

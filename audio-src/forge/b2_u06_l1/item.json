@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=The pig is big. | TYPE=sentence | IPA=ðə pɪɡ ɪz bɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The pig can dig.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699568.0296252,
+   "sec": 1.39,
+   "check": {
+    "transcript": "The pig can dig.",
+    "type": "sentence",
+    "ipa": "ðə pɪg kæn dɪg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The pig can dig. | TYPE=sentence | IPA=ðə pɪg kæn dɪg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:39",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b2_u06_l1",
  "sub": "line",
- "title": "2권 6유닛 대사 · 헤지: The pig is big!",
- "text": "The pig is big!",
+ "title": "2권 6유닛 대사 · 해설: The pig can dig.",
+ "text": "The pig can dig.",
  "voice": "Puck",
- "who": "hedgie",
+ "who": "narrator",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

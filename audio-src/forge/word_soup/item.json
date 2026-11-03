@@ -16,11 +16,79 @@
     "raw": "TRANSCRIPT=soup | TYPE=word | IPA=sup | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "soup",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698318.179467,
+   "sec": 0.74,
+   "check": {
+    "transcript": "soupy",
+    "type": "word",
+    "ipa": "ˈsuːpi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=soupy | TYPE=word | IPA=ˈsuːpi | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "soup",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699529.9673398,
+   "sec": 0.65,
+   "check": {
+    "transcript": "suppy",
+    "type": "word",
+    "ipa": "ˈsʌpi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=suppy | TYPE=word | IPA=ˈsʌpi | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "soup",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793700062.1337483,
+   "sec": 0.79,
+   "check": {
+    "transcript": "soup",
+    "type": "word",
+    "ipa": "suːp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=soup | TYPE=word | IPA=suːp | NOTE=ok"
+   },
+   "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "soup.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793700062.2108974,
+   "sec": 0.7,
+   "check": {
+    "transcript": "soup",
+    "type": "word",
+    "ipa": "sup",
+    "note": "ok",
+    "raw": "TRANSCRIPT=soup | TYPE=word | IPA=sup | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-06 20:58",
+ "applied": "2026-11-03 19:01",
  "text_edited": false,
  "error": "",
  "unit": 8,
@@ -29,5 +97,7 @@
  "sub": "word",
  "title": "단어 soup · 수프",
  "text": "soup",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
 }

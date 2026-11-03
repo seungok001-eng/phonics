@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=And | TYPE=word | IPA=ænd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "and",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698427.2351596,
+   "sec": 0.7,
+   "check": {
+    "transcript": "and",
+    "type": "word",
+    "ipa": "ænd",
+    "note": "ok",
+    "raw": "TRANSCRIPT=and | TYPE=word | IPA=ænd | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "sw",
  "title": "사이트워드 and · 그리고",
  "text": "and",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

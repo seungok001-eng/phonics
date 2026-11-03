@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=We like to hop. | TYPE=sentence | IPA=wi laɪk tuː hɑːp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "We like the ox in the box!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699622.9683263,
+   "sec": 1.86,
+   "check": {
+    "transcript": "We like the ox in the box.",
+    "type": "sentence",
+    "ipa": "wi laɪk ði ɑks ɪn ðə bɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We like the ox in the box. | TYPE=sentence | IPA=wi laɪk ði ɑks ɪn ðə bɑks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:42",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b2_u09_l4",
  "sub": "line",
- "title": "2권 9유닛 대사 · 함께: We like to hop!",
- "text": "We like to hop!",
+ "title": "2권 9유닛 대사 · 핍: We like the ox in the box!",
+ "text": "We like the ox in the box!",
  "voice": "Kore",
- "who": "both",
+ "who": "pip",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

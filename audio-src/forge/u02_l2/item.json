@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=the seed is on the duck | TYPE=sentence | IPA=ðə siːd ɪz ɒn ðə dʌk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A frog!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793697959.0006006,
+   "sec": 0.98,
+   "check": {
+    "transcript": "a frog",
+    "type": "sentence",
+    "ipa": "ə fɹɑɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a frog | TYPE=sentence | IPA=ə fɹɑɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:23",
+ "applied": "2026-11-03 18:54",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "u02_l2",
  "sub": "line",
- "title": "1권 2유닛 대사 · 헤지: The seed is on the duck.",
- "text": "The seed is on the duck.",
+ "title": "1권 2유닛 대사 · 번: A frog!",
+ "text": "A frog!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "bun",
+ "book": 1
 }

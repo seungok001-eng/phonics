@@ -52,19 +52,18 @@
    "warn": false
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-07 16:49",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b2_u07_l1",
  "sub": "line",
- "title": "2권 7유닛 대사 · 헤지: Zip it up!",
- "text": "Zip it up!",
+ "title": "2권 7유닛 대사 · 번: Zip it up, Hedgie!",
+ "text": "Zip it up, Hedgie!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 2,
- "busy": 0
+ "who": "bun",
+ "book": 2
 }

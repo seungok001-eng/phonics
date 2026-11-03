@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=pig | TYPE=word | IPA=pɪg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "pig",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699790.9655375,
+   "sec": 0.6,
+   "check": {
+    "transcript": "pig",
+    "type": "word",
+    "ipa": "/pɪɡ/",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pig | TYPE=word | IPA=/pɪɡ/ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:44",
  "text_edited": false,
  "error": "",
- "unit": 6,
+ "unit": 7,
  "letter": null,
  "id": "word_pig",
  "sub": "word",
- "title": "단어 pig · 돼지",
+ "title": "새 단어(첫소리 맞히기) pig",
  "text": "pig",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

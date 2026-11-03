@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=pan | TYPE=word | IPA=pæn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "pan",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699700.9567323,
+   "sec": 1.16,
+   "check": {
+    "transcript": "pun",
+    "type": "word",
+    "ipa": "pʌn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pun | TYPE=word | IPA=pʌn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "pan",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

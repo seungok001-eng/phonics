@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=like | TYPE=word | IPA=laɪk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "like",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698439.3161495,
+   "sec": 0.6,
+   "check": {
+    "transcript": "like",
+    "type": "word",
+    "ipa": "laɪk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=like | TYPE=word | IPA=laɪk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "sw",
  "title": "사이트워드 like · 좋아하다",
  "text": "like",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

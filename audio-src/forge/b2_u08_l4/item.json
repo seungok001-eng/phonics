@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=The dog is on the log. | TYPE=sentence | IPA=ðə dɑg ɪz ɑn ðə lɔg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "We go to the pot!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699608.9281487,
+   "sec": 1.72,
+   "check": {
+    "transcript": "We go to the park.",
+    "type": "sentence",
+    "ipa": "wi ˈɡoʊ tu ðə ˈpɑɹk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=We go to the park. | TYPE=sentence | IPA=wi ˈɡoʊ tu ðə ˈpɑɹk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:41",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "b2_u08_l4",
  "sub": "line",
- "title": "2권 8유닛 대사 · 헤지: The dog is on the log.",
- "text": "The dog is on the log.",
+ "title": "2권 8유닛 대사 · 핍: We go to the pot!",
+ "text": "We go to the pot!",
  "voice": "Puck",
- "who": "hedgie",
+ "who": "pip",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

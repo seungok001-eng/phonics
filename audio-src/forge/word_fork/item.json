@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=fork | TYPE=word | IPA=fɔːɹk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "fork",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698161.1905804,
+   "sec": 0.74,
+   "check": {
+    "transcript": "fork",
+    "type": "word",
+    "ipa": "fɔɹk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=fork | TYPE=word | IPA=fɔɹk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-11-03 18:58",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,5 +47,5 @@
  "title": "단어 fork · 포크",
  "text": "fork",
  "voice": "Kore",
- "busy": 0
+ "book": 1
 }

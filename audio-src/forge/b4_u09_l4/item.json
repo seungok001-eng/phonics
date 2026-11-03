@@ -29,19 +29,18 @@
    "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-08 12:05",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b4_u09_l4",
  "sub": "line",
- "title": "4권 9유닛 대사 · 요정 이: Eee! Out, cloud, out!",
- "text": "Eee! Out, cloud, out!",
+ "title": "4권 9유닛 대사 · 그럼블: Shh... out, cloud. Moon, come.",
+ "text": "Shh... out, cloud. Moon, come.",
  "voice": "Autonoe",
- "who": "fairy",
- "book": 4,
- "busy": 0
+ "who": "grumble",
+ "book": 4
 }

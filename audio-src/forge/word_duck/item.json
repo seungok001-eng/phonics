@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "duck",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698132.1058364,
+   "sec": 0.7,
+   "check": {
+    "transcript": "dock",
+    "type": "word",
+    "ipa": "dɒk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dock | TYPE=word | IPA=dɒk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "duck",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699427.7949848,
+   "sec": 0.7,
+   "check": {
+    "transcript": "duck",
+    "type": "word",
+    "ipa": "dʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=duck | TYPE=word | IPA=dʌk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-11-03 18:57",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,5 +64,5 @@
  "title": "단어 duck · 오리",
  "text": "duck",
  "voice": "Kore",
- "busy": 0
+ "book": 1
 }

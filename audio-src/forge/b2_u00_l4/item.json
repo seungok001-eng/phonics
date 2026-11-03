@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=This is beads. | TYPE=sentence | IPA=ðɪs ɪz bidz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "Click-clack! Click-clack!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699482.86452,
+   "sec": 1.63,
+   "check": {
+    "transcript": "click clack click clack",
+    "type": "sentence",
+    "ipa": "klɪk klæk klɪk klæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=click clack click clack | TYPE=sentence | IPA=klɪk klæk klɪk klæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-06 23:48",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "b2_u00_l4",
  "sub": "line",
- "title": "2권 0유닛 대사 · 해설: This is Beads.",
- "text": "This is Beads.",
+ "title": "2권 0유닛 대사 · 핍: Click-clack! Click-clack!",
+ "text": "Click-clack! Click-clack!",
  "voice": "Kore",
+ "who": "pip",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

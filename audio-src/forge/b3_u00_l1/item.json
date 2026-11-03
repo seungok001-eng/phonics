@@ -35,19 +35,18 @@
    "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 21:23",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "b3_u00_l1",
  "sub": "line",
- "title": "3권 0유닛 대사 · 해설: This is the Pair Forest.",
- "text": "This is the Pair Forest.",
+ "title": "3권 0유닛 대사 · 번: A forest!",
+ "text": "A forest!",
  "voice": "Kore",
- "who": "narrator",
- "book": 3,
- "busy": 0
+ "who": "bun",
+ "book": 3
 }

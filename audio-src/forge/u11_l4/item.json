@@ -50,21 +50,54 @@
     "raw": "TRANSCRIPT=Crumble! Here is a gift. | TYPE=sentence | IPA=ˈkrʌmbəl ˈhɪər ɪz ə ɡɪft | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Candy! We like candy!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793698107.7417803,
+   "sec": 2.23,
+   "check": {
+    "transcript": "candy",
+    "type": "word",
+    "ipa": "ˈkændi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=candy | TYPE=word | IPA=ˈkændi | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "Candy! We like candy!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793699409.3351476,
+   "sec": 2.37,
+   "check": {
+    "transcript": "candy",
+    "type": "word",
+    "ipa": "ˈkændi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=candy | TYPE=word | IPA=ˈkændi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
+ "approved": 5,
  "final": "final.mp3",
- "applied": "2026-10-07 16:47",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "u11_l4",
  "sub": "line",
- "title": "1권 11유닛 대사 · 헤지: Grumble! Here is a gift!",
- "text": "Grumble! Here is a gift!",
+ "title": "1권 11유닛 대사 · 함께: Candy! We like candy!",
+ "text": "Candy! We like candy!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "both",
+ "book": 1
 }

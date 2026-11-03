@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=dig | TYPE=word | IPA=dɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "dig",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699798.9973853,
+   "sec": 0.74,
+   "check": {
+    "transcript": "dig",
+    "type": "word",
+    "ipa": "dɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=dig | TYPE=word | IPA=dɪɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:44",
  "text_edited": false,
  "error": "",
- "unit": 6,
+ "unit": 2,
  "letter": null,
  "id": "word_dig",
  "sub": "word",
- "title": "단어 dig · 파기",
+ "title": "새 단어(첫소리 맞히기) dig",
  "text": "dig",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

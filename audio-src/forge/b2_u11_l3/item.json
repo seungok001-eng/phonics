@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=Sit, pig. Sit, pup. | TYPE=sentence | IPA=sɪt pɪg sɪt pʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Shh... I like a nap.",
+   "voice": "Olivier D - Old man for cartoon & animation",
+   "how": "el",
+   "created": 1793699652.296223,
+   "sec": 2.14,
+   "check": {
+    "transcript": "Shh I like a nap.",
+    "type": "sentence",
+    "ipa": "ʃaɪlaɪkənæp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Shh I like a nap. | TYPE=sentence | IPA=ʃaɪlaɪkənæp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:44",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "b2_u11_l3",
  "sub": "line",
- "title": "2권 11유닛 대사 · 번: Sit, pig! Sit, pup!",
- "text": "Sit, pig! Sit, pup!",
+ "title": "2권 11유닛 대사 · 그럼블: Shh... I like a nap.",
+ "text": "Shh... I like a nap.",
  "voice": "Leda",
- "who": "bun",
+ "who": "grumble",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

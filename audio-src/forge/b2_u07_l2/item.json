@@ -33,20 +33,38 @@
     "raw": "TRANSCRIPT=Rip! Oh no. | TYPE=sentence | IPA=ˈrɪp ˈoʊ ˈnoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "It is a rip!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699586.0337355,
+   "sec": 1.25,
+   "check": {
+    "transcript": "It is a rip.",
+    "type": "sentence",
+    "ipa": "ɪt ɪz ə ɹɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=It is a rip. | TYPE=sentence | IPA=ɪt ɪz ə ɹɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 00:35",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "b2_u07_l2",
  "sub": "line",
- "title": "2권 7유닛 대사 · 해설: Rip! Oh no!",
- "text": "Rip! Oh no!",
+ "title": "2권 7유닛 대사 · 헤지: It is a rip!",
+ "text": "It is a rip!",
  "voice": "Kore",
+ "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

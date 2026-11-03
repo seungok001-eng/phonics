@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=can | TYPE=word | IPA=kæn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "can",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698444.3501892,
+   "sec": 0.7,
+   "check": {
+    "transcript": "can",
+    "type": "word",
+    "ipa": "kæn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=can | TYPE=word | IPA=kæn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "sw",
  "title": "사이트워드 can · 할 수 있다",
  "text": "can",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=zigzag | TYPE=word | IPA=ˈzɪɡˌzæɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "zigzag",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698405.2324684,
+   "sec": 0.98,
+   "check": {
+    "transcript": "zigzag",
+    "type": "word",
+    "ipa": "ˈzɪɡ.zæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zigzag | TYPE=word | IPA=ˈzɪɡ.zæɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 zigzag · 지그재그",
  "text": "zigzag",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

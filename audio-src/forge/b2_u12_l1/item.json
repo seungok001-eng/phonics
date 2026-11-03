@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=Look, the word show. | TYPE=sentence | IPA=lʊk ðə wɜːd ʃəʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The word show!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699659.9724886,
+   "sec": 1.63,
+   "check": {
+    "transcript": "On the Word Show!",
+    "type": "sentence",
+    "ipa": "ɑn ðə wɝd ʃoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=On the Word Show! | TYPE=sentence | IPA=ɑn ðə wɝd ʃoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 00:08",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 12,
  "letter": null,
  "id": "b2_u12_l1",
  "sub": "line",
- "title": "2권 12유닛 대사 · 해설: Look! The Word Show!",
- "text": "Look! The Word Show!",
+ "title": "2권 12유닛 대사 · 핍: The word show!",
+ "text": "The word show!",
  "voice": "Kore",
+ "who": "pip",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

@@ -12,18 +12,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-08 00:11",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "b4_u02_l2",
  "sub": "line",
- "title": "4권 2유닛 대사 · 핍: Kit-e? Kit-e!",
- "text": "Kit-e? Kit-e!",
+ "title": "4권 2유닛 대사 · 번: I like to ride! Pull!",
+ "text": "I like to ride! Pull!",
  "voice": "Aoede",
- "who": "pip",
+ "who": "bun",
  "book": 4
 }

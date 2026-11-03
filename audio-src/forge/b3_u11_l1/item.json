@@ -12,17 +12,17 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:50",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "b3_u11_l1",
  "sub": "line",
- "title": "3권 11유닛 대사 · 함께: A forest party! Look!",
- "text": "A forest party! Look!",
+ "title": "3권 11유닛 대사 · 함께: A forest party!",
+ "text": "A forest party!",
  "voice": "Kore",
  "who": "both",
  "book": 3

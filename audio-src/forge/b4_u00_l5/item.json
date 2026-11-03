@@ -27,6 +27,23 @@
     "raw": "TRANSCRIPT=E | TYPE=letter-name | IPA=i | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Eee! Hi, Pip!",
+   "voice": "Yuna",
+   "how": "el",
+   "created": 1793694459.4374354,
+   "sec": 1.53,
+   "check": {
+    "transcript": "hi pip",
+    "type": "sentence",
+    "ipa": "haɪ pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=hi pip | TYPE=sentence | IPA=haɪ pɪp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 2,
@@ -43,5 +60,5 @@
  "voice": "Autonoe",
  "who": "fairy",
  "book": 4,
- "busy": 0
+ "busy": 1
 }

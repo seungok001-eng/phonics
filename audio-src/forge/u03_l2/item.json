@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=The goat ate it. | TYPE=sentence | IPA=ðə ɡoʊt eɪt ɪt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A goat!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793697974.9677632,
+   "sec": 0.84,
+   "check": {
+    "transcript": "a goat",
+    "type": "sentence",
+    "ipa": "ə goʊt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a goat | TYPE=sentence | IPA=ə goʊt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:24",
+ "applied": "2026-11-03 18:55",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "u03_l2",
  "sub": "line",
- "title": "1권 3유닛 대사 · 헤지: The goat ate it!",
- "text": "The goat ate it!",
+ "title": "1권 3유닛 대사 · 번: A goat!",
+ "text": "A goat!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "bun",
+ "book": 1
 }

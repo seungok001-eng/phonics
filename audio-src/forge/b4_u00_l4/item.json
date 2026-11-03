@@ -18,19 +18,18 @@
    "warn": true
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 23:39",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "b4_u00_l4",
  "sub": "line",
- "title": "4권 0유닛 대사 · 해설: This is Fairy E.",
- "text": "This is Fairy E.",
+ "title": "4권 0유닛 대사 · 핍: A fairy on me!",
+ "text": "A fairy on me!",
  "voice": "Kore",
- "who": "narrator",
- "book": 4,
- "busy": 0
+ "who": "pip",
+ "book": 4
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=rag | TYPE=word | IPA=ræɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "rag",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699731.187508,
+   "sec": 0.7,
+   "check": {
+    "transcript": "rag",
+    "type": "word",
+    "ipa": "ræɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=rag | TYPE=word | IPA=ræɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "rag",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

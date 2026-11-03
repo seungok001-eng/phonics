@@ -33,18 +33,37 @@
     "raw": "TRANSCRIPT=This is the sound garden. | TYPE=sentence | IPA=ðɪs ɪz ðə saʊnd ɡɑɹdən | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Hi, Pip!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793697942.9071224,
+   "sec": 0.88,
+   "check": {
+    "transcript": "Hi Pip",
+    "type": "sentence",
+    "ipa": "ˈhaɪ ˈpɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hi Pip | TYPE=sentence | IPA=ˈhaɪ ˈpɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-11-03 18:54",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "u00_l2",
  "sub": "line",
- "title": "0유닛 대사 · 해설: This is the Sound Garden.",
- "text": "This is the Sound Garden.",
- "voice": "Kore"
+ "title": "1권 0유닛 대사 · 헤지: Hi, Pip!",
+ "text": "Hi, Pip!",
+ "voice": "Kore",
+ "who": "hedgie",
+ "book": 1
 }

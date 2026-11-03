@@ -50,21 +50,38 @@
     "raw": "TRANSCRIPT=dug dug | TYPE=word | IPA=dʌg dʌg | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Pip can say cat!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793699564.507142,
+   "sec": 1.67,
+   "check": {
+    "transcript": "pipkin said gut",
+    "type": "sentence",
+    "ipa": "ˈpɪpkɪn ˈsɛd ˈɡʌt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=pipkin said gut | TYPE=sentence | IPA=ˈpɪpkɪn ˈsɛd ˈɡʌt | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-07 16:38",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "b2_u05_l4",
  "sub": "line",
- "title": "2권 5유닛 대사 · 핍: Tac... tac...",
- "text": "Tac... tac...",
+ "title": "2권 5유닛 대사 · 함께: Pip can say cat!",
+ "text": "Pip can say cat!",
  "voice": "Aoede",
- "who": "pip",
+ "who": "both",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

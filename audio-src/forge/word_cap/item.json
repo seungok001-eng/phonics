@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=cap | TYPE=word | IPA=kæp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "cap",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699708.956402,
+   "sec": 0.74,
+   "check": {
+    "transcript": "cup",
+    "type": "word",
+    "ipa": "kʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cup | TYPE=word | IPA=kʌp | NOTE=ok"
+   },
+   "warn": true
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:42",
  "text_edited": false,
  "error": "",
- "unit": 2,
+ "unit": 1,
  "letter": null,
  "id": "word_cap",
  "sub": "word",
- "title": "단어 cap · 야구모자",
+ "title": "새 단어(첫소리 맞히기) cap",
  "text": "cap",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

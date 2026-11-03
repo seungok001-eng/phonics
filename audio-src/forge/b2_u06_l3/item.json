@@ -50,21 +50,38 @@
     "raw": "TRANSCRIPT=keep keep | TYPE=word | IPA=ˈkiːp | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "A wig! The pig is big.",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699575.944545,
+   "sec": 2.0,
+   "check": {
+    "transcript": "A wig? The pig is big.",
+    "type": "sentence",
+    "ipa": "ə ˈwɪɡ ði ˈpɪɡ ɪz ˈbɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A wig? The pig is big. | TYPE=sentence | IPA=ə ˈwɪɡ ði ˈpɪɡ ɪz ˈbɪɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-07 16:39",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b2_u06_l3",
  "sub": "line",
- "title": "2권 6유닛 대사 · 핍: Gip! Gip?",
- "text": "Gip! Gip?",
+ "title": "2권 6유닛 대사 · 번: A wig! The pig is big.",
+ "text": "A wig! The pig is big.",
  "voice": "Aoede",
- "who": "pip",
+ "who": "bun",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

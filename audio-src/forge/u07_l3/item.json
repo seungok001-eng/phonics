@@ -84,21 +84,37 @@
     "raw": "TRANSCRIPT=panda | TYPE=word | IPA=/ˈpændə/ | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Can you quack?",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698040.9663658,
+   "sec": 1.07,
+   "check": {
+    "transcript": "Can you quack?",
+    "type": "sentence",
+    "ipa": "kæn juː kwæk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Can you quack? | TYPE=sentence | IPA=kæn juː kwæk | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-08 12:30",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "u07_l3",
  "sub": "line",
- "title": "1권 7유닛 대사 · 번: /p/ /p/ panda!",
- "text": "/p/ /p/ panda!",
+ "title": "1권 7유닛 대사 · 해설: Can you quack?",
+ "text": "Can you quack?",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "narrator",
+ "book": 1
 }

@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=tok tok | TYPE=word | IPA=tok tok | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A rat on the cat!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699489.8668056,
+   "sec": 1.44,
+   "check": {
+    "transcript": "A rat on the cat.",
+    "type": "sentence",
+    "ipa": "ə ræt ɒn ðə kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A rat on the cat. | TYPE=sentence | IPA=ə ræt ɒn ðə kæt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:35",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "b2_u01_l2",
  "sub": "line",
- "title": "2권 1유닛 대사 · 핍: Tac! Tac?",
- "text": "Tac! Tac?",
+ "title": "2권 1유닛 대사 · 번: A rat on the cat!",
+ "text": "A rat on the cat!",
  "voice": "Aoede",
- "who": "pip",
+ "who": "bun",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

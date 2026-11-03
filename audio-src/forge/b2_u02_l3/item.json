@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=pack pack | TYPE=word | IPA=pæk pæk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A dog! Wag, wag!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699509.9922726,
+   "sec": 2.04,
+   "check": {
+    "transcript": "a dog, woof, woof",
+    "type": "sentence",
+    "ipa": "ə dɔɡ wʊf wʊf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=a dog, woof, woof | TYPE=sentence | IPA=ə dɔɡ wʊf wʊf | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:36",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "b2_u02_l3",
  "sub": "line",
- "title": "2권 2유닛 대사 · 핍: Pac! Pac?",
- "text": "Pac! Pac?",
+ "title": "2권 2유닛 대사 · 번: A dog! Wag, wag!",
+ "text": "A dog! Wag, wag!",
  "voice": "Aoede",
- "who": "pip",
+ "who": "bun",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

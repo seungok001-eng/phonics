@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=zebra | TYPE=word | IPA=ˈziːbrə | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "zebra",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698396.181195,
+   "sec": 0.79,
+   "check": {
+    "transcript": "zebra",
+    "type": "word",
+    "ipa": "ˈzɛbrə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zebra | TYPE=word | IPA=ˈzɛbrə | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "word",
  "title": "단어 zebra · 얼룩말",
  "text": "zebra",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

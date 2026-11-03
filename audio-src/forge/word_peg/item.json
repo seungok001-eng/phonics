@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=peg | TYPE=word | IPA=pɛg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "peg",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699783.0248716,
+   "sec": 0.79,
+   "check": {
+    "transcript": "peg",
+    "type": "word",
+    "ipa": "pɛg",
+    "note": "ok",
+    "raw": "TRANSCRIPT=peg | TYPE=word | IPA=pɛg | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "peg",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

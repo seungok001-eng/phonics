@@ -33,6 +33,40 @@
     "raw": "TRANSCRIPT=we | TYPE=word | IPA=wi | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "we",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698435.334177,
+   "sec": 0.65,
+   "check": {
+    "transcript": "whee",
+    "type": "word",
+    "ipa": "wiː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=whee | TYPE=word | IPA=wiː | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "we",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699599.8517494,
+   "sec": 0.51,
+   "check": {
+    "transcript": "we",
+    "type": "word",
+    "ipa": "wi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=we | TYPE=word | IPA=wi | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 2,
@@ -47,5 +81,6 @@
  "title": "사이트워드 we · 우리",
  "text": "we",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 1
 }

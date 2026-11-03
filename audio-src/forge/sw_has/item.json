@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=has | TYPE=word | IPA=hæz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "has",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699965.2062287,
+   "sec": 0.74,
+   "check": {
+    "transcript": "has",
+    "type": "word",
+    "ipa": "hæz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=has | TYPE=word | IPA=hæz | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "has",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

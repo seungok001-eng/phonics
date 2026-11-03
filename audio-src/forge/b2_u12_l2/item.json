@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=We can read. | TYPE=sentence | IPA=wi kæn rid | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Cat! Pig! Fox!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793699664.3809,
+   "sec": 1.49,
+   "check": {
+    "transcript": "cat pig fox",
+    "type": "sentence",
+    "ipa": "kæt pɪg fɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=cat pig fox | TYPE=sentence | IPA=kæt pɪg fɑks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:45",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 12,
  "letter": null,
  "id": "b2_u12_l2",
  "sub": "line",
- "title": "2권 12유닛 대사 · 함께: We can read!",
- "text": "We can read!",
+ "title": "2권 12유닛 대사 · 함께: Cat! Pig! Fox!",
+ "text": "Cat! Pig! Fox!",
  "voice": "Kore",
  "who": "both",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

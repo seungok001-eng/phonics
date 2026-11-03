@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=Go Seal, Go Turtle! | TYPE=sentence | IPA=goʊ sil goʊ ˈtɜrtəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Up, up, up!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793698054.095691,
+   "sec": 1.21,
+   "check": {
+    "transcript": "up up up",
+    "type": "sentence",
+    "ipa": "ʌp ʌp ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=up up up | TYPE=sentence | IPA=ʌp ʌp ʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:29",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "u08_l2",
  "sub": "line",
- "title": "1권 8유닛 대사 · 헤지: Go, seal! Go, turtle!",
- "text": "Go, seal! Go, turtle!",
+ "title": "1권 8유닛 대사 · 번: Up, up, up!",
+ "text": "Up, up, up!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "bun",
+ "book": 1
 }

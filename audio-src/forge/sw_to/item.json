@@ -16,6 +16,40 @@
     "raw": "TRANSCRIPT=too | TYPE=word | IPA=tuː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "to",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698456.28637,
+   "sec": 0.6,
+   "check": {
+    "transcript": "two",
+    "type": "word",
+    "ipa": "tu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=two | TYPE=word | IPA=tu | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "to",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699612.8801403,
+   "sec": 0.65,
+   "check": {
+    "transcript": "to",
+    "type": "word",
+    "ipa": "tu",
+    "note": "ok",
+    "raw": "TRANSCRIPT=to | TYPE=word | IPA=tu | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +64,6 @@
  "title": "사이트워드 to · ~로",
  "text": "to",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 1
 }

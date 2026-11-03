@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=a mug, a bun, a fig | TYPE=sentence | IPA=ə mʌɡ ə bʌn ə fɪɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The cat, the hen, the pig!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699647.930668,
+   "sec": 2.23,
+   "check": {
+    "transcript": "the cat, the hen, the pig",
+    "type": "sentence",
+    "ipa": "ðə kæt, ðə hɛn, ðə pɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=the cat, the hen, the pig | TYPE=sentence | IPA=ðə kæt, ðə hɛn, ðə pɪɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:44",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "b2_u11_l2",
  "sub": "line",
- "title": "2권 11유닛 대사 · 헤지: A mug, a bun, a fig!",
- "text": "A mug, a bun, a fig!",
+ "title": "2권 11유닛 대사 · 헤지: The cat, the hen, the pig!",
+ "text": "The cat, the hen, the pig!",
  "voice": "Puck",
  "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=The sun is up! | TYPE=sentence | IPA=ðə ˈsʌn ɪz ˈʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A turtle and an umbrella.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698050.2355137,
+   "sec": 1.49,
+   "check": {
+    "transcript": "A turtle and an umbrella",
+    "type": "sentence",
+    "ipa": "ə ˈtɝ.təl ənd ən ʌmˈbrɛ.lə",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A turtle and an umbrella | TYPE=sentence | IPA=ə ˈtɝ.təl ənd ən ʌmˈbrɛ.lə | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:29",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "u08_l1",
  "sub": "line",
- "title": "1권 8유닛 대사 · 번: The sun is up!",
- "text": "The sun is up!",
+ "title": "1권 8유닛 대사 · 해설: A turtle and an umbrella.",
+ "text": "A turtle and an umbrella.",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "narrator",
+ "book": 1
 }

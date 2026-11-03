@@ -33,21 +33,38 @@
     "raw": "TRANSCRIPT=Look, no stones. | TYPE=sentence | IPA=lʊk noʊ stoʊnz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Hi! I am Hedgie.",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793699474.86414,
+   "sec": 1.53,
+   "check": {
+    "transcript": "Hi, I'm Hedy.",
+    "type": "sentence",
+    "ipa": "haɪ aɪm hɛdi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Hi, I'm Hedy. | TYPE=sentence | IPA=haɪ aɪm hɛdi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 16:34",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "b2_u00_l2",
  "sub": "line",
- "title": "2권 0유닛 대사 · 번: Look! No stones!",
- "text": "Look! No stones!",
+ "title": "2권 0유닛 대사 · 헤지: Hi! I am Hedgie.",
+ "text": "Hi! I am Hedgie.",
  "voice": "Leda",
- "who": "bun",
+ "who": "hedgie",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

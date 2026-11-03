@@ -29,19 +29,18 @@
    "warn": true
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:43",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "b3_u10_l3",
  "sub": "line",
- "title": "3권 10유닛 대사 · 핍: Uq? Uq? Uqilt?",
- "text": "Uq? Uq? Uqilt?",
+ "title": "3권 10유닛 대사 · 함께: Quick! Look!",
+ "text": "Quick! Look!",
  "voice": "Aoede",
- "who": "pip",
- "book": 3,
- "busy": 0
+ "who": "both",
+ "book": 3
 }

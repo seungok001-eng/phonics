@@ -33,21 +33,54 @@
     "raw": "TRANSCRIPT=Look at the water. | TYPE=sentence | IPA=lʊk ət ðə wɔtəɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Look! Six worms!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793698076.5110679,
+   "sec": 1.67,
+   "check": {
+    "transcript": "worm",
+    "type": "word",
+    "ipa": "wˈɝːm",
+    "note": "ok",
+    "raw": "TRANSCRIPT=worm | TYPE=word | IPA=wˈɝːm | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Look! Six worms!",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793699387.4263415,
+   "sec": 1.67,
+   "check": {
+    "transcript": "look six 6 0 worms",
+    "type": "sentence",
+    "ipa": "lʊk sɪks sɪks zɪroʊ wɜːmz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=look six 6 0 worms | TYPE=sentence | IPA=lʊk sɪks sɪks zɪroʊ wɜːmz | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:31",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "u09_l4",
  "sub": "line",
- "title": "1권 9유닛 대사 · 함께: Look at the water!",
- "text": "Look at the water!",
+ "title": "1권 9유닛 대사 · 함께: Look! Six worms!",
+ "text": "Look! Six worms!",
  "voice": "Kore",
  "who": "both",
- "book": 1,
- "busy": 0
+ "book": 1
 }

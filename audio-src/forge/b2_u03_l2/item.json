@@ -67,21 +67,38 @@
     "raw": "TRANSCRIPT=10 10 | TYPE=word | IPA=ˈtɛn ˈtɛn | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "A hen in the net!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699522.2496383,
+   "sec": 1.49,
+   "check": {
+    "transcript": "A hen in the net!",
+    "type": "sentence",
+    "ipa": "ə hɛn ɪn ðə nɛt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=A hen in the net! | TYPE=sentence | IPA=ə hɛn ɪn ðə nɛt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 4,
- "final": "final.mp3",
- "applied": "2026-10-07 16:48",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "b2_u03_l2",
  "sub": "line",
- "title": "2권 3유닛 대사 · 핍: Ten! Ten?",
- "text": "Ten! Ten?",
+ "title": "2권 3유닛 대사 · 번: A hen in the net!",
+ "text": "A hen in the net!",
  "voice": "Aoede",
- "who": "pip",
+ "who": "bun",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

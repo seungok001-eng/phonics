@@ -16,20 +16,38 @@
     "raw": "TRANSCRIPT=Bun has a bun. | TYPE=sentence | IPA=bʌn hæz ə bʌn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "You can hug! Up, up!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699639.0052528,
+   "sec": 2.51,
+   "check": {
+    "transcript": "You can hug up, up.",
+    "type": "sentence",
+    "ipa": "ju kæn hʌɡ ʌp ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=You can hug up, up. | TYPE=sentence | IPA=ju kæn hʌɡ ʌp ʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 00:05",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "b2_u10_l4",
  "sub": "line",
- "title": "2권 10유닛 대사 · 해설: Bun has a bun!",
- "text": "Bun has a bun!",
+ "title": "2권 10유닛 대사 · 핍: You can hug! Up, up!",
+ "text": "You can hug! Up, up!",
  "voice": "Kore",
+ "who": "pip",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

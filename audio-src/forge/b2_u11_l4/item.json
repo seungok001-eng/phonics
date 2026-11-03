@@ -33,20 +33,38 @@
     "raw": "TRANSCRIPT=Grumble is here. | TYPE=sentence | IPA=ˈɡrʌmbəl ɪz ˈhɪɹ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "We like the party. Shh!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793699656.3227456,
+   "sec": 2.24,
+   "check": {
+    "transcript": "Who like the potty?",
+    "type": "sentence",
+    "ipa": "hu lʌk ðə pɑdi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Who like the potty? | TYPE=sentence | IPA=hu lʌk ðə pɑdi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-07 00:36",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "b2_u11_l4",
  "sub": "line",
- "title": "2권 11유닛 대사 · 해설: Grumble is here!",
- "text": "Grumble is here!",
+ "title": "2권 11유닛 대사 · 핍: We like the party. Shh!",
+ "text": "We like the party. Shh!",
  "voice": "Kore",
+ "who": "pip",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

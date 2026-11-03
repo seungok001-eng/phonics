@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=little | TYPE=word | IPA=ˈlɪtəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "little",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699975.263216,
+   "sec": 0.7,
+   "check": {
+    "transcript": "little",
+    "type": "word",
+    "ipa": "ˈlɪtəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=little | TYPE=word | IPA=ˈlɪtəl | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "little",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

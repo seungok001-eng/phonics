@@ -18,18 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:18",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 5,
  "letter": null,
  "id": "b3_u05_l3",
  "sub": "line",
- "title": "3권 5유닛 대사 · 비즈: Click-clack! Duck, sock, rock, lock!",
- "text": "Click-clack! Duck, sock, rock, lock!",
+ "title": "3권 5유닛 대사 · 핍: Fish! Shh, fish!",
+ "text": "Fish! Shh, fish!",
  "voice": "Zephyr",
- "who": "beads",
+ "who": "pip",
  "book": 3
 }

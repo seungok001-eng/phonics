@@ -1,0 +1,36 @@
+{
+ "cands": [
+  {
+   "n": 1,
+   "file": "cand_1.wav",
+   "text": "I see a cat!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793697708.855747,
+   "sec": 1.02,
+   "check": {
+    "transcript": "I see a cat!",
+    "type": "sentence",
+    "ipa": "aɪ siː ə kæt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a cat! | TYPE=sentence | IPA=aɪ siː ə kæt | NOTE=ok"
+   },
+   "warn": false
+  }
+ ],
+ "approved": 1,
+ "final": "final.mp3",
+ "applied": "2026-11-03 18:23",
+ "text_edited": false,
+ "error": "",
+ "unit": 1,
+ "letter": null,
+ "id": "u01_l2",
+ "sub": "line",
+ "title": "1권 1유닛 대사 · 헤지: I see a cat!",
+ "text": "I see a cat!",
+ "voice": "Puck",
+ "who": "hedgie",
+ "book": 1,
+ "busy": 0
+}

@@ -12,18 +12,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:50",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 11,
  "letter": null,
  "id": "b3_u11_l3",
  "sub": "line",
- "title": "3권 11유닛 대사 · 번: Sit with us, chimp!",
- "text": "Sit with us, chimp!",
+ "title": "3권 11유닛 대사 · 그럼블: Shh! I mean... hi!",
+ "text": "Shh! I mean... hi!",
  "voice": "Leda",
- "who": "bun",
+ "who": "grumble",
  "book": 3
 }

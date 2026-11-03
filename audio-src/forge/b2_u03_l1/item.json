@@ -50,21 +50,38 @@
     "raw": "TRANSCRIPT=I see a net. | TYPE=sentence | IPA=aɪ siː ə nɛt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Ten hens in a pen.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699517.9294198,
+   "sec": 1.39,
+   "check": {
+    "transcript": "ten hens in a pen",
+    "type": "sentence",
+    "ipa": "tɛn hɛnz ɪn ə pɛn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=ten hens in a pen | TYPE=sentence | IPA=tɛn hɛnz ɪn ə pɛn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 3,
- "final": "final.mp3",
- "applied": "2026-10-07 16:36",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "b2_u03_l1",
  "sub": "line",
- "title": "2권 3유닛 대사 · 번: I see a net.",
- "text": "I see a net.",
+ "title": "2권 3유닛 대사 · 해설: Ten hens in a pen.",
+ "text": "Ten hens in a pen.",
  "voice": "Leda",
- "who": "bun",
+ "who": "narrator",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

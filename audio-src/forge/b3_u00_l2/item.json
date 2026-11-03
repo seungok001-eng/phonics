@@ -18,18 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:02",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 0,
  "letter": null,
  "id": "b3_u00_l2",
  "sub": "line",
- "title": "3권 0유닛 대사 · 번: Look! A big door!",
- "text": "Look! A big door!",
+ "title": "3권 0유닛 대사 · 해설: Hi! We are Pim and Pam.",
+ "text": "Hi! We are Pim and Pam.",
  "voice": "Leda",
- "who": "bun",
+ "who": "narrator",
  "book": 3
 }

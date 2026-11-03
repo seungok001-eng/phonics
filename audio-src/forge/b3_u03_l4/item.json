@@ -35,19 +35,18 @@
    "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-08 12:46",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "b3_u03_l4",
  "sub": "line",
- "title": "3권 3유닛 대사 · 핌과 팜: Together! /θ/ /θ/ thin!",
- "text": "Together! /θ/ /θ/ thin!",
+ "title": "3권 3유닛 대사 · 핍: This moth likes that bath!",
+ "text": "This moth likes that bath!",
  "voice": "Laomedeia",
- "who": "twins",
- "book": 3,
- "busy": 0
+ "who": "pip",
+ "book": 3
 }

@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=U | TYPE=letter-name | IPA=juː | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "you",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698448.2159414,
+   "sec": 0.6,
+   "check": {
+    "transcript": "you",
+    "type": "word",
+    "ipa": "juː",
+    "note": "ok",
+    "raw": "TRANSCRIPT=you | TYPE=word | IPA=juː | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -30,5 +47,6 @@
  "title": "사이트워드 you · 너",
  "text": "you",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 1
 }

@@ -18,17 +18,17 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:05",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "b3_u02_l2",
  "sub": "line",
- "title": "3권 2유닛 대사 · 헤지: It was on the bench!",
- "text": "It was on the bench!",
+ "title": "3권 2유닛 대사 · 헤지: A chimp! It was my chip!",
+ "text": "A chimp! It was my chip!",
  "voice": "Puck",
  "who": "hedgie",
  "book": 3

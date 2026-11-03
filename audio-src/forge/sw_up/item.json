@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=up | TYPE=word | IPA=ʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "up",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699992.1015058,
+   "sec": 0.56,
+   "check": {
+    "transcript": "up",
+    "type": "word",
+    "ipa": "ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=up | TYPE=word | IPA=ʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "up",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

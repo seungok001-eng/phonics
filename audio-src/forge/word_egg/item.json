@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=egg | TYPE=word | IPA=ɛɡ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "egg",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698140.2421002,
+   "sec": 0.65,
+   "check": {
+    "transcript": "egg",
+    "type": "word",
+    "ipa": "ɛɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=egg | TYPE=word | IPA=ɛɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 14:41",
+ "applied": "2026-11-03 18:58",
  "text_edited": false,
  "error": "",
  "unit": 2,
@@ -30,5 +47,5 @@
  "title": "단어 egg · 달걀",
  "text": "egg",
  "voice": "Kore",
- "busy": 0
+ "book": 1
 }

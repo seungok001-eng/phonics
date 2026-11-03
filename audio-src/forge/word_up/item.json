@@ -16,18 +16,36 @@
     "raw": "TRANSCRIPT=Up | TYPE=word | IPA=ʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "up",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698339.2792637,
+   "sec": 0.6,
+   "check": {
+    "transcript": "up",
+    "type": "word",
+    "ipa": "ʌp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=up | TYPE=word | IPA=ʌp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:58",
+ "applied": "2026-11-03 19:01",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "word_up",
  "sub": "word",
- "title": "단어 up · 위",
+ "title": "단어 up · 위로",
  "text": "up",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

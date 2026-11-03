@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=I see a goat! | TYPE=sentence | IPA=aɪ siː ə ɡoʊt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "My gift!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793697970.9842181,
+   "sec": 0.88,
+   "check": {
+    "transcript": "My gift.",
+    "type": "sentence",
+    "ipa": "maɪ gɪft",
+    "note": "ok",
+    "raw": "TRANSCRIPT=My gift. | TYPE=sentence | IPA=maɪ gɪft | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:24",
+ "applied": "2026-11-03 18:55",
  "text_edited": false,
  "error": "",
  "unit": 3,
  "letter": null,
  "id": "u03_l1",
  "sub": "line",
- "title": "1권 3유닛 대사 · 번: I see a goat!",
- "text": "I see a goat!",
+ "title": "1권 3유닛 대사 · 헤지: My gift!",
+ "text": "My gift!",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "hedgie",
+ "book": 1
 }

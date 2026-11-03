@@ -16,19 +16,37 @@
     "raw": "TRANSCRIPT=Look, the alphabet show. | TYPE=sentence | IPA=lʊk ði ælfəbɛt ʃoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The alphabet show!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793698111.1046972,
+   "sec": 1.63,
+   "check": {
+    "transcript": "in the alphabet show",
+    "type": "sentence",
+    "ipa": "ɪn ði ˈælfəˌbɛt ʃoʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=in the alphabet show | TYPE=sentence | IPA=ɪn ði ˈælfəˌbɛt ʃoʊ | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:29",
+ "applied": "2026-11-03 18:57",
  "text_edited": false,
  "error": "",
  "unit": 12,
  "letter": null,
  "id": "u12_l1",
  "sub": "line",
- "title": "1권 12유닛 대사 · 해설: Look! The Alphabet Show!",
- "text": "Look! The Alphabet Show!",
+ "title": "1권 12유닛 대사 · 핍: The alphabet show!",
+ "text": "The alphabet show!",
  "voice": "Kore",
+ "who": "pip",
  "book": 1
 }

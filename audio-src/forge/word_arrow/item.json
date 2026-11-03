@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=arrow | TYPE=word | IPA=ˈæroʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "arrow",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793697723.9771447,
+   "sec": 0.74,
+   "check": {
+    "transcript": "arrow",
+    "type": "word",
+    "ipa": "ˈæɹ.oʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=arrow | TYPE=word | IPA=ˈæɹ.oʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 14:35",
+ "applied": "2026-11-03 18:23",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -46,5 +63,7 @@
  "sub": "word",
  "title": "단어 arrow · 화살",
  "text": "arrow",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 0
 }

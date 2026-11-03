@@ -18,19 +18,18 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 21:26",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b3_u04_l2",
  "sub": "line",
- "title": "3권 4유닛 대사 · 해설: The king is sad.",
- "text": "The king is sad.",
+ "title": "3권 4유닛 대사 · 헤지: A ring? Where is the ring?",
+ "text": "A ring? Where is the ring?",
  "voice": "Kore",
- "who": "narrator",
- "book": 3,
- "busy": 0
+ "who": "hedgie",
+ "book": 3
 }

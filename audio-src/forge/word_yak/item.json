@@ -16,11 +16,45 @@
     "raw": "TRANSCRIPT=yack | TYPE=word | IPA=jæk | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "yak",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698388.1958566,
+   "sec": 0.74,
+   "check": {
+    "transcript": "Yuck",
+    "type": "word",
+    "ipa": "jʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Yuck | TYPE=word | IPA=jʌk | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "yak",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699570.8688054,
+   "sec": 0.74,
+   "check": {
+    "transcript": "yuck",
+    "type": "word",
+    "ipa": "jʌk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=yuck | TYPE=word | IPA=jʌk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 1,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-06 21:32",
+ "applied": "2026-11-03 19:00",
  "text_edited": false,
  "error": "",
  "unit": 10,
@@ -30,5 +64,6 @@
  "title": "단어 yak · 야크",
  "text": "yak",
  "voice": "Kore",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

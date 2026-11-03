@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=big | TYPE=word | IPA=bɪg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "big",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699795.0099072,
+   "sec": 0.79,
+   "check": {
+    "transcript": "big",
+    "type": "word",
+    "ipa": "bɪɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=big | TYPE=word | IPA=bɪɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "big",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

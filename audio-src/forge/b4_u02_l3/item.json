@@ -29,19 +29,18 @@
    "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-08 12:01",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "b4_u02_l3",
  "sub": "line",
- "title": "4권 2유닛 대사 · 요정 이: Eee! Pip, Pip!",
- "text": "Eee! Pip, Pip!",
+ "title": "4권 2유닛 대사 · 헤지: Slide down, kite!",
+ "text": "Slide down, kite!",
  "voice": "Autonoe",
- "who": "fairy",
- "book": 4,
- "busy": 0
+ "who": "hedgie",
+ "book": 4
 }

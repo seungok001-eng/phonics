@@ -16,11 +16,28 @@
     "raw": "TRANSCRIPT=nose | TYPE=word | IPA=noʊz | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "nose",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698251.1102295,
+   "sec": 0.74,
+   "check": {
+    "transcript": "nose",
+    "type": "word",
+    "ipa": "noʊz",
+    "note": "ok",
+    "raw": "TRANSCRIPT=nose | TYPE=word | IPA=noʊz | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 20:56",
+ "applied": "2026-11-03 18:59",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -29,5 +46,6 @@
  "sub": "word",
  "title": "단어 nose · 코",
  "text": "nose",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1
 }

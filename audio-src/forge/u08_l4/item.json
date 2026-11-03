@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=I see a tomato. | TYPE=sentence | IPA=aɪ siː ə təˈmeɪtoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The turtle is in the soup!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793698062.0867157,
+   "sec": 1.67,
+   "check": {
+    "transcript": "The turtle is in the soup!",
+    "type": "sentence",
+    "ipa": "ðə tɜɹtəl ɪz ɪn ðə sup",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The turtle is in the soup! | TYPE=sentence | IPA=ðə tɜɹtəl ɪz ɪn ðə sup | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:30",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "u08_l4",
  "sub": "line",
- "title": "1권 8유닛 대사 · 헤지: I see a tomato.",
- "text": "I see a tomato.",
+ "title": "1권 8유닛 대사 · 핍: The turtle is in the soup!",
+ "text": "The turtle is in the soup!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "pip",
+ "book": 1
 }

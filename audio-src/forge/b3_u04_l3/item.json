@@ -18,17 +18,17 @@
    "warn": true
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-07 22:13",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 4,
  "letter": null,
  "id": "b3_u04_l3",
  "sub": "line",
- "title": "3권 4유닛 대사 · 핍: C... k...? C... k...?",
- "text": "C... k...? C... k...?",
+ "title": "3권 4유닛 대사 · 핍: Sing! Sing a song!",
+ "text": "Sing! Sing a song!",
  "voice": "Aoede",
  "who": "pip",
  "book": 3

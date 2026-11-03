@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=No. | TYPE=word | IPA=noʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "no",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699957.09745,
+   "sec": 0.6,
+   "check": {
+    "transcript": "No",
+    "type": "word",
+    "ipa": "noʊ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=No | TYPE=word | IPA=noʊ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -31,5 +48,5 @@
  "text": "no",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

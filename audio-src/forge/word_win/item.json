@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=win | TYPE=word | IPA=wɪn | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "win",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699823.9400008,
+   "sec": 0.65,
+   "check": {
+    "transcript": "win",
+    "type": "word",
+    "ipa": "wɪn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=win | TYPE=word | IPA=wɪn | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 2,
@@ -48,5 +65,5 @@
  "text": "win",
  "voice": "Kore",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

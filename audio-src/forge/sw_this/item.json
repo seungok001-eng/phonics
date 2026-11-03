@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=This | TYPE=word | IPA=ðɪs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "this",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698468.2345839,
+   "sec": 0.7,
+   "check": {
+    "transcript": "this",
+    "type": "word",
+    "ipa": "ðɪs",
+    "note": "ok",
+    "raw": "TRANSCRIPT=this | TYPE=word | IPA=ðɪs | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -29,5 +46,7 @@
  "sub": "sw",
  "title": "사이트워드 this · 이것",
  "text": "this",
- "voice": "Kore"
+ "voice": "Kore",
+ "book": 1,
+ "busy": 1
 }

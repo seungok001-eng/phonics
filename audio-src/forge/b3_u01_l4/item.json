@@ -35,19 +35,18 @@
    "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-08 12:43",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 1,
  "letter": null,
  "id": "b3_u01_l4",
  "sub": "line",
- "title": "3권 1유닛 대사 · 핌과 팜: /ʃ/... /ʃ/...",
- "text": "/ʃ/... /ʃ/...",
+ "title": "3권 1유닛 대사 · 그럼블: Shh! The fish is in the dish.",
+ "text": "Shh! The fish is in the dish.",
  "voice": "Laomedeia",
- "who": "twins",
- "book": 3,
- "busy": 0
+ "who": "grumble",
+ "book": 3
 }

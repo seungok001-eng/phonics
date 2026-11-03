@@ -16,6 +16,23 @@
     "raw": "TRANSCRIPT=log | TYPE=word | IPA=lɔg | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "log",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793699867.0734198,
+   "sec": 0.6,
+   "check": {
+    "transcript": "log",
+    "type": "word",
+    "ipa": "lɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=log | TYPE=word | IPA=lɒɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 1,
@@ -23,13 +40,13 @@
  "applied": "2026-10-06 23:46",
  "text_edited": false,
  "error": "",
- "unit": 8,
+ "unit": 4,
  "letter": null,
  "id": "word_log",
  "sub": "word",
- "title": "단어 log · 통나무",
+ "title": "새 단어(첫소리 맞히기) log",
  "text": "log",
  "voice": "Kore",
- "book": 2,
- "busy": 0
+ "book": 1,
+ "busy": 1
 }

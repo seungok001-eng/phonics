@@ -33,6 +33,23 @@
     "raw": "TRANSCRIPT=click clack hi pip | TYPE=sentence | IPA=klɪk klæk haɪ pɪp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Click-clack! Hi, Pip!",
+   "voice": "Teddy Twinkle",
+   "how": "el",
+   "created": 1793694452.8639817,
+   "sec": 1.67,
+   "check": {
+    "transcript": "Click clack. Hi Pip.",
+    "type": "sentence",
+    "ipa": "klɪk klæk haɪ pɪp",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Click clack. Hi Pip. | TYPE=sentence | IPA=klɪk klæk haɪ pɪp | NOTE=ok"
+   },
+   "warn": false
   }
  ],
  "approved": 2,
@@ -49,5 +66,5 @@
  "voice": "Zephyr",
  "who": "beads",
  "book": 2,
- "busy": 0
+ "busy": 1
 }

@@ -16,18 +16,37 @@
     "raw": "TRANSCRIPT=Pip tries pop a bubble | TYPE=sentence | IPA=pɪp tɹaɪz pɒp ə bʌbəl | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 2,
+   "file": "cand_2.wav",
+   "text": "The queen is in a quilt.",
+   "voice": "Bella",
+   "how": "el",
+   "created": 1793698037.0221853,
+   "sec": 1.35,
+   "check": {
+    "transcript": "The queen is in a quilt.",
+    "type": "sentence",
+    "ipa": "ðə ˈkwin ɪz ɪn ə ˈkwɪlt",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The queen is in a quilt. | TYPE=sentence | IPA=ðə ˈkwin ɪz ɪn ə ˈkwɪlt | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 1,
+ "approved": 2,
  "final": "final.mp3",
- "applied": "2026-10-06 21:11",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 7,
  "letter": null,
  "id": "u07_l2",
  "sub": "line",
- "title": "7유닛 대사 · 해설: Pip tries. Pop! A bubble!",
- "text": "Pip tries. Pop! A bubble!",
- "voice": "Kore"
+ "title": "1권 7유닛 대사 · 해설: The queen is in a quilt.",
+ "text": "The queen is in a quilt.",
+ "voice": "Kore",
+ "who": "narrator",
+ "book": 1
 }

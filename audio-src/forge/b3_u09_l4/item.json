@@ -35,18 +35,18 @@
    "warn": true
   }
  ],
- "approved": 2,
- "final": "final.mp3",
- "applied": "2026-10-08 12:50",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 9,
  "letter": null,
  "id": "b3_u09_l4",
  "sub": "line",
- "title": "3권 9유닛 대사 · 핌과 팜: Together! /nt/ /nt/ tent!",
- "text": "Together! /nt/ /nt/ tent!",
+ "title": "3권 9유닛 대사 · 핍: The camp is the best.",
+ "text": "The camp is the best.",
  "voice": "Laomedeia",
- "who": "twins",
+ "who": "pip",
  "book": 3
 }

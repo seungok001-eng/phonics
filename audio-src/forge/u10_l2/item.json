@@ -33,21 +33,54 @@
     "raw": "TRANSCRIPT=Here is the yogurt. | TYPE=sentence | IPA=ˈhɪɹ ɪz ðə ˈjoʊɡɚt | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Zigzag! Zigzag!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793698082.085709,
+   "sec": 1.63,
+   "check": {
+    "transcript": "zig zag zig zag",
+    "type": "sentence",
+    "ipa": "zɪɡ zæɡ zɪɡ zæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=zig zag zig zag | TYPE=sentence | IPA=zɪɡ zæɡ zɪɡ zæɡ | NOTE=ok"
+   },
+   "warn": true
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Zigzag! Zigzag!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793699392.8384964,
+   "sec": 1.67,
+   "check": {
+    "transcript": "Zigzag, zigzag.",
+    "type": "sentence",
+    "ipa": "ˈzɪɡˌzæɡ, ˈzɪɡˌzæɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Zigzag, zigzag. | TYPE=sentence | IPA=ˈzɪɡˌzæɡ, ˈzɪɡˌzæɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 4,
  "final": "final.mp3",
- "applied": "2026-10-07 16:32",
+ "applied": "2026-11-03 18:57",
  "text_edited": false,
  "error": "",
  "unit": 10,
  "letter": null,
  "id": "u10_l2",
  "sub": "line",
- "title": "1권 10유닛 대사 · 헤지: Here is the yogurt!",
- "text": "Here is the yogurt!",
+ "title": "1권 10유닛 대사 · 번: Zigzag! Zigzag!",
+ "text": "Zigzag! Zigzag!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "bun",
+ "book": 1
 }

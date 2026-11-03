@@ -33,21 +33,37 @@
     "raw": "TRANSCRIPT=The egg is a seed. | TYPE=sentence | IPA=ði ɛg ɪz ə siːd | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "The duck is on the frog!",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793697967.1692123,
+   "sec": 1.72,
+   "check": {
+    "transcript": "The duck is on the frog!",
+    "type": "sentence",
+    "ipa": "ðə dʌk ɪz ɒn ðə fɹɒɡ",
+    "note": "ok",
+    "raw": "TRANSCRIPT=The duck is on the frog! | TYPE=sentence | IPA=ðə dʌk ɪz ɒn ðə fɹɒɡ | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": 2,
+ "approved": 3,
  "final": "final.mp3",
- "applied": "2026-10-07 16:23",
+ "applied": "2026-11-03 18:54",
  "text_edited": false,
  "error": "",
  "unit": 2,
  "letter": null,
  "id": "u02_l4",
  "sub": "line",
- "title": "1권 2유닛 대사 · 헤지: The egg is a seed!",
- "text": "The egg is a seed!",
+ "title": "1권 2유닛 대사 · 핍: The duck is on the frog!",
+ "text": "The duck is on the frog!",
  "voice": "Puck",
- "who": "hedgie",
- "book": 1,
- "busy": 0
+ "who": "pip",
+ "book": 1
 }

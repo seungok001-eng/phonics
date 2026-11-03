@@ -12,17 +12,17 @@
    "warn": false
   }
  ],
- "approved": 1,
- "final": "final.mp3",
- "applied": "2026-10-08 00:33",
+ "approved": null,
+ "final": "",
+ "applied": "",
  "text_edited": false,
  "error": "",
  "unit": 6,
  "letter": null,
  "id": "b4_u06_l2",
  "sub": "line",
- "title": "4권 6유닛 대사 · 헤지: The train is wet!",
- "text": "The train is wet!",
+ "title": "4권 6유닛 대사 · 헤지: A jay! Play all day?",
+ "text": "A jay! Play all day?",
  "voice": "Puck",
  "who": "hedgie",
  "book": 4

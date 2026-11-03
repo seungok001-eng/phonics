@@ -84,21 +84,37 @@
     "raw": "TRANSCRIPT=seal | TYPE=word | IPA=sil | NOTE=ok"
    },
    "warn": true
+  },
+  {
+   "n": 6,
+   "file": "cand_6.wav",
+   "text": "Go to the turtle!",
+   "voice": "Adik M",
+   "how": "el",
+   "created": 1793698058.0368462,
+   "sec": 1.21,
+   "check": {
+    "transcript": "Go to the doodle.",
+    "type": "sentence",
+    "ipa": "goʊ tuː ðə duːdəl",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Go to the doodle. | TYPE=sentence | IPA=goʊ tuː ðə duːdəl | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": 5,
+ "approved": 6,
  "final": "final.mp3",
- "applied": "2026-10-08 12:31",
+ "applied": "2026-11-03 18:56",
  "text_edited": false,
  "error": "",
  "unit": 8,
  "letter": null,
  "id": "u08_l3",
  "sub": "line",
- "title": "1권 8유닛 대사 · 번: /s/ /s/ seal!",
- "text": "/s/ /s/ seal!",
+ "title": "1권 8유닛 대사 · 헤지: Go to the turtle!",
+ "text": "Go to the turtle!",
  "voice": "Leda",
- "who": "bun",
- "book": 1,
- "busy": 0
+ "who": "hedgie",
+ "book": 1
 }
