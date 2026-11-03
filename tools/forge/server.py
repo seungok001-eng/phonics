@@ -724,6 +724,23 @@ def phoneme_letters(text):
     return parts, out
 
 
+LETTERS_RE = re.compile(r'^(?:[A-Z][!?.,]*\s*){2,}$')   # "A! B! C!" 처럼 글자 이름만 있는 대사
+
+
+def letters_compose(text, tmp, pitch=1.0):
+    """글자 이름만 있는 대사("A! B! C!")는 승인된 글자 이름 녹음(name_<글자>.mp3)을 아이 음높이로 이어 붙인 후보도 만든다 — 아이 목소리 TTS 가 글자 이름을 다른 언어식으로 읽는 일이 있어서(11-03). 결과 wav 경로."""
+    import tempfile
+    def tmpf(ext):
+        fd, p = tempfile.mkstemp(suffix=ext); os.close(fd); tmp.append(p); return p
+    segs = []
+    for l in re.findall(r'[A-Z]', text):
+        src = os.path.join(presets.WEB, 'assets', 'audio', f'name_{l.lower()}.mp3')
+        if not os.path.exists(src): raise RuntimeError(f'글자 이름 녹음 name_{l.lower()} 이 없다')
+        w = tmpf('.wav'); audio.pitch_up(src, w, max(pitch, 1.12)); segs.append(w)
+        gap = tmpf('.wav'); audio.silence(gap, 0.22); segs.append(gap)
+    out = tmpf('.wav'); audio.concat(segs[:-1], out); return out
+
+
 def el_compose(text, voices, tmp, pitch=1.0):
     """낱소리 덩어리가 있는 대사: 말 조각 = 일레븐랩스(목소리가 둘이면 겹침, pitch 만큼 높임), 낱소리 = sound_<글자>.mp3 를 높여서. 결과 wav 경로."""
     import tempfile
@@ -820,6 +837,9 @@ def tts_loop():
                             fd, pw = tempfile.mkstemp(suffix='.wav'); os.close(fd); audio.pitch_up(src, pw, t['pitch']); tmp.append(pw); src = pw
                     with lock:
                         add_cand(s, src_path=src, text=t['text'], voice=' + '.join(n for n, _ in t['voices']) + (f" ↑{t['pitch']}" if t.get('pitch', 1.0) > 1.0 else ''), how='el')
+                    if LETTERS_RE.fullmatch(t['text'].strip()):   # 글자 이름만 있는 대사: 글자 이름 녹음을 이어 붙인 후보도 하나 더 (어느 쪽이든 승인)
+                        src2 = letters_compose(t['text'], tmp, t.get('pitch', 1.0))
+                        with lock: add_cand(s, src_path=src2, text=t['text'], voice='글자 이름 녹음 이어 붙임 ↑', how='el')
                         u = state['settings'].setdefault('el_usage', {'count': 0, 'chars': 0})
                         u['count'] = u.get('count', 0) + 1; u['chars'] = u.get('chars', 0) + len(t['text']) * len(t['voices']); save_settings()
                     log(f"{t['id']} 일레븐랩스 후보: \"{t['text']}\" ({' + '.join(n for n, _ in t['voices'])})")
