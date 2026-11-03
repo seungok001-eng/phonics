@@ -653,8 +653,8 @@
       "title_ko": "숲 공연",
       "pages": [
         {
-          "type": "story_recap",
-          "title": "The Forest Show"
+          "type": "story",
+          "title": "Story"
         },
         {
           "type": "review_test",
@@ -674,6 +674,65 @@
     }
   ],
   "story": {
+    "title": "The Forest Show",
+    "bgm": "bgm_b3_finale",
+    "v2": true,
+    "panels": [
+      {
+        "id": "scene_b3_u12_1",
+        "desc": "A stage between two trees with a leaf curtain; {PIP} wears a top hat; {TWINS} hold the curtain.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "The forest show!",
+            "audio": "b3_u12_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u12_2",
+        "desc": "{fish} in a bowl, {chimp} and {duck} each hold a blank white card; {BUN} and {HED} present them.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "both",
+            "text": "Fish! Chimp! Duck!",
+            "audio": "b3_u12_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u12_3",
+        "desc": "{GRUMBLE} holds two cards stuck together and tries to pull them apart; the audience giggles.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "They are stuck!",
+            "audio": "b3_u12_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b3_u12_4",
+        "desc": "{TWINS} pull the two cards apart together; {GRUMBLE} laughs out loud for the first time; everyone cheers.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "both",
+            "text": "Together! Hooray!",
+            "audio": "b3_u12_l4"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [],
+  "storybook": {
+    "pages": []
+  },
+  "story_v1": {
     "title": "The Forest Show",
     "bgm": "bgm_b3_finale",
     "panels": [
@@ -722,9 +781,5 @@
     "synopsis_ko": "마지막 문 너머 풀밭의 블록 무대에서 숲 공연이 열려요. 핍과 핌·팜이 짝꿍 노래를 부르고 그럼블이 북을 쳐요. 숲 친구들이 모두 손뼉을 쳐요. 저 멀리 성문이 빛나요.",
     "so_far_ko": "숲 파티에서 그럼블이 북을 쳤고, 숲 끝에서 단어가 바뀌는 성문을 봤어요.",
     "goal_ko": "짝꿍 노래를 부르고, 이야기를 되짚고, 수료증을 받아요."
-  },
-  "videos": [],
-  "storybook": {
-    "pages": []
   }
 }

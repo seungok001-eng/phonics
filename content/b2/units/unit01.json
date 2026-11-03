@@ -83,11 +83,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -145,198 +140,67 @@
   "story": {
     "title": "The Cat on the Mat",
     "bgm": "bgm_bright",
+    "v2": true,
     "panels": [
       {
         "id": "scene_b2_u01_1",
-        "desc": "The sandy bank of the Word Pond. An orange tabby cat sits on a round green doormat at the water's edge, looking across the pond. Three big round wooden beads lie far apart on the sand, each with one letter painted on it: c, a and t — these three letters are the ONLY text allowed in the picture. Pip has hopped onto the beads in the wrong order, t-a-c, and stands on the last one looking puzzled. Beads the bead caterpillar watches from a lily pad; Bun points at the cat; Hedgie scratches his head. Hidden in the picture: the cat, the mat, a small grey rat wearing a tiny red woolly hat peeking out of the grass. Grumble does NOT appear.",
+        "desc": "{cat} sleeps on a striped mat by the pond. {PIP}, {BUN} and {HED} tiptoe past with a paper fan.",
         "hidden": [
-          "cat",
           "mat",
-          "hat",
-          "rat"
-        ],
-        "lines": [
-          {
-            "who": "bun",
-            "text": "The cat is on the mat.",
-            "audio": "b2_u01_l1",
-            "ko": "고양이가 매트 위에 있어."
-          },
-          {
-            "who": "pip",
-            "text": "Tac! Tac?",
-            "audio": "b2_u01_l2",
-            "ko": "탁! 탁?"
-          },
-          {
-            "who": "beads",
-            "text": "/k/ /æ/ /t/ cat!",
-            "audio": "blend_cat__beads",
-            "pop": "cat",
-            "ko": "c-a-t 고양이!"
-          }
-        ],
-        "video": "vid_b2_u01_1",
-        "ko": "고양이가 매트 위에 앉아 있어요. 구슬 c, a, t 가 따로따로! 핍이 거꾸로 밟고 \"탁!\" 해요.",
-        "ask": [
-          {
-            "en": "What is on the mat?",
-            "ko": "매트 위에 뭐가 있어?"
-          },
-          {
-            "en": "What is Pip doing?",
-            "ko": "핍은 뭘 하고 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A cat sits on a mat. Pip hops the wrong way.",
-          "ko": "고양이가 매트 위에 앉아 있어요. 핍이 구슬을 거꾸로 밟아요.",
-          "audio": "scene_b2_u01_1_n"
-        }
-      },
-      {
-        "id": "scene_b2_u01_2",
-        "desc": "Beads has threaded the three beads onto its string in the right order, and with a click-clack they have sunk into the shallow water and become one flat round stepping stone just under the surface. The cat hops onto the stone proudly; Bun and Hedgie cheer with arms up; Pip flutters above with a surprised face. Hidden in the picture: the rat in its red hat sitting on the mat, a brown wooden baseball bat lying on the sand. Grumble does NOT appear.",
-        "hidden": [
-          "rat",
-          "hat",
-          "bat",
-          "mat"
-        ],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Click-clack! A stone!",
-            "audio": "b2_u01_l3",
-            "ko": "딸깍딸깍! 돌이다!"
-          },
-          {
-            "who": "hedgie",
-            "text": "The cat can go!",
-            "audio": "b2_u01_l4",
-            "ko": "고양이가 건너가!"
-          },
-          {
-            "who": "bun",
-            "text": "A rat in a hat!",
-            "audio": "b2_u01_l5",
-            "ko": "모자 쓴 쥐!"
-          }
-        ],
-        "video": "vid_b2_u01_2",
-        "ko": "비즈가 구슬을 꿰자 딸깍! 징검돌이 솟았어요. 고양이가 올라타요. 모자 쓴 쥐도 있어요.",
-        "ask": [
-          {
-            "en": "What is the cat on?",
-            "ko": "고양이는 어디에 올라탔어?"
-          },
-          {
-            "en": "Who wears a hat?",
-            "ko": "누가 모자를 썼어?"
-          }
-        ],
-        "narr": {
-          "text": "Beads threads the beads. The first stone pops up!",
-          "ko": "비즈가 구슬을 꿰어요. 첫 징검돌이 솟아요!",
-          "audio": "scene_b2_u01_2_n"
-        }
-      },
-      {
-        "id": "scene_b2_u01_3",
-        "desc": "Further along the bank a small blue delivery van is parked with a light-blue electric fan strapped on its roof; a black frying pan hangs from its mirror and a shiny tin can rolls along the sand. Beads holds up a new string of beads; Hedgie points at the can and the pan; Pip hops beside the can. In the tall reeds behind the van, the top of Grumble's striped nightcap sticks up with the glow of his lantern. Hidden in the picture: the can, the pan, the van, the fan.",
-        "hidden": [
-          "can",
-          "pan",
-          "van",
           "fan"
         ],
         "lines": [
           {
+            "who": "narrator",
+            "text": "The cat is on the mat.",
+            "audio": "b2_u01_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u01_2",
+        "desc": "{rat} in a tiny hat creeps up and sits down on the sleeping cat's back; {PIP} covers its beak.",
+        "hidden": [
+          "hat"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "A rat on the cat!",
+            "audio": "b2_u01_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u01_3",
+        "desc": "{cat} opens one eye; {rat} freezes; {BUN} and {HED} hold their breath. A toy van and a pan sit by the pond.",
+        "hidden": [
+          "van",
+          "pan"
+        ],
+        "lines": [
+          {
             "who": "hedgie",
-            "text": "A can and a pan!",
-            "audio": "b2_u01_l6",
-            "ko": "깡통하고 프라이팬!"
-          },
-          {
-            "who": "beads",
-            "text": "/k/ /æ/ /n/ can!",
-            "audio": "blend_can__beads",
-            "pop": "can",
-            "ko": "c-a-n 깡통!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh!",
-            "audio": "b2_u01_l7",
-            "ko": "쉿!"
+            "text": "No, rat, no!",
+            "audio": "b2_u01_l3"
           }
-        ],
-        "ko": "밴 지붕에 선풍기, 거울에 프라이팬, 굴러가는 깡통! 비즈가 c-a-n 을 꿰요. 갈대 속에서 \"쉿!\"",
-        "ask": [
-          {
-            "en": "What is on the van?",
-            "ko": "밴 위에 뭐가 있어?"
-          },
-          {
-            "en": "Who says Shh?",
-            "ko": "누가 \"쉿!\" 했어?"
-          }
-        ],
-        "narr": {
-          "text": "A van with a fan! Someone hides in the reeds.",
-          "ko": "선풍기를 실은 밴이에요! 갈대 속에 누가 숨었어요.",
-          "audio": "scene_b2_u01_3_n"
-        }
+        ]
       },
       {
         "id": "scene_b2_u01_4",
-        "desc": "Two short rows of round stepping stones now lead a little way out into the pond from the bank. Bun and Hedgie stand on the first stones holding paws; Pip rides on Bun's head; Beads rides on Hedgie's flower; the cat sits on the far stone with the rat. In the reeds at the right, Grumble's frowning face with his dark eye mask peeks out, lantern glowing softly, one paw at his mouth. Hidden in the picture: the fan on the van roof, the green mat on the bank, the baseball bat.",
+        "desc": "{cat} yawns and goes back to sleep; {rat} sleeps too, on the cat, on the mat. {PIP}, {BUN} and {HED} giggle. A bat hangs from the willow.",
         "hidden": [
-          "fan",
-          "mat",
           "bat"
         ],
         "lines": [
           {
-            "who": "both",
-            "text": "We can go on!",
-            "audio": "b2_u01_l8",
-            "ko": "계속 갈 수 있어!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! My pond!",
-            "audio": "b2_u01_l9",
-            "ko": "쉿! 내 연못이야!"
-          },
-          {
             "who": "pip",
-            "text": "Tac!",
-            "audio": "b2_u01_l10",
-            "ko": "탁!"
+            "text": "The rat is on the cat on the mat!",
+            "audio": "b2_u01_l4"
           }
-        ],
-        "ko": "징검돌이 두 줄 생겼어요. 친구들이 첫 돌에 섰어요. 그럼블이 갈대에서 \"내 연못!\" 핍은 또 \"탁!\"",
-        "ask": [
-          {
-            "en": "How many rows of stones?",
-            "ko": "돌이 몇 줄이야?"
-          },
-          {
-            "en": "Where is Grumble?",
-            "ko": "그럼블은 어디 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Two rows of stones! Grumble peeks from the reeds.",
-          "ko": "징검돌이 두 줄! 그럼블이 갈대에서 내다봐요.",
-          "audio": "scene_b2_u01_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "고양이가 매트 위에서 연못을 건너고 싶어 해요. 구슬 c·a·t 가 따로 놓여 있어요. 핍은 거꾸로 밟고 \"탁!\" 비즈가 구슬을 꿰어 \"캣!\" 하자 징검돌이 솟았어요. 갈대 속 그럼블이 \"쉿! 내 연못!\"",
-    "so_far_ko": "친구들이 단어 연못에 닿아 비즈를 만났어요. 돌이 없어서 건널 수 없었어요.",
-    "goal_ko": "소리를 이어 -at·-an 단어를 읽고 징검돌 두 줄을 만들어요."
+    ]
   },
   "videos": [
     {
@@ -674,5 +538,201 @@
         }
       }
     ]
+  },
+  "story_v1": {
+    "title": "The Cat on the Mat",
+    "bgm": "bgm_bright",
+    "panels": [
+      {
+        "id": "scene_b2_u01_1",
+        "desc": "The sandy bank of the Word Pond. An orange tabby cat sits on a round green doormat at the water's edge, looking across the pond. Three big round wooden beads lie far apart on the sand, each with one letter painted on it: c, a and t — these three letters are the ONLY text allowed in the picture. Pip has hopped onto the beads in the wrong order, t-a-c, and stands on the last one looking puzzled. Beads the bead caterpillar watches from a lily pad; Bun points at the cat; Hedgie scratches his head. Hidden in the picture: the cat, the mat, a small grey rat wearing a tiny red woolly hat peeking out of the grass. Grumble does NOT appear.",
+        "hidden": [
+          "cat",
+          "mat",
+          "hat",
+          "rat"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The cat is on the mat.",
+            "audio": "b2_u01_l1",
+            "ko": "고양이가 매트 위에 있어."
+          },
+          {
+            "who": "pip",
+            "text": "Tac! Tac?",
+            "audio": "b2_u01_l2",
+            "ko": "탁! 탁?"
+          },
+          {
+            "who": "beads",
+            "text": "/k/ /æ/ /t/ cat!",
+            "audio": "blend_cat__beads",
+            "pop": "cat",
+            "ko": "c-a-t 고양이!"
+          }
+        ],
+        "video": "vid_b2_u01_1",
+        "ko": "고양이가 매트 위에 앉아 있어요. 구슬 c, a, t 가 따로따로! 핍이 거꾸로 밟고 \"탁!\" 해요.",
+        "ask": [
+          {
+            "en": "What is on the mat?",
+            "ko": "매트 위에 뭐가 있어?"
+          },
+          {
+            "en": "What is Pip doing?",
+            "ko": "핍은 뭘 하고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A cat sits on a mat. Pip hops the wrong way.",
+          "ko": "고양이가 매트 위에 앉아 있어요. 핍이 구슬을 거꾸로 밟아요.",
+          "audio": "scene_b2_u01_1_n"
+        }
+      },
+      {
+        "id": "scene_b2_u01_2",
+        "desc": "Beads has threaded the three beads onto its string in the right order, and with a click-clack they have sunk into the shallow water and become one flat round stepping stone just under the surface. The cat hops onto the stone proudly; Bun and Hedgie cheer with arms up; Pip flutters above with a surprised face. Hidden in the picture: the rat in its red hat sitting on the mat, a brown wooden baseball bat lying on the sand. Grumble does NOT appear.",
+        "hidden": [
+          "rat",
+          "hat",
+          "bat",
+          "mat"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Click-clack! A stone!",
+            "audio": "b2_u01_l3",
+            "ko": "딸깍딸깍! 돌이다!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The cat can go!",
+            "audio": "b2_u01_l4",
+            "ko": "고양이가 건너가!"
+          },
+          {
+            "who": "bun",
+            "text": "A rat in a hat!",
+            "audio": "b2_u01_l5",
+            "ko": "모자 쓴 쥐!"
+          }
+        ],
+        "video": "vid_b2_u01_2",
+        "ko": "비즈가 구슬을 꿰자 딸깍! 징검돌이 솟았어요. 고양이가 올라타요. 모자 쓴 쥐도 있어요.",
+        "ask": [
+          {
+            "en": "What is the cat on?",
+            "ko": "고양이는 어디에 올라탔어?"
+          },
+          {
+            "en": "Who wears a hat?",
+            "ko": "누가 모자를 썼어?"
+          }
+        ],
+        "narr": {
+          "text": "Beads threads the beads. The first stone pops up!",
+          "ko": "비즈가 구슬을 꿰어요. 첫 징검돌이 솟아요!",
+          "audio": "scene_b2_u01_2_n"
+        }
+      },
+      {
+        "id": "scene_b2_u01_3",
+        "desc": "Further along the bank a small blue delivery van is parked with a light-blue electric fan strapped on its roof; a black frying pan hangs from its mirror and a shiny tin can rolls along the sand. Beads holds up a new string of beads; Hedgie points at the can and the pan; Pip hops beside the can. In the tall reeds behind the van, the top of Grumble's striped nightcap sticks up with the glow of his lantern. Hidden in the picture: the can, the pan, the van, the fan.",
+        "hidden": [
+          "can",
+          "pan",
+          "van",
+          "fan"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A can and a pan!",
+            "audio": "b2_u01_l6",
+            "ko": "깡통하고 프라이팬!"
+          },
+          {
+            "who": "beads",
+            "text": "/k/ /æ/ /n/ can!",
+            "audio": "blend_can__beads",
+            "pop": "can",
+            "ko": "c-a-n 깡통!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh!",
+            "audio": "b2_u01_l7",
+            "ko": "쉿!"
+          }
+        ],
+        "ko": "밴 지붕에 선풍기, 거울에 프라이팬, 굴러가는 깡통! 비즈가 c-a-n 을 꿰요. 갈대 속에서 \"쉿!\"",
+        "ask": [
+          {
+            "en": "What is on the van?",
+            "ko": "밴 위에 뭐가 있어?"
+          },
+          {
+            "en": "Who says Shh?",
+            "ko": "누가 \"쉿!\" 했어?"
+          }
+        ],
+        "narr": {
+          "text": "A van with a fan! Someone hides in the reeds.",
+          "ko": "선풍기를 실은 밴이에요! 갈대 속에 누가 숨었어요.",
+          "audio": "scene_b2_u01_3_n"
+        }
+      },
+      {
+        "id": "scene_b2_u01_4",
+        "desc": "Two short rows of round stepping stones now lead a little way out into the pond from the bank. Bun and Hedgie stand on the first stones holding paws; Pip rides on Bun's head; Beads rides on Hedgie's flower; the cat sits on the far stone with the rat. In the reeds at the right, Grumble's frowning face with his dark eye mask peeks out, lantern glowing softly, one paw at his mouth. Hidden in the picture: the fan on the van roof, the green mat on the bank, the baseball bat.",
+        "hidden": [
+          "fan",
+          "mat",
+          "bat"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "We can go on!",
+            "audio": "b2_u01_l8",
+            "ko": "계속 갈 수 있어!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! My pond!",
+            "audio": "b2_u01_l9",
+            "ko": "쉿! 내 연못이야!"
+          },
+          {
+            "who": "pip",
+            "text": "Tac!",
+            "audio": "b2_u01_l10",
+            "ko": "탁!"
+          }
+        ],
+        "ko": "징검돌이 두 줄 생겼어요. 친구들이 첫 돌에 섰어요. 그럼블이 갈대에서 \"내 연못!\" 핍은 또 \"탁!\"",
+        "ask": [
+          {
+            "en": "How many rows of stones?",
+            "ko": "돌이 몇 줄이야?"
+          },
+          {
+            "en": "Where is Grumble?",
+            "ko": "그럼블은 어디 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Two rows of stones! Grumble peeks from the reeds.",
+          "ko": "징검돌이 두 줄! 그럼블이 갈대에서 내다봐요.",
+          "audio": "scene_b2_u01_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "고양이가 매트 위에서 연못을 건너고 싶어 해요. 구슬 c·a·t 가 따로 놓여 있어요. 핍은 거꾸로 밟고 \"탁!\" 비즈가 구슬을 꿰어 \"캣!\" 하자 징검돌이 솟았어요. 갈대 속 그럼블이 \"쉿! 내 연못!\"",
+    "so_far_ko": "친구들이 단어 연못에 닿아 비즈를 만났어요. 돌이 없어서 건널 수 없었어요.",
+    "goal_ko": "소리를 이어 -at·-an 단어를 읽고 징검돌 두 줄을 만들어요."
   }
 }

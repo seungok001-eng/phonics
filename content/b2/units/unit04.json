@@ -80,11 +80,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -141,193 +136,65 @@
   "story": {
     "title": "A Bed for Grumble",
     "bgm": "bgm_b2_night",
+    "v2": true,
     "panels": [
       {
         "id": "scene_b2_u04_1",
-        "desc": "Dusk at the Word Pond, the sky orange and purple. Grumble has tried to sneak across the stepping stones with his lantern, slipped, and now sits on a stone holding his hind leg, which is swollen big and wrapped in a hastily tied red cloth, his face scrunched in pain, lantern tipped beside him still glowing. Bun and Hedgie hurry over the stones toward him; Pip flutters above saying a word backwards with a worried face; Beads peeks from a lily pad. Hidden in the picture: Grumble's big leg, the red cloth.",
-        "hidden": [
-          "leg",
-          "red"
-        ],
+        "desc": "{GRUMBLE} yawns on the pond bank with a pillow; there is no bed. {PIP}, {BUN} and {HED} look worried.",
+        "hidden": [],
         "lines": [
           {
             "who": "narrator",
-            "text": "Grumble has a big leg!",
-            "audio": "b2_u04_l1",
-            "ko": "그럼블 다리가 퉁퉁 부었어요!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... Ouch! My leg!",
-            "audio": "b2_u04_l2",
-            "ko": "쉿… 아야! 내 다리!"
-          },
-          {
-            "who": "pip",
-            "text": "Deb! Deb?",
-            "audio": "b2_u04_l3",
-            "ko": "뎁! 뎁?"
+            "text": "Grumble has no bed.",
+            "audio": "b2_u04_l1"
           }
-        ],
-        "video": "vid_b2_u04_1",
-        "ko": "해질녘, 그럼블이 돌에서 미끄러졌어요. 다리가 퉁퉁 부었어요. 핍은 \"뎁!\"",
-        "ask": [
-          {
-            "en": "What happened to Grumble?",
-            "ko": "그럼블에게 무슨 일이 생겼어?"
-          },
-          {
-            "en": "Is it morning or evening?",
-            "ko": "지금은 아침이야, 저녁이야?"
-          }
-        ],
-        "narr": {
-          "text": "Grumble slips on a stone. His leg is big!",
-          "ko": "그럼블이 돌에서 미끄러졌어요. 다리가 퉁퉁 부었어요!",
-          "audio": "scene_b2_u04_1_n"
-        }
+        ]
       },
       {
         "id": "scene_b2_u04_2",
-        "desc": "On the bank, Bun and Hedgie have built a little bed out of soft reeds with a red blanket and a white pillow. Beads threads b-e-d and a row of new stepping stones rises so they can carry Grumble to the bank; Bun and Hedgie tuck Grumble into the bed, his bandaged leg propped up on a cushion, his nightcap askew, his lantern on a stump beside the bed glowing warmly. Pip pats his paw. Hidden in the picture: the bed, the red blanket.",
+        "desc": "{BUN} and {HED} build a little bed from a red crate and a peg-board; {PIP} brings a leaf blanket.",
         "hidden": [
           "bed",
-          "red"
-        ],
-        "lines": [
-          {
-            "who": "beads",
-            "text": "/b/ /e/ /d/ bed!",
-            "audio": "blend_bed__beads",
-            "pop": "bed",
-            "ko": "b-e-d 침대!"
-          },
-          {
-            "who": "bun",
-            "text": "A little bed! A red bed!",
-            "audio": "b2_u04_l4",
-            "ko": "작은 침대! 빨간 침대!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Grumble is in the bed.",
-            "audio": "b2_u04_l5",
-            "ko": "그럼블이 침대에 누웠어요."
-          }
-        ],
-        "ko": "갈대로 빨간 침대를 만들었어요. 비즈가 b-e-d 를 꿰고, 그럼블을 침대에 눕혀요.",
-        "ask": [
-          {
-            "en": "What color is the bed?",
-            "ko": "침대는 무슨 색이야?"
-          },
-          {
-            "en": "Who is in the bed?",
-            "ko": "침대에 누가 누웠어?"
-          }
-        ],
-        "narr": {
-          "text": "The friends make a bed. Grumble gets in.",
-          "ko": "친구들이 침대를 만들어요. 그럼블을 눕혀요.",
-          "audio": "scene_b2_u04_2_n"
-        }
-      },
-      {
-        "id": "scene_b2_u04_3",
-        "desc": "Night by the bed, lit by Grumble's lantern. Hedgie feeds Grumble soup with a spoon from a bowl; a small brown puppy sits up on its back legs beside the bed, paws together, begging for a bite; Grumble's wet striped nightcap hangs on a washing line between two reeds, held by a wooden clothes peg. Beads threads l-e-g on the lantern stump; Bun yawns. Grumble's grumpy face has softened into a shy smile. Hidden in the picture: the puppy eating from a bowl after being fed, the begging puppy, the peg.",
-        "hidden": [
-          "fed",
-          "beg",
+          "red",
           "peg"
         ],
         "lines": [
           {
-            "who": "narrator",
-            "text": "Hedgie fed Grumble.",
-            "audio": "b2_u04_l6",
-            "ko": "헤지가 그럼블에게 먹여 줬어요."
-          },
-          {
-            "who": "beads",
-            "text": "/l/ /e/ /g/ leg!",
-            "audio": "blend_leg__beads",
-            "pop": "leg",
-            "ko": "l-e-g 다리!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... Thank you.",
-            "audio": "b2_u04_l7",
-            "ko": "쉿… 고마워."
+            "who": "bun",
+            "text": "A big red bed!",
+            "audio": "b2_u04_l2"
           }
-        ],
-        "video": "vid_b2_u04_2",
-        "ko": "헤지가 수프를 먹여 줘요. 강아지가 앞발을 들고 졸라요. 빨래집게에 그럼블 모자가 걸려 있어요.",
-        "ask": [
-          {
-            "en": "What does Hedgie do?",
-            "ko": "헤지가 뭘 해?"
-          },
-          {
-            "en": "What is the puppy doing?",
-            "ko": "강아지는 뭘 해?"
-          }
-        ],
-        "narr": {
-          "text": "Night. Hedgie feeds Grumble. A puppy begs.",
-          "ko": "밤이에요. 헤지가 그럼블에게 먹여 줘요. 강아지가 졸라요.",
-          "audio": "scene_b2_u04_3_n"
-        }
+        ]
       },
       {
-        "id": "scene_b2_u04_4",
-        "desc": "Morning. Grumble stands on the bank next to the little red bed, his leg thin again and only a small bandage left, holding the bed's pillow to his chest and looking at the friends hopefully; Bun and Hedgie laugh; the puppy still begs beside the bed; the peg and the dry nightcap hang on the line; the stepping stones sparkle in the sun. Pip hops on the bed's end. Hidden in the picture: the bed, the peg, the begging puppy.",
+        "id": "scene_b2_u04_3",
+        "desc": "{GRUMBLE} lies down; one leg hangs off the end of the too-small bed; {HED} looks at the leg.",
         "hidden": [
-          "bed",
-          "peg",
-          "beg"
+          "leg"
         ],
         "lines": [
           {
-            "who": "bun",
-            "text": "The big leg is little!",
-            "audio": "b2_u04_l8",
-            "ko": "퉁퉁 부은 다리가 작아졌어!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... It is my bed?",
-            "audio": "b2_u04_l9",
-            "ko": "쉿… 이거 내 침대야?"
-          },
-          {
             "who": "hedgie",
-            "text": "Yes! A bed for Grumble.",
-            "audio": "b2_u04_l10",
-            "ko": "응! 그럼블의 침대야."
+            "text": "A leg! The bed is little.",
+            "audio": "b2_u04_l3"
           }
+        ]
+      },
+      {
+        "id": "scene_b2_u04_4",
+        "desc": "{GRUMBLE} sleeps happily anyway, snoring, with his leg in the pond; a frog sits on his foot. {PIP}, {BUN} and {HED} tiptoe away.",
+        "hidden": [
+          "fed"
         ],
-        "ko": "아침이에요. 다리가 다 나았어요! 그럼블이 베개를 안고 \"내 침대야?\" 해요.",
-        "ask": [
+        "lines": [
           {
-            "en": "Is the leg big now?",
-            "ko": "다리가 아직 부었어?"
-          },
-          {
-            "en": "What does Grumble hug?",
-            "ko": "그럼블이 뭘 안고 있어?"
+            "who": "pip",
+            "text": "Shh! Grumble is in bed.",
+            "audio": "b2_u04_l4"
           }
-        ],
-        "narr": {
-          "text": "Morning! The leg is little. Grumble hugs the pillow.",
-          "ko": "아침이에요! 다리가 다 나았어요. 그럼블이 베개를 안아요.",
-          "audio": "scene_b2_u04_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "그럼블이 몰래 돌을 건너다 미끄러져 다리를 다쳤어요. 친구들이 빨간 침대를 만들어 눕히고 수프를 먹여 줬어요. 아침에 다리가 나은 그럼블이 \"이거 내 침대야?\" 하고 물어요.",
-    "so_far_ko": "암탉 열 마리를 건너게 했어요. 핍이 \"넷\"을 바로 말했어요.",
-    "goal_ko": "다친 그럼블을 돌보며 -ed·-eg 단어를 읽어요."
+    ]
   },
   "videos": [
     {
@@ -662,5 +529,196 @@
         }
       }
     ]
+  },
+  "story_v1": {
+    "title": "A Bed for Grumble",
+    "bgm": "bgm_b2_night",
+    "panels": [
+      {
+        "id": "scene_b2_u04_1",
+        "desc": "Dusk at the Word Pond, the sky orange and purple. Grumble has tried to sneak across the stepping stones with his lantern, slipped, and now sits on a stone holding his hind leg, which is swollen big and wrapped in a hastily tied red cloth, his face scrunched in pain, lantern tipped beside him still glowing. Bun and Hedgie hurry over the stones toward him; Pip flutters above saying a word backwards with a worried face; Beads peeks from a lily pad. Hidden in the picture: Grumble's big leg, the red cloth.",
+        "hidden": [
+          "leg",
+          "red"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Grumble has a big leg!",
+            "audio": "b2_u04_l1",
+            "ko": "그럼블 다리가 퉁퉁 부었어요!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Ouch! My leg!",
+            "audio": "b2_u04_l2",
+            "ko": "쉿… 아야! 내 다리!"
+          },
+          {
+            "who": "pip",
+            "text": "Deb! Deb?",
+            "audio": "b2_u04_l3",
+            "ko": "뎁! 뎁?"
+          }
+        ],
+        "video": "vid_b2_u04_1",
+        "ko": "해질녘, 그럼블이 돌에서 미끄러졌어요. 다리가 퉁퉁 부었어요. 핍은 \"뎁!\"",
+        "ask": [
+          {
+            "en": "What happened to Grumble?",
+            "ko": "그럼블에게 무슨 일이 생겼어?"
+          },
+          {
+            "en": "Is it morning or evening?",
+            "ko": "지금은 아침이야, 저녁이야?"
+          }
+        ],
+        "narr": {
+          "text": "Grumble slips on a stone. His leg is big!",
+          "ko": "그럼블이 돌에서 미끄러졌어요. 다리가 퉁퉁 부었어요!",
+          "audio": "scene_b2_u04_1_n"
+        }
+      },
+      {
+        "id": "scene_b2_u04_2",
+        "desc": "On the bank, Bun and Hedgie have built a little bed out of soft reeds with a red blanket and a white pillow. Beads threads b-e-d and a row of new stepping stones rises so they can carry Grumble to the bank; Bun and Hedgie tuck Grumble into the bed, his bandaged leg propped up on a cushion, his nightcap askew, his lantern on a stump beside the bed glowing warmly. Pip pats his paw. Hidden in the picture: the bed, the red blanket.",
+        "hidden": [
+          "bed",
+          "red"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/b/ /e/ /d/ bed!",
+            "audio": "blend_bed__beads",
+            "pop": "bed",
+            "ko": "b-e-d 침대!"
+          },
+          {
+            "who": "bun",
+            "text": "A little bed! A red bed!",
+            "audio": "b2_u04_l4",
+            "ko": "작은 침대! 빨간 침대!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Grumble is in the bed.",
+            "audio": "b2_u04_l5",
+            "ko": "그럼블이 침대에 누웠어요."
+          }
+        ],
+        "ko": "갈대로 빨간 침대를 만들었어요. 비즈가 b-e-d 를 꿰고, 그럼블을 침대에 눕혀요.",
+        "ask": [
+          {
+            "en": "What color is the bed?",
+            "ko": "침대는 무슨 색이야?"
+          },
+          {
+            "en": "Who is in the bed?",
+            "ko": "침대에 누가 누웠어?"
+          }
+        ],
+        "narr": {
+          "text": "The friends make a bed. Grumble gets in.",
+          "ko": "친구들이 침대를 만들어요. 그럼블을 눕혀요.",
+          "audio": "scene_b2_u04_2_n"
+        }
+      },
+      {
+        "id": "scene_b2_u04_3",
+        "desc": "Night by the bed, lit by Grumble's lantern. Hedgie feeds Grumble soup with a spoon from a bowl; a small brown puppy sits up on its back legs beside the bed, paws together, begging for a bite; Grumble's wet striped nightcap hangs on a washing line between two reeds, held by a wooden clothes peg. Beads threads l-e-g on the lantern stump; Bun yawns. Grumble's grumpy face has softened into a shy smile. Hidden in the picture: the puppy eating from a bowl after being fed, the begging puppy, the peg.",
+        "hidden": [
+          "fed",
+          "beg",
+          "peg"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Hedgie fed Grumble.",
+            "audio": "b2_u04_l6",
+            "ko": "헤지가 그럼블에게 먹여 줬어요."
+          },
+          {
+            "who": "beads",
+            "text": "/l/ /e/ /g/ leg!",
+            "audio": "blend_leg__beads",
+            "pop": "leg",
+            "ko": "l-e-g 다리!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Thank you.",
+            "audio": "b2_u04_l7",
+            "ko": "쉿… 고마워."
+          }
+        ],
+        "video": "vid_b2_u04_2",
+        "ko": "헤지가 수프를 먹여 줘요. 강아지가 앞발을 들고 졸라요. 빨래집게에 그럼블 모자가 걸려 있어요.",
+        "ask": [
+          {
+            "en": "What does Hedgie do?",
+            "ko": "헤지가 뭘 해?"
+          },
+          {
+            "en": "What is the puppy doing?",
+            "ko": "강아지는 뭘 해?"
+          }
+        ],
+        "narr": {
+          "text": "Night. Hedgie feeds Grumble. A puppy begs.",
+          "ko": "밤이에요. 헤지가 그럼블에게 먹여 줘요. 강아지가 졸라요.",
+          "audio": "scene_b2_u04_3_n"
+        }
+      },
+      {
+        "id": "scene_b2_u04_4",
+        "desc": "Morning. Grumble stands on the bank next to the little red bed, his leg thin again and only a small bandage left, holding the bed's pillow to his chest and looking at the friends hopefully; Bun and Hedgie laugh; the puppy still begs beside the bed; the peg and the dry nightcap hang on the line; the stepping stones sparkle in the sun. Pip hops on the bed's end. Hidden in the picture: the bed, the peg, the begging puppy.",
+        "hidden": [
+          "bed",
+          "peg",
+          "beg"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The big leg is little!",
+            "audio": "b2_u04_l8",
+            "ko": "퉁퉁 부은 다리가 작아졌어!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... It is my bed?",
+            "audio": "b2_u04_l9",
+            "ko": "쉿… 이거 내 침대야?"
+          },
+          {
+            "who": "hedgie",
+            "text": "Yes! A bed for Grumble.",
+            "audio": "b2_u04_l10",
+            "ko": "응! 그럼블의 침대야."
+          }
+        ],
+        "ko": "아침이에요. 다리가 다 나았어요! 그럼블이 베개를 안고 \"내 침대야?\" 해요.",
+        "ask": [
+          {
+            "en": "Is the leg big now?",
+            "ko": "다리가 아직 부었어?"
+          },
+          {
+            "en": "What does Grumble hug?",
+            "ko": "그럼블이 뭘 안고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Morning! The leg is little. Grumble hugs the pillow.",
+          "ko": "아침이에요! 다리가 다 나았어요. 그럼블이 베개를 안아요.",
+          "audio": "scene_b2_u04_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "그럼블이 몰래 돌을 건너다 미끄러져 다리를 다쳤어요. 친구들이 빨간 침대를 만들어 눕히고 수프를 먹여 줬어요. 아침에 다리가 나은 그럼블이 \"이거 내 침대야?\" 하고 물어요.",
+    "so_far_ko": "암탉 열 마리를 건너게 했어요. 핍이 \"넷\"을 바로 말했어요.",
+    "goal_ko": "다친 그럼블을 돌보며 -ed·-eg 단어를 읽어요."
   }
 }

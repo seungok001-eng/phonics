@@ -97,11 +97,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -159,195 +154,69 @@
   "story": {
     "title": "A Cute Mule",
     "bgm": "bgm_b4_silly",
+    "v2": true,
     "panels": [
       {
         "id": "scene_b4_u04_1",
-        "desc": "A castle bathroom with blue tiles. A small cute brown bear cub sits in a big white bathtub full of bubbles, splashing happily; bubbly water spills over the edge and floods the floor. The next door is on the far side of the tub, blocked by it. On the wall above the tub hangs a small wooden sign carved with three letters t, u, b — these three letters are the ONLY text allowed in the picture. A red toy cube block floats in the bubbles. Bun, Hedgie and Pip stand in the puddle; Pip reads the sign in broken pieces; Fairy E rides on a big soap bubble. Hidden in the picture: the cute bear cub, the red toy cube. Grumble does NOT appear.",
+        "desc": "{mule} stands in the courtyard looking sad, with a huge load of cubes on its back; {PIP}, {BUN} and {HED} look.",
         "hidden": [
-          "cute",
-          "cube"
+          "mule",
+          "cube",
+          "huge"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "A cub in a tub!",
-            "audio": "b4_u04_l1",
-            "ko": "욕조에 아기 곰이 있어!"
-          },
-          {
-            "who": "bun",
-            "text": "Splash! Oh no!",
-            "audio": "b4_u04_l2",
-            "ko": "첨벙! 저런!"
-          },
-          {
-            "who": "pip",
-            "text": "Tub-e? Tub-e!",
-            "audio": "b4_u04_l3",
-            "ko": "텁-이? 텁-이!"
+            "who": "narrator",
+            "text": "The mule has a huge load.",
+            "audio": "b4_u04_l1"
           }
-        ],
-        "ko": "성 욕실에서 아기 곰이 거품 목욕을 해요. 물이 넘쳐 바닥이 물바다예요. 욕조가 다음 문을 막고 있어요. 핍은 \"텁-이!\"",
-        "ask": [
-          {
-            "en": "Who is in the tub?",
-            "ko": "욕조에 누가 있어?"
-          },
-          {
-            "en": "What is on the floor?",
-            "ko": "바닥에 뭐가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A bear cub splashes in a tub. Water is everywhere!",
-          "ko": "아기 곰이 욕조에서 첨벙첨벙. 물이 사방에 넘쳐요!",
-          "audio": "scene_b4_u04_1_n"
-        }
+        ]
       },
       {
         "id": "scene_b4_u04_2",
-        "desc": "Fairy E taps the end of the wooden sign on the wall with her star wand: a sparkling letter e appears, so it reads t u b e — these four letters are the ONLY text allowed in the picture — and the bathtub below stretches and twists into a long bendy green tube, like a giant water slide, that curves through the wall to the next room. The bubbly water drains away into it with a whoosh. The bear cub slides in first, laughing, hugging the red toy cube; Bun jumps in after it with her cape flying; Hedgie and Pip watch, amazed. Hidden in the picture: the green tube, the red cube, the cute cub. Grumble does NOT appear. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
+        "desc": "{BUN} plays a flute; {mule} starts to tap its hoof; the cubes bounce; a tube rolls off.",
         "hidden": [
-          "tube",
-          "cube",
-          "cute"
+          "flute",
+          "tune",
+          "tube"
         ],
         "lines": [
           {
-            "who": "beads",
-            "text": "/t/ /uː/ /b/ tube!",
-            "audio": "blend_tube__beads",
-            "pop": "tube",
-            "ko": "t-u-b-e 튜브!"
-          },
-          {
-            "who": "narrator",
-            "text": "The tub is a tube!",
-            "audio": "b4_u04_l4",
-            "ko": "욕조가 튜브가 됐어요!"
-          },
-          {
             "who": "bun",
-            "text": "Whee! Use the tube!",
-            "audio": "b4_u04_l5",
-            "ko": "야호! 튜브를 타!"
+            "text": "Use a tune!",
+            "audio": "b4_u04_l2"
           }
-        ],
-        "video": "vid_b4_u04_1",
-        "ko": "요정 이가 톡! t-u-b 끝에 반짝 e 가 붙자 욕조(tub)가 기다란 튜브(tube)로 바뀌어 물이 쏴아 빠져요. 아기 곰과 번이 튜브 미끄럼틀을 타요.",
-        "ask": [
-          {
-            "en": "What is the tub now?",
-            "ko": "욕조가 뭐로 바뀌었어?"
-          },
-          {
-            "en": "Who goes in first?",
-            "ko": "누가 먼저 들어가?"
-          }
-        ],
-        "narr": {
-          "text": "Tap! The tub turns into a long green tube.",
-          "ko": "톡! 욕조가 기다란 초록 튜브로 바뀌어요.",
-          "audio": "scene_b4_u04_2_n"
-        }
+        ]
       },
       {
         "id": "scene_b4_u04_3",
-        "desc": "The tube drops the friends onto a soft golden sand dune inside a warm, sunny castle room with a painted desert sky. A cute grey mule with long ears stands on top of the dune holding a shiny silver flute. Bun tumbles out of the tube; Hedgie shakes sand from his spikes; Pip points at the mule, reading it in pieces; the bear cub hugs the red cube. Hidden in the picture: the dune, the mule, the flute, the tube, the cube. Grumble does NOT appear. No letters anywhere.",
+        "desc": "{FAIRY} taps the cubes; they fly off like bubbles over the sand dune; {mule} kicks up its heels.",
         "hidden": [
-          "dune",
-          "mule",
-          "flute",
-          "tube",
-          "cube"
+          "dune"
         ],
         "lines": [
           {
             "who": "hedgie",
-            "text": "A cute mule!",
-            "audio": "b4_u04_l6",
-            "ko": "귀여운 노새다!"
-          },
-          {
-            "who": "bun",
-            "text": "/juː/ /juː/ mule!",
-            "audio": "b4_u04_l7",
-            "ko": "u, u 노새!"
-          },
-          {
-            "who": "pip",
-            "text": "Mul-e? Mul-e!",
-            "audio": "b4_u04_l8",
-            "ko": "멀-이? 멀-이!"
+            "text": "Cute! The mule is cute!",
+            "audio": "b4_u04_l3"
           }
-        ],
-        "ko": "튜브를 타고 내려오니 모래 언덕 방이에요. 언덕 위에 귀여운 노새가 플루트를 들고 있어요. 핍은 \"멀-이!\"",
-        "ask": [
-          {
-            "en": "Where are the friends now?",
-            "ko": "친구들은 어디에 왔어?"
-          },
-          {
-            "en": "What does the mule have?",
-            "ko": "노새는 뭘 들고 있어?"
-          }
-        ],
-        "narr": {
-          "text": "They land on sand. A mule holds a flute.",
-          "ko": "모래 위에 내려앉아요. 노새가 플루트를 들고 있어요.",
-          "audio": "scene_b4_u04_3_n"
-        }
+        ]
       },
       {
         "id": "scene_b4_u04_4",
-        "desc": "The mule plays a happy tune on the silver flute and colorful music notes float up from it. The bear cub gives Bun a big hug, and Fairy E taps the hug with her star wand so it becomes a huge hug: for a moment the cub grows big and fluffy and wraps Bun, Hedgie and Pip all together. At a little window high in the wall, Grumble listens, tapping softly on a small drum with two sticks, then catches himself. Hidden in the picture: the flute, the tune of music notes, the huge hug, the mule. No letters anywhere.",
+        "desc": "{mule} dances with a plume feather on its head; {PIP} plays the flute badly; everyone laughs.",
         "hidden": [
-          "flute",
-          "tune",
-          "mule"
+          "plume"
         ],
         "lines": [
           {
-            "who": "narrator",
-            "text": "A tune on the flute!",
-            "audio": "b4_u04_l9",
-            "ko": "플루트로 노래를 불어요!"
-          },
-          {
-            "who": "fairy",
-            "text": "Eee! A huge hug!",
-            "audio": "b4_u04_l10",
-            "ko": "이~! 엄청 큰 포옹!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... tap, tap, tap.",
-            "audio": "b4_u04_l11",
-            "ko": "쉿… 톡, 톡, 톡."
+            "who": "pip",
+            "text": "In June, we use the flute!",
+            "audio": "b4_u04_l4"
           }
-        ],
-        "video": "vid_b4_u04_2",
-        "ko": "노새가 플루트를 불어요. 아기 곰의 포옹이 요정 이 마법으로 엄청 큰 포옹이 됐어요. 창문의 그럼블이 몰래 북을 톡톡 쳐요.",
-        "ask": [
-          {
-            "en": "What does the mule play?",
-            "ko": "노새는 뭘 연주해?"
-          },
-          {
-            "en": "What does Grumble tap?",
-            "ko": "그럼블은 뭘 톡톡 쳐?"
-          }
-        ],
-        "narr": {
-          "text": "The mule plays a tune. What a huge hug!",
-          "ko": "노새가 노래를 연주해요. 엄청 큰 포옹이에요!",
-          "audio": "scene_b4_u04_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "성 욕실에서 아기 곰이 거품 목욕을 하다 물이 넘쳐요. 핍은 \"텁-이!\" 요정 이가 욕조(tub)를 톡! 하자 긴 튜브(tube)가 되어 다 함께 미끄러져 내려가요. 모래 언덕 방에서 귀여운 노새가 플루트를 불어요. 창문의 그럼블이 몰래 북을 톡톡 쳐요.",
-    "so_far_ko": "요정 이가 '안 돼' 표지를 쪽지로 바꿨어요. 그럼블이 창문에서 밧줄을 내려 줘 틈을 건넜어요.",
-    "goal_ko": "마법 e 로 짧은 u 단어를 긴 u 단어로 바꿔 읽고 물바다 욕실을 빠져나가요."
+    ]
   },
   "videos": [
     {
@@ -686,5 +555,198 @@
         }
       }
     ]
+  },
+  "story_v1": {
+    "title": "A Cute Mule",
+    "bgm": "bgm_b4_silly",
+    "panels": [
+      {
+        "id": "scene_b4_u04_1",
+        "desc": "A castle bathroom with blue tiles. A small cute brown bear cub sits in a big white bathtub full of bubbles, splashing happily; bubbly water spills over the edge and floods the floor. The next door is on the far side of the tub, blocked by it. On the wall above the tub hangs a small wooden sign carved with three letters t, u, b — these three letters are the ONLY text allowed in the picture. A red toy cube block floats in the bubbles. Bun, Hedgie and Pip stand in the puddle; Pip reads the sign in broken pieces; Fairy E rides on a big soap bubble. Hidden in the picture: the cute bear cub, the red toy cube. Grumble does NOT appear.",
+        "hidden": [
+          "cute",
+          "cube"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A cub in a tub!",
+            "audio": "b4_u04_l1",
+            "ko": "욕조에 아기 곰이 있어!"
+          },
+          {
+            "who": "bun",
+            "text": "Splash! Oh no!",
+            "audio": "b4_u04_l2",
+            "ko": "첨벙! 저런!"
+          },
+          {
+            "who": "pip",
+            "text": "Tub-e? Tub-e!",
+            "audio": "b4_u04_l3",
+            "ko": "텁-이? 텁-이!"
+          }
+        ],
+        "ko": "성 욕실에서 아기 곰이 거품 목욕을 해요. 물이 넘쳐 바닥이 물바다예요. 욕조가 다음 문을 막고 있어요. 핍은 \"텁-이!\"",
+        "ask": [
+          {
+            "en": "Who is in the tub?",
+            "ko": "욕조에 누가 있어?"
+          },
+          {
+            "en": "What is on the floor?",
+            "ko": "바닥에 뭐가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A bear cub splashes in a tub. Water is everywhere!",
+          "ko": "아기 곰이 욕조에서 첨벙첨벙. 물이 사방에 넘쳐요!",
+          "audio": "scene_b4_u04_1_n"
+        }
+      },
+      {
+        "id": "scene_b4_u04_2",
+        "desc": "Fairy E taps the end of the wooden sign on the wall with her star wand: a sparkling letter e appears, so it reads t u b e — these four letters are the ONLY text allowed in the picture — and the bathtub below stretches and twists into a long bendy green tube, like a giant water slide, that curves through the wall to the next room. The bubbly water drains away into it with a whoosh. The bear cub slides in first, laughing, hugging the red toy cube; Bun jumps in after it with her cape flying; Hedgie and Pip watch, amazed. Hidden in the picture: the green tube, the red cube, the cute cub. Grumble does NOT appear. Also clearly visible in the picture (each character only once): Beads the little caterpillar, sitting on a nearby leaf or on Hedgie's shoulder, talking.",
+        "hidden": [
+          "tube",
+          "cube",
+          "cute"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/t/ /uː/ /b/ tube!",
+            "audio": "blend_tube__beads",
+            "pop": "tube",
+            "ko": "t-u-b-e 튜브!"
+          },
+          {
+            "who": "narrator",
+            "text": "The tub is a tube!",
+            "audio": "b4_u04_l4",
+            "ko": "욕조가 튜브가 됐어요!"
+          },
+          {
+            "who": "bun",
+            "text": "Whee! Use the tube!",
+            "audio": "b4_u04_l5",
+            "ko": "야호! 튜브를 타!"
+          }
+        ],
+        "video": "vid_b4_u04_1",
+        "ko": "요정 이가 톡! t-u-b 끝에 반짝 e 가 붙자 욕조(tub)가 기다란 튜브(tube)로 바뀌어 물이 쏴아 빠져요. 아기 곰과 번이 튜브 미끄럼틀을 타요.",
+        "ask": [
+          {
+            "en": "What is the tub now?",
+            "ko": "욕조가 뭐로 바뀌었어?"
+          },
+          {
+            "en": "Who goes in first?",
+            "ko": "누가 먼저 들어가?"
+          }
+        ],
+        "narr": {
+          "text": "Tap! The tub turns into a long green tube.",
+          "ko": "톡! 욕조가 기다란 초록 튜브로 바뀌어요.",
+          "audio": "scene_b4_u04_2_n"
+        }
+      },
+      {
+        "id": "scene_b4_u04_3",
+        "desc": "The tube drops the friends onto a soft golden sand dune inside a warm, sunny castle room with a painted desert sky. A cute grey mule with long ears stands on top of the dune holding a shiny silver flute. Bun tumbles out of the tube; Hedgie shakes sand from his spikes; Pip points at the mule, reading it in pieces; the bear cub hugs the red cube. Hidden in the picture: the dune, the mule, the flute, the tube, the cube. Grumble does NOT appear. No letters anywhere.",
+        "hidden": [
+          "dune",
+          "mule",
+          "flute",
+          "tube",
+          "cube"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "A cute mule!",
+            "audio": "b4_u04_l6",
+            "ko": "귀여운 노새다!"
+          },
+          {
+            "who": "bun",
+            "text": "/juː/ /juː/ mule!",
+            "audio": "b4_u04_l7",
+            "ko": "u, u 노새!"
+          },
+          {
+            "who": "pip",
+            "text": "Mul-e? Mul-e!",
+            "audio": "b4_u04_l8",
+            "ko": "멀-이? 멀-이!"
+          }
+        ],
+        "ko": "튜브를 타고 내려오니 모래 언덕 방이에요. 언덕 위에 귀여운 노새가 플루트를 들고 있어요. 핍은 \"멀-이!\"",
+        "ask": [
+          {
+            "en": "Where are the friends now?",
+            "ko": "친구들은 어디에 왔어?"
+          },
+          {
+            "en": "What does the mule have?",
+            "ko": "노새는 뭘 들고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "They land on sand. A mule holds a flute.",
+          "ko": "모래 위에 내려앉아요. 노새가 플루트를 들고 있어요.",
+          "audio": "scene_b4_u04_3_n"
+        }
+      },
+      {
+        "id": "scene_b4_u04_4",
+        "desc": "The mule plays a happy tune on the silver flute and colorful music notes float up from it. The bear cub gives Bun a big hug, and Fairy E taps the hug with her star wand so it becomes a huge hug: for a moment the cub grows big and fluffy and wraps Bun, Hedgie and Pip all together. At a little window high in the wall, Grumble listens, tapping softly on a small drum with two sticks, then catches himself. Hidden in the picture: the flute, the tune of music notes, the huge hug, the mule. No letters anywhere.",
+        "hidden": [
+          "flute",
+          "tune",
+          "mule"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "A tune on the flute!",
+            "audio": "b4_u04_l9",
+            "ko": "플루트로 노래를 불어요!"
+          },
+          {
+            "who": "fairy",
+            "text": "Eee! A huge hug!",
+            "audio": "b4_u04_l10",
+            "ko": "이~! 엄청 큰 포옹!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... tap, tap, tap.",
+            "audio": "b4_u04_l11",
+            "ko": "쉿… 톡, 톡, 톡."
+          }
+        ],
+        "video": "vid_b4_u04_2",
+        "ko": "노새가 플루트를 불어요. 아기 곰의 포옹이 요정 이 마법으로 엄청 큰 포옹이 됐어요. 창문의 그럼블이 몰래 북을 톡톡 쳐요.",
+        "ask": [
+          {
+            "en": "What does the mule play?",
+            "ko": "노새는 뭘 연주해?"
+          },
+          {
+            "en": "What does Grumble tap?",
+            "ko": "그럼블은 뭘 톡톡 쳐?"
+          }
+        ],
+        "narr": {
+          "text": "The mule plays a tune. What a huge hug!",
+          "ko": "노새가 노래를 연주해요. 엄청 큰 포옹이에요!",
+          "audio": "scene_b4_u04_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "성 욕실에서 아기 곰이 거품 목욕을 하다 물이 넘쳐요. 핍은 \"텁-이!\" 요정 이가 욕조(tub)를 톡! 하자 긴 튜브(tube)가 되어 다 함께 미끄러져 내려가요. 모래 언덕 방에서 귀여운 노새가 플루트를 불어요. 창문의 그럼블이 몰래 북을 톡톡 쳐요.",
+    "so_far_ko": "요정 이가 '안 돼' 표지를 쪽지로 바꿨어요. 그럼블이 창문에서 밧줄을 내려 줘 틈을 건넜어요.",
+    "goal_ko": "마법 e 로 짧은 u 단어를 긴 u 단어로 바꿔 읽고 물바다 욕실을 빠져나가요."
   }
 }

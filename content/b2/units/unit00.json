@@ -39,94 +39,57 @@
   "story": {
     "title": "The Word Pond",
     "bgm": "bgm_b2_adventure",
+    "v2": true,
     "panels": [
       {
         "id": "scene_b2_u00_1",
-        "desc": "Bun, Hedgie and Pip step through a gap in the wooden fence of the Sound Garden (blossoming letter trees behind them) onto the sandy bank of a wide blue pond with lily pads and tall reeds; across the water stands a dark pine forest. The glowing golden seed with its tiny leaf from the end of Book 1 floats down and lands on the sand, where big round wooden beads lie scattered. Pip, who can chirp now, has its beak open with one tiny golden note. Bun points across the water; Hedgie looks worried. Grumble does NOT appear.",
+        "desc": "{PIP}, {BUN} and {HED} walk through a gap in the garden hedge and see a big round pond for the first time, eyes wide.",
         "hidden": [],
         "lines": [
           {
-            "who": "narrator",
-            "text": "This is the Word Pond.",
-            "audio": "b2_u00_l1",
-            "ko": "여기는 단어 연못이에요."
-          },
-          {
             "who": "bun",
-            "text": "Look! No stones!",
-            "audio": "b2_u00_l2",
-            "ko": "봐! 돌이 없어!"
-          },
-          {
-            "who": "hedgie",
-            "text": "How can we go in?",
-            "audio": "b2_u00_l3",
-            "ko": "어떻게 들어가지?"
+            "text": "A pond!",
+            "audio": "b2_u00_l1"
           }
-        ],
-        "video": "vid_b2_u00_1",
-        "ko": "담장 틈으로 나오니 넓은 파란 연못이에요. 씨앗이 모래에 내려앉고 나무 구슬이 흩어져 있어요. 건너갈 돌이 없어요!",
-        "ask": [
-          {
-            "en": "What is on the sand?",
-            "ko": "모래 위에 뭐가 있어?"
-          },
-          {
-            "en": "Can they cross the pond?",
-            "ko": "연못을 건널 수 있을까?"
-          }
-        ],
-        "narr": {
-          "text": "A big pond! The seed lands on the sand.",
-          "ko": "넓은 연못이에요! 씨앗이 모래 위에 내려앉아요.",
-          "audio": "scene_b2_u00_1_n"
-        }
+        ]
       },
       {
         "id": "scene_b2_u00_2",
-        "desc": "Beads, a small friendly caterpillar whose body is a string of five rainbow beads, pops up from a lily pad at the pond edge holding a string with three loose wooden beads and clicks two of them together. Pip hops right up to Beads, delighted; Bun and Hedgie lean in with big eyes. On the left, among the tall reeds, the tip of Grumble's striped nightcap and the warm glow of his lantern peek out.",
+        "desc": "On a lily pad sits {BEADS}, a caterpillar made of five colored beads, waving a tiny hand. {PIP}, {BUN} and {HED} wave back from the bank.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Hi! I am Hedgie.",
+            "audio": "b2_u00_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u00_3",
+        "desc": "{BEADS} clicks three of its beads together with a happy face; {PIP}, {BUN} and {HED} lean in to listen.",
         "hidden": [],
         "lines": [
           {
             "who": "narrator",
-            "text": "This is Beads.",
-            "audio": "b2_u00_l4",
-            "ko": "얘는 비즈예요."
-          },
-          {
-            "who": "beads",
-            "text": "Click-clack! Hi, Pip!",
-            "audio": "b2_u00_l5",
-            "ko": "딸깍딸깍! 안녕, 핍!"
-          },
-          {
-            "who": "narrator",
-            "text": "Shh... Who is in the reeds?",
-            "audio": "b2_u00_l6",
-            "ko": "쉿… 갈대 속에 누가 있을까요?"
+            "text": "Click-clack! I am Beads.",
+            "audio": "b2_u00_l3"
           }
-        ],
-        "ko": "연잎에서 구슬 애벌레 비즈가 나타나 구슬을 딸깍 부딪쳐요. 갈대 속에 그럼블 모자와 불빛이 보여요.",
-        "ask": [
+        ]
+      },
+      {
+        "id": "scene_b2_u00_4",
+        "desc": "{PIP} tries to copy, clicking its beak; {BEADS} laughs; {BUN} and {HED} clap.",
+        "hidden": [],
+        "lines": [
           {
-            "en": "Who is Beads?",
-            "ko": "비즈는 누구야?"
-          },
-          {
-            "en": "What is in the reeds?",
-            "ko": "갈대 속에 뭐가 있어?"
+            "who": "pip",
+            "text": "Click-clack! Click-clack!",
+            "audio": "b2_u00_l4"
           }
-        ],
-        "narr": {
-          "text": "Beads pops up. Someone hides in the reeds.",
-          "ko": "비즈가 나타나요. 갈대 속에 누가 숨어 있어요.",
-          "audio": "scene_b2_u00_2_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "담장 너머에 넓은 단어 연못이 있어요. 건너갈 돌이 없어요! 구슬 애벌레 비즈를 만났어요. 갈대 속에서 그럼블의 등불이 보여요.",
-    "so_far_ko": "1권에서 친구들은 스물여섯 글자나무를 키우고 핍은 소리를 되찾았어요. 씨앗 하나가 담장 너머로 날아갔어요.",
-    "goal_ko": "단어 연못에 닿아 새 친구 비즈를 만나요."
+    ]
   },
   "videos": [
     {
@@ -219,5 +182,97 @@
       "sun",
       "zebra"
     ]
+  },
+  "story_v1": {
+    "title": "The Word Pond",
+    "bgm": "bgm_b2_adventure",
+    "panels": [
+      {
+        "id": "scene_b2_u00_1",
+        "desc": "Bun, Hedgie and Pip step through a gap in the wooden fence of the Sound Garden (blossoming letter trees behind them) onto the sandy bank of a wide blue pond with lily pads and tall reeds; across the water stands a dark pine forest. The glowing golden seed with its tiny leaf from the end of Book 1 floats down and lands on the sand, where big round wooden beads lie scattered. Pip, who can chirp now, has its beak open with one tiny golden note. Bun points across the water; Hedgie looks worried. Grumble does NOT appear.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is the Word Pond.",
+            "audio": "b2_u00_l1",
+            "ko": "여기는 단어 연못이에요."
+          },
+          {
+            "who": "bun",
+            "text": "Look! No stones!",
+            "audio": "b2_u00_l2",
+            "ko": "봐! 돌이 없어!"
+          },
+          {
+            "who": "hedgie",
+            "text": "How can we go in?",
+            "audio": "b2_u00_l3",
+            "ko": "어떻게 들어가지?"
+          }
+        ],
+        "video": "vid_b2_u00_1",
+        "ko": "담장 틈으로 나오니 넓은 파란 연못이에요. 씨앗이 모래에 내려앉고 나무 구슬이 흩어져 있어요. 건너갈 돌이 없어요!",
+        "ask": [
+          {
+            "en": "What is on the sand?",
+            "ko": "모래 위에 뭐가 있어?"
+          },
+          {
+            "en": "Can they cross the pond?",
+            "ko": "연못을 건널 수 있을까?"
+          }
+        ],
+        "narr": {
+          "text": "A big pond! The seed lands on the sand.",
+          "ko": "넓은 연못이에요! 씨앗이 모래 위에 내려앉아요.",
+          "audio": "scene_b2_u00_1_n"
+        }
+      },
+      {
+        "id": "scene_b2_u00_2",
+        "desc": "Beads, a small friendly caterpillar whose body is a string of five rainbow beads, pops up from a lily pad at the pond edge holding a string with three loose wooden beads and clicks two of them together. Pip hops right up to Beads, delighted; Bun and Hedgie lean in with big eyes. On the left, among the tall reeds, the tip of Grumble's striped nightcap and the warm glow of his lantern peek out.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "This is Beads.",
+            "audio": "b2_u00_l4",
+            "ko": "얘는 비즈예요."
+          },
+          {
+            "who": "beads",
+            "text": "Click-clack! Hi, Pip!",
+            "audio": "b2_u00_l5",
+            "ko": "딸깍딸깍! 안녕, 핍!"
+          },
+          {
+            "who": "narrator",
+            "text": "Shh... Who is in the reeds?",
+            "audio": "b2_u00_l6",
+            "ko": "쉿… 갈대 속에 누가 있을까요?"
+          }
+        ],
+        "ko": "연잎에서 구슬 애벌레 비즈가 나타나 구슬을 딸깍 부딪쳐요. 갈대 속에 그럼블 모자와 불빛이 보여요.",
+        "ask": [
+          {
+            "en": "Who is Beads?",
+            "ko": "비즈는 누구야?"
+          },
+          {
+            "en": "What is in the reeds?",
+            "ko": "갈대 속에 뭐가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Beads pops up. Someone hides in the reeds.",
+          "ko": "비즈가 나타나요. 갈대 속에 누가 숨어 있어요.",
+          "audio": "scene_b2_u00_2_n"
+        }
+      }
+    ],
+    "synopsis_ko": "담장 너머에 넓은 단어 연못이 있어요. 건너갈 돌이 없어요! 구슬 애벌레 비즈를 만났어요. 갈대 속에서 그럼블의 등불이 보여요.",
+    "so_far_ko": "1권에서 친구들은 스물여섯 글자나무를 키우고 핍은 소리를 되찾았어요. 씨앗 하나가 담장 너머로 날아갔어요.",
+    "goal_ko": "단어 연못에 닿아 새 친구 비즈를 만나요."
   }
 }

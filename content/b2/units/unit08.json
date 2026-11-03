@@ -80,11 +80,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -142,195 +137,67 @@
   "story": {
     "title": "Fog on the Pond",
     "bgm": "bgm_b2_night",
+    "v2": true,
     "panels": [
       {
         "id": "scene_b2_u08_1",
-        "desc": "Thick white fog rolls over the Word Pond; the stepping stones ahead have vanished into the mist and only the nearest one is visible. Bun stretches her arms out blindly; Hedgie holds Bun's tail; Pip says a word backwards with a worried face; Beads peeks over a stone. A happy brown puppy barks at the fog, and a brown wooden log drifts by on the grey water. Hidden in the picture: the fog, the dog, the log. Grumble does NOT appear.",
+        "desc": "Thick fog covers the pond; {PIP}, {BUN} and {HED} can only see shapes. A log floats on the water.",
         "hidden": [
           "fog",
-          "dog",
           "log"
         ],
         "lines": [
           {
             "who": "narrator",
-            "text": "Fog, fog, fog!",
-            "audio": "b2_u08_l1",
-            "ko": "안개, 안개, 안개!"
-          },
-          {
-            "who": "bun",
-            "text": "We can not see!",
-            "audio": "b2_u08_l2",
-            "ko": "안 보여!"
-          },
-          {
-            "who": "pip",
-            "text": "Gof! Gof?",
-            "audio": "b2_u08_l3",
-            "ko": "고프! 고프?"
+            "text": "Fog on the pond.",
+            "audio": "b2_u08_l1"
           }
-        ],
-        "video": "vid_b2_u08_1",
-        "ko": "안개가 자욱해요. 돌이 안 보여요. 개가 짖고 통나무가 떠가요. 핍은 \"고프!\"",
-        "ask": [
-          {
-            "en": "Can they see the stones?",
-            "ko": "돌이 보여?"
-          },
-          {
-            "en": "What floats?",
-            "ko": "뭐가 떠가?"
-          }
-        ],
-        "narr": {
-          "text": "Fog! The stones are gone. A dog barks.",
-          "ko": "안개예요! 돌이 안 보여요. 개가 짖어요.",
-          "audio": "scene_b2_u08_1_n"
-        }
+        ]
       },
       {
         "id": "scene_b2_u08_2",
-        "desc": "Beads threads l-o-g: the drifting log sinks and rises again as a long flat stepping stone pointing into the fog, and the brown puppy hops onto it and trots ahead, sniffing the way; Bun and Hedgie follow holding paws; Pip rides on the dog's back. Hidden in the picture: the log stone, the dog. Grumble does NOT appear.",
-        "hidden": [
-          "log",
-          "dog"
-        ],
+        "desc": "A dark shape moves in the fog; {HED} hides behind {BUN}; {PIP} peeks.",
+        "hidden": [],
         "lines": [
           {
-            "who": "beads",
-            "text": "/l/ /ɑ/ /g/ log!",
-            "audio": "blend_log__beads",
-            "pop": "log",
-            "ko": "l-o-g 통나무!"
-          },
-          {
             "who": "hedgie",
-            "text": "The dog is on the log.",
-            "audio": "b2_u08_l4",
-            "ko": "개가 통나무 위에 있어."
-          },
-          {
-            "who": "narrator",
-            "text": "Go, dog, go!",
-            "audio": "b2_u08_l5",
-            "ko": "가라, 개야, 가!"
+            "text": "Go! Go! Go!",
+            "audio": "b2_u08_l2"
           }
-        ],
-        "ko": "l-o-g! 통나무가 긴 돌이 됐어요. 개가 앞장서고 핍이 등에 탔어요.",
-        "ask": [
-          {
-            "en": "Who goes first?",
-            "ko": "누가 앞장서?"
-          },
-          {
-            "en": "Where is Pip?",
-            "ko": "핍은 어디 있어?"
-          }
-        ],
-        "narr": {
-          "text": "The log is a stone. The dog leads the way.",
-          "ko": "통나무가 돌이 됐어요. 개가 앞장서요.",
-          "audio": "scene_b2_u08_2_n"
-        }
+        ]
       },
       {
         "id": "scene_b2_u08_3",
-        "desc": "Deep in the fog a single warm dot of orange light glows: it is Grumble standing on a stepping stone holding his lantern high over his head, the glow making a bright circle in the mist. Behind him on the bank is his little camp: a green camp cot, and on a small fire a red cooking pot with steam rising, a big red dot painted on its lid. Bun points at the light; Hedgie and Pip look relieved; Beads threads p-o-t. Hidden in the picture: the pot, the steaming hot pot, the red dot on the lid, the cot.",
+        "desc": "The shape comes closer: it is {dog} carrying a hot pot with steam. {BUN} relaxes. A cot stands on the jetty.",
         "hidden": [
+          "dog",
           "pot",
           "hot",
-          "dot",
           "cot"
         ],
         "lines": [
           {
             "who": "bun",
-            "text": "Look! A dot!",
-            "audio": "b2_u08_l6",
-            "ko": "봐! 점이야!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... Go to the dot.",
-            "audio": "b2_u08_l7",
-            "ko": "쉿… 불빛 쪽으로 와."
-          },
-          {
-            "who": "beads",
-            "text": "/p/ /ɑ/ /t/ pot!",
-            "audio": "blend_pot__beads",
-            "pop": "pot",
-            "ko": "p-o-t 냄비!"
+            "text": "A dog! A hot pot!",
+            "audio": "b2_u08_l3"
           }
-        ],
-        "video": "vid_b2_u08_2",
-        "ko": "안개 속에 주황 점 하나! 등불을 높이 든 그럼블이에요. 뒤에는 간이침대와 뜨거운 냄비.",
-        "ask": [
-          {
-            "en": "What is the dot?",
-            "ko": "점은 뭐야?"
-          },
-          {
-            "en": "What is on the fire?",
-            "ko": "불 위에 뭐가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A dot of light in the fog. It is Grumble!",
-          "ko": "안개 속에 불빛 한 점. 그럼블이에요!",
-          "audio": "scene_b2_u08_3_n"
-        }
+        ]
       },
       {
         "id": "scene_b2_u08_4",
-        "desc": "The fog is clearing and pale sun breaks through. Everyone sits around Grumble's little fire on the bank: Grumble ladles steaming soup from the red pot into mugs for Bun, Hedgie and the puppy, his lantern hanging bright on the end of the cot; Pip blows on a spoonful; Beads warms its beads by the fire. The -og and -ot stepping stones shine behind them. Hidden in the picture: the pot, the cot, the steaming hot soup.",
+        "desc": "The fog clears; everyone sits on the log around the pot eating; a dot of soup is on Pip's beak.",
         "hidden": [
-          "pot",
-          "cot",
-          "hot"
+          "dot"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "The pot is hot!",
-            "audio": "b2_u08_l8",
-            "ko": "냄비가 뜨거워!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! It is hot!",
-            "audio": "b2_u08_l9",
-            "ko": "쉿! 뜨거워!"
-          },
-          {
             "who": "pip",
-            "text": "Gof... fog! Pot!",
-            "audio": "b2_u08_l10",
-            "ko": "고프… 포그! 팟! (안개! 냄비!)"
+            "text": "We go to the pot!",
+            "audio": "b2_u08_l4"
           }
-        ],
-        "ko": "안개가 걷혀요. 그럼블이 뜨거운 수프를 머그컵에 담아 줘요. 핍이 \"포그! 팟!\" 하고 말해요.",
-        "ask": [
-          {
-            "en": "What does Grumble give?",
-            "ko": "그럼블이 뭘 줘?"
-          },
-          {
-            "en": "Is the pot hot?",
-            "ko": "냄비가 뜨거워?"
-          }
-        ],
-        "narr": {
-          "text": "The fog clears. Grumble gives hot soup.",
-          "ko": "안개가 걷혀요. 그럼블이 뜨거운 수프를 나눠 줘요.",
-          "audio": "scene_b2_u08_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "짙은 안개로 돌이 안 보여요. 비즈가 l-o-g 를 꿰자 통나무 돌이 생기고 개가 앞장서요. 안개 속 주황 점은 그럼블의 등불! 등불을 따라가니 뜨거운 냄비가 있는 야영지예요. 그럼블이 수프를 나눠 줘요.",
-    "so_far_ko": "지퍼 사건을 해결하고 그럼블이 처음으로 친구들 옆에 앉았어요.",
-    "goal_ko": "안개 속에서 등불을 따라가며 -og·-ot 단어를 읽어요."
+    ]
   },
   "videos": [
     {
@@ -666,5 +533,198 @@
         }
       }
     ]
+  },
+  "story_v1": {
+    "title": "Fog on the Pond",
+    "bgm": "bgm_b2_night",
+    "panels": [
+      {
+        "id": "scene_b2_u08_1",
+        "desc": "Thick white fog rolls over the Word Pond; the stepping stones ahead have vanished into the mist and only the nearest one is visible. Bun stretches her arms out blindly; Hedgie holds Bun's tail; Pip says a word backwards with a worried face; Beads peeks over a stone. A happy brown puppy barks at the fog, and a brown wooden log drifts by on the grey water. Hidden in the picture: the fog, the dog, the log. Grumble does NOT appear.",
+        "hidden": [
+          "fog",
+          "dog",
+          "log"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Fog, fog, fog!",
+            "audio": "b2_u08_l1",
+            "ko": "안개, 안개, 안개!"
+          },
+          {
+            "who": "bun",
+            "text": "We can not see!",
+            "audio": "b2_u08_l2",
+            "ko": "안 보여!"
+          },
+          {
+            "who": "pip",
+            "text": "Gof! Gof?",
+            "audio": "b2_u08_l3",
+            "ko": "고프! 고프?"
+          }
+        ],
+        "video": "vid_b2_u08_1",
+        "ko": "안개가 자욱해요. 돌이 안 보여요. 개가 짖고 통나무가 떠가요. 핍은 \"고프!\"",
+        "ask": [
+          {
+            "en": "Can they see the stones?",
+            "ko": "돌이 보여?"
+          },
+          {
+            "en": "What floats?",
+            "ko": "뭐가 떠가?"
+          }
+        ],
+        "narr": {
+          "text": "Fog! The stones are gone. A dog barks.",
+          "ko": "안개예요! 돌이 안 보여요. 개가 짖어요.",
+          "audio": "scene_b2_u08_1_n"
+        }
+      },
+      {
+        "id": "scene_b2_u08_2",
+        "desc": "Beads threads l-o-g: the drifting log sinks and rises again as a long flat stepping stone pointing into the fog, and the brown puppy hops onto it and trots ahead, sniffing the way; Bun and Hedgie follow holding paws; Pip rides on the dog's back. Hidden in the picture: the log stone, the dog. Grumble does NOT appear.",
+        "hidden": [
+          "log",
+          "dog"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/l/ /ɑ/ /g/ log!",
+            "audio": "blend_log__beads",
+            "pop": "log",
+            "ko": "l-o-g 통나무!"
+          },
+          {
+            "who": "hedgie",
+            "text": "The dog is on the log.",
+            "audio": "b2_u08_l4",
+            "ko": "개가 통나무 위에 있어."
+          },
+          {
+            "who": "narrator",
+            "text": "Go, dog, go!",
+            "audio": "b2_u08_l5",
+            "ko": "가라, 개야, 가!"
+          }
+        ],
+        "ko": "l-o-g! 통나무가 긴 돌이 됐어요. 개가 앞장서고 핍이 등에 탔어요.",
+        "ask": [
+          {
+            "en": "Who goes first?",
+            "ko": "누가 앞장서?"
+          },
+          {
+            "en": "Where is Pip?",
+            "ko": "핍은 어디 있어?"
+          }
+        ],
+        "narr": {
+          "text": "The log is a stone. The dog leads the way.",
+          "ko": "통나무가 돌이 됐어요. 개가 앞장서요.",
+          "audio": "scene_b2_u08_2_n"
+        }
+      },
+      {
+        "id": "scene_b2_u08_3",
+        "desc": "Deep in the fog a single warm dot of orange light glows: it is Grumble standing on a stepping stone holding his lantern high over his head, the glow making a bright circle in the mist. Behind him on the bank is his little camp: a green camp cot, and on a small fire a red cooking pot with steam rising, a big red dot painted on its lid. Bun points at the light; Hedgie and Pip look relieved; Beads threads p-o-t. Hidden in the picture: the pot, the steaming hot pot, the red dot on the lid, the cot.",
+        "hidden": [
+          "pot",
+          "hot",
+          "dot",
+          "cot"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Look! A dot!",
+            "audio": "b2_u08_l6",
+            "ko": "봐! 점이야!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... Go to the dot.",
+            "audio": "b2_u08_l7",
+            "ko": "쉿… 불빛 쪽으로 와."
+          },
+          {
+            "who": "beads",
+            "text": "/p/ /ɑ/ /t/ pot!",
+            "audio": "blend_pot__beads",
+            "pop": "pot",
+            "ko": "p-o-t 냄비!"
+          }
+        ],
+        "video": "vid_b2_u08_2",
+        "ko": "안개 속에 주황 점 하나! 등불을 높이 든 그럼블이에요. 뒤에는 간이침대와 뜨거운 냄비.",
+        "ask": [
+          {
+            "en": "What is the dot?",
+            "ko": "점은 뭐야?"
+          },
+          {
+            "en": "What is on the fire?",
+            "ko": "불 위에 뭐가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A dot of light in the fog. It is Grumble!",
+          "ko": "안개 속에 불빛 한 점. 그럼블이에요!",
+          "audio": "scene_b2_u08_3_n"
+        }
+      },
+      {
+        "id": "scene_b2_u08_4",
+        "desc": "The fog is clearing and pale sun breaks through. Everyone sits around Grumble's little fire on the bank: Grumble ladles steaming soup from the red pot into mugs for Bun, Hedgie and the puppy, his lantern hanging bright on the end of the cot; Pip blows on a spoonful; Beads warms its beads by the fire. The -og and -ot stepping stones shine behind them. Hidden in the picture: the pot, the cot, the steaming hot soup.",
+        "hidden": [
+          "pot",
+          "cot",
+          "hot"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The pot is hot!",
+            "audio": "b2_u08_l8",
+            "ko": "냄비가 뜨거워!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is hot!",
+            "audio": "b2_u08_l9",
+            "ko": "쉿! 뜨거워!"
+          },
+          {
+            "who": "pip",
+            "text": "Gof... fog! Pot!",
+            "audio": "b2_u08_l10",
+            "ko": "고프… 포그! 팟! (안개! 냄비!)"
+          }
+        ],
+        "ko": "안개가 걷혀요. 그럼블이 뜨거운 수프를 머그컵에 담아 줘요. 핍이 \"포그! 팟!\" 하고 말해요.",
+        "ask": [
+          {
+            "en": "What does Grumble give?",
+            "ko": "그럼블이 뭘 줘?"
+          },
+          {
+            "en": "Is the pot hot?",
+            "ko": "냄비가 뜨거워?"
+          }
+        ],
+        "narr": {
+          "text": "The fog clears. Grumble gives hot soup.",
+          "ko": "안개가 걷혀요. 그럼블이 뜨거운 수프를 나눠 줘요.",
+          "audio": "scene_b2_u08_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "짙은 안개로 돌이 안 보여요. 비즈가 l-o-g 를 꿰자 통나무 돌이 생기고 개가 앞장서요. 안개 속 주황 점은 그럼블의 등불! 등불을 따라가니 뜨거운 냄비가 있는 야영지예요. 그럼블이 수프를 나눠 줘요.",
+    "so_far_ko": "지퍼 사건을 해결하고 그럼블이 처음으로 친구들 옆에 앉았어요.",
+    "goal_ko": "안개 속에서 등불을 따라가며 -og·-ot 단어를 읽어요."
   }
 }

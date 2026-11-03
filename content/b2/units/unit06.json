@@ -83,11 +83,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -145,196 +140,68 @@
   "story": {
     "title": "The Pig and the Pin",
     "bgm": "bgm_b2_silly",
+    "v2": true,
     "panels": [
       {
         "id": "scene_b2_u06_1",
-        "desc": "A big round pink pig with a curly tail stands at the start of the stepping stones, which are far too little for its feet: one hoof on a stone, the stone wobbling. Hedgie measures the pig with a long reed; Bun shakes her head; Pip, trying to say the word, has said it backwards and looks at the pig cross-eyed; Beads sits on a lily pad. Beside the bank a shovel sticks out of a freshly dug hole with dirt flying. Hidden in the picture: the pig, the big pig next to a tiny mouse, the shovel digging. Grumble does NOT appear.",
+        "desc": "{pig} digs a hole in the mud by the pond with its snout; {PIP}, {BUN} and {HED} watch. A fig lies on a plate.",
         "hidden": [
-          "pig",
-          "big",
-          "dig"
-        ],
-        "lines": [
-          {
-            "who": "hedgie",
-            "text": "The pig is big!",
-            "audio": "b2_u06_l1",
-            "ko": "돼지가 커!"
-          },
-          {
-            "who": "bun",
-            "text": "The pig can not go.",
-            "audio": "b2_u06_l2",
-            "ko": "돼지는 못 건너가."
-          },
-          {
-            "who": "pip",
-            "text": "Gip! Gip?",
-            "audio": "b2_u06_l3",
-            "ko": "깁! 깁?"
-          }
-        ],
-        "video": "vid_b2_u06_1",
-        "ko": "돼지가 너무 커서 돌이 흔들려요. 헤지가 갈대로 재 봐요. 핍은 \"깁!\"",
-        "ask": [
-          {
-            "en": "Is the pig big or little?",
-            "ko": "돼지는 커, 작아?"
-          },
-          {
-            "en": "What is Hedgie doing?",
-            "ko": "헤지는 뭘 하고 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A big pig! The stones are too little.",
-          "ko": "커다란 돼지예요! 징검돌이 너무 작아요.",
-          "audio": "scene_b2_u06_1_n"
-        }
-      },
-      {
-        "id": "scene_b2_u06_2",
-        "desc": "Beads threads p-i-g and a BIG wide stepping stone rises out of the water with a splash — the pig hops onto it happily, now wearing a curly purple wig that floated by on the water and holding a purple fig in its mouth. Bun and Hedgie laugh; Pip claps its wings; water drops sparkle. Hidden in the picture: the pig, the purple wig, the fig. Grumble does NOT appear.",
-        "hidden": [
-          "pig",
-          "wig",
+          "dig",
           "fig"
         ],
         "lines": [
           {
-            "who": "beads",
-            "text": "/p/ /ɪ/ /g/ pig!",
-            "audio": "blend_pig__beads",
-            "pop": "pig",
-            "ko": "p-i-g 돼지!"
-          },
-          {
             "who": "narrator",
-            "text": "Click-clack! A big stone!",
-            "audio": "b2_u06_l4",
-            "ko": "딸깍딸깍! 큰 돌!"
-          },
-          {
-            "who": "bun",
-            "text": "The pig has a wig!",
-            "audio": "b2_u06_l5",
-            "ko": "돼지가 가발을 썼어!"
+            "text": "The pig can dig.",
+            "audio": "b2_u06_l1"
           }
-        ],
-        "video": "vid_b2_u06_2",
-        "ko": "p-i-g! 커다란 돌이 솟았어요. 돼지가 보라색 가발을 쓰고 무화과를 물었어요.",
-        "ask": [
-          {
-            "en": "What is on the pig's head?",
-            "ko": "돼지 머리에 뭐가 있어?"
-          },
-          {
-            "en": "What is in its mouth?",
-            "ko": "입에는 뭐가 있어?"
-          }
-        ],
-        "narr": {
-          "text": "A big stone! The pig wears a wig.",
-          "ko": "커다란 돌이에요! 돼지가 가발을 썼어요.",
-          "audio": "scene_b2_u06_2_n"
-        }
+        ]
       },
       {
-        "id": "scene_b2_u06_3",
-        "desc": "A bright blue fish with one big orange fin pushes the pig's big stone along with its nose. On the bank stand a round silver cookie tin and a green trash bin. In the reeds, Grumble's striped nightcap has caught on a reed and torn; Hedgie reaches over and pins the tear together with a red-headed sewing pin while Grumble frowns and holds his lantern out of the way; Beads threads p-i-n. Hidden in the picture: the pin, the fish with the fin, the tin, the bin.",
+        "id": "scene_b2_u06_2",
+        "desc": "{pig} lifts a shiny pin out of the mud on its snout; {HED} points.",
         "hidden": [
-          "pin",
-          "fin",
-          "tin",
-          "bin"
+          "pin"
         ],
         "lines": [
           {
-            "who": "beads",
-            "text": "/p/ /ɪ/ /n/ pin!",
-            "audio": "blend_pin__beads",
-            "pop": "pin",
-            "ko": "p-i-n 핀!"
-          },
-          {
             "who": "hedgie",
-            "text": "A pin on the hat.",
-            "audio": "b2_u06_l6",
-            "ko": "모자에 핀을 꽂아요."
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! Not my hat!",
-            "audio": "b2_u06_l7",
-            "ko": "쉿! 내 모자는 안 돼!"
+            "text": "A pin!",
+            "audio": "b2_u06_l2"
           }
-        ],
-        "ko": "지느러미 큰 물고기가 돌을 밀어요. 그럼블 모자가 찢어져서 헤지가 핀으로 꽂아 줘요.",
-        "ask": [
-          {
-            "en": "Who pushes the stone?",
-            "ko": "누가 돌을 밀어?"
-          },
-          {
-            "en": "What does Hedgie use?",
-            "ko": "헤지가 뭘 썼어?"
-          }
-        ],
-        "narr": {
-          "text": "A fish pushes the stone. Hedgie pins Grumble's hat.",
-          "ko": "물고기가 돌을 밀어요. 헤지가 그럼블 모자를 핀으로 꽂아 줘요.",
-          "audio": "scene_b2_u06_3_n"
-        }
+        ]
       },
       {
-        "id": "scene_b2_u06_4",
-        "desc": "The pig has reached the far end of the new -ig and -in stone rows and stands proudly beside a golden trophy cup with a star on it; Bun and Hedgie cheer; Pip hovers over the pig saying the word right at last, glowing; Beads clicks its beads. The cookie tin and the green bin stand on the last stone. In the reeds, Grumble wears his pinned-up nightcap and holds his lantern, which glows a little brighter, whispering with a small smile. Hidden in the picture: the trophy, the bin, the tin.",
+        "id": "scene_b2_u06_3",
+        "desc": "{pig} digs again and pulls out a curly yellow wig; {BUN} laughs. A tin can sits beside the hole.",
         "hidden": [
-          "win",
-          "bin",
+          "wig",
           "tin"
         ],
         "lines": [
           {
-            "who": "both",
-            "text": "The pig can win!",
-            "audio": "b2_u06_l8",
-            "ko": "돼지가 이길 수 있어!"
-          },
+            "who": "bun",
+            "text": "A wig! The pig is big.",
+            "audio": "b2_u06_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u06_4",
+        "desc": "{pig} wears the wig with the pin in it, posing; {PIP}, {BUN} and {HED} clap. A fish fin pokes out of the pond.",
+        "hidden": [
+          "fin",
+          "win"
+        ],
+        "lines": [
           {
             "who": "pip",
-            "text": "Gip... pig!",
-            "audio": "b2_u06_l9",
-            "ko": "깁… 피그! (돼지!)"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! ... Win, pig!",
-            "audio": "b2_u06_l10",
-            "ko": "쉿! … 이겨라, 돼지!"
+            "text": "The pig can not dig. The pig can win!",
+            "audio": "b2_u06_l4"
           }
-        ],
-        "ko": "돼지가 끝까지 갔어요. 트로피! 핍이 \"깁… 피그!\" 하고 바로 말해요. 그럼블도 작게 응원해요.",
-        "ask": [
-          {
-            "en": "What did the pig win?",
-            "ko": "돼지가 뭘 받았어?"
-          },
-          {
-            "en": "What does Pip say now?",
-            "ko": "핍이 이제 뭐라고 해?"
-          }
-        ],
-        "narr": {
-          "text": "The pig wins! Grumble cheers from the reeds.",
-          "ko": "돼지가 이겼어요! 그럼블이 갈대에서 응원해요.",
-          "audio": "scene_b2_u06_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "커다란 돼지한테 징검돌이 너무 작아요. 비즈가 p-i-g 를 꿰자 커다란 돌이 솟았어요. 돼지는 가발을 쓰고, 물고기가 돌을 밀고, 그럼블의 찢어진 모자는 핀으로 꽂았어요. 돼지가 끝까지 가서 이겼어요!",
-    "so_far_ko": "핍이 첫 단어 \"캣!\"을 말했어요. 그럼블의 등불이 돌을 비춰 줬어요.",
-    "goal_ko": "커다란 돼지를 건너게 하며 -ig·-in 단어를 읽어요."
+    ]
   },
   "videos": [
     {
@@ -673,5 +540,199 @@
         }
       }
     ]
+  },
+  "story_v1": {
+    "title": "The Pig and the Pin",
+    "bgm": "bgm_b2_silly",
+    "panels": [
+      {
+        "id": "scene_b2_u06_1",
+        "desc": "A big round pink pig with a curly tail stands at the start of the stepping stones, which are far too little for its feet: one hoof on a stone, the stone wobbling. Hedgie measures the pig with a long reed; Bun shakes her head; Pip, trying to say the word, has said it backwards and looks at the pig cross-eyed; Beads sits on a lily pad. Beside the bank a shovel sticks out of a freshly dug hole with dirt flying. Hidden in the picture: the pig, the big pig next to a tiny mouse, the shovel digging. Grumble does NOT appear.",
+        "hidden": [
+          "pig",
+          "big",
+          "dig"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The pig is big!",
+            "audio": "b2_u06_l1",
+            "ko": "돼지가 커!"
+          },
+          {
+            "who": "bun",
+            "text": "The pig can not go.",
+            "audio": "b2_u06_l2",
+            "ko": "돼지는 못 건너가."
+          },
+          {
+            "who": "pip",
+            "text": "Gip! Gip?",
+            "audio": "b2_u06_l3",
+            "ko": "깁! 깁?"
+          }
+        ],
+        "video": "vid_b2_u06_1",
+        "ko": "돼지가 너무 커서 돌이 흔들려요. 헤지가 갈대로 재 봐요. 핍은 \"깁!\"",
+        "ask": [
+          {
+            "en": "Is the pig big or little?",
+            "ko": "돼지는 커, 작아?"
+          },
+          {
+            "en": "What is Hedgie doing?",
+            "ko": "헤지는 뭘 하고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A big pig! The stones are too little.",
+          "ko": "커다란 돼지예요! 징검돌이 너무 작아요.",
+          "audio": "scene_b2_u06_1_n"
+        }
+      },
+      {
+        "id": "scene_b2_u06_2",
+        "desc": "Beads threads p-i-g and a BIG wide stepping stone rises out of the water with a splash — the pig hops onto it happily, now wearing a curly purple wig that floated by on the water and holding a purple fig in its mouth. Bun and Hedgie laugh; Pip claps its wings; water drops sparkle. Hidden in the picture: the pig, the purple wig, the fig. Grumble does NOT appear.",
+        "hidden": [
+          "pig",
+          "wig",
+          "fig"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/p/ /ɪ/ /g/ pig!",
+            "audio": "blend_pig__beads",
+            "pop": "pig",
+            "ko": "p-i-g 돼지!"
+          },
+          {
+            "who": "narrator",
+            "text": "Click-clack! A big stone!",
+            "audio": "b2_u06_l4",
+            "ko": "딸깍딸깍! 큰 돌!"
+          },
+          {
+            "who": "bun",
+            "text": "The pig has a wig!",
+            "audio": "b2_u06_l5",
+            "ko": "돼지가 가발을 썼어!"
+          }
+        ],
+        "video": "vid_b2_u06_2",
+        "ko": "p-i-g! 커다란 돌이 솟았어요. 돼지가 보라색 가발을 쓰고 무화과를 물었어요.",
+        "ask": [
+          {
+            "en": "What is on the pig's head?",
+            "ko": "돼지 머리에 뭐가 있어?"
+          },
+          {
+            "en": "What is in its mouth?",
+            "ko": "입에는 뭐가 있어?"
+          }
+        ],
+        "narr": {
+          "text": "A big stone! The pig wears a wig.",
+          "ko": "커다란 돌이에요! 돼지가 가발을 썼어요.",
+          "audio": "scene_b2_u06_2_n"
+        }
+      },
+      {
+        "id": "scene_b2_u06_3",
+        "desc": "A bright blue fish with one big orange fin pushes the pig's big stone along with its nose. On the bank stand a round silver cookie tin and a green trash bin. In the reeds, Grumble's striped nightcap has caught on a reed and torn; Hedgie reaches over and pins the tear together with a red-headed sewing pin while Grumble frowns and holds his lantern out of the way; Beads threads p-i-n. Hidden in the picture: the pin, the fish with the fin, the tin, the bin.",
+        "hidden": [
+          "pin",
+          "fin",
+          "tin",
+          "bin"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/p/ /ɪ/ /n/ pin!",
+            "audio": "blend_pin__beads",
+            "pop": "pin",
+            "ko": "p-i-n 핀!"
+          },
+          {
+            "who": "hedgie",
+            "text": "A pin on the hat.",
+            "audio": "b2_u06_l6",
+            "ko": "모자에 핀을 꽂아요."
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! Not my hat!",
+            "audio": "b2_u06_l7",
+            "ko": "쉿! 내 모자는 안 돼!"
+          }
+        ],
+        "ko": "지느러미 큰 물고기가 돌을 밀어요. 그럼블 모자가 찢어져서 헤지가 핀으로 꽂아 줘요.",
+        "ask": [
+          {
+            "en": "Who pushes the stone?",
+            "ko": "누가 돌을 밀어?"
+          },
+          {
+            "en": "What does Hedgie use?",
+            "ko": "헤지가 뭘 썼어?"
+          }
+        ],
+        "narr": {
+          "text": "A fish pushes the stone. Hedgie pins Grumble's hat.",
+          "ko": "물고기가 돌을 밀어요. 헤지가 그럼블 모자를 핀으로 꽂아 줘요.",
+          "audio": "scene_b2_u06_3_n"
+        }
+      },
+      {
+        "id": "scene_b2_u06_4",
+        "desc": "The pig has reached the far end of the new -ig and -in stone rows and stands proudly beside a golden trophy cup with a star on it; Bun and Hedgie cheer; Pip hovers over the pig saying the word right at last, glowing; Beads clicks its beads. The cookie tin and the green bin stand on the last stone. In the reeds, Grumble wears his pinned-up nightcap and holds his lantern, which glows a little brighter, whispering with a small smile. Hidden in the picture: the trophy, the bin, the tin.",
+        "hidden": [
+          "win",
+          "bin",
+          "tin"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "The pig can win!",
+            "audio": "b2_u06_l8",
+            "ko": "돼지가 이길 수 있어!"
+          },
+          {
+            "who": "pip",
+            "text": "Gip... pig!",
+            "audio": "b2_u06_l9",
+            "ko": "깁… 피그! (돼지!)"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! ... Win, pig!",
+            "audio": "b2_u06_l10",
+            "ko": "쉿! … 이겨라, 돼지!"
+          }
+        ],
+        "ko": "돼지가 끝까지 갔어요. 트로피! 핍이 \"깁… 피그!\" 하고 바로 말해요. 그럼블도 작게 응원해요.",
+        "ask": [
+          {
+            "en": "What did the pig win?",
+            "ko": "돼지가 뭘 받았어?"
+          },
+          {
+            "en": "What does Pip say now?",
+            "ko": "핍이 이제 뭐라고 해?"
+          }
+        ],
+        "narr": {
+          "text": "The pig wins! Grumble cheers from the reeds.",
+          "ko": "돼지가 이겼어요! 그럼블이 갈대에서 응원해요.",
+          "audio": "scene_b2_u06_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "커다란 돼지한테 징검돌이 너무 작아요. 비즈가 p-i-g 를 꿰자 커다란 돌이 솟았어요. 돼지는 가발을 쓰고, 물고기가 돌을 밀고, 그럼블의 찢어진 모자는 핀으로 꽂았어요. 돼지가 끝까지 가서 이겼어요!",
+    "so_far_ko": "핍이 첫 단어 \"캣!\"을 말했어요. 그럼블의 등불이 돌을 비춰 줬어요.",
+    "goal_ko": "커다란 돼지를 건너게 하며 -ig·-in 단어를 읽어요."
   }
 }

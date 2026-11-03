@@ -80,11 +80,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -141,195 +136,68 @@
   "story": {
     "title": "The Fox and the Box",
     "bgm": "bgm_b2_adventure",
+    "v2": true,
     "panels": [
       {
         "id": "scene_b2_u09_1",
-        "desc": "A sly orange fox with a bushy white-tipped tail has snatched Hedgie's brown cardboard box from the picnic stone and hops away across the stepping stones with it under its arm, grinning; a colorful spinning top tumbles out of the box. Hedgie runs after it with his arms out; Bun hops after it; Pip, trying to shout the word, says it backwards; Beads clings to Bun's ear. Hidden in the picture: the fox, the box, the top. Grumble does NOT appear.",
+        "desc": "{fox} drags a big box with a pop-up lid to the pond; {PIP}, {BUN} and {HED} watch curiously.",
         "hidden": [
           "fox",
-          "box",
-          "top"
+          "box"
         ],
         "lines": [
           {
-            "who": "hedgie",
-            "text": "The fox has my box!",
-            "audio": "b2_u09_l1",
-            "ko": "여우가 내 상자를 가져갔어!"
-          },
-          {
-            "who": "bun",
-            "text": "Hop, hop! The fox can hop!",
-            "audio": "b2_u09_l2",
-            "ko": "깡충깡충! 여우가 뛰어가!"
-          },
-          {
-            "who": "pip",
-            "text": "Pot! Pot?",
-            "audio": "b2_u09_l3",
-            "ko": "팟! 팟?"
+            "who": "narrator",
+            "text": "The fox has a box.",
+            "audio": "b2_u09_l1"
           }
-        ],
-        "video": "vid_b2_u09_1",
-        "ko": "여우가 상자를 들고 돌 위를 깡충깡충! 팽이가 떨어져요. 핍은 \"팟!\"",
-        "ask": [
-          {
-            "en": "What does the fox have?",
-            "ko": "여우가 뭘 가져갔어?"
-          },
-          {
-            "en": "What falls out?",
-            "ko": "뭐가 떨어졌어?"
-          }
-        ],
-        "narr": {
-          "text": "A fox takes Hedgie's box and hops away!",
-          "ko": "여우가 헤지의 상자를 들고 깡충 달아나요!",
-          "audio": "scene_b2_u09_1_n"
-        }
+        ]
       },
       {
         "id": "scene_b2_u09_2",
-        "desc": "Beads threads h-o-p and a line of new stepping stones pops up one after another; the friends hop along them after the fox — Bun, Hedgie, the cat and the puppy all mid-hop. Bun has popped a red balloon with a loud POP that makes the fox jump and look back; a mop in a bucket stands on one stone. Hidden in the picture: hopping Bun, the popping balloon, the mop. Grumble does NOT appear.",
+        "desc": "{fox} hops on top of the box; a mop and a spinning top fall out of it.",
         "hidden": [
           "hop",
-          "pop",
+          "top",
           "mop"
         ],
         "lines": [
           {
-            "who": "beads",
-            "text": "/h/ /ɑ/ /p/ hop!",
-            "audio": "blend_hop__beads",
-            "pop": "hop",
-            "ko": "h-o-p 깡충!"
-          },
-          {
-            "who": "both",
-            "text": "We like to hop!",
-            "audio": "b2_u09_l4",
-            "ko": "우린 깡충 뛰는 게 좋아!"
-          },
-          {
-            "who": "narrator",
-            "text": "Pop! Pop! The fox hops.",
-            "audio": "b2_u09_l5",
-            "ko": "펑! 펑! 여우가 깡충 뛰어요."
+            "who": "bun",
+            "text": "Hop on top!",
+            "audio": "b2_u09_l2"
           }
-        ],
-        "ko": "h-o-p! 돌이 줄줄이 솟아요. 모두 깡충 뛰며 쫓아가요. 번이 풍선을 펑! 터뜨려요.",
-        "ask": [
-          {
-            "en": "What does Bun pop?",
-            "ko": "번이 뭘 터뜨렸어?"
-          },
-          {
-            "en": "Who is hopping?",
-            "ko": "누가 깡충 뛰어?"
-          }
-        ],
-        "narr": {
-          "text": "New stones pop up. Everyone hops after the fox.",
-          "ko": "새 돌이 솟아요. 모두 여우를 쫓아 깡충 뛰어요.",
-          "audio": "scene_b2_u09_2_n"
-        }
+        ]
       },
       {
         "id": "scene_b2_u09_3",
-        "desc": "The fox has run straight into a big brown ox with curved horns standing calmly on the far bank, and the box has flown out of its arms. At the same moment Grumble bursts out of the reeds right next to the fox holding his lantern up high, shouting his loudest Shh with his cheeks puffed; the fox freezes mid-hop with its fur standing up. Beads threads b-o-x; Bun and Hedgie arrive hopping. Hidden in the picture: the ox, the fox, the box.",
+        "desc": "The lid pops open with a puff; {HED} jumps back; {PIP} flutters.",
         "hidden": [
-          "ox",
-          "fox",
-          "box"
-        ],
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "The fox and the ox!",
-            "audio": "b2_u09_l6",
-            "ko": "여우하고 황소!"
-          },
-          {
-            "who": "grumble",
-            "text": "SHH!",
-            "audio": "b2_u09_l7",
-            "ko": "쉿!!"
-          },
-          {
-            "who": "beads",
-            "text": "/b/ /ɑ/ /ks/ box!",
-            "audio": "blend_box__beads",
-            "pop": "box",
-            "ko": "b-o-x 상자!"
-          }
-        ],
-        "video": "vid_b2_u09_2",
-        "ko": "여우가 황소에 부딪혀 상자가 날아가요. 그럼블이 갈대에서 \"쉿!!\" 여우가 얼어붙어요.",
-        "ask": [
-          {
-            "en": "Who did the fox bump into?",
-            "ko": "여우가 누구와 부딪혔어?"
-          },
-          {
-            "en": "Who jumps out of the reeds?",
-            "ko": "갈대에서 누가 튀어나왔어?"
-          }
-        ],
-        "narr": {
-          "text": "The fox bumps into an ox. Grumble jumps out!",
-          "ko": "여우가 황소에 부딪혀요. 그럼블이 튀어나와요!",
-          "audio": "scene_b2_u09_3_n"
-        }
-      },
-      {
-        "id": "scene_b2_u09_4",
-        "desc": "Hedgie has his box back and the colorful top spins inside it; the fox sits nearby with its ears down, sorry, and the ox chews grass. Hedgie mops the wet stepping stone with the mop; Bun hugs the box; Pip finally says the word the right way, glowing; Beads rests on the box edge. Grumble crouches beside the box and spins the top with one claw, a real smile on his face for the first time, his lantern glowing bright on the stone. Hidden in the picture: the top, the mop, the box.",
-        "hidden": [
-          "top",
-          "mop",
-          "box"
+          "pop"
         ],
         "lines": [
           {
             "who": "hedgie",
-            "text": "We like the top!",
-            "audio": "b2_u09_l8",
-            "ko": "우린 팽이가 좋아!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh... I like it.",
-            "audio": "b2_u09_l9",
-            "ko": "쉿… 나 이거 좋아."
-          },
+            "text": "Pop!",
+            "audio": "b2_u09_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u09_4",
+        "desc": "Out of the box climbs {ox}, a huge ox, far too big for it; {fox} looks amazed. {PIP}, {BUN} and {HED} laugh.",
+        "hidden": [
+          "ox"
+        ],
+        "lines": [
           {
             "who": "pip",
-            "text": "Pot... top! Top!",
-            "audio": "b2_u09_l10",
-            "ko": "팟… 탑! 탑! (팽이!)"
+            "text": "We like the ox in the box!",
+            "audio": "b2_u09_l4"
           }
-        ],
-        "ko": "상자를 되찾았어요. 팽이가 빙글빙글. 그럼블이 팽이를 돌리며 처음으로 활짝 웃어요.",
-        "ask": [
-          {
-            "en": "What spins?",
-            "ko": "뭐가 빙글빙글 돌아?"
-          },
-          {
-            "en": "Is Grumble smiling?",
-            "ko": "그럼블이 웃고 있어?"
-          }
-        ],
-        "narr": {
-          "text": "Hedgie has his box. Grumble spins the top and smiles.",
-          "ko": "헤지가 상자를 되찾았어요. 그럼블이 팽이를 돌리며 웃어요.",
-          "audio": "scene_b2_u09_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "여우가 헤지의 상자를 들고 깡충깡충 달아나요. 비즈가 h-o-p 을 꿰고 모두 쫓아가요. 여우가 황소에 부딪히고 그럼블이 갈대에서 \"쉿!!\" 상자를 되찾고 그럼블이 팽이를 돌리며 처음 웃어요.",
-    "so_far_ko": "안개 속에서 그럼블의 등불이 길을 비춰 줬어요. 함께 수프를 먹었어요.",
-    "goal_ko": "여우에게서 상자를 되찾으며 -op·-ox 단어를 읽어요."
+    ]
   },
   "videos": [
     {
@@ -665,5 +533,198 @@
         }
       }
     ]
+  },
+  "story_v1": {
+    "title": "The Fox and the Box",
+    "bgm": "bgm_b2_adventure",
+    "panels": [
+      {
+        "id": "scene_b2_u09_1",
+        "desc": "A sly orange fox with a bushy white-tipped tail has snatched Hedgie's brown cardboard box from the picnic stone and hops away across the stepping stones with it under its arm, grinning; a colorful spinning top tumbles out of the box. Hedgie runs after it with his arms out; Bun hops after it; Pip, trying to shout the word, says it backwards; Beads clings to Bun's ear. Hidden in the picture: the fox, the box, the top. Grumble does NOT appear.",
+        "hidden": [
+          "fox",
+          "box",
+          "top"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "The fox has my box!",
+            "audio": "b2_u09_l1",
+            "ko": "여우가 내 상자를 가져갔어!"
+          },
+          {
+            "who": "bun",
+            "text": "Hop, hop! The fox can hop!",
+            "audio": "b2_u09_l2",
+            "ko": "깡충깡충! 여우가 뛰어가!"
+          },
+          {
+            "who": "pip",
+            "text": "Pot! Pot?",
+            "audio": "b2_u09_l3",
+            "ko": "팟! 팟?"
+          }
+        ],
+        "video": "vid_b2_u09_1",
+        "ko": "여우가 상자를 들고 돌 위를 깡충깡충! 팽이가 떨어져요. 핍은 \"팟!\"",
+        "ask": [
+          {
+            "en": "What does the fox have?",
+            "ko": "여우가 뭘 가져갔어?"
+          },
+          {
+            "en": "What falls out?",
+            "ko": "뭐가 떨어졌어?"
+          }
+        ],
+        "narr": {
+          "text": "A fox takes Hedgie's box and hops away!",
+          "ko": "여우가 헤지의 상자를 들고 깡충 달아나요!",
+          "audio": "scene_b2_u09_1_n"
+        }
+      },
+      {
+        "id": "scene_b2_u09_2",
+        "desc": "Beads threads h-o-p and a line of new stepping stones pops up one after another; the friends hop along them after the fox — Bun, Hedgie, the cat and the puppy all mid-hop. Bun has popped a red balloon with a loud POP that makes the fox jump and look back; a mop in a bucket stands on one stone. Hidden in the picture: hopping Bun, the popping balloon, the mop. Grumble does NOT appear.",
+        "hidden": [
+          "hop",
+          "pop",
+          "mop"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/h/ /ɑ/ /p/ hop!",
+            "audio": "blend_hop__beads",
+            "pop": "hop",
+            "ko": "h-o-p 깡충!"
+          },
+          {
+            "who": "both",
+            "text": "We like to hop!",
+            "audio": "b2_u09_l4",
+            "ko": "우린 깡충 뛰는 게 좋아!"
+          },
+          {
+            "who": "narrator",
+            "text": "Pop! Pop! The fox hops.",
+            "audio": "b2_u09_l5",
+            "ko": "펑! 펑! 여우가 깡충 뛰어요."
+          }
+        ],
+        "ko": "h-o-p! 돌이 줄줄이 솟아요. 모두 깡충 뛰며 쫓아가요. 번이 풍선을 펑! 터뜨려요.",
+        "ask": [
+          {
+            "en": "What does Bun pop?",
+            "ko": "번이 뭘 터뜨렸어?"
+          },
+          {
+            "en": "Who is hopping?",
+            "ko": "누가 깡충 뛰어?"
+          }
+        ],
+        "narr": {
+          "text": "New stones pop up. Everyone hops after the fox.",
+          "ko": "새 돌이 솟아요. 모두 여우를 쫓아 깡충 뛰어요.",
+          "audio": "scene_b2_u09_2_n"
+        }
+      },
+      {
+        "id": "scene_b2_u09_3",
+        "desc": "The fox has run straight into a big brown ox with curved horns standing calmly on the far bank, and the box has flown out of its arms. At the same moment Grumble bursts out of the reeds right next to the fox holding his lantern up high, shouting his loudest Shh with his cheeks puffed; the fox freezes mid-hop with its fur standing up. Beads threads b-o-x; Bun and Hedgie arrive hopping. Hidden in the picture: the ox, the fox, the box.",
+        "hidden": [
+          "ox",
+          "fox",
+          "box"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The fox and the ox!",
+            "audio": "b2_u09_l6",
+            "ko": "여우하고 황소!"
+          },
+          {
+            "who": "grumble",
+            "text": "SHH!",
+            "audio": "b2_u09_l7",
+            "ko": "쉿!!"
+          },
+          {
+            "who": "beads",
+            "text": "/b/ /ɑ/ /ks/ box!",
+            "audio": "blend_box__beads",
+            "pop": "box",
+            "ko": "b-o-x 상자!"
+          }
+        ],
+        "video": "vid_b2_u09_2",
+        "ko": "여우가 황소에 부딪혀 상자가 날아가요. 그럼블이 갈대에서 \"쉿!!\" 여우가 얼어붙어요.",
+        "ask": [
+          {
+            "en": "Who did the fox bump into?",
+            "ko": "여우가 누구와 부딪혔어?"
+          },
+          {
+            "en": "Who jumps out of the reeds?",
+            "ko": "갈대에서 누가 튀어나왔어?"
+          }
+        ],
+        "narr": {
+          "text": "The fox bumps into an ox. Grumble jumps out!",
+          "ko": "여우가 황소에 부딪혀요. 그럼블이 튀어나와요!",
+          "audio": "scene_b2_u09_3_n"
+        }
+      },
+      {
+        "id": "scene_b2_u09_4",
+        "desc": "Hedgie has his box back and the colorful top spins inside it; the fox sits nearby with its ears down, sorry, and the ox chews grass. Hedgie mops the wet stepping stone with the mop; Bun hugs the box; Pip finally says the word the right way, glowing; Beads rests on the box edge. Grumble crouches beside the box and spins the top with one claw, a real smile on his face for the first time, his lantern glowing bright on the stone. Hidden in the picture: the top, the mop, the box.",
+        "hidden": [
+          "top",
+          "mop",
+          "box"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "We like the top!",
+            "audio": "b2_u09_l8",
+            "ko": "우린 팽이가 좋아!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh... I like it.",
+            "audio": "b2_u09_l9",
+            "ko": "쉿… 나 이거 좋아."
+          },
+          {
+            "who": "pip",
+            "text": "Pot... top! Top!",
+            "audio": "b2_u09_l10",
+            "ko": "팟… 탑! 탑! (팽이!)"
+          }
+        ],
+        "ko": "상자를 되찾았어요. 팽이가 빙글빙글. 그럼블이 팽이를 돌리며 처음으로 활짝 웃어요.",
+        "ask": [
+          {
+            "en": "What spins?",
+            "ko": "뭐가 빙글빙글 돌아?"
+          },
+          {
+            "en": "Is Grumble smiling?",
+            "ko": "그럼블이 웃고 있어?"
+          }
+        ],
+        "narr": {
+          "text": "Hedgie has his box. Grumble spins the top and smiles.",
+          "ko": "헤지가 상자를 되찾았어요. 그럼블이 팽이를 돌리며 웃어요.",
+          "audio": "scene_b2_u09_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "여우가 헤지의 상자를 들고 깡충깡충 달아나요. 비즈가 h-o-p 을 꿰고 모두 쫓아가요. 여우가 황소에 부딪히고 그럼블이 갈대에서 \"쉿!!\" 상자를 되찾고 그럼블이 팽이를 돌리며 처음 웃어요.",
+    "so_far_ko": "안개 속에서 그럼블의 등불이 길을 비춰 줬어요. 함께 수프를 먹었어요.",
+    "goal_ko": "여우에게서 상자를 되찾으며 -op·-ox 단어를 읽어요."
   }
 }

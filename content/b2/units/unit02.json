@@ -81,11 +81,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "check",
           "title": "Unit Check"
         }
@@ -143,196 +138,68 @@
   "story": {
     "title": "The Cap and the Bag",
     "bgm": "bgm_b2_silly",
+    "v2": true,
     "panels": [
       {
         "id": "scene_b2_u02_1",
-        "desc": "A windy day at the Word Pond: leaves and reeds bend in the gust. Bun's blue baseball cap and Hedgie's red backpack have been blown off the stepping stones into the pond and float away on the water, the cap sitting on top of the bag; an unrolled paper map slides out of the bag's pocket. Hedgie reaches out from the stones with both paws in despair; Bun holds her ears; Pip tries to shout the word but says it backwards, feathers blown sideways; Beads clings to a reed. Hidden in the picture: the cap, the bag, the map. Grumble does NOT appear.",
+        "desc": "{HED} wears a red cap and carries a big bag with a paper tag. {PIP} and {BUN} walk beside him on the jetty.",
         "hidden": [
           "cap",
           "bag",
+          "tag"
+        ],
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Hedgie has a cap and a bag.",
+            "audio": "b2_u02_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u02_2",
+        "desc": "Wind blows the cap off Hedgie's head into the pond; it floats like a boat. A map falls out of the bag.",
+        "hidden": [
           "map"
         ],
         "lines": [
           {
             "who": "hedgie",
-            "text": "My bag!",
-            "audio": "b2_u02_l1",
-            "ko": "내 가방!"
-          },
-          {
-            "who": "bun",
-            "text": "The cap is on the bag.",
-            "audio": "b2_u02_l2",
-            "ko": "모자가 가방 위에 있어."
-          },
-          {
-            "who": "pip",
-            "text": "Pac! Pac?",
-            "audio": "b2_u02_l3",
-            "ko": "팍! 팍?"
+            "text": "My cap is in the pond!",
+            "audio": "b2_u02_l2"
           }
-        ],
-        "video": "vid_b2_u02_1",
-        "ko": "바람이 쌩! 모자와 가방이 연못에 떠내려가요. 지도도 흘러나와요. 핍은 \"팍!\"",
-        "ask": [
-          {
-            "en": "What is floating away?",
-            "ko": "뭐가 떠내려가?"
-          },
-          {
-            "en": "Is it windy?",
-            "ko": "바람이 불어?"
-          }
-        ],
-        "narr": {
-          "text": "A big wind! The cap and the bag float away.",
-          "ko": "바람이 쌩! 모자와 가방이 떠내려가요.",
-          "audio": "scene_b2_u02_1_n"
-        }
-      },
-      {
-        "id": "scene_b2_u02_2",
-        "desc": "Beads threads three beads together and a new stepping stone rises right under the floating cap, lifting it out of the water; Bun hops onto the stone and grabs the cap. On the bank the orange cat is curled up having a nap on the green mat, a snore bubble over its head; a silver water tap on a wooden post drips beside it; the paper map lies drying on a rock. Pip claps its wings. Hidden in the picture: the cap, the napping cat, the tap, the map. Grumble does NOT appear.",
-        "hidden": [
-          "cap",
-          "nap",
-          "tap",
-          "map"
-        ],
-        "lines": [
-          {
-            "who": "beads",
-            "text": "/k/ /æ/ /p/ cap!",
-            "audio": "blend_cap__beads",
-            "pop": "cap",
-            "ko": "c-a-p 야구모자!"
-          },
-          {
-            "who": "narrator",
-            "text": "Click-clack! The cap!",
-            "audio": "b2_u02_l4",
-            "ko": "딸깍딸깍! 모자다!"
-          },
-          {
-            "who": "bun",
-            "text": "A map and a tap!",
-            "audio": "b2_u02_l5",
-            "ko": "지도하고 수도꼭지!"
-          }
-        ],
-        "ko": "비즈가 c-a-p 를 꿰자 모자 밑에서 돌이 솟아요. 고양이는 낮잠, 수도꼭지에서 물이 똑.",
-        "ask": [
-          {
-            "en": "What is the cat doing?",
-            "ko": "고양이는 뭘 해?"
-          },
-          {
-            "en": "What drips?",
-            "ko": "뭐가 똑똑 떨어져?"
-          }
-        ],
-        "narr": {
-          "text": "A stone lifts the cap. The cat naps on the mat.",
-          "ko": "돌이 모자를 들어 올려요. 고양이는 매트에서 낮잠을 자요.",
-          "audio": "scene_b2_u02_2_n"
-        }
+        ]
       },
       {
         "id": "scene_b2_u02_3",
-        "desc": "The red backpack drifts toward the tall reeds. A happy brown dog swims behind it pushing it with its nose, tail wagging with motion lines; a blank paper tag and an old cleaning rag hang from the bag's strap. Beads threads b-a-g from a lily pad. In the reeds, Grumble has hooked the bag's strap with the pole of his lantern and lifts it out of the water, frowning but helping; his lantern glows warm. Hidden in the picture: the bag, the rag, the wagging dog, the tag.",
+        "desc": "{dog} splashes into the pond, grabs the cap in its mouth and swims back, tail wagging. {PIP}, {BUN} and {HED} cheer.",
         "hidden": [
-          "bag",
-          "rag",
-          "wag",
-          "tag"
-        ],
-        "lines": [
-          {
-            "who": "beads",
-            "text": "/b/ /æ/ /g/ bag!",
-            "audio": "blend_bag__beads",
-            "pop": "bag",
-            "ko": "b-a-g 가방!"
-          },
-          {
-            "who": "narrator",
-            "text": "Wag, wag! The bag!",
-            "audio": "b2_u02_l6",
-            "ko": "살랑살랑! 가방이다!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! A bag!",
-            "audio": "b2_u02_l7",
-            "ko": "쉿! 가방이네!"
-          }
-        ],
-        "video": "vid_b2_u02_2",
-        "ko": "개가 꼬리를 흔들며 가방을 밀어요. 그럼블이 등불 막대로 가방을 건져 올려요.",
-        "ask": [
-          {
-            "en": "Who pushes the bag?",
-            "ko": "누가 가방을 밀어?"
-          },
-          {
-            "en": "Who lifts the bag?",
-            "ko": "누가 가방을 들어 올려?"
-          }
-        ],
-        "narr": {
-          "text": "A dog pushes the bag. Grumble lifts it out.",
-          "ko": "개가 가방을 밀어요. 그럼블이 가방을 건져 올려요.",
-          "audio": "scene_b2_u02_3_n"
-        }
-      },
-      {
-        "id": "scene_b2_u02_4",
-        "desc": "Hedgie hugs his wet red backpack on the new stepping stones, the paper tag dangling from it; the stone rows now reach further into the pond. Grumble stands half out of the reeds wearing Bun's blue baseball cap on top of his striped nightcap, looking grumpy and a little pleased, lantern glowing; Bun points at him and laughs; Pip hops on Hedgie's bag; Beads rides on the cap's brim. Hidden in the picture: the cap on Grumble, the tag on the bag.",
-        "hidden": [
-          "cap",
-          "tag"
+          "wag"
         ],
         "lines": [
           {
             "who": "bun",
-            "text": "The cap is on Grumble!",
-            "audio": "b2_u02_l8",
-            "ko": "그럼블이 모자를 썼어!"
-          },
-          {
-            "who": "grumble",
-            "text": "Shh! It is my cap!",
-            "audio": "b2_u02_l9",
-            "ko": "쉿! 내 모자야!"
-          },
+            "text": "A dog! Wag, wag!",
+            "audio": "b2_u02_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b2_u02_4",
+        "desc": "{dog} sits with the wet cap on its own head, proud; {HED} laughs and taps the dog. {PIP} naps in the bag.",
+        "hidden": [
+          "nap",
+          "tap"
+        ],
+        "lines": [
           {
             "who": "pip",
-            "text": "Pac!",
-            "audio": "b2_u02_l10",
-            "ko": "팍!"
+            "text": "The cap is on the dog!",
+            "audio": "b2_u02_l4"
           }
-        ],
-        "ko": "헤지가 젖은 가방을 안아요. 그럼블은 잠옷 모자 위에 번의 모자를 썼어요! 핍은 또 \"팍!\"",
-        "ask": [
-          {
-            "en": "What is on Grumble's head?",
-            "ko": "그럼블 머리에 뭐가 있어?"
-          },
-          {
-            "en": "Is Hedgie happy?",
-            "ko": "헤지는 기뻐?"
-          }
-        ],
-        "narr": {
-          "text": "Hedgie hugs his bag. Grumble has Bun's cap!",
-          "ko": "헤지가 가방을 안아요. 그럼블이 번의 모자를 썼어요!",
-          "audio": "scene_b2_u02_4_n"
-        }
+        ]
       }
-    ],
-    "synopsis_ko": "바람에 번의 모자와 헤지의 가방이 연못에 떠내려가요. 비즈가 c-a-p, b-a-g 를 꿰자 돌이 솟아 모자를 건졌어요. 개가 가방을 밀고 그럼블이 건져 줬어요. 그런데 그럼블이 모자를 쓰고 있네요!",
-    "so_far_ko": "비즈가 구슬을 꿰어 첫 징검돌을 만들었어요. 핍은 \"캣\"을 거꾸로 \"탁!\"이라고 했어요.",
-    "goal_ko": "떠내려간 모자와 가방을 되찾고 -ap·-ag 단어를 읽어요."
+    ]
   },
   "videos": [
     {
@@ -669,5 +536,199 @@
         }
       }
     ]
+  },
+  "story_v1": {
+    "title": "The Cap and the Bag",
+    "bgm": "bgm_b2_silly",
+    "panels": [
+      {
+        "id": "scene_b2_u02_1",
+        "desc": "A windy day at the Word Pond: leaves and reeds bend in the gust. Bun's blue baseball cap and Hedgie's red backpack have been blown off the stepping stones into the pond and float away on the water, the cap sitting on top of the bag; an unrolled paper map slides out of the bag's pocket. Hedgie reaches out from the stones with both paws in despair; Bun holds her ears; Pip tries to shout the word but says it backwards, feathers blown sideways; Beads clings to a reed. Hidden in the picture: the cap, the bag, the map. Grumble does NOT appear.",
+        "hidden": [
+          "cap",
+          "bag",
+          "map"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "My bag!",
+            "audio": "b2_u02_l1",
+            "ko": "내 가방!"
+          },
+          {
+            "who": "bun",
+            "text": "The cap is on the bag.",
+            "audio": "b2_u02_l2",
+            "ko": "모자가 가방 위에 있어."
+          },
+          {
+            "who": "pip",
+            "text": "Pac! Pac?",
+            "audio": "b2_u02_l3",
+            "ko": "팍! 팍?"
+          }
+        ],
+        "video": "vid_b2_u02_1",
+        "ko": "바람이 쌩! 모자와 가방이 연못에 떠내려가요. 지도도 흘러나와요. 핍은 \"팍!\"",
+        "ask": [
+          {
+            "en": "What is floating away?",
+            "ko": "뭐가 떠내려가?"
+          },
+          {
+            "en": "Is it windy?",
+            "ko": "바람이 불어?"
+          }
+        ],
+        "narr": {
+          "text": "A big wind! The cap and the bag float away.",
+          "ko": "바람이 쌩! 모자와 가방이 떠내려가요.",
+          "audio": "scene_b2_u02_1_n"
+        }
+      },
+      {
+        "id": "scene_b2_u02_2",
+        "desc": "Beads threads three beads together and a new stepping stone rises right under the floating cap, lifting it out of the water; Bun hops onto the stone and grabs the cap. On the bank the orange cat is curled up having a nap on the green mat, a snore bubble over its head; a silver water tap on a wooden post drips beside it; the paper map lies drying on a rock. Pip claps its wings. Hidden in the picture: the cap, the napping cat, the tap, the map. Grumble does NOT appear.",
+        "hidden": [
+          "cap",
+          "nap",
+          "tap",
+          "map"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/k/ /æ/ /p/ cap!",
+            "audio": "blend_cap__beads",
+            "pop": "cap",
+            "ko": "c-a-p 야구모자!"
+          },
+          {
+            "who": "narrator",
+            "text": "Click-clack! The cap!",
+            "audio": "b2_u02_l4",
+            "ko": "딸깍딸깍! 모자다!"
+          },
+          {
+            "who": "bun",
+            "text": "A map and a tap!",
+            "audio": "b2_u02_l5",
+            "ko": "지도하고 수도꼭지!"
+          }
+        ],
+        "ko": "비즈가 c-a-p 를 꿰자 모자 밑에서 돌이 솟아요. 고양이는 낮잠, 수도꼭지에서 물이 똑.",
+        "ask": [
+          {
+            "en": "What is the cat doing?",
+            "ko": "고양이는 뭘 해?"
+          },
+          {
+            "en": "What drips?",
+            "ko": "뭐가 똑똑 떨어져?"
+          }
+        ],
+        "narr": {
+          "text": "A stone lifts the cap. The cat naps on the mat.",
+          "ko": "돌이 모자를 들어 올려요. 고양이는 매트에서 낮잠을 자요.",
+          "audio": "scene_b2_u02_2_n"
+        }
+      },
+      {
+        "id": "scene_b2_u02_3",
+        "desc": "The red backpack drifts toward the tall reeds. A happy brown dog swims behind it pushing it with its nose, tail wagging with motion lines; a blank paper tag and an old cleaning rag hang from the bag's strap. Beads threads b-a-g from a lily pad. In the reeds, Grumble has hooked the bag's strap with the pole of his lantern and lifts it out of the water, frowning but helping; his lantern glows warm. Hidden in the picture: the bag, the rag, the wagging dog, the tag.",
+        "hidden": [
+          "bag",
+          "rag",
+          "wag",
+          "tag"
+        ],
+        "lines": [
+          {
+            "who": "beads",
+            "text": "/b/ /æ/ /g/ bag!",
+            "audio": "blend_bag__beads",
+            "pop": "bag",
+            "ko": "b-a-g 가방!"
+          },
+          {
+            "who": "narrator",
+            "text": "Wag, wag! The bag!",
+            "audio": "b2_u02_l6",
+            "ko": "살랑살랑! 가방이다!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! A bag!",
+            "audio": "b2_u02_l7",
+            "ko": "쉿! 가방이네!"
+          }
+        ],
+        "video": "vid_b2_u02_2",
+        "ko": "개가 꼬리를 흔들며 가방을 밀어요. 그럼블이 등불 막대로 가방을 건져 올려요.",
+        "ask": [
+          {
+            "en": "Who pushes the bag?",
+            "ko": "누가 가방을 밀어?"
+          },
+          {
+            "en": "Who lifts the bag?",
+            "ko": "누가 가방을 들어 올려?"
+          }
+        ],
+        "narr": {
+          "text": "A dog pushes the bag. Grumble lifts it out.",
+          "ko": "개가 가방을 밀어요. 그럼블이 가방을 건져 올려요.",
+          "audio": "scene_b2_u02_3_n"
+        }
+      },
+      {
+        "id": "scene_b2_u02_4",
+        "desc": "Hedgie hugs his wet red backpack on the new stepping stones, the paper tag dangling from it; the stone rows now reach further into the pond. Grumble stands half out of the reeds wearing Bun's blue baseball cap on top of his striped nightcap, looking grumpy and a little pleased, lantern glowing; Bun points at him and laughs; Pip hops on Hedgie's bag; Beads rides on the cap's brim. Hidden in the picture: the cap on Grumble, the tag on the bag.",
+        "hidden": [
+          "cap",
+          "tag"
+        ],
+        "lines": [
+          {
+            "who": "bun",
+            "text": "The cap is on Grumble!",
+            "audio": "b2_u02_l8",
+            "ko": "그럼블이 모자를 썼어!"
+          },
+          {
+            "who": "grumble",
+            "text": "Shh! It is my cap!",
+            "audio": "b2_u02_l9",
+            "ko": "쉿! 내 모자야!"
+          },
+          {
+            "who": "pip",
+            "text": "Pac!",
+            "audio": "b2_u02_l10",
+            "ko": "팍!"
+          }
+        ],
+        "ko": "헤지가 젖은 가방을 안아요. 그럼블은 잠옷 모자 위에 번의 모자를 썼어요! 핍은 또 \"팍!\"",
+        "ask": [
+          {
+            "en": "What is on Grumble's head?",
+            "ko": "그럼블 머리에 뭐가 있어?"
+          },
+          {
+            "en": "Is Hedgie happy?",
+            "ko": "헤지는 기뻐?"
+          }
+        ],
+        "narr": {
+          "text": "Hedgie hugs his bag. Grumble has Bun's cap!",
+          "ko": "헤지가 가방을 안아요. 그럼블이 번의 모자를 썼어요!",
+          "audio": "scene_b2_u02_4_n"
+        }
+      }
+    ],
+    "synopsis_ko": "바람에 번의 모자와 헤지의 가방이 연못에 떠내려가요. 비즈가 c-a-p, b-a-g 를 꿰자 돌이 솟아 모자를 건졌어요. 개가 가방을 밀고 그럼블이 건져 줬어요. 그런데 그럼블이 모자를 쓰고 있네요!",
+    "so_far_ko": "비즈가 구슬을 꿰어 첫 징검돌을 만들었어요. 핍은 \"캣\"을 거꾸로 \"탁!\"이라고 했어요.",
+    "goal_ko": "떠내려간 모자와 가방을 되찾고 -ap·-ag 단어를 읽어요."
   }
 }

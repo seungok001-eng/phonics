@@ -1,6 +1,6 @@
 {
   "unit": 11,
-  "title": "The Song Tree Sings",
+  "title": "The Castle Party",
   "title_ko": "노래 나무가 노래해요",
   "vowel": null,
   "families": [],
@@ -339,11 +339,6 @@
           "title": "Story"
         },
         {
-          "type": "story",
-          "title": "Story",
-          "half": 2
-        },
-        {
           "type": "review_bingo",
           "title": "Bingo"
         },
@@ -361,6 +356,189 @@
     }
   ],
   "story": {
+    "title": "The Castle Party",
+    "bgm": "bgm_b4_finale",
+    "v2": true,
+    "panels": [
+      {
+        "id": "scene_b4_u11_1",
+        "desc": "The castle courtyard lit with lanterns; {PIP}, {BUN}, {HED} and {FAIRY} set a table with a cake, a tray and a bowl.",
+        "hidden": [
+          "cake",
+          "tray",
+          "bowl"
+        ],
+        "lines": [
+          {
+            "who": "both",
+            "text": "A castle party!",
+            "audio": "b4_u11_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u11_2",
+        "desc": "Guests arrive: {snake} in a cape, {mule} with a flute, {goat} in a coat, {mouse} with a boot. {HED} waves.",
+        "hidden": [
+          "cape",
+          "flute",
+          "coat",
+          "boot"
+        ],
+        "lines": [
+          {
+            "who": "hedgie",
+            "text": "Take a seat, everyone!",
+            "audio": "b4_u11_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u11_3",
+        "desc": "{GRUMBLE} arrives riding the garden train, lantern in paw, half asleep; everyone laughs kindly.",
+        "hidden": [
+          "train"
+        ],
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Shh... I came by train.",
+            "audio": "b4_u11_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u11_4",
+        "desc": "Everyone dances under the stars; {FAIRY} makes the fountain glow; {GRUMBLE} dozes on the couch with {PIP} on his nose.",
+        "hidden": [
+          "star",
+          "couch"
+        ],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "We like this day!",
+            "audio": "b4_u11_l4"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid_b4_u11_1",
+      "from": "scene_b4_u11_3",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: four big golden music notes fly out of the singing baby bird into the giant tree's trunk, the tree lights up, green leaves and colorful flowers burst out across its branches, golden notes swirl, the friends sing and the raccoon beats his drum. Camera slowly pulls back to show the whole tree. Joyful, festive, child-friendly. No text."
+    },
+    {
+      "id": "vid_b4_u11_2",
+      "from": "scene_b4_u11_4",
+      "seconds": 8,
+      "prompt": "Gentle picture-book animation: night under the glowing tree, golden notes drift like fireflies, the moon and stars twinkle, the old raccoon sleeps hugging his drum with a smile, the rabbit puts a finger to her lips, the baby bird sings softly on a branch. Camera still. Calm, warm, child-friendly. No text."
+    }
+  ],
+  "storybook": {
+    "pages": [
+      {
+        "id": "sb4_u11_1",
+        "desc": "A bright morning: the big red toy train chugs down a winding road from the castle hill toward the middle of the land with everyone aboard, Grumble in the last carriage hugging his drum; along the road the goat in its red coat, the seal in a pond, the jay on a hay bale and the mouse in a yellow boot wave. No letters anywhere. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face; Pip the little yellow bird, fluttering close to the others.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "Choo, choo! Ride the train!",
+            "audio": "sb4_u11_1_1",
+            "ko": "칙칙폭폭! 기차를 타요!"
+          },
+          {
+            "who": "hedgie",
+            "text": "Look! The goat and the seal!",
+            "audio": "sb4_u11_1_2",
+            "ko": "봐! 염소랑 물개야!"
+          },
+          {
+            "who": "pip",
+            "text": "Train, road, goat, seal!",
+            "audio": "sb4_u11_1_3",
+            "ko": "기차, 길, 염소, 물개!"
+          }
+        ],
+        "task": "Find train, road, goat, seal!",
+        "task_ko": "기차·길·염소·물개를 찾아요",
+        "ko": "모두 기차를 타고 노래 나무로 가요. 길가의 친구들이 손을 흔들어요.",
+        "narr": {
+          "text": "The train rolls to the Song Tree. All wave!",
+          "ko": "기차가 노래 나무로 달려가요. 모두 손을 흔들어요!",
+          "audio": "sb4_u11_1_n"
+        }
+      },
+      {
+        "id": "sb4_u11_2",
+        "desc": "Sunset at the giant Song Tree on its green hill: Pip sings and four big golden music notes fly into the hollows of the trunk; the tree bursts into green leaves and colorful flowers, bees buzz, and golden notes swirl as the tree sings; everyone sings together and Grumble beats his drum with a huge grin. No letters anywhere. Also clearly visible in the picture (each character only once): Bun the white rabbit in green boots, talking and pointing; Hedgie the orange hedgehog, talking with a surprised happy face.",
+        "lines": [
+          {
+            "who": "bun",
+            "text": "Sing, Pip! Sing!",
+            "audio": "sb4_u11_2_1",
+            "ko": "노래해, 핍! 노래해!"
+          },
+          {
+            "who": "narrator",
+            "text": "The Song Tree can sing!",
+            "audio": "sb4_u11_2_2",
+            "ko": "노래 나무가 노래해요!"
+          },
+          {
+            "who": "both",
+            "text": "Pop! Pop! Phonics!",
+            "audio": "sb4_u11_2_3",
+            "ko": "팝! 팝! 파닉스!"
+          }
+        ],
+        "task": "Find the leaf and the bee!",
+        "task_ko": "잎과 벌을 찾아요",
+        "ko": "핍의 노래로 음표 넷이 나무에 들어가요. 노래 나무가 다시 노래하고 모두 함께 불러요.",
+        "narr": {
+          "text": "Pip sings and the Song Tree blooms and sings too!",
+          "ko": "핍이 노래하자 노래 나무에 꽃이 피고 함께 노래해요!",
+          "audio": "sb4_u11_2_n"
+        }
+      },
+      {
+        "id": "sb4_u11_3",
+        "desc": "Night under the softly glowing Song Tree with golden notes drifting like fireflies, a big moon and many stars; Grumble sleeps against the trunk hugging his drum with a happy smile; Bun puts a finger to her lips; Pip sings softly on a low branch. No letters anywhere.",
+        "lines": [
+          {
+            "who": "narrator",
+            "text": "The moon is out. Shh...",
+            "audio": "sb4_u11_3_1",
+            "ko": "달이 떴어요. 쉿…"
+          },
+          {
+            "who": "bun",
+            "text": "Shh! Sleep, Grumble.",
+            "audio": "sb4_u11_3_2",
+            "ko": "쉿! 잘 자, 그럼블."
+          },
+          {
+            "who": "grumble",
+            "text": "Zzz... boom... zzz...",
+            "audio": "sb4_u11_3_3",
+            "ko": "쿨… 쿵… 쿨…"
+          }
+        ],
+        "task": "Find the moon and the stars!",
+        "task_ko": "달과 별을 찾아요",
+        "ko": "밤, 노래 나무 아래에서 그럼블이 북을 안고 잠들었어요. 이번엔 번이 \"쉿!\"",
+        "narr": {
+          "text": "Night. Grumble sleeps under the singing tree. Shh.",
+          "ko": "밤이에요. 그럼블이 노래하는 나무 아래 잠들어요. 쉿.",
+          "audio": "sb4_u11_3_n"
+        }
+      }
+    ]
+  },
+  "story_v1": {
     "title": "The Song Tree Sings",
     "bgm": "bgm_b4_finale",
     "panels": [
@@ -556,119 +734,5 @@
     "synopsis_ko": "모두 커다래진 장난감 기차를 타고 성에서 내려와 소리 나라 한가운데로 달려요. 해 질 무렵 노래 나무에 닿았어요. 핍이 노래하자 금빛 음표 넷이 나무로 날아들고 노래 나무가 다시 노래해요! 모두 함께 주제가를 부르고 그럼블은 신나게 북을 쳐요. 밤에는 \"쉿!\" — 이번엔 친구들이 잠든 그럼블에게 해 줘요.",
     "so_far_ko": "꼭대기 방에서 노래 조각 넷을 찾았어요. 창밖 멀리 노래 나무가 보였어요.",
     "goal_ko": "모음 짝·ar·or 단어를 복습하고 노래 나무가 다시 노래하는 것을 봐요."
-  },
-  "videos": [
-    {
-      "id": "vid_b4_u11_1",
-      "from": "scene_b4_u11_3",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: four big golden music notes fly out of the singing baby bird into the giant tree's trunk, the tree lights up, green leaves and colorful flowers burst out across its branches, golden notes swirl, the friends sing and the raccoon beats his drum. Camera slowly pulls back to show the whole tree. Joyful, festive, child-friendly. No text."
-    },
-    {
-      "id": "vid_b4_u11_2",
-      "from": "scene_b4_u11_4",
-      "seconds": 8,
-      "prompt": "Gentle picture-book animation: night under the glowing tree, golden notes drift like fireflies, the moon and stars twinkle, the old raccoon sleeps hugging his drum with a smile, the rabbit puts a finger to her lips, the baby bird sings softly on a branch. Camera still. Calm, warm, child-friendly. No text."
-    }
-  ],
-  "storybook": {
-    "pages": [
-      {
-        "id": "sb4_u11_1",
-        "desc": "A bright morning: the big red toy train chugs down a winding road from the castle hill toward the middle of the land with everyone aboard, Grumble in the last carriage hugging his drum; along the road the goat in its red coat, the seal in a pond, the jay on a hay bale and the mouse in a yellow boot wave. No letters anywhere. Also clearly visible in the picture (each character only once): Hedgie the orange hedgehog, talking with a surprised happy face; Pip the little yellow bird, fluttering close to the others.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "Choo, choo! Ride the train!",
-            "audio": "sb4_u11_1_1",
-            "ko": "칙칙폭폭! 기차를 타요!"
-          },
-          {
-            "who": "hedgie",
-            "text": "Look! The goat and the seal!",
-            "audio": "sb4_u11_1_2",
-            "ko": "봐! 염소랑 물개야!"
-          },
-          {
-            "who": "pip",
-            "text": "Train, road, goat, seal!",
-            "audio": "sb4_u11_1_3",
-            "ko": "기차, 길, 염소, 물개!"
-          }
-        ],
-        "task": "Find train, road, goat, seal!",
-        "task_ko": "기차·길·염소·물개를 찾아요",
-        "ko": "모두 기차를 타고 노래 나무로 가요. 길가의 친구들이 손을 흔들어요.",
-        "narr": {
-          "text": "The train rolls to the Song Tree. All wave!",
-          "ko": "기차가 노래 나무로 달려가요. 모두 손을 흔들어요!",
-          "audio": "sb4_u11_1_n"
-        }
-      },
-      {
-        "id": "sb4_u11_2",
-        "desc": "Sunset at the giant Song Tree on its green hill: Pip sings and four big golden music notes fly into the hollows of the trunk; the tree bursts into green leaves and colorful flowers, bees buzz, and golden notes swirl as the tree sings; everyone sings together and Grumble beats his drum with a huge grin. No letters anywhere. Also clearly visible in the picture (each character only once): Bun the white rabbit in green boots, talking and pointing; Hedgie the orange hedgehog, talking with a surprised happy face.",
-        "lines": [
-          {
-            "who": "bun",
-            "text": "Sing, Pip! Sing!",
-            "audio": "sb4_u11_2_1",
-            "ko": "노래해, 핍! 노래해!"
-          },
-          {
-            "who": "narrator",
-            "text": "The Song Tree can sing!",
-            "audio": "sb4_u11_2_2",
-            "ko": "노래 나무가 노래해요!"
-          },
-          {
-            "who": "both",
-            "text": "Pop! Pop! Phonics!",
-            "audio": "sb4_u11_2_3",
-            "ko": "팝! 팝! 파닉스!"
-          }
-        ],
-        "task": "Find the leaf and the bee!",
-        "task_ko": "잎과 벌을 찾아요",
-        "ko": "핍의 노래로 음표 넷이 나무에 들어가요. 노래 나무가 다시 노래하고 모두 함께 불러요.",
-        "narr": {
-          "text": "Pip sings and the Song Tree blooms and sings too!",
-          "ko": "핍이 노래하자 노래 나무에 꽃이 피고 함께 노래해요!",
-          "audio": "sb4_u11_2_n"
-        }
-      },
-      {
-        "id": "sb4_u11_3",
-        "desc": "Night under the softly glowing Song Tree with golden notes drifting like fireflies, a big moon and many stars; Grumble sleeps against the trunk hugging his drum with a happy smile; Bun puts a finger to her lips; Pip sings softly on a low branch. No letters anywhere.",
-        "lines": [
-          {
-            "who": "narrator",
-            "text": "The moon is out. Shh...",
-            "audio": "sb4_u11_3_1",
-            "ko": "달이 떴어요. 쉿…"
-          },
-          {
-            "who": "bun",
-            "text": "Shh! Sleep, Grumble.",
-            "audio": "sb4_u11_3_2",
-            "ko": "쉿! 잘 자, 그럼블."
-          },
-          {
-            "who": "grumble",
-            "text": "Zzz... boom... zzz...",
-            "audio": "sb4_u11_3_3",
-            "ko": "쿨… 쿵… 쿨…"
-          }
-        ],
-        "task": "Find the moon and the stars!",
-        "task_ko": "달과 별을 찾아요",
-        "ko": "밤, 노래 나무 아래에서 그럼블이 북을 안고 잠들었어요. 이번엔 번이 \"쉿!\"",
-        "narr": {
-          "text": "Night. Grumble sleeps under the singing tree. Shh.",
-          "ko": "밤이에요. 그럼블이 노래하는 나무 아래 잠들어요. 쉿.",
-          "audio": "sb4_u11_3_n"
-        }
-      }
-    ]
   }
 }

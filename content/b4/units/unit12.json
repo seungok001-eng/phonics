@@ -1,6 +1,6 @@
 {
   "unit": 12,
-  "title": "The Song Tree Show",
+  "title": "The Castle Show",
   "title_ko": "노래 나무 쇼",
   "vowel": null,
   "families": [],
@@ -663,8 +663,8 @@
       "title_ko": "노래 나무 쇼",
       "pages": [
         {
-          "type": "story_recap",
-          "title": "The Song Tree Show"
+          "type": "story",
+          "title": "Story"
         },
         {
           "type": "review_test",
@@ -684,6 +684,65 @@
     }
   ],
   "story": {
+    "title": "The Castle Show",
+    "bgm": "bgm_b4_finale",
+    "v2": true,
+    "panels": [
+      {
+        "id": "scene_b4_u12_1",
+        "desc": "A stage in the castle courtyard with a velvet curtain; {PIP} wears a top hat; {FAIRY} sits on the hat.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "pip",
+            "text": "The castle show!",
+            "audio": "b4_u12_l1"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u12_2",
+        "desc": "{snake}, {goat} and {mouse} each hold a blank white card; {BUN} and {HED} present them with a bow.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "both",
+            "text": "Snake! Goat! Mouse!",
+            "audio": "b4_u12_l2"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u12_3",
+        "desc": "{GRUMBLE} on stage holds a card and yawns so wide the card falls; {FAIRY} catches it with her wand.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "grumble",
+            "text": "Oops. Thank you, Fairy.",
+            "audio": "b4_u12_l3"
+          }
+        ]
+      },
+      {
+        "id": "scene_b4_u12_4",
+        "desc": "Everyone on stage takes a bow together; confetti falls; {GRUMBLE} smiles widely and waves.",
+        "hidden": [],
+        "lines": [
+          {
+            "who": "both",
+            "text": "The end! Thank you!",
+            "audio": "b4_u12_l4"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [],
+  "storybook": {
+    "pages": []
+  },
+  "story_v1": {
     "title": "The Song Tree Show",
     "bgm": "bgm_b4_finale",
     "panels": [
@@ -732,9 +791,5 @@
     "synopsis_ko": "노래 나무 아래에서 시리즈 마지막 공연이 열려요. 핍이 노래하고 그럼블이 북을 치고, 요정 이가 반짝이를 뿌려요. 1~4권에서 만난 동물 친구들이 모두 모여 함께 노래해요.",
     "so_far_ko": "노래 나무가 다시 노래했어요. 모두 함께 주제가를 부르고 그럼블은 북을 쳤어요.",
     "goal_ko": "노래 나무 노래를 부르고, 4권 이야기를 되짚고, 시리즈 수료증을 받아요."
-  },
-  "videos": [],
-  "storybook": {
-    "pages": []
   }
 }
