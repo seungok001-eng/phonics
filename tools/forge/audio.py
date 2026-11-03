@@ -116,7 +116,8 @@ EL_URL = 'https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_
 def el_tts(text, voice_id, key, model='eleven_multilingual_v2', style=0.35):
     """일레븐랩스 TTS 한 번. 결과 mp3 bytes. 키는 TTS 권한만 있으면 된다(2026-10-06 두 번째 키)."""
     if not key: raise RuntimeError('일레븐랩스 API 키가 없다 (art-src/forge/secrets.json elevenlabs_key)')
-    body = {'text': text, 'model_id': model, 'voice_settings': {'stability': 0.4, 'similarity_boost': 0.8, 'style': style, 'use_speaker_boost': True}}
+    # language_code=en: 짧은 대사("A! B! C!")를 스페인어처럼("ah, beh, seh") 읽는 목소리가 있어 영어로 못 박는다 (2026-11-03 Lulu Lolipop)
+    body = {'text': text, 'model_id': model, 'language_code': 'en', 'voice_settings': {'stability': 0.4, 'similarity_boost': 0.8, 'style': style, 'use_speaker_boost': True}}
     req = urllib.request.Request(EL_URL.format(voice=voice_id), data=json.dumps(body).encode(), method='POST',
                                  headers={'Content-Type': 'application/json', 'xi-api-key': key, 'Accept': 'audio/mpeg'})
     for attempt in range(5):   # 요금제의 동시 요청 한도(3개)에 걸리면(429) 잠깐 쉬고 다시
