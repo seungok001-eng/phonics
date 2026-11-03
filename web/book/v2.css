@@ -298,3 +298,5 @@ body:not(.teacher) .kohelp, body:not(.teacher) .nk { display: none !important; }
 .write-row.w2 .write-it.w2 .pic, .write-row.w2.g4 .write-it.w2 .pic, .t-check .write-row.w2.g4 .write-it.w2 .pic, .t-review_test .write-row.w2.g4 .write-it.w2 .pic { height: 60px; }
 .write-it.w2 { padding: 6px; gap: 4px; } .boxes span { height: 38px; } .boxes.n4 span, .boxes.n5 span { height: 36px; }
 .sort.rv .bin { min-height: 108px; } .sort.rv .wd { font-size: 19px; padding: 2px 10px; }
+
+.char .role { display: none; } body.teacher .char .role { display: block; }   /* 친구 소개의 우리말 역할 설명은 선생님만 (학생 책 한글 0) */

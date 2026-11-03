@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=I see a bus. | TYPE=sentence | IPA=aɪ siː ə bʌs | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "I see... a leaf.",
+   "voice": "Lulu Lolipop",
+   "how": "el",
+   "created": 1793703473.4138806,
+   "sec": 1.81,
+   "check": {
+    "transcript": "I see a leaf.",
+    "type": "sentence",
+    "ipa": "aɪ siː ə liːf",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I see a leaf. | TYPE=sentence | IPA=aɪ siː ə liːf | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 4,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:58",
  "text_edited": false,
  "error": "",
  "unit": 1,
@@ -65,5 +82,6 @@
  "text": "I see... a leaf.",
  "voice": "Leda",
  "who": "pip",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

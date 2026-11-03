@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=Look at the volcano. | TYPE=sentence | IPA=lʊk æt ðə vɑlˈkeɪnoʊ | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "Look at the fox.",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793703521.6981263,
+   "sec": 1.49,
+   "check": {
+    "transcript": "Look at the fox.",
+    "type": "sentence",
+    "ipa": "lʊk ət ðə fɑks",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look at the fox. | TYPE=sentence | IPA=lʊk ət ðə fɑks | NOTE=ok"
+   },
+   "warn": false
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:58",
  "text_edited": false,
  "error": "",
  "unit": 9,
@@ -48,5 +65,6 @@
  "text": "Look at the fox.",
  "voice": "Puck",
  "who": "bun",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

@@ -585,7 +585,7 @@ const BOARD_COLS = 5;
 const BD_SPECIAL = { pop: ['⭐', 'One more!'], back: ['↩', 'Go back!'], again: ['🔁', 'Again!'] };
 const BD = { pos: { A: -1, B: -1 }, turn: 'A', busy: false };
 PAGES.review_board = (ctx) => instr(1, 'Roll and say.', '주사위를 굴려 말을 옮기고 도착한 칸을 말해요 (⭐ 한 칸 더 · ↩ 뒤로 · 🔁 다시)') + boardHtml(ctx) +
-  `<div class="screen-hide" style="color:var(--soft);font-size:14px">🎲 주사위와 지우개·동전 같은 말 2개를 준비해요. 칸에 도착하면 그 글자의 소리나 단어를 말해요.</div>`;
+  `<div class="screen-hide" style="color:var(--soft);font-size:14px">🎲 You need a die and two counters. Land on a square and say its sound or word.</div>`;
 function boardHtml(ctx) {
   const sq = ctx.unit.review.board.squares;
   if (!ctx.print) boardLoad();

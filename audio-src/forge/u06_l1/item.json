@@ -67,11 +67,28 @@
     "raw": "TRANSCRIPT=We like the moon. | TYPE=sentence | IPA=wi laɪk ðə mun | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 5,
+   "file": "cand_5.wav",
+   "text": "We like the moon.",
+   "voice": "Cherry Twinkle + Adik M",
+   "how": "el",
+   "created": 1793703506.6799283,
+   "sec": 1.44,
+   "check": {
+    "transcript": "I like the moon",
+    "type": "sentence",
+    "ipa": "aɪ laɪk ðə muːn",
+    "note": "ok",
+    "raw": "TRANSCRIPT=I like the moon | TYPE=sentence | IPA=aɪ laɪk ðə muːn | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 5,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:58",
  "text_edited": false,
  "error": "",
  "unit": 6,
@@ -82,5 +99,6 @@
  "text": "We like the moon.",
  "voice": "Puck",
  "who": "both",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

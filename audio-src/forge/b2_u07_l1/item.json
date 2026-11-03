@@ -50,11 +50,28 @@
     "raw": "TRANSCRIPT=Zip it up. | TYPE=sentence | IPA=zɪp ɪt ʌp | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 4,
+   "file": "cand_4.wav",
+   "text": "Zip it up, Hedgie!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793703554.733875,
+   "sec": 1.58,
+   "check": {
+    "transcript": "Giddy up, Hedgie!",
+    "type": "sentence",
+    "ipa": "ˈɡɪdi ˈʌp ˈhɛdʒi",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Giddy up, Hedgie! | TYPE=sentence | IPA=ˈɡɪdi ˈʌp ˈhɛdʒi | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 4,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:59",
  "text_edited": false,
  "error": "",
  "unit": 7,
@@ -65,5 +82,6 @@
  "text": "Zip it up, Hedgie!",
  "voice": "Puck",
  "who": "bun",
- "book": 2
+ "book": 2,
+ "busy": 0
 }

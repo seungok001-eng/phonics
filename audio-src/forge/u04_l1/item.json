@@ -33,11 +33,28 @@
     "raw": "TRANSCRIPT=a koala and a key | TYPE=sentence | IPA=ə koʊˈɑlə ənd ə ki | NOTE=ok"
    },
    "warn": false
+  },
+  {
+   "n": 3,
+   "file": "cand_3.wav",
+   "text": "A lock!",
+   "voice": "Cherry Twinkle",
+   "how": "el",
+   "created": 1793703488.5118551,
+   "sec": 0.98,
+   "check": {
+    "transcript": "Look",
+    "type": "word",
+    "ipa": "lʊk",
+    "note": "ok",
+    "raw": "TRANSCRIPT=Look | TYPE=word | IPA=lʊk | NOTE=ok"
+   },
+   "warn": true
   }
  ],
- "approved": null,
- "final": "",
- "applied": "",
+ "approved": 3,
+ "final": "final.mp3",
+ "applied": "2026-11-03 19:58",
  "text_edited": false,
  "error": "",
  "unit": 4,
@@ -48,5 +65,6 @@
  "text": "A lock!",
  "voice": "Puck",
  "who": "bun",
- "book": 1
+ "book": 1,
+ "busy": 0
 }

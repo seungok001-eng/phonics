@@ -72,15 +72,15 @@ function pageSize(s) { document.head.insertAdjacentHTML('beforeend', `<style>@pa
       <h1>${a5 ? esc(sb.title || 'Storybook') : title}</h1>
       ${a5 ? `<div class="sub">${title}</div>` : `<div class="sub">${esc(bk.subtitle || '')}</div>`}
       <div class="kind">${kind}</div>
-      ${a5 ? '' : cast() + '<div class="tag">소리 정원에서 배우는 영어 파닉스 · 7~9세</div>'}
+      ${a5 ? '' : cast() + '<div class="tag">English phonics for ages 7–9 · Pip, Bun, Hedgie and Grumble</div>'}
     </div></article>`;
   const site = (bk.site_base || '').replace(/^https?:\/\//, '');
   const back = `<article class="page cv back ${b} ${a5 ? 'a5' : ''}"><div class="inner">
       <h2>${esc(bk.title)} · ${kind}</h2>
-      <p>${a5 ? '학생책 0~11유닛의 이야기를 한 권의 그림책으로. 우리말 도움과 함께, QR 을 찍으면 원어민 소리로 읽어 줘요.' : '7~9세 영어 파닉스 4권 시리즈(글자 소리 → 단어 가족 → 짝꿍 소리 → 긴 모음). 권마다 0~12유닛, 유닛마다 새 소리·단어·이야기 한 편. 쪽마다 QR 을 찍으면 그 쪽의 소리가 나와요.'}</p>
-      <ul><li>🔊 누르면 소리가 나는 웹 교재</li><li>📖 한 권이 하나의 이야기 (4권까지 이어져요)</li><li>${b === 'wb' ? '✏️ 그날 배운 쪽이 그날 숙제' : '🎮 게임과 자동 채점, 선생님 수업 화면'}</li></ul>
+      <p>${a5 ? 'The stories from the Student Book, in one picture book. Scan the QR code on each page to hear it read aloud.' : 'A four-book English phonics course for ages 7–9: letter sounds, word families, sound pairs and long vowels. Every unit has a short four-panel story, and every page has a QR code that plays its sounds.'}</p>
+      <ul><li>🔊 Tap any word to hear it on the web edition</li><li>📖 Four-panel stories you can read without words</li><li>${b === 'wb' ? '✏️ Today's page is today's homework' : '🎮 Games, self-checking and a teacher screen'}</li></ul>
       ${cast('small')}
-      <div class="bottom"><div class="site"><img src="../assets/qr/site.png" onerror="this.style.display='none'" alt="QR"><span>${esc(site)}<br>${esc(bk.series)}</span></div><div class="isbn">ISBN · 바코드 자리</div></div>
+      <div class="bottom"><div class="site"><img src="../assets/qr/site.png" onerror="this.style.display='none'" alt="QR"><span>${esc(site)}<br>${esc(bk.series)}</span></div><div class="isbn">ISBN</div></div>
     </div></article>`;
   document.getElementById('pages').innerHTML = front + back;
   document.title = `${bk.title} — ${kind} 표지`;
