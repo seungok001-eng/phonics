@@ -1,7 +1,7 @@
 /* Pop! Phonics v2 — 새 디자인 (docs/15-design.md 규칙). style.css 뒤에 읽어 겉모습을 덮어쓴다.
    유닛 색 하나(--u)와 그 농담, 블롭·그림자 웅덩이, 겹침, 아이콘 지시, 예시 답, 학생 층 한글 0 */
 .page { --u: #F7A072; --u-light: color-mix(in srgb, var(--u) 22%, white); --u-pale: color-mix(in srgb, var(--u) 10%, white); --u-dark: color-mix(in srgb, var(--u) 70%, #3B2F2F);
-  padding: 96px 46px 58px; background: #fff; gap: 18px; }
+  padding: 106px 46px 58px; background: #fff; gap: 18px; }   /* 머리(26~72px) 아래 본문까지 34px 띄움 (11-04 사용자: 수료증 상자가 너무 가까움) */
 .page.wb { background: #fff; }
 .page .body { gap: 18px; }
 
@@ -12,6 +12,7 @@
 
 /* ---------- 쪽 머리·발 ---------- */
 .ph-head { position: absolute; top: 26px; left: 46px; right: 46px; border: 0; padding: 0; gap: 14px; z-index: 2; }
+.page > .ph-head { position: absolute; }   /* 위 ".page > *:not(.deco)" 의 relative 를 이긴다 — 머리가 흐름에 끼어 26px 내려앉아 본문 첫 줄(스토리 제목·지시문)과 겹치던 것(11-04 사용자) */
 .ph-head .unit { background: var(--u); color: #fff; border-radius: 16px; padding: 6px 14px 4px; font-size: 24px; line-height: 1; display: flex; flex-direction: column; align-items: center; }
 .ph-head .unit small { font-size: 11px; letter-spacing: 1px; font-weight: 700; }
 .ph-head h2 { display: none; }   /* 유닛 제목은 스토리 쪽에만 */

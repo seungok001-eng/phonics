@@ -7,6 +7,11 @@
 - 점검 도구: `tools/scene_audit.py`(장면 그림 ↔ 해설·대사·말하는 캐릭터), `tools/art_audit.py`(단어 그림·글자나무).
 - 그림은 탑뷰 Nano Banana 2.1(지금까지 약 26 크레딧), 음악 27곡(일레븐랩스).
 - 결정(사용자 11-02): 영어 말풍선 표기는 "/a/ /a/ apple!" 그대로.
+- **11-04 겹침 셋 고침** (사용자 지적)
+  - 선생님 슬라이드 보기 번호가 글자·그림을 가림: 짝 찾기("Which one is small b?")는 v2 의 작은 알약 대신 번호 자리가 있는 흰 카드 4장(`teach.css` 끝 `.slide .sl-pair-opts`), Listen/Read and circle 줄(1권 확인 A·복습 시험 A·2권 확인 A)은 번호를 칸 왼쪽 가운데로 빼고 내용은 오른쪽으로(`.slide .sl-lc .opt`). 단어 카드·게임·짝 맞추기·Read and find 는 번호가 모서리에 있어 그대로.
+  - 학생 책 쪽 머리(UNIT 띠·글자)가 본문 첫 줄(스토리 제목·지시문)과 겹침: v2.css 의 `.page > *:not(.deco){position:relative}` 가 `.ph-head{position:absolute}` 를 이겨 머리가 흐름에 끼어 26px 내려앉아 있었다 → `.page > .ph-head { position: absolute }`. 모든 쪽 본문이 64px 위로 올라가 아래 여유가 생김(QA 다시 돌림).
+  - 12유닛 Pip's Song 싱크: 받아쓰기(일레븐랩스 Scribe, 단어별 시각)로 보니 노래 자체가 G 줄을 한 번 더 부르고 O 줄을 건너뛰어(L·M·N 줄 단어도 밀림) 2.4초 등간격 times 와 어긋났다 → `build/tmp/pip_song2.py`: 다시 작곡 → Scribe 로 26글자 순서·단어·줄 간격 자동 검사 → 통과본만 마무리하고 times 도 받아쓰기에서 뽑아 unit12.json 에 씀. 결과: 작곡 모델이 절 마지막 줄을 되풀이하거나(G·N·U) 줄을 건너뛰어 12번 시도에 완전 통과는 0 — 두 줄씩 13절로 나눈 1번(v3_kpop_pairs_1)이 26글자 순서·단어 전부 맞아(의심 줄 ink·jelly·vet·six 는 제미나이로 다시 확인) 그것을 `pip_song_pick.py` 로 마무리해 넣고 times 는 실제 받아쓰기 시각(H 줄이 길고 J 줄이 짧은 것까지 그대로). 마무리 "La la la" 한 번이 "Tra la la" 로 들림. 작곡 1곡 ≈ 1,000자.
+  - 수료증 등 본문 첫 상자가 머리 띠와 가까움(사용자) → `.page` 위 여백 96→106px(머리 아래 34px). 1·2권 전 쪽의 머리–본문 간격을 브라우저로 재서 전부 같은 값인지 확인.
 - **11-03 1·2권 소리 전부 다시(또렷·느리게·단어는 아나운서 목소리)** (사용자: "단어 목소리가 작고 힘이 없다, 미국 젊은 여자 아나운서의 정확한 발음으로. 문장도 더 또렷하고 아이처럼 느리게")
   - voices.json 역할마다 speed/stability/style 을 두고(`server.el_settings`) `audio.el_tts` 에 넘김: 단어 = **Sarah**(0.85배·안정 0.75), 해설·지시문 = Bella(0.9배·안정 0.65), 캐릭터 = 0.9배. 오디션 "Words" 카드에 Sarah·Mira·Yuria(뉴스 앵커풍) 후보를 새 설정으로 만들어 둠 — 바꾸면 `v2_sounds.py --force` 로 단어 id 다시. 음량 -16→-15 LUFS.
   - 1·2권 단어·첫소리 맞히기 단어 78·사이트워드·대사 104줄 = 약 380개를 `v2_sounds.py --force` 로 다시 만들어 받아쓰기 일치 승인(294), 나머지 24는 `v2_manual.py`(같은 글로 다시, 마침표 안 붙임)로 23 승인. "pan"은 Sarah 가 pun 처럼 읽어 후보 3개 더 뽑아 고름. 2권 5과 "C... a... t..."(아이 둘이 글자 소리 내기)는 TTS 가 s-o-t 로 읽어 **낱소리 녹음 이어 붙이기 규칙**(`server.SOUNDOUT_RE`·`soundout_compose`, 글자 2종 이상인 "X... y..." 꼴) 추가 후 그 후보 승인.

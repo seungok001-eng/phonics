@@ -339,3 +339,12 @@
 .sp-word .sp-pic img { width: 100%; height: 100%; object-fit: contain; }
 /* 숙제 장: 다음 시간 준비할 것 */
 .hw-prep { margin-top: 18px; font-size: 26px; color: #b45309; background: #fff7e6; border-radius: 14px; padding: 10px 18px; }
+
+/* 11-04 사용자: 슬라이드의 보기 번호가 글자·그림을 가린다 → 번호는 칸 왼쪽 가운데, 내용은 오른쪽으로 (Listen/Read and circle 줄) */
+.slide .sl-lc .opt { padding-left: 56px; }
+.slide .sl-lc .opt::before { left: 8px; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; font-size: 26px; }
+/* 짝 찾기(Which one is small b?): v2 의 작은 동그라미 알약 대신 번호 자리가 있는 흰 카드 4장 */
+.slide .sl-pair-opts { transform: none; border-radius: 40px; padding: 22px; gap: 22px; }
+.slide .sl-pair-opts .ltr { width: auto; height: auto; min-width: 0; margin: 0; padding: 62px 0 14px; font-family: 'Andika'; font-weight: 700; font-size: 150px; line-height: 1; border-radius: 30px; background: #fff; border: 4px solid var(--line); box-shadow: none; position: relative; }
+.slide .sl-pair-opts .ltr i { left: 12px; top: 10px; width: 52px; height: 52px; font-size: 30px; }
+.slide .sl-pair-opts .ltr.ok { border-color: var(--ok); background: #EAF7E6; } .slide .sl-pair-opts .ltr.no { border-color: var(--bad); background: #fff; }
